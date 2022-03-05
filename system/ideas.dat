@@ -1,0 +1,1183 @@
+#IDEA
+MadeBy        Vladaar~
+MadeWhen      10-23-2015 06:16:05AM~
+IdeaDesc      look at ways of eliminating decorative characters in code from objects and help files that might mess with screen readers 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1201
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      10-28-2015 01:07:53PM~
+IdeaDesc      Hello!
+Maybe it would be usefull in groups to get a message if the journals of your groupmembers got updated.
+&G
+Sounds like a good idea - Vladaar
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16176
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      10-29-2015 00:28:39PM~
+IdeaDesc      Hello!
+Maybe it would be nice if you could mount player-dragons or player-centaurs. For example a dragonrider could attack enemys with shortbows or spells, or create magical shields for you and the dragon.
+&G
+&G
+I like the idea of mounting player dragons, centaurs only if grouped.
+This will lead to some nasty Role Play so not sure on what parameters if any should
+be in place to discourage that.  Vladaar
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16073
+End
+
+#IDEA
+MadeBy        Jerok~
+MadeWhen      10-30-2015 00:54:55PM~
+IdeaDesc      mine titanium
+Blacksmiths would be able to Smelt their items back into their bags if they dont like the stats on them
+&G I like this idea but not a high priority - Vladaar
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          41075
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-14-2015 09:09:10AM~
+IdeaDesc      What about bringing in randomly tradeskill quests!
+For example you get a letter to your house or you get informed by the guildmaster to bake 2 loafs of strawberries, 5 Loafs of peaches, 10 raspberries muffins and 20 wooden goblets of peaches.
+You will receive some extra money and 1000000 exp for a tradeskill quest.
+&G
+&G
+Could be a good idea, but sounds like some builders will have to create some
+quests.  Code wise it would mean making a flag on setquest so that the code
+knows to reward crafting experience instead of regular experience.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16007
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-15-2015 06:04:43AM~
+IdeaDesc      Hey hey!
+There is an autorecast option. But no autoplay or autosing for bards.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16176
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-15-2015 11:08:43AM~
+IdeaDesc      Hey hey!
+ a help file wich explains what penalty exactly do would be nice!
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16299
+End
+
+#IDEA
+MadeBy        Quinlam~
+MadeWhen      11-15-2015 01:00:17PM~
+IdeaDesc      Vampires should be immune_poison. They are undead. If sanctuary and shield
+don't affect them due to the fact that they are undead players, then poison
+should most definitely not make them shiver and suffer.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          18633
+End
+
+#IDEA
+MadeBy        Locke~
+MadeWhen      11-16-2015 00:51:55PM~
+IdeaDesc      For priests going through their training maybe give them a bludgeon weapon 
+instead of the normal dagger that the other classes get? Priests don't 
+have 1h short blades to train. 
+~
+Type          1
+UsedBy        Vladaar~
+UsedWhen      11-22-2015 11:02:56AM~
+UseDesc       fixed 
+~
+Reward        0
+RewardBonus   1
+Room          16115
+End
+
+#IDEA
+MadeBy        Vladaar~
+MadeWhen      11-17-2015 00:12:52PM~
+IdeaDesc      Change full war messages so only 1 announcement hey it's a full all city war.
+Updates only announce your city status.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1200
+End
+
+#IDEA
+MadeBy        Ludum~
+MadeWhen      11-18-2015 00:02:18AM~
+IdeaDesc      A command called wrap. you wrap an item into a package or a gift, or whatever.
+That way when you give other players an item, it can be a surprise. And they can type
+unwrap, to find out what it is.
+&G 
+sounds like a good idea maybe combine that with the idea on parcel service
+to give gifts to players.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          34025
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-18-2015 10:54:12PM~
+IdeaDesc      Hey hey!
+What about bringing in some kind of storehouse in every city where automaticly some ingredients skins and other stuff is stored. And if you successfull conquer a city you will get this goods for your city as a aditional reward.
+&G
+yah might be good to sell some crafted ingriendents in homelands, prob should be expensive though.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          31618
+End
+
+#IDEA
+MadeBy        Vycon~
+MadeWhen      11-19-2015 10:11:01PM~
+IdeaDesc      The list of hides availalbe to a tanner should be a little more direct
+in regards to what tier of cloth is best. I know certain animals
+unlock with each level of craft, but for instance.I would like to know
+if a bugbear is better than a moose or lion etc. It's easier to tell on
+other tradeskills like jewelry, blacksmith, and carpenter.
+&G
+I should make different hide have different effect or value with final products
+Right now choice of hide doesn't matter I belive
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          41295
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-19-2015 11:45:56PM~
+IdeaDesc      Hey hey!
+Would be great to have something like a parcel-service for sending stuff to other players.
+&G 
+Good idea when time is available not urgent though.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16176
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-20-2015 11:40:44AM~
+IdeaDesc      Maybe it would be good if weapons would have stats like condition and sharpnes so you know if a sword is nearly before breaking or to know how sharp it is allready.
+I noticed that there is no message if you sharpened it to full. You allways have to check the inventory to see if it is sharpen or not.
+&G
+Good idea maybe a sound to indicate that it is fully sharpened too
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          54027
+End
+
+#IDEA
+MadeBy        Jennock~
+MadeWhen      11-21-2015 02:30:44AM~
+IdeaDesc      Hey hey!
+"As you attack, a small nick forms in an obsidian dagger, it will need to be sharpened."
+This could need a soundtrigger cause sometimes a blind player miss this line.
+&G
+Sounds good
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42745
+End
+
+#IDEA
+MadeBy        Girnath~
+MadeWhen      11-22-2015 09:10:25AM~
+IdeaDesc      how about modifying the same ip grouping restrictions so that you can only group attack mobs, never players. Also you could keep things under control by limiting the number of same ip chars that can attack in group. for example right now it's 1. you could limit it to 2 or 3 or whatever, that would keep it from getting too far out of control.
+&G
+I would have no problem with a player having a few alts on killing mobs.  But not grouping up against another player.
+~
+Type          1
+UsedBy        Vladaar~
+UsedWhen      01-15-2016 11:14:42AM~
+UseDesc       done
+~
+Reward        0
+RewardBonus   1
+Room          1200
+End
+
+#IDEA
+MadeBy        Girnath~
+MadeWhen      12-05-2015 04:34:02PM~
+IdeaDesc      I think we shoudl give jewelers craftables left and right wing tips to give them a completely unique item only they can make. It would fit there because of the dragon gaudy treasure theme.
+Also add a shoulder piece for tanners to compensate for the armor penalty addition so monk/bard/thief citizens aren't hampered.
+&G
+I do agree jewelers could use something to spice them up.  But not sure on wing tips.  Why would they make something for a beast that doesn't benefit them?  Something jewel gemstone specific though would be nice.  Tanners having a shoulder piece might be a good idea.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1200
+End
+
+#IDEA
+MadeBy        Girnath~
+MadeWhen      12-05-2015 04:52:34PM~
+IdeaDesc      It would much better if inside the tuorials only the delay timer were set to the last line of text rather than a straight time limit. when you boost textspeed to 10 you end up waiting several times after everything is said and done just because of the timer. conversation follows.
+[Sooc] 'right, but right now. i just went to the scholar and listened to everything he said and was still held there for about 20 seconds past him talking. it doesn't happen on every single section but amelia does it too, talk, give potions, tell you to run along ten seconds later you are allowed to leave, not before'
+[Sooc] 'is there a way to make it so it will release you only after the last line of their text?'
+[Sooc] 'instead of a straight timer?'
+[Sooc] Vladaar 'maybe'
+[Sooc] Vladaar 'I think we went with a timer because we wanted to let people choose speed of text for all progs in the game'
+[Sooc] 'ah'
+[Sooc] Vladaar 'but could change it so it turns off after speech on tutorial'
+
+&G
+Sounds great, I think I had it that way at one point.
+~
+Type          1
+UsedBy        Vladaar~
+UsedWhen      01-10-2016 09:11:59PM~
+UseDesc       done
+~
+Reward        0
+RewardBonus   1
+Room          1200
+End
+
+#IDEA
+MadeBy        Girnath~
+MadeWhen      12-06-2015 01:06:05PM~
+IdeaDesc      so I suggest we add hr/dr to some crafted eq.
+Arms, legs, wrist, and ankles.
+5hr/5dr each piece. This will only give crafted items a max of 30 not counting weapons. I believe this to be a reasonable compromise since if you go with crafted eq only you get amazing AC but crap for hr/dr and looted eq you can gain pretty damn good hr/dr but crap for AC and if you go half and half you don't really get above average on either.
+&G
+I think one or two gear types with hitroll damroll possibility would be good for crafted
+gear.  Same token some of the gear you find in areas are quest items, and players have to
+work really hard to get those hitroll damroll objects in the areas.  Plus crafted gear has
+hitpoint bonuses, so you have higher hitpoints that non craftmen have to use their damroll
+to reduce.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1200
+End
+
+#IDEA
+MadeBy        Fryk~
+MadeWhen      12-06-2015 05:46:22PM~
+IdeaDesc      I've noticed that shamans don't really have much in the way of attack
+or debuff. At least not below level 30. That's fine and all but if you're
+wanting to add a bit of customization, perhaps you could add something shaman
+related. Like hexing, or voodo, or some type of attack/debuff skill. Shamans
+are renknowned for their connection to the "unformed lands" and spirit realms.
+Perhaps something regarding aid from otherworldly spirits, or cosmic connection 
+or some such. I think the idea of voodoo could be fun, or a hex you can place
+on your opponent to lower stats, or impede movement. Or maybe even some kind of
+insect swarm, or snake ally attack where you call forth a snake to strike your victim,
+~
+Type          1
+UsedBy        Vladaar~
+UsedWhen      01-05-2016 10:04:29PM~
+UseDesc       done
+~
+Reward        0
+RewardBonus   1
+Room          10800
+End
+
+#IDEA
+MadeBy        Silvanus~
+MadeWhen      01-13-2016 00:46:05AM~
+IdeaDesc      Could you put in a percentage version of the breath meter for screen readers, or just take it out entirely?
+I saw that there are messages to tell you how much air you have left, but it does make the breath meter that shows up repeatedly unnecessary.
+Thank you for your hard work in making this game accessible for us.
+&G
+Yah prob should get this done.  Vladaar
+~
+Type          1
+UsedBy        Volk~
+UsedWhen      01-25-2016 05:12:09AM~
+UseDesc       Thanks for your idea submission, I have implemented holdbreath and frostbite as a percentage for
+screen readers. Please let me know if it is too spammy and I can reduce how often the message
+appears. Thanks again!
+~
+Reward        0
+RewardBonus   1
+Room          29108
+End
+
+#IDEA
+MadeBy        Silvanus~
+MadeWhen      01-13-2016 03:04:11AM~
+IdeaDesc      Could you please add a sound for the thank you gifts? it's easy to miss things when in combat or doing a repetative activity.
+Thanks.
+&G
+&G
+I think he means heavens blessing.  Add a sound for it.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42076
+End
+
+#IDEA
+MadeBy        Silvanus~
+MadeWhen      01-13-2016 07:32:08AM~
+IdeaDesc      It would be cool to have achievements, trophies, medals, whatever you want to call them.
+These could be for killing a certain amount of mobs, completing a certain amount of quests, finding secrets within areas, collecting a certain amount of gold, getting a given stat to a certain number, etc.
+They would be in tiers, such as one for 100 gold, one for 1000, 1 for 1000000, etc.
+Or for mobs, killed 100 mobs, killed 1000 mobs, etc.
+Each achievement would give some kind of bonus, like money, experience or a bonus experience activation.
+Could use some more fleshing out, but that's all I have for now.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          13020
+End
+
+#IDEA
+MadeBy        Lyrandel~
+MadeWhen      01-14-2016 11:44:19AM~
+IdeaDesc      Hi.
+I'm currently exploring new areas which is good. One problem however I'm having is finding npcs with quests or knowing i they're around. it'd be nice if there was a command like "Area quest" or similar to tell you if there were any quests you hadn't done in a given area you were in and which npc to talk to to get them, sinse quests are one thing I really enjoy in the game.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          27002
+End
+
+#IDEA
+MadeBy        Tulmynir~
+MadeWhen      01-15-2016 04:27:17PM~
+IdeaDesc      Given that Six Dragons only gives you a limited number of inventory slots, 
+it'd be nice if there were a command that let you destroy items in your 
+inventory. In a game with such a restrictive inventory, finding items 
+which are nodrop/etc becomes a big pitfall unless you yourself have remove 
+curse. Since it seems that mob healers don't cast remove curse unless the 
+curse is on yourself, it shouldn't cost a death just to rid yourself of 
+such items. Such a requirement seems to be counter intuitive towards the 
+need to pick up items to examine them for their value in puzzles and 
+equipment sets. Destroy would at least allow you to get rid of such items, 
+without the benefits granted by remove curse (being able to freely use 
+said item). 
+&G
+&G
+yah not a destroy command, but maybe more methods of getting cursed items off.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11608
+End
+
+#IDEA
+MadeBy        Gortholon~
+MadeWhen      01-16-2016 03:05:40AM~
+IdeaDesc      Greetings. Currently, is it possible for someone to know how far they are between their current position and the landmark they are heading to?
+If not, I think it is good if I can know the distance of a landmark beore deciding to travel there. It will certainly help a lot.
+As for now, I only know when a certain landmark is too far away to see.
+At least, being able to get a picture of the general idea for the landmark distance is good.
+thanks
+&G
+&G
+Okay if doesn't require a ton of work seems like an extra thing that might be nice.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42024
+End
+
+#IDEA
+MadeBy        Tulmynir~
+MadeWhen      01-16-2016 03:33:43PM~
+IdeaDesc      Upon craft item completion, auto identify the item, whether or not the 
+player has an identify ability. It seems slightly strange that the maker 
+of the piece would have to use magics to divine its properties -- he 
+should know the properties of the item he's making. 
+&G
+yah I agree, maybe a seperate skill so crafters can appraise their work only.
+Only crafted items that they crafted themselves.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42300
+End
+
+#IDEA
+MadeBy        Xoren~
+MadeWhen      01-20-2016 06:45:47PM~
+IdeaDesc      Once we have a crafting template in our inventory (ergo, once we've began 
+the initial crafting command such as tan x into y z), can we please be 
+able to just type the base command to continue the process? Having to type 
+tan x into y z or forge x into y z repeatedly is awkward at best. 
+Furthermore, if I use exclamation point to repeat the command and 
+something happens, I am then forced to retype the command. This is simple 
+enough for me on MUSHClient, as I have command history, but others may not 
+have the same luxury. Furthermore, if I chat, and then use the exclamation 
+point out of reflex, I end up sending the communication twice. I know I 
+could script an alias to do this for me, but I think other crafters would 
+benefit from having the interface simplified so that, once they create 
+their craft template, they can just type tan, forge, etc to continue. 
+&G
+&G
+Prob a good idea
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16115
+End
+
+#IDEA
+MadeBy        Nyrian~
+MadeWhen      01-22-2016 02:50:29PM~
+IdeaDesc      I think it would be cool if we could wear two sheaths for classes who can
+dual wield.
+
+Nyrian
+&G
+Yah I can see that, but would not think an extra equip slot, with extra affects given
+to the player should be allowed.  So maybe same sheath slot?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42400
+End
+
+#IDEA
+MadeBy        Kyrigan~
+MadeWhen      01-26-2016 09:32:20AM~
+IdeaDesc      When fireing a forge the coal needs to last longer. Right now I am maybe getting
+three or four items before I have to fire the forge again.
+Kyrigan
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16229
+End
+
+#IDEA
+MadeBy        Zhaxiaoyen~
+MadeWhen      01-28-2016 07:46:55PM~
+IdeaDesc      i have an idea with a command either could be called scrap or scrapping. you take a weapon or an armor piece, depending on the level or quality i guess depends what you get from it. now i put a lot of thought into it and i think the only and obvious answer from the start should be ore. so you scrap armor piece or weapon and you get an ore that could be put in your mining bag and bam! you have an extra ore to use for a new crafting piece. now i am sure something could be done for other craft skills but a lot of thought have to be put into that. in my defence i have only seen metal weapons or armor for the most part. i have seen a few leather pieces but not sure how it would work for carpenters and the like. anyways just something to think about.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11258
+End
+
+#IDEA
+MadeBy        Zhaxiaoyen~
+MadeWhen      01-28-2016 07:51:01PM~
+IdeaDesc      an idea struck me when i went into shops but more importantly a crafting shop. instead of seeing the same weapon or armor sold with same levels and same kind of meterial i was thinking of this. a bronze dagger level 5 quantity 8. so you know shorten the list quite a bit by bunching the same kind of weapon or piece. i know this defeats the purpose of showing what stats each individual piece provides but i am sure something could be worked around that. just a thought to make the list a bit more readable.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11258
+End
+
+#IDEA
+MadeBy        Vladaar~
+MadeWhen      01-31-2016 07:17:17PM~
+IdeaDesc      Change objects in area files to save -> affect name for crafted items by bake and mix
+stupid sn numbers change all the time so need something more permenant.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1201
+End
+
+#IDEA
+MadeBy        Draego~
+MadeWhen      02-09-2016 11:00:51PM~
+IdeaDesc      I think there should be a sound in the sound pack for flying and landing, for those races that can automatically do that.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42077
+End
+
+#IDEA
+MadeBy        Kermorvan~
+MadeWhen      02-18-2016 09:41:33AM~
+IdeaDesc      New Dragon ability, Find Treasure. Allows the dragon to get a list of treasure in the area. Kind of like a locate object for treasure.
+@
+
+-
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2762
+End
+
+#IDEA
+MadeBy        Bojan~
+MadeWhen      03-04-2016 10:38:18AM~
+IdeaDesc      At the Cierra river at the mountains, the description shows that you're swimming with difficulty , but it is weird reading that while you're flying. Isn't it better just describing just the intensity of the waters instead of describing how the character feels?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16749
+End
+
+#IDEA
+MadeBy        Yonara~
+MadeWhen      04-26-2016 07:31:50AM~
+IdeaDesc      Hi,
+I have a few ideas for even more sounds for the sound pack. It would be great to have a sound for continuing a quest, for completing a quest, for discovering a new area. These would also help with accessibility, since these messages can easily get lost in scroll. Also, sounds for others saying something or making an emote would be great as well, for the same reasons.
+Just a few thoughts, maybe you can add them.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          8373
+End
+
+#IDEA
+MadeBy        Riyu~
+MadeWhen      06-30-2016 01:29:56PM~
+IdeaDesc      Hello. Please can you upload the soundpacks to dropbox, as it would be easier for those of us who are blind to download them. Thank you.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          5199
+End
+
+#IDEA
+MadeBy        Ayrick~
+MadeWhen      07-30-2016 02:14:59AM~
+IdeaDesc      Hello I'm a blind player I was wondering if it was posible to make a tnl comand so we can se how much exp we need to next level?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16096
+End
+
+#IDEA
+MadeBy        Ilanthas~
+MadeWhen      07-30-2016 00:01:44PM~
+IdeaDesc      I think it would be helpful to have a trash all command. This command would
+allow us to trash everything in the room without having to trash each item.
+
+Ilanthas
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          8359
+End
+
+#IDEA
+MadeBy        Nebula~
+MadeWhen      08-02-2016 05:42:20PM~
+IdeaDesc      There should be a global way for players to access the staff boost once ever 5
+hours or so, since there never seems to be any staff to do so, or any kind of quest/boost/
+chameleon
+staff type thing that is generally done. Just a thought.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          18648
+End
+
+#IDEA
+MadeBy        Nebula~
+MadeWhen      08-02-2016 10:28:58PM~
+IdeaDesc      I really feel, aftr playing several psionics and looking at them very closely,
+that their defensive capabilities are extremely lacking. Yes they have the OP
+skill "disable" at 92 to stop aggro mobs in an entire area from attacking, yeah.
+BUt as far as physical defense goes, they get really nothing besides a barrier, some
+thicken
+chameleon
+added armor class from thicken skin, and density. Just thought you might want to looka t it
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2792
+End
+
+#IDEA
+MadeBy        Nicodemus~
+MadeWhen      08-06-2016 05:42:08PM~
+IdeaDesc      MAges should have some way to heal themselves. They're mages.. they do magic..
+therefore they should be able to magically heal themselves.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          18610
+End
+
+#IDEA
+MadeBy        Mendicus~
+MadeWhen      08-09-2016 10:43:40PM~
+IdeaDesc      Druids should beable to cast ALL spells while in Owl form, It seem like the ideal Caster Form.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1163
+End
+
+#IDEA
+MadeBy        Mendicus~
+MadeWhen      08-10-2016 05:05:22PM~
+IdeaDesc      Druids form would benefit well from increase HR/DR in the different forms
+Example could be, Wolfs would get Higher HR over Damage because their tactile an fast,
+Where as bears are Sheer force of power an dont rely on speed, Also i think a deal kind've like
+dragons have a Size bonus that with Druids their HR/DR Overall Increases with LEVEL on a scale
+From the first level you get Animal Form, Like Level X= 1/1 Then next level would add 1/1 Again, So forth
+this is to compensate for the fact you cant wear as much Gear, An also right now All the forms are WEAKER then
+a Regular druid.
+Also i believe the Owl form would make a Superb Caster form with its increase mana an Mana regen if they could cast all spells
+while in that form.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          31027
+End
+
+#IDEA
+MadeBy        Abraxas~
+MadeWhen      08-10-2016 06:55:25PM~
+IdeaDesc      I really feel as though demons should have some type of healing. Even if it's only
+a minor heal. Something like psionics healing thoughts. After all, even vampires have
+supernatural healing through cannablize, I was thinking something similar.
+But cannabalize takes too much blood for such a low heal.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2800
+End
+
+#IDEA
+MadeBy        Nicodemus~
+MadeWhen      08-15-2016 04:59:23PM~
+IdeaDesc      Apothecary tradeskill.
+Resources - Wormwood, rosehip, black fungi, asphadel, toadstools, and etc.
+Skills - reduce, or cook, or bubble, or something.
+Produces - Salves and potions for healing and various curse/poison removal
+as well as possibly one or two small buffs. Like dragon wit, sanctuary, etc
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16016
+End
+
+#IDEA
+MadeBy        Vratis~
+MadeWhen      08-16-2016 06:26:46PM~
+IdeaDesc      I am using a book as a reference in regard to bard abilities.
+In spellsinger, the main character uses a lute, and voice
+to conjure magic. One of his abilities is transportation.
+He imagines the place, then sings a few lines about it,
+and boom. Instant transportation to location.
+I was thinking around level 45ish, druids could get
+an ability like this. Make it a carbon copy
+of psionics astral travel, or mages astral walk
+you can call it "Song of Destination, or Traveling Tune"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          54060
+End
+
+#IDEA
+MadeBy        Mendicus~
+MadeWhen      08-18-2016 06:53:10PM~
+IdeaDesc      Make crafted Weapons sharpenabe.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1163
+End
+
+#IDEA
+MadeBy        Nebula~
+MadeWhen      08-18-2016 08:42:26PM~
+IdeaDesc      I believe the psionics would be able to fly. If they can use telekinesis
+and move objects, why not themselves? The skill could be called levitate
+or antigravity. But they need a fly skill.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16007
+End
+
+#IDEA
+MadeBy        Nebula~
+MadeWhen      08-18-2016 09:16:27PM~
+IdeaDesc      Withdraw skill, allowing the psionic to retreat to their home.
+"Word of recall"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16007
+End
+
+#IDEA
+MadeBy        Nebula~
+MadeWhen      08-18-2016 09:46:51PM~
+IdeaDesc      I really feel like psionics should have some kind of debuff or
+hindering move. They have mind powers. So something like mesmerize, or
+mental invasion. Lowering hitroll, damroll, and reducing evasiveness
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          27023
+End
+
+#IDEA
+MadeBy        Luxx~
+MadeWhen      08-19-2016 11:44:29AM~
+IdeaDesc      Would be cool if gold/black dragons had some more type specific skills.
+blue and red and silver seem to have some unique skills. Like inferno, hellfire,
+blizzard, glacial armor, clavus, impale, sprout spikes, etc. But black and gold
+seem to have basic dragon stuffs, and that's it.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#IDEA
+MadeBy        Nicodemus~
+MadeWhen      08-22-2016 09:55:11AM~
+IdeaDesc      Rogue could combine the skills of thief and bard.
+Like juggle, backstab, smuggle, critic, shrieking note, etc. Just a jack of all trades.
+Maybe even change the name to Outlaw, or Thug. Idk. Just saying. For those who
+do make it to level 100, give a viable option for remorts, that won't require you to change
+almost anything in the code, but will give a more versatile play-style to those
+who choose to remort
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16007
+End
+
+#IDEA
+MadeBy        Ilanthas~
+MadeWhen      08-22-2016 00:46:28PM~
+IdeaDesc      I think it would be nice if the druids forest skill could make a bow.
+
+Ilanthas.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1164
+End
+
+#IDEA
+MadeBy        Eldrin~
+MadeWhen      09-05-2016 08:53:46PM~
+IdeaDesc      Shaman Skill: Vision Quest
+
+Utilizing ancient rituals, the shaman can either undergo a vision quest themself,
+or help an ally undertake a vision quest. After experiencing such a liberating
+connection to the unformed lands, the recipient of the vision expresses a more
+profound understanding of the world, which manifests itself in ways such as
+increased wisdom, constitution, and a temporary boost to mana.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11517
+End
+
+#IDEA
+MadeBy        Margaret~
+MadeWhen      09-07-2016 08:07:45PM~
+IdeaDesc      there should be a sound for full health
+s
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2811
+End
+
+#IDEA
+MadeBy        Impulse~
+MadeWhen      09-10-2016 09:59:54PM~
+IdeaDesc      Psionics should get some form of tracking. They are psychics who have the
+eventual ability to disable an entire area, but they can't pinpoint someone's
+location? They should have an ability like Locate, or Clairvoance, or
+precognition, which tells them the direction to a given mob.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2790
+End
+
+#IDEA
+MadeBy        Tharra~
+MadeWhen      09-12-2016 08:35:10PM~
+IdeaDesc      there shoudl be a tell sound
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2780
+End
+
+#IDEA
+MadeBy        Tharra~
+MadeWhen      09-12-2016 10:47:32PM~
+IdeaDesc      there  should maybe be a smaller sound for pet exp because sometimes with all the spam i don't know if the pet is there
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          2797
+End
+
+#IDEA
+MadeBy        Hekkron~
+MadeWhen      09-17-2016 11:58:08PM~
+IdeaDesc      I think breath could be upped some. my melee attacks seem to do much more damage
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42091
+End
+
+#IDEA
+MadeBy        Caelum~
+MadeWhen      09-19-2016 09:06:47PM~
+IdeaDesc      config slots in dragon forms hould show only available wear locations for dragons
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35538
+End
+
+#IDEA
+MadeBy        Caelum~
+MadeWhen      09-20-2016 00:51:25PM~
+IdeaDesc      are Gold dragons going to get healing essence or bestow vitae?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10800
+End
+
+#IDEA
+MadeBy        Caelum~
+MadeWhen      09-20-2016 00:52:29PM~
+IdeaDesc      also, I like that gold dragons now have
+more magic, but they have almost nothing offensive.
+I like the idea that they get more spells, but really
+they need at least one cool thing to use offensively.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10802
+End
+
+#IDEA
+MadeBy        Caelum~
+MadeWhen      09-20-2016 10:15:37PM~
+IdeaDesc      dragons should rewear eq when shifting from human form to dragon form.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10811
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      09-21-2016 06:03:08PM~
+IdeaDesc      i wonder if it can be done to have a glory effect of the item being unbreakable unless it is already there.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10014
+End
+
+#IDEA
+MadeBy        Verrana~
+MadeWhen      09-24-2016 09:48:04PM~
+IdeaDesc      Can there be a sound for multyclass levels
+//
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          52409
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      09-25-2016 11:23:56AM~
+IdeaDesc      can it be possible for gold dragons have the spell detect magic, unless it already have a innate ability of it.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1857
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      09-26-2016 11:54:56AM~
+IdeaDesc      i have an idea for a unique area. a place where varius portals and gateways exists but the down side would be that you could not tell where you could end up. some portals may require a special item or mundain item, and or a specific quest and or spell to activate them, or open on a specific time and or date, and other varius requirements. maybe have these portals wander through and maybe have them every now and then end up pulling a victim into it. not sure how it can be done or the processor requirements needed or if the engine could do it. it is just a interesting idea i have.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          65014
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      09-27-2016 00:42:42PM~
+IdeaDesc      could it be possible for mystical shops to be able to recharge wands and or staffs like how the blacksmith can repair armor, for those who do not have the recharge skill available in there class, unless it is already there then never mind.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1892
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      10-01-2016 01:47:31PM~
+IdeaDesc      it is said that the dragon lord can use mortal weapons so i would think it would include the sword, daggers, and other melee skills.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1850
+End
+
+#IDEA
+MadeBy        Margaret~
+MadeWhen      10-01-2016 05:57:07PM~
+IdeaDesc      Can there be a sound for not having enough mana. i often find myself not noticing that i run out
+?s
+l
+l
+l
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10810
+End
+
+#IDEA
+MadeBy        Verrana~
+MadeWhen      10-01-2016 09:37:34PM~
+IdeaDesc      You should make it so i can't kill my other group members pets. I did that on accident and it doesn't seem like you should be able to.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10816
+End
+
+#IDEA
+MadeBy        Verrana~
+MadeWhen      10-01-2016 11:42:49PM~
+IdeaDesc      There should be a sound for yell.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          10811
+End
+
+#IDEA
+MadeBy        Tulvir~
+MadeWhen      10-06-2016 08:23:45PM~
+IdeaDesc      i saw that when in humanform the description remains, maybe have the ability to have different descriptions depending on if they are in human and when in dragonform.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          65014
+End
+
+#IDEA
+MadeBy        Rowan~
+MadeWhen      10-08-2016 06:11:57PM~
+IdeaDesc      Sacrilege
+allows a vampire to sacrifice 500 life to replenish 20 blood.
+Would be very useful when you mistwalk somewhere shielded and have
+0 blood power.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          1125
+End
+
+#IDEA
+MadeBy        Krynne~
+MadeWhen      10-10-2016 07:35:26AM~
+IdeaDesc      I think it would be nice to have a skill for monks that allows them to block
+blows while unarmed. Kinda like parry without weapons. It could be called
+palm block or something like that.
+Krynne.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16107
+End
+
+#IDEA
+MadeBy        Margaret~
+MadeWhen      11-12-2016 11:34:14PM~
+IdeaDesc      l
+Can you please make a way that me can rename our craft bags or make them nosac. i have saced two of them by accident all ready and it's getting kind of anoying.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16083
+End
+
+#IDEA
+MadeBy        Verrana~
+MadeWhen      11-15-2016 06:38:02AM~
+IdeaDesc      say attack
+Can we have it so that you can rename something with multiple keywords. i want to be able to name my stuff "A shining set of knight's armor." instead of just fullplate. i feel as though have springs that aren't too long but are still discribtive will lead to my carictor in my carictors.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16229
+End
+
+#IDEA
+MadeBy        Corrala~
+MadeWhen      12-19-2016 11:16:54PM~
+IdeaDesc      Can the swimming and drowning sounds please not be the same thing. thank you
+idea submit Can the swimming and drowning sounds please not be the same thing. thank you
+?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#IDEA
+MadeBy        Bylar~
+MadeWhen      10-27-2017 00:35:31PM~
+IdeaDesc      I think monks would be greatly enhanced, if they had an astral
+ability such as "Flash-Step" or "Thousand feet" 
+They pretty much are a great solo class as is, but giving them a physical
+astral ability would be a huge benefit.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#IDEA
+MadeBy        Morrigan~
+MadeWhen      11-05-2017 05:56:12PM~
+IdeaDesc      psionics should get levitate. Same as fly, or wings, but basically
+telekenetic style levitation/flight
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16709
+End
+
+#IDEA
+MadeBy        Mirkoros~
+MadeWhen      11-30-2017 10:56:43AM~
+IdeaDesc      Make the general board the default board. This would be a minor but notable quality of life improvement. :)
+~
+Type          1
+UsedBy        Vladaar~
+UsedWhen      02-18-2018 08:24:40PM~
+UseDesc       done
+~
+Reward        0
+RewardBonus   1
+Room          27013
+End
+
+#END

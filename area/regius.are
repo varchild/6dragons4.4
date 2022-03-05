@@ -1,0 +1,3715 @@
+#AREA        Regius Fonds~
+
+
+
+#VERSION     11
+#AUTHOR      Zerah~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+30 65 30 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG Several ripples appear in the water...~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999998329 999998329 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#18000
+Merguard~
+Merguard~
+An angry merguard bobs here.
+~
+You gulp instinctively at the sight of this merguard, a mass of muscle topped
+with an enormous frown greets your eyes as you discretely look him over. For no
+apparant reason he seems to be infuriorated and, unfortunately, he's following
+you!
+~
+0
+Clanname none~
+0
+0
+131075 4194432 1000 C
+85 0 0 100d100+10000 20d40+50
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 0
+50 50 0 0 0 0 369 0
+> all_greet_prog 100~
+if level ($n) < 30
+  mpechoat $n &CThe Merguard says, '$n you do not belong here.'&D
+  mppause 3
+  mpechoat $n &CThe Merguard says, 'Come back when you are stronger.'&D
+  mptrans $n 18012
+endif
+if iscarrying($n) == 18002
+  mppause 3
+  mpechoat $n &cThe Merguard stares hard at your tiny flask you just bought.&D
+  mppause 8
+  mpechoat $n &CThe Merguard says, 'I have been searching for just such a flask.'&D
+else
+  mppause 3
+  mpechoat $n &CThe Merguard says, 'I have lost a tiny flask of air please return if you find it..&D
+endif
+~
+> act_prog p gives you A tiny flask of air.~
+if quest(spirits) > 4
+  mpquest $n spirits remove
+endif
+mpechoat $n &cThe Merguard blinks in utter disbelief.&D
+mppause 3
+mpechoat $n &CThe Merguard whispers, 'Is this.. For me?'&D
+mppause 3
+mpechoat $n &cThe Merguard smiles slightly.&D
+mppause 3
+mpechoat $n &cThe Merguard blinks in utter disbelief.&D
+mppause 3
+mpechoat $n &CHe murmurs softly, 'Thank you...I apologize profusely for being so Rude...'&D
+if ovnuminv(18002) == 1
+  mpoload 18011
+  give pebble to $n
+  mpechoat $n &CThe Merguard says, 'Take this trinket with you as a sign of my appreciation...'&D
+  smile $n
+  mpquest $n spirits 1
+  mpjunk flask
+endif
+~
+|
+#18001
+Beggar~
+beggar~
+A filthy pile of clothes lies here.
+~
+A casual glance shows a pile of rags randomly tossed at the edge of this ocean,
+but further inspection shows you that this is actually a poverty stricken man.
+A dirty beggar is in perfect health.
+~
+0
+Clanname none~
+0
+0
+131075 4194816 0 C
+35 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 8
+mpechoat $n For a split second you swear you saw the pile of clothes appear to be breathing.
+~
+|
+#18002
+shrimp~
+a newly created shrimp~
+Some god abandoned a newly created shrimp here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+5 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#18003
+woman Aisaylia queen~
+Aisaylia~
+A regal woman regards you thoughtfully.
+~
+~
+0
+Clanname none~
+0
+0
+3 4202624 1000 C
+85 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 5
+40 40 0 0 0 0 49 0
+> all_greet_prog 100~
+if isevil ($n) 
+  mpechoat $n &cAisaylia gracefully nods her head to acknowledge your entrance.&D
+  glare $n
+  mpechoat $n &CAisaylia says 'Evil, foul surface dweller...'&D
+  mpechoat $n &CAisaylia says, 'Have you returned to kill my people?'&D
+endif
+~
+> all_greet_prog 100~
+if isgood ($n)
+  if iscarrying($n) == 18010
+    mpechoat $n &CAisaylia says, 'You are ready to complete the quest, the quest that is before you.'&D
+    mpechoat $n &CAisaylia says, 'Go, but be careful of the obstructions.'&D
+  else
+    mpechoat $n &cAisaylia gracefully nods her head to acknowledge your entrance.&D
+    smile $n 
+    mpechoat $n &CAisaylia says, 'You are peaceful, I see...'&D
+    mpechoat $n &CAisaylia says, 'Take this as my gift to you.'&D
+    give coral to $n
+  endif
+endif
+~
+> entry_prog 100~
+mpechoat $n &CAisaylia says, 'I entertain hopes of renewed peace, but...'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'Well...'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'I suppose you would have to find out sooner or later...'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'You see, a very long time ago, we interacted freely with those from your world above the surface.'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'All of our relations were peaceful. We traded goods, and everyone benefited.'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'Then...the people from your world began to change.'&D
+mpechoat $n &CAisaylia says, 'You no longer respected those who inhabit these realms!'&D
+mppause 25
+frown
+mpechoat $n &CAisaylia says, 'You brought the first weapons our people had ever seen and massacred us.'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'We rallied together and drove you from our waters, but the damage was done.'&D
+mppause 25
+mpechoat $n &cAisaylia sighs loudly.&D
+mpechoat $n &CAisaylia says, 'We established the militia and for years murdered any surface dweller we saw.'&D
+mppause 25
+mpechoat $n &cAisalylia glances sadly around the room.&D
+mpechoat $n &CAisaylia says, 'Eventually, your people forgot everything, but we never did.'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'Many who inhabit these waters will attack you because of what you are.'&D
+mpechoat $n &CAisaylia says, 'The others fear for their lives, and rightly so!'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'We realized that we were no better than you for murdering innocent people...'&D
+mpechoat $n &cAisaylia gestures towards the Merguard's trident.&D
+mppause 25
+mpechoat $n &CAisaylia says, 'Even those are useless unless your people begin the assault.'&D
+mpechoat $n &CAisaylia says, 'Our people are brought up to never raise a hand against another...'&D
+mppause 25
+mpechoat $n &CAisaylia says, 'Even when one of our citizens is in mortal danger we cannot help.'&D
+mpechoat $n &CAisaylia says, 'Those that do are outcast from our society...'&D
+mppause 25
+mpechoat $n &cAisaylia sighs loudly.&D
+mppause 25
+mpechoat $n &CAisaylia says, 'I entertain hopes of renewed peace, but...'&D
+~
+|
+#18004
+grumpy cook~
+A grumpy cook~
+A grumpy cook bustles from one stove to another.
+~
+~
+0
+Clanname none~
+0
+0
+16908291 0 0 C
+40 0 0 15d20+5000 30d30+50
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 5
+30 25 0 0 0 0 49 0
+#18005
+old lady woman~
+old lady woman~
+An old, elegant woman watches the dance impassively.
+~
+You see before you a woman with a shock of white hair and wrinkles covering
+what was once a beautiful face. Well past her prime, she watches the dance with
+amusement instead of the avid interest she once felt.
+~
+0
+Clanname none~
+0
+0
+16777217 4194304 0 C
+40 0 0 10d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 5
+40 40 0 0 0 0 49 0
+#18006
+Servant level ~
+servant~
+A servant offers you an hors d'ouvre.
+~
+You find yourself shocked by the scanty clothes the servent wears. In fact, the
+only clothes he wears are a crisp, white loincloth wrapped about his waist.
+With a smooth bow, he offers you one of the morsels from his platter of food.
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+45 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 4
+40 45 0 0 0 0 49 0
+#18007
+dancer man well-dressed~
+the well-dressed man~
+A well-dressed man moves between you and his dancing partner
+~
+Stepping between you and the lovely woman he is dancing with, the man bares his
+teeth in an ugly snarl. His fine clothes and polished appearance apparantly say
+little for his personality.
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+75 0 0 40d20+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 4
+50 50 0 0 0 0 49 3
+> all_greet_prog 40~
+If isevil ($n)
+  mpechoat $n &cThe well-dressed man glances at you and grabs the ornamental dagger from his side.&D
+endif
+~
+> all_greet_prog 40~
+if isevil ($n)
+  mpechoat $n &cThe well-dressed man glares icily at you, you feel cold to your bones.&D
+  mpechoat $n &CThe well-dressed man whispers to his partner, 'Stand aside while I deal with this...annoyance.'&D
+  mpechoat $n &cThe well-dressed man pushes the woman roughly away.&D
+endif
+~
+|
+#18008
+tall man dancer~
+the dancer~
+A tall young man smiles at you as he dances.
+~
+Flashing you a brief smile, this young man politely guides his dancing partner
+out of your way. Handsome, with muscles rippling down his arms, this man looks
+like a force to be reckoned with.
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+75 0 0 40d20+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 6
+50 50 0 0 0 0 49 3
+#18009
+musician vain~
+vain musician~
+A musician vainly tries to make himself heard.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+75 0 0 30d30+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 0
+50 50 0 0 0 0 49 0
+#18010
+woman musician gloomy~
+gloomy musician~
+A gloomy woman plays a flute which you can barely hear.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+65 0 0 20d30+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 4
+60 50 0 0 0 0 49 0
+#18011
+Servant~
+servant~
+A short servant stares prettily at you.
+~
+As your eyes deign to notice this quiet woman who remains suitably in the
+background, you realize just how pretty she is. She has bright yellow hair 
+which flows in waves down to her shoulders and you catch a glimpse of sparkling
+green when she raises her eyes briefly to risk a glance in your direction. Her
+scanty clothing does not leave very much to the imagination...
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+40 0 0 20d40+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 4
+40 30 0 0 0 0 49 0
+#18012
+servant~
+servant~
+A handsome servant bows before you.
+~
+You find yourself staring at a tall, very muscular servant who reguards you
+with a look of boredom. Although he is obviously less than pleased with his 
+job, he still acts respectfully, graciously offering to bring you a beverage
+or morsel of food, whatever your whim.
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+45 0 0 10d30+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 4
+40 30 0 0 0 0 49 0
+#18013
+woman~
+the young woman~
+A young woman stands here, waiting to be asked to dance.
+~
+Standing against the wall with a forlorn expression on her face, this woman
+glances hopefully at the merguard by your side. After a moment though, she
+sighs and looks away again.
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+55 0 0 50d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+40 40 0 0 0 0 49 0
+> all_greet_prog 45~
+if ispc ($n)
+  if sex ($n) < 2
+    mpechoat $n &cThe young woman looks up at your entrance.&D
+    mpechoat $n &cThe young woman sighs sadly.&D
+  endif
+endif
+~
+|
+#18014
+citizen ~
+The citizen~
+A citizen of Regius Fons village rises from his work.
+~
+Tall and muscular from years of hard labor, this man momentarily ceases his
+work to stand and glance at you. He eyes you with interest and... Could it be
+fear?
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+55 0 0 50d30+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 5
+45 65 0 0 0 0 49 2
+#18015
+Little girl~
+The little girl~
+A little girl sticks her thumb in her mouth.
+~
+A slim, undersized child stands quietly off to the side with her thumb in her
+mouth. She seems to see you for the first time and her eyes widen in surprise
+and... fear?
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+45 0 0 30d30+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 0
+35 45 0 0 0 0 48 0
+#18016
+young citizen woman~
+A young woman~
+A young woman casually walks along the path.
+~
+Flashing you a quick smile, the woman meanders away from you, staring intently
+at the scenery that she helped create. You can detect an understandable hint of
+pride in her bearing as well as a touch of curiosity directed towards you, the
+newcomer.
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+45 0 0 50d30+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 15 0 0 1 1 5
+45 45 0 0 0 0 49 2
+#18017
+little boy~
+The little boy~
+A young boy darts around playfully.
+~
+You cannot help but smile as you watch the antics of this young boy as he 
+floats about cheerfully. His laughter seems to fill the air with an almost
+musical quality.
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+45 0 0 50d30+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 5
+37 45 0 0 0 0 49 2
+#18018
+tiny fish~
+The fish~
+A tiny, golden fish flits to and fro.
+~
+A little, golden fish floats before you, hovering at your eye level. Its
+burnished scales glint brightly in the streaking rays of sun as it flits away.
+~
+0
+Clanname none~
+0
+0
+1 128 1000 C
+65 0 0 40d40+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 6
+60 60 0 0 0 0 385 3
+#18019
+spirit fire elemental~
+The spirit of fire~
+The spirit of fire regards you with burning eyes.
+~
+~
+0
+Clanname none~
+0
+0
+3 4194304 1000 C
+5 0 0 3d5+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+5 5 0 0 0 0 49 3
+> act_prog p gives you a small piece of fire coral.~
+If ovnuminv(18010) ==1
+  mpoload 18016
+  mpechoat $n &CThe spirit of fire says, 'Take this small gift...'&D
+  give token $n
+  mpechoat $n &CThe spirit of fire says, 'When the powers of earth, fire, air and water combine in the right place...the rewards are well worth the trouble!'&D
+  mpjunk coral
+endif
+~
+|
+#18020
+Spirit earth elemental~
+The spirit of earth~
+The spirit of the earth shimmers regally.
+~
+~
+0
+Clanname none~
+0
+0
+3 4194304 1000 C
+5 0 0 3d5+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+5 5 0 0 0 0 49 3
+> act_prog p gives you a shiny pearl.~
+If ovnuminv(18014) ==1
+  mpoload 18017
+  mpechoat $n &CThe spirit of earth says, 'Take this small gift...'&D
+  give token $n
+  mpjunk pearl
+endif
+~
+|
+#18021
+the man~
+The man~
+A man strolls here aimlessly, enjoying the scenery.
+~
+Tall and muscular from years of hard labor, this man momentarily ceases his
+work to stand and glance at you. He eyes you with interest and... Could it be
+fear?
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+55 0 0 50d30+7500 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 1 0 0 1 1 5
+0 0 0 0 0 0 49 2
+> all_greet_prog 50~
+IF ispc ($n)
+Mpecho The man looks you over carefully.
+endif
+~
+> rand_prog 20~
+Mpecho The man Mutters, 'Earth... Air... Fire...
+~
+|
+#18022
+spirit air elemental~
+The spirit of air~
+The spirit of air hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+3 4194304 1000 C
+95 0 0 50d50+13000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 7
+75 80 0 0 0 0 369 3
+> all_greet_prog 100~
+if iscarrying($n) == 18011
+  mppause 3
+  mpechoat $n &cThe spirit of air stares hard at your clouded pebble.&D
+  mppause 8
+  mpechoat $n &CThe spirit of air says, 'I have been searching for just such an item.'&D
+endif
+~
+> act_prog p gives you a clouded pebble.~
+if ovnuminv(18011) ==1
+  mpoload 18015
+  mpechoat $n &CThe spirit of air says, 'Take this small gift...'&D
+  give token $n
+  mpquest $n spirits 2
+  mpechoat $n &CThe spirit of air says, 'Just take it to the square and drop it...'&D
+  mpjunk pebble
+endif
+~
+|
+#18023
+ghost proud warrior apparition~
+The ghost of the proud warrior~
+You see a faint disturbance in the water...
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 4194816 0 C
+95 0 0 250d1000+32767 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 7
+100 100 0 0 0 0 1017 4099
+> act_prog p drops a token of air.~
+get token
+  mpechoat $n &CThe ghost of the proud warrior says, 'Take a shiny pearl to the spirit of the earth.'
+  mpquest $n spirits 3
+~
+> act_prog p drops a token of earth.~
+if quest(spirits) == 3
+get token
+mpechoat $n &CThe ghost of the proud warrior says, 'Take a small piece of fire coral to the spirit of the fire.'
+mpquest $n spirits 4
+else
+glare $n
+endif
+~
+> act_prog p drops A token of fire.~
+if quest(spirits) == 4
+  get token
+  mpechoat $n &CThe ghost of the proud warrior says, 'You have done well.'
+  mppause 3
+  mpechoat $n &CThe ghost of the proud warrior says, 'You have more then proven that you are very well deserving 
+  mpechoat $n &Cof my most precious object.  Do use it well.'&D
+  mpoload 18018
+  mpquest $n spirits 5
+  mpjunk earth
+  mpjunk air
+  mpjunk fire
+  give wand to $n
+else
+  glare $n
+endif
+~
+> all_greet_prog 100~
+mppause 3
+  mpechoat $n &CThe ghost of the proud warrior says, 'Find and &WDROP&C all the tokens of the elements before me'&D
+~
+|
+#18024
+The fish~
+The fish~
+A large fish is entangled in the weeds.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+85 0 0 20d20+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+50 50 0 0 0 0 201 3
+> death_prog 50~
+mpecho A shiny pearl falls from the mouth of the fish
+mpoload 18014
+drop pearl
+~
+|
+#18025
+green fish shiny~
+a shiny green fish~
+A shiny green fish is entangled in the weeds here.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+~
+0
+Clanname none~
+0
+0
+131075 128 0 C
+85 0 0 20d20+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+40 40 0 0 0 0 201 2
+> death_prog 100~
+mpoload 18014
+drop pearl
+mpecho &Wa pearl drops from the mouth of the fish as it dies.
+~
+|
+#18026
+fish~
+The fish~
+A bluish fish regards you solemnly.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+A bluish fish reguards you solemnly.
+~
+0
+Clanname none~
+0
+0
+1 65664 0 C
+85 0 0 50d50+15000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+40 40 0 0 0 0 201 1
+#18027
+fish~
+The fish~
+A silvery fish hovers here.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+70 0 0 20d20+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+40 40 0 0 0 0 201 1
+#18028
+fish~
+The fish~
+Your eyes nearly pass over this large, grey fish.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+~
+0
+Clanname none~
+0
+0
+1 65664 0 C
+85 0 0 50d50+15000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+65 75 0 0 0 0 201 3
+#18029
+fish~
+The fish~
+A huge fish glares menacingly at you.
+~
+This fish is tangled so thouroughly in the vines surrounding it that it has no
+hope of escape. Unfortunately, the more it struggles, the more enraged it
+becomes...
+~
+0
+Clanname none~
+0
+0
+33 128 0 C
+90 0 0 50d50+15000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+70 70 0 0 0 0 201 3
+#18200
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#18000
+Shrimp~
+A small shrimp~
+A tiny creature scuttles by your feet.~
+~
+19 0 1
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#18001
+pill green~
+A large, greenish pill~
+A large, greenish pill lies here~
+~
+26 270336 1
+80 -1 -1 -1 0 0 0
+1 50 500
+1
+9
+0
+0
+0
+0
+'aqua breath' 'NONE' 'NONE'
+S 0 0
+#18002
+Flask air~
+A tiny flask of air~
+A tiny flask of air lies here~
+~
+10 0 16385
+5 -1 -1 -1 0 0 0
+1 50 5
+1
+0
+0
+0
+0
+0
+'aqua breath' 'NONE' 'NONE'
+S 0 0
+#18003
+conch shell~
+a conch shell~
+A large shell lies here.~
+~
+9 257 16385
+35 35 0 0 0 40 0
+10 215 100
+3
+0
+0
+0
+0
+0
+S 0 0
+A
+14 200
+A
+26 8192
+> wear_prog 100 ~
+If ispc($n)
+   Mpechoat $n &CA magical resistance to paralysis consumes you. 
+   cast valiance $n
+  endif
+~
+|
+#18004
+An ornamental dagger~
+an ornamental dagger~
+An ornamental dagger lies here.~
+~
+5 524544 8193
+20 30 70 6 2 64 0
+1 127 1000
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 75
+A
+12 25
+A
+18 7
+A
+19 7
+A
+1 -1
+#18005
+seahorse ring~
+a shining seahorse ring~
+A small item glints in the sunlight.~
+~
+9 524544 3
+35 35 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 4
+#18010
+fire coral~
+a small piece of fire coral~
+A small piece of fire coral lies here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 2 500
+1
+3
+0
+0
+0
+0
+S 0 0
+A
+17 -20
+#18011
+clouded pebble~
+a clouded pebble~
+A pebble with cloudy, swirling colors lies here.~
+~
+8 8192 16385
+0 0 0 0 0 0 0
+1 15000 1500
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+18 3
+#18012
+rough shirt~
+a rough cotton shirt~
+A rough cotton shirt lies here~
+~
+9 256 9
+40 40 0 0 0 45 0
+1 1000 100
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 5
+A
+1 2
+A
+3 -1
+#18013
+band Seaweed~
+a band of braided seaweed~
+A bunch of seaweed lay here banded together~
+~
+9 262400 4097
+40 40 0 0 0 45 0
+1 50 5
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 4
+A
+31 2
+#18014
+Shiny pearl~
+A shiny pearl~
+A shiny pearl lies here~
+~
+8 8192 16385
+0 0 0 0 0 85 0
+1 1000 100
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+13 100
+A
+12 100
+#18015
+token air~
+A token of air~
+A wift of air swirls around on the ground~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#18016
+token fire~
+A token of fire~
+A blaze of flame swirls around on the ground~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#18017
+token earth~
+A token of earth~
+A small stone half burried in the ground is seen~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#18018
+wand of wonders~
+Wand of wonders~
+A long crystal object lies here emitting sparks of prismatic colors ~
+~
+3 524555 16385
+90 20 20 -1 0 0 0
+1 100000 10000
+1
+0
+0
+0
+0
+0
+'sylvan wind'
+S 0 0
+A
+18 10
+A
+19 10
+A
+12 100
+A
+13 100
+#18019
+Dusty Boots~
+A pair of dusty boots~
+A pair of dusty boots lay here ignored.~
+~
+9 262464 65
+35 35 0 0 0 35 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 25
+A
+12 25
+A
+18 2
+A
+19 2
+#18020
+merman trident~
+a merman trident~
+A merman trident has been left here.~
+~
+5 64 8193
+0 40 90 2 10 0 60
+1 151 15
+1
+14
+0
+0
+0
+0
+S 0 0
+E
+trident merman~
+The large spear has three sharpened ends.  An ancient power seems to
+come from the trident.
+~
+A
+26 -2147483648
+> fight_prog 45~
+mpecho &YA electric discharge crosses the ends of the trident.
+mpdamage $n 10
+~
+|
+#18021
+silk shirt~
+a purple silk shirt~
+A purple silk shirt has been left here.~
+~
+9 0 9
+50 50 0 0 0 0 0
+1 110 11
+2
+12
+0
+0
+0
+0
+S 77 0
+E
+purple silk shirt~
+A beautifully tailored purple silk shirt.  The shirt appears to be very
+high quality.
+~
+A
+25 3
+A
+19 10
+A
+27 32
+#18022
+white dancing gown~
+a white dancing gown~
+A white dancing gown has been left here.~
+~
+9 0 9
+35 35 0 0 0 0 0
+3 111 11
+2
+5
+0
+0
+0
+0
+S 77 0
+E
+white dancing gown~
+save
+The pearl white dancing gown is exquisitely crafted.  There is a beautiful
+bow tied at the rear of the gown.
+~
+A
+18 10
+A
+19 10
+A
+26 1024
+#18023
+necklace pearl~
+a pearl necklace~
+A pearl necklace has been left here.~
+~
+9 0 5
+35 35 0 0 0 0 0
+1 111 11
+2
+5
+0
+0
+0
+0
+S 77 0
+E
+pearl necklace~
+save
+The necklace has very large pearls stringed together along it.
+~
+A
+19 4
+A
+11 -10
+#18024
+pan pipes~
+an old pan pipe~
+An old set of pan pipes rests here on the floor~
+~
+68 524547 16385
+1 0 0 12 8 50 0
+1 303 30
+4
+0
+0
+0
+0
+0
+S 0 0
+A
+13 50
+A
+12 50
+A
+18 4
+A
+19 4
+#18025
+old pipe~
+an old pipe~
+An old well used pipe rests here~
+~
+30 524288 1
+0 0 0 0 0 10 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#18200
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#18000
+A faint path through the marsh grass~
+~
+Stubbornly deciding to follow an offshoot of water that branches away from the
+river and trickles into the marsh grass, you find yourself shoving your way
+down a barely existant path. Behind you, to your north, the woods loom even
+more darkly than they appeared while you were within them to get away from 
+the confining trees is almost a relief. The path seems to become a bit easier
+to follow as the rivlet of water carves its own route and is joined by several
+other small streams to create a sizeable spring.
+~
+1 3145732 12
+D2
+~
+~
+0 -1 18001
+S
+#18001
+A path through the marsh grass~
+~
+You continue to stroll alongside the stream, putting more distance between 
+yourself and the woods from which you emerged. The grass surrounds you, in
+many places preventing you from seeing more than a few steps ahead of you since
+the greenish golden plants grow to a height that equals your own. Even as you
+walk, you can see that the stream continues to grow in size as it is fed by
+small trickles of water which branched off from the river in the woods.
+~
+1 3145728 12
+D0
+~
+~
+0 -1 18000
+D9
+~
+~
+0 -1 18002
+S
+#18002
+Following the stream~
+~
+The banks of the stream widen so abruptly that you find yourself taking a few
+hurried steps backwards to avoid falling into the water. Joined by another
+small rivlet which flows in from the south, the now-sizeable stream begins to
+flow at a swifter pace as well. You find yourself forced to watch your step
+carefully, for a wrong step could send the unwary traveler floundering into the
+water.
+~
+1 3145728 12
+D3
+~
+~
+0 -1 18003
+D6
+~
+~
+0 -1 18001
+S
+#18003
+Deep within the marsh grass~
+~
+The only sight to see in any given direction, save for the river you follow, is
+the sight of thousands of stalks of marsh grass growing taller than you. If not
+for the stream, you would be hopelessly lost, for no amount of trying would
+help one see over the overgrown stalks. Fortunately, the stream acts as a sure
+guide, as does the path of trampled grass that you have left behind you to show
+the way back to the woods.
+~
+1 3145728 12
+D1
+~
+~
+0 -1 18002
+D3
+~
+~
+0 -1 18004
+S
+#18004
+Deep within the marsh grass~
+~
+Because the footing is so treacherous in this open field, you find yourself
+forced to take every step extremely carefully. Rocks and bumps in the ground
+could easily cause a twisted ankle. You still find it difficult to see through
+the towering marsh grass, though it seems to be thinning out a bit to the
+southwest. Unsurprisingly, the stream has proved to be an excellent guide.
+~
+1 3145728 12
+D1
+~
+~
+0 -1 18003
+D9
+~
+~
+0 -1 18005
+S
+#18005
+The edge of a field of marsh grass~
+~
+At long last the grass surrounding you begins to decrease in size as well as
+quantity. Pushing through weeds which are now only chest-height, you find
+yourself spurred to keep pushing on, curious to see where the still-growing
+stream leads. Even as the sharp grass slices unprotected bits of skin it comes
+in contact with, the sense of adventure never falters.
+~
+1 3145728 12
+D6
+~
+~
+0 -1 18004
+D9
+~
+~
+0 -1 18006
+S
+#18006
+Following a faint path~
+~
+Finally leaving the field of marsh grass behind you, you find yourself standing
+on what appears to be the beginning of a faint path. Because it meanders
+alongside the river you have been following, walking on the path will only make
+your explorations that much easier. To your surprise, you realize that the
+rivlet has indeed grown to a full-size river, fed from unseen sources, for it
+is now several paces in width.
+~
+1 3145728 12
+D3
+~
+~
+0 -1 18007
+D6
+~
+~
+0 -1 18005
+S
+#18007
+Following a faint path~
+~
+The path is really little more than a trail of packed dirt. In fact, it could
+quite easily be nothing more glamerous than a game trail for some predator, but
+following it into unexplored territory lends its own sense of adventure. You
+can still see the dark trail of trampled grass when you turn to look behind you
+as well as the darker shadow of the woods; before you, you catch more gleams of
+what could be the sun glinting off of a large body of water.
+~
+1 3145728 12
+D1
+~
+~
+0 -1 18006
+D9
+~
+~
+0 -1 18008
+S
+#18008
+Following a well-worn path~
+~
+The ground beneath your feet is bare of grass, providing a winding trail which
+follows the river. With the noble exception of the path, the small, rolling
+hills around you are brilliantly colored, green with the growth of spring and
+carpeted in wildflowers. The path continues to the west and to the northeast it
+fades away and gradually becomes the field of marsh grass you emerged from.
+~
+1 3145728 12
+D3
+~
+~
+0 -1 18009
+D6
+~
+~
+0 -1 18007
+S
+#18009
+Following the river~
+~
+Gradually, the hills begin to flatten and the river's current slows to a calm
+trickle. The feeling of walking beside such a peaceful body of water is both
+invigorating and calming at once, and you find yourself loathe to leave this
+place. Your step quickens, however, as you catch a glint of a larger body of 
+water to your north. The river you follow swings to the north as well, as does
+the path you walk on.
+~
+1 3145728 12
+D0
+~
+~
+0 -1 18010
+D1
+~
+~
+0 -1 18008
+S
+#18010
+Approaching a sparkling ocean~
+~
+Clearly visible ahead of you lies a large body of water which glints gently in
+the light shining down from above. The path beneath your feet has gradually
+hardened into what could almost be considered a road as you traveled it; you
+can see that this was once a well-traveled area. Ahead of you, the path seems
+to run right to the shore of the ocean, several feet away from the point where
+the river that was your faithful guide joins the ocean which you see spread out
+before you.
+~
+1 3145728 12
+D2
+~
+~
+0 -1 18009
+S
+#18011
+Standing by a peaceful ocean~
+~
+Waves lap gently against the shores of this large, sparkling ocean as you stand
+and gaze at the vast stretch of blue water before you. Somehow though, the
+water looks different than oceans you remember seeing in the past. Almost as
+though it is meant to hide something below the surface. A sudden movement
+catches the corner of your eye and you turn to see an unsightly pile of
+filthy, patched cloth and rags, barely recognizable as a human who, now that he
+has your attention, immediately begins begging you to purchase one of the many
+trinkets he hawks to those unwary beings who come within earshot.
+~
+1 3145728 12
+D3
+~
+~
+0 -1 18012
+R M 0 18001 1 18011
+  R G 0 18001 1
+  R G 0 18002 1
+> rand_prog 50~
+if ispc ($n)
+mptrans $n 18011
+endif
+~
+|
+S
+#18012
+Just below the surface~
+~
+You blink and look above you at the blurred image of land, visible only as a
+shimmering glimpse of the world above the surface of the ocean. You find 
+yourself reaching a hand up to touch the point where water meets air, the
+desire to seperate yourself from the water enveloping you for even the shortest
+moment creating a sense of urgency... Oddly, you find yourself unable to break
+the surface of the ocean, almost as though a protective barrier has been formed
+above you, it seems that the only way to go now is down into the mysterious
+depths of the ocean...
+~
+1 3145728 11
+D1
+~
+~
+0 -1 18011
+D5
+~
+~
+0 -1 18013
+D11
+~
+~
+0 -1 42829
+S
+#18013
+The merguard station~
+~
+Your feet finally touch a semi-solid surface as you finish your slow descent to
+the bottom of the ocean and immediately are faced with the first of what is sure
+to be many odd challenges. Before you floats a merman wielding a wickedly
+spiked trident whose sole purpose in life, at least for the time being, seems
+to be glaring menacingly at you. As you take in the rest of your surroundings
+besides the scowling merguard, you see that you have come to rest before a
+large building made of.. sand? The building seems to be stable, but indeed it
+has been constructed of sand and debris. Around you lies a vast plain of more
+sand, though your feet seem to have landed at the beginning of a faint path.
+Under the watchful eyes of his superior, the merguard floats to your side and
+begins to follow your every move, showing no intent of leaving.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18014
+D4
+~
+~
+0 -1 18012
+R M 0 18000 1 18013
+  R E 1 18020 1 16
+S
+#18014
+An underwater path~
+~
+You leave the merstation behind and continue to follow a faint path; it is 
+difficult to see exactly where you are being led. To the east, you can see the
+distinct outline of an enormous mound of sand surrounded by many smaller
+heaps that look almost like a palace and the city surrounding it. To the south
+your view is barred not too far away by what appears to be a solid wall made
+of enourmous stalks of seaweed grown so closely together that not even the 
+tiniest fish can pass between them. However, the seashells and various other
+bits of debris that constitute the path you are on continue to lead you to the
+east.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18015
+D3
+~
+~
+0 -1 18013
+S
+#18015
+A split in the path~
+~
+The path of debris that you have followed thus far finally fades beyond easy
+recognition, giving way to three new trails. The first, a string of stones that
+leads in a meandering line towards the northeast, seems to lead towards a small
+cluster of sandy mounds that you can only assume to be an underwater city. The
+next path, a well-worn trail that leads off to the east, will take you directly
+to the enourmous mound of sand that lies to one side of the small town; it can
+only be a palace of sorts. The final path is the most distinct of them all: a
+line of seaweed plants that leads directly towards the forest of seaweed to 
+your south. A quick glance at your guardian shows that he does not much care
+which path you chose, so the choice is up to you.
+~
+1 3153924 12
+D1
+~
+~
+0 -1 18016
+D2
+~
+~
+0 -1 18079
+D3
+~
+~
+0 -1 18014
+D6
+~
+~
+0 -1 18056
+S
+#18016
+The path to the Regius Fons Palace~
+~
+The path beneath your feet seems far more solid then normal sand ought to be;
+it is obviously well traveled. The palace begins to take shape as you approach
+it; tall spires of sand nearly touch the surface of the ocean and immense,
+sculptured columns support the fragile mound. All around you the landscape 
+has gradually begun to change from barren sand to sparse vegetation, vaguely
+reminding you of the surface from which you came. The trail meanders towards
+the Regius Fons Palace in the east and to the crossroads just west of you.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18017
+D3
+~
+~
+0 -1 18015
+R O 0 18000 1 18016
+S
+#18017
+Before the Palace Gates~
+~
+&CEnormous, golden gates rise before you, soaring several feet above your 
+head to terminate in gracefully curving arches. Bars formed of solid gold 
+line the gate vertically, each placed precisely a hands width apart from 
+its neighbors. A cautious push at one of the magnificent works of art 
+reveals that they swing open easily, allowing access to any person who 
+wishes to enter, although there are certainly very effective safeguards 
+which will keep out any unwelcome intruder. The palace, vaguely visible 
+through the gleaming bars, rises before you in magnificent grandeur; you 
+feel a faint pulling sensation, coaxing you to enter this incredible 
+domain. 
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18018
+D3
+~
+~
+0 -1 18016
+S
+#18018
+Within a small courtyard~
+~
+You stand within the middle of medium sized courtyard. This sizable space is
+completely enclosed on three sides by a sparkling golden wall and on the
+eastern side by the palace itself. The sand beneath your feet has been well
+groomed; in fact, it looks as though someone went over the entire courtyard
+with a rake! No footsteps can be seen in the soft sand besides your own; the
+inhabitants of the ocean float above the surface of the bottom. Behind you stand
+the grand golden gates which lead to the crossroads.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18051
+D1
+~
+~
+0 -1 18019
+D2
+~
+~
+0 -1 18053
+D3
+~
+~
+0 -1 18017
+S
+#18019
+The entrance to Regius Fons Palace~
+~
+A rock portcullis hovers high above your head, ready to crash down on any
+unwanted intruders. The sand surrounding it seems to hold it securely in place
+several feet above your head, yet you still feel the urge to duck as you enter
+the castle itself. The water around you suddenly feels very insecure as you
+contemplate the dark entrance before you... Anything could await you in there!
+~
+1 3153924 12
+D0
+~
+~
+0 -1 18048
+D1
+~
+~
+0 -1 18020
+D2
+~
+~
+0 -1 18049
+D3
+~
+~
+0 -1 18018
+S
+#18020
+An Ornate Ballroom~
+~
+&CYou stop in amazement as you enter this room, staring at the sights that 
+meet your eyes. Thousands of iridescent stones and shells illuminate this 
+large room, and as your eyes grow accustomed to the dim light, you begin 
+to make out the forms of hundreds of couples sweeping across the floor in 
+a slow, stately dance. From the south you can smell the delicious odors of 
+food and to the north you spy a faint glimmer of natural light. The filled 
+ballroom spreads out majestically before you. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18021
+D1
+~
+~
+0 -1 18033
+D2
+~
+~
+0 -1 18035
+D3
+~
+~
+0 -1 18019
+R M 0 18013 11 18020
+R M 0 18006 2 18020
+R M 0 18008 4 18020
+  R E 1 18021 1 5
+R M 0 18013 11 18020
+R M 0 18013 11 18020
+R M 0 18006 2 18020
+R M 0 18008 4 18020
+  R E 1 18021 1 5
+R M 0 18013 11 18020
+S
+#18021
+An Ornate Ballroom~
+~
+&CAs you stroll through the ball room, some of the lighting techniques 
+really catch your eye. Thousands of iridescent shells are strewn seemingly 
+haphazardly about the area, while tiny, gently glowing fish flit and weave 
+their way throughout the crowd. Although dimmer then the outside or the 
+surface, you find the lighting pleasant and immensely pleasing; just like 
+every other aspect of this large room, it creates a sense of peace within 
+you. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18022
+D1
+~
+~
+0 -1 18034
+D2
+~
+~
+0 -1 18020
+R M 0 18013 11 18021
+S
+#18022
+An Ornate Ballroom~
+~
+&CThe ceiling high above your head draws your attention and you crane your 
+neck back to stare at it. Although this entire structure is constructed of 
+nothing but sand, you find that this palace is more sturdily fashioned 
+than may buildings you remember from your jaunts on the surface. Swirled 
+with lightly colored designs of sand, the ceiling is beautiful, just like 
+everything else you have seen below the surface of this ocean. 
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18023
+D2
+~
+~
+0 -1 18021
+R M 0 18013 11 18022
+R M 0 18010 4 18022
+R M 0 18009 4 18022
+S
+#18023
+An Ornate Ballroom~
+~
+&CWeaving skillfully through the crowd, a handful of servants approach 
+couples of dancers to offer food and refreshments to weary and thirsty 
+participants. The servants are scantily clad in revealing shirts and sport 
+no other clothing; obviously, the ruler of this palace holds no regard for 
+outsiders' ideas of modesty. 
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18024
+D2
+~
+~
+0 -1 18034
+D3
+~
+~
+0 -1 18022
+R M 0 18013 11 18023
+R M 0 18013 11 18023
+S
+#18024
+An Ornate Ballroom~
+~
+&CHere, in the corner of the ballroom, a large group of mermen and women 
+play their respective instruments, allowing the music to flow from their 
+hearts and their lips to fill the room. Although difficult to hear above 
+the general murmuring of so many gathered people, the music is beautiful 
+to behold, filling the listener with a sense of peace and happiness. 
+~
+1 3153920 12
+D2
+~
+~
+0 -1 18025
+D3
+~
+~
+0 -1 18023
+R M 0 18009 4 18024
+R M 0 18010 4 18024
+S
+#18025
+An ornate ballroom~
+~
+The food being offered by wandering servents seems strange; it looks unlike
+anything you have ever tasted before. Although most of the men and women
+swimming rapidly around with laden platters shy away from the guard by your
+side, a few approach timidly. Samples of various delicacies make you wonder
+that such delicious foods have not been introduced above the surface.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18024
+D2
+~
+~
+0 -1 18026
+D3
+~
+~
+0 -1 18034
+S
+#18026
+An ornate ballroom~
+~
+After wandering about the crowded room for a while, you find it a huge relief
+to see an empty passageway leading away from so many bodies. Although shadowed
+after a few feet where efforts have not been made to illuminate the room, you
+can see that the corrider winds gently around a corner and disappears. Is it
+safe to explore further into the depths of this castle?
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18025
+D1
+~
+~
+0 -1 18038
+D2
+~
+~
+0 -1 18027
+D3
+~
+~
+0 -1 18033
+R M 0 18011 1 18026
+R M 0 18012 5 18026
+S
+#18027
+An Ornate Ballroom~
+~
+&CGently swaying in the currents of the water, exotic, wildly colored 
+flowers climb the walls and crawl across the ceiling. Although the wall is 
+only covered at a few points, the plants dance across the entire ceiling, 
+lending their vibrant splashes of brightness to the decor of the room. The 
+strained atmosphere of the gathering seems to melt away as you gaze at the 
+carefully carved statues spread throughout the room. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18026
+D2
+~
+~
+0 -1 18028
+D3
+~
+~
+0 -1 18032
+R M 0 18007 3 18027
+  R E 1 18004 1 16
+  R E 1 18021 1 5
+S
+#18028
+An Ornate Ballroom~
+~
+&CUnder the cover of so many people swirling around you in their slow 
+dance, you finally get a chance to assimilate some of the sights you have 
+seen. It occurs to you to wonder the reason that this grand ball is behind 
+held; you have seen no evidence of the royalty that must have sponsored 
+such an elaborate event. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18027
+D2
+~
+~
+0 -1 18029
+D3
+~
+~
+0 -1 18031
+R M 0 18012 5 18028
+R M 0 18013 11 18028
+S
+#18029
+An Ornate Ballroom~
+~
+&CBecause this corner is a bit less crowded than the rest of the room, you find
+yourself able to step back and truly observe the majestic scene before you.
+The dancers swirl in an almost hypnotizing pattern, offering occasional smiles
+in your general direction, though those looks often become closed when they spy
+the merguard by your side. Obviously, most people either despise or fear the
+protectors of this realm.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18028
+D3
+~
+~
+0 -1 18030
+R M 0 18007 3 18029
+  R E 1 18004 1 16
+S
+#18030
+An ornate ballroom~
+~
+A change in the designs covering the wall catches your eye and you pause to
+inspect further. The stark lines and curls which wandered the walls before,
+coating the room in their simplistic beauty, abruptly swirl into a sketched
+garden with elaborate flowers and beautifully exotic plants which run wild. You
+cannot help but wonder how underwater folks came to understand the beauty of
+the world above the surface.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18031
+D1
+~
+~
+0 -1 18029
+D3
+~
+~
+0 -1 18037
+R M 0 18005 4 18030
+  R E 1 18005 1 1
+  R E 1 18022 1 5
+  R E 1 18023 1 3
+S
+#18031
+An Ornate Ballroom~
+~
+Floating regally above the heads of the dancers, a large group of musicians
+orchestrate the music the fills the room. Although the general mutter of
+conversation quickly drowns the notes, you can see smaller groups playing the
+same music in two other corners of the room. Obviously, whoever planned this
+party realized that one central band would not suffice.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18032
+D1
+~
+~
+0 -1 18028
+D2
+~
+~
+0 -1 18030
+D3
+~
+~
+0 -1 18036
+R M 0 18005 4 18031
+  R E 1 18005 1 1
+  R E 1 18022 1 5
+  R E 1 18023 1 3
+S
+#18032
+An ornate ballroom~
+~
+The water seems to press around you as you wander through the middle of the
+huge room. So many bodies pressed close together causes the water to become
+somewhat clouded and very warm, almost to the point where the touch of the
+water on any exposed flesh causes a sense of revulsion. You wonder whether
+your merguard can follow you through such a dense group, but a quick glance at
+your side tells you that he is still present.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18033
+D1
+~
+~
+0 -1 18027
+D2
+~
+~
+0 -1 18031
+D3
+~
+~
+0 -1 18035
+R M 0 18005 4 18032
+  R E 1 18005 1 1
+  R E 1 18022 1 5
+  R E 1 18023 1 3
+S
+#18033
+An Ornate Ballroom~
+~
+&CDodging dancing couples who are seemingly oblivious to your presence 
+consumes much of your attention, though you still absorb several details. 
+Many of the men and women dancing wear clothes only on their upper bodies, 
+though their fancy apparel gives them a stately appearance. All types of 
+fabric can be seen here, but you cannot understand how such lovely 
+materials are not ruined by the surrounding water. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18034
+D1
+~
+~
+0 -1 18026
+D2
+~
+~
+0 -1 18032
+D3
+~
+~
+0 -1 18020
+R M 0 18013 11 18033
+R M 0 18008 4 18033
+  R E 1 18021 1 5
+R M 0 18012 5 18033
+R M 0 18012 5 18033
+S
+#18034
+An ornate ballroom~
+~
+Although barely visible beneath the masses of people, the floors and walls of
+this room are beautifully and elegantly crafted. Careful drawings, intended to
+convey a sense of peace and serenity, do not seem to be blurred or upset in
+any way, no matter how many people trod upon or rob against them. Oddly, they
+appear to have been formed by simple sand...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18023
+D1
+~
+~
+0 -1 18025
+D2
+~
+~
+0 -1 18033
+D3
+~
+~
+0 -1 18021
+R M 0 18008 3 18034
+  R E 1 18021 1 5
+S
+#18035
+An Ornate Ballroom~
+~
+&CStepping back out of the crowd for a few moments, you begin to get a 
+feeling for the general mood of the people packed into this room. Although 
+politeness and cheerfulness predominate the expressions on peoples' faces, 
+you can sense an underlying amount of... Could it be fear? Everything you 
+have seen thus far conveys only a sense of serenity. What could these 
+aquatic people possibly have to be afraid of? 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18020
+D1
+~
+~
+0 -1 18032
+D2
+~
+~
+0 -1 18036
+R M 0 18012 4 18035
+  R G 0 18025 1
+R M 0 18013 12 18035
+S
+#18036
+An ornate ballroom~
+~
+You almost walk into a member of a tiny group of musicians as you wander toward
+the corner of the room. Trying in vain to compete with the general murmur of
+voices that fills the room, the musicians play their hearts out, pouring every
+ounce of their energy into the music emerging from their instruments. Although
+you stand very close to them, you have to strain to catch the lovely melody;
+frowning irritably, you wish that there could be silence for even a few moments
+so that you could better hear the enchanting tune.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18035
+D1
+~
+~
+0 -1 18031
+D2
+~
+~
+0 -1 18037
+R M 0 18005 4 18036
+  R E 1 18005 1 1
+  R E 1 18022 1 5
+  R E 1 18023 1 3
+S
+#18037
+An Ornate Ballroom~
+~
+&CThe musicians in this corner of the room seem almost disgruntled, unlike 
+the others scattered about. They realize that their melodies go unheard, 
+and strive to increase their volume, but to no avail. You almost feel 
+sorry for these poor men and women, for no matter how hard they try they 
+will not be heard in this crowded environment. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18036
+D1
+~
+~
+0 -1 18030
+R M 0 18009 4 18037
+R M 0 18010 4 18037
+S
+#18038
+A short corridor~
+~
+You stop short as you encounter a branch in the corridor. Until now, you have
+passed only locked, metal doors, yet now several decisions confront you. The
+hallway continues to your east, while open doors invite you to take a peek 
+inside to the northeast and southeast. A ladder is securely fastened against
+the wall, providing a way up to what must be an attic.
+~
+1 3153924 12
+D1
+~
+~
+0 -1 18043
+D3
+~
+~
+0 -1 18026
+D4
+~
+~
+0 -1 18039
+D6
+~
+~
+0 -1 18046
+D8
+~
+~
+0 -1 18047
+S
+#18039
+A murky attic~
+~
+The water around you is dark, murky and still. No currents besides the ones you
+create through your own movements stir the eerily still water; you feel almost
+guilty for disturbing this peaceful place. If you look carefully enough, you
+can barely make out small alcoves to the northeast, north and northwest.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18040
+D5
+~
+~
+0 -1 18038
+D6
+~
+~
+0 -1 18042
+D7
+~
+~
+0 -1 18041
+S
+#18040
+A cluttered storage room~
+~
+An opening in the wall before you provides not only the sole source of light in
+the attic, but also reveals a magnificent view of the tiny village in the 
+distance. You can just make out the miniscule forms of the citizens, for they
+are easily lost in the swirls of color. All of the careful beautification in
+the village comes together at this distance to produce a stunningly spectacular
+view.
+~
+1 3153920 12
+D2
+~
+~
+0 -1 18039
+S
+#18041
+A dusky corner~
+~
+Mounded clumps of rocky sand make up the walls and ceiling. They appear
+crumbled and ill kept, as though they will fall apart at any moment. The floor
+is uneven, shifting dangerously from time to time as well as rising in a rocky protrusion.
+~
+1 3153920 12
+D8
+~
+~
+0 -1 18039
+S
+#18042
+A Dusky Corner~
+~
+&CThis corner seems to be holding up well compared to the rest of the 
+attic. Smooth walls, which gradually transfigure into the bumpy clumps 
+surrounding the rest of the room, give this corner a slight contrast to 
+the rest of the room. A small picture is carelessly dropped on the floor 
+here, standing out against the stark background. 
+~
+1 3153920 12
+D9
+~
+~
+0 -1 18039
+S
+#18043
+A red-carpeted hallway~
+~
+The floors and walls of this winding hallway gradually change from hard packed
+sand to cold, impersonal stone which is covered by a red carpet. You halfway
+expect the sounds of your steps to resound loudly in the silence, yet even the
+impact of your feet hitting the ground seems muffled to your ears, not only by
+the surrounding water or the carpet under your feet, but also by your rambling
+thoughts. Your companion, the merguard, follows your every move as you proceed
+down the hallway together.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18044
+D3
+~
+~
+0 -1 18038
+S
+#18044
+The throne room~
+~
+Spread out before you is a magnificent room, glowing a hundred times more 
+brightly than the ballroom. Although the golden-hued chamber is enormous,
+only a thin, red strip of carpet is accessable to you. Merguards even more
+arrogant than the one by your side, regally float in precise rows, watching
+your every move. A few steps away, a raised dias supports a grand throne.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18045
+D3
+~
+~
+0 -1 18043
+S
+#18045
+Before the thrones~
+~
+You step onto the platform cautiously, aware that every eye in the room is 
+locked on your every move. A giant chair, beautiful in every meaning of the 
+word, towers before you, though the beauty of the occupant dwarfs everything
+else. She regards you curiously and you know, with sudden certainty, that this
+must be the queen of these realms...
+~
+1 3153920 12
+D3
+~
+~
+0 -1 18044
+R M 0 18003 1 18045
+  R G 0 18010 1
+S
+#18046
+A servant's quarters~
+~
+A stark, clean room greets your entrance. This must be a servent's quarters,
+for the boxlike room could belong to no other in this majestic palace. A narrow
+bed occupies half the room, and a few of the servent's personal belongings are
+carefully arranged atop a tiny table. The only color in the room radiates from
+a bright yellow flower which sways softly in the current from its place in the
+center of the room.
+~
+1 3153920 12
+D9
+~
+~
+0 -1 18038
+S
+#18047
+A servant's quarters~
+~
+All kinds of junk is strewn across this tiny room. Everything from strangely
+colored bits of seaweed to shiney bits of metal lies where it was dropped,
+decorating the room with their very presence. The unkempt bed is pushed into
+a corner, giving the most space possible in such a closet-like room. The gentle
+currents of water carry random crumbs; several stick to your skin and armor as
+you inspect the room.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18038
+S
+#18048
+Gateway to the surface~
+~
+The shimmer of natural light that caught your eye expands until it brightens
+the entire small chamber, almost bright enough to hurt your eyes after the
+relative gloom of the ocean. Craning your neck, you can almost see the true blue
+of the sky through the swirls of murky water that have for so long obscured 
+your vision of the surface. A wave of homesickness washes over you, and you
+begin to wish more than anything that you could be free of this watery 
+prison...
+~
+1 3145732 12
+D2
+~
+~
+0 -1 18019
+> rand_prog 45~
+if ispc($n)
+mptrans $n 18011
+endif
+~
+|
+S
+#18049
+A Bustling Kitchen~
+~
+&CThe clank of bubbling pots and steaming pans greats your ears as you 
+enter this room; your senses are assailed by more sights, sounds and 
+smells then you know what to do with. A small room, this is the place 
+where every bit of food for the entire palace is produced, and the 
+colorful displays before you prove that food indeed is made in quantity. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18019
+D9
+~
+~
+0 -1 18050
+R M 0 18004 1 18049
+  R E 1 18019 1 8
+S
+#18050
+A storage freezer~
+~
+Goosebumps crawl up and down your skin as you enter this room; a blast of 
+frigid air envelops you immediately. Looking around, you can see that this
+large room holds a great quantity of frozen food. How, you wonder, can the
+water surrounding you be so very cold and not have yet become solid ice, yet
+somehow, it seems to remain at a constant, jellied state. With another shiver,
+you decide that it might just be time to leave this cold, cold room...
+~
+1 3153920 12
+D6
+~
+~
+0 -1 18049
+S
+#18051
+Within a small courtyard~
+~
+The northwest corner of this courtyard yields a rather pretty view of the quiet
+village in the distance. You can just barely see the scattered mounds that must
+be buildings; even from several leagues away the unblemished colors sparkle
+radiantly in the sunlight streaming in from above the surface. Although the
+golden fence somewhat hinders your view of the landscape beyond the castle, you
+still cannot help admiring the beauty.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18052
+D2
+~
+~
+0 -1 18018
+S
+#18052
+Within a small courtyard~
+~
+The castle towers before you, spiring towers climbing until they nearly touch
+the surface of the ocean. Loose sand beneath your feet nearly causes you to
+stumble to the ground; unstable footing comes as a shock after the fairly
+stable walk you enjoyed as you approached the palace. A quick glance around the
+premesis tells you that there is not much else of interest in this area of the
+courtyard.
+~
+1 3153920 12
+D3
+~
+~
+0 -1 18051
+R O 0 18003 1 18052
+S
+#18053
+Within a small courtyard~
+~
+To the south, you can barely glimpse a towering cliff that rises even above the
+surface of the ocean. The small courtyard seems suddenly very cramped as you
+peer out at the vast open space before you; the dense forest of weeds and the
+rock beds spread out prettily, conveying a general sense of serenity. A minute
+shift of the lose sand beneath your feet causes you to glance down, but the
+surface seems steady enough. You find yourself drawn to the majestic palace
+only a few steps away...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18018
+D1
+~
+~
+0 -1 18054
+S
+#18054
+Within A Small Courtyard~
+~
+&CUpon closer examination, the walls before you become more intriguing. 
+What originally appeared to be a haphazardly heaped pile of sand 
+constructed in the manner of a castle's walls, it is now apparent that a 
+careful hand carved delicate designs into the sand of the walls. They must 
+require quite a bit of constant upkeep in order to keep the pictures as 
+clear and sharp as you see them, yet you have not seen a single person 
+tending to the garden of this place. If the exterior is this 
+awe-inspiring, the inside must be amazing. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18055
+D3
+~
+~
+0 -1 18053
+S
+#18055
+Within a small courtyard~
+~
+The courtyard itself is shrouded in its own subtle beauty. The greenish carpet
+of seaweed cloaking the ground almost hides the shifting sand, although the
+footing remains treacherous. Larger plants spiral their way up the gates and
+the golden fence at random intervals, adding their touch of green to the
+sparkling gold of the fence. Small flowers of every color sway gently in the
+prevaling underwater current. Even this place of power has its own special
+peace.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18051
+D1
+~
+~
+0 -1 18019
+D2
+~
+~
+0 -1 18054
+D3
+~
+~
+0 -1 18018
+S
+#18056
+The Path to the Regius Fonds Village~
+~
+&CThe stones that you follow quickly resolve their quasi-random structure 
+into a definite path, one much easier to follow than the scattered debris 
+that initially led you into this aquatic wonder. The sand that lies in 
+between the stones is very fine, and obviously rich in nutrients to judge 
+by the lush and abundant plant growth that surrounds you. A myriad of 
+shrubs and plants in a variety of colors surrounds you, though they keep 
+well clear of the path of stones. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18057
+D9
+~
+~
+0 -1 18015
+S
+#18057
+Approaching the village~
+~
+You continue to follow the path that seems to be leading you right to the edge
+of the group of sandy mounds which you are now certain must be a village. The
+stones of the path have gradually gotten so close together that they could
+almost be considered a cobblestone trail; it is much easier to travel this
+path than on the constantly shifting sand common to the bottom of the ocean.
+To your east you can see the outskirts of Regius Fons Village while taking the
+path south will return you to the point where the path you initially followed
+into the ocean split into three sections.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18058
+D2
+~
+~
+0 -1 18056
+R M 0 18016 4 18057
+S
+#18058
+The Outskirts of Regius Fons Village~
+~
+The path leads you right up to the outskirts of the tiny village before 
+twisting to the northeast to become the village's main road. All around you,
+the work that the inhabitants of the Regius Fons Village have put into
+cultivating the natural beauty is obvious; each delicate plant, each grain of
+sand, seems to have been placed in its exact place as though it has always been
+there and forever will be. Even the stones that form the path beneath your feet
+have been carefully fit together to bring out the most of their individual
+shapes and form an intricate pattern of beauty. Truely, if the path that leads
+into this tiny village is so pretty, the village itself must be breathtaking!
+~
+1 3153920 12
+D3
+~
+~
+0 -1 18057
+D6
+~
+~
+0 -1 18059
+R M 0 18016 3 18058
+S
+#18059
+Danu Circle~
+~
+The beauty apparent from outside the boundries of the village is intensified
+a thousandfold as you come to a halt and slowly allow your eyes to wander,
+drinking in the sights surrounding you. The road beneath your feet, formerly
+the cold grey of all rocks, gradually acquires a myriad of colors that seem as
+natural as the grey color of the remaining stones. A tiny village with very
+few citizens, the houses that you see can only be described as awe-inspiring,
+out of the same sand beneath your feet has been crafted a cluster of 
+intricate structures, each differernt than all the others. To your west and 
+north the circle that constitutes the main road of the village slowly winds
+its way to the very edges of the village and back to your feet, connecting the
+handful of dwellings in the process. To your northwest runs the one other
+road in the village, Cenad Way, whose sole purpose is to divide Danu Circle
+into two halves.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18061
+D3
+~
+~
+0 -1 18072
+D7
+~
+~
+0 -1 18073
+D9
+~
+~
+0 -1 18058
+R M 0 18014 2 18059
+  R E 1 18012 1 5
+S
+#18060
+Floating in a void~
+~
+Unlike the forest of seaweed still visible far to your south, the plant life
+within the area also reflects the underlying beauty found throughout the
+village. In addition to delicate flowers that look as though they belong under
+protective shields rather than within the potentially damaging underwater
+eddies, the non-flowering plants show one of the few signs of beauty without
+streaking colors. Found in varying shades of green, each plant is diverse,
+different from the ones around it. To add to the beauty, it seems that all dead
+or unhealthy folliage has been removed from the plants. Danu Circle continues
+to the north and to the south.
+~
+1 3153920 12
+D2
+~
+~
+0 -1 18059
+S
+#18061
+Danu Circle~
+~
+A stunning display meets your eyes as you stare at one of the three buildings
+that make up the entire village. The citizens of the village prefer to live
+as a community, calling the area that they currently concentrate on 
+transforming from the mundane dun-colored sand to the magnificent blend of
+colors that give Regius Fons village a life of its own, they live as a 
+single organism, working in harmony and living without any sense of 
+unhappiness. The building you stand before sports a scenario taking place
+entirely in the sky which, along with fire and a group of landforms known
+only to those who have seen above the surface are nothing but myths to these
+people. The vivid pictures and colors make you suddenly homesick for the
+world above the water... Danu Circle continues to your northwest and south.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18062
+D2
+~
+~
+0 -1 18059
+D7
+~
+~
+0 -1 18063
+R M 0 18014 3 18061
+  R E 1 18012 1 5
+S
+#18062
+A tiny hut~
+~
+Currents of water swirl around you as though trying to sweep you off your feet
+as you enter this room. Through a hole in the roof of the tiny building you
+can see sunlight streaming in from the surface, but none of the splendor
+surrounding the building. Sand lies packed around the edges of the building
+and the ground beneath your feet is nothing but mud, for the churning water
+has pushed all loose materials to the sides of the building. In the center
+of the room a small funnel of water and air keeps the water circulating at a
+rapid pace. You wonder what would happen if you threw something in there...
+~
+1 3154956 12
+D2
+~
+~
+0 -1 18061
+R M 0 18022 1 18062
+S
+#18063
+Danu circle~
+~
+All along the length of Danu Circle you can see the citizens of the village,
+many strolling along the ornate path deep in conversation with either a guard
+or a friend while others wonder individually or in pairs, stopping occasionally
+to admire the scenery, the fruits of their never-ending labor. Still others 
+stand patiently by carts, waiting to preach the virtues of their wares to
+anyone who expresses the least bit of interest, and indeed, there seems to be
+a fairly large amount of dickering transpiring. In addition to being a
+beautiful village, Regius Fons seems to bustle with life. Danu Circle
+continues to your west and southeast.
+~
+1 3153920 12
+D3
+~
+~
+0 -1 18064
+D8
+~
+~
+0 -1 18061
+R M 0 18015 3 18063
+  R E 1 18013 1 14
+S
+#18064
+Danu circle~
+~
+Sparkling brightly in the rays of sunshine that manage to find their way 
+beneath the shimmering surface of the ocean, every grain of sand stands out
+compared to the ones surrounding it. Some particles clear and others opaque,
+the sand is similar to the stones of the path in that every grain of sand must
+have been placed in its exact position, for the sandy dunes within the
+village have the appearance of millions of colors skillfully swirled together
+to bring out the individual qualities of every hue. Danu Circle continues to
+the east and west; Cenad Way begins to your southeast.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18063
+D3
+~
+~
+0 -1 18065
+D8
+~
+~
+0 -1 18077
+R M 0 18017 5 18064
+S
+#18065
+Danu circle~
+~
+To your south stands one of the lone trio of buildings found within the 
+village. Oddly, as you approach this small, hollow mound of sand, you notice
+several quick, astounded glances in your direction-as though you are about to
+attempt something unheard of! Turning your attention back to the structure
+before you, the designs skillfully embeded into the sand walls jump out at you,
+assailing your senses. Each of the scenarios takes place on a different 
+landscape; mountains, hills, forests, plains and more are represented on this
+amazing tribute to the virtues of earth. To your east and southwest, Danu
+Circle continues on its way.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18064
+D2
+~
+~
+0 -1 18066
+D9
+~
+~
+0 -1 18067
+S
+#18066
+A one-room hovel~
+~
+You feel a sense of surprise as you enter this hovel; instead of the tiny
+interior that you expected, you find yourself confronted with a vast plain of
+rolling hills; in the background you see... That can't be mountains, can it?
+A sense of awe consumes you as you look around. Every landform concievable
+both above and below the surface is represented here, although completely void
+of any plant or animal life. Not even the fish venture into this building.
+A piece of ground darker than its surroundings catches your eye and you find
+yourself drawn to it. A hole, deep enough that you cannot see to the bottom
+lies before you. You wonder what would happen if you threw something into it...
+~
+1 3154956 12
+D0
+~
+~
+0 -1 18065
+R M 0 18020 1 18066
+S
+#18067
+Danu Circle~
+~
+Scattered beneath your feet and peppering the entire village area, the
+scintilating seashells add yet another impression of sparkling color to the 
+already gorgeous setting you slowly walk through. Like the fish lazily swimming
+around you, no two shells look even remotely similar-some shells shine
+brightly while others glow dully; a few shells are streaked with colors while
+others are colored uniformly. While two shells may share a color, they may
+differ in shape and likewise, two shells with a common shape may sport two
+completely different color combinations. Danu Circle continues to your south
+and northeast.
+~
+1 3153920 12
+D2
+~
+~
+0 -1 18068
+D6
+~
+~
+0 -1 18065
+R M 0 18015 4 18067
+  R E 1 18013 1 14
+S
+#18068
+Danu Circle~
+~
+One of the three structures in the village stands directly to your east. From
+the outside you see the intricate details rendered on the surface of the 
+building, a veritable mural of scenes depicting the virtues of fire. Delectable
+looking meat cuts roasting on spits, cheery flames warming a freezing hunter,
+a low campfire keeping wild beasts at bay while a family sleeps at night...
+The scenes seem to come to life before your wondering eyes, you find yourself
+dazzled by the flames as though they were real rather than drawings on the
+outer wall of a building. If the building is rendered in this much detail on
+the outside, surely the interior must be something to behold! Danu Circle
+runs to your north and south.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18067
+D1
+~
+~
+0 -1 18069
+D2
+~
+~
+0 -1 18070
+R M 0 18018 1 18068
+S
+#18069
+Inside a small hut~
+~
+A blast of heat sears your face as you enter this room, you feel an intense
+urge to back away as fast as you can, but you somehow find the willpower to
+remain long enough to see the interior. The water bubbles as though coming to
+a boil which is, of course, impossible given the pleasant temperature of the
+water outside of this room. Squinting your eyes against the pain consuming
+your entire being, you can dimly see that the red-tinted water in the room
+swirls gently, a firey inferno that will eventually cook you alive. And yet..
+Something in the middle of the room draws your attention, a blaze of fire
+burns brightly, just as if it were located on the surface. An urge to throw
+something into the dancing flames causes you to clench your fists at your
+sides...
+~
+1 3154952 12
+D3
+~
+~
+0 -1 18068
+R M 0 18019 1 18069
+S
+#18070
+Danu Circle~
+~
+A small school of fish swims before your nose as you continue along the winding
+circle. Strangely, out of all the different types of fish you see, none are
+larger than your head and the vast majority are much smaller than that. Each of
+the fish can claim its own combination of colors and designs, no two are even
+close to similar. One particular fish's body is covered in short, ornate spikes
+that look anything but sharp, another fish's scales are black as the darkest
+night with the sole exception of two snow-white rings around its eyes.
+Apparantly the fish represent yet another of the numerous efforts to transform
+the formarly mundane surrounding into a place of beauty.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18068
+D8
+~
+~
+0 -1 18071
+S
+#18071
+Danu Circle~
+~
+A scattering of delicate sea-flowers decorates the brightly colored stone path
+you follow, each flower containing soft-looking petals that wave gently in the
+inevitable eddies of the currents of water. Each glistening ray of sunshine 
+that filters down through the surface of the ocean strikes and highlights the
+colors in its path, illuminating the brilliant hues until they virtually glow.
+The amount of work put into cultivating the area within the confines of the
+village is obvious, several generations must have lent a helping hand in the
+gargantuan task of creating this perfect envrionment. Truly the colorful result
+is much preferable than the normal monotonus bluish-green that normally 
+prevails in deep water. Danu circle continues to your east and winds to the
+northwest.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18072
+D7
+~
+~
+0 -1 18070
+R M 0 18018 2 18071
+S
+#18072
+Danu Circle~
+~
+The path winding beneath your feet seems to gently nudge you in the direction
+that it wishes you to take as though it is a conscious entity, it certainly
+looks almost like a serpent cloaked in all the colors of the rainbow, each
+stone having been painted a different color than the ones surrounding it.
+Traveling in a temporarily straight line going east and west, Danu Circle
+slowly wraps itself around the town, connecting each of the intricate
+buildings.
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18059
+D3
+~
+~
+0 -1 18071
+R M 0 18014 1 18072
+  R E 1 18012 1 5
+S
+#18073
+Cenad way~
+~
+Cutting the path around the village into two semi-circles, Cenad Way's beauty
+stands out, even in comparison to Danu Circle. Because it is the point from
+which the beautification process initially began, painstaking measures were
+taken to ensure that every single particle of sand, every plant to be seen,
+was placed perfectly. Several of the plants growing along the sides of the
+path appear unique unto themselves, each one more unusual than the last, though
+all of them appealing to the eye and warming to the soul. Cenad Way continues
+to the northwest and connects to Danu Circle to your southeast.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18074
+D8
+~
+~
+0 -1 18059
+S
+#18074
+Cenad way~
+~
+A specific detail that your amazed eyes take in as you wander down the dividing
+path is the architecture of the three buildings themselves. Constructed 
+entirely of sand, the handful of buildings standing within the village 
+represent a unique part of the flowering beauty of this section of the ocean
+bottom. Because there are only the few buildings to be found in the village,
+an impression of confinement, so common within crowded cities, is avoided.
+Obviously, without any of the outdoor elements that those who live above the
+surface of the ocean seem to almost fear, the citizens of the village prefer
+to live outside rather than destroy their hard work by constructing unsightly
+structures.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18075
+D8
+~
+~
+0 -1 18073
+R M 0 18023 1 18074
+S
+#18075
+The Village Square~
+~
+The epicenter of the sprawling cultivation, the village square draws your eyes
+as nothing else ever could; you feel as though you will never again be content
+to see anything but the chaotic beauty surrounding you. No matter how dazzling
+you thought Danu Circle and Cenad Way appeared, the village square takes your
+definition of beauty to a whole new meaning. Sheltered within a light screen
+of exotic plants that grow taller and more fully than any other plant within
+your memory, the jumbled swirls and bright prominant streaks of colors coupled
+with shapes seem to move constantly, showering the square with the light of
+of a million complimentary hues, each one distorted by the scintilating 
+sunlight. Flitting freely through the gently swaying branches, the ever-present
+fish add life to the pictoresque scene before you.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18076
+D8
+~
+~
+0 -1 18074
+R M 1 18023 1 18075
+R M 1 18014 3 18075
+  R E 0 18012 1 5
+R O 0 18015 1 18075
+S
+#18076
+Cenad way~
+~
+As you stroll along the tranquil path, your wandering eyes drink in all the
+bizarre details of life beneath the water. Though there are a fair number of
+villagers wandering aimlessly around Danu Circle, the vast majority of the
+citizens can be found outside of the Circle, each person busying himself with a
+variety of odd items, the tools used to cultivate the bottom of the ocean and
+hasten the beautification process. Carefree children swim in groups or alone,
+chasing each other in addition to the almost-tame fish and amusing themselves
+without getting in the way of their busy elders. You are surprised to notice
+that not one of the villagers actually touches the bottom of the ocean; they
+do not want to destroy generations of work by constantly trodding on the 
+perfectly placed sand and plants. Obviously, this village is a place of peace
+and serenity, completely belying the need for the ever-present guards... Cenad
+Way continues to your southeast and northwest.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18077
+D8
+~
+~
+0 -1 18075
+R M 0 18017 3 18076
+S
+#18077
+Cenad way~
+~
+Completely astounded by the sighs within the deceptively tiny village, you find
+that your attention has been completely diverted from the enormous mound of 
+sand that lies roughly to your south. You find it difficult to believe that
+anything could surpass the beauty surrounding you; it must have consumed the
+entire attention of generations upon generations to create the haven you have
+seen and not even the most ornate palace could ever hope to compare, yet the
+palace offers a certain amount of intrigue. Perhaps the palace, though maybe
+not as gorgeous as the village, might answer some of your unasked questions
+about this underwater culture. Cenad Way continues to your southeast and runs
+into Danu Circle to your northwest.
+~
+1 3153920 12
+D7
+~
+~
+0 -1 18064
+D8
+~
+~
+0 -1 18076
+R M 0 18017 4 18077
+S
+#18078
+Floating in a void~
+~
+~
+1 3153924 12
+S
+#18079
+A meandering path~
+~
+As you look around yourself you begin to fully appreciate the beauty 
+surrounding you. The water that surrounds you tints everything you see a light
+greenish-blue, but the sunlight that enters from the surface of the ocean adds
+a soft glow to everything, making even the smallest details stand out to your
+eyes. The sand that coats the bottom of the ocean sparkles randomly in the pale
+sunlight that reaches so far down; it seems as though you are walking on a
+glistening field of snow rather than the depths of a ocean. As you follow the
+path slowly, your eyes continue to take in the multitude of new and amazing
+sights.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18015
+D2
+~
+~
+0 -1 18080
+S
+#18080
+Approaching a forest of weeds~
+~
+Not even the wonders that you have seen below the surface of the water thus far
+could prepare you for your first close glimpse of the forest of seaweed that
+towers now before you. Although your first impression of the huge stalks was
+that they formed a solid wall, you can see now that there are several large
+gaps between the plants that are not readily visible because of the plants that
+grow behind the initial line of seaweed. A myriad of fish, some tiny and some
+larger than you swim between the stalks of seaweed, each more different and
+breathtaking than the last, but all unlike anything you have ever seen before.
+Your feet begin to take on a quicker pace, as though the forest draws you into
+it...
+~
+1 3153924 12
+D0
+~
+~
+0 -1 18079
+D2
+~
+~
+0 -1 18081
+S
+#18081
+An overgrown weed bed~
+~
+As you push your way through the weeds that bar your way, you find yourself
+surrounded by towering plants, each of them reaching up high enough to touch
+the surface that seems to be miles above your own head. As you pick your way
+among the plants that seem to sprout everywhere, you notice that the way seems
+a bit more clear to the east, though the forest gets even more dense to the 
+west and south.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18080
+D1
+~
+~
+0 -1 18082
+D2
+~
+~
+0 -1 18086
+D3
+~
+~
+0 -1 18094
+R M 0 18028 8 18081
+R M 0 18027 4 18081
+S
+#18082
+A sandy plain~
+~
+The forest of seaweed that towers to the west abruptly ends, cutting a straight
+line a fair distance to the south over the flat land surrounding you. All 
+around you the land stretches without hill or plant, save the forest to your
+west and a sheer cliff to the distant south. The sand itself that lies beneath
+your feet is so fine in texture that firm footing is nearly impossible; in
+fact, you find yourself slowly sinking into the sand as you stand in one place
+too long. Half-burried within the sand lie a myriad of seashells and the 
+occasional skeleton of a long-dead fish. The only thing to do is probably to
+continue moving...
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18083
+D2
+~
+~
+0 -1 18085
+D3
+~
+~
+0 -1 18081
+R M 0 18027 4 18082
+S
+#18083
+A sandy plain~
+~
+All around you lie endless dunes of sand, almost as though you stand in the
+middle of an underwater desert. To the west the sand seems to abruptly become
+a tall, impenetratable wall of green while to the south the field continues
+on until it slowly melts into a rocky area with stones that appear from this
+distance to be many times larger than you. The sand beneath your feet is 
+gritty and extremely difficult to walk thorough because it continuously shifts
+beneath your feet, even as you stand still, causing you to trip often. As you
+turn to look to your east, you recieve a sharp poke from the trident of your
+ever-present merguard; apparantly that way is forbidden to outsiders...
+~
+1 3153920 12
+D2
+~
+~
+0 -1 18084
+D3
+~
+~
+0 -1 18082
+R M 0 18025 1 18083
+S
+#18084
+A sandy plain~
+~
+The sand on which you tread carefully crunches audibly beneath your feet when
+even the tiniest amount of pressure is applied to the gravely sand. Sounding
+almost like glass grinding against glass, the sound grates in your ears,
+causing you to cringe as you try to find the fastest way out of the patch of
+sand. Your searching eyes unwittingly take in your surroundings and you see
+several short, scrubby, sickly plants as they attempt to find life sustaining
+nutrience within the inhospitable sand. To your south the sand becomes a 
+scattering of solid rocks; to the north and west lie more sand...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18083
+D2
+~
+~
+0 -1 18093
+D3
+~
+~
+0 -1 18085
+R M 0 18026 4 18084
+S
+#18085
+A sandy plain~
+~
+A skull of a long-dead animal meets your gaze as your eyes travel over this
+hard-packed section of sand. The sand beneath your feet feels as though you
+are walking on rocks; the only difference between the ground you stand on and
+the rocks that you can see sprouting from the ground just south of you is the
+distinctive coloring, unlike the pale grey that usually charactorizes a rock.
+To your west you can see nothing but the solid wall of green seaweed that
+seperates the sandy plain you stand on from the forest of weeds.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18082
+D1
+~
+~
+0 -1 18084
+D2
+~
+~
+0 -1 18092
+D3
+~
+~
+0 -1 18086
+R M 0 18027 4 18085
+R M 0 18028 8 18085
+S
+#18086
+An overgrown weed bed~
+~
+Though the weeds here are more dense than the ones that you initially 
+encountered upon entering this forest of giant seaweed, it is still apparant
+that they thin quickly to the east and south. However, the areas to your north
+and west are still covered thickly. Wherever you turn thick, slimy leaves and
+stalks brush against your face, leaving a slimy trail that lingers despite the
+water surrounding you. The places not already claimed by a piece of seaweed are
+occupied by the fish that seem to thrive in this area of the ocean...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18081
+D1
+~
+~
+0 -1 18085
+D2
+~
+~
+0 -1 18091
+D3
+~
+~
+0 -1 18087
+R M 0 18026 4 18086
+R M 0 18028 8 18086
+S
+#18087
+An overgrown weed bed~
+~
+Fortunately, the weeds have thinned out enough here to allow much easier 
+movement on your part. All around you grow towering seaweed plants in a variety
+of different colors, from red to yellow to light green to the deepest violet.
+The sand that crunches softly beneath your feet doesn't seem like a very good
+place for such enormous plants to grow, for it shifts with even the softest
+touch, it is very fine. To your south you can see that the forest of weeds 
+seems to thin out quite a bit, though to the north the foliage seems to grow
+even more thickly. The east and the west the plants seem to grow about as
+thickly as those surrounding you.
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18094
+D1
+~
+~
+0 -1 18086
+D2
+~
+~
+0 -1 18090
+D3
+~
+~
+0 -1 18088
+R M 0 18028 8 18087
+S
+#18088
+An overgrown weed bed~
+~
+Once again the sunlight can shine through the weeds, albeit very faintly, and
+the foliage seems to be a bit lighter here. The multitude of fish are back,
+swimming and flitting about as though they haven't a care in the world, though
+some of them are large enough to be threatening should they attack you or if
+you decide to attack them. You look at the sand beneath your feet and see that
+life abounds even there, you will have to be more careful where you step from
+now on. Half buried in the sand are clams and oysters, along with several 
+other creatures you can't put a name to. Perhaps some of them could be 
+useful sometime...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18095
+D1
+~
+~
+0 -1 18087
+D2
+~
+~
+0 -1 18089
+R M 0 18026 4 18088
+S
+#18089
+A field of rocks ~
+~
+Surrounding you is a field of rocks, some tiny pebbles and others larger than
+you. It would be wise for you to watch your step as you pick your way through
+this field as many of the rocks strewn here are jagged; they could easily
+skewer you should you take a misstep and have the misfortune to land on one of
+the sharp points. Some of the pebbles, however, look rather interesting; maybe
+a few of them might be worth your while to pick up...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18088
+D1
+~
+~
+0 -1 18090
+R M 0 18029 3 18089
+S
+#18090
+A field of rocks ~
+~
+To both your left and right runs a narrow strip of rocky debris that abruptly
+ends a hundred paces to the south and as many to the north. To the south you
+see a sheer cliff a thousand paces or more in height that towers well above the
+surface of the ocean while to your north lies a forest of seaweed. All around
+you are rocks that looks as though strewn by the hand of a giant, some tiny and
+others enourmous...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18087
+D1
+~
+~
+0 -1 18091
+D3
+~
+~
+0 -1 18089
+R M 0 18029 3 18090
+S
+#18091
+A field of rocks ~
+~
+The rocks surrounding you seem to be smaller than the enourmous ones to your
+left and right, though they are still large in comparison to you. In direct
+contrast to the semi-smooth edges of the rocks to your left and right however,
+every rock within touching distance ends jaggedly, with either razor sharp 
+sides or a wicked point that would certainly pierce through even a dragon's
+hide with even the slightest pressure. Be sure to step carefully to avoid these
+dangerous rocks!
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18086
+D1
+~
+~
+0 -1 18092
+D3
+~
+~
+0 -1 18090
+R M 0 18029 3 18091
+R M 0 18028 8 18091
+S
+#18092
+A field of rocks ~
+~
+&CTo your left and right lie a myriad of rocks, big and small, bright and 
+dull, sharp and smooth. However, there is a uniformity to this area that 
+is a bit odd; no rock is next to another like it. For example, a smooth 
+rock would not be found next to another smooth rock and so on. To your 
+north lies the outside corner of an extraordinarily dense forest of 
+underwater plants. To the east and west the strip of rocks continues, 
+while your passage to the south is blocked permanently by a sheer rocky 
+cliff that towers above the water. 
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18085
+D1
+~
+~
+0 -1 18093
+D3
+~
+~
+0 -1 18091
+R M 0 18028 8 18092
+R M 0 18028 8 18092
+S
+#18093
+A field of rocks ~
+~
+To your left is a fairly straight strip of rocky ground, perhaps twenty paces
+wide and a hundred paces long. Between the rocks lies very fine sand, so thin
+in fact, that it makes solid footing on the rocks nearly impossible to find;
+this area is not for the weak-hearted or those who have anything but perfect
+balance. To your south rises a sheer cliff that wraps around to cut off your
+way to the east as well; the cliff towers high above the surface of the ocean,
+traveling nearly vertically from the point where it juts out from the ground.
+To your north lies a plain, sandy field...
+~
+1 3153920 12
+D0
+~
+~
+0 -1 18084
+D3
+~
+~
+0 -1 18092
+R M 0 18027 4 18093
+S
+#18094
+An overgrown weed bed~
+~
+Though you hadn't previously thought it possible, the plants surround you even
+more closely than before, barely leaving you room to move, let alone find a
+path between the stalks, though you can still make your way to the west if you
+should wish. The fish, which had previously avoided you as they swim through
+the stalks, now bump into you occasionally as they attempt to go about their
+business, whatever that may be. All around you the forest seems to be closing
+in slowly...
+~
+1 3153920 12
+D1
+~
+~
+0 -1 18081
+D2
+~
+~
+0 -1 18087
+D3
+~
+~
+0 -1 18095
+R M 0 18026 4 18094
+S
+#18095
+An overgrown weed bed~
+~
+So dense is the growth here that it is nearly impossible to move; the stalks
+of seaweed growing to the west are so close together, in fact, that the only
+visible breaks in the folliage are only wide enough for the tiniest of the
+fish that still mill around you to fit through. Fortunately, the way to the
+south seems to be just clear enough that you can make your way in that 
+direction if you should chose to. Not even the sunlight can filter in through
+the weeds, leaving this area of the forest a dark, solemn place.
+~
+1 3153924 12
+D1
+~
+~
+0 -1 18094
+D2
+~
+~
+0 -1 18088
+R M 0 18025 2 18095
+S
+#18200
+Floating in a void~
+~
+~
+1 4 12
+S
+#0
+
+
+#SHOPS
+ 18001    0  0  0  0  0   120  90         0 23    ; beggar
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  18000 spec_guard
+S
+
+
+#$

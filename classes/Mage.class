@@ -1,0 +1,107 @@
+Name           Mage~
+Filename       Mage~
+Class          2
+Starting       1
+AttrPrime      3
+AttrSecond     4
+AttrDeficient  0
+Races          253952
+Nocombo        0
+Reclass        0 0 0
+Skilladept     95
+Thac0          18
+Thac32         10
+Hpmin          63
+Hpmax          78
+ManaMin        16
+ManaMax        35
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'astral walk' 45 95
+Skill 'continual light' 3 95
+Skill 'create food' 7 95
+Skill 'create spring' 7 95
+Skill 'detect hidden' 4 95
+Skill 'detect invis' 9 95
+Skill 'dispel magic' 19 95
+Skill 'elven features' 68 95
+Skill 'enlarge' 4 95
+Skill 'extradimensional portal' 18 95
+Skill 'farsight' 43 95
+Skill 'feline grace' 31 95
+Skill 'find familiar' 2 95
+Skill 'fireball' 42 95
+Skill 'fly' 22 95
+Skill 'gamblers luck' 78 95
+Skill 'giant strength' 12 95
+Skill 'goblin cunning' 62 95
+Skill 'identify' 5 95
+Skill 'imprisonment' 65 95
+Skill 'insanity' 82 95
+Skill 'invis' 8 95
+Skill 'knock' 27 95
+Skill 'kolaks stand' 35 95
+Skill 'lightning' 20 95
+Skill 'locate object' 75 95
+Skill 'magic missile' 32 95
+Skill 'ogre vitality' 47 95
+Skill 'portal' 54 95
+Skill 'sage wisdom' 57 95
+Skill 'shadowform' 88 95
+Skill 'shrink' 30 95
+Skill 'slow' 37 95
+Skill 'static pulse' 2 95
+Skill 'transport' 50 95
+Skill 'wind attack' 51 95
+Skill 'word of recall' 16 95
+Skill 'aid' 1 95
+Skill 'astral attack' 70 95
+Skill 'behead' 1 95
+Skill 'climb' 1 95
+Skill 'coalesce' 21 95
+Skill 'cook' 1 95
+Skill 'dodge' 1 95
+Skill 'dual wield' 17 50
+Skill 'dye' 1 95
+Skill 'eldritch bolt' 92 50
+Skill 'flint fire' 1 95
+Skill 'fourth attack' 40 95
+Skill 'higher magic' 50 95
+Skill 'kick' 10 95
+Skill 'meditate' 6 95
+Skill 'mount' 1 95
+Skill 'parry' 3 95
+Skill 'punch' 1 95
+Skill 'remember' 34 95
+Skill 'scan' 1 95
+Skill 'scribe' 49 100
+Skill 'second attack' 10 95
+Skill 'sharpen' 1 95
+Skill 'shield' 14 95
+Skill 'slice' 1 95
+Skill 'swim' 1 95
+Skill 'third attack' 25 95
+Skill 'trance' 29 95
+Skill '1h short blades' 1 95
+Skill 'pugilism' 1 95
+Skill 'staves' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

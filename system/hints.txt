@@ -1,0 +1,96 @@
+Text Mud tutorial old news for you? Type HELP SKIP.~
+Low  0
+High 1
+End
+Text Not quite sure what to do? Type JOURNAL to see what quests you are currently working on.~
+Low  0
+High 10
+End
+Text No longer need these hints? Type CONFIG HINTS to turn them off.~
+Low  0
+High 10
+End
+Text Would you like to see different colors? Customize them with ease. Type HELP COLOR.~
+Low  0
+High 10
+End
+Text It's sometimes better to flee than to die. Check out HELP WIMPY to set the auto-flee feature.~
+Low  1
+High 10
+End
+Text Auto-looting makes grabbing equipment from corpses easy. Check HELP CONFIG for more information.~
+Low  1
+High 10
+End
+Text If you ever get lost, type HELP MAP to find your way around your home city.~
+Low  1
+High 10
+End
+Text You can use the WHEREIS command to find NPC's in your home town. Type WHEREIS <NAME>.~
+Low  1
+High 10
+End
+Text Struggling to find a teacher but there's a higher level player online? Check out HELP TRAIN.~
+Low  1
+High 10
+End
+Text Are you looking for a place to level up? Find the Portal Stone in your home town and type ACTIVATE.~
+Low  1
+High 20
+End
+Text Are you lost and want to find your home city? You can type RECALL up to level 20.~
+Low  1
+High 20
+End
+Text Do you have glory to spend? Read HELP GLORY for useage and type GLORY COSTS to see what you can buy.~
+Low  1
+High 20
+End
+Text Earn in game rewards! Read HELP CONTRIBUTE to find out how to gain glory.~
+Low  1
+High 50
+End
+Text See how many items you can equip and where. Type CONFIG SLOTS.~
+Low  1
+High 10
+End
+Text As a non-dragon you can join a clan at level 10. Check out HELP CLAN.~
+Low  1
+High 15
+End
+Text Looking for directions to somebody for your quest in the city? Type WHEREIS <NAME>.~
+Low  1
+High 20
+End
+Text You can browse all help files easily. Type HList <letter> to get a list of help files for that letter.~
+Low  1
+High 20
+End
+Text Are you lost in the Wilderness? Use the Landmark command to get directions.~
+Low  1
+High 20
+End
+Text Struggling to figure out how something works? Type HELP <WORD>.~
+Low  1
+High 20
+End
+Text Gain rewards for writing a character bio or a text or audio game review! Check out HELP CONTRIBUTE~
+Low  1
+High 50
+End
+Text Sharp weapons will blunt over time. Buy a sharpening stone and keep your weapon in peak condition. See HELP SHARPEN.~
+Low  1
+High 10
+End
+Text Save your fingers and your keyboard. Check out our built in alias system. Read HELP ALIAS.~
+Low  1
+High 10
+End
+Text New to the game? Check out HELP NEWBIE for some starting out tips.~
+Low  0
+High 5
+End
+Text To join in with game discussions and keep up to date, check out HELP BOARD.~
+Low  1
+High 10
+End

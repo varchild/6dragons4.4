@@ -1,0 +1,9861 @@
+#AREA        Manoake City~
+
+
+
+#VERSION     11
+#AUTHOR      Taon~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+30 80 1 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31254266 0 999702511 999735513 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#31300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31301
+thin snake~
+&PA thin snake &D~
+&PA thin snake, is hanging off a branch overhead &D
+~
+~
+0
+Clanname none~
+0
+0
+3 512 -200 C
+5 0 0 50d1+5 0d0+1
+0 0 0 0 8 
+0
+115 115 0
+5 6 6 15 15 13 17
+0 0 0 0 0
+58 3 0 0 1 1 0
+1 1 65553 0 0 0 262145 524290
+> all_greet_prog 5~
+mppause 4
+mpechoat $n &cA thin snakes head raises into a striking position.&D
+mppause 4
+~
+|
+#31302
+ugly goblin~
+An Ugly Goblin~
+An Ugly Goblin is here, awaiting a victim.
+~
+~
+0
+Clanname none~
+0
+0
+35 41480 -400 C
+11 0 0 5d10+200 1d5+5
+0 0 0 0 120 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 2 0 0 16384 1 2
+0 0 1963 2097664 0 4096 1073746017 526347
+> all_greet_prog 100~
+if race($n) == dwarf
+  mppause 3
+  mpechoat $n &CAn Ugly Goblin says, 'You worthless scum die!'&D
+endif
+~
+|
+#31303
+A Spider~
+A venomous spider~
+A venomous spider is hanging from a branch, spinning his web.
+~
+~
+0
+Clanname none~
+0
+0
+193 33280 0 C
+4 0 50 50d1+5 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 21 0 0 0 1074003969 10
+#31304
+A Old Dwarf~
+an old dwarf~
+An old dwarf is cleaning his home.
+~
+~
+0
+Clanname none~
+0
+0
+16777223 172 0 C
+45 0 -100 1d500+8000 1d5+20
+0 0 0 0 500 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 2 0 0 1 1 2
+0 0 1999 2099200 0 0 1375731776 2305
+> all_greet_prog 100~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 3
+    ponder
+    mppause 2
+    mpechoat $n &CAn old dwarf says, 'Do you just walk into anyone's home?'&D
+    mppause 2
+    glare $n
+  else
+    mppause 4
+    mpechoat $n &CAn old dwarf says, 'Get out of my house, you fool!'&D
+    mppause 3
+    slap $n
+  endif
+endif
+~
+|
+#31305
+fierce wolf~
+A Fierce Wolf~
+A Fierce wolf, is searching for prey
+~
+~
+0
+Clanname none~
+0
+0
+229 0 0 C
+5 0 -1 5d10+100 0d0+1
+0 0 0 0 15 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 4 0 0 1 1 0
+0 0 1677 0 0 0 1 524290
+> all_greet_prog 20~
+if ispc($n)
+  mppause 3
+  mpechoat $n &cThe light blue eyes of the fierce wolf, begin to draw your attention, as the tiny hairs on the wolf's back begin to raise up.&D
+endif
+~
+|
+#31306
+A Guard~
+A very large guard~
+A Dwarf Guard, is watching his post 
+~
+~
+0
+Clanname none~
+0
+0
+16777219 4194344 0 C
+65 0 -100 1d500+6000 2d8+20
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 7
+40 40 1165 0 0 0 224 524291
+> speech_prog yes~
+if ispc($n)
+  mppause 3
+  nod
+  mppause 3
+  unlock gate
+  open gate
+endif
+~
+> speech_prog no~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CA very large guard says, 'You just don't know what your missing.'&D
+endif
+~
+> speech_prog maybe~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CA very large guard says, 'I think you need to make up your mind!'&D
+endif
+~
+> act_prog p takes flight up and over the closed gate.~
+if ispc($n)
+  yell Got one coming over the wall into the city, watch yourself!
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+  smile $n
+  if wasinroom($n) == 31324
+    mppause 3
+    mpechoat $n &CA very large guard says, 'Want me to let you in the city?'&D
+    mpechoat $n &cType &WSAY YES&c, &WSAY NO&c or &WSAY MAYBE&c.&D
+  else
+    if wasinroom($n) == 31326
+      mppause 3
+      close gate
+      lock gate
+    endif
+  endif
+endif
+~
+|
+#31307
+A Boar~
+A Wild Boar~
+A Wild Boar, is here grunting
+~
+~
+0
+Clanname none~
+0
+0
+129 0 0 C
+4 0 0 0d0+0 0d0+0
+0 0 0 0 10 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+25 4 0 0 1 1 0
+0 0 141 0 0 0 1 524290
+> all_greet_prog 70~
+if ispc($n)
+  mppause 3
+  grunt
+endif
+~
+|
+#31308
+A Stout Guard~
+a stout guard~
+A stout guard stands here, watching his post.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 4194344 0 C
+35 0 0 0d0+0 2d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 0 1024 0 0 288 524291
+> speech_prog yes~
+if ispc($n)
+  mppause 3
+  nod $n
+  mppause 5
+  unlock gate
+  open gate
+endif
+~
+> speech_prog no~
+if ispc($n)
+  mppause 8
+  mpechoat $n &CA stout guard says, 'I don't blame you, that forest is too creepy for me.'&D
+endif
+~
+> speech_prog maybe~
+if ispc($n)
+  mppause 5
+  mpechoat $n &CA stout guard says,'Well, I think you need to make your mind up.'&D
+endif
+~
+> act_prog p takes flight up and over the closed gate.~
+if ispc($n)
+  yell Got one coming over the wall leaving the city, watch yourself!
+endif
+~
+> rand_prog 20~
+close gate
+lock gate
+~
+> all_greet_prog 100~
+if ispc($n)
+  if wasinroom($n) == 31325
+    if isevil($n)
+      mppause 5
+      mpechoat $n &CA stout guard says, 'I will keep my eye on you.'&D
+    else
+      mpechoat $n &CA stout guard says, 'Welcome to the great city of Manoake.'&D
+      close gate
+      lock gate
+    endif
+  else
+    if wasinroom($n) == 31327
+      mppause 3
+      mpechoat $n &CA stout guard says, 'Ready to leave?'&D
+      mpechoat $n &cType &WSAY YES&c, &WSAY NO&c or &WSAY MAYBE&c.&D
+    endif
+  endif
+endif
+~
+|
+#31309
+Father Kasin~
+Father Kasin~
+Father Kasin is standing on the podium preaching.
+~
+~
+0
+Clanname none~
+0
+0
+83886083 0 0 C
+77 0 -80 1d500+3000 2d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 4
+0 0 1415 0 0 0 64 524290
+> all_greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mppause 3
+    close door
+    close west
+    mpechoat $n &cA creek comes from the door as Father Kasin pushes it closed.&D
+    mppause 3
+    mpechoat $n &CFather Kasin says, 'Please you are not welcome around here, leave now before a constable sees you and throws you in jail.'&D
+  else
+    mppause 3
+    mpechoat $n &CFather Kasin says, 'Hello, welcome to my humble chapel.'&D
+  endif
+endif
+~
+|
+#31310
+Morig~
+Morig~
+Morig sits behind a long counter.
+~
+~
+0
+Clanname none~
+0
+0
+3 4194304 0 C
+60 0 -140 2d500+6000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+20 0 205 0 0 0 480 0
+> all_greet_prog 100~
+if ispc($n)
+  mppause 5
+  mpechoat $n &CMorig says, 'Kindly remove any gear, you would like me to repair, and type &WREPAIR&C.'&D
+endif
+~
+|
+#31311
+Hacard~
+Hacard~
+Hacard sits behind his desk looking busy.
+~
+~
+0
+Clanname none~
+0
+0
+65 4202496 0 C
+40 0 0 2d500+5000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 1 1 0
+0 0 1743 1024 0 0 1073741888 524290
+> rand_prog 10~
+if ispc($n)
+  mppause 3
+  mpechoat $n &cHacard motions toward the Library.&D
+endif
+~
+|
+#31312
+Soie~
+Soie~
+Soie is working hard in the gardens
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 199 0 0 0 224 524290
+> speech_prog yes~
+mppause 5
+Say Really? What did you need?
+mppause 3
+~
+> speech_prog rose~
+mppause 5
+say I have a few black roses, but they are very costly to grow.
+mppause 7
+sigh $n
+mppause 6
+say I cant just give it away, but for 500 silver I will give you one.
+~
+> act_prog p gives you 500 silver coins.~
+mppause 3
+smile $n
+mppause 5
+say As I promised one black rose.
+mppause 6
+mpoload 31319
+give rose $n
+mppause 4
+say Well I must be off I have lots of stuff that needs be done.
+mppause 4
+emote waves goodbye!
+~
+|
+#31313
+Manyia chubby dwarven female~
+Manyia~
+A chubby dwarven female walks around the store.
+~
+~
+0
+Clanname none~
+0
+0
+3 4194304 0 C
+60 0 -160 2d500+6000 3d8+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 6
+20 0 0 0 0 0 224 524291
+> all_greet_prog 100~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 3
+    look $n
+    mppause 3
+    mpechoat $n &CManyia says, 'Hello $n.race, have a look around.'&D
+    mppause 14
+    mpechoat $n &CManyia says, 'I will tell ya what I have a pair of gloves made only to fit the small fat fingers of a dwarf.'&D
+    mppause 4
+    mpechoat $n &CManyia says, 'I'm willing to sell them to you at a killer deal.  Would you like to see them?'&D
+    mpechoat $n &cType &WSAY SURE&c to see the gloves.&D
+  else
+    mppause 2
+    mpechoat $n &CManyia says, 'Welcome $n.race, to Manyia's Second Hand Armor Supply!'&D
+  endif
+endif
+~
+> speech_prog sure~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CManyia says, 'I might need to hold on to them a bit longer, come back soon I might sell them then.'&D
+endif
+~
+|
+#31314
+Omair dwarf short~
+Omair~
+A short dwarf, stands behind the counter trying to make sells
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31315
+reath dwarf ~
+reath~
+A skinny dwarf walks around hunched over.
+~
+~
+0
+Clanname none~
+0
+0
+3 37748736 0 C
+55 0 -140 2d500+5000 3d8+20
+0 0 0 0 0 
+0
+115 115 0
+14 13 13 15 13 13 13
+0 0 0 0 0
+2 6 0 0 1 1 5
+20 0 0 0 0 0 67109136 524290
+> all_greet_prog 100~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CReath says, 'Might I ask you for a small amount of your time?'&D
+  mpechoat $n &cType &WSAY YES&c or &WSAY WHY&c to continue.&D
+endif
+~
+> speech_prog yes~
+mppause 3
+mpechoat $n &CReath says, 'Well, I found this here sword just sitting around.'&D
+mppause 3
+mpechoat $n &cReath moves his head from side to side looking around the area.&D
+mppause 5
+mpechoat $n &CReath says, 'Just to be up front with you I'm trying to sell it for some quick gold.'&D
+mppause 3
+smile
+mppause 6
+mpechoat $n &CReath says, 'I will tell ya what six hundred gold, and this sword is all yours.'&D
+mppause 3
+mpechoat $n &cThe skinny dwarf shows off the sword of justice.&D
+mppause 7
+mpechoat $n &CReath says, 'TRUST ME!  It's well worth it.'&D
+mppause 4
+mpechoat $n &WGIVE 600 GOLD REATH&c or &WGIVE 2000 GOLD REATH&c to obtain the sword.&D
+~
+> act_prog p gives you 600 gold coins.~
+mppause 3
+mpechoat $n &CReath says, 'Wow, you sure did give that up pretty fast...'&D
+mppause 3
+mpechoat $n &cReath extends his finger to his mouth, and begins rubbing his lips.&D
+mppause 5
+mpechoat $n &CReath says, 'Hrm, lets make that another three hundred silver coins.'&D
+mppause 7
+mpechoat $n &CReath says, 'We don't want me walking away feeling ripped off, come on.'&D
+~
+> act_prog p gives you 300 silver coins.~
+if ispc($n)
+  mppause 3
+  smile $n
+  mppause 3
+  mpechoat $n &CReath says, 'I must say it has been a pleasure dealing with you!'&D
+  mppause 10
+  mpechoat $n &CReath says, 'Sucker!'&D
+  mpechoat $n &cA shadowy figure reveals himself and rushes up from behind...Klunnnnk!!!&D
+  mpdamage $n 100
+  mppause 3
+  mpechoat $n &cAs your hearing and sight begin to drain away, a loud snicker can be heard coming from Reath.&D
+  mppause 3
+  mpechoat $n &cYour hearing and sight slowly fade back, as you awake clutching your head in pain.&D
+  mptransfer $n 31365
+endif
+~
+> speech_prog why~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CReath says, 'Why???'&D
+  mppause 5
+  mpechoat $n &cReath shows you the sword of justice.&D
+  mppause 4
+  mpechoat $n &CReath says, 'That's why! You interested?'&D
+endif
+~
+> act_prog p gives you 2000 gold coins.~
+save
+if ispc($n)
+  mppause 5
+  mpechoat $n &CReath says, 'Hrm, good man I see I like you already.'&D
+  mppause 3
+  remove sword
+  mppause 2
+  mpechoat $n &cReath cleans the sword up a bit.&D
+  mppause 10
+  mpechoat $n &CReath says, 'Not a word on where this come from.'&D
+  mppause 3
+  smile $n
+  give sword $n
+endif
+~
+|
+#31316
+young child dwarf~
+A Young Dwarf~
+A young dwarf, is wandering around the area.
+~
+~
+0
+Clanname none~
+0
+0
+65 0 0 C
+6 0 0 5d10+100 0d0+1
+0 0 0 0 10 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 0
+0 0 207 0 0 0 64 2
+> rand_prog 5~
+if ispc($n)
+  mppause 4
+  smile 
+  mppause 3
+  mpechoat $n &CA Young Dwarf says, 'Hello, stranger.'&D
+  mppause 9
+  giggle
+endif
+~
+|
+#31317
+fat dwarf Gorin~
+Gorin~
+A fat dwarf, stands behind the counter.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 4194304 0 C
+50 0 -50 0d0+20000 2d10+8
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 6
+50 50 207 0 0 0 192 524290
+> all_greet_prog 100~
+if iscarrying($n) == 10005
+  mpechoat $n &CGorin says, 'Well yah have a message for me do yah?'&D
+  mppause 4
+  mpechoat $n &CGorin says, 'Give me the message, and I'll tell yah your final task.'&D
+else
+  mpechoat $n &CGorin says, 'Welcome to the Shop.'&D
+endif
+~
+> act_prog p gives you a writ of scrolled paper.~
+mppause 3
+mpechoat $n &CGorin says, 'Ok now, your final task is...
+mppause 5
+mpquest $n narcista 6
+mppause 4
+mpechoat $n &Cto find the Drow Underground City, and kill 6 Svirfneblin Gnomes!'&D
+mppause 3
+mpechoat $n &CGorin says, 'You must take the 6 daggers from their corpses and bring them...
+mppause 5
+mpechoat $n &Cto Sailor Tybias all 6 of them before saying the key words which are...
+mppause 5
+mpechoat $n &C&WNO GNOMES NO MORE&C.  He will check to see if you gave him 6 then.'&D
+~
+|
+#31318
+Krasni short dwarf~
+Krasni~
+A short dwarf dressed in white robes stands here.
+~
+~
+0
+Clanname none~
+0
+0
+3 128 0 C
+20 0 0 5d10+200 1d5+5
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 2
+0 0 0 0 0 0 96 526338
+> all_greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mpechoat $n &CKrasni says, 'Evil souls are not welcome here!'&D
+    mppause 4
+    mpechoat $n &cA short dwarf grabs you and tosses you outside of the Cathedral.&D
+    mpdamage $n 5
+    mptransfer $n 31379
+  endif
+endif
+~
+> all_greet_prog 50~
+if rand(50)
+  if ispc($n)
+    mppause 2
+    smile
+    mppause 3
+    mpechoat $n &CKrasni says, 'How's it going?'&D
+  endif
+endif
+~
+> speech_prog good~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CKrasni says, 'That's good to hear, sadly I cannot say the same...'&D
+  mppause 5
+  mpechoat $n &CKrasni says, 'I've been called to the king ten times today for prayer, he's really missing his sword...'&D
+  mppause 5
+  mpechoat $n &CKrasni says, 'I think that poorly dressed drunk in the local bar has something to do with it.'&D
+endif
+~
+|
+#31319
+melda dwarven female~
+Melda~
+A oversized dwarven female is taking a stroll.
+~
+~
+0
+Clanname none~
+0
+0
+16777413 0 0 C
+8 0 0 5d10+100 0d0+1
+0 0 0 0 8 
+0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 0
+0 0 0 0 0 0 64 1
+> rand_prog 10~
+if ispc($n)
+mppause 4
+mpecho The oversized woman begins to go into a coughing fit.
+mppause 4
+sit
+mpecho The oversized woman's face turns &rred&D as she falls to her knees.
+mppause 6
+stand
+mppause 3
+say Thanks for all your help!
+mppause 2
+glare $n
+endif
+~
+|
+#31331
+a brown dog~
+a brown dog~
+A brown dog is here, with his nose to the ground.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+4 0 0 50d1+1 0d0+0
+0 0 0 0 7 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 3 0 0 1 1 0
+0 0 0 0 0 0 64 0
+> all_greet_prog 45~
+if ispc($n)
+if isevil($n)
+growl $n
+bark
+else
+mppause 1
+sniffsniff $n
+endif
+endif
+~
+> rand_prog 5~
+if ispc($n)
+foam $n
+endif
+~
+> rand_prog 10~
+if ispc($n)
+whimper
+endif
+~
+|
+#31332
+old man Cavik~
+Cavik~
+An old dwarf is down on his knees in prayer.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 -1 C
+10 0 30 5d10+100 0d0+1
+0 0 0 0 3 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 6 0 0 1 1 1
+0 0 0 0 0 0 64 524288
+> all_greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mppause 5
+    mpechoat $n &CCavik says, 'HUH!  What are you trying to pull?'&D
+  endif
+endif
+~
+> rand_prog 5~
+mpecho &CCavik says, 'Forgive me!'&D
+~
+|
+#31333
+Toggin dwarf dressed~
+Toggin~
+A well dressed dwarf is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+3 128 0 C
+50 0 -140 2d500+5000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 2 0 0 1 1 4
+0 0 0 1024 0 0 256 524289
+> speech_prog yes~
+if ispc($n)
+  mppause 3
+  nod
+  mppause 3
+  mpechoat $n &CToggin says, 'Sure thing!'&D
+  mppause 3
+  open double
+  mppause 2
+  mpechoat $n &CToggin says, 'I hope you enjoy your visit.'&D
+  mppause 5
+  bow
+endif
+~
+> speech_prog no~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CToggin says, 'Fine! I was just making a effort to be nice.'&D
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+  if wasinroom($n) == 31379
+    if isevil($n)
+      mppause 3
+      mpechoat $n &CToggin says, 'You're not really welcome here, but it's not not my place to stop you from going in.'&D
+    else
+      mppause 3
+      mpechoat $n &CToggin says, 'Welcome to Manoake's Cathedral.'&D
+      mppause 4
+      mpechoat $n &CToggin says, 'Would you like for me to get the door?'&D
+      mpechoat $n &cType &WSAY YES&c or &WSAY NO&c to answer.&D
+    endif
+  endif
+endif
+~
+|
+#31334
+Saile dwarf~
+Saile~
+A well dressed dwarven female stands here
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+40 0 -100 2d500+2500 3d5+20
+0 0 0 0 30 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 1 1 3
+0 0 0 0 0 0 64 524291
+#31335
+dwarven warrior~
+A dwarven warrior~
+A dwarven warrior stands proudly here.
+~
+~
+0
+Clanname none~
+0
+0
+65 0 0 C
+20 0 -50 2d200+1000 2d5+20
+0 0 0 0 43 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 3
+0 0 0 0 0 0 272 524289
+#31336
+Lady Kristin~
+Lady Kristin~
+Lady Kristin makes her way around the busy hallway.
+~
+~
+0
+Clanname none~
+0
+0
+65 0 0 C
+45 0 -100 2d500+2500 3d6+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 1 1 4
+0 0 0 0 0 0 320 3
+#31337
+Choir member~
+Choir member~
+A well dressed choir member sings a note
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+4 0 50 50d1+5 0d0+0
+0 0 0 0 10 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31338
+Raven bird black~
+a raven~
+A dark colored bird flies low overhead.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 524288 0 C
+3 0 50 50d1+5 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31339
+old dwarf wise~
+A wise man~
+An old dwarf stands to one side of the fountain.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+40 0 -90 2d500+2500 3d6+20
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 14 13 13
+0 0 0 0 0
+2 1 0 0 1 1 4
+0 0 0 0 0 0 320 524288
+> all_greet_prog 25~
+if ispc($n)
+  if isevil($n)
+    mppause 1
+    growl $n
+  else
+    mppause 1
+    smile $n
+  endif
+endif
+~
+> act_prog p arrives from the west.~
+nod $n
+~
+> all_greet_prog 50~
+if race($n) == "dwarf"
+  mppause 3
+  mpechoat $n &CA wise man says, 'Why! Hello there buddy...'&D
+endif
+~
+|
+#31340
+traveling merchant~
+A traveling merchant~
+A traveling merchant is trying to sell off his goods here.
+~
+~
+0
+Clanname none~
+0
+0
+16777285 0 0 C
+23 0 -50 2d200+1000 2d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 3
+0 0 0 0 0 0 64 3
+> all_greet_prog 100~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CA traveling merchant says, 'Might I interest you in buying a item?'&D
+endif
+~
+> speech_prog no~
+if ispc($n)
+  mppause 1
+  mpechoat $n &CA traveling merchant says, 'It's your loss not mine.'&D
+  mppause 3
+  smile
+endif
+~
+> all_greet_prog 10~
+if ispc($n)
+  follow $n
+  mppause 25
+  mpechoat $n &CA traveling merchant says, 'I just thought you might want to take a look at the stuff I have.'&D
+  mpechoat $n &cType &WSAY LEAVE&c to get him to leave you alone.&D
+endif
+~
+> speech_prog leave~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CA traveling merchant says, 'Ok, Ok I will leave you alone.'&D
+  follow self
+  N
+  N
+  w
+  s
+  e
+  e
+  n
+  w
+  s
+endif
+~
+|
+#31341
+raluff dwarf burly~
+Raluff~
+A burly dwarf stands behind the large counter.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+50 0 -140 2d500+6000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+0 0 0 0 0 0 0 0
+> speech_prog wooden~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CRaluff says, 'It's very lightweight and cheap making it a ideal shield for the young ones.'&D
+endif
+~
+> speech_prog metal~
+if ispc($n)
+  mppause 5
+  mpechoat $n &CRaluff says, 'Ahhh, nice pick might I say.'&D
+  mppause 2
+  cough
+  mppause 4
+  mpechoat $n &CRaluff says, 'I made this shield within the walls of this very shop. To help
+  mpechoat $n &Cdwarven warriors, or other warriors have a decent shield while in combat.'&D
+endif
+~
+> all_greet_prog 100~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CRaluff says, 'Hello, Welcome to Raluff's Shield and Small Arms Supply.'&D
+  mppause 8 
+  mpechoat $n &CRaluff says, 'If you have a question about a certain item just say its name.'&D
+endif
+~
+> speech_prog stone~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CRaluff says, 'This shield is great for fighting dragons, its made of thick hard stone,
+  mpechoat $n &Cthat seems to shield very well against their breaths.  Although its weight
+  mpechoat $n &Cdoes make it very hard to carry around for long periods of time, also makes
+  mpechoat $n &Cit hard to move around while trying to use it in combat.'&D
+endif
+~
+> speech_prog golden~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CRaluff says, 'It's a lightweight and sharp weapon that has proven to be very easy
+  mpechoat $n &Cto use.  The gold on the dagger is simply plated over the long lasting
+  mpechoat $n &Csharp steel blade.'&D
+endif
+~
+> speech_prog pocket~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CRaluff says, 'It's small and great for the young ones, nothing really good about it.
+  mpechoat $n &CIt's just like all the other pocket knives really.'&D
+endif
+~
+|
+#31342
+Kaygem~
+Kaygem~
+An ugly dwarf stands at the table in the middle of the room.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+35 0 -50 1d500+1600 2d8+20
+0 0 0 0 100 
+0
+115 115 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 3
+0 0 0 0 0 0 256 524290
+> all_greet_prog 100~
+if ispc($n)
+  mppause 4
+  mpechoat $n &cAn ugly dwarf takes his focus off his work, and looks up at you.&D
+  mppause 7
+  mpechoat $n &CKaygem says, 'Hrm...'&D
+  mppause 7
+  mpechoat $n &cAn ugly dwarf looks back down at the table.&D
+  mppause 100
+  tap
+  mppause 20
+  mpechoat $n &cAn ugly dwarf looks back up.&D
+  mppause 6
+  mpechoat $n &CKaygem says, 'You are still here?'&D
+endif
+~
+> speech_prog yes~
+if ispc($n)
+  mppause 5
+  mpechoat $n &CKaygem says, 'Well, unless you have something you would like to talk about, please leave.'&D
+endif
+~
+|
+#31343
+commoner~
+A commoner~
+A commoner makes his way down the busy streets.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+9 0 30 5d10+100 0d0+1
+0 0 0 0 13 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 1
+0 0 0 0 0 0 0 2
+> rand_prog 5~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CA commoner says, 'I hear Raluff is having a good sell on shields this week!'&D
+  mppause 2
+  smile
+endif
+~
+|
+#31344
+a fat mule~
+a fat mule~
+Some god abandoned a newly created a fat mule here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31345
+Nakren~
+Nakren~
+A very old gardener takes his time maintaining the gardens.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 80 3d10+1 0d0+1
+0 0 0 0 132 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 7 0 0 1 1 0
+0 0 0 0 0 0 64 1
+> all_greet_prog 100~
+if ispc($n)
+  mppause 6
+  mpechoat $n &CNakren says, 'Welcome to Manoake's exclusive gardens!'&D
+endif
+~
+> speech_prog rose~
+save
+if ispc($n)
+  mppause 5
+  mpechoat $n &CNakren says, 'OoOo!  That's a very rare rose you're hunting.  If I was you, I would track down Selie.  She tends to all the roses around here.'&D
+  mpechoat $n &cType &WSAY WHERE?&c to find out.&D
+endif
+~
+> speech_prog where?~
+if ispc($n)
+  if isevil($n)
+    look $n
+    mpechoat $n &CNakren says, 'I would never tell you.'&D
+  else
+    mppause 7
+    mpechoat $n &CNakren says, 'They tend to keep her busy around the gardens outside of the city.'&D
+  endif
+endif
+~
+|
+#31346
+robust dwarf Seznog~
+Seznog~
+A robust dwarf stands behind the small counter.
+~
+~
+0
+Clanname none~
+0
+0
+67108867 4194304 0 C
+50 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31347
+Krolin strong dwarf~
+Krolin~
+A strong dwarf keeps a close eye on his jewelry.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 4194432 0 C
+35 0 -80 1d500+1600 2d8+20
+0 0 0 0 133 
+0
+115 115 1
+13 13 13 14 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 4
+0 0 0 0 0 0 336 524289
+> all_greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mppause 3
+    mpechoat $n &CKrolin says, ,'I will be keeping my eye on you!'&D
+  else
+    mppause 3
+    mpechoat $n &CKrolin says, 'Be my guest, have a look around.'&D
+  endif
+endif
+~
+|
+#31348
+creepy dwarf brunk~
+Brunk~
+A creepy dwarf stands here selling potions.
+~
+~
+0
+Clanname none~
+0
+0
+1090519043 4194432 0 C
+37 0 -80 1d200+1400 2d8+18
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 3
+0 0 0 0 0 0 80 3
+> all_greet_prog 50~
+if ispc($n)
+  mpechoat $n &cA creepy dwarf takes a long look at you.&D
+  mppause 4
+  mpechoat $n &CBrunk says, 'Have a look around.'&D
+endif
+~
+|
+#31349
+Hirrek dwarf short fat~
+Hirrek~
+A short fat dwarf is here selling weapons.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+40 0 -80 2d500+2500 3d6+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 4
+0 0 0 0 0 0 304 524291
+> all_greet_prog 100~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CHirrek says, 'Come right on in, what can I help you with?'&D
+endif
+~
+|
+#31350
+elite palace guard warrior dwarf dwarven~
+a palace guard~
+An elite dwarven warrior serves as a palace guard.
+~
+~
+0
+Clanname none~
+0
+0
+3 2048 0 C
+74 0 -180 2d500+8000 3d5+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 8
+50 50 0 0 0 0 288 3
+> all_greet_prog 100~
+if isimmort($n)
+else
+  if ispc($n)
+    if isevil ($n)
+      mppause 3
+      mpat $n mpechoat $n &CA palace guard says, 'Ha! you must think I'm blind.. your nothing but trouble.'&D
+      mpat $n mpechoat $n &cA elite palace guard grabs you by the arm and escorts you away from the&D
+      mpat $n mpechoat $n &centrance of the palace.&D
+      mptransfer $n 31417
+    endif
+  endif
+endif
+~
+|
+#31351
+a small red crab~
+a beached fish~
+A odd colored fish flops around on the sand trying to make its way back to the water.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31370
+Craonin~
+Craonin~
+Craonin sits on a bench working on one of his carvings.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+33 0 -50 1d500+1600 2d6+10
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 17 0 0 1 1 3
+0 0 0 0 0 0 272 6145
+> all_greet_prog 100~
+if ispc($n)
+  mpechoat $n &CCraonin says, 'Could I interest you in investing into some of my art?'&D
+  mppause 4
+  mpechoat $n &CCraonin says, 'It's wood work, but I'm the best there is!'&D
+endif
+~
+|
+#31371
+a palace visitor~
+a palace visitor~
+A palace visitor makes his way around the busy halls.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+25 0 0 0d0+0 0d0+0
+0 0 0 0 103 
+0
+115 115 1
+13 13 13 13 15 13 13
+0 0 0 0 0
+0 16 0 0 1 1 0
+0 0 0 0 0 0 64 1
+#31376
+royal advisor~
+a royal advisor~
+A royal advisor, stands here muttering a few words below his breath.
+~
+~
+0
+Clanname none~
+0
+0
+65 32 0 C
+78 0 -200 2d200+10000 2d6+10
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 1 1 8
+50 50 0 0 0 0 112 3
+> all_greet_prog 20~
+if ispc($n)
+  mppause 2
+  grin 
+endif
+~
+> rand_prog 3~
+if ispc($n)
+  mpechoat $n &cA royal advisor looks at you.&D
+  mppause 5
+  mpechoat $n &CA royal advisor says, 'I swear that page, is always running his loud mouth!'&D
+endif
+~
+|
+#31377
+jester funny dwarf~
+A jester~
+A funny looking dwarf stands beside the king's throne, looking very anxious.
+~
+~
+0
+Clanname none~
+0
+0
+1073741827 0 0 C
+20 0 -50 2d200+500 2d6+10
+0 0 0 0 67 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 17 0 0 1 1 3
+0 0 0 0 0 0 80 3
+> greet_prog 25~
+if race($n) != dwarf
+  mppause 7
+  giggle $n
+  mppause 4
+  mpechoat $n &CA jester says, 'Oh! My I thought I looked funny!'&D
+endif
+~
+> greet_prog 100~
+if htown($n) == Dakar City
+  if rand(50)
+    tell $n Begone from here vile scum! Your kind is not welcome here.
+  else
+    snarl $n
+  endif
+else
+if istagged($n,manoakegreets)
+if quest(saintmanoake) > 2
+tell $n Welcome back to Manoake, Viceroy $n. My Lord the King, shall be right with thee.
+else
+tell $n My personal Hero! Within these walls, thine art always welcome.
+mppause 8
+tell $n Do you wish to speak with My Lord the King?
+endif
+else
+tell $n Welcome to Manoake. Art thou new here? Dost thou wishest to speak with mine Lord?
+mppause 5
+tell $n Thou art welcome to wait, but if I were thee, I would not get mine hopes up. For My Lord, being a busy King, dost not have time for thine self.
+mptag noexpire $n manoakegreets
+endif
+endif
+save
+~
+> speech_prog yes king~
+if quest(saintmanoake) < 2
+  if quest(jesterlute) > 3
+    tell $n Of course. My Lord will be right with you.
+    mppause 12
+    mpe &cThe Jester winks at you before clearing his throat and announces 
+    mpe &cwith a deep and surprisingly melodious voice,&D
+    mppause 20
+    mpe &YThe honorable $n to see you your majesty!&D
+  endif
+endif
+~
+> give_prog 'jesters harp' '31493'~
+say Yay! Thanks!
+mppause 10
+give harp $n
+~
+|
+#31378
+very old dwarf~
+a very old dwarf~
+A wrinkled up old dwarf stands here breathing heavily.
+~
+~
+0
+Clanname none~
+0
+0
+1027 0 0 C
+80 0 -200 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 8
+50 50 0 0 0 0 304 3
+#31379
+constable dwarf~
+An extremely large constable~
+An extremely large constable stands here watching over the cells.
+~
+~
+0
+Clanname none~
+0
+0
+3 2048 0 C
+79 0 -200 2d500+10000 3d8+20
+0 0 0 0 200 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 8
+50 50 0 0 0 0 208 524291
+> time_prog 18~
+mpechoat $n &CAn extremely large constable says,'Well I guess its time to let the sleepers go!'&D
+unlock south
+open south
+south
+mppause 2
+mpechoat $n &CAn extremely large constable says,'Ok! Let that be a lesson, no sleeping on the city streets.'&D
+mppause 25
+mpechoat $n &CAn extremely large constable says,'Well I don't have all day... lets get going.'&D
+mppause 25
+mpechoat $n &CAn extremely large constable says,'Stay then!'&D
+mppause 5
+north
+close cell
+lock cell
+~
+> act_prog p arrives from the north.~
+if ispc($n)
+  if isevil($n)
+    mppause 3
+    mpechoat $n &CAn extremely large constable says,'I heard you was wondering about!'&D
+    mpechoat $n &cAn extremely large constable grabs you and throws you into the cell to the south.
+    mptransfer $n 31489
+  else
+    mppause 3
+    mpechoat $n &CAn extremely large constable says,'What do you want?'&D
+  endif
+endif
+~
+> time_prog 12~
+mpechoat $n &CAn extremely large constable says,'Hmm, I guess they have spent enough time in there.'&D
+mppause 5
+unlock south
+mppause 3
+open south
+mppause 3
+south
+mppause 3
+mpechoat $n &CAn extremely large constable says,'Ok, now let that be a lesson, no sleeping on the streets of Manoake.'&D
+mppause 23
+mpechoat $n &CAn extremely large constable says,'I don't have all day...'&D
+mppause 24
+mpechoat $n &CAn extremely large constable says,'Well stay then.'&D
+mppause 6
+north
+close cell
+lock cell
+~
+|
+#31380
+bar keep dwarven barkeep dwarf short fat~
+an overweight dwarf~
+An overweight dwarven barkeep stands behind the counter, taking orders.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+50 0 -140 2d500+6000 3d8+20
+0 0 0 0 299 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+0 0 0 0 0 0 368 524291
+> all_greet_prog 100~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CAn overweight dwarf says, 'Hello their buddy, welcome to my Tavern.  What can I get you?'&D
+  mppause 33
+  mpechoat $n &CAn overweight dwarf says, 'Please don't just keep standing their, have a seat.'&D
+endif
+~
+> speech_prog Fight~
+if ispc($n)
+  mppause 3
+  mpechoat $n &cThe poorly dressed fat dwarf gets in your face.&D
+  mppause 3
+  mpechoat $n &CAn overweight dwarf says, 'Did I hear you say you wanted to fight?'&D
+  mppause 4
+  mpechoat $n &cThe poorly dressed fat dwarf begins to sway back and forth.&D
+endif
+~
+> speech_prog sure~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 3
+    mpechoat $n &CAn overweight dwarf says, 'You're lucky I don't kill my own kind!'&D
+  else
+    mppause 4
+    mpechoat $n &CAn overweight dwarf says, 'DIE!'&D
+    murder $n
+  endif
+endif
+~
+|
+#31381
+local dwarf beggar~
+A dirty dwarf~
+A dirty local beggar stands here, dressed in rags.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+6 0 50 30d1+5 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 0 0 0 0 64 2
+> all_greet_prog 20~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CA dirty dwarf says, 'Please, just one bronze coin I beg of you.'&D
+endif
+~
+> rand_prog 10~
+if ispc($n)
+  mpechoat $n &CA dirty dwarf says, 'Please, just a few spare coins...that's all I ask.'&D
+endif
+~
+|
+#31382
+glittering blue fish~
+A glittering blue fish~
+A glittering blue fish, moves with haste through the strong currents.
+~
+~
+0
+Clanname none~
+0
+0
+16777251 0 0 C
+4 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31383
+a massive guard~
+a massive guard~
+A massive dwarven guard, stands here watching his post.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 8 0 C
+30 0 -10 4d5+800 3d6+12
+0 0 0 0 3 
+0
+115 115 1
+14 13 13 15 13 13 13
+-2 -1 -3 0 -3
+2 4 0 0 1 1 3
+0 0 0 0 0 0 48 2
+#31388
+dwarf poorly dressed fat~
+A fat dwarf~
+A poorly dressed fat dwarf stands by the bar waiting for a drink.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+15 0 50 2d10+100 1d2+5
+0 0 0 0 10 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 1
+0 0 0 0 0 0 256 0
+> act_prog p sits on a bar stool.~
+if ispc($n)
+  mppause 10
+  mpechoat $n &CA fat dwarf says, 'What's on your mind?'&D
+  mppause 3
+  look $n
+  mppause 3
+  mpechoat $n &CA fat dwarf says, 'Yeah I'm talking to you.'&D
+  mppause 7
+  mpechoat $n &cA fat dwarf takes a big gulp, out of this jar of ale.&D
+  mppause 2
+  smile $n
+  mppause 8
+  mpechoat $n &CA fat dwarf says, 'Did you hear about the King's sword getting stolen?'&D
+endif
+~
+> act_prog p nods to you.~
+if ispc($n)
+  mppause 5
+  smile $n
+  mppause 3
+  mpechoat $n &cA fat dwarf takes a large gulp of ale from a almost empty jar.&D
+  mppause 5
+  mpechoat $n &CA fat dwarf says, 'I hear it was that worthless Reath that took it, but I guess it's none of my concern.'&D
+  mppause 10
+  mpechoat $n &CA fat dwarf says, 'Don't let that turkey pull you around, if you offer him around two thousand gold he might not rip you off, and just walk away a rich man.'&D 
+  mppause 7
+  mpechoat $n &CA fat dwarf says, 'One more thing...shhhh!!! Don't let this get out.'&D
+endif
+~
+|
+#31389
+Traveling bard human~
+A human bard~
+Some god abandoned a newly created Traveling bard human here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741827 0 0 C
+18 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31390
+a small goblin~
+a small goblin~
+A small goblin stands here awaiting his next victim.
+~
+~
+0
+Clanname none~
+0
+0
+16777313 0 -600 C
+5 0 70 2d10+100 0d0+0
+0 0 0 0 5 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31391
+a large lizard~
+a large lizard~
+A very large lizard walks about slowly here.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+9 0 80 2d10+100 0d0+0
+0 0 0 0 5 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#31392
+armored knight~
+an armored knight~
+An armored knight stands proudly here.
+~
+~
+0
+Clanname none~
+0
+0
+1&32 0 1000 C
+62 0 -100 0d0+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 1 1 5
+40 40 135 0 0 0 32 4098
+#31393
+bearded pirate human~
+a bearded pirate~
+A bearded pirate staggers around here.
+~
+~
+0
+Clanname none~
+0
+0
+16777217 32768 0 C
+65 0 -100 0d0+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 7
+40 40 231 0 0 0 32 524291
+#31394
+middle aged dwarf chubby~
+a chubby dwarf~
+A middle aged dwarf clears his throat before reading.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+75 0 -180 0d0+8000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 8
+50 50 0 0 0 0 16 524291
+#31395
+ghostly form~
+a ghostly form~
+A pale white zombie mopes around the room.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31396
+mountain lion large wild cat~
+a mountain lion~
+A large wild cat, runs around the edges of the pathway.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+6 0 50 30d1+5 0d0+0
+0 0 0 0 25 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 1
+0 0 0 0 0 0 1 2
+#31397
+Krovaki middle aged dwarf~
+Krovaki~
+A middle aged dwarf tends to his house duties.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+26 0 -50 2d200+500 2d6+10
+0 0 0 0 100 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 3
+0 0 0 0 0 0 32 2
+> all_greet_prog 75~
+if ispc($n)
+  if isevil($n)
+    mppause 3
+    mpechoat $n &CKrovaki says, 'Leave my house you evil being.'&D
+  else
+    mppause 4
+    mpechoat $n &CKrovaki says, 'You just walk into anyone's home?'&D
+    mppause 3
+    peer $n
+  endif
+endif
+~
+|
+#31398
+Dwarven priest~
+a dwarven priest~
+A dwarven priest makes his way around the pews.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+30 0 -80 1d500+1600 2d8+20
+0 0 0 0 100 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 4
+0 0 0 0 0 0 0 0
+#31399
+dwarven high priest Vregion~
+Vregion~
+The dwarven high priest, Vregion stands over those in prayer.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 128 -1 C
+100 0 -140 2d500+2500 3d6+20
+0 0 0 0 0 
+0
+115 115 1
+14 15 20 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 4
+0 0 0 0 0 0 201588736 3
+> all_greet_prog 60~
+if ispc($n)
+  if isevil($n)
+    sigh $n
+  else
+    mppause 3
+    mpechoat $n &CVregion says, 'Hello, my brother, what brings you to the altar?'&D
+  endif
+endif
+~
+> speech_prog murder~
+if ispc($n)
+  mppause 5
+  mpechoat $n &CVregion says, 'Was it in cold blood?  Or was it an act to keep you safe, my brother?'&D
+  mppause 2
+  peer
+  mppause 3
+  mpechoat $n &CVregion says, 'Never mind that, I can tell you're a good being!'&D
+  mppause 4
+  mpechoat $n &cVregion begins to chant a few words, while digging his hands into his flowing white robe.&D
+  mppause 3
+  mpechoat $n &cVregion pulls his hands from the robe revealing a small vial of Holy water.&D
+  mppause 5
+  mpechoat $n &cVregion pours a little of the water onto his finger tips, then he places his fingers on your head drawing a invisible cross.&D
+  mppause 3
+  mpechoat $n &CVregion says, 'I feel he shall forgive you of your crimes!'&D
+  c 'aura of courage' $n
+endif
+~
+> speech_prog 'forgive me'~
+if race($n) == Celestial
+  mppause 3
+  mpechoat $n &CVregion says, 'Heaven take thee!'&D
+  mppause 3
+  mptrans $n 31000
+  mpat 31000 mpforce $n emote arrives in blinding light!
+  mpat 31000 mpforce $n look
+endif
+~
+> speech_prog sin~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 3
+    mpechoat $n &CVregion says, 'We all sin, my brother.'&D
+    mppause 6
+    mpechoat $n &CVregion says, 'Please take a seat in the floor, and I shall bless you.'&D
+  else
+    mppause 3
+    mpechoat $n &CVregion says, 'My friend, we all sin.'&D
+    mppause 6
+    mpechoat $n &CVregion says, 'Please take a seat in the floor, and I will pray with you.'&D
+  endif
+  c bless $n
+endif
+~
+> act_prog p sits down~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 3
+    mpechoat $n &BVregion faces you and begins to mutter a few words.&D
+    mppause 4
+    c bless $n
+  else
+    mppause 4
+    mpechoat $n &BVregion kneels on one knee beside you and says a few words of prayer.
+  endif
+endif
+~
+|
+#31400
+crypt keeper~
+a crypt keeper~
+A dwarven crypt keeper, stands here guarding the gateway to the south.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+15 0 0 2d10+200 1d2+5
+0 0 0 0 46 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 2
+0 0 0 0 0 0 0 0
+#31401
+dwarven king bearded short~
+Raedon~
+The short bearded man stands proudly as the dwarven king.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+84 0 -220 2d500+15000 2d6+30
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 8
+60 60 0 0 0 0 176 3
+> all_greet_prog 20~
+if ispc($n)
+  if race($n) == dwarf
+    mppause 6
+    smile $n
+    mppause 8
+    mpechoat $n &CRaedon says, 'What is it you seek fellow dwarf?'&D
+  else
+    mppause 6
+    peer
+  endif
+endif
+~
+> act_prog p gives you a sword of justice.~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CRaedon says, 'You have returned my sword...'&D
+  mppause 4
+  grin
+  mppause 5
+  yell Citizens of Manoake hear me as I proclaim $n, a true supporter of the Kingdom.
+  mppause 3
+  mpechoat $n &CRaedon says, 'Now, for a reward for my new friend.'&D
+  mppause 2
+  mpoload 31309 30
+  give shield $n
+  drop shield
+endif
+~
+> all_greet_prog 40~
+if ispc($n)
+  if race($n) == dwarf
+    if rand(30)
+      mppause 2
+      mpechoat $n &CRaedon says, 'Hello, kind commoner have you happened to have seen the sword of justice?'&D
+      mppause 3
+      smile
+      mppause 6
+      mpechoat $n &CRaedon says, 'I Shall give the glory of Manoake, to the one who can bring me my sword.'&D
+    endif
+  endif
+endif
+~
+|
+#31403
+lendra dwarven queen lady~
+Lendra~
+A short stout lady wearing graceful armor is taking a stroll here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+51 0 -100 2d500+2500 3d6+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if sex($n) == female
+  mppause 15
+  mpechoat $n &CLendra says, 'Don't listen to that jester he can take stuff to far sometimes.'&D
+else
+  mppause 15
+  smile
+endif
+~
+> all_greet_prog 25~
+if ispc($n)
+  mppause 4
+  mpechoat $n &CLendra says, 'Oh my, I'm never going to hear the end of this.'&D
+  mppause 3
+  mpechoat $n &CLendra says, 'Raedon's sword has been stolen.  He's so mad he wont even attempt to come to bed for some much needed sleep.'&D
+endif
+~
+|
+#31404
+royal page~
+a royal page~
+An over dressed royal page is here, spreading local gossip.
+~
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+28 0 -50 2d200+500 2d5+10
+0 0 0 0 0 
+0
+115 115 0
+14 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 1 1 3
+0 0 0 0 0 0 16 524289
+> rand_prog 10~
+if ispc($n)
+  if rand(5)
+    mppause 2
+    mpechoat $n &CA royal page says, 'I hear the king seeks his sword.  The Mighty Sword of Justice!'&D
+    mppause 3 
+    mpechoat $n &CA royal page says, 'The king say's the blade has been stolen by a foul soul, and to whomever that can return the blade shall gain the glory of the citizens of Manoake.'&D
+  endif
+endif
+~
+|
+#31405
+swarm of tiny insects~
+a swarm of tiny insects~
+A huge swarm of tiny insects flies around.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+4 0 50 30d1+5 0d0+0
+0 0 0 0 20 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#31406
+long black cape~
+a long black cape~
+A long dark colored cape, lays on the ground here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31407
+fearsome beast~
+a fearsome beast~
+A winged, fearsome beast hovers slightly overhead.
+~
+~
+0
+Clanname none~
+0
+0
+16777281&32 1145604616 0 C
+80 0 -200 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 8
+50 50 0 0 0 0 161 4105
+> fight_prog 10~
+if rand(2)
+  mpechoat $t &CA fearsome beast says, 'Your soul shall be mine!'&D
+else
+  if rand(5)
+    mpechoat $t &c$i extends their arm, and reaches over your head.&D
+    mpdamage $t 100
+  endif
+endif
+~
+|
+#31408
+Thromdike young dwarf~
+Thromdike~
+A young dwarf lounges around here
+~
+Thromdike is a young dwarf, and is eager to follow his ancestors footsteps 
+in mining. He seldom gets out of the city though. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> act_prog 'throat before they begin singing a song to you.'~
+mpechoat $n &CThromdike says, 'Ahh...I like that.'&D
+if iscarrying($n) == 4658
+  wink
+else
+  mpechoat $n &CThromdike says, 'Ok, let me give you this book.'&D
+  mpoload 4658
+  give book $n
+endif
+~
+> speech_prog 'Off To Work We Go'~
+mpechoat $n &cThromdike ponders a bit.&D
+mpechoat $n &CThromdike says, 'Oh.'&D
+mpechoat $n &CThromdike says, 'That book I picked up in the Paleon Atheneum.'&D
+mppause 2
+mpechoat $n &CThromdike says, 'Well, actually I liked some parts of the book and don't really want to part with it.'&D
+mppause 2
+mpechoat $n &CThromdike says, 'Tell you what, why don't you sing for me and if I like your tune, I'll give the book back to you?'&D
+mpechoat $n &cType &WSING THROMDIKE&c to get the book.&D
+~
+|
+#31450
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#31300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31301
+campfire fire camp pit~
+&zA &wp&zi&wt&z encircled with black stones,&D~
+&RA fire pit encircled with black stones.&D~
+~
+34 1 0
+100 0 0 0 0 0 0
+1 0 0
+1
+2
+0
+0
+0
+0
+S 0 0
+#31302
+some burning Embers~
+A Burning Ember~
+&RA burning ember, lays here burning red hot.&D~
+~
+1 128 16385
+0 0 2 0 0 0 0
+1 1 0
+1
+3
+0
+0
+0
+0
+S 0 0
+#31303
+A Sign~
+a newly created A Sign~
+&OA small wooden sign,&g has been placed in the ground.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+The sign reads, To the northeast,  To the east,~
+/\
+           _
+~
+E
+The sign reads, To the northeast,  To the east,~
+(null)~
+E
+look sign~
+/\
+          ^
+         ^
+         |
+~
+#31304
+A Sword~
+&w A Silver Short Sword&D~
+&w A Silver Short Sword,&g litters the ground here.&D~
+~
+5 2 8193
+0 7 16 1 0 0 0
+3 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+5 1
+A
+24 2
+#31305
+crystal staff~
+A Crystal Staff~
+A Crystal staff, is sparkling on the ground.~
+~
+5 256 8193
+0 20 40 4 11 0 0
+3 100 10
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+4 1
+A
+18 1
+A
+12 20
+A
+13 -5
+#31306
+A Old Map~
+A old map~
+A old map, lays here.~
+~
+45 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31307
+chest~
+A fine oak chest trimmed in gold.~
+A fine oak chest trimmed in gold sits in the corner of the room~
+~
+15 0 0
+40 1 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31308
+a iron-casted fireplace~
+a iron-casted fireplace~
+A fireplace made from casted-iron rest against the wall.~
+~
+12 0 0
+100 40 0 0 0 0 0
+1000 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#31309
+A polished silver shield bearing a dwarven crest.~
+A polished silver shield bearing a dwarven crest~
+A polished silver shield bearing a dwarven crest slightly hovers above the ground.~
+~
+9 4418 513
+30 30 0 0 0 0 0
+8 266 50
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+13 20
+A
+24 -2
+A
+23 -1
+A
+5 1
+A
+25 2
+A
+2 -1
+A
+19 2
+#31310
+a pair of leather boots covered in a dark woven steel~
+a pair of dark steel boots~
+A pair of dark steel boots lies here.~
+~
+9 258 65
+10 10 0 0 0 0 0
+5 34 3
+2
+13
+0
+0
+0
+0
+S 0 0
+E
+boots boot dark steel leather~
+&zA close look at the boots reveals a masterpiece in craftsmanship in
+the part of the maker of these fine leather boots, that have a thin
+layer of woven steel matted over the top of them for extra protection.
+~
+A
+18 -1
+A
+12 -5
+A
+4 -1
+#31311
+a pair of cast iron leg guards~
+a pair of cast iron leg guards~
+A pair of cast iron leg guards lay on the ground.~
+~
+9 524288 33
+10 10 0 0 0 0 0
+10 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+2 -1
+A
+17 -1
+A
+21 1
+A
+23 -1
+A
+5 1
+#31314
+stones small sitting flat~
+a few sitting stones~
+&zA few small flat sitting stones, is here.&D~
+~
+12 0 0
+5 5000 1 4 2000 0 135039269
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+A small flat stone provides you with somewhere to sit.~
+A small flat stone provides you with somewhere to sit.
+~
+#31315
+key~
+A small iron key~
+A small iron key is laying here~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31316
+White Robes~
+A White Robe~
+A White Robe litters the ground~
+~
+9 0 9
+55 55 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+4 2
+A
+31 1
+A
+25 -1
+#31317
+axe~
+a battle axe~
+A Battle Axe rest on its side~
+~
+5 256 24577
+0 35 80 3 9 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 1
+#31318
+stone crafted well fountain~
+&z A stone fountain~
+&zA well crafted stone fountain sits in the courtyard square.&D~
+~
+25 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#31319
+a black rose~
+A Black Rose~
+A Black Rose has been pulled from the ground and left here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+rose black ~
+(null)~
+A
+4 2
+A
+31 2
+#31320
+pair leather boots boot~
+A pair of leather boots~
+A pair of leather boots have been left laying here.~
+~
+9 0 65
+35 35 0 0 0 0 0
+1 1 10
+2
+1
+0
+0
+0
+0
+S 77 0
+A
+14 20
+A
+2 2
+#31321
+helmet iron helm~
+a iron helmet~
+A iron helmet, litters the ground here.~
+~
+9 0 17
+35 35 0 0 0 0 0
+1 10 32
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+17 0
+A
+31 2
+A
+1 1
+#31322
+Leather spiked bracer~
+a spiked leather bracer~
+A spiked leather bracer, lays here.~
+~
+9 0 4097
+35 35 0 0 0 0 0
+1 50 5
+3
+1
+0
+0
+0
+0
+S 77 0
+#31323
+chain mail gloves~
+a pair of chain-mail gloves~
+Some chain-mail gloves, have been placed neatly on the ground~
+~
+9 0 129
+35 35 0 0 0 0 0
+4 25 60
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+5 2
+#31324
+legg leg leggings wool~
+a pair of wool leggings~
+A piar of wool leggings, litters the ground~
+~
+9 0 33
+20 20 0 0 0 0 0
+4 30 15
+3
+8
+0
+0
+0
+0
+S 77 0
+A
+14 10
+A
+18 1
+#31325
+A small golden key~
+a newly created A small golden key~
+Some god dropped a newly created A small golden key here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31326
+a wooden stick~
+A small Stick~
+A small stick, litters the ground here~
+~
+5 0 16385
+0 2 4 8 0 0 0
+2 30 3
+2
+0
+0
+0
+0
+0
+S 0 0
+#31327
+The sword of justice~
+a sword of justice~
+A long sword, glistens on the ground here.~
+~
+5 0 8193
+0 25 50 1 1 0 0
+5 300 30
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+4 2
+A
+2 1
+A
+12 25
+#31328
+arm band caar leather~
+a armband of Caar~
+A leather armband of engraved with the name of Caar sits here.~
+~
+9 0 257
+35 35 0 0 0 0 0
+3 100 1000
+2
+1
+0
+0
+0
+0
+S 77 0
+A
+14 50
+A
+19 3
+A
+18 3
+A
+12 -30
+A
+3 -2
+A
+2 3
+#31329
+white flow flowing robe robes~
+a white flowing robe~
+A white flowing robe, litters the ground here.~
+~
+9 0 9
+5 5 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+24 2
+A
+12 10
+A
+4 -1
+A
+14 -5
+#31330
+keyring~
+a keyring~
+A keyring lays almost hidden on the ground.~
+~
+62 0 1
+20 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31331
+A mean dog~
+a brown dog~
+A brown dog sniffs around the area~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31332
+ring emerald~
+an emerald ring~
+A ring encrested with emeralds, lays on the ground here.~
+~
+8 0 3
+0 0 0 0 0 0 0
+2 2000 200
+2
+3
+0
+0
+0
+0
+S 77 0
+A
+12 10
+A
+4 2
+A
+24 1
+#31333
+cross neck lace necklace ~
+A necklace with a small cross medallion~
+A necklace bearing a cross, lays here on the ground.~
+~
+8 0 5
+0 0 0 0 0 0 0
+1 300 30
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 2
+A
+4 -2
+A
+13 30
+A
+24 -2
+#31334
+suit plate mail~
+a suit of platemail~
+A suit of platemail, litters the ground~
+~
+9 0 9
+35 35 0 0 0 0 0
+25 50 20
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+17 -20
+A
+13 10
+A
+14 -10
+A
+2 -1
+#31335
+rod Know ledge~
+the rod of knowledge~
+A brass rod lays on the ground~
+~
+5 0 16385
+0 135 170 8 0 0 0
+3 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+4 2
+A
+3 2
+A
+18 1
+A
+19 1
+A
+2 -2
+A
+1 -1
+A
+24 -1
+#31336
+a ruby-enlayed crown~
+a ruby-inlayed crown~
+A ruby-inlayed crown, glistens on the ground here. ~
+~
+8 0 17
+0 0 0 0 0 0 0
+3 2000 200
+2
+6
+0
+0
+0
+0
+S 0 0
+A
+13 20
+A
+12 20
+A
+14 -20
+A
+4 1
+A
+25 3
+A
+18 -1
+A
+19 -2
+A
+5 1
+A
+3 1
+#31337
+small round table~
+A round table~
+A round table rests towards the back of the room.~
+~
+12 0 0
+0 200 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31338
+wooden chair~
+A wooden chair~
+&OA wooden chair sits on one side of the table.&D~
+~
+12 0 0
+0 500 1 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31339
+wooden desk~
+A wooden desk~
+&OA small wooden desk sits close to the back wall.&D~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31340
+long oak table~
+A oak table~
+&OA long table made of oak sits in the middle of the room.&D~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31341
+black cant canteen~
+a black canteen~
+A black canteen rest on its side on the ground.~
+~
+17 8192 16385
+20 20 0 0 0 0 0
+3 100 10
+3
+13
+0
+0
+0
+0
+S 0 0
+#31342
+large strong box strongbox~
+a strongbox~
+A large strongbox lays on the ground.~
+~
+15 8192 1
+150 0 0 10 0 0 0
+30 500 50
+3
+0
+0
+0
+0
+0
+S 0 0
+#31343
+A ragged dress~
+a ragged dress~
+A ragged cloth dress lays in the floor.~
+~
+9 0 9
+60 60 0 0 0 0 0
+3 10 1
+3
+0
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+17 -1
+#31344
+throne cathedra ivory ~
+a ivory cathedra~
+A cathedra made of ivory sits against the back wall.~
+~
+12 0 0
+0 0 2 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31345
+small shovel~
+a small shovel~
+&OA small shovel with a flat end, lays on the ground.&D~
+~
+59 0 16385
+0 0 0 0 0 0 0
+5 30 3
+3
+1
+0
+0
+0
+0
+S 0 0
+#31346
+wooden shield~
+a wooden shield~
+&OA wooden shield litters the ground here.&D~
+~
+9 0 513
+40 40 0 0 0 0 0
+7 40 4
+2
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -10
+#31347
+thin metal shield~
+a thin metal shield~
+A thin metal shield lays on its side on the ground.~
+~
+9 0 513
+35 35 0 0 0 0 0
+15 150 15
+2
+8
+0
+0
+0
+0
+S 77 0
+A
+2 -1
+A
+18 1
+A
+17 -15
+A
+1 1
+A
+14 -5
+#31348
+a golden dagger~
+a golden dagger~
+&YA long thin dagger made of gold is stuck in the ground.&D~
+~
+5 0 8193
+0 20 40 6 2 0 0
+2 100 10
+2
+14
+0
+0
+0
+0
+S 0 0
+A
+2 1
+A
+19 1
+#31349
+pocket knife folded~
+a pocket knife~
+A folded up pocket knife lays in the floor.~
+~
+5 0 8193
+0 20 35 2 2 0 0
+2 27 2
+2
+8
+0
+0
+0
+0
+S 0 0
+#31350
+a heavy stone shield~
+a heavy stone shield~
+A heavy stone shield lays ontop of the ground here.~
+~
+9 0 513
+35 35 0 0 0 0 0
+25 200 20
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+2 -1
+A
+14 -10
+A
+17 -25
+A
+19 2
+A
+23 -2
+#31351
+a glass top counter~
+a glass top counter~
+A short glass top counter sits near the back wall~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31352
+a ivory handled dagger~
+a ivory dagger~
+A ivory handled dagger, has been stuck in the ground here.~
+~
+5 256 16385
+0 10 3 6 2 0 0
+1 350 35
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+2 1
+A
+14 -5
+A
+12 -20
+#31353
+a leather backpack~
+a leather backpack~
+&OA leather backpack sits here on the ground.&D~
+~
+15 0 524289
+30 0 0 12 0 0 0
+7 50 5
+3
+1
+0
+0
+0
+0
+S 0 0
+#31354
+a brass lantern~
+a brass lantern~
+&OA brass lantern is tipped over on its side.&D~
+~
+1 0 16385
+0 0 3 0 0 0 0
+1 20 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#31355
+a wooden torch~
+a wooden torch~
+&OA torch made of wood lays on the ground.&D~
+~
+1 0 16385
+0 0 1 0 0 0 0
+3 5 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#31356
+a black iron ring~
+a black iron ring~
+A black iron ring lays here almost hidden on the ground.~
+~
+9 0 3
+40 40 0 0 0 0 0
+1 400 40
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+31 1
+A
+25 -1
+A
+4 1
+#31357
+necklace of beads~
+a necklace of beads~
+A necklace made out of tiny beads, litters the ground here.~
+~
+9 0 5
+35 35 0 0 0 0 0
+2 30 3
+2
+4
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+24 -1
+A
+17 -3
+A
+4 -1
+#31358
+silver bracelet~
+a silver bracelet~
+A silver bracelet lays on the ground.~
+~
+9 524288 4097
+35 35 5 0 0 0 0
+1 123 12
+2
+8
+0
+0
+0
+0
+S 77 0
+A
+17 -3
+A
+13 5
+#31359
+a light blue potion~
+a light blue potion~
+A glowing blue potion has been placed on the ground.~
+~
+10 2 1
+28 -1 -1 -1 0 0 0
+3 15 1
+3
+4
+0
+0
+0
+0
+'armor' 'NONE' 'NONE'
+S 0 0
+#31360
+a pale white potion~
+a pale white potion~
+&WA pale white potion has tipped over on the ground.&D~
+~
+10 0 1
+30 -1 -1 -1 0 32 0
+4 60 4
+2
+5
+0
+0
+0
+0
+'draw mana' 'NONE' 'NONE'
+S 0 0
+#31361
+a glowing red potion~
+a glowing red potion~
+&rA glowing red potion has tipped over on the ground.&D~
+~
+10 0 1
+30 -1 -1 -1 0 0 0
+2 25 2
+3
+6
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#31362
+a pitch black potion~
+a pitch black potion~
+A pitch black potion litters the ground here.~
+~
+10 2 1
+15 -1 -1 -1 0 0 0
+4 300 30
+3
+13
+0
+0
+0
+0
+'kindred strength' 'NONE' 'NONE'
+S 0 0
+#31363
+a short axe~
+a short axe~
+A short axe has been stuck in the ground here.~
+~
+5 0 8193
+0 5 15 3 9 0 0
+7 340 34
+2
+1
+0
+0
+0
+0
+S 0 0
+A
+13 10
+A
+18 1
+A
+19 1
+A
+12 -10
+A
+31 -1
+A
+4 -1
+#31364
+a double-sided axe~
+a double-sided axe~
+A double-sided axe lays on it side on the ground.~
+~
+5 0 8193
+0 20 40 3 9 0 0
+15 1000 100
+2
+1
+0
+0
+0
+0
+S 0 0
+A
+18 1
+A
+14 -10
+A
+17 -2
+A
+19 1
+#31365
+a silver sword~
+a silver sword~
+A sword made of silver lays on its side on the ground.~
+~
+5 0 8193
+0 20 40 1 1 0 0
+5 40 4
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+13 5
+A
+14 5
+A
+12 -5
+A
+19 1
+#31366
+a belt of gold~
+a belt of gold~
+A belt made of gold lays here in the floor.~
+~
+9 2 2049
+35 35 0 0 0 0 0
+10 500 50
+2
+14
+0
+0
+0
+0
+S 77 0
+A
+25 1
+A
+31 1
+A
+14 -5
+A
+5 1
+A
+12 10
+A
+18 -1
+A
+17 -4
+A
+2 -1
+#31367
+a wood cutters axe~
+a wood cutters axe~
+A axe used for cutting wood lays on its side here.~
+~
+5 0 8193
+0 20 40 3 9 0 0
+6 532 53
+2
+1
+0
+0
+0
+0
+S 0 0
+A
+19 1
+A
+12 -10
+A
+2 -1
+A
+13 10
+#31368
+bronze mask~
+a glistening bronze and silver inlayed mask~
+A glistening bronze and silver mask is here.~
+~
+9 0 131073
+50 50 0 0 0 65 0
+2 200 4
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+13 50
+A
+27 32
+A
+19 5
+A
+18 3
+#31369
+a golden sphere~
+a golden sphere~
+A golden sphere, hovers slightly above the ground.~
+~
+8 2 16385
+0 0 1 0 0 0 0
+10 2000 200
+1
+14
+0
+0
+0
+0
+S 0 0
+A
+24 -1
+A
+23 -1
+A
+18 -1
+A
+17 -4
+A
+12 20
+A
+13 -8
+#31370
+a wooden chest encrested with opals~
+a wooden chest encrested with opals~
+&OA wooden chest encrested with opals, sits against the wall in the far corner of the room.&D~
+~
+15 0 0
+25 0 31371 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31371
+a silver key~
+a silver key~
+A silver keys lays almost hidden on the ground.~
+~
+18 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31372
+&c a crystal potion~
+&c a crystal potion~
+&c a crystal potion&d, lays on its side on the ground.~
+~
+10 0 1
+0 -1 -1 -1 0 0 0
+3 0 0
+1
+0
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#31373
+oak chest~
+an oak chest~
+&O A well decorated oak chest sits against the east wall.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31374
+a golden throne~
+a golden throne~
+A golden throne rest against the west wall.~
+~
+12 0 0
+1 2000 2 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#31375
+a bed~
+a large bed~
+A large bed sits inside of the small cubby.~
+~
+12 0 0
+2 2000 128 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#31376
+royal advisor~
+a newly created royal advisor~
+Some god dropped a newly created royal advisor here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31377
+small bed~
+a small bed~
+A small bed sits near the eastern wall.~
+~
+12 0 0
+2 1000 64 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31378
+a large bed~
+a feather bed~
+A bed made of feathers offsets a window on the eastern wall of the room.~
+~
+13 0 0
+3 2000 64 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#31379
+a head of cabbage~
+a newly created a head of cabbage~
+Some god dropped a newly created a head of cabbage here.~
+~
+19 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31380
+a slab of cooked beef~
+a newly created a slab of cooked beef~
+Some god dropped a newly created a slab of cooked beef here.~
+~
+19 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31381
+a piece of ham~
+a newly created a piece of ham~
+Some god dropped a newly created a piece of ham here.~
+~
+19 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31382
+oval bar~
+a oval bar~
+&OA oval bar made of wood, sits in the middle of the tavern.&D~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31384
+bar stool~
+a bar stool~
+A few wooden bar stools sit around the bar.~
+~
+12 0 0
+10 1000 1 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31385
+short table~
+a short table~
+&OA short wooden table sits behind the counter.&D~
+~
+15 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31386
+wooden face~
+A carved wooden face~
+&OA face carved from wood has been left here.&D~
+~
+13 8192 1
+0 0 0 0 0 0 0
+10 10 1
+3
+1
+0
+0
+0
+0
+S 77 0
+#31387
+shot glass~
+A dirty shot glass~
+A dirty shot glass lays on its side.~
+~
+17 0 1
+1 1 5 0 0 0 0
+1 3 0
+2
+1
+0
+0
+0
+0
+S 0 0
+#31388
+red ruby~
+a glittering red ruby~
+A small glittering red ruby is here.~
+~
+8 33554432 16385
+0 0 0 0 0 0 0
+1 324 32
+2
+6
+0
+0
+0
+0
+S 77 0
+A
+3 1
+#31389
+chain vest mail chain-mail rust~
+a chain vest~
+A vest made of chain-mail, lays on the ground collecting rust.~
+~
+9 0 9
+10 10 0 0 0 0 0
+14 300 30
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+17 -10
+#31390
+padded leather pants~
+a pair of padded leather pants~
+A pair of padded leather pants, lay on the ground.~
+~
+9 0 33
+40 40 0 0 0 0 0
+5 67 6
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -6
+#31391
+leather belt small pockets~
+a leather belt with small pockets~
+A belt made of leather lays on the ground.~
+~
+15 0 2049
+6 3 1684629024 12 0 32 0
+3 34 3
+4
+1
+0
+0
+0
+0
+S 77 0
+#31392
+small statue dwarf~
+a small wooden statue of a dwarf~
+A small wooden statue of a dwarf is displayed here.~
+~
+12 0 1
+0 0 0 0 0 0 0
+30 254 25
+3
+1
+0
+0
+0
+0
+S 0 0
+#31393
+torn shirt~
+a torn shirt~
+A torn shirt lays on the ground.~
+~
+9 0 9
+2 2 0 0 0 0 0
+2 1 0
+3
+1
+0
+0
+0
+0
+S 77 0
+#31394
+dirty leather pants~
+a pair of dirty pants~
+A dirty pair of leather pants lay on the ground here.~
+~
+9 0 33
+2 2 0 0 0 0 0
+5 24 2
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -3
+> rand_prog 3~
+if ispc($n)
+mea $n you begin to smell a foul odor coming from the pants.
+endif
+~
+|
+#31395
+collar dog ~
+a dog collar~
+A simple leather dog collar lays on the ground.~
+~
+9 0 5
+60 60 0 0 0 0 0
+2 253 25
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -1
+A
+18 1
+#31396
+bunch of cots~
+Alot of wooden cots~
+A bunch of uncomfortable cots are spread out around the room.~
+~
+12 0 0
+20 5000 64 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31397
+double shot~
+a double shot~
+A large shot glass made for double shots, sits here in the floor.~
+~
+17 0 16385
+1 1 5 0 0 0 0
+1 2 0
+2
+0
+0
+0
+0
+0
+S 0 0
+#31398
+small round bed~
+a small round bed~
+A small round bed, is near the corner of the western wall.~
+~
+12 0 0
+0 0 0 0 0 0 0
+40 0 0
+1
+6
+0
+0
+0
+0
+S 0 0
+#31399
+small carved wooden box~
+a carved wooden box~
+A small carved box made of wood sits on the ground.~
+~
+15 2 1
+30 0 0 0 0 0 0
+20 230 23
+3
+1
+0
+0
+0
+0
+S 0 0
+#31400
+slab of raw beef~
+a slab of raw beef~
+A slab of raw beef lays on the ground.~
+~
+19 0 1
+5 0 0 0 0 20 0
+2 5 2
+2
+1
+0
+0
+0
+0
+S 0 0
+#31401
+tuna steak~
+a tuna steak~
+A small steak made of tuna lays here, on the ground.~
+~
+19 0 1
+2 0 0 0 0 20 0
+1 29 2
+3
+1
+0
+0
+0
+0
+S 0 0
+#31402
+red apple~
+a red apple~
+A red colored apple lays on the ground getting dirty.~
+~
+19 0 1
+1 0 0 0 0 20 0
+1 10 1
+3
+3
+0
+0
+0
+0
+S 0 0
+#31403
+Cooked beef~
+some cooked beef~
+A small amount of cooked beef lays on the ground here.~
+~
+19 0 1
+6 0 0 0 0 0 0
+3 10 1
+2
+1
+0
+0
+0
+0
+S 0 0
+#31404
+cooked ham~
+a cooked ham~
+A fully cooked ham lays on the ground getting dirty.~
+~
+19 0 1
+4 0 0 0 0 20 0
+3 10 1
+2
+6
+0
+0
+0
+0
+S 0 0
+#31405
+salmon~
+a salmon~
+A cooked salmon spoils away on the ground.~
+~
+19 0 1
+3 0 0 0 0 20 0
+2 50 5
+3
+1
+0
+0
+0
+0
+S 0 0
+#31406
+sliced pork~
+some sliced pork~
+A few slices of pork lay on the ground rotting away.~
+~
+19 0 16385
+2 0 0 0 0 20 0
+1 8 0
+3
+1
+0
+0
+0
+0
+S 0 0
+#31407
+smoked fish~
+some smoked fish~
+A few smoked fish lay on the ground, rotting away.~
+~
+19 0 1
+3 0 0 0 0 20 0
+3 56 5
+3
+8
+0
+0
+0
+0
+S 0 0
+#31408
+jar mead glass~
+a jar of mead~
+A glass jar filled with mead has been left on the ground here.~
+~
+17 8192 16385
+8 7 3 0 0 0 0
+5 25 2
+3
+0
+0
+0
+0
+0
+S 0 0
+#31409
+suit of chain-mail~
+a suit of chain-mail~
+A suit of chain-mail, lays here on the ground.~
+~
+9 0 9
+50 50 0 0 0 0 0
+20 500 50
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+17 -10
+A
+2 -1
+A
+14 -5
+A
+5 1
+#31410
+small black iron key~
+a black iron key~
+A small black key made of iron lays on the ground here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 10 1
+3
+13
+0
+0
+0
+0
+S 0 0
+#31411
+golden key~
+a golden key~
+A key made of gold glistens on the ground here.~
+~
+18 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31412
+small puddle of water~
+a puddle of water~
+A small shimmering puddle of water.~
+~
+17 0 0
+10 9 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31413
+few wooden cots~
+a wooden cot~
+A few old wooden cots surround the walls of the cell.~
+~
+12 0 0
+10 7000 65 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31414
+silver throne~
+a silver throne~
+Two silver thrones sit at each side of the golden throne.~
+~
+12 0 0
+2 2000 2 0 0 0 0
+1 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+#31415
+jesters hat~
+a jesters hat~
+A odd colored jesters hat rest on the ground here.~
+~
+9 0 17
+10 10 0 0 0 0 0
+2 50 5
+3
+4
+0
+0
+0
+0
+S 77 0
+A
+31 1
+A
+25 1
+A
+17 -1
+#31416
+pair of green tights~
+a pair of green tights~
+A pair of green colored tights lay on the ground.~
+~
+9 0 33
+10 10 0 0 0 0 0
+4 34 3
+3
+9
+0
+0
+0
+0
+S 77 0
+#31417
+Ring of elite guards~
+a ring of elite guards~
+A small thin ring lays on the ground here.~
+~
+9 0 3
+50 50 0 0 0 0 0
+2 50 5
+2
+8
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+1 1
+A
+17 -2
+A
+24 -1
+#31418
+rather simple wooden dresser~
+a wooden dresser~
+A rather simple wooden dresser sits near the round bed.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31419
+complex looking key~
+a metal key~
+A complex looking  metal key, lays on the ground here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 5 0
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+3 1
+#31420
+heavy red robe~
+a heavy red robe~
+A heavy looking red robe, lays on the ground here.~
+~
+9 1 9
+20 20 0 0 0 0 0
+20 100 10
+3
+6
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+19 2
+A
+4 -1
+A
+3 -2
+A
+14 5
+A
+25 1
+> wear_prog 1~
+if ispc($n)
+cast shield $n
+endif
+~
+|
+#31421
+dark unflawed robe~
+a dark unflawed robe~
+A unflawed dark robe litters the ground.~
+~
+9 2 9
+50 50 0 0 0 0 0
+6 44 4
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+12 5
+A
+18 -1
+A
+5 -1
+A
+2 1
+#31422
+page tunic leather~
+a leather tunic~
+A leather tunic engraved with the dwarven royal page seal lays here.~
+~
+9 0 9
+20 20 0 0 0 0 0
+4 40 4
+3
+1
+0
+0
+0
+0
+S 77 0
+#31423
+simple white robe~
+a simple white robe~
+A simple white robe, lays on the ground here.~
+~
+9 0 9
+40 40 0 0 0 0 0
+5 10 1
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+24 -1
+#31424
+padded seats~
+a few padded seats~
+A few padded seats sit around the cabana.~
+~
+12 0 0
+5 4000 1 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#31425
+judges bench~
+a judges bench~
+A long bench wooden bench used by dwarven judges sits here.~
+~
+13 0 0
+1 1000 2 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31426
+lightweight wool robe encrested with dwarven holy~
+a lightweight wool robe~
+A robe made of wool and encrested with dwarven holy symbols lays here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+4 50 5
+3
+8
+0
+0
+0
+0
+S 77 0
+A
+2 2
+A
+19 -1
+A
+12 10
+A
+22 -1
+A
+4 1
+#31427
+long solid white wand~
+a long white wand~
+A long solid white wand has been stuck into the ground here.~
+~
+3 0 16385
+20 5 5 -1 0 0 0
+1 100 10
+2
+5
+0
+0
+0
+0
+'stone skin'
+S 0 0
+A
+4 1
+A
+18 2
+A
+20 -1
+#31428
+brilliant white dress~
+a brilliant white dress~
+A brilliant white dress, is getting dirty on the ground here.~
+~
+9 64 9
+40 40 0 0 0 0 0
+6 100 10
+3
+5
+0
+0
+0
+0
+S 77 0
+A
+17 -4
+A
+3 2
+A
+25 3
+A
+14 10
+A
+18 2
+A
+19 2
+A
+1 -1
+#31429
+crypt key~
+a newly created crypt key~
+Some god dropped a newly created crypt key here.~
+~
+18 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31430
+silver bracelet~
+a silver bracelet~
+A bracelet made of silver lays on the ground here.~
+~
+9 0 4097
+35 35 0 0 0 37 0
+2 25 2
+2
+8
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+20 -1
+> wear_prog 100~
+if ispc($n)
+mppause 3
+mea $n The &wsilver armband&D on your arm begins to &Yglow&D with a &Bblue+
+aura.&D
+mer $n The &wsilver armband&D on $n arm begins to &Yglow&D with a &Bblue+
+aura.&D
+endif
+~
+> remove_prog 100~
+if ispc($n)
+mppause 3
+mea $n The silver bracelet you just took off stops &Yglowing&D.
+mer $n The silver bracelet $n just took off stops &Yglowing&D.
+endif
+~
+|
+#31431
+dirty cotton shirt~
+a dirty cotton shirt~
+A dirty shirt made of cotton lays here on the ground.~
+~
+9 0 9
+40 40 0 0 0 0 0
+2 5 0
+3
+5
+0
+0
+0
+0
+S 77 0
+#31432
+nice leather tunic several~
+a leather tunic~
+A nice tunic made out of several layers of leather, lays on the ground here.~
+~
+9 0 9
+55 55 0 0 0 0 0
+4 20 2
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -4
+A
+2 1
+#31434
+Taon's House Key~
+Taon's House Key~
+Some god dropped a newly created Taon's House Key here.~
+~
+8 0 16385
+31434 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31435
+pair of studded leather leggings~
+a pair of studded leather leggings~
+A pair of studded leather leggings lays on the ground here.~
+~
+9 0 33
+55 55 0 0 0 0 0
+4 33 3
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+14 10
+A
+12 -15
+#31436
+short wooden stick~
+a short wooden stick~
+A short stick made of wood and partly wrapped in cloth, lays here on the ground.~
+~
+5 0 8193
+0 105 135 4 4 76 0
+4 117 1
+1
+1
+0
+0
+0
+0
+S 3 0
+A
+18 4
+A
+19 4
+#31437
+necklace of twine~
+a twine necklace~
+A necklace made of twine, lays almost hidden on the ground.~
+~
+9 0 5
+2 2 0 0 0 0 0
+1 3 0
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+13 5
+A
+19 1
+#31438
+shark tooth dagger~
+a shark tooth dagger~
+A dagger made of a ivory handle and a shark tooth as a blade, lays here.~
+~
+5 0 8193
+0 1 5 6 2 0 0
+1 67 6
+3
+5
+0
+0
+0
+0
+S 0 0
+A
+18 2
+#31439
+heavy black apron~
+a heavy black apron~
+A heavy black apron lays on the ground here.~
+~
+9 0 9
+45 45 0 0 0 0 0
+25 40 4
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+17 -10
+A
+19 3
+A
+1 2
+#31440
+pair of black leather pants~
+a pair of black leather pants~
+A pair of black leather pants, lay on the ground here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+3 26 2
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+12 20
+A
+3 1
+A
+19 1
+A
+4 -2
+A
+14 5
+#31441
+pair of thick black gloves~
+a pair of thick black gloves~
+A pair of thick black gloves lay on the ground here.~
+~
+9 0 129
+35 35 0 0 0 0 0
+3 20 2
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 1
+A
+17 -4
+#31442
+dark trench coat~
+a dark trench coat~
+A dark leather trench coat, lays on the ground here.~
+~
+9 0 9
+35 35 0 0 0 0 0
+1 103 10
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+2 -1
+A
+14 -5
+A
+5 1
+A
+17 -10
+A
+13 25
+#31443
+long black cape~
+a long black cape~
+A long dark-colored cape, lays here.~
+~
+9 0 5
+35 35 0 0 0 41 0
+3 100 10
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+24 -2
+A
+23 -1
+A
+20 -1
+A
+21 2
+A
+12 30
+#31444
+small leather pouch~
+a small leather pouch~
+A small pouch made of leather lays here.~
+~
+15 0 16385
+5 2 0 0 0 0 0
+3 10 1
+4
+1
+0
+0
+0
+0
+S 0 0
+#31445
+tiny crystal~
+a tiny crystal~
+A tiny shimmering crystal lays on the ground here.~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 5 0
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+12 15
+#31446
+small knife~
+a small knife~
+A small knife is stuck into the ground here.~
+~
+5 0 8193
+0 5 3 2 2 0 0
+2 27 2
+3
+8
+0
+0
+0
+0
+S 0 0
+#31447
+thin layer of metal armor~
+a thin metal suit armor~
+A thin suit of metal armor is on the ground here.~
+~
+9 0 9
+10 10 0 0 0 0 0
+15 106 10
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+17 -1
+A
+5 1
+#31448
+green shirt~
+a green shirt~
+A green shirt made of linen, lays on the ground here.~
+~
+9 0 9
+10 10 0 0 0 0 0
+3 20 2
+4
+9
+0
+0
+0
+0
+S 77 0
+A
+25 1
+#31449
+a tightly rolled up scroll~
+a tightly rolled up scroll~
+A tightly rolled up scroll litters the ground here.~
+~
+2 0 16385
+12 -1 -1 -1 0 0 0
+2 20 2
+3
+5
+0
+0
+0
+0
+'identify' 'NONE' 'NONE'
+S 0 0
+A
+5 1
+#31450
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31451
+pair of woven pants~
+a pair of woven pants.~
+A pair pants that have been woven from straw lay on the ground here.~
+~
+9 0 33
+30 30 0 0 0 0 0
+1 23 2
+4
+1
+0
+0
+0
+0
+S 77 0
+#31452
+faded green shirt~
+a faded green shirt~
+A earth tone faded green shirt litters the ground.~
+~
+9 0 9
+30 30 0 0 0 0 0
+2 0 0
+1
+11
+0
+0
+0
+0
+S 77 0
+#31453
+silver long cape~
+a long silver cape~
+A long silver colored cape litters the ground.~
+~
+9 0 5
+20 20 0 0 0 0 0
+3 0 0
+1
+8
+0
+0
+0
+0
+S 77 0
+A
+18 1
+#31454
+pair of reading glasses~
+a pair of reading glasses~
+A pair of glasses that can be used for reading is here.~
+~
+9 0 131073
+30 30 0 0 0 0 0
+1 1 2
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+4 1
+#31455
+pair of leather boots~
+a pair of leather boots~
+A pair of leather boots sits on the ground here.~
+~
+9 0 65
+50 50 0 0 0 0 0
+3 23 2
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+2 1
+#31456
+jade earring~
+a pair of jade earrings~
+A small pair of earrings made from jade have been discarded here.~
+~
+8 0 65537
+0 0 0 0 0 42 0
+1 500 50
+1
+9
+0
+0
+0
+0
+S 77 0
+A
+12 25
+A
+4 1
+#31457
+a diamond tiara~
+a diamond tiara~
+A tiara made of diamonds lays on the ground here.~
+~
+8 0 17
+0 0 3 0 0 0 0
+5 50 5
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+12 25
+A
+3 1
+#31458
+prim white dress~
+a prim white dress~
+A very prim white dress made of cotton lays on the ground here.~
+~
+9 0 9
+40 40 0 0 0 0 0
+4 44 4
+3
+5
+0
+0
+0
+0
+S 77 0
+#31459
+golden crown~
+a golden crown~
+A crown made of gold sits on the ground here.~
+~
+8 0 17
+0 0 0 0 0 0 0
+3 1000 100
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+18 1
+A
+5 1
+#31460
+bracer of strongman~
+a bracer of strongman~
+A leather bracer of strongman, lays on the ground here.~
+~
+9 0 257
+55 55 0 0 0 0 0
+3 432 43
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+1 2
+A
+18 2
+A
+3 -1
+#31461
+pair of black leather high boots~
+a pair of dark leather high boots~
+A pair of black leather high boots, sit on the ground.~
+~
+9 0 65
+55 55 0 0 0 0 0
+6 433 43
+3
+13
+0
+0
+0
+0
+S 77 0
+#31462
+black fur amulet~
+a black fur amulet~
+A black amulet made of fur, lays on the ground here.~
+~
+9 0 5
+55 55 0 0 0 0 0
+1 138 13
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+13 30
+A
+14 20
+#31463
+thick jacket  dwarven insignia~
+a thick jacket with a dwarven insignia~
+A thick jacket with a dwarven insignia, lays on the ground here.~
+~
+9 1 9
+55 55 0 0 0 0 0
+1 678 67
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+17 -10
+A
+24 -2
+A
+21 -1
+A
+4 1
+A
+2 2
+#31464
+a simple golden ring~
+a simple golden ring~
+A tiny simple ring made of gold lays here.~
+~
+8 0 3
+0 0 0 0 0 0 0
+1 10 1
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+17 -5
+#31465
+short sterling silver battle-axe~
+a sterling silver battle-axe~
+A short battle-axe made of silver, lays on the ground here.~
+~
+5 0 8193
+0 40 90 3 9 0 0
+5 10050 1005
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+19 3
+A
+18 1
+A
+17 -1
+A
+14 10
+A
+4 -3
+A
+12 -40
+A
+13 15
+#31466
+a brass earring~
+a pair of brass earrings~
+A small pair of earrings made from brass have been left here.~
+~
+8 0 65537
+0 0 0 0 0 1 0
+4 10 1
+2
+1
+0
+0
+0
+0
+S 0 0
+A
+1 1
+A
+19 2
+A
+12 -10
+A
+14 -20
+#31467
+a rusty sword~
+a rusty sword~
+A small sword covered in rust lays here.~
+~
+5 0 8193
+0 2 5 1 1 0 0
+2 10 1
+2
+1
+0
+0
+0
+0
+S 0 0
+A
+2 1
+A
+4 1
+#31468
+long triangler table~
+a triangler table~
+A trianguler shaped table made of wood sits in the center of the room.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31469
+decorative wooden chairs few~
+a few decorative wooden chairs~
+A few decorative chairs made of wood sit around the table.~
+~
+12 0 0
+10 5000 1 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31470
+tall wood dresser~
+a tall wooden dresser~
+A tall wooden dresser sits on the eastern wall beside a door.~
+~
+15 0 0
+30 13 1752529440 12 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31471
+small oak dresser~
+a small oak dresser~
+A small oak dresser sits adjacent to the bed.~
+~
+15 0 0
+30 13 544425504 12 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31472
+massive hardwood framed bed~
+a massive hardwood framed bed~
+A massive hardwood framed bed sits against the western wall.~
+~
+12 0 0
+2 1300 64 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31473
+pair of silver-piked leggings~
+a pair of silver-piked leggings~
+A pair of leggings made of silver sits on the ground.~
+~
+9 0 33
+55 55 0 0 0 0 0
+10 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+1 1
+A
+5 2
+A
+20 -3
+A
+3 -2
+#31474
+thin leather vest~
+a thin leather vest~
+A thin vest made of leather, lays here on the ground.~
+~
+9 0 9
+40 40 0 0 0 0 0
+3 134 13
+4
+1
+0
+0
+0
+0
+S 77 0
+#31475
+diamond edged boots~
+a pair of diamond edged boots~
+A pair of diamond edged boots sits on the ground here.~
+~
+9 0 65
+40 40 0 0 0 0 0
+5 55 5
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+14 10
+#31476
+lightweight gold hilted diamond bladed sword~
+a gold hilted diamond-blade sword~
+A lightweight gold hilted diamond-blade sword, has been stuck into the ground here.~
+~
+5 259 8193
+0 7 3 1 1 0 0
+2 500 50
+1
+14
+0
+0
+0
+0
+S 0 0
+E
+sword diamond blade gold~
+The hilt is a masterpiece of exquisite craftsmanship, this diamond-bladed
+sword shows no sign of aging though its creator has obviously long since
+passed.
+~
+A
+1 2
+A
+5 1
+A
+25 3
+A
+4 1
+A
+12 -25
+A
+20 2
+A
+24 -1
+A
+23 1
+A
+18 1
+A
+19 1
+> wear_prog 100~
+if ispc($n)
+mppause 1
+mea $n As you wield the diamond-blade sword, you feel as if you have+
+encompassed a true sword.
+mer $r As $n wields the diamond-blade sword, in his hands his eyes begin+
+to glow with a blue aura.
+endif
+~
+> remove_prog 100~
+if ispc($n)
+mppause 1
+mea $n As you remove your sword you feel as if a part of you is gone.
+mer $n As $n removes their sword they get a totally differnt look in+
+their eyes.
+endif
+~
+> rand_prog 1~
+if ispc($n)
+mea $n &YThe sun glistens off of your gold and diamond sword, leaving you+
+almost blind.&D
+mer $n &YThe sun glistens off of $n gold and diamond sword, leaving them+
+almost blind.&D
+endif
+~
+|
+#31477
+pair of spiked bronze leggings~
+a pair of spiked-bronze leggings~
+A pair of spiked-bronze leggings litters the ground here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+7 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+A
+2 -1
+A
+24 -1
+#31493
+jesters harp~
+The Jester's Harp~
+An intricate harp studded with royal gems has ben left here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+4
+10
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#31300
+At a Wide Path~
+~
+A wildly cut pathway provides more then enough clearance to carry anything 
+one might need to take with them through this dense forest. To the north a 
+lot of trees lay on their sides littering the western side of the path, 
+preventing anyone from being able to enter the forest in the direction. 
+off to the east, west and northwest stand extremely large trees, some have 
+trunks that can be measured at nearly twelve foot around. 
+~
+1 4 11
+D6
+~
+~
+0 -1 31301
+D11
+~
+~
+0 -1 41145
+S
+#31301
+Starting up a Wide Path~
+~
+Along the path the large trees in the thick forest are wrapped in vines
+and stretch toward the heavens.  It is nearly immpossible to know what is
+on the other side of the wide trail due to the amount of trees and brush
+that surround the wide path, that travels off to the north and southwest.
+~
+1 0 3
+D0
+~
+~
+0 -1 31302
+D9
+~
+~
+0 -1 31300
+S
+#31302
+On a Path~
+~
+The dense forest here grows much thicker with large trees and heavy piles of
+brush.  The small ruts in the pathway harbor alot of fresh rain water making
+it a safe source for drinking.  To the south some fallen petrified trees are
+on the edge of one side of the pathway.  A wide trail leads off to the north
+and to the south.
+~
+1 0 3
+D0
+~
+~
+0 -1 31303
+D2
+~
+~
+0 -1 31301
+R O 0 31412 1 31302
+S
+#31303
+A Turn in the Path~
+~
+The dense forest grows even thicker with trees and loose brush here, forcing
+the pathway to turn toward the northeast up a small slope.  Ruts that can be
+found on and along the sides of the trail have gotten much worse making it a
+hard task to travel through at a fast pace.  The rough pathway also leads off
+to the south toward some more smaller water filled ruts.
+~
+1 0 3
+D2
+~
+~
+0 -1 31302
+D6
+~
+~
+0 -1 31304
+S
+#31304
+A Rutted Path~
+~
+The small puddles of stagnated water have been caused by the deep ruts 
+that have been dug into the ground due to all of the traveling on the 
+path. Large blades of wild growing grass, ferns, and other simple forms of 
+vegetation can be seen somewhat to the northeast. To the southwest lay 
+more rutted pathway. 
+~
+1 0 3
+D6
+~
+~
+0 -1 31305
+D9
+~
+~
+0 -1 31303
+S
+#31305
+A Split in the Path~
+~
+The hardend and rutted out path now softens to almost mud due to the swamps to
+to the north, that has ferns and other forms of vegetation growing wildly about
+the entire area.  Thick clouds of smoke cover the forest here lingering in from
+the campsite to the northwest.  The wide path continues travel to the northeast
+toward another trail that has been cut out along the eastern side of this path
+leading deep into the dense forest to the east, and southwest toward a rutted
+out rough pathway.
+~
+1 0 3
+D0
+~
+~
+0 -1 31306
+D6
+~
+~
+0 -1 31309
+D7
+~
+~
+0 -1 31310
+D9
+~
+~
+0 -1 31304
+R M 0 31305 1 31305
+S
+#31306
+A Murky Swamp~
+~
+&GAt all times of the day and night tiny insects and little creatures can be
+seen feeding off of the large amount of vegetation that is growing out of
+the shallow murky swamps.  Blades of wild grass and ferns are growing thick
+along the banks of the swamp.  A thick cloud of smoke lingers in from the
+northwest fills the area, mixing in with the small amount of fog that rolls
+along the ground.  A wide rutted pathway is toward the south.&D
+~
+1 4 15
+D0
+~
+~
+0 -1 31307
+D2
+~
+~
+0 -1 31305
+D3
+~
+~
+0 -1 31310
+S
+#31307
+The Backside of a Swamp~
+~
+&GLarge blades of wild growing grass, ferns, and insects have made maneuvering
+through here a hard task.  Thick trees overhanging the shallow murkey waters
+providing a nice resting place but making it hard for the vegetation to get
+any sunlight.  To the east a thick forest forces the swamps to come to a dead
+end.  More swamp can also be seen to the south.
+~
+1 0 15
+D1
+~
+~
+0 -1 31308
+D2
+~
+~
+0 -1 31306
+R M 0 31301 1 31307
+E
+ferns fern~
+Flowerss spores possessing leaflike fronds, can be found everywhere.
+~
+S
+#31308
+A Dead End~
+~
+&GFurther travel through the swamp has become impossible due to the excessive
+amount of insects, ferns, and large trees that the dense forest and murky
+have produced.  To the west alot of large tree branches overhang the banks
+of the shallow murky swamp, causing the area to stay dark.
+~
+1 0 15
+D3
+~
+~
+0 -1 31307
+E
+ferns~
+&GFlowerless &Ys&Op&Yo&Or&Ye&Os&G possessing &Gl&ge&Ga&gf&Gl&gi&Gk&ge&G
+fronds, can be found everywhere to the east, north, and south..&D
+~
+S
+#31309
+At a Side Trail~
+~
+At this point in the wide path a side trail has been trimmed out of the dense
+forest leading off to the east.  A large number of trees, and large piles of
+brush block the passage into the swamps to the west.  The wide path cuts off
+to the northeast and toward the southwest.  A wooden sign has been placed in
+the ground here.
+~
+1 0 3
+D1
+~
+~
+0 -1 31311
+D6
+~
+~
+0 -1 31312
+D9
+~
+~
+0 -1 31305
+R M 0 31390 4 31309
+E
+sign wooden small~
+&O+-------------------------+
+|&R   Manoake -- Northeast&O  |
+|&R   Old Mines -- east&O     |
+&O+-------------------------+
+~
+S
+#31310
+Nearing a Campsite~
+~
+&GThe small trail is littered with fallen trees, overgrown grass, and junk
+that has been left from cast campers.  The area fills with the smell of
+a campsite as the campfires faded grey smoke works its way through the
+forest.  The trail continues to the northwest toward a campsite and to
+the southeast to a wide path.  Ferns and wild grass grow thick in the
+swamps to the east.
+~
+1 0 3
+D1
+~
+~
+0 -1 31306
+D7
+~
+~
+0 -1 31313
+D8
+~
+~
+0 -1 31305
+S
+#31311
+A Side Trail~
+~
+The side trail into the dense forest is well cleared, proof that it is a
+heavily traveled path.  The thick forest and dense amounts of brush to the
+north and south prevents any traveling through the forest.  The trail runs
+deeper into the dense forest to the east, and continues toward a wide path
+to the west.
+~
+1 0 3
+D1
+~
+~
+0 -1 31314
+D3
+~
+~
+0 -1 31309
+S
+#31312
+A Wide Path~
+~
+Along each side of this widly cut out path there is a small wall that has been
+constructed of lose stones that have been stacked into small piles about three
+feet high, running along the pathway to the north toward Manoake's entranceway.
+A side path has been cut out of the trail to the southwest on the eastern side
+of the wide path leading off into the dense forest.
+~
+1 1024 4
+D0
+~
+~
+0 -1 31323
+D9
+~
+~
+0 -1 31309
+R M 0 31390 4 31312
+S
+#31313
+A Campsite~
+~
+&GAt the end of the pathway a large black pit used for fire indicates a
+campsite.  Large black stones surround the pit making for a good resting
+spot, while the remains of charred logs glow from inside the pit keeping
+the area warm.  Behind the rocks a small area has been cleared and leveled
+off for bedding.  The trail leads out to the southeast toward a wide path.
+~
+1 0 3
+D8
+~
+~
+0 -1 31310
+R O 0 31301 1 31313
+R O 0 31314 1 31313
+R O 0 31302 1 31313
+S
+#31314
+A Side Trail~
+~
+A roof of branches and leaves is formed as the limbs from the trees off the
+side of the pathway extend overhead creating a roof of branches and leaves
+over the path.  A wide creek with raging rapids can be seen and heard to the
+east, with a wooden bridge crossing over the to the east side where the path
+picks back up and continunes east.  The pathway also leads off to the west to
+a wide path.
+~
+1 0 3
+D1
+~
+~
+0 -1 31315
+D3
+~
+~
+0 -1 31311
+> rand_prog 10~
+if ispc($n)
+  mpecho &cThe sounds of a raging water can be heard coming from the creek to the east.&D
+endif
+~
+|
+S
+#31315
+A Creek Crossing~
+~
+This old bridge has been crafted from lumber and tiny metal planks that spans
+across the banks of the raging creek below to allow the hampered paths to the
+east and west to connect, making for easy travel through the trail.  The wood
+on the bridge has been coated and sealed with tree sap, to ensure the excessive
+exposure to the weather wouldn't affect it.  The trails lead off from the bridge
+to the east deeper into the dense forest toward a sharp twist in the path, and
+to the west toward a wide pathway.
+~
+1 0 3
+D1
+~
+~
+0 -1 31316
+D3
+~
+~
+0 -1 31314
+> rest_prog 100~
+if ispc($n)
+  mppause 100
+  mpecho &cThe old wooden bridge gives way to the weight.&D
+  mppause 3 
+  mpecho &BSplashhhh!&D
+  mpdamage $n 10
+  mptransfer $n 31451
+endif
+~
+|
+S
+#31316
+On a Trail~
+~
+The sound of running water is heard from the west, a old wooden bridge can
+be seen crossing the small creek.  Above the limbs of trees hang down giving
+the path a roof of branches and leaves.  The dirt path continues to either
+the east or west.  To the south a narrow opening in the brush and trees make
+it possible to wander somewhat off the dirt path.
+~
+1 0 3
+D1
+~
+~
+0 -1 31317
+D2
+~
+enter forest~
+2754560 -1 31319
+D3
+~
+~
+0 -1 31315
+R M 0 31390 4 31316
+R M 0 31307 1 31316
+> rand_prog 1~
+if ispc($n)
+  mpecho &cA strong burst of wind, causes the leaves on the trees to the south to make strange noises.&D
+endif
+~
+|
+S
+#31317
+A Turn in The Trail~
+~
+A twist in the trail has been caused by the overgrowth of this dense forest
+blocking travel in all directions but to the north.  Overhanging the trail is
+a canopy of long branches and leaves that have extended from the trees in the
+dense forest off the sides of the pathway.  To trail continues off to the west
+and to the north toward the edge of the forest.
+~
+1 0 3
+D0
+~
+~
+0 -1 31318
+D3
+~
+~
+0 -1 31316
+R M 0 31396 1 31317
+S
+#31318
+On The Trail~
+~
+The forest begins to thin out alot revealing a old abandoned mining cave with
+a very large sphere shaped boulder covering up the entranceway at the base of
+a small mountain to the east, just one of the many mountains that can be found
+in a series of mountains that are somewhat toward the northeast and southeast.
+To the south the trail takes a wind to the west leading deeper into the forest.
+~
+1 0 3
+D1
+~
+~
+0 -1 31482
+D2
+~
+~
+0 -1 31317
+S
+#31319
+A Dense Forest~
+~
+&GA thick fog lingers across the area covering most of the dense forest's
+floor with a heavy mist.  Alot of trees here seem to rise far up to the
+heavens and beyond.  To the north long limbs can be seen overhanging the
+narrow trail forming a thin roof of branches and leaves.  The forest to
+the southeast makes travel possible but very difficult.
+~
+1 0 3
+D0
+~
+~
+0 -1 31316
+D8
+~
+~
+0 -1 31320
+R M 0 31302 1 31319
+  R E 1 31304 1 16
+  R E 1 31393 1 5
+  R E 1 31394 1 7
+S
+#31320
+A Hidden Trail~
+~
+&GThe ground of this narrow trail has been engulfed in a heavy fog that
+has made its way out of the forest to the northwest, combine that with
+the thick brush it makes it very hard for even the best of travelers to
+continue their journey south.  The dense forest to the northwest is hard 
+to make out due to the amount of lingering fog.
+~
+1 0 1
+D2
+~
+~
+0 -1 31321
+D7
+~
+~
+0 -1 31319
+S
+#31321
+Before a Home~
+~
+&GThe trunk of the extremly large tree to the west has been made into
+someones home.  A lantern hanging on the inside of the window gives
+off a faded glow due to the thick fog coming in from the surrounding
+forest.  Large amounts of heavy brush and trees makes traveling any
+further to the south nearly impossible.
+~
+1 0 1
+D0
+~
+~
+0 -1 31320
+D3
+~
+~
+0 -1 31322
+S
+#31322
+Inside A Large Tree~
+~
+A humble home has been made out of the inside of this partly hollowed out
+tree.  The whitewashed dome room itself is a sight for seeing muchless the
+beautiful carvings that adorne the walls of this suttle house.  Laying on
+the ground is a rug that almost covers the entire length and width of the
+dirt packed floor.  A shiny brass lantern swings on its hanger infront of
+east.  A small doorway to the east leads back out onto the trail.
+~
+1 137371660 0
+D1
+~
+~
+0 -1 31321
+R M 0 31304 1 31322
+  R E 1 31305 1 17
+  R E 1 31474 1 5
+  R E 1 31475 1 8
+  R E 1 31477 1 7
+R O 0 31307 1 31322
+  R P 0 31466 1 31307
+S
+#31323
+The Edge of the Forest~
+~
+The small wall of stacked stones continues to run along the sides of this up
+hill path, making a small barrier between the travelers and the light forest
+to the east and west.  The forest along the sides of the path have been well
+maintained providing a spectacular view.  To the south the trail leads down
+a sloping trail into the dense forest, and to the north some very beautiful
+gardens can be seen before a gated off entranceway to the city of Manoake.
+~
+1 0 1
+D0
+~
+~
+0 -1 31324
+D2
+~
+~
+0 -1 31312
+R M 0 31390 4 31323
+S
+#31324
+Some Beautiful Gardens~
+~
+The three foot wall of stacked stones that is along the sides of the path
+allows a view of the beautiful gardens somewhat off to the east, and west
+showing off amazing gardening skills with endless rows of carefully layed
+out patterns, and colors.  A massive granite archway looms over the gated
+entranceway of the city to the north.  Some beautiful scenery can be seen
+to the south at the edge of the dense forest.
+~
+1 0 1
+D0
+~
+~
+0 -1 31325
+D2
+~
+~
+0 -1 31323
+> rand_prog 3~
+if ispc($n)
+  mpecho &cA strong gust of wind picks up all the pollen from the gardens and blows it all over the trail.&D
+  mppause 2
+  mpforce $n sneeze
+endif
+~
+|
+S
+#31325
+Before The City Gates~
+~
+To the north stands a gigantic stone wall made of many stones and alot of
+mortor.  A granite archway has been constructed into the wall looming over
+the citys gated off entranceway, the gate is made out of highly tempered
+reinforced steel, sure to be able to stop unwanted visitors from entering
+the city.  Large words have been enscribed into the stone directly over
+the granite archway.
+~
+1 0 1
+D0
+~
+gate~
+8389671 31315 31326
+D2
+~
+~
+0 -1 31324
+R M 0 31306 1 31325
+  R E 1 31334 1 5
+  R E 1 31364 1 16
+  R G 1 31315 1
+R D 0 31325 0 2
+S
+#31326
+At The City Gates~
+~
+The gigantic walls to the south are made of many differnt stones and mortor,
+that is acting as a barrier to the city.  A massive granite archway has been
+built in the wall over the gated off entranceway to the city.  The gates are
+made of reinforced tempered steel that are more then able to protect the city
+from any unwanted visitors.  To the north a path makes its way to the octagon
+shaped courtyard.
+~
+1 0 1
+D0
+~
+~
+8389664 -1 31327
+D2
+~
+gate~
+8389671 31315 31325
+R M 0 31308 1 31326
+  R E 1 31389 1 5
+  R E 1 31390 1 7
+  R E 1 31391 1 13
+  R E 1 31317 1 16
+  R G 1 31315 1
+R D 0 31326 2 2
+> act_prog p arrives from the south.~
+if ispc($n)
+  if isevil($n)
+    mppause 4
+    mea $n You feel the urge that you are unwanted here.
+  endif
+endif
+~
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31327
+Courtyard Path~
+~
+A few petrified logs lay partly buried into the ground with small holes 
+cut through them to allow rope to be run through each log creating some 
+type of rope fence, that runs along the eastern side of the road, 
+protecting all of the flowers that have been planted around there for 
+observation. A wooden building to the northeast is being used as a worn 
+down chapel. A massive granite archway to the south looms over the city's 
+entrance. Palace Drive leads off toward the palace to the west. 
+A solitary tree stands near the path providing shade to passersby.
+~
+1 0 1
+D0
+~
+~
+0 -1 31328
+D2
+~
+~
+8389664 -1 31326
+D3
+~
+~
+0 -1 31416
+D4
+~
+~
+67712 -1 31493
+R M 0 31343 3 31327
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+> entry_prog 100~
+mppause 10
+
+mpechoat $n &zThe chattering of birds and a sharp plucking noise fills your ears...&d
+~
+|
+S
+#31328
+Before a Chapel~
+~
+To the east a medium sized wooden building is being used as a chapel.
+Large letters have been placed above the door of the chapel saying "In
+worship of our creator."  Somewhat to the north a fountain can be seen
+in the middle of the courtyard spraying water over ten feet into the air.
+Far to the south a massive granite archway can be seen looming over the
+city's gated entrance.
+~
+1 0 1
+D0
+~
+~
+0 -1 31329
+D1
+~
+door~
+1057 -1 31331
+D2
+~
+~
+0 -1 31327
+R D 0 31328 1 0
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31329
+Entering the Courtyard~
+~
+A rope fence has been placed around the octagon shaped courtyard, only opening
+in certain places to allow other roadways to enter the courtyard from other
+directions.  A stone fountain can be seen to the north in front of the stone
+cathedral.  To the southeast an old wooden building is being used as a chapel.
+The roadway to the south leads towards the cities entranceway.
+~
+1 0 1
+D0
+~
+~
+0 -1 31332
+D2
+~
+~
+0 -1 31328
+S
+#31330
+Floating in a void~
+~
+~
+1 4 1
+S
+#31331
+A Small Chapel~
+~
+A subordinate place of worship has been made out of this medium sized old
+wooden building.  A few rows of dust covered wooden pews have been lined
+up facing a small podium that sits offset to a beautiful colored window pane.
+The thick door on the western wall leads back out onto the courtyard path.
+~
+1 1024 0
+D3
+~
+door~
+1057 -1 31328
+R M 0 31309 1 31331
+  R E 1 31316 1 5
+R D 0 31331 3 0
+E
+pughes~
+Old wooden pughes covered in dust are lined up facing the podium.
+~
+E
+window paned color~
+Beatiful shimmers of light come off these mutli-colored window panes.
+~
+S
+#31332
+In a Courtyard~
+~
+A massive octagon has been roped off only breaking to allow other roadways
+to enter tne courtyard.  Inside the octagon, a large cathedral can be seen
+on the far side of a well crafted stone fountain that sits in the square of
+the courtyard, to the northwest a small cabana crumbles under the weight of
+some heavy vines.  The Courtyard Path leads off to the north and south.
+~
+1 0 1
+D0
+~
+~
+0 -1 31333
+D2
+~
+~
+0 -1 31329
+D7
+~
+~
+0 -1 31352
+S
+#31333
+Center of the Courtyard~
+~
+In the center of the octagon shaped courtyard, roads begin to intersect around
+the well crafted stone fountain benches made of wood sit with in the small ring
+of rocks that surround the fountains edges.  To the southwest a cabana engulfed
+in heavy vines is looks rarely used.  A large cathedral built of stone has been
+constructed to the northeast.  Courtyard Road continues to travel north and to
+the south, while Mollin Circle runs to the southeast.  Manoakes main shopping
+district is to the west on Devinity Avenue.
+~
+1 0 1
+D0
+~
+~
+0 -1 31334
+D2
+~
+~
+0 -1 31332
+D3
+~
+~
+0 -1 31410
+D6
+~
+~
+0 -1 31379
+D8
+~
+~
+0 -1 31400
+R M 0 31339 1 31333
+  R E 1 31430 1 14
+  R E 1 31328 1 10
+  R E 1 31323 1 9
+  R E 1 31390 1 7
+R O 0 31318 1 31333
+> time_prog 14~
+if ispc($n)
+  mpechoat $n &cThe sun glistens off of the water in the fountain almost blinding you.&D
+endif
+~
+|
+S
+#31334
+At the entrance to the Courtyard~
+~
+A rope fence has been ran around the octagon shaped courtyard, only breaking
+in certain places to allow other roadways to enter the courtyard.  The green
+lawn, and peaceful atmosphere here will inspire unforgettable feelings.  Added
+to this is a nice view of the cathedral that is to the east, never failing to
+charm every visitor.  Courtyard path continues north toward a small stone shop
+and south toward a large fountain crafted out of stone.
+~
+1 0 1
+D0
+~
+~
+0 -1 31335
+D1
+~
+~
+0 -1 31379
+D2
+~
+~
+0 -1 31333
+S
+#31335
+Courtyard Path~
+~
+To the south a rope fence has been ran around the landscape of the courtyard
+only breaking in certain places to allow roadways to enter the octagon.  A
+rather small building to the west has a large wooden sign that hangs over its
+archway that acts as the entrance to the small shop.  Somewhat to the north a
+gigantic wall made of stone forces the Courtyard Path to come to a dead end.
+~
+1 0 1
+D0
+~
+~
+0 -1 31336
+D2
+~
+~
+0 -1 31334
+D3
+~
+door~
+1 -1 31364
+R D 0 31335 3 0
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31336
+Courtyard Path~
+~
+To the north a gigantic wall made of stone and mortor forces the Courtyard
+path to a end.  Somewhat to the east the sides of a large military barrack
+can be seen, that seems more then able to house many great warriors at one
+time.  The Courtyard Path continunes southward beside a small shop that is
+on the western side of the road before it enters a octagon shaped courtyard
+and to the north toward a three way intersection with Thalimon Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 31337
+D2
+~
+~
+0 -1 31335
+R M 0 31393 1 31336
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31337
+Intersection of Courtyard and Thalimon~
+~
+A gigantic wall made of stone forces the Courtyard path to end at this three
+way intersection with Thalimon that leads off to the east and west.  To the
+east an old building used as military barracks appear to be in very bap shape.
+To the west a few shops can be seen along the southern side of the road, most
+of the stores have been marked with sometype of sign near the front of their
+stores.  A massive courtyard for Manoake's Cathedral can be seen somewhat to
+the south.
+~
+1 0 1
+D1
+~
+~
+0 -1 31338
+D2
+~
+~
+0 -1 31336
+D3
+~
+~
+0 -1 31343
+R M 0 31343 3 31337
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31338
+Thalimon Street~
+~
+Along the northern side of the road runs a gigantic wall made of many stones,
+and alot of mortar that acts as a barrier to the city, protecting it from any
+unwanted visitors.  To the southeast a worn down barrack looks as if it's empty.
+Thalimon Street continues to run to the east, and west towards an intersection
+with Courtyard Road.
+~
+1 0 1
+D1
+~
+~
+0 -1 31339
+D3
+~
+~
+0 -1 31337
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31339
+Thalimon Street~
+~
+The gigantic wall, made of stone, continues to run along the northern side 
+of the roadway, protecting the city from unwanted visitors. To the south, 
+a wooden doorway leads into an old worn down building which serves as a 
+military barrack. A sign hangs to the left of the door. Thalimon runs to 
+the east and to the west toward a three way intersection. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31340
+D2
+~
+door ~
+1 -1 31353
+D3
+~
+~
+0 -1 31338
+R D 0 31339 2 0
+E
+sign~
+The print is too small to be able to read it.
+~
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31340
+Thalimon Street~
+~
+A gigantic wall made of stone, travels along the northern side of Thalimon
+Street acting as a barrier for the city, protecting the city from unwanted
+visitors.  To the southwest stands an old military barrack that wouldn't even
+suit a beggar.  Thalimon Street continues to run to the east where mountain
+tops can be seen far off over the stone walls, and to the west toward a three
+way intersection.
+~
+1 0 1
+D1
+~
+~
+0 -1 31341
+D3
+~
+~
+0 -1 31339
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31341
+Before a Library on Thalimon Street~
+~
+The gigantic stone wall that runs along the northern side of the road appears
+to be cracking and crumbling away at places leaving it susceptable  to attacks
+from any unwanted visitors.  To the south a sign carved from oak in the shape
+of a rectangle hangs above the stone buildings entranceway.  Thalimon Street
+continues off to the east and west.
+~
+1 0 1
+D1
+~
+~
+0 -1 31342
+D2
+~
+door~
+1 -1 31355
+D3
+~
+~
+0 -1 31340
+R D 0 31341 2 0
+E
+crack cracking crumbing~
+cracks have formed in the wall due to the weak mortor that in some
+places crumble away.
+~
+E
+sign oval oak~
+&O+-------------------------+
+|&W Manoake's Public Library &O|
+&O+-------------------------+
+~
+> sleep_prog 10~
+if ispc($n)
+mppause 30
+mer $n A constable enters the room, catching $n sleeping on the street.
+mppause 3
+mer $n A constable grabs $n up off of the street and quickly takes them+
+toward the jail.
+mea $n A constable grabs you up off of the street and quickly takes you+
+to jail.
+mptransfer $n 31489
+endif
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31342
+Thalimon Street~
+~
+The gigantic stone wall that is running along the northern side of Thalimon now
+shifts south as it merges with another wall that runs along the eastern side of
+Mollin Circle that is off to the south.  A few mountain tops can be seen over
+the wall far to the east.  A stone building to the southwest acts as Manoake's
+Public Library.  Thalimon continues to travel off to the west passing by a few
+structures before coming to a three way intersection.
+~
+1 0 1
+D2
+~
+~
+0 -1 31394
+D3
+~
+~
+0 -1 31341
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31343
+Thalimon Street~
+~
+Treetops that tower toward the heavens can be seen swaying over the gigantic
+stone walls that are to the north.  A small wooden sign hangs on iron hangers
+above the doorway of a small shop that is to the south.  Thalimon Street runs
+to the west toward some more shops, and to the east to a three way intersection
+with the Courtyard Path.
+~
+1 0 1
+D1
+~
+~
+0 -1 31337
+D2
+~
+door~
+1 -1 31354
+D3
+~
+~
+0 -1 31344
+R D 0 31343 2 0
+E
+wooden sign wood~
+Morig's Armor Repair!
+~
+E
+Tree treetop treetops~
+The massive tree branches lean on top of the gigantic stone wall.
+~
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31344
+Thalimon Street~
+~
+The treetops to the north can be seen looming over the gigantic stone wall
+that acts as a barrier, protecting the city from any unwanted visitors.  A
+shop to the south has a sign made out of some dark stone that has been put
+beside the doorway.  Thalimon Street continues to travel to the east and to
+the west from here.
+~
+1 0 1
+D1
+~
+~
+0 -1 31343
+D2
+~
+door~
+1 -1 31363
+D3
+~
+~
+0 -1 31345
+R M 0 31338 4 31344
+R M 0 31381 1 31344
+  R E 1 31393 1 5
+  R E 1 31394 1 7
+R D 0 31344 2 0
+E
+sign marble~
+Manyia's Armor Supply
+~
+> sleep_prog 10~
+if ispc($n)
+mppause 30
+mer $n A constable enters the room, catching $n sleeping on the street.
+mppause 3
+mer $n A constable grabs $n up off of the street and quickly takes them+
+toward the jail.
+mea $n A constable grabs you up off of the street and quickly takes you+
+to jail.
+mptransfer $n 31489
+endif
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31345
+Thalimon Street~
+~
+A gigantic wall of stone stands to the north running along side the roadway,
+acting as a barrier for the city protecting it from any unwanted visitors.  A
+narrow dark alleyway is to the south cut out between two buildings,  Thalimon
+Street travels west toward a jailhouse, and to the east passing by a few shops
+on the southern side of the road.
+~
+1 0 1
+D1
+~
+~
+0 -1 31344
+D2
+~
+~
+0 -1 31360
+D3
+~
+~
+0 -1 31346
+R M 0 31392 1 31345
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31346
+Thalimon Street~
+~
+Along the northern side of the road runs a gigantic wall that has been made of
+stone serving as a barrier to the great city, protecting it from any unwanted
+visitors.  A small building acting as a constables office and a jailhouse can
+be seen to the south.  Thalimon Street continues to travel off to the east and
+to the west toward a shift in the gigantic wall, and a three way intersection
+with the Garden Pathway.
+~
+1 0 1
+D1
+~
+~
+0 -1 31345
+D2
+~
+~
+0 -1 31486
+D3
+~
+~
+0 -1 31348
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31347
+new room!~
+~
+~
+1 4 1
+S
+#31348
+Thalimon Street~
+~
+The gigantic wall of stone takes a sharp shift southward running along the
+western side of the pathway leading toward the gated off gardens, creating
+a cornor of interlocking stones and lots of cracking away mortor fills the
+entire wall at this spot.  To the east Thalimon street travels by the local
+jail before running by a few more shops on the southern side of the roadway.
+~
+1 0 1
+D1
+~
+~
+0 -1 31346
+D2
+~
+~
+0 -1 31368
+E
+cracks crack ~
+The weak mortor has caused many cracks along this part of the wall,
+and in some places the mortor just seems to be coming right off.
+~
+> sleep_prog 10~
+if ispc($n)
+mppause 30
+mer $n A constable enters the room, catching $n sleeping on the street.
+mppause 3
+mer $n A constable grabs $n up off of the street and quickly takes them+
+toward the jail.
+mea $n A constable grabs you up off of the street and quickly takes you+
+to jail.
+mptransfer $n 31489
+endif
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31349
+Floating in a void~
+~
+~
+1 4 1
+S
+#31350
+Floating in a void~
+~
+~
+1 4 1
+S
+#31351
+Floating in a void~
+~
+~
+1 4 1
+S
+#31352
+In a Cabana~
+~
+The crumbling shelter almost resembles a cabin with no walls only handrails
+and columns, one of the open sides faces the triangle shaped stone fountain
+found in the courtyard's square.  This would make for a perfect sitting spot
+if someone would pull off the heavy vines that is ripping this lightweight
+structure apart.  Padded seats have been placed near the handrails that run
+along the edges of the inside of the cabana.  The doorway exiting the cabana
+is to the southeast.
+~
+1 4 1
+D8
+~
+~
+0 -1 31332
+R O 0 31424 1 31352
+S
+#31353
+Inside a Barrack~
+~
+Dirt, garbage, dirty uniforms and rotted pieces of food remains are just 
+the start of what can be found inside this old military barrack. It's 
+awfully messy and unhygenic. Over fifty beds are cramped next to another 
+in this bunkhouse. A wooden sign is attached to the west wall near the far 
+end of the room. 
+~
+1 8 0
+D0
+~
+door ~
+1 -1 31339
+D2
+~
+~
+0 -1 31468
+R M 0 31316 5 31353
+R O 0 31396 1 31353
+R D 0 31353 0 0
+E
+sign wooden~
+&O+-----------------------+
+|&R        Condemn        &O|
+&O+-----------------------+
+~
+S
+#31354
+Morig's Armor Repair~
+~
+A large work table filled with hammers and different types of tools used 
+for repairing armor sits against the western wall, close to a pit of fire 
+that is used for heating up the metal types of armor to reshape them. To 
+the north a wooden doorway leads back out onto Thalimon Street. 
+~
+1 0 0
+D0
+~
+door~
+1 -1 31343
+R M 0 31310 1 31354
+  R E 1 31439 1 5
+R D 0 31354 0 0
+S
+#31355
+A Grand Hallway~
+~
+Lining both sides of the hall are nicly crafted statues, that have been
+fabricated to resemble some of the most famous dwarves.  A list of names
+have been carved into a flat piece of stone, that has been mounted before
+the first statue on the west wall.  To the south a round crystal chandelier
+can be seen hanging from the hallway ceiling.  The doorway leading out to 
+the street can be found on the north wall.
+~
+1 4 0
+D0
+~
+door~
+1 -1 31341
+D2
+~
+~
+0 -1 31356
+R D 0 31355 0 0
+E
+engraved flat stone~
+A list of the greatest Dwarven Heroes is displayed here, matching the 
+noble statues resting along the Hall.
+ 
+ 
+An engraved stone plaque reads: 
+ 
+Githard
+Thassilod
+Aomin
+Slagee
+Mogona
+Raithus
+Naaric
+Kithern
+Tokota
+Mossul
+Kyrane
+Frowin
+~
+S
+#31356
+At the end of a Grand Hallway~
+~
+A crystal chandelier hangs overhead from the ceiling producing a shimmering
+light effect against the stone walls, putting those who pass under it in awe.
+On the doorway to the east a sign has been placed in gold leaf lettering about
+three quarters of the way up the door.  To the north statues line the eastern
+and western walls making a memorial to some of the greatest dwarves to walk
+these lands.  The dome room to the south appears to serve as Manoake's public
+library.
+~
+1 0 0
+D0
+~
+~
+0 -1 31355
+D1
+~
+door~
+1 -1 31358
+D2
+~
+~
+0 -1 31357
+D3
+~
+wall~
+8391713 -1 31359
+R D 0 31356 1 0
+R D 0 31356 3 0
+E
+sign black lettering~
+Nacard's Office
+~
+S
+#31357
+Inside a Library~
+~
+Dozens of dust covered bookshelves line all the solid white all but the eastern
+wall in this odd round shaped room.  To the east a large glass window gives off
+a view of the passing by Mollin Circle.  A quick look up to the ceiling reveals
+a nice painting of clouds with a light blue background.  A long table sits near
+the center of the room surrounded with wooden chairs giving people a nice place
+to rest and read.  To the north a small archway leads into a grand hallway that
+is lined with statues far to the north.
+~
+1 0 0
+D0
+~
+~
+0 -1 31356
+R M 0 31394 1 31357
+  R E 1 31455 1 8
+  R E 1 31324 1 7
+  R E 1 31431 1 5
+R M 0 31311 1 31357
+  R E 1 31454 1 20
+  R E 1 31423 1 5
+R O 0 31340 1 31357
+R O 0 31338 1 31357
+> rand_prog 5~
+if ispc($n)
+  if isevil($n)
+    mpechoat $r &cYou feel a urge to leave.&D
+  else
+    mpechoat $r &cA sudden shift in light make the clouds on the ceiling look as if they have moved.&D
+  endif
+endif
+~
+|
+S
+#31358
+Hacard's Office~
+~
+There is not too much to this small office, a simple polished wooden desk
+sits near the middle of the room infront of a rather comfortable looking
+chair.  On the western wall a painting of a dwarf hangs encased in a gold
+frame.  On the far side of the room hangs another picture of the forest in
+a crooked wooden frame.   A door on the west wall leads back out into the
+great hallway.
+~
+1 0 0
+D3
+~
+door~
+1 -1 31356
+R O 0 31339 1 31358
+R D 0 31358 3 0
+S
+#31359
+A Hidden Mapping Office~
+~
+It appears to be a old storage room, that has been turned into a small
+map making shop.  All the tools needed for the making of a accurate map
+can be found laying on the wooden table.  A small metal chest sits against
+the stone wall, in the far corner of the room.  To the east a doorway
+leads back out into the hallway.
+~
+1 0 0
+D1
+~
+wall~
+1 -1 31356
+R M 0 31342 1 31359
+  R E 1 31454 1 20
+R O 0 31370 1 31359
+  R P 0 31369 1 31370
+R O 0 31338 1 31359
+R O 0 31337 1 31359
+R D 0 31359 1 0
+S
+#31360
+A Dark Alley~
+~
+The dark alley leads between two buildings running south, the roofing of these
+buildings overhang the street almost connecting them together causing the alley
+to be dark.  Overflowing piles of trash line the sides of the abandoned street,
+making travel through here almost painful.  Thalimon Street can be seen to the
+north running east and west.  The dark alleyway leads off to south toward a old
+broken down shack.
+~
+1 0 1
+D0
+~
+~
+0 -1 31345
+D2
+~
+~
+0 -1 31361
+> rand_prog 10~
+if ispc($n)
+  mpechoat $r &cA foul odor lingers from the many bags of garbage littering the alley.&D
+endif
+~
+|
+S
+#31361
+A Dark Alley~
+~
+The alleyway is quite dark leading off through the buildings to the east and
+to the west, making travel through here very unsafe.  A old wooden door is
+on the backside of the building to the east, barely hanging on its rusted
+hinges,  The alley continues to the north toward Thalimon Street, and deeper
+into the dark alley toward the south.
+~
+1 0 1
+D0
+~
+~
+0 -1 31360
+D1
+~
+wooden door~
+8391715 -1 31364
+D2
+~
+~
+0 -1 31362
+R M 0 31315 1 31361
+  R E 1 31409 1 5
+  R E 1 31327 1 16
+R D 0 31361 1 1
+S
+#31362
+A Dark Alley~
+~
+The small broken down shack that has been built to the south forces the
+dark alley to come to a dead end.  The door on the old shack is made of
+wood and is reinforced with a metal backing, making it nearly impossiable
+to bash open.  The dark alley leads back out to the north toward Thalimon
+street.
+~
+1 0 1
+D0
+~
+~
+0 -1 31361
+D2
+~
+'metal door'~
+1063 31419 31365
+R D 0 31362 2 2
+S
+#31363
+Manyia's Shop~
+~
+Inside the small second hand armor shop sits all types of goodies that have
+been brought in from throughout the land.  A tiny fitting area has been built
+into the back corner of the shop to allow people to get the correct fitting
+on their new armor.  To the north a doorway leads back out onto Thalimon's
+busy roadway.
+~
+1 0 0
+D0
+~
+door~
+1 -1 31344
+R M 0 31313 1 31363
+  R G 1 31323 1
+  R G 1 31321 1
+  R G 1 31324 1
+  R G 1 31320 1
+  R G 1 31322 1
+  R G 1 31334 1
+R D 0 31363 0 0
+S
+#31364
+Gorin's Mining Supply~
+~
+The inside of this tiny shop is kept very clean, behind the small counter sits
+a stool close to  a small table.  Mining picks, hammers and lots of small flat
+nosed shovels are neatly stacked in large piles against the back wall.  To the
+east a small archway leads back out onto the Courtyard path.
+~
+1 4 0
+D1
+~
+door~
+1 -1 31335
+D3
+~
+wooden door~
+2100267 -1 31361
+R M 0 31317 1 31364
+  R E 1 31390 1 7
+  R E 1 31431 1 5
+  R G 1 31354 1
+  R G 1 31353 1
+  R G 1 31345 1
+  R G 1 31355 1
+R D 0 31364 1 0
+R D 0 31364 3 1
+S
+#31365
+Inside A Broken Down Shack~
+~
+This enclosed structure is falling down from the ground up each step taken
+across the floor invokes a vile creek from the weak, and rotted away wood.
+Some old dust covered mining tools have been pilled around the corners of
+the shack.  Large holes in the ceilng have allowed many differnt types of
+creators to call this place home.   A doorway on the north wall leads into
+the dark alley.
+~
+1 0 0
+D0
+~
+'metal door'~
+1057 31419 31362
+D4
+~
+~
+67584 -1 31366
+R D 0 31365 0 0
+E
+tool tools mining dust~
+Mining picks, small hammers, and shovels line the rotted walls of this
+broken down shack.
+~
+E
+holes ceiling ~
+The holes in the ceiling almost look big enough for a rather large person
+to climb through.
+~
+E
+wooden floor wood~
+The wooden floors are badly damaged due to the rain water that has came
+in from the large holes in the ceiling.
+~
+S
+#31366
+Ontop of a Shack~
+~
+This old roof belongs to the broken down shack, that has been made out of 
+over the years the roof has taken much punishment causing the roof to rust
+completly at places forming large holes all over the rooftop making the roof
+very unstable for any type of weight.  To the north the roof has a downward
+slope in height that is leading off a small ledge into a alleyway.
+~
+1 16777216 9
+D0
+~
+~
+2048 -1 31362
+D5
+~
+~
+2048 -1 31365
+S
+#31367
+Floating in a void~
+~
+~
+1 4 1
+S
+#31368
+A Garden Path~
+~
+As the gigantic wall made of many stones and mortor makes it shift south it
+starts to travel along the western side of the garden path.  To the east the
+a side of a white building can be seen serving as a jailhouse.  Along the path
+to the south wreathed columns run along both sides of the pathway that leads
+toward the gated off gardens.
+~
+1 0 1
+D0
+~
+~
+0 -1 31348
+D2
+~
+~
+0 -1 31369
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31369
+A Garden Path~
+~
+Along the pathway to somewhat to the west stands a gigantic wall made of stone
+acting as a barrier, protecting the city from any unwanted visitors.  A small
+patch of trees and brush have been allowed to grow wildly to the east, forming
+a small light forest.   The garden path continues to travel to the north toward
+Thalimon street, and to the south where wreathed columns have been placed along
+both sides of the pathway.
+~
+1 0 1
+D0
+~
+~
+0 -1 31368
+D2
+~
+~
+0 -1 31370
+R M 0 31408 1 31369
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31370
+A Garden Path~
+~
+Old wreathed columns made out of a very strange lime colored stone with heavily
+decorated capitals, are lining each side of the road; guiding a direct path to
+Manoake's exclusive gated off gardens somewhat to the south.  A short distance
+to the west stands a gigantic wall made of stone that runs the entire length of
+the west side of the city.  A light forest to the east adds incredible scenry
+to this garden path.
+~
+1 0 1
+D0
+~
+~
+0 -1 31369
+D2
+~
+~
+0 -1 31371
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31371
+A Garden Path~
+~
+The wreathed columns running along the sides of the path have become
+entangled with heavy vines causing some of them to lean to the side a bit.
+A small side trail runs between two columns leading off into the light 
+forest to the southeast.  To the west is a gigantic stone wall.
+~
+1 0 1
+D0
+~
+~
+0 -1 31370
+D2
+~
+~
+0 -1 31372
+D8
+~
+~
+2048 -1 31473
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31372
+At the Gates to the Gardens~
+~
+Heavy vines wrapped themselves upwards all the way to the decorated capitials
+on the top of the rathre large columns lining the roadside.  To the south a
+golden gateway leads into Manoake's beautiful gardens.  Somewhat to the west
+a gigantic wall made of stone serves as a barrier to the city.  To the east a
+light forest provides a nice view while traveling around outside of the citys
+main gardens.
+~
+1 0 1
+D0
+~
+~
+0 -1 31371
+D2
+~
+gate~
+1059 -1 31374
+R D 0 31372 2 1
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31373
+Floating in a void~
+~
+~
+1 4 1
+S
+#31374
+At the Gateway~
+~
+Sweeping lawns and vistas interspersed with statuary, tempiettos, and wooden
+benches to the south.  Planted in the long bed nearest to the tempiettos
+is a collection of beautiful white roses, the blooming roses harken back to
+the many-petaled full flowers, fragrance, and soft colors reminiscent of the
+roses.  Climbing and rambling roses grow on the arbors to the east and west
+it can also be seen growing on the archway above the golden gate to the north.
+~
+1 4 1
+D0
+~
+gate~
+1059 -1 31372
+D2
+~
+~
+0 -1 31375
+R D 0 31374 0 1
+> rand_prog 20~
+mpecho A gentle breeze, carrys the relaxing smell of mother nature. 
+~
+|
+S
+#31375
+In Some Garden~
+~
+Manoake's gardens features an extensive collection of bulbous, rhizomatous,
+and tuberous plants that create a splendid seasonal display, spanning nearly
+three acres with sweeping lawns and vistas interspersed with statuary,
+tempiettos, and benches.  Thousands of types of plants from all over the lands
+make up the botanical collections.  A slope in the garden to the east is
+covered in a colorful canopy of yellow cassias and tabeluias, pink cape
+chestnuts, purple hauhinias, blue jacarandas, and white tree daises.
+~
+1 0 1
+D0
+~
+~
+0 -1 31374
+D1
+~
+~
+0 -1 31424
+R M 0 31345 1 31375
+  R E 1 31437 1 3
+  R E 1 31438 1 16
+> rand_prog 20~
+mpecho A gentle breeze, carrys the relaxing smell of mother nature. 
+~
+|
+S
+#31378
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#31379
+Before a Cathedral~
+~
+The large stone cathedral to the north is a supreme achievement of art, true
+to the vision of the Creator.  Successive generations have embellished the
+great building with decorations of the highest quality.  This great house of
+the creator reflects the highest aspirations of humanity, and raises the mind
+toward the glories of the heavens.  A fountain can be seen to the southwest
+marking the center of the massive octagon shaped courtyard.  To the west one
+of the few exits leading out of the courtyard can be found.
+~
+1 0 1
+D0
+~
+~
+0 -1 31380
+D3
+~
+~
+0 -1 31334
+D9
+~
+~
+0 -1 31333
+S
+#31380
+A Greeting Room~
+~
+This room rest in between a massive double door to the north that leads
+into the Narthex and an archway to the south that makes its way out into
+the octagon shaped courtyard.  Banners encrested with holy symbols drape
+from the ceiling along the walls almost reaching the floor.  Two chairs
+made of gold rest on each side of a decorated round rug that lays in the
+floor near the center of the room.
+~
+1 0 0
+D0
+~
+'double door'~
+8389665 -1 31389
+D2
+~
+~
+0 -1 31379
+R M 0 31333 1 31380
+  R E 1 31423 1 5
+R D 0 31380 0 0
+S
+#31381
+The Nave~
+~
+The massive main body of the cathedral consists of rows upon rows of 
+wooden pews running towards an elegant baldacchino. Suspended between the 
+sanctuary and the nave is the great rood. It seems to float in the dark 
+spaces above the cavernous arches that soar upwards. All the lines of 
+perspective focus on the baldacchino, and the high altar that is beneath 
+it to the north. The narthex of the cathedral can be found to the south. 
+To the northwest a small bapistry has been built into a little chamber. A 
+passageway to the northeast leads beside the large sanctuary before 
+entering into a wide hallway. 
+~
+1 2098176 0
+D0
+~
+~
+0 -1 31392
+D2
+~
+~
+0 -1 31389
+D6
+~
+~
+0 -1 31382
+D7
+~
+~
+0 -1 31386
+R M 0 31398 1 31381
+  R E 1 31426 1 5
+S
+#31382
+Before A granite hallway~
+~
+Beside the sanctuary their is a black marble floor, with white circles
+at a opening before a wide hallway made of granite.  A masterpiece has
+been molded of bronze and has funereal symbols, engraved on the cenotaph
+to ensure that the memory of the unyielding creator remains vivid.  A
+small archway to the north leads into the hallway made of granite.  The
+massive nave can be seen, filled up with pews to the southwest.
+~
+1 128 0
+D0
+~
+~
+0 -1 31383
+D9
+~
+~
+0 -1 31381
+R M 0 31318 1 31382
+  R E 1 31329 1 5
+  R G 1 31330 1
+S
+#31383
+A Hallway~
+~
+The granite stone walls are amply proportioned, to make for easy travel
+in this usally crowded hallway.  To the east a relieving arch supports
+the weight of the masonry wall above the newel that has a staircase of
+stone leading down into a dark passageway.  A masterpiece that has been
+made of bronze can be seen to the south.  The hallway continues to run
+to the north.
+~
+1 0 0
+D0
+~
+~
+0 -1 31388
+D1
+~
+door~
+1 -1 31384
+D2
+~
+~
+0 -1 31382
+R D 0 31383 1 0
+S
+#31384
+A Dark Stairwell~
+~
+Inside of this almost hollow newel is a stone staircase thats leading downward
+into a barely lit passageway.  Mounted on the northern wall is a torch that is
+releasing flickering streams of light down the stone passage.  To the west a
+wooden door leads back into the wide granite hallway.
+~
+1 0 0
+D3
+~
+door~
+1 -1 31383
+D5
+~
+~
+0 -1 31385
+R D 0 31384 3 0
+S
+#31385
+At The Bottom of a Stairwell~
+~
+&zThe stone walls at the bottom of the dark staircase run off to the east and
+west, at the same narrow width.  To the east the narrow passageway is forced
+to a immediate stop, due to a heavy reinforced metal doorway.  A dimly glowing
+torch burns away on its mount that is attached to a stone in the southern wall.
+A gated off crypt can be seen built into the southern side of the passageway to
+the west.
+~
+1 4 0
+D1
+~
+~
+0 -1 31453
+D3
+~
+~
+0 -1 31390
+D4
+~
+~
+0 -1 31384
+S
+#31386
+In a Baptistery~
+~
+This small room is the result of great elegance that perfectly incarnates the
+artistic spirit of the dwarvens.  A series of four paintings grace the niches
+in the walls surrounding the marble baptismal font.  These montages depict very
+significant events in the history of the creator.  In accordance with dwarven
+practice the baptismal font is railed off and has a gate fastened by a lock.
+The baptistry is entered through a broad and deep archway to the south.  On
+the marble beside the gate stands a small finely carved wooden statue.
+~
+1 140 0
+D8
+~
+~
+0 -1 31381
+S
+#31388
+A Wide Hallway~
+~
+To the north and south newels have been built on oppisite sides of the granite
+hallway.  The walls of this hall is amply protortioned to make for easy travel
+in the usally busy hallway.  To the north the hall can be seen coming to a dead
+end.  Far to the south a bronze masterpiece can be seen in a small opening
+outside of the hallway.
+~
+1 0 0
+D0
+~
+~
+0 -1 31420
+D2
+~
+~
+0 -1 31383
+S
+#31389
+The Narthex~
+~
+Before the nave are six stations of the cross, each station is carved in low
+relief so that it receives light from the sides.  The tableus include exquisite
+lines of titling by the master of letter forms.  The stations are a memorial of
+the passion and suffering of the Creator.  In each one of the tableus some type
+of historical, or traditional aspect is depicted to allow the person at prayer
+to meditate on the sufferings of the Creator.  A red rug leads south into the
+greeting room.
+~
+1 4 0
+D0
+~
+~
+0 -1 31381
+D2
+~
+'double door'~
+1 -1 31380
+R D 0 31389 2 0
+S
+#31390
+A Dark Passageway~
+~
+&zA blue flamed torch is mounted on the northern wall producing little light
+for this dark passageway.  Below the small torch a sign of caution has been
+engraved into one of the stones on the wall.  Several dwarven high priest
+rest in enternal peace within the gated off crypt to the south.  The dark
+passage leads off to the east, toward a staircase.
+~
+1 0 0 0 0 3 0
+D1
+~
+~
+0 -1 31385
+D2
+~
+gate~
+8389671 31429 31485
+R M 0 31395 1 31390
+R M 0 31400 1 31390
+  R E 1 31389 1 5
+  R E 1 31310 1 8
+  R E 1 31311 1 7
+R D 0 31390 2 2
+E
+sign caution~
+---------------------------
+Beware Of where you travel
+---------------------------
+~
+S
+#31391
+Inside A Crypt~
+~
+~
+1 4 1
+S
+#31392
+At a Altar~
+~
+At certain times of the day, particularly in the spring and autumn, the 
+sun streams through the multi colored window panes of the stone cathedral 
+shining brightly on the high altar. In doing so it illuminates the glass 
+beads around the central crucifix, giving an aura of light. A few candles 
+line the sides of the altar, each of them adorned with a pair of 
+pear-shaped white opals set in pendants. The naves massive vaulted dome 
+ceilings can be seen to the south. A cathedra made of ivory sits on top of 
+the altar. 
+~
+1 1024 0
+D2
+~
+~
+0 -1 31381
+D4
+~
+~
+0 -1 31393
+R M 0 31332 1 31392
+  R E 1 31332 1 1
+  R E 1 31329 1 5
+R M 0 31399 1 31392
+  R E 1 31426 1 5
+  R E 1 31427 1 17
+S
+#31393
+On The Altar~
+~
+On top of the altar a few steps lead to a unmaned cathedra that rest
+against the far wall, on either side of the throne sits two small boxes
+lined in gold that are decorated with a strong earthlike green color.  The
+floor is a masterpiece of white carrara and green prato marble, which is
+geometrically designed in a harmonious style.  A few steps made mostly of
+sandstone lead down off the altar into the nave.
+~
+1 4 0
+D5
+~
+~
+0 -1 31392
+R O 0 31344 1 31393
+> entry_prog 100~
+if ispc($n)
+  if isevil($n)
+    mea $n &YA blinding bolt of lighting strikes you, throwing you clear off of the altar.&D
+    mpdamage $n 20
+    mptransfer $n 31381
+  else
+    mppause 7
+    mea $n &zA feeling of great comfort fills your soul as you get near the ivory cathedra.&D
+  endif
+endif
+~
+|
+S
+#31394
+Mollin Circle~
+~
+This part of the roadway leads in between two massive walls of stone one being
+a gigantic wall of stone and mortar runs along the eastern side of the roadway
+protecting the city from unwanted visitors, to the west a smaller stone wall is
+the side of Manoake's Public Library.  Mollin circle travels southward, and to
+the north toward Thalimon Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 31342
+D2
+~
+~
+0 -1 31395
+R M 0 31316 5 31394
+  R E 1 31393 1 5
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31395
+Mollin Circle~
+~
+Large walls of stone stand along each side of the roadway, the one to the west
+is the side of Manoake's Public Library, and the other is the gigantic wall that
+runs along the roadside to the east, acting as a barrier to the city.  To the
+north Mollin circle runs toward Thalimon street, and to the south toward a few
+small stone houses.
+~
+1 0 1
+D0
+~
+~
+0 -1 31394
+D2
+~
+~
+0 -1 31396
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31396
+Mollin Circle~
+~
+Each side of the road stands tall walls of stone, the wall to the east is the
+city's barrier, protecting it from any unwanted visitors  to the west the side
+of Manoake's Public Library can be seen through a small window in the building.
+Mollin circle travels to the north toward Thalimon Street, and the southwest
+leading toward a crystal blue lake along the southern side of Mollin Circle.
+~
+1 0 1
+D0
+~
+~
+0 -1 31395
+D9
+~
+~
+0 -1 31405
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31397
+Floating in a void~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 31396
+S
+#31399
+Floating in a void~
+~
+~
+1 4 1
+S
+#31400
+Entrance to the Courtyard~
+~
+A rope fence has been ran around this octagon shaped courtyard, breaking
+only in certain places to allow the roadways to enter.  Somewhat to the
+north stands a large stone cathedral, embellished with decorations of the
+highest quality.  To the east many small houses can be seen lining the
+sides of Mollin road.  A well crafted stone fountain marks the center of
+the courtyard.
+~
+1 0 1
+D1
+~
+~
+0 -1 31401
+D7
+~
+~
+0 -1 31333
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31401
+Mollin Circle~
+~
+The sidewalks that run along the side of this winding street are made out
+of large slabs of smooth flat stone.  A fence made of rope has been ran
+around the octagon somewhat to the northwest.  Many small homes line the
+sides of the street.  Mollin road continues to the east, and northwest
+toward a courtyard.
+~
+1 0 1
+D1
+~
+~
+0 -1 31403
+D3
+~
+~
+0 -1 31400
+R M 0 31338 4 31401
+R M 0 31316 5 31401
+R M 0 31404 1 31401
+  R E 1 31422 1 5
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31402
+Floating in a void~
+~
+~
+1 4 1
+S
+#31403
+Mollin Circle~
+~
+Along the sides of this winding roadway are nicely made sidewalks that have
+been constructed out of large slabs of smooth flatted out stones, taken from
+the mines deep in the dense forest.  To the south a gigantic wall of stone
+can be seen on the far side of the crystal blue lake, acting as a barrier to
+the city protecting it from any unwanted visitors.
+~
+1 0 1
+D1
+~
+~
+0 -1 31404
+D2
+~
+~
+0 -1 31432
+D3
+~
+~
+0 -1 31401
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31404
+Mollin Circle~
+~
+The sidewalks the run along the sides of this winding street are made of smooth
+flat stones.  Off to the southern side of the road are the banks of a small blue
+lake.  To the west and northeast some rather small houses line the sides of the
+Circle.  Far to the south on the other side of the lake a gigantic wall made of
+stone acts as a barrier to the city, protecting it from any unwanted visitors.
+~
+1 0 1
+D2
+~
+~
+0 -1 31431
+D3
+~
+~
+0 -1 31403
+D6
+~
+~
+0 -1 31405
+R M 0 31343 3 31404
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31405
+Mollin Circle~
+~
+Along the sides of this roadway before the houses are sidewalks that have
+been constructed of smooth flat stones, that run the entire length of the
+winding road.  The stone houses to the north and south have been built in
+a identical fashion on the outside.  Mollin Street continues to travel to
+the northeast, and to the southwest toward a small lake on the southern
+side of the road.
+~
+1 0 1
+D0
+~
+door~
+8389635 -1 31414
+D2
+~
+wooden door~
+1059 -1 31415
+D6
+~
+~
+0 -1 31396
+D9
+~
+~
+0 -1 31404
+R D 0 31405 0 1
+R D 0 31405 2 1
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31406
+Inside of a Peddler's tent~
+~
+This extremly large tent covers a vast area, with only one opening thats 
+accompied by two heavily armed guards. A large platform has been placed in 
+the center of the room and surrounded with chairs. Ontop of the platform 
+is a podium and a few locked chests. 
+
+Just started.
+~
+1 1073741828 0
+S
+#31410
+Entrance to a Courtyard~
+~
+A rope fence makes its way around the courtyard running from stump to stump
+only breaking to allow other roadways to enter the courtyard.  To the south
+some heavy vines.  A well crafted rectangular fountain sits in the center of
+the massive octagon.  To the west Devinity road is lined with shops on both
+the north and south sides of the busy roadway.
+~
+1 0 1
+D1
+~
+~
+0 -1 31333
+D3
+~
+~
+0 -1 31411
+S
+#31411
+Devinity Avenue~
+~
+A few simple shops line the side of the road the store to the north has
+been built of stone with a sign leaned against the wall beside the door.
+To the south a small wooden building serves as a shop of some sort, with
+a large sign hanging on the door.  To the west many more shops line the 
+sides of the road marking Manoake's Main shopping district.  A opening in
+a rope fence to the east enters a courtyard.
+~
+1 0 1
+D0
+~
+door~
+1059 -1 31426
+D1
+~
+~
+0 -1 31410
+D2
+~
+door~
+8389635 -1 31427
+D3
+~
+~
+0 -1 31412
+R D 0 31411 0 1
+R D 0 31411 2 1
+E
+stone~
+&z+-------------------+
+|&O Seznog's Grocerys &z|
+&z+-------------------+&D
+~
+E
+large~
+&O+-----------------------------------+
+|&Y  Raluff's Shields and Small Arms  &O|
+&O+-----------------------------------+&D
+~
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31412
+Devinity Avenue~
+~
+This street marks the main shopping district of Manaoake, as shops line
+the sides of the road to the north and south.  Off to the west Devinity
+Avenue approaches a cul-de-sac with a tavern at far western side of it
+forcing the road to come to a dead end.  Devinity Avenue travels by a few
+more shops to the east before leading into the courtyard of the massive
+stone cathedral.
+~
+1 0 1
+D0
+~
+door~
+1059 -1 31428
+D1
+~
+~
+0 -1 31411
+D2
+~
+door~
+1059 -1 31429
+D3
+~
+~
+0 -1 31413
+R D 0 31412 0 1
+R D 0 31412 2 1
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31413
+In a Cul-de-san on Devinity Avenue~
+~
+The wide street comes to a end at the small cul-de-sac, with shops along 
+three sides of the roadway, marking the main shopping district of Manoake. 
+A large window on the shop to the south, has been fitted with a sign 
+trying to attract attention to the rather plain looking store. To the 
+north an old building has been restored, and setup as a Dwarven training 
+academy. Devinity Avenue leads off to the east, passing by a few more 
+shops along each side of the road, before leading into the courtyard of 
+the massive stone cathedral. 
+~
+1 0 1
+D0
+~
+door~
+8388643 -1 31469
+D1
+~
+~
+0 -1 31412
+D2
+~
+door~
+1059 -1 31430
+D3
+~
+door~
+1059 -1 31472
+R D 0 31413 0 1
+R D 0 31413 2 1
+R D 0 31413 3 1
+> sleep_prog 10~
+if ispc($n)
+  mppause 30
+  mea $n &cA constable grabs you up off of the street and quickly takes you to jail.&D
+  mptransfer $n 31489
+endif
+~
+|
+S
+#31414
+Inside A small house~
+~
+This small humble home has been well decorated with common paintings and small
+grotesque carvings of great dwarven warriors, some stand at actual height, and
+have been made out of raw timber from the forest.  To the west a painted oriel
+window is supported by corbels.  The heavy oak door to the south leads out onto
+Mollin Circle.
+~
+1 0 0
+D2
+~
+door~
+1 -1 31405
+R M 0 31370 1 31414
+  R E 1 31452 1 5
+  R E 1 31451 1 7
+  R G 1 31386 1
+  R G 1 31399 1
+  R G 1 31392 1
+R D 0 31414 2 0
+S
+#31415
+Inside A dull home~
+~
+A large bowl made of pottery sits ontop of a long triangular shaped table
+that sits in the center of the room.  A well decorated oak cabinet sits 
+against the wall collecting dust.  The small window to the south
+has been fitted with white curtains that drape to the floor.  To the north
+a doorway leads out onto a winding road.
+~
+1 0 0
+D0
+~
+wooden door~
+1 -1 31405
+R M 0 31397 1 31415
+  R E 1 31453 1 3
+  R E 1 31324 1 7
+R O 0 31373 1 31415
+R D 0 31415 0 0
+S
+#31416
+Palace Drive~
+~
+This drive has been constructed of smooth flat interlocking stones that 
+lay across the top of a leveled off ground. Somewhat down palace drive to 
+the northwest an archway built into a large building reveals the 
+entranceway to the great dwarven palace. To the east Courtyard Path 
+travels to the north and toward the city's entranceway to the south. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31327
+D3
+~
+~
+0 -1 31417
+R M 0 31316 5 31416
+S
+#31417
+Palace Drive~
+~
+This roadway has been made up of smooth flat interlocking stones that have 
+been set above a leveled off ground. To the northwest a massive granite 
+arch marks the main entranceway to the Dwarven Palace. Somewhat to the 
+east the road runs into The Courtyard path, then it travels to the north 
+and south. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31416
+D7
+~
+~
+0 -1 31418
+S
+#31418
+Palace Drive~
+~
+The entrancewy to the palace lays to the west under a arch that is made of
+granite, with stone jambs that fit firmy against the tall heavy reinforced
+doorway that leads into the Dwarven Palace.  To the southwest Palace Drive
+continues for a short ways before intersecting with the busy Courtyard Path.
+~
+1 0 1
+D3
+~
+~
+0 -1 31435
+D8
+~
+~
+0 -1 31417
+R M 0 31350 4 31418
+  R E 1 31409 1 5
+  R E 1 31317 1 18
+  R E 1 31317 1 16
+  R E 1 31417 1 1
+S
+#31419
+Saile's Herb Shop~
+~
+This small humble house has been turned into a small shop selling mainly
+herbs, and seasoning for certain types of foods.  A small shelf has been
+built on the eastern wall lined with glass jars that are filled with all
+the differnt types of herbs that Saile sells out of her shop.
+~
+1 4 1
+R M 0 31334 1 31419
+S
+#31420
+The End of the Wide Hallway~
+~
+This amply proportioned granite hallway comes to a end here with a newel to
+to the west that has a wide stone staircase leading upward.  To the south a
+short granite hallway passes by another newel that has been built into the
+eastern wall, before leading into a small opening where a masterpieces made
+of bronze can be found.
+~
+1 0 1
+D2
+~
+~
+0 -1 31388
+D3
+~
+door~
+1 -1 31421
+R D 0 31420 3 0
+S
+#31421
+Inside A Newel~
+~
+A twisting stone stairwell is surrounded by walls of smooth rock and mortor
+that are leading upward, the steps in some places appear unsafe due to the
+stone crumbling apart at places.  To the east a small archway leads out of
+the newel into the wide granite hallway that is at a dead end to the east.
+~
+1 0 1
+D1
+~
+door~
+1 -1 31420
+D4
+~
+~
+0 -1 31422
+R M 0 31336 1 31421
+  R E 1 31336 1 6
+  R E 1 31428 1 5
+  R E 1 31456 1 19
+R D 0 31421 1 0
+S
+#31422
+A Small Stone Room~
+~
+Inside this small stone chamber before a balcony to the south, has tattered
+banners with holy symbols that drape from the ceilings nearly falling short
+of reaching the red carpet that covers the floor.  To the south two rows of
+pews can be seen through the thin curtains hanging over the entranceway.  A
+stone staircase leads down into a wide granite hallway.
+~
+1 0 1
+D2
+~
+~
+0 -1 31423
+D5
+~
+~
+0 -1 31421
+S
+#31423
+On a large ledge~
+~
+This ledge spares no expense, the pews have been handcrafted from the finest
+selection of wood in the forest, and have been stained by the best craftsman
+in Manoake.  A small arch to the east leads into a darkend chamber.  Curtains
+hanging from the archway to the north leads out of the Choir chambers into a
+small open room before a stone staircase leading downward.
+~
+1 0 1
+D0
+~
+~
+0 -1 31422
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+R M 0 31337 8 31423
+S
+#31424
+A sloping hill in the gardens~
+~
+The trees on this slope leading south provide a colorful canopy of yellow
+cassias and tabeluias, pink cape chestnuts, purple hauhinias, blue jacarandas,
+and white tree daises.  Some of the shrubs that grow along the slope include
+salvias of many kinds of colors, as well as the less well-known corbretum,
+crotalaria, and polygale.  The garden to the west also features an extensive
+collection of bulbous, rhizomatous, and tuberous plants that create a splendid
+seasonal display.
+~
+1 0 1
+D2
+~
+~
+0 -1 31425
+D3
+~
+~
+0 -1 31375
+> rand_prog 20~
+mpecho &GA gentle breeze harbor's the relaxing scent of mother nature.&D
+~
+|
+S
+#31425
+A Dead End~
+~
+The gardens was designed to illuminate and break the limits of the modern
+principles of ecology.  A round cul-de-sac lined with cobblestone, and
+surrounded with roses forces the walkway through the excluisive gardens
+to come to a dead end.  Yellow cassias, tabeliaus, pink cape chestnuts,
+purple hauhinias, blue jacarandasm and white tree daises make a canopy
+on the slope to the north.
+~
+1 0 1
+D0
+~
+~
+0 -1 31424
+> rand_prog 20~
+mpecho A gentle breeze, carrys the relaxing smell of mother nature. 
+~
+|
+S
+#31426
+Seznog's Groceries~
+~
+&gA large rug made of the skin of a animal lays in the middle of the floor 
+before a small counter. To the east a small window gives off a nice view 
+of the lawns of the courtyard. The doorway to the south leads back out 
+onto Devinity Avenue. 
+~
+1 1024 0
+D2
+~
+door~
+1059 -1 31411
+R M 0 31346 1 31426
+  R G 0 31404 1
+  R G 0 31402 1
+  R G 0 31405 1
+  R G 0 31400 1
+  R G 0 31401 1
+  R G 0 31406 1
+  R G 0 31407 1
+R D 0 31426 2 1
+S
+#31427
+Raluff's Shields and Small Arms~
+~
+The inside of this shop has many different types of shields that hang across
+the walls on display.  A rather large counter with a glass top sits near the
+back of the store showing off a good collection of nicely made small knives
+and daggers.  A doorway on the north wall leads back out to Devinity Avenue.
+~
+1 0 0
+D0
+~
+door~
+3 -1 31411
+R M 0 31341 1 31427
+  R G 1 31348 1
+  R G 1 31350 1
+  R G 1 31349 1
+  R G 1 31346 1
+  R G 1 31347 1
+R O 0 31351 1 31427
+R D 0 31427 0 1
+S
+#31428
+Hirrek's Weapons~
+~
+The small shelves in this humble shop extend a little from the walls, they all
+have been built at the same height across every wall in the shop.  The top of
+the shelves contain a lot of hand crafted domestic weapons.  On the walls hang
+a few colored posters, providing lots of information about the many different types
+of axes.  To the south a oversized doorway with a heavy door leads back out to
+Devinity Avenue.
+~
+1 0 0
+D2
+~
+door~
+1059 -1 31412
+R M 0 31349 1 31428
+  R G 1 31365 1
+  R G 1 31364 1
+  R G 1 31363 1
+  R G 1 31367 1
+R D 0 31428 2 1
+S
+#31429
+Krolin's Jewels~
+~
+This shop is a poor display to say the least, trash and tools used for
+repairing the jewelry have been left laying everywhere filling the room
+full of junk.  A small counter has been filled with many different types
+of jewelry ranging from small treasures, to different types of facemasks.
+To the north a small doorway leads back out onto Devinity Avenue.
+~
+1 0 0
+D0
+~
+door~
+1057 -1 31412
+R M 0 31347 1 31429
+  R G 1 31368 1
+  R E 1 31366 1 13
+  R E 1 31358 1 14
+  R G 1 31366 1
+  R G 1 31357 1
+  R G 1 31358 1
+  R G 1 31356 1
+R D 0 31429 0 0
+S
+#31430
+Brunk's Mystics~
+~
+Inside this small store there is many different types of fancy alchemist 
+devices some containing very odd colored liquids, that produce a foul odor 
+as its being cooked by the burners that have been built into the small 
+table in the back of the room. A long counter sits across the center of 
+the room nearly cutting off all public access to the back of the store. To 
+the north a small window beside the doorway shows off a little view of 
+Manoake's main shopping district. 
+~
+1 0 0
+D0
+~
+door~
+1057 -1 31413
+R M 0 31348 1 31430
+  R E 1 31443 1 3
+  R G 1 31360 1
+  R E 1 31442 1 5
+  R G 1 31361 1
+  R G 1 31449 1
+  R G 1 31362 1
+  R E 1 31441 1 9
+  R E 1 31440 1 7
+  R G 1 31359 1
+R O 0 31385 1 31430
+R D 0 31430 0 0
+S
+#31431
+On the Shorelines~
+~
+&OA breath taking view reveals itself as the crystal blue water shimmers due
+to the gentle blow of the wind.  Near the water a large wooden sign has been
+steaked into the packed dirt before a wooden fence at the water.  The dirt
+packed banks continues to the west.  A little to the north Mollin Circle can be
+seen running to the west and to the northeast.
+~
+1 0 1
+D0
+~
+~
+0 -1 31404
+D3
+~
+~
+0 -1 31432
+S
+#31432
+The Shoreline~
+~
+&OThe banks of the crystal blue lake are covered with a dark color of packed dirt.  A
+large wooden sign has been posted against the fence by the water to the south.
+On the other side of the lake a gigantic wall made of stone can be seen acting
+as a barrier for the city.  Mollin Circle can be seen to the east and west to
+the north.  More dirt covered banks lay to the east.
+~
+1 0 1
+D0
+~
+~
+0 -1 31403
+D1
+~
+~
+0 -1 31431
+E
+sign~
+&O+------------------------+
+|&Y Stay out of the water!&O |
+&O+------------------------+&D
+~
+S
+#31433
+Floating in a void~
+~
+~
+1 4 1
+S
+#31434
+Taon's House~
+~
+This is your desc. You can edit this with HOUSE DESC.
+Blah test blah
+~
+1 1076888588 0
+S
+#31435
+The Palace Foyer~
+~
+In The massive stone foyer a vaulted dome ceiling acts as the entranceway
+to the Dwarven Palace.  To the west a large open chamber has a few chairs
+and some tables, for guest to sit at and chat.  A doorway under the arch
+leads back out onto palace drive.  A small doorway to the south has been
+partly covered by a small sign.
+~
+1 0 0
+D1
+~
+~
+0 -1 31418
+D2
+~
+door~
+3 -1 31457
+D3
+~
+~
+0 -1 31436
+R M 0 31338 4 31435
+R M 0 31338 4 31435
+R D 0 31435 2 1
+> rand_prog 5~
+if ispc($n)
+  mppause 3
+  mea $r &cSounds of laughter and suffering fills the halls.&D
+endif
+~
+|
+S
+#31436
+At an Intersection Inside the Palace~
+~
+At an intersection inside the massive chamber, that is used for greeting 
+guest. To the north a stairwell has been built into the stone wall leading 
+up to the second floor of the palace. A large dining room to the south, 
+has more then enough seats for a average days guest. To the west a throne 
+room can be seen with lots of activity taking place. The foyer off to the 
+east stands before a massive archway leading back out onto Palace Drive. 
+~
+1 0 0
+D0
+~
+~
+0 -1 31437
+D1
+~
+~
+0 -1 31435
+D2
+~
+~
+0 -1 31459
+D3
+~
+~
+0 -1 31454
+S
+#31437
+At the bottom of the stairwell~
+~
+The stone twisting staircase that is here, leads up past a partly seen window
+that is halfway up toward the second floor of the dwarven palace.  To the south
+a massive chamber with dark marble floors stands before a large dining room in
+the room past the columns far to the south.
+~
+1 0 0
+D2
+~
+~
+0 -1 31436
+D4
+~
+~
+0 -1 31438
+S
+#31438
+At the top of the stairwell~
+~
+About halfway down the winding staircase the corner of a small window can be
+seen showing off the well tended palace lawns.  To the south a short hallway
+passes by a few doors before it comes to a end at the kings bedroom.  The
+stairs are leading downward, to the outside of the palace's massive chamber.
+~
+1 0 0
+D2
+~
+~
+0 -1 31456
+D5
+~
+~
+0 -1 31437
+S
+#31440
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#31450
+Floating in a void~
+~
+~
+1 4 1
+S
+#31451
+Under the Bridge~
+~
+The crystal blue water under the bridge whirls and pulls in all differnt
+directions, due to the strong currents that the creek produces.  Large
+logs that are attached to the bottom of the bridge keep the bridge stable
+in the raging waters of the creek.  The strong currents along with the
+large logs prevent anyone from swiming away in any direction.
+~
+1 4 8
+D4
+~
+~
+0 -1 31315
+R M 0 31382 1 31451
+R O 0 31388 1 31451
+S
+#31452
+Entrance to a Maze of Grass~
+~
+Some of the unattended grass grows well over six feet in some places making
+walls of razor sharp blades of grass.  To the east a abandoned two story white
+building has been built on the other end of a small maze through the thick
+walls of grass.  A rusty iron gateway to the west leads back out onto a garden
+path.
+~
+1 0 1
+D1
+~
+~
+0 -1 31462
+S
+#31453
+Inside a Stone Passageway~
+~
+&zThe stone walls of the narrow underground stone passageway come to a abrupt
+stop, due to a reinforced metal doorway that is to the east.  A large sign
+wrote in a bold red has been mounted on the overly secure doorway.  Mounted
+on the northern wall is a blue flame torch providing a very dim light source.
+To the west the passage passes by a staircase before leading off to the crypt.
+~
+1 0 1
+D1
+~
+metal door~
+10488879 31411 31492
+D3
+~
+~
+0 -1 31385
+R D 0 31453 1 2
+S
+#31454
+A Public Meeting Room~
+~
+This massive dome room is shaped almost like a oval, with large columns that
+run from the towering roof to the magnificently shining marble floors.  The
+foyer somewhat to the east stands before a archway with wooden doors leading
+out to the Palace's Drive.  To the west a few thrones can be seen on the other
+side of the small arch.
+~
+1 0 0
+D1
+~
+~
+0 -1 31436
+D3
+~
+~
+0 -1 31455
+R M 0 31371 1 31454
+  R E 1 31420 1 5
+S
+#31455
+Under A Stone Archway~
+~
+The stone jambs in the archway help support the extreme amount of weight the
+heavy stone walls that hang over the arch exerts on it.  Thrones can be seen
+to the west, in a large adorne throne room.  To the east stands a large dome
+room acting as the greeting room for the general public.
+~
+1 0 0
+D1
+~
+~
+0 -1 31454
+D3
+~
+door~
+3 -1 31458
+R M 0 31376 1 31455
+  R E 1 31421 1 5
+R D 0 31455 3 1
+S
+#31456
+In a short hallway~
+~
+The walls of this small hallway are made of hardwood, and heavily decorated
+with famous paintings.  A large purple rug lays across the floor spanning
+almost the entire length of the hall.  To the south a few doorways line both
+the eastern and western side of the hallway before coming to a large room at
+the end of the hallway.  To the north a stone staircase can be seen leading
+down toward the first floor of the palace.
+~
+1 0 0
+D0
+~
+~
+0 -1 31438
+D2
+~
+~
+0 -1 31460
+S
+#31457
+A Guard Post~
+~
+An old table made of wood sits near the center of the room covered in absolute
+filth, also on top of the table lies a deck of cards so the guards can play a
+game of cards while off duty.  On the western wall a sign of some rules and a
+few guard details are listed on the wall.  A large barrel of what appears to
+be stamped as liquor sits in the corner of the room already tapped into.  A
+doorway on the north wall leads back out into the foyer.
+~
+1 0 0
+D0
+~
+door~
+3 -1 31435
+R M 0 31350 4 31457
+  R E 1 31417 1 1
+  R E 1 31409 1 5
+R M 0 31350 4 31457
+  R E 1 31417 1 1
+  R E 1 31409 1 5
+R M 0 31350 4 31457
+  R E 1 31417 1 1
+  R E 1 31409 1 5
+R O 0 31337 1 31457
+R D 0 31457 0 1
+E
+list details~
++--------------------------------------+
+| 1. Two hourly patrols of three       |
+| guards, every hour.                  |
+| 2. A guard is to always be posted    |
+| at the palaces entrancway, and at    |
+| the royal bedrooms.                  |
+| 3. Anytime the king might leave the  |
+| palace he is to be followed by his   |
+| royal guards at all times.           |
+| 4. Never question a order handed     |
+| down by the king.                    |
+| 5. Drinking while on duty is not     |
+| Tolorated.                           |
+| 6. Always use your full manors with  |
+| those of royality.                   |
+| 7. Any unwanted visitor to the       |
+| palace is to be brought to the king  |
+| at once.                             |
++--------------------------------------+
+~
+S
+#31458
+In The Throne Room~
+~
+&gIn this large room three thrones rest side by side against the west wall 
+one made of gold, the other two made of silver, all bare a certain 
+engraving of lettering, embedded around the letters are tiny rubies of all 
+types. The marble floors reflect a mirror image of those who make their 
+way to the throne. To the east, an archway looms over a heavy wooden door 
+leading into an open room. 
+~
+1 0 0
+D1
+~
+door~
+1 -1 31455
+R M 0 31377 1 31458
+  R E 1 31415 1 6
+  R E 1 31416 1 7
+  R E 1 31448 1 5
+R M 0 31401 1 31458
+  R E 1 31459 1 6
+  R E 1 31460 1 10
+  R E 1 31461 1 8
+  R E 1 31462 1 3
+  R E 1 31463 1 5
+  R E 1 31465 1 18
+  R E 1 31465 1 16
+  R E 1 31473 1 7
+R O 0 31374 1 31458
+R O 0 31414 1 31458
+R D 0 31458 1 0
+S
+#31459
+Dining Room~
+~
+A well set dinner table with a long trianguler shape rest in the middle of this
+oversized dining area, surrounded by many large decorative wooden chairs.  To
+the southeast a cabinet shows off expensive pieces of fine silverware.  A small
+passage through two large columns to the north leads into a massive chamber.
+~
+1 0 0
+D0
+~
+~
+0 -1 31436
+R O 0 31468 1 31459
+R O 0 31469 1 31459
+S
+#31460
+In a short hallway~
+~
+The walls of this short hall have been deocrated with famous paintings that
+almost out does the anicent purple rug that spans almost the entire length
+of the hallway.  To the east and west are two doors, to the east is a guest
+room, and to the west the king's private walkin closet.  A small archway to
+the south, has letters embedded over the arch with strange markings.  Somewhat
+to the north is a stone staircase leading downward.
+~
+1 0 0
+D0
+~
+~
+0 -1 31456
+D1
+~
+door~
+8389635 -1 31476
+D2
+~
+~
+0 -1 31461
+D3
+~
+door~
+8389633 -1 31475
+R D 0 31460 1 1
+R D 0 31460 3 0
+S
+#31461
+In a short hallway~
+~
+At the end of the hallway a small archway is snug over the oak door that has
+been trimmed in gold.  Above the doorway a crest has been engraved into the
+stone, under it a few words have been written.  To the north a well decorated
+hallway passes by a few doorways before entering a small stone staircase at
+the other end of the hallway.
+~
+1 0 1
+D0
+~
+~
+0 -1 31460
+D1
+~
+door~
+1059 -1 31478
+D2
+~
+door~
+8389665 -1 31474
+D3
+~
+door~
+8389635 -1 31479
+R D 0 31461 1 1
+R D 0 31461 2 0
+R D 0 31461 3 1
+S
+#31462
+Floating in a void~
+~
+~
+1 0 1
+D3
+~
+~
+0 -1 31452
+D6
+~
+~
+0 -1 31464
+S
+#31463
+Floating in a void~
+~
+~
+1 4 1
+S
+#31464
+Floating in a void~
+~
+~
+1 0 1
+D8
+~
+~
+0 -1 31465
+D9
+~
+~
+0 -1 31462
+S
+#31465
+Floating in a void~
+~
+~
+1 0 1
+D7
+~
+~
+0 -1 31464
+D8
+~
+~
+0 -1 31466
+S
+#31466
+Floating in a void~
+~
+A large family of monocotyledonous mostly herbaceous plants with jointed
+stems, slender sheathing leaves, and flowers brone in spikelets of bracts
+create walls of thick razor sharp grass, preventing travel in most directions.
+To the east and northwest a small path has been cut into this maze, with barely
+enough room to travel through.
+~
+1 0 1
+D1
+~
+~
+0 -1 31467
+D7
+~
+~
+0 -1 31465
+R M 0 31335 2 31466
+S
+#31467
+Floating in a void~
+~
+Several plants like Genera, Yucca, Nolina, and Xerophyllum of the agave
+family, and other types of plants from the lily family have formed to resemeble
+coarse blades of grass that in over a long period of time have turned into
+thick walls, causing a confusing intricate network of paths.  To the southwest,
+northeast, and to the west the narrow paths has been cut out of the maze
+permiting travel.
+~
+1 0 1
+D3
+~
+~
+0 -1 31466
+D6
+~
+~
+0 -1 31470
+D9
+~
+~
+0 -1 31471
+S
+#31468
+Backside of the Barrack~
+~
+In the far end of the room, more dust covered cots fill the area, along
+with alot of garbage that has been scattered about the floor and on the
+stands that sit beside the cots making for a awful mess.  A window on
+the eastern wall gives off a view of a small lawn that sits in between
+this barrack, and Manoake's stone library that can be seen to the east.
+Somewhat to the north a doorway leads back out onto Thalimon Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 31353
+R M 0 31335 2 31468
+  R E 1 31324 1 7
+  R E 1 31447 1 5
+  R E 1 31363 1 16
+R O 0 31396 1 31468
+S
+#31469
+Training Academy~
+~
+Many neat charismatic trinkets and awards can be found sitting around this 
+little academy. The trinkets range from small statues, to useless ancient 
+weapons, and suits of armor. Hanging along the walls are many plaques that 
+show off all of the trainers awards. A sturdy wooden staircase with iron 
+handrails is in the back of the room, leading up into the small loft that 
+is above the training academy. To the south a wooden door leads back out 
+onto Devinity Avenue. 
+~
+1 0 0
+D2
+~
+door~
+3 -1 31413
+D4
+~
+~
+0 -1 31488
+R M 0 31378 1 31469
+R D 0 31469 2 1
+S
+#31470
+Floating in a void~
+~
+Alot of differnt families of monocotyledonous type plants grow here forming
+a wall of razor sharp blades of grass, preventing travel in almost all
+directions but to the southwest.  The dead end of the path just how hard
+this maze actally is.
+~
+1 0 1
+D9
+~
+~
+0 -1 31467
+S
+#31471
+Floating in a void~
+~
+~
+1 0 1
+D3
+~
+~
+0 -1 31480
+D6
+~
+~
+0 -1 31467
+S
+#31472
+The Public Tavern~
+~
+The inside of this loud tavern has an oval bar that has been built into 
+the center of this great establishment, with nice wooden stools that go 
+all the way around it. A few other small tables with some chairs have been 
+scattered all around the room. The window that is beside the door to the 
+east gives a nice view of the stores in Manoake's main shopping district. 
+~
+1 0 0
+D1
+~
+door~
+1 -1 31413
+R M 0 31380 1 31472
+  R G 1 31387 1
+  R G 1 31397 1
+  R G 1 31408 1
+R M 0 31388 1 31472
+  R G 1 31444 1
+R O 0 31382 1 31472
+R O 0 31384 1 31472
+R D 0 31472 1 0
+S
+#31473
+A trail through the light forest~
+~
+&GThis narrow side path leads off through the light forest to the east toward
+a small discolored green pond.  Off to the northwest a few wreathed columns
+can be seen along both sides of the roadway.  A small sign made of treebark
+has been hammered into the soft ground off the southern side of the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 31477
+D7
+~
+~
+0 -1 31371
+R M 0 31340 1 31473
+  R G 1 31341 1
+  R G 1 31342 1
+S
+#31474
+The Royal Bedroom~
+~
+Decorations and rare paintings litter the white wall room. Along the 
+eastern a collection of battle axes, hang above a small fireplace. A 
+massive bed with cloth and blanks sit on the western wall facing the 
+fireplace and offsetting a multi-colored window. The headboard on the far 
+side of the bed has many types of symbols, with tiny red rubies 
+surrounding them. To the north a short hallway leads past a few doorways 
+before leading toward a stone stairwell at the end of the hall. 
+~
+1 0 0
+D0
+~
+door~
+1 -1 31461
+R M 0 31403 1 31474
+  R E 1 31457 1 6
+  R E 1 31458 1 5
+R O 0 31472 1 31474
+R O 0 31308 1 31474
+R D 0 31474 0 0
+S
+#31475
+Northern Guest Room~
+~
+A large bed has been built into a small cubby space with a white canopy of
+linen sheets.  The bed has been covered with the finest of cloth for covers
+that the pillows have been stuffed with cotton.  To the east beside a door
+that leads back out into the short hallway sits a dresser made of wood and
+metal strippings.
+~
+1 0 0
+D1
+~
+door~
+1 -1 31460
+R O 0 31375 1 31475
+R O 0 31470 1 31475
+R D 0 31475 1 0
+S
+#31476
+A Palace Guest Room~
+~
+This small room provides alot of open space due to the room being almost
+naked of furniture.  It only contains a small bed that sits adjacent to
+a small oak dresser.  To the west the creeking wooden door leads back out
+into the small hallway, that has been nicely decorated with paintings and
+other types of art work.
+~
+1 0 0
+D3
+~
+door~
+1 -1 31460
+R O 0 31377 1 31476
+R O 0 31471 1 31476
+R D 0 31476 3 0
+S
+#31477
+Near a Green Pond~
+~
+&GA foul stench comes from the fungus infested green colored pond causing it
+to attract many differnt types of small bugs and insects.  A light forest
+surrounds the muddy banks of the pond, although a small down hill path can
+be seen leading right into it to the east.  A trail leads back off to the
+west through the light leading toward a roadway with columns running along
+each side of it.
+~
+1 0 1
+D1
+~
+~
+0 -1 31484
+D3
+~
+~
+0 -1 31473
+> rand_prog 10~
+if ispc($n)
+  mea $r &cA foul odor drifts in with the fog that is running along the ground.&D
+endif
+~
+|
+S
+#31478
+The Southern Guest Room~
+~
+Inside the center of this oversized room sets a large bed that has been 
+stuffed with feathers, offsetting a multi-colored window, that is to the 
+east giving off a view of the Palace's Entranceway. To the west a old 
+creaking wooden door leads back out to the end of the highly decorated 
+hardwood hallway. 
+~
+1 0 0
+D3
+~
+door~
+3 -1 31461
+R O 0 31378 1 31478
+R D 0 31478 3 1
+S
+#31479
+A walk-in closet~
+~
+The inside of this small walk-in closet has shoes lining the floor all the 
+way around the room, above the shoes hang the king normal day wear on one 
+side and on the other hangs the queens. Everything seems to be in some 
+type of odd order. The heavy doorway to the east leads back out into a 
+short hallway made primary of hardwood. 
+~
+1 0 0
+D1
+~
+door~
+1 -1 31461
+R D 0 31479 1 0
+S
+#31480
+Floating in a void~
+~
+~
+1 0 1
+D1
+~
+~
+0 -1 31471
+D6
+~
+~
+0 -1 31481
+S
+#31481
+Floating in a void~
+~
+~
+1 0 1
+D9
+~
+~
+0 -1 31480
+S
+#31482
+Near A Tunnel~
+~
+A very large boulder rest along the southern side of the pathway shaped
+in a perfect sphere, and has oddly been placed firmly against the base of
+a small tunnel that leads underground.  Two torches have been mounted on
+each side of the boulder, sending out a dim blue glow.  At the edges of
+the dense forest to the west is a small trail leading back into the dense
+forest, and to the east sits a large campsite filled with small stumps and
+a warm fire making for a good spot to sit and rest.
+~
+1 4 1
+D3
+~
+~
+0 -1 31318
+R M 0 31407 1 31482
+S
+#31483
+Floating in a void~
+~
+-Inside this room are small cubby holes that have been carved into the stone
+-Inside those cubbys are the choir uniforms.
+-A few wooden benchs sit in the center of the room.
+~
+1 4 1
+S
+#31484
+In a Green Pond~
+~
+&GStanding almost knee high in the shallow green water with fungus, and other
+types of weird vegeation floating around, isnt fun by any means.  One can
+barely stand the fumes that is admitted from the shallow pond.  The insects
+and bugs are real bad here making it hard to travel though this part of the
+green pond.  A muddy bank to the west leads back up onto the trail.
+~
+1 0 1
+D3
+~
+~
+0 -1 31477
+R M 0 31405 1 31484
+R M 0 31316 5 31484
+> rand_prog 5~
+if ispc($n)
+  mea $n &cInsects start to swarm the area, a few pricks can be felt as they make their way by.&D
+  mpdamage $n 5
+endif
+~
+> entry_prog 20~
+if ispc($n)
+  mppause 4
+  mea $n &cWhile walking into the shallow green water, you slip on the muddy banks covering you in green slime.&D
+endif
+~
+|
+S
+#31485
+A Large Crypt~
+~
+&zThe stone walls inside this large dome cyrpt are well decorated with old
+valueables, and very rare sacriments to the holy church.  Several massive
+tombs where several dwarven high priest lay to rest, sit near the center of
+the room admitting sometype of a strange blue aura.  To the north is a old
+iron gateway that leads out into the dark stone passage.
+~
+1 0 1
+D0
+~
+gate~
+1 31429 31390
+R D 0 31485 0 0
+S
+#31486
+A Constables Office~
+~
+A wooden desk sits snug against the western wall, with a small chair made of
+black leather sitting in front of it.  To the south iron bars prevent anyone
+from getting in or out of the cell without the proper key.  A couple of wanted
+posters hang along the eastern wall making a clear list of who is not liked
+around here.  Beside the posters to the east a doorway leads into a large
+chamber that is used for sentencing the criminals that are awaiting trial.
+~
+1 0 0
+D0
+~
+~
+0 -1 31346
+D1
+~
+door~
+3 -1 31487
+D2
+~
+cell~
+8389639 31410 31489
+R M 0 31379 1 31486
+  R E 1 31432 1 5
+  R E 1 31435 1 7
+  R E 1 31436 1 16
+  R G 1 31410 1
+R D 0 31486 1 1
+R D 0 31486 2 2
+> rand_prog 4~
+if ispc($n)
+  mea $r &cA faint odor drifts in from the dirty cell to the south.&D
+endif
+~
+|
+S
+#31487
+A Large Courtroom~
+~
+A few rows of small pews have been ran across the back side of this room in
+several differnt rows, giving the prisoners a place to sit while they await
+their sentencing from the mighty dwarven judges.  To the west a small wooden
+doorway that leads back toward the entrance of the small dirty jailhouse.
+~
+1 0 0
+D3
+~
+door~
+3 -1 31486
+R M 0 31383 1 31487
+R D 0 31487 3 1
+S
+#31488
+A small Loft~
+~
+A small round bed sits in the corner of the western wall on the far side 
+of the room, covered in red satin sheets sitting by a wooden dresser that 
+is on the southwestern side of the small loft. A few candles sit on top of 
+the dresser providing a very dim light source. On the north side of the 
+room is a wooden staircase with iron handrails leading down into the 
+training academy. 
+~
+1 0 0
+D5
+~
+~
+0 -1 31469
+R O 0 31398 1 31488
+R O 0 31418 1 31488
+S
+#31489
+A Small Cell~
+~
+The thick iron bars to the north have been placed close together to prevent
+any of the prisoners from being able to escape the small dirty cell.  A few
+old wooden cots used for resting and sleeping line the rather simple walls
+of this plain cell.  To the south a small window with tiny bars provides a
+nice view of the light forest to the south.
+~
+1 4 0
+D0
+~
+cell~
+8389639 31410 31486
+R O 0 31413 1 31489
+R D 0 31489 0 2
+> rand_prog 4~
+if ispc($n)
+  mea $r &cA foul odor almost forces you to gag.&D
+endif
+~
+|
+S
+#31490
+A Big Cell~
+~
+test
+~
+1 4 0
+S
+#31491
+A Oversized Cell~
+~
+A few cots rest in the middle of the room, close to the wooden benchs that
+line the walls.  Iron bars to the northwest prevent the prisoners from being
+able to escape.  The cell is very smelly and ditry a torch in the office to 
+the northwest provides the only light.
+~
+1 4 0
+S
+#31492
+A Dark Cellar~
+~
+&zThe inside of this nicely hidden dark cellar is very damp and cold, a
+few wooden crates line the wall on the far end of the room.  The walls
+in this underground chamber have been built of small stones and mixed
+mortor.  A very large heavy metal door on the western wall leads back
+out into a narrow dark passageway.
+~
+1 0 1
+D3
+~
+metal door~
+1 31411 31453
+R D 0 31492 3 0
+S
+#31493
+Out on a Limb~
+Not Assigned~
+From up inside the shade tree, the scenes from the palace courtyard
+can be seen below. The chattering and plucking have grown to an unbearable
+volume. A large nest made of mud and twigs rests on the end of the branch.
+A collection of various trinkets is scattered throughout the nest. The raven
+which calls this tree home rests within the nest.
+~
+1 1076887556 1
+D5
+~
+~
+16777216 -1 31327
+R M 0 31338 5 31493
+  R G 0 31493 1
+> entry_prog 100~
+mppause 10
+mpechoat $n &YThe shrieking and plucking have become intolerable!
+~
+|
+S
+#0
+
+
+#SHOPS
+ 31313    9  0  0  0  0   120 110         0 23    ; Manyia
+ 31317    0 59 45  0  0   100  90         8 23    ; Gorin
+ 31340    9  1  5  0  0   120  90         0 23    ; A traveling merchant
+ 31341    9  1  0  0  0   120  90         0 23    ; Raluff
+ 31346    0  0  0  0  0   120  90         0 23    ; Seznog
+ 31347    0  0  0  0  0   120  90         0 23    ; Krolin
+ 31348    0  0  0  0  0   120  90         0 23    ; Brunk
+ 31349    0  0  0  0  0   120  90         0 23    ; Hirrek
+ 31370    0  0  0  0  0   120  90         0 23    ; Craonin
+ 31380    0  0  0  0  0   120  90         0 23    ; an overweight dwarf
+0
+
+
+#REPAIRS
+ 31310    5  9 15         102   1         0 23    ; Morig
+0
+
+
+#SPECIALS
+M  31301 spec_poison
+M  31302 spec_cast_undead
+M  31303 spec_poison
+M  31304 spec_guard
+M  31306 spec_guard
+M  31308 spec_guard
+M  31309 spec_cast_adept
+M  31318 spec_guard
+M  31332 spec_guard
+M  31335 spec_guard
+M  31340 spec_guard
+M  31345 spec_janitor
+M  31347 spec_guard
+M  31348 spec_guard
+M  31350 spec_guard
+M  31379 spec_guard
+M  31380 spec_janitor
+M  31383 spec_guard
+M  31393 spec_thief
+M  31399 spec_cast_adept
+M  31404 spec_guard
+S
+
+
+#$

@@ -1,0 +1,91 @@
+Name           Thief~
+Filename       Thief~
+Class          6
+Starting       1
+AttrPrime      2
+AttrSecond     3
+AttrDeficient  0
+Races          253952
+Nocombo        0
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          70
+Hpmax          85
+ManaMin        6
+ManaMax        10
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'aid' 1 95
+Skill 'arteries' 90 95
+Skill 'backstab' 20 99
+Skill 'behead' 1 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'disguise' 12 95
+Skill 'dodge' 2 95
+Skill 'dual wield' 17 95
+Skill 'dye' 1 95
+Skill 'eighth attack' 95 95
+Skill 'feign death' 23 50
+Skill 'fifth attack' 48 95
+Skill 'flint fire' 1 95
+Skill 'fourth attack' 35 95
+Skill 'hide' 1 99
+Skill 'keen eye' 6 95
+Skill 'kick' 10 95
+Skill 'leg sweep' 40 95
+Skill 'lore' 13 35
+Skill 'low blow' 19 95
+Skill 'mount' 1 95
+Skill 'nosight' 32 95
+Skill 'parry' 3 95
+Skill 'peek' 8 95
+Skill 'pick lock' 6 95
+Skill 'poison weapon' 57 95
+Skill 'punch' 1 95
+Skill 'quick blade' 68 95
+Skill 'restring' 1 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'seventh attack' 80 95
+Skill 'sharpen' 1 95
+Skill 'sixth attack' 65 95
+Skill 'slice' 1 95
+Skill 'smuggle' 60 95
+Skill 'sneak' 3 99
+Skill 'steal' 8 95
+Skill 'swim' 1 95
+Skill 'target' 52 95
+Skill 'third attack' 25 95
+Skill 'throat punch' 30 95
+Skill 'track' 14 95
+Skill 'tumble' 15 60
+Skill '1h axes' 1 95
+Skill '1h long blades' 1 95
+Skill '1h short blades' 1 95
+Skill 'archery' 1 95
+Skill 'blowguns' 1 95
+Skill 'flails' 1 95
+Skill 'pugilism' 1 95
+Skill 'centaurian' 1 95
+Skill 'common' 1 95
+Skill 'demonic' 1 95
+Skill 'dwarven' 1 95
+Skill 'elven' 1 95
+Skill 'gnomish' 1 95
+Skill 'goblic' 1 95
+Skill 'hobbit' 1 95
+Skill 'infernal' 1 95
+Skill 'ogrian' 1 95
+Skill 'orcish' 1 95
+Skill 'pixish' 1 95
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

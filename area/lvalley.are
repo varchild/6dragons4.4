@@ -1,0 +1,1628 @@
+#AREA        Lost Valley~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+70 100 70 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &zShadows move about independent of bodies to project them.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#1750
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1751
+shadow dragon Radgga~
+The Shadow Dragon Radgga~
+A large shadow moves about without a body.
+~
+An very large shadow that moves about on its own it seems. There is no 
+body to project the shadow as well as no light to even make a shadow. 
+~
+13
+Clanname none~
+0
+0
+99 373301376 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 0 0 0 0 3&8 33554435
+> fight_prog 30~
+c 'black lightning' $n
+c 'black lightning' $n
+c 'black lightning' $n
+~
+|
+#1752
+shadow barzak~
+Barzak~
+A shadow moves about the room.
+~
+Barzak looks to be made completely of shadow. Not like the shades of the 
+world but instead a shadow being cast by something. He has no body 
+projecting this shadow, it seems to be simply there. 
+~
+13
+Clanname none~
+0
+0
+67108931 4194432 1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+> greet_prog 100~
+mpechoat $n &CBarzak says, 'Oh hello there...'&D
+mppause 5
+mpechoat $n &CBarzak says, 'Let me tell you a small story.'&D
+mpechoat $n &cType &WSAY YES&c to hear the story.&D
+~
+> speech_prog yes~
+mppause 3
+mpechoat $n &CBarzak says, 'Ok then...'&D
+mppause 3
+mpechoat $n &CBarzak says, 'A long time ago the creator made many gods to take care of the world for him so he could rest you see. These gods looked over the mortals and watched as they did as they pleased. The gods got upset about the creators favor in the mortals though and many of them decided to rebel. Among these gods who rebelled were the Shadow God the Sand God and even the God of Death. The Shadow God's realm was turned into a valley of pure shadow and raised above the earth separating it from the rest of the world. He resides in the castle to the north, one day hoping to regain his powers. If you came here to try and beat him I know of a way, a small quest for the right item to get the job done.'
+mpechoat $n &cType &WSAY I ACCEPT&c to accept this task.
+~
+> speech_prog 'i accept'~
+mpechoat $n &CBarzak says, 'Ok then...'&D
+mppause 5
+mpechoat $n &CBarzak says, 'Bring me an item called the signet of "Light" and I can make it be able to render the Shadow-gods power useless against you!'&D
+mpquest $n shadowgod 1
+~
+> act_prog p gives you A signet of Light.~
+if quest(shadowgod) == 1
+  mpechoat $n &CBarzak says, 'Good, now bring me a cleric's holy symbol and I can make an item to help you!'&D
+  mpquest $n shadowgod 2
+else
+  mpechoat $n &CBarzak says, 'And what do you want me to do with this?'&D
+endif
+~
+> act_prog p gives you a cleric's holy symbol.~
+if quest(shadowgod) == 2
+  mpechoat $n &CBarzak says, 'Ok good! Now lets see...'&D
+  mpechoat $n &cBarzak waves his hands over the two items.&D
+  mppurge holy
+  mppurge signet
+  mpoload 1751
+  give holy $n
+  mpechoat $n &CBarzak says, 'Ok now! Be wary though, when you face the Shadow God, the God of Death is likey to be there as well, as they were both sealed to this valley.'&D
+  mpquest $n shadowgod 3
+  mpquest $n shadowgod 4
+else
+  mpechoat $n &CBarzak says, 'What do you want me to do with this?'&D
+endif
+~
+|
+#1753
+shadow deer~
+The shadow of a deer~
+The shadow of a deer wanders through the dark forest.
+~
+The shadow appears to be of a deer or some other woodland creature. It 
+moves on the ground and on things like a shadow but has no body to project 
+it. 
+~
+13
+Clanname none~
+0
+0
+65 128 -1 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 3 3
+#1754
+shadow warrior~
+The shadow of a warrior~
+The shadow of a warrior moves about without a body.
+~
+The shadow appears to be of a warrior fully clad in armor. It doesn't seem 
+to have a body to project the shadow making the shadow the only body 
+it has. 
+~
+13
+Clanname none~
+0
+0
+67 8320 -1 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0&8 -1073217533
+> fight_prog 30~
+heavy $n
+heavy $n
+stun $n
+mppause 20
+~
+|
+#1755
+shadow guard~
+The shadow of a guard~
+The shadow of a guard moves about without a body.
+~
+The shadow appears to be of a warrior fully clad in armor. It doesn't seem 
+to have a body to project the shadow making the shadow the only body 
+it has. 
+~
+13
+Clanname none~
+0
+0
+97 8832 -1 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0&8 -1073217533
+> fight_prog 30~
+heavy $n
+heavy $n
+stun $n
+mppause 20
+~
+|
+#1756
+shadow god Darznan~
+Darznan~
+The Shadow God stands here in swirling shadows.
+~
+Resembling a shade, the shadow god stands near six feet tall. Shadows 
+swirl about him and even inside his body give him the look of smoke 
+almost. 
+~
+13
+Clanname none~
+0
+0
+67 4202624 -1 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 3
+> fight_prog 20~
+if iscarrying($n) == 1751
+  mpechoat $n &RThe holy pendant protects $n from the Shadow God's attack!&D
+else
+  mpechoat $n &R$n gets hit in the chest from a bolt of darkness from Darznan.&D
+  mpdamage $n 3000
+endif
+~
+> fight_prog 20~
+if iscarrying($n) == 1751
+  mpechoat $n &BThe holy pendant stops the Shadow God from healing!&D
+else
+  mpechoat $n &RThe Shadow God pulls shadows around him, restoring himself!&D
+  mprestore self 10000
+endif
+~
+> death_prog 100~
+mpechoat $n &CShadow Guard says, 'This is not over!'&D
+mpechoat $n &cThe Shadow God waves his hand sending $n away to another place!&D
+mpechoat $n &CShadow Guard says, 'Meet your doom!'&D
+mpechoat $n &cShadow Guard fades into the shadows!&D
+mptransfer $n 1800
+mpat 1800 mpmload 1757
+mpat 1800 mpecho The God of Death appears from the light in the tower!
+mpat 1800 mpforce ram say Time to meet your maker!
+~
+|
+#1757
+death god Ramzan~
+Ramzan~
+The Death God stands here in swirling souls.
+~
+The death god stands here surrounded by souls he's taken in the past. His 
+body is cloaked and all that is visible is his face which appears to not 
+have any skin. 
+~
+13
+Clanname none~
+0
+0
+99 8320 -1 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 3
+> fight_prog 20~
+if iscarrying($n) == 1751
+mpecho The Death God tries to summon a soul to his aid but is stopped by the holy pendant!
+else
+mpecho &RThe Death God summons a soul to aid him!
+mpmload 1758
+endif
+~
+> death_prog 100~
+say Bah! This cannot be!
+mpecho All of a sudden the Shadow God raises and nods at the God of death!
+say Yes, lets combine and show this mortal what we're made of!
+mpecho The Gods swirl around forming themselves into one god!
+mpmload 1759
+mpforce shinigami 'Now die fool!
+~
+> fight_prog 30~
+if iscarrying($n) == 1751
+mpecho &The Death God tries to eat a soul but is stopped by the holy pendant!
+else
+mpecho &RThe Death God eats a soul restoring himself!
+mprestore self 10000
+endif
+~
+|
+#1758
+dead soul~
+A soul of the dead~
+A soul of the dead moans in eternal agony.
+~
+A forlorn mist is all that it seems to be. A transparent figure of someone 
+who is now long dead and now under control of the Death God. 
+~
+0
+Clanname none~
+0
+0
+99 0 -1 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 3
+#1759
+evil god shinigami~
+Shinigami~
+The god of pure evil stands here swirling in shadow souls.
+~
+The combination of the God of Death and the God of Shadows, this God is 
+even worse then the two! He stands tall surrounded by souls and shadows. 
+~
+13
+Clanname none~
+0
+0
+99 1447045248&201342976 -1 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 3
+> fight_prog 20~
+if iscarrying($n) == 1751
+mpecho &RShinigami tries to eat a soul but the holy pendant doesn't let him finish!
+mprestore self 2000
+else
+mpecho Shinigami eats a soul restoring himself!
+mprestore self 10000
+endif
+~
+> fight_prog 30~
+if iscarrying($n) == 1751
+mpecho &BShinigami tries to summon a soul but the holy pendant stops him!
+else
+mpecho Shinigami summons a soul to aid him!
+mpmload 1758
+endif
+~
+> fight_prog 30~
+if iscarrying($n) == 1751
+mpecho &RShinigami sends a wave of pure darkness at $n, but the holy pendant stops some of the damage!
+mpdamage $n 2000
+else
+mpecho &RShinigami sends a wave of pure darkness at you!
+mpdamage $n 4000
+endif
+~
+> death_prog 100~
+mpecho &YThe two gods seperate and scream in pain as they are finally slain!
+mpoload 1752
+drop ring
+mpecho &YA golden ring falls to the floor where the god once stood!
+~
+|
+#1800
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1750
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#1751
+holy pendant~
+A holy pendant~
+A holy pendant lays here unattended.~
+~
+9 0 5
+60 60 0 0 0 0 0
+1 236 14
+1
+0
+0
+0
+0
+0
+S 77 0
+#1752
+legendary ring~
+A legendary ring~
+A legendary ring lays here rusting~
+~
+9 0 3
+60 60 0 0 0 0 0
+1 322 32
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+56 36
+A
+56 34
+#1753
+shadow soul~
+a shadow soul~
+A shadow soul has been left here.~
+~
+1 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 8
+A
+31 -3
+A
+2 1
+#1754
+shadow whip~
+a shadow whip~
+A shadow whip has been left here.~
+~
+5 84 8193
+25 40 80 5 3 0 100
+2 179 17
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+19 8
+A
+18 8
+#1755
+shadow leggings~
+a pair of shadow leggings~
+A pair of shadow leggings has been left here.~
+~
+9 0 33
+55 55 0 0 0 0 0
+8 155 15
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 6
+#1756
+shadow tunic~
+a shadow tunic~
+A shadow tunic has been left here.~
+~
+9 0 9 8
+55 55 0 0 0 0 0
+1 139 13
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 6
+#1757
+shadow vest~
+a shadow vest~
+A shadow vest has been left here.~
+~
+9 0 9 32
+55 55 0 0 0 0 0
+1 139 13
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 6
+#1758
+shadow boots~
+a pair of shadow boots~
+A pair of shadow boots has been left here.~
+~
+9 0 65
+55 55 0 0 0 0 0
+4 157 15
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+18 6
+A
+2 1
+#1759
+shadow kite shield~
+a shadow kite shield~
+A shadow kite shield has been left here.~
+~
+9 0 513
+55 55 0 0 0 0 0
+10 150 15
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 6
+#1760
+shadow pole axe~
+a shadow pole axe~
+A shadow pole axe has been left here.~
+~
+5 0 8193
+0 40 80 3 15 0 0
+8 117 11
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+19 6
+A
+18 6
+A
+2 1
+#1800
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#1750
+On a Landing Spot~
+~
+Strong magic's flow in this land separated from the rest of the world.
+Shadows cover the land causing this place to be covered in perpetual 
+darkness. To the north a path can be seen leading off deep into the 
+darkness covering the area. 
+~
+1 4 11
+D0
+~
+~
+0 -1 1751
+D11
+~
+~
+0 -1 51569
+S
+#1751
+In a Dark Wood~
+~
+A shadow forest surrounds the path. The trees, the rocks and everything 
+else seem to be comprised of pure shadow swirling with very little light 
+giving the area an effect that looks much like smoke. &D
+~
+1 0 3
+D2
+~
+~
+0 -1 1750
+D6
+~
+~
+0 -1 1752
+R M 0 1753 4 1751
+S
+#1752
+In a Dark Wood~
+~
+Shadows flow around giving the area a creepy feel. Darkness covers the 
+land causing it to be very hard to see. Shadows in the forest of woodland 
+creatures can be seen moving around, but no bodies casting the shadows 
+seem to be present. 
+~
+1 0 3
+D0
+~
+~
+0 -1 1753
+D9
+~
+~
+0 -1 1751
+S
+#1753
+In a Dark Wood~
+~
+Visibility here is extremely limited as nearing the middle of the mountain 
+valley seems to become darker with each and every step. Shadows move about 
+the land without anything casting them, or even any light to cause their 
+projection. 
+~
+1 0 3
+D0
+~
+~
+0 -1 1754
+D2
+~
+~
+0 -1 1752
+R M 0 1753 1 1753
+S
+#1754
+In a Dark Wood~
+~
+Through the shadows a small village can be seen, as well as a castle at 
+the head of it. Large shadow gates protect the city as well as large 
+shadow walls. Darkness fills the land giving a very low ability to see at 
+this point. 
+~
+1 0 3
+D0
+~
+~
+0 -1 1755
+D2
+~
+~
+0 -1 1753
+S
+#1755
+Nearing a Shadow City~
+~
+The shadow forest seems to be cleared a bit here as the city can be seen 
+to the north a bit. Darkness and shadows move about swirling mixing with 
+each other making things extremely hard to see. 
+~
+1 0 3
+D1
+~
+~
+0 -1 1770
+D2
+~
+~
+0 -1 1754
+D7
+~
+~
+0 -1 1756
+R M 0 1753 2 1755
+S
+#1756
+At a Crossroads~
+~
+The path forks here, into three separate paths. One path leads off to a 
+little hut not to far from here, one to the city of shadows, and the other 
+to the entrance of the lost valley. 
+~
+1 0 3
+D0
+~
+~
+0 -1 1760
+D3
+~
+~
+0 -1 1757
+D8
+~
+~
+0 -1 1755
+S
+#1757
+Nearing an Indistinct Hut~
+~
+Not to far to the west a shadow hut can be seen. Nothing appears special 
+about it other then the fact that it isn't comprised of wood or even 
+mortar, but complete darkness somehow filling the void. 
+~
+1 0 3
+D1
+~
+~
+0 -1 1756
+D3
+~
+~
+0 -1 1758
+S
+#1758
+Outside of an Indistinct Hut~
+~
+Shadows flow around the area, darkness covering the land. The trail from 
+here leads off to the city and one to the exit of the lost valley. A hut 
+stands here in a clearing outcast from the rest of the city, outside the 
+walls. 
+~
+1 0 3
+D1
+~
+~
+0 -1 1757
+D3
+~
+~
+0 -1 1759
+S
+#1759
+Inside an Indistinct Hut~
+~
+Very little light presents itself inside the hut. Strange magical 
+equipment lines the walls giving one the image that whomever lives here 
+may be a mystic of some sort. Nothing much else can be said about this 
+dark home except that it is pure darkness, nothing else.
+~
+1 8 0
+D1
+~
+~
+0 -1 1758
+R M 0 1752 1 1759
+S
+#1760
+Nearing a Shadow City~
+~
+The city of darkness looms ahead. From the outside it doesn't seem very 
+large but it is very orderly. The walls reach up high making only the tops 
+of the houses and the castle visible from here. To the south is the 
+crossroads in the dark forest.
+~
+1 0 3
+D0
+~
+~
+0 -1 1761
+D2
+~
+~
+0 -1 1756
+S
+#1761
+Outside the City Gates~
+~
+A shadowman guards the front entrance to the city. The walls of the city 
+are dark, as is the gate it's self. The path to the south leads back to 
+the crossroads in the dark forest, and north, leads into the city. 
+~
+1 0 3
+D0
+~
+~
+7 -1 1762
+D2
+~
+~
+0 -1 1760
+R M 0 1755 7 1761
+  R E 0 1754 1 16
+  R E 0 1754 1 18
+  R E 0 1755 1 7
+  R E 0 1756 1 5
+  R E 0 1757 1 5
+  R E 0 1758 1 8
+R D 0 1761 0 2
+S
+#1762
+Inside the Shadow City~
+~
+The city spreads out surrounding the castle. Darkness is deep here 
+almost like a fog more then just the absence of light. The castle reaches 
+high over the city, a small light glowing at the highest tower. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1763
+D2
+~
+~
+1 -1 1761
+S
+#1763
+Along a Main Road~
+~
+Small shops and even a few houses can be seen along this road that leads 
+north and south. The castle can be seen ahead to the north as a few shops 
+line the streets before it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1764
+D2
+~
+~
+0 -1 1762
+R M 0 1754 3 1763
+  R E 0 1758 1 8
+  R E 0 1756 1 5
+  R E 0 1755 1 7
+  R E 0 1757 1 5
+  R E 0 1759 1 11
+  R E 0 1760 1 16
+S
+#1764
+Along a Main Road~
+~
+The road leads north to the castle and south out of the city. The dark 
+buildings line the perfectly straight roads making the city look more like 
+a military base then a settlement. 
+~
+1 4 1
+D0
+~
+~
+0 -1 1765
+D2
+~
+~
+0 -1 1763
+S
+#1765
+Along a Main Road~
+~
+Darkness fills the area, no light sources at all except at the very top 
+of the tower in the castle. Shadows move around without any bodies 
+projecting them silently going about their business.
+~
+1 4 1
+D0
+~
+~
+0 -1 1767
+D1
+~
+~
+0 -1 1766
+D2
+~
+~
+0 -1 1764
+R M 0 1754 3 1765
+  R E 0 1759 1 11
+  R E 0 1758 1 8
+  R E 0 1756 1 5
+  R E 0 1755 1 7
+  R E 0 1760 1 16
+  R E 0 1757 1 5
+S
+#1766
+An Abandoned Shop~
+~
+There doesn't seem like anything special is in this shop. No shopkeep, no 
+employees, nobody. The only thing besides dust are the usual shadows 
+moving about free of bodies projecting them. 
+~
+1 4 1
+D3
+~
+~
+0 -1 1765
+S
+#1767
+Along a Main Road~
+~
+Shadows move about on the ground seeming undisturbed by anyone or 
+anything. The empty shops and houses continue around, seeming like almost 
+nothing or no one lives here, not even evidence of life. 
+~
+1 4 1
+D0
+~
+~
+0 -1 1768
+D2
+~
+~
+0 -1 1765
+S
+#1768
+Near an Ancient Castle~
+~
+A large castle looms to the north, its iron gates swinging open as if it 
+was abandoned as most of the city as well. A bright light shines from the 
+top most tower. 
+~
+1 4 1
+D0
+~
+~
+0 -1 1769
+D2
+~
+~
+0 -1 1767
+R M 0 1754 3 1768
+  R E 0 1759 1 11
+  R E 0 1760 1 16
+  R E 0 1758 1 8
+  R E 0 1756 1 5
+  R E 0 1755 1 7
+  R E 0 1757 1 5
+S
+#1769
+Before the Castle Gates~
+~
+The massive castle looms in the north, with the rest of the city to the
+light completely. Shadows move about the area, as they always do 
+south. A bright light shines in the top tower, otherwise being devoid of
+independent of bodies to project them.
+~
+1 4 1
+D0
+~
+~
+5 -1 1775
+D2
+~
+~
+0 -1 1768
+S
+#1770
+A Small Off Trail~
+~
+This small trail leads off a bit from the main road. There seems to be a 
+cave to east from here, as the road is to the west. A deep breathing can 
+be heard from the cave, giving it a foreboding feeling.
+~
+1 0 3
+D1
+~
+~
+0 -1 1771
+D3
+~
+~
+0 -1 1755
+R M 0 1753 3 1770
+S
+#1771
+Before a Large Cave~
+~
+The cave opens to the south, darkness filling it as it fills the rest of 
+the forest. There seems to be a little light coming from the inside of the 
+cave though. 
+~
+1 0 3
+D2
+~
+~
+0 -1 1772
+D3
+~
+~
+0 -1 1770
+S
+#1772
+Inside the Cave~
+~
+The cave narrows a little as it gets deeper into the earth. Darkness 
+swirls around in here almost like smoke. A deep breathing can be heard 
+from deep within the caves, slowly sighing. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1771
+D8
+~
+~
+0 -1 1773
+S
+#1773
+Deep Inside a Cave~
+~
+The cave narrows down a little as it gets deeper into the earth. Water 
+drips slowly from the roof of the cave causing small puddles on the 
+ground. A deep breathing can be heard very close to here. 
+~
+1 0 13
+D2
+~
+~
+0 -1 1774
+D7
+~
+~
+0 -1 1772
+S
+#1774
+The Lair of a Shadow Dragon~
+~
+The cave opens wide into a great cavern. The shape of a massive shadow 
+of a dragon moves around, without a body projecting it. Large mounds of 
+treasure lay about the lair, but it all seems rather ancient. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1773
+R M 0 1751 1 1774
+  R G 0 1753 1
+S
+#1775
+Inside the Castle~
+~
+The castle opens wide into corridors. Although it seems abandoned unlike 
+the rest of the city it doesn't seem only comprised of darkness. Large 
+tapestries show pictures of a great battle, shadows fighting the people 
+who cast them. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1776
+D2
+~
+~
+5 -1 1769
+D3
+~
+~
+0 -1 1782
+S
+#1776
+Inside the Castle~
+~
+The castle is dark but seems well intact. Shadows move about the area 
+even though there aren't any bodies projecting them. Decorative pillars 
+line the corridors giving the castle a very regal look. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1777
+D3
+~
+~
+0 -1 1775
+R M 0 1755 7 1776
+  R E 0 1755 1 7
+  R E 0 1758 1 8
+  R E 0 1754 1 16
+  R E 0 1756 1 5
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1777
+Inside the Castle~
+~
+Darkness flows in the halls, no people can be seen anywhere only 
+shadows. Grand tapestries and pillars line the area with stories of war 
+and betrayal. A cool breeze flows through the halls that are otherwise 
+silent. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1778
+D2
+~
+~
+0 -1 1776
+S
+#1778
+Inside the Castle~
+~
+The corridors span inside the castle giving acess to the many other 
+parts of it. The east stair is just east of here as the grand spiral stair 
+is already visible from here.
+~
+1 12 0
+D1
+~
+~
+0 -1 1790
+D2
+~
+~
+0 -1 1777
+D3
+~
+~
+0 -1 1779
+R M 0 1755 7 1778
+  R E 0 1754 1 16
+  R E 0 1756 1 5
+  R E 0 1758 1 8
+  R E 0 1755 1 7
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1779
+Inside the Castle~
+~
+Shadows flow about the area giving it the little life it has. Grand 
+tapestries and pillars of pure marble decorate the seemingly dead castle. 
+A think layer of dust covers everything as the shadows that move about 
+don't seem to be able to do anything about it. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1778
+D2
+~
+~
+0 -1 1783
+D3
+~
+~
+0 -1 1780
+S
+#1780
+Inside the Castle~
+~
+Grand tapestries and pillars give the castle a very regal look. The 
+castle is spacious and full of grandeur. Shadows move about the floors and 
+walls seeming undisturbed by anything or anyone. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1779
+D2
+~
+~
+0 -1 1781
+D3
+~
+~
+0 -1 1795
+R M 0 1755 7 1780
+  R E 0 1754 1 16
+  R E 0 1756 1 5
+  R E 0 1758 1 8
+  R E 0 1755 1 7
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1781
+Inside the Castle~
+~
+Shadows move about in the dark corridor seeming undisturbed by anything. 
+The tapestries flag in a slight breeze that flows through the halls and 
+the pillars show dust from the castles old age and low maintenance. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1780
+D2
+~
+~
+0 -1 1782
+S
+#1782
+Inside the Castle~
+~
+Although the walls of the castle seem to be nothing but pure darkness, 
+the tapestries and pillars and anything else that is decorative seems to 
+be normal otherwise. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1781
+D1
+~
+~
+0 -1 1775
+R M 0 1755 7 1782
+  R E 0 1756 1 5
+  R E 0 1758 1 8
+  R E 0 1755 1 7
+  R E 0 1754 1 16
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1783
+Inside the Castle~
+~
+Darkness fills the area as a stair leads down from here. There are no 
+decorations in this area of the castle, making it seem rather dark. The 
+stair down is just pure darkness and nothing else but seems able to be 
+walked on normally. 
+~
+1 8 0
+D0
+~
+~
+0 -1 1779
+D5
+~
+~
+0 -1 1784
+S
+#1784
+The Dungeon~
+~
+A violent room presents it's self here. Instruments of torture and death 
+line the walls, from finger screws to iron maidens to a very large rack 
+big enough for a troll to be stretched out to a very painful death. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1785
+D4
+~
+~
+0 -1 1783
+S
+#1785
+The Dungeon~
+~
+Darkness flows as does the set up of ancient torture devices. Murderous 
+weapons and tools lay strung about all over the room showing just how 
+cruel the old master of this castle was towards people who ever it was 
+didn't like. 
+~
+1 12 0
+D0
+~
+~
+1063 -1 1788
+D2
+~
+~
+0 -1 1784
+D6
+~
+~
+0 -1 1786
+D7
+~
+~
+0 -1 1787
+R D 0 1785 0 2
+S
+#1786
+An Abandoned Cell~
+~
+The cell is dark and cold. There doesn't seem to be anything in here not 
+even a cot or a door. This cell seems almost like it was never used more 
+then being out of use. 
+~
+1 12 0
+D9
+~
+~
+0 -1 1785
+S
+#1787
+An Abandoned Cell~
+~
+The cell is dark and clammy from not being used in a long time. Dust 
+covers everything even the door that's broken off its hinges. There is a 
+large hole pierced in the wall making it seem like someone of great power 
+was locked in here once. 
+~
+1 12 0
+D8
+~
+~
+0 -1 1785
+S
+#1788
+An Dungeon Cell~
+~
+This cell is rather complete compared to any other part of the castle. It 
+is immaculately clean and in order, even the door is able to swing without 
+making loud groans.
+~
+1 3145740 13
+D2
+~
+~
+1063 -1 1785
+R D 0 1788 2 2
+> rand_prog 10~
+mpecho A guard comes in and drags you out of the castle.
+mptransfer $n 1769
+~
+|
+S
+#1789
+Floating in a void~
+~
+~
+1 4 1
+S
+#1790
+The East Stairwell~
+~
+The stair well moves up to the second floor. The stairs are magnificent 
+things in themselves as they seem to be comprised of nothing but pure 
+darkness rather then some kind of material found elsewhere in the world. 
+~
+1 12 0
+D3
+~
+~
+0 -1 1778
+D4
+~
+~
+0 -1 1791
+S
+#1791
+The East Stairwell~
+~
+The stairwell is made of a magnificent dark matter that seems to be 
+nothing but pure darkness rather then any other material. To the west is 
+the second floor and down is the first floor. 
+~
+1 8 0
+D3
+~
+~
+0 -1 1792
+D5
+~
+~
+0 -1 1790
+R M 0 1755 7 1791
+  R E 0 1754 1 16
+  R E 0 1758 1 8
+  R E 0 1756 1 5
+  R E 0 1755 1 7
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1792
+On the Second Floor~
+~
+The large decorative tapestries line the halls along with large suits of 
+armor the size of trolls. The hall is filled with pure darkness and 
+otherwise nothing else besides a shadow moving around from time to time. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1791
+D3
+~
+~
+0 -1 1793
+S
+#1793
+On the Second Floor~
+~
+The path in the castle leads in several directions from here. A grand 
+throne room can be seen to the south and a stairwell leads up into the 
+tower of the castle. the other paths to the east and to the west move 
+towards the stairs to go down to the lower level of the castle. 
+~
+1 8 0
+D1
+~
+~
+0 -1 1792
+D2
+~
+~
+0 -1 1797
+D3
+~
+~
+0 -1 1794
+D4
+~
+~
+0 -1 1798
+S
+#1794
+On the Second Floor~
+~
+Suits of armor line the walls here giving decoration along with the many 
+tapestries and pillars. The hall is otherwise filled with nothing but 
+darkness and the occasional shadow moving about the floor without any 
+bodies projecting them. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1793
+D3
+~
+~
+0 -1 1796
+S
+#1795
+The West Stairwell~
+~
+The stairwell spirals up to the second floor from here. Red carpet flows 
+along the floor and each step. The stair seems stable enough to walk up 
+without having and problems. 
+~
+1 12 0
+D1
+~
+~
+0 -1 1780
+D4
+~
+~
+0 -1 1796
+S
+#1796
+The West Stairwell~
+~
+At the top of the west stairwell there are patterns of tapestries 
+depicting a great war with many casualties. The east path leads onto the 
+second floor of the castle and down leads to the first floor. 
+~
+1 8 0
+D1
+~
+~
+0 -1 1794
+D5
+~
+~
+0 -1 1795
+R M 0 1755 7 1796
+  R E 0 1754 1 16
+  R E 0 1755 1 7
+  R E 0 1758 1 8
+  R E 0 1754 1 18
+  R E 0 1757 1 5
+S
+#1797
+The Throne Room of the Shadow-God~
+~
+A large throng sits in the middle of the room adorned with gold and 
+other rare metals and gems as well. The room is large, it's self adorned 
+with giant tapestries that show pictures of war and violence. 
+~
+1 12 0
+D0
+~
+~
+0 -1 1793
+R M 0 1756 1 1797
+S
+#1798
+Inside the Tower~
+~
+A very strong magic can be sensed from here from the top of the tower. 
+Unlike the rest of the castle and even the lost valley the tower is 
+composed of bricks and mortar rather then pure darkness. 
+~
+1 12 0
+D4
+~
+~
+0 -1 1799
+D5
+~
+~
+0 -1 1793
+S
+#1799
+Inside the Tower~
+~
+The tower continues up to the top where a bright light can be seen 
+shining in the top. The walls are normal material now, but there are not 
+pillars or tapestries which can be seen in the rest of the castle.
+~
+1 12 0
+D4
+~
+~
+0 -1 1800
+D5
+~
+~
+0 -1 1798
+S
+#1800
+The Top of the Tower~
+~
+There is a bright statuette dedicated to the creator in the middle of 
+the room. The light that the idol emits is of a strange appearance, it 
+actually seems to be giving off the darkness that covers the lost valley. 
+~
+1 12 0
+D5
+~
+~
+0 -1 1799
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

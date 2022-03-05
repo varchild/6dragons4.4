@@ -1,0 +1,280 @@
+#VNUM 54093
+#OBJECT
+Name         finger-band~
+ShortDescr   a finger band, legendary tanned from bugbear~
+Description  Here lies a finger band, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   finger-band~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         studded-collar~
+ShortDescr   a studded leather collar, legendary tanned from bugbear~
+Description  Here lies a studded leather collar, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       2 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   studded-collar~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-suit~
+ShortDescr   a hardened leather suit, legendary tanned from bugbear~
+Description  Here lies a hardened leather suit, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   hardened-suit~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-leggings~
+ShortDescr   a pair of hardened leather leggings, legendary tanned from bugbear~
+Description  Here lies a pair of hardened leather leggings, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 10 17 0
+ExtraDescr   hardened-leggings~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         leather-cloak~
+ShortDescr   a leather cloak, legendary tanned from bugbear~
+Description  Here lies a leather cloak, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    1025
+ItemType     9
+Weight       2
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-cloak~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         leather-bracer~
+ShortDescr   a leather bracer, legendary tanned from bugbear~
+Description  Here lies a leather bracer, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-bracer~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-mask~
+ShortDescr   a hardened leather mask, legendary tanned from bugbear~
+Description  Here lies a hardened leather mask, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    1048577
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   hardened-mask~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-cap~
+ShortDescr   a hardened leather cap, legendary tanned from bugbear~
+Description  Here lies a hardened leather cap, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    17
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   hardened-cap~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-boots~
+ShortDescr   a pair of hardened leather boots, legendary tanned from bugbear~
+Description  Here lies a pair of hardened leather boots, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   hardened-boots~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         hardened-gauntlets~
+ShortDescr   a pair of hardened leather gauntlets, legendary tanned from bugbear~
+Description  Here lies a pair of hardened leather gauntlets, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    129
+ItemType     9
+Weight       2
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   hardened-gauntlets~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         studded-armlets~
+ShortDescr   a pair of studded leather armlets, legendary tanned from bugbear~
+Description  Here lies a pair of studded leather armlets, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    257
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -1 17 0
+ExtraDescr   studded-armlets~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         ear-band~
+ShortDescr   a ear band, legendary tanned from bugbear~
+Description  Here lies a ear band, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    65537
+ItemType     9
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ear-band~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         studded-collar~
+ShortDescr   a studded leather collar, legendary tanned from bugbear~
+Description  Here lies a studded leather collar, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       8
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   studded-collar~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Name         leather-bracer~
+ShortDescr   a leather bracer, legendary tanned from bugbear~
+Description  Here lies a leather bracer, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Level        2
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 400 777 100 5
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -1 17 0
+ExtraDescr   leather-bracer~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#END

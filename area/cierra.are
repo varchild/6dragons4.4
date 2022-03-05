@@ -1,0 +1,3453 @@
+#AREA        Tears of Mount Cierra ~
+
+
+
+#VERSION     11
+#AUTHOR      Eldaera~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 60 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 10 10
+
+#RESETMSG A fresh blanket of snow falls from the clouds at Mount Cierra's peak...~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250001 1 999999423 999999514 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#16700
+peddler questmob~
+a peddler questmob~
+A peddler questmob is supposed to be invisible.
+~
+~
+0
+Clanname none~
+0
+0
+1149370371 4260354 0 C
+102 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(peddler) == 1
+  mpechoat $n You have discovered Mount Cierra.
+  mpquest $n peddler 2
+endif
+~
+|
+#16701
+Yakoxe~
+Yakoxe~
+Smeared with a dusty covering of snow, this yakoxe wanders the mountain.
+~
+~
+0
+Clanname none~
+0
+0
+33 268435584 -1000 C
+40 0 0 25d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+25 20 0 0 0 0 3 2
+#16702
+monk~
+A monk~
+A monk brushes away the snow from the stoney steps to the monastery.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 128 700 C
+40 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 4
+25 25 41 0 0 0 -2139094992&256 2
+#16703
+monk~
+A monk~
+A balding monk sits on the floor praying to the higher power.
+~
+~
+0
+Clanname none~
+0
+0
+131075 128 700 C
+40 0 0 30d30+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 4
+25 25 41 0 0 0 -2139094992&256 2
+#16704
+cardinal monk~
+a cardinal monk~
+The cardinal monk sits quietly in his chambers.
+~
+~
+0
+Clanname none~
+0
+0
+132099 4194432 700 C
+55 0 0 50d50+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+40 40 41 0 0 0 -2071986128&256 2
+> all_greet_prog 100~
+if quest(peddler) < 1
+  mppause 5
+  mpechoat $n &CCardinal Monk says, 'There once was a great monk, who was blinded in 
+  mpechoat $n &Cbattle by the stone sorceror.  I should very much like to hear from 
+  mpechoat $n &Cmy old comrade.  They say he maybe in local village near Paleon.'
+endif
+~
+> act_prog p gives you a stone talisman.~
+if quest(peddler) != 3
+  mppause 5
+  mpechoat $n &CCardinal Monk says, 'Thanks for the donation.'
+  mpat 4 drop all
+endif
+if quest(peddler) == 3
+  mppause 6
+  mpechoat $n &cThe monk gazes at you for a moment with wonderment then
+  mpechoat $n falls to the floor, and begins to pray over the stone talisman.
+  mpechoat $n A bright flash of light comes from the stone talisman blinding all in the room.&D
+  mppause 2
+  mpechoat $n &CCardinal Monk says, '$n you have done well.'&D
+  mpjunk talisman
+  mpquest $n peddler 4
+  mpoload 16709 50
+  get plate
+  give plate $n
+  mppause 6
+  mppause 4
+  mpechoat $n &cYour surroundings change and you are suddenly elsewhere.&D
+  mptrans $n 16700
+  mpat $n mpforce $n look
+  mpat $n mpquest $n peddler remove
+endif
+~
+|
+#16705
+raccoon~
+a raccoon~
+A mischievous raccoon starts at you from atop a boulder.
+~
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+40 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+20 30 41 0 0 0 3 2
+#16706
+mountain lion~
+a mountain lion~
+A graceful mountain lion rests lazily upon a rock above your head.
+~
+~
+0
+Clanname none~
+0
+0
+132131 0 0 C
+50 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 5
+30 30 0 0 0 0 35 0
+#16707
+bald eagle~
+a bald eagle~
+A lone eagle soars majestically through the skies of Mount Cierra.
+~
+~
+0
+Clanname none~
+0
+0
+1 524416 700 C
+45 0 0 30d30+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 4
+40 40 0 0 0 0 515 0
+#16708
+grizzly bear~
+a grizzly bear~
+A female bear lies here feeding her cubs.
+~
+~
+0
+Clanname none~
+0
+0
+131107 0 0 C
+60 0 0 50d50+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 4 0 0 1 1 3
+50 40 0 0 0 0 3 2
+#16709
+climber~
+a mountain climber~
+A mountain climber, loaded with climbing gear, heads toward the mountain.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+40 0 0 30d30+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+30 25 0 0 0 0 48 0
+#16710
+deer~
+a white-tailed deer~
+A white-tailed deer munches the berries from several of the bushes.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+25 0 0 1d1+4500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+20 20 0 0 0 0 32 2
+#16711
+timber wolf~
+A timber-wolf~
+A timber-wolf is stalking prey here.
+~
+~
+0
+Clanname none~
+0
+0
+33 98304 0 C
+55 0 0 50d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 4 0 0 1 1 6
+30 30 0 0 0 0 3 0
+> death_prog 100~
+if quest(antidote) == 5
+  mpoload 16711 1
+  get tail
+  mpquest $n antidote 6
+endif
+~
+|
+#16712
+beaver~
+a beaver~
+A beaver rolls a fallen tree to the riverbanks to make its dam.
+~
+~
+0
+Clanname none~
+0
+0
+131075 512 0 C
+55 0 0 50d50+21000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 7
+50 45 0 96 0 16 163 0
+#16713
+the spirit of the eagle~
+the spirit of the eagle~
+A shimmering spirit of freedom illuminates the nest with grace.
+~
+~
+0
+Clanname none~
+0
+0
+131075 71303296 1000 C
+55 0 0 40d40+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 14 0 0 1 1 4
+40 40 0 0 0 0 35 0
+> death_prog 15~
+Mpechoat $n &cThe final blows slice off a large portion of the eagle's hide.&D
+mpechoat $n &cA &Bp&Rr&Gi&Cs&Ym&Ba&Rt&Gi&Cc&c colored piece of what might be cloth falls to the ground.&D
+mpoload 16703
+~
+|
+#16714
+sugar glider~
+A sugar glider~
+A small sugar glider climbs along the branches in the forest.
+~
+~
+0
+Clanname none~
+0
+0
+1 524416 500 C
+40 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 6 0 0 1 1 0
+20 20 0 0 0 0 51 0
+#16715
+filthy vulture~
+A filthy vulture~
+Streaks of vomit cover the trees around this vulture
+~
+~
+0
+Clanname none~
+0
+0
+131075 67108992 -500 C
+45 0 0 30d30+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 15 0 0 1 1 0
+40 30 0 0 0 0 35 0
+#16716
+sprite water~
+A water sprite~
+A water sprite flutters her glistening wings across the water.
+~
+Glistening with the drops of water upon her wings, this delicate water
+sprite flutters peacefully across the mountain, melting the snow with
+the wave of her hand to form a flowing river that cuts through the
+slopes of Mount Cierra.  With smooth skin the color of water, the sprite
+continues with her work, oblivious to your presence.
+~
+0
+Clanname none~
+0
+0
+131075 268435586 0 C
+60 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 0 0 1 1 0
+40 40 0 0 0 0 49 0
+#16717
+gold miner~
+A gold miner~
+A miner tunnels through the stone walls looking for gold.
+~
+~
+0
+Clanname none~
+0
+0
+131107 4194432 0 C
+60 0 0 25d25+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+30 30 0 0 0 0 177 0
+#16718
+silver miner~
+A silver miner~
+A miner tunnels through the stone walls looking for silver.
+~
+~
+0
+Clanname none~
+0
+0
+131107 680 0 C
+55 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+30 30 0 0 0 0 177 0
+#16719
+cave explorer~
+A cave explorer~
+A cave explorer was hired to survey the caves below the mines.
+~
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+50 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+30 30 0 0 0 0 49 0
+#16720
+stone sorceror~
+a stone sorceror~
+Hidden deep in the caverns, this sorceror casts his spells of eternity.
+~
+~
+0
+Clanname none~
+0
+0
+131107&4 104857728 -1000 C
+60 0 0 50d50+20000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 25 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 9
+60 60 41 0 0 0 1342701568&3 33554498
+> fight_prog 25~
+cast 'fire breath' $n
+~
+> fight_prog 25~
+cast 'frost breath' $n
+~
+> fight_prog 25~
+cast 'gas breath' $n
+~
+> fight_prog 25~
+c 'lightning breath' $n
+~
+> all_greet_prog 100~
+if quest(peddler) == 2
+  mpechoat $n &cYou have discovered the sorcerer.&D
+  mpquest $n peddler 3
+endif
+~
+|
+#16721
+The spirit of freedom~
+The spirit of Freedom~
+The spirit of Freedom stands here with a powerful presence
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 373293184 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 14 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog p done~
+mppause 15
+mpecho After the flash ends a beautiful woman stands before you
+mppause 15
+mpecho The spirit of freedoom smiles at you
+mppause 15
+say Thank you for freeing me. I have been long since trapped
+mppause 15
+say in that stone talisman. For releasing me from my prison
+mppause 15
+say I will give this plate of armor to you. Use it well my Saviour.
+mpoload 16709
+~
+|
+#16722
+Mature gold dragon Gaevas~
+Gaevas~
+An mature gold dragon rests upon a pile of gold here.
+~
+~
+14
+Clanname none~
+0
+0
+132099 4194432 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 0
+0 0 0 0 0 0 0 33554434
+> all_greet_prog 100~
+mpecho An ancient gold dragon raises his head, and looks at you with its lamp-like eyes.
+mppause 6
+mpecho Gaevas Bellows, 'Greetings $n'
+mppause 8
+mpecho Gaevas Bellows, 'Did you come for a dragon orb?'
+mppause 20
+mpecho Gaevas Bellows, 'You may have one if you clear my mountain range of Yakoxe, and bring me their corpses.
+~
+> act_prog p gives you the corpse of Yakoxe.~
+mppause 3
+say Very Good, if I haven't already given all my orbs out, you may have one.
+mppause 8
+give orb $n
+mpat 4 drop cor
+mpat 4 drop cor
+mpat 4 drop cor
+mpat 4 drop cor
+mpat 4 drop cor
+~
+> fight_prog 30~
+mpecho An ancient gold dragon roars!
+mppause 3
+stomp $n
+mppause 10
+tail $n
+mppause 20
+mpat 4 look
+mppause 20
+breath $n aoe
+mppause 20
+mpat 4 look
+mppause 10
+gut $n
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpecho An mature gold dragon bellows, 'You will now feel my full fury!!'
+mppause 20
+mpecho An mature gold dragon opens his jaws wide...
+mppause 20
+breath $n divine
+~
+> time_prog 1~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 3~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 5~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 7~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 9~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 11~
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 13~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 15~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 17~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 19~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 21~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+> time_prog 23~
+mpat 4 drop orb
+mpat 4 drop orb
+mpoload 16717 20
+~
+|
+#16723
+cave bat~
+a cave bat~
+Several bats hang upside down from the ceiling here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 128 -1000 C
+40 0 0 25d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+0 0 0 0 32 0 3 2
+#16724
+fish blue~
+a blue fish~
+A blue fish is swimming along here.
+~
+~
+1
+Clanname none~
+0
+0
+1 2097280 -1000 C
+40 0 0 25d20+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+0 0 0 0 2097152 0 5 2
+#16725
+froghemoth giant~
+a giant froghemoth~
+A giant froghemoth is standing here.
+~
+The giant froghemoth has a slimy coating to it's thick hide.
+~
+9
+Clanname none~
+0
+0
+131075 128 0 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 131073 0
+#16900
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#16700
+Wolf eye~
+eye of a wolf~
+An eye of a wolf lies here~
+~
+9 262400 131073
+35 35 0 0 0 40 0
+1 110 1000
+2
+5
+0
+0
+0
+0
+S 77 0
+A
+26 32
+A
+18 4
+A
+19 5
+A
+13 75
+A
+12 75
+#16701
+climbers belt~
+A climbers tool belt~
+A climbers tool belt lies here~
+~
+9 262400 2049
+30 30 15 0 0 30 0
+1 100 10
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+#16702
+collar ethereal eagle feathers~
+a collar of ethereal eagle feathers~
+A pile of eagle feathers is slowly being blown away by the wind.~
+~
+9 262403 5
+40 40 0 0 0 0 0
+1 10000 1000
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 15
+A
+18 2
+A
+19 2
+A
+29 32
+A
+29 2048
+#16703
+aura divine radiance~
+An aura of Divine Radiance~
+An object lays here emitting a prismatic aura~
+~
+9 262464 1025 64
+45 45 0 0 0 55 0
+1 100000 10000
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+A
+13 100
+A
+12 100
+#16704
+stone Talisman~
+A stone talisman~
+A glowing stone lies here~
+~
+9 524611 5
+40 40 0 0 0 50 0
+1 1000 100
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 2
+#16705
+pickaxe~
+a miners pickaxe~
+A miners pickaxe lies here~
+~
+5 524288 8193
+25 20 40 1 1 40 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 6
+A
+19 6
+A
+13 30
+#16706
+a miners pickaxe~
+a miners pickaxe~
+A miners pickaxe lies here~
+~
+5 524288 8193
+25 20 40 6 2 40 0
+1 81 1
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+18 6
+A
+19 6
+A
+13 30
+#16707
+bracer miner guild insignia~
+a bracer engraved with the miner's guild insignia~
+A copper bracer tarnishes in the weather.~
+~
+9 524288 4097
+35 35 0 0 0 40 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 10
+A
+31 1
+A
+18 2
+A
+19 3
+#16708
+miner hardhat helmet~
+a miners hardhat~
+A miners hardhat lies here~
+~
+9 524288 17
+35 35 0 0 0 40 0
+1 110 9
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 4
+A
+13 25
+#16709
+majestic plate~
+the majestic full plate of armor~
+The Legendary full plate of armor lies here in piles.~
+~
+9 524609 9 128
+40 40 0 0 0 50 0
+10 1 1000
+1
+13
+0
+0
+0
+0
+S 3 0
+A
+18 10
+A
+19 10
+A
+13 100
+A
+12 100
+A
+27 32
+A
+27 16
+#16710
+bear claw~
+A bear claw~
+The claw of a bear lies here.~
+~
+5 262144 8193
+10 20 40 1 2 40 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 5
+A
+19 5
+#16711
+wolf tail~
+a wolf tail~
+A wolf's tail was left here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#16712
+ethereal ring~
+an ethereal ring~
+An ethereal ring has been left here.~
+~
+9 0 3
+30 30 0 0 0 30 0
+1 253 25
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+3 3
+A
+4 3
+A
+12 50
+A
+13 -10
+#16713
+eye eagle~
+the eye of an eagle~
+The eye of an eagle has been left here.~
+~
+1 0 1
+0 0 -1 0 0 0 0
+1 157 15
+4
+5
+0
+0
+0
+0
+S 0 0
+A
+26 32
+A
+17 -10
+#16714
+worn faded sash~
+a worn and faded sash~
+A worn and faded sash has been left here.~
+~
+9 0 2049
+40 40 0 0 0 0 0
+1 257 25
+3
+8
+0
+0
+0
+0
+S 77 0
+A
+26 134217728
+#16715
+climbers backpack~
+a climbers backpack~
+A climbers backpack has been left here.~
+~
+15 0 524289
+80 0 0 12 0 0 0
+1 167 16
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+17 -10
+A
+14 100
+#16716
+ankle wraps~
+black ankle wraps~
+A pair of black ankle wraps lays here.~
+~
+9 0 2097153
+40 40 0 0 0 0 0
+1 223 22
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+18 1
+#16717
+gold dragon orb~
+a gold dragon orb~
+A large golden orb draws your eye.~
+~
+4 0 16385
+50 8 8 -1 0 20 0
+8 14 1
+2
+14
+0
+0
+0
+0
+'sanctuary'
+S 0 0
+A
+12 25
+#16718
+gold dragon ear drum~
+a pair of gold dragon ear drums~
+A pair of gold dragon ear drums have been left here.~
+~
+9 0 65537
+35 35 0 0 0 40 0
+1 102 10
+2
+14
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+#16719
+gold dragon scale mask~
+a gold dragon scale mask~
+A gold dragon scale mask has been left here.~
+~
+9 0 1048577
+35 35 0 0 0 40 0
+1 114 11
+2
+14
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+#16720
+gold dragon tooth necklace~
+a gold dragon tooth necklace~
+A gold dragon tooth necklace has been left here.~
+~
+9 0 5
+35 35 0 0 0 40 0
+2 103 10
+2
+14
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+#16721
+gold dragon scale chest plate~
+a gold dragon scale chest plate~
+A gold dragon scale chest plate has been left here.~
+~
+9 0 9
+35 35 0 0 0 40 0
+20 107 10
+2
+14
+0
+0
+0
+0
+S 0 0
+A
+18 4
+A
+19 4
+#16722
+cymbals of lightning~
+Cymbals of Lightning~
+A pair of cymbals lies on the floor~
+~
+68 524547 16385
+3 0 0 20 15 50 3
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+13 120
+A
+12 120
+A
+18 10
+A
+19 10
+A
+26 67108864
+#16900
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#16700
+The Hills of Perinthia~
+~
+Gazing over the lucious, green hillside, you find yourself in awe of the
+stately view of trees growing thickly along these foothills.  Tall evergreen
+trees stand at perfect attention upon the hill, creating a beautiful sea
+of emerald green with their thick blanket of branches.  The light scent of
+pine kisses the air with fragrance, adding the light, airy aroma of a crisp
+spring morning.  Gentle melodies of happy birds singing their first songs
+of spring are carried by a warm breeze which brushes your cheek with the
+welcoming warmth of a newly rising sun.  A large boulder fits snuggly against
+the hillside to the west.
+~
+1 3145732 11
+D5
+~
+~
+2048 -1 1120
+D6
+~
+~
+0 -1 16701
+D11
+~
+~
+0 -1 42452
+S
+#16701
+Forested Glade of Perinthia~
+~
+Climbing up the hillside, your ears are filled with the songs of several
+spring sparrows which perch high within the branches of the trees here.  The
+warmth of the sun is a pleasant welcome to you, shining its gentle rays of
+light down upon all the creatures of these jade-colored foothills of Mount
+Cierra, which stands with purple majesty within the horizon of Perinthia.
+Gracefully sloping upwards, the earth here is rich with plant life, providing
+a feast of shrubs and other bushes for the deer that roam through the forest.
+Fragrant blossoms of lilac and other wild flowers fill the air with the sweet
+scent of springtime.
+~
+1 3145728 4
+D4
+~
+~
+0 -1 16702
+D9
+~
+~
+0 -1 16700
+R M 0 16700 1 16701
+R M 0 16710 2 16701
+S
+#16702
+Climbing the Foothills~
+~
+The crisp scent of pine floats on the breeze, bringing a fragrant aroma of
+cleanliness unto the forest as it winds thickly up the foothills of Mount
+Cierra.  Dark, rich soil allows the plant life to grow with luster, giving
+the blossoms of lilacs a rich color of purple.  Overhead, a hawk circles
+lazily above you in the morning sun as it searches the ground below for its
+first meal of the day, while a doe chews peacefully on some plump, red berries
+that it plucked from one of the many bushes that grow all along the sloping
+hillside.  As the morning sun shines its rays of light down on you, a light
+breeze brushes through the forest.
+~
+1 3145728 4
+D5
+~
+~
+0 -1 16701
+D7
+~
+~
+0 -1 16703
+> entry_prog 100~
+if quest(missions) == 3
+  mppause 4
+  mpechoat $n &cYou realize this must be MT. Cierra.  There must be a Yakoxe to kill for the dragon orb.
+  mpquest $n missions 4
+endif
+~
+|
+S
+#16703
+The Path Within the Glade~
+~
+Sweet melodies of happy birds singing fill your ears with the sounds of
+spring as it places its gentle touch upon the hillside.  Colorful blankets
+of wildflowers blossom with shades of reds and blue along the ground, giving
+this foothill the magical, painted look of a serene portrait displayed in the
+castles of kings and queens.  As the crisp, morning air fills your lungs with
+freshness, two butterflies dance upon fluttering wings over the wildflowers,
+while a mischievous raccoon scurries between two thick bushes growing along
+the pathway that you walk on.
+~
+1 3145728 4
+D3
+~
+~
+0 -1 16704
+D8
+~
+~
+0 -1 16702
+S
+#16704
+Further Up the Hillside~
+~
+Golden rays of sunlight warm the morning air, giving a cheery brightness
+to this hillside.  A forested glade of gigantic trees climb up this foot-
+hill, covering its base with an emerald-green blanket of foliage rolling
+as far as the eye can see up the mountainside.  Birds chirp happily in the
+forest, singing their songs of spring time as the scent of colorful wild
+flowers lift your spirits.  A playful raccoon, digging through the bushes
+for a quick snack of juicy, red, berries, rustles through the underbrush.
+~
+1 3145728 4
+D0
+~
+~
+0 -1 16705
+D1
+~
+~
+0 -1 16703
+D5
+~
+underbrush~
+2051 -1 16801
+R D 0 16704 5 1
+S
+#16705
+Warmth of Sunshine~
+~
+A cool breeze blows past your face, planting a gentle kiss upon your cheek
+as it flows along this hillside.  As you climb the hill, the incline gradually
+increases, making your legs a bit weary as they move across the thick blanket
+of grass and wildflowers that plushly covers this foothill.  Warming rays
+of sunlight color the sky, painting it with a shade of golden yellow as it
+shines down upon you.  The magic of spring is upon the mountain further ahead,
+coloring your path with brilliant greens and blues, making this hike up the
+foothill a rather pleasant one.
+~
+1 3145728 4
+D2
+~
+~
+0 -1 16704
+D4
+~
+~
+0 -1 16706
+R M 0 16709 2 16705
+  R E 1 16701 1 13
+  R E 1 16715 1 22
+S
+#16706
+Base of Mount Cierra~
+~
+No longer upon any luxurious foothill, you find yourself standing at the
+base of Mount Cierra.  With graceful lines stretching upward as far as the
+eye can see, this mountain stands with purple majestically in horizon of 
+Perinthia.  Eagles soar through the golden skies that tower over the peaks,
+gazing down upon the world with their stately presence that's much larger
+than any man-made creation.  At night, the silvery starlight unfolds across
+the mountain top, and twinkle magically upon all creatures that live here
+undisturbed by any human visitors that may attempt their accent to the snow-
+covered peaks.  A large boulder bares the scrawlings of a mountain man who
+was contemplating the beauty of Mount Cierra.
+~
+1 3145728 4
+D5
+~
+~
+0 -1 16705
+D6
+~
+~
+0 -1 16707
+S
+#16707
+Rocky Trail of Golden Skies~
+~
+A small path leads away from the foothills which adorn the base of Mount
+Cierra.  Winding partially up the mountain, the trail is lined with large,
+stately trees towering far above you while their branches reach gloriously
+toward the golden skies where a lone eagle soars among the billowing clouds
+of white.  The sun shines brightly here, illuminating the area with golden
+rays of warmth and life while birds tend to their nests perched high up in
+the trees.
+~
+1 3145728 5
+D4
+~
+~
+0 -1 16708
+D9
+~
+~
+0 -1 16706
+S
+#16708
+Along the Rocky Trail~
+~
+Large boulders, fallen from Cierra's mountainside, lay strewn across the
+trail that winds up through the forest.  Flowers, bright with the colors
+of spring, grow in thick blankets of blues and pinks near the rocky path,
+brightening Cierra's majectic appearance.  With careful steps across the
+pebble-covered trail, a petite doe wanders through the trees, nibbling
+gently upon the foliage that graces the terrain while butterflies fly
+coordinated dances through the air.
+~
+1 3145728 5
+D1
+~
+~
+0 -1 16709
+D5
+~
+~
+0 -1 16707
+R M 0 16709 2 16708
+  R E 1 16701 1 13
+  R E 1 16715 1 22
+S
+#16709
+Boulders Aplenty~
+~
+Following the trail, you find yourself surrounded by several of the
+large boulders that have fallen from the mighty lofts of Cierra, and
+tumbled down the mountainside before coming to their final resting place
+here, before the forest near the base of the mountain.  Moss grows thickly
+along these boulders, giving them the appearance of large, dull chunks of
+jade resting undesturbed within their earthen settings of the forest.  A
+raccoon, perched upon one of the boulders, watches you intently as you gaze
+onward to the path before you.
+~
+1 3145728 5
+D1
+~
+~
+0 -1 16741
+D3
+~
+~
+0 -1 16708
+D7
+~
+~
+65536 -1 16710
+R M 0 16705 1 16709
+S
+#16710
+Climbing Up the Slope~
+~
+Further up the mountainside, any visible signs of a path have all but
+disappeared, leaving you with no trail to follow up the rocky slopes of
+this monsterous mountain.  The tall redwoods, which grow so thickly and
+abundantly at lower altitudes, seem to be thinning out now, and few of the
+enormous boulders make their final resting place here.  Though some greenery
+still grows this high up on Cierra, the hillsides here are relatively bare of
+plants and creatures except for the occasional mountain goat munching on the
+grass or a hungry bear scavenging the area for any type of food it may find.
+~
+1 3145732 5
+D4
+~
+~
+65536 -1 16711
+D8
+~
+~
+65536 -1 16709
+S
+#16711
+Forgotten Paths~
+~
+The mountain's slope grows steeper here, causing you to have to occaisionally
+bend over and grasp at the grounds to keep from falling over backwards.  Any
+sure-footing that you had before has been hindered by the unsavory incline
+that leads to Cierra's snow-covered peaks.  Few, if any, people climb this
+far up the mountain, leaving the countryside undisturbed by anything other
+than the sparse number of creatures that venture this dangerously high.
+~
+1 3145728 5
+D3
+~
+~
+0 -1 16712
+D5
+~
+~
+65536 -1 16710
+D6
+~
+~
+65536 -1 16713
+S
+#16712
+Miners Delight~
+~
+Tucked high upon the slopes of Mount Cierra, a large plateau of rock juts
+up from the ground, and peeks out over the slopes of the mountain.  The bold,
+stoney face of the plateau glares down upon you, staring at you with wide eyes
+of rocky boulders, giving the mountain an ominous look as you travel along her
+majestic mountainside.  Glittery flakes of silver and gold twinkle in the
+sunlight.  Strange hammering noises can be heard from somewhere around here,
+though you're unsure of the source.  Struggling to keep your footing on the
+ground of loose pebbles, you reach out to a boulder which rests against the
+base of the plateau.
+~
+1 3145728 5 0 0 0 102
+D1
+~
+~
+0 -1 16711
+D9
+~
+boulder~
+2049 -1 16771
+S
+#16713
+Cooler Heights of Mount Cierra~
+~
+The air grows cooler at these heights upon the mountain, making you shiver
+slightly in the breeze that blows from Cierra's snowy peaks.  A few trees
+still grow this high, though no forests grow on the top of the mountains,
+leaving little vegitation, if any, at the peaks.  The ground here is covered
+with pebbles, making your climb a rather difficult one.  With the difficult
+terrain and lack of animals, no hunters ever venture to the dizzy heights
+which you have achieved, though stories of monks living in a monastery tucked
+within the peak leave you to hope that if you find yourself in danger, someone
+may come to aid you.
+~
+1 3145728 5
+D4
+~
+~
+65536 -1 16714
+D9
+~
+~
+65536 -1 16711
+S
+#16714
+Sparce Trees and Snowy Mountaintop~
+~
+Traveling further up the mountain, you find a thin blanket of snow on the
+ground.  The air is thin here, making breathing a little difficult as you
+climb along the upper regions of Mount Cierra.  Few trees grow this high on
+Cierra, and few creatures venture from the safety of the forest which now lays
+several feet below you in a plush, green blanket of scenery.  A set of small
+tracks lead further up the mountain.
+~
+1 3145728 5
+D0
+~
+~
+65536 -1 16715
+D5
+~
+~
+65536 -1 16713
+S
+#16715
+Cierra's Snowy Mountain Tops~
+~
+A thin blanket of snow covers the area, giving everything a magical sense
+of serenity away from the noises of the forest or the busy way of life in
+the towns that lie in the shadows of Mount Cierra.  Few creatures can survive
+at these dizzy heights because of the lack of warmth, though an occasional
+winter sprite can be seen touching the leaves of the sparce vegitation with
+its magical wand of frost.  The breezes blow cold winds against your face,
+leaving your cheeks with a rosey pinkness.
+~
+1 3145728 5
+D2
+~
+~
+65536 -1 16714
+D3
+~
+~
+65536 -1 16716
+S
+#16716
+Haven of the Yeti~
+~
+A cold wind blows through the mountainside, carrying with it a strange,
+pungent odor.  Large tracks travel their way through the blanket of snow
+which covers the higher elevations of Mount Cierra.  The few trees which do
+grow here provide ample shelter for whatever has made those tracks.  A strange
+wailing noise can be heard from within the trees, reminding you of tales heard
+in Perinthia of a yeti which roams wild among the mountaintops of Cierra.
+Brushing those stories aside, though, you travel onward.
+~
+1 3145728 5
+D1
+~
+~
+65536 -1 16715
+D7
+~
+~
+65536 -1 16717
+S
+#16717
+The Footprint of a Sasquatch~
+~
+Large footprints criss-cross their way across the snow, which now lies in
+a thick blanket of whiteness upon the mountaintops here.  A heavy, pungent
+odor fills the air, causing your stomach to churn sickly.  The mountains seem
+to kiss the sky, sending it's peaks brushing proudly through the clouds as they
+reach for the warming rays of the sun.  Wandering through the trees, the
+footprints disappear into the distance, though a heavy wail can be heard as
+the sound of a yeti's fleeing travels send the soft sounds of crushing snow
+through the thin air.
+~
+1 3145732 5
+D0
+~
+~
+65536 -1 16718
+D8
+~
+~
+65536 -1 16716
+S
+#16718
+Snowy Tracks of a Mountain Top~
+~
+Cooling winds blow loose snow from the mountainside into your face, chilling
+your cheeks with the wintery blast of cold air as it swooshes across Cierra's
+snow-covered peaks.  Large tracks, too over-sized to be a man's, wander off
+through the snow, disappearing in the distance.  A few pine trees stand alone
+in the snow with snowdrifts climbing their way up the tree's knotty trucks
+to encase them with a heavy, wet blanket of whitness.  Few, if any, people
+have ever managed to climb to these heights except for monks that reside
+further up the mountain in a peaceful monastery.
+~
+1 3145728 5
+D1
+~
+~
+65536 -1 16719
+D2
+~
+~
+65536 -1 16717
+D7
+~
+~
+0 -1 16770
+S
+#16719
+Snowy Peaks of the Mountain~
+~
+Several inches of snow crunch beneath your feet, making your path a rather
+slippery one as you climb your way up the mountain.  Cold, wintery winds
+blow loose snow along the ground, wiping out your footprints and making it
+difficult to determine which way you come from.  The snow here is slushy with
+moisture from a fissure that blows steam from Cierra's deepest core, releasing
+the heat from hot springs which boil far beneath the surface.  This warmer
+temperature heats the packed snow, sending a steady river of water tumbling
+down the mountainside.  The fissure blocks your passage any further east.
+~
+1 3145728 5
+D3
+~
+~
+65536 -1 16718
+D8
+~
+~
+65536 -1 16720
+S
+#16720
+Steam-Filled Fissure~
+~
+A small flow of melted snow drips from the fissure as it flows gently down
+Mount Cierra with a peaceful sense of serenity.  Warm from the steam in the
+fissure takes the chill from the air in this small area, allowing your teeth
+to stop chattering for a moment.  Cold, blowing winds still manage to blow
+over the fissure, though, carrying the moistened heat into the air, making
+a tuft of fluffy whiteness into the sky like a cloud.
+~
+1 3145728 5
+D6
+~
+~
+65536 -1 16721
+D7
+~
+~
+65536 -1 16719
+R M 0 16701 3 16720
+S
+#16721
+Edge of a Steamy Fissure~
+~
+Steam from the fissure billows high into the sky, creating a large white
+cloud above the fissure.  The snow here has been melted and frozen repeatedly,
+creating a slippery pathway of dangerous ice around the rim of the fissure.
+Pale, ice blue skies hang peacefully over the mountain, providing a beautiful
+backdrop of serenity over Mount Cierra.
+~
+1 3145728 5
+D1
+~
+~
+65536 -1 16722
+D9
+~
+~
+65536 -1 16720
+R M 0 16701 2 16721
+S
+#16722
+Path of the Holy~
+~
+A patch of drier land winds up the mountainside, carving through the snow as
+it leads up the mountainside to a small monastery tucked high in the peaks
+of Mount Cierra.  Few visitors ever travel this far, leaving the monastery
+relatively undisturbed by the evil influences of the society that resides all
+around the base of the mountain.
+~
+1 3145728 5
+D3
+~
+~
+65536 -1 16721
+D6
+~
+~
+65536 -1 16723
+S
+#16723
+Path to the Monastery~
+~
+The blanket of snow that covers Mount Cierra glistens with whitness, offset-
+ting the drier paths that lead to the monastery.  Few people of Perinthia
+venture up the mountain, leaving the monastery untouched by the evils of
+society which thrives in the towns at the base of the glorious mountainside.
+The trek has been difficult, causing your feet to ache as your weary legs
+unwillingly carry you further up the hill.
+~
+1 3145728 5
+D6
+~
+~
+65536 -1 16724
+D9
+~
+~
+65536 -1 16722
+R M 0 16701 2 16723
+S
+#16724
+Rise of the Holy Ones~
+~
+Climbing Cierra's mountain peaks, you release a sigh of relief as you finally
+reach the bottom of a set of stoney steps, carved by monks, that lead to a
+peaceful monastery perched high upon the mountain.  Melted snow has refrozen
+here, making the steps slippery and dangerous.  Holy men climb these stairs
+daily, clearing away fresh patches of snow that have formed overnight, to
+make the travel a bit safer for any lost soul who wishes to join their sacred
+order of religion.
+~
+1 3145728 5
+D4
+~
+~
+65536 -1 16725
+D9
+~
+~
+65536 -1 16723
+S
+#16725
+Ascention of the Holy~
+~
+Climbing up the steps has proven to be difficult, causing your chest to
+heave with every breath as you travel up the mountain.  The monastery lies
+in sight now, gracing your vision with a gentle reprieve of modest color
+as the soothing shades of brown walls peek out from beneath a white rooftop
+of wintery snow.
+~
+1 3145732 5
+D1
+~
+~
+0 -1 16726
+D5
+~
+~
+65536 -1 16724
+S
+#16726
+Before the Monastery~
+~
+A pair of wooden doors stand closed, blocking the wintery winds of Mount
+Cierra's snowy peaks from entering the warm sanctum of the monastery.  All
+snow has been cleared away from the doorstep, providing you with the safety
+of sure footing as you raise your hands, reddened by the chilling air, to
+knock on the door.
+~
+1 3145728 1
+D1
+~
+door~
+3 -1 16727
+D3
+~
+~
+0 -1 16725
+R M 0 16702 1 16726
+  R E 1 16714 1 13
+  R E 1 16716 1 24
+  R E 1 16716 1 25
+R D 0 16726 1 1
+S
+#16727
+The Holy Sanctum~
+~
+Stepping inside the monastery, your feet begin to thaw as the heat within
+the room wraps its comforting arms around you.  Balding monks, dressed in
+robes of worship, sit on the floor here, praying that the goddess of the
+mountain will send her blessings of wisdom and strength upon them.  Few
+sounds are ever spoken here except during mass, when the rejoicing voices of
+the monks can be heard echoing through the monastery with their chants of
+worship.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 16728
+D3
+~
+door~
+3 -1 16726
+R M 0 16703 1 16727
+  R E 1 16714 1 13
+  R E 1 16716 1 24
+  R E 1 16716 1 25
+R D 0 16727 3 1
+S
+#16728
+Corridor of Peace~
+~
+Silent corridors, tucked away from the sanctum, lead through the monastery,
+providing passage for the monks to their quiet dormatories.  Few words are
+spoken among the monks as they pass in the corridor, though a humble nodding
+of their heads in recognition is a common gesture of greeting.  Small statues
+of the goddess Cierra line the hallways and oil paintings of the lovely 
+goddess perched high in the peaks of her mountain adorn the walls of the
+corridor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 16729
+D2
+~
+~
+0 -1 16727
+S
+#16729
+Corridor of Peace~
+~
+Silent corridors, tucked away from the sanctum, lead through the monastery,
+providing passage for the monks to their quiet dormatories.  Few words are
+spoken among the monks as they pass in the corridor, though a humble nodding
+of their heads in recognition is a common gesture of greeting.  Small statues
+of the goddess Cierra line the hallways and oil paintings of the lovely 
+goddess perched high in the peaks of her mountain adorn the walls of the
+corridor.
+~
+1 3145736 0
+D1
+~
+door~
+3 -1 16731
+D2
+~
+~
+0 -1 16728
+D3
+~
+door~
+3 -1 16730
+R D 0 16729 1 1
+R D 0 16729 3 1
+S
+#16730
+Sleep of the Heavenly~
+~
+Tucked far away down the corridor, a small dormitory lies quietly at the
+end of the hall.  A small cot lies neatly made up against the wall, ready
+for a monk to rest his sleepy body underneath its simple, brown blanket.
+Usually used only for meditation and sleep, the rooms are small and un-
+adorned with gaudy religious symbols.  Simple oil lamps rest beside the
+cot on a small table.
+~
+1 3145736 0
+D1
+~
+door~
+1 -1 16729
+R M 0 16704 1 16730
+  R E 1 16714 1 13
+  R E 1 16716 1 25
+  R E 1 16716 1 24
+R D 0 16730 1 0
+S
+#16731
+Sleep of Serenity~
+~
+Tucked far away down the corridor, a small dormitory lies quietly at the
+end of the hall.  A small cot lies neatly made up against the wall, ready
+for a monk to rest his sleepy body underneath its simple, brown blanket.
+Usually used only for meditation and sleep, the rooms are small and un-
+adorned with gaudy religious symbols.  Simple oil lamps rest beside the
+cot on a small table.  While singing angels send their holy light down upon
+the room, the monk sits in quiet meditation.
+~
+1 3145736 0
+D3
+~
+door~
+3 -1 16729
+R D 0 16731 3 1
+S
+#16732
+Trail of Forested Mountainsides~
+~
+Traveling along the rocky path, the graceful mountainside of Cierra gives
+way to a large redwood forest lining the mountain's perimeter.  Large,
+majestic trees reach for the sky, kissing the fluffy whiteness of the clouds
+with a thick canopy of foliage.  The air is warm here, carrying the scent of
+spring time through the mountains as the golden rays of a beautiful morning
+shine down upon every creature of the mountain.  Thick shrubbery and other
+bushes grow wild here with their colorful red and green berries adding a
+splash of color to your surroundings.
+~
+1 3145728 5
+D0
+~
+~
+0 -1 16733
+D2
+~
+~
+0 -1 16741
+S
+#16733
+Among the Redwoods~
+~
+Cierra's proud forest of redwood trees towers around you, while their
+branches reach through the clouds to embrace the warming rays of the
+sun.  Darting between the trees, a pair of rabits zig-zag across the
+terrain and flee from some unseen persuitor while the branches of the
+foliage in the forest shake with their passing.  A throaty growl from
+somewhere within the trees resonates with the sound of the rabbits' 
+defeated hunter, as the rabbits disappear within the foliage.
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16734
+D1
+~
+~
+0 -1 16790
+D2
+~
+~
+0 -1 16732
+S
+#16734
+The Cougar's Lofty Perch~
+~
+Traveling through the forest, you stumble upon several boulders that
+have come to rest here within the forest.  Large, and covered with moss,
+these enourmous rocks tower above you, providing the perfect resting spot
+for a cougar to rest and get some sun as it carefully watches the forest
+for a chance to capture its next meal.  In the distance, the gentle sound
+of flowing water can barely be heard over the sounds of the forest.
+~
+1 3145728 3
+D2
+~
+~
+0 -1 16733
+D6
+~
+~
+0 -1 16735
+R M 0 16706 1 16734
+S
+#16735
+Redwoods of the Forest~
+~
+The beauty of nature is evident throughout the forests of Cierra, planting
+tall, majestic redwood trees along her mountainsides.  Thick, undisturbed
+forests team with life as two rabbits dart past you in their flighty search
+for shelter from an unseen hunter within the trees.  The scent of spring is
+in the air as a cool breeze, carrying the scent of wildflowers, brushes
+past your cheek while the warming rays of the sun shines its golden light
+down from the skies.
+~
+1 3145728 3
+D8
+~
+~
+0 -1 16736
+D9
+~
+~
+0 -1 16734
+R M 0 16707 1 16735
+S
+#16736
+Parting of the Forest~
+~
+Tall, lofty redwood trees enshroud the mountainside, providing shelter
+for the wildlife that lives on Mount Cierra.  Stretching as far your eye
+can see, the forests encircle the mountain, blanketing it with rich shades
+of greens and browns.  A cool breeze blows, carrying the sound of a river
+of melted snow throughout the forest as it cuts a path through this part of
+the terrain, making it impossible for you to travel any further to the east.
+~
+1 3145728 3
+D2
+~
+~
+0 -1 16737
+D7
+~
+~
+0 -1 16735
+S
+#16737
+Colors of Cierra~
+~
+A river of melted snow cuts through the forest, cutting through the
+terrain with is as it flows gently down the mountain.  Tall, majestic
+redwoods stretch their lofty branches across the river to embrace the
+outstretched arms of the forest on the other side, providing Mount
+Cierra with a warm blanket of trees and foliage completely around her
+slopes.  Deep shades of jade color the forest, gracing it with a dark
+richness while the red wood of the trees add the touch of burgundy.
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16736
+D2
+~
+~
+0 -1 16738
+S
+#16738
+The Towering Treeline~
+~
+The sounds of rushing water fill the forest, as the melted snow from
+Cierra's mountain tops come tumbling down the mountainside with a graceful,
+flowing river.  Plush wildflowers bloom along the bases of the redwood
+trees, adding the rich shades of blues and pink to a forest of burgundy
+wood.  Golden rays of sunlight break through the canopy of trees above
+you, and shine their warmth upon the creatures which reside in the forest.
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16737
+D2
+~
+~
+0 -1 16739
+S
+#16739
+Redwoods of the Mountain~
+~
+The gurgling sound of flowing water tumbling over the boulders within
+the forest can be heard within the forest which boasts of mighty redwoods
+and delicate wildflowers.  Deep, green shrubs grow thickly at the base of
+the trees here, warming the bases of the redwoods when the wintery clouds
+shed their snow down upon the mountain while the boulders, fallen from high
+peaks of Cierra, block the waters from carrying the soil away when the rains
+of springtime cry their happy tears of new life onto the mountain.
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16738
+D1
+~
+~
+0 -1 16744
+D9
+~
+~
+0 -1 16740
+R M 0 16711 1 16739
+S
+#16740
+Cierra's Forest of Life~
+~
+Teaming with life this forest of redwood trees encircle the mountain,
+providing shelter for the creatures that spend their lives upon Mount
+Cierra.  Birds sing their songs of springtime as they perch high in
+the treetops, building their nests within the thick canopy of foliage
+that grows overhead.  Bright, rich shades of blues and reds color the
+ground around you as a posh blanket of flowers scent the air with the
+soft fragrance of lilacs that grow here.
+~
+1 3145728 3
+D3
+~
+~
+0 -1 16741
+D6
+~
+~
+0 -1 16739
+S
+#16741
+Trail of Forested Mountainsides~
+~
+Traveling along the rocky path, the graceful mountainside of Cierra gives
+way to a large redwood forest lining the mountain's perimeter.  Large,
+majestic trees reach for the sky, kissing the fluffy whiteness of the clouds
+with a thick canopy of foliage.  The air is warm here, carrying the scent of
+spring time through the mountains as the golden rays of a beautiful morning
+shine down upon every creature of the mountain.  Thick shrubbery and other
+bushes grow wild here with their colorful red and green berries adding a
+splash of color to your surroundings.
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16732
+D1
+~
+~
+0 -1 16740
+D2
+~
+~
+0 -1 16742
+D3
+~
+~
+0 -1 16709
+R M 0 16711 2 16741
+  R E 1 16700 1 20
+S
+#16742
+Forests of Cierra~
+~
+Plush, green shrubs and other bushes line the floor of this luxurious
+redwood forest, carpeting the mountainside with a thick, jade-colored
+blanket.  Boulders, fallen from the mighty lofts of the mountain, line
+forest, protecting the roots of the trees from the gentle rains that may
+have otherwise washed the rocky soil down to the base of the mountain.
+Birds sing from their nests perched high in the thick canopy
+~
+1 3145728 3
+D0
+~
+~
+0 -1 16741
+D3
+~
+~
+0 -1 16743
+R M 0 16711 3 16742
+  R E 1 16700 1 20
+S
+#16743
+A Bear's Cave~
+~
+Several boulders have fallen from the peaks of the mountain, landing
+here in the forest to create a small cave perfect for a bear to make
+its den in.  Broken limbs from the redwood trees line the floor, making
+a comfortable bed for the sleeping cubs to rest upon.  While the sun
+shines brightly through the thick canopy of trees over the forest, no
+light penetrates the darkness of the cave, providing shelter and safety
+for the baby bears until their mother returns with fresh fish from the
+stream for them to feed upon.
+~
+1 3145728 0
+D1
+~
+~
+0 -1 16742
+R M 0 16708 1 16743
+  R E 1 16710 1 16
+S
+#16744
+The Riverbanks~
+~
+Several deer line the riverbanks along the mountain as they lower their
+timid heads to the water for a quenching drink of melted snow as it flows
+gently down the slopes.  The thick and curvy roots of the redwoods, peek
+out from their earthy skirts and dip their knotted toes into the river
+teaming with salmon and other fish.  Perched atop some of the boulders
+within the river, a bear paws at the water as she searches for a fresh meal
+to feed her hungry cubs.
+~
+1 3145728 27
+D3
+~
+~
+0 -1 16739
+D8
+~
+~
+0 -1 16745
+R M 0 16712 1 16744
+S
+#16745
+Tears of Mount Cierra~
+~
+The warming rays of the sun bare down on Cierra's base, melting the snow
+that has fallen along the mountainside, creating a small stream of water
+that grows wider further downstream.  The gentle trickles of water are
+teaming with life, feeding the creatures that live along the mountain, and
+give a flowing beauty of grace as they cut their paths through the thick
+forest here.
+~
+1 3145728 27
+D1
+~
+~
+0 -1 16746
+D7
+~
+~
+0 -1 16744
+R M 0 16712 2 16745
+S
+#16746
+Flowing Rivers of Snow~
+~
+The river runs deeper here with the cool waters of melted snow.  Smooth,
+gracefully flowing currents push you gently downstream with the water which
+teams with several different varieties of colored fish.  Here, small frogs
+swim against the current, kicking their long legs to glide across the surface
+and arrive safely on the other side.  Birds, perched within the branches of
+the redwoods that overhang the river, sing their peaceful songs above the
+sounds of flowing water.
+~
+1 3145728 27
+D3
+~
+~
+0 -1 16745
+D9
+~
+~
+0 -1 16747
+S
+#16747
+Tears of Melted Snow~
+~
+The river lazily winds down the side, flowing with tears of melted snow
+as the currents begin to move swiftly through the forest.  Salmon, pink
+with health, leap through the water, swimming upstream to find the perfect
+place to lay their eggs.  The surface of the river sparkles in the warm
+sunlight, casting a magical flicker upon the river.
+~
+1 3145728 27
+D6
+~
+~
+0 -1 16746
+D9
+~
+~
+0 -1 16748
+> rand_prog 5~
+if ispc($n)
+mpecho The current pushes you downstream...
+mpforce $n sw
+endif
+~
+|
+S
+#16748
+Rapids of Rocky Wrath~
+~
+Large boulders, fallen from Cierra's high mountain top, have come to
+rest here within the river.  Rushing water has smoothed their jagged
+edges, polishing the boulders as the river rushes through them in a
+violent rage of fury.  Struggling to keep yourself afloat in the angry
+river, you grab a fallen redwood branch and cling to it with the hopes
+that you'll survive long enough to make it to smoother waters.
+~
+1 3145728 27
+D2
+~
+~
+0 -1 16749
+D6
+~
+~
+0 -1 16747
+S
+#16749
+Rapids of Rocky Wrath~
+~
+Raging with the fury of a woman, the waters of River Cierra churn violently
+down the mountainside as they crash over boulders laying in her riverbed.
+The current is strong now as it pushes you furiously downstream, leaving
+you with little hope that you're going to survive this trip while you cling
+desperately to a fallen redwood branch.  Thankfully, smoother waters do lay
+ahead, and though the current is swift, your struggle to stay afloat has
+lessened as your weary leg muscles refuse to kick any harder.
+~
+1 3145728 27
+D0
+~
+~
+0 -1 16748
+D2
+~
+~
+0 -1 16750
+S
+#16750
+Winding Through the Rocks~
+~
+The current pushes you with a swifter speed, carrying you through the
+final few rapids that churn within the rivers banks.  Only the strongest
+of fish attempt to swim against the current in their struggle to return to
+their spawning grounds further upstream.  As the waters deepen, the sound
+of spilling water can be heard somewhere in the distance.  Kicking in vain,
+you struggle against the river with the hopes that you will not be one of
+her many victims.
+~
+1 3145728 27
+D0
+~
+~
+0 -1 16749
+D1
+~
+~
+0 -1 16751
+S
+#16751
+Calmer Waters~
+~
+Past the boulders, the water has finally stopped churning, giving this
+river a more serene feel as it flows swiftly down Cierra's slopes.  As
+more of the runoff of melted snow gathers here, the river becomes wider,
+making the hopes of making it to either one of its banks disappear.  The
+sound of spilling water grows louder as you pray to your deity that some
+miracle will happen so save your tired body for flailing uncontrollably
+over the falls.
+~
+1 3145728 27
+D1
+~
+~
+0 -1 16752
+D3
+~
+~
+0 -1 16750
+S
+#16752
+Descent of the Waters~
+~
+Flowing waters rush past you, spilling over the rocky ledge on the
+mountainside.  Here, Mount Cierra's cold tears drop from her cheeks,
+carrying with them any creature or object that is unlucky enough to
+be within her riverbanks.  Hope that you can escape has abandoned you
+now, and the resigned sense of calmness has overcome you as you prepare
+to tumble over the waterfall unless you can somehow manage to leap onto
+one of the several overhanging redwood limbs.
+~
+1 19922948 25
+D3
+~
+~
+0 -1 16751
+D5
+~
+~
+0 -1 16753
+S
+#16753
+Tumbling Over the Waterfall~
+~
+Your body flails like a ragdoll as you tumble over the rocky ledge with
+the flowing waters of River Cierra.  The jagged edges of the boulders on
+the face of the cliff smash your body, crushing your bones like sticks while
+the cold waters push you further downward to your death.
+~
+1 3145728 8
+D4
+~
+~
+0 -1 16752
+S
+#16754
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16755
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16756
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#16757
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16758
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16759
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16760
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16761
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16762
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16763
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16764
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16765
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16766
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16767
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#16768
+Lair of the Divine~
+~
+&wThe walls are covered in stone slabs.  There are massive gouges here and
+there and small boulders and rocks lay about.  A giant pile of treasure is
+in the middle of the massive chamber.
+~
+1 3145740 0
+D2
+~
+~
+0 -1 16769
+R M 0 16722 1 16768
+  R E 0 16720 1 3
+  R E 0 16720 1 4
+  R E 0 16719 1 23
+  R E 0 16718 1 19
+  R E 0 16721 1 5
+> entry_prog 100~
+if quest(missions) == 9
+  mppause 4
+  mpechoat $n &cThis is where you test your mettle!
+  mpquest $n missions 10
+endif
+~
+|
+S
+#16769
+Within a Massive Tunnel~
+~
+&wThe tunnel size is large enough for several large creatures to fit within.
+There are small rocks scattered about.  A pile of skeleton bones litter
+the ground.  Two large lights ahead fill the tunnel with light.
+~
+1 3145740 0
+D0
+~
+~
+0 -1 16768
+D8
+~
+~
+0 -1 16770
+S
+#16770
+Before a Massive Cave~
+~
+A few pine trees stand alone in the snow on both sides of this massive cave.
+There are large rocks that have gouges in them near the cave entrance.  A
+few feet of snow top the mouth of the cave entrance.  A massive gorge is on
+both sides of the cave leading to the bottom of the mountain.
+~
+1 3145732 4
+D7
+~
+~
+0 -1 16769
+D8
+~
+~
+0 -1 16718
+S
+#16771
+Miner's Entry~
+~
+Lying behind the boulder, a small cave opens up to reveal a small miner's
+entrance into the plateau.  Protected from looters, the mine lies well-hidden
+within the mountainside, making it difficult for any would-be explorers to
+find its entrance.  Normally dark when the miners are not present, the cave
+now lies well lit, illuminating the walls which sparkle with veins of gold
+and silver.
+~
+1 1076895752 13 0 0 0 102
+D3
+~
+~
+0 -1 16772
+D6
+~
+boulder~
+2049 -1 16712
+R M 0 16718 4 16771
+  R G 0 16707 1
+  R G 0 16705 1
+  R G 0 16708 1
+R D 0 16771 6 0
+S
+#16772
+Mine Cart's Dividends~
+~
+Further into the mine, a small cart lies overturned next to a small pile of
+gold and silver nuggets plucked from the stoney tunnels within the mine by
+the sharpened picks of the miners.  Dropped here for other miners to take to
+town and sell for a huge profit, the nuggets sparkle in the light of the
+tunnels.  Tempted to scoop up a handful to stuff in your pocket, you glance
+around to make sure that no miner is near.  Hearing the sounds of a mine cart
+rolling down the tracks and toward you, you think better of it and move on.
+~
+1 1076895752 13 0 0 0 120
+D1
+~
+~
+0 -1 16771
+D7
+~
+~
+0 -1 16773
+D9
+~
+~
+0 -1 16776
+S
+#16773
+Silver and Gold~
+~
+Small, wooden tracks for a mine cart run throughout the tunnel, as miners
+deposit their gold and silver nuggets within the carts to transport them to
+the entrance of the tunnels.  Along the stoney walls of the tunnel, veins of
+silver and gold glitter in the glowing light of torches that line each passage.
+Curving into small passageways throughout the mountains, these tunnels have
+produced enough gold for a king to bathe his royal subjects with wealth,
+though somehow, little of that wealth has been shared with the miners.  Still,
+day after day, they continue their work with the hopes that the owner of this
+mine will someday share his wealth with them.
+~
+1 1076895752 13
+D3
+~
+~
+0 -1 16774
+D8
+~
+~
+0 -1 16772
+R M 0 16718 4 16773
+  R E 1 16707 1 14
+  R E 1 16708 1 6
+  R E 1 16706 1 16
+S
+#16774
+Veins of Silver~
+~
+Sparkling veins of silver shimmer with the luminous light of the torches in
+the walls of this tunnel, giving the tunnel the appearance that small stars
+are encased in the darkened heavens of stoney mountainside.  A pair of wooden
+mine cart tracks run the length of the tunnels, able to carry the silvery
+nuggets to the entrance of the mine.  Here, miners hammer at the walls of the
+tunnels with their pickaxes to retrieve the precious metals buried deep in the
+heart of the Cierra Mountains.
+~
+1 1076895752 13
+D1
+~
+~
+0 -1 16773
+D9
+~
+~
+0 -1 16775
+R O 0 16706 1 16774
+S
+#16775
+End of a Tunnel~
+~
+Following the wooden tracks through the mine, you seem to find yourself at
+the end of the silver tunnel.  Here, few flakes of silver sparkle in the
+walls, making it not worthy of the miners' time to pick at the walls to
+retrieve the silver.  Lit torches still line the wall, though, as miners
+take their breaks from digging and rest in this quiet room while they have
+their lunch.
+~
+1 1076895752 13
+D6
+~
+~
+0 -1 16774
+R M 0 16718 4 16775
+  R E 1 16707 1 14
+  R E 1 16708 1 6
+  R E 1 16705 1 16
+S
+#16776
+Silver and Gold~
+~
+Small, wooden tracks for a mine cart run throughout the tunnel, as miners
+deposit their gold and silver nuggets within the carts to transport them to
+the entrance of the tunnels.  Along the stoney walls of the tunnel, veins of
+silver and gold glitter in the glowing light of torches that line each passage.
+Curving into small passageways throughout the mountains, these tunnels have
+produced enough gold for a king to bathe his royal subjects with wealth,
+though somehow, little of that wealth has been shared with the miners.  Still,
+day after day, they continue their work with the hopes that the owner of this
+mine will someday share his wealth with them.
+~
+1 1076895752 13 0 0 0 120
+D3
+~
+~
+0 -1 16777
+D6
+~
+~
+0 -1 16772
+R M 0 16717 3 16776
+  R G 0 16705 1
+R M 0 16717 3 16776
+  R G 0 16705 1
+S
+#16777
+Mother Lode of Gold~
+~
+Wide veins of gold flow through the rock like rivers of yellow lava cutting
+their way through the land.  Shimmering nuggets, the size of your fist, are
+carelessly strewn about the room as the miners dig through the walls of one
+of Mount Cierra's mining tunnels.  A pair of wooden tracks run along the floor
+of this tunnel while one of the fully-loaded mine carts rolls past you on its
+way to the entrance of the tunnel.
+~
+1 1076895752 13 0 0 0 120
+D1
+~
+~
+0 -1 16776
+D7
+~
+~
+0 -1 16778
+R M 0 16717 3 16777
+  R G 0 16705 1
+  R G 0 16707 1
+R M 0 16718 4 16777
+  R G 0 16705 1
+  R G 0 16707 1
+S
+#16778
+Gaping Shaft~
+~
+Following the tunnels through the mines, you find yourself standing above
+a gaping shaft that plunges deep into Mount Cierra's mountainsides.  Freshly
+dug by miners in their endless search for more gold and silver, this shaft
+is used by the miners to lower lanterns to the lower levels of the tunnels,
+providing light for the excavators as they dig carefully through the mines.
+Though a rope dangles over the edge for miners to grip as they begin their
+descent into the newly carved tunnels, several miners and excavators have
+fallen to their death.
+~
+1 1076895756 13 0 0 0 120
+D5
+~
+~
+128 -1 16779
+D8
+~
+~
+0 -1 16777
+S
+#16779
+Glittering Shaft of Precious Metal~
+~
+Descending into the darkened shaft, your torch illuminates the hairlike
+veins of silver that cut through the stoney walls in a shimmering flow of
+shiny metal.  The empty shaft echoes with the sound of your feet struggling
+against the walls of the tunnel as you carefully climb down into the never-
+ending darkness that lies within the mountains.  Careful to keep your grip
+tightly around the rope, you inch your way down the shaft, hoping that you'll
+soon reach the bottom.
+~
+1 1076895744 13 0 0 0 120
+D4
+~
+~
+128 -1 16778
+D5
+~
+~
+128 -1 16780
+S
+#16780
+The Heart of Cierra~
+~
+Finally making it to the bottom of the shaft, you double-check your torch
+to make sure it will last long enough for you to look around.  The tunnels
+here are dark, leaving only this room illuminated with your torch.  Several
+thousands of years ago, lava flowed angrily through the heart of Cierra as it
+pushed its way to the surface, carrying with it the burning rage of destruction
+and total devistatiton.  The volcano within the mountain lies dormant now, only
+spitting a fine column of steam from small fissures at the upper-most edge of
+a lava crater which now forms Cierra's many peaks.
+~
+1 1076895752 13 0 0 0 120
+D0
+~
+~
+0 -1 16781
+D4
+~
+~
+128 -1 16779
+R M 0 16719 5 16780
+S
+#16781
+A Freshly-Dug Tunnel~
+~
+Jagged walls of rugged stone line the tunnels throughout Cierra, which is
+riddled with tunnels and passages carved by water and flowing rivers of lava
+from deep within the mountain's core so many years ago.  Thick, shiny veins
+of gold and silver, which cut so perfectly through the rock above, are much
+thinner now, making mining this deep almost pointless.  Enough of the precious
+metal remains, though, urging the mine owner to work his miners harder than
+before to dig up the priceless minerals.
+~
+1 1076895752 13 0 0 0 120
+D0
+~
+~
+0 -1 16784
+D2
+~
+~
+0 -1 16780
+D3
+~
+~
+0 -1 16782
+R M 0 16719 5 16781
+S
+#16782
+Freshly Carved Tunnel~
+~
+The dark tunnel curves within the mountain, making it difficult to see
+what lies ahead as you travel within the heart of this once raging inferno
+of lava and flowing fire.  Walls of solid rock encase the tunnels, wrapping
+them in a stoney tomb of shimmering rock lined with thin veins of glistening
+silver and gold.  The floors are rough, lacking the smooth surface of a neatly
+polished stone like in some of the other tunnels above.  Stepping carefully
+through the pebbles, you hold your torch in front of you to lighten your path.
+~
+1 1076895752 13
+D1
+~
+~
+0 -1 16781
+D7
+~
+~
+0 -1 16783
+S
+#16783
+Unfinished Tunnel~
+~
+Deep within the heart of the mountain, Cierra's tunnels wind in a maze-like
+pattern through rocks and other minerals.  Once filled with molten lava,
+these tunnels now provide miners with silver and gold to extract from the
+mountain.  Though the veins of gold and silver are very thin, there's still
+enough wealth buried within Cierra to drive the miners to carve new tunnels
+with their pickaxes.  Lacking the man-power to dig very quickly, though, some
+of the tunnels lie unfinished until firther excavations can be done.
+~
+1 1076895752 13 0 0 0 120
+D8
+~
+~
+0 -1 16782
+S
+#16784
+Freshly-Dug Tunnel~
+~
+The tunnel curves through the darkness, winding within the heart of the
+mountain with echoes of times in the past when lava flowed freely through
+these passages.  Now, miners excavate the rock making each passage wide
+enough for even the largest of humans to move freely within the tunnels in
+their search for gold and silver.  Your torch barely illuminates the room
+around you, making the glistening flecks of silver reflect weakly with the
+light of precious metal.
+~
+1 1076895752 13 0 0 0 120
+D2
+~
+~
+0 -1 16781
+D6
+~
+~
+0 -1 16785
+S
+#16785
+Freshly-Dug Tunnel~
+~
+The rough tunnels of the miners curve through the mountains, and join
+with the smooth surfaced natural tunnel.  Lava once flowed vengefully
+through these caverns, melting the stone with raging rivers of heat and
+fire.  Though these passages are cool as you travel through the darkness,
+you find yourself a little uneasy, nonetheless, with the knowlege that
+you're so deep within the once-heated bowels of Cierra.  Gripping your
+torch a little tighter, you move onward, though, hoping to find a few
+nuggets of your own to recover.
+~
+1 1076895752 13 0 0 0 120
+D1
+~
+~
+0 -1 16786
+D9
+~
+~
+0 -1 16784
+S
+#16786
+Natural Tunnels of the Mountain~
+~
+Smoothly carved tunnels wind through the mountain, leading you through the
+heart of Cierra which once raged with a violent temper of lava and flowing
+fire.  Few veins of silver and gold line the walls here any more, making the
+further excavation of the tunnels unworthy of any more effort.  Gone are the
+glistening walls of shimmering metals, only to be replaced with a strange,
+crystaline stones which reflect the light from your torch with a dull shine
+~
+1 1076895752 13 0 0 0 120
+D3
+~
+~
+0 -1 16785
+D6
+~
+~
+0 -1 16787
+R M 0 16719 5 16786
+S
+#16787
+Small Cavern of Lore~
+~
+The tunnels open up into a larger cavern filled with small, white stones
+that blanket the floor like a thick shroud of snow.  Larger stones peek up
+from the white floor and appear to be like small, creatures playing on a 
+fresh field of powdery, glistening field of magic, while other stones,
+perfectly smooth and round, lie in neat little piles on the floor like tiny
+snowballs.  Stalagmites rise from the floor like trees, towering over the
+rest of the area.
+~
+1 1076895752 13 0 0 0 120
+D1
+~
+~
+0 -1 16788
+D9
+~
+~
+0 -1 16786
+R M 0 16719 5 16787
+S
+#16788
+Visions of Fairy Tales~
+~
+Glistening white stone fills the cavern, giving the area the appearance
+of a magical land of wonder.  Delicate stalagmites reach up from the floor
+and tower above the white stone like trees.  Smaller rocks formations lay at
+the base of the stalagmites, and resemble children dancing around a snow-
+covered Christmas tree, while a smaller, more smoothly surfaced area of the
+cavern lies in the center of this cave, like a frozen pond that has been kissed
+with the wand of a winter sprite, forever freezing it in stone.  Magical
+formations of chrystaline flowers line the edges of the room like the fresh
+blossoms of spring.
+~
+1 1076895752 13 0 0 0 120
+D3
+~
+~
+0 -1 16787
+R M 0 16720 1 16788
+  R E 0 16704 1 3
+  R E 0 16712 1 1
+  R E 0 16712 1 2
+  R G 0 16722 1
+R M 0 16719 4 16788
+S
+#16789
+El Capitan of Redwoods~
+~
+Gazing high into the sky, you find it impossible to see the upper
+limbs of the tallest tree within the forest.  A great number of stories
+have been told about 'El Capitan' throughout the years, giving this tree
+a personality of its own.  With its lofty branches perched among the clouds,
+this redwood provides a sense of safety to the birds as they make their
+nexts each spring within the limbs.  Though noone has ever been able to
+climb to the top of this mighty tree, several of Perinthia's young males
+each boast of climbing higher than anyone else ever has before.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16733
+S
+#16790
+Climbing El Capitan~
+~
+Climbing about halfway to the first set of branches, your arms have already
+become sore with the weariness associated with strenuous effort.  The thick,
+knotless trunk of El Capitan makes it difficult for you to get your footing
+up as you climb up the tallest tree in the forest.  As you struggle with every
+inch of the tree, a gentle squirrel swishes its tail as it scurries up the
+trunk.
+~
+1 1076895748 3
+D3
+~
+~
+0 -1 16733
+D4
+~
+~
+128 -1 16791
+S
+#16791
+The Heart of El Capitan~
+~
+You finally made it to the first branch in the tree. It's easily as wide as 
+one of the streets in Perinthia, though much more dangerous to walk upon.
+Squirrels scurry here, flicking their tails with a warning that someone has
+entered their tree, making it no longer safe for the creatures here.  Though
+much of the tree still towers above this spot, most of the climbers make it
+no further than this and easily succumb to dizziness, making their ascent a
+rather dangerous one.
+~
+1 1076895744 3
+D3
+~
+~
+0 -1 16792
+D4
+~
+~
+128 -1 16794
+D5
+~
+~
+128 -1 16790
+R M 0 16714 4 16791
+S
+#16792
+A Lofty Branch~
+~
+Moving precariously away from the trunk of the tree, you find yourself
+standing upon a rather thick limb of this redwood.  Thick foliage of El
+Capitan grows plushly from this limb wrapping the upper portion of the
+tree with a jade-colored coat of branches and leaves.  The sound of an
+eagle's cry pierces the still air.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16791
+D3
+~
+~
+0 -1 16793
+S
+#16793
+The Eagle's Nest~
+~
+Moving further along the thickness of the tree limb, you curse under your
+breath as a single bald eagle takes flight from its nest.  Small twigs line
+the nest, creating a soft bed for the eagle to lay her eggs upon.  Cool winds
+blow through the tree, shaking the leaves of El Capitan's branches gently,
+while fluffy tufts of clouds move through the canopy of this mighty redwood.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16792
+R M 0 16713 1 16793
+  R E 1 16702 1 3
+  R G 1 16713 1
+R M 0 16714 4 16793
+S
+#16794
+El Capitan's Mighty Chest~
+~
+Further up the tree, you find yourself rather high above the ground.  Most
+of the area below seems insignificantly small, and are dwarfed by the large
+size of El Capitan.  A few, low-hanging clouds move through the trees, hiding
+the many branches that extend from the trunk of this redwood, which make you
+unsure of how thick many of the limbs truly are.
+~
+1 1076895744 3
+D4
+~
+~
+128 -1 16795
+D5
+~
+~
+128 -1 16791
+R M 0 16714 2 16794
+S
+#16795
+The Crossing of Branches~
+~
+Climbing further up the tree, you stop to rest among some of the higher
+branches of El Capitan.  Thick limbs criss-cross each other here, providing
+you with a very steady place to rest your feet.  Here, few birds fly as the
+fluffy whiteness of the clouds brush through the treetop, sometimes making it
+impossible to see the branches that reach up unto the sun.  Cool breezes blow,
+carrying the crispy air from the snow-covered peaks of the mountain.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16796
+D3
+~
+~
+0 -1 16798
+D4
+~
+~
+128 -1 16800
+D5
+~
+~
+128 -1 16794
+R M 0 16714 2 16795
+S
+#16796
+Smaller Arms of El Capitan~
+~
+Branches this high on El Capitan grow thinly from the trunk of the tree
+as they caress the clouds with their finger-like branches near the top
+of the redwood.  Cool breezes from the mountain peaks shake the thin 
+branches, making your footing unsteady as you travel along the limbs.
+Few birds or squirrels ever climb this high on the tree, though it isn't
+uncommon to find a stray vulture perched along the branches.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16797
+D3
+~
+~
+0 -1 16795
+S
+#16797
+Fingers of the Redwood~
+~
+The branches of El Capitan become much thinner than the ones below, making
+travel across the limbs dangerous.  Clouds move through the upper foliage
+of the tree as cool winds shake the unsteady branches with each breeze that
+brushes through the forest.  Smaller leaves of the redwood, fresh with new
+life, shimmer in the sun's golden rays.
+~
+1 1076895744 3
+D3
+~
+~
+0 -1 16796
+R M 0 16714 3 16797
+S
+#16798
+Smaller Branches~
+~
+Branches this high on El Capitan grow thinly from the trunk of the tree
+as they caress the clouds with their finger-like branches near the top
+of the redwood.  Cool breezes from the mountain peaks shake the thin 
+branches, making your footing unsteady as you travel along the limbs.
+Few birds or squirrels ever climb this high on the tree, though it isn't
+uncommon to find a stray vulture perched along the branches.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16795
+D3
+~
+~
+0 -1 16799
+R M 0 16714 1 16798
+S
+#16799
+Thinning Arms of the Aged Tree~
+~
+The branches of El Capitan become much thinner than the ones below, making
+travel across the limbs dangerous.  Clouds move through the upper foliage
+of the tree as cool winds shake the unsteady branches with each breeze that
+brushes through the forest.  Smaller leaves of the redwood, fresh with new
+life, shimmer in the sun's golden rays.
+~
+1 1076895744 3
+D1
+~
+~
+0 -1 16798
+R M 0 16715 1 16799
+S
+#16800
+Through the Eyes of Cierra~
+~
+Climbing to the top of El Capitan, you wrap your arms around the thickness
+of its trunk as you gaze down at the lands below.  The thick, canopy of foliage
+blankets the area below you, hiding parts of the river of melted snow that runs
+gracefully down the mountain.  In the distance, the rooftops of the homes and
+shops of Perinthia seem nothing more than the rooftops of several dollhouses
+covering the ground below.  Here, the air is cooler than down on the ground
+as the cool breeze from Cierra's snow-covered peaks blow unobstructed by
+other trees that grow in the forest.  At night, the skies above El Capitan
+twinkle with magic, as the lacey stars of the heavens unfold their delicate
+lights to the citizens of the world.
+~
+1 1076895744 3
+D5
+~
+~
+128 -1 16795
+S
+#16801
+Inside the Foothill~
+~
+The odor of wet earth floods your senses as you lift your torch to find
+yourself inside one of the many caves that catacomb the underbelly of
+Mount Cierra and her foothills.  The squeaks of bats echo through this
+chamber, making you shiver in your proverbial boots as they hang upside
+down from the corners of the ceiling above you.  Lighting your trusty
+light source, you push onward through the narrowing cave that lies ahead.
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 16802
+D4
+~
+underbrush~
+3 -1 16704
+R M 0 16723 2 16801
+R M 0 16723 2 16801
+R D 0 16801 4 1
+S
+#16802
+Shimmering Walls of Cierra's Humility~
+~
+The light from your torches give a soft hue to this tunnel that winds
+through the foothills, illuminating the tiny veins of silver that line
+the walls of this room that lies so close to the surface of the mountain.
+A thick layer of damp earth covers the stoney floor beneath your feet,
+muffling your footsteps as you travel through the catacombs of Mount
+Cierra, leaving only the crackling sound of your wooden torches in the
+still air of the tunnel.
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 16801
+D5
+~
+~
+0 -1 16803
+R M 0 16724 1 16802
+S
+#16803
+Shimmering Caverns of Darkness~
+~
+The tunnel slopes downward as the scent of dampened earth grows stronger,
+leading you to believe that some kind of underground water source lies
+somewhere nearby.  The crackling sounds of your torch grows weaker as the
+fresh air from the surface barely manages to fill the room.  Strange marks
+cover the walls which now sparkle intensely with veins of silver that thicken
+with every step deeper into the hillside, leaving trace that other, more
+primitive people have visited these caverns before you.
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 16804
+D4
+~
+~
+0 -1 16802
+S
+#16804
+The Quench of Eternity~
+~
+Small droplets of water drip from the ceiling, forming a rather large
+pool of water over a long period of time.  Buried deep within the
+foothills for thousands of years, this pool of water is strikingly
+clear, allowing you to see the two, water-filled tunnels that branch off
+in different directions at the bottom of this pool of water.  Though your
+instincts warn you not to jump into the water, your curiosity leads you to
+the edge of the pool and urges you to wade in the water for a look.
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 16805
+D2
+~
+~
+0 -1 16803
+S
+#16805
+Sunken Cavern~
+~
+Jagged rocks jut out from the ceiling, making passage through this tunnel
+difficult. Cool water surrounds you, making you shiver in the cold as you
+swim through the water that floods this rocky passageway.  Darkness swallows
+what little light that glows from your lantern, causing you to be unsure
+which way you would be swimming if you traveled any further.  Maybe you should
+just wade back to the safety of the cavern.
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 16806
+D2
+~
+~
+0 -1 16804
+R M 0 16724 2 16805
+S
+#16806
+Curving Cavern~
+~
+Water moves between your fingers as you swim in the underground tunnel
+which now lies flooded with years of condensation seeping through the
+rocky ceilings to form a pool inside the middle of the foothills.  Heavy,
+rock outcroppings hang from the ceiling and into the water like large walls
+made of impenetrable steel, making your passage through the tunnel a difficult,
+if not dangerous.  Swimming in the darkness of the rock tunnel, small, cave
+lizards brush past you on their quick ascent from their next somewhere deeper
+in the tunnels to the edge of the water.
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 16805
+D6
+~
+~
+0 -1 16808
+D7
+~
+~
+0 -1 16807
+S
+#16807
+Sunken Tunnels of the Lost~
+~
+The waters of this narrow tunnel seem surprisingly warm compared to the
+other tunnels of this cavern, leading you to believe that you must be near
+some kind of outlet for a warm, underwater stream.  Several small lizards
+and other cave life swim through the warm waters, feeding on smaller creatures
+and even themselves as they move through these sunken tunnels with ease through
+the darkness, while you struggle with every stroke you make.
+~
+1 1073741824 1
+D8
+~
+~
+0 -1 16806
+S
+#16808
+A Dry Reprieve~
+~
+Jutting up boldly from the floor of this immense cavern, a large stalagmite,
+fallen from the ceiling, now lies in the middle of the large pool of water.
+Here, thousands of years of guano is layered thickly on the stone, making it
+rather difficult to scale the sides of the once-living rock as you struggle
+to pull yourself free of the cool waters of the cavern.  The air is humid
+and still here, while the scent of moistened earth fills the cavern.  Resting
+your weary arms and legs, you stretch out upon the stalamite before continuing
+on your exploration.
+~
+1 1073741824 1
+D9
+~
+~
+0 -1 16806
+R M 0 16725 1 16808
+S
+#16900
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  16713 spec_cast_adept
+M  16720 spec_breath_any
+S
+
+
+#$

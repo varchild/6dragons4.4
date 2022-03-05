@@ -1,0 +1,28 @@
+#VNUM 57029
+#OBJECT
+Vnum         1138
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       10000 0 31371 0 0 0 0
+End
+
+#OBJECT
+Vnum         1139
+Level        108
+Currtype     1
+Color        1
+Size   0
+Values       10000 0 31371 0 0 0 0
+End
+
+#OBJECT
+Vnum         60
+Level        1
+Currtype     1
+Size   0
+Values       99999 99999 0 0 0 0 0
+End
+
+#END

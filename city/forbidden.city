@@ -1,0 +1,618 @@
+#CITY
+Name          Forbidden City~
+Filename      forbidden.city~
+Bank          forbidden~
+Duke          Silvanos~
+Baron         Lemon~
+Captain       Anharat~
+Allegiance    Halcyon~
+Defense          316
+Offense          177
+OffenseCatapult  0
+DefenseCatapult  1
+Ballista         0
+OffenseSoldiers  13
+DefenseGuards    50
+DefenseArchers   50
+OffenseArchers   50
+DefenseWarriors  50
+OffenseWarriors  13
+Arrows           1
+Platform         0
+Ram              1
+Pitch            1
+Wins             735
+Loses            66
+Recall           35515
+Siege1           35509
+Siege2           35511
+Siege3           35508
+Defend1          35516
+Defend2          35530
+Defend3          35532
+MSoldier         41038
+MArcher          41039
+MGuard           41091
+MWarrior         41092
+OCatapult        41008
+OBallista        41009
+OPitch           41010
+OPlatform        41011
+ORam             41012
+OArrow           41023
+MinHouse         0
+MaxHouse         0
+Hardened         0
+End
+
+#ROLLCALL
+Name      Xander~
+Joined    1470012264
+Updated    1519066353
+Class     angel~
+Level     100
+Kills     1075
+Deaths    27
+End
+
+#ROLLCALL
+Name      Skyraker~
+Joined    1470822473
+Updated    1519009366
+Class     silver~
+Level     44
+Kills     449
+Deaths    3
+End
+
+#ROLLCALL
+Name      Anharat~
+Joined    1445187196
+Updated    1519066071
+Class     dragon lord~
+Level     26
+Kills     223
+Deaths    5
+End
+
+#ROLLCALL
+Name      Lemon~
+Joined    1480189254
+Updated    1519066439
+Class     black~
+Level     15
+Kills     520
+Deaths    4
+End
+
+#ROLLCALL
+Name      Silvanos~
+Joined    1445978140
+Updated    1518782233
+Class     silver~
+Level     35
+Kills     836
+Deaths    2
+End
+
+#ROLLCALL
+Name      Mirkoros~
+Joined    1498660833
+Updated    1517853504
+Class     gold~
+Level     59
+Kills     249152
+Deaths    3
+End
+
+#ROLLCALL
+Name      Nedrik~
+Joined    1456173030
+Updated    1516487877
+Class     gold~
+Level     34
+Kills     1619
+Deaths    5
+End
+
+#ROLLCALL
+Name      Arrien~
+Joined    1485805631
+Updated    1513363739
+Class     silver~
+Level     20
+Kills     229
+Deaths    0
+End
+
+#ROLLCALL
+Name      Bojan~
+Joined    1456977375
+Updated    1512929126
+Class     black~
+Level     44
+Kills     2386
+Deaths    4
+End
+
+#ROLLCALL
+Name      Karith~
+Joined    1505711510
+Updated    1512186270
+Class     blue~
+Level     22
+Kills     735
+Deaths    16
+End
+
+#ROLLCALL
+Name      Amaru~
+Joined    1405641559
+Updated    1510799884
+Class     black~
+Level     41
+Kills     970
+Deaths    12
+End
+
+#ROLLCALL
+Name      Hexus~
+Joined    1453860046
+Updated    1510529957
+Class     black~
+Level     50
+Kills     1571
+Deaths    5
+End
+
+#ROLLCALL
+Name      Hekkron~
+Joined    1453673696
+Updated    1510529957
+Class     silver~
+Level     42
+Kills     1065
+Deaths    1
+End
+
+#ROLLCALL
+Name      Glacian~
+Joined    1498263280
+Updated    1510529582
+Class     dragon lord~
+Level     42
+Kills     296
+Deaths    0
+End
+
+#ROLLCALL
+Name      Kordath~
+Joined    1446451645
+Updated    1510529957
+Class     silver~
+Level     33
+Kills     139
+Deaths    0
+End
+
+#ROLLCALL
+Name      Duratus~
+Joined    1497228245
+Updated    1510529957
+Class     dragon lord~
+Level     31
+Kills     275
+Deaths    0
+End
+
+#ROLLCALL
+Name      Syric~
+Joined    1497315694
+Updated    1510529957
+Class     dragon lord~
+Level     27
+Kills     419
+Deaths    0
+End
+
+#ROLLCALL
+Name      Bylar~
+Joined    1509072643
+Updated    1510529957
+Class     silver~
+Level     22
+Kills     206
+Deaths    0
+End
+
+#ROLLCALL
+Name      Kazul~
+Joined    1504051150
+Updated    1510273780
+Class     gold~
+Level     21
+Kills     712
+Deaths    3
+End
+
+#ROLLCALL
+Name      Zyon~
+Joined    1509494039
+Updated    1510192396
+Class     blue~
+Level     21
+Kills     87
+Deaths    0
+End
+
+#ROLLCALL
+Name      Rhys~
+Joined    1504050041
+Updated    1510197679
+Class     silver~
+Level     16
+Kills     378
+Deaths    2
+End
+
+#ROLLCALL
+Name      Svartis~
+Joined    1510189866
+Updated    1510190587
+Class     black~
+Level     13
+Kills     74
+Deaths    0
+End
+
+#ROLLCALL
+Name      Corrala~
+Joined    1473118647
+Updated    1509581505
+Class     gold~
+Level     31
+Kills     1156
+Deaths    12
+End
+
+#ROLLCALL
+Name      Damon~
+Joined    1475265789
+Updated    1509277038
+Class     red~
+Level     8
+Kills     406
+Deaths    5
+End
+
+#ROLLCALL
+Name      Caelum~
+Joined    1486086798
+Updated    1508791739
+Class     dragon lord~
+Level     26
+Kills     132
+Deaths    1
+End
+
+#ROLLCALL
+Name      Luxx~
+Joined    1471565785
+Updated    1508810230
+Class     gold~
+Level     13
+Kills     94
+Deaths    2
+End
+
+#ROLLCALL
+Name      Tulvir~
+Joined    1474311364
+Updated    1506083873
+Class     gold~
+Level     44
+Kills     2755
+Deaths    33
+End
+
+#ROLLCALL
+Name      Myrlan~
+Joined    1414181068
+Updated    1502677950
+Class     silver~
+Level     43
+Kills     2000
+Deaths    17
+End
+
+#ROLLCALL
+Name      Serylith~
+Joined    1501871161
+Updated    1502741581
+Class     blue~
+Level     12
+Kills     299
+Deaths    1
+End
+
+#ROLLCALL
+Name      Alastroden~
+Joined    1446933581
+Updated    1499489641
+Class     black~
+Level     33
+Kills     187
+Deaths    1
+End
+
+#ROLLCALL
+Name      Samos~
+Joined    1497892695
+Updated    1499573622
+Class     red~
+Level     20
+Kills     377
+Deaths    3
+End
+
+#ROLLCALL
+Name      Pane~
+Joined    1448083445
+Updated    1488585261
+Class     black~
+Level     37
+Kills     723
+Deaths    2
+End
+
+#ROLLCALL
+Name      Kingston~
+Joined    1405776820
+Updated    1483158137
+Class     red~
+Level     38
+Kills     1714
+Deaths    26
+End
+
+#ROLLCALL
+Name      Orikal~
+Joined    1479548688
+Updated    1480590294
+Class     gold~
+Level     9
+Kills     168
+Deaths    2
+End
+
+#ROLLCALL
+Name      Gallain~
+Joined    1478277942
+Updated    1478606675
+Class     gold~
+Level     6
+Kills     35
+Deaths    2
+End
+
+#ROLLCALL
+Name      Corrala~
+Joined    1473107373
+Updated    1473118647
+Class     gold~
+Level     20
+Kills     519
+Deaths    8
+End
+
+#ROLLCALL
+Name      Saerataga~
+Joined    1405561112
+Updated    1472158671
+Class     silver~
+Level     44
+Kills     845
+Deaths    28
+End
+
+#ROLLCALL
+Name      Gortholon~
+Joined    1452685750
+Updated    1468039559
+Class     gold~
+Level     29
+Kills     980
+Deaths    2
+End
+
+#ROLLCALL
+Name      Nightwing~
+Joined    1449337468
+Updated    1467247826
+Class     black~
+Level     26
+Kills     481
+Deaths    0
+End
+
+#ROLLCALL
+Name      Pizarro~
+Joined    1460496275
+Updated    1462828113
+Class     gold~
+Level     14
+Kills     293
+Deaths    2
+End
+
+#ROLLCALL
+Name      Tulmynir~
+Joined    1452542100
+Updated    1461244822
+Class     red~
+Level     14
+Kills     309
+Deaths    0
+End
+
+#ROLLCALL
+Name      Mahru~
+Joined    1458837062
+Updated    1459961163
+Class     gold~
+Level     11
+Kills     222
+Deaths    1
+End
+
+#ROLLCALL
+Name      Cellondosh~
+Joined    1457060462
+Updated    1458019378
+Class     red~
+Level     13
+Kills     199
+Deaths    1
+End
+
+#ROLLCALL
+Name      Darconda~
+Joined    1405735231
+Updated    1453694067
+Class     red~
+Level     32
+Kills     1047
+Deaths    7
+End
+
+#ROLLCALL
+Name      Tulmynir~
+Joined    1453931291
+Updated    1453931291
+Class     silver~
+Level     11
+Kills     230
+Deaths    0
+End
+
+#ROLLCALL
+Name      Calor~
+Joined    1453403201
+Updated    1453659543
+Class     red~
+Level     38
+Kills     603
+Deaths    5
+End
+
+#ROLLCALL
+Name      Atlan~
+Joined    1452898144
+Updated    1453103962
+Class     blue~
+Level     12
+Kills     183
+Deaths    1
+End
+
+#ROLLCALL
+Name      Deventh~
+Joined    1452701610
+Updated    1452951797
+Class     black~
+Level     11
+Kills     164
+Deaths    3
+End
+
+#ROLLCALL
+Name      Krezzle~
+Joined    1446873018
+Updated    1452024518
+Class     black~
+Level     42
+Kills     2119
+Deaths    12
+End
+
+#ROLLCALL
+Name      Ankerak~
+Joined    1449183455
+Updated    1451429362
+Class     black~
+Level     37
+Kills     1333
+Deaths    3
+End
+
+#ROLLCALL
+Name      Lorik~
+Joined    1449263913
+Updated    1449379560
+Class     black~
+Level     20
+Kills     236
+Deaths    4
+End
+
+#ROLLCALL
+Name      Jasmia~
+Joined    1446527147
+Updated    1448082916
+Class     red~
+Level     23
+Kills     349
+Deaths    1
+End
+
+#ROLLCALL
+Name      Dyedeme~
+Joined    1445633147
+Updated    1447124352
+Class     black~
+Level     32
+Kills     629
+Deaths    9
+End
+
+#ROLLCALL
+Name      Astarot~
+Joined    1433093983
+Updated    1436309514
+Class     black~
+Level     11
+Kills     982
+Deaths    6
+End
+
+#ROLLCALL
+Name      Klorawn~
+Joined    1417873877
+Updated    1426184526
+Class     gold~
+Level     27
+Kills     1737
+Deaths    9
+End
+
+#ROLLCALL
+Name      Azyel~
+Joined    1416698187
+Updated    1419664572
+Class     blue~
+Level     15
+Kills     334
+Deaths    0
+End
+
+#ROLLCALL
+Name      Garrius~
+Joined    1407888714
+Updated    1410123841
+Class     silver~
+Level     13
+Kills     790
+Deaths    9
+End
+
+#END

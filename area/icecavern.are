@@ -1,0 +1,1548 @@
+#AREA        Ice Cavern~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 20 5 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 10 10
+
+#RESETMSG &cYou shiver involuntary as you hear the howling wind of the arctic outside the cave.~
+
+#FLAGS
+32768
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 2450000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#6250
+arctic changeling snow~
+an arctic changeling~
+A small pile of snow is here.
+~
+The snow pile has a strange look to it.  It's shape appears to almost be a living creature.
+~
+5
+Clanname none~
+0
+0
+33 0 0 C
+8 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+3 13 13 13 13 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 5~
+mpecho &WAn arctic changeling launches a snow ball at you!
+mpdamage $n 3
+~
+|
+#6251
+arctic changeling stalagmite~
+arctic changeling~
+A stalagmite juts up from the ground here.
+~
+The stalagmite has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+13
+Clanname none~
+0
+0
+1 0 0 C
+12 0 0 0d0+100 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 100~
+if istagged($n, count) == 3
+mpquest $n hammer 2
+endif
+~
+> death_prog 5~
+if istagged($n, count) == 1
+mptag $n count 2
+else
+if istagged($n, count) == 2
+mptag $n count 3
+else
+if istagged($n, count) == 3
+mptag $n count 4
+else
+mptag $n count 1
+endif
+endif
+endif
+~
+> fight_prog 5~
+mpecho &cAn arctic changeling stalagmite spears you!
+mpdamage $n 8
+~
+|
+#6252
+arctic changeling icicle ~
+arctic changeling~
+An icicle runs from the ceiling to ground here.
+~
+The icicle has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+5
+Clanname none~
+0
+0
+1 4194304 0 C
+8 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+if quest(hammer) == 1
+  if qkamount(hammer) < 9
+    mpqkamount $n hammer 1
+  else
+    mpqkamount $n hammer 1
+    mpquest $n hammer 2
+  endif
+endif
+~
+> fight_prog 5~
+mpecho &CAn arctic changeling vibrates suddenly spraying you with icicle missiles!
+mpdamage $n 5
+~
+|
+#6253
+arctic changeling blizzard~
+an arctic changeling~
+A swirling blizzard fills this area. 
+~
+The blizzard has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+5
+Clanname none~
+0
+0
+1 0 0 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 5~
+mpecho An arctic changeling blizzard slams into you!
+mpdamage $n 10
+~
+|
+#6254
+pond ice arctic changeling~
+arctic changeling~
+A large pond of solid ice is here.
+~
+The ice pond has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 8~
+mpecho &CAn arctic changeling pond cracks sending you into it's frozen depths!
+mpdamage $n 20
+~
+|
+#6255
+dwarf adventurer Gladan~
+Gladan ~
+A dwarven adventurer stands here.
+~
+The dwarf is wearing heavy plate mail.  He has his brown hair braided into pig tails.  He has a long
+mangy beard and dark blue eyes.
+~
+1
+Clanname none~
+0
+0
+132099 4194304 0 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(paleon) == 4
+  mppause 5
+  mpechoat $n &CGladan says, 'Greetings Lad.  I heard you were coming to attempt to 
+  mpechoat $n &Cgain citizenship in Paleon.  The fact that you are seeing me means
+  mpechoat $n &Cyou acted selfishly not attempting to help the blacksmith.  I do have
+  mpechoat $n &Csomething I need, but I will not be rewarding you for the task. I 
+  mpechoat $n &Cneed a hammer that is missing.  There is a arctic changeling somewhere
+  mpechoat $n &Cin this cavern that took it.  Find it and bring it to me.
+  mpquest $n paleon 5
+endif
+if quest(hammer) == 2
+  mppause 3
+  mpechoat $n &CGladan says, 'No hammer?'&D
+  mppause 5
+  mpechoat $n &CGladan says, 'Wait, did those changelings have a blue color to the center of them? If not then that means the changelings we want for the hammer are on the lower level.'&D
+  mpquest $n hammer 3
+endif
+if quest(hammer) < 1
+if quest(paleon) != 4
+if quest(paleon) != 5
+  mppause 3
+  mpechoat $n &CGladan says, 'Hey Ho, young adventurers.'&D
+  mppause 6
+  mpechoat $n &CGladan says, 'The hammer is missing, The chieftain's
+  mpechoat $n &Cgift.  We have a short amount of time, and many enemies.
+  mpechoat $n &CPlease split up from me, and help me find this hammer.'&D
+  mppause 12
+  mpechoat $n &cType &WSAY SEARCH &cto accept the quest.&D
+endif
+endif
+endif
+~
+> speech_prog search~
+mppause 5
+mpquest $n hammer 1
+~
+> act_prog p gives you a dwarven hammer.~
+mppause 3
+if quest(paleon) != 5
+  if quest(paleon) != 4
+    if quest(paleon) != 3
+      mpechoat $n &CGladan says, 'Thankee'
+      mpquest $n hammer 4
+      mpat 4 drop hammer
+      mpoload 6300 10
+      get arm
+      give arm $n
+      mppause 3
+      mpechoat $n &CGladan says, 'Take these as appreciate from the dwarven clan.'
+   endif
+  endif
+endif
+if quest(paleon) == 5
+  mpechoat $n &CGladan says, 'That is indeed a selflish act.'
+  mppause 6
+  mpquest $n paleon 6
+  mpechoat $n &CGladan says, 'Return to the blacksmith.'
+endif
+~
+|
+#6256
+arctic changeling stalagmite~
+arctic changeling~
+A stalagmite juts up from the ground here.
+~
+The stalagmite has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+13
+Clanname none~
+0
+0
+1073741825 0 0 C
+6 0 0 0d0+24 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6257
+arctic changeling stalagmite~
+arctic changeling~
+A stalagmite juts up from the ground here.
+~
+The stalagmite has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+13
+Clanname none~
+0
+0
+1073741825 0 0 C
+6 0 0 0d0+24 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6258
+arctic changeling greater stalagmite~
+a greater arctic changeling~
+A massive stalagmite juts up from the ground here.
+~
+The massive stalagmite has a strange look to it.  It's shape appears to almost be a living creature. 
+~
+13
+Clanname none~
+0
+0
+1 4194304 0 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 10~
+mpecho &cAn greater arctic changeling stalagmite spears you!
+mpdamage $n 25
+~
+|
+#6259
+blue arctic changeling icicle~
+arctic changeling~
+A solid blue icicle runs from the ceiling to ground here.
+~
+An icicle with a blue color in the center of it, hangs from the ceiling to 
+the ground here. 
+save
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpoload 6251 5
+  get hammer
+~
+> fight_prog 5~
+mpecho &CAn arctic changeling vibrates suddenly spraying you with icicle missiles!
+mpdamage $n 5
+~
+|
+#6300
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#6250
+icicle dagger~
+an icicle formed dagger~
+An icicle formed dagger has been left here.~
+~
+5 0 8193
+0 5 15 2 2 0 0
+1 65 6
+4
+0
+0
+0
+0
+0
+S 0 0
+#6251
+dwarven hammer~
+a dwarven hammer~
+A dwarven hammer has been left here.~
+0~
+5 0 8193
+12 3 10 4 5 5 0
+10 50 5
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+(null)~
+(null)~
+E
+hammer~
+It appears to be a dwarven hammer of excellent craftsmanship.
+~
+#6252
+stalagmite~
+a stalagmite~
+A stalagmite juts up from the ground here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#6253
+pond~
+a frozen pond~
+A large pond of solid ice is here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#6254
+icicle~
+an icicle~
+An icicle runs from the ceiling to ground here. ~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#6255
+snow~
+a pile of snow~
+A small pile of snow is here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#6256
+crystal shard~
+a crystal shard~
+A crystal shard has been left here.~
+~
+4 0 16385
+20 3 3 -1 0 10 0
+1 5 0
+4
+0
+0
+0
+0
+0
+'NONE'
+S 0 0
+#6257
+crystal shard~
+a crystal shard~
+A crystal shard has been left here.~
+~
+4 0 16385
+20 3 3 -1 0 10 0
+1 5 0
+4
+3
+0
+0
+0
+0
+'ogre vitality'
+S 0 0
+#6258
+crystal medallion~
+a crystal medallion~
+A gawdy looking gold medallion has been left here.~
+~
+9 0 5
+10 10 0 0 0 10 0
+1 77 7
+4
+5
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+13 10
+#6259
+crystal wand~
+a crystal wand~
+A crystal wand has been left here.~
+~
+3 0 16385
+1 3 3 -1 0 10 0
+1 18 1
+2
+3
+0
+0
+0
+0
+'NONE'
+S 0 0
+#6300
+dwarven mithril armguards ~
+a pair of dwarven mithril armguards ~
+A pair of dwarven mithril armguards has been left here.~
+~
+9 0 257
+10 10 0 0 0 10 0
+5 107 10
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+5 2
+#0
+
+
+#ROOMS
+#6250
+Floating in a void~
+~
+~
+1 268451852 13
+S
+#6251
+A Narrow Passageway~
+~
+There is a thin layer of ice coating the walls and ceiling here. A few 
+stalagmites are scattered about the area. A large pile of rocks are 
+stacked against the far wall. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6252
+D1
+~
+~
+0 -1 6255
+D4
+~
+~
+16777216 -1 6271
+R O 0 6253 1 6251
+S
+#6252
+A Small Passage~
+~
+The passage is very small but has an intersection here. There is a thin 
+layer of ice that coats the walls and ceiling. Water drips along the 
+ceiling and forms icicles here and there. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6253
+D1
+~
+~
+0 -1 6256
+D2
+~
+~
+0 -1 6251
+S
+#6253
+A Vast Passage~
+~
+There is a large pond in the center of the passage here. No ice or snow is 
+present on the ground as this part of the cavern is noticeably warmer. A 
+few rocks and small stones are scattered about here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6254
+D1
+~
+~
+0 -1 6257
+D2
+~
+~
+0 -1 6252
+R O 0 6255 1 6253
+S
+#6254
+A Wide Passageway~
+~
+The massive passageway has a thin coating of ice along the walls and 
+ceiling. There are stalagmites throughout the passage. A large stack of 
+snow has been pushed to sides of the passageway. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6258
+D2
+~
+~
+0 -1 6253
+D4
+~
+~
+16777216 -1 6274
+R M 0 6251 2 6254
+S
+#6255
+Along a Slippery Passageway~
+~
+The passage has a heavy layer of ice coating the ground. Walking along the 
+ice is treacherous. There are blood stains in some places where something 
+has wiped out on the ice. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6256
+D1
+~
+~
+0 -1 6259
+D3
+~
+~
+0 -1 6251
+R M 0 6250 4 6255
+R M 0 6258 2 6255
+  R G 0 6257 1
+S
+#6256
+A Dusting of Snow~
+~
+The chamber has a light dusting of snow along the ground. There are a few 
+stalagmites scattered about it. A couple large rocks are against the 
+northern wall. A few icicles hang from the ceiling to the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6257
+D1
+~
+~
+0 -1 6260
+D2
+~
+~
+0 -1 6255
+D3
+~
+~
+0 -1 6252
+R M 0 6251 4 6256
+R M 0 6253 3 6256
+  R G 0 6259 1
+S
+#6257
+A Giant Crystal~
+~
+A massive crystal embedded within stalagmites is in the center of the 
+passage. The crystal appears to generate heat, and the passages that are 
+close to it do not have any ice or snow built up. There are strange 
+looking tracks on the ground around it. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6258
+D1
+~
+~
+0 -1 6261
+D2
+~
+~
+0 -1 6256
+D3
+~
+~
+0 -1 6253
+R M 0 6254 4 6257
+  R G 0 6258 1
+R M 0 6259 1 6257
+S
+#6258
+Along the Passageway~
+~
+A series of icicles that hang from the ceiling to the ground fill this 
+passageway, such that you have to zig zag to move through the passage. A 
+heavy coating of ice covers the walls and ground. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6262
+D2
+~
+~
+0 -1 6257
+D3
+~
+~
+0 -1 6254
+S
+#6259
+Within a Massive Chamber~
+~
+The giant sized chamber appears to once have had something mounted upon a 
+stone base, but whatever it was is gone. There are some stalagmites 
+scattered about the chamber. Icicles hang from the ceiling to the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6260
+D1
+~
+~
+0 -1 6263
+D3
+~
+~
+0 -1 6255
+R O 0 6252 1 6259
+S
+#6260
+A Chamber of Stalagmites~
+~
+The cavern is filled with stalagmites. There is no comfortable way to pass 
+through them, as they are clustered together. There is a thin layer of ice 
+on the walls and floor of the chamber. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6261
+D1
+~
+~
+0 -1 6264
+D2
+~
+~
+0 -1 6259
+D3
+~
+~
+0 -1 6256
+S
+#6261
+A Jagged Passageway~
+~
+The passage is filled with stalagmites of various sizes and shapes. There 
+is no ice or snow present on the ground. The passage is noticeably warmer 
+then the other sections of the cavern. The remains of a campfire has been 
+left in the corner of the passage. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6262
+D1
+~
+~
+0 -1 6265
+D2
+~
+~
+0 -1 6260
+D3
+~
+~
+0 -1 6257
+R M 0 6251 4 6261
+R M 0 6254 4 6261
+  R G 0 6258 1
+S
+#6262
+A Steep Passageway~
+~
+A thin coating of snow covers a slippery descent down this passageway. The 
+walls have a thin layer of ice built up on them. There are signs on the 
+ground of someone sliding and falling down the passageway. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6266
+D2
+~
+~
+0 -1 6261
+D3
+~
+~
+0 -1 6258
+R M 0 6250 4 6262
+R M 0 6254 4 6262
+  R G 0 6258 1
+S
+#6263
+Beside a Broken Giant Boulder~
+~
+The boulder was split perfectly in two here. There are strange runes along 
+the boulder. A few stalagmites grow along the ground here. A thin coating 
+of snow and ice cover the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6264
+D1
+~
+~
+0 -1 6267
+D3
+~
+~
+0 -1 6259
+R M 0 6250 2 6263
+S
+#6264
+An Icy Passage~
+~
+The passage has a thick layer of ice that coats the walls and ground. 
+There is a small coating of snow over the ice that allows for some 
+traction. A few scrapings on the ground indicate the passing of some type 
+of creature. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6265
+D1
+~
+~
+0 -1 6268
+D2
+~
+~
+0 -1 6263
+D3
+~
+~
+0 -1 6260
+R M 0 6253 3 6264
+  R G 0 6259 1
+R O 0 6254 1 6264
+S
+#6265
+The Massive Boulder~
+~
+There is a large boulder centered within the passageway. The boulder has 
+some strange runes engraved upon it. There are a few stalagmites scattered 
+about the area. There is no ice or snow on the ground here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6266
+D1
+~
+~
+0 -1 6269
+D2
+~
+~
+0 -1 6264
+D3
+~
+~
+0 -1 6261
+R M 0 6253 3 6265
+  R G 0 6259 1
+S
+#6266
+A Vast Cavern~
+~
+The cavern is massive, with side passages leading off it. There is a thin 
+layer of ice on the ground and walls. A few stalagmites are scattered 
+around it. A small frozen pond is in the center of the cavern. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6270
+D2
+~
+~
+0 -1 6265
+D3
+~
+~
+0 -1 6262
+S
+#6267
+Along the Passageway~
+~
+The passage has large strikes along the walls, as if someone was 
+attempting to mark their passage and not get lost. There are stalagmites 
+scattered along the passage. A dusting of light snow covers the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6268
+D3
+~
+~
+0 -1 6263
+D4
+~
+~
+16777216 -1 6287
+S
+#6268
+Before a Massive Frozen Pond~
+~
+The frozen pond fills this cavern. There are small cracks along the pond 
+surface scattered about where rocks from the ceiling have landed. A large 
+pile of show is along the edges of the pond. There is a giant stalamite 
+that sticks out of the center of the pond. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6269
+D2
+~
+~
+0 -1 6267
+D3
+~
+~
+0 -1 6264
+R M 0 6251 4 6268
+R M 0 6258 2 6268
+  R G 0 6256 1
+S
+#6269
+A Narrow Passage~
+~
+The passage is much closer together here. There is a thin layer of ice 
+built up on the walls and floors here. A few small rocks lay about in the 
+passage that have fallen down from the cracked ceiling above. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6270
+D2
+~
+~
+0 -1 6268
+D3
+~
+~
+0 -1 6265
+R M 0 6250 3 6269
+S
+#6270
+A Passage Intersection~
+~
+The passage has stone slabs with frost on them that lead upward here. A 
+large pile of snow has been pushed up against the passage walls here. 
+There are strange tracks in the snow that is on the ground. 
+~
+1 12 13
+D2
+~
+~
+0 -1 6269
+D3
+~
+~
+0 -1 6266
+D4
+~
+~
+16777216 -1 6290
+R M 0 6254 4 6270
+S
+#6271
+An Icy Descent~
+~
+A frozen set of stairs made from formed stone lead down below. The walls 
+have a solid sheen of ice of them here. A large pile of snow is against 
+the west wall like it has been pushed there by something. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6272
+D1
+~
+~
+0 -1 6275
+D5
+~
+~
+16777216 -1 6251
+R O 0 6253 1 6271
+S
+#6272
+A Frozen Intersection~
+~
+There is a trail of blood on the ground, and a few broken arrows. It 
+appears some type of battle took place here. The tracks lead off to the 
+east passage. The ground has a frost along it's length. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6273
+D1
+~
+~
+0 -1 6276
+D2
+~
+~
+0 -1 6271
+R M 0 6252 11 6272
+S
+#6273
+Along the Icy Passageway~
+~
+There are blocks of ice laying about the passage here. A massive block of 
+ice has a frozen fish inside it. There are small piles of snow about the 
+area. A fresh set of tracks lead down the passage. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6274
+D1
+~
+~
+0 -1 6277
+D2
+~
+~
+0 -1 6272
+R M 0 6252 12 6273
+S
+#6274
+A Slippery Decent ~
+~
+A thin layer of ice covers a treacherous descent down below on large stone 
+slabs. There are small stones that protrude along the walls that appear to 
+be used to keep from slipping downward. A small pile of snow has been 
+pushed to the sides of the walls here. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6278
+D2
+~
+~
+0 -1 6273
+D5
+~
+~
+16777216 -1 6254
+R M 0 6252 12 6274
+R O 0 6254 1 6274
+S
+#6275
+Along a Frozen Passage~
+~
+The ground has a thick coating of solid ice over it. There is a frosting 
+along the walls giving a crystal-like effect to them throughout the 
+passage. A few stalagmites have formed along the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6276
+D1
+~
+~
+0 -1 6279
+D3
+~
+~
+0 -1 6271
+R M 0 6252 10 6275
+R M 0 6252 10 6275
+S
+#6276
+Within a Frozen Cavern~
+~
+Hastily made tracks on the ground scurry off to the east of here. There 
+are stalagmites formed along the ground here. The walls are covered in a 
+thin ice coating.  A small boulder is next to the wall.
+~
+1 8 13
+D0
+~
+~
+0 -1 6277
+D1
+~
+~
+0 -1 6280
+D2
+~
+~
+0 -1 6275
+D3
+~
+~
+0 -1 6272
+R M 0 6252 3 6276
+S
+#6277
+Within the Ice Encased Cavern~
+~
+The thick ice has enclosed what appears to be some type of vegetation 
+below. There are large icicles hanging from the ceiling and touching the 
+ground below. A few large rocks are scattered about the area. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6278
+D1
+~
+~
+0 -1 6281
+D2
+~
+~
+0 -1 6276
+D3
+~
+~
+0 -1 6273
+R M 0 6252 12 6277
+R O 0 6255 1 6277
+S
+#6278
+Along the Cavern Passageway~
+~
+A thin layer of ice covers the walls and ground here. A few stalagmites 
+are scattered about. Frozen foot prints are visible on the ground. A 
+dripping of water forms a small puddle in the center of the passage. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6282
+D2
+~
+~
+0 -1 6277
+D3
+~
+~
+0 -1 6274
+R M 0 6252 7 6278
+S
+#6279
+A Frozen Cave Entrance~
+~
+The cave walls close out the mighty wind from the outside, bringing a 
+warmth in the temperature. The remains of an old campfire is in the center 
+of the cave. A few pairs of tracks lead into the cave. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6280
+D1
+~
+~
+0 -1 6283
+D3
+~
+~
+0 -1 6275
+D11
+~
+~
+0 -1 51993
+S
+#6280
+Along the Icy Passageway~
+~
+The cavern has a series of icicles hanging from the ceiling and along the 
+ground here. Some are shattered into little pieces along the ground. A 
+small pool of blood is underneath one icicle that must've feel the 
+ceiling.  The walls have a thick coating of ice on them.
+~
+1 8 13
+D0
+~
+~
+0 -1 6281
+D1
+~
+~
+0 -1 6284
+D2
+~
+~
+0 -1 6279
+D3
+~
+~
+0 -1 6276
+R M 0 6255 1 6280
+S
+#6281
+A Snow Filled Chamber~
+~
+A heavy amount of snow has covered the icy ground. There is a large pile 
+of snow in the center of the chamber. Various tracks run this way and that 
+throughout the chamber in the snow. A few stalagmites stick out through 
+the deep snow drifts.
+~
+1 8 13
+D0
+~
+~
+0 -1 6282
+D1
+~
+~
+0 -1 6285
+D2
+~
+~
+0 -1 6280
+D3
+~
+~
+0 -1 6277
+R M 0 6252 6 6281
+S
+#6282
+An Icicle Filled Passageway~
+~
+There is a small frozen pond in the center of the passage. Large icicles 
+hang from the ceiling to the ground. Strange tracks lead down the passage. 
+Stalagmites are scattered among the ground. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6286
+D2
+~
+~
+0 -1 6281
+D3
+~
+~
+0 -1 6278
+R M 0 6252 1 6282
+S
+#6283
+Within the Icy Cavern~
+~
+The frost covered walls and floor make traveling dangerous. Snow covered 
+stone slabs have cracks across them on the floor. Icy patches have formed 
+from water that drips from above. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6284
+D1
+~
+~
+0 -1 6287
+D3
+~
+~
+0 -1 6279
+S
+#6284
+A Frozen Pond~
+~
+A massive frozen pond fills the area here. There is a trail of blood that 
+leads across the pond. A few stalagmites have formed on the ground around 
+the pond.  A small pile of snow is on the pond far side.
+~
+1 8 13
+D0
+~
+~
+0 -1 6285
+D1
+~
+~
+0 -1 6288
+D2
+~
+~
+0 -1 6283
+D3
+~
+~
+0 -1 6280
+R M 0 6252 4 6284
+S
+#6285
+An Icicle Filled Room~
+~
+The frost covered walls and floor make traveling dangerous. Snow covered 
+stone slabs have cracks across them on the floor. Icy patches have formed 
+from water that drips from above. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6286
+D1
+~
+~
+0 -1 6289
+D2
+~
+~
+0 -1 6284
+D3
+~
+~
+0 -1 6281
+R M 0 6252 5 6285
+S
+#6286
+Along the Passageway~
+~
+A think coating of ice covers the walls and floor here. There are strange 
+scarpaings along the ground leading down the passage. Stalagmites have 
+formed along the ground. 
+~
+1 8 13
+D1
+~
+~
+0 -1 6290
+D2
+~
+~
+0 -1 6285
+D3
+~
+~
+0 -1 6282
+S
+#6287
+An Intersection~
+~
+A thin coating of ice covers the walls and floors here. There are strange 
+scrapings along the ground. Stone labs that are covered in snow lead up 
+and down the descent. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6288
+D3
+~
+~
+0 -1 6283
+D5
+~
+~
+16777216 -1 6267
+S
+#6288
+A Snow Collapsed Section~
+~
+There is a small frozen pond in the center of the collapse. large icicles 
+hang from the ceiling to the ground. Strange tracks lead the passageway. A 
+few stalagmites have formed here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6289
+D2
+~
+~
+0 -1 6287
+D3
+~
+~
+0 -1 6284
+S
+#6289
+Along a Slippery Passage~
+~
+The room is coated with small piles of snow. A large icicle hangs from the 
+ceiling to the ground in the middle of the passage. The stone slabs along 
+the walls are coated in a thin layer of ice. 
+~
+1 8 13
+D0
+~
+~
+0 -1 6290
+D2
+~
+~
+0 -1 6288
+D3
+~
+~
+0 -1 6285
+S
+#6290
+A Snow Filled Decent ~
+~
+The frost covered walls and floor make traveling dangerous. Snow covered 
+stone slabs lead up and down the descent. Icy patches from the water above 
+drip down, making it slick. 
+~
+1 8 13
+D2
+~
+~
+0 -1 6289
+D3
+~
+~
+0 -1 6286
+D5
+~
+~
+16777216 -1 6270
+S
+#6300
+Floating in a void~
+~
+~
+1 268451852 13
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

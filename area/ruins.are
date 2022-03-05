@@ -1,0 +1,1489 @@
+#AREA        Ancient Ruins~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+70 90 60 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cSomething scraping along the ground is nearby.~
+
+#FLAGS
+452
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2600
+giant scorpion ~
+a giant scorpion~
+A giant scorpion is lurking here.
+~
+~
+3
+Clanname none~
+0
+0
+1 4194304 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+0 0 65568 0 256 0 557064 4196354
+#2601
+dekarth black dragon~
+Black Dragon Dekarth~
+An ancient black dragon is standing here.
+~
+~
+13
+Clanname none~
+0
+0
+132131 4194944 -1000 C
+90 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 8 0 0 1 1 0
+0 0 41 0 0 0 0 1026
+> all_greet_prog 100~
+mpecho An ancient black dragon roars!
+mppause 3
+stomp $n
+mppause 10
+tail $n
+mppause 20
+mpat 4 look
+mppause 20
+breath $n aoe
+mppause 20
+mpat 4 look
+mppause 10
+gut $n
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpecho An ancient black dragon bellows, 'You will now feel my full fury!!'
+mppause 20
+mpecho An ancient black dragon opens his jaws wide...
+mppause 20
+breath $n death
+~
+> fight_prog 5~
+stomp $n
+~
+|
+#2602
+gila monster~
+a gila monster~
+A gila monster lizard is standing here.
+~
+~
+9
+Clanname none~
+0
+0
+1 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 67592 0 0 0 524291 16777218
+#2603
+king snake~
+a king snake~
+A king snake is slithering about here.
+~
+~
+2
+Clanname none~
+0
+0
+1 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+58 4 0 0 1 1 0
+0 0 196608 352 0 0 1074266113 98
+#2604
+gargoyle statue~
+a gargoyle statue~
+A gargoyle statue is standing here.
+~
+~
+5
+Clanname none~
+0
+0
+1073872931 0 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 9 0 99 0 144 10
+#2605
+rotted mummy~
+a mummy~
+A half rotted mummy is standing before you.
+~
+~
+8
+Clanname none~
+0
+0
+97 4194432 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 4 0 0 1 1 0
+0 0 0 0 0 0 48 258
+> fight_prog 20~
+mppause 4
+mpecho &YThe amulet of Ra around the mummies neck begins to glow brightly.
+mppause 3
+mpecho &cThe walls begin to close in!
+mppause 6
+mpecho &cThe mummy becomes a cloud of swirling sand.
+mppause 20
+mpecho &RThe walls begin to close on you!
+mpdamage $n 500
+mpquest $n nomad 2
+~
+> death_prog 100~
+mpoload 2604 80
+get necklace
+~
+|
+#2606
+Desert Tortoise~
+a desert tortoise~
+A desert tortoise is lumbering about here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+82 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 4 0 0 1 1 0
+0 0 0 1048672 0 0 -2147483647 16779266
+#2607
+water beetle giant~
+a giant water beetle~
+A giant water beetle swims about here.
+~
+~
+1
+Clanname none~
+0
+0
+1 4194304 0 C
+88 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 4 0 0 1 1 0
+0 0 0 115 0 0 524289&1 546
+#2650
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4292610 0 C
+107 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog 'I am not defeated!'~
+mppause 3
+mpecho &wA swirling cloud of sand comes from the corpse of the mummy!
+mppause 10
+mpecho &WThe cloud begins to take on the form of the mummy!
+mppause 20
+mpecho &wThe mummy is suddenly whole again!
+mpmload 2605 85
+~
+> speech_prog p says, 'I am not defeated!'~
+mppause 3
+mpecho A swirling cloud of sand comes from the corpse of the mummy!
+mppause 10
+mpecho The cloud begins to take on the form of the mummy!
+mppause 20
+mpecho The mummy is suddenly whole again!
+mpmload 2605 85
+~
+> speech_prog p says 'I am not defeated!'~
+mppause 3
+mpecho A swirling cloud of sand comes from the corpse of the mummy!
+mppause 10
+mpecho The cloud begins to take on the form of the mummy!
+mppause 20
+mpecho The mummy is suddenly whole again!
+mpmload 2605 85
+~
+> act_prog p throws back its head and cackles with inane glee!~
+mppause 3
+mpecho A swirling cloud of sand comes from the corpse of the mummy!
+mppause 10
+mpecho The cloud begins to take on the form of the mummy!
+mppause 20
+mpecho The mummy is suddenly whole again!
+mpmload 2605 85
+~
+> speech_prog no~
+mppause 20
+mpecho A swirling cloud of sand comes from the corpse of the mummy!
+mppause 10
+mpecho The cloud begins to take on the form of the mummy!
+mppause 20
+mpecho The mummy is suddenly whole again!
+mpmload 2605 85
+~
+|
+#0
+
+
+#OBJECTS
+#2600
+dragon scale black belt~
+a dragon scale black belt~
+A dragon scale black belt has been left here.~
+~
+9 0 2049
+60 60 0 0 0 0 0
+1 264 26
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 15
+#2601
+black dragon orb~
+a black dragon orb~
+A large black orb draws your eye.~
+~
+4 64 16385
+70 8 8 -1 0 20 0
+8 1 0
+4
+13
+0
+0
+0
+0
+'shadowform'
+S 0 0
+A
+1 2
+#2602
+black dragon hide greaves~
+A pair of black dragon hide greaves~
+A pair of black dragon hide greaves has been left here.~
+~
+9 0 33
+60 60 0 0 0 0 0
+1 195 19
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 300
+#2603
+black dragon skull helmet~
+a black dragon skull helmet~
+A black dragon skull helmet has been left here.~
+~
+9 0 17
+60 60 0 0 0 88 0
+1 208 20
+1
+5
+0
+0
+0
+0
+S 77 0
+A
+12 300
+#2604
+necklace ra~
+a necklace of Ra~
+A necklace of Ra has been left here.~
+~
+8 0 5
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(nomad) == 2
+mpquest $n nomad 3
+endif
+~
+|
+#2605
+tooth dagger poison ~
+a poison tooth dagger~
+A poison tooth dagger has been left here.~
+~
+5 0 8193
+12 40 80 2 2 0 80
+3 174 17
+1
+3
+0
+0
+0
+0
+S 0 0
+A
+18 3
+A
+30 33
+#2606
+right half~
+a right half of a key~
+A right half of a key has been left here.~
+~
+54 0 1
+0 2607 2608 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mppause 2
+mpechoat $n &cBending down to get the key you notice painted glyphs on the walls.
+mppause 3
+mpechoat $n &cType&W LOOK GLYPHS
+~
+|
+#2607
+left half~
+a left half of a key~
+A left half of a key has been left here.~
+~
+54 0 1
+2606 0 2608 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#2608
+ancient key~
+an ancient key~
+An ancient key has been left here.~
+~
+18 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2609
+lever~
+a lever~
+A small lever is mounted to the ground here~
+~
+37 64 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+lever~
+This tiny lever seems to be made of some shiny red material. Slick
+to the touch, you have never seen anything quite like it.
+~
+> pull_prog 100~
+mppause 3
+mpecho &cYou hear a grinding of gears, as a wall suddenly starts to open to the west.
+mpopenpassage 2622 2625 3
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpecho &cYou hear a grinding of gears, as the walls suddenly closes to the west.
+mpclosepassage 2622 3
+~
+> push_prog 100~
+mppause 3
+mpecho &cYou hear a grinding of gears, as a wall suddenly starts to open to the west.
+mpopenpassage 2622 2625 3
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpecho &cYou hear a grinding of gears, as the walls suddenly closes to the west.
+mpclosepassage 2622 3
+~
+|
+#2650
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2600
+The Sand Pit~
+~
+The sand below gives away sending everything down into it's depths.  A
+few patches of stonework ruins are visible on the edges.  Old fossils
+here and there are scattered within the sand.
+~
+1 16777228 11
+D5
+~
+~
+0 -1 2601
+D11
+~
+~
+0 -1 62544
+S
+#2601
+Tunnel Intersection~
+~
+A sand filled intersection of tunnels. The walls are made of ancient 
+stonework. There are strange runes partially visible on the walls. A 
+broken altar of some type lays in rubble here. 
+~
+1 9 10
+D0
+~
+~
+0 -1 2605
+D1
+~
+~
+0 -1 2602
+D2
+~
+~
+0 -1 2603
+D3
+~
+~
+0 -1 2604
+S
+#2602
+Within a Passageway~
+~
+The passage turns towards the south.  There are tracks of some type in
+the sand on the ground.  The walls are made up of an ancient stonework.
+There are faded paintings on the walls that cannot be discerned.
+~
+1 8 10
+D2
+~
+~
+0 -1 2609
+D3
+~
+~
+0 -1 2601
+R M 0 2602 1 2602
+S
+#2603
+&RA Sarcophagus ~
+~
+A massive sarcophagus is in the center of the room.  There are jewels
+along the top, but a large hole announces a missing jewels in the center.
+The walls are made of an ancient stonework.
+~
+1 9 10
+D0
+~
+~
+0 -1 2601
+> entry_prog 100~
+if ispc($n)
+if quest(nomad) == 1
+mppause 2
+mpecho &cYou step on a loose stone and hear a click!
+mppause 5
+mpecho &cA strange mist cloud fills the room from the sarcoughigus.
+mppause 8
+mpecho &wThe mist starts to take the form of a half rotted mummy!
+mppause 4
+mpecho &cYou think it might be time to get out of here!
+mppause 20
+mpmload 2605 85
+endif
+endif
+~
+|
+S
+#2604
+Along a Passageway~
+~
+The passageway walls are made from ancient stonework. There are 
+stalagmites that are partially formed scattered about. A trail from 
+various creatures is visible on the ground. Ancient stonework is what 
+remains of the walls. 
+~
+1 9 10
+D1
+~
+~
+0 -1 2601
+D3
+~
+~
+0 -1 2611
+S
+#2605
+Within a Tunnel~
+~
+A large tunnel that has some cracks along the walls that extend nearly to 
+the ceiling. The walls are made out of some type of ancient stonework. A 
+dried up stain of blood is on the floor. 
+~
+1 9 10
+D1
+~
+~
+0 -1 2606
+D2
+~
+~
+0 -1 2601
+S
+#2606
+A Partially Collapsed Tunnel~
+~
+Part of the ceiling has collapsed here, but it is still passable. There 
+are cracks along the walls that extend to the ceiling. The walls are made 
+out of an ancient type of stonework. 
+~
+1 9 10
+D0
+~
+~
+0 -1 2607
+D3
+~
+~
+0 -1 2605
+R M 0 2603 2 2606
+R M 0 2603 2 2606
+S
+#2607
+Along a Tunnel~
+~
+Within the tunnel the walls have cracks running up them. A small amount of 
+crushed stones is scattered about the floor. A half of a breastbone lays 
+on the ground here. 
+~
+1 9 10
+D1
+~
+~
+0 -1 2608
+D2
+~
+~
+0 -1 2606
+S
+#2608
+A Pool of Water~
+~
+There is a pool of water within a marble cased stand.  There are painted
+glyphs along the walls that appear to be instructions of some sort.  A
+thick layer of mildew covers the north wall.
+~
+1 8 10
+D3
+~
+~
+0 -1 2607
+D5
+~
+~
+0 -1 2621
+S
+#2609
+Along a Passageway ~
+~
+There are strange markings along the ground as if something heavy has been
+drug across the length of the passageway.  The walls are made out of an
+ancient stonework that now has some cracks in it.
+~
+1 9 10
+D0
+~
+~
+0 -1 2602
+D1
+~
+~
+0 -1 2610
+S
+#2610
+A Pool of Water~
+~
+A solid marble housing surrounds clear water in the center of the room.
+A layer of mildew covers the walls.  A torch is on both sides of the walls
+providing lighting for the room.
+~
+1 8 10
+D3
+~
+~
+0 -1 2609
+R M 0 2600 3 2610
+  R G 0 2605 1
+R M 0 2600 3 2610
+  R G 0 2605 1
+S
+#2611
+Within the Passageway~
+~
+The ancient stonework is cracked and crumbling along the walls. A bleached 
+white skeleton of some creature lays against the wall here. There are 
+tracks from something that run along the passageway. 
+~
+1 9 10
+D0
+~
+~
+0 -1 2614
+D1
+~
+~
+0 -1 2604
+D2
+~
+~
+0 -1 2612
+S
+#2612
+Along the Passageway ~
+~
+There are dark red blood stains along the walls here.  A small patch of
+mushrooms has started growing along the edges.  The walls themselves are
+starting to get cracks within them.
+~
+1 9 10
+D0
+~
+~
+0 -1 2611
+D1
+~
+~
+0 -1 2613
+S
+#2613
+A Pool of Water~
+~
+A broken and cracked marble casing surrounds a clear pool of water. A 
+faded painting is on the wall. A dead rat lies tangled up in a cobweb 
+against the edge of the pool. 
+~
+1 8 10
+D3
+~
+~
+0 -1 2612
+D5
+~
+~
+0 -1 2619
+E
+painting~
+A painting of a black dragon being worshipped by a slave like people.
+~
+S
+#2614
+Along the Passageway~
+~
+The passage is lined with statues of hideous creatures. A patch of 
+mushrooms grows along the wall edges. There are scrapings from something 
+along the ground. 
+~
+1 9 10
+D1
+~
+~
+0 -1 2615
+D2
+~
+~
+0 -1 2611
+R M 0 2604 2 2614
+R M 0 2604 2 2614
+S
+#2615
+Within the Passageway~
+~
+There are cracks in the walls along the path here.  A set of tracks from
+some creature runs along the passageway.  A few small bones litter the
+ground throughout the area.
+~
+1 9 10
+D0
+~
+~
+0 -1 2616
+D3
+~
+~
+0 -1 2614
+S
+#2616
+Pool of Water~
+~
+The room is filled with clusters of mushrooms.  The mushrooms surround a
+pool of water.  The walls are covered in a thick layer of mildew.  There is
+a torch hanging on the wall that provides lighting.
+~
+1 8 10
+D2
+~
+~
+0 -1 2615
+D5
+~
+~
+0 -1 2620
+S
+#2617
+A Cave Lair~
+~
+A massive cave houses a mound of treasure here.  There is a giant hill of
+skeletons that is stacked in the corner of the cave.  Massive claw marks
+are along the cave floor.
+~
+1 9 0
+D5
+~
+~
+0 -1 2618
+D7
+~
+~
+0 -1 62394
+R M 0 2601 1 2617
+  R G 0 2600 1
+  R G 0 2601 1
+  R G 0 2602 1
+  R G 0 2603 1
+S
+#2618
+An Ancient Stairway~
+~
+A cracked and crumbling ancient stone stairway leads up and down.  There
+are torches along the walls that provide lighting here.  A few small rocks
+have fallen from the ceiling and litter the stairs.
+~
+1 9 13
+D1
+~
+~
+0 -1 2629
+D4
+~
+~
+0 -1 2617
+S
+#2619
+A Lighted Underwater Cavern~
+~
+Completely submerged the cavern has a heavy vegetation growth along the 
+bottom. Various objects float about within the water. A strange light 
+comes from above.  A series of glyph paintings decorate the walls.
+~
+1 8 8
+D4
+~
+~
+0 -1 2613
+R O 0 2606 1 2619
+E
+GLYPHS~
+&ZThe paintings are in a variety of color, but depict an ancient slave
+&ZLike people that worshipped a mighty dragon.  On the other side of
+&Zthe wall, the paintings depict a double half key, that once CONNECTED
+&Zforms a whole key unlocking the way to the dragon.
+~
+S
+#2620
+A lighted Underwater Cavern~
+~
+The cavern is completely underwater here. The water is thick with floating 
+debris. Heavy vegetation grows along the bottom. A strange light comes 
+from above. A few small rocks are along the bottom. 
+~
+1 8 8
+D4
+~
+~
+0 -1 2616
+S
+#2621
+A Lighted Underwater Cavern~
+~
+Light from above illuminates the water here.  The ground is covered in a
+heavy vegetation growth.  There are strange objects floating about in the
+water.  A few stones are along the ground.
+~
+1 8 8
+D2
+~
+iron door~
+8389665 2608 2623
+D4
+~
+~
+0 -1 2608
+R D 0 2621 2 0
+S
+#2622
+A Lighted Underwater Cavern~
+~
+A sparse vegetation along the ground is intermingled with small smooth 
+stones. The cavern is completely underwater. There is a faint light that 
+comes from above. A strange lever type device is along the ground. 
+~
+1 8 8
+D0
+~
+~
+0 -1 2624
+R O 0 2609 1 2622
+S
+#2623
+A Broken Altar~
+~
+An altar that has been broke clean down the middle of it lies here on it's 
+sides. A thick vegetation grows along the ground. There are faded 
+tapestries that hang from the walls. 
+~
+1 9 8
+D0
+~
+iron door~
+3 2608 2621
+D2
+~
+~
+0 -1 2624
+R D 0 2623 0 1
+S
+#2624
+Along an Ancient Corridor~
+~
+There are small skeletons scattered about the cavern. A thick growth of 
+vegetation is along the bottom here. There are stalagmites throughout the 
+cavern area.  Some small stones are along the bottom.
+~
+1 9 8
+D0
+~
+~
+0 -1 2623
+D2
+~
+~
+0 -1 2622
+R M 0 2607 2 2624
+R M 0 2607 2 2624
+S
+#2625
+The Quarry~
+~
+The cavern is filled with large quartz rocks and boulders. There is some 
+vegetation that grows between the rocks. Stalagmites are scattered about 
+the cavern. A few small skeletons are littered on the ground. 
+~
+1 9 8
+D0
+~
+~
+0 -1 2626
+S
+#2626
+Within an Intersection~
+~
+The ancient stonework along the walls are cracked in many places. There is 
+mildew growing along the walls. A thick vegetation is along the ground. A 
+few small stones are intermingled in the vegetation. 
+~
+1 9 8
+D0
+~
+~
+0 -1 2628
+D2
+~
+~
+0 -1 2625
+D3
+~
+~
+0 -1 2627
+S
+#2627
+An Overgrown Cavern~
+~
+The cavern is thick with heavy vegetation. Several large clusters of 
+mushrooms grow thoughout the cavern. A series of smooth stones line the 
+bottom with the vegetation. 
+~
+1 9 8
+D1
+~
+~
+0 -1 2626
+S
+#2628
+Along an Ancient Corridor~
+~
+The small passageway is filled with heavy vegetation growth along the 
+bottom. A few faded pictures on the walls are covered up with mildew. 
+There are smooth stones along the bottom. 
+~
+1 9 8
+D2
+~
+~
+0 -1 2626
+D3
+~
+~
+0 -1 2629
+S
+#2629
+Within an Ancient Corridor~
+~
+A few stalagmites are scattered about the cavern. A sparse vegetation 
+growth is along the ground. A giant boulder is in the center of the 
+cavern. The boulder nearly touches the ceiling of the cavern. There is a 
+pile of rocks to the west. 
+~
+1 9 8
+D1
+~
+~
+0 -1 2628
+D3
+~
+~
+256 -1 2618
+R D 0 2629 3 3
+> entry_prog 100~
+mppause 2
+mpecho &cTo the west there appears to be a hidden passage behind some rocks.
+~
+|
+S
+#2630
+Floating in a void~
+~
+~
+1 1032 10
+D0
+~
+~
+0 -1 2631
+D2
+~
+~
+0 -1 2629
+D3
+~
+~
+0 -1 2623
+S
+#2631
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2632
+D1
+~
+~
+0 -1 2638
+D2
+~
+~
+0 -1 2630
+D3
+~
+~
+0 -1 2624
+S
+#2632
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2633
+D1
+~
+~
+0 -1 2639
+D2
+~
+~
+0 -1 2631
+D3
+~
+~
+0 -1 2625
+S
+#2633
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2634
+D1
+~
+~
+0 -1 2640
+D2
+~
+~
+0 -1 2632
+D3
+~
+~
+0 -1 2626
+S
+#2634
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2635
+D1
+~
+~
+0 -1 2641
+D2
+~
+~
+0 -1 2633
+D3
+~
+~
+0 -1 2627
+S
+#2635
+Floating in a void~
+~
+~
+1 0 10
+D1
+~
+~
+0 -1 2642
+D2
+~
+~
+0 -1 2634
+D3
+~
+~
+0 -1 2628
+S
+#2636
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2637
+D1
+~
+~
+0 -1 2643
+D3
+~
+~
+0 -1 2629
+S
+#2637
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2638
+D1
+~
+~
+0 -1 2644
+D2
+~
+~
+0 -1 2636
+D3
+~
+~
+0 -1 2630
+S
+#2638
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2639
+D1
+~
+~
+0 -1 2645
+D2
+~
+~
+0 -1 2637
+D3
+~
+~
+0 -1 2631
+S
+#2639
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2640
+D1
+~
+~
+0 -1 2646
+D2
+~
+~
+0 -1 2638
+D3
+~
+~
+0 -1 2632
+S
+#2640
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2641
+D1
+~
+~
+0 -1 2647
+D2
+~
+~
+0 -1 2639
+D3
+~
+~
+0 -1 2633
+S
+#2641
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2642
+D1
+~
+~
+0 -1 2648
+D2
+~
+~
+0 -1 2640
+D3
+~
+~
+0 -1 2634
+S
+#2642
+Floating in a void~
+~
+~
+1 0 10
+D1
+~
+~
+0 -1 2649
+D2
+~
+~
+0 -1 2641
+D3
+~
+~
+0 -1 2635
+S
+#2643
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2644
+D3
+~
+~
+0 -1 2636
+S
+#2644
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2645
+D2
+~
+~
+0 -1 2643
+D3
+~
+~
+0 -1 2637
+S
+#2645
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2646
+D2
+~
+~
+0 -1 2644
+D3
+~
+~
+0 -1 2638
+S
+#2646
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2647
+D2
+~
+~
+0 -1 2645
+D3
+~
+~
+0 -1 2639
+S
+#2647
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2648
+D2
+~
+~
+0 -1 2646
+D3
+~
+~
+0 -1 2640
+S
+#2648
+Floating in a void~
+~
+~
+1 0 10
+D0
+~
+~
+0 -1 2649
+D2
+~
+~
+0 -1 2647
+D3
+~
+~
+0 -1 2641
+S
+#2649
+Floating in a void~
+~
+~
+1 0 10
+D2
+~
+~
+0 -1 2648
+D3
+~
+~
+0 -1 2642
+S
+#2650
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

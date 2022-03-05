@@ -1,0 +1,615 @@
+#AREA        Quest Area for Game Events~
+
+
+
+#VERSION     11
+#AUTHOR      Aurin~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 100 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG I swear, I'm working!~
+
+#FLAGS
+17860 60
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 125000000 0 0 10 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#1350
+voracious kitten~
+a voracious kitten~
+A voracious kitten lurks for unsuspecting prey.
+~
+Such a cute little thing. Hard to believe that it wants to rip out your 
+throat just for a little food in it's tummy. 
+~
+0
+Clanname none~
+0
+0
+1107296259 128&0&4 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+11 13 13 15 25 19 13
+0 0 0 0 0
+27 6 0 0 1 1 0
+0 0 134283777 0 0 32 1095 67113227
+> act_prog 100 pet kitten~
+emote licks $n's face.
+~
+> all_greet_prog 100~
+if class($n) == bard
+  mpechoat $n &CYou are a bard.
+else
+if secondclass($n) == bard
+  mpechoat $n &CYou are second class bard.
+else
+if thirdclass($n) == bard
+  mpechoat $n &CYou are third class bard.
+endif
+endif
+endif
+~
+|
+#1351
+test mob~
+test mob~
+Test mob
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1352
+ashardalon demon dragon towers hellfire~
+Ashardalon~
+Ashardalon, the demon dragon, towers over the nearby buildings, wreathed in hellfire.
+~
+~
+0
+Clanname none~
+0
+0
+33 0&2097152 0 C
+40 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 11 0 0 1 1 0
+0 0 0 0 1 2 8263&1 100663555
+> fight_prog 100~
+c 'greater heal' self
+c 'greater heal' self
+c 'greater heal' self
+c 'greater heal' self
+c 'greater heal' self
+~
+|
+#1353
+momma cat~
+the momma cat~
+The Momma Cat prowls around for those that harm her kittens.
+~
+Such a cute little thing. Hard to believe that it wants to rip out your 
+throat just for a little food in it's tummy. 
+~
+0
+Clanname none~
+0
+0
+33554435 128&0&4 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+11 13 13 15 25 19 13
+0 0 0 0 0
+27 6 0 0 1 1 0
+0 0 134283777 0 0 32 1095 100667659
+#1354
+mob~
+a newly created mob~
+Some god abandoned a newly created mob here.
+~
+~
+5
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1360
+Ruri the cat~
+Ruri, the winged cat~
+A cat with fur the color of dawn and white wings sits here peacefully, licking her paw.
+~
+Ruri cat winged
+Only a foot tall, this little cat has a pair of large white wings sprouting from its back. Her fur is a gentle shade of pink, like the sky at dawn, and is not only soft and cuddly, but also impeccably clean. A small golden bell dangles from the white ribbon tied around her neck. A pair of large violet eyes stare up at you sweetly.
+~
+5
+Clanname none~
+0
+0
+131075 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 14 0 0 1 1 0
+0 0 671186944 2058 1050624 144 536887364&8 1610617090
+> speech_prog p hello~
+mpoload 1363 100
+
+mpat rene tell rene $n is here.
+~
+> act_prog p pulls you close and begins to pet you lovingly.~
+mea $n &cRuri, the winged cat meows endearingly at you and brushes up against your legs affectionately.&D
+mer $n &cRuri, the winged cat, meows endearingly at $n and brushes up against $s legs affectionately.
+~
+|
+#1399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1350
+hobgoblin arm~
+a hobgoblin's arm~
+The hacked off portion of a hobgoblin's arm~
+~
+13 0 16385
+0 5 15 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 3 0
+> rand_prog 100~
+if mobinarea(1350) < 1
+mpmload 1350
+else
+if mobinarea(1350) == 1
+mpmload 1350
+mpmload 1350
+else
+if mobinarea(1350) == 2
+mpmload 1350
+mpmload 1350
+mpmload 1350
+else
+if mobinarea(1350) == 3
+mpmload 1350
+mpmload 1350
+mpmload 1350
+mpmload 1350
+else
+if mobinarea(1350) < 8
+else
+endif
+endif
+endif
+endif
+endif
+~
+|
+#1351
+troll heart~
+a troll's heart~
+A pulsating, bleeding heart~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+> drop_prog 100~
+if inroom($n) == 1350
+  if rand(10)
+    mpecho &W$n WINS GLORY!&D
+  else
+    if rand(10)
+      mpecho &W$n WINS EQUIPMENT!&D
+    else
+      if rand(10)
+        mpecho &W$n WINS A STAFF BREWED POT!&D
+      else
+        mpecho &W$n WINS NOTHING!&D
+      endif
+    endif
+  endif
+endif
+mppurge
+~
+|
+#1352
+drow eye~
+a drow's eye~
+Small and squishee, it is repulsing.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#1353
+black rat tail~
+a black rat's severed tail~
+Small and whip-like, it is none to pretty to look at~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#1355
+kitten tail~
+a kitten's fluffy tail~
+A fluffy kitten tail~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 1 0
+#1360
+amaranthine scale~
+an amaranthine scale~
+An amaranthine scale sit here, gleaming slickly.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+4
+6
+0
+0
+0
+0
+S 0 0
+E
+amaranthine scale~
+Its polished surface glistening, this scale is a dark reddish-purple color. The shade is the same as that of the flower from which the color derives its name. Upon the inside, a small message has been carved in lavender, reading "Please return this to Rene!".
+~
+#1361
+golden sign~
+a golden sign~
+A golden sign floats here. Perhaps you should LOOK GOLDEN.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+sign golden sign~
+&ODecorated with a faint engraving of the continet, this golden sign reads:
+
+&YAN OPEN INVITATION TO THE CITIZENS AND SUPPORTERS OF THE THREE CITIES- &rDAKAR, &bFORBIDDEN, AND &CPALEON! 
+
+&pThe First Amaranthine Tourney &Ywill take place soon, so prepare your swords, your boots and your wits for a nonstop chain of events! 
+
+&W(OOC: For the times and details, please do the following commands- GENERAL BOARD, then NOTE READ 7 )
+
+&YTAKE UP THE CHALLENGE AND REPRESENT YOUR CITY IN &pTHE FIRST AMARANTHINE TOURNEY!
+~
+E
+sign golden~
+&ODecorated with a faint engraving of the continet, this golden sign reads:
+
+&YAN OPEN INVITATION TO THE CITIZENS AND SUPPORTERS OF THE THREE CITIES- &rDAKAR, &bFORBIDDEN, AND &CPALEON! 
+&pThe First Amaranthine Tourney &Ywill take place soon, so prepare your swords, your boots and your wits for a nonstop chain of events! 
+&W(OOC: For the times and details, please do the following commands- GENERAL BOARD, then NOTE READ 7 )
+&YTAKE UP THE CHALLENGE AND REPRESENT YOUR CITY IN &pTHE FIRST AMARANTHINE TOURNEY!
+~
+#1362
+amaranthine flag with gold crescent~
+an amaranthine flag with a gold crescent~
+An amaranthine flag emblazoned with a golden crescent flies proudly from a slender pole of gold here.~
+~
+9 3 540673
+2 2 0 0 0 0 0
+1 1000 100
+1
+12
+0
+0
+0
+0
+S 0 0
+E
+flag amaranthine flag gold crescent~
+Attached to a slim golden pole, this flag is a dark amaranthine color with an embellished crescent motif emblazoned upon it in gold. It seems to be made of a silken material and shows an iridescent shimmer in the light.
+~
+E
+flag amaranthine gold crescent~
+Attached to a slim golden pole, this flag is a dark amaranthine color with an embellished crescent motif emblazoned upon it in gold. It seems to be made of a silken material and shows an iridescent shimmer in the light.
+~
+#1363
+an amaranthine baton~
+an amaranthine crystalline baton~
+A crystalline baton of rich amaranthine hue hovers here in the air, supported by a small magical breeze.~
+~
+3 2 24577
+0 0 0 -1 0 0 0
+1 1000 100
+1
+10
+0
+0
+0
+0
+'NONE'
+S 0 0
+E
+baton crystalline amaranthine crystal~
+This small, thin baton is made of a clear amaranthine-hued crystal. On either ends of the baton, a pair of dragon wings stretch out majestically. It is constantly surrounded by a subtle breeze, looking as though the baton itself may fly away at any moment.
+~
+#1364
+goblet of pomegranate juice~
+a goblet of pomegranate juice~
+A glass goblet holding a dark purple liquid sits here.~
+~
+17 0 1
+6 6 8 0 164 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#1365
+a handful of amaranth berries~
+a handful of amaranth berries~
+A handful of violet amaranth berries lies here in a small pile. ~
+~
+26 0 0
+100 -1 -1 -1 0 1 0
+1 300 30
+1
+10
+0
+0
+0
+0
+'greater heal' 'refresh' 'draw mana'
+S 0 0
+E
+amaranth violet berries~
+This small cluster of round berries no larger than peas has a vivid violet hue. Faint indigo speckles cover one end of these slightly transparent berries, and a dark, oval pit is barely visible inside.
+~
+> use_prog 80 ~
+mpechoat $n &PAs you bite into the berries, a sour taste like that of a lemon fills your mouth and leaves a sweet aftertaste.&D
+mer $n $n puckers $s mouth as $e bites into a handful of amaranth berries. 
+~
+|
+#1366
+city trophy~
+a shining gold trophy~
+A large golden trophy, shining brightly, has been mounted here onto a tall pedestal.~
+~
+25 64 0
+99999 99999 2 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+> use_prog 70~
+mea $n &rWine spills into the trophy from an unseen source as you lean over to sip from it. With each sip, the heady aroma of amaranth flowers fills your senses.&D 
+mer $n &rAs $n leans over the trophy's edge, wine cascades down the sides to fill it with the burgundy liquid. A faint scent of amaranth flowers fill the air.&D
+mppause 15
+mea $n &rSuddenly, you see reflections swirling in the dark liquid. Images of events such as dragonteases and labyrinth races form and dissolve into the wine, and you are left feeling nostalgic for times past.&D
+~
+|
+#1367
+obsidian trophy~
+an obsidian trophy~
+A small trophy of glassy obsidian rests here on a stone pedestal.~
+~
+36 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+trophy obsidian~
+This ebony trophy made of sleek obsidian is the shape of an inverted trapezoid, tapering towards the bottom. Words barely readable have been etched into two of its faces. One face reads "DAWN" and the other reads "DUSK". The top surface bears the imprint of the letters "AT". Made of durable black stone, the pedestal which the trophy rests on features a silver plaque engraved "Awarded to the Most Epic Contestant of the First Amaranthine Tournament".
+~
+> push_prog 100~
+mea $n &bAs you turn the trophy so the word "DAWN" lines up with the silver plaque on the pedestal, a gentle lullaby begins to play. It brings back vague memories and leaves you with a sadness at its ending.&D
+mer $n &bAs $n turns the trophy so the word "DAWN" lines up with the silver plaque on the pedestal, a gentle lullaby begins to play. It brings back vague memories and leaves you with a sadness at its ending.&D
+~
+> pull_prog 100~
+mea $n &bAs you turn the trophy so the word "DUSK" lines up with the silver plaque on the pedestal, a sad lament begins to play. Its musicbox chimes fill you with a sense of sorrow and loneliness.&D
+mer $n &bAs $n turns the trophy so the word "DUSK" lines up with the silver plaque on the pedestal, a sad lament begins to play. Its musicbox chimes fill you with a sense of sorrow and loneliness.&D
+~
+|
+#1368
+ceramic trophy~
+a brightly colored ceramic trophy~
+A ceramic trophy painted with colorful swirls rests here on a white marble pedestal.~
+~
+37 0 16385
+0 0 0 0 0 0 0
+1 10000 1000
+1
+3
+0
+0
+0
+0
+S 0 0
+E
+trophy ceramic~
+This trophy made of smooth ceramic looks suspiciously like a three-pointed jester's hat. A rainbow of colors swirl over the surface in large painted stripes, creating a psychedelic pattern almost hypnotising to look at. A small silver plaque on the pedestal reads "Awarded to the Funniest Contestant of the First Amaranthine Tournament!"
+~
+> push_prog 100~
+mer $n &YAs $n pushes on one side of the trophy, the hat begins to turn clockwise slowly and a soft jingling tune starts playing.&D
+mea $n &YAs you push on one side of the trophy, the hat begins to turn clockwise slowly and a soft jingling tune starts playing. &D
+
+mppause 20
+
+mpe &YThe hat continues to turn at the same lazy speed, but the tune begins to speed up.&D
+mppause 20
+
+mpe &YSuddenly, with a loud "POP!", confetti and glitter dust shoot out the top of the trophy.&D
+~
+> pull_prog 100~
+mea $n &cYou give the trophy a small pull and it slowly spins counterclockwise with a strange wind-up noise.&D
+mer $n &c$n gives the trophy a small pull and it slowly spins counterclockwise with a strange wind-up noise.&D
+
+mppause 20
+mpe &cThe trophy stops spinning and comes to rest with a quiet "click". &D
+~
+|
+#1399
+last obj~
+Upon closer inspection, this couch does not appear to have much of any padding left, it's been so over-used.  Pressing down on the surface, the cross boards and springs can be felt.  It would make one ponder how anyone could sleep on such an old and outdated model.~
+A medium sized black couch rests here~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#1350
+Aurin's Cluttered Mess~
+~
+Welcome to my cluttered mess. All around this cramped little hole are 
+piles of papers just waiting to be filled out and filed. It's a shame &D
+Aurin is not currently around to entertain, but he's off with others 
+having the time of his life! Okay, so that's not probable. The couch is in 
+the corner, where Aurin naps on occassion. Off next to the wall/corner is 
+a workstation piled high with ideas...as soon as he figures out what to 
+place on the blank pages. 
+~
+1 0 2
+D6
+~
+~
+3 -1 1200
+R D 0 1350 6 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1350 spec_thief
+M  1353 spec_thief
+S
+
+
+#$

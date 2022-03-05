@@ -1,0 +1,1274 @@
+#CLAN
+Name         Alliance~
+Filename     alliance.cln~
+Intro        There can be only one.  It will not be the Throng, but Alliance who will prevail!~
+Motto        Knowledge is power, the more you rush it the less you learn.~
+Description  This organization is tightly bound from individuals who are dedicated to the fight against the rising evil.  Commonly beseeched upon by Kings and Lords who wish their lands to be rid of the shadowy figures of darkness. It is expected that every member of this clan is willing to lay down their lives for the cause of good. It requires absolute dedication to excel through the ranks of The Alliance.~
+Warmaster    Kyrigan~
+Chieftain    Quinnd~
+Badge        (null)~
+PKillRangeNew   0 3 1 1 2 12 0 5 3 0 10
+PDeathRangeNew  10 1 0 9 0 10 2 2 2 5 61757
+MKills       75455
+MDeaths      954
+IllegalPK    2
+Score        0
+Type         0
+Members      107
+MemLimit     1000
+Alignment    0
+Board        0
+ClanObjOne   1163
+ClanObjTwo   1165
+ClanObjThree 1166
+ClanObjFour  1167
+ClanObjFive  1168
+Clanstatus   3
+Recall       1163
+Totalpoints  26142
+GuardOne     25654
+GuardTwo     0
+ArenaVictory 197
+Chieflog     1518404628
+Warlog     1517617021
+PKILLAREA         shattered refuge~
+PKILLAREA         Rift Invasion~
+PKILLAREA         Miden'nir~
+End
+
+#ROSTER
+Name       Quinnd~
+Joined     1510508836
+Updated    1519001958
+Race       Elf~
+Level      17
+PKills     0
+Kills      432
+Deaths     4
+TradeClass 22
+TradeLevel 6
+End
+
+#ROSTER
+Name       Kwai~
+Joined     1471711585
+Updated    1519009366
+Race       Human~
+Level      12
+PKills     0
+Kills      83
+Deaths     2
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kyrigan~
+Joined     1408032981
+Updated    1517617021
+Race       Vampire~
+Level      44
+PKills     0
+Kills      665
+Deaths     10
+TradeClass 20
+TradeLevel 10
+End
+
+#ROSTER
+Name       Ilanthas~
+Joined     1469983479
+Updated    1516746074
+Race       Elf~
+Level      23
+PKills     0
+Kills      280
+Deaths     10
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Tharra~
+Joined     1473736453
+Updated    1513692761
+Race       Elf~
+Level      32
+PKills     0
+Kills      381
+Deaths     5
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Serren~
+Joined     1478996509
+Updated    1513755091
+Race       Shade~
+Level      31
+PKills     0
+Kills      201
+Deaths     4
+TradeClass 25
+TradeLevel 20
+End
+
+#ROSTER
+Name       Warrenn~
+Joined     1486222605
+Updated    1513365214
+Race       Human~
+Level      30
+PKills     0
+Kills      217
+Deaths     5
+TradeClass 24
+TradeLevel 20
+End
+
+#ROSTER
+Name       Margaret~
+Joined     1473373165
+Updated    1511126339
+Race       Celestial~
+Level      35
+PKills     0
+Kills      556
+Deaths     29
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Frick~
+Joined     1497480863
+Updated    1510529957
+Race       Dwarf~
+Level      46
+PKills     0
+Kills      64
+Deaths     0
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Nebula~
+Joined     1470195599
+Updated    1510529957
+Race       Mindflayer~
+Level      46
+PKills     3
+Kills      473
+Deaths     5
+TradeClass 20
+TradeLevel 10
+End
+
+#ROSTER
+Name       Saltus~
+Joined     1498017966
+Updated    1510529957
+Race       Animal~
+Level      43
+PKills     0
+Kills      282
+Deaths     13
+TradeClass 25
+TradeLevel 6
+End
+
+#ROSTER
+Name       Syndriel~
+Joined     1453187527
+Updated    1510527849
+Race       Celestial~
+Level      33
+PKills     1
+Kills      77
+Deaths     0
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Nicodemus~
+Joined     1470521015
+Updated    1510528265
+Race       Centaur~
+Level      32
+PKills     2
+Kills      2355
+Deaths     9
+TradeClass 24
+TradeLevel 20
+End
+
+#ROSTER
+Name       Talon~
+Joined     1498263171
+Updated    1510529957
+Race       Animal~
+Level      28
+PKills     0
+Kills      51
+Deaths     0
+TradeClass 24
+TradeLevel 15
+End
+
+#ROSTER
+Name       Impulse~
+Joined     1473560979
+Updated    1510529957
+Race       Mindflayer~
+Level      28
+PKills     0
+Kills      153
+Deaths     0
+TradeClass 24
+TradeLevel 20
+End
+
+#ROSTER
+Name       Luxx~
+Joined     1509153180
+Updated    1510529957
+Race       Celestial~
+Level      26
+PKills     0
+Kills      90
+Deaths     0
+TradeClass 24
+TradeLevel 3
+End
+
+#ROSTER
+Name       Griff~
+Joined     1471358627
+Updated    1510529957
+Race       Elf~
+Level      26
+PKills     0
+Kills      62
+Deaths     3
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Desmond~
+Joined     1453257651
+Updated    1510529957
+Race       Mindflayer~
+Level      25
+PKills     0
+Kills      87
+Deaths     0
+TradeClass 24
+TradeLevel 19
+End
+
+#ROSTER
+Name       Jayden~
+Joined     1498094489
+Updated    1510529957
+Race       Elf~
+Level      24
+PKills     0
+Kills      46
+Deaths     1
+TradeClass 24
+TradeLevel 4
+End
+
+#ROSTER
+Name       Shenzu~
+Joined     1454468292
+Updated    1510529746
+Race       Elf~
+Level      23
+PKills     0
+Kills      78
+Deaths     0
+TradeClass 22
+TradeLevel 18
+End
+
+#ROSTER
+Name       Crux~
+Joined     1446780587
+Updated    1510529957
+Race       Elf~
+Level      20
+PKills     0
+Kills      79
+Deaths     0
+TradeClass 22
+TradeLevel 1
+End
+
+#ROSTER
+Name       Numair~
+Joined     1470541331
+Updated    1510529957
+Race       Elf~
+Level      19
+PKills     0
+Kills      82
+Deaths     3
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Raziel~
+Joined     1470418027
+Updated    1510529957
+Race       Celestial~
+Level      19
+PKills     0
+Kills      91
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Rayne~
+Joined     1472356282
+Updated    1510529957
+Race       Animal~
+Level      18
+PKills     0
+Kills      70
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kuardrin~
+Joined     1509453675
+Updated    1510678973
+Race       Celestial~
+Level      17
+PKills     0
+Kills      343
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Weiryn~
+Joined     1446475415
+Updated    1510529957
+Race       Animal~
+Level      16
+PKills     0
+Kills      96
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Rayvan~
+Joined     1509206340
+Updated    1509934997
+Race       Dwarf~
+Level      48
+PKills     0
+Kills      197
+Deaths     4
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Abraxas~
+Joined     1470872253
+Updated    1509926457
+Race       Demon~
+Level      46
+PKills     1
+Kills      302
+Deaths     2
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Viktor~
+Joined     1509291393
+Updated    1509834399
+Race       Elf~
+Level      46
+PKills     0
+Kills      206
+Deaths     1
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Leonem~
+Joined     1414299576
+Updated    1509856121
+Race       Elf~
+Level      35
+PKills     0
+Kills      196
+Deaths     5
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Cultro~
+Joined     1509405202
+Updated    1509902162
+Race       Shade~
+Level      33
+PKills     0
+Kills      162
+Deaths     0
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Beedle~
+Joined     1471402782
+Updated    1509856121
+Race       Human~
+Level      26
+PKills     0
+Kills      81
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kalsin~
+Joined     1470365644
+Updated    1509926457
+Race       Demon~
+Level      23
+PKills     0
+Kills      149
+Deaths     2
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Oberon~
+Joined     1471054351
+Updated    1509856121
+Race       Dwarf~
+Level      17
+PKills     0
+Kills      50
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Cantor~
+Joined     1453342046
+Updated    1509856121
+Race       Elf~
+Level      12
+PKills     0
+Kills      35
+Deaths     0
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Thorne~
+Joined     1453682792
+Updated    1509328830
+Race       Human~
+Level      52
+PKills     4
+Kills      486
+Deaths     1
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Kyndai~
+Joined     1415129165
+Updated    1509323761
+Race       Elf~
+Level      27
+PKills     0
+Kills      312
+Deaths     3
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Gedd~
+Joined     1509141139
+Updated    1509147072
+Race       Centaur~
+Level      19
+PKills     0
+Kills      78
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Nwyfre~
+Joined     1497480819
+Updated    1509195166
+Race       Human~
+Level      14
+PKills     0
+Kills      52
+Deaths     0
+TradeClass 25
+TradeLevel 20
+End
+
+#ROSTER
+Name       Cole~
+Joined     1497449921
+Updated    1508796035
+Race       Centaur~
+Level      21
+PKills     0
+Kills      79
+Deaths     1
+TradeClass 25
+TradeLevel 20
+End
+
+#ROSTER
+Name       Mendicus~
+Joined     1446517090
+Updated    1503813645
+Race       Gnome~
+Level      58
+PKills     5
+Kills      849
+Deaths     8
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Esther~
+Joined     1477197167
+Updated    1503438033
+Race       Elf~
+Level      30
+PKills     0
+Kills      232
+Deaths     10
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Othinus~
+Joined     1446481854
+Updated    1499493515
+Race       Celestial~
+Level      41
+PKills     0
+Kills      145
+Deaths     1
+TradeClass 21
+TradeLevel 15
+End
+
+#ROSTER
+Name       Zandavar~
+Joined     1446993355
+Updated    1499491247
+Race       Animal~
+Level      33
+PKills     0
+Kills      91
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Toki~
+Joined     1454899814
+Updated    1499491186
+Race       Halfling~
+Level      30
+PKills     0
+Kills      103
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Shane~
+Joined     1470364207
+Updated    1499490993
+Race       Drow~
+Level      24
+PKills     0
+Kills      174
+Deaths     2
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Liragorn~
+Joined     1491767185
+Updated    1499538430
+Race       Elf~
+Level      10
+PKills     0
+Kills      117
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Flynder~
+Joined     1415697500
+Updated    1497316562
+Race       Drow~
+Level      33
+PKills     0
+Kills      89
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Haus~
+Joined     1492904432
+Updated    1492912656
+Race       Dwarf~
+Level      30
+PKills     0
+Kills      39
+Deaths     2
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Hanta~
+Joined     1485630107
+Updated    1486832263
+Race       Dwarf~
+Level      37
+PKills     0
+Kills      68
+Deaths     9
+TradeClass 20
+TradeLevel 8
+End
+
+#ROSTER
+Name       Garrett~
+Joined     1470836815
+Updated    1486089791
+Race       Halfling~
+Level      19
+PKills     0
+Kills      62
+Deaths     3
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Brinnuk~
+Joined     1472567446
+Updated    1476041686
+Race       Human~
+Level      20
+PKills     0
+Kills      292
+Deaths     4
+TradeClass 20
+TradeLevel 2
+End
+
+#ROSTER
+Name       Vaard~
+Joined     1473941759
+Updated    1475167343
+Race       Human~
+Level      13
+PKills     0
+Kills      164
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Vladaar~
+Joined     1448652298
+Updated    1473008049
+Race       Dragon~
+Level      108
+PKills     1
+Kills      698
+Deaths     26
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Gaerain~
+Joined     1472086631
+Updated    1472859897
+Race       Elf~
+Level      20
+PKills     0
+Kills      32
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Adrian~
+Joined     1472176056
+Updated    1472357243
+Race       Elf~
+Level      24
+PKills     0
+Kills      99
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Koraesag~
+Joined     1413127419
+Updated    1472079656
+Race       Dwarf~
+Level      56
+PKills     0
+Kills      495
+Deaths     17
+TradeClass 20
+TradeLevel 12
+End
+
+#ROSTER
+Name       Maerak~
+Joined     1452909898
+Updated    1472169451
+Race       Celestial~
+Level      43
+PKills     0
+Kills      337
+Deaths     8
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Ilanthas~
+Joined     1471870178
+Updated    1471870178
+Race       Elf~
+Level      10
+PKills     0
+Kills      90
+Deaths     2
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Weiryn~
+Joined     1470442751
+Updated    1470442751
+Race       Centaur~
+Level      10
+PKills     0
+Kills      80
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Trevor~
+Joined     1447385548
+Updated    1470416599
+Race       Halfling~
+Level      10
+PKills     0
+Kills      89
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Xniz~
+Joined     1446938696
+Updated    1470254380
+Race       Mindflayer~
+Level      13
+PKills     0
+Kills      30
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Ilanthas~
+Joined     1452865770
+Updated    1469882945
+Race       Human~
+Level      17
+PKills     0
+Kills      186
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Ramsey~
+Joined     1468699463
+Updated    1468883481
+Race       Dwarf~
+Level      28
+PKills     0
+Kills      69
+Deaths     9
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Aeolus~
+Joined     1467420596
+Updated    1467511424
+Race       Celestial~
+Level      30
+PKills     0
+Kills      230
+Deaths     15
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kirath~
+Joined     1464874038
+Updated    1466867485
+Race       Elf~
+Level      10
+PKills     0
+Kills      197
+Deaths     2
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Jennock~
+Joined     1446806483
+Updated    1461107762
+Race       Gnome~
+Level      56
+PKills     0
+Kills      1098
+Deaths     24
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Aleccia~
+Joined     1446314247
+Updated    1457746639
+Race       Celestial~
+Level      40
+PKills     3
+Kills      652
+Deaths     11
+TradeClass 20
+TradeLevel 18
+End
+
+#ROSTER
+Name       Nyrian~
+Joined     1453032221
+Updated    1457997187
+Race       Human~
+Level      15
+PKills     0
+Kills      222
+Deaths     0
+TradeClass 22
+TradeLevel 10
+End
+
+#ROSTER
+Name       Gremory~
+Joined     1455161226
+Updated    1455245844
+Race       Demon~
+Level      20
+PKills     0
+Kills      105
+Deaths     0
+TradeClass 24
+TradeLevel 1
+End
+
+#ROSTER
+Name       Vayrd~
+Joined     1449152702
+Updated    1454240400
+Race       Celestial~
+Level      30
+PKills     0
+Kills      211
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kiernan~
+Joined     1452558895
+Updated    1453293660
+Race       Centaur~
+Level      12
+PKills     0
+Kills      172
+Deaths     0
+TradeClass 22
+TradeLevel 1
+End
+
+#ROSTER
+Name       Joraga~
+Joined     1451874830
+Updated    1452869962
+Race       Dwarf~
+Level      28
+PKills     0
+Kills      247
+Deaths     2
+TradeClass 20
+TradeLevel 1
+End
+
+#ROSTER
+Name       Gilanthas~
+Joined     1446907620
+Updated    1452461820
+Race       Elf~
+Level      27
+PKills     0
+Kills      260
+Deaths     7
+TradeClass 22
+TradeLevel 8
+End
+
+#ROSTER
+Name       Haine~
+Joined     1449667067
+Updated    1451066239
+Race       Gnome~
+Level      31
+PKills     0
+Kills      2
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Dagon~
+Joined     1447187302
+Updated    1449758385
+Race       Elf~
+Level      31
+PKills     0
+Kills      1189
+Deaths     14
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Weibble~
+Joined     1414686510
+Updated    1449688093
+Race       Halfling~
+Level      32
+PKills     1
+Kills      628
+Deaths     11
+TradeClass 25
+TradeLevel 20
+End
+
+#ROSTER
+Name       Haine~
+Joined     1449408662
+Updated    1449607470
+Race       Gnome~
+Level      31
+PKills     0
+Kills      175
+Deaths     1
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Singar~
+Joined     1447117195
+Updated    1449688849
+Race       Halfling~
+Level      30
+PKills     0
+Kills      746
+Deaths     4
+TradeClass 22
+TradeLevel 20
+End
+
+#ROSTER
+Name       Kimel~
+Joined     1414425644
+Updated    1449688794
+Race       Troll~
+Level      30
+PKills     0
+Kills      573
+Deaths     3
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Zakari~
+Joined     1449263318
+Updated    1449689465
+Race       Mindflayer~
+Level      22
+PKills     1
+Kills      406
+Deaths     6
+TradeClass 24
+TradeLevel 20
+End
+
+#ROSTER
+Name       Randall~
+Joined     1448584749
+Updated    1448825932
+Race       Celestial~
+Level      24
+PKills     0
+Kills      40
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Kimel~
+Joined     1447735382
+Updated    1447735382
+Race       Troll~
+Level      11
+PKills     0
+Kills      311
+Deaths     3
+TradeClass 20
+TradeLevel 20
+End
+
+#ROSTER
+Name       Harmon~
+Joined     1446071124
+Updated    1446400442
+Race       Elf~
+Level      11
+PKills     0
+Kills      25
+Deaths     6
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Brinug~
+Joined     1415884299
+Updated    1445948692
+Race       Human~
+Level      28
+PKills     0
+Kills      266
+Deaths     8
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Galt~
+Joined     1408208627
+Updated    1445862246
+Race       Human~
+Level      28
+PKills     0
+Kills      232
+Deaths     1
+TradeClass 25
+TradeLevel 7
+End
+
+#ROSTER
+Name       Waeran~
+Joined     1443376591
+Updated    1443384342
+Race       Dwarf~
+Level      22
+PKills     0
+Kills      67
+Deaths     4
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Roselia~
+Joined     1408821058
+Updated    1419837913
+Race       Pixie~
+Level      14
+PKills     0
+Kills      333
+Deaths     5
+TradeClass 21
+TradeLevel 20
+End
+
+#ROSTER
+Name       Thundon~
+Joined     1409082037
+Updated    1419837888
+Race       Dwarf~
+Level      14
+PKills     0
+Kills      463
+Deaths     14
+TradeClass 20
+TradeLevel 1
+End
+
+#ROSTER
+Name       Norrindio~
+Joined     1413981591
+Updated    1415725267
+Race       Centaur~
+Level      14
+PKills     0
+Kills      196
+Deaths     2
+TradeClass 25
+TradeLevel 2
+End
+
+#ROSTER
+Name       Osaerok~
+Joined     1412819524
+Updated    1415447715
+Race       Troll~
+Level      24
+PKills     0
+Kills      190
+Deaths     10
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Althea~
+Joined     1414426564
+Updated    1415132242
+Race       Pixie~
+Level      21
+PKills     0
+Kills      495
+Deaths     4
+TradeClass 21
+TradeLevel 13
+End
+
+#ROSTER
+Name       Kasark~
+Joined     1412036455
+Updated    1412038096
+Race       Dwarf~
+Level      17
+PKills     0
+Kills      10
+Deaths     0
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Jubei~
+Joined     1411081857
+Updated    1411084396
+Race       Halfling~
+Level      13
+PKills     0
+Kills      20
+Deaths     3
+TradeClass 0
+TradeLevel 0
+End
+
+#ROSTER
+Name       Waeren~
+Joined     1406146876
+Updated    1407891843
+Race       Pixie~
+Level      42
+PKills     0
+Kills      126
+Deaths     12
+TradeClass 20
+TradeLevel 8
+End
+
+#END

@@ -1,0 +1,3268 @@
+#AREA        Mines of Shatkul~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+15 40 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThe sound of drums beating echos through the mine passages.~
+
+#FLAGS
+512
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 5000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2900
+Orc Chieftain Bankga~
+Orc Chieftain Bankga~
+An orc chieftain is standing here giving orders.
+~
+The orc chieftain appears to be very tall and muscular for the average
+orc.  He has a large scar that runs down his face from his eye to his
+chin.  He is dressed all in black.
+~
+2
+Clanname none~
+0
+0
+131075 4194304 -1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+> all_greet_prog 100~
+if quest(bankga) == 4
+  mppause 3
+  mpechoat $n &COrc Chieftain Bankga says, 'That bodes well for us then.  Now there is one task
+  mpechoat $n &Cyou must carry out.'&D
+  mppause 6
+  mpechoat $n &COrc Chieftain Bankga says, 'Find and Kill the Dwarven Leader!'&D
+  mpquest $n bankga 5
+endif
+if htown($n) == Dakar City
+  if quest(bankga) < 1 
+    mppause 3
+    mpechoat $n &COrc Chieftain Bankga says, 'Greetings...brother in the Struggle.'&D
+    mppause 6
+    mpechoat $n &COrc Chieftain Bankga tells you, 'Are you able to help us?'&D
+    mpechoat $n &cType &WSAY YES &cif you wish to accept the quest.&D
+  endif
+else
+  if ispc($n)
+    mppause 2
+    shout kill the invaders!
+    mpkill $n
+  endif
+endif
+~
+> speech_prog yes~
+if quest(bankga) < 1
+  mppause 3
+  mpechoat $n &COrc Chieftain Bankga says, 'The dwarves have been sending a scout into
+  mpechoat $n &Cour territory lately.  We have not been able to catch him yet.
+  mpechoat $n &CFind and kill the dwarf scout!'&D
+  mpquest $n bankga 1
+endif
+~
+> act_prog p gives you the corpse of a dwarven scout.~
+if quest(bankga) == 2
+  mpquest $n bankga 3
+  mpat 4 drop corpse
+  mpoload 2919 10
+  get vial
+  mppause 3
+  mpechoat $n &COrc Chieftain Bangka says, 'Our scouts have reported the filthy dwarves have a water
+  mpechoat $n &Cwell.  We need to get their water source poisoned so they will be lethargic
+  mpechoat $n &Cwhen we battle.'&D
+  mppause 2
+  give vial $n
+endif
+~
+> act_prog p gives you the corpse of Dwarf Leader Kora.~
+if quest(bankga) == 6
+  mpquest $n bankga 7
+endif
+~
+> death_prog 100~
+if quest(kora) == 5
+  mpquest $n kora 6
+endif
+~
+|
+#2901
+orc guard tunath~
+Orc Guard Tunath~
+An orc guard walks his post here.
+~
+The orc guard is dressed in black leather, and is covered in burly hair.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+21 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+  mpechoat $n &cOrc Guard Tunath looks you over with causal interest, then nods.&D
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2902
+orc guard dozae~
+Orc Guard Dozae~
+An orc guard walks his post here.
+~
+The orc guard is dressed in black leather, and is covered in burly hair.
+~
+2
+Clanname none~
+0
+0
+1 0 -1000 C
+21 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2903
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2904
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2905
+orc scout~
+an orc scout~
+An orc scout moves silently along here.
+~
+The orc scout is dressed all in black.  He has all his gear tied securely
+to himself so he doesn't make any noise as he travels.
+~
+2
+Clanname none~
+0
+0
+1073741825 0 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> death_prog 100~
+mpquest $n kora 2
+~
+|
+#2906
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2907
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+> all_greet_prog 100~
+if quest(bankga) == 1
+mppause 2
+mpechoat $n &cYou suddenly catch a glimpse of moment in the shadows the cave, realizing it must be the dwarf scout!
+mpmload 2925
+endif
+if quest(bankga) == 1
+  mppause 2
+  mpechoat $n &cYou suddenly catch a glimpse of moment in the shadows the cave, realizing it must be the dwarf scout!&D
+  mpmload 2925
+endif
+~
+|
+#2908
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2909
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2910
+orc miner~
+An orc miner~
+An orc miner carries his tools here.
+~
+The orc miner is covered in dirt, and sweat.
+~
+2
+Clanname none~
+0
+0
+1 0 -1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2911
+orc guard Umar~
+Orc Guard Umar~
+An orc guard walks his post here.
+~
+The orc guard is dressed in black leather, and is covered in burly hair.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+21 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2912
+orc guard Yorat~
+Orc Guard Yorat~
+An orc guard walks his post here.
+~
+The orc guard is dressed in black leather, and is covered in burly hair.
+~
+2
+Clanname none~
+0
+0
+1 512 -1000 C
+21 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2913
+Dwarf Leader Kora~
+Dwarf Leader Kora~
+A dwarven leader is standing here giving orders
+~
+The dwarven leader is tall for a dwarf.  He has a white beard that runs
+down to his waist, and a trophy of a nose.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+> all_greet_prog 100~
+if quest(kora) == 4
+  mppause 3
+  mpechoat $n &CDwarf Leader Kora says, 'That bodes well for us then.  Now there is one task
+  mpechoat $n &Cyou must carry out.'&D
+  mppause 6
+  mpechoat $n &CDwarf Leader Kora says, 'Find and kill the Orc Chieftain!'&D
+  mpquest $n kora 5
+endif
+if htown($n) == Paleon City
+  if quest(kora) < 1
+    mppause 3
+    mpechoat $n &CDwarf Leader Kora says, 'Greetings... Friend of the Alliance.'&D
+    mppause 6
+    mpechoat $n &CDwarven Leader Kora says, 'Are you able to help us?'&D
+    mpechoat $n &cType &WSAY YES &cif you wish to accept the quest.&D
+  endif
+else
+  if ispc($n)
+    mppause 2
+    yell kill the invaders!
+    mpkill $n
+  endif
+endif
+~
+> speech_prog yes~
+if quest(kora) < 1 )
+  mppause 3
+  mpechoat $n &CDwarf Leader Kora says, 'The Orcs have been sending a scout into
+  mpechoat $n &Cour territory lately.  We have not been able to catch him yet.
+  mpechoat $n &CFind and kill the Orc Scout!'&D
+  mpquest $n kora 1
+endif
+~
+> death_prog 100~
+if quest(bankga) == 5
+  mpquest $n bankga 6
+endif
+~
+> act_prog p gives you the corpse of an orc scout.~
+if quest(kora) == 2
+  mpquest $n kora 3
+  mpat 4 drop corpse
+  mppause 3
+  mpechoat $n &CDwarf Leader Kora says, 'Our scouts have reported the Orcs have a supply room
+  mpechoat $n &Cset up.  We need to get their supply source destroyed so they will be lethargic
+  mpechoat $n &Cwhen we battle.'&D
+endif
+~
+> act_prog p gives you the corpse of Orc Chieftain Bankga.~
+if quest(kora) == 6
+  mpquest $n kora 7
+endif
+~
+|
+#2914
+dwarf guard Martin~
+Dwarf Guard Martin~
+A dwarven guard walks his post here.
+~
+The dwarf guard is decked out in an assortment of weapons.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+  mpechoat $n &cDwarf Guard Martin reaches for his hammer, then smiles as recognition reaches him.&D
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2915
+dwarf guard tuolee~
+Dwarf Guard Tuolee~
+A dwarven guard walks his post here.
+~
+The dwarf guard is decked out with an assortment of dwarven weapons.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+  mpechoat $n &cDwarf Guard Tuolee looks you over carefully, before letting you by.&D
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2916
+dwarf guard Balea~
+Dwarf Guard Balea~
+A dwarven guard walks his post here.
+~
+The dwarf guard is decked out with an assortment of dwarven weapons.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+  mpechoat $n &cDwarf Guard Balea nods his head towards you.&D
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2917
+dwarf guard Bannon~
+Dwarf Guard Bannon~
+A dwarven guard walks his post here.
+~
+The dwarf guard is decked out with an assortment of dwarven weapons.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 176 3
+#2918
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if quest(kora) == 1
+  mppause 2
+  mpechoat $n &cYou suddenly catch a glimpse of moment in the shadows the cave, realizing it must be the Orc Scout!&D
+  mpmload 2905
+endif
+~
+> all_greet_prog 100~
+if htown($n) == Paleon City
+mppause 3
+else
+if ispc($n)
+mppause 2
+mpkill $n
+endif
+endif
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2919
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 512 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2920
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 512 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2921
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 512 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2922
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 512 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2923
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 512 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2924
+dwarf miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+1 4194816 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2925
+dwarf scout~
+a dwarven scout~
+A dwarven scout moves silently along here.
+~
+The dwarven scout is lightly equipped, and has all his gear tied securely
+to ensure he doesn't make noise when walking.
+~
+1
+Clanname none~
+0
+0
+1 4194304 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> death_prog 100~
+if quest(bankga) == 1
+mpquest $n bankga 2
+endif
+~
+|
+#2926
+orc chieftain Kaesa~
+Orc Chieftain Kaesa~
+An orc chieftain is standing here.
+~
+An orc chieftain wearing all black leather armor.  The orc has a strange
+lump on the side of his face.
+~
+1
+Clanname none~
+0
+0
+1 4194304 0 C
+36 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 16 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2927
+Orc Commander Draza~
+Orc Commander Draza~
+An orc commander stands here giving orders.
+~
+The orc is dressed in black leather armor.  He has bulging green eyes.
+~
+1
+Clanname none~
+0
+0
+1 0 -1000 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 1048576 0 0 176 3
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2928
+orc elite guard Vasper~
+Orc Elite Guard Vasper~
+An orc elite guard is patrolling here.
+~
+The elite orc guard is decked out in black leather armor, and has an
+array of weapons.
+~
+1
+Clanname none~
+0
+0
+1 0 -1000 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 3072 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2929
+orc elite guard Druzil~
+Orc Elite Guard Druzil~
+An orc elite guard is patrolling here.
+~
+The orc elite guard is decked out all in black leather armor, and has
+an array of weapons at her disposal.
+~
+1
+Clanname none~
+0
+0
+1073741825 0 -1000 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 3072 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Dakar City
+mppause 3
+else
+if ispc($n)
+mppause 2
+mpkill $n
+endif
+endif
+~
+|
+#2930
+orc elite guard Makae~
+Orc Elite Guard Makae~
+An orc elite guard is patrolling here.
+~
+An orc elite guard is decked out in black leather armor.  He has an array
+of weapons at his disposal.
+~
+1
+Clanname none~
+0
+0
+1 4194304 -1000 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 3072 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2931
+orc elite guard Guada~
+Orc Elite Guard Guada~
+An orc elite guard is patrolling here.
+~
+An orc elite guard is decked out in black leather armor.  He has an
+array of weapons at his disposal.  
+~
+1
+Clanname none~
+0
+0
+1 0 -1000 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 3072 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2932
+orc miner~
+an orc miner~
+An orc miner holding his tools is standing here.
+~
+An orc miner is dressed in black leather armor.  He has a coating of
+dirt and grime that covers him.
+~
+1
+Clanname none~
+0
+0
+1 512 -1000 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2933
+orc miner~
+an orc miner~
+An orc miner holding his tools is standing here.
+~
+An orc miner is dressed in black leather armor.  The miner has a thick
+layer of grime and dirt caked on him.
+~
+1
+Clanname none~
+0
+0
+1 512 -1000 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2934
+orc miner~
+an orc miner~
+An orc miner holding his tools is standing here.
+~
+An orc miner is dressed in black leather armor.  He is covered in a thick
+layer of grime and dust.
+~
+1
+Clanname none~
+0
+0
+1 512 -1000 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2935
+orc miner~
+an orc miner~
+An orc miner holding his tools is standing here.
+~
+An orc miner dressed in black leather armor, has a coating of thick
+black grime over himself.
+~
+1
+Clanname none~
+0
+0
+1 512 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Dakar City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2936
+Dwarf Leader Yule~
+Dwarven Leader Yule~
+A dwarven leader is looking reflectively at a map here.
+~
+A dwarven leader is dressed in fine crafted chain mail armor.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+36 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2937
+Dwarf General Palye~
+Dwarven General Palye~
+A dwarf general is standing here giving orders.
+~
+The dwarven general is wearing well crafted dwarven chain mail armor.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 3
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2938
+dwarf imperial guard Ulass~
+Dwarf Imperial Guard Ulass~
+A dwarven imperial guard is standing ready here.
+~
+The dwarven guard has well crafted dwarven chain mail armor on.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2939
+dwarf imperial guard Emery~
+Dwarf Imperial Guard Emery~
+An dwarven imperial guard is standing ready here.
+~
+The dwarven guard is dressed in fine quality dwarven chain mail armor.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    if cansee($n)    
+      mppause 2
+      mpkill $n
+    endif
+  endif
+endif
+~
+|
+#2940
+dwarf imperial guard Osar~
+Dwarf Imperial Guard Osar~
+A dwarven imperial guard is standing ready here.
+~
+The dwarven guard is dressed in fine quality dwarven chain mail armor.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2941
+dwarf imperial guard Jaek~
+Dwarf Imperial Guard Jaek~
+A dwarven imperial guard is standing ready here.
+~
+The dwarven guard is dressed in fine crafted dwarven chain mail armor.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2942
+dwarf miner~
+a dwarf miner~
+A dwarf miner is excavating here.
+~
+The miner is dressed in fine crafted dwarven mail.
+~
+1
+Clanname none~
+0
+0
+1 4194816 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2943
+dwarf miner~
+a dwarven miner~
+A dwarf miner is excavating here.
+~
+The dwarven miner is dressed in fine crafted dwarven mail.
+~
+1
+Clanname none~
+0
+0
+1 512 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2944
+dwarf miner~
+a dwarven miner~
+A dwarf miner is excavating here.
+~
+The dwarven miner is dressed in fine crafted dwarven chain mail.
+~
+1
+Clanname none~
+0
+0
+1 512 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2945
+dwarf miner~
+a dwarven miner~
+A dwarf miner is excavating here.
+~
+The dwarven miner is dressed in fine crafted dwarven mail.
+~
+1
+Clanname none~
+0
+0
+1 512 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if htown($n) == Paleon City
+  mppause 3
+else
+  if ispc($n)
+    mppause 2
+    mpkill $n
+  endif
+endif
+~
+|
+#2946
+cave bear~
+a cave bear~
+A cave bear is lumbering about here.
+~
+The massive brown furred cave bear is standing on it's hind legs here.
+~
+1
+Clanname none~
+0
+0
+33 4194432 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 4 0 0 1 1 0
+0 0 43 1056768 0 0 3 2
+#2947
+cave troll~
+a cave troll~
+A cave troll is looking about here.
+~
+The cave troll is dressed in a rotting loin cloth.
+~
+1
+Clanname none~
+0
+0
+33 4194304&-1946157056 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 4 0 0 1 1 0
+0 0 41 0 0 0 48 34
+#2948
+giant salamander~
+a giant salamander~
+A giant salamander is slithering along here.
+~
+The salamander is blood red in color with a yellow stripe down it's center.
+~
+1
+Clanname none~
+0
+0
+1073741825 128 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 41 0 0 8192 524291 16777218
+#2949
+giant hill~
+a hill giant~
+A massive hill giant is lumbering about here.
+~
+The giant has a rotting loin cloth that hangs off him.
+~
+1
+Clanname none~
+0
+0
+1 128&16777216&4 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 176 2
+#3000
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2900
+black dagger~
+a black dagger~
+A black dagger has been left here.~
+~
+5 0 8193
+12 5 15 2 2 10 40
+2 10 1
+3
+13
+0
+0
+0
+0
+S 0 0
+E
+black dagger~
+It appears to be a black stained dagger with a sharp edge.
+~
+#2901
+short sword~
+a short sword~
+A short sword has been left here.~
+~
+5 0 8193
+12 5 15 2 2 15 0
+2 91 9
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+black dagger~
+It appears to be a black stained dagger with a sharp edge.
+~
+E
+sword ~
+It appears to be a sharpened short sword.
+~
+A
+19 2
+#2902
+black leather vest~
+a black leather vest~
+A black leather vest has been left here.~
+~
+9 0 9
+35 35 0 0 0 0 0
+3 0 0
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+leather vest~
+It appears to be a thick black leather vest.
+~
+A
+17 -10
+#2903
+black boots~
+a pair of black boots~
+A pair of black boots has been left here.~
+~
+9 0 65
+10 10 0 0 0 0 0
+3 172 17
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+black boots~
+It appears to be a well used pair of black boots.
+~
+A
+14 50
+#2904
+black leather trousers~
+a pair of black leather trousers~
+A pair of black leather trousers has been left here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+5 0 0
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+leather trousers~
+It appears to be a well used pair of leather trousers.
+~
+A
+19 1
+#2905
+skull helmet~
+a skull helmet~
+A skull helmet has been left here.~
+~
+9 0 17
+35 35 0 0 0 0 0
+3 0 0
+1
+5
+0
+0
+0
+0
+S 77 0
+E
+skull helmet~
+It appears to be a humanoid type of skull made into a helmet.
+~
+A
+17 -10
+#2906
+black leather gloves~
+a pair of black leather gloves~
+A pair of black leather gloves has been left here.~
+~
+9 0 129
+35 35 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+leather gloves~
+It appears to be a stained up pair of leather gloves.
+~
+#2907
+leather ankle wraps~
+a pair of leather ankle wraps~
+A pair of leather ankle wraps have been left here.~
+~
+9 0 2097153
+60 60 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 77 0
+E
+ankle wraps~
+It appears to be a pair of leather ankle wraps used to to keep your
+trousers close and avoid making unnecessary noise.
+~
+#2908
+black hooded cloak~
+a hooded black cloak~
+A hooded black cloak has been left here.~
+~
+9 0 1025
+60 60 0 0 0 0 0
+2 0 0
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+hooded cloak~
+It appears to be a ragged black hooded cloak.
+~
+#2909
+gleaming dagger~
+a gleaming dagger~
+A gleaming dagger has been left here.~
+~
+5 0 8193
+12 5 15 6 2 12 0
+2 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+gleaming dagger~
+It appears to be a gleaming dagger of superb craftsmanship.
+~
+#2910
+war hammer~
+a war hammer~
+A war hammer has been left here.~
+~
+5 0 8193
+12 46 59 4 4 0 0
+5 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+war hammer~
+It appears to be a war hammer of superb craftsmanship.
+~
+A
+18 2
+#2911
+battle axe~
+a battle axe~
+A battle axe has been left here.~
+~
+5 0 8193
+0 27 34 3 8 0 80
+6 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+battle axe~
+It appears to be a battle axe of superb quality.
+~
+#2912
+steel helmet~
+a steel helmet~
+A steel helmet has been left here.~
+~
+9 0 17
+35 35 0 0 0 0 0
+6 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+save~
+(null)~
+E
+steel helmet~
+It appears to be a steel helmet of superb quality.
+~
+#2913
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt has been left here.~
+~
+9 0 9
+35 35 0 0 0 0 0
+8 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+chain mail shirt~
+It appears to be a chain mail shirt of superb quality.
+~
+#2914
+chain mail leggings~
+a pair of chain mail leggings~
+A pair of chain mail leggings has been left here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+6 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+chain mail leggings~
+It appears to be a pair of chain mail leggings that are in superb condition.
+~
+A
+17 -10
+#2915
+steel bracers~
+a pair of steel bracers~
+A pair of steel bracers has been left here.~
+~
+9 0 257
+35 35 0 0 0 0 0
+2 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+steel bracers~
+It appears to be a pair of steel bracers of superb quality.
+~
+#2916
+leather gloves~
+a pair of leather gloves~
+A pair of leather gloves has been left here.~
+~
+9 0 129
+20 20 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 77 0
+E
+leather gloves~
+It appears to be a pair of leather gloves that are well used.
+~
+A
+1 2
+#2917
+chain mail coif~
+a chain mail coif~
+A chain mail coif has been left here.~
+~
+9 0 5
+20 20 0 0 0 0 0
+4 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+chain mail coif~
+It appears to be a chain mail coif of superb quality.
+~
+#2918
+mining pickaxe ~
+a pickaxe~
+A mining pickaxe has been left here.~
+~
+5 0 8193
+0 10 20 2 1 0 0
+6 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+mining pickaxe pick~
+It appears to be a dull mining pickaxe.
+~
+#2919
+poison vial~
+a poison vial~
+A poison vial has been left here.~
+~
+17 0 1
+1 0 18 1 -1 10 0
+1 1 0
+4
+4
+0
+0
+0
+0
+S 0 0
+E
+poison vial~
+It appears to be a vial of some black liquid.
+~
+#2920
+golden earring~
+a pair of golden earrings~
+A pair of gold earrings have been left here.~
+~
+9 1 65537
+35 35 0 0 0 43 0
+1 258 25
+3
+14
+0
+0
+0
+0
+S 77 0
+A
+17 -5
+A
+12 50
+#2921
+skull helmet~
+a skull helmet~
+A skull helmet has been left here.~
+~
+9 0 17
+35 35 0 0 0 0 0
+3 97 9
+2
+5
+0
+0
+0
+0
+S 77 0
+E
+skull helmet~
+It appears to be a humanoid type of skull made into a helmet.
+~
+A
+17 -10
+A
+24 10
+A
+27 32
+#3000
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2900
+Corner of a Mine Shaft~
+~
+A right angle corner of the mine shaft. There are oak timbers interlocked 
+to provide support to the walls and ceiling. A mine cart tracks leads down 
+the mine shaft in both directions. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2901
+D2
+~
+~
+0 -1 2905
+S
+#2901
+A Collapsed Section~
+~
+A pile of rocks and boulders cover this section of the mine shaft. There 
+are broken oak timbers here. A mine cart's tracks lead underneath the 
+rocks and boulders of the collapsed section. 
+~
+1 0 13
+D1
+~
+~
+256 -1 2902
+D2
+~
+~
+0 -1 2906
+D3
+~
+~
+0 -1 2900
+R M 0 2911 1 2901
+  R G 0 2904 1
+  R G 0 2903 1
+  R G 0 2901 1
+R M 0 2902 1 2901
+  R G 0 2901 1
+  R G 0 2903 1
+  R G 0 2904 1
+R D 0 2901 1 3
+S
+#2902
+Collapsed Mine Shaft~
+~
+Beneath the rubble of the boulders and rocks a mine cart's tracks lead to 
+the west. Dismantled oak timbers lay about within the rubble. A few old 
+mining tools are laying about. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2907
+D3
+~
+~
+256 -1 2901
+R M 0 2914 1 2902
+  R G 0 2903 1
+  R G 0 2914 1
+  R G 0 2910 1
+  R G 0 2916 1
+R D 0 2902 3 3
+S
+#2903
+Within the Mine Shaft~
+~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2904
+D2
+~
+~
+0 -1 2908
+R M 0 2913 1 2903
+  R G 0 2911 1
+  R G 0 2912 1
+  R G 0 2913 1
+  R G 0 2914 1
+  R G 0 2915 1
+  R G 0 2917 1
+S
+#2904
+At the Mine Entrance~
+~
+There are large supports made out of oak timbers supporting the walls and 
+ceiling. A set of mine cart tracks run down the mine shaft. A broken mine 
+cart is off to the side. 
+~
+1 4 11
+D3
+~
+~
+0 -1 2903
+D5
+~
+~
+2048 -1 6160
+D11
+~
+~
+0 -1 41176
+S
+#2905
+Within a Mine Shaft~
+~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2900
+D2
+~
+~
+0 -1 2910
+R M 0 2907 1 2905
+  R G 0 2918 1
+S
+#2906
+Along the Mine Shaft~
+~
+There are large mushrooms growing in clusters along the walls here. Large 
+oak timbers provide support for the ceiling and walls. A mine cart track 
+runs along the mine shaft's length. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2901
+D2
+~
+~
+0 -1 2911
+R M 0 2908 1 2906
+  R G 0 2918 1
+R M 0 2909 1 2906
+  R G 0 2918 1
+S
+#2907
+Along the Mine Shaft~
+~
+Oake timbers help support the roof and ceiling here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the mine 
+shaft depths. A few small rocks and stones are along the ground. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2902
+D1
+~
+~
+0 -1 2908
+S
+#2908
+An Intersection Along the Mine Shaft~
+~
+The mine cart tracks intersect here. There is a lever which determines 
+which way the cart shall go. Bronze flecks are along the walls from 
+mining. Large oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2903
+D1
+~
+~
+0 -1 2909
+D3
+~
+~
+0 -1 2907
+S
+#2909
+A Bend in the Mine Shaft~
+~
+&zThe mine shaft starts to bend here. Oak timber supports have been 
+recently There are some mushrooms growing along the side of the tracks. 
+reinforced. A set of mine cart tracks run around the bend into the depths 
+below. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2914
+D3
+~
+~
+0 -1 2908
+R M 0 2915 1 2909
+  R G 0 2903 1
+  R G 0 2916 1
+  R G 0 2914 1
+  R G 0 2910 1
+S
+#2910
+Along the Mine Shaft~
+~
+There are some broken mining tools scattered about here. Flecks of bronze 
+along the walls are visible. A mining cart tracks runs down the length of 
+the passageway here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2905
+D2
+~
+~
+0 -1 2915
+R M 0 2906 1 2910
+  R G 0 2918 1
+S
+#2911
+An Intersection in the Mine Shaft~
+~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2906
+D1
+~
+~
+0 -1 2912
+D2
+~
+~
+0 -1 2916
+R M 0 2904 1 2911
+  R G 0 2918 1
+S
+#2912
+A Bend in the Mine Shaft~
+~
+A sudden turn in the passage is marked by the mine cart tracks. A cluster 
+of mushrooms are growing along the side of the tracks. Large oak timbers 
+support the ceiling and walls. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2917
+D3
+~
+~
+0 -1 2911
+S
+#2913
+A Bend in the Mine Shaft~
+~
+The walls are gouged up from recent mining, and show large amounts of 
+bronze ore. The mine cart tracks make a turn here. Large oak timber 
+support the ceiling and walls. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2914
+D2
+~
+~
+0 -1 2918
+R M 0 2905 1 2913
+S
+#2914
+An Intersection in the Mine Shaft~
+~
+There are solid oak beams setup in an interlocking style to support the
+weight of the walls, and ceiling.  There are flecks of bronze that can
+be made out along the gouged walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 2909
+D2
+~
+~
+0 -1 2919
+D3
+~
+~
+0 -1 2913
+R M 0 2922 1 2914
+  R G 0 2914 1
+  R G 0 2918 1
+  R G 0 2909 1
+S
+#2915
+A Downward Trek ~
+~
+The mine cart track splits off downward by a lever that controls which 
+side of the tracks the cart stays on. Thick oak timber is used to help 
+support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2910
+D1
+~
+~
+0 -1 2916
+D5
+~
+~
+0 -1 2925
+S
+#2916
+A Supply Point~
+~
+Several wooden crates of supplies are stacked up against the walls. The 
+mine cart tracks lead up to a loading platform. Oak timbers help support 
+the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2911
+D3
+~
+~
+0 -1 2915
+R M 0 2912 1 2916
+  R G 0 2901 1
+  R G 0 2904 1
+  R G 0 2903 1
+> entry_prog 100~
+if quest(kora) == 3
+  mppause 3
+  mpechoat $n &cYou find what you have been searching for the supply room!&D
+  mppause 6
+  mpechoat $n &cImmediately you begin destroying all the crates of supplies.&D
+  mppause 3
+  mpquest $n kora 4
+endif
+~
+|
+S
+#2917
+Within the Mine Shaft~
+~
+A series of thick mushrooms grow along the walls here. A few spots of 
+bronze ore can be seen along the walls. The mine cart tracks run down the 
+passageway. Oak timbers support the ceiling and walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2912
+D2
+~
+~
+0 -1 2922
+R M 0 2903 1 2917
+  R G 0 2918 1
+R M 0 2910 1 2917
+  R G 0 2918 1
+S
+#2918
+Along the Mine Shaft~
+~
+The passageway has a set of mine tracks that run down it's length. There 
+are signs of a small battle here. A few broken arrows litter the ground. 
+Several oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2913
+D2
+~
+~
+0 -1 2923
+R M 0 2919 1 2918
+  R G 0 2914 1
+  R G 0 2909 1
+  R G 0 2918 1
+R M 0 2924 1 2918
+  R G 0 2914 1
+  R G 0 2909 1
+  R G 0 2918 1
+S
+#2919
+A Passage Below~
+~
+The mine cart tracks split off here by a switch that will take the cart 
+forward, or down into the depths below. There has been some mining along 
+the walls here that has exposed some bronze ore. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2914
+D2
+~
+~
+0 -1 2924
+D5
+~
+~
+0 -1 2934
+R M 0 2916 1 2919
+  R G 0 2910 1
+  R G 0 2914 1
+  R G 0 2916 1
+  R G 0 2903 1
+S
+#2920
+The Entrance to a Mine Shaft~
+~
+A set of mine cart tracks lead into the mine shaft. The entire passage is 
+lined with oak timbers that reinforce the walls and ceiling. The walls 
+have been tested in locations revealing small flashes of bronze. 
+~
+1 0 11
+D1
+~
+~
+0 -1 2921
+S
+#2921
+Along a Mine Shaft~
+~
+Oak timbers help support the ceiling and walls here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the 
+depths of the passageway. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2922
+D3
+~
+~
+0 -1 2920
+R M 0 2900 1 2921
+  R G 0 2905 1
+  R G 0 2903 1
+  R G 0 2904 1
+  R G 0 2902 1
+  R G 0 2901 1
+S
+#2922
+A Bend Along the Mine Shaft~
+~
+The mine tracks turn suddenly here. There are large green mushrooms 
+growing along the side of the tracks. Oak timbers help support the walls 
+and ceiling. A few flecks of bronze ore can be seen on the walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2917
+D3
+~
+~
+0 -1 2921
+R M 0 2901 1 2922
+  R G 0 2901 1
+  R G 0 2904 1
+  R G 0 2903 1
+S
+#2923
+Beside a Water Well~
+~
+A massive stone well is over the top of an underground spring. Thick hemp 
+rope lowers a bucket up and down to the water below. The mine cart tracks 
+have a loading platform next to the well. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2918
+D1
+~
+~
+0 -1 2924
+R M 0 2918 1 2923
+  R G 0 2909 1
+  R G 0 2918 1
+  R G 0 2914 1
+> entry_prog 100~
+if quest(bankga) == 3
+  mppause 3
+  mpechoat $n &cYou find what you have been searching for the water well!&D
+  mppause 6
+  mpechoat $n &cVery carefully you empty your poison vial into the well.&D
+  mppause 3
+  mpquest $n bankga 4
+endif
+~
+|
+S
+#2924
+The Mine Shaft Turns~
+~
+With a sharp turn the mine cart tracks suddenly change directions here. 
+There are signs of recent mining here. Bronze ore can be seen along the 
+walls. Supporting the walls and ceiling are oak timbers. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2919
+D3
+~
+~
+0 -1 2923
+R M 0 2923 1 2924
+  R G 0 2914 1
+  R G 0 2909 1
+  R G 0 2918 1
+S
+#2925
+Mine Cart Ascension Point~
+~
+The mine cart tracks split at a switch junction point. This determines if 
+the cart goes up or down. The tracks also extend into the depths of the 
+passage ahead. There are a cluster of mushrooms growing here. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2926
+D4
+~
+~
+0 -1 2915
+S
+#2926
+Along a Mine Shaft~
+~
+There are flecks of silver ore visible on the walls where they have been 
+mined. Large oak timbers help support the walls and ceiling. A rusty set 
+of mine tracks lay across a small amount of water. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2927
+D3
+~
+~
+0 -1 2925
+R M 0 2933 1 2926
+  R E 0 2918 1 16
+S
+#2927
+At a Bend in the Mine Tracks~
+~
+There are signs of a struggle here with a small trail of blood leading 
+down the passage. Thick oak timbers help support the weight of the walls 
+and ceiling. A mine cart tracks run through the passage. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2930
+D3
+~
+~
+0 -1 2926
+R M 0 2932 1 2927
+S
+#2928
+An Underground Stream~
+~
+A mine cart tracks have been built up on a bridge that goes over a small 
+underground stream. There are small stones of silver ore shining in the 
+stream. Oak timbers help support the walls and ceiling. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2929
+D2
+~
+~
+0 -1 2931
+R M 0 2928 1 2928
+  R G 0 2901 1
+  R G 0 2904 1
+  R G 0 2902 1
+R M 0 2935 1 2928
+  R E 0 2918 1 16
+S
+#2929
+A Broken Mine Track Section~
+~
+The mine cart tracks are broken from what appears to have been a runaway 
+cart. There are clusters of giant sized mushrooms along the side of the 
+tracks. Oak timbers help support the walls and ceiling. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2930
+D3
+~
+~
+0 -1 2928
+R M 0 2934 1 2929
+  R E 0 2918 1 16
+S
+#2930
+Along a Mine Shaft~
+~
+The walls are recently dug allowing pieces of silver ore to show. A set of 
+mine cart tracks run down the passageway. There are oak timbers that have 
+cracks running down them supporting the walls and ceiling. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2927
+D3
+~
+~
+0 -1 2929
+R M 0 2930 1 2930
+  R E 0 2902 1 5
+  R E 0 2904 1 7
+  R E 0 2901 1 16
+  R E 0 2906 1 9
+R M 0 2931 1 2930
+  R E 0 2902 1 5
+  R E 0 2904 1 7
+  R E 0 2901 1 16
+  R E 0 2906 1 9
+S
+#2931
+Within the Mine Shaft~
+~
+A pile of small rocks are along the far wall as well as a collapsed oak 
+timber at that point. There are mine cart tracks that rundown the length 
+of the passageway. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2928
+D1
+~
+~
+0 -1 2932
+R M 0 2926 1 2931
+  R E 0 2905 1 6
+  R E 0 2906 1 9
+  R E 0 2902 1 5
+  R E 0 2904 1 7
+  R E 0 2901 1 16
+S
+#2932
+A Rally Point~
+~
+There are a few crates of supplies along the walls. A weapons rack is in 
+the center of the room. The doors have large wooden bars that can secure 
+the doors. A small wall has been setup with crossbow positions. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2933
+D3
+~
+~
+0 -1 2931
+R M 0 2927 1 2932
+  R E 0 2906 1 9
+  R E 0 2905 1 6
+  R E 0 2902 1 5
+  R E 0 2904 1 7
+  R E 0 2901 1 16
+S
+#2933
+Descending into the Depths~
+~
+&zThe mine cart tracks split beside a switch that determines if the cart 
+ascends or descends. There are large oak timbers that help support the 
+walls and ceiling. 
+~
+1 4 1
+D3
+~
+~
+0 -1 2932
+D5
+~
+~
+0 -1 2943
+S
+#2934
+Mine Cart Ascension Point~
+~
+A small wooden platform with a switch on it controls the mine cart tracks 
+that split to go up or down within the passage. The walls have flecks of 
+silver ore in places due to recent digging. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2935
+D4
+~
+~
+0 -1 2919
+S
+#2935
+Along a Mine Shaft~
+~
+&zThere are small rocks and broken timber scattered about here. Mine cart 
+tracks go through the passageway. A cluster of giant sized mushrooms are 
+against the wall. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2936
+D3
+~
+~
+0 -1 2934
+R M 0 2943 1 2935
+  R E 0 2918 1 16
+R M 0 2944 1 2935
+  R E 0 2918 1 16
+S
+#2936
+Within the Mine Shaft~
+~
+A few broken arrow shafts on the ground give the impression of a past 
+battle here. The passageway has a set of mine cart tracks that runs along 
+it. The walls are supported by oak timbers. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2939
+D3
+~
+~
+0 -1 2935
+R M 0 2942 1 2936
+  R E 0 2918 1 16
+R M 0 2945 1 2936
+  R E 0 2918 1 16
+S
+#2937
+A Broken Mine Cart~
+~
+A near shattered mine cart is next to the mine cart tracks. Pieces of 
+broken boards and loose wheels lay about. Oak timbers help reinforce the 
+walls and ceiling. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2938
+D2
+~
+~
+0 -1 2940
+R M 0 2938 1 2937
+  R E 0 2913 1 5
+  R E 0 2910 1 16
+  R E 0 2914 1 7
+S
+#2938
+The Safety Chamber~
+~
+The chamber has doubled up oak timbers providing extra strength to the 
+walls and ceiling. There are a few crates of supplies along the walls, and 
+a few makeshift bunks to bed down in. A rack of mining equipment is in the 
+center of the room. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2939
+D3
+~
+~
+0 -1 2937
+R M 0 2939 1 2938
+  R E 0 2913 1 5
+  R E 0 2910 1 16
+  R E 0 2914 1 7
+S
+#2939
+Along a Mine Shaft~
+~
+A few broken arrow shafts on the ground give the impression of a recent
+battle.  The walls show spots of silver ore from mining work.  A set of
+mine cart tracks lead down the passageway.
+~
+1 0 1
+D0
+~
+~
+0 -1 2936
+D3
+~
+~
+0 -1 2938
+R M 0 2940 1 2939
+  R E 0 2914 1 7
+  R E 0 2910 1 16
+  R E 0 2913 1 5
+  R E 0 2912 1 6
+R M 0 2941 1 2939
+  R E 0 2914 1 7
+  R E 0 2910 1 16
+  R E 0 2913 1 5
+  R E 0 2912 1 6
+S
+#2940
+Descending into the Depths~
+~
+The mine tracks split at a switch station that controls whether a mine 
+cart goes up or down. There are oak timbers helping to support the walls 
+and ceiling. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2937
+D1
+~
+~
+0 -1 2941
+D5
+~
+~
+0 -1 2945
+S
+#2941
+Within the Mine Shaft~
+~
+There are a set of mine cart tracks that lead down the passageway. A few 
+small rocks and rubble are against the walls. Oak timbers reinforce the 
+walls and ceiling. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2942
+D3
+~
+~
+0 -1 2940
+R M 0 2936 1 2941
+  R E 0 2909 1 16
+  R E 0 2915 1 10
+  R E 0 2914 1 7
+  R E 0 2913 1 5
+  R E 0 2912 1 6
+  R G 0 2910 1
+S
+#2942
+A Collapsed Section~
+~
+The passageway is almost closed off from a pile of rocks and rubble. This 
+is due to a timber breaking that was supporting the ceiling. It lays 
+amongst the rubble as well. There are mine cart tracks that lead 
+underneath the rubble. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2941
+R M 0 2937 1 2942
+  R E 0 2915 1 10
+  R E 0 2913 1 5
+  R E 0 2912 1 6
+  R E 0 2910 1 16
+  R G 0 2909 1
+  R E 0 2914 1 7
+S
+#2943
+Mine Cart Transition Point~
+~
+The mine cart tracks split at a wooden platform with a switch. The switch 
+controls if a mine cart goes up or down on the tracks. A cluster of giant 
+sized mushrooms are growing by the passage walls. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2944
+D4
+~
+~
+0 -1 2933
+S
+#2944
+An Underground Stream~
+~
+A large clear stream of water is running through here. A set of mine cart 
+tracks on a makeshift bridge go over the top of the stream. Oak timbers 
+help support the walls and ceiling. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2945
+D3
+~
+~
+0 -1 2943
+R M 0 2947 1 2944
+S
+#2945
+Mine Cart Transition Point~
+~
+A large wooden platform with a switch that controls whether a mine cart 
+goes up or down is here. A few broken mine tools are on the ground. There 
+are spots of gold ore showing on the walls from recent mining. 
+~
+1 4 1
+D2
+~
+~
+0 -1 2948
+D3
+~
+~
+0 -1 2944
+D4
+~
+~
+0 -1 2940
+S
+#2946
+Within the Mine Shaft~
+~
+The passage has been recently mined here. There are spots of gold ore 
+visible here and there. A set of mine cart tracks extends into the depths 
+of the passage. The walls and ceiling are supported by oak timbers. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2947
+D2
+~
+~
+0 -1 2949
+S
+#2947
+A Large Quarry~
+~
+A raw unsupported quarry with big rocks of gold are throughout this space. 
+There are stalagmites all over the place. A few giant sized mushrooms are 
+growing in small clusters. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2948
+D3
+~
+~
+0 -1 2946
+R M 0 2949 1 2947
+  R E 0 2920 1 19
+  R E 0 2921 1 6
+S
+#2948
+Along a Mine Shaft~
+~
+The mine cart tracks extends throughout the passageway here. There are a 
+few large rocks that have fallen from the sides of the passage, and they 
+have been pushed back to the walls. The walls and ceiling are reinforced 
+by oak timbers. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2945
+D3
+~
+~
+0 -1 2947
+R M 0 2946 1 2948
+S
+#2949
+End of the Tracks~
+~
+The mining cart tracks end at a break point here. There are several blocks 
+on the tracks to slow down any runaway carts. Large oak timbers help 
+support the walls and ceiling. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2946
+D1
+~
+~
+0 -1 2950
+S
+#2950
+A Vast Cavern~
+~
+There is a series of giant sized mushroom clusters within the room. A 
+small amount of water runs down the edges of the walls. There are 
+stalagmites here and there. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2951
+D3
+~
+~
+0 -1 2949
+S
+#2951
+A Dead End~
+~
+There is recent digging at this end of the mine shaft. A large amount of 
+gold ore shines through on the walls. There are supplies on the ground for 
+creating a set of mine cart tracks. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2950
+R M 0 2948 1 2951
+S
+#2952
+Floating in a void~
+~
+~
+1 4 1
+S
+#3000
+Floating in a void~
+~
+~
+1 4 13
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,4973 @@
+#AREA        Calling~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 5 1 5
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A bell rings far above to signify another hearing the Calling...~
+
+#FLAGS
+16836 5
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 999999926 44988626 999999926 999997726 999997726 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#100
+squire Tianna~
+Tianna Saleane~
+A beautiful female squire is here to greet new arrivals.
+~
+This is a woman, that is obvious, yet she does not quite fit what you
+are used to a female looking like.  You can not place what it is at
+first.  As you look her over, you see she is tall and quite slim, and
+her figure is one to attract eyes.  As you glance again over her face
+you notice her face is quite white, almost brilliantly so.  Her eyes
+are black as coal, no pupil distinguishable from the iris.  She smiles
+as she watches your mind turn to take in her appearance, and that is
+the last piece of missing information.  You notice the small fanged
+eyeteeth, and realize this is a vampire standing before you.  What
+world have you stepped into?
+~
+0
+Clanname none~
+0
+0
+3 4194984 0 C
+50 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mppause 3
+emote nods her head and bends her forward knee in a gesture of curtsey.
+mppause 3
+mpechoat $n _lbl Tianna says, Thank you $n, for heeding the Call to Arms.
+mppause 3
+mpechoat $n _lbl Tianna says, Erainne, the legendary mage of the Blood War+
+awaits your presence north.
+~
+> act_prog p flies in from the south.~
+mppause 3
+emote nods her head and bends her forward knee in a gesture of curtsey.
+mppause 3
+mpechoat $n _lbl Tianna says, Thank you $n, for heeding the Call to Arms.
+mppause 3
+mpechoat $n _lbl Tianna says, Erainne, the legendary mage of the Blood War+
+awaits your presence north.
+~
+> act_prog p floats in from the south.~
+mppause 3
+emote nods her head and bends her forward knee in a gesture of curtsey.
+mppause 3
+mpechoat $n _lbl Tianna says, Thank you $n, for heeding the Call to Arms.
+mppause 3
+mpechoat $n _lbl Tianna says, Erainne, the legendary mage of the Blood War+
+awaits your presence north.
+~
+> act_prog p arrives from the north.~
+mppause 3
+mpechoat $n _lbl Tianna says, $n you must be brave and go onward for the free+
+nations.
+~
+> act_prog p floats in from the north.~
+mppause 3
+mpechoat $n _lbl Tianna says, $n you must be brave and go onward for the free+
+nations.
+~
+> act_prog p flies in from the north.~
+mppause 3
+mpechoat $n _lbl Tianna says, $n you must be brave and go onward for the free+
+nations.
+~
+|
+#101
+mob mobi act~
+Act Mob~
+An Act Mob is here, but can not be seen by Pre-Auths.
+~
+~
+0
+Clanname none~
+0
+0
+2097155 66058 0 C
+105 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p has entered the game.~
+mppause 4
+mpechoat $n &WA voice tells you, 'Welcome to 6 Dragons!'&D
+mppause 6
+mpechoat $n &WA voice tells you, 'If you would like to do our tutorial type &GTUTORIAL&W and hit the enter key.  Those who do the tutorial will be rewarded with a special object.  We highly recommend you do the tutorial if you are new to this mud.  If you do not wish to do the tutorial use the &GSKIP&W command.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &WA voice tells you, 'If you would like to do our tutorial type &GTUTORIAL&W and hit the enter key.  Those who do the tutorial will be rewarded with a special object.  We highly recommend you do the tutorial if you are new to this mud.  If you do not wish to do the tutorial use the &GSKIP&W command.'&D
+~
+|
+#102
+mage Erainne~
+Erainne Ra'Kalanne~
+The legendary mage of the Blood War is standing here.
+~
+This is a man who eyes speak volumes, mostly of knowledge and friendship.
+Most dwarves are distrustful of strangers, but this one seems to thrive
+on greeting and teaching the new travelers into these Realms.  His face
+is covered in wrinkles, both from the sun and smiling.  His chin sprouts
+a proud goatee, and his clothes are bright to the point of being gaudy.
+His boots are a black leather, polished to a shine.  Overall, he makes
+quite a striking picture.
+~
+0
+Clanname none~
+0
+0
+3 4194984 1000 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 25 13 13 13
+0 0 0 0 0
+2 5 0 0 5 5 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mppause 3
+smile $n
+mpechoat $n &CErainne Ra'Kalanne says, 'It is nearly time for you to join the struggle.'&D
+mpechoat $n &CErainne Ra'Kalanne says, 'First however...'&D
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'I will advise you on the realms current status.'&D
+mppause 5
+if ovnumroom(122) < 1
+  mpechoat $n &BErainne Ra'Kalanne utters some strange words, and gestures sharply.
+  mpechoat $n &cSuddenly, a large mirror is created before you.
+  mpoload 122 1
+endif
+mpechoat $n &CErainne Ra'Kalanne says, 'Type &WLOOK MIRROR&C to find out for yourself.'&D
+~
+> act_prog p flies in from the south.~
+mppause 3
+smile $n
+mpechoat $n &CErainne Ra'Kalanne says, 'It is nearly time for you to join the struggle.'&D
+mpechoat $n &CErainne Ra'Kalanne says, 'First however...'&D
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'I will advise you on the realms current status.'&D
+mppause 5
+if ovnumroom(122) < 1
+  mpechoat $n &BErainne Ra'Kalanne utters some strange words, and gestures sharply.&D
+  mpechoat $n &cSuddenly, a large mirror is created before you.&D
+  mpoload 122 1
+endif
+mpechoat $n &CErainne Ra'Kalanne says, 'Type &WLOOK MIRROR&C to find out for yourself.'&D
+~
+> act_prog p floats in from the south.~
+mppause 3
+smile $n
+mpechoat $n &CErainne Ra'Kalanne says, 'It is nearly time for you to join the struggle.'&D
+mpechoat $n &CErainne Ra'Kalanne says, 'First however...'&D
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'I will advise you on the realms current status.'&D
+mppause 5
+if ovnumroom(122) < 1
+  mpechoat $n &BErainne Ra'Kalanne utters some strange words, and gestures sharply.&D
+  mpechoat $n &cSuddenly, a large mirror is created before you.&D
+  mpoload 122 1
+endif
+mpechoat $n &CErainne Ra'Kalanne says, 'Type &WLOOK MIRROR&C to find out for yourself.'&D
+~
+> act_prog p arrives from the east.~
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'Did you get a weapon from the weaponsmith?'&D
+mppause 3
+mpechoat $n &CErainne Ra'Kalanne says, 'Give me the weapon, and I will put a good edge on it.'&D
+~
+> act_prog p floats in from the east.~
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'Did you get a weapon from the weaponsmith?'&D
+mppause 3
+mpechoat $n &CErainne Ra'Kalanne says, 'Give me the weapon, and I will put a good edge on it.'&D
+~
+> act_prog p flies in from the east.~
+mppause 2
+mpechoat $n &CErainne Ra'Kalanne says, 'Did you get a weapon from the weaponsmith?'&D
+mppause 3
+mpechoat $n &CErainne Ra'Kalanne says, 'Give me the weapon, and I will put a good edge on it.'&D
+~
+> act_prog p gives you a falchion sword.~
+mea $n &BErainne utters some arcane words.
+mpoload 91
+get stone
+mppause 3
+mea $n &YThe weapon glows suddenly.
+mposet falchion value6 1
+give falchion $n
+mpat 4 drop stone
+~
+> act_prog p gives you a adamantium mace.~
+mea $n &BErainne utters some arcane words.
+mppause 3
+mea $n &YThe weapon glows suddenly.
+give mace $n
+~
+> act_prog p leaves north.~
+mppurge
+~
+> act_prog p floats north.~
+mppurge
+~
+> act_prog p flies north.~
+get mirror
+mpat 4 drop mirror
+mppurge
+~
+> act_prog p gives you a curved dagger.~
+mea $n &bErainne utters some arcane words.
+mpoload 91
+get stone
+mppause 3
+mea $n &YThe weapon glows suddenly.
+mposet dagger value6 1
+give dagger $n
+mpat 4 drop stone
+~
+|
+#103
+serpent snake~
+a serpent~
+A serpent springs from a coil deep within the grass and strikes!
+~
+A scaly, slimy serpent, so black it shines.  Its beady eyes watch your every
+movement, looking for an opening to strike!
+~
+0
+Clanname none~
+0
+0
+35 520 0 C
+3 0 75 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 4 0 0 396405 396405 0
+0 0 66593 0 0 0 66593 0
+> fight_prog 50~
+mpechoat $n $I sinks its fangs painfully into your flesh!
+mpechoaround $n $I sinks its fangs into $n's flesh!
+~
+> death_prog 100~
+mpoload 108 1
+mpechoat $n A piece of meat is torn from the serpent as it dies.
+~
+|
+#104
+dragon hatchling~
+the dragon hatchling~
+A dragon hatchling peers at you, huge and darkly menacing.
+~
+The head of this dragon is identical to the one you viewed earlier, the
+difference being that this one is (thankfully) only about tenth the size.
+This dragon, though a baby, looks like a tough battle indeed.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+2 0 75 20d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 3420515 3420515 0
+0 0 65671 0 0 0 65671 0
+> death_prog 100~
+mpoload 112 1
+mpecho $I snarls as thick blood fills its throat and it collapses.
+mpecho A loud crack can be heard in the shadows against the southern wall.
+mpecho A new dragon hatchling emerges from inside a hidden egg.
+mpmload 104
+mpechoat $n Remember...
+mpechoat $n You cannot advance beyond level 1 until you have passed the
+mpechoat $n runed gate and entered the actual game.
+~
+|
+#105
+mob mobii act~
+Act Mob~
+An Act Mob is here, but can not be seen by Pre-Auths.
+~
+~
+0
+Clanname none~
+0
+0
+1075838979 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog P arrives from the west.~
+mpoload 113 1
+mpoload 114 1
+mpat 120 give armour Quercusi
+mpat 120 give golden Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop box
+mpat 123 put token box
+mpat 123 close box
+~
+> act_prog p flys in from the west.~
+mpoload 113 1
+mpoload 114 1
+mpat 120 give armour Quercusi
+mpat 120 give golden Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop box
+mpat 123 put token box
+mpat 123 close box
+~
+> all_greet_prog 100~
+if race($n) == Halfling
+mpoload 113 1
+mpoload 114 1
+mpat 120 give armour Quercusi
+mpat 120 give golden Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop box
+mpat 123 put token box
+mpat 123 close box
+else
+endif
+~
+|
+#106
+Quercusi Q man~
+Quercusi~
+A wise man is here, rocking himself on a beautiful chair.
+~
+This man looks like he has been in the Realms for hundreds of years.
+His kind and friendly face is wrinkled with time, yet he appears to
+be in top physical shape, and his eyes sparkle with wit and wisdom.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194952 0 C
+50 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+smile $n
+mppause 5
+say Greetings $n.
+mppause 3
+say May this help you in your travels.
+mpoload 113
+give plate $n
+mpoload 114
+give key $n
+~
+|
+#107
+mob mobiii act~
+Act Mob~
+An Act Mob is here, but can not be seen by Pre-Auths.
+~
+~
+0
+Clanname none~
+0
+0
+2097155 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p pulls a rope.~
+mpechoat $n High overhead you hear a large bell thunder in response.
+mpechoaround $n High overhead, a large bell thunders in response.
+mpechoat $n If nothing happens, type LOOK ROPE, and pull again in 30 seconds.
+mpapplyb $n
+push rope
+~
+|
+#108
+tribune guard Daerrak~
+Daerrak McCaane~
+A tribune guard is posted outside the chamber doors here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194472 0 C
+100 0 -200 1000d100+1000 50d50+1000
+0 0 0 0 0 
+0
+115 115 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 0 0 0 0 0 524291
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &cDaerrak brings his sword to the port arms position with a snap of his wrist.&D
+mppause 3
+mpechoat $n &CDaerrak says, 'Hail $n.'&D
+mppause 3
+mpechoat $n &CDaerrak says, 'The tribune council is expecting your presence.'&D
+mppause 2
+mpechoat $n &CDaerrak says, 'Please head into the council chamber now $n.'&D
+open n
+mppause 20
+mpechoat $n &cDaerrak sheaths his sword with a quickness that sends a chill down your spine.&D
+~
+|
+#109
+elf lord~
+Lord Kalanis Ether~
+A beautiful elf lord is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 3
+mpechoat $n _lbl Lord Kalanis says, Welcome $n, be at ease.
+mppause 3
+smile
+mppause 2
+mpforce human mpechoat $n _lbl King Warren says, Yes indeed we+
+have been expecting you.
+mppause 3
+~
+|
+#110
+dwarven king~
+King Sothar Gise~
+A weathered dwarven king is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#111
+human king~
+King Warren Traes~
+An old human king is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#112
+halfling magistrate~
+Magistrate Faernum Seth~
+A plump halfling magistrate is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog ready~
+mppause 6
+say Very well good job.
+mpquest $n tutorial 3
+mppause 10
+unlock e
+open e
+emote escorts back to the dwarf.
+mpforce $n e
+mpat $n mpforce $n look
+close e
+lock e
+~
+|
+#113
+gnome lord~
+Lord Yaesen Macca~
+A wrinkled gnome lord is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 15
+mutter
+mpause 3
+say May the Creator bless the free Nations.
+mppause 2
+mpforce halfling say $n, Tanzean'al and his army must be stopped!
+mppause 3
+mpforce elf say Go now $n, with our blessings.
+mppause 3
+IF quest(tutorial) < 10
+  mpat $n mpechoat $n &cNote:  The following is added to remove tutorial quest from your journal list if you skipped the tutorial.&D
+  mpat $n mpquest $n tutorial 2
+  mpat $n mpquest $n tutorial 3
+  mpat $n mpquest $n tutorial 4
+  mpat $n mpquest $n tutorial 5
+  mpat $n mpquest $n tutorial 6
+  mpat $n mpquest $n tutorial 7
+  mpat $n mpquest $n tutorial 8
+  mpat $n mpquest $n tutorial 9
+  mpat $n mpquest $n tutorial 10
+ENDIF
+mpat $n mpapplyb $n
+~
+|
+#114
+Vicara man old~
+Vicara~
+An old man is here looking at a book.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4194312 0 C
+101 0 -300 1d1+-25536 1d2+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 8
+80 80 0 0 0 0 0 0
+> act_prog p appears in a spray of shooting light.~
+mppause 10
+mpechoat $n &CVicara says, 'For heavens sakes! That is quite a blow to your head you took.  Tazeanal's forces grow bolder each day.  Goblins raid towns, and outskirts imprisoning good people.  I hope we can teach you enough to pay them back in kind.'
+mppause 20
+mpat 4 look
+mppause 20
+mpquest $n tutorial 1
+mpechoat $n &CVicara says, 'You have just been given the tutorial quest.  You will find many quests in this game.  You can learn a lot about them with your &Gjournal&G command.'
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CVicara says, 'To find out what commands there are in this game.... You simply type the word &Gcommands&C and hit the enter button.  If you don't know what a command does...You can use our help system.  Simply type &Ghelp <command name>&C.'
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CVicara says, 'You may type the command &Gsouth&C to go south and learn more.'
+mppause 4
+~
+|
+#115
+ferrocious dog~
+a ferrocious dog~
+A large black dog is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+33 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 1 1 0
+0 0 41 0 0 0 1 0
+> death_prog 100~
+mptrans $n 150
+mppause 2
+mpat $n mpforce $n emote suddenly returns to the library.
+mppause 2
+mpat $n mpforce $n look
+~
+|
+#116
+elven elder~
+an elven elder~
+An elven elder is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4194336 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the north.~
+say Hello $n
+mppause 2
+mpechoat $n &CAn elven elder says, 'I will teach you how to communicate in this game.  There are several commands that can be used to talk here.  The &Gsay&C command will allow only those in the same room with you to see the message.  Example: typing &Gsay <message>&C where message is whatever you want people to hear.'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpechoat $n &CAn elven elder says, 'Let's see if you understand me. Type &Gsay yes&C to continue.'
+~
+> speech_prog yes~
+mppause 2
+mpechoat $n &CAn elven elder says, 'Very good.  Now the &GTell&C command allows you to tell only the person you want to talk to something.  For example &Gtell <person> <message>&C.  There are many other commands called channels you can utilize to communicate with.'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpechoat $n &CAn elven elder says, 'Type &Gchannels&C to see all channels you are currently listening to.  Type &Glisten <channel>&C where channel is what you want to be able to use.  There are also help files on the channels, type &Ghelp chat&C for example.'
+mpquest $n tutorial 2
+mppause 5
+mpechoat $n &CAn elven elder says, 'type &Gwest&C to continue in the lessons.'
+~
+> act_prog p flies in from the north.~
+say Hello $n
+mppause 2
+mpechoat $n &CAn elven elder says, 'I will teach you how to communicate in this game.  There are several commands that can be used to talk here.  The &Gsay&C command will allow only those in the same room with you to see the message.  Example: typing &Gsay <message>&C where message is whatever you want people to hear.'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpechoat $n &CAn elven elder says, 'Let's see if you understand me. Type &Gsay yes&C to continue.'
+~
+> act_prog p floats in from the north.~
+say Hello $n
+mppause 2
+mpechoat $n &CAn elven elder says, 'I will teach you how to communicate in this game.  There are several commands that can be used to talk here.  The &Gsay&C command will allow only those in the same room with you to see the message.  Example: typing &Gsay <message>&C where message is whatever you want people to hear.'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpechoat $n &CAn elven elder says, 'Let's see if you understand me. Type &Gsay yes&C to continue.'
+~
+|
+#117
+grizzled dwarf~
+a grizzled dwarf~
+A grizzled dwarf is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&G.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p flies in from the south.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&G.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p floats in from the south.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&G then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p arrives from the east.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p flies in from the east.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&G.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p floats in from the east.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p arrives from the west.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p flies in from the west.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> act_prog p floats in from the west.~
+if quest(tutorial) == 5
+mppause 2
+emote looks, and listens carefully at the cell bars for a moment.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'Listen friend if your looking to break out of this cell, I can help.'
+mppause 10
+emote looks you over.
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'First off your going to need a weapon.'
+mppause 15
+emote reaches into his boot, and pulls out a steel shank, sliding it over by your foot.
+mpoload 30001 1
+drop shank
+mppause 8
+mpechoat $n &CA grizzled dwarf says, 'type &Gget shank&C then type &Gwear shank&C.'
+mppause 15
+mpechoat $n &CA grizzled dwarf says, 'type &Gsay details&C when your ready to continue.'
+mpquest $n tutorial 6
+endif
+~
+> speech_prog details~
+if quest(tutorial) == 6
+mppause 3
+mpechoat $n &CA grizzled dwarf says, ' Right, your ready for action I see.'
+mppause 20
+mpechoat $n &CA grizzled dwarf says, ' We have been filing at this gate door with this stone for many months.'
+mppause 20
+mpechoat $n &CA grizzled dwarf says, ' We have it now, to where a hard kick will open the gate.'
+mppause 10
+mpechoat $n &CA grizzled dwarf says, ' There will be a goblin guard standing there.'
+mppause 20
+mpechoat $n &CA grizzled dwarf says, ' You will need to type &Gkill guard&C.'
+mppause 20
+mpechoat $n &CA grizzled dwarf says, ' Here we go!!'
+mppause 2
+emote kicks open the cell door!
+mppause 2
+mptrans $n 157
+mpat $n mpforce $n look
+mpat $n mpforce $n growl
+endif
+~
+|
+#118
+crystal bell 'crystal bell'~
+a stout halfling~
+A stout halfling is standing at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the east.~
+mppause 3
+say Greetings $n.
+mppause 20
+mpechoat $n &CA stout halfing says, 'Teachers throughout this game are scattered across the lands.  The homeland you belong to will have a teacher that teaches basic spells/skills.  The more advanced stuff will have to be sought out.  You find teachers with the teacher command.  When you are close to any creature just type &Gteacher&C and it will tell if they can teach or not.  $n to see what you can practice, type &Gpractice&C. That command will list what you can currently learn.'
+mppause 20
+mpat 4 look 
+mppause 20
+mpechoat $n &CA stout halfing says, 'To practice something at a teacher you type &Gpractice <skill or spell name>&C  $n take a moment to practice some spells/skills now that you feel are beneficial to you.  You may practice a spell or skill more then once increasing the percentage of success.  $n to find out about a spell/skill type &Ghelp <spell/skill name>&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA stout halfing says, 'To see what you may learn as you grow in power and levels, type &Gslist&C.  Just type &Gnorth&C when you think you are done with this lesson.'
+mpquest $n tutorial 4
+~
+> act_prog p floats in from the east.~
+mppause 3
+say Greetings $n.
+mppause 20
+mpechoat $n &CA stout halfing says, 'Teachers throughout this game are scattered across the lands.  The homeland you belong to will have a teacher that teaches basic spells/skills.  The more advanced stuff will have to be sought out.  You find teachers with the teacher command.  When you are close to any creature just type &Gteacher&C and it will tell if they can teach or not.  $n to see what you can practice, type &Gpractice&C. That command will list what you can currently learn.'
+mppause 20
+mpat 4 look 
+mppause 20
+mpechoat $n &CA stout halfing says, 'To practice something at a teacher you type &Gpractice <skill or spell name>&C  $n take a moment to practice some spells/skills now that you feel are beneficial to you.  You may practice a spell or skill more then once increasing the percentage of success.  $n to find out about a spell/skill type &Ghelp <spell/skill name>&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA stout halfing says, 'To see what you may learn as you grow in power and levels, type &Gslist&C.  Just type &Gnorth&C when you think you are done with this lesson.'
+mpquest $n tutorial 4
+~
+> act_prog p flies in from the east.~
+mppause 3
+say Greetings $n.
+mppause 20
+mpechoat $n &CA stout halfing says, 'Teachers throughout this game are scattered across the lands.  The homeland you belong to will have a teacher that teaches basic spells/skills.  The more advanced stuff will have to be sought out.  You find teachers with the teacher command.  When you are close to any creature just type &Gteacher&C and it will tell if they can teach or not.  $n to see what you can practice, type &Gpractice&C. That command will list what you can currently learn.'
+mppause 20
+mpat 4 look 
+mppause 20
+mpechoat $n &CA stout halfing says, 'To practice something at a teacher you type &Gpractice <skill or spell name>&C  $n take a moment to practice some spells/skills now that you feel are beneficial to you.  You may practice a spell or skill more then once increasing the percentage of success.  $n to find out about a spell/skill type &Ghelp <spell/skill name>&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA stout halfing says, 'To see what you may learn as you grow in power and levels, type &Gslist&C.  Just type &Gnorth&C when you think you are done with this lesson.'
+mpquest $n tutorial 4
+~
+|
+#119
+black bear~
+a black bear~
+A black bear is looking for food here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 5~
+emote growls with his hunger.
+~
+> death_prog 100~
+mpmload 119
+mpoload 196
+get bearskin
+~
+|
+#120
+elder gnome~
+an elder gnome~
+An elder gnome is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the east.~
+mppause 2
+mpechoat $n &CAn elder gnome says, 'Hello there.  I see you bring some objects with you.  I will teach you how objects work in this game.  To see what you are holding at the moment type &Ginventory&C'
+mppause 20
+mpat 4 look
+mppause 10
+mpoload 139 1
+drop book
+mpechoat $n &CAn elder gnome says, 'Pick up the book of game rules on the ground.  Type &Gget book&C. '
+~
+> act_prog p floats in from the east.~
+mppause 2
+mpechoat $n &CAn elder gnome says, 'Hello there.  I see you bring some objects with you.  I will teach you how objects work in this game.  To see what you are holding at the moment type &Ginventory&C'
+mppause 20
+mpat 4 look
+mppause 10
+mpoload 139 1
+drop book
+mpechoat $n &CAn elder gnome says, 'Pick up the book of game rules on the ground.  Type &Gget book&C. '
+~
+> act_prog p gets a book of game rules.~
+mpechoat $n &CAn elder gnome says, 'To wear anything that is wearable in your inventory you type &Gwear <object name>&C  To see what you are already wearing, you type &Gequipment&C. Notice the red bars next to it indicate how much durability an item has left.  You may give, drop, get, wear objects.  Type &Ghelp <action>&C action being one of the things you can do with objects.  You will also need food and drink in this game.  There are food objects, and drink objects.  Every homeland will sell both.  You just type &Gdrink <object> &Cor &Geat <object>&C'
+mppause 5
+mpquest $n tutorial 3
+mpechoat $n &CAn elder gnome says, 'Continue &Gwest&C to learn more.'
+~
+> act_prog p flies in from the east.~
+mppause 2
+mpechoat $n &CAn elder gnome says, 'Hello there.  I see you bring some objects with you.  I will teach you how objects work in this game.  To see what you are holding at the moment type &Ginventory&C'
+mppause 20
+mpat 4 look
+mppause 10
+mpoload 139 1
+drop book
+mpechoat $n &CAn elder gnome says, 'Pick up the book of game rules on the ground.  Type &Gget book&C. '
+~
+|
+#121
+pixie princess~
+a pixie princess~
+A pixie princess is flying here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p flies in from the south.~
+mppause 6
+mpechoat $n &CA pixie princess says, 'Greetings.'
+mppause 2
+mpechoat $n &CA pixie princess says, 'Although not critical to playing here, an important feature this game has is it's forums.  Believe it or not the Staff at 6 dragons take player opinions very seriously.  There is also an &Gincentive&C to post in the forums.  Those who make valid posts, gain a copper piece per post, that they can cash in at 100 copper pieces for a superbless version in our game called "&Gheavens blessings&C."  The blessing is very powerful, and well worth the time it takes to acquire one.  To join the forums you register at &Ghttp://6dragons.org/forums&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA pixie princess says, 'Now there is also &Gvoting&C to consider.  It is very important, because the more players vote...The higher our rank, and the more it attracts other players to try us out.  Please take a moment to vote for us daily.  &Ghttp;//6dragons.org/vote.php&C  We really appreciate your time, and will give you ours in return.'
+mppause 20
+mpquest $n tutorial 5
+mppause 3
+mpechoat $n &CA pixie princess says, 'Head &Geast&C to learn about how to escape this cell.'&C
+~
+> act_prog p floats in from the south.~
+mppause 6
+mpechoat $n &CA pixie princess says, 'Greetings.'
+mppause 2
+mpechoat $n &CA pixie princess says, 'Although not critical to playing here, an important feature this game has is it's forums.  Believe it or not the Staff at 6 dragons take player opinions very seriously.  There is also an &Gincentive&C to post in the forums.  Those who make valid posts, gain a copper piece per post, that they can cash in at 100 copper pieces for a superbless version in our game called "&Gheavens blessings&C."  The blessing is very powerful, and well worth the time it takes to acquire one.  To join the forums you register at &Ghttp://6dragons.org/forums&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA pixie princess says, 'Now there is also &Gvoting&C to consider.  It is very important, because the more players vote...The higher our rank, and the more it attracts other players to try us out.  Please take a moment to vote for us daily.  &Ghttp;//6dragons.org/vote.php&C  We really appreciate your time, and will give you ours in return.'
+mppause 20
+mpquest $n tutorial 5
+mppause 3
+mpechoat $n &CA pixie princess says, 'Head &Geast&C to learn about how to escape this cell.'&C
+~
+> act_prog p arrives from the south.~
+mppause 6
+mpechoat $n &CA pixie princess says, 'Greetings.'
+mppause 2
+mpechoat $n &CA pixie princess says, 'Although not critical to playing here, an important feature this game has is it's forums.  Believe it or not the Staff at 6 dragons take player opinions very seriously.  There is also an &Gincentive&C to post in the forums.  Those who make valid posts, gain a copper piece per post, that they can cash in at 100 copper pieces for a superbless version in our game called "&Gheavens blessings&C."  The blessing is very powerful, and well worth the time it takes to acquire one.  To join the forums you register at &Ghttp://6dragons.org/forums&C'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA pixie princess says, 'Now there is also &Gvoting&C to consider.  It is very important, because the more players vote...The higher our rank, and the more it attracts other players to try us out.  Please take a moment to vote for us daily.  &Ghttp;//6dragons.org/vote.php&C  We really appreciate your time, and will give you ours in return.'
+mppause 20
+mpquest $n tutorial 5
+mppause 3
+mpechoat $n &CA pixie princess says, 'Head &Geast&C to learn about how to escape this cell.'&C
+~
+|
+#122
+Celestial woman~
+a celestial woman ~
+A celestial woman is standing proudly here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the east.~
+mppause 8
+mpechoat $n  Welcome..
+mppause 20
+mpechoat $n  In this game we have something called double experience hour.
+mppause 20
+mpechoat $n  After a certain period that you are online, you will be asked to enter a correct code.
+mppause 20
+mpechoat $n  This is done by using the solve command, and if your successful, it contributes to your double experience bar, that you can see with the &Glevel&G command.
+mppause 20
+mpechoat $n  When your double experience bar is in the green status, you can activate a double experience hour for yourself by typing &Gconfig dexp&G.
+mppause 20
+mpechoat $n  The game rewards you for being online, with double experience.
+mppause 20
+mpechoat $n  Now onto another topic...
+mppause 20
+mpechoat $n  If you want to see who else is online in the game.  The &Gwho&G command is all you need type.
+mppause 20
+mpechoat $n  If you see any Staff members online, please feel free to ask them questions, and just talk to them, we really enjoy talking to players.
+mppause 20
+mpechoat $n  Staff members are people assigned to work on this game, and we are ready to help you when possible.
+mppause 10
+mpechoat $n  You may now enter the game when ready.
+mppause 20
+mpechoat $n  Type &Gsay enter&G when you are ready.
+~
+> act_prog p flies in from the east.~
+mppause 8
+mpechoat $n  Welcome..
+mppause 20
+mpechoat $n  In this game we have something called double experience hour.
+mppause 20
+mpechoat $n  After a certain period that you are online, you will be asked to enter a correct code.
+mppause 20
+mpechoat $n  This is done by using the solve command, and if your successful, it contributes to your double experience bar, that you can see with the &Glevel&G command.
+mppause 20
+mpechoat $n  When your double experience bar is in the green status, you can activate a double experience hour for yourself by typing &Gconfig dexp&G.
+mppause 20
+mpechoat $n  The game rewards you for being online, with double experience.
+mppause 20
+mpechoat $n  Now onto another topic...
+mppause 20
+mpechoat $n  If you want to see who else is online in the game.  The &Gwho&G command is all you need type.
+mppause 20
+mpechoat $n  If you see any Staff members online, please feel free to ask them questions, and just talk to them, we really enjoy talking to players.
+mppause 20
+mpechoat $n  Staff members are people assigned to work on this game, and we are ready to help you when possible.
+mppause 10
+mpechoat $n  You may now enter the game when ready.
+mppause 20
+mpechoat $n  Type &Gsay enter&G when you are ready.
+~
+> act_prog p floats in from the east.~
+mppause 8
+mpechoat $n  Welcome..
+mppause 20
+mpechoat $n  In this game we have something called double experience hour.
+mppause 20
+mpechoat $n  After a certain period that you are online, you will be asked to enter a correct code.
+mppause 20
+mpechoat $n  This is done by using the solve command, and if your successful, it contributes to your double experience bar, that you can see with the &Glevel&G command.
+mppause 20
+mpechoat $n  When your double experience bar is in the green status, you can activate a double experience hour for yourself by typing &Gconfig dexp&G.
+mppause 20
+mpechoat $n  The game rewards you for being online, with double experience.
+mppause 20
+mpechoat $n  Now onto another topic...
+mppause 20
+mpechoat $n  If you want to see who else is online in the game.  The &Gwho&G command is all you need type.
+mppause 20
+mpechoat $n  If you see any Staff members online, please feel free to ask them questions, and just talk to them, we really enjoy talking to players.
+mppause 20
+mpechoat $n  Staff members are people assigned to work on this game, and we are ready to help you when possible.
+mppause 10
+mpechoat $n  You may now enter the game when ready.
+mppause 20
+mpechoat $n  Type &Gsay enter&G when you are ready.
+~
+> speech_prog enter~
+mppause 8
+say Very well, good luck.
+unlock n
+open n
+mpforce $n n
+close n
+lock n
+~
+|
+#123
+Lizardman Tothar~
+a lizardman~
+A lizardman with a blue and gold trimmed robe stands here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mppause 2
+mpechoat $n  Greetings $n. 
+mppractice $n swim 20
+mppause 20
+mpechoat $n  I am going to teach you how to swim, and travel underwater.
+mppause 20
+emote heads north into the river and demonstrates the breast stroke. 
+mppause 4
+emote comes out of the river, and returns south to you.
+mppause 8
+mpechoat $n  You have now learned the basics of swimming, and can swim across the river.
+mppause 10
+mpechoat $n  Do not fear drowning, you cannot drown in this tutorial.
+mppause 10
+mpechoat $n  When you use the command &Gdown&G in this game and you are in a river or ocean, you actually swim down, and must hold your breath.
+mppause 10
+mpechoat $n  When you run out of bars in your hold breath bar which look like Breath left: (||||||||) You must surface or begin drowning.
+mppause 20
+mpechoat $n  Please feel free to head north swimming across the river, and go down, to see how the swim code works.
+mppause 10
+mpechoat $n  Then continue on to the north.
+~
+> act_prog p flies in from the south.~
+mppause 2
+mpforce $n land
+mpechoat $n  Greetings $n.
+mppractice $n swim 20
+mppause 20
+mpechoat $n  I am going to teach you how to swim, and travel underwater.
+mppause 20
+emote heads north into the river and demonstrates the breast stroke.
+mppause 4
+emote comes out of the river, and returns south to you.
+mppause 8
+mpechoat $n  You have now learned the basics of swimming, and can swim across the river.
+mppause 10
+mpechoat $n  Do not fear drowning, you cannot drown in this tutorial.
+mppause 10
+mpechoat $n  When you use the command &Gdown&G in this game and you are in a river or ocean, you actually swim down, and must hold your breath.
+mppause 10
+mpechoat $n  When you run out of bars in your hold breath bar which look like Breath left: (||||||||) You must surface or begin drowning.
+mppause 20
+mpechoat $n  Please feel free to head north swimming across the river, and go down, to see how the swim code works.
+mppause 10
+mpechoat $n  Then continue on to the north.
+~
+> act_prog p floats in from the south.~
+mppause 2
+mpforce $n land
+mpechoat $n  Greetings $n.
+mppractice $n swim 20
+mppause 20
+mpechoat $n  I am going to teach you how to swim, and travel underwater.
+mppause 20
+emote heads north into the river and demonstrates the breast stroke.
+mppause 4
+emote comes out of the river, and returns south to you.
+mppause 8
+mpechoat $n  You have now learned the basics of swimming, and can swim across the river.
+mppause 10
+mpechoat $n  Do not fear drowning, you cannot drown in this tutorial.
+mppause 10
+mpechoat $n  When you use the command &Gdown&G in this game and you are in a river or ocean, you actually swim down, and must hold your breath.
+mppause 10
+mpechoat $n  When you run out of bars in your hold breath bar which look like Breath left: (||||||||) You must surface or begin drowning.
+mppause 20
+mpechoat $n  Please feel free to head north swimming across the river, and go down, to see how the swim code works.
+mppause 10
+mpechoat $n  Then continue on to the north.
+~
+|
+#124
+Centaur Jarden~
+Jarden~
+A mighty centaur is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+12 3 0 0 1 1 7
+30 30 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mppause 2
+emote rears back on his hind legs, at your sudden presence.
+if ismulti($n)
+say Greetings $n
+mppause 8
+mpechoat $n  When you are multiclass you have a command called expratio.
+mppause 10
+mpechoat $n  Expratio lets you determine how experience goes to which class.
+mppause 10
+mpechoat $n  type &Ghelp expratio&G to find out more.
+else
+say Greetings $n
+endif
+~
+> act_prog p flies in from the south.~
+mppause 2
+emote rears back on his hind legs, at your sudden presence.
+if ismulti($n)
+say Greetings $n
+mppause 8
+mpechoat $n  When you are multiclass you have a command called expratio.
+mppause 10
+mpechoat $n  Expratio lets you determine how experience goes to which class.
+mppause 10
+mpechoat $n  type &Ghelp expratio&G to find out more.
+else
+say Greetings $n
+endif
+~
+> act_prog p floats in from the south.~
+mppause 2
+emote rears back on his hind legs, at your sudden presence.
+if ismulti($n)
+say Greetings $n
+mppause 8
+mpechoat $n  When you are multiclass you have a command called expratio.
+mppause 10
+mpechoat $n  Expratio lets you determine how experience goes to which class.
+mppause 10
+mpechoat $n  type &Ghelp expratio&G to find out more.
+else
+say Greetings $n
+endif
+~
+|
+#125
+goblin guard~
+a goblin guard~
+A goblin guard is standing watch here.
+~
+~
+0
+Clanname none~
+0
+0
+16908291 4194304 0 C
+1 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 0
+1 1 0 0 0 0 0 0
+> act_prog p growls.~
+if race($n) == Dragon
+cringe
+mppause 2
+mpechoat $n &CYou begin to take flight with your mighty wings, and rip a whole into the roof!
+mpapplyb $n
+mpgoto 4
+endif
+~
+> death_prog 100~
+mpquest $n tutorial 7
+~
+|
+#126
+invisble stalker~
+an invisible stalker~
+An invisible stalker stands here.
+~
+~
+0
+Clanname none~
+0
+0
+1092747267 4292610 0 C
+103 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 8
+80 80 0 0 0 0 0 0
+> act_prog p growls.~
+if mobinroom(157) < 2
+mpmload 125 1
+mpoload 198 1
+mpoload 127 1
+mpoload 141 1
+give shield goblin
+give sword goblin
+give key goblin
+mppause 20
+look goblin
+mppause 20
+look goblin
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'When he's dead, type &Gget all corpse&G.
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'After you get the keys from the guard's corpse...'
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'Type &Gunlock grate&G and &Gopen grate&G.
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you,'You will have to type &Gcrawl&G to go &Gnorth&G.
+mppause 8
+mpechoat $n &CA grizzled dwarf yells to you, 'You will have to swim through the sewer to the north.'
+mpat 154 mpforce dwarf mpat 157 mppractice $n swim 25
+else
+mppause 20
+look goblin
+mppause 20
+look goblin
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'When he's dead, type &Gget all corpse&G.
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'After you get the keys from the guard's corpse...'
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you, 'Type &Gunlock grate&G and &Gopen grate&G.
+mppause 20
+mpechoat $n &CA grizzled dwarf yells to you,'You will have to type &Gcrawl&G to go &Gnorth&G.
+mppause 8
+mpechoat $n &CA grizzled dwarf yells to you, 'You will have to swim through the sewer to the north.'
+mpat 154 mpforce dwarf mpat 157 mppractice $n swim 25
+endif
+~
+|
+#127
+human bard storyteller regius~
+Regius ~
+A human bard storyteller is standing here
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+101 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 17 0 0 1 1 8
+80 80 0 0 0 0 0 0
+> act_prog p gives you a leather backpack.~
+mppause 2
+say Very good
+mpoload 16048 1
+mpoload 16048 1
+mpoload 16048 1
+mpoload 16048 1
+mpoload 16047 1
+mpoload 16047 1
+mpoload 16047 1
+mpoload 16047 1
+mpoload 76 1
+mpoload 76 1
+mpoload 76 1
+mpoload 31355 1
+mpoload 31355 1
+mpoload 31355 1
+mpoload 31355 1
+mpoload 31355 1
+put all backpack
+give backpack $n
+mppause 2
+mpechoat $n &CRegius says, 'In Paleon City, there is a magical stone, called a &GPortal stone&C. While you are under level 20, you can use this stone with the &Gactivate&C command.  The stone will transport you to places you can level.  When you want to come back, you can use the &Grecall&C command till level 20.'
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CRegius says, 'Right, now follow me, I'll put you up in a Tavern for the night.'
+mppause 10
+mpechoat $n &OYour long journey to Paleon City fades from your memory....  You suddenly awake in a strange room.
+mpapplyb $n
+~
+> all_greet_prog 100~
+mppause 3
+say Greetings $n
+emote helps you to your feet.
+mpforce $n stand
+mppause 20
+say We are so relieved you made it out of prison.
+mppause 10
+mpechoat $n &CRegius says, 'You must've passed out and floated down the river to here, it's a few days journey you have gone.  Well I am here to tell you what has happened with the war since your memory maybe a little foggy.  Well you know how the Creator gave us all magic to make our lives easier.  Then the evil wizard Tanzean'al used it to try and take over the world.  Well the free races united, and we held him off, but it was the Creator's wrath of taking all magic from us, and scattering it across the realms that saved us.  Of course you know that Tanzean'al was imprisoned in Hell, and has now escaped, with his evil minions.  We need your help in the cause.  I'll take you to Paleon City, it's a small city, that could easily be conquered if they cared to, but their attention is on Minas tirith.'
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+say You will be needing supplies before we go.  Give me your backpack and I'll fill it up for you.
+mpechoat $n &GFirst you may need to type remove backpack then....
+mpechoat $n &GType give backpack bard
+mpquest $n tutorial 8
+ 
+~
+|
+#128
+estae wanderer boy~
+Estae, the wandering boy~
+Looking around curiously, a small boy with blond hair and bright amber eyes wanders about here.
+~
+Short and skinny, this energetic boy looks around fifteen years old. 
+Bright amber eyes gaze inquisitively about him, alert and determined. Soft 
+blond hair has feathery tufts flicking up and falls in messy bangs, coming 
+down to his nape in the back. A strange jagged scar winds around his left 
+wrist twice. He wears a white tunic that has a pair of small dragon wings 
+attached, large black shorts with countless belts and pockets, and a pair 
+of scuffed boots. He has a patched up satchel slung across his back and 
+holds leather-bound book in one hand. 
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 15 12 20 13 14 13
+0 0 0 0 0
+80 16 0 0 1 1 0
+0 0 8 16 1048576 0 976 1107296515
+> greet_prog 100~
+if name($n) == Rene
+mea $n &cEstae gives you a big smile and pounces on you for a hug. &D
+mer $n &cEstae gives Rene a big smile and pounces on her for a hug. &D
+mppause 5
+mpe &CEstae beams brightly and says, 'Hello Rene! Wanna hear a story? A poem? News? Anything?'&D
+else 
+mea $n &CEstae, the wandering boy, smiles and asks "How are you? If you want to buy something off of me, try LIST. If you want to hear what stuff I've recently memorized, say POEM PLEASE or STORY PLEASE! If you want to hear some news, just say NEWS PLEASE! As a warning, the story is five passages long."&D
+
+endif
+~
+> speech_prog p poem please~
+mpe &cEstae frowns in concentration as he tries to remember a poem to recite.&D
+mppause 10
+mpe &CEstae clears his throat and says, 'Here's a poem by an elven noble of Loramoor!'&D
+mppause 10
+mpe &CEstae recites, '"Yes", the ancient trees had said, "The time has not yet come- To join the wars of man and orc, To see our peace undone."'&D
+mppause 15
+mpe &CEstae recites, 'From our highest vantage spot, we watched the cities burn. But when the Throng slew elven priests, to whom could we then turn?'&D
+mppause 15
+mpe &CEstae recites, 'Silent forests, now so calm, know the past's mistakes. Silent gryphons, silent winds, will not forget those days.'&D
+mppause 15
+mpe &CEstae bows and comments, 'Good thing elves aren't so isolated anymore!'&D
+~
+> speech_prog p news please~
+mpe &cEstae flips open his book and finds today's date.&D
+mppause 5
+mpe &CEstae 'Well, I just got a neat stock of tops and bells. For the top, just push or pull the top. Don't stare at it too long, it does stuff to your head... The bells are one-time use, and can conjure up a special effect if you pull then push the bell. They're nice to listen to if you're tired.'&D
+~
+> speech_prog p story please~
+mpe &CEstae smiles and says, 'Here's a story I read recently in the Paleon Atheneum!'&D
+mppause 10
+mpe &CEstae recounts, 'In a far off kingdom, there was once a weaving girl who everyone loved for her beauty. Soon, she became spoilt by the attention. In that kingdom, there was a blue-eyed Princess who was the same age as the girl. The weaver began to believe she was prettier than the Princess and she thought to herself, "I should be princess, not her.'"'
+mppause 20
+mppause 20
+mpe &CEstae recounts, 'One day, she snuck into the palace, dressed as a serving maid, and hid in the Princess's chamber. When the Princess was ready to sleep, the weaver emerged and confronted her. The Princess merely smiled and handed her the crown. "You can have my crown, so I can have my freedom."'
+mppause 20
+mppause 20
+mpe &CEstae recounts, 'Thus, the blue-eyed girl left to be a weaver, and the weaver became the princess. In the days that followed, she enjoyed the luxuries of the palace. One night, the royal magician received a letter from the city of Paleon. He urged that the princess leave to hide in the mountains.'
+mppause 20
+mppause 20
+mpe &CEstae recounts, 'The weaver turned princess was told to pack quickly, but spent hours gathering her jewelry and clothing. Before she was ready to leave, the Throng's forces had reached the city and breached the palace. They soon cornered her and, despite her claims that she was not the actual princess, killed her in cold blood.'
+mppause 20
+mppause 20
+mpe &CEstae recounts, 'After the Throng was beaten back by the Alliance forces dispatched by Paleon, the kingdom began to search for a new princess. The blue-eyed girl was soon chosen for her kindness and wisdom, and reclaimed her position with humility and grace. The kingdom flourished under her rule. The end!'&D
+mppause 20
+mppause 20
+mpe &cEstae bows quickly before sipping some water from a flask. 
+~
+> rand_prog 1~
+mpe &cEstae, the wandering boy jumps back into a fighting stance and shadowboxes for a bit.&D
+~
+> rand_prog 1~
+mpe &cEstae flips open his book at chews thoughtfully on a quill.&D
+mppause 10
+mpe &CEstae says, "What's a good word for... hmmm... Maybe something like this."&D
+mpe &cEstae jots down some words in his book.&D
+~
+|
+#129
+weaponsmith Devon~
+Weaponsmith Devon~
+A hardy human male is displaying his wares here.
+~
+Of average height, Lorax has a rough complexion and a stocky build. His 
+green eyes appraise his wares with a critical glance, polishing the 
+weapons now and then with precise motions. His silent nature is reflected 
+in his stern face, mouth usually turned down in a slight frown. Wearing a 
+linen shirt and a dark apron over slacks, he has his sleeves rolled up and 
+polish oil staining his clothing. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304 700 C
+30 0 0 1d1+5000 1d4+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 9 0 0 0 112 2
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CWeaponsmith Devon says, 'I have some fine weapons to sell here.  Use the &WLIST&C command to see the selection.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CWeaponsmith Devon says, 'Use the &WBUY&C command to buy the weapon you like.'&D
+~
+|
+#199
+spacermob~
+a newly created spacermob~
+Some god abandoned a newly created spacermob here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#100
+candelabra~
+a candelabra with six black candles~
+Six black candles burn brightly in this brass candelabra~
+~
+1 0 1
+0 0 0 0 0 0 0
+100 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+#101
+spring~
+a magical spring~
+A magical spring sprinkles water from the corner of the room.~
+~
+25 64 0
+100000 100000 0 0 0 0 0
+5000 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+#102
+vomit spew~
+yucky vomit~
+Eww! Some sick person has left a puddle of vomit here!~
+~
+17 262144 0
+9999 9999 19 1 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+vomit~
+Some ill person has lost their lunch here, leaving a puddle of 
+greenish/grey liquid. Small pieces of carrot float in the mess (I can 
+never understand how my vomit always has carrot in it, even if I haven't 
+eaten carrot in years). 
+~
+#103
+painted top~
+a painted top~
+An exquisitely painted spinning top lies here on its side, urging you to PULL or PUSH on the TOP.~
+~
+38 0 1
+0 0 0 0 0 0 0
+1 15 1
+4
+3
+0
+0
+0
+0
+S 0 0
+> pull_prog 100~
+mea $n &cYou pinch the long stem of the top and give it a quick twist. The top spins into a curve before stabilizing and maintaining its position. From above, its painted designs swirl together into a hypnotising ring of color. 
+
+mer $n &c$n pinches the long stem of the top and gives it a quick twist. The top spins into a curve before stabilizing and maintaining its position. From above, its painted designs swirl together into a hypnotising ring of color. 
+mpforce $n sleep
+~
+> push_prog 100~
+mea $n &cYou pinch the long stem of the top and give it a quick twist. The top spins into a curve before stabilizing and maintaining its position. From above, its painted designs swirl together into a hypnotising ring of color. 
+
+mer $n &c$n pinches the long stem of the top and gives it a quick twist. The top spins into a curve before stabilizing and maintaining its position. From above, its painted designs swirl together into a hypnotising ring of color. 
+mpforce $n sleep
+~
+|
+#104
+weapons box~
+a weapons box~
+A weapons box is secured to the ground here.~
+~
+15 0 0
+1000 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+box~
+The weapons box is constructed out of solid oak and holds an array of weapons.
+~
+#105
+Weapon~
+A finely honed weapon lies here, waiting to be carried into battle.~
+You see a finely honed dagger here.~
+~
+5 64 8192
+12 1 6 11 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+dagger~
+This weapon looks to be of decent quality and should serve you well in your
+upcoming battles.
+~
+A
+18 1
+A
+19 2
+#106
+ring light lightring~
+a ring of light~
+A small circle of light lies here.~
+~
+9 64 3
+60 60 0 0 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+ring light~
+This ring is a symbol of your chosen peaceful nature.  It will aid you
+until you reach level 10.  May it always find you in good health.
+~
+A
+13 5
+A
+2 1
+#107
+ring shadow shadowring~
+a ring of shadows~
+A small circle of shadows lies here.~
+~
+9 64 3
+60 60 0 0 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+ring shadows~
+This ring is a symbol of your chosen deadly nature.  It will aid you until
+you reach level 10.  May it always find you in good health and fast reflex.
+~
+A
+13 5
+A
+2 1
+A
+18 1
+#108
+snakemeat snake meat~
+a piece of meat~
+A piece of meat from a snake~
+~
+19 262144 1
+25 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#109
+feather purple~
+a purple feather~
+A bright purple feather lies here.~
+~
+3 268697664 16385
+3 2 2 -1 0 0 0
+4 0 0
+1
+0
+0
+0
+0
+0
+'magic missile'
+S 0 0
+E
+feather purple~
+Rather heavy for a feather, it looks to actually be a wand of sorts.  Perhaps
+you should hold it and zap <target>.  Because this feather contains an attack
+spell, this is NOT something you would want to cast on another player, unless
+you are both pkill characters.
+~
+#110
+bucket water tin~
+a tin bucket~
+A bucket full of water sits here, waiting for someone to carry it away.~
+~
+17 524288 1
+20 10 0 0 0 0 0
+4 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+tin bucket~
+This is a sturdy bucket made to store drinking water.  You can 'drink tin'
+or 'drink water'.  You may refill the bucket at fountains or streams by
+typing 'fill bucket'.
+~
+#111
+pond~
+the pond~
+A shallow pond of crystal clear water~
+~
+25 1073741824 0
+100000 1000000 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+pond~
+The waters are shallow and clear, and surprisingly cold.  Several varieties
+of fish swim beneath the surface, but you can best make out a pool of lapis-
+toned fish.  You have no doubt you can drink from this water source, and may
+wish to fill your water bucket before continuing your journey.
+~
+#112
+shield dragonscales scales~
+a shield of dragonscales~
+A shield of scales lie here, marred with deep burns.~
+~
+9 262148 513
+4 3 0 0 0 0 0
+5 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+shield dragonscales scales~
+This shield shall protect you well in your travels.  Wear it in good health.
+~
+A
+18 1
+A
+19 1
+> drop_prog 100~
+mpforce $n trash $o
+~
+|
+#113
+armour breast plate~
+a thick plate of breast armour~
+A breast plate lies here, unused and forgotten.~
+~
+9 0 9
+2 2 0 0 0 1 0
+10 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+17 -3
+#114
+key golden~
+a huge golden key~
+A large golden key lies here, it looks to open something important.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+golden key~
+This key looks to open something very important. Maybe the gate to
+your future. To use a key, just UNLOCK <door>. Like UNLOCK GATE.
+~
+#115
+rope~
+a rope~
+A rope hangs from high above, waiting to be pulled.~
+~
+37 262144 0
+29 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+rope~
+If you are ready to pass beyond the Spectral Gates, you need only pull this
+rope to notify the Immortals that you are ready to enter the game!
+ 
+If your name has been approved, you will be sent into the actual game.
+ 
+If you receive a message stating your name has been denied by the Immortals,
+you must choose a NEW, original medieval name.  To do this, you type:
+ 
+"name <newname>"                 For example:  name Tsythia
+ 
+Then pull the rope to announce your new name to the Immortals.  Give them
+about 30 seconds to approve or deny the new name.  If you have not gotten
+a response, pull the rope again.
+ 
+The rope is on a 30 second timer, meaning you can pull it as often as you
+wish, but the Immortals will only be notified once every 30 seconds.  The
+Immortals are often busy and may not see you the first time around, so
+please be patient - one will be with you as quickly as possible.
+~
+#116
+box~
+the box~
+A blackened wooden box sets in the shadows atop a small table.~
+~
+15 0 1
+11111 1 0 0 0 0 0
+1100 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#117
+earring token~
+a token of a Goddesses affection~
+An earring lies here, tarnished and forgotten.~
+~
+9 65 65537
+60 60 0 0 0 0 0
+5 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+26 2097152
+> wear_prog 100~
+if level($n) < 16
+mpechoat $n As you wear this earring you feel your feet rise off the ground.
+mpechoar $n As $n clasps $O on $s ear, $e begins to float above the ground.
+else
+mpechoat $n The clasp on the earring will no longer stay closed on your ear.
+mpechoaround $n $n struggles with $O but cannot get it to stay on $s ear.
+mpforce $n remove token
+endif
+~
+|
+#118
+crystal bell~
+a crystal bell~
+A small crystal bell lies on its side here, covered in dust. ~
+~
+37 8192 1
+1 0 0 0 0 0 0
+1 100 10
+2
+0
+0
+0
+0
+0
+S 0 0
+E
+118 crystal bell~
+This small handbell is only only as wide as an index finger. There is a long, slender crystalline handle with ancient runes etched onto its frosted surface. The bell itself is made of a smooth and polished crystal of clear hue, and contains an azure clapper inside. Around the outside surface, intricate frosted images of rabbits in a field of snow form a ring. 
+~
+> pull_prog 100~
+mea $n &WYou tilt the bell back to ring it. Try to PUSH the BELL now.
+mer $n &W$n tilts the bell back to ring it. The bell can now be PUSHed and rung.&D
+~
+> push_prog 100~
+mea $n &WYou flick your wrist forward, and a clarion chime rings out from the bell. It hangs in midair, slowly fading into silence. As the sound disappears, the bell suddenly shatters into sugar-like dust.
+mer $n &W $n flicks their wrist forward, and a clarion chime rings out from the bell. It hangs in midair, slowly fading into silence. As the sound disappears, the bell suddenly shatters into sugar-like dust.
+
+mppause 20
+mea $n &CA sudden breeze picks up the dust and casts it into the air, where it forms the shape of a white rabbit. The rabbit looks over its shoulder at you, then hops up, up and out of sight.
+mer $n &CA sudden breeze picks up the dust and casts it into the air, where it forms the shape of a white rabbit. The rabbit looks over its shoulder at $n, then hops up, up and out of sight.
+mprestore $n 600
+mpforce $n drop bell
+mppurge bell
+~
+> get_prog 100~
+mea $n You pick up a crystal bell and brush the dust off it. Maybe you should try to PULL it?
+mer $n $n picks up a crystal bell and brushes the dust off it.
+~
+|
+#119
+gownq~
+a flowing white gown~
+Some god dropped a newly created gown here.~
+~
+9 0 9
+40 40 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+1 5
+A
+2 5
+#120
+peaceful sign~
+the sign of the peaceful path~
+A large sign floats before the trees alongside the pathway.~
+~
+12 1 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+sign~
+The Gods hope your stay on the game will be a pleasant one.  However,
+to insure the enjoyment of others, there are two major Rules which you
+should be made aware of:
+ 
+1) Thou shalt neither attack nor steal from a player who has chosen
+   Non-Pkill Status.  Thou shalt not engage in pkill as long as you
+   remain peaceful.
+2) Thou shalt not spam, use profanity, harass, nor make either lewd
+   or racial comments on any channel, nor to any other player.
+~
+#121
+deadly sign~
+the sign of the deadly path~
+A large sign floating alongside the pathway demands your attention.~
+~
+12 4 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+sign~
+The Gods hope your stay on the game will be a pleasant one.  However,
+to insure the enjoyment of others, there are two major rules which you
+should be made aware of:
+ 
+1) Thou shalt neither attack nor steal from a player who has chosen
+   Non-Pkill Status.  Thou shalt only attack other pkillers within
+   five levels of your own.
+2) Thou shalt not spam, use profanity, harass, nor make either lewd
+   or racial comments on any channel, nor to any other player.
+
+Also, often review HELP RULES PKILL for rule changes that affect you.
+~
+#122
+large gilded mirror~
+large gilded mirror~
+A large gilded mirror dares you to peer into it.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+mirror~
+You peer into the mirror. Its surface clouds over, and suddenly forms
+a colourful image depicting a major battle in strange, far off lands..
+
+Countless waves of green humanoids - goblins, orcs, trolls - are
+assaulting a huge, heavily barricaded stone fortress. The green skins
+are moving faster than the archers can reload, climbing over their
+fallen comrades with war machines and ladders to breach the castle walls.
+
+Suddenly, a massive meteor explodes in the centre of the horde, throwing
+goblin limbs in the air and rendering the army asunder. Mages reinforce the
+archers on the walls, and the drawbridge slowly opens to reveal legions of
+hardened, steel clad warriors who set upon the remnants of the army with
+vigor. It seems almost as if the battle has turned in the favour of the
+castle army.
+
+However, within mere minutes it's proved their last stand, and there is
+still no end in sight to the green skinned horde who continue rampaging
+and pillaging while they move through the town. Before the last stone falls,
+a massive, dark figure can be seen striding through the horde, his voice
+only a whisper yet carrying across the fields - Tanzean'al.
+~
+#123
+sack burlap~
+a large burlap sack~
+A sack made from a brown burlap lies here.~
+~
+15 0 16385
+75 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+sack burlap~
+To use this sack, type:  examine sack   OR   exam sack
+To get items from this sack, type:  get <item name> sack
+To put an item in this sack, type:  put <item name> sack
+ 
+You can also use get all or put all.  See help container for more information.
+~
+#124
+stairs~
+a staircase~
+A spiral staircase leads down from center of the room.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+stairs staircase~
+These staircase looks sturdy.  It descends to another room from the
+center of the room.
+~
+#125
+a curved dagger~
+a curved dagger~
+&GA curved dagger has been left here.&D~
+~
+5 0 8193
+12 1 5 2 2 1 0
+2 20 2
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+dagger~
+The dagger has a good edge and appears to be made out of quality metal.
+~
+A
+19 1
+A
+18 4
+#126
+adamantium mace~
+a gleaming adamantium mace~
+A mace of brightly gleaming metal hums with inner power.~
+~
+5 0 8193
+12 1 5 4 5 1 0
+2 31 3
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+adamantium mace~
+Forged of a gleaming metal, this mace will serve you well in your early years.
+~
+A
+18 4
+A
+19 1
+#127
+Falchion Sword~
+a falchion sword~
+&GA falchion sword lays on the ground here.&D~
+~
+5 0 8193
+12 1 5 1 1 1 0
+2 22 2
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+sword~
+The sword has a good edge and appears to be made out of quality metal.
+~
+A
+18 4
+A
+19 1
+#128
+coins %s~
+%d %s coins~
+&YLots of %s coins.~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#129
+coins %s~
+%d %s coins~
+&YA heap of %s coins.~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#130
+coins %s~
+%d %s coins~
+&YA pile of %s coins.~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#131
+coins %s~
+%d %s coins~
+&YA massive pile of %s coins!~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#132
+coins %s~
+%d %s coins~
+&YSo many %s coins, you can't count them!~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#133
+coins %s~
+%d %s coins~
+&YA nearly infinite amount of %s coins!!~
+~
+20 0 1
+1 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+E
+mirror~
+The swirling images combine showing A place of pure fire.  You recognize,
+creatures from story books describing demons in Hell.  Only now you see a
+large man dressed in black as he tears a hole in the air, creating a type
+of gateway.  Now, you can hear them as well.  The demons shout for revenge!
+The man in black sends the demons through the portal with a look of hate.
+ 
+The image now fades away to another scene.  Here the demons are joined by the
+evil Goblins and Orcs.  You recognize the place as the city Darva, or what
+used to be the city Darva as the creatures pillage and destroy it.  The image
+now disapears and you can see your reflection in the mirror.
+ 
+&GErainne says, 'first you will need a weapon... Head east into the armory.'
+~
+#134
+chair~
+&Oa chair~
+&OThere are multiple oak chairs that have been arranged here.~
+~
+12 0 0
+5 0 513 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#135
+red apple~
+a red apple~
+A red apple has been left here.~
+%s enjoy$q $p.~
+19 0 1
+5 0 0 0 0 0 0
+1 1 0
+4
+3
+0
+0
+0
+0
+S 0 0
+#136
+banana~
+a banana~
+A banana has been left here.~
+%s enjoy$q $p.~
+19 0 1
+5 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+#137
+turkey leg~
+a turkey leg~
+A turkey leg has been left here.~
+%s enjoy$q $p.~
+19 0 1
+5 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#138
+water melon~
+a water melon~
+A water melon has been left here.~
+%s enjoy$q $p.~
+19 0 1
+5 0 0 0 0 0 0
+1 2 0
+4
+9
+0
+0
+0
+0
+S 0 0
+#139
+book rules~
+a book of game rules~
+A thick book with the words 6 Dragons Rules on the cover has been left here.~
+~
+47 0 16385
+0 0 0 0 0 0 0
+1 0 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+book game rules~
+&G            The book of &rSix Dragons&G Rules
+ 
+                    Table of Contents 
+
+     page1...............................Basic Rules  
+     page2...............................Channel Rules
+     page3...............................Charm Rules
+     page4...............................Cheating Rules
+     page5...............................Harassment Rules
+     page6...............................Killsteal Rules
+     page7...............................Objects Rules
+     page8...............................Pkill Laws
+     page9...............................Sharing Rules
+     page10..............................Spam Rules
+     page11..............................Stake Rules
+     page12..............................Stores Rules
+     page13..............................Apply to be STAFF
+     page14..............................Clan Purchase
+     page15..............................Code Credits
+     page16..............................Whine Free Mud
+
+          Type look 'page#' to read the book.
+~
+E
+page1 'Basic Rules'~
+&G
+1. MULTIPLAYING IS ALLOWED.  CODE WILL NOT PERMIT YOU TO ATTACK ANOTHER
+PLAYER WITH MORE THAN ONE OF YOUR CHARACTERS AT A TIME.
+
+2. Keep all swearing in the [swear] channel. That's what it's for.
+If you persist in ignoring this rule, expect to have your speaking
+privileges revoked.
+
+3. On a related note, no spamming public channels. As before, if
+you are warned and do not stop, you will be silenced or worse.
+* Do not ask questions on public channels without checking help
+  files first.
+
+4. Do not ask about staff commands, how MUDs work, or other such
+behind-the-scenes stuff. We're not a MUD tutorial.
+
+5. No advertising other muds here. Via channels, bios, html commands,
+or anything.  If I even think you are, I will likely slay or destroy
+you.  Repeated offenders will be banned. 
+
+To turn page look page2
+~
+E
+page2 'Channel Rules'~
+&G
+Spam (repeating the same message repeatedly or otherwise purposely causing
+the screen to scroll), harassment (including sexual) and abusive behavior are
+not permitted on any channel (this includes in 'say' or 'tell').  Do not
+continue to 'tell' to someone after they have asked you to stop.
+
+Profanity is not permitted on any public channel, which is a channel seen by
+those other than yourself and the person to whom you are speaking.  If you
+use profanity in a private conversation and the other party asks you to stop,
+please respect their wishes.  The difference between '****, I'm having a bad
+day' and 'what is your ****** problem' should be obvious to everyone.
+The swear channel should be utilized for profanity if you desire to do so.
+
+If any level of STAFF asks you to desist on a subject, or to move the
+subject to an appropriate channel, do so immediately.  Continuing on a
+subject or channel after you are requested to stop may result in your
+character losing its access to channels through silencing.  A STAFF's
+decision on subject matter and/or channel use should be obeyed.
+
+Warning:  Arguing with or flaming STAFF on channels _will_ get you
+silenced or worse, and this may extend to your other characters as well if
+you push the matter.  The Realms provides ample avenue for complaint without
+resorting to public baiting and name-calling.
+
+To turn page look page3
+~
+E
+page3 'Charm Rules'~
+&G
+Do not bring aggressive mobs into or near Homelands, as when their charm
+wears off (either naturally or by attack) their aggressive nature will
+return.  Also do not bring aggressive mobs into areas which are lower in
+level than the area from which the mob originally came.  You can use the
+'areas' command to check an area's level.  See 'help charm' for more.
+
+To turn page look page4
+~
+E
+page4 'Cheating Rules'~
+&G
+Cheating is a very serious offense and subjects _all_ characters involved
+to a slay, purge (loss of all equipment), freeze, balzhur (destruction of
+all equipment and public demotion to level 2), deny or even a site ban.
+
+What is considered cheating?
+ - exploiting (intentionally using) a bug to gain equipment or money
+ - intentionally causing the system to crash
+ - intentionally duplicating equipment or money
+ - knowingly accepting illegal equipment (see above) from others
+ - attempting to duplicate equipment or money -- * even if not successful *
+ - using or making profit from equipment that was accidentally duplicated
+ - using money that was accidentally duplicated
+ - Killing mobs that are obviously too easy, and not set right for the
+   experience that you gain.
+
+Cheating hurts the game, and every player in the game.  Protect yourself
+and report any bugs you find, and inform a STAFF member if you have strong
+cause to believe someone is engaged in any of the above.
+
+If you find you have accidentally duplicated an item, turn the item over
+_immediately_ to a STAFF member or drop and sacrifice the item.
+
+To turn page look page5
+~
+E
+page5 'Harassment Rules'~
+&G
+Harassment is giving a person unwanted attention, whether you perceive it
+as negative or positive attention.  If a person is made to be uncomfortable
+by your attention or comments, you are harassing that person.  If a person
+asks you to desist in talking to them or performing socials on them, and
+you do not stop, you are harassing that person.  If you act in an intimate
+manner to a character, without their permission, you are harassing that
+person.
+
+No form of harassment is tolerated in the Realms.  We especially frown upon
+unwanted comments or actions with a sexual nature or explicit content.  If
+you do not have an intimate relationship with the person, whether in real
+life or within the Realms, you should refrain from using suggestive actions
+and/or comments.
+
+If you are caught harassing another player in any way, you can be silenced,
+helled, frozen, denied, and/or site banned.  Harassing another player is a
+serious violation of the rules and will not be permitted.  If you choose
+to harass a STAFF member, you will simply be deleted.
+
+To turn page look page6
+~
+E
+page6 'killsteal Rules'~
+&G
+Don't do it...
+
+Kill stealing occurs when a player attacks a mob that is already being
+fought.  This is both highly annoying and illegal.  If someone should do
+this to you please inform them of the rules (ask them to read 'laws
+killsteal').  If they continue, ask a STAFF member to intervene, if they
+are not available to help though move away from that player and just
+fight some place else.
+
+To turn page look page7
+~
+E
+page7 'Object Rules'~
+&G
+If you notice an item on the ground and there is a player in the room with
+it, do _not_ pick it up without first getting permission from the person<s>
+in the room.  Taking such items may be considered stealing if you do not
+first obtain permission from those present, or both players involved are
+deadly.
+
+Do not simply take an item to identify it without asking permission.  If
+you are asked to drop an item you picked up, do so immediately.
+
+Do not take items laying next to a corpse, even if no one is present,
+without asking the owner of the corpse if the item(s) belong to them.
+Unless both players involved are deadly.
+
+Do not take items from a mob corpse unless you made the kill yourself or
+you have specific permission from the character who made the kill.  This
+includes removing money from a corpse, unless both players involved are
+deadly.
+
+* Warning:  It is never wise to leave items or containers unattended and
+  expect them to be there when you return.  If there is an item on the
+  ground and there is neither a corpse nor a player in the room, the
+  object is considered abandoned and free for the taking.
+
+To turn page look page8
+~
+E
+page8 'PKILL Laws'~
+&G
+Warning :
+Breaking a pkill law is not acceptable and brings severe penalty.
+
+Law #1 Thou shalt not loot more then 3 items per corpse.
+Law #2 Thou shalt not ask Staff for corpse retrievals.
+Law #3 Staff may join clans, but will not hold the Clan Leader position.
+Law #4 Staff found cheating, will loose their Staff status.
+Law #5 Players found cheating, will be severely punished.
+
+To turn page look page9
+~
+E
+page9 'Sharing Rules'~
+&G
+Character sharing (when allowed) is always done at the risk of the players
+involved.  STAFF will not recover any character lost to trading or
+sharing.  Whoever owns the password owns the character.
+
+A character may not be shared if:
+ - the character holds any leadership position in a Guild or Order
+
+To turn page look page10
+~
+E
+page10 'Spam Rules'~
+&G
+No, we are not talking about a luncheon meat here.  Spam is the repeated use
+of a phrase, command, or channel that causes screen scroll for others.  Not
+only is spam considered rude, but excessive screen scroll can interfere with
+the game play of anyone seeing it (not to mention combat situations).  The
+game will also tell you to PUT A LID ON IT and force-quit you after the 20th
+repeat of a single command
+
+It is also considered spam to use the same phrase over several different
+channels.  The use of all-caps can also be considered spam.  Only use
+capitals to add emphasis to key words in a sentence.
+
+Moving a large number of items into and out of a container in a crowded,
+non-store room is considered spam.  Using multiple characters to chat the
+same message at the same time is considered spam.  Making charmed mobs
+or pets to cause screen scroll through movement or orders is considered
+spam. ANYTHING that causes excessive or irritating screen scroll can be
+considered spam.
+
+To turn page look page11
+~
+E
+page11 'Stake Rules'~
+&G
+The first player to attack a mob has the rights to the kill.  Others should
+not get involved without being requested to do so.  Those receiving aid are
+under no obligation to reward their benefactors.  Monopolization of a mob and
+its repops will not be tolerated.
+
+Any disputes brought to the attention of a STAFF member for resolution will be
+handled according a STAFF member's discretion.  All such decisions are final.
+
+To turn page look page12
+~
+E
+page12 'Store Rules'~
+&G
+Some shopkeepers you can attack and some you can't.  Most that can be attacked,
+are extremely difficult to kill.
+
+If you notice a bug of some type dealing with shopkeepers and do not report it
+immediately, you could be subject to severe punishment.
+
+To turn page look page13
+~
+E
+page13 'Apply to be STAFF'~
+&G
+So you want to be a STAFF member on Six Dragons?
+
+The job may not pay anything, but it is still very demanding.
+You may find that you loose the magic of mudding from being a STAFF member.
+However, if you think you have the right stuff for the job.....
+
+The Criteria are:
+1. Level yourself to at least level 20.
+2. Write a gnote to the Head of Area Architects.
+3. Interview with STAFF.
+4. Submit examples of your work.
+
+Note: Final decision is made by the STAFF, however you may choose to
+      reapply at a later date.
+
+To turn page look page14
+~
+E
+page14 'Clan Purchase'~
+&G
+So you want to purchase a clan?
+
+Hah.....
+
+It is not all fun and games purchasing a clan.
+
+There is alot that must be done to be considered.
+
+New clan purchases must meet the following requirements:
+1. Gold necessary for the clan purchase.
+2. Devised a clan name and a detailed theme.
+3. You must get Staff approval for your new clan.
+
+See the following help files:
+GUILDS, ORDERS, PETITION, CLANS, CLAN PURCHASE2, PKILL LAWS
+
+To turn page look page15
+~
+E
+page15 'Code Credits'~
+&G
+Where has all the Code for Six Dragons come from?
+
+It has come from many sources.
+
+The Head of Code council is Taon.
+Volk, Remcon, and Vladaar have made code contributions over the years.
+See 'news all'.
+
+The Smaug Team developed the codebase that Orion Elder made a derivative
+from.  I used Orion Elder's Chronicles Codebase.
+
+A whole slew of snippets from other authors has been added to this mud
+over the years, and at one point permission was attained to do so.
+
+A great deal of code and snippets were taken from Garil of DotdII codebase,
+and Samson of AFK codebase.  Both of these men have been instrumental in
+helping this mud be what it is today.  Many thanks to all contributers.
+My old friend Remcon has been a great help over the years.
+
+If I have forgotten to give credit to someone please let me know, and I
+will do so.
+
+~
+E
+page16 'WHINE FREE MUD'~
+&G
+WHINE FREE MUD
+
+Please refrain from whining in the mud on public channels, you can use
+the global boards, and forums if you have a complaint. 
+
+Whining not only brings morale down, it affects the attitudes and
+game enjoyment of everyone.
+
+Thanks for your understanding.
+
+Vladaar
+~
+A
+18 2
+#140
+the skeleton of %s~
+the skeleton of %s~
+The skeleton of %s lies here.~
+~
+69 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#141
+iron shield~
+an iron shield~
+An iron shield has been left here.~
+~
+9 0 513
+2 2 0 0 0 1 0
+4 25 2
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+18 1
+#142
+meat chuet~
+a warm meat chuet~
+A warm meat chuet wrapped in parchment sits here, emitting a tantalizing smell.~
+%s hold$q up $p and bite$q into it eagerly, enjoying the pastry crust and flavorful lamb with a content sigh.~
+19 64 1
+8 10 0 0 0 0 0
+1 11 1
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+142 meat chuet~
+This rich and savory meat chuet has been made with buttery pastry dough and a complex filling of chopped lamb, saffron, dates, currents, and suet. The fruits and the meat have all been chopped together and the saffron mixed in. The flaky crust has been brushed with butter and has a small hole in the center from which a delicious aroma wafts. 
+~
+#143
+poached pears wine syrup bowl~
+poached pears in wine syrup~
+A glass bowl of candied ginger encrusted poached pears with wine syrup sits here, glittering. ~
+%s scoop$q up a pear from the bowl and eats it in two bites. Smiling at the sweet taste, %s quickly finishes the other two pears, licking the wine syrup from their fingers after finishing.~
+19 0 1
+30 0 0 0 0 0 0
+1 25 2
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+143 poached pears wine syrup bowl candied ginger~
+Peeled, stemmed, and trimmed at the bottom to stand upright, three small pears have been poached in a mixture of water and red wine. A glaze syrup made of sugar, cinnamon, and wine covers the fruit, and candied ginger sprinkles coat the pears.
+~
+> use_prog 100~
+mea $n You scoop up a pear with your fingers and pop it into your mouth, finishing it in one bite. Relishing the crunchy candied ginger and the sweet wine syrup, you quickly finish off the other two pears and lick your fingers after you're done. 
+mer $n $n scoops up a pear with $s fingers and pop it into $s mouth, finishing it in one bite. Relishing the crunchy candied ginger and the sweet wine syrup, $e quickly finishes off the other two pears and licks $s fingers after $e's done. 
+~
+|
+#144
+ceramic glass lemon liqueur~
+a chilled ceramic glass of lemon liqueur~
+A small ceramic glass filled with a fragrant lemon liqueur sits here, cold to the touch.~
+~
+17 8192 16385
+3 3 2 0 0 0 0
+1 27 2
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+144 lemon liqueur ceramic glass~
+The small ceramic glass, chilled to an icy temperature, is a sky blue specked with milky white spots like bubbles or clouds. Inside the glass, which is small enough to easily fit in the palm of one's hand, a bright yellow liqueur glimmers. The aroma of lemons unmistakeably comes from the liquid.
+~
+> use_prog 100~
+mea $n You sip the liqueur, blinking in surprise at the strength of the alcohol. The taste of lemons is almost overpowering, the sourness only slightly lessened by the candy-like sweetness and the ensuing burn of the drink. 
+mer $n $n sips the liqueur, blinking in surprise at the strength of the alcohol. 
+~
+|
+#190
+prog cont~
+a prog container~
+A container set up with the progs to make useless for non-guilded players.~
+~
+15 1073741824 16385
+300 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#191
+fountain~
+a fountain~
+A fountain of fresh water sits in the corner.~
+~
+25 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#192
+plaque~
+a plaque~
+To the right of the path, a plaque is imbedded in a boulder.  (look plaque)~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+boulder~
+This is an average boulder, grey and craggy.  It appears to be here
+merely to frame the plaque.  Type LOOK PLAQUE to read what is says.
+~
+E
+golden plaque~
+This is a small area, about 25 rooms total.  If you are new to this type of
+game, you should explore these rooms, look at all you you can and collect
+your equipment.  You will not be authorized until you pull the rope in the
+final room.
+ 
+You can NOT die nor level in this area.  This gives you the chance to test
+your character, view your stats, review your SLIST, and read our help files.
+ 
+Here your eyes are your best weapon.  Look at everything!  You can look at
+items found in the room descriptions to see additional information and
+instructions.  Also be sure to look at actual items and mobiles <creatures
+of the game world> that are found in the rooms.
+ 
+Should you have any questions or comments, please feel free to talk to an
+Immortal over newbiechat or via tells.  Type WHO IMM to see which Immortals
+are currently available.  Also, type HELP NEWBIE for detailed help created
+for players new to the game.
+
+Happy Adventuring! -- The Administrators
+~
+#193
+golden plaque~
+a plaque~
+Attached to the banister is an inscribed golden plaque.~
+~
+12 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+golden plaque banister~
+Welcome, Adventurers, to the Spectral Gates...
+All new characters enter the game in this area prior to venturing to
+the Darkhaven Academy and Realms beyond.  This is a small area, about
+25 rooms total.  Your task is to explore these rooms, look at all you
+you can and collect your equipment.  You will not be authorized until
+you pull the rope in the final room. 
+ 
+You can NOT die nor level in this area.  This gives you the chance to
+test your character, view your stats, review your SLIST and read our
+help files.
+ 
+You can look at items found in the room descriptions to see additional
+information.  For example, "look tapestries" will tell you things about
+this room and the game not obvious at first glance.  Also be sure to
+look at actual items and mobiles <creatures in the game> that are in
+the room.  Here your eyes are your best weapon.
+ 
+Happy Adventuring! -- Brittany Seccunda-DethBlayde, Godmother
+~
+#194
+thedoor~
+the opening~
+An opening in the tree, leading back to the path.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#196
+bearskin skin ~
+a bearskin~
+A bearskin has been left here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 77 0
+E
+staircase spiral~
+This staircase is done up completely in wrought iron.  Strange mythical
+creatures are depicted along the railings as the stairway spirals down
+through the floor.  To descend, just type DOWN or D.
+~
+#197
+bearskin cloak~
+a bearskin cloak~
+A bearskin cloak has been left here.~
+~
+9 0 17409
+2 2 0 0 0 0 0
+1 20 2
+3
+1
+0
+0
+0
+0
+S 0 0
+A
+5 2
+#198
+key~
+an iron key~
+An iron key has been left here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#199
+tree~
+the tree~
+Towering beside the pathway is an enormous tree, a large opening at its base.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+tree opening~
+A truly ancient tree, with a man-made opening large enough for you to enter.
+HINT:  Type 'opening' or 'leave opening' to enter and leave the tree.
+~
+#0
+
+
+#ROOMS
+#100
+Inner Gate~
+~
+The gate is made of massive oak wood and spans five men in length. The 
+city walls are made of large slabs of stone. There are slits high above 
+for archers to defend the walls. The ground is made of cobblestone bricks.
+The gate lies open exposing a massive arched entrance.
+~
+1 3154956 0
+D0
+~
+~
+0 -1 101
+R M 0 101 1 100
+E
+northwest nw~
+To the north and west appears to be a valley and forest, probably home
+to the Elven population by the small structures there.  You can also
+make out the beginning of an ocean and a few ships at port.
+~
+E
+southwest sw~
+The forest changes in this direction, the trees create a canopy over
+quite a large area.  South of the forest is a huge swamp area.
+~
+E
+south s~
+You can see a large, busy dump out this direction, and a large opening to
+a subterranean area there.  You can see a dark path leading south from this
+dump.  Altogether, it does not look like the most appealing of places for
+you to visit.
+~
+E
+east e~
+This side looks very busy.  There is a large crossroads leading in many
+directions.  You see a large grove and castle far to the east.  West of
+the crossroads is a city gate.  You can see blackened mountains, an open
+abandoned looking town and caves that appear to be made for dwarves.
+~
+E
+up u~
+Far above you can make out several few dragons flying though the grey
+skies, and even a few Harpies are out stretching their wings.  Most
+seem to not see this building, nor you watching their passage.
+~
+E
+northwest ne~
+Far to the north and east you see a large city surrounded by verdant
+fields.  In the east of this city rises a huge citadel of gold.
+~
+E
+west w~
+You can make out a guarded city gate in this direction.  North of the
+gate is a small forest, inhabited by many small pixies.  Farther west
+and north is a large town.  Straight west is a huge tree which seems
+to stop the path at its base.
+~
+E
+southeast se~
+In this direction you see what appears to be a boathouse on a river.
+The river seems to head from east to west, emptying to a large ocean.
+~
+E
+southwest sw~
+The forest changes in this direction, the trees create a canopy over
+quite a large area. South of the forest is a huge swamp area.
+~
+E
+northeast~
+Far to the north and east, you see a large city surrounded by verdant
+fields. To the east of the city is a huge golden castle.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#101
+Reception Hall~
+~
+The reception hall is made up of perfectly fitting cobblestones.  The
+walls have lavish tapestries hanging from them.  Torches light up the
+hall from their mounted positions along the walls.  A gigantic rug is
+here with the free nations crest emblazoned on it.
+~
+1 3154956 0
+D0
+Before you is a path past a giant tree.
+~
+~
+0 -1 102
+D2
+~
+~
+0 -1 100
+R M 0 100 2 101
+E
+cedar~
+The walls here are made from the finest cedar, giving the room a luxurious
+look and a fantastic smell.  Someone went to great expense and searching to
+find these strips of perfectly matched wood.
+~
+E
+carpet carpeting~
+This carpet appears to be made from a cashmere wool laid atop some sort of
+thick padding.  Your feet sink at least an inch into the flooring.
+~
+E
+painting~
+Done on a stretched scroll in vivid, detailed colors, it looks almost as if
+you could step into the painting (though it is a barren desert and does not
+appear to be somewhere you would want to visit).
+~
+E
+wall walls~
+These walls are made from a fine sample of cedar, decorative enough to
+require little in the way of painting and other decoration.  One painting
+adorns the wall behind the beautiful oak desk:  a painting of a barren
+desert, hauntingly vivid, almost as if you could step directly into it.
+~
+E
+globes globe~
+Each globe winks with an internal light, though not a flame or any sort of
+thing you can define by past experiences.  They dangle in mid air with no
+means of support.  Magic comes to mind, but you shrug it off.
+~
+E
+bust trophy lizard~
+Your mind clicks!  You know what this is, though your mind takes a moment
+to digest the information.  You are staring at a bust of a dragon, closer
+to such a thing than you have ever been before.  Its eyes seem to glare
+menacingly at you, but a shiver courses the length of your spine as a
+sigh of relief passes your lips.  It is thankfully dead, and you are safe.
+~
+E
+chair chairs leather~
+Each of these chairs are made from the finest of leathers, polished to a
+high sheen and dyed a midnight black.  This is by far the best craftsmanship
+you have ever seen, and as you approach you can smell the rich scent given
+off by fresh leather.
+~
+E
+oak desk~
+This desk is made from a carved oak wood, stained to a dark brown finish.
+The crafting is done so that the legs appear to be clawed feet on the end
+of slightly bent legs.  The craftwork is excellent.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+mpforce 0.$n vis
+endif
+~
+|
+S
+#102
+The Grand Study~
+~
+The grand study is beautifully constructed in solid oak.  There are books, 
+scrolls, maps and papers scattered across a big table here. Various book 
+shelves line the walls and a large oak desk and some chairs are here. 
+There are paintings of legendary battles and monsters on the north wall.
+~
+1 3154956 0
+D0
+The path divides north of here.
+~
+~
+0 -1 103
+D1
+~
+~
+0 -1 104
+D2
+To the south is the reception area.
+~
+~
+0 -1 101
+R M 0 102 1 102
+E
+tree~
+This tree is huge! On the southern face you see a large opening, it
+appears big enough for you to enter. You wonder what is inside.
+HINT: Type OPENING or LEAVE OPENING to enter and leave the tree.
+~
+E
+somewhere~
+Somewhere is an exittype that you use for non-direction exits.
+They are entered using a "codeword", usually preceeded by
+leave, climb, or enter. This somewhere is used by typing 
+either LEAVE OPENING or OPENING alone.
+~
+S
+#103
+The Main Hall~
+~
+The main hall is lavishly decorated with marble pillars supporting the
+length of it.  There are torches mounted throughout the length of the
+hall as well.  A thick royal red rug runs along the center of the hall.
+The floor is made up of thick slabs of stone.
+~
+1 3153932 0
+D0
+~
+~
+0 -1 105
+D2
+Behind you is a path by the leading back to the reception area.
+~
+~
+0 -1 102
+> entry_prog 100~
+(null)~
+|
+S
+#104
+Inside the Armory~
+~
+This rather large armory is made up of solid slabs of white stones.  There are 
+banners from all of the free nations hanging from the dome ceiling above.  A
+few practice dummies are laying about the armory, nearly beat to a pulp.  On
+the north and south walls hang hooded lanterns that provide more then enough
+light for this room.  A large doorway on the western wall leads out into the
+wide hallway to the west.
+~
+1 3154956 1
+D3
+~
+~
+0 -1 102
+R M 1 129 1 104
+  R G 0 125 1
+  R G 0 127 1
+  R G 0 126 1
+E
+table~
+A small wooden table, only large enough to seat two.  There are a few
+plates and food pieces left here, and the only thing of note is that
+the dinnerware is made of wood.
+~
+E
+dishes~
+These dishes are made from a rough-finished pottery.  They look only
+finished by fire, cooked to a brittle hardness.  They were definitely
+made for use rather than appearance.
+~
+E
+bed~
+Shorter than one that many would find comfortable, it is made with a
+wooden frame and a mattress of feathers in a cotten fabric.  The
+blankets are woolen and look warm, if not decorative.
+~
+E
+opening~
+The opening leaves out the south of this room.  To use this type of exit,
+type LEAVE OPENING or OPENING alone.  This is the way to return to the
+path to the new world.
+~
+> entry_prog 100~
+if race ($n) == Dragon
+mpechoat $n You see mankind's weak weapons of steel.
+mppause 2
+mpechoat $n They are no use for a powerful dragon.
+endif
+~
+|
+S
+#105
+Chamber of Reflection~
+~
+The chamber of reflection is a vast room that has an air of serenity.
+The chamber lit up by a massive chandelier that hangs from the ceiling.
+There are beautiful stain glassed windows in the east and west walls.  A
+large reinforced oak door fits into a decorative archway north.
+~
+1 3154956 3
+D0
+~
+door~
+3 -1 106
+D2
+~
+~
+0 -1 103
+R M 0 108 1 105
+R O 0 134 1 105
+R D 0 105 0 1
+S
+#106
+The Tribune Council~
+~
+The council chambers is a massive octagon shaped room.  There are gigantic
+oak pillars that lead up to massive oak arches supporting the high ceiling.
+The floor is made up of interlocking brick layers.  The banner of every
+free nation hangs from a pillar above.
+~
+1 3154956 3
+D2
+~
+door~
+1 -1 105
+R M 0 109 1 106
+R M 0 110 1 106
+R M 0 111 1 106
+R M 0 112 1 106
+R M 0 113 2 106
+R D 0 106 2 0
+S
+#107
+The Path of the Deadly~
+~
+The path here is dark, shadowy.  The trees alongside look skeletal, the
+grass lays a dull brown, and you realize how lonely this path may prove
+to be.  A large sign floats before the trees on the eastern pathside.
+~
+1 3153925 3
+D0
+Before you is an adventure, are you ready to embrace it?
+~
+~
+0 -1 108
+R O 0 121 1 107
+> leave_prog 100~
+mpechoat $n Your eyes read over the sign as you pass it by. It reads:
+mpforce 0.$n look sign
+~
+|
+S
+#108
+A Shadowy Path~
+~
+Your travels continue, the trees growing thinner and the pathway darker.
+You notice a parting ahead, towards the north.  Beyond the parting lies
+an open field, a joining of the two paths, and at this joining you see
+a small round piece of metal.  You can pick it up as you head north.
+~
+1 3153925 3
+D0
+Before you is a large, open field.
+~
+~
+0 -1 109
+> leave_prog 100~
+c refresh $n
+c refresh $n
+mpoload 107 1
+drop ring
+mpechoat $n You bend down and pick up the piece of metal from the ground.
+mpforce 0.$n get shadowring
+mpechoaround $n $n reaches down and picks something up.
+mpforce 0.$n look ring
+mpapply $n
+~
+|
+S
+#109
+Through the Field~
+~
+You find yourself in a grassy valley.  Mountains enclose you on all sides,
+and a forest lies ahead to the northwest.  Miniature daisies and clover are
+strewn about the field like a fine dusting of snow.  As you scan about your
+surroundings, you stop with a start.  The path you have just traversed has
+disappeared, leaving behind no trace of its remains.  The trees are thick
+and impenetrable, removing your choices on ways to proceed.  There is no
+turning back; the only direction is forward, further into this new world.
+~
+1 3153924 3
+D7
+Leading away from this field is a path through a circle of trees.
+~
+~
+0 -1 110
+R M 0 103 1 109
+> entry_prog 100~
+if mobinroom(103) < 1
+mpmload 103
+endif
+~
+|
+S
+#110
+A Ring of Trees~
+~
+You have entered a shadowy path, surrounded with trees.  This mystical
+cirle engulfs you with a strange, almost magical feeling.  This clearing
+leaves you with a sense of safety, a sense of well being.
+~
+1 3153924 3
+D3
+You see the path continues through the trees.
+~
+~
+0 -1 111
+D8
+Behind you is a field of daisies and clovers.
+~
+~
+0 -1 109
+E
+trees tree~
+These trees seem almost to be live, thinking beings, exuding an aura of 
+darkness and magic.  Not that they will harm you, but you sense that you 
+would not wish to attempt to chop down any found here.
+~
+> entry_prog 100~
+c heal $n
+c refresh $n
+c refresh $n
+~
+> leave_prog 100~
+mpforce 0.$n vis
+mpoload 109 1
+mpat 111 drop feather
+~
+|
+S
+#111
+Seeing the Forest through the Trees~
+~
+The forest opens up a bit here, without actually giving of itself to field
+or stream.  It is as if the forest were allowing you access to see the true
+beauty that lies within.  Everything you had missed before, all the sights
+and sounds and scents, all come to you now.  Your eyes alight upon a flock
+of small purple birds which flutter and flow about the area.  A feathery,
+light moss grows on the western side of the trees, giving off a faint,
+musty smell, and small beetles work industriously in the moss, moulding it
+into a haven from predators.  A gentle splashing sound causes your eyes to
+drift northward, to a small pond.
+~
+1 3153924 3
+D0
+To the north the pathway passes a small pond.
+~
+~
+0 -1 112
+D1
+To the east is a tight circle of trees.
+~
+~
+0 -1 110
+E
+flock bird birds~
+High above the trees are a group of birds, enjoying the gift of flight.
+These birds look like those you have experienced before, yet their coloring
+is shockingly different, with feathers of a vivid purple, making the seem
+afire when hit directly by the sunlight.
+~
+E
+moss~
+This moss is the most brilliant green you can recall ever seeing.  It is
+thick and grows heavily on the west side of almost every tree trunk within
+sight.  As you peer closer you can see each is like a small city to the
+bugs of the forest which live and hide here to flee the predators.
+~
+> leave_prog 100~
+mpoload 110 1
+mpat 112 drop bucket
+~
+|
+S
+#112
+Beside an Azure Pond~
+~
+The forest has grudgingly given way here to a small pond of azure waters,
+shallow and with a crystal clarity which captures your attention.  Lithe
+lapis-toned fish swim about, nibbling at the various plants growing among
+the depths of the pond.
+~
+1 3153924 3
+D2
+The path goes back through the trees to the south.
+~
+~
+0 -1 111
+D3
+The base of a hill meets the trail to the west.
+~
+~
+0 -1 113
+R O 0 111 1 112
+> leave_prog 100~
+mpforce 0.$n get bucket
+~
+|
+S
+#113
+A Pathway of Strewn Rock~
+~
+The trees fall away here from the hill's edge, and jumbled rocks lie about
+like forgotten toys left behind after a day's play.  Sharp edges and jagged
+lines define the pathway as it wends its way upward.
+~
+1 3153924 3
+D1
+East you can travel along the shore of the pond.
+~
+~
+0 -1 112
+D4
+The trail wends its way up the hillside.
+~
+~
+0 -1 114
+E
+rock rocks~
+The rocks here are of a slate grey or smoky black.  Neither decorative
+nor purposeful, they appear to have been ripped from far below the
+surface of the hill.
+~
+S
+#114
+Upon a Desolate Hillside~
+~
+Shattered and blasted stone litters the hillside here.  First glance gives
+you the impression that this is the result of volcanic activity, but this
+view is rapidly displaced as you gaze upon the ravaged bones strewn along
+a section of the hill; a headless skeletal remains of a primitive beast.
+The majesty of this huge, winged creature has not been diminished by its
+boney state.  As you study the remains, you are amazed by the sheer size
+of this beast, as he must have struck true fear into the hearts of those
+who slew him.  Charred and shattered, hundreds of smaller bones splay
+across the hillside, tangible proof that this great beast fought
+fiercely before succumbing to its own death.
+~
+1 3153924 3
+D1
+You can see a large plateau in this direction.
+~
+~
+0 -1 115
+D5
+The path descends the hill to the south.
+~
+~
+0 -1 113
+E
+stone stones~
+These stones are less sharp and jagged than those lower on the hill, but
+definitely more ravaged.  It appears as if they have been applied to very
+high temperatures that smoothed and blackened their exteriors.
+~
+E
+bone bones~
+The bones here fit together to paint a vivid picture of a large battle -
+man against beast.  The men took losses of their own before the beast was
+defeated.  The bones of this creature appear to stretch a good twenty men
+long, from neck-top to the tip of its tail, and you can imagine the size
+of the missing skull.  Your mind wanders back to the reception area, to
+the bust on the wall...
+~
+S
+#115
+Cresting the Hill~
+~
+Burnt and dessicated ground gives way, grudgingly, to a grassy plateau.
+Low hanging clouds obscure your view of the surrounding countryside, with
+the only visible landmark being a tall tower to the southwest, piercing
+through the clouds and disappearing skyward.  Pathways lead off down the
+hillside to the east and west, and deep, intermittent rumblings come from
+nearby.  Glancing southward you see the likely source - the dark opening
+of a cave mouth.
+~
+1 3153924 3
+D1
+The greener grass on the other side of the hill.
+~
+~
+0 -1 117
+D2
+You stand before the darkened mouth of a cave.
+~
+~
+0 -1 116
+D3
+Back down the desolate hillside.
+~
+~
+0 -1 114
+> rand_prog 1~
+mpecho A deep, growling rumble echoes from inside the cave to the south.
+~
+|
+S
+#116
+Inside the Cavern~
+~
+Large and darkly shadowed, the uneven form of the walls makes it difficult
+to determine the extent of this cave.  Strange shards litter the floor of
+the cavern, and fresh marks gouged into the ground in and around these
+shards help you to determine just what they are:  remnants of a recently
+hatched egg of such enormous proportions the leathery pieces fill you with
+a growing dread and caution.  Looking about with care, you easily discover
+the skeletal remains of many humanoid creatures.  This barely has time to
+register before a sharp rumbling causes you to look up suddenly. 
+~
+1 3153928 0
+D0
+North is the path to your future.
+~
+~
+0 -1 115
+R M 0 104 1 116
+> leave_prog 100~
+c refresh $n
+c refresh $n
+~
+|
+S
+#117
+Descending the Hillside~
+~
+Green and lush, the grass grows freely along the pathway here as this side
+of the hill was somehow spared the ravages of the battle which took place
+on its southern front.  A feeling of safety comes over you as you wend
+your way along, as though you yourself had avoided some great danger. 
+~
+1 3153924 3
+D0
+North is the entrance to a valley.
+~
+~
+0 -1 118
+D3
+You see a plateau on the hill.
+~
+~
+0 -1 115
+S
+#118
+Edge of a Verdant Valley~
+~
+Here the hillside fades gently into a valley of verdant grass, filled with
+flowering thistle.  The soft sound of the wind through the grass, the scent
+of flowers on the air, all combine to give a feeling of accomplishment and
+expectation... as though you are quickly approaching some indefinable goal.
+~
+1 3153924 3
+D1
+You see a path through the valley and a small wooden cabin.
+~
+~
+0 -1 119
+D2
+A path leading up the side of a hill.
+~
+~
+0 -1 117
+> entry_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#119
+A Valley Pass~
+~
+Tall, sheer mountains hug this small valley like overprotective parents
+keeping the ravages of the world at bay, and lending a peaceful feel to
+this place.  The very air seems to hold itself in hushed reverence. 
+Glancing to the south, you see a small wooden cabin built into the face
+of the hill.
+~
+1 3153924 3
+D2
+A door to into a cabin
+~
+door~
+3 -1 120
+D3
+Back towards the valley entrance.
+~
+~
+0 -1 118
+D6
+The path ends before a large gate
+~
+~
+0 -1 121
+R M 0 105 1 119
+R O 0 198 1 119
+R D 0 119 2 1
+E
+cabin~
+This cabin looks like it melds with the surrounding hillside, a
+pleasant mix of wood and stone making this attractive home. The
+door is closed, but unlocked. You can OPEN DOOR and go inside.
+~
+E
+door~
+This door is made of a solid wood. It looks more to keep the weather
+at bay than to prevent entry, the door is closed but unlocked. You
+may OPEN DOOR to enter.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#120
+Inside a Small Cabin~
+~
+Various scents assail you as you enter the cabin.  The smell of cooked meats
+is overlaid with the scents of a crackling fire and the gentle tang of pine.
+Simple, well-made furniture adorns this well kept home.  As your eyes move
+about, enjoying the rustic comfort of your surroundings, the gentle sound
+of a rocking chair intrudes upon your reverie.
+~
+1 3154956 1
+D0
+Back to the valley pathway
+~
+door~
+3 -1 119
+R M 0 106 1 120
+  R E 0 119 1 5
+R D 0 120 0 1
+E
+rocking chair~
+This rocking chair is made of a supple wood, bent and twisted rather than
+carved.  It is finished with a light brown stain, highlighting the natural
+grain in the wood.  The chair is placed on top of a hand braided rug, done
+in an intricate design.  The south corner of the rug appears to be caught
+on something.
+~
+E
+rug~
+This rug is done in a design that appears to be a six-sided star weaved in
+and out of a series of circles.  It is like a large Gods Eye light catcher,
+the design pulls you deep into its pattern.  The decoration is so intense
+you almost miss a crack pinning a small portion of the southern corner.
+~
+E
+crack corner~
+The corner of the rug is caught slightly caught what at first appears to
+be two floorboards.  Upon closer review, you see the crack is actually the
+frame to some type of trap door in the flooring.  As you pull back the rug,
+you notice a large keyhole.  This is very interesting indeed!
+~
+E
+floorboards floorboard~
+As you examine them, you notice a crack which has snagged part of the rug.
+~
+> rand_prog 1~
+mpecho The wooden chair creaks as it rocks back and forth over the floorboards.
+~
+> leave_prog 100~
+if race($n) == Halfling
+mpforce q emote leans out the door...
+mpforce q give key $n
+mpforce q give armour $n
+mpforce q mpechoat $n Good luck in your adventures, $n...
+close door
+else
+endif
+~
+|
+S
+#121
+Before the Passage~
+~
+The dense mountains, almost impassable to begin, here bring the pathway to
+a sheer end.  Tall bluffs rising to the east abruptly halt at a large gate,
+gold in color.  The size of the gate and its obvious magical bestowments
+give it the power to bar further passage into the world beyond until
+unlocked by those who find its key.
+~
+1 3154944 3
+D6
+~
+gate~
+3 -1 122
+D9
+~
+~
+0 -1 119
+R O 0 197 1 121
+R D 0 121 6 1
+E
+gate~
+It would clearly take a large key to unlock this gate.  Maybe the resident
+of the cabin southwest of here has it.
+~
+> rand_prog 1~
+mpechoat $r Your eyes are drawn to a scribed sign on the gate, and LOOK GATE.
+mpforce $r look gate
+~
+|
+S
+#122
+A View of the World~
+~
+You find yourself standing atop a wide mesa offering a spectacular view of
+the world below.   Expectation permeates the air, and you feel compelled
+to do something, as though some force awaits your actions.
+~
+1 3154952 3
+D9
+~
+gate~
+3 -1 121
+R O 0 115 1 122
+R D 0 122 9 1
+> act_prog p pulls a rope.~
+mpechoat $n High overhead you hear a large bell thunder in response.
+mpechoaround $n High overhead, a large bell thunders in response.
+mpechoat $n If nothing happens, type LOOK ROPE, and pull again in 30 seconds.
+mpapplyb $n
+push rope
+~
+|
+S
+#123
+A Musty Cellar~
+~
+Dank musty air fills this room.  Fingers of darkness in the form of
+several begrimed cobwebs cling to your face.  Every movement seems
+to kick up long settled dust, making it nearly unbearable down here.
+The creaking from above is magnified, changed, and lends a haunting
+feel to this place.  Deep in the shadows is a small table, it holds
+only one item:  a partially burned wooden box.  The trapdoor is up.
+~
+1 3154956 0
+> entry_prog 100~
+mpechoat $n You hear a creaking sound as the trapdoor closes above you.
+mpat Quercusi mpforce Quercusi close trapdoor
+~
+|
+S
+#124
+Next to a Bookshelf~
+~
+The massive room is wall to wall covered with large book shelves that extend
+to the ceiling.  There is a dual hooded lantern piece that hangs from the
+center of the ceiling for lighting.  A beautiful red and gold trimmed rug
+covers the wooden plank flooring.
+~
+1 1073742856 1
+D0
+~
+door~
+3 198 132
+R M 0 116 2 124
+  R G 0 198 1
+R D 0 124 0 1
+S
+#125
+Within a Small Cave~
+~
+The large room has a series of comfortable chairs along the walls.  There
+are several hooded lanterns mounted to the walls for lighting.  The ceiling
+is made up of engraved tin tiles.  There is a blue and red trimmed rug on
+the floor that covers most of the plank wooden flooring.
+~
+1 1073742860 1
+D0
+~
+door~
+3 198 129
+D1
+~
+door~
+1 198 127
+D2
+~
+~
+0 -1 135
+D3
+~
+door~
+3 198 128
+D5
+~
+trapdoor~
+3 198 126
+R M 0 117 2 125
+  R G 0 198 1
+R D 0 125 0 1
+R D 0 125 1 0
+R D 0 125 3 1
+R D 0 125 5 1
+S
+#126
+A Small Cavern~
+~
+The cavern is the size of small cave.  There are a few stalagmites scattered
+about the area.  A pile of small bones litters the floor.  There are some
+travelers broken pieces of gear here and there.  Some large animal tracks
+are all over the caverns ground.
+~
+1 1073741836 1
+D0
+~
+~
+0 -1 152
+D4
+~
+trapdoor~
+1 198 125
+R M 0 119 1 126
+  R G 0 196 1
+R D 0 126 4 0
+> entry_prog 100~
+mppause 20
+mpechoat $n &CYou think to yourself, I bet I could get into that small opening, if I &Gcrawled&G.
+~
+|
+S
+#127
+The Armory~
+~
+The vast room is octagon in shape.  There are several rows of racks along 
+the walls.  A couple hooded lanterns are mounted to the walls.  The floor is
+made up of large cobblestones.
+~
+1 1073742860 1
+D3
+~
+door~
+1 198 125
+R O 0 104 1 127
+R D 0 127 3 0
+S
+#128
+School of Warfare~
+~
+The walls are covered with large mirrors.  There is a heavy pad of straw
+over the floor.  A large sign hangs against the far wall.  There are 
+hooded lanterns mounted to the walls for lighting.
+~
+1 1073742860 1
+D1
+~
+door~
+1 198 125
+R M 0 118 2 128
+R D 0 128 1 0
+S
+#129
+A Small Room~
+~
+The room has a few large paintings on each wall.  Each painting has a 
+picture of a different colored dragon being ridden by a humanoid rider.
+The walls have hooded lanterns mounted on them to provide lighting.  A
+large blue and gold trimmed rug covers most of the wooden plank floors.
+~
+1 1073742860 1
+D1
+~
+door~
+3 198 130
+D2
+~
+door~
+3 198 125
+D3
+~
+door~
+3 198 131
+R M 0 120 2 129
+  R G 0 198 1
+R D 0 129 1 1
+R D 0 129 2 1
+R D 0 129 3 1
+S
+#130
+A Circular Room~
+~
+The circular room has a painting, and tapestry hanging every other time.
+There is a triple mounted hooded lantern that is suspended from the
+ceiling for lighting.  A small fire place is at the far end of the room.
+There is a small statue next to the fire place.
+~
+1 1073742860 1
+D3
+~
+door~
+7 198 129
+R M 0 121 2 130
+  R G 0 198 1
+R D 0 130 3 2
+S
+#131
+A Small Foyer~
+~
+The room has several large plants in the corners of the room.  The plants
+are in large vases with elaborate designs engraved on them.  There are
+a few paintings on the walls.  A large blue and gold rug is centered in
+the floor.  A hooded lantern is mounted to the wall for lighting.
+~
+1 1073742860 1
+D0
+~
+door~
+7 198 106
+D1
+~
+door~
+7 198 129
+R M 0 122 1 131
+  R G 0 198 1
+R D 0 131 0 2
+R D 0 131 1 2
+S
+#132
+Before a River~
+~
+&GThe grass that leads to a small river has many small bushes within it.
+There is a small cave on the opposite side of the river.  There are many
+small fish swimming around in the river.  The river bed has rocks, and
+small plant life scattered throughout it.
+~
+1 1073742852 1
+D0
+~
+~
+0 -1 133
+D2
+~
+door~
+7 198 124
+R M 0 123 1 132
+R D 0 132 2 2
+S
+#133
+Swimming Amongst the River~
+~
+&BThe water current moves to the east along the river.  There are small twigs,
+and vegetation that are floating along the top of the waters surface.  The
+river banks to the north and south hold plenty of green vegetation.  There
+is a small cave entrance to the north.  The river bottom is clear.
+~
+1 1073742852 6
+D0
+~
+~
+0 -1 135
+D2
+~
+~
+0 -1 132
+D5
+~
+~
+0 -1 134
+S
+#134
+Along the Riverbed~
+~
+&BThe bottom of the river is loaded with stones of various sizes and shapes,
+vegetation, and different objects.  There are many different kinds of fish
+species that are swimming about down here.  The water surface above gives off
+a lighted appearance compared to the dark river bed.
+~
+1 1073742852 8
+D4
+~
+~
+0 -1 133
+S
+#135
+A River Bank Edge~
+~
+&GThe river bank edges the river itself to the south.  There is a small
+cave entrance to the north.  There are several bushes growing along the
+river edge.  A few tall pine trees are on both sides of the cave.  There
+are small animal tracks that lead back to the river.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 125
+D2
+~
+~
+0 -1 133
+R M 0 124 1 135
+S
+#136
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#137
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#138
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#139
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#140
+Newbie Help Room~
+~
+The newbie help room is plastered with signs that give advice on how this
+mud works.  The following signs hang on the walls: channels, commands,
+smaug, help, deadly, rules.  To read a sign just type 'look <keyword>.
+When you wish to return to the beginning area simply say 'return'.
+~
+1 1073741836 1
+E
+channels~
+Channels are how you speak in muds.
+ 
+If you type channels and press enter it will show you a list of channels
+that you can communicate with.
+ 
+You have to use the listen command to listen to a channel.  However, if
+you are already listening to a channel you may use the listen command to
+disable the channel as well.
+ 
+Type 'help channels'
+Type 'help listen'
+ 
+For more information.
+~
+E
+commands~
+Basic movement can be done by typing directions such as: ne for northeast.
+ 
+Just typing commands by itself will show you all the commands that you may
+use.
+ 
+There are help files for the majority of commands out there.  Simply 
+type 'help keyword'  keyword being the command you want to learn about.
+ 
+You of course can utilize the channel newbiechat to talk to Staff if you
+need help.  If a staff member is on, you can see who it is by typing 'who'.
+ 
+Example
+who
+ 
+Mud Staff
+Vladaar
+ 
+newbiechat 'Hi Vladaar I'm new, what do I do?'
+ 
+newbiechat Vladaar 'What are you trying to do?'
+~
+E
+smaug~
+A Smaug Mud is a vehicle to explore realms of magic and monsters. If you 
+would like to play feel free to connect with the telnet connection or 
+utilize a mud connector to explore the lands of Children of the Damned. 
+ 
+Smaug was created by Thoric and his development team.
+This version of smaug has been heavily modified by Vladaar.
+~
+E
+help~
+help files exist to explain commands, rules, etc.
+ 
+You simply type 'help keyword'  keyword being what you want to find
+out about.  There are always people who will help you if you cant find
+answers in the help file, but try the help files to solve your questions.
+~
+E
+deadly~
+Deadly
+ 
+You may become deadly at any time throughout the game.
+ 
+Simply type 'deadly yes'
+ 
+As a deadly player you will try to kill other players, and other players
+will try to kill you.
+ 
+There are rules for being a deadly of course...
+ 
+Type 'help deadly rules'.
+~
+E
+rules~
+Rules
+ 
+The list of rules will be added to as time goes by...
+ 
+1. No swearing or cussing on public channels.
+2. No cyber sex.
+3. Whining is an open invitation to getting slayed.  If you have a 
+   legitimate complaint post a gnote about it.
+ 
+~
+> speech_prog return~
+mpechoat $n _Yel You are wisked away to whence you came.
+mptrlook $n 100
+~
+|
+S
+#141
+Reception Hall~
+~
+The reception hall is made up of perfectly fitting cobblestones.  The
+walls have lavish tapestries hanging from them.  Torches light up the
+hall from their mounted positions along the walls.  A gigantic rug is
+here with the free nations crest emblazzened on it.
+~
+1 1073742856 1
+D0
+~
+~
+0 -1 142
+R M 0 100 2 141
+S
+#142
+The Grand Study~
+~
+The grand study is beautifully constructed in solid oak.  There are books, 
+scrolls, maps and papers scattered across a big table here. Various book 
+shelves line the walls and a large oak desk and some chairs are here. 
+There are paintings of legendary battles and monsters on the north wall.
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 141
+S
+#143
+Along a Passageway~
+~
+The passage walls have beautiful tapestries, and paintings hanging from
+both sides.  There are hooded torches that have been mounted to the walls
+at intervals for lighting.  A blue and red rug stretches across the brick
+floor length.  The ceiling has an archway into the next chamber.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 101
+S
+#144
+Beside a Moss Covered Log~
+~
+&bThe current of the river is strong here.  There are various plant life
+along the bottom of the river bed.  Several large fish are swimming
+about here.  A large log is floating along here.  A large moss covered
+log floats along here.
+~
+1 1073741828 6
+D1
+~
+~
+0 -1 145
+D7
+~
+~
+0 -1 166
+> rand_prog 45~
+mpechoat $n The river currents pull you along...
+c 'refresh' $n
+mpforce $n e
+~
+|
+S
+#145
+Along the Edge of the River~
+~
+&BThe water current moves to the east along the river.  There are small twigs,
+and vegetation that are floating along the top of the waters surface.  The
+river banks to the north and south hold plenty of green vegetation.  There
+is a river bank to the east.  The river bottom is clear.
+~
+1 1073741828 6
+D1
+~
+~
+0 -1 163
+D3
+~
+~
+0 -1 144
+> rand_prog 45~
+mpechoat $n The river currents pull you along...
+c 'refresh' $n
+mpforce $n e
+~
+|
+S
+#146
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#147
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#148
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#149
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#150
+Within a Massive Library~
+~
+The chamber is shaped in an octagon shape, with built in oak book
+shelves on each wall.  There are several iron posts in the room that
+hold large torches.  A beautiful tapestry hangs from the south wall.
+A light blue rug is in the center of the floor.
+~
+1 1073742860 1
+D0
+~
+~
+0 -1 124
+R M 0 114 2 150
+S
+#151
+Arena of Learning~
+~
+The small room has a large circle around the center.  The circle is made
+up of broken bones.  There are large torches mounted to the walls.  Several
+racks of various weapons are mounted to the walls.
+~
+1 1073741828 1
+S
+#152
+A Dark Lair~
+~
+The lair is covered in bear hairs.  There are various size rocks along the
+edges.  A small pile of bones are littered about the area.  There are
+many colored stains along the walls.  A small spot in the floor has been
+cleared away of rubble.
+~
+1 1073741836 1 0 0 0 50
+D2
+~
+~
+0 -1 126
+R O 0 141 1 152
+S
+#153
+Within a Dark Cell~
+~
+There are claw marks edged into the walls here.  Stains are along the walls
+and floors.  A large grated drain is in the center of the cell for waste.
+The cell bars extend to the west side of the cell.  The catwalk to the
+north is what the guards use to check on prisoners.
+~
+1 1073742860 1
+D2
+~
+~
+0 -1 156
+D3
+~
+~
+0 -1 154
+R M 0 114 2 153
+S
+#154
+Beside the Cell Door~
+~
+The cat walk is visible through the cell door bars.  There are shackles
+along the cat walk that are mounted to the walls.  A small sewage drain
+is against the far wall.  The cell door appears to have been tampered
+with as the hinges have been filed to a very thin state.
+~
+1 1073742860 1
+D1
+~
+~
+0 -1 153
+D2
+~
+~
+0 -1 155
+D3
+~
+~
+0 -1 159
+R M 0 117 2 154
+S
+#155
+A Mildew Covered Wall~
+~
+A putrid smell comes from the walls that are just covered in mildew.  A
+large grated drain is in the center of the cell for waste.  A few small
+stones are piled along the edge of the wall.  There are rusted shackles
+that are connected to the wall.
+~
+1 1073742860 1
+D0
+~
+~
+0 -1 154
+D1
+~
+~
+0 -1 156
+D3
+~
+~
+0 -1 158
+R M 0 120 2 155
+S
+#156
+Next to Water Basin~
+~
+The walls have a strange colored mold growth on them here.  A large grated
+drain is in the center of the cell for waste.  There is a small water basin
+that is mounted to the south wall, and is filled with foul smelling water.
+There are various stains along the floor.
+~
+1 1073742860 1
+D0
+~
+~
+0 -1 153
+D3
+~
+~
+0 -1 155
+R M 0 116 2 156
+S
+#157
+Within the Catwalk~
+~
+The walkway here is covered with various filth that prisoners have thrown
+out at the guards.  There are rusted shackles along the walls of the cat
+walk.  A small sewer grate is against the far wall.  A set of large torches
+are mounted to the walls for lighting.
+~
+1 1073741836 1
+D0
+~
+grate~
+7 198 160
+R M 0 125 1 157
+  R G 0 141 1
+  R G 0 198 1
+  R G 0 127 1
+R M 0 126 1 157
+R D 0 157 0 2
+S
+#158
+Beside a Bunk Bed~
+~
+A bed made out of rock is against the wall here.  There are rusted shackles
+that hang from the ceiling.  Various stains cover the walls and floor here.
+A large grated drain is in the center of the cell for waste.  There are iron
+shavings piled underneath the bed.
+~
+1 1073742860 1
+D0
+~
+~
+0 -1 159
+D1
+~
+~
+0 -1 155
+R M 0 118 2 158
+S
+#159
+Against the Cell Bars~
+~
+The guard catwalk is visible through the iron bars.  A large iron cell door
+is to the east.  There is a combination of mold and various built up stains
+along the floor and walls.  A large grated drain is in the center of the cell
+for waste.  A few small stones are along the wall.
+~
+1 1073742860 1
+D1
+~
+~
+0 -1 154
+D2
+~
+~
+0 -1 158
+R M 0 121 2 159
+S
+#160
+Within a Sewer~
+~
+&GThe sewer is lined with slimy sewage.  There are all kinds of strange
+objects floating in the sewer.  A set of humanoid bones are along the
+floor here.  There are creatures swimming about in the sewer.
+~
+1 1073741836 8 0 0 0 65
+D0
+~
+~
+0 -1 161
+D2
+~
+grate~
+1 198 157
+R D 0 160 2 0
+S
+#161
+At the Sewer Drain~
+~
+&GThe thick slimy sewage is overwhelming here.  A small amount of light
+penetrates from above.  There are all kinds of objects that line the floor
+through here.  A series of strange creatures swim in and around here.
+~
+1 1073741836 8
+D2
+~
+~
+0 -1 160
+D4
+~
+~
+0 -1 164
+S
+#162
+Along a River Bed~
+~
+&BThe current of the river is strong here.  There are various plant life
+along the bottom of the river bed.  Several large fish are swimming 
+about here.  A large log is floating along here.  There are small lily 
+pads scattered among the river.
+~
+1 1073741828 6
+D1
+~
+~
+0 -1 163
+S
+#163
+At the River Shore~
+~
+The raging river is to the west.  There is thick vegetation around the
+river, and large trees that hang over the top of the river.  A small 
+trail has been blazed to the north of here.  There is a small campfire
+setup along the trail edge.
+~
+1 1073742852 1
+D3
+~
+~
+0 -1 145
+R M 0 127 1 163
+S
+#164
+Within a Raging River~
+~
+&BThe river has many types of debris floating within it.  There are various
+types of fish and vegetation throughout.  A large sewer drain is along the
+bottom of the river.  There is slippery weeds along the bottom.
+~
+1 1073741828 6
+D5
+~
+~
+0 -1 161
+D6
+~
+~
+0 -1 165
+> rand_prog 45~
+mpechoat $n &CThe river currents pull you along...
+c 'refresh' $n
+mpforce $n ne
+~
+|
+S
+#165
+Center of the River~
+~
+&BThe current of the river is strong here.  There are various plant life
+along the bottom of the river bed.  Several large fish are swimming
+about here.  A large log is floating along here.  There are small lily
+pads scattered among the river.
+~
+1 1073741828 6
+D1
+~
+~
+0 -1 166
+D9
+~
+~
+0 -1 164
+> rand_prog 45~
+mpechoat $n The river currents pull you along...
+c 'refresh' $n
+mpforce $n e
+~
+|
+S
+#166
+Along the River Side~
+~
+&BThe current of the river is strong here.  There are various plant life
+along the bottom of the river bed.  Several large fish are swimming
+about here.  The river bank is just to the east of here.
+~
+1 1073741828 6
+D3
+~
+~
+0 -1 165
+D8
+~
+~
+0 -1 144
+> rand_prog 45~
+mpechoat $n The river currents pull you along...
+c 'refresh' $n
+mpforce $n se
+~
+|
+S
+#167
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#169
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#177
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#198
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#199
+Floating in a void~
+~
+~
+1 4 1
+R M 0 128 1 199
+  R G 0 118 1
+  R G 0 144 1
+  R G 0 103 1
+  R G 0 142 1
+  R G 0 143 1
+S
+#0
+
+
+#SHOPS
+ 128    0  0  0  0  0   120  90         0 23    ; Estae, the wandering boy
+ 129    0  0  0  0  0   120  90         0 23    ; Weaponsmith Devon
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  108 spec_guard
+M  128 spec_cast_cleric
+S
+
+
+#$

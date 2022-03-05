@@ -1,0 +1,175 @@
+#VNUM 54012
+#OBJECT
+Name         fir weapons rack~
+ShortDescr   fir weapons rack~
+Description  A fir weapons rack has been left here along the ground.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        20
+Cost         8
+Currtype     2
+Color        1
+Size   0
+Values       550 0 0 12 6 30 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         staff~
+ShortDescr   a staff, legendary milled from light-brown fir lumber~
+Description  Here lies a staff, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 13 23 4 11 30 600
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 6 14 0
+ExtraDescr   staff~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         staff~
+ShortDescr   a staff, legendary milled from light-brown fir lumber~
+Description  Here lies a staff, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 13 23 4 11 30 600
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 9 14 0
+ExtraDescr   staff~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         flail~
+ShortDescr   a flail, legendary milled from light-brown fir lumber~
+Description  Here lies a flail, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 13 23 4 5 30 600
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 6 14 0
+ExtraDescr   flail~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         flail~
+ShortDescr   a flail, legendary milled from light-brown fir lumber~
+Description  Here lies a flail, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 13 23 4 5 30 600
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 6 14 0
+ExtraDescr   flail~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         flail~
+ShortDescr   a flail, legendary milled from light-brown fir lumber~
+Description  Here lies a flail, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 13 23 4 5 30 600
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 4 14 0
+ExtraDescr   flail~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Owner        Weibble~
+Name         Weibble's ship deed~
+ShortDescr   Weibble's ship deed~
+Description  A deed to some sort of property has been left here.~
+Vnum         36
+Level        1
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Name         staff~
+ShortDescr   a staff, properly milled from light-brown fir lumber~
+Description  Here lies a staff, properly milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        16
+Cost         10
+Currtype     2
+Color        1
+Size   0
+Values       8 7 17 4 5 0 300
+AffectData   'acid breath' -1 2 31 0
+AffectData   'acid breath' -1 6 18 0
+AffectData   'acid breath' -1 6 19 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   staff~ &CThis crafted item bears the seal of Weibble, the journeyman carpenter.
+~
+End
+
+#END

@@ -1,0 +1,951 @@
+#AREA        {PROTO} Abidawn's area in progress~
+
+
+
+#VERSION     11
+#AUTHOR      Abidawn~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 0 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#63100
+Lesaveida the blind Scholar~
+Lesaveida the blind Scholar~
+Lesaveida the Draconian Scholar is here, holding a bundle of scrolls in his arms.
+~
+At first glance, Lesaveida appears to be a tall and powerfully built male, who looks more like a guardsman than a chronicler.
+Shimmering silver scales coat his muscular body, and sharp jet black claws can be seen on his hands and bare feet.
+A set of agile-looking wings sprout from the muscular man's shoulder blades, and a long healthy looking tail trails behind him.
+Taking a closer look at this male's face, you see however why he is condemned to stay here with the records of the sanctuary.
+Tied about this male's face is a band of black leather, which neatly covers his eyes.
+It is obvious at a glance that due to an old injury, or a birth defect perhaps, this powerfully built draconian is blind.
+However, judging by the confident way he steps about his archives, and the cheerful smile that plays about his reptilian features, this does not concern him a great deal.
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 7 0 1 1 0
+0 0 0 0 0 0 0 0
+#63101
+Draconian guard~
+A female Draconian Guard~
+A female Draconian Guard stands here, her red eyes flashing with suspission.
+~
+A draconian guard stands before the sanctuary gate, her red eyes flashing with suspission as you approach. raising her lance to an offensive position, she challenges you to identify yourself.~
+1
+Clanname none~
+0
+0
+1073741825 0 -1 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+23 18 18 13 24 20 19
+0 0 0 0 0
+0 4 0 600 1 1 0
+0 0 0 0 0 0 0 0
+#63102
+Valemath the Mighty~
+Valemath the Mighty~
+The Prime Draconian, Valemath the mighty, stands here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+talkto $n Greetings adventurer, and welcome to my sanctuary. You are free to roam the grounds at your leisure, but i must request that you do not harm any of my children while you are here. Can you promise that you will respect us and our right to exist?
+~
+> speech_prog "Upon my honor, i swear to respect your people"~
+talkto $n Thank you my child, you may go in peace with my blessing. perhaps if you visit me later you can do me and my people a great service.
+~
+|
+#63103
+Captain Cloram of the Draconian Guards~
+a newly created Captain of the Draconian Guard~
+Captain Cloram of the Draconian Guards stands here, overseeing the defences.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#63104
+Longshot the Draconian Archer~
+Longshot the Draconian Archer~
+Longshot the Draconian archer stands here, looking concerned
+~
+Longshot the Draconian archer is well known for being the best archer within the Draconian ranks.
+Many of the other archers speak of him in hushed voices, awed by this warrior's skill with a bow.
+Even now he stands atop the battlements with his longbow held firm in his hands, an arrow already notched to the bowstring.
+So many of his comrades in arms call him by his oft used nickname of Longshot, that now only Longshot himself can recall his real name.
+However, Longshot keeps very tightlipped about the subject at all times, and has been known to glare pointedly at any who dare to ask.
+Despite the many tales you have heard about this great archer, Longshot's face seems to be clouded by concern..
+His keen blue eyes dart surrupticiously about the battlements, as though he has miss-layed something he would dearly like to find.
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#63105
+Rhonan the Draconian Rangler~
+Rhonan the Draconian Rangler~
+Rhonan the Draconian Rangler stands here, overseeing the mounts.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#63150
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#63100
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#63101
+Holy Draconian Lance~
+a newly created Holy Draconian Lance~
+Some god dropped a newly created Holy Draconian Lance here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#63102
+a spiked black draconian shield~
+a spiked jet black draconian shield~
+Made from a kind of scale mail, this large rectangular shield is jet black, providing it's wearer perfect camouflage after dark. Several large black metal spikes protrude from the face of the shield, encouraging you to keep your distance.~
+Made from a kind of scale mail, this large rectangular shield is jet black, providing it's wearer perfect camouflage after dark. Several large black metal spikes protrude from the face of the shield, encouraging you to keep your distance.~
+13 1073741824 512
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+shield~
+Made from a kind of scale mail, this large rectangular shield is jet black, providing it's wearer perfect camouflage after dark. Several large black metal spikes protrude from the face of the shield, encouraging you to keep your distance.
+~
+#63103
+A black iron draconian visor~
+A black iron draconian visor~
+Some god dropped a newly created A black iron draconian visor here.~
+~
+9 1073741824 1048576
+40 40 0 0 0 0 0
+1 105 10
+2
+0
+0
+0
+0
+0
+S 0 0
+E
+crafted from jet black iron, this specially created visor has been tailor made to fit smoothly upon the elongated features of a dragon. Made by the master forges within the dragon sanctuary, this visor keeps any warrior lucky enough to own it safe from most fatal attacks.~
+Crafted from jet black iron, this specially created full-face visor has been tailor made to fit smoothly upon the elongated features of any draconian warrior.
+~
+A
+13 10
+A
+18 10
+A
+19 10
+A
+17 10
+A
+13 50
+#63104
+A holy draconian lance~
+A holy draconian lance~
+Some god dropped a newly created A holy draconian lance here.~
+~
+5 1073741824 0
+0 25 50 0 0 0 0
+1 104 10
+2
+0
+0
+0
+0
+0
+S 0 0
+E
+casting your eyes upon the lance before you, you instantly believe all the myths you were told about the fabled draconian craftsmen. Ancient tales told of their incredible ability to endow simple steal with holy magic. Mystical runes have been carefully engraved into the lance's steel, and each of them seem to exude a pure white light that speaks of this weapon's magical potential.~
+Casting your eyes upon the lance before you, you instantly believe all the myths you were told about the fabled draconian craftsmen. Ancient tales told of their incredible ability to endow simple steal with holy magic. Mystical runes have been carefully engraved into the lance's steel, and each of them seem to exude a pure white light that speaks of this weapon's magical potential.
+~
+A
+28 1
+#63105
+A beautiful marble fountain stands here, water trickling constantly over it's many layers.~
+a newly created A tiered marble fountain~
+A beautiful marble fountain stands here, water trickling constantly over it's many layers.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#63106
+marble Weapons rack~
+A marble weapons rack~
+A marble weapons rack stands here, containing a deadly aray of steel~
+~
+15 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#63149
+skeleton~
+bandit corpse~
+The decomposing corpse of a prisoner lies here, it's body slowly rotting away.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#63150
+flagand of poison~
+flagand of poison~
+A flagand of poison stands here, the green contents within bubbling sinisterly.~
+~
+10 1073741824 0
+0 -1 -1 -1 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#0
+
+
+#ROOMS
+#63100
+A lush glade~
+Not Assigned~
+~
+1 1073741828 1
+D6
+~
+Sanctuary Gates~
+0 -1 63101
+S
+#63101
+Dragon Sanctuary Gates~
+Not Assigned~
+~
+1 1073741828 1
+D0
+~
+Sanctuary gates~
+0 -1 63102
+D9
+~
+Sanctuary Gates~
+0 -1 63100
+R M 0 63101 1 63101
+S
+#63102
+Sanctuary Entrance hall~
+Not Assigned~
+~
+1 1073741828 0
+D2
+~
+Sanctuary gates~
+0 -1 63101
+D4
+~
+Entrance hall~
+0 -1 63103
+R M 0 63103 1 63102
+S
+#63103
+atop the battlements~
+Not Assigned~
+~
+1 1073741824 0
+D1
+~
+the Battlements~
+0 -1 63107
+D3
+~
+the Battlements~
+0 -1 63104
+D5
+~
+Entrance hall~
+0 -1 63102
+R O 0 63106 1 63103
+S
+#63104
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741828 1
+D1
+~
+the Battlements~
+0 -1 63103
+D3
+~
+the Battlements~
+0 -1 63105
+S
+#63105
+Southwest Guard tower~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+Guard Tower~
+0 -1 63110
+D1
+~
+the Battlements~
+0 -1 63104
+D4
+~
+guard tower~
+0 -1 63106
+S
+#63106
+Top of the South Western Guard Tower~
+Not Assigned~
+Reaching the tower's zenith, you pause for a few moments to catch your breath after the long climb up the spiral staircase.
+Proceeding out onto the small area at the tower's peak, you find yourself gasping involuntarily as your eyes take in the verdant lands that are seemingly spread out at your feet.
+Legions of Towering trees march up to the outer walls of the Sanctuary, providing a near perfect camouflage from the world outside.
+Peering intently at the leafy fronds that obscure the land, you believe that beneath the leafy canopy you see small darting movements.
+Trying to catch a closer look you observe many young draconian men and women, dashing through the forests busy at their work.
+Turning away from the breath-taking view, you cast your eyes over the large area atop the tower.
+A well fortified wall surrounds the peak of the tower, it's exterior lined with shields suspended from sturdy hooks built into the stone bricks.
+Turning to the south west, you see a large wooden trebuchet standing close to the wall, flanked on either side by two large and sturdy-looking crossbows.
+Wooden crates full of well forged crossbow bolts and a large pile of heavy looking boulders stand not far from the siege weapons placements, enabling any guards on duty to reload quickly during invasions.
+~
+1 1073741824 1
+D5
+~
+guard tower~
+0 -1 63105
+S
+#63107
+Atop the Battlements~
+Not Assigned~
+Standing atop the battlements, you feel calm winds caressing your 
+shoulders and face. Glancing around you, you see several large pikestaffs 
+have been set at intervals along the battlements. Vibrant banners have 
+been tied to each pike's burnished steel shaft, their fabric billowing in 
+the wind that gusts around the sanctuary walls. l . done l 
+~
+1 1073741824 1
+D1
+~
+the Battlements~
+0 -1 63108
+D3
+~
+the Battlements~
+0 -1 63103
+S
+#63108
+Southeast Guard Tower~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+Guard Tower~
+0 -1 63111
+D3
+~
+the Battlements~
+0 -1 63107
+D4
+~
+Guard Tower~
+0 -1 63109
+S
+#63109
+Top of the South Eastern Guard Tower~
+Not Assigned~
+Reaching the tower's zenith, you pause for a few moments to catch your 
+breath after the long climb up the spiral staircase. Proceeding out onto 
+the small area at the tower's peak, you find yourself gasping 
+involuntarily as your eyes take in the verdant lands that are seemingly 
+spread out at your feet. Legions of Towering trees march up to the outer 
+walls of the Sanctuary, providing a near perfect camouflage from the world 
+outside.Peering intently at the leafy fronds that obscure the land, you 
+believe that beneath the leafy canopy you see small darting movements. 
+Trying to catch a closer look you observe many young draconian men and 
+women, dashing through the forests busy at their work. Turning away from 
+the breath-taking view, you cast your eyes over the large area atop the 
+tower. A well fortified wall surrounds the peak of the tower, it's 
+exterior lined with shields suspended from sturdy hooks built into the 
+stone bricks. Turning to the south east, you see a large wooden trebuchet 
+standing close to the wall, flanked on either side by two large and 
+sturdy-looking crossbows. Wooden crates full of well forged crossbow bolts 
+and a large pile of heavy looking boulders stand not far from the siege 
+weapons placements, enabling any guards on duty to reload quickly during 
+invasions. 
+~
+1 1073741824 1
+D5
+~
+Guard Tower~
+0 -1 63108
+S
+#63110
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63112
+D2
+~
+Guard Tower~
+0 -1 63105
+R M 0 63104 1 63110
+S
+#63111
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63113
+D2
+~
+Guard Tower~
+0 -1 63108
+S
+#63112
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63114
+D2
+~
+the Battlements~
+0 -1 63110
+S
+#63113
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63115
+D2
+~
+the Battlements~
+0 -1 63111
+S
+#63114
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63116
+D2
+~
+the Battlements~
+0 -1 63112
+S
+#63115
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+the Battlements~
+0 -1 63117
+D2
+~
+the Battlements~
+0 -1 63113
+S
+#63116
+Northwest Guard Tower~
+Not Assigned~
+~
+1 1073741824 1
+D1
+~
+Guard Tower~
+0 -1 63120
+D2
+~
+the Battlements~
+0 -1 63114
+D4
+~
+Guard Tower~
+0 -1 63118
+S
+#63117
+Northeast Guard Tower~
+Not Assigned~
+~
+1 1073741824 1
+D2
+~
+the Battlements~
+0 -1 63115
+D3
+~
+Guard Tower~
+0 -1 63121
+D4
+~
+Guard Tower~
+0 -1 63119
+D5
+~
+Guard Tower~
+0 -1 63123
+S
+#63118
+Top of the North Western Guard Tower~
+Not Assigned~
+~
+1 1073741824 1
+D5
+~
+Guard Tower~
+0 -1 63116
+S
+#63119
+Top of the North Eastern Guard tower~
+Not Assigned~
+~
+1 1073741824 1
+D5
+~
+Guard Tower~
+0 -1 63117
+S
+#63120
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741828 1
+D1
+~
+the Battlements~
+0 -1 63122
+D3
+~
+Guard Tower~
+0 -1 63116
+S
+#63121
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741828 1
+D1
+~
+Guard Tower~
+0 -1 63117
+D3
+~
+the Battlements~
+0 -1 63122
+S
+#63122
+Atop the Battlements~
+Not Assigned~
+~
+1 1073741824 1
+D1
+~
+the Battlements~
+0 -1 63121
+D3
+~
+the Battlements~
+0 -1 63120
+S
+#63123
+Sanctuary Apothecary~
+Not Assigned~
+Walking through the stout oak door built into the North eastern wall, you find yourself within a medium-sized room.
+Wooden furniture fills the space, low tables, shelving units and wooden racks each laden with different looking plants.
+Weaving your way through the furniture, you arrive at a broad oaken counter, covered from end to end with various items.
+Belljars filled with powder, a rack of sharp steel knives and a pestle and mortar all stand ranged over the countertop, as well as several chopping boards baring different leaves, flowers and vines.
+Behind the counter stands a female draconian, who smiles warmly at you as she watches you approach.
+~
+1 1073741824 0
+D4
+~
+Guard Tower~
+0 -1 63117
+D9
+~
+the Northeast Guard Tower~
+0 -1 63144
+S
+#63125
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#63130
+oubliette~
+Not Assigned~
+With a flash of light, you find yourself falling down towards a large heavy wooden trap door.
+slamming into the wooden construction, you fall easily through and continue to descend through a rough stone tunnel.
+after falling for some time, you emerge into a large bell shaped room.
+with barely enough time for a scream to form within your throat you slam into the craggy stone flags that cover the floor, every ounce of breath getting knocked out of you in the process.
+Clambering to your feet, you try to catch your breath.
+Looking around, you find yourself within an oubliette, a prison with only one out of reach exit.
+You instantly know that this room is where criminals and undesirables are thrown and left to die.
+You must now come to grips with the fact that you will almost certainly starve to death in this chamber, unless you can find another way of releasing your mortal soul...
+.
+~
+1 1073741828 0
+S
+#63140
+Sanctuary Archives~
+Not Assigned~
+Entering through the stout oaken door, you find yourself within a spacious room.
+Each of the room's stone walls has been completely obscured by large well-built wooden shelves, their many sections groaning beneath hundreds of thousands of scrolls.
+Many of these scrolls are securely contained within cylindrical glass jars, clearly to ensure that their valuable contents remain preserved for future generations.
+Several long tables are also here, each of them littered with broken quill pens, empty ink bottles and crumpled up parchments.
+Casting your eyes about the room, you eventually spy a well carved desk.
+Made from polished dark wood this fine yet simple desk sits at the back of the room, it's worn green leather top covered in various scrolls and yet more ink bottles.
+A tall friendly-looking draconian male sits contentedly behind his desk, running his fingertips across the unrolled scrolls before him.
+As of yet, you cannot yet fathom why the scholar seems to be feeling the scrolls, but perhaps asking him may shed some light upon this strange behavior.
+~
+1 1073741824 0
+D8
+~
+the Northwest Guard Tower~
+0 -1 63143
+R M 0 63100 1 63140
+S
+#63141
+Sanctuary Stables~
+Not Assigned~
+~
+1 1073741824 1
+D2
+~
+of Harmony~
+0 -1 63145
+S
+#63142
+Temple of Healing~
+Not Assigned~
+~
+1 1073741824 0
+D2
+~
+of Serenity~
+0 -1 63146
+S
+#63143
+Approaching the Northwest Guard tower~
+Not Assigned~
+~
+1 1073741824 1
+D7
+~
+the Northwest Guard Tower~
+0 -1 63140
+D8
+~
+of Harmony~
+0 -1 63145
+S
+#63144
+Approaching the Northeast Guard Tower~
+Not Assigned~
+Moving through the Gardens of Serenity, you suddenly find yourself within a lush area, that has been carefully separated into different sections.
+Not far away from you is a large number of vegetable patches, clearly where the Draconians harvest their produce.
+Freshly turned earth surrounds the newly grown vegetables that are bathed by the sun's rays, and a large wooden rack of farming equipment stands nearby containing a large number of well made tools.
+Only a short distance away from the crops is a large grove of trees. Towering trunks rise above you, each of their leafy bows laden with ripening fruit.
+Peeping out from beneath the leaves you see apples, pears, peaches and a vast aray of other fruits that make your mouth water as you look at them.
+Striding on through the trees and skirting around the carefully grown crops that crowd around you, you find yourself next to the Sanctuary's great walls.
+Large stone blocks March off towards the north-eastern corner of this part of the gardens, and meet up with the north wall.
+Moving forward, you cast your eyes over a stout wooden door that has been built within the northeast corner of the great wall.
+A polished steel lock shows out against the dark brown wood, and you wonder whether you could gain entry to the chambers within.
+~
+1 1073741824 1
+D6
+~
+the Northeast Guard Tower~
+0 -1 63123
+D9
+~
+of Serenity~
+0 -1 63146
+S
+#63145
+Gardens of Harmony~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+of Harmony~
+0 -1 63141
+D1
+~
+Gardens~
+0 -1 63147
+D7
+~
+of Harmony~
+0 -1 63143
+S
+#63146
+Gardens of Serenity~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+of Serenity~
+0 -1 63142
+D3
+~
+Gardens~
+0 -1 63147
+D6
+~
+of Serenity~
+0 -1 63144
+S
+#63147
+Sanctuary Gardens~
+Not Assigned~
+You have now reached one of the rear-most parts of the Sanctuary. A large and verdant garden surrounds you, full of lush green life.
+On either side of the straight path that leads from the building you have just exited, to a large gateway fixed in the southern wall are two rolling lawns.
+Spreading out like a thick green carpet, these two lawns are surrounded on each of their sides by thick groves of trees.
+Several Oak, Mahogany and Yew trees can be seen within the thickets, their strong young bows stretching up to the heavens as though they are worshipers in prayer.
+Standing in the center of a paved square at the center of the gardens is a beautiful marble fountain.
+Crystal clear water flows over the large statue that stands atop the highest tier, Filling the area around you with the tranquil sound of trickling water.
+Casting your eye once more over this area, you see paths leading off to the east and west from the fountain that will no doubt lead you to new areas to explore.
+However, a strange series of markings engraved into the rim of the fountain's bottom most tier catch your attention, and may be worth further investigation.
+~
+1 1073741824 1
+D1
+~
+Gardens~
+0 -1 63146
+D3
+~
+Gardens~
+0 -1 63145
+D5
+~
+~
+0 -1 63148
+S
+#63148
+Beneath the Sanctuary Gardens~
+Not Assigned~
+~
+1 1073741828 13
+D0
+~
+of the Prime Draconian~
+0 -1 63149
+D4
+~
+~
+0 -1 63147
+S
+#63149
+Lair of the Prime Draconian~
+Not Assigned~
+~
+1 1073741824 13
+D0
+a pair of sturdy silver doors
+~
+Ebony doors~
+0 63150 63150
+D2
+~
+of the Prime Draconian~
+0 -1 63148
+R M 0 63102 1 63149
+S
+#63150
+Valemath's Private Quarters~
+Not Assigned~
+~
+1 1073741828 13
+D2
+~
+of the Prime Draconian~
+0 63149 63149
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

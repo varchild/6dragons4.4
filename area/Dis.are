@@ -1,0 +1,3465 @@
+#AREA        Iron City of Dis~
+
+
+
+#VERSION     11
+#AUTHOR      Narev~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+95 100 95 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &RA haze billows through the city streets as they grow red with infernal heat.&g~
+
+#FLAGS
+324
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250000 0 999997132 999997132 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#5500
+lemure blob humanoid flesh~
+A lemure~
+A humanoid blob of flesh waddles about
+~
+A revolting blob of human flesh waddles in the distance, with a vaguely 
+humanoid looking torso and head. Its face is twisted in anguish, and mouth 
+in a silent scream of pain. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 6 0 0 1 1 0
+0 0 337053679 130 0 0 2 2
+#5501
+minor demon short squat~
+A minor demon~
+A short and squat demon stands here
+~
+The demon is short and scrawny, with a tail waving to and fro. It is one 
+of the minor demons in the City of Dis, and not even worthy to be inside 
+the ruling class of devils. There is a odor of brimstone around the demon. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+55 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 337053679 1 0 0 2 2
+#5502
+white ghost shade soul shell~
+A soul shell~
+A ghost-white shade patrols the streets
+~
+Once an evil, ambitious, and proud soul unconcerned with others and 
+berefit of empathy, it gradually became twisted and molded by devils in 
+the Planes of Hell, before it became this present form. It is 
+ghostly-white in color, mumuring and lamenting its previous actions. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+50 0 0 0d0+2500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 337053679 3 0 0 2 2
+#5503
+pit fiend demon imposing~
+A pit fiend~
+An imposing demon stares sharply in the distance
+~
+Pit Fiends are the highest ranking of the ruling types of devils, called 
+baatezu. It has a long pale scaly body, ending with a twitching tail. Its 
+wings wrap around itself like a grotesque cloak. Its eyes glow crimson 
+red, and smoke comes out from its nostrils. A smell of brimstone surrounds 
+the Pit Fiend. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+70 0 0 0d0+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 6 0 0 1 1 0
+0 0 337053679 1 0 0 3 2
+#5504
+osyluth bone demon~
+An osyluth~
+A bone demon stands guard here
+~
+A tall, emaciated being with dried skin stretched so tight as to outline 
+and emphasize every bone stands before you. It has a skull-like head and a 
+bony tail like a scorpion's, and exudes a stench of decay. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+70 0 0 0d0+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 6 0 0 1 1 0
+0 0 337053679 1 0 0 3 2
+#5505
+hell hound beast~
+A hell hound~
+A brown hound billows flame from its jaws
+~
+It is a dark brown slavering beast, with saliva drooling from its jaws. 
+Flame billows from its nostrils and large gaping maw, scorching whatever 
+it touches. Two long fangs poke out from its mouth, eagerly waiting for 
+some fresh meat. 
+~
+0
+Clanname none~
+0
+0
+1 0 -500 C
+65 0 0 0d0+4500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 306515513 1 0 0 3 2
+#5506
+tiamat consorts dragons wyrms~
+Tiamat's entourage~
+Five wyrms stand guard in Tiamat's cave
+~
+Tiamat is attended to at all times by five consorts, wyrms of red, blue, 
+black, green, and white varieties. They are powerful dragons, and are 
+constantly guarding Tiamat's cave from all intruders. 
+~
+0
+Clanname none~
+0
+0
+35&32 503840952&12 -500 C
+100 0 0 0d0+30000 0d0+0
+0 0 0 0 500 
+0
+115 115 2
+25 25 25 25 25 13 25
+0 0 0 0 0
+13 4 0 0 1 1 20
+150 150 16187449 391 3072 0 0 19
+#5507
+cranilus boatman~
+Cranilus~
+A river boatman stands next to a boat here awaiting customers
+~
+Cranilus is the aged old ferryman of Hades, transporting souls across the 
+River Styx. He has a gaunt, skeletal face, with two orbs of fire as his 
+eyes. A skeletal hand stretches out towards you, asking for payment. 
+~
+5
+Clanname none~
+0
+0
+67108867 4194344 -500 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog price~
+mppause 4
+mpechoat $n &CCharon the boatman says, 'To travel to the First Plane, the Wasteland of
+mpechoat $n &CAvernus costs 10 bronze coins.  To travel to the Mortal World costs 20 bronze.  
+mpechoat $n &CType &WSAY AVERNUS&C or Type &WSAY MORTAL&c.'&D
+~
+> speech_prog avernus~
+if bronzeamt($n) > 9
+  mpforce $n give 10 bronze cranilus
+  mpechoat $n &CBoatman Cranilus says, 'Let us go.'&D
+  mppause 3
+  mpechoat $n &cBoatman Cranilus lowers a plank to the dock for you.&D
+  mppause 5
+  mpechoat $n &CBoatman Cranilus says, 'Follow me onboard.'&D
+  mpboat $n
+  mpforce $n follow cranilus
+  mppause 10
+  mpechoat $n &cYou hastily scramble into the boat.&D
+  mpechoat $n &cBoatman Cranilus raises the plank back to the boat.&D
+  mppause 5
+  s
+  mppause 5
+  se
+  mppause 5
+  sw
+  mppause 5
+  sw
+  mppause 5
+  se
+  mppause 5
+  e
+  mppause 5
+  mpechoat $n &CBoatman Cranilus says, 'Here is the Wasteland of Avernus.'&D
+  mpechoat $n &cBoatman Cranilus lowers a plank to the dock for you.&D
+  mpforce $n follow self
+  mpboat $n
+  mppause 5
+  mpechoat $n &cYou quickly get out of the boat.&D
+  mppause 5
+  mpechoat $n &cBoatman Cranilus raises the plank back to the boat.&D
+  mppause 4
+  mpechoat $n &cBoatman Cranilus leaves to the west.&D
+  mpgoto 5527
+else
+  mpechoat $n &CBoatman Cranilus says, 'You do not have enough for passage!'&D
+  mpechoat $n &cBoatman Cranilus gives you a withering stare.&D
+  mpdamage $n 10
+endif
+~
+> all_greet_prog 100~
+if wasinroom($n) == 5522
+  if level($n) > 89
+    mppause 6
+    mpechoat $n &cCranilus looks up from his boat.&D
+    mppause 5
+    mpechoat $n &CCranilus the boatman says, 'I can take you along the River Styx for a price.
+    mpechoat $n &CThe price depends on which plane of Hell you wish to travel to.  If you are
+    mpechoat $n &Cinterested in prices, just &WSAY PRICE&C.'&D
+  endif
+endif
+~
+> speech_prog mortal~
+if bronzeamt($n) > 19
+  mpforce $n give 20 bronze cranilus
+  mpechoat $n &CBoatman Cranilus says, 'Let us go.'
+  mppause 3
+  mpechoat $n &cBoatman Cranilus lowers a plank to the dock for you.
+  mppause 5
+  mpechoat $n &CBoatman Cranilus says, 'Follow me onboard.'
+  mpboat $n
+  mpforce $n follow cranilus
+  mppause 10
+  mpechoat $n &cYou hastily scramble into the boat.
+  mpechoat $n &cBoatman Cranilus raises the plank back to the boat.
+  mppause 5
+  s
+  mppause 5
+  se
+  mppause 5
+  sw
+  mppause 5
+  sw
+  mppause 5
+  nw
+  mppause 5
+  mpforce $n nw
+  mppause 5
+  mpgoto 30021
+  mpechoat $n &CBoatman Cranilus says, 'Here is the realm of mortal men.'
+  mpechoat $n &cBoatman Cranilus lowers a plank to the dock for you.
+  mpforce $n follow self
+  mpboat $n
+  mppause 5
+  mpechoat $n &cYou quickly get out of the boat.
+  mppause 5
+  mpechoat $n &cBoatman Cranilus raises the plank back to the boat.
+  mppause 5
+  mpechoat $n &cBoatman Cranilus leaves to the southeast.
+  mpgoto 5527
+else
+  mpechoat $n &CBoatman Cranilus says, 'You do not have enough for passage!'
+  mpechoat $n &cBoatman Cranilus gives you a withering stare.
+  mpdamage $n 20
+endif
+~
+|
+#5508
+prisoner~
+A prisoner~
+A battered prisoner lolls about
+~
+The prisoner is haggard and has wild looking eyes. He has been in this 
+prison for a long time, facing daily torture and interrogations. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+55 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 249 0 0 0 0 0
+#5509
+pit fiend krillgor~
+Krillgor~
+An angry expression blooms on Krillgor's face
+~
+Krillgor is the highest ranking pit fiend in the City of Dis. He has a 
+long pale scaly body, ending with a twitching tail. His wings wrap around 
+itself like a grotesque cloak. Its eyes glow crimson red, and smoke comes 
+out from its nostrils. A smell of brimstone surrounds him. 
+~
+0
+Clanname none~
+0
+0
+3 0 -800 C
+75 0 0 0d0+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 6 0 0 1 1 0
+0 0 337053679 1 0 0 3 2
+#5510
+prisoner telea~
+Telea~
+A battered prisoner lolls about
+~
+The prisoner is haggard and has wild looking eyes. He has been in this 
+prison for a long time, facing daily torture and interrogations. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 249 0 0 0 0 0
+> act_prog 'gives you A gem.'~
+mpechoat $n &CTelea says, 'Thanks! This will help me get through the burning streets!'&D
+~
+> act_prog 'gives you Iron shod boots.'~
+mpechoat $n &CTalea says, 'Thanks! This will help me get through the burning streets!'&D
+wear boots
+mpechoat $n &CTalea says, 'Hmm, maybe you can get me something else? The boots don't fit me!'&D
+~
+|
+#5511
+imp minor tilfonial~
+Tilfonial~
+&RA squat imp wonders if he will get any customers&g
+~
+The demon is short and scrawny, with a tail waving to and fro. It is one 
+of the minor demons in the City of Dis, and not even worthy to be inside 
+the ruling class of devils. There is a odor of brimstone around the demon. 
+~
+0
+Clanname none~
+0
+0
+67108867 0 -500 C
+55 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 337053679 1 0 0 2 2
+#5512
+imp minor beliatilios~
+Beliatilios~
+&RA squat imp wonders if he will get any customers&g
+~
+The demon is short and scrawny, with a tail waving to and fro. It is one 
+of the minor demons in the City of Dis, and not even worthy to be inside 
+the ruling class of devils. There is a odor of brimstone around the demon. 
+~
+0
+Clanname none~
+0
+0
+67108867 0 -500 C
+55 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 337053679 1 0 0 2 2
+#5513
+battle demon~
+a battle demon~
+A battle demon is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741857 128 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 0 0 0 49 2
+#5514
+flier demon~
+a flier demon~
+A insect-like demon flier is hovering here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872931 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#5550
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#5500
+gem~
+A gem~
+A sparkling gem~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 99 9
+1
+0
+0
+0
+0
+0
+S 4 0
+E
+gem~
+The gem glows with an chilly aura. 
+~
+#5501
+iron shod boots~
+Iron shod boots~
+A pair of boots lie discarded on the ground~
+~
+9 0 65
+60 60 0 0 0 0 0
+1 110 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+iron shod boots~
+These boots are made out of thick iron, and prevents one from getting 
+burnt in the City of Dis. 
+~
+#5502
+ripped page book paper piece~
+A page ripped from a book~
+A piece of paper lies on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 4 0
+E
+ripped page book paper piece~
+It looks like it was torn out from a history book. 
+
+&G"Five consorts, powerful male great wyrms of red, black, green, blue, and white
+varieties attend to Tiamat at all times. They are strong and powerful, and 
+keep away all intruders from entering her lair. 
+
+Legend has it however, that in ages past, a mighty swordsman named Drazur 
+embarked on a quest to kill the giant wyrms inhabiting Tiamat's lair, to get 
+to her treasure. Drazur travelled throughout the land, seeking a weapon which 
+could aid him in his endeavour. In his travels, he met an aged enchanter, who 
+promised him a blade that could help him slay the wyrms guarding Tiamat. 
+
+The enchanter, Rabul Shadar, went to the nearby blacksmith, and purchased his 
+best wares, a finely balanced platinum scimitar. Rabul then took the blade, 
+teleported to an ancient Volcano, and plunged the blade into the red hot lava.
+
+With the lava barely cooling on the blade, Rabul next inscribed a magic circle 
+and summoned a mighty demon from the depths of hell, before killing it with 
+his cone of cold. As the demon was in its last throes of life, Rabul thrust 
+the blade into its chest, covering the red hot blade with a layer of ichor.
+
+He then solemnly held the blade with both hands, before uttering a mystical 
+chant "Et ons mur tyr etaoin shrdlu zam xyzzy". Rabul then passed the blade 
+hilt first to Drazur. "This blade will see you through Tiamat's consorts." 
+Drazur gingerly took the blade, now humming with energy, from Rabul Shadar, 
+and set off to find Tiamat's Lair. 
+
+He travelled down into the depths of Hell, and sought out Tiamat's lair. 
+Midway through his quest however, Tiamat intercepted him, but Drazur wielded 
+his magical sword, and valiantly defended himself against her. 
+
+Being a swordsman of peerless skill, he battled Tiamat for four days straight,
+evading her attacks, and dealing stinging blows with his magical sword. But 
+Tiamat was dragonkind, and wounds dealt to her were rapidly healed by her 
+strong constitution, and she didn't tire at all during the battle. Alas for 
+Drazur, he was only mortal, and at the end of the four days, he was bone-
+weary, with blood dripping from various wounds. 
+
+Tiamat suddenly found an opening, and with a quick strike, snuffed the life 
+out from Drazur. With another mighty blow, she shattered Drazur's blade, 
+before flying away in the distance."&g 
+~
+#5503
+platinum scimitar blade athjahe~
+A finely crafted platinum scimitar~
+A blade lies discarded on the ground~
+~
+5 0 8193
+0 135 170 1 0 0 0
+1 94 9
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+platinum scimitar blade~
+It is superbly made, lightweight yet razor sharp. The blade looks like it 
+can cut through almost any object. 
+~
+> drop_prog 100~
+if inroom($i) == 5512
+mpechoat $n As you dip the sword in the lava, the pool emits a slurping sound and drags the sword into it.
+mppurge athjahe
+endif
+if inroom($i) == 5533
+mpechoat $n You dip the sword into the lava and coat it with a layer of magma.
+mpoload 5504 50
+give scimitar $n
+mppurge athjahe
+endif
+~
+|
+#5504
+platinum scimitar blade astuj~
+A finely crafted platinum scimitar~
+A blade lies discarded on the ground~
+~
+5 0 8193
+0 50 100 1 0 0 0
+1 94 9
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+platinum scimitar blade~
+It is superbly made, lightweight yet razor sharp. The blade looks like it 
+can cut through almost any object. A sheen of magma is coated over the 
+blade. 
+~
+> drop_prog 100~
+if inroom($i) == 5516
+mpechoat $n As you take out the scimitar to dip into the ichor, a minor devil enters the room and takes it from you, before thanking you heartily for this offering to Krillgor.
+mppurge astuj
+endif
+if inroom($i) == 5550
+mpechoat $n You dip the sword into the ichor and cover it with a layer of black ooze.
+mpoload 5505 50
+give scimitar $n
+mppurge astuj
+endif
+~
+|
+#5505
+platinum scimitar blade ncerg~
+A finely crafted platinum scimitar~
+A blade lies discarded on the ground~
+~
+5 0 8193
+0 50 100 1 0 0 0
+1 94 9
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+platinum scimitar blade~
+It is superbly made, lightweight yet razor sharp. The blade looks like it 
+can cut through almost any object. A sheen of magma and ichor is coated 
+over the blade. 
+~
+> speech_prog 'Et ons mur tyr etaoin shrdlu zam xyzzy'~
+mpforce $n drop ncerg
+mpechoat $n As you utter the chant, the scimitar glows bright blue for an instant!
+mpoload 5506 50
+drop scimitar
+mppurge ncerg
+mpforce $n get scimitar
+~
+|
+#5506
+platinum scimitar blade~
+A finely crafted platinum scimitar~
+A blade lies discarded on the ground~
+~
+5 3 8193
+0 50 100 1 0 0 0
+1 94 9
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+platinum scimitar blade~
+It is superbly made, lightweight yet razor sharp. The blade looks like it 
+can cut through almost any object. It is throbbing with power. 
+~
+#5507
+iron key~
+An iron key~
+An iron key lies discarded on the ground~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 4 0
+E
+iron key~
+The key is thick but rusty. 
+~
+#5508
+cell key~
+A cell key~
+A cell key lies discarded on the ground~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 4 0
+E
+cell key~
+This key unlocks a cell in the prisons under Dis.
+~
+#5509
+blood fountain~
+a fountain of blood~
+A Fountain of fresh blood flows in the center of the room.~
+~
+27 0 0
+99999 99999 0 0 0 0 0
+1 0 0
+1
+3
+0
+0
+0
+0
+S 4 0
+E
+blood fountain~
+Blood flows rapidly through the fountain. 
+~
+#5510
+golden chalice~
+A golden chalice~
+A golden chalice gleams proudly~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 192 19
+1
+0
+0
+0
+0
+0
+S 4 0
+E
+golden chalice~
+This golden chalice once held the wine of kings of yore, before Tiamat 
+stole it. 
+~
+#5511
+jade statue~
+A jade statue~
+A jade statue sits austerely~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 117 11
+1
+0
+0
+0
+0
+0
+S 4 0
+E
+jade statue~
+The statue is of a human male, made out of pure jade. It looks crafted by 
+a master sculptor. 
+~
+#5512
+stinging whip~
+A stinging whip~
+A barbed whip lies on the ground~
+~
+5 2561 8193
+0 50 100 4 3 0 0
+1 97 9
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+stinging whip~
+This whip is one of Krillgor's most favourite whips, as it is effective in 
+causing pain to unfortunate souls trapped in his prison. 
+~
+A
+5 -1
+A
+25 -1
+A
+18 3
+A
+19 5
+#5513
+bracers enchanted celerity~
+Bracers of Celerity~
+A pair of enchanted bracers clinks on the floor~
+~
+9 0 257
+60 60 0 0 0 0 0
+1 129 12
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+enchanted bracers celerity~
+These bracers were enchanted by a fabled mage of old to grant its wearer 
+unnatural speed. Unfortunately, as time took its toll, the enchantment has 
+faded, and gone a bit awry... 
+~
+A
+2 4
+A
+31 -1
+#5514
+dented skull~
+A dented skull~
+A skull lies on the ground, eye sockets facing upwards~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 4 0
+E
+skull dented~
+The skull came from one of the unfortunate victims from the Blood War, 
+harvested by an unnamed demon. It now serves as a trophy for the people of 
+Dis. 
+~
+#5515
+iron crowbar~
+An iron crowbar~
+An iron crowbar lies discarded on the ground~
+~
+5 0 8193
+0 45 100 7 5 0 0
+1 102 10
+2
+0
+0
+0
+0
+0
+S 4 0
+E
+iron crowbar~
+The work groups in the City of Dis use the iron crowbar to pry up streets, 
+dig through the lava, and sometimes even conk each other on the head. 
+~
+A
+18 5
+#5516
+scraps rust~
+Scraps of rust~
+There is some rust on the ground~
+~
+8 0 1
+0 25 50 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 4 0
+E
+scraps rust scrap~
+As the entire city of Dis is made of iron, rust slowly gathers on the 
+surface. Demons usually harvest these scraps of rust and sell them to make 
+some coins. 
+~
+#5517
+chunks flesh human~
+Some human flesh~
+Chunks of flesh lie on the ground~
+~
+19 0 1
+5 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 4 0
+E
+chunks flesh human~
+Strips of flesh are torn off from corpses harvested in the Blood War, and 
+then sold like a chunk of meat. 
+~
+#5518
+flask blood~
+A flask of blood~
+A flask of red colored liquid ~
+~
+10 0 1
+50 -1 -1 -1 0 0 0
+1 85 8
+3
+0
+0
+0
+0
+0
+'cure critical' 'cure critical' 'NONE'
+S 4 0
+E
+flask blood~
+The flask is filled with a layer of thick, red blood. 
+~
+#5519
+sparkling amulet~
+A sparkling amulet~
+An amulet lies loosely on the ground~
+~
+9 1025 5
+60 60 0 0 0 0 0
+1 121 12
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+sparkling amulet~
+The amulet has a large ruby in the middle, which throbs with an unknown 
+power. 
+~
+A
+18 5
+A
+19 3
+A
+1 -1
+A
+3 -1
+#5550
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#0
+
+
+#ROOMS
+#5500
+Spirits Avenue~
+~
+&RThe road is made of blocks of stone. The stone has become uneven over 
+time from corrosion. A large stone wall is against the road to the north. 
+A reddish pillar stands tall in the distance to the west. At times, glints 
+of white light emerge from the pillar. 
+~
+1 0 0
+D3
+A pillar of skulls stands tall to the west.
+~
+~
+0 -1 5501
+E
+pillar~
+The pillar is huge, with many skull like trophies decorating it. 
+~
+E
+skull skulls~
+You are too far to make the details out clearly. 
+~
+E
+light white glint glints~
+These lights seem to be reflected from skulls hanging from the pillar. 
+~
+S
+#5501
+At a Pillar of Skulls~
+~
+&RThe street tapers off at a high precipice, which looks down into another 
+city. A small metal ledge leads from the precipice and winds down round a 
+metallic looking spire. There is a pillar next to the ledge, rising high 
+into the sky. Twisted, demonic looking skulls decorate the exterior of the 
+pillar, grinning devilishly at all passerbys. 
+~
+1 0 0
+D1
+Spirits Avenue is to the east.
+~
+~
+0 -1 5500
+D4
+The pillar stretches upwards into the red sky.
+~
+~
+0 -1 5502
+D5
+The journey down the metal spire is very precarious.
+~
+~
+0 -1 5503
+E
+precipice~
+The street stops abruptly at the precipice. 
+~
+E
+city~
+The inhabitants of the city below look like ants. 
+~
+E
+ledge~
+The ledge twists and turns round the spire. 
+~
+E
+spire~
+The spire glows red hot, emitting off beams of heat. 
+~
+E
+pillar skull skulls~
+Twisted, demonic looking skulls adorn the pillar, all representing 
+trophies taken in the Blood War. They vary in size from minuscule to the 
+size of a house. 
+~
+S
+#5502
+On a Pillar of Skulls~
+~
+&RFrom this height, the unholy city of Avernus can be seen in its demonic 
+splendour, right down to every twisty, turning street and hidey-hole. The 
+grining skulls adorning the structure swivel themselves to look at the 
+foolish person attempting to scale the pillar. Dark red clouds gather in 
+the distance, above the central square of Avernus City. 
+~
+1 0 0
+D5
+The base of the pillar lies below.
+~
+~
+0 -1 5501
+E
+Avernus~
+The entire city is spread out below, its secrets shown to the observer. 
+~
+E
+skulls~
+They each have a perverse grin on their dead faces. 
+~
+E
+foolish person~
+Why wait, that's you! 
+~
+E
+cloud clouds~
+The clouds are magical in nature, and gives off a foreboding prescence. 
+~
+> entry_prog 100~
+if ispc($n)
+mppause 30
+if inroom($i) == 5502
+mpechoat $n A bolt of lightning suddenly shoots out from one of the red clouds and hits you!
+mpdamage $n 300
+endif
+endif
+~
+|
+S
+#5503
+On a Ledge Around a Metal Spire~
+~
+&RThe ledge spiralling around the metal spire is rather wide, as demons 
+occasionally traverse the path to get to the next plane. Parts of the 
+walkway are missing, causing many an unwary traveller to fall through to 
+his doom below. The City of Avernus, on the first plane of Hell, is 
+situated at the top of this metal spire. 
+~
+1 0 0
+D4
+The City of Avernus lies just above the spire.
+~
+~
+0 -1 5501
+D5
+The ledge spirals downwards.
+~
+~
+0 -1 5504
+E
+ledge~
+The ledge is made out of metal, which is warm to the touch. 
+~
+S
+#5504
+On a Ledge Around a Metal Spire~
+~
+&RA red haze fills the entire sky, clouding the entire pathway around the 
+spiral. Everything becomes mired in deep red, and the only way through is 
+to navigate by touch. A sound of beating wings echoes from far off in the 
+crimson heavens, becoming louder as time passes. Whatever beast flying in 
+the air is coming closer and closer.... 
+~
+1 3153924 0
+D4
+The ledge spirals upwards.
+~
+~
+0 -1 5504
+D5
+The ledge spirals downwards.
+~
+~
+0 -1 5504
+E
+haze sky red touch~
+You can't make anything out clearly, everything is in red! 
+~
+> rand_prog 90~
+mpechoat $n &YTiamat suddenly appears in the sky and snatches you off in her claws!
+mptransfer $n 5505
+mpat 5505 force $n look
+mpat 5505 force $n scream
+~
+> rand_prog 90~
+mpechoat $n The sound of wings beating against each other increases in volume.
+~
+> rand_prog 90~
+mpecho A blurry shape appears in the reddish sky, flying towards you with increasing speed.
+~
+|
+S
+#5505
+In the Claws of Tiamat~
+~
+The wind buffets your face as you are carried speedily through the air in 
+Tiamat's piercing claws. Tiamat guards the access between Avernus and Dis, 
+and it is your foul luck that you encountered her here on the metal spire 
+today. She speeds through the air, her destination unknown. 
+~
+1 3153924 0
+> act_prog 'screams loudly!'~
+mppause 20
+mpechoat $n One of Tiamat's heads asks, 'What do we have here today?"
+mppause 20
+mpechoat $n Another head replies, 'It looks like a tasty morsel."
+mppause 20
+mpechoat $n The heads bicker on what Tiamat has caught in her claws.
+mppause 20
+mpechoat $n Tiamat swoops above the Iron City of Dis, apparently deciding on where to land.
+mppause 20
+mpechoat $n Suddenly, one of the heads remark, "Why don't we have some fun?"
+mppause 20
+mpechoat $n The other heads agree, and Tiamat suddenly soars higher into the skies.
+mppause 20
+if isaffected($n) flying
+or isaffected($n) floating
+mpechoat $n Tiamat suddenly lets go of you in mid-air!
+mpechoat $n You control your descent to the ground, thankful that you are able to transverse the skies.
+mptransfer $n 5507
+mpat 5507 force $n look
+else
+mpechoat $n Tiamat suddenly lets go of you in mid-air!
+mpechoat $n The ground rushes towards you at high speeds.
+mptransfer $n 5507
+mpat 5507 damage $n 100
+mpat 5507 force $n look
+endif
+~
+|
+S
+#5506
+On a Ledge Around a Metal Spire~
+~
+&RThe metal spire is the tallest structure in the City of Dis, reaching up 
+through the haze between the layers of the First Plane and the Second 
+Plane. This spire sees quite a bit of devil and petitioner traffic on its 
+spiral stairwell ledge, and quite a few accidental and not so-accidental 
+falls. The ledge continues upwards the metal spire to the City of Avernus. 
+~
+1 0 0
+D4
+The ledge spirals upwards
+~
+~
+0 -1 5504
+D5
+The City of Dis is just below.
+~
+~
+0 -1 5507
+E
+spire metal~
+The metal spire is warm to the touch. 
+~
+E
+stairwell ledge~
+The ledge is rather wide, allowing many demons to travel along it. 
+~
+S
+#5507
+On an Iron Street~
+~
+&RThere is a large metal spire in the centre of the iron street, rising 
+into the skies above. Demons at times climb the spire, hoping to visit the 
+First Plane of Hell. A large, massive cave mouth opens up near the base of 
+this spire to the north. Rumour has it that it is the lair of the 
+Chromatic Dragon, Tiamat, together with her veritable treasure hoard. 
+~
+1 0 0
+D0
+It is dark inside the cave.
+~
+~
+0 -1 5531
+D1
+The iron street continues to the east.
+~
+~
+0 -1 5533
+D3
+The iron street continues to the west.
+~
+~
+0 -1 5508
+D4
+The ledge spirals upwards.
+~
+~
+0 -1 5506
+R M 0 5501 4 5507
+R M 0 5501 4 5507
+E
+spire~
+The spire rises up in the distance. 
+~
+E
+cave mouth~
+The cave looks very foreboding, and yellow eyes peer out from inside. 
+~
+E
+street~
+The street is paved with iron cobblestones. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500 
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5508
+On an Iron Street~
+~
+&RThe iron cobblestones are slightly uneven, making the path difficult to 
+traverse. At the same time, the heat radiating from the cobblestones makes 
+it a painful road as well. There is a large metal spire protruding from 
+the ground to the east, rising up high into the dreadful reddish haze of 
+the sky. 
+~
+1 0 0
+D1
+There is a large metal spire up ahead.
+~
+~
+0 -1 5507
+D3
+There is a T shaped intersection to the west.
+~
+~
+0 -1 5509
+R M 0 5505 2 5508
+E
+iron cobblestones cobblestone street streets path road~
+Sharp spikes of heat radiate out from the road, making walking along it a 
+painful journey. 
+~
+E
+metal spire ~
+The spire leads up into the First Plane of Hell. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5509
+At an Intersection~
+~
+&RThe iron streets in the City of Dis come together at a major 
+intersection at this point. Demons go about their day to day activities, 
+some wearing iron-shod boots. At times, various mages braving the perils 
+of the City of Dis slink by, encased in a shield of fire and frost. 
+~
+1 0 0
+D1
+The dull iron streets continue to the east.
+~
+~
+0 -1 5508
+D2
+The dull iron streets continue to the south.
+~
+~
+0 -1 5517
+D3
+The dull iron streets continue to the west.
+~
+~
+0 -1 5510
+R M 0 5503 4 5509
+R M 0 5503 4 5509
+R M 0 5503 4 5509
+E
+iron street streets cobblestone cobblestones intersection~
+Heat radiates out from them, burning those in its prescence. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5510
+On an Iron Street~
+~
+&RPalatial mansions of particularly important devils and officers of the 
+Blood War break the cityscape here and there. To the west, there is a huge 
+mansion, blocked by iron studded gates. The city streets are awash with 
+flaming heat, searing all those walking along them. 
+~
+1 0 0
+D1
+There is a T-shaped intersection to the east.
+~
+~
+0 -1 5509
+D3
+There is a palatial looking mansion to the west.
+~
+~
+0 -1 5511
+E
+gate gates iron street streets cobblestone cobblestones~
+They are all burning hot to the touch! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5511
+At the Iron Gates~
+~
+&RAn iron gate bars the entry into the palatial mansion of Krillgor, Pit 
+Fiend of Dis. Red flecks of blood stain the grilles of the gate, glinting 
+in the reddish light. Each grille has a severed head planted on its tip, a 
+remnant of the carnage in the Blood War. An iron street leads eastwards 
+into the City of Dis. 
+~
+1 0 0
+D1
+The street continues to the east.
+~
+~
+0 -1 5510
+D3
+A path leads to the front door of the mansion.
+~
+iron gate~
+3 -1 5512
+R M 0 5502 4 5511
+R M 0 5502 4 5511
+R D 0 5511 3 1
+E
+fleck flecks blood~
+The blood drips down from the severed heads. 
+~
+E
+iron gates gate grille grilles~
+The iron gates protect the mansion of Krillgor from any intruders. 
+~
+E
+head~
+The heads all belonged to victims of the Blood War, those that Krillgor 
+personally slayed. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5512
+Before the Mansion~
+~
+&RThere are lava pools just before the entrance to Krillgor's mansion, 
+widening the distance between him and the iron buildings of Dis. A twisty 
+cobblestoned path winds around the lava pools, leading from the gates to 
+the main doorway. Bubbles form within the lava pool, accompanied by a 
+slurping sound. 
+~
+1 0 0
+D0
+A hallway leads through the mansion.
+~
+iron door~
+3 -1 5513
+D1
+Past the gates lie the Iron City of Dis.
+~
+iron gates~
+3 -1 5511
+E
+pool pools lava ~
+The lava burbles, intent on sucking any unwary trespasser down to its 
+fiery depths. 
+~
+E
+cobblestone cobblestoned path ~
+The cobblestones are made of burning iron. 
+~
+E
+bubble bubble~
+The bubbles rise throughout the lava, and pop at the surface. 
+~
+S
+#5513
+In a Mansion~
+~
+&RKrillgor is one of the few pit fiends in Dis who has a mansion to 
+himself, granted to him by the Archduke Dispater. It is home to his 
+pleasures a small library lies to the east stocked with rare books bound 
+with human skin, while a small room where his prisoners are kept can be 
+seen to the west. The hallway of the mansion is littered with corpses of 
+demons and humans alike. 
+~
+1 0 0
+D0
+A stench of blood and ichor wafts from the north.
+~
+~
+0 -1 5516
+D1
+There is a small library to the east.
+~
+~
+0 -1 5514
+D2
+The barren grounds are outside.
+~
+iron door~
+3 -1 5512
+D3
+A murky objects swings in the distance.
+~
+~
+0 -1 5515
+R M 0 5503 5 5513
+R D 0 5513 2 1
+E
+corpse corpses~
+They are the victims of Krillgor. 
+~
+S
+#5514
+In a Small Library~
+~
+&RMany people believe that pit fiends are wholly focused on carnage and 
+war, and leave little time for other activities. Krillgor however, breaks 
+the stereotype, and has a small library within his manse. There is a 
+bookshelf set against the far wall, with a few gaps in the tome-filled 
+shelf. 
+~
+1 0 0
+D3
+The mansion is full of clatter.
+~
+~
+0 -1 5513
+R M 0 5503 7 5514
+E
+bookshelf~
+The bookshelf is made out of splintered yellow bones. 
+~
+E
+tome~
+The tomes are all bound with humanskin. 
+~
+E
+gaps shelf~
+There are some gaps in the shelf, as if some books were taken out. 
+~
+S
+#5515
+A Side Room~
+~
+&RAn iron cage dangles from oily black chains fastened to the ceiling. A 
+desiccated corpse is in the cage, withered hands clasping at the bars, and 
+face eternally etched in mortal agony. An ornate bronze brazier sits below 
+the miniature prison, dancing with red hot flames licking at its base. 
+~
+1 0 0
+D1
+The hallway is filled with clutter.
+~
+~
+0 -1 5513
+R M 0 5503 6 5515
+E
+desc cage~
+The cage is a small cuboid, not big enough for victims to stand, and too 
+uncomfortable for them to sit in. 
+~
+E
+chain chains~
+The chains are slick with black ichor. 
+~
+E
+corpse hand hands face~
+One of Krillgor's unfortunate victims. 
+~
+E
+brazier flame flames~
+The brazier burns with the flames of hell, scorching the prisoner. 
+~
+S
+#5516
+In a Meeting Room~
+~
+&RThere is a high seated crimson chair at the back of the mansion. A 
+metallic carpet lies spread out around the chair, splattered with 
+congealing pools of ichor and blood. Many minor functionaries in the City 
+of Dis meet in this place to discuss politics with Krillgor the Pit Fiend. 
+~
+1 0 0
+D2
+The mansion is filled with clutter.
+~
+~
+0 -1 5513
+R M 0 5503 10 5516
+R M 0 5503 10 5516
+R M 0 5509 1 5516
+E
+chair~
+Krillgor styles this chair as his throne. 
+~
+E
+carpet~
+The carpet is made out of cheap iron. 
+~
+E
+pools pool ichor blood~
+These pools were formed by Krillgor's victims. 
+~
+> entry_prog 100~
+if mobinroom(5510) == 1
+if mobinroom(5509) == 1
+mpechoat $n Krillgor gets a calculative look on his face.
+mpechoat $n &CKrillgor says 'Is that the rogue who broke into my mansion, Telea?'&g
+endif
+endif
+~
+> speech_prog no~
+if mobinroom(5510) == 1
+if mobinroom(5509) == 1
+mpechoat $n Krillgor looks suspiciously at you and Telea.
+mpechoat $n &CKrillgor says 'Begone then!'&g
+endif
+endif
+~
+> speech_prog yes~
+if mobinroom(5510) == 1
+if mobinroom(5509) == 1
+mpechoat $n Krillgor grins evilly.
+mpechoat $n &CKrillgor says 'This is what happens to thieves!'&g
+mpechoat $n Krillgor rushes forward and impales Telea with his horns!
+mpslay telea 
+mpechoat $n Krillgor chortles nastily.
+mpechoat $n &CKrillgor says 'Thanks for bringing that rogue to me!'&g
+mpechoat $n &CKrillgor says 'Here is something for you!'&g
+mpmset $n align -600
+mpoload 5512 55
+give whip krillgor
+mpforce krillgor give whip $n
+mpquest $n telea 2
+endif
+endif
+~
+|
+S
+#5517
+On an Iron Street~
+~
+&RThe red glow of infernal heat burns within the scorched iron walls along 
+the street, and a pall of smoke rises up to form a general red haze over 
+the city. Even the cobblestones of the street glow with unbearable heat, 
+making the city one huge furnace. It is best not to dwell too long in the 
+City of Dis without some kind of protection. 
+~
+1 0 0
+D0
+There is a T-shaped intersection to the north.
+~
+~
+0 -1 5509
+D2
+The street widens and opens up to some shops.
+~
+~
+0 -1 5518
+E
+iron wall walls cobblestone cobblestones street streets~
+They all emit a miasma of heat! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5518
+On an Iron Street~
+~
+&RSome sections in the City of Dis host markets and bazaars where 
+creatures from a variety of different planes meet. Most seek to buy or 
+sell questionable wares, or hire a bloodthirsty band of mercenaries for 
+work that only a devil could love. There are small alcoves set up to the 
+east and west, for demon merchants to sell their goods. 
+~
+1 0 0
+D0
+~
+~
+0 -1 5517
+D1
+There is a shop to the east.
+~
+~
+0 -1 5520
+D2
+~
+~
+0 -1 5521
+D3
+There is a shop to the west.
+~
+~
+0 -1 5519
+R M 0 5514 1 5518
+E
+alcoves~
+They are used by merchants to set up shop in the City of Dis. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5519
+In a Makeshift Shop~
+~
+&RWorn and shabby goods lay haphazardly in the small alcove, each being 
+handled and poked by various customers. An everyday occurrence in 
+Beliatilios's shop, he is resigned to this indignation. As a small imp, he 
+cannot do much against the demons stalking the streets of Dis. 
+~
+1 0 0
+D1
+There is a busy intersection to the east.
+~
+~
+0 -1 5518
+R M 0 5512 1 5519
+  R G 1 5518 1
+  R G 1 5515 1
+  R G 1 5516 1
+  R G 1 5517 1
+E
+good goods~
+They are the wares of Beliatilios. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5520
+In a Makeshift Shop~
+~
+&RThis is the shop of Tilfonial, a minor imp in the city of Dis. Tilfonial 
+sells all the goods he has managed to scrounge from within the city's 
+depths, from looting garbage heaps to the mansions of high ranking demons. 
+His wares are all spread out on an iron shelf in the alcove for customers 
+to inspect. 
+~
+1 0 0
+D3
+There is a busy intersection to the west.
+~
+~
+0 -1 5518
+R M 0 5511 1 5520
+  R G 1 5514 1
+  R G 1 5503 1
+  R G 1 5502 1
+  R G 1 5501 1
+E
+iron shelf~
+The iron shelf is burning hot! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5521
+On an Iron Street~
+~
+&RRanks of red, glowing buildings extend to every horizon of the City of 
+Dis, rising and falling according to the hidden terrain. Heat radiates out 
+from every pore of these buildings, as well as from the iron cobblestones 
+below, rising the temperature in the City to unbearably high levels. 
+~
+1 0 0
+D0
+The narrow street continues northwards.
+~
+~
+0 -1 5518
+D2
+The narrow street continues southwards.
+~
+~
+0 -1 5522
+R M 0 5505 1 5521
+E
+building buildings~
+These buildings belong to the devils who make their home in the City of 
+Dis. 
+~
+E
+cobblestone cobblestones iron street streets~
+The streets are unbearably hot! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5522
+At an Intersection~
+~
+&RA huge intersection opens up within the narrow streets of Dis, with 
+winding streets leading in all directions. The iron cobblestones start to 
+glow even redder, eager to burn more flesh. Sounds of a parade drifts by 
+from the west, while echoes of metal striking metal come from the east. 
+The Stygian docks are to the south. 
+~
+1 0 0
+D0
+The narrow streets continue in the distance.
+~
+streets continue south.~
+0 -1 5521
+D1
+The ferryman beckons towards you.
+~
+~
+0 -1 5525
+D2
+~
+~
+16777216 -1 5527
+D3
+The narrow streets continue in the distance.
+~
+~
+0 -1 5523
+R M 0 5501 2 5522
+R M 0 5501 2 5522
+E
+iron cobblestone cobblestones street streets~
+The street is burning hot! 
+~
+E
+dock docks~
+The docks represents a way out of the Second Plane of Hell.
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5523
+On an Iron Street~
+~
+&RThe Iron City of Dis is said to cover the entire layer of the Second 
+Plane of Hell, with its many twisting and turning streets. Iron 
+cobblestones make up the composition of the street, each burning at a high 
+temperature. It is said that only demons can walk on the street without 
+suffering any burns, though some tell of mystical ways to bypass the 
+searing heat. 
+~
+1 0 0
+D1
+There is a major intersection in the City of Dis.
+~
+~
+0 -1 5522
+D3
+A parade holds up the street ahead.
+~
+~
+0 -1 5524
+E
+cobblestones cobblestone iron~
+The cobblestones are burning hot! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5524
+On an Iron Street~
+~
+&RCrowds of lemures and horribly sculpted soul shells fill the street, 
+attending a parade of devilish nobility. The members of the parade all 
+crowd the street, blocking off all passage to the west. The guest of honor 
+at this parade is a devil commander who led his forces to victory against 
+the humans, hence warranting this massive celebration. 
+~
+1 0 0
+D1
+The iron street leads east.
+~
+~
+0 -1 5523
+R M 0 5513 1 5524
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5525
+On an Iron Street~
+~
+&RThe iron cobblestones of the streets in the City of Dis flare up in 
+temperature at random times, burning those walking along them. Without 
+iron-shod boots, visitors soon writhe and burn in the streets as the 
+cobblestones glow with heat. However, the citizens of Dis easily walk the 
+streets without showing any signs of pain. 
+~
+1 0 0
+D1
+Some construction work is going on to the east.
+~
+~
+0 -1 5526
+D3
+There is a busy intersection ahead.
+~
+~
+0 -1 5522
+E
+iron cobblestone cobblestones street streets~
+The streets are flare up with heat! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5526
+On an Iron Street~
+~
+&RThe buildings and street in this part of the City of Dis looks 
+devastated, as if a magical blizzard struck the whole place. Chunks of 
+cobblestones are gone from the iron road, and the buildings here are in 
+rubble. There are a gang of minor demons hard at work repairing the 
+buildings and replacing the cobblestones, temporarily preventing passage 
+to the east. 
+~
+1 0 0
+D3
+The street goes back to the west.
+~
+~
+0 -1 5525
+R M 0 5513 2 5526
+E
+buildings building cobblestones cobblestones~
+The City of Dis has many enemies, and it appears that one of them wrecked 
+this havoc upon it. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5527
+At an Iron Pier~
+~
+&RThe River Styx flows through a tunnel to the south, and ends abruptly at 
+the iron pier stretching out from the City of Dis. Demons patiently sit 
+for a spell at the pier, waiting for the ferryman to bring them to the 
+other Planes of Hell. The deathly cold waters of the Styx bubbles and 
+burbles along. 
+~
+1 0 0
+D0
+The City of Dis lies ahead.
+~
+~
+0 -1 5522
+D2
+The River Styx flows to the south.
+~
+~
+0 -1 5528
+R M 0 5507 1 5527
+E
+pier iron~
+The pier is made out of iron cobblestones. 
+~
+E
+river styx~
+The river styx flows through the many Planes of Hell. 
+~
+S
+#5528
+Along the River Styx~
+~
+&bThe chilly waters of the Styx flow in a northern-southeasterly 
+direction. Dead souls float by in the water, those who refuse to pay the 
+toll to the ferryman. Rocks and sharp objects poke out from various places 
+along the water. The river enters a tunnel to the southeast. 
+~
+1 0 1
+D0
+The Iron City of Dis lies in the distance ahead.
+~
+~
+0 -1 5527
+D8
+The river flows to the southeast.
+~
+~
+0 -1 5530
+E
+soul souls~
+They decided to swim in the Styx and died for it. 
+~
+E
+rock rocks object objects~
+They cut and tear into flesh. 
+~
+> entry_prog 100~
+if mobcount(0) < 1
+mpechoat $n The river tastes of death, and clutches at your soul!
+mpdamage $n 500
+endif
+~
+|
+S
+#5529
+Along the River Styx~
+~
+&bThe river moves with a strong current. There are sharp and jagged rocks 
+that jut out of the water in random places. The water has a murky color to 
+it. The river leads northeast into a tunnel. 
+~
+1 0 1
+D6
+The river flows to the northeast.
+~
+~
+0 -1 5530
+D9
+The river flows to the southwest.
+~
+~
+0 -1 30028
+> entry_prog 100~
+if mobcount(0) < 1
+mpechoat $n The river tastes of death, and clutches at your soul!
+mpdamage $n 500
+endif
+~
+|
+S
+#5530
+Floating Along a Tunnel~
+~
+&bThe tunnel is dank and chilly, but light can be seen to the northwest 
+and southwest. The river currents flow swiftly through the tunnel, froth 
+bubbling from the waters themselves. A sharp stagalatite pokes out from 
+the ceiling. The river is as cold as Death itself. 
+~
+1 0 1
+D7
+The river flows to the northwest.
+~
+~
+0 -1 5528
+D9
+The river flows to the southwest.
+~
+~
+0 -1 5529
+E
+stagalatite~
+It looks ready to drop at any moment. 
+~
+> entry_prog 100~
+if mobcount(0) < 1
+mpechoat $n The river tastes of death, and clutches at your soul!
+mpdamage $n 500
+endif
+~
+|
+S
+#5531
+In Tiamat's Cave~
+~
+The cave is rather spacious, enough room for over ten dragons to rest 
+comfortably in. Very little light enters the cave from outside, and the 
+heat from the Iron City of Dis barely warms up the room. A warm glow 
+escapes from the bottom of a metal door at the back of the cave. A path 
+leads back to the Iron City of Dis to the south. 
+~
+1 1 0
+D0
+Mounds of treasure lie glinting in the darkness.
+~
+metal door~
+8389671 5507 5532
+D2
+The dreary streets of the Iron City of Dis are to the south.
+~
+~
+0 -1 5507
+R M 0 5506 1 5531
+R D 0 5531 0 2
+E
+door~
+The door is made out of thick, sturdy iron. 
+~
+E
+path~
+The path is well traversed. 
+~
+> entry_prog 100~
+if iscarrying($n) == 5506
+or iswearing($n) == 5506
+mppause 2
+mpechoat $n You lunge forward at Tiamat's consorts, and with one mighty swing, lop off all their heads!
+mpslay 5506
+mpechoat $n The force of your action shattered your blade!
+mpforce $n remove scimitar
+mpforce $n drop scimitar
+mppurge scimitar
+mpechoat $n An iron key drops from one of the dragons.
+mpoload 5507
+drop key
+endif
+~
+> leave_prog 100~
+if mobinroom(5506) < 1
+mpmload 5506 90
+endif
+~
+|
+S
+#5532
+Tiamat's Treasure Hoard~
+~
+Tales spun by bards about the horde of Tiamat do it justice, there is 
+treasure here plundered from the wealth of a hundred worlds. Piles of gold 
+coins, mounds of ancient artifacts and mystical devices of an unknown 
+nature litter the cave. Unfortunately, most of them are too massive to be 
+lugged about easily, but there should be a few trinkets just ripe for the 
+taking. At least, before Tiamat comes back. 
+~
+1 0 0
+D2
+The City of Dis lies to the south.
+~
+~
+33 -1 5507
+R O 0 5513 1 5532
+R O 0 5511 1 5532
+R O 0 5510 1 5532
+R O 0 5500 1 5532
+R D 0 5532 2 0
+E
+treasure gold artifact artifacts device devices trinket trinkets~
+All these treasure are enough to make any adventurer saltivate, with promises of wealth for a lifetime.
+~
+S
+#5533
+On an Iron Street~
+~
+&RSome of the cobblestones are missing from the ground, exposing red hot 
+lava below. Steam rises from every pore on the ground, together with a 
+large barrage of piercing heat. To the west, a large metal spire rises 
+from the ground, stretching up to the sky above. Some tales spun by bards 
+say that the spire leads up to the First Plane of Hell. 
+~
+1 0 0
+D1
+A fountain spounting crimson blood sits in the centre of an intersection.
+~
+~
+0 -1 5534
+D3
+There is a large metal spire to the west.
+~
+~
+0 -1 5507
+E
+cobblestones cobblestone iron street streets ground~
+The entire street is piping hot! 
+~
+E
+lava~
+A stone suddenly drops in the lava, and melts with a soft plop. Better not 
+put your hand inside. 
+~
+E
+metal spire~
+The spire is gigantic in size, rising up among the red haze of the City of 
+Dis. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> act_prog 'drops A finely crafted platinum scimitar.'~
+mpoload 5504 50
+~
+|
+S
+#5534
+At an Intersection~
+~
+&RBlood spurts out into the air from a crimson fountain, before 
+splattering down in the streets below. The fountain is a popular place for 
+demons to congregate around while they exchange their dastardly tales with 
+each other, slurping blood as well. Iron streets lead east and west, while 
+a twisty curving one leads north. 
+~
+1 0 0
+D0
+The neverending iron streets continue to the north.
+~
+~
+0 -1 5537
+D1
+The iron streets continue to the east.
+~
+~
+0 -1 5535
+D3
+A metal spire can just barely be made out.
+~
+~
+0 -1 5533
+R M 0 5500 8 5534
+R M 0 5500 8 5534
+R O 0 5509 1 5534
+E
+street streets iron cobblestone cobblestones~
+The streets are burning hot! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) ==  flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You  writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) ==  flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You  writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5535
+On an Iron Street~
+~
+&RThe streets along the Iron City of Dis are made out of iron 
+cobblestones, each radiating an immense amount of heat. Travellers that 
+are not native to the City usually get burnt in the streets by not taking 
+proper precautions. A group of winged demons fly down the street,being 
+careful not to touch the red hot cobblestones. 
+~
+1 0 0
+D1
+A group of demons are working on the roads.
+~
+~
+0 -1 5536
+D3
+A fountain spouting crimson blood sits in the centre of an intersection.
+~
+~
+0 -1 5534
+E
+street streets iron cobblestones cobblestone~
+They each sear with flaming heat! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5536
+On an Iron Street~
+~
+&RThe Archduke Dispater recently put forth an edict to remodel part of the 
+City of Dis, putting in new iron cobblestones in the hellish place. 
+Therefore, a gang of lowly paid demons are busily digging up the old 
+cobblestones in the street and replacing them with new ones, causing the 
+rest of the street to be out-of-bounds. 
+~
+1 0 0
+D3
+The street leads back to the west.
+~
+~
+0 -1 5535
+R M 0 5505 3 5536
+R M 0 5503 10 5536
+R M 0 5501 5 5536
+E
+cobblestones cobblestone iron street streets~
+The streets are piping hot from the heat radiated from the cobblestones. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5537
+On an Iron Street~
+~
+&RStories say that the Iron City of Dis has infinite streets, spanning 
+over the layer of the Second Plane of Hell. However, other tales claim 
+that a traveller who walks far enough can leave the city behind, concealed 
+within a great ring of mountains. Looking at the many stretches of 
+nameless cobblestoned streets ahead, one can't help to believe the stories 
+about the never-ending City instead. 
+~
+1 0 0
+D0
+The neverending iron streets continue in the distance.
+~
+~
+0 -1 5538
+D2
+The neverending iron streets continue in the distance.
+~
+~
+0 -1 5534
+R M 0 5501 6 5537
+E
+cobblestoned cobblestone iron street streets~
+The iron cobblestones making up the street are searing hot! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5538
+On an Iron Street~
+~
+&RA huge iron tower rises above the buildings on this street to the 
+northwest, piercing the reddish haze above the City of Dis. Stories tell 
+that the Lord of the Second makes his home inside this tower and rarely 
+steps out from within its walls, leading the City by sending messages out 
+to his faithful servants. 
+~
+1 0 0
+D0
+The twisty iron street continues north.
+~
+~
+0 -1 5539
+D2
+The twisty iron street continues south.
+~
+~
+0 -1 5537
+E
+tower iron~
+The iron tower is the home to Dispater the Archduke. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5539
+Outside a Large Iron Tower~
+~
+&RThere is a large iron tower to the west, reaching high above the City of 
+Dis, piercing the haze of the layer above. The tower's form seems to 
+constantly shimmer, changing its texture and architectural styles. Rumours 
+have it that this tower is the adobe of Dispater the Archduke, Lord of the 
+Second. The north-southern iron street branches to the east. 
+~
+1 0 0
+D0
+The iron streets continue to the north.
+~
+~
+0 -1 5541
+D1
+The iron streets branches out to the east.
+~
+~
+0 -1 5543
+D2
+The iron streets continue to the south.
+~
+~
+0 -1 5538
+D3
+The iron door bars the way into the tower.
+~
+iron door~
+8389671 5550 5540
+R M 0 5504 4 5539
+R M 0 5504 4 5539
+R D 0 5539 3 2
+E
+tower iron~
+This iron tower belongs to Archduke Dispater. 
+~
+E
+iron cobblestones cobblestone street streets~
+The iron cobblestones are burning with heat. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5540
+Inside a Large Iron Tower~
+~
+Hi, if you can read this, there must be a bug somewhere. Please send a bug 
+message to any of the staff. 
+~
+1 -2147483132 0 0 0 0 2
+D1
+~
+door barring the way into the tower is solid.~
+35 -1 5539
+S
+#5541
+On an Iron Street~
+~
+&RThe iron street narrows here, with barely room for more than a person to 
+walk abreast each other. The walls of the buildings along the street glow 
+red hot, extruding a blast of heat. A huge iron tower can be seen to the 
+south, ascending into the reddish sky above. Sounds of a parade echo from 
+the north. 
+~
+1 0 0
+D0
+A parade is currently in procession.
+~
+~
+0 -1 5542
+D2
+There is a large iron tower next to the street.
+~
+~
+0 -1 5539
+R M 0 5502 5 5541
+E
+street streets iron wall walls cobblestone cobblestones building buildings~
+They emit streams of piping heat! 
+~
+E
+tower~
+The tower is the home of Archduke Dispater, Lord of the Second. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5542
+On an Iron Street~
+~
+&RA parade is currently in procession, attended by many demons. Featured 
+in the centre of the parade is a hapless elf who tried to sneak into 
+Tiamat's treasure hoard, but was caught by the dragons on guard, and now 
+being tortured by the demons. The massive crowd gathered here blocks all 
+travel to the north. 
+~
+1 0 0
+D2
+The street leads back southwards.
+~
+~
+0 -1 5541
+R M 0 5500 6 5542
+R M 0 5500 6 5542
+R M 0 5501 7 5542
+E
+crowd~
+Thirsty for blood, the crowd looks rather formidable. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5543
+On an Iron Street~
+~
+&RThe City of Dis is made out of many twisty, compact iron streets much 
+like this one, leading travellers deeper and deeper into the heart of the 
+city. Dispater the Archduke, Lord of the Second, rules over this burning 
+city from his iron tower. Screams of agony filter past from the east. 
+~
+1 0 0
+D1
+The narrow street continues on.
+~
+~
+0 -1 5544
+D3
+There is a large tower to the west.
+~
+~
+0 -1 5539
+E
+iron street streets cobblestone cobblestones~
+They burn red-hot and scorch those walking on them! 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5544
+On an Iron Street~
+~
+&RThe sound of agonized laments is clearly audible from a small vent in 
+the city walls. Such vents in the City of Dis are common, belonging to 
+subterranean prisons filled with screaming petitioners, captives from the 
+Blood War, and mortals kidnapped from the Material Plane. It is just one 
+of the common sights and sounds in this dreaded City of Dis. 
+~
+1 0 0
+D1
+There is a metal grate to the east.
+~
+~
+0 -1 5545
+D3
+The iron street continues to the west.
+~
+~
+0 -1 5543
+R M 0 5505 5 5544
+R M 0 5505 5 5544
+E
+vent~
+The vent is made out of iron, and is small and circular in diameter. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5545
+On an Iron Street~
+~
+&RThere is a huge metal grate in the centre of the street. Screams and 
+cries of people being tortured filter out from the numerous vents in the 
+city walls. There must be a subterranean prison below the grate. The walls 
+of the buildings glow red hot with heat, before emitting a reddish haze 
+into the air. 
+~
+1 0 0
+D3
+The street heads back to the west.
+~
+~
+0 -1 5544
+D5
+The interior of a prison looks rather crowded.
+~
+metal grate~
+3 -1 5546
+R D 0 5545 5 1
+E
+metal grate vent vents wall walls building buildings~
+They glow red hot with heat, burning everything that they touch. 
+~
+> entry_prog 100~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+mpechoaround $n $N writhes in pain as heat from the iron cobblestones sears his feet!
+mpdamage $n 50
+endif
+~
+> rand_prog 20~
+if race($n) == demon
+or iscarrying($n) == 5500
+or iswearing($n) == 5501
+or isaffected($n) == fireshield
+or isaffected($n) == iceshield
+or isaffected($n) == flying
+or isaffected($n) == floating
+mppause 1
+else
+mpdamage $n 20
+mpechoat $n You writhe in pain as heat from the iron cobblestones sears your feet!
+endif
+~
+|
+S
+#5546
+In a Nameless Prison~
+~
+&RThe City of Dis is filled with many nameless prisons, built to house 
+miscreants and captives from the Blood War. Each prison comes with a small 
+torture chamber, for demons to extract information from unwilling 
+prisoners. However, most demons prefer to use the chamber for fun. Muffled 
+groans can be heard from the north. 
+~
+1 0 0
+D0
+A dark and dingy cell is filled with many inmates.
+~
+cell door~
+7 5508 5549
+D1
+The smell of blood wafts by from the east.
+~
+~
+0 -1 5548
+D3
+The smell of blood wafts by from the west.
+~
+~
+0 -1 5547
+D4
+The smoky streets of the City of Dis lie aboveground.
+~
+metal grate~
+3 -1 5545
+R M 0 5504 5 5546
+  R G 1 5508 1
+R M 0 5502 6 5546
+R D 0 5546 0 2
+R D 0 5546 4 1
+S
+#5547
+A Small Antechamber~
+~
+&RThe coppery metallic stench of blood fills the entire room. An iron 
+maiden lies in the far corner, its lid wide open. A small gully of blood 
+flows from the contraption to a hidden drain. Dangling from the ceiling is 
+a small hangman's noose, the rope matted with sweat. 
+~
+1 0 0
+D1
+It leads to the main entrance of the Prison.
+~
+~
+0 -1 5546
+R M 0 5500 8 5547
+R M 0 5508 5 5547
+E
+maiden lid~
+Nails are carefully hammered into the iron maiden's lid, coinciding with 
+the non vital points on a human's anatomy. The lid is then closed on a 
+victim, letting him suffer in agony. 
+~
+E
+gully blood~
+Blood streams out from within the iron maiden. 
+~
+E
+noose rope sweat hangman~
+At times, a makeshift gallows is erected here, and prisoners will mount it 
+to be executed by the noose. 
+~
+S
+#5548
+A Small Antechamber~
+~
+&RRecalcitrant prisoners are dragged to the torture chambers on either 
+side of the prison's entrance. There is a wooden rack at the far end of 
+the room, with leather straps attached on it. A small hand-cranked wheel 
+is affixed to one side of the rack. There is a main board cut with a 
+blood-stained wedge at the top fastened to two cross-beams in the middle 
+of the room. 
+~
+1 0 0
+D3
+It leads to the main entrance of the Prison.
+~
+~
+0 -1 5546
+R M 0 5500 8 5548
+R M 0 5508 6 5548
+E
+board wedge cross-beams beam beams cross-beam blood-stained blood~
+This is a typical Spanish Donkey. Victims are placed astride the main 
+board as if riding a donkey, and various numbers of weights were attached 
+to their feet. On occasion, the wedge would slice entirely through the 
+victim as a result of the immense weight attached to his or her feet. 
+~
+E
+rack wooden leather strap straps~
+Wrists of prisoners are affixed to the leather straps, and the wheel 
+turned to stretch them. 
+~
+S
+#5549
+In a Crowded Cell~
+~
+&RPrisoners from the Blood War and fools caught from aboveground are 
+thrown into one of the nameless prisons around the City of Dis. This 
+prison has only one cell, housing all of its immates. Rusty manacles are 
+attached to the walls, all disused, for the prison guards rarely bother to 
+chain up their captives. A foul, unwashed stench permeates the entire 
+room. 
+~
+1 0 0
+D1
+The cell is filled with many prisoners.
+~
+~
+0 -1 5550
+D2
+The prison bustles with activity.
+~
+cell door~
+7 5508 5546
+R M 0 5508 6 5549
+R M 0 5508 6 5549
+R D 0 5549 2 2
+E
+manacles manacle~
+Once used to chain unwilling prisoners to the wall, they are now unused. 
+~
+S
+#5550
+In a Crowded Cell~
+~
+&RCorpses riddled with putrescence are piled up in a corner of the cell, 
+with maggots crawling over them. The demon guards seldom remove these 
+bodies, preferring to let their prisoners wallow in despair and filth. 
+Vomit, ichor and pus stain the entire cell floor, together with flecks of 
+dried blood. 
+~
+1 0 0
+D3
+The cell is filled with many prisoners.
+~
+~
+0 -1 5549
+R M 0 5508 6 5550
+R M 0 5508 6 5550
+R M 0 5510 1 5550
+E
+corpse corpses maggot maggots~
+These prisoners died from hunger, and were piled in a corner by the other 
+inmates. 
+~
+E
+vomit pus floor fleck flecks blood~
+The floor is splattered with all sorts of fluids, rendering the cell a 
+very inhospitable place. This is especially so when the prisoners sleep... 
+~
+> entry_prog 100~
+if mobinroom(5510) == 1
+if quest(telea) == 2
+mpforce telea say Stay away from me! I had a dream that you delivered me into Krillgor's grasp!
+else
+if quest(telea) == 3
+mpforce telea say Strange..I had a dream that you rescued me once before.
+else
+if quest(telea) == 1
+mpforce telea say Well, get on with it, get me out of here.
+mpforce telea follow $n
+else
+mpechoat $n The prisoner groans.
+mppause 2
+mpechoat $n He stumbles to his feet, looking around wildly.
+mppause 5
+mpechoat $n Catching sight of you, he mumbles, "&CAre you willing to help me?&g"
+endif
+endif
+endif
+endif
+~
+> speech_prog no~
+if mobinroom(5510) == 1
+mpechoat $n Telea sighs in dismay.
+if quest(telea) == 1
+mpforce telea say But you're already helping me!
+endif
+if quest(telea) == 2
+mpforce telea say Stay away from me! I had a dream that you delivered me into Krillgor's grasp!
+endif
+if quest(telea) == 3
+mpforce telea say Strange..I had a dream that you rescued me once before.
+endif
+endif
+~
+> speech_prog yes~
+if mobinroom(5510) == 1
+if quest(telea) == 1
+mpforce telea say Quickly, get me out of this place!
+mpforce telea follow $n
+else
+if quest(telea) == 2
+mpforce telea say Stay away from me! I had a dream that you delivered me into Krillgor's grasp!
+else
+if quest(telea) == 3
+mpforce telea say Strange..I had a dream that you rescued me once before.
+else
+mpechoat $n Telea brightens up a little.
+mpechoat $n &WTelea tells you 'I've been in here for over a year.'&g
+mppause 2
+mpechoat $n &WTelea tells you 'I got caught raiding Krillgor's mansion and was thrown in here by Krillgor himself.'&g
+mpechoat $n &WTelea tells you 'Luckily he didn't tear me apart!'&g
+mppause 5
+mpechoat $n &WTelea tells you 'Maybe you can help me get out of this place, back to my homeland of Paleon?'&g
+mppause 5
+mpquest $n telea 1
+mpforce telea follow $n
+endif
+endif
+endif
+endif
+~
+|
+S
+#0
+
+
+#SHOPS
+ 5511    0  0  0  0  0   120  20         0 23    ; Tilfonial
+ 5512    0  0  0  0  0   120  90         0 23    ; Beliatilios
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5506 spec_tiamat
+S
+
+
+#$

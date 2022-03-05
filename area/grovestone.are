@@ -1,0 +1,2333 @@
+#AREA        Grove Stone~
+
+
+
+#VERSION     11
+#AUTHOR      Seth~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 60 30 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &bAn eerie silence surrounds you, as the shadows around you seem to lengthen and grow.&D~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 5000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#32000
+shadowy priest~
+a shadowy priest~
+A shadowy priest is displaying wares for sale here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 512 -300 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32001
+shadowy priest~
+a shadowy priest~
+A shadowy priest is displaying wares for sale here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 512 -300 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32002
+temple guard~
+a temple guard~
+A temple guard is standing watch here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32003
+young virgin~
+young virgin~
+A beautiful young virgin is tied to the altar here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32004
+temple priest~
+a temple priest~
+Evil emanates from the Temple Priest standing before you.
+~
+~
+1
+Clanname none~
+0
+0
+131075 640 -1000 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32005
+temple priest~
+a temple priest~
+Evil emanates from the Temple Priest standing before you.
+~
+~
+1
+Clanname none~
+0
+0
+131075 640 -1000 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32006
+shadowy beast figure~
+a shadowy beast~
+You can barely see a Shadowy Figure in the darkness.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32007
+Giiggrath dragon healer~
+Giiggrath~
+Giiggrath the dragon healer is chained to the wall here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32008
+Queen Anne~
+Queen Anne~
+A beautiful woman stands here regally.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+66 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32009
+Prince Adair~
+Prince Adair~
+A boy prince stands here haughtily.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+66 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32010
+King Finous~
+King Finous~
+A kindly man with a regal air stands here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 128 1000 C
+66 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32011
+fortress gate guard~
+a fortress gate guard~
+A fortress gate guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+44 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32012
+temple guard~
+a temple guard~
+A temple guard is standing watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32013
+temple guard~
+a temple guard~
+A temple guard is standing watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32014
+temple guard~
+a temple guard~
+A temple guard is standing watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32015
+temple guard~
+a temple guard~
+A temple guard is standing watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isgood($n)
+mpkill $n
+endif
+~
+|
+#32016
+fortress gate guard~
+a fortress gate guard~
+A fortress gate guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+44 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32017
+fortress gate guard~
+a fortress gate guard~
+A fortress gate guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+44 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32018
+fortress gate guard~
+a fortress gate guard~
+A fortress gate guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+44 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32019
+fortress gate guard~
+a fortress gate guard~
+A fortress gate guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+44 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if isevil($n)
+mpkill $n
+endif
+~
+|
+#32020
+Inn keeper Travis~
+Inn Keeper Travis~
+A robust Inn keeper is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32021
+blacksmith Orion~
+Blacksmith Orion~
+A blacksmith is working on an anvil here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#32100
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#32000
+topaz staff~
+a topaz staff~
+A five-foot-long staff made of orange topaz lies on the ground here.~
+~
+5 0 8193
+12 20 35 4 11 35 0
+1 231 23
+3
+1
+0
+0
+0
+0
+S 0 0
+A
+18 7
+A
+19 3
+A
+13 50
+#32001
+yellow potion~
+a humming yellow potion~
+A humming yellow potion lies here.~
+~
+10 0 1
+28 -1 -1 -1 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+'kindred strength' 'stone skin' 'armor'
+S 0 0
+#32002
+bloody potion~
+a bloody potion~
+A bloody potion lies here.~
+~
+10 0 1
+28 -1 -1 -1 0 0 0
+1 6 0
+4
+3
+0
+0
+0
+0
+'cure critical' 'cure critical' 'NONE'
+S 0 0
+#32003
+dark short sword~
+a dark short sword~
+A dark short sword has been left here.~
+~
+5 0 8193
+0 20 35 1 2 0 0
+1 152 15
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+19 6
+A
+13 6
+#32004
+bloody scimitar~
+a bloody scimitar~
+A Bloody Scimitar is stuck in the ground here.~
+~
+5 0 8193
+0 15 30 1 1 28 0
+1 161 16
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+19 6
+A
+13 6
+#32005
+sacrificial dagger~
+a sacrificial dagger~
+A Sacrificial Dagger lies here, covered with the blood of it's victoms.~
+~
+5 0 8193
+0 5 15 1 2 10 0
+1 47 4
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+13 6
+A
+18 3
+#32006
+corwin crown~
+the crown of king corwin~
+A Royal Crown lies glittering here.~
+~
+9 0 17
+30 30 0 0 0 30 0
+1 257 25
+3
+14
+0
+0
+0
+0
+S 77 0
+A
+4 3
+A
+3 3
+A
+19 3
+#32007
+fine short sword~
+a fine short sword~
+A fine short sword has been left here.~
+~
+5 0 8193
+0 20 40 1 2 0 0
+1 152 15
+3
+5
+0
+0
+0
+0
+S 0 0
+A
+19 6
+A
+13 6
+#32100
+red altar~
+a red altar~
+A huge red altar fills the center of the room.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+3
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#32000
+Shadow Canyon Bridge~
+~
+This old wooden bridge stretches across the murky abyss of the Shadow 
+Canyon below. Some portions cracked and battered by time, the bridge 
+doesn't appear to be very sturdy and creaks in the harsh wind here. A 
+small sign nearby points east and reads 'Grovestone'. 
+~
+1 8 1
+D1
+~
+~
+0 -1 32001
+D11
+~
+~
+0 -1 41405
+S
+#32001
+Eastern Side of Shadow Canyon~
+~
+The eastern edge of the Shadow Canyon is barren and windy, with strong 
+gusts blowing the dust from the parched ground down into the darkness of 
+the canyon. An old rickety bridge crosses the canyon to the west, while a 
+battered dirt road leads off to the east towards an enormous, looming 
+temple. 
+~
+1 8 1
+D1
+~
+~
+0 -1 32002
+D3
+~
+~
+0 -1 32000
+S
+#32002
+An Old Dirt Road~
+~
+The old dirt road continues here curving to the north. Off to the west
+you can see a bridge that leads across the Shadow Canyon. To the north
+the path continues on to the city of Grovestone. A thick forest surrounds
+the rest of the path preventing travel in any other direction.
+~
+1 8 1
+D0
+~
+~
+0 -1 32003
+D3
+~
+~
+0 -1 32001
+S
+#32003
+An Old Dirt Road~
+~
+A muddy dirt road curves from the west to the north here. To the west, a 
+bridge can be seen leading across the Shadow Canyon. A large temple can be 
+seen towards the north, surrounded by a thick forest. Trees tall and 
+foreboding tower about this road, casting jagged shadows on the path. 
+~
+1 8 1
+D1
+~
+~
+0 -1 32004
+D2
+~
+~
+0 -1 32002
+S
+#32004
+A Path to Grove Stone~
+~
+You continue along the old dirt road noticing that Grovestone is just
+off in the distance to the east. The dirt path continues to the west
+and is surrounded by a thick forest preventing travel off the path in
+any other direction.
+~
+1 8 1
+D1
+~
+~
+0 -1 32005
+D3
+~
+~
+0 -1 32003
+S
+#32005
+Outside the Temple of Grove Stone~
+~
+As you approach your destination of Grovestone, you wonder if this is really
+the place you've heard so many stories about. The stories all speak of a bright
+town that was a gleaming example of the best of what the realm had to offer,
+friendly people who would go out of their  way to help a stranger, a town that
+was a stronghold of good. This is not what you see ahead of you. The Temple
+ahead is a dark, unfriendly looking building that has an evil feeling about it.
+The guards outside the gate to your east are dirty and vicious looking. As they
+look at you, you realize they are looking at you as someone who is starving 
+would look at a scrap of food. 
+~
+1 8 1
+D1
+~
+door~
+3 -1 32006
+D3
+~
+~
+0 -1 32004
+R M 0 32012 2 32005
+  R E 0 32003 1 16
+R M 0 32013 2 32005
+  R E 0 32003 1 16
+R D 0 32005 1 1
+S
+#32006
+Inside the Western Temple Door ~
+~
+The uneasy feeling you felt outside grows stronger as you enter the temple.
+There is no obvious danger and no reason you can see for this feeling, but it
+presists just the same. To the east you see openings on each side of the
+passage and the gate is to your west.
+~
+1 8 1
+D1
+~
+~
+0 -1 32007
+D3
+~
+door~
+3 -1 32005
+R M 0 32012 1 32006
+  R E 0 32003 1 16
+R M 0 32013 1 32006
+  R E 0 32003 1 16
+R D 0 32006 3 1
+S
+#32007
+An Intersection in The Western Corridor~
+~
+The uneasy feeling continues but since there is still no obvious danger you
+decide to ignore the feeling. There appears to be a shop of some kind to the
+south, there's a glow coming from the north, and a ceromony room of some kind
+to the east. Of course it's still not too late to exit back to the west.
+~
+1 8 1
+D0
+~
+~
+0 -1 32014
+D1
+~
+~
+0 -1 32008
+D2
+~
+~
+0 -1 32013
+D3
+~
+~
+0 -1 32006
+R M 0 32002 1 32007
+S
+#32008
+At the Red Altar~
+~
+The flickering light from the candles which sit on small shelves mounted on
+each of the four pillars that stand in the corners of the room show a large
+red stone altar standing in the middle of the floor. There is almost no room
+to walk as the altar takes up most of the room. Four passageways leave the
+room to the north, south, east, and west.
+~
+1 8 1
+D1
+~
+~
+0 -1 32009
+D2
+~
+~
+0 -1 32012
+D3
+~
+~
+0 -1 32007
+R M 0 32003 1 32008
+R M 0 32004 1 32008
+  R E 0 32005 1 16
+R M 0 32005 2 32008
+R O 0 32100 1 32008
+S
+#32009
+An Intersection in the Eastern Corridor~
+~
+The uneasy feeling continues but since there is still no obvious danger you
+decide to ignore the feeling. There appears to be a shop of some kind to the
+south, to the north it's so dark it almost seems to spill out into this room, 
+and to the west a ceromony room of some kind. Of course it's still not too late
+to exit back to the east.
+~
+1 8 1
+D0
+~
+~
+0 -1 32016
+D1
+~
+~
+0 -1 32010
+D2
+~
+~
+0 -1 32011
+D3
+~
+~
+0 -1 32008
+S
+#32010
+Inside the Eastern Temple Door~
+~
+The uneasy feeling you felt outside grows stronger as you enter the temple.
+There is no obvious danger and no reason you can see for this feeling, but it
+presists just the same. To the west you see openings on each side of the
+passage and the gate is to your east.
+~
+1 8 1
+D1
+~
+~
+0 -1 32017
+D3
+~
+~
+0 -1 32009
+R M 0 32014 2 32010
+  R E 0 32004 1 16
+R M 0 32015 2 32010
+  R E 0 32004 1 16
+S
+#32011
+The Temple Magical Shop~
+~
+This shop is so dimly lit it is hard to see what is for sale. Racks of wands,
+staffs, and magical weapons line the walls. This shop makes you nervous for
+evil seems to radiate from the weapons which are displayed here. The shopkeeper
+is hidden under the huge robe he is wearing. His hood covers his head and hides
+his face. The evil radiating from the displyed weapons is making you wish you 
+were anyplace but here.
+~
+1 8 1
+D0
+~
+~
+0 -1 32009
+D3
+~
+~
+0 -1 32012
+R M 0 32000 2 32011
+  R G 0 32000 1
+S
+#32012
+An Intersection in the Southern Corridor~
+~
+The uneasy feeling continues but since there is still no obvious danger you
+decide to ignore the feeling. There appears to be shops of some kind to the 
+east and west and a ceromony room of some kind to the north. Of course it's
+still not too late to exit to the south.
+~
+1 8 1
+D0
+~
+~
+0 -1 32008
+D1
+~
+~
+0 -1 32011
+D2
+~
+~
+0 -1 32035
+D3
+~
+~
+0 -1 32013
+S
+#32013
+The Temple Magic Shop~
+~
+This shop is so dimly lit it is hard to see what is for sale. Shelves line the
+walls of the shop and are filled with what appears to be magical scrolls and 
+bottles which you assume are filled with potions of some kind. You are startled
+as the shopkeeper moves from the back of the shop where he was hidden by the
+deep shadows. Even after he moves close to you his features cannot be seen as
+his robe covers every inch of his body and the huge hood covers his head and
+hides his face. A feeling of evil fills the room and fear tears at your heart.
+~
+1 8 1
+D0
+~
+~
+0 -1 32007
+D1
+~
+~
+0 -1 32012
+R M 0 32001 1 32013
+  R G 0 32002 1
+  R G 0 32001 1
+S
+#32014
+A Fiery Bright Room~
+~
+The light which fills this room is so bright it is not possible to determine
+exactly where it is coming from. You think it probably is coming from the huge
+dragon which is chained to the wall. You think you recognize the dragon, he
+looks exactly like a drawing of Giiggrath you saw in an old dwarven book about
+famous dragons. Giiggrath, according to the book, is the greatest dragon healer
+that ever lived. You wonder why such an important dragon is here in chains.
+~
+1 8 1
+D1
+~
+~
+0 -1 32015
+D2
+~
+~
+0 -1 32007
+R M 0 32007 1 32014
+S
+#32015
+An Intersection in the Northern Corridor~
+~
+The uneasy feeling you have had since you entered the temple is now almost
+overpowering. The uneasy feeling seems to be coming from the north and you
+are certain you will surely die if you go that way. From the room to the
+east the darkness spills out bringing with it a bitter cold. The fiery, hot 
+light coming from the west almost blinds you.
+~
+1 8 1
+D1
+~
+~
+0 -1 32016
+D3
+~
+~
+0 -1 32014
+S
+#32016
+A Cold Dark Room~
+~
+You start to shiver as you enter this room. You are unsure if it is because of
+the bitter cold or if the shivering is caused by your fear of the malevolent
+feeling of evil which radiates with the total darkness which not only fills
+this room but seems to spill out through the two entrances into the adjoining
+rooms. You hope you will survive to escape this room.
+~
+1 8 1
+D2
+~
+~
+0 -1 32009
+D3
+~
+~
+0 -1 32015
+R M 0 32006 1 32016
+S
+#32017
+Outside the Eastern Temple Door~
+~
+As you stand outside the the Grovestone Temple you feel the evil which seems
+to radiate from the building. This temple used to be a great place of healing
+and a famous spiritual retreat. Now you think. as you look at the dark temple
+with the evil looking guards, that retreat is what you should do.
+~
+1 8 1
+D1
+~
+~
+0 -1 32018
+D3
+~
+~
+0 -1 32010
+R M 0 32012 4 32017
+  R E 0 32004 1 16
+R M 0 32013 4 32017
+  R E 0 32004 1 16
+S
+#32018
+North Street~
+~
+You are walking along North Street. Like the rest of the town it has fallen
+into disrepair and occasounally you stumble over the broken pavement. This 
+road runs between the Temple and Royal Blvd. with no other exits or crossroads
+except to the weapon shop whose entrance lies off the intersection of North
+Street and Royal Blvd.
+~
+1 0 1
+D1
+~
+~
+0 -1 32019
+D3
+~
+~
+0 -1 32017
+S
+#32019
+North Street~
+~
+You are walking along North Street. Like the rest of the town it has fallen
+into disrepair and occasionally you stumble over the broken pavement. This
+road runs between the Temple and Royal Blve. with no other exits or crossroads
+except to the weapon shop whose entrance lies off the intersection of Morth
+Street and Royal Blvd.
+~
+1 0 1
+D1
+~
+~
+0 -1 32020
+D3
+~
+~
+0 -1 32018
+S
+#32020
+Corner of North Street and Royal Blvd~
+~
+You are standing at the corner of North Street and Royal Blvd. The fortress
+lies off to the south and you can just make out the outlines of the temple
+to the west. A weapon shop lies just to the southwest.
+~
+1 0 1
+D2
+~
+~
+0 -1 32022
+D3
+~
+~
+0 -1 32019
+D9
+~
+~
+0 -1 32021
+S
+#32021
+The Grove Stone Weapon Shop~
+~
+As you enter this shabby shop you wonder how they stay in business with most 
+of the racks and cases empty. The clerk, whose clothes are threadbare and
+patched comes to see if you need his assistance but you walk past him as you 
+look to see what is left for sale. At least the prices marked on the remaining
+merchandise seems reasonable. Perhaps there is a bargain here for you.
+~
+1 8 1
+D6
+~
+~
+0 -1 32020
+S
+#32022
+Northern end of Royal Blvd~
+~
+You are walking along Royal Blvd. Like the rest of the town it has fallen 
+into disrepair and occassionally you stumble over the broken pavement. This
+road runs between the fortress and North Street. The east side of the street 
+is lined with houses but the doors are all closed and blinds drawn. The only 
+openings on the street are where Park Street exits to the west and the weapon
+shop whose entrance lies off the corner at North Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 32020
+D2
+~
+~
+0 -1 32023
+S
+#32023
+Royal Blvd~
+~
+You are walking along Royal Blvd. Like the rest of the town it has fallen
+into disrepair and occassionally you stunble over the broken pavement. This 
+road runs from the fortress to North Street. The east side of the street is
+lined with houses but the doors are all closed and blinds drawn. The only
+openings on the street are where Park Street exits to the west and the weapon
+shop whose entrance lies off the corner at North Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 32022
+D2
+~
+~
+0 -1 32024
+S
+#32024
+Royal Blvd~
+~
+You are walking along Royal Blvd. Like the rest of the town it has fallen
+into disrepair and occassionally you stumble over the broken pavement. This
+road runs between the fortress and North Street. The east side of the street
+is lined with houses but the doors are all closed and blinds drawn. The only 
+openings on the street are where Park Street exits to the west and the weapon
+shop whose entrance lies off the corner at North Blvd.
+~
+1 0 1
+D0
+~
+~
+0 -1 32023
+D2
+~
+~
+0 -1 32025
+S
+#32025
+Royal Blvd~
+~
+You are walking along Royal Blvd. Like the rest of the street it has fallen 
+into disrepair and you occassionally stumble over the broken pavement. This 
+road runs between the fortress and North Street. The east side of the street 
+is lined with houses but all the doors are closed and blinds drawn. The only
+openings on the street are Park Street exiting to the west here and the
+weapon shop whose entrance lies off the corner at North Blvd.
+~
+1 0 1
+D0
+~
+~
+0 -1 32024
+D2
+~
+~
+0 -1 32036
+D3
+~
+~
+0 -1 32026
+S
+#32026
+Eastern End of Park Street~
+~
+You see the city park just ahead and you wonder if this park with it's 
+almost legendary aviary, famous statues, and beautiful fountain will be 
+like the rest of the town you have seen so far dirty, dreary, and in 
+general just a big dissapointment. So far, nothing in this town has lived 
+up to it's reputation. 
+~
+1 8 1
+D1
+~
+~
+0 -1 32025
+D3
+~
+~
+0 -1 32027
+S
+#32027
+Park Street~
+~
+The city park is visible to the north and from what you see is in no better
+condition than the rest of the town. What vegetation you can see is strangly
+msshapen and the air is full of strange sounds and smells. The aviary is
+somewhere off to the northwest and Park street continues to the east and west.
+~
+1 8 1
+D1
+~
+~
+0 -1 32026
+D3
+~
+~
+0 -1 32028
+S
+#32028
+Park Street~
+~
+The city park is visible to the north and from what you can see is in no better
+condition than the rest of the town. What vegetation you can see is strangly
+misshapen and the air is full of strange sounds and smells, The aviary is
+somewhere off to the northwest and Park Street continues to the east and west.
+~
+1 8 1
+D1
+~
+~
+0 -1 32027
+D3
+~
+~
+0 -1 32029
+S
+#32029
+Park Street~
+~
+The city park spreads out to the north and south and what vegetation you can
+see is twisted and misshapen. The air seems full of strange sounds and smells
+and you wonder what is causing them. The aviary is off in the distance to the
+north and you think you can see the fountain off to the south. Park Street 
+continues to the east and south.
+~
+1 8 1
+D1
+~
+~
+0 -1 32028
+D3
+~
+~
+0 -1 32030
+S
+#32030
+Park Street~
+~
+The city park now spreads out to the south as well as to the north and the 
+vegetation you can see is strangly twisted and misshapen and the air is full
+of strange sounds and smells. The aviary is somewhere off to the northeast and
+tha fountain to the south east. To the south you can see what seems to be some
+statues. Park Street continues to the east and west.
+~
+1 8 1
+D1
+~
+~
+0 -1 32029
+D3
+~
+~
+0 -1 32031
+S
+#32031
+Western End of Park Street~
+~
+You see the city park just ahead and you wonder if this park with the 
+almost legendary aviary, famous statues, and beautiful fountain will be 
+like the rest of the town you have seen so far dirty, dreary, and in 
+general just a big dissapointment. So far, nothing in this town has lived 
+up to it's reputation. 
+~
+1 8 1
+D1
+~
+~
+0 -1 32030
+D3
+~
+~
+0 -1 32032
+S
+#32032
+Temple Street~
+~
+You are walking along Temple Street. Like the rest of the town it has fallen
+into disrepair and occasionally you stumble over the broken pavement. This
+road runs between the Temple and South Street. The west side of the street is
+lined with houses but all the doors are shut and shades drawn. The only
+openings on the street are where Park Street exits to the east and the armor
+shop whose entrance lies off the corner at South Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 32033
+D1
+~
+~
+0 -1 32031
+D2
+~
+~
+0 -1 32075
+S
+#32033
+Northern End of Temple Street~
+~
+You are walking along Temple Street. Like the rest of the town it has fallen
+into disrepair and occasionally you stumble over the broken pavement. This 
+road runs between the Temple and South Street. The west side of the street is
+lined with houses but all the doors are shut and blinds drawn. The only 
+openings on the street are where Park Street exits to the east and the armor
+shop whose entrance lies off the corner at South Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 32034
+D2
+~
+~
+0 -1 32032
+S
+#32034
+Outside the Southern Temple Gate~
+~
+As you stand outside the Grovestone Temple you feel the evil which seems to
+rediate from the building/ This temple used to be a great place of healing and
+a famous spiritual retreat. Now you think, as you look at the dark temple with
+evil looking guards, that retreat is what you should do.
+~
+1 0 1
+D0
+~
+~
+0 -1 32035
+D2
+~
+~
+0 -1 32033
+R M 0 32014 1 32034
+  R E 0 32004 1 16
+R M 0 32015 1 32034
+  R E 0 32004 1 16
+S
+#32035
+Inside the Southern Temple Door~
+~
+The uneasy feeling you felt outside grows stronger as you enter the temple.
+There is no obvious danger and no reason you can see for this feeling, but it
+presists just the same. To the north you see openings on each side of the 
+passage and the gate is to your south.
+~
+1 8 1
+D0
+~
+~
+0 -1 32012
+D2
+~
+~
+0 -1 32034
+R M 0 32012 3 32035
+  R E 0 32004 1 16
+R M 0 32013 3 32035
+  R E 0 32004 1 16
+S
+#32036
+Southern End of Royal Blvd~
+~
+You are walking along Royal Blvd. Like the rest of the town it has fallen
+into disrepair and you occassionally stumble over the broken pavement. This 
+road runs between the fortress and North Street. The east side of the street 
+is lined with houses but the doors are all closed and blinds drawn. The only
+openings on the street are Park Street which exits to the west a little north
+of here and the weapon shop whose entrance lies off the corner at North Street.
+~
+1 0 1
+D0
+~
+~
+0 -1 32025
+D2
+~
+~
+0 -1 32037
+S
+#32037
+Outside the Northern Fortress Gate~
+~
+You are standing outside the great fortress of Grovestone, home of the Royal
+Family and headquarters of the Royal Guard. Like the rest of the town it has
+fallen into disrepair, but unlike the rest of the town you get no uneasy
+feeling here, just a feeling of fear. Royal Blvd. runs off to the north and
+the gate to the fortress to the south is guarded by members of the Royal Guard.
+~
+1 0 1
+D0
+~
+~
+0 -1 32036
+D2
+~
+~
+0 -1 32038
+R M 0 32018 1 32037
+  R E 0 32007 1 16
+R M 0 32019 1 32037
+  R E 0 32007 1 16
+S
+#32038
+Inside the Northern Fortress Gate~
+~
+You are standing to the south of the gate which leads into Grovestone at Royal
+Blvd. The main intersection in the fortress lies to your south. From there you
+can go anywhere in the fortress or continue west to South Street or south out
+of town. You wonder why the gate into town is so heavily guarded when all the
+stories you've heard tell of a peacefull town with virtually no crime.
+~
+1 8 1
+D0
+~
+~
+0 -1 32037
+D2
+~
+~
+0 -1 32039
+R M 0 32016 1 32038
+  R E 0 32007 1 16
+R M 0 32017 1 32038
+  R E 0 32007 1 16
+S
+#32039
+Heart of the Castle~
+~
+You stand in the center of the fortress. You are bumped and nudged as the 
+dozens of people run from one room to another. The Royal Chambers are 
+upstairs , the Royal Messenger Service is east. To the north and west are 
+the gates which lead into the city of Grovestone and to the south the gate 
+which leads out of town. the northeast, northwest, southeast, and 
+southwest exits go to guardrooms and storerooms, and further in these 
+directions lie the towers where the Royal Guard keeps a watch for enemies 
+of the Royal Family. 
+~
+1 8 1
+D0
+~
+~
+0 -1 32038
+D1
+~
+~
+0 -1 32041
+D2
+~
+~
+0 -1 32040
+D3
+~
+~
+0 -1 32069
+D4
+~
+~
+0 -1 32058
+D6
+~
+~
+0 -1 32042
+D7
+~
+~
+0 -1 32054
+D8
+~
+~
+0 -1 32046
+D9
+~
+~
+0 -1 32050
+R M 0 32011 1 32039
+  R G 0 32007 1
+S
+#32040
+Inside the Southern Gate to the Fortress~
+~
+The only gate from the fortress outside of Grovestone lies to your south. The
+main intersection in the fortress is to your north. From there you can go
+anywhere in the fortress or continue north or east to the town of Grovestone.
+You wonder why there are so many of the Royal Guards on duty, this town has a
+reputation for being at peace with the world.
+~
+1 8 1
+D0
+~
+~
+0 -1 32039
+D2
+~
+~
+0 -1 32063
+R M 0 32016 2 32040
+  R E 0 32007 1 16
+R M 0 32017 2 32040
+  R E 0 32007 1 16
+S
+#32041
+Royal Messenger Service~
+~
+The Royal Messenger Service will send your message anywhere in the world, for
+a small fee, of course. They claim speedy delivery and gaurentee no message
+will be lost or delayed for any reason. As you look at the messanger standing
+in front of you, you realize nothing short of his death would delay or prevent
+him from making his deliveries.
+~
+1 8 1
+D3
+~
+~
+0 -1 32039
+S
+#32042
+The Guard Training Room~
+~
+The sound of weapons clashing fills the room. Dozens of guards are here, hard
+at work practicing their weapon skills. A battle-scarred warrier oversees the
+training sessions, helping guards learn new skills, and making sure nobody
+gets carried away and forgets that this is only practice. When this man speaks,
+everyone stops whatever they are doing and listens as he has survived countless
+battles and won fights where the odds were weighed heavily against him. He is
+indeed one of the greatest warriors alive today.
+~
+1 8 1
+D6
+~
+~
+0 -1 32043
+D9
+~
+~
+0 -1 32039
+S
+#32043
+Base of the Northeast Tower~
+~
+You stand at the base of the watchtower. Guards come and go as they change
+shifts, going up to the third level of the tower to guard against a surprise 
+attack. You wonder who would attack a fortress as strong as this.
+~
+1 8 1
+D4
+~
+~
+0 -1 32044
+D9
+~
+~
+0 -1 32042
+S
+#32044
+Second Floor of the Northeast Tower~
+~
+You stand on the second floor landing of the guardtower. There's really not
+much to see here, there are no windows, but the stair goes up te the top of
+the tower and down to the base.
+~
+1 8 1
+D4
+~
+~
+0 -1 32045
+D5
+~
+~
+0 -1 32043
+S
+#32045
+Top Floor of the Northeast Tower~
+~
+You are standing at the guard post on the top floor of the tower. Huge open
+windows fill each of the four walls. Several guards are spread out along the
+windows carefully watching the town and all approaches to the fortress. You
+look out the windows to see if you can tell what they are watching for, but
+you see nothing unusual.
+~
+1 8 1
+D5
+~
+~
+0 -1 32044
+R M 0 32017 3 32045
+  R E 0 32007 1 16
+S
+#32046
+Guard Barracks~
+~
+This room is typical of barracks everywhere. Enough Bunk beds to allow several
+hundred guards to sleep at one time fill most of the room. The rest of the room
+is filled with footlockers and a few desks where the guards write letters or
+study for the officer exams. You don't think this would be a good place to 
+start any trouble as you've heard these guards stick together and will always
+come to each other's aid.
+~
+1 8 1
+D7
+~
+~
+0 -1 32039
+D8
+~
+~
+0 -1 32047
+S
+#32047
+Base of the Southeastern Tower~
+~
+You stand at the base of the watchtower. Guards come and go as they change
+shifts, going up to the third level of the tower to guard against a surprise 
+attack. You wonder who would attack a fortress as strong as this.
+~
+1 8 1
+D4
+~
+~
+0 -1 32048
+D7
+~
+~
+0 -1 32046
+S
+#32048
+Second Floor of the Southeastern Tower~
+~
+You stand on the second floor landing of the guardtower. There's really not
+much to see here, there are no windows, but the stairs go up to the top of
+the tower and down to the base.
+~
+1 8 1
+D4
+~
+~
+0 -1 32049
+D5
+~
+~
+0 -1 32047
+S
+#32049
+Top Floor of the Southeastern Tower~
+~
+You are standing at the guard post on the top floor of the tower. Huge open 
+windows fill each of the four walls. Several guards are spread out along the
+windows carefully watching the town and all aooroaches to the fortress. You
+look out the windows to see if you can tell what they are watching for, but
+you see nothing unusual.
+~
+1 8 1
+D5
+~
+~
+0 -1 32048
+R M 0 32011 2 32049
+  R E 0 32007 1 16
+S
+#32050
+Guard Barracks~
+~
+This room is typical of barracks everywhere. Enough bunk beds to allow several
+hundred guards to sleep at one time fill most of the room. The rest of the room
+is filled with footlockers and a few desks where the guards write letters or
+study for the officer exams. You don't think this would be a good place to    
+start any trouble as you've heard these guards stick together and will always
+cone to each other's aid.
+~
+1 8 1
+D6
+~
+~
+0 -1 32039
+D9
+~
+~
+0 -1 32051
+S
+#32051
+Base of the Southwestern Tower~
+~
+You stand at the base of the watchtower. Guards come and go as they change 
+shifts, going up to the third level of the tower to guard against a surprise
+attack. You wonder who would attack a fortress as strong as this.
+~
+1 8 1
+D4
+~
+~
+0 -1 32052
+D6
+~
+~
+0 -1 32050
+S
+#32052
+Second Floor to the Southwestern tower~
+~
+You stand on the second floor landing of the guardtower. There's really not
+much to see here, there are no windows, but the stair goes up to the top of
+the tower and down to the base.
+~
+1 8 1
+D4
+~
+~
+0 -1 32053
+D5
+~
+~
+0 -1 32051
+S
+#32053
+Top Floor of the Southwestern Tower~
+~
+You are standing at the guard post on the top floor of the tower. Huge open
+windows fill each of the four walls. Several guards are spread out along the
+windows carefully watching the town and all approaches to the fortress. You 
+look out the windows to see if you can tell what they are watching for, but
+you see nothing unusual.
+~
+1 8 1
+D5
+~
+~
+0 -1 32052
+R M 0 32018 3 32053
+  R E 0 32007 1 16
+S
+#32054
+Storage Room~
+~
+This room is filled from one end to the other with racks of weapons and armor.
+There is only enough open space in the room to get to each rack, and a path 
+to the tower that is to the northwest. There seems to be enough supplies here
+to equip an army for an extended period of time, almost as if a long siege was
+expected at any time.
+~
+1 8 1
+D7
+~
+~
+0 -1 32055
+D8
+~
+~
+0 -1 32039
+S
+#32055
+Base of the Northwest Tower~
+~
+You stand at the base of the watchtower. Guards come and go as they change 
+shifts, going up to the third level of the tower to guard against a surprise
+attack. You wonder who would attack a fortress as strong as this.
+~
+1 8 1
+D4
+~
+~
+0 -1 32056
+D8
+~
+~
+0 -1 32054
+S
+#32056
+Second Floor of the Northwest Tower~
+~
+You stand on the second floor landing of the guardtower. There's really not
+much to see from here, there are no windows but the stair goes up to the top
+of the tower and down to the base.
+~
+1 8 1
+D4
+~
+~
+0 -1 32057
+D5
+~
+~
+0 -1 32055
+S
+#32057
+Top Floor of the Northwest Tower~
+~
+You are standing at the guard post on the top floor of the tower. Huge open
+windows fill each of the four walls. Several guards are spread out along the
+windows carefully watching the town and all the approaches to the fortress. 
+You look out the windows to see if you can tell what they are watching for, but
+as you look out over the town you see nothing unusual.
+~
+1 8 1
+D5
+~
+~
+0 -1 32056
+R M 0 32016 3 32057
+  R E 0 32007 1 16
+S
+#32058
+Entrance to the Royal Chambers~
+~
+The doors of the Royal Chambers all open from this room. The Throne room is
+to the northeast, the Bedrooms of the King and Queen, and of the Prince lie
+to the southeast and southwest. To the northwest is the chamber where the 
+Royalty receives visitors.
+~
+1 8 1
+D0
+~
+~
+0 -1 32059
+D5
+~
+~
+0 -1 32039
+D6
+~
+~
+0 -1 32060
+D8
+~
+~
+0 -1 32061
+D9
+~
+~
+0 -1 32062
+S
+#32059
+The Royal Receiving Chamber~
+~
+Every inch of this room is filled with exquisite furnishings. Fine furnature
+is spread out over the rich, thick carpet. The walls are covered with beautiful
+tapestries and paintings. This is indeed the perfect place for the Royal Family
+to receive guests. You notice the Queen on the other end of the huge room with
+a guest. You wonder what important dignitary she is meeting today.
+~
+1 8 1
+D2
+~
+~
+0 -1 32058
+R M 0 32008 1 32059
+S
+#32060
+The Royal Throne Room~
+~
+Fine tapestries and exquisite paintings line the walls of this huge room. Thick
+plush carpet lies under your feet. The only furniture in the room is three
+thrones set on a raised platforn at the far end of the room. The throne on the
+center is huge with a slightly smaller throne to it's right. On it's left is
+a still smaller throne. All three thrones are covered with precious metals and
+fine jewels. You laugh to yourself as you pretend not to see the twelve year
+old prince hastily jump out of the huge throne where he was trying out the
+King's seat.
+~
+1 8 1
+D9
+~
+~
+0 -1 32058
+R M 0 32009 1 32060
+S
+#32061
+Prince Adair's Bedroom~
+~
+This room is amusing with it's contradictions. The carpet os a deep plush,  the
+furnature is of the highest quality, and fantastic tapestries line the walls.
+But spread through the room and littering the floor are hundreds of toys. As
+you walk you slip and almost fall on some marbles left carelessly on the floor.
+Perhaps it's the maid's day off.
+~
+1 8 1
+D7
+~
+~
+0 -1 32058
+S
+#32062
+The King and Queen's Bedroom~
+~
+Now this is a bedroom like you've never even dreamed of. A huge four poster 
+bed with a canopy is against the wall next to the ornately carved tall chest.
+Fine, hand woven rugs cover the floor everywhere except near the gigantic
+fireplace with it's carved marble mantle. The many expensive-looking paintings
+are lit by dozens of candles which are set in candlesticks made of silver and
+gold. You notice King Corwin is taking a nap in the bed and decide to sneak 
+out before you disturb him. You have heard the even temper he is famed for is
+not so even whan he is wakened by intruders.
+~
+1 8 1
+D6
+~
+~
+0 -1 32058
+R M 0 32010 1 32062
+  R E 0 32006 1 6
+S
+#32063
+Outside the Fortress of Grove Stone~
+~
+As you approach your destination of Grovestone you wonder if this is really
+the place you've heard so many stories about. The stories all speak of a bright
+town that was a gleaming example of the best of what the realm had to offer,
+friendly people who would go out of their way to help a stranger, a town that
+was a stronghold of good. The town you see is a dark unfriendly looking place,
+it's citizens look at you suspiciously as they walk far around you trying to
+avoid eye contact. You wonder what could have happened to change this town so
+much. As you approach the huge gate to the north, several guards glare at you
+as if you were an enemy.
+~
+1 8 1
+D0
+~
+~
+0 -1 32040
+D2
+~
+~
+0 -1 32064
+R M 0 32018 2 32063
+  R E 0 32007 1 16
+R M 0 32019 2 32063
+  R E 0 32007 1 16
+S
+#32064
+On the Road to Grove Stone~
+~
+You start hurrying as you near the town of Grovestone. This town of legend
+is in sight and you can hardly wait to see what it has to offer. The gate
+to the Grovestone fortress is close to the north. To the south is the Inn
+and the Blacksmith's Shop.
+~
+1 8 1
+D0
+~
+~
+0 -1 32063
+D2
+~
+~
+0 -1 32065
+S
+#32065
+Between the Grove Stone's Inn and the Blacksmith's Shop~
+~
+The town of Grovestone is in sight and the gate to the fortress is a ways to 
+your north. You are anxious to get to Grovestone, but are undecided if you 
+should go to the inn to your west to relax for a while first of if you should
+go straight to town. If you do decide to go to the Inn first, you could always
+drop your equipment off at the Blacksmith's Shop to the east to be repaired
+whole you relax at the Inn.
+~
+1 8 1
+D0
+~
+~
+0 -1 32064
+D1
+~
+~
+0 -1 32068
+D2
+~
+~
+0 -1 32066
+D3
+~
+~
+0 -1 32067
+S
+#32066
+The Road to Grove Stone~
+~
+At last you near your destination, Grovestone. You have heard so many stories
+about this town you can't wait to see it for yourself. You especially want to
+go to the templa and meet the legendary dragon healer Giilgrath, who has been
+the head priest there for over four hundred years. You hope you also have time
+to go to the city park with it's beautiful fountain, fine statuary, and the
+world famous aviary.
+~
+1 8 1
+D0
+~
+~
+0 -1 32065
+S
+#32067
+The Grove Stone Inn~
+~
+As you walk into the Inn you see a bar along the far wall. Tables and chaairs 
+are set up in the middle of the room for dining. A fire burns brightly in the
+fireplace off to your right. You see a menu hung up behind the bar. The Inn 
+is full of people, but is strangely quite and you wonder why.
+~
+1 8 1
+D1
+~
+~
+0 -1 32065
+R M 0 32020 1 32067
+S
+#32068
+The Blacksmith's Shop~
+~
+You are blasted by a wave of heat which comes from the forge that sits in the
+center of the room where a heavily muscled man is working to repair a piece 
+of armor. He looks up and says that he will be with you in a few seconds. The
+room is filled with armor and weapons piled in heaps all over the place. As you
+examine these you see that the blacksmith does indeed do an excellent job on
+repairing equipment.
+~
+1 8 1
+D3
+~
+~
+0 -1 32065
+R M 0 32021 1 32068
+S
+#32069
+Inside the South Street Gate~
+~
+You are standing to the east of the gate which leads into Grovestone at South
+Street. The main intersection in the fortress is to your east. From there you
+can go anywhere in the fortress or continue north to Royal Blvd. or south out
+of town. You wonder why the gate into town is so heavily guarded when the s
+stories you've heard tell of a peacefull town with virtually no crime.
+~
+1 8 1
+D1
+~
+~
+0 -1 32039
+D3
+~
+~
+0 -1 32070
+S
+#32070
+Outside the Western Fortress Gate~
+~
+You are standing outside the great fortress of Grovestone, home of the Royal
+Family and headquarters of the Royal Guard. Like the rest of the town it has
+fallen into disrepair, but unlike the rest of the town you get no uneasy 
+feeling here, just a feeling of fear. South Street runs off to the west and
+the gate to the fortress to your east is guarded by members of the Royal Guard.
+~
+1 0 1
+D1
+~
+~
+0 -1 32069
+D3
+~
+~
+0 -1 32071
+S
+#32071
+Eastern End of South Street~
+~
+You are walking along South Street. Like the rest of the town it has fallen
+into disrepair and occasionally tou stumble over the broken pavement. This
+road runs between the fortress and Temple Street with no other exits or
+crossroads except the armor shop whose entrance lies off the intersection 
+of South Street and Temple Street.
+~
+1 0 1
+D1
+~
+~
+0 -1 32070
+D3
+~
+~
+0 -1 32072
+S
+#32072
+South Street~
+~
+You are walking along South Street. Like the rest of the town it has fallen 
+into disrepair and occasionally you stumble over the broken pavement. This
+road runs between the fortress and Temple Street with no other exits or
+crossroads except the armor shop whose entrance lies off the intersection
+of South Street and Temple Street.
+~
+1 0 1
+D1
+~
+~
+0 -1 32071
+D3
+~
+~
+0 -1 32073
+S
+#32073
+South Street~
+~
+You are walking along South Street. Like the rest of the town it has fallen
+into disrepair and occasionally you stumble over the broken pavement. This
+road runs between the fortress and Temple Street with no other exits or
+crossroads except to the armor shop whose entrance lies off the intersection
+of South Srteet and Temple Street.
+~
+1 0 1
+D1
+~
+~
+0 -1 32072
+D3
+~
+~
+0 -1 32074
+S
+#32074
+Western End of South Street~
+~
+You are walking alomg South Street. Like the rest of the town it has fallen 
+into disrepair and occasionally you stumble over the broken pavement. This
+road runs between the fortress and Temple Street with no other exits or
+crossroads except to the armor shop whose entrance lies off the intersection
+of South Street and Temple Street.
+~
+1 0 1
+D1
+~
+~
+0 -1 32073
+D3
+~
+~
+0 -1 32075
+S
+#32075
+The Corner of Temple and South Street~
+~
+You are standing at the corner of Temple Street and South Street. The temple
+is a ways to the north and you can just make out the outlines of the fortress
+to the east. There is an armor shop just to the northeast.
+~
+1 0 1
+D0
+~
+~
+0 -1 32032
+D1
+~
+~
+0 -1 32074
+D6
+~
+~
+0 -1 32076
+S
+#32076
+Grove Stone Armor Shop~
+~
+Scores of dummies made for the display of armor fill this shop, but most are
+empty. Dust is thick on what armor that is left and you wonder when the last
+customer was in this shop. By the looks of the clothing of the clerk it has 
+been quite a while. His clothes are dirty and torn and it hard to tell if his
+clothes look like that because there are no customers, or if there are no
+customers because of the condition of the shop and clerk. You tell yourself 
+to drive a hard bargain if you find something you want as it is obvious he
+needs the money badly.
+~
+1 8 1
+D9
+~
+~
+0 -1 32075
+S
+#32077
+Floating in a void~
+~
+~
+1 12 1
+S
+#32100
+Floating in a void~
+~
+~
+1 12 1
+S
+#0
+
+
+#SHOPS
+ 32000    0  0  0  0  0   120  90         0 23    ; a shadowy priest
+ 32001    0  0  0  0  0   120  90         0 23    ; a shadowy priest
+0
+
+
+#REPAIRS
+ 32021    0  0  0         100   1         0 23    ; Blacksmith Orion
+0
+
+
+#SPECIALS
+M  32006 spec_cast_adept
+M  32007 spec_cast_adept
+S
+
+
+#$

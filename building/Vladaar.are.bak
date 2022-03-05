@@ -1,0 +1,1000 @@
+#AREA        Vampire's Den~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 30 0 30
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &ZThe sound of piano player resonates throughout the area.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 0 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#55300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#55301
+Vampire fledgling~
+a vampire fledgling~
+A vampire fledgling is hunting for prey here.
+~
+This is a well trained gnome.  He might not have a lot of strength but
+he makes up for it with his scientific skills.
+~
+1
+clanname none~
+0
+0
+1073872899 4194304 1000 C
+10 13 3 5d5+90 1d7+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 4 0 0 0 0 1
+0 0 1775 2 0 1 2560 2
+> fight_prog 5~
+mpechoat The Vampire fledgling moves in a blurred speed striking you multiple times!
+mpedamage $n 20
+~
+|
+#55400
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#55300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#55301
+book shelf~
+a book shelf~
+A book shelf is secured to the wall here.~
+~
+38 1073741824 0
+0 0 0 0 0 0 0
+10000 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book 'book shelf'~
+There is a book that seems to stand out from the rest.
+~
+> pull_prog 100~
+mpecho &cAs the book is pulled a passage is opened in the floor.
+~
+> push_prog 100~
+mpecho As the book is pushed a passage is opened in the floor.
+~
+|
+#55302
+vial essence~
+a vial of essence~
+A vial of essence has been left here.~
+~
+10 1073741889 1
+20 -1 -1 -1 0 0 0
+1 5 0
+4
+14
+0
+0
+0
+0
+'NONE' 'cure critical' 'refresh'
+S 0 0
+E
+yellow~
+The yellow potion is made out of a glass bottle, and it is filled with a thick yellow liquid.
+~
+#55303
+Dining Room Table~
+a dining room table~
+A dining room table is here.~
+~
+12 1073741824 0
+6 0 4 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+table~
+The table is made out of stout oak wood.
+~
+#55400
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#55300
+Floating in a void~
+Not Assigned~
+~
+1 1073741832 1
+S
+#55301
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55302
+D1
+~
+~
+0 -1 55305
+S
+#55302
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55303
+D1
+~
+~
+0 -1 55306
+D2
+~
+~
+0 -1 55301
+S
+#55303
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55304
+D1
+~
+~
+0 -1 55307
+D2
+~
+~
+0 -1 55302
+S
+#55304
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55308
+D2
+~
+~
+0 -1 55303
+S
+#55305
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55306
+D1
+~
+~
+0 -1 55309
+D3
+~
+~
+0 -1 55301
+S
+#55306
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55307
+D1
+~
+~
+0 -1 55310
+D2
+~
+~
+0 -1 55305
+D3
+~
+~
+0 -1 55302
+S
+#55307
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55308
+D1
+~
+~
+0 -1 55311
+D2
+~
+~
+0 -1 55306
+D3
+~
+~
+0 -1 55303
+S
+#55308
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55312
+D2
+~
+~
+0 -1 55307
+D3
+~
+~
+0 -1 55304
+S
+#55309
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55310
+D1
+~
+~
+0 -1 55313
+D3
+~
+~
+0 -1 55305
+S
+#55310
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55311
+D1
+~
+~
+0 -1 55314
+D2
+~
+~
+0 -1 55309
+D3
+~
+~
+0 -1 55306
+S
+#55311
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55312
+D1
+~
+~
+0 -1 55315
+D2
+~
+~
+0 -1 55310
+D3
+~
+~
+0 -1 55307
+S
+#55312
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55316
+D2
+~
+~
+0 -1 55311
+D3
+~
+~
+0 -1 55308
+S
+#55313
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55314
+D1
+~
+~
+0 -1 55317
+D3
+~
+~
+0 -1 55309
+S
+#55314
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55315
+D1
+~
+~
+0 -1 55318
+D2
+~
+~
+0 -1 55313
+D3
+~
+~
+0 -1 55310
+S
+#55315
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55316
+D1
+~
+~
+0 -1 55319
+D2
+~
+~
+0 -1 55314
+D3
+~
+~
+0 -1 55311
+S
+#55316
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55320
+D2
+~
+~
+0 -1 55315
+D3
+~
+~
+0 -1 55312
+S
+#55317
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55318
+D3
+~
+~
+0 -1 55313
+D4
+~
+~
+0 -1 55337
+S
+#55318
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55319
+D2
+~
+~
+0 -1 55317
+D3
+~
+~
+0 -1 55314
+S
+#55319
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55320
+D2
+~
+~
+0 -1 55318
+D3
+~
+~
+0 -1 55315
+S
+#55320
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D2
+~
+~
+0 -1 55319
+D3
+~
+~
+0 -1 55316
+S
+#55321
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55322
+D1
+~
+~
+0 -1 55325
+S
+#55322
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55323
+D1
+~
+~
+0 -1 55326
+D2
+~
+~
+0 -1 55321
+S
+#55323
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55324
+D1
+~
+~
+0 -1 55327
+D2
+~
+~
+0 -1 55322
+R M 1 55301 1 55323
+  R G 0 55302 1
+S
+#55324
+Within the Kitchen~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55328
+D2
+~
+~
+0 -1 55323
+R M 1 55301 1 55324
+  R G 0 55302 1
+S
+#55325
+The Threshold~
+Not Assigned~
+The walls are composed of interlocking bricks.  There are masterful paintings
+that line the far wall of the threshold.  A large chandelier is hanging from
+the ceiling to provide lighting.  There is a red rug next to the doorway.
+~
+1 8 13
+D0
+~
+~
+0 -1 55326
+D1
+~
+~
+0 -1 55329
+D3
+~
+~
+0 -1 55321
+R M 1 55301 1 55325
+  R G 0 55302 1
+S
+#55326
+Within the Tavern~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55327
+D1
+~
+~
+0 -1 55330
+D2
+~
+~
+0 -1 55325
+D3
+~
+~
+0 -1 55322
+S
+#55327
+Next to a Table~
+Not Assigned~
+There is a large bar to the north.  Many patrons sit at tables throughout here.
+The tables have a small candle in the center that provides lighting.  A thick
+red rug runs the length of the floor towards the bar to the north.
+~
+1 8 13
+D0
+~
+~
+0 -1 55328
+D1
+~
+~
+0 -1 55331
+D2
+~
+~
+0 -1 55326
+D3
+~
+~
+0 -1 55323
+R O 0 55303 1 55327
+S
+#55328
+Before the Bar~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55332
+D2
+~
+~
+0 -1 55327
+D3
+~
+~
+0 -1 55324
+R M 1 55301 1 55328
+  R G 0 55302 1
+S
+#55329
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55330
+D1
+~
+~
+0 -1 55333
+D3
+~
+~
+0 -1 55325
+R M 1 55301 1 55329
+  R G 0 55302 1
+S
+#55330
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55331
+D1
+~
+~
+0 -1 55334
+D2
+~
+~
+0 -1 55329
+D3
+~
+~
+0 -1 55326
+R M 1 55301 1 55330
+  R G 0 55302 1
+S
+#55331
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55332
+D1
+~
+~
+0 -1 55335
+D2
+~
+~
+0 -1 55330
+D3
+~
+~
+0 -1 55327
+R M 1 55301 1 55331
+  R G 0 55302 1
+S
+#55332
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55336
+D2
+~
+~
+0 -1 55331
+D3
+~
+~
+0 -1 55328
+R M 1 55301 1 55332
+  R G 0 55302 1
+S
+#55333
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55334
+D1
+~
+~
+0 -1 55337
+D3
+~
+~
+0 -1 55329
+S
+#55334
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55335
+D1
+~
+~
+0 -1 55338
+D2
+~
+~
+0 -1 55333
+D3
+~
+~
+0 -1 55330
+S
+#55335
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55336
+D1
+~
+~
+0 -1 55339
+D2
+~
+~
+0 -1 55334
+D3
+~
+~
+0 -1 55331
+S
+#55336
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D1
+~
+~
+0 -1 55340
+D2
+~
+~
+0 -1 55335
+D3
+~
+~
+0 -1 55332
+S
+#55337
+Within a Small Study~
+Not Assigned~
+The room has interlocking bricks making up the walls.  There are several torches
+that light up the room.  A few couches are against the east wall.  A thick red
+rug is centered on the floor.
+~
+1 8 13
+D0
+~
+~
+0 -1 55338
+D3
+~
+~
+0 -1 55333
+D5
+~
+~
+2048 -1 55317
+R O 0 55301 1 55337
+S
+#55338
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55339
+D2
+~
+~
+0 -1 55337
+D3
+~
+~
+0 -1 55334
+S
+#55339
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D0
+~
+~
+0 -1 55340
+D2
+~
+~
+0 -1 55338
+D3
+~
+~
+0 -1 55335
+S
+#55340
+Floating in a void~
+Not Assigned~
+~
+1 8 13
+D2
+~
+~
+0 -1 55339
+D3
+~
+~
+0 -1 55336
+S
+#55400
+Floating in a void~
+Not Assigned~
+~
+1 1073741832 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

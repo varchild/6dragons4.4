@@ -1,0 +1,357 @@
+#AREA        Paleon Prison~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       8
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 10 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &GThe sound of prisoners screaming profanities, and banging on objects fills your ears.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999975 999999975 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#16500
+Marta paleon guard~
+Guard Marta~
+A paleon guard stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 1000 C
+50 0 0 1d1+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+50 0 41 0 0 0 48 2
+> greet_prog 100~
+if quest(Thomes) == 1
+  mppause 3
+  mpechoat $n &CMarta says, 'Greetings friend...'&D
+  mppause 12
+  mpechoat $n &CMarta says, 'The hour is dire for us, I fear.'&D
+  mppause 20
+  mpechoat $n &CMarta says, 'I hear you are going to try to stop the riot in Alpha Corridor.'&D
+  mppause 10
+  mpechoat $n &CMarta says, 'If I were you, I'd try taking out the scouts for them, and then go after the leader.'&D
+  mppause 15
+  mpechoat $n &CMarta says, 'After you healed some that is.'&D
+  mppause 12
+  mpechoat $n &CMarta says, 'Well, enough small talk, let me get the gate for you.'&D
+  mppause 8
+  mpechoat $n &cMarta jingles his keys with a shakey hand, as he unlocks the gate.&D
+  mpopenpassage 16500 16501 6
+  mppause 2
+  mpforce $n ne
+  mpat $n mpechoat $n &cMarta escorts you through the gate.&D
+  mppause 1
+  mpat $n mpforce $n look
+  mpclosepassage 16500 6
+else
+  if quest(Thomes) == 4
+    mppause 2
+    mpechoat $n &CMarta says, 'Word is spreading about your skills $n.'&D
+    mppause 8
+    mpechoat $n &CMarta says, 'Be careful in Bravo Corridor though.'&D
+    mpechoat $n &cMarta jingles his keys with a shakey hand, as he unlocks the gate.&D
+    mpopenpassage 16500 16505 7
+    mppause 2
+    mpforce $n nw
+    mpat $n mpechoat $n &cMarta escorts you through the gate.&D
+    mppause 1
+    mpat $n mpforce $n look
+    mpclosepassage 16500 7
+  else
+    mppause 1
+    nod $n
+  endif
+endif
+~
+|
+#16501
+dark elf Vicar~
+Dark Elf Vicar~
+A ragged looking dark elf is staring defiantly at you.
+~
+~
+0
+Clanname none~
+0
+0
+131107 512 -1000 C
+15 0 0 1d1+350 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+8 0 0 0 0 0 48 2050
+> fight_prog 5~
+yell Die Pig!!
+~
+> death_prog 100~
+mpquest $n Thomes 2
+~
+|
+#16600
+orc Jarkal~
+Orc Jarkal~
+A half naked orc with a two handed club stands here.
+~
+~
+0
+Clanname none~
+0
+0
+33 512 -1000 C
+12 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 1
+6 0 41 0 0 0 48 2
+#0
+
+
+#OBJECTS
+#16500
+club~
+a two handed club~
+A two handed club has been left here.~
+~
+5 0 8193
+4 14 24 4 4 0 0
+10 25 2
+2
+1
+0
+0
+0
+0
+S 0 0
+#16600
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#16500
+An Intersection of Corridors~
+~
+The floors are made out of stone slabs. Interlocking bricks make up the 
+walls, and join in a intersection here. There are hooded lanterns mounted 
+to the walls. The corridor entrances are massive arched entryways. There 
+are stains along the floors. A sign is posted on the wall. 
+~
+1 12 0
+D4
+~
+iron gate~
+7 16079 16060
+R M 0 16500 1 16500
+R D 0 16500 4 2
+E
+sign~
+&WNortheast Corridor..........Alpha Corridor
+&WNorthwest Corridor..........Bravo Corridor
+&D
+~
+S
+#16501
+Alpha Corridor~
+~
+The stone slab floor is streaked with blood that has been smeared across
+it.  The walls are made out of interlocking bricks.  There are some hooded
+lanterns attached to the walls.  All kinds of trash, and debris litter the
+floors here.  A strange symbol has been written in blood on the wall.
+~
+1 4 0
+D6
+~
+~
+0 -1 16502
+D9
+~
+gate~
+1 -1 16500
+E
+symbol~
+The symbol of an open eye surrounded by a triangle with a curve at each 
+angle is crudely sprayed onto the wall with blood. The eye seems to follow 
+you wherever you go. 
+~
+S
+#16502
+Along the Corridor~
+~
+The solid stone slab floor is nearly covered with trash, and debris. The 
+walls are made out of interlocking bricks. There are various stains that 
+cover the walls. Hooded lanterns that were mounted to the walls, have been 
+broken. A small trail of blood leads to the northeast. 
+~
+1 8 0
+D6
+~
+~
+0 -1 16503
+D9
+~
+~
+0 -1 16501
+S
+#16503
+Before a Broken Gate~
+~
+The stone slab floor is covered with trash, and various debris. A large 
+iron gate has been broken at the hinges here. Two hooded lanterns that 
+were mounted to the walls, have been broken, one next to the gate remains 
+intact.  A small blood trail leads to the northeast.
+~
+1 8 0
+D6
+~
+~
+0 -1 16504
+D9
+~
+~
+0 -1 16502
+R M 0 16600 1 16503
+  R E 1 16500 1 16
+S
+#16504
+Within a Large Housing Unit~
+~
+The vast cellblock has many small cells inside it, with all the doors wide 
+open. There is trash, corpses, and raw sewage all across the floor here. 
+Two hooded lanterns high above the room, are mounted securely. The walls 
+are made out of interlocking bricks. 
+~
+1 8 0
+D9
+~
+~
+0 -1 16503
+R M 0 16501 1 16504
+S
+#16505
+Bravo Corridor~
+~
+The stone slab floor is streaked with blood that has been smeared across
+it.  The walls are made out of interlocking bricks.  There are some hooded
+lanterns attached to the walls.  All kinds of trash, and debris litter the
+floors here.  A strange symbol has been written in blood on the wall.
+~
+1 4 1
+D7
+~
+~
+0 -1 16506
+D9
+~
+gate~
+3 -1 16500
+S
+#16506
+A Dark Cove~
+~
+The floor is made out of large stone slabs.  There is a nasty blood trail
+that leads down the corridor from here.  The trail ends in a large pool of
+blood here.  There are signs of battle along the floor.
+~
+1 4 1
+D8
+~
+~
+0 -1 16505
+R M 0 16044 1 16506
+S
+#16507
+Floating in a void~
+~
+~
+1 4 1
+S
+#16508
+Floating in a void~
+~
+~
+1 4 1
+S
+#16509
+Floating in a void~
+~
+~
+1 4 1
+S
+#16510
+Floating in a void~
+~
+~
+1 4 1
+S
+#16600
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

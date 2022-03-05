@@ -1,0 +1,142 @@
+Morph             treant
+Vnum              1007
+Description       An ancient tree is rooted to the ground here.~
+Hit               0~
+Keywords          treant~
+Longdesc          An ancient tree is rooted to the ground here.~
+ShortDesc         a treant~
+Used             253
+Level            80
+End
+
+Morph             lady
+Vnum              1011
+Description       A elderly lady with a blue and white shawl draped over her slouched shoulders.~
+Keywords          lady~
+Longdesc          An elegant lady is standing here.~
+ShortDesc         a lady~
+Used             243
+Level            5
+End
+
+Morph             bear
+Vnum              1003
+Description       A massive black bear is raised up on it's hind legs here.~
+Hit               0~
+Keywords          bear~
+Longdesc          A massive black bear is chewing on a bone here.~
+ShortDesc         a black bear~
+Skills            bite claws bash~
+Used             242
+Level            10
+End
+
+Morph             peasant
+Vnum              1010
+Description       A poor trembling peasant clad in a loin cloth and carrying a small bag.~
+Keywords          peasant~
+Longdesc          A peasant is standing here.~
+ShortDesc         a peasant~
+Used             237
+Level            1
+End
+
+Morph             wolf
+Vnum              1001
+Description       The wolf is quite a site to behold, with massive shoulders and a giant head.~
+Hit               0~
+Keywords          wolf~
+Longdesc          A ferrious looking gray wolf is hunting its prey here.~
+ShortDesc         a gray wolf~
+Skills            bite hide claws~
+Used             161
+Level            40
+End
+
+Morph             kodiak
+Vnum              1009
+Keywords          kodiak~
+Longdesc          A kodiak bear is lumbering about here.~
+ShortDesc         a kodiak bear~
+Skills            bite claws bash~
+Affected          32768
+Used             128
+Level            60
+End
+
+Morph             elderly
+Vnum              1005
+Description       An elderly man dressed in a red robe and a straw hat..~
+Keywords          elderly~
+Longdesc          An elderly old man is standing here.~
+ShortDesc         an elderly old man~
+Used             128
+Level            1
+End
+
+Morph             gryphon
+Vnum              1006
+Description       The gryphon is perched here, preening a massive wing.~
+Hit               0~
+Keywords          gryphon~
+Longdesc          A gryphon is standing here.~
+ShortDesc         a gryphon~
+Used             93
+Level            80
+End
+
+Morph             soldier
+Vnum              1008
+Description       A broad shouldered soldier in chain mail armor with a sword and shield.~
+Keywords          soldier~
+Longdesc          A soldier of Alexandria is standing here.~
+ShortDesc         a soldier~
+Used             91
+Level            1
+End
+
+Morph             owl
+Vnum              1004
+Description       A white owl has it's head facing the opposite direction looking at you.~
+Hit               0~
+Keywords          owl~
+Longdesc          A white owl is standing here.~
+ShortDesc         an owl~
+Skills            claws~
+Used             76
+Level            10
+End
+
+Morph             merchant
+Vnum              1004
+Description       A rich merchant dressed in the latest fashion with a fat purse.~
+Keywords          merchant~
+Longdesc          A merchant is selling his wares here.~
+ShortDesc         a merchant~
+Used             64
+Level            1
+End
+
+Morph             bat
+Vnum              1013
+Description       The vampire bat is close to the size of small horse.~
+Keywords          bat~
+Longdesc          A massive vampire bat is here.~
+ShortDesc         a vampire bat~
+Used             16
+Level            20
+End
+
+Morph             fish
+Vnum              1002
+Description       A large blue fish with a red belly and sharp teeth is swimming along here.~
+Hit               0~
+Keywords          fish~
+Longdesc          A bass fish is navigating through the water here.~
+ShortDesc         a bass fish~
+Affected          -2147483648
+Used             15
+Level            20
+End
+
+#END

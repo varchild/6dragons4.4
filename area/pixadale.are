@@ -1,0 +1,1180 @@
+#AREA        Pixadale~
+
+
+
+#VERSION     11
+#AUTHOR      Ivor~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+45 100 45 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &RA bell tolls in the distance.~
+
+#FLAGS
+0 15
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 36450000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#35801
+Pixadale Mayor~
+Pixadale Mayor~
+The Pixadale Mayor sits behind the desk
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 0 0 1 1 0
+0 0 5 0 0 0 48 2
+> all_greet_prog 100~
+if ispc($n)
+  if quest(pixadale) < 1 
+    mppause 3
+    mpechoat $n &CPixadale Mayor says 'Greetings $n, It is nice to see a new face'
+    mppause 3
+    mpechoat $n &CPixadale Mayor says 'We seem to have been over run by a rats'
+    mppause 3
+    mpechoat $n &CPixadale Mayor says 'Would you be willing to help us?'
+    mppause 3
+    mpechoat $n &CIf you are willing to help '&wTYPE SAY YES&C'
+    mptag $n questing
+ endif
+endif
+if quest(pixadale) == 3
+   mppause 3
+   mpechoat $n &CPixadale Mayor says 'Very good my friend you have done very well'
+   mppause 3
+   mpechoat $n &CPixadale Mayor says 'I will give this to you for your trouble'
+   mppause 3
+   mpmset self gold 200
+   give $n 200 gold
+   mppause 3
+   mpquest $n pixadale 4
+endif
+~
+> speech_prog P yes~
+if istagged($n, questing)
+  mppause 3
+  mpechoat $n &CPixiadale Mayor says 'Thank you $n.'
+  mprmtag $n questing
+  mpquest $n pixadale 1
+  mppause 3
+mpechoat $n &CPixadale Mayor says 'You will find these vermin in the basement.'
+endif
+~
+> act_prog P gives you a rat tooth.~
+if quest(pixadale) == 1
+  mpechoat $n &CPixadale Mayor says 'Good, I see you have made progress against those
+rats'
+  mpechoat $n &CPixadale Mayor says 'I have yet another job for you. Please go and  
+kill the large rat'
+  mpquest $n pixadale 2
+endif
+~
+|
+#35802
+Deputy Mayor~
+Deputy Mayor~
+The deputy Pixadale Mayor stands here
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 0 0 1 1 0
+0 0 5 0 0 0 48 2
+#35803
+Pixadale gate guard~
+Pixadale gate guard~
+A Pixadale gate guard stands here watching the gate
+~
+~
+1
+Clanname none~
+0
+0
+131075 67108992 0 C
+56 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 49 3
+#35804
+Pixadale Guard~
+pixadale guard~
+A Pixadale guard roams about the area
+~
+~
+1
+Clanname none~
+0
+0
+1 128 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 49 3
+#35805
+dusty rat~
+A dusty rat~
+A dusty rat scurries about the floor
+~
+~
+1
+Clanname none~
+0
+0
+33 268435456 0 C
+56 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 4 0 0 1 1 0
+0 0 5 0 0 0 35 2
+> death_prog 100~
+if quest(pixadale) == 1
+  mpoload 35807 
+  mpechoat $n &CWith your final blow you knock a tooth from the rat!'
+endif  
+~
+|
+#35806
+large rat~
+a large rat~
+A large rat wanders around the room
+~
+~
+1
+Clanname none~
+0
+0
+33 301990016 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 4 0 0 1 1 0
+0 0 5 0 0 0 35 2
+> death_prog 100~
+if quest(pixadale) == 2
+  mpechoat $n &CReturn to the mayor for your reward!
+   mpquest $n pixadale 3
+endif
+~
+|
+#35807
+Male citizen~
+Male citizen~
+A male Pixadale citizen wanders about
+~
+~
+1
+Clanname none~
+0
+0
+1 67108864 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 49 3
+#35808
+Female citizen~
+Female citizen~
+A female Pixadale citizen looks about
+~
+~
+1
+Clanname none~
+0
+0
+1 33554432 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 49 3
+#35809
+Pixadale Cleric~
+The Pixadale Cleric~
+The Cleric of Pixadale presides over the congregation 
+~
+~
+1
+Clanname none~
+0
+0
+131075 369098880 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 1 1 0
+0 0 0 0 0 0 167772208 4163
+#35810
+mayors cook~
+the mayors cook~
+The cook is fast at work preparing food
+~
+~
+1
+Clanname none~
+0
+0
+1 33554432 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 49 3
+#35850
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#35801
+Pixadale fountain~
+Pixadale fountain~
+A fountain with a beautiful pixie maiden standing in the middle of the water is here~
+~
+25 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#35802
+two handed mace~
+A two-handed mace~
+A two-handed mace lays on the ground here.~
+~
+5 524289 8193
+0 78 101 4 4 55 0
+1 99 9
+2
+13
+0
+0
+0
+0
+S 2 0
+A
+19 10
+#35803
+two-handed sword~
+A two-handed sword~
+A long blade sits here ~
+~
+5 524289 8193
+0 78 101 1 0 55 0
+1 96 9
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+19 9
+#35804
+dried deer hide~
+dried deer hide~
+A piece of well dried hide lies here~
+~
+9 2 524289
+45 45 0 0 0 55 0
+1 131 13
+2
+0
+0
+0
+0
+0
+S 2 0
+A
+13 75
+A
+12 75
+A
+18 5
+A
+19 5
+#35805
+Billowing cloak~
+a billowing cloak~
+A long cloak is here upon the ground~
+~
+9 0 1025 2
+45 45 0 0 0 55 0
+1 116 11
+2
+0
+0
+0
+0
+0
+S 2 0
+A
+1 2
+A
+13 50
+A
+12 50
+#35806
+small cloak~
+a small cloak~
+A small cloak lies here in the dirt~
+~
+9 0 1025 1
+45 45 0 0 0 55 0
+1 113 11
+2
+0
+0
+0
+0
+0
+S 2 0
+A
+19 8
+A
+18 8
+A
+13 25
+A
+12 25
+#35807
+rat tooth~
+a rat tooth~
+A broken tooth from a rat lies here~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#35850
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#35801
+Town square of Pixadale~
+~
+The square of Pixadale has a rather large fountain in the very center of 
+it. Along the side of the fountain sits what looks to be some kind of 
+dais. On the dais rests a few smaller chairs. From the looks of this it 
+would appear it is used often for the leaders of the town to call a town 
+meeting, and be able to speak with their entire town at once. 
+~
+1 1028 1
+D0
+~
+~
+0 -1 35802
+D2
+~
+~
+0 -1 35806
+D3
+~
+~
+0 -1 35825
+D6
+~
+~
+0 -1 35829
+R O 0 35801 1 35801
+S
+#35802
+Byurian Avenue~
+~
+The street just leaving the town square appears to be made of well
+made cobblestones.  The building around the road also appear to be
+very well made.  Nothing around this room looks to have had anything
+but the best materials used in the making.
+~
+1 0 1
+D0
+~
+~
+0 -1 35803
+D2
+~
+~
+0 -1 35801
+R M 0 35804 6 35802
+  R E 0 35805 1 12
+S
+#35803
+Byurian Avenue~
+~
+The cobblestones on this street as with others appear to be very well
+made.  They also appear to have been placed in specific patterns depending
+upon with street you are upon.  The buildings around here also like in
+many other places appear to have been made of the finest materials.
+~
+1 0 1
+D0
+~
+~
+0 -1 35804
+D2
+~
+~
+0 -1 35802
+S
+#35804
+Inside the northern gate of Pixadale~
+~
+The inside of the gates is protected by what looks like a rather small
+portcullis, but what looks to be very affected from a pixie stand point.
+The gates themselves are reinforced steel with wooden overlay to make them
+easier to push open, and closed.
+~
+1 0 1
+D0
+~
+~
+3 -1 35805
+D2
+~
+~
+0 -1 35803
+R M 0 35803 4 35804
+  R E 0 35802 1 16
+  R E 0 35804 1 22
+R M 0 35804 6 35804
+  R E 0 35805 1 12
+R D 0 35804 0 1
+S
+#35805
+Outside the northern gate of Pixadale~
+~
+Just near the city entrance this gate is almost completely surrounded by
+the pixadale forest.  Rather loud animal noises are readily heard from 
+almost every direction except to the south.  The gate itself is made entirely
+of what looks like well worked steel.  Every part of the gate is covered
+in rather large scratches even in the steel.
+~
+1 0 1
+D2
+~
+~
+3 -1 35804
+D11
+~
+~
+0 -1 49182
+R M 0 35803 4 35805
+  R E 0 35803 1 16
+  R E 0 35804 1 22
+R D 0 35805 2 1
+S
+#35806
+Dryian street~
+~
+The street is very well cobbled with only the very best stones used
+upon its streets.  The buildings surrounding this street are also 
+very well constructed as the road is.  
+~
+1 0 1
+D0
+~
+~
+0 -1 35801
+D2
+~
+~
+0 -1 35807
+R M 0 35804 6 35806
+  R E 0 35805 1 12
+S
+#35807
+Dryian street~
+~
+The street leads towards the southern gates of Pixadale.  The cobble
+stone in this street appear to be more worn then anywhere else.  The
+buildings surrounding the street are no less magnificent however. The
+mansion of the town mayor sits to the west.
+~
+1 0 1
+D0
+~
+~
+0 -1 35806
+D2
+~
+~
+0 -1 35808
+D3
+~
+~
+2051 -1 35810
+R M 0 35807 5 35807
+R M 0 35808 3 35807
+R D 0 35807 3 1
+S
+#35808
+Inside the southern gate of Pixadale~
+~
+The inside of the gates is protected by what looks like a rather small
+portcullis, but what looks to be very affected from a pixie stand point.
+The gates themselves are reinforced steel with wooden overlay to make them
+easier to push open, and closed.
+~
+1 0 1
+D0
+~
+~
+0 -1 35807
+D2
+~
+~
+7 -1 35809
+R M 0 35803 4 35808
+  R E 0 35802 1 16
+  R E 0 35804 1 22
+R D 0 35808 2 2
+S
+#35809
+Outside the southern gate of Pixadale~
+~
+Just near the city entrance this gate is almost completely surrounded by
+the pixadale forest.  Rather loud animal noises are readily heard from 
+almost every direction except to the south.  The gate itself is made entirely
+of what looks like well worked steel.  Every part of the gate is covered
+in rather large scratches even in the steel.
+~
+1 0 1
+D0
+~
+~
+7 -1 35808
+R M 0 35803 4 35809
+  R E 0 35803 1 16
+  R E 0 35804 1 22
+R D 0 35809 0 2
+S
+#35810
+Foyer ~
+~
+The foyer of the mansion is rather large.  The room is very well 
+decorated with many couches, and a few chairs for those waiting to
+gain an audience with the mayor.  A few coffee tables stand infront
+of some of the larger and more decorated of the couches.
+~
+1 4 0
+D0
+~
+~
+0 -1 35813
+D1
+~
+~
+3 -1 35807
+D3
+~
+~
+0 -1 35811
+R D 0 35810 1 1
+S
+#35811
+Mansion kitchen~
+~
+The kitchen is well designed.  A stove rests to the northern wall 
+and a rather large sink resides against the eastern wall.  In the
+middle of the room a rather large looking island used for preparing
+dishes sits.  To the south of the room is the pantry
+~
+1 0 0
+D1
+~
+~
+0 -1 35810
+D2
+~
+pantry~
+3 -1 35812
+R M 0 35810 1 35811
+R D 0 35811 2 1
+S
+#35812
+Pantry~
+~
+The pantry is very well filled. There are dozens of shelves all over the 
+walls. Each shelf is very will stocked with flours, sugars, and many other 
+types of spices, and ingredients used in baking. As well as other 
+ingredients used in frying, and other types of cooking. 
+~
+1 0 0
+D0
+~
+pantry~
+3 -1 35811
+R D 0 35812 0 1
+S
+#35813
+Hallway~
+~
+Upon the walls on this hallway are many different but well made 
+paintings.  One can surmise that this pictures are of the former
+mayors of Pixadale.  The paintings do cover the entire hallway
+on both sides of the room.
+~
+1 0 0
+D0
+~
+~
+0 -1 35814
+D2
+~
+~
+0 -1 35810
+S
+#35814
+Stair well~
+~
+Paintings cover all four walls.  One lantern is seen upon each of
+the four walls.  A rather nicely crafted rug covers the stair case 
+both going up the stairs, and going down the stairs.
+~
+1 0 0
+D2
+~
+~
+0 -1 35813
+D4
+~
+~
+0 -1 35815
+D5
+~
+~
+0 -1 35820
+S
+#35815
+Upstairs hallway~
+~
+The room has a small table off to the right side of the stairs. The 
+rug from the stairs leads onward into the next room.  Another small
+table sits against the wall just beside the door to the south.
+~
+1 0 0
+D2
+~
+~
+0 -1 35816
+D5
+~
+~
+0 -1 35814
+S
+#35816
+Well lit hallway~
+~
+This hall way is very well lit.  On all four walls just above the doors
+that lead into rooms, and back towards the hallway beautifully crafted
+lanterns are set in the wall just above the doors.
+~
+1 0 0
+D0
+~
+~
+0 -1 35815
+D1
+~
+~
+3 -1 35818
+D2
+~
+~
+3 -1 35817
+D3
+~
+~
+3 -1 35819
+R D 0 35816 1 1
+R D 0 35816 2 1
+R D 0 35816 3 1
+S
+#35817
+Mayors' office~
+~
+This office has a very well crafted desk in the center of the room.  The
+desk has very little paper work on the desk.  What little paper work is on
+the desk is in a very neat stack.  
+~
+1 0 0
+D0
+~
+~
+3 -1 35816
+R M 0 35801 1 35817
+R D 0 35817 0 1
+S
+#35818
+Deputy Mayors' office~
+~
+This room looks to be in a huge mess.  The desk is covered with alot
+of paper work that seems to be undealt with.  The floor of the room is
+also covered with many crumpled up pieces of paper.
+~
+1 0 0
+D3
+~
+~
+3 -1 35816
+R M 0 35802 1 35818
+R D 0 35818 3 1
+S
+#35819
+Mansion study~
+~
+The walls of this room are covered with shelves.  Each of the shelves 
+is littered with many books.  All of the books look to be in perfect
+condition as they have been well taken care of.  There are lanterns
+set in just above the book shelves.
+~
+1 0 0
+D1
+~
+~
+3 -1 35816
+R D 0 35819 1 1
+S
+#35820
+Bottom of the stairwell~
+~
+The bottom of the stair well is dimly lit.  The lantern in this room
+is barely emitting any light at all.  The floor appears to be older
+wood.  From the look of the dust on the floor there hasn't been 
+anything in this room for some time.
+~
+1 4 0
+D2
+~
+~
+0 -1 35821
+D4
+~
+~
+0 -1 35814
+D5
+~
+~
+8391713 -1 35829
+R D 0 35820 5 0
+S
+#35821
+Tiny claw marks~
+~
+The floor boards in this room appear to be in terrible condition.  Trash
+litters the entire floor, and in one corner of the room appears to be
+piled up in a large mound.  Tiny claw marks can be seen in a few places.
+~
+1 1 0
+D0
+~
+~
+0 -1 35820
+D1
+~
+~
+0 -1 35822
+R M 0 35805 4 35821
+S
+#35822
+Bloody paw prints ~
+~
+The walls of this room are littered with rather large shelves.  Each 
+shelf contains many different looking objects.  An old pan can be seen
+on one shelft.  Some old tattered books are seen on another.
+~
+1 1 0
+D2
+~
+~
+0 -1 35823
+D3
+~
+~
+0 -1 35821
+R M 0 35805 4 35822
+S
+#35823
+Trashy room~
+~
+Mounds of trash cover the entire room.  Many claw marks also cover
+parts of the floor that trash does not.  Larger claw marks are
+seen moving towards the southern end of this room.
+~
+1 1 0
+D0
+~
+~
+0 -1 35822
+D2
+~
+~
+2048 -1 35824
+R M 0 35805 4 35823
+S
+#35824
+Rats nest~
+~
+The entire floor of this room is covered with many sheets that have been 
+torn to shreds.  Claw marks can be seen on the outskirts of the room that
+lead into the piles of sheets themselves.  Squeaking can be vaguely heard.
+~
+1 1 0
+D0
+~
+~
+2048 -1 35823
+R M 0 35806 1 35824
+R M 0 35805 4 35824
+S
+#35825
+Bruilian Street~
+~
+The dirt road follows along beside some of the buildings in this town.
+The buildings themselves seem to be mostly closed, or have no exit at
+all.  The dirt upon this road also seems to not have been walked upon
+very much recently.
+~
+1 1 1
+D1
+~
+~
+0 -1 35801
+D3
+~
+~
+0 -1 35826
+R M 0 35804 6 35825
+S
+#35826
+Bruilian Street~
+~
+The dirt covering this part of the street seems to be almost in perfect 
+condition as if very few travelers seem to traverse this way. The 
+buildings in this area are also boarded up, or no exits. 
+~
+1 1 1
+D1
+~
+~
+0 -1 35825
+R M 0 35804 6 35826
+S
+#35829
+Pathway towards the church~
+~
+The path is created of many different colored stones.  Each stone that
+has been used in this path appears to be different from all others.  not
+just in color, but in shape as well as the coloration. 
+~
+1 0 1
+D1
+~
+~
+0 -1 35830
+D9
+~
+~
+0 -1 35801
+R M 0 35808 3 35829
+S
+#35830
+Stoned pathway~
+~
+The stones in this room appear to be of finer creation the ones before it.
+The colors of these stones also seem to be of a brighter color then the stones
+in the previous rooms.  The pathway leads towards a church set slightly off in 
+the distance.
+~
+1 0 1
+D1
+~
+~
+0 -1 35831
+D3
+~
+~
+0 -1 35829
+D6
+~
+~
+2048 -1 35829
+R M 0 35804 6 35830
+  R E 0 35806 1 12
+S
+#35831
+Stony pathway~
+~
+The stones here are of the finest materials in the realms.  The stones 
+are set with special designs. Maybe even runes for magical protection.
+~
+1 0 1
+D3
+~
+~
+0 -1 35830
+D8
+~
+~
+0 -1 35832
+R M 0 35807 5 35831
+S
+#35832
+Entrance to the Pixadale Church~
+~
+The beautifully crafted stones that come in from the northwestern 
+direction slowly give way to something more of concrete. The doors of the 
+church are crafted from some kind of wood that is not easily determined. 
+There are beautiful carvings on the door. 
+~
+1 0 1
+D2
+~
+south door~
+3 -1 35833
+D7
+~
+~
+0 -1 35831
+R M 0 35804 6 35832
+  R E 0 35806 1 12
+R D 0 35832 2 1
+E
+door~
+The beautiful and well crafted glyphs upon this door show what appears to
+be some kind of fish race of humanoids attacking another race of humanoids that
+can be understood to be pixies.  In the glyphs there seem to be many battles 
+between the two races.  In the end it would appear the pixies defeated the other
+race and chased them off into some mountains with the help of a pixie that is carved
+larger then all others upon the door.  
+~
+> entry_prog 100~
+mppause 6
+mpechoat $n &cThe carvings on the door seem to tell a story.
+~
+|
+S
+#35833
+foyer of the church~
+~
+The foyer of this church has a few chairs set around the room.  There
+is also a rather large couch sitting in the very middle of the room.  
+There seems to be a small table off to the side of each chair that is set
+against the walls.  Each wall has a couple of chairs place against it to
+give some comfort to those waiting for the sermon to begin. 
+~
+1 0 0
+D0
+~
+~
+3 -1 35832
+D2
+~
+~
+3 -1 35834
+R D 0 35833 0 1
+R D 0 35833 2 1
+S
+#35834
+Pews within the church~
+~
+The entire space in this area is covered completely with as many
+pews as there can possibly be in one area.  Each of these pews seem
+to be crafted from a very fine oak.  A rug covers the entire room.
+~
+1 0 0
+D0
+~
+~
+3 -1 35833
+D1
+~
+~
+0 -1 35836
+D2
+~
+~
+0 -1 35837
+D3
+~
+~
+0 -1 35835
+R M 0 35807 5 35834
+R M 0 35808 3 35834
+R D 0 35834 0 1
+S
+#35835
+At the Rear of the Church~
+~
+The entire space in this area is covered completely with as many
+pews as there can possibly be in one area.  Each of these pews seem
+to be crafted from a very fine oak.  A rug covers the entire room.
+~
+1 0 0
+D1
+~
+~
+0 -1 35834
+R M 0 35808 5 35835
+R M 0 35808 5 35835
+S
+#35836
+Along the Church Aisle~
+~
+The entire space in this area is covered completely with as many
+pews as there can possibly be in one area.  Each of these pews seem
+to be crafted from a very fine oak.  A rug covers the entire room.
+~
+1 0 0
+D3
+~
+~
+0 -1 35834
+R M 0 35807 5 35836
+R M 0 35807 5 35836
+S
+#35837
+Pixadale church dais~
+~
+he dais of the church is made of the finest cherry oak that can be
+found in the surrounding forest.  There are a few rows of chairs sitting
+behind the podium that the sermon is delivered at.  A very well made rug
+covers the entire stage.
+~
+1 0 0
+D0
+~
+~
+0 -1 35834
+R M 0 35809 1 35837
+S
+#35850
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  35801 spec_cast_mage
+M  35802 spec_cast_mage
+M  35809 spec_cast_cleric
+S
+
+
+#$

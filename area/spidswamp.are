@@ -1,0 +1,2335 @@
+#AREA        Spider Swamp~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 50 20 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG Crickets chirping in the distance gives the swamp an eerie feel.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#601
+Selvetarm~
+Selvetarm, Prince of the Aranea~
+Selvetarm, Prince of the Aranea sits here watching over his throne room.
+~
+An aura of immense confidence and fearlessness surrounds him, jet-black 
+skin shimmering slightly as though moonlit, complimenting the silvery hair 
+that cascades down his back. Bloodlust burns in his fierce eyes, like 
+burning coals they glow vaguely red, casting his regal features in an 
+eerie crimson hue. 
+~
+0
+Clanname none~
+0
+0
+35&4 373293696&-2011160576&16423 0 C
+55 0 0 0d0+2300 6d10+200
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 1241777891 67121219
+> greet_prog 100~
+mpechoat $n &CSelvetarm says, 'Who enters my throne?'&D
+peer $n
+mpechoat $n &CSelvetarm says, 'DIE!'&D
+~
+|
+#602
+orb spider~
+A magnificent orb spider~
+A magnificent orb spider spins its web here.
+~
+This large regal looking spider has striking scarlet patterning all over 
+its bulging round body. Delicate, long legs look far too fragile to 
+support it but its movements are quick and elegant. Blackberry clusters of 
+gleaming eyes watch the entrance way without let up, seeing through cloaks 
+of darkness and magic alike. 
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+48 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 1 2
+#603
+scaly leviathan head~
+the scaly leviathan~
+A scaly leviathan's monstrous head protrudes from the water.
+~
+Sharp serrated teeth frame the open massive jaw of this creature. Two tiny 
+black eyes peer out from the scale armour of its gigantic face. Deep below 
+the water, the enormous undulating shadow of its body sends waves rippling 
+across the surface. 
+~
+0
+Clanname none~
+0
+0
+1073741859 128 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#604
+lizard king~
+The Lizard King~
+An enormously tall lizard man lounges on the throne.
+~
+Unusually tall, this reptilian humanoid is covered from head to toe in 
+magnificent flecked green scales. His long sweeping tail flicks restlessly 
+from side to side, and his cruel black eyes seem extraordinarily 
+intelligent. 
+~
+9
+Clanname none~
+0
+0
+35&32 128 0 C
+56 0 0 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 262211 4099
+> fight_prog 5~
+mpechoat $n &cThe Lizard King calls for his guards!
+mpmload 612
+mpforce warrior mpkill $n
+~
+|
+#605
+A hairy spider~
+A hairy spider~
+A hairy spider darts about the swamp
+~
+This vicious, black, hunting spider is most often found in jungles and 
+caverns, though the damp of the swampland is equally acceptable as long as 
+there is food to be found. Incredibly large, effective eyes ensure that 
+even the dark cannot serve as a hiding place from this predator. 
+~
+1
+Clanname none~
+0
+0
+65 640 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#606
+a bolas spider~
+A bolas spider~
+A bolas spider scuttles around here looking for prey
+~
+The air seems vaguely foggy around this creature, a powerful almost 
+hypnotising scent wafting around it. The natural pheremones of this animal 
+are apparantly as deadly as they are intoxicating, judging by the 
+predatory gleam in its calculating eyes. 
+~
+2
+Clanname none~
+0
+0
+1 0 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#607
+a funnel spider~
+A funnel spider~
+A funnel spider spins its web absentmindedly
+~
+This spider keeps as much of its body shrouded in darkness as it can. 
+Enormously large, vulnerable looking eyes peer cautiously about, so keenly 
+able in the dark, this spider is probably all but blind in sunlight. 
+~
+13
+Clanname none~
+0
+0
+1 640 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#608
+mangora spider~
+A mangora spider~
+A mangora spider lurks in the swamp looking for food
+~
+This large delicate-looking spider is covered in beautiful soft velvety 
+fur. Shimmering like a large jewel, the deep reddish purple colouring of 
+its soft hide stands out strikingly. 
+~
+2
+Clanname none~
+0
+0
+1 0 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#609
+wasp spider~
+A wasp spider~
+A wasp spider lurks here, sticky ooze coating its forelegs.
+~
+This smallish spider has a subtly striped hide, and a constant stream of 
+sticky web-like substance that it coats its legs with, particularly useful 
+for capturing and entangling unobservant prey. 
+~
+1
+Clanname none~
+0
+0
+33 512 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#610
+trapdoor spider~
+A trapdoor spider~
+A trapdoor spider crouches, attempting to hide itself.
+~
+This stealthy spider gets its name from its love of hiding places and 
+attacking its prey with a quick ambush. Dark shades of drab colours, its 
+relatively small body is easy to conceal, only the glint of its smooth 
+fangs and dark eyes easily betray its presence. 
+~
+1
+Clanname none~
+0
+0
+33 640 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#611
+tiny lizard hatchling~
+a tiny lizard hatchling~
+A tiny lizard hatchling crawls about.
+~
+This tiny lizard is humanoid but crawling about on four legs as though 
+newly-born. Soft transluscent scales cover its whole body and its small 
+eyes are still squinted shut as though asleep. 
+~
+0
+Clanname none~
+0
+0
+1073741825 640 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#612
+lizard warrior~
+a lizard warrior~
+A menacing lizard warrior stands at post.
+~
+This savage, reptilian humanoid stands tall, proud, and muscular. Dark 
+grey scales armour almost his entire body, making him blend seamlessly 
+into shadow, only his fierce yellow eyes piercingly obvious. 
+~
+9
+Clanname none~
+0
+0
+1 640 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+#613
+hungry old man~
+A sick old man~
+A sick old man lays on the ground moaning in pain
+~
+The man, of a very old age, has a sickly look about himself. He lays 
+moaning in what seems like a pain that no man would want to experience, 
+the rags of what he calls cloths are good for nothing but hiding his most 
+private of areas. 
+~
+1
+Clanname none~
+0
+0
+67108867 4194304 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n &cOld Man groans from hunger.&D
+mppause 2
+mpechoat $n &COld Man says, 'Oh hello there...'&D
+mpechoat $n &cOld Man moans and rolls on the ground.&D
+mppause 2
+mpechoat $n &COld Man says, 'Please &WSAY YES&C that you'll help me, I fear I am not long for this world...'&D
+mpechoat $n &COld Man coughs.
+~
+> speech_prog yes~
+mpechoat $n &COld Man says, 'Oh thank Mnera!'&D
+mppause 4
+mpechoat $n &cOld Man coughs.&D
+mppause 4
+mpechoat $n &COld Man says, 'Somewhere in the swamp there is an old hut, with a rare spider that lives..'&D
+mpechoat $n &cOld Man coughs.&D
+mppause 3
+mpechoat $n &COld Man says, 'Sorry.  His blood can cure me, please bring me some.'&D
+mpquest $n sickoldman 1
+~
+> act_prog p gives you A vial of spider blood.~
+if quest(sickoldman) == 2
+  mpechoat $n &COld Man says, 'Oh thank you, you saved my life!'&D
+  mppause 5
+  mpechoat $n &cOld Man gulps deep and drinks the vial.&D
+  mppurge vial
+  mpmset self gold 1000
+  give 1000 gold $n
+  mpquest $n sickoldman 3
+endif
+~
+|
+#614
+enormous whisper spider~
+An enormous whisper spider~
+An enormous whisper spider stirs from her blanket of webbing.
+~
+This massive spider is almost ten feet in width, long jointed legs 
+clicking slightly as they support the weight of its huge bulbousy black 
+body. The two signature grey stripes of the whisper species mark this 
+creature's underbelly, and two blood red eyes peer effortlessly through 
+the dark. 
+~
+5
+Clanname none~
+0
+0
+35 128 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 262145 3
+> fight_prog 90~
+if quest(sickoldman) == 1
+  mppause 3
+  mpoload 604
+  drop vial
+  mpforce $n get vial
+  mpechoat $n You kneel down and scoop up some of the dead spider's blood into the vial.
+  mpquest $n sickoldman 2
+endif
+~
+|
+#615
+adventurer shade sardial~
+Sardial~
+A shade adventurer wanders around here. 
+~
+His deep black appearance seems almost dreadful, brining darkness with him 
+where ever he walks. He wears thin garbs of rags he calls cloths and has 
+the appearance of being pretty old. 
+~
+13
+Clanname none~
+0
+0
+67108931 0 1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+8 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if quest(sandblade) == 4
+  mpechoat $n &CSardial says, 'Hmm, hello there, got a message about you.'&D
+  mpechoat $n &cSardial looks you up and down.&D
+  mppause 5
+  mpechoat $n &cSardial hmms.
+  mpechoat $n &CSardial says, 'I suppose you can handle it.  Well, there is a drow giving me some problems here, Selvetarm I think his name is, something like that anyways.'&D
+  mpechoat $n &cSardial chuckles.&D
+  mpechoat $n &CSardial says, 'Find his shield and give it to me, and the fire amulet is all yours, and the location of the last one.  Good luck!'&D
+  mpechoat $n &cSardial chuckles.&D
+  mpquest $n sandblade 5
+endif
+~
+> act_prog p gives you A blood-red shield.~
+if quest(sandblade) == 5
+  mpechoat $n &cSardial nods.&D
+  mppause 3
+  mpechoat $n &CSardial says, 'Good good, well here ya go!'&D
+  mpoload 1653
+  give fire $n
+  mppause 3
+  mpechoat $n &CSardial says, 'Well ok then, the last one then.'&D
+  mppause 3
+  mpechoat $n &cSardial nods to himself as he stows the shield away
+  mppurge shield
+  mppause 3
+  mpechoat $n &CSardial says, 'There is a man who really likes jewlery that lives out by the city of Dakar, most of the time he can be found hanging in the bars.  Good luck, we're all counting on you to beat up that Sand-god, good luck.'&D
+  mpechoat $n &cSardial waves goodbye.&D
+  mpquest $n sandblade 6
+else
+  mpechoat $n &CSardial says, 'Hey...I don't need this...'&D
+endif
+~
+|
+#700
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#601
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#602
+venommace~
+A venommace~
+A venommace lays here abandonded~
+~
+5 0 24577
+0 25 50 4 5 0 0
+1 100 10
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+22 -5
+A
+20 -5
+#603
+blood-red shield~
+A blood-red shield~
+A crimson shield lays here rusting~
+~
+9 0 16897
+40 40 0 0 0 0 0
+1 117 11
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+23 4
+#604
+vial of blood~
+A vial of spider blood~
+A vial of spider blood lays here unattended.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#605
+thin silk sash~
+a thin silk sash~
+A thin silk sash has been left here.~
+~
+9 0 2049 16
+40 40 0 0 0 45 0
+1 118 11
+2
+4
+0
+0
+0
+0
+S 77 0
+A
+13 125
+#606
+leather corded belt~
+a leather corded belt~
+A leather corded belt was left here.~
+~
+9 0 2049 64
+40 40 0 0 0 45 0
+1 101 10
+2
+1
+0
+0
+0
+0
+S 77 0
+A
+18 5
+A
+19 5
+#607
+lizard royalty ring~
+a lizard royalty ring~
+A lizard royalty ring has been left here.~
+~
+9 0 3
+40 40 0 0 0 50 0
+1 105 10
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+19 6
+A
+13 20
+#608
+trident~
+a trident~
+A trident has been left here.~
+~
+5 64 8193
+0 25 50 2 10 50 60
+5 110 11
+2
+14
+0
+0
+0
+0
+S 0 0
+E
+trident merman~
+The large spear has three sharpened ends.  An ancient power seems to
+come from the trident.
+~
+A
+19 5
+A
+18 5
+#609
+cob web bag~
+a cobweb bag~
+A cobweb bag has been left here.~
+~
+15 64 524289
+800 0 -1 12 0 50 0
+4 357 35
+3
+8
+0
+0
+0
+0
+S 77 0
+A
+19 5
+A
+17 -25
+#610
+venom fang~
+a venom fang~
+A venomous fang has been left here.~
+~
+5 64 8193
+0 25 50 2 2 50 0
+1 105 10
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+30 33
+#700
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#601
+Danell's Office.~
+~
+The smell of fine tobacco floats through the air here.  The Walls are lined
+with solid oak and the soft green shag carpet flows around the floor.  A large
+oak desks sits neatly in front of a large window on the north wall, along with a
+smaller one off to the left where his secretary is seated.  Behind the desk is a
+black leather computer chair with a hard plastic cover on carpet so that the
+chair can move with ease.
+~
+1 4 1
+S
+#602
+Withered Grasses~
+~
+&gThe air here smothers as it is so warm, while the humidity condenses in 
+the air and drifts away to join the wandering mist that swirls forlornly 
+about. Tall, withered grasses, whisper amongst themselves as they bend, 
+almost seeming to deliberately make way for passage. 
+~
+1 0 11
+D0
+~
+~
+0 -1 603
+D11
+~
+~
+0 -1 41683
+S
+#603
+Muddy Crossroads~
+~
+&gAn old broken crossroads sign stands wearily here, half rotted with fungus
+and the general decay of time.  It appears as though there were indeed paths
+here long ago, but water has saturated the ground, leaving nothing but
+featureless mud.&w
+~
+1 0 15
+D1
+~
+~
+0 -1 619
+D2
+~
+~
+0 -1 602
+D3
+~
+~
+0 -1 604
+S
+#604
+Shadow of a Great Rock~
+~
+&gA massive rock towers from the ground to the north, overhanging at the 
+top and casting the boggy ground in shadow. The air is cooler here, the 
+stone itself emitting an almost unnatural chill in contrast to the warmth 
+of the surroundings.&w 
+~
+1 0 15
+D1
+~
+~
+0 -1 603
+D2
+~
+~
+0 -1 605
+D3
+~
+~
+0 -1 606
+S
+#605
+Bloodied Soil~
+~
+&gScarlet stains blossom here and there like spreading wounds in the soil, 
+giving the impression that this place has not recovered from some ancient 
+battle. Glimpses of metal can be seen half-buried in the ground, the 
+armour and weapons of some long-decayed army.&w 
+~
+1 0 1
+D0
+~
+~
+0 -1 604
+D3
+~
+~
+0 -1 607
+S
+#606
+Drowned Land~
+~
+&gWater pools slightly deeper here, the mud beneath barely bubbling with the
+heat of some underground current. Large blisters swell from the ground, 
+popping with a hiss and releasing hot, swirling steam into the foggy air. 
+~
+1 0 15
+D0
+~
+~
+0 -1 614
+D1
+~
+~
+0 -1 604
+D2
+~
+~
+0 -1 607
+R M 0 610 7 606
+R M 0 605 7 606
+R M 0 608 6 606
+S
+#607
+Crimson Waters~
+~
+&gOld, rusted weapons and armor, lie half rotted in scattered pools of
+slime. The rust has leached into the water, discoloring it deep red and 
+filling the air with the overwhelming stench of decay and the sickly 
+metallic scent of blood. 
+~
+1 0 15
+D0
+~
+~
+0 -1 606
+D1
+~
+~
+0 -1 605
+D3
+~
+~
+0 -1 608
+S
+#608
+Ditch of the Dead~
+~
+&gForlorn water swirls slowly in this forsaken riverbed, churning as 
+though stirred by some unseen current. Strange things surface with the 
+movement, glimpses of shiny metal and splintered bone are all that mark 
+this place as the grave it has become.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 609
+D1
+~
+~
+0 -1 607
+S
+#609
+Toppled Tree~
+~
+&gThe vast roots of this overturned tree splay in all directions like the
+legs of an attacking spider. Almost as thick as branches, they are hard 
+and brittle, as though this tree died years ago. Dark streaks mar the 
+wood, evidence perhaps of long past lightning storms, or the use of 
+powerful magic in this area. 
+~
+1 0 15
+D0
+~
+~
+0 -1 610
+D2
+~
+~
+0 -1 608
+D5
+~
+~
+0 -1 611
+S
+#610
+Scorched Trunk~
+~
+&gThis massive trunk has been half swallowed by the gurgling ground, only
+the huge reaching branches hold it from complete submersion. Black, 
+unnatural burn marks, weave their way like rotting vines all along the 
+ancient bark. 
+~
+1 0 15
+D2
+~
+~
+0 -1 609
+S
+#611
+Within the Roots~
+~
+&gDark and dank with the smell of decay, the rotting wood all around makes 
+this place even more miserable. The floor slants slightly downward to the 
+north, and each movement makes it dip a little more as if the swamp were 
+threatening to consume it whole.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 612
+D4
+~
+~
+0 -1 609
+S
+#612
+Hollow Trunk~
+~
+&gMud oozes slowly through cracks in the ancient wood, making the ground 
+sticky and treacherously slippery. The roof of the trunk curves sharply 
+around, so low as to give the place a smothering claustrophobic feel. 
+Little worms and maggots wriggle their way through the decomposing bark, 
+making the enclosure seem to crawl revoltingly.
+~
+1 0 13
+D0
+~
+~
+0 -1 613
+D2
+~
+~
+0 -1 611
+S
+#613
+Submerged~
+~
+&gCompletely beneath ground level, drips of mud trickle slowly down the 
+walls from a large hole in the ceiling. It seems as though extra weight in 
+this part of the submerged tree would sink in very quickly, the wood 
+moaning and groaning at any extra burden. 
+~
+1 0 13
+D2
+~
+~
+0 -1 612
+D4
+~
+~
+0 -1 618
+S
+#614
+Rotting Branch~
+~
+&gCompletely beneath ground level, drips of mud trickle slowly down the
+walls from a large hole in the ceiling. It seems as though extra weight in 
+this part of the submerged tree would sink it very quickly, the wood 
+moaning and groaning at any extra burden.&w 
+~
+1 0 1
+D1
+~
+~
+0 -1 615
+D2
+~
+~
+0 -1 606
+S
+#615
+Scattered Rocks~
+~
+&gSmall, jagged peaks, protrude from the marshy ground, providing a solid,
+but treacherous, path for walking. Thin layers of slime glisten on the 
+sharp rocks, along with various other old and unidentifiable stains. 
+~
+1 0 15
+D0
+~
+~
+0 -1 616
+D1
+~
+~
+0 -1 623
+D2
+~
+~
+0 -1 622
+D3
+~
+~
+0 -1 614
+S
+#616
+Stony Path~
+~
+&gAll around, the murky waters simmer and bubble, releasing a terrible
+stench into the air. A small trail of island rocks is the only path 
+through this watery part of the swamp. 
+~
+1 0 15
+D2
+~
+~
+0 -1 615
+D3
+~
+~
+0 -1 617
+S
+#617
+Puddle of Algae~
+~
+&gVarious slimes of green, brown and red slide across the surface of this 
+muddy water. Plant life of various kinds tangle and intertwine into each 
+other beneath the water, making it very easy to become caught.&w 
+~
+1 0 15
+D1
+~
+~
+0 -1 616
+D3
+~
+~
+0 -1 618
+R M 0 609 5 617
+  R G 0 610 1
+R M 0 606 6 617
+S
+#618
+Buried Tree~
+~
+&gA flat area of bark protrudes slightly from the sopping ground here. A
+gaping hole leads into the darkness beneath, as though some hollow tree 
+has become buried just below the surface. The sound of thick mud dripping 
+within a concealed space is heard below. 
+~
+1 0 15
+D0
+~
+~
+0 -1 669
+D1
+~
+~
+0 -1 617
+D3
+~
+~
+0 -1 624
+D5
+~
+~
+0 -1 613
+R M 0 605 6 618
+R M 0 606 6 618
+R M 0 607 4 618
+S
+#619
+Squelching Ground~
+~
+&gSlick with moisture, the ground is unnaturally swollen and soft. The 
+slightest weight leaves deep imprints that quickly well back up with 
+sloshing mud and the few sickly bits of plant life that grow here.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 620
+D3
+~
+~
+0 -1 603
+S
+#620
+Flooded Waterway~
+~
+&gThis deep ditch looks as though it may once have been a rushing river,
+though now it is just a watery bog. Its high sloping sides sodden with 
+slime from rotting vegetation and the wild overgrowth of algae. Swamp 
+Vines desperately creep up the sides of the bank. 
+~
+1 4 15
+D0
+~
+~
+0 -1 621
+D2
+~
+~
+0 -1 619
+S
+#621
+Dark Waters~
+~
+&gThe water here is so dark that nothing can be seen beneath the single 
+layer of scum that floats everywhere. Insects dart quickly here and there, 
+apparently fleeing from the more ominous shadows that slide just beneath
+the surface.&w 
+~
+1 0 15
+D2
+~
+~
+0 -1 620
+R M 0 603 1 621
+S
+#622
+Peak of the Rock~
+~
+&gAll around, the misty smog of the swampland rises, blocking what may have 
+been a spectacular view. Waves of heat cause the air to shimmer and swim, 
+making everything seem eerily unreal. 
+~
+1 0 15
+D0
+~
+~
+0 -1 615
+S
+#623
+Slippery Slope~
+~
+&gSlick with mud, the ground is incredibly hard to walk on without 
+slipping. Sloping steeply down from the south, thin rivulets of water 
+trickle their way lazily down, accumulating in a watery pool at the 
+base.&w 
+~
+1 0 1
+D3
+~
+~
+0 -1 615
+S
+#624
+A Broken Bridge~
+~
+&gCrumbled brick and stone stick up from the surrounding quagmire, creating
+an almost natural mosaic walkway through the watery slime. No river runs 
+through here, though the presence of this ancient bridge indicates that 
+there once did. 
+~
+1 0 15
+D1
+~
+~
+0 -1 618
+D3
+~
+~
+0 -1 625
+R M 0 608 4 624
+R M 0 609 5 624
+  R G 0 610 1
+R M 0 610 5 624
+S
+#625
+Sunken Road~
+~
+&gBeneath the shallow, murky water, a layer of hard stone winds smoothly
+along the road. Not a naturally formed path, an indication that long ago 
+these grounds saw dry land, though now the smooth road is pitted with 
+fungus and shelled creatures. 
+~
+1 0 15
+D0
+~
+~
+0 -1 626
+D1
+~
+~
+0 -1 624
+S
+#626
+Rising Water~
+~
+&gThe ground slopes lower here, deeper water gurgling around the various 
+rock crevices and jagged stones that break the surface. To the east and 
+the west, large cavernous mouths protrude, though the hollows within 
+appear to be underwater.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 630
+D1
+~
+~
+0 -1 627
+D2
+~
+~
+0 -1 625
+D3
+~
+~
+0 -1 629
+R M 0 612 6 626
+  R G 0 605 1
+S
+#627
+Flooded Cave~
+~
+&gScarce light penetrates the dark waters of this cavern, but what little 
+can be seen is slick with swamp slime and mosses. The odd glittering piece 
+of armor, shining like stars from the inky depths below. 
+~
+1 0 15
+D3
+~
+~
+0 -1 626
+D5
+~
+~
+0 -1 628
+S
+#628
+Air-Filled Cavern~
+~
+&gA large bubble of air is trapped within this cave, creating the illusion 
+that this place is above ground, although swirling mud and grasses can be 
+seen dancing in the water just around the opening.&w 
+~
+1 0 13
+D4
+~
+~
+0 -1 627
+R M 0 613 1 628
+S
+#629
+Underwater Enclosure~
+~
+&gSharp rocks protrude dangerously and invisibly from the darkness. Muddy 
+water swirls about, creating the apparent illusion of dark shadows and 
+shapes swimming cautiously underneath. 
+~
+1 0 15
+D1
+~
+~
+0 -1 626
+S
+#630
+Sunken Road~
+~
+&gSmall pieces of colored glass glint up from beneath the water. Broken 
+bits of slate, with chunks of stone, mix with the wreckage to create an 
+unstable surface for walking on. The slick over growth of plant life 
+making it even more treacherous. 
+~
+1 0 15
+D0
+~
+~
+0 -1 636
+D2
+~
+~
+0 -1 626
+D3
+~
+~
+0 -1 631
+S
+#631
+A Great Cavern~
+~
+&gWater trickles lazily into this vast cavern, covering the rock floor 
+with an inch or two of sloshing muck. The great stone walls have been 
+excavated roughly, leaving sharp spikes and serrated areas that look 
+almost deliberately made.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 635
+D1
+~
+~
+0 -1 630
+D3
+~
+~
+0 -1 632
+R M 0 612 3 631
+S
+#632
+A Great Cavern~
+~
+&gLight flickers eerily throughout this cave, apparantly emanating from 
+small torches that have been placed in the natural cavernous cracks and 
+crevices. Dark green moss carpets the floor, squishing loudly with 
+saturated water when stepped on.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 633
+D1
+~
+~
+0 -1 631
+R M 0 612 2 632
+S
+#633
+Cavernous Gates~
+~
+&gTwo large bamboo gates stand imposingly to the north, bright glowing 
+light visible within and large flickering shadows creeping through the 
+gaps of them. The rest of the cavern has been rather deliberately smoothed 
+from the look of it, as if to make a somewhat grander impression.&w 
+~
+1 0 13
+D0
+~
+gate~
+3 -1 634
+D1
+~
+~
+0 -1 635
+D2
+~
+~
+0 -1 632
+R M 0 612 1 633
+R D 0 633 0 1
+S
+#634
+A Primitive Throne Room~
+~
+&gA great fire burns in the middle of this room, giving off the horrible 
+stench of some cooking flesh. Bits and pieces of broken armor and swords 
+are hung here and there as decoration for the walls, along with various 
+animal and humanoid skulls. At the far north end, several swords have been 
+tied together and bent to form a crude jeweled throne. To the south, two 
+large bamboo gates stand, guardians to the way out. 
+~
+1 0 13
+D2
+~
+gate~
+1 -1 633
+R M 0 604 1 634
+  R E 0 607 1 1
+  R E 0 608 1 16
+R D 0 634 2 0
+S
+#635
+A Great Cavern~
+~
+&gA large fissure in the side of the wall here lets in a continuous stream 
+of trickling water. Dribbling noisily along the projecting rocks, the 
+sound echoes as if a large stream gushed through this place, the sounds of 
+rushing water amplifying along the stone walls and floor.&w 
+~
+1 0 13
+D2
+~
+~
+0 -1 631
+D3
+~
+~
+0 -1 633
+S
+#636
+Mirey Path~
+~
+&gWater flows slowly down this submerged path, agitating particles of dirt 
+and sand so that everything beneath the surface is cloudy. Only the feel 
+of laid stone and grit indicates the path that lies here. A slight mist 
+hovers over the surface of the muggy water. 
+~
+1 0 15
+D0
+~
+~
+0 -1 638
+D1
+~
+~
+0 -1 637
+D2
+~
+~
+0 -1 630
+R M 0 612 6 636
+S
+#637
+Dripping Cave~
+~
+&gDank and cold, the sound of continuous dripping makes this place seem 
+even more miserable. Thin layers of green slime coat the walls, and a few 
+organic encrustations higher up show that at one time water flooded this 
+cave.&w 
+~
+1 0 1
+D3
+~
+~
+0 -1 636
+S
+#638
+A Cluttered Campsite~
+~
+&gA rudimentary shelter has been constructed here, various stiff reeds 
+roped together, grasses thatched together to make a somewhat waterproof 
+ceiling. Wisps of smoke and glowing embers cling to life as the recently 
+used campfire slowly dies away. Various cooking utensils and simple clay 
+pots lie soiled and strewn about.&w 
+~
+1 0 15
+D2
+~
+~
+0 -1 636
+D3
+~
+~
+0 -1 639
+S
+#639
+A Grassy Hole~
+~
+&gTall grasses wave slowly in the air, drops of moisture trickling down 
+their lengths and echoing slightly as they hit rock surface below. A deep 
+black hole gapes widely in the ground, concealed perfectly until almost 
+falling into it.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 646
+D1
+~
+~
+0 -1 638
+D5
+~
+~
+0 -1 640
+R M 0 612 6 639
+  R G 0 606 1
+S
+#640
+A Rainy chasm~
+~
+&gHardly any natural light penetrates this darkness, just the continuous 
+sound of dripping and trickling water all around. The stoney chill of the 
+surrounding rock seems to pierce through everything, feeling almost 
+supernatural in its strength.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 642
+D4
+~
+~
+0 -1 639
+S
+#641
+Floating in a void~
+~
+~
+1 4 1
+S
+#642
+A Firelit Cavern~
+~
+&gA great fire burns steadily here, smoke billowing around the ceiling and 
+escaping through a small hole. Dancing light casts flickering shadows all 
+about the room, piles of dried bracken and wood nearby to keep the fire 
+fueled.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 644
+D1
+~
+~
+0 -1 643
+D2
+~
+~
+0 -1 640
+D3
+~
+~
+0 -1 645
+S
+#643
+Hatchery~
+~
+&gThin reeds have been tied across the exit to the west, acting as a 
+miniature gate to prevent the young ones from wandering out. Little bits 
+of meat are left rotting about the floor, and bits of broken egg-shell are 
+scattered about, the few intact eggs rocking gently as though about to 
+hatch.&w 
+~
+1 0 13
+D3
+~
+~
+0 -1 642
+R M 0 611 4 643
+R M 0 611 4 643
+R M 0 611 4 643
+R M 0 611 4 643
+S
+#644
+Nesting Grounds~
+~
+&gCozy piles of green moss and dried grass form a thick layer of bedding 
+on the floor here. Gentle heat wafts in from the room to the south, 
+filling the place with shimmering warm air. Several large eggs lie nestled 
+here and there, partially covered with the grasses. 
+~
+1 0 13
+D2
+~
+~
+0 -1 642
+S
+#645
+A Stone Larder~
+~
+&gCool stone shelves support large slabs of raw flesh while smoke wafts 
+lazily in from the east, slowly cooking smaller pieces that hang from 
+hooks in the ceiling. In the corner, large leaves cover what appears to be 
+the half butchered corpse of some unidentifiable animal.&w 
+~
+1 0 13
+D1
+~
+~
+0 -1 642
+S
+#646
+A Smokey Path~
+~
+&gCreeping plants and mosses cover the slimey broken slate that makes up 
+this abandoned path. From a large crack in the ground, dark smoke billows 
+slowly up into the sky, shrouding the place in darkness and creating the 
+claustrophobic feeling of being unable to breathe.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 647
+D1
+~
+~
+0 -1 661
+D2
+~
+~
+0 -1 639
+R M 0 610 5 646
+  R G 0 609 1
+R M 0 609 5 646
+  R G 0 610 1
+R M 0 605 6 646
+S
+#647
+Eerie Wetlands~
+~
+&gStrange mist hovers just above the surface of the high murky waters 
+here, clouding everything so that only ghosts and shadows can be seen 
+moving about in the periphery of vision. The air is hot and stifling, but 
+the cloudy moisture leaves a bone-chilling cold on every surface.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 648
+D1
+~
+~
+0 -1 660
+D2
+~
+~
+0 -1 646
+S
+#648
+Palace Entrance~
+~
+&gA grand obsidian stair slopes gradually down into darkness and the 
+submerged palace of Lost Ajhuutal. Creeping swamp plants and mosses glow 
+slightly where they touch the black stone, almost pulsing as though they 
+were the living veins of the structure itself.&w 
+~
+1 4 15
+D2
+~
+~
+0 -1 647
+D5
+~
+~
+0 -1 649
+R M 0 602 1 648
+S
+#649
+Palace of Lost Ajhuutal~
+~
+&gFine silvery filaments of cobweb wave gently in the subtle musty breeze 
+that stirs here. Beads of moisture condense on the cool black stone of the 
+walls, rivulets of water gathering and trickling like sweat in the 
+suffocating humidity.&w &gDark menacing shadows jump erratically from the 
+corners and flit swiftly along the walls as rows of torches light the room 
+with flickering firelight, cold stone and slate paving the chilly 
+corridor.&w 
+~
+1 0 13
+D1
+~
+~
+0 -1 650
+D3
+~
+~
+0 -1 654
+D4
+~
+~
+0 -1 648
+S
+#650
+Palace of Lost Ajhuutal~
+~
+&gA cool and unnatural breeze wafts through this part of the hall, almost 
+seeming to whisper words as it sighs along the jagged crooks and crevices 
+in the cavernous wall. Wisps of silk glisten as they stir from the wind. 
+~
+1 0 13
+D0
+~
+~
+0 -1 651
+D3
+~
+~
+0 -1 649
+S
+#651
+Palace of Lost Ajhuutal~
+~
+&gDamp and miserable, the black surroundings are nonetheless regal to 
+behold. Tall, black columns, supports the increasingly high ceiling, while 
+every surface sparkles with tiny dark jewels as though starlit. 
+~
+1 0 13
+D1
+~
+~
+0 -1 657
+D2
+~
+~
+0 -1 650
+D3
+~
+~
+0 -1 652
+S
+#652
+Palace of Lost Ajhuutal~
+~
+&gMagnificent tapestries of pure silk line the walls here, simple 
+portrayals of victorious battles and weaponry woven by some magic into the 
+crimson and scarlet strands. The taste for luxury is further evidenced 
+here by the use of many hundred mandora spider furs to cover the 
+substantial floor with lush velvety carpeting.&w 
+~
+1 0 13
+D0
+~
+~
+0 -1 659
+D1
+~
+~
+0 -1 651
+D3
+~
+~
+0 -1 653
+S
+#653
+Palace of Lost Ajhuutal~
+~
+&gThe air is sticky and oppressive here, although almost too cold to be so 
+the naturally dark surroundings glimmer in places as though tiny eyes 
+twinkled in and out of existence. humid. Slight viscous moisture coats the 
+floors and walls alike, making 
+~
+1 0 13
+D1
+~
+~
+0 -1 652
+D2
+~
+~
+0 -1 654
+D3
+~
+~
+0 -1 656
+S
+#654
+Palace of Lost Ajhuutal~
+~
+&gStrange and intricate carvings of combat scenes as well as writings line 
+the cavernous walls. Both runes, and some unfathomable language, darken 
+the place further with the lingering and heady presence of evil magic. 
+~
+1 0 13
+D0
+~
+~
+0 -1 653
+D1
+~
+~
+0 -1 649
+S
+#655
+Floating in a void~
+~
+~
+1 4 1
+S
+#656
+Place of Plunder~
+~
+&gDancing light from several wall-hung torches keeps the whole room aglow 
+as if with sunfire. Gold and silver alike generously line the walls and 
+floor as if some incredible heat simply melted the treasure into the 
+structure all at once. Sparkling jewels and gems of many colours glitter 
+from assorted piles like bundles of freshly picked flowers, left scattered 
+around the many ornamental chests as though for casual decoration.&w 
+~
+1 0 13
+D1
+~
+~
+0 -1 653
+S
+#657
+Regal Armoury~
+~
+&gThe ghostly figures of several wooden manikins stand eerily in this 
+dimly-lit room, display stands for various sets and pieces of armor. Coats 
+of mail glisten beautifully from the shadowy corners, fine mesh and dark 
+adamantine alike, being woven into regal pieces adorned with gems. 
+Elaborate helmets and visors stand encased within crystal columns, and 
+glittering shields shine from the walls like moonlight. 
+~
+1 0 13
+D3
+~
+~
+0 -1 651
+R M 0 615 1 657
+S
+#658
+Floating in a void~
+~
+~
+1 4 1
+S
+#659
+Throne Room to the Champion of Uglar~
+~
+&gAn elaborately jeweled throne stands centrally at the northern end of 
+the room, surrounded by the massive column-like legs of an upturned 
+gargantuan spider crystallized into the floor. Black, thorny spines 
+protrude here and there from the jagged walls, twitching now and again as 
+though some magic has rendered the structure alive. Even the beautiful 
+maroon carpet has been utterly spoiled, ugly patches of old and drying 
+blood, left as though proudly displayed, tainting the air with a sickly 
+metallic scent. 
+~
+1 0 13
+D2
+~
+~
+0 -1 652
+R M 0 601 2 659
+  R E 0 602 1 16
+  R E 0 603 1 11
+S
+#660
+Eerie Wetlands~
+~
+&gA deadly silence seems to settle here, even the sounds of cricket 
+chirpings die away as the bluish haze around this place swirls ever 
+thicker. The water slides easily, thick algae blocking any view as to what 
+lies beneath.&w 
+~
+1 0 15
+D2
+~
+~
+0 -1 661
+D3
+~
+~
+0 -1 647
+D5
+~
+~
+0 -1 662
+S
+#661
+Wetlands~
+~
+&gTall reeds poke slightly above the surface of this murmuring pool, soft 
+mud giving easily beneath and sending clouds of darkness up into the 
+water. Broken stalks litter the bottom, and deep footprints can be seen 
+imprinted in the watery ground, indicating that this way is well 
+travelled.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 660
+D1
+~
+~
+0 -1 663
+D3
+~
+~
+0 -1 646
+R M 0 606 6 661
+S
+#662
+Total Darkness~
+~
+&gThe water is much colder at this depth, every movement sending mud and 
+plant life swirling about. The blackness seems all-encompassing, nothing 
+visible in any direction, just the slimey touch of unseen creatures 
+brushing past.&w 
+~
+1 1 8
+D4
+~
+~
+0 -1 660
+S
+#663
+A Pool of Mud~
+~
+&gThe grey surface of slate paving stones can barely be seen beneath the
+surface of these dark waters.  Small fish dart nervously about, hiding instantly
+at the sight of any shadow, and bulrushes sway gently, spreading ripples
+throughout the pool.&w
+~
+1 0 15
+D1
+~
+~
+0 -1 664
+D3
+~
+~
+0 -1 661
+S
+#664
+Drizzling Path~
+~
+&gRivulets of muddy water trickle lazily across the broken pieces of stone 
+that make up this old path. Creeping algae and swamp slime give it a 
+carpeted look, tinting both the stone and the water slightly green. 
+~
+1 0 15
+D1
+~
+~
+0 -1 670
+D2
+~
+~
+0 -1 665
+D3
+~
+~
+0 -1 663
+R M 0 605 6 664
+R M 0 606 6 664
+R M 0 607 4 664
+R M 0 608 4 664
+R M 0 609 5 664
+  R G 0 610 1
+S
+#665
+Circle of Trees~
+~
+&gPale green saplings sway gently in the breeze, struggling for life 
+though they seem to be well-tended. Leaning in on each other, their green 
+waving branches seem to rustle uncomfortably, whispering quietly with each 
+other.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 664
+D1
+~
+~
+0 -1 676
+D2
+~
+~
+0 -1 666
+S
+#666
+Circle of Trees~
+~
+&gA patch of red flashes in and out of vision through the thick dark 
+cluster of trunks. The beautiful crimson leaves of a black gum tree seem 
+almost to light the area as a burning fire illuminates night.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 665
+D2
+~
+~
+0 -1 667
+S
+#667
+Circle of Trees~
+~
+&gTall dark trunks emerge from the sloshing mud, fragile and crooked with 
+age, slimy swamp algae covering them with slick green ooze. Spindly 
+desperate branches grasp blindly at the air like the skeletal fingers of 
+some long buried giant.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 666
+D1
+~
+~
+0 -1 668
+S
+#668
+Opening in a Circle of Trees~
+~
+&gAll around, the ancient and brittle bark of dying trees is all that can 
+be seen. The odd green shoot of a struggling youngster coloring the 
+gloominess, and the scent of new plant life freshening the air, even as 
+fungi consume the rotting elders. 
+~
+1 0 15
+D1
+~
+~
+0 -1 679
+D2
+~
+~
+0 -1 669
+D3
+~
+~
+0 -1 667
+R M 0 605 6 668
+R M 0 606 6 668
+R M 0 607 4 668
+R M 0 608 4 668
+R M 0 609 5 668
+R M 0 610 5 668
+  R G 0 609 1
+S
+#669
+Straggling Trees~
+~
+&gWeak bending trunks support the anemic looking branches and leaves of 
+these stunted willows. Swaying miserably in the slight breeze, their bark 
+seems to creak and groan, swamp moss spreading slowly as if to consume 
+them. Thin grasses lean pathetically against the lanky trunks, almost like 
+weary children clinging to their mothers.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 668
+D2
+~
+~
+0 -1 618
+S
+#670
+Bend in an Ancient road~
+~
+&gWater sloshes noisily down this path which slopes downward to the west, 
+coated slightly with the glassy sheen of an inch or two of clear running 
+water. The carefully laid mosaic stones and colored glass can clearly be 
+seen.
+~
+1 0 15
+D0
+~
+~
+0 -1 671
+D1
+~
+~
+0 -1 672
+D2
+~
+~
+0 -1 676
+D3
+~
+~
+0 -1 664
+R M 0 610 5 670
+  R G 0 609 1
+R M 0 605 6 670
+S
+#671
+A Cozy Hut~
+~
+&gSome sort of underground heat seems to warm this little hut, the cracked 
+stone floor feeling slightly warm to the touch. Bundles of hollow reeds 
+have been used to create small tables, upon which dried grasses and leaves 
+are heaped like bedding.&w 
+~
+1 0 15
+D2
+~
+~
+0 -1 670
+S
+#672
+A Place of Meeting~
+~
+&gA small campfire flickers lazily in this paved circular area. Several 
+smooth rocks are placed strategically all around the center as if making 
+up some sort of seating. Beside the fire, a crude wooden platform has been 
+erected.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 673
+D1
+~
+~
+0 -1 674
+D3
+~
+~
+0 -1 670
+S
+#673
+A Wooden Shelter~
+~
+&gSeveral dead branches have been roped together with vines to make this small
+shelter.  Several reeds and grasses have been used to patch up the gaps, and the
+whole structure has been coated with a layer of mud.&w
+~
+1 0 15
+D2
+~
+~
+0 -1 672
+S
+#674
+A Large Hut~
+~
+&gA huge straw mat covers the ground here, decorated with various tribal 
+paints to display images of royalty and wealth. Gold and silver glint here 
+and there like stars in the dark clay walls, and a large cushioned chair 
+sits against the eastern wall.&w 
+~
+1 0 15
+D3
+~
+~
+0 -1 672
+D5
+~
+~
+0 -1 675
+R M 0 606 6 674
+R M 0 607 6 674
+S
+#675
+A Trophy Room~
+~
+&gFlickering fire illuminates the room from a high wooden shelf. Dancing 
+shadows creep along the lower shelves which hold a variety of humanoid and 
+animal skulls. Small piles of teeth and claws sprinkle the perimeter of 
+the floor, and it can only be assumed that these trophies are all that 
+remain of past enemies.&w 
+~
+1 4 15
+D4
+~
+~
+0 -1 674
+R M 0 614 1 675
+S
+#676
+A drowned Path~
+~
+&gClear water runs here as several surrounding streams trickle into this 
+large pool. Dirt and grit settle slowly at the bottom, covering partially 
+what appear to be the carefully set slate tiles of an ancient road running 
+north and south.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 670
+D1
+~
+~
+0 -1 677
+D2
+~
+~
+0 -1 680
+D3
+~
+~
+0 -1 665
+S
+#677
+Circle of Trees~
+~
+&gThe mud here is dangerously sticky, only the buried weaving roots of the 
+surrounding trees acting as footholds. It seems as though the brittle wood 
+moans gently, complaining at the cruelty of the wind, restless breezes 
+scurrying here and there as though being chased.&w 
+~
+1 0 15
+D2
+~
+~
+0 -1 678
+D3
+~
+~
+0 -1 676
+S
+#678
+Circle of Trees~
+~
+&gThe great shell of a long dead cypress tree stands here, mighty branches 
+creating a skeletal leafless canopy. The persistent creep of swamp vines 
+and moss nearly coat the entire trunk, as though the bog were trying to 
+reclaim it. 
+~
+1 0 15
+D0
+~
+~
+0 -1 677
+D2
+~
+~
+0 -1 679
+S
+#679
+Circle of Trees~
+~
+&gThe fluttering of wings disturbs the still air every now and again, 
+while the mournful screeching of crows can be heard from the swaying 
+above. Most of the trees here are dead, only one or two trailing green 
+branches with leaves into the watery surroundings. 
+~
+1 0 15
+D0
+~
+~
+0 -1 678
+D3
+~
+~
+0 -1 668
+S
+#680
+Place of Worship~
+~
+&gA small trail of crushed bones mingles with the broken twigs and 
+branches carpeting the floor. A massive stone altar stands within a small 
+clearing here, enclosed within the trunks of the surrounding trees. A 
+smoking fire lingers here, some burned carcass giving off the smell of 
+cooked flesh. Before the altar, a large metal grid is embedded into the 
+ground.&w 
+~
+1 0 15
+D0
+~
+~
+0 -1 676
+D5
+~
+~
+3 -1 681
+S
+#681
+A Dank Prison~
+~
+&gThe walls drip mournfully with muddy water that trickles slowly from the 
+ceiling grid. A large sacrificial slab stands in the center of the room, 
+covered with gruesome stains. Various metal instruments hang from the 
+walls, along with the well-used chains of past unfortunate prisoners 
+here.&w 
+~
+1 0 15
+D4
+~
+~
+33 -1 680
+S
+#682
+Floating in a void~
+~
+~
+1 4 1
+S
+#683
+Floating in a void~
+~
+~
+1 4 1
+S
+#684
+Floating in a void~
+~
+~
+1 4 1
+S
+#685
+Floating in a void~
+~
+~
+1 4 1
+S
+#686
+Floating in a void~
+~
+~
+1 4 1
+S
+#687
+Floating in a void~
+~
+~
+1 4 1
+S
+#688
+Floating in a void~
+~
+~
+1 4 1
+S
+#689
+Floating in a void~
+~
+~
+1 4 1
+S
+#690
+Floating in a void~
+~
+~
+1 4 1
+S
+#691
+Floating in a void~
+~
+~
+1 4 1
+S
+#692
+Floating in a void~
+~
+~
+1 4 1
+S
+#693
+Floating in a void~
+~
+~
+1 4 1
+S
+#694
+Floating in a void~
+~
+~
+1 4 1
+S
+#700
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,17 @@
+#VNUM 54018
+#OBJECT
+Owner        Aleccia~
+ShortDescr   Aleccia's Spear of Judgement~
+Vnum         30027
+Level        39
+Timer        42
+Currtype     4
+Color        14
+Size   0
+Values       11 20 35 7 10 0 0
+AffectData   'acid breath' -1 6 18 0
+Affect       -1 -1 2 1 0
+AffectData   'acid breath' -1 2 19 0
+End
+
+#END

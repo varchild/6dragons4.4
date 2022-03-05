@@ -1,0 +1,66 @@
+Name           Treant~
+Filename       Treant~
+Class          30
+Starting       0
+AttrPrime      1
+AttrSecond     0
+AttrDeficient  0
+Races          0
+Nocombo        0
+Reclass        0 0 0
+Skilladept     0
+Thac0          0
+Thac32         0
+Hpmin          65
+Hpmax          80
+ManaMin        10
+ManaMax        30
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        1
+Skill 'create food' 7 95
+Skill 'create spring' 8 95
+Skill 'cure affliction' 65 95
+Skill 'nettle skin' 6 95
+Skill 'solar flight' 45 95
+Skill 'word of recall' 20 95
+Skill 'animal form' 10 95
+Skill 'bark skin' 13 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'dodge' 2 95
+Skill 'doorbash' 8 95
+Skill 'fourth attack' 40 95
+Skill 'infrasion' 3 95
+Skill 'lore' 12 95
+Skill 'rage' 18 95
+Skill 'regenerate' 15 95
+Skill 'scan' 1 95
+Skill 'second attack' 7 95
+Skill 'slice' 1 95
+Skill 'smell' 8 95
+Skill 'swim' 1 95
+Skill 'third attack' 25 95
+Skill 'untangle' 28 95
+Skill 'vines' 28 95
+Skill 'celestial' 1 95
+Skill 'centaurian' 1 95
+Skill 'common' 1 95
+Skill 'demonic' 1 95
+Skill 'draconic' 1 95
+Skill 'dwarven' 1 95
+Skill 'elven' 1 95
+Skill 'gnomish' 1 95
+Skill 'goblic' 1 95
+Skill 'hobbit' 1 95
+Skill 'infernal' 1 95
+Skill 'ogrian' 1 95
+Skill 'orcish' 1 95
+Skill 'pixish' 1 95
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

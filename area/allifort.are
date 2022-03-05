@@ -1,0 +1,1241 @@
+#AREA        Alliance Underground Fortress~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       5
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+10 100 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cVoices can be heard in the distance.~
+
+#FLAGS
+163840
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 101250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#1160
+pixie training partner~
+a pixie training partner~
+A pixie training partner is practicing his swordplay here.
+~
+~
+1
+Clanname none~
+0
+0
+133123&32 128 0 C
+1 0 0 0d0+30000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 1058703 0 0 0 0
+> all_greet_prog 100~
+mppause 6
+mpechoat $n &CA pixie training partner says, 'Come back for more punishment?  I cut your kneecaps off!'
+~
+> speech_prog stop~
+mppeace pixie
+~
+|
+#1161
+Priestess Jasalee healer~
+Priestess Jasalee~
+A young woman, dressed in white robes, stands in the middle of the room.
+~
+~
+1
+Clanname none~
+0
+0
+1073741827 168 1000 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if clan($n) == Alliance
+else
+  if ispc($n)
+    Shout Guards $n is trying to raid our clan!
+  endif
+endif
+if istagged($n, heal)
+  break
+else
+  c 'cure light' $n
+  mptag timer 10 $n heal
+  mppause 20
+  c 'cure light' $n
+endif
+~
+|
+#1162
+Alliance Leader Rodaen~
+Alliance Leader Rodaen~
+&OA grizzled dwarf is standing here. &C[&RLeader of Alliance&C]
+~
+The massive dwarf is dressed in dwarven chain mail armor.  He has large
+wild eyes, and a long beard that is well groomed.  There are several scars 
+along his upper arms.
+~
+9
+Clanname none~
+0
+0
+1073872899&128 4194432 1000 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 41 0 0 0 432 34078723
+> all_greet_prog 100~
+if quest(missions) == 2
+  mppause 5
+  mpechoat $n &CAlliance Leader Rodaen says, 'I see you got some goblin gear now.'
+  mppause 6
+  mpechoat $n &CAlliance Leader Rodaen says, Seek MT. Cierra. A Gold Dragon will give
+  mpechoat $n &Cyou it's orb if you kill a Yakoxe for him.  Very strong magic orb.'
+  mpquest $n missions 3
+endif
+if quest(missions) == 4
+  mppause 5
+  mpechoat $n &CAlliance Leader Rodaen says, 'I see you got the orb.'
+  mppause 6
+  mpechoat $n &CAlliance Leader Rodaen says, 'Dragons give good gear.'
+  mpechoat $n &CIn the sewers below Manoake City there is another Dragon.
+  mpechoat $n &Ckill it!'
+  mpquest $n missions 5
+endif
+if quest(missions) == 6
+  mppause 5
+  mpechoat $n &CAlliance Leader Rodaen says, 'I see you got the gear.'
+  mppause 6
+  mpechoat $n &CAlliance Leader Rodaen says, 'The Red Dragon has good gear, however...'
+  mpechoat $n &COn the road to Jarynth Village a path to the east leads to another Dragon.
+  mpechoat $n &Ckill it!'
+  mpquest $n missions 7
+endif
+if quest(missions) == 8
+  mppause 5
+  mpechoat $n &CAlliance Leader Rodaen says, 'I see you got the gear.'
+  mppause 6
+  mpechoat $n &CAlliance Leader Rodaen says, 'The Blue Dragons gives good gear.'
+  mpechoat $n &CThe Golden Dragon also has goood gear.
+  mpechoat $n &Ckill it!'
+  mpquest $n missions 9
+endif
+if quest(missions) == 10
+  mppause 5
+   mpechoat $n &CAlliance Leader Rodaen says, 'You are indeed worthy of the Alliance' 
+  mpquest $n missions 11
+endif
+if istagged($n, missions) 
+  break
+else
+  mptag timer 5 $n missions
+  mpechoat $n &cAlliance Leader Rodaen snaps his arm up in salute, and says' For the Alliance!'
+  mppause 4
+  mpechoat $n &CAlliance Leader Rodaen says '$n I am honored to have your support!'
+  mpechoat $n &Chint:&cType &WSAY MISSIONS&c to fight for the Alliance cause with quests.  &WSAY OUTCAST&c to be outcast from The Alliance.  &WSAY GEAR&c to receive appropriate Alliance gear for your level.
+endif
+~
+> speech_prog missions~
+if quest(missions) < 1
+  mppause 4
+  mpechoat $n &CAlliance Leader Rodaen says, 'Well first off you need to know this.
+  mpechoat $n &CYou must keep your armor and weapons up to par to be in the Alliance!'
+  mppause 6
+  mpechoat $n &CAlliance Leader Rodaen says, 'Find the goblins in the forest of Merchant Discovery and get some decent gear there.'
+  mpquest $n missions 1
+endif
+~
+> speech_prog outcast~
+mppause 3
+mptutorial $n
+shout You are BANISHED FROM THE ALLIANCE!!!
+mpoutcast $n
+mppause 6
+mpecho &cAlliance Leader Rodaen unsheathes his battle axe, and swings on you with murder in his eyes.&D
+mptutorial $n
+mpslay $n
+~
+> speech_prog gear~
+if clan($n) == alliance
+  mppause 5
+  mpechoat $n &cAlliance Leader Rodaen looks you over carefully.&D
+  mppause 15
+  if level($n) >=40
+    if iscarrying($n) == 1166
+    or iswearing($n) == 1166
+      mppause 2
+      mpechoat $n &CAlliance Leader Rodaen says, 'You already have the cloak.'&D
+    else
+      mpoload 1166 40
+      get cloak
+      give cloak $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CAlliance Leader Rodaen says, 'You are too low level to wear the cloak.'&D
+  endif
+  if level($n) >=80
+    if iscarrying($n) == 1167
+    or iswearing($n) == 1167
+      mppause 2
+      mpechoat $n &CAlliance Leader Rodaen says, 'You already have the backplate.'&D
+    else
+      mpoload 1167 80
+      get back
+      give back $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CAlliance Leader Rodaen says, 'You are too low level to wear the backplate.'&D
+  endif
+  if level($n) >=100
+    if iscarrying($n) == 1168
+    or iswearing($n) == 1168
+      mppause 2
+      mpechoat $n &CAlliance Leader Rodaen says, 'You already have the helmet.'&D
+    else
+      mpoload 1168 100
+      get helmet
+      give helmet $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CAlliance Leader Rodaen says, 'You are too low level to wear the helmet.'&D
+  endif
+  if level($n) >= 20
+    if iscarrying($n) == 1165
+    or iswearing($n) == 1165
+      mppause 2
+      mpechoat $n &CAlliance Leader Rodaen says, 'You Have the gloves already.'&D
+    else
+      mpoload 1165 20
+      get gloves
+      give gloves $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CAlliance Leader Rodaen says, 'You are too low level to wear the gloves.'&D
+  endif
+  if level($n) >= 10
+    if iscarrying($n) == 1163
+    or iswearing($n) == 1163
+      mppause 2
+      mpechoat $n &CAlliance Leader Rodaen says, 'You Have the lantern already.'&D
+    else
+      mpoload 1163 10
+      get lantern
+      give lantern $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CAlliance Leader Rodaen says, 'You are too low level to wear the lantern.'&D
+  endif
+else
+  mpkill $n
+endif
+~
+> speech_prog key~
+if warmaster($n)
+  mpechoat $n &CAlliance Leader Rodaen says, 'Take this.'&D
+  mpoload 1174 1
+  get key
+  give key $n
+endif
+if chieftain($n)
+  mpechoat $n &CAlliance Leader Rodaen says, 'Take this.'&D
+  mpoload 1173 1
+  get key
+  give key $n
+endif
+~
+> act_prog p arrives from the west.~
+if level($n) > 89
+if quest(riders) == 0
+mppause 5
+mpechoat $n &CAlliance Leader Rodaen says, '$n the King is asking for our help.  Will you assist?
+mpechoat $n &cType say &WASSIST&c if you will accept this quest.
+endif
+endif
+~
+> speech_prog assist~
+if quest(riders) < 1
+mpquest $n riders 1
+mppause 4
+tell $n The Desert Riders are raiding our supplies when our forces must travel through the area.
+mppause 3
+tell $n The King wants them eliminated.
+endif
+~
+|
+#1163
+Naus shop keeper gnome~
+Naus the Gnome~
+An elderly gnome is selling his wares here.
+~
+The elderly gnome is wearing a dark green cloak.  He has a long pointy
+nose, and his eyes appear to be too close together.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 392 0 0 0 1073741937 17301763
+> all_greet_prog 100~
+mppause 4
+emote smiles happily
+mppause 5
+say I have some useful things for sale.
+~
+|
+#1164
+Raenis Elf Blacksmith~
+Blacksmith Raenis~
+An elven blacksmith is working over an anvil here.
+~
+The blacksmith is covered from head to toe in a black soot.  She has several
+gold rings on each finger, and a gold medallion around her neck.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 35 8192 0 0 2359568&1 355
+> all_greet_prog 100~
+mppause 4
+emote looks up from her work.
+mppause 5
+say Need something?
+~
+|
+#1165
+blade master Ulsal~
+Blade Master Ulsal~
+A celestial blade master is practicing techniques here.
+~
+The heavily creature appears to be an instructor of some sort.  It has
+a long blue cloak that it wears over a bastard sword.
+~
+14
+Clanname none~
+0
+0
+131075&512 4194432 1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 13 0 0 1 1 0
+0 0 7 1048576 0 0 270533424 17301539
+#1166
+Speaker Tongues Drasa~
+Speaker of Tongues Drasa~
+A speaker of tongues is giving lessons here.
+~
+~
+1
+Clanname none~
+0
+0
+1179651 4194432 1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 131071 1 0
+0 0 0 0 0 0 0 0
+#1167
+Sentry Gregory~
+Sentry Gregory~
+A sentry dressed in a dark cloak stands here.
+~
+~
+13
+Clanname none~
+0
+0
+3 4194432 1000 C
+101 0 -50 40d40+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 6
+0 0 65825&1 0 0 0 433 10243
+> all_greet_prog 100~
+if clan($n) == Alliance
+else
+  if ispc($n)
+    Shout Guards $n is trying to raid our clan!
+    mpclanmob $n
+  endif
+endif
+~
+|
+#1168
+ancient arcane magical defense~
+An ancient arcane magical defense~
+An ancient arcane magical defense.
+~
+~
+14
+Clanname none~
+0
+0
+67241987 4292610 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if clan($n) == Alliance
+  mpechoat $n &cA sizzle sound lets you know you just past the magical defense within the Alliance Fortress.&D
+else
+  mpechoat $n &cA sizzle sound lets you know you just activated the magical defense within the Alliance Fortress.&D
+  mpgenmob $n
+endif
+~
+|
+#1190
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1160
+water fountain~
+a fountain~
+A marble fountain with clear water is flowing here.~
+~
+25 0 0
+500 0 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+#1161
+oak table~
+an oak table~
+A large oak table is centered in the room here.~
+~
+12 0 0
+4 1000 8 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+table ~
+It appears the oak table is sturdy enough to stand on.  There are intricate
+designs carved into the edges around the table.
+~
+#1162
+oak chairs~
+an oak chair~
+A series of high backed oak chairs are under the table.~
+~
+12 0 0
+8 2000 1 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+oak chair chairs high backed~
+It appears to be a sturdy high backed oak chair.  There is a purple cushion
+in the back and seat area.
+~
+#1163
+lantern hope~
+a lantern of hope~
+A lantern of hope has been left here.~
+~
+1 2097216 16385
+10 10 -1 0 0 0 0
+1 0 12
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+lantern hope~
+The lantern appears to be very durable.  It radiates a strange sense of power.
+~
+A
+18 10
+A
+19 10
+#1164
+oak chair~
+an oak chair~
+A pair of oak chairs are against the wall here.~
+~
+12 1073741824 0
+8 2000 1 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+oak chair chairs high backed~
+It appears to be a sturdy high backed oak chair.  There is a purple cushion
+in the back and seat area.
+~
+#1165
+thick leather gloves~
+a pair of thick leather gloves~
+A pair of thick leather leather gloves has been left here.~
+~
+9 2097216 129
+60 60 0 0 0 0 0
+1 0 16
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+thick gloves~
+It appears the gloves are very durable, and has a awe inspiring sense of power
+emitting from it.
+~
+A
+18 10
+A
+19 10
+#1166
+cloak pure~
+a cloak of the pure~
+A bright white cloak has been left on the ground here.~
+~
+9 2097216 1025
+60 60 0 0 0 0 0
+1 0 10
+2
+13
+0
+0
+0
+0
+S 77 0
+E
+cloak pure~
+It appears to be a bright white cloak, but there is something that is just
+very special about it, as if it has always been.
+~
+A
+18 10
+A
+19 10
+#1167
+leather backplate~
+a leather backplate ~
+A leather backplate with straps attached is here.~
+~
+9 2097216 524289
+60 60 0 0 0 0 0
+1 0 26
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+backplate back plate~
+It appears to be piece of armor that can be strapped to your back to
+provide protection.  There is a sense of heavenly power emitting from it.
+~
+A
+18 10
+A
+19 10
+#1168
+iron helmet~
+an exquisitely decorated iron helmet~
+An exquisitely decorated iron helmet has been left here.~
+~
+9 2097216 17
+60 60 0 0 0 100 0
+1 0 27
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+iron helmet~
+It appears to be an exquisitely decorated helmet made of iron.  There is a
+trace of power emitting from the helmet.
+~
+A
+18 10
+A
+19 10
+#1169
+backpack reinforced~
+a reinforced leather backpack~
+A reinforced leather backpack has been left here.~
+~
+15 0 524289
+999 0 0 12 0 10 0
+1 24 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#1170
+red potion~
+a red potion bottle~
+A red potion bottle has been left here.~
+~
+10 0 16385
+10 -1 -1 -1 0 1 0
+1 5 0
+3
+3
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+#1171
+jerky deer~
+a rolled up packet of wild deer jerky~
+A rolled up packet of wild deer jerky is here.~
+%s chomp down$q $p.~
+19 0 16385
+12 0 0 0 0 0 0
+1 50 5
+4
+1
+0
+0
+0
+0
+S 0 0
+#1172
+water flask~
+a leather water flask~
+A leather flask has been left here.~
+~
+17 0 16385
+30 30 0 0 0 0 0
+1 20 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#1173
+chieftain key~
+the chieftain key~
+A large bronze key lays on the ground here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 25 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#1174
+war master key~
+the war master key~
+A large bronze key lays on the ground here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 25 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#1175
+giant chest oak~
+a giant oak chest~
+A giant oak chest with the word ARMOR engraved on it.~
+~
+15 0&64 0
+3000 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#1176
+oak wooden closet~
+an oak closet~
+An oak closet is mounted to the wall and has the words MAGICAL ITEMS engraved on it.~
+~
+15 0&64 0
+3000 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#1177
+weapons rack~
+a weapons rack~
+A weapons rack with the word WEAPONS engraved on it is here.~
+~
+15 0&64 0
+3000 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#1178
+portal stone~
+portal stone~
+A portal stone is embedded in the ground here.~
+~
+72 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+portal stone~
+Type "Activate" to activate the portal stone.
+~
+E
+portal stone~
+(null)~
+#1179
+rune~
+a rune~
+A magical rune has been left here.~
+~
+41 0 16385
+0 0 0 0 0 1 0
+1 11 1
+4
+8
+0
+0
+0
+0
+S 0 0
+#1190
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#1160
+An Underground Entrance~
+~
+The cavern has been reinforced by thick oak timbers. The timbers help 
+support the walls and ceiling. There are half walls made out of 
+interlocking bricks with kill holes for archers. Several hooded lanterns 
+are mounted to the walls to provide lighting. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1161
+D4
+~
+~
+0 -1 31640
+R M 0 1168 1 1160
+> pre_enter_prog 100~
+if clan($n) == HALCYON
+  abort
+  mpechoat $n &CA quiet voice says, 'You may not enter, this is a place of violence.'&D
+endif
+~
+|
+S
+#1161
+The Guard Post~
+~
+The walls and floor are made out of interlocking stone slabs. A small 
+barricade has been set up in the center of the room to force any entering 
+the room to come from the sides. An oak doorway is to the east. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1163
+D1
+~
+~
+0 -1 1162
+D2
+~
+~
+0 -1 1160
+R M 0 1167 1 1161
+S
+#1162
+The Stables~
+~
+There are large oak panels separating a series of stalls within the 
+stables. A giant bin against the far wall has a few stacks of hay. There 
+is a hooded lantern that is suspended from the ceiling to provide 
+lighting.  A few pitchforks are hanging on the wall.
+~
+1 70254600 13
+D3
+~
+~
+0 -1 1161
+S
+#1163
+The Main Platform~
+~
+A large wooden platform is across the floor here. On the platform in the 
+center is a marble fountain with clear water. There are several hooded 
+lanterns along the walls to provide lighting. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1169
+D1
+~
+~
+0 -1 1164
+D2
+~
+~
+0 -1 1161
+D3
+~
+~
+0 -1 1166
+R O 0 1160 1 1163
+S
+#1164
+An Ancient Altar~
+~
+There is a golden altar with a blacked red top in the center of the room. 
+A large offering pan is to the left of the altar. There are a multitude of 
+candles behind the altar. Several beautiful tapestries decorate the walls. 
+~
+1 3146760 13
+D1
+~
+~
+0 -1 1165
+D3
+~
+~
+0 -1 1163
+R M 0 1161 1 1164
+S
+#1165
+Dueling Room~
+~
+The floor is covered in straw here.  There are interlocking bricks that
+make up the walls and ceiling.  Hooded lanterns are suspended from the
+ceiling to provide lighting.  A sign hangs on the far wall.
+~
+1 70254600 13
+D3
+~
+~
+0 -1 1164
+R M 0 1160 2 1165
+E
+sign~
+&c
+The pixie is an excellent training partner, and will stop fighting
+as you get tired.  Just say &WSTOP&c and the pixie will take a break.
+~
+S
+#1166
+Leadership Meeting Chamber~
+~
+The chamber is made out of interlocking stone bricks. There are thick oak 
+timbers supporting the walls and ceiling. Several hooded lanterns are 
+suspended from the ceiling. Beautiful tapestries hang from the walls. 
+~
+1 70254600 13
+D1
+~
+~
+0 -1 1163
+D3
+~
+~
+0 -1 1167
+R M 0 1162 1 1166
+R O 0 1162 1 1166
+R O 0 1161 1 1166
+S
+#1167
+Equipment Shop~
+~
+There are shelves set up along the walls displaying wares. A few hooded 
+lanterns are suspended from the ceiling to provide lighting. A massive 
+blood red rug is centered along the floor. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1168
+D1
+~
+~
+0 -1 1166
+R M 0 1163 1 1167
+  R G 0 1169 1
+  R G 0 1170 1
+  R G 0 1179 1
+  R G 0 1172 1
+  R G 0 1171 1
+S
+#1168
+Blacksmith Repair Shop~
+~
+A massive anvil is in the center of the large cavern. There is a forge 
+behind the anvil in the rear of the cavern. Various tools are hanging from 
+the walls. A few large buckets of water are next to the forge. 
+~
+1 70254600 13
+D2
+~
+~
+0 -1 1167
+R M 0 1164 1 1168
+S
+#1169
+A Massive Cavern~
+~
+There are stalagmites and stalactites all throughout the cavern here. A 
+few clusters of giant sized mushrooms are growing along the ground. There 
+are some torches mounted to the walls to provide lighting. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1173
+D1
+~
+~
+0 -1 1172
+D2
+~
+~
+0 -1 1163
+D3
+~
+~
+0 -1 1170
+D5
+~
+grate~
+3 -1 1171
+R O 0 1178 1 1169
+R D 0 1169 5 1
+S
+#1170
+Combat Arms Center~
+~
+There are several practice dummies filled with straw along the walls. A 
+large pile of straw is in the center of the room. There are some practice 
+weapons in racks along the walls. 
+~
+1 70254600 13
+D1
+~
+~
+0 -1 1169
+R M 0 1165 1 1170
+S
+#1171
+Summoning Room~
+~
+There is a large glowing pentagram along the floor with candles all the 
+way around it. Strange arcane symbols decorate the walls. There are hooded 
+lanterns mounted to the walls for lighting. 
+~
+1 1142947848 13
+D4
+~
+grate~
+3 -1 1169
+R D 0 1171 4 1
+S
+#1172
+Language Arts Center~
+~
+The walls are covered in beautiful tapestries. Large hooded lanterns are 
+suspended from the ceiling. There are stone bricks interlocked along the 
+walls the floor. 
+~
+1 70254600 13
+D3
+~
+~
+0 -1 1169
+R M 0 1166 1 1172
+S
+#1173
+A Large Foyer~
+~
+The massive foyer has a door to the east and west with large plaques that 
+hang over the top of them. There are paintings of various battles that 
+hang from the walls. A few hooded lanterns are suspended from the ceiling. 
+~
+1 70254600 13
+D0
+~
+~
+0 -1 1176
+D1
+~
+thick door~
+1031 1174 1175
+D2
+~
+~
+0 -1 1169
+D3
+~
+thick door~
+1031 1173 1174
+R D 0 1173 1 2
+R D 0 1173 3 2
+E
+plaques ~
+The plaque over the left door reads Alliance Chieftain.  The plaque over
+the right door reads Alliance Warmaster.
+~
+E
+paintings painting~
+The painting shows Tanzean'al riding a nightmare steed at the front of
+the Alliance Army vs. the Alliance.
+~
+S
+#1174
+Clan Chieftain's Chamber~
+~
+There are beautiful tapestries hanging from the walls of the room. A thick 
+golden colored rug is centered on the floor. A hooded lantern is suspended 
+from the ceiling to provide lighting. 
+~
+1 70254600 13
+D1
+~
+thick door~
+7 1173 1173
+R O 0 1164 1 1174
+S
+#1175
+War Master's Chamber~
+~
+There are beautiful tapestries hanging from the walls of the room. A thick 
+green colored rug is centered on the floor. A hooded lantern is suspended 
+from the ceiling to provide lighting. 
+~
+1 70254600 13
+D3
+~
+thick door~
+3 1174 1173
+R O 0 1164 1 1175
+S
+#1176
+A Massive Vault~
+~
+The walls and floor are made out of smooth stone. There are hooded 
+lanterns mounted to the walls to provide lighting. A giant sized navy blue 
+rug is centered on the floor. Several tapestries hang from the walls. 
+~
+1 70778888 13
+D2
+~
+~
+0 -1 1173
+> pre_enter_prog 100~
+if isimmort($n)
+  mppause 3
+else
+  if clan($n) == Throng
+  or clan($n) == Halcyon
+    at $n mpechoat $n &YA wall of force shimmers as you attempt to go north, blocking your path.&D
+    abort
+  else
+    if clan($n) == Alliance
+    else
+      at $n mpechoat $n &YA wall of force shimmers as you attempt to go north, blocking your path.&D
+      abort
+    endif
+  endif
+endif
+~
+|
+S
+#1190
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#0
+
+
+#SHOPS
+ 1163    0  0  0  0  0   120  90         0 23    ; Naus the Gnome
+0
+
+
+#REPAIRS
+ 1164    9  5  0         100   1         0 23    ; Blacksmith Raenis
+0
+
+
+#SPECIALS
+M  1161 spec_cast_adept
+S
+
+
+#$

@@ -1,0 +1,98 @@
+Name           Angel~
+Filename       Angel~
+Class          14
+Starting       1
+AttrPrime      1
+AttrSecond     0
+AttrDeficient  0
+Races          245759
+Nocombo        0
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          75
+Hpmax          90
+ManaMin        10
+ManaMax        30
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'create food' 2 95
+Skill 'create water' 2 80
+Skill 'cure affliction' 21 95
+Skill 'cure blindness' 23 95
+Skill 'farsight' 42 95
+Skill 'identify' 16 75
+Skill 'locate object' 52 95
+Skill 'sanctuary' 98 95
+Skill 'slow' 48 95
+Skill 'transport' 70 95
+Skill 'aid' 1 95
+Skill 'angelfire' 14 95
+Skill 'angelic being' 26 95
+Skill 'behead' 1 95
+Skill 'biofeedback' 55 95
+Skill 'breech' 43 95
+Skill 'climb' 1 80
+Skill 'combo' 9 95
+Skill 'confidence' 1 90
+Skill 'cook' 1 95
+Skill 'dodge' 2 95
+Skill 'dual wield' 17 95
+Skill 'dye' 1 95
+Skill 'ethereal attack' 78 95
+Skill 'ethereal body' 12 95
+Skill 'fade' 5 95
+Skill 'fifth attack' 50 95
+Skill 'find weakness' 49 95
+Skill 'fly home' 8 95
+Skill 'flyby' 40 95
+Skill 'fourth attack' 37 95
+Skill 'hurl' 60 95
+Skill 'judge' 7 95
+Skill 'kick' 10 95
+Skill 'meditate' 8 95
+Skill 'minor restore' 19 95
+Skill 'mount' 1 90
+Skill 'parry' 3 95
+Skill 'punch' 1 90
+Skill 'rake' 30 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'sharpen' 1 95
+Skill 'sixth attack' 92 95
+Skill 'slice' 1 95
+Skill 'swim' 1 95
+Skill 'telepathy' 1 95
+Skill 'tend' 4 95
+Skill 'third attack' 20 95
+Skill 'trance' 35 95
+Skill 'truesight' 9 95
+Skill 'ward of ethereal' 88 95
+Skill 'wings' 1 95
+Skill '1h long blades' 1 95
+Skill '1h short blades' 1 95
+Skill 'pugilism' 1 95
+Skill 'spears' 1 95
+Skill 'whips' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'draconic' 1 95
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

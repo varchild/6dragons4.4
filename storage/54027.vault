@@ -1,0 +1,2489 @@
+#VNUM 54027
+#OBJECT
+Name         crate~
+ShortDescr   a crate, legendary milled from brown hickory lumber~
+Description  Here lies a crate, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        29
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 0
+ExtraDescr   crate~ &CThis crafted item bears the seal of Weiryn, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 43
+End
+
+#OBJECT
+Nest         1
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 55
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 16
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 68
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 10
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 2
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 65
+End
+
+#OBJECT
+Nest         1
+Vnum         2775
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 2 100
+End
+
+#OBJECT
+Nest         1
+Vnum         2775
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2775
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 2 7
+End
+
+#OBJECT
+Nest         1
+Name         mace~
+ShortDescr   a mace, finely forged from silvery-gray steel ore~
+Description  Here lies a mace, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        30
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       20 19 44 4 5 30 500
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 8 18 0
+AffectData   'acid breath' -1 8 19 0
+AffectData   'acid breath' -1 1 13 0
+AffectData   'acid breath' -1 8 14 0
+ExtraDescr   mace~ &CThis crafted item bears the seal of Aleccia, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         18301
+Level        20
+Currtype     4
+Color        13
+Size   0
+Values       11 10 20 4 5 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18301
+Level        28
+Currtype     4
+Color        13
+Size   0
+Values       12 15 30 4 5 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 68
+End
+
+#OBJECT
+Nest         1
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 75
+End
+
+#OBJECT
+Nest         1
+Vnum         18613
+Level        11
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 82
+End
+
+#OBJECT
+Nest         1
+Vnum         18621
+Level        10
+Currtype     4
+Size   3
+Values       1 10 0 5 2 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       22 0 0 1 0 1 0
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   3
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 25
+End
+
+#OBJECT
+Nest         1
+Vnum         25
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       22 0 0 1 0 1 0
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   3
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 53
+End
+
+#OBJECT
+Nest         1
+Vnum         16721
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16719
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16078
+Level        1
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         dagger~
+ShortDescr   a dagger, finely forged from bright silver ore~
+Description  Here lies a dagger, finely forged from bright silver ore.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       2
+Level        33
+Cost         25
+Currtype     2
+Color        5
+Size   0
+Values       13 15 36 2 2 30 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 8 18 0
+AffectData   'acid breath' -1 8 19 0
+AffectData   'acid breath' -1 8 13 0
+AffectData   'acid breath' -1 2 14 0
+ExtraDescr   dagger~ &CThis crafted item bears the seal of Aleccia, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fieldplate-suit~
+ShortDescr   a fieldplate-suit, finely forged from silvery-gray steel ore~
+Description  Here lies a fieldplate-suit, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Level        18
+Currtype     2
+Color        13
+Size   0
+Values       13 17 30 300 777 30 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fieldplate-suit~ &CThis crafted item bears the seal of Aleccia, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plate-leggings~
+ShortDescr   a plate-leggings, finely forged from silvery-gray steel ore~
+Description  Here lies a plate-leggings, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       8
+Level        18
+Cost         10
+Currtype     2
+Color        13
+Size   0
+Values       15 17 30 300 777 30 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   plate-leggings~ &CThis crafted item bears the seal of Aleccia, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         2783
+Level        5
+Cost         0
+Currtype     3
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         957
+Level        40
+Currtype     1
+Color        7
+Size   4
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         955
+Level        15
+Currtype     2
+Color        7
+Size   4
+Values       12 5 15 1 1 15 96
+End
+
+#OBJECT
+Nest         1
+Vnum         31622
+Level        52
+Currtype     2
+Color        8
+Size   0
+Values       12 25 50 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2775
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 68
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 16
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 21 1 1 20 51
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 36 1 1 20 76
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 23 1 1 20 56
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   0
+Values       12 1 21 1 1 20 52
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 30 1 1 20 67
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 74 1 1 20 100
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   0
+Values       12 1 74 1 1 20 100
+End
+
+#OBJECT
+Nest         1
+Vnum         955
+Currtype     2
+Color        7
+Size   4
+Values       10 1 54 1 1 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         955
+Currtype     2
+Color        7
+Size   4
+Values       10 1 57 1 1 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         955
+Currtype     2
+Color        7
+Size   4
+Values       10 1 67 1 1 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 32 1 1 20 100
+End
+
+#OBJECT
+Nest         1
+Vnum         956
+Currtype     2
+Color        7
+Size   4
+Values       12 1 85 1 1 20 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 72 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 36 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 27 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 68 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 21 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   0
+Values       10 1 68 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 70 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 66 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 24 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 79 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   0
+Values       10 1 68 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 80 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 78 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   0
+Values       10 1 68 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 51 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   4
+Values       10 1 18 3 9 15 100
+End
+
+#OBJECT
+Nest         1
+Vnum         954
+Currtype     3
+Color        7
+Size   0
+Values       10 1 69 3 9 15 100
+End
+
+#OBJECT
+Name         chest~
+ShortDescr   a chest, legendary milled from brown hickory lumber~
+Description  Here lies a chest, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        29
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Weiryn, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        8
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 127 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        7
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 127 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        6
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 127 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        7
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        11
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Name         bed~
+ShortDescr   a bed, legendary milled from brown hickory lumber~
+Description  Here lies a bed, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     12
+Weight       8
+Level        29
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       5 5 30 6 6 30 0
+ExtraDescr   bed~ &CThis crafted item bears the seal of Weiryn, the master carpenter.
+~
+End
+
+#OBJECT
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        9
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16071
+Level        1
+Currtype     2
+Color        1
+Size   3
+Values       700 0 0 12 0 1 0
+End
+
+#OBJECT
+Nest         2
+Name         loaf corn~
+ShortDescr   a loaf, legendary cooked from corn~
+Description  Here lies a loaf, legendary cooked from corn.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        44
+Cost         30
+Currtype     1
+Color        8
+Extra       21
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   loaf corn~ &CThis crafted dish bears the seal of Jennock, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         loaf garlic~
+ShortDescr   a loaf, legendary cooked from garlic~
+Description  Here lies a loaf, legendary cooked from garlic.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        44
+Cost         30
+Currtype     1
+Color        8
+Extra       23
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   loaf garlic~ &CThis crafted dish bears the seal of Jennock, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         loaf pickles~
+ShortDescr   a loaf, legendary cooked from pickles~
+Description  Here lies a loaf, legendary cooked from pickles.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        44
+Cost         30
+Currtype     1
+Color        8
+Extra       8
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   loaf pickles~ &CThis crafted dish bears the seal of Jennock, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 65
+End
+
+#OBJECT
+Nest         2
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 2
+End
+
+#OBJECT
+Nest         2
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 59
+End
+
+#OBJECT
+Nest         2
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 0
+End
+
+#OBJECT
+Nest         1
+Vnum         7507
+Level        5
+Currtype     3
+Color        3
+Size   0
+Values       1 1 1 1 48 5 -1
+Spell 4      'cure poison'
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 5
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 52
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        7
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        10
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        7
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        11
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        11
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Name         meat fresh slice ogre~
+ShortDescr   a slice of raw meat from an ogre~
+Description  A slice of raw meat from an ogre lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         meat fresh slice ogre~
+ShortDescr   a slice of raw meat from an ogre~
+Description  A slice of raw meat from an ogre lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18636
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       12 3 10 7 10 8 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 5 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5313
+Level        1
+Currtype     2
+Color        13
+Size   4
+Values       30 3 3 1 127 1 -1
+Spell 4      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         50
+Timer        283
+Currtype     1
+Size   0
+Values       14 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4902
+Level        6
+Currtype     4
+Color        1
+Size   4
+Values       5 5 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16007
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       11 16 11 122 0 1 0
+Spell 3      'identify'
+End
+
+#OBJECT
+Nest         1
+Vnum         40
+Currtype     1
+Color        1
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         28015
+Level        15
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         28027
+Level        15
+Currtype     3
+Color        13
+Size   0
+Values       10 5 15 5 3 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16007
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       11 15 15 122 0 1 0
+Spell 3      'identify'
+End
+
+#OBJECT
+Nest         1
+Vnum         29
+Currtype     1
+Color        1
+Size   0
+Values       1 2 2 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         round-shield~
+ShortDescr   a round-shield, well forged from bright-gray iron ore~
+Description  Here lies a round-shield, well forged from bright-gray iron ore.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       8
+Level        10
+Cost         10
+Currtype     2
+Color        13
+Size   0
+Values       15 15 5 300 777 30 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   round-shield~ &CThis crafted item bears the seal of Aleccia, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         dish~
+ShortDescr   a prepped dish~
+Description  A cooked dish has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         dish~
+ShortDescr   a cooked dish~
+Description  A cooked dish has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   4
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         952
+Level        15
+Currtype     2
+Color        7
+Size   4
+Values       1 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         950
+Level        15
+Currtype     3
+Color        7
+Size   4
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         953
+Level        15
+Currtype     1
+Color        7
+Size   4
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16010
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10804
+Level        25
+Currtype     3
+Color        11
+Size   0
+Values       20 20 0 0 0 25 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1965
+Level        18
+Currtype     4
+Color        5
+Size   0
+Values       0 1963 1966 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16006
+Level        1
+Currtype     3
+Color        14
+Size   0
+Values       10 9 4 217 0 1 0
+Spell 3      'word of recall'
+End
+
+#OBJECT
+Nest         1
+Name         buckler-shield~
+ShortDescr   a buckler-shield, simply forged from reddish-gold bronze ore~
+Description  Here lies a buckler-shield, simply forged from reddish-gold bronze ore.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       2
+Level        1
+Cost         25
+Currtype     4
+Color        1
+Size   0
+Values       1 1 20 100 777 0 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 -5 17 0
+ExtraDescr   buckler-shield~ &CThis crafted item bears the seal of Aleccia, the apprentice blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         2779
+Level        3
+Currtype     4
+Color        9
+Size   0
+Values       10 3 3 2 47 3 -1
+Spell 4      'cure light'
+End
+
+#OBJECT
+Nest         1
+Vnum         16074
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4005
+Level        10
+Currtype     1
+Color        5
+Size   0
+Values       50 3 3 1 71 10 -1
+Spell 4      'easy victim'
+End
+
+#OBJECT
+Nest         1
+Vnum         16029
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 79
+End
+
+#OBJECT
+Nest         1
+Name         dagger~
+ShortDescr   a dagger, finely forged from bright silver ore~
+Description  Here lies a dagger, finely forged from bright silver ore.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       2
+Level        33
+Cost         25
+Currtype     2
+Color        5
+Size   0
+Values       12 15 36 2 2 30 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 8 18 0
+AffectData   'acid breath' -1 8 19 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 4 14 0
+ExtraDescr   dagger~ &CThis crafted item bears the seal of Aleccia, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         18310
+Level        31
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 31 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16028
+Level        1
+Currtype     3
+Color        1
+Size   3
+Values       10 1 4 6 6 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         16030
+Currtype     3
+Color        1
+Size   3
+Values       51 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+ExtraFlags   0&8
+WearFlags    16793601
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 66
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+ExtraFlags   0&8
+WearFlags    8404993
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 66
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+Currtype     4
+Color        1
+Size   3
+Values       10 1 5 6 1 0 66
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+ExtraFlags   0&8
+WearFlags    16793601
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 79
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+ExtraFlags   0&8
+WearFlags    12599297
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 79
+End
+
+#OBJECT
+Nest         2
+Vnum         16029
+ExtraFlags   0&8
+WearFlags    12599297
+Currtype     4
+Color        1
+Size   0
+Values       10 1 5 6 1 0 44
+End
+
+#OBJECT
+Nest         1
+Vnum         609
+Level        50
+Currtype     3
+Color        8
+Size   0
+Values       800 0 -1 12 0 50 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       22 0 0 1 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        11
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        12
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 12
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        11
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 10
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        10
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 55
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18621
+Level        10
+Currtype     4
+Size   3
+Values       1 10 0 5 2 10 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18614
+Level        9
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         2
+Vnum         18609
+Level        17
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 2 1 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18611
+Level        17
+Currtype     4
+Color        4
+Size   0
+Values       10 10 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18624
+Level        1
+Currtype     4
+Color        5
+Size   0
+Values       18623 0 18627 0 0 1 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         5103
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 46 161 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        9
+Currtype     4
+Color        8
+Size   0
+Values       12 3 10 1 2 0 27
+End
+
+#OBJECT
+Nest         2
+Vnum         10818
+Level        30
+Currtype     4
+Size   0
+Values       1 0 0 10 5 30 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        10
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 34
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        8
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        10
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18613
+Level        10
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 1 2 0 59
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         2
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 46 46 127 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         27020
+Level        5
+Currtype     4
+Color        14
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18637
+Level        10
+Currtype     4
+Color        1
+Size   0
+Values       20 0 0 0 0 10 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18612
+Level        17
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         18606
+Level        14
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         10803
+Level        29
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         dish~
+ShortDescr   a prepped dish~
+Description  A cooked dish has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#END

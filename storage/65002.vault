@@ -1,0 +1,45 @@
+#VNUM 65002
+#OBJECT
+Vnum         18610
+Level        16
+Currtype     4
+Color        14
+Size   0
+Values       10 10 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40023
+Level        20
+Currtype     1
+Size   0
+Values       8 10 20 1 1 20 0
+End
+
+#OBJECT
+Vnum         2775
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 2 0
+End
+
+#OBJECT
+Vnum         40021
+Level        15
+Currtype     1
+Size   0
+Values       12 5 15 6 12 15 0
+End
+
+#OBJECT
+Vnum         18609
+Level        17
+Currtype     4
+Color        8
+Size   0
+Values       12 5 15 2 1 0 0
+End
+
+#END

@@ -1,0 +1,1435 @@
+#AREA        Vampire's Den~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 30 0 30
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &ZThe sound of piano player resonates throughout the area.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 7200000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#55300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#55301
+Vampire fledgling~
+a vampire fledgling~
+A vampire fledgling is hunting for prey here.
+~
+The young vampire has a crazed look in his eyes.
+~
+1
+Clanname none~
+0
+0
+65 4194304 1000 C
+10 13 3 5d5+90 1d7+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 4 0 0 1 1 1
+0 0 1775 2 0 1 2560 2
+> fight_prog 5~
+mpechoat The Vampire fledgling moves in a blurred speed striking you multiple times!
+mpedamage $n 20
+~
+|
+#55302
+vampire youngling~
+a vampire youngling~
+A vampire youngling is standing here.
+~
+The vampire has an air of confidence about himself as he glides through the area.
+~
+1
+Clanname none~
+0
+0
+16777793 4194856 1000 C
+12 14 4 2d10+150 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+14 4 0 0 1 1 1
+0 0 1775 0 0 0 2560 2
+#55303
+vampire barkeep~
+Barkeep Sage~
+A vampire barkeep is standing here.
+~
+The barkeep has glistening white hair and he is well groomed.
+~
+1
+Clanname none~
+0
+0
+16908803 4194856 1000 C
+12 14 4 2d10+150 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+14 4 0 0 1 1 1
+0 0 1775 0 0 0 2560 524288
+> fight_prog 5~
+mpechoat $n A barkeep's vice-like grip crushes your arm!
+mpdamage $n 50
+~
+> all_greet_prog 100~
+if ispc($n)
+mppause 3
+mpechoat $n The barkeep smiles a fanged smile and asks if your interested in a drink or
+mpechoat $n a tale?
+endif
+~
+> speech_prog tale~
+mppause 5
+say Very well friend....
+mppause 10
+say I was told a story as a kid about a secret Crypt.
+mppause 8
+say In that Crypt is a creature of untold age, it is said she knows of a power.
+~
+|
+#55304
+Vampire Leader ~
+a vampire leader~
+A vampire leader is standing here.
+~
+The leader of the vampires is wearing a sapphire red dress.  She has a wisdom in her
+eyes that denotes a long life lived.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+18 6 -1 2d10+200 1d2+5
+0 0 0 0 0 
+0
+115 115 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+14 4 0 0 1 1 1
+0 0 1775 0 0 0 68128 131074
+> fight_prog 5~
+mpecho The leader moves in a blur of speed which you feel pain afterward!
+mpdamage $n 50
+~
+> all_greet_prog 100~
+if quest(power) == 1
+mppause 4
+mpechoat $n A vampire leader says, 'Are you prepared for the trial of power?'
+endif
+~
+> speech_prog yes~
+if quest(power) == 1
+mppause 3
+mpechoat $n A vampire leader shrieks, 'Than die!'
+mpquest $n power 2
+c 'sanc' self
+c 'dark bless' self
+c 'giant strength' self
+mpkill $n
+endif
+~
+> death_prog 100~
+if quest(power) == 2
+mpoload 55309 10
+mpget boots
+endif
+~
+> fight_prog 10~
+if quest(power) == 2
+thaitin $n
+endif
+~
+|
+#55305
+hidden quest giver~
+a newly created hidden quest giver~
+A small pond of water is here.
+~
+The pond of water is very shallow and apepars to be racid.
+~
+1
+Clanname none~
+0
+0
+1149370371 4259842 0 C
+106 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(power) < 1
+mpquest $n power 1
+endif
+~
+|
+#55400
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#55300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#55301
+book shelf~
+a book shelf~
+A book shelf is secured to the wall here.~
+~
+38 0 0
+0 0 0 0 0 0 0
+10000 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book 'book shelf'~
+There is a book that seems to stand out from the rest.
+~
+> pull_prog 100~
+mpecho &cAs the book is pulled a passage is opened in the floor.
+~
+> push_prog 100~
+mpecho As the book is pushed a passage is opened in the floor.
+~
+|
+#55302
+vial essence~
+a vial of essence~
+A vial of essence has been left here.~
+~
+10 65 1
+20 -1 -1 -1 0 0 0
+1 5 0
+4
+14
+0
+0
+0
+0
+'NONE' 'cure critical' 'refresh'
+S 0 0
+E
+yellow~
+The yellow potion is made out of a glass bottle, and it is filled with a thick yellow liquid.
+~
+#55303
+Dining Room Table~
+a dining room table~
+A dining room table is here.~
+~
+12 0 0
+6 0 4 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+table~
+The table is made out of stout oak wood.
+~
+#55304
+broken wine bottle~
+a broken wine bottle~
+A broken wine bottle has been left here.~
+~
+5 0 8193
+12 10 20 2 2 21 0
+2 65 6
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+wine~
+The wine bottle has a broken shard that juts from it.
+~
+A
+18 5
+A
+19 5
+#55305
+wine bottle~
+a wine bottle~
+A wine bottle has been left here.~
+~
+17 8192 1
+30 30 2 0 0 1 0
+1 3 0
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+wine bottle~
+A nearly full bottle of wine, smells like a good brand.
+~
+#55306
+white shirt~
+a white long sleeved shirt~
+A white long sleeved shirt lies here fluttering softly.~
+~
+9 8192 9 2
+5 5 0 0 0 0 0
+1 99 9
+4
+5
+0
+0
+0
+0
+S 0 0
+A
+66 25
+#55307
+blood bladder~
+a blood bladder~
+A bladder full of blood has been left here.~
+~
+17 0 1
+50 50 13 0 0 0 0
+1 24 2
+4
+6
+0
+0
+0
+0
+S 0 0
+E
+bladder~
+The bladder is swollen with a rich thick liquid.
+~
+#55308
+sapphire red dress~
+a sapphire red dress~
+A sapphire red dress has been left here.~
+~
+9 8192 9 64
+10 10 0 0 0 0 0
+1 70 7
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+dress~
+The dress is very revealing but is made out of exotic fabric.
+~
+A
+66 25
+A
+19 3
+#55309
+majestic plate boots~
+a set of majestic plate boots~
+A set of majestic plate boots has been left here.~
+~
+9 524609 65
+30 30 0 0 0 10 0
+10 273 27
+3
+13
+0
+0
+0
+0
+S 0 0
+E
+majestic power helmet~
+The helmet appears to be crafted of mystical ore with a quality never seen before.
+~
+A
+19 8
+A
+18 8
+> get_prog 100~
+if quest(power) == 2
+mpquest $n power 3
+endif
+~
+|
+#55400
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#55300
+Within a Passageway~
+Not Assigned~
+The passageway walls are made out of interlocking bricks.  The bricks are
+very worn, and cracked in some places.  There are stains streaking the
+sides of the walls.  A foul black liquid resides in a inlay on the ground
+and has foreign objects within it
+~
+1 8 1
+D1
+~
+~
+0 -1 55341
+D3
+~
+~
+0 -1 8713
+S
+#55301
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55302
+D1
+~
+~
+0 -1 55305
+R M 0 55302 1 55301
+  R G 0 55307 1
+S
+#55302
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55303
+D1
+~
+~
+0 -1 55306
+D2
+~
+~
+0 -1 55301
+S
+#55303
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55304
+D1
+~
+~
+0 -1 55307
+D2
+~
+~
+0 -1 55302
+R M 0 55302 1 55303
+  R G 0 55307 1
+S
+#55304
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D1
+~
+~
+0 -1 55308
+D2
+~
+~
+0 -1 55303
+S
+#55305
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55306
+D1
+~
+~
+0 -1 55309
+D3
+~
+~
+0 -1 55301
+S
+#55306
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55307
+D1
+~
+~
+0 -1 55310
+D2
+~
+~
+0 -1 55305
+D3
+~
+~
+0 -1 55302
+S
+#55307
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55308
+D1
+~
+~
+0 -1 55311
+D2
+~
+~
+0 -1 55306
+D3
+~
+~
+0 -1 55303
+S
+#55308
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D1
+~
+~
+0 -1 55312
+D2
+~
+~
+0 -1 55307
+D3
+~
+~
+0 -1 55304
+S
+#55309
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55310
+D1
+~
+~
+0 -1 55313
+D3
+~
+~
+0 -1 55305
+S
+#55310
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55311
+D1
+~
+~
+0 -1 55314
+D2
+~
+~
+0 -1 55309
+D3
+~
+~
+0 -1 55306
+S
+#55311
+The Crypt Center~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55312
+D1
+~
+~
+0 -1 55315
+D2
+~
+~
+0 -1 55310
+D3
+~
+~
+0 -1 55307
+R M 0 55304 1 55311
+  R E 0 55308 1 5
+S
+#55312
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D1
+~
+~
+0 -1 55316
+D2
+~
+~
+0 -1 55311
+D3
+~
+~
+0 -1 55308
+S
+#55313
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55314
+D1
+~
+~
+0 -1 55317
+D3
+~
+~
+0 -1 55309
+S
+#55314
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55315
+D1
+~
+~
+0 -1 55318
+D2
+~
+~
+0 -1 55313
+D3
+~
+~
+0 -1 55310
+S
+#55315
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55316
+D1
+~
+~
+0 -1 55319
+D2
+~
+~
+0 -1 55314
+D3
+~
+~
+0 -1 55311
+S
+#55316
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D1
+~
+~
+0 -1 55320
+D2
+~
+~
+0 -1 55315
+D3
+~
+~
+0 -1 55312
+S
+#55317
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55318
+D3
+~
+~
+0 -1 55313
+D4
+~
+~
+0 -1 55337
+R M 0 55305 1 55317
+S
+#55318
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55319
+D2
+~
+~
+0 -1 55317
+D3
+~
+~
+0 -1 55314
+S
+#55319
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D0
+~
+~
+0 -1 55320
+D2
+~
+~
+0 -1 55318
+D3
+~
+~
+0 -1 55315
+R M 0 55302 1 55319
+  R G 0 55307 1
+S
+#55320
+Within a Crypt~
+Not Assigned~
+~
+1 9 13
+D2
+~
+~
+0 -1 55319
+D3
+~
+~
+0 -1 55316
+S
+#55321
+The Western Corner of the Tavern~
+Not Assigned~
+This dark corner of the tavern has no lighting at all.  There is a table
+and chair setup here for meeting in private.  The interlocking brick walls
+meet sharply here.
+~
+1 8 13
+D0
+~
+~
+0 -1 55322
+D1
+~
+~
+0 -1 55325
+S
+#55322
+Along the Western Side of the Tavern~
+Not Assigned~
+The walls are made up of interlocking bricks.  The floor is sturdy with
+large wooden planks.  There is no table here and the area is lit up by a
+small torch mounted to the wall.
+~
+1 8 13
+D0
+~
+~
+0 -1 55323
+D1
+~
+~
+0 -1 55326
+D2
+~
+~
+0 -1 55321
+S
+#55323
+The Western Side of the Tavern~
+Not Assigned~
+There are interlocking bricks along the west wall.  The floor is made out
+of wooden planks.  There are various tables and chairs setup throughout the
+tavern.  This side of the tavern has very little lighting.
+~
+1 8 13
+D0
+~
+~
+0 -1 55324
+D1
+~
+~
+0 -1 55327
+D2
+~
+~
+0 -1 55322
+R M 0 55301 1 55323
+  R G 0 55302 1
+S
+#55324
+Within the Kitchen~
+Not Assigned~
+There is a large pantry of various types of breads, spices and ingredients
+against the far wall.  A large fireplace with a pot hanging from it is
+centered against the north wall.  There are various cooking pots hanging
+from the ceiling here.
+~
+1 8 13
+D1
+~
+~
+0 -1 55328
+D2
+~
+~
+0 -1 55323
+R M 0 55301 1 55324
+  R G 0 55302 1
+S
+#55325
+The Threshold~
+Not Assigned~
+The walls are composed of interlocking bricks.  There are masterful paintings
+that line the far wall of the threshold.  A large chandelier is hanging from
+the ceiling to provide lighting.  There is a red rug next to the doorway.
+~
+1 8 13
+D0
+~
+~
+0 -1 55326
+D1
+~
+~
+0 -1 55329
+D2
+~
+door~
+3 -1 55342
+D3
+~
+~
+0 -1 55321
+R M 0 55301 8 55325
+  R G 0 55302 1
+R D 0 55325 2 1
+S
+#55326
+Within the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D0
+~
+~
+0 -1 55327
+D1
+~
+~
+0 -1 55330
+D2
+~
+~
+0 -1 55325
+D3
+~
+~
+0 -1 55322
+S
+#55327
+Next to a Table~
+Not Assigned~
+There is a large bar to the north.  Many patrons sit at tables throughout here.
+The tables have a small candle in the center that provides lighting.  A thick
+red rug runs the length of the floor towards the bar to the north.
+~
+1 8 13
+D0
+~
+~
+0 -1 55328
+D1
+~
+~
+0 -1 55331
+D2
+~
+~
+0 -1 55326
+D3
+~
+~
+0 -1 55323
+R O 0 55303 1 55327
+S
+#55328
+Before the Bar~
+Not Assigned~
+The bar is made out of solid oak wood.  There are bottles of liquor lining
+the far wall of the bar.  Various types of mugs and glasses are along the
+shelves here.  A dark red rug is centered along the floor.
+~
+1 8 13
+D1
+~
+~
+0 -1 55332
+D2
+~
+~
+0 -1 55327
+D3
+~
+~
+0 -1 55324
+R M 0 55303 1 55328
+  R E 0 55304 1 16
+  R E 0 55306 1 5
+  R G 0 55305 1
+R M 0 55301 8 55328
+  R G 0 55302 1
+S
+#55329
+Along the Southern Edge of the Tavern~
+Not Assigned~
+The walls are made up of interlocking bricks.  The floor is sturdy with
+large wooden planks.  There is no table here and the area is lit up by a
+small torch mounted to the wall.
+~
+1 8 13
+D0
+~
+~
+0 -1 55330
+D1
+~
+~
+0 -1 55333
+D3
+~
+~
+0 -1 55325
+R M 0 55301 1 55329
+  R G 0 55302 1
+S
+#55330
+Within the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D0
+~
+~
+0 -1 55331
+D1
+~
+~
+0 -1 55334
+D2
+~
+~
+0 -1 55329
+D3
+~
+~
+0 -1 55326
+R M 0 55301 1 55330
+  R G 0 55302 1
+S
+#55331
+The Tavern Center~
+Not Assigned~
+The walls are made up of interlocking bricks.  The floor is sturdy with
+large wooden planks.  There is no table here and the area is lit up by a
+small torch mounted to the wall.
+~
+1 8 13
+D0
+~
+~
+0 -1 55332
+D1
+~
+~
+0 -1 55335
+D2
+~
+~
+0 -1 55330
+D3
+~
+~
+0 -1 55327
+R M 0 55301 1 55331
+  R G 0 55302 1
+S
+#55332
+The Northern Edge of the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D1
+~
+~
+0 -1 55336
+D2
+~
+~
+0 -1 55331
+D3
+~
+~
+0 -1 55328
+R M 0 55301 1 55332
+  R G 0 55302 1
+S
+#55333
+Along the South Edge of the Tavern~
+Not Assigned~
+There are two tables pressed together here for larger parties.  The walls are made up of
+interlocking bricks and the floor is completely sturdy with solid wooden planks.
+A few ancient pieces of artwork are scattered about the area.
+~
+1 8 13
+D0
+~
+~
+0 -1 55334
+D1
+~
+~
+0 -1 55337
+D3
+~
+~
+0 -1 55329
+S
+#55334
+Along the Tavern~
+Not Assigned~
+The walls are made up of interlocking bricks.  The floor is sturdy with
+large wooden planks.  There is no table here and the area is lit up by a
+small torch mounted to the wall.
+~
+1 8 13
+D0
+~
+~
+0 -1 55335
+D1
+~
+~
+0 -1 55338
+D2
+~
+~
+0 -1 55333
+D3
+~
+~
+0 -1 55330
+S
+#55335
+Within the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D0
+~
+~
+0 -1 55336
+D1
+~
+~
+0 -1 55339
+D2
+~
+~
+0 -1 55334
+D3
+~
+~
+0 -1 55331
+S
+#55336
+Along the Northern Edge of the Tavern~
+Not Assigned~
+There are two tables pressed together here for larger parties.  The walls are made up of
+interlocking bricks and the floor is completely sturdy with solid wooden planks.
+A few ancient pieces of artwork are scattered about the area.
+~
+1 8 13
+D1
+~
+~
+0 -1 55340
+D2
+~
+~
+0 -1 55335
+D3
+~
+~
+0 -1 55332
+S
+#55337
+Within a Small Study~
+Not Assigned~
+The room has interlocking bricks making up the walls.  There are several torches
+that light up the room.  A few couches are against the east wall.  A thick red
+rug is centered on the floor.
+~
+1 8 13
+D0
+~
+~
+0 -1 55338
+D3
+~
+~
+0 -1 55333
+D5
+~
+~
+2048 -1 55317
+R O 0 55301 1 55337
+S
+#55338
+Along the East Edge of the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D0
+~
+~
+0 -1 55339
+D2
+~
+~
+0 -1 55337
+D3
+~
+~
+0 -1 55334
+S
+#55339
+Within the Eastern Side of the Tavern~
+Not Assigned~
+The walls are decorated with many ancient and antique type of items.  The floor
+is made out of solid wooden planks.  There are tables and chairs staged throughout
+the tavern area.  The lighting is sporadic with many dark locations.
+~
+1 8 13
+D0
+~
+~
+0 -1 55340
+D2
+~
+~
+0 -1 55338
+D3
+~
+~
+0 -1 55335
+S
+#55340
+The Northeastern Corner of the Tavern~
+Not Assigned~
+The walls are made up of interlocking bricks.  The floor is sturdy with
+large wooden planks.  There is no table here and the area is lit up by a
+small torch mounted to the wall.
+~
+1 8 13
+D2
+~
+~
+0 -1 55339
+D3
+~
+~
+0 -1 55336
+S
+#55341
+Downward Passageway~
+Not Assigned~
+The passageway walls are made out of interlocking bricks.  The trek veers 
+downward here.  There are stains streaking the sides of the walls.  A foul
+black liquid resides in a inlay on the ground and has foreign objects in it.
+~
+1 0 1
+D3
+~
+~
+0 -1 55300
+D8
+~
+~
+0 -1 55342
+S
+#55342
+A Larger Passageway~
+Not Assigned~
+The passageway walls are made out of interlocking bricks.  The trek veers 
+downward here.  There are stains streaking the sides of the walls.  A foul
+black liquid resides in a inlay on the ground and has foreign objects in it.
+~
+1 0 1
+D0
+~
+door~
+3 -1 55325
+D7
+~
+~
+0 -1 55341
+R D 0 55342 0 1
+S
+#55343
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55344
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55345
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55346
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55347
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55348
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55349
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55350
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#55400
+Floating in a void~
+Not Assigned~
+~
+1 12 1
+S
+#0
+
+
+#SHOPS
+ 55303    0  0  0  0  0   120  90         0 23    ; Barkeep Sage
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,2453 @@
+#AREA        Abandoned Cabin ~
+
+
+
+#VERSION     11
+#AUTHOR      Taslin~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 20 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A creaking sound echoes within the Abandoned Cabin.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 999999943 32089714 999999943 999999817 999999845 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#29000
+wood hornet~
+a wood hornet~
+A wood hornet flies about here.
+~
+The Wood Hornet darts back and forth flying, enraged
+by intruders into his domain. With a stinger as big as a large dagger,
+it looks as though it would be a formidable opponent.
+~
+1
+Clanname none~
+0
+0
+1 524800 0 C
+12 14 7 8d8+100 2d9+9
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 82
+79 0 0 1 1 1 0
+0 0 32 0 0 0 8 0
+#29001
+Brush Viper~
+a brush viper~
+A brush viper slithers along the grass here.
+~
+This huge snake slithering through the brush with ease seems to be very
+aggressive. The odd, dark green swirls on it's body and head seem to
+serve as camoflauge when the snake is approaching it's prey.
+~
+11
+Clanname none~
+0
+0
+67 0 900 C
+12 4 1 12d12+120 1d7+7
+0 0 0 0 0 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 61
+3 0 0 1 1 1 0
+0 0 65536 0 0 0 262145 0
+#29002
+tree frog~
+a giant tree frog~
+A giant tree frog hops about lazily here.
+~
+The Frog has a webbed portion that runs between its elbow to its body
+that serves to help it direct itself while leaping between trees. A bright
+yellow color and an ominous set of teeth bared at you show that this is
+no ordinary frog!
+~
+9
+Clanname none~
+0
+0
+67 0 -1000 C
+15 7 2 3d7+432 3d7+6
+0 0 0 0 2 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 79
+76 0 0 1 1 1 0
+0 0 36 0 0 0 1 0
+#29003
+pixie hunter~
+pixie hunter~
+An infamous pixie hunter skulks through the woods here.
+~
+The short goblinoid creature has a small tuft of hair on his head, dirty,
+jagged teeth, and narrow darting eyes. 
+~
+1
+Clanname none~
+0
+0
+65 0 300 C
+15 12 7 6d8+180 3d7+5
+0 0 0 0 0 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 38
+3 0 0 1 1 1 0
+0 0 0 0 0 0 48 0
+#29004
+hunter ghost~
+A hunter's ghost~
+A ghost resembling a hunter stalking prey is hovering here.
+~
+Although semi-transparent in places, there are material portions of this
+being that appears to have died while hunting. His clothing on the parts
+of him that are solid appear old and greatly deteriorated, but the portions
+that are transparent appear fine and unsoiled.
+~
+5
+Clanname none~
+0
+0
+35 2097152 -1000 C
+15 7 2 3d7+432 3d7+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 35
+34 0 0 1 1 1 0
+0 0 0 2050 0 0 16781312 0
+#29005
+ghost houseguest~
+the ghost of a houseguest~
+The ghost of a houseguest lounges here
+~
+The ghostly figure looks as if it may have been a guest to the cabin
+in life. Wearing what is now transparent dinner attire, the ghost does
+ not look too happy about your pressence here.
+~
+5
+Clanname none~
+0
+0
+67 0 0 C
+16 5 1 4d20+300 3d7+5
+0 0 0 0 0 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 69
+34 0 0 1 1 1 0
+0 0 0 0 0 0 16781312 0
+#29006
+a jet black beast with red eyes~
+A jet black beast~
+A jet black beast with glowing red eyes hides in the corner.
+~
+The worm is huge and bares it's razor teeth at you!
+~
+13
+Clanname none~
+0
+0
+35 0 100 C
+21 5 -5 2d150+900 2d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 69
+88 0 0 1 1 1 2
+0 0 0 0 0 0 33 2
+> all_greet_prog 30~
+if ispc($n)
+  mppause 2
+  growl $r
+endif
+~
+|
+#29007
+bandit looter~
+A bandit looter~
+A bandit is here apparently looking for things of value
+~
+The giant is about 8 feet tall, with arms of steel, and looks very strong.
+The human appears to be looking for things of value to take from here
+and is unpleasantly surprised by your sudden entrance.
+~
+1
+Clanname none~
+0
+0
+65 0 -1000 C
+16 5 1 4d20+300 3d7+5
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 53
+3 6 0 1 1 1 0
+0 0 41 0 0 0 1072 0
+#29008
+giant rat~
+a giant rat~
+A giant rat is scurrying about here.
+~
+Standing as big as some gnomes, this rat is no ordinary rodent!
+~
+13
+Clanname none~
+0
+0
+35 0 -1000 C
+15 7 2 3d7+432 3d7+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 53
+50 0 0 1 1 1 0
+0 0 0 0 0 0 262145 0
+#29009
+ghost cook~
+a ghost of a cook~
+A ghost of a cook wanders the room here.
+~
+The old cook appears to have been a woman in life, although now half her
+face missing makes it hard to tell.
+~
+5
+Clanname none~
+0
+0
+3 0 300 C
+15 12 7 6d8+180 3d7+5
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 35
+34 0 0 1 1 1 0
+0 0 0 0 0 0 16781312 0
+#29010
+little girl ghost~
+a ghost of a little girl~
+The ghost of a little girl is here.
+~
+The ghost wears the once dainty clothing of the little girl she once
+was. Transparent hair is formed into pigtails.
+~
+5
+Clanname none~
+0
+0
+3 0 0 C
+21 0 -8 5d3+400 3d9+3
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 0
+0 0 0 0 35
+3 0 0 1 1 1 0
+0 0 0 0 0 0 4096 0
+#29011
+little boy ghost~
+the ghost of a little boy~
+A ghost of a little boy is standing here.
+~
+This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+What was once a cute kid is now a ghoulish figure baring fangs at you.
+Whatever caused the people of this cabin to this fate must've been terrible.
+~
+5
+Clanname none~
+0
+0
+99 8 100 C
+18 7 2 10d20+500 4d4+5
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 0
+0 0 0 0 35
+34 0 0 1 1 1 0
+0 0 0 0 0 0 4096 0
+#29012
+ghost old man~
+the ghost of an old man~
+A ghost of an old man is searching for something here.
+~
+Upon closer inspection, the old man is actually a ghost! He is in such
+good condition it is hard to tell at first glance.
+~
+5
+Clanname none~
+0
+0
+35 0 0 C
+21 0 -8 5d3+400 3d9+3
+0 0 0 0 0 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 35
+34 0 0 1 1 1 0
+0 0 0 0 0 0 16781312 0
+> death_prog 100~
+yell ARGGGGgggg! Now I will never find the other piece!
+~
+|
+#29013
+ghost woman old~
+the ghost of an old woman~
+A ghost of an old woman wanders the room.
+~
+This appears to be an old woman, but upon looking more closely one can
+see it's a ghost!
+~
+5
+Clanname none~
+0
+0
+3 8 500 C
+20 0 -2 20d20+200 2d4+18
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 0
+0 0 0 0 35
+34 0 0 1 1 1 0
+0 0 0 0 0 0 16781312 0
+> death_prog 100~
+yell You miserable wretch, now I shall never find the other piece!!!
+~
+|
+#29014
+gunthis spirit cleric~
+Gunthis~
+The spirit of a cleric named Gunthis floats here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+25 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 13
+13 13 13 13 13 13 0
+0 0 0 0 53
+3 0 0 1 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if iscarrying($n) == 29013
+emote looks at you.
+say Ahh, you got it! Give it to me and I shall give you your reward.
+else
+say Don't give up, my soul is counting on you.
+endif
+endif
+~
+> act_prog "gives you a cleric's holy symbol."~
+if ovnuminv(29013) == 1
+say Thank you! Now for your reward!
+emote scrummages around.
+mpoload 29018 20
+give helm $n
+say Thanks again my friend.
+emote disappears as his soul is now free from its prison.
+mpgoto 4
+endif
+~
+|
+#29050
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 100 13
+13 13 13 13 13 13 0
+0 0 0 0 53
+3 0 0 1 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#29000
+stairs stairway~
+A stairway~
+A stairway leading below is here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+stairs~
+The stairs are made up of rotting old pine boards.
+~
+#29001
+stairs stairway up~
+A stairway~
+A stairway leading above is here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+stairs~
+The stairs are made up of rotting old pine boards.
+~
+#29002
+fresh water spring~
+a spring~
+A cool underground spring surfaces here.~
+~
+25 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+spring~
+The cool spring water is crystal clear.
+~
+#29003
+large bed barslif area~
+A Large Bed~
+A bed sits here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+bed~
+The bed is very used, and has many old stains on it.
+~
+#29004
+a blood-stained dagger~
+a blood-stained dagger~
+A small blood-stained dagger has been dropped here.~
+~
+5 33554688 8193
+8 10 20 6 2 0 0
+3 34 3
+3
+6
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+18 1
+A
+3 -1
+A
+13 20
+E
+dagger~
+The dagger is made out of iron-ore and has a blood stain on it.
+~
+#29005
+a broken shard of glass~
+a broken shard of glass~
+A broken shard of glass has fallen here.~
+~
+13 64 16385
+0 0 0 0 0 0 0
+1 10 1
+4
+0
+0
+0
+0
+0
+S 0 0
+A
+24 -1
+E
+shard glass~
+The shard of glass is a light blue in color and has sharp edges.
+~
+#29007
+old tattered book~
+an old tattered book~
+An old tattered book lies here.~
+~
+35 1 1
+0 0 0 0 0 0 0
+1 20 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+tattered book~
+I am Gunthis, humble cleric of the Fenmar Woods. I came to this cabin
+to free some poor souls that are locked in the material plane due to their
+transgressions in life. But alas, I failed, and now I suffer the same fate,
+stuck not here, nor there, but miserably in-between.
+
+If you are reading this, you obviously have reached the cabin. I warn you, 
+this old cabin is a very treacherous place! The spirits that dwell here are
+angry and vengeful, and will take your very life should your guard be
+down for one moment! Take care. I would ask of you, if you come across a
+cleric's holy symbol, found somewhere within this house, please bring it to
+this closet. There is a way I can reward you, and I will do so should you 
+help me get my symbol. But whether you choose to help, or nay, please,
+take care in this old cabin. Lest you end up like me.
+
+Sincerely, 
+Gunthis , Priest of Fenmar
+~
+#29008
+tapestry~
+a tapestry~
+A tapestry hangs on the wall here.~
+~
+8 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+tapestry The tapestry is a scene depicting hunters on horseback chasing a fox.~
+The tapestry is a scene that shows hunters chasing a fox.
+~
+> exa_prog 100~
+if mobinroom(29004)<0
+  if ispc($n)
+    mpechoat &n &cA purple light suddenly emits from the tapestry!&D
+    mppause 8
+    mpmload 29004
+  endif
+endif
+~
+|
+#29009
+old couch~
+an old couch~
+A very old, dirty couch sits here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+couch~
+This couch was made from fine fabrics and good craftsmanship, which is
+the only reason it still is here. It is old now and very dirty. Tears
+in the fabric and one of it's legs partially broken make it a piece of
+junk now.
+~
+#29010
+cabin fireplace~
+a fireplace~
+A fireplace is built into the wall here.~
+~
+15 0 0
+20 0 0 0 0 0 0
+10 0 0
+1
+3
+0
+0
+0
+0
+S 0 0
+E
+fireplace~
+The old stone fireplace is dirty and in poor condition. A glimpse of 
+something inside it might prompt someone to examine it more closely.
+~
+#29011
+piece metal~
+a piece of metal~
+A small piece of metal lies here.~
+~
+54 0 1
+0 29012 29013 0 0 0 0
+1 11 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+metal~
+The piece of metal looks as if it is designed to fit with something else.
+~
+> get_prog 100~
+if quest(gunthis) == 1
+  mpquest $n gunthis 2
+endif
+~
+|
+#29012
+piece of wood~
+a scrap of wood~
+A scrap of wood lies here.~
+~
+54 0 16385
+29011 0 29013 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+wood~
+The wood has an odd shape and is smooth.
+~
+> get_prog 100~
+if quest(gunthis) == 2
+mpquest $n gunthis 3
+mppause 4
+mpechoat $n &cIt appears this wood could &WCONNECT&c to the piece of metal.
+endif
+~
+|
+#29013
+cleric holy symbol~
+a cleric's holy symbol~
+A cleric's holy symbol lies here.~
+~
+8 2 5
+0 0 0 0 0 0 0
+1 3 0
+1
+5
+0
+0
+0
+0
+S 0 0
+A
+3 1
+A
+4 1
+E
+symbol~
+The symbol is a intricately carved wooden plaque.
+~
+#29014
+large desk~
+a desk~
+An ornate, old desk stands here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+500 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+desk~
+The old desk is ornately carved in fancy patterns, but looks very abused.
+~
+#29015
+big chair~
+a big chair~
+A big leather chair sits here before a desk.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+chair~
+The leather on the chair is ripped in spots, and one of the legs looks
+very unstable.
+~
+#29016
+potbelly stove~
+a potbelly stove~
+An old, beat-up potbelly stove sits here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+stove potbelly~
+The potbelly stove has a rust covering on the left side of it.
+~
+#29017
+chunk of coal~
+a chunk of coal~
+A chunk of coal lies here.~
+~
+54 0 16385
+0 29012 29013 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+chunk of coal~
+The coal has an odd shape, almost as if something would fit there.
+~
+#29018
+helm of defense~
+the helm of defense~
+A nice helm lies on the ground here.~
+~
+9 0 17
+20 20 0 0 0 20 0
+1 0 1
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+13 20
+A
+12 20
+E
+helm defense~
+The helm of defense is made out of quality steel ore.
+~
+#29019
+a long tooth~
+a long tooth~
+A long white tooth litters the ground here.~
+~
+8 256 16385
+0 0 0 0 0 0 0
+1 100 10
+2
+5
+0
+0
+0
+0
+S 0 0
+A
+20 -2
+A
+21 -1
+A
+23 -1
+A
+4 1
+A
+13 -15
+A
+12 25
+A
+1 -1
+E
+tooth~
+Someone's long tooth that has some decay on it.
+~
+#29020
+a old dirty doll~
+a old dirty doll~
+A old dirty doll lies here, covered in dried up blood.~
+~
+9 6 16385
+20 20 0 0 0 0 0
+2 5 0
+3
+6
+0
+0
+0
+0
+S 0 0
+A
+66 5
+E
+dirty doll~
+The doll has a dusting of dirt along the edges of it, and stains on it's clothing.
+~
+#29021
+long bow~
+a long bow~
+A long bow has been left here.~
+~
+56 0 262145
+10 1 4 6 6 1 1
+8 50 5
+3
+1
+0
+0
+0
+0
+S 0 0
+E
+long bow~
+The long bow appears to have been made out of red wood and is of good quality.
+~
+#29022
+arrow red tipped~
+a red tipped arrow~
+A red tipped arrow has been left here.~
+~
+57 0 16385
+10 5 15 6 1 10 0
+1 49 4
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+arrow~
+The arrow is made out of excellent materials.
+~
+#29023
+a leather quiver~
+a leather quiver~
+A leather quiver has been left here.~
+~
+58 0 524289
+24 0 0 12 0 10 0
+1 53 5
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+18 2
+E
+quiver~
+The quiver while well worn, is made out of a quality deer hide.
+~
+#29024
+narrow dagger~
+a narrow bladed dagger~
+A narrow bladed dagger has been left here.~
+~
+5 524544 8193
+12 5 15 6 2 10 0
+5 86 8
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+13 15
+E
+narrow dagger~
+The dagger has a blade that is very narrow for piercing.
+~
+#29025
+black cloak~
+a black cloak~
+A black cloak has been left here.~
+~
+9 0 1025
+10 10 0 0 0 10 0
+2 123 12
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+17 -15
+E
+cloak~
+The cloak is made out of a durable material and appears to be in good shape.
+~
+#29026
+girdle leather~
+a leather girdle~
+A leather girdle has been left here.~
+~
+9 0 2049 128
+10 10 0 0 0 10 0
+2 72 7
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+13 25
+E
+girdle~
+The girdle is well worn, and has a reddish-bronze color to it.
+~
+#29027
+milky colored potion~
+a milky colored potion~
+A milky colored potion is here.~
+~
+10 0 16385
+1 -1 -1 -1 0 10 0
+1 34 3
+4
+5
+0
+0
+0
+0
+'sanctuary' 'NONE' 'NONE'
+S 0 0
+E
+milky potion~
+The milky colored potion is swirling around in a glass jar with a cork stopper.
+~
+#29049
+leather tunic~
+a leather tunic~
+A leather tunic has been left here.~
+~
+9 0 9
+10 10 0 0 0 10 0
+4 77 7
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+tunic leather armor~
+The tunic is made out of coarse leather, and has some black bugs living inside it. Apparently the villagers of An Clon don't have any basic hygiene.
+~
+A
+17 -50
+#29050
+last object~
+a newly created last object~
+Some god dropped a newly created last object here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#29000
+Through a Forest Path~
+~
+The narrow footpath through the woods here is barely recognizable due
+to the overgrowth of weeds and foliage. Undergrowth, vines and bush 
+prevent travelling in any direction other than how the path runs
+and even while following it movement still offers a challenge to most.
+~
+1 4 3
+D1
+~
+~
+0 -1 29001
+D11
+~
+~
+0 -1 42086
+E
+e ea eas east~
+The foliage prevents seeing past a few feet.
+~
+S
+#29001
+On a Forest Footpath~
+~
+&gVisibility beyond the trees and brush through this part of the path is 
+impossible. Attempting to look down the path in either direction that it 
+runs simply results in seeing more of the same. Foliage. Even the sky 
+itself is barely visible through the thick canopy of the trees overhead. 
+~
+1 0 3
+D1
+~
+~
+0 -1 29002
+D3
+~
+~
+0 -1 29000
+E
+w we wes west~
+The foliage prevents seeing past a few feet.
+~
+E
+e ea eas east~
+The foliage prevents seeing past a few feet.
+~
+S
+#29002
+At a Fork In the Forest Path~
+~
+&gThe small footpath leads in three directions from this point. To the
+&gnortheast it disappears abruptly in a mass of brush and vines. To
+&gthe southeast it appears to be a bit more clear, but vanishes as the
+&gtrail makes a bend. Toward the west, the over growth onto the path
+&gprevents seeing very far down it.
+~
+1 0 3
+D3
+~
+~
+0 -1 29001
+D6
+~
+~
+0 -1 29003
+D8
+~
+~
+0 -1 29006
+R M 0 29003 1 29002
+E
+ne northeast~
+The foliage prevents seeing past a few feet.
+~
+E
+w we wes west~
+The foliage prevents seeing past a few feet.
+~
+E
+se southeast~
+The foliage prevents seeing past a few feet.
+~
+S
+#29003
+Through the Thick Underbrush~
+~
+&gEven the mightiest of adventurers would have a rough time getting 
+through the bramble, brush and foliage that is found here. The only 
+indication that the path still exists at all is the fact that it is the 
+only small gap in the mess at all. 
+~
+1 0 3
+D1
+~
+~
+0 -1 29004
+D9
+~
+~
+0 -1 29002
+R M 0 29001 1 29003
+E
+e ea eas east~
+You cannot see past the immense foliage.
+~
+E
+sw southwest~
+You cannot see past the immense foliage.
+~
+S
+#29004
+Amidst the Thick Underbrush~
+~
+Brambles and stickers stand ready to torment any travellers of what's
+left of the path through here. Razor-sharp and ranging in size from very tiny
+to quite large, these things make the trip through this area something that
+unprotected skin will not soon forget.
+~
+1 0 3
+D3
+~
+~
+0 -1 29003
+D8
+~
+~
+0 -1 29005
+E
+w we wes west~
+You cannot see past the foliage.
+~
+E
+se southeast~
+You cannot see past the foliage.
+~
+S
+#29005
+At a Crossroad of Pathways~
+~
+&gThe heavy woods and immense foliage that lies to the west are much less 
+here. Although there are still woods here, the roof of a two-story 
+building can be seen poking over the trees to the southeast. Paths that 
+disappear into the heavy woods lead west and northwest. 
+~
+1 0 3
+D1
+~
+~
+0 -1 29008
+D3
+~
+~
+0 -1 29007
+D7
+~
+~
+0 -1 29004
+S
+#29006
+Along a Sharp Bend In the Path~
+~
+Displaying much thinner undergrowth than there is to the northwest,
+the path here is a sharp turn around a huge tree that lies to the north.
+Although the foliage is much thinner, it is still impossible to see what
+lies very far to the northwest.
+~
+1 0 3
+D6
+~
+~
+0 -1 29007
+D7
+~
+~
+0 -1 29002
+E
+nw northwest~
+The foliage prevents seeing past a few feet.
+~
+S
+#29007
+A Bend In the Forest Path~
+~
+A huge tree that impedes the path's progress directly to the west
+is much taller than any of the others around it. As wide as most 
+buildings, it could make one wonder why it is that it has survived long
+enough to have grown so large. To the southwest the path bypasses
+the collosal tree. To the northeast the path continues on.
+~
+1 0 3
+D1
+~
+~
+0 -1 29005
+D9
+~
+~
+0 -1 29006
+R M 0 29002 1 29007
+E
+e ea eas east~
+The foliage prevents seeing more than a few feet.
+~
+E
+sw southwest~
+The foliage prevents seeing more than a few feet.
+~
+S
+#29008
+On An Overgrown Pathway~
+~
+Although much less dense than the trail that leads to the west,
+the path here still has many spots that are covered and weeded. It does
+not look as if this trail gets alot of use. Toward the southeast it
+appears a two-story building made out of logs stands, out here in the
+wilderness.
+~
+1 0 3
+D3
+~
+~
+0 -1 29005
+D8
+~
+~
+0 -1 29009
+S
+#29009
+At a Large Cabin's Door~
+~
+A clearing in the woods reveals a large, two-story cabin made out of
+logs and cut pieces of wood directly to the east. The door to the
+cabin is a bit shorter than what an average human would fit through, but
+other than that the building seems to have normal proportions. The faint
+sound of water moving can be heard from the south.
+~
+1 0 3
+D1
+~
+~
+3 -1 29010
+D2
+~
+~
+0 -1 29048
+D7
+~
+~
+0 -1 29008
+R M 0 29000 1 29009
+R D 0 29009 1 1
+> act_prog p from the east.~
+close east
+mpecho The door slams shut!
+~
+|
+S
+#29010
+Entrance Hall of a Cabin~
+~
+The entranceway leads through a small hallway that leads off to the east,
+its plush finishings offers quite a contrast to the rustic look of the
+outside of the building.  A old torn wall to wall decorated rug extends
+the entire length of the hall.  Two paintings have been hung beside the
+doorway on the western wall, depicting peculiar scenes of a light forest.
+To the north a small open closet probably once provided a nice place for
+coats and boots through out the winter time.
+~
+1 0 0
+D0
+~
+~
+0 -1 29011
+D1
+~
+~
+0 -1 29012
+D3
+~
+~
+3 -1 29009
+R D 0 29010 3 1
+E
+paintings pictures scenes~
+The paintings are of a man, a woman and a boy and girl. On one of the
+paintings, the head of the woman is oddly missing, as if it were never
+painted. A tiny plaque can be found written in common at the base of
+one of them.
+~
+E
+paintings pictures scenes~
+~
+E
+plaque~
+It has a small engraving on it:
+ 
+BARSLIF FAMILY 
+~
+> act_prog p from the west.~
+close west
+mpecho The door slams closed!
+~
+|
+S
+#29011
+Inside a Walk-In Closet~
+~
+The inside of this small broken down closet, is just barely big enough to
+squeeze into.  A long nearly broken in half rod looks as if it once extented
+the entire length of the closet to hang coats and stuff.  Large piles of dust
+can be seen everywhere obviously this closet hasnt been used in a while.  A
+wide doorway to the south leads back into a small hallway.
+~
+1 8 0
+D2
+~
+~
+0 -1 29010
+> entry_prog 100~
+if quest(gunthis) < 1
+      mpechoat $n &cA mist pours into the closet!&D
+      mppause 8
+      mpechoat $n &cAs it clears there is a book on the floor that
+      mpechoat $n &cwasn't there before!&D
+      mpoload 29007 5
+      mpquest $n gunthis 1
+      drop book
+endif
+~
+> entry_prog 100~
+if quest(gunthis) == 3
+if iscarrying($n) == 29013
+  mpmload 29014 20
+  mppause 3
+  mpquest $n gunthis 4
+  mpforce spirit mpat $n mpechoat $n &CSpirit says, 'Give the symbol to me for your reward.'
+endif
+endif
+~
+|
+S
+#29012
+In a Cabin's Main Hall~
+~
+&g A few doors line the hallway here, a thin door stands nearly open to 
+the south and a large oak door to the north. Judging from the amount of 
+dust found on the floor here, this cabin is not very well maintained. 
+Moving through the hall, allows one to get a picture of what it must have 
+once looked like here with beautiful paintings adorn the cabins walls. To 
+The entranceway of the cabin can be seen at one end of the hallway 
+toward the west, and on the other end of the hallway stands a nicely 
+constructed wooden staircase. 
+~
+1 0 0
+D0
+~
+~
+3 -1 29017
+D1
+~
+~
+0 -1 29021
+D2
+~
+~
+3 -1 29013
+D3
+~
+~
+0 -1 29010
+R D 0 29012 0 1
+R D 0 29012 2 1
+E
+dust~
+The dust appears to be very heavy in this cabin due to the trees,
+pollen and other factors from the heavy woods outside. Strange line 
+patterns exist in the dust on the floor here.
+~
+E
+paintings~
+The paintings each have a single human person in them. A man, a woman,
+a boy, and a girl. The woman's picture is oddly missing it's head, as
+if it were never painted.
+~
+S
+#29013
+Inside the Library~
+~
+This room once appears to have served as a libary for this broken down
+cabin, old dusty bookcases adorne the walls of this suttle room.  To
+the north is a small doorway that leads back out into the cabins hall.
+A few of the shelves along the wall have fallen apart or been subject to
+alot of vandlism, few books can be found sitting throughout the shelves
+in various spots.  A rather large leather chair sits at a desk towards
+the southeast corner of the room.
+~
+1 0 0
+D0
+~
+~
+3 -1 29012
+D1
+~
+~
+0 -1 29014
+D2
+~
+~
+0 -1 29015
+D8
+~
+~
+0 -1 29016
+R M 0 29007 1 29013
+  R E 0 29024 1 16
+  R G 0 29025 1
+R D 0 29013 0 1
+S
+#29014
+The Corner of a Library~
+~
+A few loose boards stick up from the corner of the room, leaving behind
+a small hole that allows one to view the ground.  Cobwebs connect the
+walls at the ceiling of the corner, entwining about the corners of the
+adjoining bookcases as well.  A small leather chair sits near a large
+desk to the south of here.  A doorway can be seen to the west built in
+the northern wall.
+~
+1 0 0
+D2
+~
+~
+0 -1 29016
+D3
+~
+~
+0 -1 29013
+D9
+~
+~
+0 -1 29015
+E
+board ~
+The floorboard sits uneven with the rest of the floor. It looks as if
+it was pressed lower somehow.
+~
+S
+#29015
+Inside a Spacious Library~
+~
+&gOther than the small bookcases that line the southern and western wall, 
+there is nothing else that can be found in this small corner of the room 
+except dust. A rather big leather chair can be sitting in front of a desk 
+off to the east of here. A small doorway on the northern wall leads out of 
+the room. 
+~
+1 0 0
+D0
+~
+~
+0 -1 29013
+D1
+~
+~
+0 -1 29016
+D6
+~
+~
+0 -1 29014
+S
+#29016
+Inside a Library~
+~
+This far corner of the libary has been stuffed with a rather big leather
+chair that sits next to a ornate desk.  Several bookcases that span from
+the floor to the ceiling lean against the southern and eastern walls.  To
+the northwest a doorway can be seen providing this room with an exit.
+~
+1 0 0
+D0
+~
+~
+0 -1 29014
+D3
+~
+~
+0 -1 29015
+D7
+~
+~
+0 -1 29013
+R O 0 29014 1 29016
+R O 0 29015 1 29016
+S
+#29017
+Inside a Large Room~
+~
+To the north a large tapestry can be seen dangling across the northeast
+wall of this large room, making something in here worth looking at.  A
+small fireplace made out of lime stone is on the western wall with an
+iron log holder setting in the center of the fire pit.  A once luxurious
+couch sits in the northeast corner of the room, with a small table that
+sits in fron of it.  On the southern wall is a small doorway leading
+out of the room.
+~
+1 0 0
+D0
+~
+~
+0 -1 29019
+D1
+~
+~
+0 -1 29018
+D2
+~
+~
+1 -1 29012
+D6
+~
+~
+0 -1 29020
+R O 0 29010 1 29017
+R D 0 29017 2 0
+S
+#29018
+In a Very Large Room~
+~
+This corner of the dark room is rather unremarkable.  Other then the
+dust that coats the floor and the cobwebs that connects the walls to
+each other, there is nothing here.  To the north a old torn to pieces
+couch can be seen sitting near a small table.  A large fireplace is
+to the west of here, sitting near the rooms entranceway.  Along the
+northwest wall hangs a large tapestry that seems to have once acted
+as a type of decoration for this living area. 
+~
+1 0 0
+D0
+~
+~
+0 -1 29020
+D3
+~
+~
+0 -1 29017
+D7
+~
+~
+0 -1 29019
+S
+#29019
+In the Corner of a Large Room~
+~
+A very old piece of tapestry covers the northern wall, its in poor shape
+and proves to be very hard to make out in that condition, although some
+of its scenes can still be made out.  Along the western wall to the south
+is a beautiful stone fireplace that has been built beside the old doorway
+that leads back into the cabins halls.  To the east stands a small table
+that sits by a old couch.  Tiny cobwebs span across the top of the ceiling
+almost connecting the walls in the room to each other.
+~
+1 0 0
+D1
+~
+~
+0 -1 29020
+D2
+~
+~
+0 -1 29017
+D8
+~
+~
+0 -1 29018
+R M 0 29004 1 29019
+  R G 0 29021 1
+  R G 0 29023 1
+    R P 0 29022 1 29023
+    R P 0 29022 11 29023
+R O 0 29008 1 29019
+> fight_prog 75~
+mpe A a purple light emits from the tapestry!
+~
+|
+S
+#29020
+In the Corner of a Large Room~
+~
+Small strands of cobwebs and dust cover this entire northeastern corner
+of the room.  What was once a formerly luxurious couch sits here torn to
+pieces beside a small table that sits near the front of the couch.  The
+layout of the entire room seems to indicate it was a living room or acted
+as the main hall when it was occupied.  A large swinging doorway can be
+made out to the southwest of here.
+~
+1 0 0
+D2
+~
+~
+0 -1 29018
+D3
+~
+~
+0 -1 29019
+D9
+~
+~
+0 -1 29017
+R M 0 29005 1 29020
+  R G 0 29049 1
+R O 0 29009 1 29020
+S
+#29021
+Along a Cabin's Main Hall~
+~
+The small hallway through the first floor of the cabin extends off to
+the east and to the west from here.  A small plank from the hardwood
+floor is missing, leaving a spot of bare dirt exposed.  On the south
+wall hangs a picture frame that is oddly missing whatever picture it
+once held.   Toward the west the hallway passes by a few doors before
+approaching the entranceway.  A large staircase can be see some what
+to the east.
+~
+1 0 0
+D1
+~
+~
+0 -1 29022
+D3
+~
+~
+0 -1 29012
+D5
+~
+plank~
+2100235 -1 29049
+R D 0 29021 5 1
+S
+#29022
+At the Foot of a Stairway~
+~
+A old wooden stairway has been constructed fairly well here, leading up 
+towards the second floor of the abandoned cabin. The hall comes to a 
+sudden end here due to a thin wall that has been built to the east. A old 
+doorway to the north leads into what appears to be the old kitchen. The 
+hallway continues off to the west from here passing by a few doorways on 
+the north and south walls before coming to the entrance of the cabin. A 
+small plaque with something written on it is tacked beside the north door. 
+~
+1 0 0
+D0
+~
+~
+3 -1 29023
+D3
+~
+~
+0 -1 29021
+D4
+~
+~
+0 -1 29029
+R O 0 29001 1 29022
+R D 0 29022 0 1
+E
+plaque~
+The brass sign is now tarnished and dusty. It reads:
+ 
+KITCHEN
+~
+S
+#29023
+In the Kitchen Hallway~
+~
+This somewhat narrow hallway leads to toward the small kitchen and pantry
+that is to the east, and back out to the cabins main hallway through the
+doorway to the south.  The walls have been decorated with a ornate carved
+wood.  Alot of dust can be found littering the hardwood floor here as one
+steps it only sits it up more and provokes a musty scent.  A quick look up
+reveals where the second stories floor has started to fall through as it is
+sloping downward very badly here.
+~
+1 0 0
+D1
+~
+~
+0 -1 29024
+D2
+~
+~
+1 -1 29022
+R M 0 29008 1 29023
+R D 0 29023 2 0
+S
+#29024
+In the Kitchen~
+~
+This part of the rather small area, is the only part of the kitchen that
+isnt used, its just a few feet of open space.  Small standing puddles of
+water sit here.  A pantry door stands off to the east leading into a very
+small panrty.  And somewhat to the west stands a large doorway that leads
+back out into the narrow hallway.  A long table sits along the southern
+wall covered in layers of dust.
+~
+1 0 0
+D0
+~
+~
+0 -1 29026
+D1
+~
+~
+0 -1 29025
+D3
+~
+~
+0 -1 29023
+D6
+~
+~
+0 -1 29027
+S
+#29025
+Inside the Kitchen~
+~
+A long table stands here, very old and dusty. The entire room smells
+very badly, as if something was rotten in here somewhere. To the north
+there seems to be a door of some type on the east wall. To the northwest
+a big pot-bellied stove sits. West there is a short hallway connected
+to the corner of the room.
+~
+1 0 0
+D0
+~
+~
+0 -1 29027
+D3
+~
+~
+0 -1 29024
+D7
+~
+~
+0 -1 29026
+S
+#29026
+At the Stove In the Kitchen~
+~
+A pot-bellied stove sits here and probably once served to cook food
+when the cabin's original owner lived here. Now, though, it is old and
+holes show through rusted spots on it's side. To the southeast there
+is a long table. East there seems to be some type of door. South
+appears to lead to a short hallway that goes west.
+~
+1 0 0
+D1
+~
+~
+0 -1 29027
+D2
+~
+~
+0 -1 29024
+D8
+~
+~
+0 -1 29025
+R O 0 29016 1 29026
+S
+#29027
+At the Pantry Door~
+~
+A small narrow doorway leads off through the east, judging from its
+appearance it leads into some sort of storage area, or pantry.  The
+thick dusty air here make is very difficult to breath.  A long table
+to the south is covered with cobwebs, and layers upon layers of dust.
+A small pathway runs off to the west through the small kitchen.
+~
+1 0 0
+D1
+~
+~
+3 -1 29028
+D2
+~
+~
+0 -1 29025
+D3
+~
+~
+0 -1 29026
+D9
+~
+~
+0 -1 29024
+R M 0 29007 2 29027
+R D 0 29027 1 1
+S
+#29028
+Inside the Kitchen Pantry~
+~
+Layers of dust covers the old iron stoves, and cobwebs can be found growing
+from every dark corner of the room, evidents that this pantry hasn't been
+used in many years.  Uneven shelves line the walls surrounding the entire
+room, many of them are broken or missing now but traces of them have been
+left behind.  Although this room is rather small, it would be sufficient for
+a decent amount of food storage.  A doorway on the western leads out of the
+small kitchen pantry.
+~
+1 0 0
+D3
+~
+~
+3 -1 29027
+R M 0 29009 1 29028
+  R G 0 29026 1
+R D 0 29028 3 1
+S
+#29029
+At the Top of the Stairs~
+~
+A stairway can be found in the middle of the hallway here, leading down
+to the first floor of the cabin.  The banister of the stairs here ends
+with a large ornamental caverving that can be seen on both sides.  A rug
+has been tacked at the top of these stairs, and looks like it may have at
+one time been considered a nice piece of carpet.  A long narrow dark hall
+continues to travel off to the east and to the west.
+~
+1 0 0
+D1
+~
+~
+0 -1 29040
+D3
+~
+~
+0 -1 29030
+D5
+~
+~
+0 -1 29022
+D10
+~
+stairs stairway~
+657408 -1 29022
+R O 0 29000 1 29029
+> rand_prog 20~
+if ispc($n)
+  mpecho &cYour skin begins to crawl, as the floor releases a loud creek
+  mpecho &cfrom the weight you have placed on it.&D
+endif
+~
+|
+S
+#29030
+Through a Long Hallway~
+~
+The hallway floor here is in very bad condition, most of it appears to be
+rotted away at parts, although it still seems safe enough to walk slowly
+across.  The long dark narrow hall continues to travel off to the east and
+to the west from here.  A quick look up reveals where the roof has been
+plagued with leaks leaving the ceiling scared from the water that ran from
+the leaks.
+~
+1 0 0
+D1
+~
+~
+0 -1 29029
+D3
+~
+~
+0 -1 29031
+> rand_prog 20~
+if ispc($n)
+  mpecho &cYour skin begins to crawl, as the floor releases a loud creek
+  mpecho &cfrom the weight you have placed on it.&D
+endif
+~
+|
+S
+#29031
+At the End of a Long Hallway~
+~
+This hallway comes to a sudden hault here due to a large wall to the west
+that has nearly rotted away.  The creeking floors brings a fear that one
+might easily fall through the weakened floors.  Alot of damage can be seen
+on the wall to the northwest, as if something were attached to it and was ripped
+out.  The hallway continues to travel back off to the east.  Two old doors
+stand to the north and south from here, both leading into dark rooms.
+~
+1 0 0
+D0
+~
+~
+3 -1 29032
+D1
+~
+~
+0 -1 29030
+D2
+~
+~
+3 -1 29036
+R D 0 29031 0 1
+R D 0 29031 2 1
+S
+#29032
+Inside a Bedroom~
+~
+This room seems to have at one time served as the master bedroom to the
+cabin.  A large bed sits to the north along the western side of the
+crumbling wall.  Moving about the room, stirs up a thick mix of dust
+and cobwebs, making it very hard to see in here.
+To the south stands a small doorway leading out of the large bedroom.
+~
+1 0 0
+D0
+~
+~
+0 -1 29033
+D1
+~
+~
+0 -1 29035
+D2
+~
+~
+3 -1 29031
+D6
+~
+~
+0 -1 29034
+R D 0 29032 2 1
+S
+#29033
+In a Large Bedroom~
+~
+Along this corner of the bedroom sits an obviously very old large bed
+that sits against the western wall.  Alot of filth mixed with spider
+webs that cover the room offer a sharp contrast to the probable nice
+condition this room and bed were once in.  It seems a pity that the
+cabin sits nearly abandoned.  To the south a door can be seen acting
+as an exit from the room, though it is barely visible through the dust
+and thick cobwebs.
+~
+1 0 0
+D1
+~
+~
+0 -1 29034
+D2
+~
+~
+0 -1 29032
+D8
+~
+~
+0 -1 29035
+R O 0 29003 1 29033
+E
+bed ~
+The bed is very large and nothing remains at all of the matress. 
+All of the bedposts seem to be missing their ends.
+~
+S
+#29034
+Inside a Bedroom~
+~
+The far corner of this very large room seems to have once served as a beautiful
+window space, that once revealed a remarkable view of the forest.  The windows
+that was once on the surrounding walls, have either shattard or fallen out.  A
+small walk way travels through trash on the floor leading to the southwest from
+here.  Some what to the south a old fallen apart doorway leads back out into a
+dark hall.  The top of the corners of the room are infested with large nest of
+bees, cobwebs, and layers upon layers of dust.  A old bed can be seen sitting
+to the west of here, barely standing.
+~
+1 0 0
+D2
+~
+~
+0 -1 29035
+D3
+~
+~
+0 -1 29033
+D9
+~
+~
+0 -1 29032
+R M 0 29013 1 29034
+  R G 0 29017 1
+  R E 0 29005 1 17
+  R G 0 29027 1
+  R G 0 29011 1
+S
+#29035
+Eastern Corner of a Bedroom~
+~
+This dark corner of the spacious bedroom reveals what appears to
+be the scene of something that has gone horribly wrong, a closer
+look reveals tiny spots of blood near the bottom of the southern wall.
+A small bed frame can be made out through the darkness to the northwest
+barely standing on its four legs.  A look up reveals a ceiling that has
+been scared and discolored, from the many years of leaking.
+~
+1 0 0
+D0
+~
+~
+0 -1 29034
+D3
+~
+~
+0 -1 29032
+D7
+~
+~
+0 -1 29033
+S
+#29036
+Inside a Damaged Bedroom~
+~
+This room has bad damage all over it. What exactly caused the damage
+is hard to figure. A hole in the ceiling reveals crossbeam rafters above
+it. The wooden floor is buckled and unlevel. To the southeast the
+only indication at all that this was even once a bedroom, some broken
+shards of a bed, lie in a heap. The entire room as a whole is in poor
+condition, even compared to the rest of the cabin.
+~
+1 0 0
+D0
+~
+~
+3 -1 29031
+D1
+~
+~
+0 -1 29037
+D2
+~
+~
+0 -1 29038
+D8
+~
+~
+0 -1 29039
+R D 0 29036 0 1
+S
+#29037
+In the Damaged Bedroom~
+~
+The damaged, uneven floor in this corner of the room seems very unsafe
+its slopes downwards very badly and with the weight of the bed sitting
+ontop of it, the floor seems nearly ready to fall through.  A few pieces
+of the broken apart bed can be seen setting along the side of a large
+pile of trash towards the south.  A small doorway can be seen along the
+northern wall to the west of here.
+~
+1 0 0
+D2
+~
+~
+0 -1 29039
+D3
+~
+~
+0 -1 29036
+D9
+~
+~
+0 -1 29038
+R M 0 29012 1 29037
+  R G 0 29012 1
+  R G 0 29027 1
+S
+#29038
+Inside a Damaged Bedroom~
+~
+If it was actually something or someone who caused the damage to this
+room, and not simply the punishment of time, then they most certainly 
+must have been enraged. Boards in the floor of this portion of the room
+are completely separated, nails protruding out in some spots. There is
+a small hole in the west wall as well. Lying to the east the parts
+of a broken bed sit.
+~
+1 0 0
+D0
+~
+~
+0 -1 29036
+D1
+~
+~
+0 -1 29039
+D6
+~
+~
+0 -1 29037
+R O 0 29004 1 29038
+S
+#29039
+A Damaged Bedroom~
+~
+This entire bedroom is extremely trashed, large piles of garbage rest near
+the western wall piled almost as high as the ceiling, covering a small window
+the only source of light for the entire room.  The  floor to the north seems
+about ready to fall through as it slopes downwards.  A large bed litters this
+part of the room covered in a thin flim of mold, and smelling of mildew.
+~
+1 0 0
+D0
+~
+~
+0 -1 29037
+D3
+~
+~
+0 -1 29038
+D7
+~
+~
+0 -1 29036
+R O 0 29003 1 29039
+E
+bed~
+What's left of a demolished bed sits here in scraps in the corner.
+There is no matress or headboard at all, just pieces of the bedsprings
+and legs.
+~
+S
+#29040
+Through a Long Hallway~
+~
+Leaks in the roof appear to have damaged the hardwood floor. In many
+spots the wood shows water damage by being buckled or warped. As one
+moves along the hall the floor creeks and moans. The walls are bare, 
+except for the nails that seem to indicate something once hung in those
+spots. To the east it appears the hallway ends at a wall. To the 
+west the hallway continues on. There are doorways north and south.
+~
+1 0 0
+D0
+~
+~
+3 -1 29041
+D1
+~
+~
+0 -1 29044
+D2
+~
+~
+3 -1 29047
+D3
+~
+~
+0 -1 29029
+R D 0 29040 0 1
+R D 0 29040 2 1
+> rand_prog 20~
+if ispc($n)
+  mpecho &cYour skin begins to crawl, as the floor releases a loud creek
+  mpecho &cfrom the weight you have placed on it.&D
+endif
+~
+|
+S
+#29041
+Inside a Child's Room~
+~
+Small puddles of water have collected around a few forgoten children's
+dolls, creating a awful mess of molded over toys that sit near the far
+corner of the room.  A small bed that barely stands on its four wooden
+legs can be seen some what to the east.   Every step taken invokes a
+load creek as the rotted wood below moans from the weight, a testanment
+to its stress from the abuse it has taken over the years.  A old wood
+door stands to the south.
+~
+1 0 0
+D1
+~
+~
+0 -1 29042
+D2
+~
+~
+1 -1 29040
+R O 0 29020 1 29041
+R D 0 29041 2 0
+S
+#29042
+The Eastern Side of a Child's Room~
+~
+The old, dusty toys strewn about coupled with the small size of the
+bed found here indicate this room as having once been occupied by a
+child. Replacing the sound of a child playing here in times past, all
+that remains is the dripping sound of water that has leaked through the
+old cabin's roof into a puddle on the floor. To the north, a closet
+that looks as if it may have once had a door stands open. The room carries
+on to the west.
+~
+1 0 0
+D0
+~
+~
+0 -1 29043
+D2
+~
+~
+3 -1 29044
+D3
+~
+~
+0 -1 29041
+R O 0 29003 1 29042
+R D 0 29042 2 1
+E
+bed~
+The small bed is old and nothing of it's matress remains. It's 
+bedsprings are rusted and fragile.
+~
+S
+#29043
+Inside a Small Closet~
+~
+The back wall of this closet is nearly filled from top to bottom with
+small boxes.  An old wooden rod runs east-to-west in the back of the
+closet apparently for the purpose of hanging things on it for storage.
+The door to the south only hangs on one of its hinges and seems like
+its stuck open.
+~
+1 0 0
+D2
+~
+~
+0 -1 29042
+R M 0 29010 1 29043
+S
+#29044
+At the End of a Long Hallway~
+~
+This narrow hallway comes to a aburpt end due to a old wooden wall that
+stands to the east.  A small shelf sits about three quarters of the way
+of the wall, leaning badly to one side.  Loud creeks and crackles come
+from the rotted out floor with each step that is taken.  Two doorways
+stand to the north and to the south.  The hallway continues to travel
+off to the west from here.
+~
+1 0 0
+D0
+~
+~
+3 -1 29042
+D2
+~
+~
+3 -1 29045
+D3
+~
+~
+0 -1 29040
+R D 0 29044 0 1
+R D 0 29044 2 1
+S
+#29045
+Inside a Child's Room~
+~
+A old wooden bed spans across the weakened floor here, sitting in the
+middle of a doorway leading out of the room to the north, and a closet
+that sits to the south.  To the west there is only a small bit of open
+space and a doorway that is along the northern side of the wall.  Small
+writings can be seen wrote across the eastern wall.
+~
+1 0 0
+D0
+~
+~
+1 -1 29044
+D2
+~
+~
+1 -1 29046
+D3
+~
+~
+0 -1 29047
+R O 0 29003 1 29045
+R D 0 29045 0 0
+R D 0 29045 2 0
+E
+bed~
+The bed is old and fragile. The only noticable thing about it is the
+fact that all the bedpost's ends have been removed.
+~
+S
+#29046
+Inside a Small Closet~
+~
+A small wooden rod slopes from the east to the west in the rear of the
+closet.  It has been partially broken but still attatched.  dust covers
+everything in the room, and spider webs can be seen criss-crossing over
+the entire length of the ceiling.  To the north sits a small bed, that
+over the years has grown real moldy and nasty.  On the other side of the
+bed to the north is a small creeking doorway that leads out of the room.
+~
+1 0 0
+D0
+~
+~
+1 -1 29045
+R M 0 29011 1 29046
+R D 0 29046 0 0
+S
+#29047
+The Western Side of a Child's Room~
+~
+Looking about this room, it is hard to determine what it's use was
+except for the fact there is a small bed sitting to the east. One
+could assume from the small size of it that this may have been a child's
+room. To the north a doorway offers an exit from the room.
+~
+1 0 0
+D0
+~
+~
+3 -1 29040
+D1
+~
+~
+0 -1 29045
+R D 0 29047 0 1
+S
+#29048
+At a Massive Wall of Vines~
+~
+A massive wall of vines and trees blocks movement in any direction
+except toward the north at this spot. Directly east stands a two-
+story cabin made from logs and cut wood. A small spring bubbles water
+up to the surface here, starting a creek that disappears to the southeast
+underneath the entangled vines.
+~
+1 0 1
+D0
+~
+~
+0 -1 29009
+R O 0 29002 1 29048
+S
+#29049
+Under A Wooden Cabin~
+~
+The underneath of this cabin is very dark, and has been overtaken by wild
+growing grass and weeds.  Standing puddles of stagmented water can be seen
+covered in a thin layer of green film.  A few broken planks in the floor
+above almost gives enough space to pass through.  A blood red glow can be
+seen coming from the southeast, it appears as if its the eyes of some type
+of savage animal.
+~
+1 4 1
+D4
+~
+plank~
+1027 -1 29021
+R M 0 29006 1 29049
+  R G 1 29019 1
+R D 0 29049 4 1
+S
+#29050
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

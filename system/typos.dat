@@ -1,0 +1,311 @@
+#TYPO
+FoundBy       Malukus~
+FoundWhen     05-12-2015 05:32:28AM~
+TypoDesc      When you eat a banana, it says:
+You polishes off a yellow banana in a few short bites. Oh well, at least it's healthy.
+instead of:
+You polish off a yellow banana in a few short bites. Oh well, at least it's healthy.
+~
+Type          2
+FixedBy       Vladaar~
+FixedWhen     12-16-2015 06:00:24AM~
+Reward        0
+RewardBonus   1
+Room          42400
+End
+
+#TYPO
+FoundBy       Quinlam~
+FoundWhen     11-16-2015 10:45:39PM~
+TypoDesc      When sailing, the officers say sheer instead of steer.
+~
+Type          1
+FixedBy       Vladaar~
+FixedWhen     12-16-2015 06:04:46AM~
+Reward        0
+RewardBonus   1
+Room          42988
+End
+
+#TYPO
+FoundBy       Quinlam~
+FoundWhen     11-22-2015 05:35:07PM~
+TypoDesc      When I sit in my furniture it says "quinlam is sitting at a hickory chair"
+shouldn't it say on or in?
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          57017
+End
+
+#TYPO
+FoundBy       Silvanus~
+FoundWhen     01-13-2016 01:46:07AM~
+TypoDesc      In the magic shop, it says "A herbal broth", instead of "An herbal broth".
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16106
+End
+
+#TYPO
+FoundBy       Jotham~
+FoundWhen     01-13-2016 01:49:02PM~
+TypoDesc      Two north of the center in dragon hometown is a room labelled Trail Lane, instead of Trial Lane.
+~
+Type          1
+FixedBy       Vladaar~
+FixedWhen     01-15-2016 10:11:14AM~
+Reward        0
+RewardBonus   1
+Room          19040
+End
+
+#TYPO
+FoundBy       Jotham~
+FoundWhen     01-14-2016 04:39:04AM~
+TypoDesc      In the main helpfile, it says you are looking for an opening to cut the femor artery in the leg.
+To use correct medical termonology, it is actually called the femoral artery.
+~
+Type          1
+FixedBy       Vladaar~
+FixedWhen     01-15-2016 10:04:42AM~
+Reward        0
+RewardBonus   1
+Room          35523
+End
+
+#TYPO
+FoundBy       Tulmynir~
+FoundWhen     01-15-2016 06:26:52PM~
+TypoDesc      Room title should be Mosaic
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          28109
+End
+
+#TYPO
+FoundBy       Tulmynir~
+FoundWhen     01-15-2016 06:56:06PM~
+TypoDesc      Long Desc: shevles = shelves
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          28050
+End
+
+#TYPO
+FoundBy       Xoren~
+FoundWhen     01-18-2016 01:16:37PM~
+TypoDesc      "You cannot hold any more wolves in your hunter's bag." Lol. This seems to 
+imply that I'm stuffing the entire animal into my bag, which I'm not. I'm 
+just saving the skin. Would you consider changing that line to: "You 
+cannot hold any more (animal) hides/pelts/skins in your hunter's bag." 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42500
+End
+
+#TYPO
+FoundBy       Kelerie~
+FoundWhen     01-19-2016 09:47:21PM~
+TypoDesc      cheating ea a very serious offense. 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          5100
+End
+
+#TYPO
+FoundBy       Calor~
+FoundWhen     01-24-2016 00:46:13AM~
+TypoDesc      The message for when my fire breath is effective is 
+"Your massive cloud of fire catches kyfaek on fire."
+Which seems a little reptitive. Maybe change it to
+"Your massive cloud of fire, ignites Kyfaek."
+Or "Your massive cloud of fire sends Kyfaek up in flames!"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          27023
+End
+
+#TYPO
+FoundBy       Tulmynir~
+FoundWhen     01-25-2016 09:44:09PM~
+TypoDesc      Ulave says, 'After you kill the bugbear, Dragons often state their incredible hunger/thrist by devouring the corpse!'
+
+
+thrist = thirst
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          19043
+End
+
+#TYPO
+FoundBy       Tulmynir~
+FoundWhen     01-27-2016 04:59:03AM~
+TypoDesc      Room Title: Decent = Descent
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          6274
+End
+
+#TYPO
+FoundBy       Bojan~
+FoundWhen     03-02-2016 11:06:23AM~
+TypoDesc      At the "help Dragon' helpfile , the "Treasure hoard" file is written as "Treasure Horde"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#TYPO
+FoundBy       Bojan~
+FoundWhen     03-05-2016 10:14:26AM~
+TypoDesc      Inside the Vila Island , west of the secluded valley , when I read the claw prints , it's is read "Deep, clearly outlined hoof prints are obviously made my a huge creature." It should be "Made by a huge creature"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          4105
+End
+
+#TYPO
+FoundBy       Rokthr~
+FoundWhen     03-23-2016 03:44:16PM~
+TypoDesc      End of room desc
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          29241
+End
+
+#TYPO
+FoundBy       Lorana~
+FoundWhen     04-08-2016 04:45:31PM~
+TypoDesc      Blade Master Symon suggests typing PRACTICE KICK for starters - that is 
+not available. The quest info in the journal says PRACTICE PUNCH. 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          5116
+End
+
+#TYPO
+FoundBy       Tulvir~
+FoundWhen     09-27-2016 03:05:43PM~
+TypoDesc      there is a misspelling in the help file disable where it has the word pyschic whree it should be psychic.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          31331
+End
+
+#TYPO
+FoundBy       Tulvir~
+FoundWhen     09-28-2016 00:13:34PM~
+TypoDesc      there is a mispelled word when the cone attack is not successful it says 'You attempt to lanch a cone attack, but get distracted.'
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          42052
+End
+
+#TYPO
+FoundBy       Tulvir~
+FoundWhen     10-01-2016 11:57:55AM~
+TypoDesc      the traitor quest has a typo when the guard says the key word it is mispelled which sounded like sabatage with the screen reader.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          602
+End
+
+#TYPO
+FoundBy       Mirkoros~
+FoundWhen     06-29-2017 00:18:13PM~
+TypoDesc      Second Attack on the practice list shows as "Second Attackm".
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35543
+End
+
+#TYPO
+FoundBy       Mirkoros~
+FoundWhen     06-29-2017 02:14:21PM~
+TypoDesc      Core.KeepAliveThe help file for journal (help journal) has a typo "Note: In order to activate a quest, or to move one along you MUST have the do the following if you have any of the below affects:"
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          18645
+End
+
+#TYPO
+FoundBy       Mirkoros~
+FoundWhen     10-29-2017 02:25:54AM~
+TypoDesc      The help file for fade states "This skill is simular magical power" and should state "This skill is similar in magical power".
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          27023
+End
+
+#TYPO
+FoundBy       Kalinaar~
+FoundWhen     10-30-2017 04:53:32PM~
+TypoDesc      Help craft lists "jewler" under see also but there is currently no help file for jewler.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16174
+End
+
+#TYPO
+FoundBy       Drokar~
+FoundWhen     11-02-2017 11:57:35AM~
+TypoDesc      On my skills list, infravision is spelled "infrasion".
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11294
+End
+
+#TYPO
+FoundBy       Mirkoros~
+FoundWhen     11-28-2017 02:41:44PM~
+TypoDesc      The room that I am in "Lava Cave" has a room desc that is unfinished. It ends with "You make out some more of the" and doesn't continue from there.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11650
+End
+
+#END

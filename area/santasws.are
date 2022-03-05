@@ -1,0 +1,2190 @@
+#AREA        Santa's Workshop~
+
+
+
+#VERSION     11
+#AUTHOR      Samael~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 100 30 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 10 10
+
+#RESETMSG &gThe sound of a myriad of small bells tinkling in the wind reaches your ears.&D~
+
+#FLAGS
+83396 15
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999828 999999828 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#34000
+abominable snowman~
+the Abominable Snowman~
+The Abominable Snowman is lying here, injured.
+~
+~
+0
+Clanname none~
+0
+0
+1 138412576 750 C
+50 0 0 0d0+30000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 9
+0 0 0 0 0 0 16563 34086931
+> fight_prog 100~
+mpmirror $n
+if rand(30)
+c iceshield
+iceshard
+iceshard
+endif
+if rand(5)
+blizzard
+blizzard
+blizzard
+endif
+~
+> fight_prog 3~
+mea $n &WThe Abominable Snowman, suddenly howls with a fury born of the winds sending shockwaves throughout the entire cavern which cases icicles to fall down upon your head.&D
+mer $n &WThe Abominable Snowman suddenly howls with the fury born of the winds sending shockwaves throughout the entire cavern, which causes icicles to fall down upon $n's head killing $m instantly.&D
+mpslay $n
+~
+> fight_prog 10~
+mea $n &WThe Abominable Snowman reachs behind him a pulls out an icicle from the wall and suddenly hurls it at you doing massive damage. [75]&D
+mer $n &WThe Abominable Snowman reaches behind him and pulls out an icicle from the wall and suddenly hurls it at $n doing massive damage. [75]&D
+mpdamage $n 75
+~
+> all_greet_prog 100~
+if quest(santa) == 2
+mea $n &WThe Abominable Snowman touches his index finger to his nose and a magical blizzard suddenly surrounds you.&D
+mer $n &WThe Abominable Snowman touches his index finger to his nose and a magical blizzard suddenly surrounds $n.&D
+mer $n &WWhen the blizzard is gone, so is $n.&D
+mea $n &WWhen you look around you are in front of Santa's Workshop.&D
+mptrans $n 34026
+mpat $n mpforce $n l
+else
+mea $n &WAs you enter the lair of the Abominable Snowman, he suddenly lurches and opens his eyes to stare at you.&D
+mppause 5
+mea $n &WHe slowly reaches towards the fire's "remains", indicating you to take them.
+endif
+~
+|
+#34001
+north pole sign~
+The "North Pole" sign~
+The "North Pole" sign is stuck in the ground here.
+~
+~
+0
+Clanname none~
+0
+0
+1140850691 268435456 0 C
+100 0 0 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if quest(santa) < 1
+mea $n &WA solemn Voice enter your head, filled with visions of endless frozen days and nights, &B"&zSomebody stole Santa. You have to get him back. If I were you I'd go see old abominable out over there.&B" &WAnd with that, the frosty voice retreats.&D
+else
+if quest(santa) == 1
+mea $n &WA solemn Voice enters your head, filled with visions of endless frozen days and nights, &B"&wSanta is to the North somewhere.  Find him, quickly!&B" &WAnd with that, the frosty voice retreats.
+mpquest $n santa 2
+mppause 20
+mpforce $n north
+else
+if quest(santa) > 1
+mea $n &WA solemn Voice enters your head, filled with visions of endless frozen days and nights, &B"&wHurry north!  There's not much time!&B" &WAnd with that, the frosty voice retreats.
+mppause 20
+endif
+endif
+endif
+endif
+~
+|
+#34002
+enraged penguin~
+An enranged penguin~
+An enranged penguin is running around in strange circles.
+~
+~
+0
+Clanname none~
+0
+0
+33 406847520 0 C
+50 0 0 0d0+2500 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+7 15 7 13 10 22 25
+0 0 0 0 0
+13 12 0 0 1 1 0
+0 0 0 0 0 0 536887297&2 33558535
+#34003
+wild yeti~
+a wild Yeti~
+A wild Yeti stands here covered in thick white fur.
+~
+~
+0
+Clanname none~
+0
+0
+33 268435456 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 7 7 22 23 2 7
+0 0 0 0 0
+7 4 0 0 25231361 1 0
+0 0 1 212 2 1 0 3
+> fight_prog 30~
+iceshard
+iceshard
+iceshard
+if rand(10)
+blizzard
+if mobinroom(34003) > 1
+blizzard
+endif
+else
+iceshard
+endif
+~
+> greet_prog 100~
+say GRRRRAARGH!!!
+~
+|
+#34004
+cupid reigndeer~
+Cupid~
+A shaggy deer looking creature with big antlers and a green collar with a gold bell is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+16777219 302514304&2097152 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 -30 0 0
+16 3 0 0 1 1 0
+0 0 5 1 2 4 417 33564679
+#34005
+dasher reigndeer~
+Dasher~
+A shaggy deer looking creature with big antlers and a green collar with a gold bell is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+16777223 302514304&2097152 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 -30 0 0
+16 3 0 0 1 1 0
+0 0 5 1 2 4 417 33564679
+#34006
+prancer reigndeer~
+Prancer~
+A shaggy deer looking creature with big antlers and a green collar with a gold bell is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+16777223 302514304&2097152 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 -30 0 0
+22 3 0 0 1 1 0
+0 0 5 1 2 4 417 33564679
+#34007
+blitzen reigndeer~
+Blitzen~
+A shaggy deer looking creature with big antlers and a green collar with a gold bell is sitting here.
+~
+~
+0
+Clanname none~
+0
+0
+262401 524288&2097152 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1 1 0
+0 0 5 1 2 4 33 3
+#34012
+keebler elf~
+a keebler elf~
+A keebler elf stands here holding a plate of cookies and a bottle of milk.
+~
+~
+0
+Clanname none~
+0
+0
+67108867 128 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+7 25 25 25 7 22 23
+0 0 -30 0 0
+1 1 0 0 98305 65537 0
+0 0 513 0 0 0 16497 2059
+> entry_prog 50~
+say Won't you try our new product, the Choco cookie? 120% more chocolate that a normal chocolate chip cookie.
+giggle
+~
+> rand_prog 2~
+mpe A small elf can be seen bustling to and about in this toasty kitchen.
+~
+|
+#34013
+curtis head elf~
+Curtis~
+A slightly taller elf wearing more pinstripes is standing here shouting orders.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825&4 128 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+10 25 25 25 10 22 23
+0 0 -30 0 0
+1 1 0 0 1 1 0
+0 0 513 0 2 1 16497 2059
+> rand_prog 2~
+if rand(50)
+mpe The head elf pulls up his clipboard and scribbles something with a small green and red striped pencil.
+mppause 3
+say OK, MOVE IT ALONG PEOPLE! SANTA DOESN'T HAVE ALL DAY NOW DOES HE?
+endif
+~
+> rand_prog 5~
+if rand(50)
+say HEY YOU! WITH THE TRAIN, FIX THAT WHEEL!
+endif
+~
+> rand_prog 5~
+if rand(50)
+say OI! HOW MANY TIMES HAVE I TOLD YOU TO NOT BRING THE PONIES THROUGH THE WORKSHOP!
+mppause 3
+mutter
+mpe The head elf starts scribbling on his clipboard furiously.
+endif
+~
+> hitprcnt_prog 80~
+if mobinroom(34014) < 2
+mpe &WThe head elf, pulls out a whistle and blows it. The sound of sleigh bells ringing can be heard as two else suddenly run up and join the frey!&D
+mpmload 34014
+mpmload 34014
+mpforce worker mpkill $n
+mpforce worker mpkill $n
+endif
+~
+> fight_prog 20~
+mea $n _whi The elf pulls a snowball out of his pocket and hurls it at you. [75]
+mer $n _whi The elf pulls a snowball out of his pocket and hurls it at $n. [75]
+mpdamage $n 75
+~
+> death_prog 100~
+if quest(santa) == 3
+mpquest $n santa 4
+mpoload 34020
+endif
+~
+|
+#34014
+worker elf~
+a worker elf~
+A small humanoid wearing a red and blue outfit is here working hard.
+~
+~
+0
+Clanname none~
+0
+0
+1 128 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+7 25 25 25 7 22 23
+0 0 -30 0 0
+11 1 0 0 1 1 0
+0 0 513 0 2 1 16497 2059
+> rand_prog 2~
+if rand(50)
+mpe The small tinking of hammers can be heard.
+endif
+~
+> fight_prog 30~
+mea $n _whi The elf pulls a snowball out of his pocket and hurls it at you. [30]&D
+mer $n _whi The elf pulls a snowball out of his pocket and hurls it at $n. [30]&D
+mpdamage $n 30
+~
+|
+#34015
+wild yeti guard~
+a wild Yeti~
+A wild Yeti stands here covered in thick white fur.
+~
+~
+0
+Clanname none~
+0
+0
+1 268435456 0 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 7 7 22 23 2 7
+0 0 0 0 0
+7 4 0 0 1 1 0
+0 0 1 212 2 1 0 3
+#34016
+evil santa~
+Santa~
+A big man in red clothes with a slight shadow around him stands here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741827&4 268435456&2097152 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+21 12 25 18 25 13 25
+0 0 -30 0 0
+0 1 0 0 1 1 0
+0 0 0 4 2 1 16794352 33554707
+> fight_prog 100~
+if rand(50)
+iceshard
+iceshard
+iceshard
+if rand(30)
+blizzard
+endif
+endif
+if rand(1)
+mea $n &WSanta puts his index finger to his nose and a magical blizzard surrounds you and whisks you away.&D
+mer $n &WAs Santa puts his index finger against his nose a magical blizzard surrounds $n and when it dissapates, $e is gone.&D
+mptrans $n 16007
+endif
+if hitprcnt($i) < 80
+if mobinroom(34014) > 0
+else
+yell &WELVES! TO ME!&D
+mpe &WTwo magical blizzards suddenly spawn behind the desk and out steps two elves.&D
+mpmload 34014
+mpmload 34014
+mpforce worker mpkill $n
+mpforce worker mpkill $n
+endif
+endif
+if hitprcnt($i) < 50
+if mobinroom(34018) > 0
+else
+mea $n &WSanta claps his hands and two magical blizzards appear and out step two magical snowmen.&D
+mpmload 34018
+mpmload 34018
+mpforce frosty mpkill $n
+mpforce frosty mpkill $n
+endif
+endif
+~
+> rand_prog 50~
+if isfight($i)
+else
+if mobinroom(34014) > 0
+mppurge worker
+mppurge worker
+else
+if mobinroom(34018) > 0
+mppurge frosty
+mppurge frosty
+endif
+endif
+endif
+~
+> death_prog 100~
+if quest(santa) == 2
+mpoload 34019
+mpmload 34017
+mpquest $n santa 3
+endif
+~
+> entry_prog 20~
+if quest(santa) == 2
+say Tsk, Tsk, so much to do.
+mppause 3
+say Gotta the check the list again, make sure all the naughty kids get weapons.
+endif
+~
+|
+#34017
+good santa~
+Santa~
+A big man in red clothes with a white halo about him stands here.
+~
+~
+0
+Clanname none~
+0
+0
+1140850691 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+21 12 25 18 25 13 25
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 4 2 1 0 0
+> act_prog p looks at you.~
+If quest(santa) == 3
+say &WHo! Ho! Ho!  Thank heavens you have arrived!  Please, stop Curtis from his evil plot.  I cannot be known as someone who gave weapons on such a cheerful holiday.
+else
+if quest(santa) > 3
+say &WHo! Ho! Ho! Merry Christmas!
+mppause 10
+endif
+endif
+~
+|
+#34018
+frosty snowman~
+Frosty, the snowman~
+A snowman wearing a black top hat and a colorful scarf is here.
+~
+~
+0
+Clanname none~
+0
+0
+3 268435584 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 -30 0 0
+0 3 0 0 1 1 0
+0 0 0 0 2 1 16512&2 526339
+#34050
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#34000
+remains fire~
+the remains of a fire~
+The remains of a fire are here.~
+~
+15 1 0
+100000 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(santa) < 1
+mea $n &WAs you lift the pendant into the air a beam of light from above strikes it and reflects off towards the southeast revealing a sort hidden entrance.&D
+mer $n &WThe pendant glints suddenly as a beam of light shines off of it's shiny surface.&D
+mpforce $n unlock se
+mpquest $n santa 1
+endif
+~
+|
+#34001
+red small pendant~
+A small pendant~
+A small pendant lies here.~
+~
+54 0 1
+0 34019 34020 0 0 0 0
+1 0 0
+4
+3
+0
+0
+0
+0
+S 77 0
+> get_prog 100~
+if quest(santa) < 1
+mea $n As you lift the pendant into the air a beam of light from above strikes it and reflects off towards the southeast revealing a sort hidden entrance.
+mer $n The pendant glints suddenly as a beam of light shines off of it's shiny surface.
+mpforce $n unlock se
+mpquest $n santa 1
+endif
+~
+|
+#34002
+garbage pile~
+A pile of garbage~
+A pile of garbage is here.~
+~
+15 0 0
+100 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#34003
+hidden agenda santas list~
+Santa's hidden agenda~
+A peice of paper with writing on it is here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+paper agenda~
+Step 1.                Kidnap Real Santa Clause.
+
+Step 2.                Get the elves to fill the toys with weapons.
+
+Step 3.                Have the Children kills their parents.
+
+Step 4.                Brainwash the Children.
+
+Step 5.                Rule the world.
+
+Step 6.                Get a Box.
+
+Step 7.                Cut a Hole in the Box.
+
+Step 8.                Yeah... About that hole......
+
+Step 9.                Profit.
+~
+> get_prog 100~
+if quest(santa) == 1
+mea $n &WAs you grab the peice of paper. You notice Santa's magical signature on the bottom.&D
+mppause 3
+mea $n &WAs you proceed to read of the list, you become more and more horrified.&D
+mer $n &WAs $n reads over the list, $s face becomes more and more horrified.&D
+mppause 7
+mea $n &WYou suddenly realize what he Abominable Snowman was warning you about and why he was injured.&D
+mpquest $n santa 2
+endif
+~
+|
+#34004
+crystal vest~
+a crystal vest~
+A vest that looks to be made entirely out of ice glistens softly on the ground.~
+~
+9 8192 1025 64
+35 35 0 0 0 0 0
+1 112 11
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+26 268435456
+A
+13 50
+A
+18 1
+#34005
+crystal bracers~
+a pair of crystal bracers~
+A pair of bracers seemingly mad entirely out of ice glistens softly on the ground.~
+~
+9 532481 257
+40 40 0 0 0 0 0
+1 121 12
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+18 5
+A
+13 50
+A
+19 5
+#34006
+crystal leggings~
+a pair of crystal leggings~
+A pair of leggings made entirely out of ice lies here glistening softly.~
+~
+9 8193 33 44
+40 40 0 0 0 0 0
+1 109 10
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+18 5
+A
+19 5
+#34007
+crystal ring~
+a crystal ring~
+A ring seemingly made entirely out of ice glistens here softly.~
+~
+9 8193 3
+40 40 0 0 0 0 0
+1 127 12
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+18 5
+A
+19 5
+A
+19 5
+#34008
+ice spear~
+an ice spear~
+A spear made out of ice lies here glistening softly.~
+~
+5 0 8193
+12 20 40 7 10 0 100
+1 102 10
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+19 1
+#34009
+ice claws~
+ice claws~
+A set of long claws made entirely out of ice glisten softly.~
+~
+5 0 8193
+12 62 76 1 0 0 100
+1 94 9
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#34010
+ice dagger~
+an ice dagger~
+A long dagger made out of an icicle glistens here softly.~
+~
+5 0 8193
+12 25 45 2 2 0 100
+1 95 9
+2
+0
+0
+0
+0
+0
+S 0 0
+#34011
+ice icicle hammer~
+a giant icicle~
+An extremely large icicle sits here glistening softly.~
+~
+5 0 8193
+12 62 76 4 4 0 0
+1 93 9
+2
+0
+0
+0
+0
+0
+S 0 0
+#34012
+icecube~
+an icecube~
+A small cube of ice is here glistening softly.~
+~
+17 0 1
+100 100 0 0 162 0 0
+1 391 33
+4
+0
+0
+0
+0
+0
+S 0 0
+#34013
+choco cookie~
+a small cookie~
+A cookie swirling with layers of chocolate is here.~
+~
+19 0 1
+100 0 0 0 0 0 0
+1 354 35
+4
+0
+0
+0
+0
+0
+S 0 0
+#34014
+kandy kane~
+a kandy kane~
+A peppermint stick with a 'Kandy Kane' label is here on the ground.~
+~
+19 0 1
+25 0 0 0 0 0 0
+1 40 4
+4
+0
+0
+0
+0
+0
+S 0 0
+#34015
+bottle milk~
+a bottle of milk~
+A bottle of milk is here.~
+~
+17 0 1
+10 10 0 0 16 0 0
+1 54 5
+4
+0
+0
+0
+0
+0
+S 0 0
+#34016
+gumdrop~
+a gumdrop~
+A small sugery looking ball of candy is here.~
+~
+26 0 1
+50 -1 -1 -1 0 0 0
+1 192 19
+3
+0
+0
+0
+0
+0
+'heroism' 'NONE' 'kindred strength'
+S 0 0
+#34017
+carved icicle~
+a large icicle~
+A large icicle with words carved into it is here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+icicle sign~
+REIGNDEER ONLY BEOYOND THIS POINT!
+~
+#34018
+clipboard~
+a clipboard~
+A red and green clipboard with a peice of mistletoe tied on it is here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+clipboard~
+1. Cookies... Check.
+
+2. Sleigh Prepped... Check.
+
+3. Trains... Check.
+
+4. List checked:
+Once... Check.
+TWICE!!...
+
+5. Bycicles... Check.
+
+6.Ponies...
+
+7. Big Guy Ready... NOT EVEN CLOSE!
+~
+#34019
+blue small pendant~
+A small pendant~
+A small pendant lies here.~
+~
+54 0 1
+34001 0 34020 0 0 0 0
+1 0 0
+4
+4
+0
+0
+0
+0
+S 77 0
+#34020
+silver small pendant~
+A small pendant~
+A small pendant lies here.~
+~
+8 0 1
+0 0 1 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 77 0
+#34021
+full mirror~
+a tall mirror~
+A tall mirror sits here agains the north wall.~
+q~
+15 0 0
+10 1 34020 3 0 0 0
+1 30 3
+4
+1
+0
+0
+0
+0
+S 5 0
+#34047
+elf messenger bag~
+a green and red messenger bag~
+One of Santa's little helpers must have dropped his bag here.~
+~
+15 262144 524289
+300 0 0 0 0 0 0
+1 17 1
+4
+0
+0
+0
+0
+0
+S 0 0
+#34048
+holiday letter scroll~
+a letter to Santa~
+A letter to Santa is rolled up here.~
+As you wave a holly branch around, snow begins to fall and holiday magic falls all over you.~
+2 262144 16385
+50 -1 -1 -1 0 0 0
+2 1 1
+4
+0
+0
+0
+0
+0
+'sanctuary' 'NONE' 'nettle skin'
+S 1 0
+#34049
+snowglobe~
+a snowglobe~
+A small snowglobe depicting a moving scene of the north pole is here.~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 105 10
+1
+0
+0
+0
+0
+0
+S 0 0
+> rand_prog 20~
+if iswearing($n) == 34049
+mprestore $n 10
+endif
+~
+|
+#34050
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#34000
+Santa's Sleigh~
+~
+For some reason Santa's Sleigh is floating just above Paleon City. Maybe 
+he forgot to take it off of cruise control. 
+~
+1 4 1
+D5
+~
+~
+0 -1 16007
+> entry_prog 100~
+mea $n You land in the sleigh and fall on a bunch of toys.
+mppause 2
+mea $n For some reason one of them happens to be a a mini chainsaw which activates cutting you slightly.
+mpdamage $n 25
+mppause 12
+mea $n You look around the cockpit and notice buttons to launch missiles and many other armaments.
+mea $n You think to yourself, "What could Santa be thinking.", when suddenly the sleigh whirs into life and flies off taking you with it.
+mptrans $n 34001
+mpquest $n santa 1
+~
+|
+S
+#34001
+Frosty Field~
+~
+The entire field is frozen solid in what looks to be fierce blizzard. The 
+wind whips the snow around as if alive and the only thing in sight is a 
+tall red and white striped pole with a sign with the words "North Pole" 
+carved on it to the north. 
+~
+1 4 1
+D0
+~
+~
+0 -1 34002
+S
+#34002
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The sound of 
+sqwuaking can be heard from a distance as the howling wind drives the snow 
+about. 
+~
+1 4 1
+D0
+~
+~
+0 -1 34015
+D1
+~
+~
+0 -1 34003
+D2
+~
+~
+0 -1 34001
+D3
+~
+~
+0 -1 34005
+S
+#34003
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D2
+~
+~
+0 -1 34004
+D3
+~
+~
+0 -1 34002
+S
+#34004
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D0
+~
+~
+0 -1 34003
+S
+#34005
+A Cave Entrance~
+~
+The wind cuts off slightly as it encounters this recessed and hidden cave 
+entrance. The sound it makes going into the cave is a high pitched keening 
+sound that doesn't carry very far. Snow is piled up around the hole with 
+barely any space left for an entry way. 
+~
+1 4 1
+D1
+~
+~
+0 -1 34002
+D3
+~
+~
+0 -1 34006
+S
+#34006
+Inside a Cave~
+~
+&CThe sounds of a breeze are barely heard from the easterly direction. Ice 
+and snow cover everything, adding to the insulation of the cave. The 
+temperature is slightly warmer here due to this. 
+~
+1 4 0
+D1
+~
+~
+0 -1 34005
+D2
+~
+~
+0 -1 34007
+D3
+~
+~
+0 -1 34009
+S
+#34007
+&RA Wrong Turn~
+~
+Something just doesn't seem right. All around echoes are heard, yet 
+nothing distinct enough to name a source. The frost on the cave walls is 
+thick and dusty. 
+~
+1 4 0
+D0
+~
+~
+0 -1 34006
+D1
+~
+~
+0 -1 34008
+S
+#34008
+&RDead End~
+~
+Down in a dark recess of this cold and forsaken place, nothing can be 
+heard or seen except for a lonely heartbeat and ones own breath. Reaching 
+out, all that is felt is coldness. Nothing more is discernible. 
+~
+1 4 0
+D3
+~
+~
+0 -1 34007
+S
+#34009
+&RFurther in the Cave~
+~
+Cold, dark and freezing. This place is a wonderland for those who like to 
+be frozen. 
+~
+1 4 0
+D1
+~
+~
+0 -1 34006
+D9
+~
+~
+0 -1 34010
+S
+#34010
+&RAround the Bend~
+~
+The floor slowly drops further and deeper into the cave. The floor is 
+clean and bare of any ice or snow drifts and fairly easy to walk along. 
+~
+1 4 0
+D6
+~
+~
+0 -1 34009
+D9
+~
+~
+0 -1 34011
+S
+#34011
+&RA Sharp Turn~
+~
+A foul odor is barely detectable, along with a faint scent of smoke. In a 
+small crack to the southwest a faint light can be seen. 
+~
+1 4 0
+D0
+~
+~
+0 -1 34012
+D6
+~
+~
+0 -1 34010
+D9
+~
+~
+2056 -1 34013
+S
+#34012
+&RA Refuse Pit~
+~
+A deep, dark pit can be seen. The horrible stench from the previous room 
+can be attributed to the rotten refuse down in this pit. It's astonishing 
+how much trash a single creature can make. 
+~
+1 4 0
+D2
+~
+~
+0 -1 34011
+S
+#34013
+&RAbominable's Home~
+~
+The room is covered in small piles of snow and furs. The ground is melted 
+in a small hollow big enough for a woolly mammoth. The remains of a fire 
+can be seen at the far edge of the hollow. There is a slight hole at the 
+top of the opening that let's in a little light and let's the smoke 
+escape. 
+~
+1 4 0
+D6
+~
+~
+0 -1 34011
+D8
+~
+~
+2063 -1 34014
+R M 0 34000 1 34013
+R O 0 34000 1 34013
+  R P 0 34001 1 34000
+R D 0 34013 8 2
+S
+#34014
+Hidden Undertow~
+~
+This cavern is completely blocked by stalagmites and stalactites infront 
+of the opening. There is a lot of garbage such as peices of fur and dirty 
+ice laying on the ground. There is an opening begining about halfway to 
+the other side of the cavern leading down into a deep dark hole. From in 
+the hole can be heard the sound of rushing water. 
+~
+1 4 0
+D7
+~
+~
+0 -1 34013
+R O 0 34002 1 34014
+  R P 0 34003 1 34002
+S
+#34015
+Crossroads~
+~
+The icey path comes up from the south and splits off into vaguely two 
+different directions. To the east and slightly to the south the howling of 
+the wind takes on a slightly different pitch as if encountering an anomoly 
+in the frozen wasteland. 
+~
+1 4 1
+D0
+~
+~
+0 -1 34036
+D1
+~
+~
+0 -1 34016
+D2
+~
+~
+0 -1 34002
+D3
+~
+~
+0 -1 34022
+D6
+~
+~
+0 -1 34023
+D7
+~
+~
+0 -1 34021
+R M 0 34001 1 34015
+E
+pole north~
+North: Santa's Workshop(Currently out of commision)
+
+South: Landing Glacier
+
+East : Ice Hockey Frozen Rink/Land of the Penguins
+
+SWest: Lair of the Abominable Snowman
+~
+S
+#34016
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places. 
+~
+1 4 1
+D0
+~
+~
+0 -1 34023
+D1
+~
+~
+0 -1 34017
+D3
+~
+~
+16777216 -1 34015
+S
+#34017
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D2
+~
+~
+0 -1 34018
+D3
+~
+~
+16777216 -1 34016
+S
+#34018
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D0
+~
+~
+0 -1 34017
+D9
+~
+~
+0 -1 34019
+S
+#34019
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D0
+~
+~
+2056 -1 34020
+D6
+~
+~
+0 -1 34018
+S
+#34020
+Frozen Cavern~
+~
+~
+1 4 1
+D2
+~
+~
+0 -1 34019
+S
+#34021
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D0
+~
+~
+0 -1 34036
+D2
+~
+~
+0 -1 34022
+D8
+~
+~
+0 -1 34015
+S
+#34022
+At the Bottom of a Frozen Cliff~
+~
+A small cliff face is towering above the rest of this vista. The howling 
+winds leaping off it's surface and depositing snow in great piles and 
+drifts at the bottom. There is a path leading up leading through the snow. 
+It has been stomped down by many feet. 
+~
+1 4 5
+D0
+~
+~
+0 -1 34021
+D1
+~
+~
+0 -1 34015
+D4
+~
+~
+128 -1 34024
+> entry_prog 10~
+if ispc($n)
+mea $n &WYou slip on the frozen ground.&D
+if rand(50)
+mpforce $n e
+else mpforce $n n
+endif
+endif
+~
+|
+S
+#34023
+Frozen Lake~
+~
+The lake stretched for miles of frozen water. Snow can be found everywhere 
+in huge piles or just in thin layers across the frozen water. The ice is 
+scratched and marked as if with the shuffling of many clawed feet and 
+sqwuaking can be heard from multiple places.
+~
+1 4 1
+D0
+~
+~
+16777216 -1 34036
+D2
+~
+~
+0 -1 34016
+D9
+~
+~
+0 -1 34015
+S
+#34024
+On A Frozen Cliff~
+~
+The path continues upwards and the number of footsteps begin to increase. 
+The sound of the wind can be heard even louder than below as it rushes 
+down the face of the cliff. The wind echos through a cavern to the north 
+as if a flute making sweet music. 
+~
+1 0 5
+D0
+~
+~
+0 -1 34025
+D5
+~
+~
+0 -1 34022
+S
+#34025
+Inside a Cave Entrance~
+~
+The force of the wind dies down inside the cave, but the sound changes to 
+a more mellow and dramatic tune. The are is filled with stalagmites and 
+stalactites, but is otherwise and entirely barren cave. Except for a few 
+thing that look like bones embedded into the wall on the north side of the 
+cave it would seem completely uncivilized. 
+~
+1 0 0
+D2
+~
+~
+16777216 -1 34024
+D3
+~
+~
+16777216 -1 34027
+R M 0 34015 1 34025
+S
+#34026
+Infront of Santa's Workshop~
+~
+A large red and green building made of wood rises up out of the snow. A 
+large glistening dome overhead cloaks the building as a wild blizzard 
+rages just outside. A Jingling sound can be heard a breeze slowly moves 
+around the building in circles. 
+~
+1 0 1
+D0
+~
+~
+1 -1 34044
+D1
+~
+~
+0 -1 34037
+S
+#34027
+A Giant Cavern~
+~
+The cavern is completely desolate and the wind can barely be felt as it 
+weaves it's way throug hthe upper reaches of the cavern creating a 
+haunting melody. The bone insignia on the wall is formed into some kind of 
+symbol of reverence as a fire is built just beneath it in a pit of stone. 
+~
+1 0 0
+D0
+~
+~
+0 -1 34028
+D1
+~
+~
+16777216 -1 34025
+D2
+~
+~
+0 -1 34029
+D3
+~
+~
+0 -1 34031
+D7
+~
+~
+0 -1 34032
+D9
+~
+~
+0 -1 34030
+R M 0 34003 17 34027
+S
+#34028
+A Giant Cavern~
+~
+~
+1 0 0
+D2
+~
+~
+0 -1 34027
+D3
+~
+~
+0 -1 34032
+D9
+~
+~
+0 -1 34031
+R M 0 34003 17 34028
+R M 0 34003 17 34028
+S
+#34029
+A Giant Cavern~
+~
+~
+1 0 0
+D0
+~
+~
+0 -1 34027
+D3
+~
+~
+0 -1 34030
+D7
+~
+~
+0 -1 34031
+R M 0 34003 17 34029
+R M 0 34003 17 34029
+R M 0 34003 17 34029
+S
+#34030
+A Giant Cavern~
+~
+~
+1 0 0
+D0
+~
+~
+0 -1 34031
+D1
+~
+~
+0 -1 34029
+D3
+~
+~
+0 -1 34035
+D6
+~
+~
+0 -1 34027
+D7
+~
+~
+0 -1 34034
+R M 0 34003 17 34030
+R M 0 34003 17 34030
+S
+#34031
+A Giant Cavern~
+~
+~
+1 0 0
+D0
+~
+~
+0 -1 34032
+D1
+~
+~
+0 -1 34027
+D2
+~
+~
+0 -1 34030
+D3
+~
+~
+0 -1 34034
+D6
+~
+~
+0 -1 34028
+D7
+~
+~
+0 -1 34033
+D8
+~
+~
+0 -1 34029
+D9
+~
+~
+0 -1 34035
+R M 0 34003 17 34031
+R M 0 34003 17 34031
+S
+#34032
+A Giant Cavern~
+~
+~
+1 0 0
+D1
+~
+~
+0 -1 34028
+D2
+~
+~
+0 -1 34031
+D3
+~
+~
+0 -1 34033
+D8
+~
+~
+0 -1 34027
+D9
+~
+~
+0 -1 34034
+R M 0 34003 17 34032
+S
+#34033
+A Giant Cavern~
+~
+~
+1 0 0
+D1
+~
+~
+0 -1 34032
+D2
+~
+~
+0 -1 34034
+D8
+~
+~
+0 -1 34031
+R M 0 34003 17 34033
+R M 0 34003 17 34033
+R M 0 34003 17 34033
+S
+#34034
+A Giant Cavern~
+~
+~
+1 0 0
+D0
+~
+~
+0 -1 34033
+D1
+~
+~
+0 -1 34031
+D2
+~
+~
+0 -1 34035
+D6
+~
+~
+0 -1 34032
+D8
+~
+~
+0 -1 34030
+R M 0 34003 17 34034
+S
+#34035
+A Giant Cavern~
+~
+~
+1 0 0
+D0
+~
+~
+0 -1 34034
+D1
+~
+~
+0 -1 34030
+D6
+~
+~
+0 -1 34031
+R M 0 34003 17 34035
+R M 0 34003 17 34035
+S
+#34036
+Harsh Blizzard~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 34026
+D2
+~
+~
+0 -1 34015
+> entry_prog 100~
+if iswearing($n) == 34049
+or iscarrying($n) == 34049
+mea $n &WThe harsh winds begin swirling around you as you feel a slight tug on your bones. A warmth enters your body and you are suddenly pulled northward by the strong winds.&D
+mpforce $n north
+else
+save
+mea $n &WThe Blizzard begins swirling around you so much that you can't see anything. As you feel a deep chill settling in your bones you decide to head backwards.&D
+mpforce $n south
+endif
+~
+|
+S
+#34037
+Infront of Santa's Workshop~
+~
+A large red and green building made of wood rises up out of the snow. A 
+large glistening dome overhead cloaks the building as a wild blizzard 
+rages just outside. A Jingling sound can be heard a breeze slowly moves 
+around the building in circles. 
+~
+1 0 1
+D0
+~
+~
+0 -1 34038
+D1
+~
+~
+0 -1 34039
+D3
+~
+~
+0 -1 34026
+S
+#34038
+A Secluded Corner~
+~
+A large red and green building made of wood rises up out of the snow. A 
+large glistening dome overhead cloaks the building as a wild blizzard 
+rages just outside. A Jingling sound can be heard as a breeze slowly moves 
+around the building in circles. The corner of the building is blocked off 
+by icicles. 
+~
+1 0 1
+D2
+~
+~
+0 -1 34037
+R M 0 34004 1 34038
+  R G 0 34007 1
+  R G 0 34004 1
+  R G 0 34005 1
+  R G 0 34006 1
+S
+#34039
+Infront of Santa's Workshop~
+~
+A large red and green building made of wood rises up out of the snow. A 
+large glistening dome overhead cloaks the building as a wild blizzard 
+rages just outside. A Jingling sound can be heard a breeze slowly moves 
+around the building in circles. To the south is a little hollow between 
+two snow drifts piled right next to each other. 
+~
+1 0 1
+D1
+~
+~
+0 -1 34041
+D2
+~
+~
+0 -1 34040
+D3
+~
+~
+0 -1 34037
+S
+#34040
+Between Two Snow Drifts~
+~
+The ground is full of hoofprints and small footprints passing from between 
+and the two snow piles against the outer shell. The wind makes a slight 
+whistling noise as it passes the front of this opening. Snow from the top 
+of the piles drifts down every couple of seconds as the wind passes by. 
+~
+1 0 1
+D0
+~
+~
+0 -1 34039
+R M 0 34005 1 34040
+  R G 0 34011 1
+  R G 0 34010 1
+  R G 0 34008 1
+  R G 0 34009 1
+S
+#34041
+Near Santa's Workshop~
+~
+A small path leads away from the workshop and between it and another 
+building. It branches off leading to the doors of what looks to be a barn 
+or stable of some kind. The foot prints continue in all directions, but 
+the hoof prints only go up to the door of the other building. 
+~
+1 0 1
+D0
+~
+~
+0 -1 34042
+D3
+~
+~
+0 -1 34039
+S
+#34042
+Infront of a Stable~
+~
+To the east are a set of giant stable gates. The top of the stable gates 
+has been left open and the wind pushes air in and out. The path cotinues 
+off to the north but of a smaller size more suited to children and elves. 
+~
+1 4096 1
+D1
+~
+locked gate~
+8389671 -1 34043
+D2
+~
+~
+0 -1 34041
+R M 0 34006 1 34042
+R O 0 34017 1 34042
+S
+#34043
+Kennel~
+~
+If you find yourself in this room plese contanct an immortal immediatly.
+~
+1 2098176 0
+D3
+~
+~
+33 -1 34042
+R M 0 34007 1 34043
+S
+#34044
+In Santa's Workshop~
+~
+The place is just bustling with else. The sound of small hammers can be 
+heard was well as a giant roasting pit where the wooden and ceramic toys 
+made by the elves are fire blasted to perfection before the painting 
+begins. A grand set of &Rred&D stairs in the back lead upwards towards a 
+set of giant gilded doors. 
+~
+1 0 0
+D0
+~
+~
+0 -1 34045
+D2
+~
+~
+3 -1 34026
+R M 0 34014 6 34044
+R D 0 34044 2 1
+S
+#34045
+In Santa's Workshop~
+~
+The place is just bustling with else. The sound of small hammers can be 
+heard was well as a giant roasting pit where the wooden and ceramic toys 
+made by the elves are fire blasted to perfection before the painting 
+begins. A grand set of red stairs in the back lead upwards towards a 
+set of giant gilded doors.
+~
+1 0 0
+D1
+~
+~
+0 -1 34046
+D2
+~
+~
+0 -1 34044
+D3
+~
+~
+0 -1 34047
+D4
+~
+~
+0 -1 34048
+R M 0 34014 6 34045
+R M 0 34014 6 34045
+S
+#34046
+In Santa's Workshop~
+~
+The place is just bustling with else. The sound of small hammers can be 
+heard was well as a giant roasting pit where the wooden and ceramic toys 
+made by the elves are fire blasted to perfection before the painting 
+begins. A grand set of red stairs in the back lead upwards towards a set 
+of giant gilded doors. The sound of many bike chains fills the room coming 
+from this section as the elves assemble many bicycles. 
+~
+1 0 0
+D3
+~
+~
+0 -1 34045
+R M 0 34014 6 34046
+R M 0 34014 6 34046
+R M 0 34014 6 34046
+S
+#34047
+In Santa's Workshop~
+~
+The place is just bustling with else. The sound of small hammers can be 
+heard was well as a giant roasting pit where the wooden and ceramic toys 
+made by the elves are fire blasted to perfection before the painting 
+begins. A grand set of red stairs in the back lead upwards towards a set 
+of giant gilded doors. The elves are here packaging the food that comes 
+from out of the bakery. 
+~
+1 0 0
+D1
+~
+~
+0 -1 34045
+D3
+~
+~
+3 -1 34050
+R M 0 34014 8 34047
+R M 0 34014 8 34047
+R D 0 34047 3 1
+S
+#34048
+Infront of Santa's Room~
+~
+The large set of stairs leaves off infront of a giant set of red doors 
+gilded with gold designs reminiscent of snow and happiness. Green trimming 
+goes around the outside and the handles are two small snowglobes. The 
+railing along the stairs is also gilded in gold. 
+~
+1 0 0
+D0
+~
+~
+3 -1 34049
+D5
+~
+~
+0 -1 34045
+R M 0 34013 1 34048
+  R E 0 34018 1 17
+R D 0 34048 0 1
+S
+#34049
+Santa's Room~
+~
+The room is quite spacious with three large bay windows facing outwards 
+behind the desk. The corners of each window is frosted over from the 
+outside but most of each window is quite clear. The desk is full of 
+clutter and rolls of parchment and the large green and gold gilded chair 
+is slightly pushed back from the desk. On the wall is a golden plaque with 
+the words Permanent Naughty List etched into it. 
+~
+1 0 0
+D2
+~
+~
+3 -1 34048
+R O 0 34021 1 34049
+  R P 0 16225 1 34021
+R D 0 34049 2 1
+> entry_prog 100~
+if quest(santa) < 3
+if mobinroom(34017) == 1
+mppurge 34017
+else
+if mobinroom(34016) == 0
+mpmload 34016
+mpforce $n look
+endif
+endif
+endif
+~
+> entry_prog 100~
+if quest(santa) > 2
+if mobinroom(34017) == 0
+mpmload 34017
+mpforce $n look
+else
+if mobinroom(34016) == 1
+mppurge 34016
+endif
+endif
+endif
+~
+|
+S
+#34050
+Santa's Bakery~
+~
+A giant oven to the back is radiating heat. The air and floor is very dry 
+and ingrediants are piled all over the giant table in the middle of the 
+floor. Small elves are here running to and fro opening the oven and 
+placing new items inside. 
+~
+1 0 0
+D1
+~
+~
+0 -1 34047
+R M 0 34012 1 34050
+  R G 0 34016 1
+  R G 0 34013 1
+  R G 0 34012 1
+  R G 0 34015 1
+  R G 0 34014 1
+S
+#0
+
+
+#SHOPS
+ 34004    0  0  0  0  0   120  90         0 23    ; Cupid
+ 34005    0  0  0  0  0   120  90         0 23    ; Dasher
+ 34006    0  0  0  0  0   120  90         0 23    ; Prancer
+ 34012    0  0  0  0  0   120  90         0 23    ; a keebler elf
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  34002 spec_breath_frost
+M  34003 spec_breath_frost
+M  34004 spec_janitor
+M  34005 spec_janitor
+M  34012 spec_cast_undead
+M  34014 spec_cast_undead
+M  34015 spec_breath_frost
+S
+
+
+#$

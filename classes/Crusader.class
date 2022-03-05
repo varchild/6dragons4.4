@@ -1,0 +1,98 @@
+Name           Crusader~
+Filename       Crusader~
+Class          5
+Starting       1
+AttrPrime      1
+AttrSecond     4
+AttrDeficient  0
+Races          253952
+Nocombo        262160
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          75
+Hpmax          90
+ManaMin        4
+ManaMax        10
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'bestow vitae' 95 95
+Skill 'downward slash' 60 95
+Skill 'energy ward' 50 95
+Skill 'lightning ward' 70 95
+Skill 'shocking ward' 30 95
+Skill 'static ward' 10 95
+Skill 'aid' 1 95
+Skill 'assault' 16 95
+Skill 'behead' 1 95
+Skill 'break' 85 95
+Skill 'charge' 85 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'daze' 18 95
+Skill 'disarm' 7 85
+Skill 'dodge' 2 95
+Skill 'doorbash' 1 85
+Skill 'double slash' 80 95
+Skill 'dual wield' 15 95
+Skill 'dye' 1 95
+Skill 'enrage' 12 95
+Skill 'fifth attack' 42 95
+Skill 'find weakness' 45 65
+Skill 'flint fire' 1 95
+Skill 'fourth attack' 40 90
+Skill 'kick' 10 95
+Skill 'knee' 10 95
+Skill 'lore' 25 25
+Skill 'maintain position' 31 95
+Skill 'mount' 1 85
+Skill 'nosight' 55 95
+Skill 'offensive stance' 47 95
+Skill 'overhead slash' 40 95
+Skill 'parry' 3 85
+Skill 'punch' 1 90
+Skill 'rallying cry' 24 95
+Skill 'restring' 1 95
+Skill 'righteous blow' 20 95
+Skill 'scan' 1 95
+Skill 'second attack' 8 95
+Skill 'seventh attack' 82 95
+Skill 'sharpen' 1 95
+Skill 'sixth attack' 62 95
+Skill 'slice' 1 95
+Skill 'steed' 14 95
+Skill 'swim' 1 95
+Skill 'taunt' 3 95
+Skill 'third attack' 25 95
+Skill 'track' 26 85
+Skill '1h axes' 1 95
+Skill '1h bludgeons' 1 95
+Skill '1h long blades' 1 95
+Skill '2h axes' 1 95
+Skill '2h long blades' 1 95
+Skill 'archery' 1 95
+Skill 'lances' 1 95
+Skill 'pugilism' 1 95
+Skill 'spears' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

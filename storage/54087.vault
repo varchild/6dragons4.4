@@ -1,0 +1,349 @@
+#VNUM 54087
+#OBJECT
+Vnum         18614
+Level        8
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4905
+Weight       15
+Level        5
+Currtype     4
+Color        5
+Size   4
+Values       12 7 16 4 4 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4906
+Level        5
+Currtype     1
+Color        2
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4901
+Level        9
+Currtype     4
+Color        13
+Size   4
+Values       12 3 10 5 3 0 25
+End
+
+#OBJECT
+Nest         1
+Name         dagger~
+ShortDescr   a gold diamond dagger~
+Description  A gold diamond dagger has been left here.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       0
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       10 2 6 6 2 30 600
+AffectData   'acid breath' -1 1 3 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 -2 13 0
+AffectData   'acid breath' -1 7 14 0
+ExtraDescr   dagger~ &CThis manufactured item bears the seal of Nicodemus, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         29112
+Level        10
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        11
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         29100
+Level        10
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16005
+Level        1
+Currtype     2
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5103
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16079
+Level        1
+Currtype     1
+Color        1
+Size   3
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         29112
+Level        11
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 7 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 6 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 6 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         2770
+Level        10
+Currtype     3
+Color        13
+Size   0
+Values       20 4 4 191 0 10 0
+Spell 3      'unholy strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         16026
+Currtype     3
+Color        6
+Size   0
+Values       10 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         16025
+ExtraFlags   0&8
+WearFlags    25182209
+Currtype     4
+Color        2
+Size   0
+Values       10 1 5 6 2 0 83
+End
+
+#OBJECT
+Nest         1
+Vnum         16024
+Level        2
+Currtype     3
+Color        1
+Size   0
+Values       10 1 4 3 7 2 2
+End
+
+#OBJECT
+Nest         1
+Vnum         28066
+Level        15
+Currtype     4
+Color        13
+Size   0
+Values       12 5 15 6 1 15 99
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         2771
+Level        10
+Currtype     1
+Color        6
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         29100
+Level        10
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         13021
+Level        1
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Vnum         29107
+Level        5
+Currtype     4
+Color        12
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#END

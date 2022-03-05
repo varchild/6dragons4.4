@@ -1,0 +1,85 @@
+#VNUM 40498
+#OBJECT
+Vnum         40022
+Level        20
+Currtype     1
+Size   0
+Values       1 20 0 0 0 20 0
+End
+
+#OBJECT
+Vnum         19013
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       10 46 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Name         plate-leggings~
+ShortDescr   a plate-leggings, legendary forged from bright-light-green titanium ore~
+Description  Here lies a plate-leggings, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       8
+Level        5
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       21 21 30 400 777 30 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 -1 13 0
+ExtraDescr   plate-leggings~ &CThis crafted item bears the seal of Thinton, the master blacksmith.
+~
+End
+
+#OBJECT
+Vnum         40021
+Level        15
+Currtype     1
+Size   0
+Values       12 5 15 6 12 15 96
+End
+
+#OBJECT
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26008
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#END

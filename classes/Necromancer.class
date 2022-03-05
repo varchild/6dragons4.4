@@ -1,0 +1,92 @@
+Name           Necromancer~
+Filename       Necromancer~
+Class          3
+Starting       0
+AttrPrime      1
+AttrSecond     0
+AttrDeficient  0
+Races          524287
+Nocombo        0
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          10
+Hpmax          15
+ManaMin        16
+ManaMax        20
+MoveMin        50
+MoveMax        80
+Expbase        1150
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'black lightning' 96 95
+Skill 'continual light' 2 95
+Skill 'dark blessings' 76 95
+Skill 'demonskin' 87 95
+Skill 'detect hidden' 17 95
+Skill 'detect invis' 15 95
+Skill 'energy drain' 8 95
+Skill 'identify' 19 95
+Skill 'invis' 8 95
+Skill 'lich touch' 84 95
+Skill 'locate object' 18 95
+Skill 'paralyze' 100 50
+Skill 'razorbait' 69 95
+Skill 'remove invis' 14 95
+Skill 'shadowform' 98 95
+Skill 'sleep' 38 95
+Skill 'unholy strength' 17 95
+Skill 'weaken' 32 95
+Skill 'wizard sight' 20 95
+Skill 'word of recall' 34 95
+Skill 'aid' 1 95
+Skill 'behead' 1 95
+Skill 'bone' 3 95
+Skill 'brittle bone' 60 95
+Skill 'climb' 1 95
+Skill 'cook' 1 95
+Skill 'dehydrate' 10 95
+Skill 'dodge' 2 95
+Skill 'drain' 6 95
+Skill 'dual wield' 85 50
+Skill 'dye' 1 95
+Skill 'extract skeleton' 5 95
+Skill 'flint fire' 1 30
+Skill 'fourth attack' 44 65
+Skill 'gouge' 39 95
+Skill 'harness mana' 32 95
+Skill 'kick' 10 95
+Skill 'lesser skeleton' 8 95
+Skill 'meditate' 20 95
+Skill 'mount' 1 95
+Skill 'necromantic touch' 37 95
+Skill 'parry' 20 95
+Skill 'phase' 70 70
+Skill 'punch' 1 95
+Skill 'restring' 1 95
+Skill 'scan' 1 95
+Skill 'second attack' 14 85
+Skill 'slice' 1 95
+Skill 'swim' 1 95
+Skill 'third attack' 28 75
+Skill 'truesight' 10 95
+Skill '1h short blades' 1 95
+Skill 'staves' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 95
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

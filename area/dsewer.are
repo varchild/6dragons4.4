@@ -1,0 +1,2076 @@
+#AREA        Dakar Sewer~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 30 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cYou hear the sound of more sewage sloshing around the passage.~
+
+#FLAGS
+33728
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1249950 1 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#8700
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8701
+Harva Night master man~
+Harva~
+The Night Master is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 128 -1000 C
+100 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 1520 -1073217533
+> fight_prog 100~
+circle $n
+mppause 20
+circle $n
+mppause 20
+circle $n
+mppause 20
+~
+> all_greet_prog 100~
+(null)~
+|
+#8702
+Basher Wraut~
+Basher Wraut~
+A basher stands guard duty here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194432 -1000 C
+100 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> all_greet_prog 100~
+if isnpc($n)
+  abort
+endif
+mppause 4
+if istagged($n, tax)
+  mpechoat $n &CBasher Wraut says, 'Don't make a move, what is the password?'
+endif
+~
+> speech_prog 'might'~
+mpechoat $n &WBasher Wraut whispers to you, 'You may pass.'
+      mptag timer 20 $n pass
+~
+> act_prog p leaves north.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    n
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves east.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    e
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves south.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    s
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves west.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    w
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+|
+#8703
+Basher Raga~
+Basher Raga~
+A basher stands guard duty here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> fight_prog 100~
+heavy 
+heavy 
+stun
+~
+> all_greet_prog 100~
+if isnpc($n)
+  abort
+endif
+mppause 4
+if istagged($n, tax)
+  mpechoat $n &CBasher Raga says, 'Don't make a move, what is the password?'
+endif
+~
+> speech_prog 'might'~
+mpechoat $n &WBasher Raga whispers to you, 'You may pass.'
+      mptag timer 20 $n pass
+~
+> act_prog p leaves north.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    n
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves east.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    e
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves west.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    w
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves south.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    s
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+|
+#8704
+Basher Jada~
+Basher Jada~
+A basher stands guard duty here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 128 -1000 C
+100 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> fight_prog 100~
+heavy
+heavy
+stun
+~
+> all_greet_prog 100~
+(null)~
+|
+#8705
+pick pocket Souz~
+Souz~
+A sly pickpocket is lurking about here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194432 -1000 C
+10 0 0 2d500+80 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> fight_prog 100~
+circle $n
+circle $n
+circle $n
+~
+> all_greet_prog 100~
+// Check to see if players paid tax to use the thieve's highway
+if isnpc($n)
+  abort
+endif
+mppause 4
+if istagged($n, tax)
+  mpechoat $n &CSouz says, 'Don't make a move, what is the password?'
+else
+  mpechoat $n &CSouz says, 'Wait there, you can't travel along the thieve's highway 
+  mpechoat $n &Cwithout paying taxes.  That will cost you 1 silver.  Other's around
+  mpechoat $n &Chere will take it out of your hide if you haven't paid for the password.
+endif
+~
+> speech_prog 'might'~
+mpechoat $n &CSouz whispers to you, 'You may pass.'&D
+      mptag timer 20 $n pass
+~
+> act_prog p leaves north.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    n
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves east.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    e
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves west.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    w
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves south.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    s
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog 'gives you 1 silver coin.'~
+mppause 4
+mptag $n tax 
+mpat 4 drop 1 silver
+    mpechoat $n &WJandor whispers to you, 'The password is might' 
+~
+|
+#8706
+pick pocket Tazar~
+Tazar~
+A sly pickpocket is lurking about here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 -1000 C
+10 0 0 2d500+80 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> all_greet_prog 100~
+if isnpc($n)
+  abort
+endif
+mppause 4
+if istagged($n, tax)
+  mpechoat $n &CTazar says, 'Don't make a move, what is the password?'
+else
+  mpechoat $n &CTazar says, 'Wait there, you can't travel along the thieve's highway
+  mpechoat $n &Cwithout paying taxes.  That will cost you 1 silver.  Other's around
+  mpechoat $n &Chere will take it out of your hide if you haven't paid for the password.
+endif
+~
+> speech_prog 'might'~
+mpechoat $n &WTazar whispers to you, 'You may pass.'
+      mptag timer 20 $n pass
+~
+> act_prog 'gives you 1 silver coin.'~
+mppause 4
+mptag $n tax
+mpat 4 drop 1 silver
+    mpechoat $n &WTazar whispers to you, 'The password is might'
+~
+> act_prog p leaves north.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    n
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves east.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    e
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves west.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    w
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+> act_prog p leaves south.~
+if isnpc($n)
+  abort
+endif
+if istagged($n, pass)
+    abort
+else
+    s
+    mpgenmob $n
+    mpgoto 4
+endif
+~
+|
+#8707
+Master Thief Wagae~
+Wagae~
+A Master Thief is standing in the shadows here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 0 -1000 C
+50 0 0 2d500+2000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &CMaster Thief Wagae says, 'Be sure of yourself.  This is not
+mpechoat $n &Ca place to linger without reason.'
+~
+|
+#8708
+Assassin Nasar~
+Nasar~
+A sinister looking assassin is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 -1000 C
+95 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &cAssassin Nasar grasps his sword in a threatening manner.
+~
+|
+#8709
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8710
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194816 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8711
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8712
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8713
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8714
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8715
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8716
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8717
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 0 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8718
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 0 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8719
+sewer rat~
+a sewer rat~
+A sewer rat scampers about here.
+~
+The gray rat is the size of a small dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777217 4194304 0 C
+4 0 0 1d1+25 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(drats) == 1
+   if qkamount(drats) < 49
+      mpqkamount $n drats 1
+    else
+      mpqkamount $n drats 1
+      mpquest $n drats 2
+    endif
+  endif
+~
+|
+#8720
+giant sewer rat~
+a giant sewer rat~
+A giant sized sewer rat is hunting here.
+~
+The gray rat is the size of a large dog.  It has red eyes and sharp teeth.
+~
+13
+Clanname none~
+0
+0
+16777249 4194816 0 C
+6 0 0 1d1+24 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if quest(dgiantrats) == 1
+   if qkamount(dgiantrats) < 49
+      mpqkamount $n dgiantrats 1
+    else
+      mpqkamount $n dgiantrats 1
+      mpquest $n dgiantrats 2
+    endif
+  endif
+~
+|
+#8721
+old man worker Gordak~
+Gordak~
+An old man working the sewer is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 -1000 C
+50 0 0 2d500+2000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+> all_greet_prog 100~
+mppause 6
+if quest(drats) == 2
+    mpechoat $n &CGordak says, 'Got a nice collection, thanks for helping an old man.
+    mpechoat $n &CI'll tell you something since you have shown me kindness.  Things
+    mpechoat $n &Chappen down here, people come and go.  I have worked down here many
+    mpechoat $n &Cyears where others have, and been found dead floating in the river.
+    mpechoat $n &CWhy I have is I do not tell anyone who or what I see down here.  Got
+    mpechoat $n &Cit?  If you think you can follow that I have another job for you.'
+    mpquest $n drats 3
+    mppause 20
+    mpat 4 look
+    mppause 10
+    mpechoat $n &cType &WSAY JOB&c to accept.
+    mpmset self silver 50
+    give 50 silver $n
+endif
+if quest(dgiantrats) == 2
+    mpechoat $n &CGordak says, 'Great job, thanks for helping an old man.'
+    mpquest $n dgiantrats 3
+    mppause 20
+    mpat 4 look
+    mppause 10
+    mpmset self gold 50
+    give 50 gold $n
+endif
+if istagged($n, money)
+  mppause 6
+  mpechoat $n &cGordak looks about the sewer for a rat to stuff in his bag.
+else
+  mppause 3
+  mpechoat $n &CGordak says, 'Well your a little big for a sewer rat.  Are you down on
+  mpechoat $n &Cyour luck?  If you want to make a little coin you could give me a hand.
+  mpechoat $n &CThis is a thankless job, but someone has to do it.'
+  mppause 2
+  mpechoat $n &cType &WSAY YES&c to accept the quest.
+  mptag $n money
+endif
+~
+> speech_prog yes~
+mppause 4
+mpechoat $n &CGordak says, 'Kill 50 sewer rats for me, and Ill pay you some silver.'
+mpquest $n drats 1
+~
+> speech_prog job~
+mppause 4
+if quest(drats) == 3
+  mpechoat $n &CGordak says, 'There are false walls within this sewer where the things I
+  mpechoat $n &Ctold you about happen.  Find your way in there, and you will be able to
+  mpechoat $n &Chunt giant sized rats, or the rats will hunt you.  The only thing is if
+  mpechoat $n &Cyou enter this area, you will run into those people I told you about who
+  mpechoat $n &Cwill demand a tax for being in thier area.  Pay the tax these are not 
+  mpechoat $n &Cpeople to trifle with.  Your reward for killing the giant sized rats will
+  mpechoat $n &Cbe worth paying the tax.'
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CKill 50 giant sized sewer rats for me, and Ill pay you some gold.'
+  mpquest $n dgiantrats 1
+endif
+~
+|
+#8722
+basher~
+a basher~
+A basher is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 128 -1000 C
+100 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 11 0 0 1 1 5
+0 0 5 0 0 0 368 2
+#8750
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#8700
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#8701
+balanced dagger~
+a balanced dagger~
+A well balanced dagger has been left here.~
+~
+5 524544 8193
+20 20 40 6 2 40 0
+1 78 7
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+18 4
+A
+19 4
+A
+2 2
+#8702
+legendary crafted rapier~
+a legendary crafted rapier~
+A legendary crafted rapier has been left here.~
+~
+5 524288 8193
+0 45 100 2 1 95 70
+3 81 8
+4
+8
+0
+0
+0
+0
+S 0 0
+A
+18 12
+A
+19 12
+A
+2 2
+#8720
+leather vest~
+a newly created leather vest~
+Some god dropped a newly created leather vest here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#8700
+Within a Sewer Intersection~
+~
+The walls are made out of interlocking bricks.  There is a intersection of
+sewer passageways that lead in different directions.  A small ladder leads
+up out of the sewer.  There is a strange black liquid that runs through a
+inlay in the ground that has a multitude of foreign objects in it.
+~
+1 4 1
+D1
+~
+false wall~
+2051 -1 8715
+D2
+~
+~
+0 -1 8711
+D3
+~
+~
+0 -1 8701
+D4
+~
+sewer grate~
+16777219 -1 11210
+R D 0 8700 4 1
+S
+#8701
+Within an Underground Passage~
+~
+The walls are made out of interlocking bricks.  They are crumbling from
+cracks in them, and have been reinforced with thick oak beams.  There is
+a strange black liquid that runs through an inlay and has foreign objects
+throughout it.  Some bloody tracks lead to the east.
+~
+1 0 1
+D0
+~
+false wall~
+16779267 -1 8731
+D1
+~
+~
+0 -1 8700
+D3
+~
+~
+0 -1 8702
+R M 0 8711 1 8701
+R M 0 8712 1 8701
+R D 0 8701 0 1
+> entry_prog 100~
+mppause 4
+mpechoat $n &cYou think you notice something strange with the wall to the north.
+~
+|
+S
+#8702
+Mildew Covered Walls~
+~
+The walls that are visible through thick mildew, are made out of bricks 
+that are interlocking. The ceiling is made out of stone slabs that are 
+mortared together. There is a foul black liquid that runs through an inlay 
+and has many foreign objects within it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 8701
+D3
+~
+~
+0 -1 8703
+R M 0 8711 2 8702
+R M 0 8712 2 8702
+S
+#8703
+Along a Narrow Passage~
+~
+The walls of the passage are made up of interlocking bricks.  Some of the
+bricks have cracked with time.  The walls are covered in various stains.
+A strange black liquid moves through an inlay in the ground, and has many
+foreign objects within it.  The ceiling is made out of stone slabs.
+~
+1 0 1
+D1
+~
+~
+0 -1 8702
+D3
+~
+~
+0 -1 8704
+R M 0 8711 3 8703
+R M 0 8712 4 8703
+R M 0 8712 4 8703
+S
+#8704
+Within the Passage~
+~
+Interlocking bricks make up the walls of the passage. A few scattered 
+bones litter the ground. There is a thick black liquid on the ground that 
+runs through an inlay, and has many foreign objects in it. The ceiling is 
+made out of large stone slabs that have been mortared together.
+~
+1 0 1
+D1
+~
+~
+0 -1 8703
+D3
+~
+~
+0 -1 8705
+R M 0 8712 4 8704
+R M 0 8711 4 8704
+S
+#8705
+Within the Sewer~
+~
+The walls are made up of interlocking bricks.  They are cracked in some
+places, and have various stains streaked across them.  A narrow inlay in
+the floor collects the black liquid from the sewer grates.  There are
+an assortment of foreign objects within the liquid.
+~
+1 0 1
+D0
+~
+~
+0 -1 8706
+D1
+~
+~
+0 -1 8704
+D4
+~
+sewer grate~
+16777219 -1 11223
+R M 0 8712 5 8705
+R M 0 8711 5 8705
+R M 0 8718 1 8705
+R M 0 8719 1 8705
+S
+#8706
+Along a Narrow Passageway~
+~
+Interlocking bricks make up this passageways walls. The bricks are worn 
+and cracked in many places. The walls are covered with a multitude of 
+stains streaked across them. A small inlay in the floor houses a foul 
+black liquid with many foreign objects floating in it.
+~
+1 0 1
+D0
+~
+~
+0 -1 8707
+D2
+~
+~
+0 -1 8705
+R M 0 8713 1 8706
+R M 0 8714 2 8706
+S
+#8707
+A Partially Collapsed Section~
+~
+The interlocking bricks in this passage have partially broken apart, and 
+small bricks litter the floor. A few oak beams have been placed beside the 
+walls to reinforce them. There is a dark green mold growing up the oak 
+beams. the ceiling is made out of solid stone slabs.
+~
+1 0 1
+D0
+~
+~
+0 -1 8708
+D2
+~
+~
+0 -1 8706
+R M 0 8714 2 8707
+R M 0 8713 2 8707
+S
+#8708
+A Reinforced Passage~
+~
+The passage walls are made out of interlocking bricks, that have many 
+cracks in them. They have been reinforced with large oak beams along the 
+sides. There are various stains that are streaked along the walls. A small 
+inlay has black liquid inside it.  The ceiling is made out of stone slabs.
+~
+1 0 1
+D0
+~
+~
+0 -1 8709
+D2
+~
+~
+0 -1 8707
+R M 0 8713 3 8708
+R M 0 8714 3 8708
+S
+#8709
+Blood Covered Walls~
+~
+The walls are made out of interlocking bricks.  They covered with blood
+that has been smeared from some type of battle.  The ground has an inlay
+in it, that has a foul black liquid running though it.  The ceiling is
+made out of large slabs of stone that have been mortared together.
+~
+1 0 1
+D0
+~
+~
+0 -1 8710
+D2
+~
+~
+0 -1 8708
+R M 0 8713 5 8709
+R M 0 8713 5 8709
+R M 0 8714 5 8709
+R M 0 8714 5 8709
+S
+#8710
+Within the Sewer~
+~
+Interlocking bricks make up the walls. The bricks are worn, and have many 
+cracks throughout them. There are many stains that streak the walls. A 
+thick mildew covers a small ladder that leads up. There is an inlay in the 
+ground that has a foul black liquid running through it. 
+~
+1 0 1
+D2
+~
+~
+0 -1 8709
+D4
+~
+sewer grate~
+16777219 -1 27010
+R M 0 8714 5 8710
+R M 0 8713 5 8710
+R M 0 8715 1 8710
+R M 0 8716 1 8710
+S
+#8711
+A Small Passageway~
+~
+The passageway is smaller here, due to large oak beams set on the sides 
+of the walls. The walls are made out of interlocking bricks. There is a 
+inlay in the floor that has a thick black liquid within it. The ceiling is 
+made out of solid stone slabs that have been mortared together.
+~
+1 0 1
+D0
+~
+~
+0 -1 8700
+D2
+~
+~
+0 -1 8712
+R M 0 8721 1 8711
+S
+#8712
+A Pile of Bones~
+~
+The walls of the passage are made up of interlocking bricks that are very
+worn and cracked.  There are several piles of bones, and partial skeletons
+scattered about the floor here.  An inlay in the ground has a foul black
+liquid that runs along through it.
+~
+1 0 1
+D0
+~
+~
+0 -1 8711
+D2
+~
+~
+0 -1 8713
+R M 0 8709 3 8712
+R M 0 8710 3 8712
+S
+#8713
+Along a Passageway~
+~
+The passageway walls are made out of interlocking bricks.  The bricks are
+very worn, and cracked in some places.  There are stains streaking the
+sides of the walls.  A foul black liquid resides in a inlay on the ground
+and has foreign objects within it
+~
+1 0 1
+D0
+~
+~
+0 -1 8712
+D1
+~
+~
+0 -1 55300
+D2
+~
+~
+0 -1 8714
+R M 0 8709 2 8713
+R M 0 8710 2 8713
+S
+#8714
+A Sludge Filled Passage~
+~
+The walls are made out of interlocking bricks. There are various stains 
+that streak the walls. The ground has an inlay that is filled with black 
+nightmarish liquid. The ceiling is made out of large stone slabs that have 
+been mortared together for strength.
+~
+1 0 1
+D0
+~
+~
+0 -1 8713
+D4
+~
+sewer grate~
+16777219 -1 11214
+R M 0 8709 1 8714
+R M 0 8710 1 8714
+S
+#8715
+A Narrow Passage~
+~
+A series of small torch mounts with no torch in them lead to the east. 
+There are broken, and cracked bricks along the walls. Several strange foot 
+prints are imprinted in what looks like dried blood. 
+~
+1 0 1
+D1
+~
+~
+0 -1 8716
+D3
+~
+false wall~
+3 -1 8700
+R M 0 8720 1 8715
+R D 0 8715 3 1
+S
+#8716
+Sewage Filled Intersection~
+~
+An intersection that has two small passageways appears to be made out of
+bricks.  There is a large grate in the center of the floor that collects
+all sewage that comes down from above.  There are hooded lantern mounts
+along the walls that hold no lanterns.
+~
+1 0 1
+D1
+~
+~
+0 -1 8727
+D2
+~
+~
+0 -1 8717
+D3
+~
+~
+0 -1 8715
+R M 0 8706 1 8716
+  R E 0 8701 1 16
+  R E 0 8351 1 18
+S
+#8717
+A Small Passage~
+~
+The passageway is made out of bricks.  There are various objects of trash
+along the edge of walls.  The east wall has a half mildew, half blood
+patch covering a good portion of the wall.  There is a small drain in
+the floor to allow waste to escape.
+~
+1 0 1
+D0
+~
+~
+0 -1 8716
+D2
+~
+~
+0 -1 8718
+S
+#8718
+A Musky Chamber~
+~
+The walls are covered with a mildew growth from the top to the bottom.
+There is a small drain in the floor for waste to escape through.  A series
+of small bones litters the floor.  There are hooded lantern mounts on
+the walls, but no lanterns are housed in them.
+~
+1 0 1
+D0
+~
+~
+0 -1 8717
+D1
+~
+~
+0 -1 8728
+D2
+~
+~
+0 -1 8719
+R M 0 8720 10 8718
+R M 0 8720 10 8718
+S
+#8719
+Collapsed Section~
+~
+The ceiling has partially caved in here, bringing the clearance to enter
+the room down significantly.  There are large broken bricks built up in
+piles that seem to support the weight of the ceiling.  The floor is covered
+with small animal tracks.
+~
+1 0 1
+D0
+~
+~
+0 -1 8718
+D2
+~
+~
+0 -1 8720
+S
+#8720
+An Underground Corridor ~
+~
+The corridor extends to the north and south.  The floor has a grate that
+runs up the center of it the entire length.  There is a repugnant scent
+of raw sewage that fills the area.  A few scattered bones are here.
+~
+1 0 1
+D0
+~
+~
+0 -1 8719
+D1
+~
+~
+0 -1 8721
+S
+#8721
+A Small Passageway~
+~
+The hallway has blood stains that intermingle with mold along the walls.
+The floor has a grate that runs up the center of it for the entire 
+length.  There are piles of trash, and debris along the walls.
+~
+1 0 1
+D1
+~
+~
+0 -1 8722
+D3
+~
+~
+0 -1 8720
+S
+#8722
+A Narrow Corridor ~
+~
+The corridor walls are very narrow here, forcing most who enter to walk
+sideways.  The walls are covered in a thick mildew.  There is a grate
+that runs the length of the floor.
+~
+1 0 1
+D0
+~
+~
+0 -1 8723
+D3
+~
+~
+0 -1 8721
+R M 0 8720 8 8722
+R M 0 8720 8 8722
+R M 0 8720 8 8722
+S
+#8723
+A Small Chamber~
+~
+The chamber is only slightly larger then the narrow corridor.  There are
+small bones littering the floor that cover up most of the grate.  The
+walls are covered in a mildew.
+~
+1 0 1
+D2
+~
+~
+0 -1 8722
+D5
+~
+~
+0 -1 8724
+S
+#8724
+Descending Downward~
+~
+There is a stairwell that leads up and down here. The walls are made out 
+of interlocking bricks. A thick slimly substance covers the stairwell 
+making it difficult to purchase a hold on it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8725
+D4
+~
+~
+0 -1 8723
+R M 0 8720 4 8724
+R M 0 8720 4 8724
+S
+#8725
+A Vast Chamber~
+~
+The massive chamber extends over a small pond of raw sewage that the
+grates from the hallways all seem to flow too.  The walls are covered
+in mold and mildew all around.
+~
+1 0 1
+D2
+~
+~
+0 -1 8724
+D3
+~
+~
+0 -1 8726
+D4
+~
+sewer grate~
+16777219 -1 11238
+S
+#8726
+A Long Passageway~
+~
+The hall length is covered in mold and mildew along the walls.  There are
+several humanoid skeletons laying about the hall here.  A long grate 
+extends the length the hallway on the floor.
+~
+1 0 1
+D1
+~
+~
+0 -1 8725
+D3
+~
+~
+0 -1 8727
+R M 0 8720 2 8726
+S
+#8727
+The Passageway~
+~
+The hallway extends quite a ways to the east and west of here.  There is
+a grate that is in the middle of the floor that travels the length of the
+floor.  The walls are covered in a thick furry mildew.
+~
+1 0 1
+D1
+~
+~
+0 -1 8726
+D3
+~
+~
+0 -1 8716
+S
+#8728
+A Large Fire Pit~
+~
+The Massive room is filled with a giant fire pit. It has broken old 
+cobblestones surrounding a ash filled pit. The ceiling above is blackened 
+with years of use. The walls are covered in a thick mildew.
+~
+1 0 1
+D1
+~
+~
+0 -1 8729
+D3
+~
+~
+0 -1 8718
+R M 0 8707 1 8728
+S
+#8729
+Within the Passage~
+~
+There are broken cobblestones on the walls where years of water have 
+damaged the structure of the walls.  The walls have a mildew film that
+covers most of them.  The floor has a grate that runs in the middle.
+~
+1 0 1
+D1
+~
+~
+0 -1 8730
+D3
+~
+~
+0 -1 8728
+S
+#8730
+A Small Cavern~
+~
+The massive room is sided like an octagon in shape. The walls are covered 
+in a mixture of mildew and blood stains. A nasty black substance hangs 
+from the ceiling. The floor has a grate that runs down the middle of it.
+~
+1 0 1
+D3
+~
+~
+0 -1 8729
+R M 0 8708 1 8730
+S
+#8731
+Beside a False Wall~
+~
+The walls are made out of interlocking bricks. They are crumbling from 
+cracks in them, and have been reinforced with thick oak beams. There is a 
+strange black liquid that runs through an inlay and has foreign objects 
+throughout it. A track is along the wall that is used for the false wall. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8732
+D2
+~
+false wall~
+16777217 -1 8701
+S
+#8732
+Along the Passageway~
+~
+There are interlocking bricks that make up the walls. A few have fallen to 
+the ground. There is raw sewage running along the center of passage. A few 
+small rocks are along the sides of the passage. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8733
+D2
+~
+~
+0 -1 8731
+R M 0 8720 12 8732
+R M 0 8720 12 8732
+S
+#8733
+A Drain Off Point~
+~
+There is a large drain that sewage is running off into here. A giant sized 
+filter made of iron filters out the big items. The walls are made out of 
+interlocking bricks. A large bin with a few shovels are by the drain. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8734
+D2
+~
+~
+0 -1 8732
+S
+#8734
+A Sharp Turn~
+~
+The walls are made out of interlocking bricks. There are small amounts of 
+sewage that have splashed up against the walls here. Another smaller drain 
+is embedded in the wall to catch any runoff. 
+~
+1 0 1
+D2
+~
+~
+0 -1 8733
+D3
+~
+~
+0 -1 8735
+S
+#8735
+A Slight Climb in Elevation~
+~
+The sewer seems to climb upward at this point. The walls are made out of 
+interlocking bricks. There is mildew growing along the edge of the walls 
+at different spots. A few small bricks have fallen to the ground. 
+~
+1 0 1
+D1
+~
+~
+0 -1 8734
+D3
+~
+~
+0 -1 8736
+R M 0 8720 14 8735
+R M 0 8720 14 8735
+R M 0 8720 14 8735
+S
+#8736
+A Sharp Curve~
+~
+The sewer turns in at a right angle here. The walls are made out of 
+interlocking bricks. A large splash of mildew is on the north wall. There 
+are a few small rocks scattered about the floor. 
+~
+1 0 1
+D1
+~
+~
+0 -1 8735
+D2
+~
+~
+0 -1 8737
+R M 0 8705 1 8736
+  R E 0 8701 1 16
+  R E 0 8351 1 18
+S
+#8737
+Beside a Rotting Corpse~
+~
+The rancid bloating corpse of a sewer rat fills this spot with a horrible 
+smell. The walls are made out of interlocking bricks. A series of small 
+mildew lines are along the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8736
+D2
+~
+~
+0 -1 8738
+R M 0 8720 16 8737
+R M 0 8720 16 8737
+S
+#8738
+Within the Passageway~
+~
+There is a wall completely covered in mildew on the east side. The west 
+side wall has a small amount of mildew starting. The walls are made out of 
+interlocking bricks. Various debris litters the ground. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8737
+D2
+~
+~
+0 -1 8739
+S
+#8739
+A Slight Descent in the Passage~
+~
+The sewer passage begins to trek downward here. A small amount of moisture 
+is built up along the floor. The walls are made out of interlocking bricks 
+and have large patches of mildew along them. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8738
+D2
+~
+~
+0 -1 8740
+S
+#8740
+A Partially Collapsed Section~
+~
+The ceiling partially collapsed leaving a small hole to crawl through. 
+There are rocks, bricks, and various debris scattered about the floor. A 
+thick mildew covers the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8739
+D2
+~
+~
+0 -1 8741
+R M 0 8720 19 8740
+R M 0 8720 19 8740
+R M 0 8720 19 8740
+S
+#8741
+Along the Passageway~
+~
+There is a small wooden barricade along the wall here that is setup to 
+defend this section of the sewer. The walls are made out of interlocking 
+bricks. A heavy mildew is along the south wall. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8740
+D3
+~
+~
+0 -1 8742
+R M 0 8702 1 8741
+S
+#8742
+Within a Narrow Passageway~
+~
+The sewer passage narrows greatly here to a small create a small utility 
+like room to the south. The walls are floors are made out of interlocking 
+bricks there is a small amount of water along the ground. 
+~
+1 0 1
+D1
+~
+~
+0 -1 8741
+D2
+~
+~
+0 -1 8743
+S
+#8743
+A Small Chamber~
+~
+The original sewer system comes to an end partially into the chamber, and
+the south has been dug out of the earth itself.  There are boulders and
+small rocks laying about along the sides of the chamber.
+~
+1 0 1
+D0
+~
+~
+0 -1 8742
+D2
+~
+~
+0 -1 8744
+S
+#8744
+A Mildew Covered Room~
+~
+The walls and floors are covered in a thick furry mildew. There is a path 
+that leads down the center of the room. A few giant sized mushrooms are 
+growing along the edges of the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 8743
+D2
+~
+~
+0 -1 8745
+S
+#8745
+A Tank of Water~
+~
+The room floor is a giant tank of water. The water is very murky and 
+little is visible within it's depths. There are a few small rocks around 
+the tank. The walls are made out of interlocking bricks. 
+~
+1 0 6
+D0
+~
+~
+0 -1 8744
+D1
+~
+~
+16777216 -1 8746
+S
+#8746
+Water Filled Chamber~
+~
+The walls have a green vegetation growing on them. There are various forms 
+of debris floating about within the water. A slimy type of vegetation is 
+growing on the ground. Large boulders are along the ground making it 
+difficult to negotiate a path through the chamber. 
+~
+1 0 8
+D1
+~
+~
+0 -1 8747
+D3
+~
+~
+16777216 -1 8745
+S
+#8747
+An Underwater Chamber~
+~
+The walls have a green vegetation growing on them. There are various forms 
+of debris floating about within the water. A slimy type of vegetation is 
+growing on the ground. A few small boulders are along the ground. 
+~
+1 0 8
+D1
+~
+~
+0 -1 8748
+D3
+~
+~
+0 -1 8746
+S
+#8748
+Underwater Stairwell~
+~
+The underwater passage is covered in a slime along the ground. There is a 
+set of slippery stairs that lead upward towards a light. A few strange 
+things are floating around the water. 
+~
+1 0 8
+D3
+~
+~
+0 -1 8747
+D4
+~
+~
+128 -1 8749
+S
+#8749
+Thieves Nest~
+~
+There are luxurious furniture and decorations all throughout the thieve's
+nest.  Several bunks are setup along the walls.  There are chests lining
+the walls.  A few hooded lanterns are mounted to the walls.
+~
+1 0 1
+D5
+~
+~
+0 -1 8748
+R M 0 8701 1 8749
+  R E 0 8702 1 16
+R M 0 8703 1 8749
+R M 0 8704 1 8749
+S
+#8750
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

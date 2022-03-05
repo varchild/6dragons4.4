@@ -1,0 +1,3530 @@
+#AREA        Szithlin City~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The hustle and bustle of the city gives it a lively feeling.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 120050000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2200
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2201
+Trocklan guard~
+Trocklan~
+A large guard watches the gate carefully
+~
+Sneering and jeering at people this drow appears to be a member of the 
+guard. He stands his post at the gate watching all those who approach the 
+hidden city. 
+~
+0
+Clanname none~
+0
+0
+67 4194432 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+> greet_prog 100~
+if iscarrying($n) == 2201
+  mpechoat $n &cTrocklan guard nods towards you.&D
+  mpechoat $n &CTrocklan guard says, 'I see you kept the key.  Enter as you please.'&D
+else
+  mpechoat $n &CTrocklan guard says, 'You there.  Are you seeking entrance into this place?'&D
+  mpechoat $n &cType &WSAY YES&c to find out more.&D
+endif
+~
+> speech_prog p yes~
+mpechoat $n &CTrocklan guard says, 'Alright then, let's get down to business.'&D
+mppause 3
+mpechoat $n &cTrocklan guard peers around suspiciously.&D
+mpechoat $n &CTrocklan guard says, 'I'll give you this pretty little key here if you give me a gold coin.'&D
+~
+> act_prog 'gives you 1 gold coin.'~
+mpoload 2201
+get key
+give key $n
+mpechoat $n &CTrocklan Guard says, 'There, our business is done. Get outta my sight before I desire that key back.'&D
+~
+> rand_prog 75~
+close door
+lock door
+~
+|
+#2202
+Phaernozz~
+Phaernozz~
+Phaernozz stands near his forge working.
+~
+Phaernozz works hard at his forge as he repairs peoples armors. He has a 
+hardened look about him as he pounds away through the day fixing and 
+mending things. 
+~
+0
+Clanname none~
+0
+0
+67 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2203
+Drizlin~
+Drizlin~
+Drizlin stands behind his counter selling weapons
+~
+This stout looking Drow man stands tall as he sells his wares. His eyes 
+fixate on everyone in his surroundings making sure that no thieves are 
+able to get away with anything. 
+~
+0
+Clanname none~
+0
+0
+67 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#2204
+Allisia~
+Allisia~
+Allisia stands behind the counter watching people in the shop
+~
+A very beautiful Drow, Allisia stands and watches as people browse her 
+stores. She is very attentive and makes sure that everyone gets what they 
+want. 
+~
+0
+Clanname none~
+0
+0
+67 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2205
+Chalnolu~
+Chalnolu~
+Chalnolu stands behind his counter selling his wares
+~
+Chalnolu stands tall and proud as he sells his armor. He is stern and 
+keeps a close look out for thieves and anyone else who thinks they're 
+gonna pull a fast one on him. 
+~
+0
+Clanname none~
+0
+0
+67 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2206
+Kezaler~
+Kezaler~
+Kezaler stands here watching customers shop
+~
+This Drow is very humble looking compared to others. He has a very kind 
+look about him as he watches people come and go in his shop. 
+~
+0
+Clanname none~
+0
+0
+67 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2207
+Akura~
+Akura~
+Akura stands at the head of the room teaching
+~
+Clad in the finest armor, Akura stands teaching her pupils. She wears a 
+feirce expression at all times, as though she could attack someone at any 
+moment. 
+~
+0
+Clanname none~
+0
+0
+67 8320 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 2 0
+#2208
+Vierzar~
+Vierzar~
+Vierzar stands here watching her classroom
+~
+Clad in mystic robes, this teacher watches over her students with a slight 
+look of disinterest. She has long white hair and skin as dark as night, as 
+most drow do. 
+~
+0
+Clanname none~
+0
+0
+67 8320 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2209
+Jhulda~
+Jhulda~
+Jhulda, the advanced trainer stands here
+~
+This drow is armed with a golden sword and a long robe about his body. He 
+watches as people train on the zombie he controles patiently. 
+~
+0
+Clanname none~
+0
+0
+67 8320 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2210
+Zarace~
+Zarace~
+Zarace stands here teaching his class
+~
+This drow is armed with a golden sword and a long robe about his body. He 
+watches as people train on the zombie he controles patiently. 
+~
+0
+Clanname none~
+0
+0
+67 8320 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2211
+zombie slave~
+A zombie slave~
+A zombie slave stands here chained to the middle of the room
+~
+~
+0
+Clanname none~
+0
+0
+2051 0 0 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2212
+Zunjss~
+Zunjss~
+Zunjss, the headmaster sits behind her desk looking about.
+~
+The headmistress sits sturdy behind her desc. She is large and very powerful looking
+compared to most average drow her age. She appears to be very old and has a large
+amount of wisdom in her eyes.
+~
+0
+Clanname none~
+0
+0
+67 369107072&67108872 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2213
+Darzell~
+Darzell~
+Darzell stands here handling people's money
+~
+Dressed rather plainly Darzell stands here with his hair in a long braid. 
+His skin is dark in color and his eyes have a faint blue glow to them. 
+~
+0
+Clanname none~
+0
+0
+67108931 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+#2214
+bone wraith~
+The bone wraith~
+The bone wraith roars loudly in its home
+~
+A large collection of bones is all that this dragon appears to be. Its 
+head is glowing with the constant magic that brings it life. A collosal 
+beast, it moves and crushes everything under it's feel as it lumbers 
+around. 
+~
+0
+Clanname none~
+0
+0
+35 1447043200&-2080370616&16392 0 C
+100 0 0 0d0+3392 0d0+500
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+-20 -20 -30 -20 -20
+13 4 0 0 1 1 0
+0 0 0 0 0 0 371728579&1 0
+> death_prog 100~
+if quest(bonewraith) == 1
+  roar
+  mpoload 2213
+  drop orb
+  mpquest $n bonewraith 2
+else
+  roar
+endif
+~
+|
+#2215
+Opalzal~
+Opalzal~
+The highpriestest watches over her chambers
+~
+Clad in magnificent robes, the highpriestest of Lloth watches over her 
+chambers. She is tall and magnicent looking, her long white hair braided 
+with a spider designed robe she appears to be very dedicated. 
+~
+0
+Clanname none~
+0
+0
+1073741891 369107072&67108872 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+> greet_prog 100~
+if quest(bonewraith) <= 1
+  mpechoat $n &COpalzal says, 'Have you slayed it yet? Please hurry!'&D
+  sigh
+  if quest(bonewraith) == 3
+    mpechoat $n &COpalzal says, 'Thanks again for everything $n.'&D
+    smile $n
+  else
+    mpechoat $n &COpalzal says, 'Oh hello there! Please, would you be willing to help?'&D
+    mpechoat $n &cType &WSAY YES&c to accept this task.&D
+    sigh
+  endif
+endif
+~
+> speech_prog p yes~
+if quest(bonewraith) < 1
+  mpechoat $n &cOpalzal nods.
+  mpechoat $n &COpalzal says, 'Ok then.'&D
+  mppause 3
+  mpechoat $n &COpalzal says, 'In the graveyard, at the grave of the traitor there is a power growing, that can destroy us all!'&D
+  mpechoat $n &cOpalzal sights.&D
+  mppause 3
+  mpechoat $n &COpalzal says, 'Please enter the grave and defeat this monster before it can destroy all the world!'&D
+  mpquest $n bonewraith 1
+else
+endif
+~
+> act_prog p gives you The orb of life.~
+if quest(bonewraith) == 2
+  mpechoat $n &COpalzal says, 'Oh thank Lloth! Thank you so much!'&D
+  mpechoat $n &cOpalzal smiles at you.&D
+  mppurge orb
+  mppause 5
+  mpechoat $n &COpalzal says, 'Here is your reward!'&D
+  mpoload 2212
+  mpquest $n bonewraith 3
+  give blade $n
+else
+  mpechoat $n &COpalzal says, 'What do I want with this?'&D
+endif
+~
+|
+#2216
+Drow worshiper~
+A drow worshiper~
+A drow worshiper moves about praying
+~
+This drow worshiper walks about the area in a time of deep prayer. She smiles
+at other worshipers but never speaks, not wanting to upset Lloth.
+~
+0
+Clanname none~
+0
+0
+1 33554560 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2217
+Female citizen drow~
+A female citizan~
+A female drow citizen walks about her own business
+~
+A female drow, she looks to be your average, every day, run-of-the-mill 
+citizen of Szithlin. Which is to say, she doesn't look particularly 
+friendly, nor does she look particularly interested in speaking with you. 
+~
+0
+Clanname none~
+0
+0
+1 33554560 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2218
+male drow citizen~
+A male citizen~
+A male drow citizen walks about the city streets
+~
+A male drow, he looks to be your average, run-of-the-mill, middle-class 
+citizen of Szithlin. Which is to say, he doesn't look particularly 
+friendly, nor does he look particularly interested in speaking with you. 
+~
+0
+Clanname none~
+0
+0
+1 33554560 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2219
+drow student~
+A drow student~
+A drow student walks about going to class
+~
+This poor student is running around in such a hurry she drops her books at 
+nearly every turn. A frightened look on her face, as she knows the 
+consequences if she's late. 
+~
+0
+Clanname none~
+0
+0
+1 33554560 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2220
+drow mourner~
+A mourner~
+A mourner walks about the graveyard crying
+~
+A nameless face in the crowd, looking much like others to one unfamiliar 
+with their kind. This lost soul wonders about, looking for that which is 
+lost to her.
+~
+0
+Clanname none~
+0
+0
+1 33554560 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2221
+drow castle guard~
+A castle guard~
+A castle guard moves around watching everyone
+~
+This large bulky female guard is not only beautiful in appearance, but 
+very deadly. She wears a heavy set of armor about her body and carries a 
+long sword at all times in protection of the cast. 
+~
+0
+Clanname none~
+0
+0
+1 301998208&8 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217728 34078786
+#2222
+Darzral~
+Darzral~
+The arena master stands in the middle setting people up with fights.
+~
+The headmistress sits sturdy behind her desc. She is large and very powerful looking
+compared to most average drow her age. She appears to be very old and has a large
+amount of wisdom in her eyes.
+~
+0
+Clanname none~
+0
+0
+67108931 373301416&8 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 134217730 0
+> greet_prog 100~
+if quest(drowarena) < 1
+  mpechoat $n &CDarzral says, 'Hail!'&D
+  mpechoat $n &cDarzral smiles at you as you enter the arena.&D
+  mppause 3
+  mpechoat $n &CDarzral says, 'Ok if you want to try the arena, we'll set you up with your first fight!'&D
+  mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to accept this challenge.&D
+else
+  mpechoat $n &CDarzral says, 'Hail $n! Are you ready for your next challenge?'&D
+  mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to proceed.&D
+endif
+~
+> speech_prog p I'm ready for the fight!~
+mpquest $n drowarena 1
+if quest(drowarena) == 1
+  mppause 3
+  if level($n) > 9
+    mpmload 2223
+    mpechoat $n &cA drow wimp staggers in, cowering at the noises.&D
+  else
+    mpechoat $n &cYou are not strong enough to fight this beast.
+  endif
+else
+  if quest(drowarena) == 3
+    if level($n) > 19
+      mpmload 2224
+      mpechoat $n &cA vicious lion jumps into the arena.&D
+      mppause 3
+    else
+      mpechoat $n You are not strong enough for this beast.
+    endif
+  else
+    if quest(drowarena) ==5
+      if level($n) > 29
+        mpmload 2225
+        mpechoat $n A Horrible malboro slides into the arena.
+        mppause 3
+      else
+        mpechoat $n You are not strong enough for this beast.
+      endif
+    else
+      if quest(drowarena) == 7
+        if level($n) > 39
+          mpmload 2226
+          mpechoat $n A fersome basilisk slithers towards you.
+          mppause 3
+        else
+          mpechoat $n You are not strong enough for this beast.
+        endif
+      else
+        if quest(drowarena) == 9
+          if level($n) > 49
+            mpmload 2227
+            mpechoat $n A Hecatonchires stalks into the arena.
+            mppause 3
+          else
+            mpechoat $n You are not strong enough for this beast.
+          endif
+        else
+          if quest(drowarena) == 11
+            if level($n) > 59
+              mpmload 2228
+              mpechoat $n A drow elite silently glides into the arena.
+              mppause 3
+            else
+              mpechoat $n You are not strong enough for this beast.
+            endif
+          else
+            if quest(drowarena) == 13
+              if level($n) > 69
+                mpmload 2229
+                mpechoat $n Cerberus charges into the arena, snarling.
+                mppause 3
+              else
+                mpechoat $n You are not strong enough for this beast.
+              endif
+            else
+              if quest(drowarena) == 15
+                if level($n) > 79
+                  mpmload 2230
+                  mpechoat $n An elder wyrm slides into the arena.
+                  mppause 3
+                else
+                  mpechoat $n You are not strong enough for this beast.
+                endif
+              else
+                if quest(drowarena) == 17
+                  if level($n) > 89
+                    mpmload 2231
+                    mpechoat $n A giant hydra sways back and forth, as it makes it's way towards you.
+                    mppause 3
+                  else
+                    mpechoat $n You are not strong enough for this beast.
+                  endif
+                else
+                  if quest(drowarena) == 19
+                    if level($n) > 99
+                      mppause 3
+                      mpmload 2232
+                      mpechoat $n The golden soul reaver dragon roars with an earsplitting screetch.
+                    else
+                      mpechoat $n You are not strong enough for this beast.
+                    endif
+                  endif
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+> speech_prog p Die sucker!~
+if quest(drowarena) == 2
+  mppause 3
+  mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+  mpoload 2214 10
+  give helm $n
+  mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+  mppause 3
+  mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+  mpquest $n drowarena 3
+else
+  if quest(drowarena) == 4
+    mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+    mpoload 2215 20
+    give bracer $n
+    mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+    mppause 3
+    mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+    mpquest $n drowarena 5
+  else
+    if quest(drowarena) == 6
+      mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+      mpoload 2216 30
+      give plate $n
+      mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+      mppause 3
+      mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+      mpquest $n drowarena 7
+    else
+      if quest(drowarena) == 8
+        mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+        mpoload 2217 40
+        give dagger $n
+        mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+        mppause 3
+        mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+        mpquest $n drowarena 9
+      else
+        if quest(drowarena) == 10
+          mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+          mpoload 2218 50
+          give potion $n
+          mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+          mppause 3
+          mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&cto continue.&D
+          mpquest $n drowarena 11
+        else
+          if quest(drowarena) == 12
+            mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+            mpoload 2219 60
+            give boots $n
+            mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+            mppause 3
+            mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+            mpquest $n drowarena 13
+          else
+            if quest(drowarena) == 14
+              mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+              mpoload 2220 70
+              give shield $n
+              mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+              mppause 3
+              mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&c to continue.&D
+              mpquest $n drowarena 15
+            else
+              if quest(drowarena) == 16
+                mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+                mpoload 2221 80
+                give necklace $n
+                mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+                mppause 3
+                mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&cto continue.&D
+                mpquest $n drowarena 17
+              else
+                if quest(drowarena) == 18
+                  mpechoat $n &CDarzral says, 'Congratulations! Well done indeed.'&D
+                  mpoload 2222 90
+                  give belt $n
+                  mpechoat $n &CDarzral says, 'Enjoy your prize!'&D
+                  mppause 3
+                  mpechoat $n &cType &WSAY I'M READY FOR THE FIGHT!&cto continue.&D
+                  mpquest $n drowarena 19
+                else
+                  if quest(drowarena) == 20
+                    mppause 3
+                    mpechoat $n &CDarzral says, 'CONGRATULATIONS!  You've completed this quest and the many fights! You have impressed me and the rest of all Szithlin!'&D
+                    mpoload 2223 100
+                    give helm $n
+                    mpechoat $n &CDarzral says, 'Enjoy, you earned it!'&D
+                    mpquest $n drowarena 21
+                  else
+                    mpechoat $n &CDarzral says, 'You didn't kill anything.'&D
+                  endif
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+|
+#2223
+Drow wimp~
+a drow wimp~
+A drow wimp stands here ready for battle
+~
+A scared looking young drow boy, rather weak as well. This drow was most 
+likely chosen for cannon fodder or the arena because of his weak stature. 
+~
+0
+Clanname none~
+0
+0
+1073741891 4194432 -1000 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 50 0
+> death_prog 100~
+if quest(drowarena) == 1
+mpquest $n drowarena 2
+mpforce $n say Die sucker!
+endif
+~
+|
+#2224
+viscous lion~
+A viscous lion~
+A viscous lion roars and attacks!
+~
+The lion has a large mane and strong legs. Teeth as sharp as the most 
+deadly of spears and a roar that can shake the earth, a definite challenge 
+for those dumb enough to face it. 
+~
+0
+Clanname none~
+0
+0
+1073741891 4194432 -1 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 3 2
+> death_prog 100~
+if quest(drowarena) == 3
+mpquest $n drowarena 4
+mpforce $n say Die sucker!
+endif
+~
+|
+#2225
+Horrible malboro~
+A horrible malboro~
+A horrible malboro moves about on tentacles
+~
+Long flowing tentacles and a large mouth full of rows and rows of razor 
+sharp teeth. Its eyes move around and view all around as the beast shows 
+it's thirst for blood. 
+~
+0
+Clanname none~
+0
+0
+1073741891 4194432 -1000 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+45 4 0 0 1 1 0
+0 0 0 0 0 0 1107591168 2
+> death_prog 100~
+if quest(drowarena) == 5
+mpquest $n drowarena 6
+mpforce $n say Die sucker!
+endif
+~
+|
+#2226
+fearsome basilisk~
+A fearsome basilisk~
+A fearsome basilisk slithers around about the area
+~
+A massive snake, this fearsome basilisk slithers around the area looking 
+for prey, how ever it was caught and put to use as a arena monster might 
+make one wonder.... 
+~
+0
+Clanname none~
+0
+0
+1073741891 306184320 -1000 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+45 4 0 0 1 1 0
+0 0 0 0 0 0 16512 2
+> death_prog 100~
+if quest(drowarena) == 7
+mpquest $n drowarena 8
+mpforce $n say Die sucker!
+endif
+~
+|
+#2227
+Hecatonchires ~
+Hecatonchires~
+Hecatonchires  waves it's one hundred arms around madly
+~
+One hundred arms of death swing around this monstrosity almost as whatever 
+created this beast made it purly to spite the very gods of creation 
+themselves. 
+~
+0
+Clanname none~
+0
+0
+1073741891 306184320 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+45 4 0 0 1 1 0
+0 0 0 0 0 0 134496640 66
+> death_prog 100~
+if quest(drowarena) == 9
+mpquest $n drowarena 10
+mpforce $n say Die sucker!
+endif
+~
+|
+#2228
+A drow elite ~
+an elite drow warrior~
+An elite Drow warrior waves his sword around above his head ready to fight
+~
+A very strong drow warrior, this man is powerful and strong. He stands 
+with pride as a gladiator of the arena, and is willing to give his life 
+just to prove he is the best. 
+~
+0
+Clanname none~
+0
+0
+1073741891 306192512 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 1309933952 34086983
+> death_prog 100~
+if quest(drowarena) == 11
+mpquest $n drowarena 12
+mpforce $n say Die sucker!
+endif
+~
+|
+#2229
+Cerberus ~
+Cerberus~
+A huge three headed dog roars ready to kill whoever faces it
+~
+A very strong drow warrior, this man is powerful and strong. He stands 
+with pride as a gladiator of the arena, and is willing to give his life 
+just to prove he is the best. 
+~
+0
+Clanname none~
+0
+0
+67 373301376 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+81 4 0 0 1 1 0
+0 0 0 0 0 0 1309942144 34086983
+> death_prog 100~
+if quest(drowarena) == 13
+mpquest $n drowarena 14
+mpforce $n say Die sucker!
+endif
+~
+|
+#2230
+elder wyrm ~
+An elder wyrm~
+A huge wyrm lumbers around ready to eat whoever comes close
+~
+Covered in dust that hasn't yet been washed off this elder dragon has 
+obviously been asleep for many years before it's capture. 
+~
+0
+Clanname none~
+0
+0
+1073741891 373301376 -1000 C
+80 0 0 0d0+20000 0d0+30
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 0 0 0 0 1310073216 34086983
+> death_prog 100~
+if quest(drowarena) == 15
+mpquest $n drowarena 16
+mpforce $n say Die sucker!
+endif
+~
+|
+#2231
+giant hydra~
+A giant hydra~
+A giant hydra moves about the arena ready to kill
+~
+A massive five headed monster that looks like it could one of the meanest 
+things ever to walk the ground of the world. It roars with power beyond 
+what most can even imagin. 
+~
+0
+Clanname none~
+0
+0
+1073741891 1447043200&-2147483640&8 -1000 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 0 0 0 0 1310073216 34086983
+> death_prog 100~
+if quest(drowarena) == 17
+mpquest $n drowarena 18
+mpforce $n say Die sucker!
+endif
+~
+> fight_prog 20~
+mpecho &RThe hydra prepares an attack!
+mppause 1
+mpecho &RThe hydra rears back!
+mppause 1
+mpecho &RThe five heads all attack at once!
+inferno
+blizzard
+gust
+eldritch
+~
+|
+#2232
+golden soul reaver dragon ~
+the golden soul reaver dragon ~
+Golden soul reaver dragon looms with an evil presence
+~
+The meanest thing the arena people could controle, this beast is horrid 
+and nothing but pure evil, like it'll eat your soul before it'll eat you 
+~
+14
+Clanname none~
+0
+0
+67 1447043200&-2147483640&8 -1000 C
+100 0 0 0d0+20000 0d0+100
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 0 0 0 0 1310073216 34086983
+> death_prog 100~
+if quest(drowarena) == 19
+mpquest $n drowarena 20
+mpforce $n say Die sucker!
+endif
+~
+> fight_prog 100~
+if rand(80)
+if race($n) == dragon
+cast 'dispel magic' $n
+cast 'dispel magic' $n
+cast 'dispel magic' $n
+else
+cast 'dispel magic' $n
+endif
+endif
+
+if rand(20)
+if race($n) == dragon
+mpecho &CThe dragon roars as it sends out a eldritch breath!!!
+mpdamage $n 4000
+else
+mpecho &CThe dragon roars as it sends out a eldritch breath!!!
+mpdamage $n 2000
+endif
+endif
+~
+|
+#2233
+Iym Aer~
+Iym Aer~
+Iym Aer stands here watching over the stray animals.
+~
+Long flowing silver hair strikingly contrasts with the dark shade of his 
+skin. A knowing gleam can be seen in his eyes, almost hawk-like. 
+~
+2
+Clanname none~
+0
+0
+131075 369107584&8 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 1 0 0 1 1 0
+0 0 0 0 0 0 112 0
+#2299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2200
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2201
+Gate key~
+A gate key~
+A large key lays here rusting away~
+~
+18 0 16385
+0 2201 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#2202
+sign entrance~
+A sign~
+A sign hangs over the arch of the entrance with an important message on it~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+sign~
+&RBe WARNED: This is a coliseum, you are free to come and fight anything 
+or anyone you want, but so can anyone else inside it. 
+~
+#2203
+A drow longsword~
+a drow longsword~
+A bright sword lays here rusting away.~
+~
+5 0 8193
+0 17 25 0 0 0 0
+1 111 11
+2
+0
+0
+0
+0
+0
+S 3 0
+#2204
+drow spear~
+A drow spear~
+A long spear lays here rotting~
+~
+5 0 8193
+0 3 10 7 10 0 0
+1 92 9
+2
+0
+0
+0
+0
+0
+S 3 0
+#2205
+drow dagger~
+A drow dagger~
+A small dagger lays here glittering~
+~
+5 8192 8193
+0 5 15 2 2 0 0
+1 104 10
+2
+0
+0
+0
+0
+0
+S 3 0
+#2206
+drow breastplate~
+A drow breastplate~
+A breastplate lays here rusting~
+~
+9 0 9
+5 5 0 0 0 6 0
+1 117 11
+2
+0
+0
+0
+0
+0
+S 77 0
+#2207
+A pair of leg guards lay here rotting~
+A pair of drow leg guards~
+A breastplate lays here rusting~
+~
+9 0 33
+5 5 0 0 0 0 0
+1 124 12
+2
+0
+0
+0
+0
+0
+S 77 0
+#2208
+drow helm~
+A drow helm~
+A helm lays here gathering dust~
+~
+9 0 17
+5 5 0 0 0 0 0
+1 121 12
+2
+0
+0
+0
+0
+0
+S 77 0
+#2209
+Greater mana potion~
+a greater mana rejuvenation potion~
+A greater mana rejuvenation potion has been here.~
+~
+10 0 16385
+45 -1 -1 -1 0 1 0
+1 1 0
+4
+4
+0
+0
+0
+0
+'restore mana' 'restore mana' 'NONE'
+S 0 0
+E
+greater mana potion~
+The liquid within this potion bottle has a glowing property to it.
+~
+#2210
+green vial~
+a green vial~
+A green vial has been left here.~
+~
+10 0&32 16385
+30 -1 -1 -1 96 10 0
+1 2 0
+2
+9
+0
+0
+0
+0
+'heal' 'NONE' 'NONE'
+S 0 0
+#2211
+A scroll of recall~
+A scroll of recall~
+A scroll of recall lies here~
+~
+2 64 16385
+5 -1 -1 -1 0 0 0
+1 22 2
+3
+0
+0
+0
+0
+0
+'word of recall' 'NONE' 'NONE'
+S 0 0
+#2212
+Hero's blade~
+The hero's blade~
+A magestic sword lays here humming with magic~
+~
+5 0 8193
+0 50 100 1 0 0 0
+20 182 18
+1
+0
+0
+0
+0
+0
+S 3 0
+A
+18 10
+A
+19 10
+A
+1 3
+A
+2 3
+#2213
+orb of life~
+The orb of life~
+A golden orb lays here glowing~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#2214
+arena helm~
+A helm won at the arena~
+A helmet from the Drow arena lays here~
+~
+9 0 17
+60 60 0 0 0 0 0
+1 74 8
+4
+0
+0
+0
+0
+0
+S 3 0
+#2215
+Arena bracer~
+An arena bracer~
+A golden bracer has been tossed aside here~
+~
+9 0 4097
+60 60 0 0 0 0 0
+1 160 16
+3
+0
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+13 50
+#2216
+arena breast plate~
+A breastplate from the arena~
+A breastplate from the arena lays here~
+~
+9 0 9
+60 60 0 0 0 0 0
+1 197 19
+3
+0
+0
+0
+0
+0
+S 3 0
+A
+19 2
+A
+18 2
+A
+12 25
+#2217
+arena dagger~
+an arena dagger~
+A dagger from the arena lays here~
+~
+5 0 8193
+0 20 40 2 2 0 0
+1 84 8
+2
+0
+0
+0
+0
+0
+S 0 0
+A
+2 4
+#2218
+arena mega potion~
+An arena mega potion~
+An arena mega potion lays here~
+~
+10 0 16385
+50 -1 -1 -1 0 0 0
+1 155 15
+3
+10
+0
+0
+0
+0
+'NONE' 'NONE' 'giant strength'
+S 0 0
+#2219
+arena boots~
+a pair of arena boots~
+A pair of boots from the arena lay here~
+~
+9 0 65
+60 60 0 0 0 0 0
+1 142 14
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+14 50
+A
+12 50
+A
+13 50
+A
+2 2
+#2220
+arena shield~
+an arena shield~
+An arena shield lays here~
+~
+9 0 513
+50 50 0 0 0 70 0
+1 141 14
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 7
+A
+19 7
+#2221
+arena necklace~
+an arena necklace~
+An arena necklace has been left here~
+~
+9 0 5
+60 60 0 0 0 0 0
+1 168 16
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+17 -75
+#2222
+arena belt~
+An arena belt~
+A belt from the arena was left here~
+~
+9 0 2049
+60 60 0 0 0 0 0
+1 189 18
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+1 5
+A
+5 5
+A
+31 5
+A
+2 5
+#2223
+legendary helm protection~
+The legendary helm of protection~
+A golden helm lays here lost~
+~
+9 0 17
+60 60 0 0 0 100 0
+1 262 26
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+22 -5
+A
+21 -5
+A
+20 -5
+A
+23 -5
+A
+24 -5
+#2299
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2200
+In a Cave~
+~
+The path continues here, even as it plunges into the relative darkness of 
+an opening in the rock face. Though the path is fairly well worn, the many 
+layers of web seem to suggest that this cave houses more spiders than 
+most, indicating that either a way of dealing with this "problem" has yet 
+to be found, or that most of the travelers in the area don't really mind. 
+The path drops steadily away from the mouth of the cave, burrowing deeper 
+and deeper into the world. 
+~
+1 4 11
+D5
+~
+~
+0 -1 2201
+D11
+~
+~
+0 -1 43948
+S
+#2201
+In a Cave~
+~
+The last of the light filtering in from the outside world gives way to the 
+ever-present night of the underground as the cave winds ever deeper. The 
+spiders become all the more densely packed here, though they do not seem 
+particularly interested in anything beyond the day-to-day aspects of their 
+lives. Oddly enough, the musty smell which is often associated with caves 
+seems to be absent from the air here, and a faint smell not entirely 
+unlike that of a spring day wafts up from somewhere down below. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2202
+D4
+~
+~
+0 -1 2200
+S
+#2202
+In a Cave~
+~
+Shadows cast by the light from the entrance to the cave can just barely be 
+made out, shifting along the cold stone walls in a way reminiscent of 
+childhood nightmares. The trail leads further down the steep incline, 
+taking all who choose to follow it further and further from the surface 
+world. Spiders flit about in the darkness on their tiny little legs, 
+instinctively dodging the footfalls of passing travelers. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2201
+D5
+~
+~
+0 -1 2203
+S
+#2203
+Nearing a Gate~
+~
+&OOne going down through the cave will now notice a large gate at the 
+bottom of the steep decline, while someone going up might know that it 
+leads to the entrance of the cave that they are in. The darkness seems to 
+lighten up a bit here as cave nears the gate, as if to call weary 
+travelers to it. Silhouettes of humanoid shapes can be seen moving about 
+near the gate, but the light is very dim and proves to be misleading. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2202
+D5
+~
+~
+0 -1 2204
+S
+#2204
+Entrance to Szithlin, the City of the Drow~
+~
+Two towers stand on either side of a large gate, black in the shadows of 
+the underground, their ominous heights marking the main entrance to 
+Szithlin, city of the Drow. Hundreds of feet below the surface, the only 
+light here is given off by the few softly flickering torches that adorn 
+the walls. A lone guard stands watch here, leering maliciously at 
+anyone who dares demand his presence, and the occasional spider can be 
+seen, shining with reflected light, as it scurries along the surface of 
+the stone. 
+~
+1 0 13
+D3
+~
+door~
+8389671 2201 2205
+D4
+~
+~
+0 -1 2203
+R M 0 2201 1 2204
+  R G 0 2201 1
+R D 0 2204 3 2
+S
+#2205
+Down a Cave~
+~
+The cave grows wider as you get closer to the city, the light becoming 
+just bright enough that one can make out veins of iron running through the 
+stone of the cave walls. The whole area, however, is covered with thick, 
+sticky spider webs. 
+~
+1 4 13
+D1
+~
+door~
+8389671 2201 2204
+D7
+~
+~
+0 -1 2206
+R D 0 2205 1 2
+S
+#2206
+Nearing the City~
+~
+The lighting seems to have improved in this area, and one can see that 
+some effort has been put into tidying things up. This near the city, one 
+can even see the residents going about their daily routines. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2207
+D8
+~
+~
+0 -1 2205
+S
+#2207
+The Outskirts of Szithlin~
+~
+&OThe cave opens wide here as the city can be seen fully now. The city 
+seems to be very clean and organized despite the lack of care in some 
+parts of the cave. The roads are very neatly laid cobblestone with what 
+appears to be a spider design inlaid within them every forty feet or so 
+giving the roads a decorative look. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2216
+D2
+~
+~
+0 -1 2206
+D3
+~
+~
+0 -1 2208
+S
+#2208
+A Dark Off-section~
+~
+The small, dimly lit section of road continues on here, leading away from 
+the city. The slight smell of stagnation can occasionally be detected from 
+the Southwest. Often a Drow in a black veil can be seen walking on the off 
+section going in the direction away from the main road. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2207
+D9
+~
+~
+0 -1 2209
+S
+#2209
+Before a Graveyard~
+~
+The small, dimly lit section of road continues on here, leading away from 
+the city. The slight smell of stagnation can occasionally be detected from 
+the Southwest. Often a Drow in a black veil can be seen walking on the off 
+section going in the direction away from the main road. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2210
+D6
+~
+~
+0 -1 2208
+S
+#2210
+The Graveyard~
+~
+&zMany gravestones populate this place. Most of the headstones are large 
+formed in the image of the person buried. A lot of the plots have been 
+decorated with images of spiders in hopes that the dead will be well 
+received by Lloth.
+~
+1 0 13
+D0
+~
+~
+0 -1 2211
+D1
+~
+~
+0 -1 2209
+D2
+~
+~
+0 -1 2212
+D3
+~
+~
+0 -1 2215
+R M 0 2220 2 2210
+S
+#2211
+The Graveyard~
+~
+&zThe graves are very organized here and throughout the rest of the site. 
+They are spaced perfectly in line with each other making it look very 
+organized. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2210
+D3
+~
+~
+0 -1 2214
+R M 0 2220 3 2211
+S
+#2212
+The Graveyard~
+~
+&zThe graveyard seems to get darker the farther in from the entrance. The 
+stones are very old near the entrance but seem to get newer the farther 
+away. A few mourners can be seen from time to time visiting their loved 
+ones graves. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2210
+D3
+~
+~
+0 -1 2213
+S
+#2213
+The Graveyard~
+~
+&zThe graveyard continues to be pretty much the same as the rest of the 
+area. Very organized and clean. A mourner or two can be seen walking about 
+going from grave to grave visiting their loved ones who have died. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2215
+D1
+~
+~
+0 -1 2212
+R M 0 2220 4 2213
+S
+#2214
+The Lone Grave of the Traitor~
+~
+&zHere stands the grave of the traitor Xeigabat. The headstone is much 
+smaller then the rest of the graveyard. It rests alone off in a corner of 
+the area all by itself away from the rest of the grave sites. The grave 
+itself has seen quite a bit of vandalism over the years as no one really 
+cares seeing as it is a symbol of dishonor in itself. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2211
+D2
+~
+~
+0 -1 2215
+D10
+~
+'enter grave'~
+133120 -1 2269
+> entry_prog 50~
+if quest(bonewraith) == 1
+  mpechoat $n &cYou sense that you can &WENTER&c something there.&D
+endif
+~
+|
+S
+#2215
+The Graveyard~
+~
+&zThe graves are very organized as the rest of the site. Mourners walk 
+around as well as people just looking around the graveyard. The plots are 
+very decorated as the Drow reave there fallen brethren. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2214
+D1
+~
+~
+0 -1 2210
+D2
+~
+~
+0 -1 2213
+R M 0 2220 5 2215
+S
+#2216
+Intersection of Victran and Graybryn~
+~
+This is the very opening of Szithlin. To the north leads the main road 
+Victran. Intersecting here is Graybryn another road that leads around the 
+southern portion of the city. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2217
+D1
+~
+~
+0 -1 2251
+D2
+~
+~
+0 -1 2207
+D3
+~
+~
+0 -1 2286
+R M 0 2217 5 2216
+R M 0 2218 5 2216
+S
+#2217
+Down Victran~
+~
+This street seems extremely clean and organized. The city as a whole is 
+very much organized, really close attention to detail was used in building 
+this city from what it looks like. The buildings and roads throughout the 
+city have been very maintained even though it seems they are very old. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2218
+D2
+~
+~
+0 -1 2216
+S
+#2218
+Down Victran~
+~
+&OContinuing down Victran one may notice the shops here. To the west is a 
+shop with a sign displaying a picture of a weapon. To the east is a shop 
+with a sign of a forge hammer. A few Drow can be seen walking around here 
+but the amount grows larger in the north where the village square is. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2221
+D1
+~
+~
+0 -1 2219
+D2
+~
+~
+0 -1 2217
+D3
+~
+~
+0 -1 2220
+R M 0 2217 4 2218
+R M 0 2218 4 2218
+S
+#2219
+Szithlin repair shop~
+~
+As one enters this room they can feel a breeze of heat circulating in the 
+room. A large forge sits in the middle of the room with a bulky Drow male 
+pounding out some metal. Many weapons and suits of armor are neatly 
+displayed waiting for there owners to return for them. The man pounding 
+away near the forge seems very content in his work. 
+~
+1 134217728 13
+D3
+~
+~
+0 -1 2218
+R M 0 2202 1 2219
+S
+#2220
+Swords and More~
+~
+&OMany weapons line the walls here on display. This shop is very neat and 
+clean following the precedent of the rest of the city. The weapons 
+obviously aren't made here, seems they are made on a different location. 
+There is a large oak wood counter with a drow standing behind it taking 
+money for the weapons he is selling. 
+~
+1 134217728 13
+D1
+~
+~
+0 -1 2218
+R M 0 2203 1 2220
+  R G 0 2205 1
+  R G 0 2204 1
+  R G 0 2203 1
+S
+#2221
+Down Victran~
+~
+&OTo the north one can see the city square in the distance and to the 
+south one can see the opening in the cave where the village begins. The 
+density of the population seems to grow as one continues north toward the 
+city square. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2222
+D2
+~
+~
+0 -1 2218
+S
+#2222
+Down Victran~
+~
+&OThe road seems to get a bit more crowded here as it nears the city 
+square. Drow can be seen walking in and out of stores around here going 
+about there business. To the west a nice looking restaurant can be seen 
+and to the east a building with what looks like an armored spider pained 
+on a sign out front. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2226
+D1
+~
+~
+0 -1 2223
+D2
+~
+~
+0 -1 2221
+D3
+~
+~
+0 -1 2224
+R M 0 2217 3 2222
+R M 0 2218 3 2222
+S
+#2223
+The Armoury~
+~
+&OThis room is full of armor display's from around the world. Although 
+most of it isn't for sale there is still a nice stock. The drow standing 
+behind the counter has a rather stoic look about him as he watches people 
+walk in and out of his shop. The man peers at you intently as you browse 
+through the shop. There is a stair case near the back of the shop that 
+leads up to the jewelry store. 
+~
+1 134217728 13
+D3
+~
+~
+0 -1 2222
+D4
+~
+~
+0 -1 2225
+R M 0 2205 1 2223
+  R G 0 2206 1
+  R G 0 2208 1
+  R G 0 2207 1
+S
+#2224
+Drow's Delicacy~
+~
+&OTables are neatly set in here and people can be seen sitting around 
+working very diligently. The smell of food floats through the air. 
+A few waitresses move around taking orders and cleaning tables. 
+~
+1 134217728 13
+D1
+~
+~
+0 -1 2222
+R M 0 2204 1 2224
+S
+#2225
+The Magic Shop~
+~
+A large drow stands behind the counter selling his goods. Potions and 
+scrolls line the walls here as well as an apparatus for magic here and 
+there. Customers move in and out of the store all day keeping it very busy 
+here. 
+~
+1 0 13
+D5
+~
+~
+0 -1 2223
+R M 0 2206 1 2225
+  R G 0 2211 1
+  R G 0 2210 1
+  R G 0 2209 1
+S
+#2226
+Down Victran, Near the Square~
+~
+The density of the population is large here just outside the city's 
+square. Many drow move about going about there business not paying much 
+attention to anything but what they are doing. Just north is the city 
+square and south in the distance is where the cave opens into the 
+underground city. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2227
+D2
+~
+~
+0 -1 2222
+S
+#2227
+Szithlin Square~
+~
+The square is very crowded with the mass of the population moving through 
+here to get to other parts of town. In the center of the square sits a 
+large fountain in the shape of a giant spider spewing water from its 
+mouth. The water hits the ground and follows a small trench out of the 
+square. To the north the castle can be seen overlooking the city. To the 
+west is the residential area and to the east is more shops and other large 
+buildings. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2276
+D1
+~
+~
+0 -1 2228
+D2
+~
+~
+0 -1 2226
+D3
+~
+~
+0 -1 2272
+S
+#2228
+Natheari Way~
+~
+Just east of the city square one would notice this road is somewhat 
+crowded. To the east a large building can be seen in the distance with 
+people around it. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2229
+D3
+~
+~
+0 -1 2227
+R M 0 2217 2 2228
+R M 0 2218 2 2228
+S
+#2229
+Natheari Way~
+~
+The large building in the east is very visible now. It is a tower like 
+building standing a few stories in the air. There are a few people moving 
+around outside but most of the movement is people coming and going. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2230
+D3
+~
+~
+0 -1 2228
+S
+#2230
+Natheari Way~
+~
+Just south of here is a pretty large building. There are many people 
+people moving in and out of the building some wearing uniforms. To the 
+west is the city square and the road continues to the east a little more 
+as well. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2247
+D2
+~
+~
+0 -1 2231
+D3
+~
+~
+0 -1 2229
+S
+#2231
+Before the Academy~
+~
+&OThe academy stand here high in the sky. The building reaches several 
+stories into the air. Many drow students and teachers move about in and 
+out of the building. The building is tower-like standing tall looming over 
+the small coward in front of it. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2230
+D2
+~
+~
+0 -1 2232
+S
+#2232
+The Academy, Ground Floor~
+~
+&OThis is the base level of the academy. Class rooms for the students are 
+seen to the northwest, southwest. Northeast, and southwest. A large spiral 
+staircase leads up to the next level of the tower from the center of the 
+room. The floor's bricks have been inlaid with a very large mural of a 
+spider filling the whole floor. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2231
+D4
+~
+~
+0 -1 2237
+D6
+~
+~
+0 -1 2233
+D7
+~
+~
+0 -1 2236
+D8
+~
+~
+0 -1 2234
+D9
+~
+~
+0 -1 2235
+R M 0 2219 2 2232
+S
+#2233
+Fighter Training~
+~
+In this room there are no desks at all. There is a large mat in the middle 
+of the floor which has the design of a spider on it. The students stand 
+around as they watch the teachers lessons paying close attention, for as 
+most people would know its not to odd for the teacher to beat the student 
+for mis behavior. 
+~
+1 0 13
+D9
+~
+~
+0 -1 2232
+R M 0 2207 1 2233
+S
+#2234
+The Cafeteria~
+~
+Many tables sit here in a orderly fashion. Students and facility can be 
+seen eating in between there classes. The tables are all lined east to 
+west and at the north end is where the food is purchased. There is one 
+table near the front which seems to be reserved for the headmaster of the 
+school. 
+~
+1 0 13
+D7
+~
+~
+0 -1 2232
+S
+#2235
+Class of Nature~
+~
+&OThis room is a bit different from a lot of the other places in town. It 
+is full of plants and a few caged animals. There is a teacher walking 
+around looking at his pupils as they work on there magic's. 
+~
+1 0 13
+D6
+~
+~
+0 -1 2232
+R M 0 2219 4 2235
+S
+#2236
+The Room of the Dark Arts~
+~
+&OThis room is full of materials that would be used for the arts of dark 
+can be seen here. The master of the class sits behind a desk staring 
+magic. Everything from shrunken heads to a torture device in the corner 
+around at this class, making sure everyone is doing as they were told.
+~
+1 0 13
+D8
+~
+~
+0 -1 2232
+R M 0 2208 1 2236
+S
+#2237
+The Middle of the Tower~
+~
+This is the second floor of the academy. One would notice that the 
+students here seem a bit older then the ones on the first floor. This is 
+where the more advanced classes take place. This area is a bit more quiet 
+then the previous floor, seeing as the more advanced teachers require more 
+discipline. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2242
+D5
+~
+~
+0 -1 2232
+D6
+~
+~
+0 -1 2238
+D7
+~
+~
+0 -1 2240
+D8
+~
+~
+0 -1 2239
+D9
+~
+~
+0 -1 2241
+R M 0 2219 3 2237
+S
+#2238
+Class of Fighters~
+~
+As you enter this room you feel a strange force come over your body. It 
+seems that it is impossible to use magic in here for some reason. There is 
+a zombie like creature in the center of the classroom chained so is cannot 
+leave. A trainer stands near it gazing as people go rounds with it. 
+~
+1 0 13
+D9
+~
+~
+0 -1 2237
+R M 0 2209 1 2238
+R M 0 2211 2 2238
+S
+#2239
+History Room~
+~
+This is a classroom for student to learn about the history of the drow. 
+There are many desks lined up in rows with the teachers desk at the front 
+so that he can look over the class. Nothing much in here really as it is 
+just a standard school room. 
+~
+1 0 13
+D7
+~
+~
+0 -1 2237
+R M 0 2219 6 2239
+S
+#2240
+Class of Magic~
+~
+&OThis room is not very large as there isn't much to it. A zombie like 
+creature stands in the middle of the room chained as to reduce movement. 
+There is a man standing off to the side giving instructions for using 
+magic's. 
+~
+1 0 13
+D8
+~
+~
+0 -1 2237
+R M 0 2210 1 2240
+R M 0 2211 1 2240
+S
+#2241
+Warrior Training~
+~
+&OThis classroom has no desks what so ever in it. Instead there are 
+students walking around in formations and doing close combat training. The 
+teacher walks around instructing students commonly scolding and now and 
+then can be seen striking his own students for messing up. 
+~
+1 0 13
+D6
+~
+~
+0 -1 2237
+S
+#2242
+Faculty level, the Top Floor~
+~
+&OThis area at the top of the tower has no students in it what so ever. It 
+is apparent that this is where the administration of the academy do there 
+business when not working in class. 
+~
+1 0 13
+D5
+~
+~
+0 -1 2237
+D6
+~
+~
+0 -1 2243
+D7
+~
+~
+0 -1 2246
+D8
+~
+~
+0 -1 2244
+D9
+~
+~
+0 -1 2245
+S
+#2243
+The Lounge~
+~
+&OThis is where the teachers come to relax between classes. There is a 
+large table in the center of the room surrounded by several chairs. There 
+really isn't much else in here though and it seems that the room is a bit 
+under used for its purposes. 
+~
+1 0 13
+D9
+~
+~
+0 -1 2242
+S
+#2244
+The Discipline Room~
+~
+Oddly enough this school seems to have some kind of dungeon for its less 
+then behaving students. There is no death machines by any means but there 
+are means to make people hurt for sure. It would be a good idea to not 
+have to spend time here most likely. 
+~
+1 0 13
+D7
+~
+~
+0 -1 2242
+S
+#2245
+The Head Master's Quarters~
+~
+This is a large room that the head master lives in. Many magical objects 
+can be found around as to make the headmasters life easier while not 
+working. A large bed rests in the middle of the room looking very inviting 
+to anyone who lays there eyes on it. 
+~
+1 0 13
+D6
+~
+~
+0 -1 2242
+R M 0 2212 1 2245
+S
+#2246
+The Meditation Room~
+~
+Many mats sit here for resting and meditating. Teachers and faculty can be 
+seen coming and going here to mediate and rest between classes. The room 
+is extremely clean without a speck of dust or dirt in sight as many people 
+use this room. 
+~
+1 0 13
+D8
+~
+~
+0 -1 2242
+S
+#2247
+Natheari Way~
+~
+A large tower can be seen from here to the west a bit and the road seems 
+to end just to the east. A few drow can be seen walking around here but 
+this seems to be a bit of a unpopulated area within the city. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2248
+D3
+~
+~
+0 -1 2230
+R M 0 2217 6 2247
+R M 0 2218 6 2247
+S
+#2248
+Natheari Way~
+~
+&OThis is the eastern end of Natheari Way. To the west is the academy and 
+the city square. To the south there is a bank and to the north is a pet 
+shop. Several drow can be seen coming and going here doing there daily 
+errands. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2249
+D2
+~
+~
+0 -1 2250
+D3
+~
+~
+0 -1 2247
+S
+#2249
+The Pet Shop~
+~
+&OStables line the back wall and an almost kind looking drow watches over 
+the shop. Animals move around in the stables as they await someone to buy 
+them and to serve their new masters. 
+~
+1 4 13
+D2
+~
+~
+0 -1 2248
+R M 0 2233 1 2249
+S
+#2250
+The Bank~
+~
+&OThis is the city bank. People come in and out of here moving there money 
+around making sure to to loose it. The banker stands behind his desk 
+helping costumers manage there money. 
+~
+1 268435460 13
+D0
+~
+~
+0 -1 2248
+R M 0 2213 1 2250
+S
+#2251
+Graybryn Road~
+~
+To the west of here is the center road of the city and to the east a very 
+large building can be seen a little ways in the distance. A few Drow 
+wearing black robes can be seen moving around here as well as a large 
+wooden sign with a spider on it pointing to the east. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2252
+D3
+~
+~
+0 -1 2216
+S
+#2252
+Before the Great Temple of Lloth~
+~
+&YThe darkness seems to lift slightly near the large black gate at the 
+foot of the incline, a seeming invitation to the travelers who've seen fit 
+to journey here. The few flickering torches near the gate throw off 
+shadows that play across the walls as spectral courtesans dancing to the 
+breathless, claustrophobic sounds of the underground. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2253
+D3
+~
+~
+0 -1 2251
+S
+#2253
+The Great Temple of Lloth~
+~
+&YWithin the temple is about as amazing as the outside. Statues stand in 
+the entrance showing the forms of past high priests of Lloth. The floor is 
+adorned with a golden mural of a spider with an hourglass shape on its 
+back. Worshipers of Lloth move about here going about there ceremonies as 
+well as a few dusting the statues and cleaning. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2254
+D2
+~
+~
+0 -1 2255
+D3
+~
+~
+0 -1 2252
+R M 0 2216 7 2253
+S
+#2254
+The Great Temple of Lloth~
+~
+&YStatues line the walls of the great temple along with pillars of marble 
+and gold. Pictures of spiders line the walls and pillars and even appear 
+on the floor. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2256
+D2
+~
+~
+0 -1 2253
+S
+#2255
+The Great Temple of Lloth~
+~
+&YStatues are all over the place in the temple. These statues depict 
+everything from former drow priests to famed warriors. Many cloaked Drow 
+walk around within the temple as they prey to the spider goddess, Lloth. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2253
+D1
+~
+~
+0 -1 2258
+S
+#2256
+The Great Temple of Lloth~
+~
+&YWorshipers move about the temple in prayer and other religious activities. 
+Along with worshiping, they appear to be cleaning as well. Decorations of 
+spiders cover almost everything, even their robes. 
+~
+1 4 13
+D2
+~
+~
+0 -1 2257
+D3
+~
+~
+0 -1 2254
+R M 0 2216 5 2256
+S
+#2257
+The Great Temple of Lloth~
+~
+&YThere is a large marble stair well leading down deeper into the temple. 
+The stairwell is a beautiful spiral stair circling its way down to the 
+lower depths of the temple. Worshipers walk slowly up and down the stairs, 
+but there is plenty of room to move past them if one in a hurry. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2256
+D2
+~
+~
+0 -1 2258
+D5
+~
+~
+0 -1 2259
+S
+#2258
+The Great Temple of Lloth~
+~
+&YThe temple continues to keep its luster here. With many statues around 
+made from many materials such as gold and platinum. Pictures of spiders 
+decorate the walls and floors in here. The worshipers walk around going 
+about there business. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2257
+D3
+~
+~
+0 -1 2255
+R M 0 2216 6 2258
+S
+#2259
+The Middle of the Staircase~
+~
+&YAs the staircase spirals it takes a stop here for a long corridor. Not 
+many people seem to stop here for some reason, only a few can be seen 
+moving down the corridor. From here one can see the top and the bottom of 
+the long stairwell. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2260
+D4
+~
+~
+0 -1 2257
+D5
+~
+~
+0 -1 2264
+R M 0 2216 2 2259
+S
+#2260
+A Long Corridor~
+~
+&YFrom here one can see the stairwell off to the west but not the end of 
+the corridor off to the east. The corridor seems to go for a while and it 
+is a little dark, but as absolute darkness. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2261
+D3
+~
+~
+0 -1 2259
+S
+#2261
+Nearing the End of the Corridor~
+~
+&YThe corridor seems to come to an end near by here to the east. The 
+hallway is somewhat dark and the walls are covered murals of spiders 
+inlaid with gold. This place seems to be very old but well maintained. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2262
+D3
+~
+~
+0 -1 2260
+R M 0 2216 1 2261
+S
+#2262
+The End of the Corridor~
+~
+&YThe corridor ends its eastward walk here. A door to the east and the 
+corridor to the west. The door seems to be just a normal door and looks to 
+be unlocked. Almost no drow can be seen here even though they populate the 
+rest of the temple. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2263
+D3
+~
+~
+0 -1 2261
+S
+#2263
+The Room of the High Priestess~
+~
+&YThis is the living quarters of the high priestess of Lloth. There is a bed 
+along with a table covered in scrolls of holy text. Naturally there are no 
+windows being underground just a door leading out. 
+~
+1 4 13
+D3
+~
+~
+0 -1 2262
+R M 0 2215 1 2263
+S
+#2264
+The bottom of the Stairwell~
+~
+&YThis is the bottom of the stairwell. To the northwest and the southwest 
+are identical hallways that from here don't seem to go too far though. 
+Going up the stairs leads back outside the temple. 
+~
+1 4 13
+D4
+~
+~
+0 -1 2259
+D7
+~
+~
+0 -1 2265
+D9
+~
+~
+0 -1 2266
+S
+#2265
+The Bottom Floor~
+~
+&YMany drow worshipers can be seen moving about here on the bottom level. 
+To the southeast is the staircase that leads to the top of the temple. The 
+southwest leads to the concurrence before the temples' alter. 
+~
+1 4 13
+D8
+~
+~
+0 -1 2264
+D9
+~
+~
+0 -1 2267
+R M 0 2216 3 2265
+S
+#2266
+The Bottom Floor~
+~
+&YWorshipers move about the area chanting and praising their god. Although 
+mostly female, there is a large percentage of males among them too, 
+showing that the drow's here are not typical of myth. 
+~
+1 4 13
+D6
+~
+~
+0 -1 2264
+D7
+~
+~
+0 -1 2267
+R M 0 2216 4 2266
+S
+#2267
+Before the Altar~
+~
+&YThis seems to be a very used part of the temple. To the west the alter 
+can be seen from here. Worshipers of Lloth walk in and out of the temple 
+room making this spot a bit crowded but not unmaneuverable. 
+~
+1 4 13
+D3
+~
+~
+0 -1 2268
+D6
+~
+~
+0 -1 2265
+D8
+~
+~
+0 -1 2266
+S
+#2268
+The Altar of Lloth~
+~
+&YThis room is pretty large with a wide stair to the alter only a few 
+illustrations of spiders. Spider ornaments adorn the alter as well with 
+many drow around it preying. There are some temple guards scanning the 
+steps. The alter itself is made from very polished gold with silver area 
+making sure that no sacrilege is committed here. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2267
+S
+#2269
+The Mystic Realm~
+~
+&PThe sky swirls with colors, lighting crackles in the sky. This place 
+seems to not follow the rules of the normal world as things seem distorted 
+and unnatural. A statue of the traitor Xeigabat stands erect here in the 
+center of the ruins. There is a large temple to the east dominating the 
+area. Loud roars can be heard coming from the east, along with a violent 
+shaking of the ground. 
+~
+1 4 13
+D3
+~
+~
+0 -1 2270
+D10
+~
+~
+133120 -1 2214
+S
+#2270
+Before the Mystic Temple~
+~
+&PBright colors fill the sky here as it seems this is a diffrent plane. 
+The evil of the traitor is held here in the temple to the east. Loud roars 
+can be heard comeing from the temple along with the sound of giant foot 
+steps. Looking carefully a large beast can be seen lumbering inside the 
+temple. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2269
+D3
+~
+~
+0 -1 2271
+S
+#2271
+The Lair of the Bone Wraith~
+~
+&PThis room is extremely dark and smelly. A large creature lumbers around 
+here waiting for something to feed its hunger for blood. All along the 
+ground are scattered numerous, unidentifiable bones. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2270
+R M 0 2214 1 2271
+S
+#2272
+Natheari Way~
+~
+The road leads off in two directions, east and west. To the east is the 
+city square and to the west is a off section of the city, that doesn't 
+seem to be as well decorated as the rest of the city. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2227
+D3
+~
+~
+0 -1 2273
+R M 0 2217 6 2272
+R M 0 2218 6 2272
+S
+#2273
+Natheari Way~
+~
+&OThe city looms a little to the east from here. Many drow citizens can be 
+seen moving about in the square off to the east. To the west is a large 
+cave that appears to be an entrance to the city. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2272
+D3
+~
+~
+0 -1 2274
+S
+#2274
+Natheari Way~
+~
+&OA large cave hole opens to the west, and to the east, the great 
+underground drow city can be seen. Spiders scurry along the road here more 
+then a lot of other places as they are free to live. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2273
+D3
+~
+~
+0 -1 2275
+R M 0 2217 7 2274
+S
+#2275
+A Large Cave~
+~
+To the west is a large drow outpost separating the Underdark from the city 
+of the drow. Large buildings can be seen in the underground city going so 
+high that they are almost able to touch the very top of the cavern that 
+holds the city. 
+~
+1 2097156 13
+D1
+~
+~
+0 -1 2274
+D3
+~
+~
+0 -1 2315
+S
+#2276
+The Castle Gates~
+~
+&OA large gate blocks the entrance to the castle from just anyone. Guards 
+walk about the area watching every move made by anyone in the castle, even 
+each other. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2277
+D2
+~
+~
+0 -1 2227
+S
+#2277
+Inside the Castle~
+~
+&OLarge pillars and tapestries decorate the area within the castle giving 
+it a truly grand appearance. The paths lead to the northeast and northwest 
+through very decorative hall ways. 
+~
+1 4 13
+D2
+~
+~
+0 -1 2276
+D6
+~
+~
+0 -1 2278
+D7
+~
+~
+0 -1 2279
+R M 0 2221 3 2277
+S
+#2278
+A large Corridor~
+~
+Very large tapestries along with pillars and fine carpets give the castle 
+a very decorated look to it. The entire hall is immaculate, not a single 
+speck of dust or dirt can be seen as it is very well taken care of. 
+~
+1 4 13
+D7
+~
+~
+0 -1 2280
+D9
+~
+~
+0 -1 2277
+R M 0 2221 1 2278
+S
+#2279
+A large Corridor~
+~
+&OLarge red carpets line the floor in either direction, along with pillars 
+and tapestries showing the wealth of the drow castle. Large guards move 
+about the area watching everyone's every single move, making sure nothing 
+goes wrong on their watch. 
+~
+1 4 13
+D6
+~
+~
+0 -1 2280
+D8
+~
+~
+0 -1 2277
+R M 0 2221 2 2279
+S
+#2280
+The End of the corridors~
+~
+The corridors inside the castle all end right here and lead to the south. 
+Grand tapestries line the walls with pictures of drow victories and 
+showing praise to the spider goddess Lloth. 
+~
+1 4 13
+D2
+~
+~
+0 -1 2281
+D8
+~
+~
+0 -1 2278
+D9
+~
+~
+0 -1 2279
+S
+#2281
+A Spiral Staircase~
+~
+A large spiral staircase leads up into the upper layers of the castle. A 
+deep red carpet covers the immaculate halls as decorative as can be. 
+Guards can be seen moving about the area watching every move made within 
+the castle. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2280
+D4
+~
+~
+0 -1 2282
+R M 0 2221 4 2281
+S
+#2282
+A Junction~
+~
+A grand hall leads to several directions. The south leads to the 
+magnificent throne room. The east leads to the audience chamber, and the 
+east leads to the guard's quarters. The spiral stair case leads down into 
+the rest of the castle.
+~
+1 4 13
+D1
+~
+~
+0 -1 2283
+D2
+~
+~
+0 -1 2284
+D3
+~
+~
+0 -1 2285
+D5
+~
+~
+0 -1 2281
+S
+#2283
+The Audience Chamber~
+~
+A large table takes up most of this room as it is where all meetings take 
+place. Large intimidating tapestries show depictions of wars fought and 
+won by the drow as a way to let those they meet with to know they mean 
+business. 
+~
+1 4 13
+D3
+~
+~
+0 -1 2282
+S
+#2284
+The Throne Room~
+~
+A large throne sits in the middle of the grand throne room. Large 
+decorated pillars stand as well as tapestries dedicated to Lloth and 
+former rulers over the drow city of Szithlin. 
+~
+1 4 13
+D0
+~
+~
+0 -1 2282
+S
+#2285
+The Guard's Quarters~
+~
+Large beds rest along the walls and weapon racks adorn the rest of the 
+walls where the beds are not. This is the home for the most elite guards 
+of the great underground city of the drow, the protectors of the castle. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2282
+S
+#2286
+Nearing the Coliseum~
+~
+&OTo the west is the massive coliseum of the city. Warriors can be seen 
+coming and going all day and night here to fight and prove themselves. To 
+the east is the main portion of the city. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2216
+D3
+~
+~
+0 -1 2287
+R O 0 2202 1 2286
+S
+#2287
+Inside the Coliseum~
+~
+&OLarge walls separate the crowds from the fighters. Nothing but sand and 
+blood resides within the actual arena fighting area as in most 
+competitions like these some people don't walk away. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2288
+D1
+~
+~
+0 -1 2286
+D2
+~
+~
+0 -1 2294
+D3
+~
+~
+0 -1 2289
+S
+#2288
+Inside the Coliseum~
+~
+&OThe crowds look on at the arena either at a fight happening somewhere or 
+for a fight to start. Animals can be seen moving around the area for 
+fighters to fight when they get tired of fighting each other. 
+~
+1 69206020 13
+D2
+~
+~
+0 -1 2287
+D3
+~
+~
+0 -1 2290
+S
+#2289
+The Center of the Coliseum~
+~
+This is the center of the action, if people are looking at the arena, they 
+are most likely looking right here. A man stands in the center of the 
+arena barking either orders or trying to get the crowd cheered up or 
+excited. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2290
+D1
+~
+~
+0 -1 2287
+D2
+~
+~
+0 -1 2291
+D3
+~
+~
+0 -1 2299
+R M 0 2222 1 2289
+> act_prog p A drow wimp is DEAD!!~
+mpecho IT WORKED!
+~
+|
+S
+#2290
+Inside the Coliseum~
+~
+Sounds of the crowd fill the area, sounds of battle even louder here. The 
+floor of the coliseum is covered with a thick layer of sand allowing those 
+in battle to get a good foot hold, for it is best to see warriors in top 
+form. 
+~
+1 69206020 13
+D1
+~
+~
+0 -1 2288
+D2
+~
+~
+0 -1 2289
+D3
+~
+~
+0 -1 2292
+S
+#2291
+Inside the Coliseum~
+~
+&OThe massive walls of the coliseum loom over head covered with the 
+citizens of the great underground city. Sounds fill the area, the crowd 
+yelling or spells exploding, even metal clashing with metal, this place 
+rarely dies down. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2289
+D1
+~
+~
+0 -1 2294
+D3
+~
+~
+0 -1 2293
+S
+#2292
+Inside the Coliseum~
+~
+The sand on the ground is thick, and the heavy feeling in the air weights 
+down on all those who compete within the arena. Drow spectators look on at 
+the coliseum as those chosen to battle fight for honor, or just for their 
+lives. 
+~
+1 69206020 13
+D1
+~
+~
+0 -1 2290
+D2
+~
+~
+0 -1 2299
+S
+#2293
+Inside the Coliseum~
+~
+Blood and sand everywhere, the sounds of the crowd and battle fill the air 
+that the blood cannot. People battle or people watch, there is never a 
+dull moment in the great drow coliseum. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2299
+D1
+~
+~
+0 -1 2291
+S
+#2294
+Inside the Coliseum~
+~
+Sand drenched in blood, this ancient temple to that which is the art of 
+battle stands tall and decorated with drow noble's and even those of 
+lesser stature as everyone is welcome to share in carnage. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2287
+D3
+~
+~
+0 -1 2291
+S
+#2299
+Inside the Coliseum~
+~
+The crowd watches on as warriors fight for everything. Blood stains the 
+sand in many places as well as a sword or some kind of broken armor laying 
+near it forgotten in the haste of removing the bodies. 
+~
+1 69206020 13
+D0
+~
+~
+0 -1 2292
+D1
+~
+~
+0 -1 2289
+D2
+~
+~
+0 -1 2293
+S
+#0
+
+
+#SHOPS
+ 2203    5  0  0  0  0   120  90         0 23    ; Drizlin
+ 2205    0  0  0  0  0   120  90         0 23    ; Chalnolu
+ 2206    0  0  0  0  0   120  90         0 23    ; Kezaler
+0
+
+
+#REPAIRS
+ 2202    5  9  0         100   1         0 23    ; Phaernozz
+0
+
+
+#SPECIALS
+S
+
+
+#$

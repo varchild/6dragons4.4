@@ -1,0 +1,1169 @@
+#AREA        Country Roads~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 999999993 31243999 999998799 999987986 999998392 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#26000
+skulking male human Raenaar Paet~
+Raenaar Paet~
+A skulking male human is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+5 98816 -800 C
+20 0 0 40d20+200 2d6+6
+0 0 0 0 0 
+0
+115 115 20
+13 13 20 13 13 13 0
+0 0 0 0 0
+0 6 0 1 1 2 0
+0 0 256 0 0 0 256 0
+> rand_prog 4~
+if ispc($n)
+  mea $r &cYou feel as if you are being watched over.&D
+endif
+~
+|
+#26001
+Blue dragon navierse~
+Navierse~
+A nearly adult sized blue dragon stands here.
+~
+~
+4
+Clanname none~
+0
+0
+132131 512 -1000 C
+30 0 0 2d300+8000 2d4+2
+0 0 0 0 100 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 12 0 0 1 1 2
+0 0 1033 0 0 0 49155 2
+> fight_prog 30~
+mpecho An adult blue dragon roars!
+mppause 3
+stomp $n
+mppause 10
+tail $n
+mppause 20
+mpat 4 look
+mppause 20
+breath $n aoe
+mppause 20
+mpat 4 look
+mppause 10
+gut $n
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpecho An adult blue dragon bellows, 'You will now feel my full fury!!'
+mppause 20
+mpecho An adult blue dragon opens his jaws wide...
+mppause 20
+breath $n aoe
+~
+|
+#26002
+voice~
+a newly created voice~
+Some god abandoned a newly created voice here.
+~
+~
+0
+Clanname none~
+0
+0
+75628547 4292610 0 C
+102 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if level($n) < 10
+  mpechoat $n &cA voice in your head tells you that you are not ready for this path yet.&D
+  mpforce $n sw
+endif
+~
+|
+#26003
+bandit cloaked man~
+a bandit~
+The cloaked silhouette of a humanoid is standing here.
+~
+A dark grey mask covers the upper part of this bandit's face, leaving two 
+eyeholes through which he can see. His face is dirty and he has a few 
+stubs, indicating he hasn't shaven recently. His ears are hidden under his 
+brown hair, that reaches just past his shoulderblades. Furthermore he's 
+dressed in grey snug fitting pants and shirt. His hands are uncovered and 
+bear various marks and scars, presumable from previous fights. He is 
+missing his left thumb. 
+~
+0
+Clanname none~
+0
+0
+33554465 0 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 2047 0 0 0 48 1
+#26004
+bandit cloaked man~
+a bandit~
+The cloaked silhouette of a humanoid is standing here.
+~
+A dark grey mask covers the upper part of this bandit's face, leaving two 
+eyeholes through which he can see. His face is dirty and he has a few 
+stubs, indicating he hasn't shaven recently. His ears are hidden under his 
+brown hair, that reaches just past his shoulderblades. Furthermore he's 
+dressed in grey snug fitting pants and shirt. His hands are uncovered and 
+bear various marks and scars, presumable from previous fights. He is 
+missing his left thumb. 
+~
+0
+Clanname none~
+0
+0
+33554465 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+15 8 7 13 10 5 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 2047 0 0 0 48 1
+> hitprcnt_prog 5~
+, talks slowly, while blood spurts out of his mouth and leaks off his chin "I won't give up that easily!"
+~
+|
+#26005
+man cloaked bandit~
+a bandit~
+The cloaked silhouette of a humanoid is standing here.
+~
+A dark grey mask covers the upper part of this bandit's face, leaving two 
+eyeholes through which he can see. His face is dirty and he has a few 
+stubs, indicating he hasn't shaven recently. His ears are hidden under his 
+brown hair, that reaches just past his shoulderblades. Furthermore he's 
+dressed in grey snug fitting pants and shirt. His hands are uncovered and 
+bear various marks and scars, presumable from previous fights. He is 
+missing his left thumb. 
+~
+0
+Clanname none~
+0
+0
+33554465 0 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 2047 0 0 0 48 1
+#26006
+man cloaked bandit~
+a bandit~
+The cloaked silhouette of a humanoid is standing here.
+~
+A dark grey mask covers the upper part of this bandit's face, leaving two 
+eyeholes through which he can see. His face is dirty and he has a few 
+stubs, indicating he hasn't shaven recently. His ears are hidden under his 
+brown hair, that reaches just past his shoulderblades. Furthermore he's 
+dressed in grey snug fitting pants and shirt. His hands are uncovered and 
+bear various marks and scars, presumable from previous fights. He is 
+missing his left thumb. 
+~
+0
+Clanname none~
+0
+0
+33554465 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 2047 0 0 0 48 1
+#26007
+man cloaked bandit~
+a bandit~
+The cloaked silhouette of a humanoid is standing here.
+~
+A dark grey mask covers the upper part of this bandit's face, leaving two 
+eyeholes through which he can see. His face is dirty and he has a few 
+stubs, indicating he hasn't shaven recently. His ears are hidden under his 
+brown hair, that reaches just past his shoulderblades. Furthermore he's 
+dressed in grey snug fitting pants and shirt. His hands are uncovered and 
+bear various marks and scars, presumable from previous fights. He is 
+missing his left thumb. 
+~
+0
+Clanname none~
+0
+0
+33554465 0 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 2047 0 0 0 48 1
+#0
+
+
+#OBJECTS
+#26000
+dagger~
+a dagger~
+A well balanced dagger has been left behind here.~
+~
+5 0 8193
+12 3 8 2 2 0 0
+1 0 100
+1
+0
+0
+0
+0
+0
+S 0 0
+#26001
+golden flask~
+a golden flask~
+A golden flask has been left on the ground.~
+~
+8 0 16385
+1 12 1 0 0 0 0
+1 10 4000
+2
+14
+0
+0
+0
+0
+S 0 0
+#26002
+blue dragon orb~
+a blue dragon orb~
+A large bluish orb draws your eye.~
+~
+4 64 16385
+20 9 9 -1 0 20 0
+8 10 1
+4
+4
+0
+0
+0
+0
+'aqua breath'
+S 0 0
+A
+5 2
+#26005
+blue dragon scaled wrist band~
+a blue dragon scaled wrist band~
+A blue dragon scaled wrist band is on the ground here.~
+~
+9 0 4097
+30 30 0 0 0 30 0
+2 235 23
+3
+4
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 3
+#26006
+blue dragon tongue cloak~
+a blue dragon tongue cloak~
+The blue dragon tongue cloak has been left here.~
+~
+9 0 1025
+30 30 0 0 0 30 0
+1 232 23
+3
+4
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 3
+#26007
+blue dragon gem ring~
+a blue dragon gem ring~
+A blue dragon gem ring has been left here.~
+~
+9 0 3
+30 30 0 0 0 30 0
+1 213 21
+3
+4
+0
+0
+0
+0
+S 77 0
+E
+ring gem~
+It's a golden ring with a large sapphire gem. 
+~
+A
+18 2
+A
+19 3
+#26008
+blue dragon greaves~
+blue dragon scaled greaves~
+Blue dragon scaled greaves lie on the ground here.~
+~
+9 0 33
+30 30 0 0 0 30 0
+5 254 25
+3
+4
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 3
+#26009
+blue dragon eye~
+a blue dragon eye~
+A blue dragon eye is on the ground here.~
+~
+1 0 16385
+0 0 -1 0 0 30 0
+1 168 16
+4
+4
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 2
+#26010
+blue dragon stomach~
+the stomach of a blue dragon~
+The stomach of a blue dragon is here.~
+~
+15 0 524289
+300 0 0 12 0 0 0
+8 157 15
+4
+4
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 2
+#0
+
+
+#ROOMS
+#26000
+Kalmyra Road~
+~
+This massive roadway was built mainly for trading purposes, and is kept
+well cleared of any type of debri.  Large trees and thick vegetation to
+to the south and south have been trimmed back to discourage bandits or
+wild animals from stalking travelers as their prey.  A narrow side trail
+on the southern side of the road to the west leads far off into the forest.
+Kalmyra Road continues to travel off to the east and west from here.
+~
+1 4 2
+D1
+~
+~
+0 -1 26001
+D3
+~
+~
+0 -1 3502
+S
+#26001
+Kalmyra Road~
+~
+The roadway here is kept clear of any type of debri, and seems to stay well
+maintained.  Large trees and vegetation grow near the northern side of the
+road allowing bandits and wild animals good cover for hunting unexpecting
+travelers.  A small pathway has been cut out of the dense forest toward the
+southeast leading off into the wilderness.  Kalmyra Road continues to travel
+off to the east, and to the west.
+~
+1 0 2
+D1
+~
+~
+0 -1 26002
+D3
+~
+~
+0 -1 26000
+R M 0 26000 1 26001
+S
+#26002
+Kalmyra Road~
+~
+The very wide Kalmyra Road is a massive roadway that was built for the
+purpose of trading.  The road is kept clear of any unwanted debris, it
+also seems to be very well maintained, due to the fact that not rutts
+can be found anywhere on the roadway here.  The trees and vegetation on
+either side of the road are cut back to attempt to discourage bandits.
+The long road continues to travel off to the east, and to the west.
+~
+1 0 2
+D1
+~
+~
+0 -1 26003
+D3
+~
+~
+0 -1 26001
+S
+#26003
+Kalmyra Road~
+~
+This part of the roadway is maintained well, and kept very clean almost no
+debri can be found anywhere.  Along the northern side of the road the dense
+forest provides cover for bandits and wild animals to make prey of passing
+travelers.  To the south a small pathway has been cut out of the dense forest
+leading far off into the wilderness.  Kalmyra Road continues to travel off to
+the east and to the west.
+~
+1 0 2
+D1
+~
+~
+0 -1 26004
+D2
+~
+~
+0 -1 26030
+D3
+~
+~
+0 -1 26002
+S
+#26004
+Kalmyra Road~
+~
+The wide dirt road is well maintained and kept clear of any fallen limbs,
+or loose debri.  Slighty off the road to the east stand gigantic boulders  
+that sit in almost a astrological demeanor.  The dense forest to the north
+and south have been trimmed away to discourage any type of wild animal from
+turning the next traveller into prey.  Kalmyra Road continues to travel off
+to the northeast, and to the west from here.
+~
+1 0 2
+D3
+~
+~
+0 -1 26003
+D6
+~
+~
+0 -1 26005
+S
+#26005
+Kalmyra Road~
+~
+The Kalmyra Road is a massive road built for trading purposes.  The road
+is kept clear of debris and fixed when needed.  The trees and vegetation
+on either side of the road are cut back to discourage bandits.
+~
+1 4 2
+D6
+~
+~
+0 -1 26006
+D9
+~
+~
+0 -1 26004
+S
+#26006
+Kalmyra Road~
+~
+Along the edges of the roadway grow small vines containing lots of thornes,
+some making their way onto the sides of the wide dirt road forming a natural
+barrier, keeping bandits and animals from preying on unexpecting travelers.
+Kalmyra Road takes a turn to the southwest, and also travels off to the east.
+~
+1 4 2
+D1
+~
+~
+0 -1 26007
+D9
+~
+~
+0 -1 26005
+S
+#26007
+Kalmyra Road~
+~
+The outrageous width of this roadway only means one thing, that the road was
+built for the purpose of trading.  The road is well maintained and kept clear
+of any type of debri.  Along the sides of the road the dense forest has been
+trimmed back in order to discourage any bandits of wild animals from making
+prey out of passing by travellers.  Kalmyra Road continues to travel off to
+the east and to the west from here.
+~
+1 4 2
+D1
+~
+~
+0 -1 26008
+D3
+~
+~
+0 -1 26006
+S
+#26008
+Kalmyra Road~
+~
+The massive road built for trading purposes is kept clear of any type of
+debri and is maintained when needed.  Trees and vegetation on either side
+of the road are trimmed back to discourage bandits and wild animals from 
+making travelers their prey.  Kalmyra Road continues to travel off to the
+west and to the northeast.
+~
+1 4 2
+D3
+~
+~
+0 -1 26007
+D6
+~
+~
+0 -1 26009
+S
+#26009
+Kalmyra Road~
+~
+Due to the width of this massive roadway it was clearly built for trading
+purposes.  The dense forest on the sides of the road here provide alot of
+cover for bandits and wild animals to hunt travelers for prey making this
+part of the road very unsafe.  It is almost impossible to find any debri
+on the well maintained road.  Kalmyra continues to travel to the northeast
+and southwest from here.
+~
+1 4 2
+D6
+~
+~
+0 -1 26010
+D9
+~
+~
+0 -1 26008
+S
+#26010
+Kalmyra Road~
+~
+On the western side of the road a creek can be seen at the edge of the dense
+forest blocked off by a large patch of sticky thornes.  Trees and vegetation
+on the eastern side of the roadway have been cut back to keep all the bandits
+and wild animals from preying on unexpecting victims.  The road is kept clear
+of any type of debri, and seems to be well maintained.  Kalmyra Road continues
+to travel off to the north and to the southwest.
+~
+1 4 2
+D0
+~
+~
+0 -1 26011
+D9
+~
+~
+0 -1 26009
+S
+#26011
+Kalmyra Road~
+~
+Running along the western side of the road before a dense forest is a small
+clear creek offering a refreshing sip of cool water.  This road has been well
+maintained and kept free of fallen branches, and loose brush.  The trees and
+vegetation on the east side of the road have been trimmed back to discourage
+bandits and wild animals.  Kalymra Road travels off to the northeast and to
+the south from here.
+~
+1 4 2
+D2
+~
+~
+0 -1 26010
+D6
+~
+~
+0 -1 26012
+S
+#26012
+Kalmyra Road~
+~
+The sound of trickling water can be heard coming from a small creek that
+is off of the road to the west, but thick brush and extremly large trees
+prevent anyone from getting to it.  The roadway is well maintained and
+kept free of any type of debri.  Kalmyra Road continues to travel off to
+the northeast, and to the southwest.
+~
+1 4 2
+D6
+~
+~
+0 -1 26013
+D9
+~
+~
+0 -1 26011
+S
+#26013
+Kalmyra Road~
+~
+The trees along the sides of the road have been entangled with heavy vines
+causing some of the trees to lean to the side.  This roadway has been kept
+clear of debris and seems to be well maintained.  The vegetation on either
+side of the road has been cut back to discourage bandits and wild animals
+from hunting prey here.  A old cabin can be seen off the southern side of
+Kalmyra Road to the east.  Kalmyra Road also runs off to the southwest.
+~
+1 4 2
+D1
+~
+~
+0 -1 26014
+D2
+~
+door~
+2049 -1 26289
+D9
+~
+~
+0 -1 26012
+R D 0 26013 2 0
+S
+#26014
+Kalmyra Road~
+~
+The wide dirt road has been kept clear of debri and seems to be very well
+maintained.  Trees and vegetation along the northern side of the roadway
+have been trimmed back to keep travelers from being the unexpecting prey
+of the wild animals that roam the thick forest.  A rotted doorway leads
+into a old abanoned cabin that is setting off of the road to the south.
+Kalmyra continues to travel off to the east, and west from here.
+~
+1 4 2
+D1
+~
+~
+0 -1 26015
+D3
+~
+~
+0 -1 26013
+S
+#26015
+Kalmyra Road~
+~
+The massive roadway built for trading purposes allows more then enough room
+for the biggest of creatures to have a comfortable travel through.  The road
+has been kept clear of debris and receives maintance when needed.  Thick trees
+and vegetation on the sides of the road provent travel into the darkend dense
+forest.  A wide pathway leading into the forest has been cut out of the north
+side of Kalmyra Road to the east.  Kalmyra road also travels off to the west.
+~
+1 4 2
+D1
+~
+~
+0 -1 26016
+D3
+~
+~
+0 -1 26014
+S
+#26016
+Kalmyra Road~
+~
+The massive road was built for trading purposes and has been kept clear
+of debris, it also seems to be maintained very often.  Large trees and
+vegetation have been cut back on either side of the road to discourage
+bandits and wild animals from preying on weary travellers.  A wide path
+to the northeast leads off through the dense forest.  Kalmyra Road runs
+off to the west.
+~
+1 4 2
+D3
+~
+~
+0 -1 26015
+S
+#26017
+Maccon Road~
+~
+This small roadway is mostly made up of dirt, and fallen debris that has come
+off of the thick vegetation and trees that encroach the sides of this road.
+Maccon Road continues to travel off to the south toward a large wall and to
+the northeast deeper into a dense forest.
+~
+1 4 11
+D6
+~
+~
+0 -1 26018
+D7
+~
+~
+0 -1 2172
+S
+#26018
+Maccon Road~
+~
+This narrow roadway is made up mostly of hard packed dirt, and large mud
+puddles that run along the center of the road, proof that the road is well
+travelled, just not very well maintained.  Along the sides of the roadway
+are thick amounts of different types of vegetation and trees that encroach
+the sides of the dirt road.  Maccon Road continues to travel off toward the
+northeast and southwest from here.
+~
+1 0 1
+D6
+~
+~
+0 -1 26019
+D9
+~
+~
+0 -1 26017
+S
+#26019
+Maccon Road~
+~
+This narrow dirt road is covered in debri that has come from the thick
+vegetation and trees that encroach the sides of the roadway.  Small ruts
+filled with water can be seen dug into the center of the road leading
+throughout its length.  A small side trail has been cut out of the road to
+the east, leading deep into the wilderness.  Maccon Road continues to run
+to the north and to the southwest.
+~
+1 0 1
+D0
+~
+~
+0 -1 26020
+D9
+~
+~
+0 -1 26018
+S
+#26020
+Maccon Road~
+~
+This narrow dirt road resembles a trail through the wilderness more then a
+well travelled road.  Deep rutts and heavy amounts of debri fill the road
+full of holes and junk making walking through here a task.  Thick vegetation
+and large trees encroach either side of the road, allowing wild animals and
+bandits to stalk their prey under the cover of the forestline.  Maccon Road
+continues to travel off to the north and to the south.
+~
+1 0 1
+D0
+~
+~
+0 -1 26021
+D2
+~
+~
+0 -1 26019
+> entry_prog 60~
+if ispc($n)
+  if rand(10)
+    mppause 1
+    mpechoat $n &cA cloaked figure steps out of the forest-line striking you in
+    mpechoat $n &cthe back of the neck.&D
+    mpdamage $n 20
+    mppause 15
+    if level($n) > 5
+      if level($n) < 21
+        mpmload 26003 20
+      else
+        if level($n) < 41
+          mpmload 26004
+        else
+          if level($n) < 61
+            mpmload 26005
+          else
+            if level($n) < 81
+              mpmload 26006
+            else
+              mpmload 26007
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+|
+S
+#26021
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.  A massive forest is to the north.
+~
+1 0 1
+D2
+~
+~
+0 -1 26020
+D7
+~
+~
+0 -1 26022
+S
+#26022
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.
+~
+1 1073741824 1
+D8
+~
+~
+0 -1 26021
+S
+#26023
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.
+~
+1 1073741824 1
+D3
+~
+~
+0 -1 10803
+D6
+~
+~
+0 -1 26027
+S
+#26024
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.
+~
+1 1073741828 1
+S
+#26025
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.
+~
+1 1073741824 1
+D3
+~
+~
+0 -1 26027
+D6
+~
+~
+0 -1 26031
+S
+#26026
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.
+~
+1 1073741828 1
+S
+#26027
+Maccon Road~
+~
+Maccon Road is made up of dirt.  There is thick vegetation and trees that
+encroach on either side of the road.  The road has many potholes and ruts
+throughout its length.  A massive mountain is visible over the horizon.
+~
+1 -1073741824 1
+D1
+~
+~
+0 -1 26025
+D9
+~
+~
+0 -1 26023
+S
+#26028
+Maccon Road~
+~
+This part of the narrow roadway is made up of softly packed dirt, almost
+turning into pure mud as it climbs upwards into the mountains.  There is
+thick vegetation and trees that encroach on either side of the road.  A
+few ruts have been dug into the center of the roadway that is leading off
+to the west.
+~
+1 1073741824 1
+D4
+~
+~
+0 -1 26029
+S
+#26029
+Maccon Road~
+~
+The narrow roadway is made mostly of dirt, and mud making travel up this
+incline very hard.  There is a large amount of vegetation and large trees
+growing about either side of the road.  Along the center of the roadway are
+some really bad ruts that span the entire length of the dirt road.  Maccon
+continues to travel up through the mountains, and downward into a dense forest.
+~
+1 1073741828 1
+D5
+~
+~
+0 -1 26028
+S
+#26030
+A Cave Entrance~
+~
+There is thick vegetation surrounding this cave entrance and it is not
+visible from the road.  A series of stairs lead downward into the cave
+mouth.  Several oak trees stand proud in the distance.
+~
+1 1073741828 2
+D0
+~
+~
+0 -1 26003
+S
+#26031
+A Small Trail~
+~
+This narrow side trail is made up of packed dirt, and filled with tiny
+ruts making walking a pain.  Along the sides of the trail the forest is
+kept well trimmed away showing someone keeps to this pathway.  A little
+to the northeast the large mouth of a cave can be seen.  The trail runs
+off to the west from here.
+~
+1 1073741824 1
+D6
+~
+~
+0 -1 26032
+D9
+~
+~
+0 -1 26025
+S
+#26032
+Before a Cave~
+~
+&gThe trail comes to a end here at the mouth of a cave, the entranceway 
+has been charred black, and covered in giant claw marks that lead toward 
+the inside of the cave. A few scattered bones of various animals and 
+humanoids litter the ground near the caves entrance. A small trail to the 
+southwest leads through the forest. 
+~
+1 1073741824 1
+D1
+~
+~
+0 -1 26033
+D9
+~
+~
+0 -1 26031
+R M 0 26002 1 26032
+> rand_prog 10~
+if ispc($n)
+  mpecho &cYou nearly jump out of your skin as a sound of horror comes from the caves to the east.&D
+endif
+~
+|
+S
+#26033
+A Dragon Lair~
+~
+&zThis large cave is littered with heaps of treasure filling the entire
+cavern.  Humanoid skeletons have been piled near the far corner of the
+room as if they are some kind of prize.  Along the dirt packed floor of
+the cave is a small pile of golden trinkets that have become melted into
+odd shapes.  A small oval entranceway to the west leads back outside of
+the cave.
+~
+1 3145737 13
+D3
+~
+~
+0 -1 26032
+R M 0 26001 1 26033
+  R E 0 26002 1 17
+  R E 0 26005 1 14
+  R E 0 26009 1 0
+  R E 0 26010 1 22
+  R E 0 26006 1 12
+  R E 0 26008 1 7
+  R E 0 26005 1 15
+  R G 0 26001 1
+  R G 0 26007 1
+> entry_prog 100~
+if quest(missions) == 7
+  mppause 4
+  mpechoat $n &cYou know this is the dragon your leader was talking about.
+  mpquest $n missions 8
+endif
+~
+|
+S
+#26034
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#26035
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#26036
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#26043
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#26289
+A Small Cabin~
+~
+This rather small single room wooden cabin, appears as if it has been abandoned
+for quite some time now.  Bandits and wondering travelers have already taken a
+toll on the structures overall appearance leaving the cabin in absolute ruins.
+Small and almost translucent entwining spider webs can be found in every crack
+and crevace of this room.  An old bed lays near the back wall covered in green
+and black filth.  On the northern wall a almost unhinged rooted doorway leads
+the way back out to Kalmrya Road.
+~
+1 1073741824 1
+D0
+~
+door~
+1 -1 26013
+R D 0 26289 0 0
+S
+#26290
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  26000 spec_thief
+S
+
+
+#$

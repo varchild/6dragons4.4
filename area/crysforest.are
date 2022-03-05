@@ -1,0 +1,1141 @@
+#AREA        Crystal Forest~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+70 100 70 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The blue glow of crystals surround the forest.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250000 0 0 10 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#1400
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1402
+A massive bat~
+A massive bat~
+A massive bat hangs from the ceiling
+~
+This large bat seems to be quite aggressive. Its blood red eyes shine 
+brightly giving it a very devious look. One would most likely be best to 
+not disturb it. 
+~
+13
+Clanname none~
+0
+0
+99 0 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+20 13 13 20 20 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 1 3
+> fight_prog 2~
+mpecho &RA large bat screeses loudly calling for aid!&D
+mpmload 1402
+~
+|
+#1403
+A Giant Crystallized dragon~
+A Giant Crystallized dragon~
+A Giant Crystallized dragon lays here breathing heavily
+~
+A massive dragon completely made from crystal. It is covered with spikes 
+and is very rigid looking. Dark red eyes pierce through darkness glowing 
+like embers from hell it's self. 
+~
+0
+Clanname none~
+0
+0
+99 272630400 -1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 0 0 0 0 16643 570433539
+> death_prog 100~
+if quest(crystaldragon) == 1
+  mpechoat $n &cAs the mighty dragon falls dead, a crystal spike breaks off his body&D
+  mpoload 1403
+  drop all
+  mpquest $n crystaldragon 2
+endif
+~
+> greet_prog 100~
+mpechoat $n &CA Giant Crystallized Dragon says, 'I see another has come to die!'&D
+roar
+mpechoat $n &CA Giant Crystallized Dragon says, 'FEEL MY WRATH!'&D
+~
+|
+#1404
+frantic traveler david~
+david~
+A frantic traveler runs about wildly
+~
+This human male seems to be very scared as he runs around panicking. He 
+has a light blue glow about himself, making him really look like something 
+is wrong. 
+~
+0
+Clanname none~
+0
+0
+67108931 0 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+> greet_prog 100~
+if quest(crystaldragon) < 1
+  mpechoat $n &cDavid runs around panicking!
+  mpechoat $n &CDavid says, 'PLEASE! Will you please help me?'
+  mpechoat $n &cType &WSAY YES &cto accept this task.&D
+endif
+if quest(crystaldragon) == 2
+  mpechoat $n &cDavid stops crying as you see his body turning back to normal.
+  mppause 4
+  mpechoat $n &CDavid says, 'Oh, thank you!  Thank you so much!  I don't know how I can ever repay you.'
+  hmm
+  mppause 4
+  mpechoat $n &CDavid says, 'Well I can give you some information, down in another part of the caves is a lake.'
+  mpechoat $n &cDavid nods to himself and continues.
+  mppause 4
+  mpechoat $n &CDavid says, 'And If you can find your way down there, the dragon's lair is actually under the lake.'
+  mppause 2
+  mpechoat $n &cDavid nods and smiles at you, taking a seat still trying to calm himself.
+  mpquest $n crystaldragon 3
+endif
+~
+> speech_prog yes 100~
+mppause 4
+mpechoat $n &CDavid says, 'Oh thank goodness, you see I came here looking for treasure and...'&D
+mpechoat $n &cDavid looks at himself as the blue glow completely encompases him.&D
+mppause 7
+mpechoat $n &CDavid says, 'All I'm gonna find is death, please kill the crystal dragon and avenge me!'&D
+mpechoat $n &cDavid cries as his body begins to turn to crystal.&D
+mpechoat $n &CDavid says, 'Please hurry!'&D
+mpquest $n crystaldragon 1
+~
+|
+#1405
+a mastiff bat~
+A mastiff bat~
+A mastiff bat lurks in the shadows waiting for prey
+~
+This brown furry bat lurks in the shadier parts of the cave. It's large 
+fangs glistening in the light blue hue of the crystal's glow. It's wings 
+folded around it's self helping it hide better in the shadows. 
+~
+13
+Clanname none~
+0
+0
+65 128 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+#1406
+mastiff bat~
+A mastiff bat~
+A mastiff bat lurks in the shadows waiting for prey
+~
+This brown furry bat lurks in the shadier parts of the cave. It's large 
+fangs glistening in the light blue hue of the crystal's glow. It's wings 
+folded around it's self helping it hide better in the shadows. 
+~
+13
+Clanname none~
+0
+0
+65 128 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+#1407
+mastiff bat~
+A mastiff bat~
+A mastiff bat lurks in the shadows waiting for prey
+~
+This brown furry bat lurks in the shadier parts of the cave. It's large 
+fangs glistening in the light blue hue of the crystal's glow. It's wings 
+folded around it's self helping it hide better in the shadows. 
+~
+13
+Clanname none~
+0
+0
+1073741889 128 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+#1408
+mastiff bat~
+A mastiff bat~
+A mastiff bat lurks in the shadows waiting for prey
+~
+This brown furry bat lurks in the shadier parts of the cave. It's large 
+fangs glistening in the light blue hue of the crystal's glow. It's wings 
+folded around it's self helping it hide better in the shadows. 
+~
+13
+Clanname none~
+0
+0
+65 128 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 3 33554435
+#1409
+mindflayer mind flayer~
+a mindflayer~
+A mindflayer is lurking about here.
+~
+This brown furry bat lurks in the shadier parts of the cave. It's large 
+fangs glistening in the light blue hue of the crystal's glow. It's wings 
+folded around it's self helping it hide better in the shadows. 
+~
+13
+Clanname none~
+0
+0
+97 4194432 -1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 3&16 33554435
+#1449
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1400
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#1402
+a crystalised statue~
+A crystalised statue~
+A crystalised statue of a traveler stands here with a look of terror on it's face.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#1403
+A crystal spear~
+A crystal spear~
+A long crystal broken from the crystal dragon lays here~
+~
+5 0 8193
+0 50 100 6 10 0 0
+1 133 13
+1
+0
+0
+0
+0
+0
+S 4 0
+A
+26 2048
+#1404
+pair crystal leggings~
+A pair of crystal leggings~
+A pair of crystal leggings lay here waiting for an owner~
+~
+9 -2147483648 33 2
+60 60 0 0 0 0 0
+1 213 21
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+22 -5
+A
+24 -5
+A
+13 100
+#1405
+muddy robe~
+a muddy robe~
+A muddy robe has been left here.~
+~
+9 64 1025
+55 55 0 0 0 0 0
+8 249 24
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+12 50
+#1406
+blue crystal medallion~
+a blue crystal medallion~
+A blue crystal medallion has been left here.~
+~
+9 0 5
+55 55 0 0 0 0 0
+1 185 18
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+3 1
+#1407
+crystal blue ring~
+a blue crystal ring~
+A blue crystal ring has been left here.~
+~
+9 0 3
+55 55 0 0 0 0 0
+1 251 25
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+3 1
+#1408
+extradimensional portal~
+an extradimensional portal~
+Some wizard left an extradimensional portal laying here.~
+~
+15 64 1
+1000 0 0 12 0 0 0
+1 160 16
+2
+13
+0
+0
+0
+0
+S 0 0
+#1449
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#1400
+A Path Through the Forest~
+~
+&gThe thick foliage surrounds the path here. The small path winds through 
+the trees that seem otherwise to thick to traverse. Small woodland animals 
+dart in between the trees and brush going about their business.&w 
+~
+1 4 11
+D0
+~
+~
+0 -1 1401
+D11
+~
+~
+0 -1 41458
+S
+#1401
+Path Through the Forest~
+~
+&gThe path winds on through the forest, the dense trees on either side 
+constricting the path. To the north a bright light can be seen shining 
+through the trees, but it seems to be a bit more in the distance. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1400
+D6
+~
+~
+0 -1 1402
+S
+#1402
+A Winding Path~
+~
+&gThe bumpy path continues winds around making its way through the forest. 
+In the distance a bright light can be seen through the thick trees and to 
+the south is nothing but darkness. 
+~
+1 0 1
+D7
+~
+~
+0 -1 1403
+D9
+~
+~
+0 -1 1401
+R M 0 1404 1 1402
+S
+#1403
+Near a Clearing~
+~
+&gA small clearing can be seen to the north, a bright blue light 
+illuminating the area. At this point it's hard to see what exactly is 
+producing the light. The path seems to get a little thin here as it 
+approaches the clearing. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1404
+D8
+~
+~
+0 -1 1402
+S
+#1404
+A Crystalized Clearing~
+~
+&CThe Trees around the clearing seem to have been turned into a 
+crystallized form. A large shape can be seen at the northern most end of 
+the clearing moving slowly. The crystal forms seem to be emitting a bright 
+blue light. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1403
+D6
+~
+~
+0 -1 1405
+R O 0 1402 1 1404
+S
+#1405
+Amongst Frozen Statues~
+~
+&CCrystallized forms of beats and people clutter the area., frozen in 
+crystallized forms for all eternity. The large form to the north stirs 
+slowly, a deep breath can be heard coming from it. 
+~
+1 0 1
+D7
+~
+~
+0 -1 1406
+D9
+~
+~
+0 -1 1404
+S
+#1406
+Before a Large Cave~
+~
+&CA large cave opens to the north from here. The rock seems to be composed 
+of pure crystal which gives it the look as if it is moving from the 
+shadows being cast from the blue glow. 
+~
+1 4 1
+D0
+~
+~
+0 -1 1407
+D8
+~
+~
+0 -1 1405
+S
+#1407
+Entrance of a Crystal Cave~
+~
+&CThe cave opens to the north and seems to be leading down. A blue light 
+shines from the walls and the crystallized forms to the south and randomly 
+scattered throughout the entrance. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1408
+D2
+~
+~
+0 -1 1406
+R M 0 1409 1 1407
+  R G 0 1408 1
+  R E 0 1407 1 1
+  R E 0 1405 1 12
+  R E 0 1406 1 3
+R O 0 1402 1 1407
+S
+#1408
+Deep Inside the Crystal Cave~
+~
+&CThe cave emits a calm blue light casting shadows on the crystallized 
+forms about the cave. Statues of warriors and travelers that might have 
+stopped here for rest or to explore. 
+~
+1 0 13
+D2
+~
+~
+0 -1 1407
+D5
+~
+~
+0 -1 1409
+R M 0 1405 4 1408
+S
+#1409
+Deep Inside the Crystal Cave~
+~
+&CThe calm blue light shines over the frozen crystal statues of past 
+warriors and explorers. The cave 's path moves through the earth, the 
+shadows moving giving life to the cave walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1410
+D4
+~
+~
+0 -1 1408
+R M 0 1408 1 1409
+S
+#1410
+A Fork in the Cave~
+~
+&CThe cave comes to a fork, leading off in different directions. The blue 
+glow from the cave walls lighting all the paths. A sound of heavy 
+breathing echo's throughout the caves, not giving a direction of the way 
+it is coming from. 
+~
+1 0 13
+D2
+~
+~
+0 -1 1409
+D6
+~
+~
+0 -1 1411
+D7
+~
+~
+0 -1 1412
+R M 0 1406 1 1410
+R O 0 1402 1 1410
+S
+#1411
+Deeper in the Cave~
+~
+The cave moves down deeper into the world. A heat passes through the 
+caves. The shadows that are cast from the blue light on the statues of 
+ancient warriors, give the cave an eerie feel. 
+~
+1 0 13
+D5
+~
+~
+0 -1 1413
+D9
+~
+~
+0 -1 1410
+S
+#1412
+Moving Through the Cave~
+~
+The crystallized walls of the cave continue their blue glow casting 
+shadows along the floors and on the frozen forms of the travelers that 
+have been here before. 
+~
+1 0 13
+D3
+~
+~
+0 -1 1425
+D8
+~
+~
+0 -1 1410
+R M 0 1402 2 1412
+S
+#1413
+Deeper in the Cave~
+~
+The cave continues its winding path through the ground. The walls of the 
+cave giving off a blue light illuminating the path. In the distance, 
+deeper the sound of water can be heard. 
+~
+1 0 13
+D4
+~
+~
+0 -1 1411
+D7
+~
+~
+0 -1 1414
+R M 0 1409 2 1413
+  R E 0 1405 1 12
+  R E 0 1406 1 3
+  R E 0 1407 1 1
+  R G 0 1408 1
+R O 0 1402 1 1413
+S
+#1414
+Deeper in the Cave~
+~
+&CThe sound of water can be heard here echoing through the caves. The 
+bight blue light in the cave seems to be taking on a different color, 
+getting a little darker in appearance. The amount of statues in the cave 
+seems to get small as the cave gets deeper.
+~
+1 0 13
+D5
+~
+~
+0 -1 1415
+D8
+~
+~
+0 -1 1413
+S
+#1415
+Near a Underground Lake~
+~
+&CThe cave opens up into a large cavern to the north. A large underground 
+lake to the north and the crystal caves to the south. It isn't clear from 
+here what the cavern to the north looks like. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1416
+D4
+~
+~
+0 -1 1414
+R M 0 1402 3 1415
+S
+#1416
+A Large Underground Shore~
+~
+&CA large underground lake opens up to the north. The walls of the entire 
+cavern are completely covered with a thick crystal material that almost 
+looks like its covered with ice. 
+~
+1 0 13
+D0
+~
+~
+0 -1 1417
+D2
+~
+~
+0 -1 1415
+R M 0 1405 1 1416
+S
+#1417
+In the Underground Lake~
+~
+&CThe water is heated to a semi high temperature. The water seems to be 
+heated through lava moving along deep below it's surface. There appears to 
+be no life moving through it. 
+~
+1 0 6
+D2
+~
+~
+0 -1 1416
+D5
+~
+~
+2048 -1 1418
+R M 0 1409 3 1417
+  R E 0 1407 1 1
+  R E 0 1406 1 3
+  R E 0 1405 1 12
+  R G 0 1408 1
+S
+#1418
+Under the Water~
+~
+&CThe water seems to only get hotter as it gets deeper. A colorful 
+spectrum of of light can be seen at the bottom from the hot magma flowing 
+beneath the crystal floor of the lake. 
+~
+1 4 8
+D4
+~
+~
+0 -1 1417
+D5
+~
+~
+2048 -1 1419
+S
+#1419
+The Bottom of the Lake~
+~
+&CThe water here is almost unbearably hot for a normal person. The 
+crystallized floor shining a spectrum of light from the red hot magma 
+flowing under it. 
+~
+1 0 8
+D0
+~
+~
+2048 -1 1420
+D4
+~
+~
+0 -1 1418
+S
+#1420
+Along the Bottom of the lake~
+~
+&CThe hot water and bright colors of the crystallized lake floor make the 
+area unpleasant to most. To the north a hole in the bottom of the lake 
+floor can be seen.
+~
+1 0 8
+D0
+~
+~
+2048 -1 1421
+D2
+~
+~
+0 -1 1419
+S
+#1421
+Above a Hole in the Lake Floor~
+~
+&CBelow there is a deep hole that goes thought the crystal floor of the 
+lake bed. The sides of the whole are covered in lava flowing down deep 
+into the hole below.
+~
+1 0 8
+D2
+~
+~
+0 -1 1420
+D5
+~
+~
+2048 -1 1423
+S
+#1422
+Floating in a void~
+~
+~
+1 4 1
+S
+#1423
+In the Hole Under the Water~
+~
+&RThe sides of the hole are not earth but flowing lava making it's way 
+down into the earth and pooling at the floor of the hole. There is one 
+spot on the south wall though where a passage can be seen where one could 
+easily get through without being burned by the lava walls. 
+~
+1 0 8
+D2
+~
+~
+2048 -1 1424
+D4
+~
+~
+0 -1 1421
+S
+#1424
+A Place of Storage~
+~
+Mounds of gold, jewelery and armor line the floors of the small holding 
+cave. Several pieces of jewelery and armor stick out but it's all pretty 
+standard treasure of a dragon.
+~
+1 0 13
+D0
+~
+~
+0 -1 1423
+R O 0 1404 1 1424
+S
+#1425
+Deep in the Cave~
+~
+&CThe statues seem to thin down here, even a few crushed ones begin to 
+litter the corridors. The sounds of heavy breathing can be heard not far 
+from here, echoing through the cave. 
+~
+1 0 13
+D1
+~
+~
+0 -1 1412
+D9
+~
+~
+0 -1 1426
+R M 0 1405 5 1425
+R O 0 1402 1 1425
+S
+#1426
+A Bend in the Cave~
+~
+The cave continues winding through the ground. There are no statues here 
+like in other parts of the caves, leaving it quite empty comparatively. 
+The blue glow of the walls giving a calm look about the cave. 
+~
+1 4 13
+D2
+~
+~
+0 -1 1427
+D6
+~
+~
+0 -1 1425
+S
+#1427
+A Fork in the Cave~
+~
+The cave goes in several directions from here. A heavy breathing can be 
+heard coming from the north west, echoing loudly through the cave. A few 
+bats can be seen off the south moving around. 
+~
+1 4 13
+D0
+~
+~
+0 -1 1426
+D2
+~
+~
+0 -1 1428
+D7
+~
+~
+0 -1 1429
+R M 0 1409 4 1427
+  R G 0 1408 1
+  R E 0 1406 1 3
+  R E 0 1407 1 1
+  R E 0 1405 1 12
+S
+#1428
+A Cave full of Bats~
+~
+&CBats flutter around here showing that this is a nesting ground to them. 
+Hundreds upon hundreds of bats flutter around in here looking for a 
+place to hang among the crystal walls of the caves.
+~
+1 0 13
+D0
+~
+~
+0 -1 1427
+R M 0 1402 5 1428
+S
+#1429
+Before a Large Cavern~
+~
+&CA large cavern can be seen to the north of here. A very loud heavy 
+breathing sound echo's through the cave. Also if one where to look hard 
+enough, the shadows to the north seem to be moving differently then in the 
+rest of the cave as if there is something moving around. 
+~
+1 4 13
+D0
+~
+~
+0 -1 1430
+D8
+~
+~
+0 -1 1427
+S
+#1430
+A Large Cavern~
+~
+&CThe cave opens wide here revealing a large cavern. A few caves line the 
+walls up high but don't seem to go anywhere. There are piles of broken 
+crystals laying about as well as what seems like busted up statues of 
+warriors and travelers. 
+~
+1 0 13
+D2
+~
+~
+0 -1 1429
+R M 0 1403 1 1430
+S
+#1431
+Floating in a void~
+~
+~
+1 4 1
+S
+#1432
+Floating in a void~
+~
+~
+1 4 1
+S
+#1433
+Floating in a void~
+~
+~
+1 4 1
+S
+#1434
+Floating in a void~
+~
+~
+1 4 1
+S
+#1435
+Floating in a void~
+~
+~
+1 4 1
+S
+#1436
+Floating in a void~
+~
+~
+1 4 1
+S
+#1437
+Floating in a void~
+~
+~
+1 4 1
+S
+#1438
+Floating in a void~
+~
+~
+1 4 1
+S
+#1439
+Floating in a void~
+~
+~
+1 4 1
+S
+#1440
+Floating in a void~
+~
+~
+1 4 1
+S
+#1441
+Floating in a void~
+~
+~
+1 4 1
+S
+#1442
+Floating in a void~
+~
+~
+1 4 1
+S
+#1443
+Floating in a void~
+~
+~
+1 4 1
+S
+#1444
+Floating in a void~
+~
+~
+1 4 1
+S
+#1446
+Floating in a void~
+~
+~
+1 4 1
+S
+#1447
+Floating in a void~
+~
+~
+1 4 1
+S
+#1448
+Floating in a void~
+~
+~
+1 4 1
+S
+#1449
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

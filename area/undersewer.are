@@ -1,0 +1,980 @@
+#AREA        Under Sewer~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       8
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+3 10 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &wThe scampering sounds of taloned feet echo through the halls.~
+
+#FLAGS
+66048
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 450000 0 999999796 999999796 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4900
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4901
+wererat soldier~
+a wererat soldier~
+A wererat soldier is standing here.
+~
+Covered in a thick red fur, the half rat and half human is partially wearing leather armor and has
+bright red eyes.
+~
+0
+Clanname none~
+0
+0
+131075&36 0 -1000 C
+8 0 0 0d0+250 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+4 4 33 0 0 0 262145 2
+#4902
+wererat shaman~
+a wererat shaman~
+A wererat shaman is standing here.
+~
+Covered in a thick gray fur, the half rat and half human is wearing a blue robe and has
+bright red eyes.
+~
+0
+Clanname none~
+0
+0
+1&36 4194304 0 C
+8 0 0 0d0+250 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+8 3 33 0 0 0 262145 33554434
+#4903
+wererat warrior~
+a wererat warrior~
+A wererat warrior is standing here.
+~
+Covered in a thick brown fur, the half rat and half human is partially wearing leather armor and has
+bright red eyes.
+~
+0
+Clanname none~
+0
+0
+1&36 0 0 C
+10 0 250 0d0+350 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+5 5 33 0 0 0 262145 2
+#4904
+wererat chief~
+a wererat chief~
+A wererat chief is standing here.
+~
+Covered in a thick white fur, the half rat and half human is partially wearing chain mail armor and has
+bright red eyes.
+~
+0
+Clanname none~
+0
+0
+131075&36 128 0 C
+10 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+50 3 0 0 1 1 1
+6 6 65568 0 0 0 262145 2
+#4905
+giant snake ~
+a giant snake~
+A giant snake is slithering along here.
+~
+The snake has large black diamonds across it's length.  The end of the snak has a giant rattle.
+~
+0
+Clanname none~
+0
+0
+1&36 0 0 C
+10 0 250 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+58 3 0 0 1 1 1
+5 5 65568 0 0 0 262145 2
+#4950
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4900
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#4901
+three headed whip~
+a three headed whip~
+A three headed whip has been left here.~
+~
+5 0 8193
+12 3 10 5 3 0 0
+1 29 2
+4
+13
+0
+0
+0
+0
+S 4 0
+> fight_prog 3~
+mpecho &YThe whips' heads suddenly appear alive, and bite you with sharp teeth!
+mpdamage $n 6
+~
+|
+#4902
+soiled loin cloth~
+a soiled loin cloth~
+A soiled loin cloth lays here.~
+~
+9 0 33
+5 5 0 0 0 0 0
+1 54 5
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+13 10
+#4903
+green bloodied robe~
+a green bloodied robe~
+A green bloodied robe has been left here.~
+~
+9 0 9
+5 5 0 0 0 0 0
+1 50 5
+4
+11
+0
+0
+0
+0
+S 77 0
+A
+12 10
+#4904
+oak staff~
+an oak staff~
+An oak staff has been left here.~
+~
+4 0 16385
+10 3 3 -1 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+'NONE'
+S 4 0
+#4905
+war hammer~
+a war hammer~
+A war hammer has been left here.~
+~
+5 0 8193
+12 7 16 4 4 5 0
+1 38 3
+4
+5
+0
+0
+0
+0
+S 4 0
+> fight_prog 3~
+mpecho &YA loud thunderclap follows the hammer blow into $t!
+mpdamage $t 10
+~
+|
+#4906
+ring sorrow~
+a ring of sorrow~
+A strange looking ring has been left here.~
+~
+9 2 3
+5 5 0 0 0 5 0
+1 10 1
+1
+2
+0
+0
+0
+0
+S 77 0
+A
+26 1024
+A
+26 1073741824
+A
+18 2
+#4950
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#0
+
+
+#ROOMS
+#4900
+An Underground Corridor~
+~
+The corridor extends to the north and south.  The floor has a grate that
+runs up the center of it the entire length.  There is a repugnant scent
+of raw sewage that fills the area.  A few scattered bones are here.
+~
+1 5 1
+D0
+~
+~
+0 -1 4901
+D1
+~
+~
+0 -1 4913
+D4
+~
+sewer grate~
+16777219 -1 8370
+R M 0 4901 2 4900
+  R E 0 4902 1 7
+R M 0 4901 2 4900
+  R E 0 4902 1 7
+R D 0 4900 4 1
+S
+#4901
+A Small Hallway~
+~
+The hallway has blood stains that intermingle with mold along the walls.
+The floor has a grate that runs up the center of it for the entire 
+length.  There are piles of trash, and debris along the walls.
+~
+1 1 1
+D0
+~
+~
+0 -1 4902
+D1
+~
+~
+0 -1 4905
+D2
+~
+~
+0 -1 4900
+D3
+~
+~
+0 -1 4907
+S
+#4902
+A Vast Chamber~
+~
+The massive chamber extends over a small pond of raw sewage that the
+grates from the hallways all seem to flow too.  The walls are covered
+in mold and mildew all around.
+~
+1 1 6
+D0
+~
+~
+0 -1 4903
+D1
+~
+~
+0 -1 4909
+D2
+~
+~
+0 -1 4901
+D3
+~
+~
+0 -1 4911
+S
+#4903
+A Vast Hallway~
+~
+The hall length is covered in mold and mildew along the walls.  There are
+several humanoid skeletons laying about the hall here.  A long grate 
+extends the length the hallway on the floor.
+~
+1 1 1
+D0
+~
+~
+0 -1 4904
+D2
+~
+~
+0 -1 4902
+S
+#4904
+Wererat Chief Lair~
+~
+The lair floor is covered in a massive pile of humanoid skulls.  This is
+intermingled with small trinkets of treasure.  The walls are covered with
+blood stains, and mildew along them.
+~
+1 1 1
+D2
+~
+~
+0 -1 4903
+R M 0 4904 1 4904
+  R E 1 4901 1 16
+  R E 1 4906 1 1
+S
+#4905
+A Narrow Corridor ~
+~
+The corridor walls are very narrow here, forcing most who enter to walk
+sideways.  The walls are covered in a thick mildew.  There is a grate
+that runs the length of the floor.
+~
+1 1 1
+D1
+~
+~
+0 -1 4906
+D3
+~
+~
+0 -1 4901
+S
+#4906
+A Small Chamber~
+~
+The chamber is only slightly larger then the narrow corridor.  There are
+small bones littering the floor that cover up most of the grate.  The
+walls are covered in a mildew.
+~
+1 1 1
+D3
+~
+~
+0 -1 4905
+R M 0 4902 1 4906
+  R E 1 4903 1 5
+  R E 1 4904 1 17
+S
+#4907
+Within a Hallway~
+~
+There are broken cobblestones on the walls where years of water have 
+damaged the structure of the walls.  The walls have a mildew film that
+covers most of them.  The floor has a grate that runs in the middle.
+~
+1 1 1
+D1
+~
+~
+0 -1 4901
+D3
+~
+~
+0 -1 4908
+S
+#4908
+A Dark Octagon Room~
+~
+The massive room is sided like an octagon in shape. The walls are covered 
+in a mixture of mildew and blood stains. A nasty black substance hangs 
+from the ceiling. The floor has a grate that runs down the middle of it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4907
+R M 0 4902 1 4908
+  R E 1 4903 1 5
+  R E 1 4904 1 17
+S
+#4909
+A Long Hallway~
+~
+The hallway seems to stretch out for a good ways.  The cobblestone walls
+are lined with a heavy fur of mildew.  There is a grate that is in the
+middle of the floor, and runs the length of the hallway.
+~
+1 1 1
+D1
+~
+~
+0 -1 4910
+D3
+~
+~
+0 -1 4902
+S
+#4910
+A Small Barracks ~
+~
+The small room is laden with beds, that are rotting.  There are small
+chests that are rusted up under each bed.  The walls are covered in a
+thick mildew.  The floor has a grate that runs down the middle of it.
+~
+1 1 1
+D3
+~
+~
+0 -1 4909
+R M 0 4903 1 4910
+  R E 1 4905 1 16
+S
+#4911
+A Long Hallway~
+~
+The hallway extends quite a ways to the east and west of here.  There is
+a grate that is in the middle of the floor that travels the length of the
+floor.  The walls are covered in a thick furry mildew.
+~
+1 1 1
+D1
+~
+~
+0 -1 4902
+D3
+~
+~
+0 -1 4912
+S
+#4912
+A Large Fire Pit~
+~
+The Massive room is filled with a giant fire pit. It has broken old 
+cobblestones surrounding a ash filled pit. The ceiling above is blackened 
+with years of use. The walls are covered in a thick mildew. 
+~
+1 1 1
+D1
+~
+~
+0 -1 4911
+R M 0 4903 1 4912
+  R E 1 4905 1 16
+S
+#4913
+A Crumbling Hallway~
+~
+There is debris all along the hallway here. The cobble stones are cracked 
+and broken in many places. It appears the heavy fur mildew maybe holding 
+the structure in place. There is a grate that runs the length of the 
+floor here.  A few scattered bones are along the wall.
+~
+1 1 1
+D1
+~
+~
+0 -1 4915
+D2
+~
+~
+0 -1 4914
+D3
+~
+~
+0 -1 4900
+S
+#4914
+A Small Hallway~
+~
+The hallway is rather narrow in size.  The walls are covered in a thick
+fury mildew.  There is a grate that runs down the middle of the floor.
+A strong scent of raw sewage fills the area.
+~
+1 1 1
+D0
+~
+~
+0 -1 4913
+D2
+~
+~
+0 -1 4916
+S
+#4915
+Collapsed Section  ~
+~
+A massive section of the ceiling has blocked off the cavern to the east.
+The cracks and gaps in broken cobble stones are more prevalent in the
+halls here.  There is a grate that runs down the middle of the floor.
+~
+1 1 1
+D3
+~
+~
+0 -1 4913
+S
+#4916
+The Flooded Intersection~
+~
+The intersection is slightly flooded with sewage waste that is backed up
+from the clogged grate in the floor.  The walls are covered in a thick
+fury mildew.  Various debris litter the floor.
+~
+1 1 1
+D0
+~
+~
+0 -1 4914
+D1
+~
+~
+0 -1 4918
+D2
+~
+~
+0 -1 4919
+D3
+~
+~
+0 -1 4917
+S
+#4917
+A Broken Prison Cell~
+~
+The cell walls are covered with a thick fury mildew.  There are rusted
+over shackles connected to the walls.  A small drain is in the middle
+of the floor.  Dried blood is smeared along the floor.
+~
+1 1 1
+D1
+~
+~
+0 -1 4916
+S
+#4918
+A Broken Prison Cell~
+~
+The cell walls are covered with a thick fury mildew.  There are rusted
+over shackles connected to the walls.  A small drain is in the middle
+of the floor.  The old gate is broken almost into on the hinges.
+~
+1 1 1
+D3
+~
+~
+0 -1 4916
+S
+#4919
+A T-Shaped Hall~
+~
+The hallway has a massive iron pole connected to the far wall. The pole 
+appears to have some sort of rusted old shackles connected to it. There is 
+a grate that is in the middle of the floor. The walls are covered with 
+a mildew and blood stain mixture.
+~
+1 1 1
+D0
+~
+~
+0 -1 4916
+D1
+~
+~
+0 -1 4920
+D3
+~
+~
+0 -1 4921
+R M 0 4905 1 4919
+S
+#4920
+A Broken Prison Cell~
+~
+The cell walls are covered with a thick fury mildew.  There are rusted
+over shackles connected to the walls.  A small drain is in the middle
+of the floor.  There is trash littered about the floor.
+~
+1 1 1
+D3
+~
+~
+0 -1 4919
+S
+#4921
+A Broken Prison Cell~
+~
+The cell walls are covered with a thick fury mildew.  There are rusted
+over shackles connected to the walls.  A small drain is in the middle
+of the floor.  A small skull lays here.
+~
+1 1 1
+D1
+~
+~
+0 -1 4919
+S
+#4922
+Floating in a void~
+~
+~
+1 1 1
+D1
+~
+~
+0 -1 4923
+S
+#4923
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4924
+D1
+~
+~
+0 -1 4928
+D2
+~
+~
+0 -1 4926
+D3
+~
+~
+0 -1 4922
+S
+#4924
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4925
+D2
+~
+~
+0 -1 4923
+S
+#4925
+Floating in a void~
+~
+~
+1 1 1
+D2
+~
+~
+0 -1 4924
+S
+#4926
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4923
+D2
+~
+~
+0 -1 4927
+S
+#4927
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4926
+S
+#4928
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4929
+D2
+~
+~
+0 -1 4931
+D3
+~
+~
+0 -1 4923
+S
+#4929
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4930
+D2
+~
+~
+0 -1 4928
+S
+#4930
+Floating in a void~
+~
+~
+1 1 1
+D2
+~
+~
+0 -1 4929
+S
+#4931
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4928
+D2
+~
+~
+0 -1 4932
+S
+#4932
+Floating in a void~
+~
+~
+1 1 1
+D0
+~
+~
+0 -1 4931
+S
+#4933
+Floating in a void~
+~
+~
+1 5 1
+S
+#4934
+Floating in a void~
+~
+~
+1 5 1
+S
+#4935
+Floating in a void~
+~
+~
+1 5 1
+S
+#4936
+Floating in a void~
+~
+~
+1 5 1
+S
+#4937
+Floating in a void~
+~
+~
+1 5 1
+S
+#4938
+Floating in a void~
+~
+~
+1 5 1
+S
+#4939
+Floating in a void~
+~
+~
+1 5 1
+S
+#4940
+Floating in a void~
+~
+~
+1 5 1
+S
+#4941
+Floating in a void~
+~
+~
+1 5 1
+S
+#4942
+Floating in a void~
+~
+~
+1 5 1
+S
+#4943
+Floating in a void~
+~
+~
+1 5 1
+S
+#4944
+Floating in a void~
+~
+~
+1 5 1
+S
+#4945
+Floating in a void~
+~
+~
+1 5 1
+S
+#4946
+Floating in a void~
+~
+~
+1 5 1
+S
+#4947
+Floating in a void~
+~
+~
+1 5 1
+S
+#4948
+Floating in a void~
+~
+~
+1 5 1
+S
+#4950
+Floating in a void~
+~
+~
+1 5 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

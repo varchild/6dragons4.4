@@ -1,0 +1,21 @@
+#VNUM 54002
+#OBJECT
+Name         crate~
+ShortDescr   a crate, properly milled from light-brown fir lumber~
+Description  Here lies a crate, properly milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        25
+Cost         8
+Currtype     1
+Color        1
+Size   0
+Values       10 10 23 0 0 0 0
+ExtraDescr   crate~ 
+&CThis crafted item bears the seal of Galt, the journeyman carpenter.
+~
+End
+
+#END

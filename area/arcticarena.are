@@ -1,0 +1,727 @@
+#AREA        Arctic Arena~
+
+
+
+#VERSION     11
+#AUTHOR      Taon~
+#DERIVATIVES ~
+#COLOR       5
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 1 0
+
+#RESETMSG &WAn arctic blast of cold air momentarily takes your breath away.~
+
+#FLAGS
+16384 2
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999802 999999802 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#14500
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#14501
+test~
+a newly created test~
+Some god abandoned a newly created test here.
+~
+~
+0
+Clanname none~
+0
+0
+1&32 0 0 C
+39 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+23 20 0 0 0 0 0 0
+> speech_prog abc~
+if multi($n) > 1
+say You are multiplaying!
+endif
+~
+|
+#14502
+dark shadow~
+a dark shadow~
+A dark shadow lingers through the immediate area.
+~
+~
+0
+Clanname none~
+0
+0
+35&32 268435488 -1000 C
+25 0 -200 0d0+2500 0d0+0
+0 0 0 0 200 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 1 1 8
+50 50 0 4194400 0 0 48 2
+#14503
+testing mob~
+a newly created testing mob~
+Some god abandoned a newly created testing mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1&96 0 0 C
+50 0 0 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog test~
+mpinduct taath
+~
+> speech_prog moo~
+say Timer 1
+say Timer 2, no pause
+mppause 20
+say Timer 3, 20 pause
+say Timer 4, no pause
+if race($n) == "dragon"
+mppause 20
+say You ARE a dragon. 20 pause
+endif
+say Timer 5, should be NO pause here unless you are a dragon.
+~
+|
+#0
+
+
+#OBJECTS
+#14500
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#14501
+test item weapon~
+Testing eq~
+Testing eq~
+~
+9 0&32 8193
+40 40 90 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+> speech_prog moo~
+mpechoat $n Hah!
+~
+|
+#14502
+test eq 2~
+a newly created test eq 2~
+Some god dropped a newly created test eq 2 here.~
+~
+5 0 0
+0 33 2 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#14503
+semi-translucent leggings semi translucent~
+a set of semi-translucent leggings~
+A semi-translucent set of leggings are here.~
+~
+9 257 33
+35 35 0 0 0 65 0
+3 350 35
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+27 8
+A
+2 1
+A
+13 50
+A
+12 25
+#14505
+testing~
+a newly created testing~
+Some god dropped a newly created testing here.~
+~
+8 0 0
+45 45 -1 -1 0 0 0
+1 164 12
+1
+0
+0
+0
+0
+0
+S 0 0
+#14506
+frozen plant~
+a frozen plant~
+A plant covered in permafrost is in the ground here.~
+~
+13 1107296288 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#14500
+On an Icy Dock~
+~
+In the crispy frozen air, seaspray feels like knives on the skin. The 
+water of the ocean gently bashes against the wooden dock in a way that a 
+fist might punch a face. Ice chunks float in the water all around the 
+island creating a slush in the sea that keeps eyes from gazing too deep in 
+the waters. The land is constantly bombarded by the ocean and the pieces 
+of ice are left scattered in a pattern that shows where the last wave hit. 
+~
+1 103817220 25
+D1
+~
+~
+0 -1 14501
+D2
+~
+~
+0 -1 14505
+R O 0 14506 1 14500
+R O 0 14506 1 14500
+S
+#14501
+Frost Covered Island~
+~
+From both sides of the island wind blows hard bringing with it the 
+stinging ocean mist. The ground though covered with the tiniest bit of 
+grass is hard as stone with its thick layer of permafrost just under the 
+surface. Not much protects against the wind as there is no standing trees 
+or even tall plants to use as a barrier. Mostly, the only release from the 
+harsh surroundings would be to bury deep in the ground, if it is even 
+possible in the hardened ground. 
+~
+1 103817216 25
+D1
+~
+~
+0 -1 14502
+D2
+~
+~
+0 -1 14506
+D3
+~
+~
+0 -1 14500
+E
+sign~
+~
+E
+sign remove~
+~
+S
+#14502
+A Narrowing Trail~
+~
+The trail grows awful narrow here, exposing any to what might ly in wait 
+in the thick forest growth that lays nearby along each side of the winding 
+path. Large bramble bushes can be seen off in the distance to the south, 
+the trail also continues north through thick undergrowth. 
+~
+1 103817220 25
+D1
+~
+~
+0 -1 14503
+D2
+~
+~
+0 -1 14507
+D3
+~
+~
+0 -1 14501
+S
+#14503
+On A Frozen Island~
+~
+Layers of frozen ice cover the sand of this beach, along with a few forms 
+of arctic vegatation. The meager grasses flip about in the chilled wind as 
+sea mist rolls off the ocean in a roaring breath. The ground here seems a 
+bit indented as if a large tree in the past had taken root and been pulled 
+up by a great force, something the size of the tree or perhaps just a hole 
+was dug. 
+~
+1 103817220 25
+D1
+~
+~
+0 -1 14504
+D2
+~
+~
+0 -1 14508
+D3
+~
+~
+0 -1 14502
+S
+#14504
+Nearing the Center of the Island~
+~
+This perma-frozen wasteland is covered with endless mounds of snow and 
+shards of ice which have exploded from the ground in massive proportions. 
+The deformed mouth of a small cave can barely be made out to the distant 
+north. One can also travel to the south, east, and west of here. 
+~
+1 103817216 25
+D2
+~
+~
+0 -1 14509
+D3
+~
+~
+0 -1 14503
+S
+#14505
+Within The Frozen Abyss~
+~
+This part of the frozen abyss offers nothing, not even the slightest form 
+of vegatation. The rugged ground is quite slick due to its icy surface. 
+One can only travel to the east of here, anywhere else would be considered 
+too dangerous. 
+~
+1 103817216 25
+D1
+~
+~
+0 -1 14506
+D2
+~
+~
+0 -1 14510
+S
+#14506
+A Frozen Tomb~
+~
+A massive tomb of ice covers a giant creature completely under its cold
+depths.  The rugged ground is quite slick due to its icy surface.  A
+few giant hills of snow surround the tomb.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14501
+D1
+~
+~
+0 -1 14507
+D2
+~
+~
+0 -1 14511
+D3
+~
+~
+0 -1 14505
+S
+#14507
+The Bottom of a Snow Hill~
+~
+Massive hills of snow are both sides of the trail here.  What used to be
+a large tree is mostly covered in snow.  The tree branches are encased
+in solid ice.  A few animal tracks are visible in the snow.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14502
+D1
+~
+~
+0 -1 14508
+D2
+~
+~
+0 -1 14512
+D3
+~
+~
+0 -1 14506
+S
+#14508
+Within a Frozen Trail~
+~
+This part of the frozen abyss offers nothing, not even the slightest form 
+of vegatation. The rugged ground is quite slick due to its icy surface. 
+One can only travel to the east of here, anywhere else would be considered 
+too dangerous. 
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14503
+D1
+~
+~
+0 -1 14509
+D2
+~
+~
+0 -1 14513
+D3
+~
+~
+0 -1 14507
+S
+#14509
+Along the Frozen Tundra~
+~
+The deformed mouth of an underground cave is directly to the north of 
+here. A slippery path continues southwards, towards the center of this 
+frozen abyss. 
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14504
+D2
+~
+~
+0 -1 14514
+D3
+~
+~
+0 -1 14508
+S
+#14510
+Within an Icy Prison~
+~
+The trail grows awful narrow here, exposing any to what might lay in wait 
+in the thick forest growth that lays nearby along each side of the winding 
+path. Large bramble bushes can be seen off in the distance to the south, 
+the trail also continues north through thick undergrowth.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14505
+D1
+~
+~
+0 -1 14511
+D2
+~
+~
+0 -1 14515
+S
+#14511
+Before a Snow Covered Hill~
+~
+This snow covered hill with its shards of ice which have exploded from 
+the ground in massive proportions. The deformed mouth of a small cave 
+can barely be made out in the distance.
+~
+1 103817220 25
+D0
+~
+~
+0 -1 14506
+D1
+~
+~
+0 -1 14512
+D2
+~
+~
+0 -1 14516
+D3
+~
+~
+0 -1 14510
+S
+#14512
+An Icy Basin~
+~
+This perma-frozen wasteland is covered with endless mounds of snow and 
+shards of ice which have exploded from the ground in massive proportions. 
+The deformed mouth of a small cave can barely be made out to the distant 
+north. One can also travel to the south, east, and west of here.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14507
+D1
+~
+~
+0 -1 14513
+D2
+~
+~
+0 -1 14517
+D3
+~
+~
+0 -1 14511
+S
+#14513
+Within an Arctic Wasteland~
+~
+A walls of massive ice shards prevents travels to the west and south of 
+here. The slick surface of this arctic terrain makes it nearly impossible 
+to traverse. The frozen trail continues off to the north and east of here. 
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14508
+D1
+~
+~
+0 -1 14514
+D2
+~
+~
+0 -1 14518
+D3
+~
+~
+0 -1 14512
+S
+#14514
+An Icy Aclove~
+~
+This perma-frozen wasteland is covered with endless mounds of snow and 
+shards of ice which have exploded from the ground in massive proportions. 
+The deformed mouth of a small cave can barely be made out to the distant 
+north. One can also travel to the south, east, and west of here.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14509
+D2
+~
+~
+0 -1 14519
+D3
+~
+~
+0 -1 14513
+S
+#14515
+Snow Covered Trail~
+~
+Massive walls of permafrost nearly completely surround the immediate area, 
+hampering travel and sight in all directions but to the southeast. The 
+frozen ground, is hardly a suitable surface to walk on. 
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14510
+D1
+~
+~
+0 -1 14516
+S
+#14516
+A Frozen Trail~
+~
+This perma-frozen wasteland is covered with endless mounds of snow and 
+shards of ice which have exploded from the ground in massive proportions. 
+The deformed mouth of a small cave can barely be made out to the distant 
+north. One can also travel to the south, east, and west of here.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14511
+D1
+~
+~
+0 -1 14517
+D3
+~
+~
+0 -1 14515
+S
+#14517
+A Frost Covered Sign~
+~
+This perma-frozen wasteland is covered with endless mounds of snow and 
+shards of ice which have exploded from the ground in massive proportions. 
+The deformed mouth of a small cave can barely be made out to the distant 
+north. A frost covered sign is barely visble.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14512
+D1
+~
+~
+0 -1 14518
+D3
+~
+~
+0 -1 14516
+E
+sign~
+Beware Ye, the arctic winds are not the only thing to fear here!
+~
+S
+#14518
+The Frozen Tundra~
+~
+The deformed mouth of an underground cave is directly to the north of 
+here. A slippery path continues southwards, towards the center of this 
+frozen abyss.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14513
+D1
+~
+~
+0 -1 14519
+D3
+~
+~
+0 -1 14517
+S
+#14519
+A Frozen Wasteland~
+~
+The deformed mouth of an underground cave is directly to the north of 
+here. A slippery path continues southwards, towards the center of this 
+frozen abyss.  A large statue made out of solid ice here.
+~
+1 103817216 25
+D0
+~
+~
+0 -1 14514
+D3
+~
+~
+0 -1 14518
+E
+statue~
+A deformed creature has been roughly created out of ice.
+~
+S
+#14520
+Within a Protective Igloo~
+~
+The large icy blocks of the igloo keep the elements of the arctic out. 
+There is a small pit in the center of the igloo that is carefully arranged 
+to allow small fires for cooking, and warming the igloo itself.  A large 
+leathery animal skin makes up a door that leads to the harsh arctic.
+~
+1 103818252 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

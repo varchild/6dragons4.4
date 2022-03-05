@@ -1,0 +1,199 @@
+#BUG
+FoundBy       Vladaar~
+FoundWhen     11-07-2015 06:55:18PM~
+BugDesc       This is annoying mpkamount apparently only checks chapter 1, it wont work with
+other chapters.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          29243
+End
+
+#BUG
+FoundBy       Vycon~
+FoundWhen     01-20-2016 07:35:00PM~
+BugDesc       When you save/quit in the tradeskill rooms of Dakar, when you relog
+you are at dakar platform,
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11299
+End
+
+#BUG
+FoundBy       Bojan~
+FoundWhen     03-02-2016 11:04:26AM~
+BugDesc       I don't know if this can be considered a bug, but the Sheriff quest has no description on it's pages in journal, only showing ( Not created ! )
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#BUG
+FoundBy       Vladaar~
+FoundWhen     08-15-2016 06:43:48PM~
+BugDesc       You can group as dragons with anyone using human form.  
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35515
+End
+
+#BUG
+FoundBy       Vaard~
+FoundWhen     09-14-2016 05:30:31PM~
+BugDesc       When I am in beast meld, I am unable to report bugs. It just acts like I put in
+a command that is not recognized.
+Vaard.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16016
+End
+
+#BUG
+FoundBy       Vaard~
+FoundWhen     09-14-2016 05:41:06PM~
+BugDesc       Doors do not automatically open while in beast meld form.
+
+Vaard.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16107
+End
+
+#BUG
+FoundBy       Lalirien~
+FoundWhen     06-26-2017 00:15:00PM~
+BugDesc       I'm not sure what happened, i was baking, and now all the objects around me contain numbers. 1561, an oven, etc. the inventory too. Sorry for breaking things, i love the game!
+~
+Type          0
+FixedBy       Vladaar~
+FixedWhen     11-04-2017 08:24:11AM~
+FixDesc       That is supposed to happen when crafting so you can tell different objects apart by the number that have the same name.
+~
+Reward        0
+RewardBonus   -1
+Room          16176
+End
+
+#BUG
+FoundBy       Mirkoros~
+FoundWhen     06-29-2017 00:19:00PM~
+BugDesc       The config for keepalive does not seem to work. I still get idled out while it's active.
+~
+Type          3
+FixedBy       Vladaar~
+FixedWhen     02-18-2018 08:00:21PM~
+FixDesc       fixed, it's only available for staff, shouldn't see option now
+~
+Reward        0
+RewardBonus   1
+Room          35543
+End
+
+#BUG
+FoundBy       Mendicus~
+FoundWhen     07-03-2017 08:43:48PM~
+BugDesc       Enlarge still has negitive effects, Im now -7'4" and -119lbs
+~
+Type          3
+FixedBy       Vladaar~
+FixedWhen     02-18-2018 07:57:06PM~
+FixDesc       fixed
+~
+Reward        0
+RewardBonus   1
+Room          1164
+End
+
+#BUG
+FoundBy       Zaiden~
+FoundWhen     10-28-2017 00:20:21PM~
+BugDesc       when i was in a fight within the arena i was actually killed that it created a corpse. that is the first it has done that through an arena fight. my assumtion is that sense it wasn't a player but a summond mob it decided to make it an actual kill and create my corpse. just a thought hope it solved soon.
+~
+Type          3
+FixedBy       Vladaar~
+FixedWhen     11-04-2017 08:09:24AM~
+FixDesc       fixed
+~
+Reward        0
+RewardBonus   1
+Room          11268
+End
+
+#BUG
+FoundBy       Kalinaar~
+FoundWhen     10-30-2017 03:01:20PM~
+BugDesc       Combo is currently not working for me. I have it currently set to punch, kick. When I type combo by itself in combat it just shows the syntax help screen for combo as if I'm typing combo by itself outside of combat.
+~
+Type          3
+FixedBy       Vladaar~
+FixedWhen     11-04-2017 07:59:06AM~
+FixDesc       I am assuming this is if your having combo and coalence with your class choices
+if that is the case it is fixed
+~
+Reward        0
+RewardBonus   1
+Room          2765
+End
+
+#BUG
+FoundBy       Quinton~
+FoundWhen     11-04-2017 07:46:27PM~
+BugDesc       bats have no weapon types, and cannot even practice pugilism.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11210
+End
+
+#BUG
+FoundBy       Quinnd~
+FoundWhen     11-12-2017 03:14:12PM~
+BugDesc       Somehow my character has been permanantly imbued with the slow spell. Under
+the affects list it says it is lvl16 and should only last 8 seconds. However
+the time is not going down and it wont go away. I even removed all my equipment
+and it is still there.
+
+Quinnd.
+~
+Type          0
+FixedBy       Vladaar~
+FixedWhen     02-18-2018 07:42:06PM~
+FixDesc       Just looked at you, no slow affect I could see.
+~
+Reward        0
+RewardBonus   -1
+Room          1164
+End
+
+#BUG
+FoundBy       Quinnd~
+FoundWhen     11-16-2017 07:48:25PM~
+BugDesc       I think there is a problem with sneaking and hiding. I have both of them maxed
+for my character and I can walk for usually no more than three steps before I
+become visibile again. This behavior does not seem right.
+
+Quinnd.
+~
+Type          0
+FixedBy       Vladaar~
+FixedWhen     02-18-2018 07:40:56PM~
+FixDesc       It's based on luck and dexterity, plus adept level of skills
+~
+Reward        0
+RewardBonus   -1
+Room          1164
+End
+
+#END

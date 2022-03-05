@@ -1,0 +1,60 @@
+#VNUM 54020
+#OBJECT
+Name         vine chest~
+ShortDescr   &gw&ge&zi&wr&wy&gn&zs &gv&gi&zn&we &zc&wo&zv&we&gr&ze&wd &gc&gh&ze&ws&wt&d~
+Description  A &gw&ge&zi&wr&wy&gn&zs &gv&gi&zn&we &zc&wo&zv&we&gr&ze&wd &gc&gh&ze&ws&wt&d has been left here along the ground.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        29
+Cost         8
+Currtype     2
+Color        13
+Size   0
+Values       700 0 0 12 6 30 0
+ExtraDescr   wagon~ &CThis crafted item bears the seal of Weiryn, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         5103
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18632
+Level        20
+Currtype     3
+Color        13
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18610
+Level        15
+Currtype     4
+Color        14
+Size   0
+Values       10 10 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16023
+Level        1
+Currtype     3
+Color        1
+Size   3
+Values       10 1 5 4 11 1 0
+End
+
+#END

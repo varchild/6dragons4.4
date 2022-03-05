@@ -1,0 +1,29 @@
+#VNUM 54031
+#OBJECT
+Name         bed~
+ShortDescr   a bed, legendary milled from brown hickory lumber~
+Description  Here lies a bed, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     12
+Weight       8
+Level        21
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       4 5000 129 200 200 30 10
+ExtraDescr   bed~ 
+&CThis crafted item bears the seal of Lisara, the master carpenter.
+~
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 5 0 0 0
+End
+
+#END

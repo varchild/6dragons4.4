@@ -1,0 +1,6294 @@
+#AREA        Caverns~
+
+
+
+#VERSION     11
+#AUTHOR      Zeplin~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+15 25 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A flurry of iron against iron sounds come from within the caverns.~
+
+#FLAGS
+512
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999992852 984293019 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#28000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#28005
+orc guard vasaf~
+Orc Guard Vasaf~
+An orc guard stands here guarding the entrance.
+~
+~
+13
+Clanname none~
+0
+0
+16777219 512 0 C
+20 0 0 1d1+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> rand_prog 5~
+emote shifts his weight for a more comfortable stance.
+~
+|
+#28006
+orc guard Sokas~
+Orc Guard Sokas~
+The orc guard is walking around on Patrol.
+~
+~
+13
+Clanname none~
+0
+0
+16777217 524288 0 C
+22 0 0 1d1+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 6 0 0 1 1 0
+0 0 0 0 0 0 48 0
+#28007
+orc guard Yaka~
+Orc guard Yaka~
+An orc guard is walking about.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 600 C
+22 18 7 3d7+800 1d6+2
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1709 0 0 9 1709 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+> all_greet_prog 100~
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28008
+orc guard lada~
+Orc Guard Lada~
+An orc guard skulks around here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 524288 600 C
+22 16 5 5d10+800 1d8+0
+0 0 0 0 0 
+0
+115 115 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 2 0 0 1775 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28009
+orc guard quara~
+Orc Guard Quara~
+An orc guard is at the ready here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 15 4 1d12+800 1d8+1
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 229488 2 0 0 0 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28010
+orc elder Roda~
+Orc Elder Roda~
+An orc elder is on his way to a meeting.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 13 3 2d10+800 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28011
+orc guard daza~
+Orc Guard Daza~
+An orc guard walks around the room.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 600 C
+22 18 7 3d7+800 1d6+2
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1709 0 0 9 1709 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28012
+orc guard Wotha~
+Orc Guard Wotha~
+An orc guard is practicing archery here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 524288 600 C
+22 16 5 5d10+800 1d8+0
+0 0 0 0 0 
+0
+115 115 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 2 0 0 1775 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28013
+Orc sentry Gorvo~
+Orc Sentry Gorvo~
+An orc sentry is look about here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 15 4 1d12+800 1d8+1
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 229488 2 0 0 0 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28014
+orc elder Yarow~
+Orc Elder Yarow~
+An orc elder is counting a pile of coins.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 13 3 2d10+800 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28015
+orc guard Usak~
+Orc Guard Usak~
+A orc guard is wandering around.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 15 4 1d12+800 1d8+1
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 229488 2 0 0 0 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28016
+orc guard Ikat~
+Orc Guard Ikat~
+An orc guard is standing here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 500 C
+22 13 3 2d10+800 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+> all_greet_prog 100~
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28017
+orc guard Toma~
+Orc Guard Toma~
+The orc guard is surveying the area.
+~
+The orc looks quite old.  You would think him venerable, but you know
+he would be a tough foe.
+~
+13
+Clanname none~
+0
+0
+7 524296 0 C
+22 4 -7 1d1+800 2d8+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1775 0 0 0 1775 524290
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28018
+orc elder Eada~
+Orc Elder Eada~
+An orc elder is studying some charts.
+~
+You see a leathery-skinned humanoid creature that stands as tall as a normal
+man.  Like all githyanki, his teeth are fanged and his eyes hollow and sunken.
+He is clad in ornately designed splinted armor, and wields a sword that
+whistles through the air as it slices towards your neck.
+~
+13
+Clanname none~
+0
+0
+65 524800 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+> all_greet_prog 100~
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28020
+orc guard cada~
+Orc Guard Cada~
+An orc guard is standing here.
+~
+~
+13
+Clanname none~
+0
+0
+16777285 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+> all_greet_prog 100~
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28021
+orc guard Kilk~
+Orc Guard Kilk~
+A majestic orc guard is standing here.
+~
+~
+13
+Clanname none~
+0
+0
+16777285 4719144 -500 C
+22 -2 6 25d25+800 1d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 0 0 0 1263 1
+> all_greet_prog 100~
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28022
+orc guard Rova~
+Orc Guard Rova~
+An orc guard is standing at the ready here.
+~
+~
+13
+Clanname none~
+0
+0
+16777221 4719144 -500 C
+22 -2 6 25d25+800 1d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 3
+0 0 1199 0 0 0 1199 2
+> all_greet_prog 100~
+if iscarrying($n) == 28001
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+if iscarrying($n) == 28000
+yell Thats My Bone ! Give it to Me !!!!!
+feed $n
+endif
+~
+|
+#28023
+orc elder~
+Elder Orc Daera~
+An elder orc looks at you with disgust.
+~
+~
+13
+Clanname none~
+0
+0
+16777217 71828152 -750 C
+22 -8 -8 30d30+800 4d5+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 4
+0 0 1263 7170 2048 17 1263 3
+> all_greet_prog 100~
+mppause 3
+
+~
+|
+#28025
+krin mar orc~
+Krin Mar the orc~
+Krin Mar the orc is here.
+~
+The Chromatic orc is an evil foul looking orc of an ancient age
+Wisdom beyond years is evident in its every move and look.
+He rules this warren with an iron fist and a cold heart
+The power he wield make everyone submit to his rule.
+~
+13
+Clanname none~
+0
+0
+67108867 301998760 1000 C
+22 -15 -10 35d35+800 10d3+50
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 7171 3072 28 1263 524291
+> all_greet_prog 100~
+if ispc($n)&G
+if iscarrying ($n) == 28000
+mpquest $n krinmar 3
+grin
+mpforce $n put bone chest
+say I am Lord and Ruler here ! This Bone Is Mine!!
+mppause 10
+say for your Help, I give you this weapon.
+mpoload 28013 15
+mppause 4
+give spike $n
+growl
+say Now Go from here and Do Not Return.
+else
+glare $n
+if quest(krinmar) > 0
+say Where is the bone of my ancestors?
+mppause 3
+say Leave and do not return without it!
+else
+say What do you want here?
+mppause 5
+say Maybe you will do me a favor?
+endif
+endif
+endif
+~
+> speech_prog p favor~
+if ispc($n)
+if quest(krinmar) > 0
+say Where is the bone of my ancestors?
+mppause 3
+say Leave and do not return without it!
+else
+say Excellent!
+mppause 5
+say I need the Bone of my Ancestors!
+mppause 6
+say My Servants has misplaced It!
+mppause 5
+say Bring this Bone to me and I will Reward you!
+mppause 5
+say Now Begone!
+mpquest $n krinmar 1
+endif
+endif
+~
+|
+#28026
+gromack orc~
+Gromack~
+Gromack stands here waiting for customers.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28027
+marick orc~
+Marick~
+Marick is busy straighting the shop.
+~
+~
+0
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+15 4 6 15d15+150 1d5+6
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28028
+tymaw orc~
+TyMaw~
+TyMaw is cleaning a sword.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28029
+kagnia orc~
+Kagnia~
+Kagnia is carefully stirring a small steaming pot.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28030
+zan orc~
+Zan the orc guard~
+Zan is sitting behind a desk scribing parchment.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28031
+korrupt orc~
+Korrupt~
+Korrupt is busy working on a new medicine.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28032
+malnaglekt orc~
+Malnaglekt~
+Malnaglekt is busy serving up drinks for the boys.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28033
+qwagmar orc~
+QwagMar~
+QwagMar is turning large pieces of meat over in the flames.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28034
+corath orc~
+Corath the orc guard~
+Corath the orc guard stands here.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 500000 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 10 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28035
+Marick~
+Marick~
+Marick is busy straighting the shop.
+~
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28036
+zela orc~
+Zela the orc guard~
+An old female orc is sitting in a chair.
+~
+This old female orc guard is very feeble and weak. It wont be too long
+before she will die from the lack of being able to get up and gather her food.
+~
+13
+Clanname none~
+0
+0
+84017219 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+#28037
+orc guard prisoner~
+a orc guard prisoner~
+A orc guard Prisoner is chained to the wall.
+~
+~
+13
+Clanname none~
+0
+0
+65 1099340 -1000 C
+22 2 0 16d16+800 2d9+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 0 7170 8192 17 0 0
+> rand_prog 4~
+growl
+~
+|
+#28038
+prisoner ghost orc guard~
+a ghost of a orc guard~
+The Ghost of a orc guard is chained to the wall.
+~
+~
+13
+Clanname none~
+0
+0
+65 1099340 -1000 C
+22 2 0 16d16+800 2d9+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 0 7170 8192 17 0 0
+#28039
+shadow orc~
+a shadow orc~
+A distortion in the air.
+~
+~
+13
+Clanname none~
+0
+0
+65 623694 200 C
+22 3 0 17d17+800 2d7+6
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 0 0 0 1263 2
+#28040
+nereid~
+a water nereid~
+A mystical water Nereid is in the pool.
+~
+The sea hag is so ghastly looking that you feel the deepest fear.
+Big yellow eyes and sharp teeth.  Its ears are very big,
+and it has small sharp horns.  It hates beauty.
+~
+13
+Clanname none~
+0
+0
+33 512 -800 C
+22 7 1 1d8+800 2d8+1
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 2 0 0 1 1 1
+7 4 1775 0 0 0 1775 524288
+#28041
+orc elder Trea~
+Orc Elder Trea~
+An orc elder is imprisoned here.
+~
+~
+13
+Clanname none~
+0
+0
+16908295 4719144 500 C
+22 13 3 2d10+800 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> rand_prog 4~
+emote looks around detecting a small fly buzzing around the room.
+say They put me here to rot for their mistakes...... not mine...
+mppause 4
+say I'm just the Escape Goat!!!!!
+~
+|
+#28042
+orc guard Opar~
+Orc Guard Opar~
+An orc guard is making his rounds here.
+~
+~
+13
+Clanname none~
+0
+0
+16777285 4719144 -500 C
+22 4 6 15d15+800 1d5+6
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1263 0 0 0 1263 2
+> all_greet_prog 100~
+mppause 2
+emote sneers at you!
+~
+|
+#28043
+orc captain black~
+the black orc captain~
+The Black orc Captain sits at his desk.
+~
+~
+13
+Clanname none~
+0
+0
+16908355 4719144 -500 C
+22 -2 6 25d25+800 1d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 0 0 0 1263 1
+#28044
+orc sergent black~
+the black orc sergeant~
+The sergeant is walking along his mile.
+~
+~
+13
+Clanname none~
+0
+0
+16777281 4719144 -500 C
+22 -2 6 25d25+800 1d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 0 0 0 1263 1
+#28045
+black commander orc~
+the shift commander~
+The Shift Commander is pacing back and fourth in his office.
+~
+~
+13
+Clanname none~
+0
+0
+16908355 4719144 -500 C
+22 -2 6 25d25+800 1d5+15
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 0
+0 0 1263 0 0 0 1263 1
+#28049
+orc guard prisoner~
+a orc guard prisoner~
+A orc guard Prisoner is chained to the wall.
+~
+~
+13
+Clanname none~
+0
+0
+65 1099340 -1000 C
+22 2 0 16d16+800 2d9+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 0 7170 8192 17 0 0
+> rand_prog 5~
+sing
+~
+|
+#28200
+warsprite~
+Warsprite~
+A Statue of Warsprite is here.
+~
+~
+0
+Clanname none~
+0
+0
+67108865 0 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+10 13 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#28000
+bone~
+a sharp bone~
+A small sharp bone with a tiny bit of meat left on it.~
+~
+5 0 1
+10 10 20 6 2 0 0
+1 20 2
+1
+0
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(krinmar) == 1
+mpquest $n krinmar 2
+endif
+~
+|
+#28001
+bone~
+a sharp bone~
+A Sharp Bone rests on the ground.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28002
+bone~
+a sharp bone ~
+A small sharp bone with a tiny bit of meat left on it .~
+~
+5 0 8193
+10 50 100 6 2 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28003
+sharpening stone~
+a sharpening stone~
+A sharpening stone has been cast aside here.~
+~
+65 8192 16385
+1 0 0 0 0 0 0
+1 20 2
+4
+13
+0
+0
+0
+0
+S 0 0
+#28004
+wooden chest~
+a wooden chest~
+A wooden chest stands in the corner.~
+~
+15 0 0
+100 0 0 0 0 0 0
+40 100 10
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+chest~
+It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+~
+#28005
+pocket water stream fountain spring~
+a small pocket of water~
+A small pocket of water has formed in the rocks.~
+~
+17 0 0
+200 200 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28006
+weapon rack~
+a weapons rack~
+A weapons rack is secured to the floor here.~
+~
+15 0 0
+1000 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+rack~
+This rack is made from a thick cold steel, it is sturdy but not locked.
+You feel you must examine it closer to see what it might contain.
+~
+#28007
+torch light~
+a torch~
+A torch hangs on the wall.~
+~
+1 0 0
+0 0 100 0 0 0 0
+1 50 5
+4
+3
+0
+0
+0
+0
+S 0 0
+> rand_prog 5~
+mpecho The Torch flickers for a second then returns to normal.
+~
+|
+#28008
+fire pit firepit~
+the fire pit~
+A massive fire pit burns brightly here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28009
+chest~
+a wooden chest~
+A wooden chest stands in the corner.~
+~
+15 0 0
+100 13 6006 0 0 0 0
+40 100 10
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+chest~
+It is a robust chest made from short, heavy planks that have been fastened
+together with tenons.  It is equipped with a simple brass lock.
+~
+#28010
+pile gold coins~
+a large pile of gold~
+A large pile of gold coins lies here.~
+~
+20 0 1
+5 0 0 0 0 0 0
+1 5 5000
+1
+14
+0
+0
+0
+0
+S 0 0
+#28011
+desk~
+a rough oak desk~
+A rough oak desk sits in the corner of the room.~
+~
+12 0 0
+0 0 0 0 0 0 0
+50 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28012
+spike coldsteel~
+a coldsteel spike~
+A Dark Coldsteel Spike lays on the ground.~
+~
+5 524300 8193
+12 10 20 6 2 0 0
+3 652 65
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+17 -6
+A
+18 4
+#28013
+spike Stainless Steel~
+a stainless steel spike~
+A Stainless Steel Spike glimmers on the ground.~
+~
+5 524301 8193
+10 5 15 6 2 0 0
+3 652 65
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 4
+A
+19 2
+#28014
+chainmail chain armor~
+A suit of chain mail armor~
+Some chain mail armor is laying on the ground.~
+~
+9 0 9
+20 20 0 0 0 0 0
+20 8000 400
+2
+8
+0
+0
+0
+0
+S 0 0
+A
+14 -5
+A
+5 1
+#28015
+iron earring~
+a pair of iron forged earrings~
+A pair of iron forged earrings have been left here.~
+~
+9 524356 65537 128
+10 10 0 0 0 15 0
+1 103 4
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+17 -10
+#28016
+iron forged splint skirt~
+an iron forged splint skirt~
+A iron forged splint skirt has been left here.~
+~
+9 0 33
+10 10 0 0 0 15 0
+20 68 82
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+skirt splint~
+This splint mail has been expertly and ornately fashioned from the highest
+quality of steels.
+~
+A
+17 -15
+A
+14 15
+#28017
+dragon hide gloves~
+a pair of dragon hide gloves~
+A pair of gloves have been left on the ground.~
+~
+9 0 129
+10 10 0 0 0 15 0
+5 50 300
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+18 1
+A
+19 1
+#28018
+dragon hide wrist band~
+dragon hide wristbands~
+Wristbands have been left here.~
+~
+9 0 4097
+10 10 0 0 0 15 0
+1 82 5
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+18 2
+#28019
+dragon hide sleeves~
+dragon hide sleeves~
+A pair of dragon hide sleeves has been left here.~
+~
+9 0 257
+10 10 0 0 0 15 0
+15 117 13
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+17 -20
+#28020
+blood fountain~
+a fountain of blood~
+A Fountain of fresh blood flows in the center of the room.~
+~
+27 0 0
+99999 99999 0 0 0 0 0
+1 0 0
+1
+3
+0
+0
+0
+0
+S 0 0
+#28021
+raiders mask~
+a raiders mask~
+A small mask has been discarded on the ground.~
+~
+9 0 1048577
+20 20 0 0 0 0 0
+1 55 5
+2
+2
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+4 1
+A
+17 -5
+#28022
+raiders cloak~
+a raiders cloak~
+A dark drow cloak is laying on the floor.~
+~
+9 4 1025
+60 60 0 0 0 0 0
+1 0 0
+1
+2
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+18 1
+A
+23 -1
+A
+24 -1
+#28023
+raiders backpack pack~
+a raiders backpack~
+A backpack has been left here.~
+~
+15 0 524289
+700 0 0 12 0 0 0
+1 50 5
+2
+2
+0
+0
+0
+0
+S 0 0
+#28024
+goggles miner~
+miners goggles~
+A pair of goggles lay on the floor.~
+~
+9 524288 131073
+60 60 0 0 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 1
+#28025
+steel  lance ~
+a steel lance~
+A Steel Lance has been left here. ~
+~
+5 0 8193
+10 5 15 6 12 15 0
+1 61 10
+4
+13
+0
+0
+0
+0
+S 0 0
+#28026
+teak wood staff~
+a teak staff~
+A Teak Staff is on the floor.~
+~
+5 0 8193
+10 5 15 4 11 15 0
+5 79 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#28027
+barbed whip~
+a barbed whip~
+A Barbed Whip is curled up on the ground.~
+~
+5 0 8193
+10 5 15 5 3 15 0
+2 127 2
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#28028
+steel  longsword sword~
+a steel longsword~
+A Steel Longsword lays on the ground.~
+~
+5 0 8193
+10 5 15 1 1 15 0
+9 42 4
+4
+13
+0
+0
+0
+0
+S 0 0
+#28029
+steel warhammer~
+a steel warhammer~
+A Steel Warhammer is laying in the dirt.~
+~
+5 524288 8193
+10 5 15 4 5 15 0
+1 44 4
+4
+2
+0
+0
+0
+0
+S 0 0
+A
+19 1
+#28030
+flask blood~
+a flask of blood~
+A Flask is on the ground.~
+~
+17 0 1
+50 50 13 0 0 0 0
+1 5 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28031
+red potion~
+a red potion~
+A Red Potion rests unbroken on the ground.~
+~
+10 0 1
+50 -1 -1 -1 0 0 0
+1 10 1
+2
+3
+0
+0
+0
+0
+'cure critical' 'NONE' 'elven beauty'
+S 0 0
+#28032
+blue potion~
+a blue potion~
+A Blue Potion rests on the ground.~
+~
+10 0 1
+50 -1 -1 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'restore mana' 'NONE' 'heroism'
+S 0 0
+#28033
+foamy potion~
+a foamy potion~
+A Foamy Potion is on the ground.~
+~
+10 0 1
+50 -1 -1 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'remove curse' 'cure poison' 'word of recall'
+S 0 0
+> get_prog 100~
+if quest(Karnae) == 2
+  mpquest $n karnae 3
+endif
+~
+|
+#28034
+grey potion~
+a grey potion~
+A Grey Potion rests on the ground.~
+~
+10 0 1
+50 -1 -1 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'float' 'alertness' 'armor'
+S 0 0
+#28035
+tattered scroll~
+a tattered scroll~
+A Tattered Scroll is on the ground.~
+~
+2 0 1
+50 -1 -1 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'aqua breath' 'detect hidden' 'detect invis'
+S 0 0
+#28036
+frayed scroll~
+a frayed scroll~
+A Frayed Scroll is laying on the ground.~
+~
+2 0 1
+50 -1 -1 -1 0 0 0
+1 100 10
+1
+0
+0
+0
+0
+0
+'enchant weapon' 'curse' 'NONE'
+S 0 0
+#28037
+stained scroll~
+a stained scroll~
+A Stained Scroll is here.~
+~
+2 0 1
+50 -1 -1 -1 0 0 0
+1 20 2
+1
+0
+0
+0
+0
+0
+'sagacity' 'trollish vigor' 'dragon wit'
+S 0 0
+#28038
+healers staff~
+a healers staff~
+A long staff has been left here.~
+~
+4 0 16385
+30 10 10 -1 0 0 0
+1 20 2
+1
+0
+0
+0
+0
+0
+'heal'
+S 0 0
+#28039
+fuzzy pill~
+a fuzzy pill~
+A Fuzzy Pill has been dropped here.~
+~
+26 0 1
+50 -1 -1 -1 1 0 0
+1 5 0
+1
+0
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#28040
+green pill~
+a green pill~
+A Green Pill is on the ground.~
+~
+26 0 1
+50 -1 -1 -1 1 0 0
+1 8 0
+2
+11
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+#28041
+pink pill~
+a pink pill~
+A Pink Pill lays on the ground.~
+~
+26 0 1
+50 -1 -1 -1 1 0 0
+1 3 0
+1
+0
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#28042
+ebony wand~
+an ebony wand~
+An Ebony Wand lays on the ground.~
+~
+3 0 16385
+50 10 10 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'NONE'
+S 0 0
+#28043
+white wand~
+a white wand~
+A White Wand has been left here.~
+~
+3 0 16385
+50 10 10 -1 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+'cure poison'
+S 0 0
+#28044
+can water~
+a can of water~
+A Can has been left here.~
+~
+17 0 1
+50 50 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28045
+virgin blood flask~
+a flask of virgin blood~
+A Flask is on the ground.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+#28046
+human flesh~
+some human flesh~
+A strip of human flesh is here.~
+%s chomp down$q $p.~
+19 0 16385
+5 0 0 0 0 0 0
+1 50 5
+4
+0
+0
+0
+0
+0
+S 0 0
+#28047
+rack ribs~
+a rack of ribs~
+A Rack of Ribs.~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 20 2
+4
+0
+0
+0
+0
+0
+S 0 0
+#28048
+bear heart~
+a bear's heart~
+A Bear's Heart~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 20 2
+4
+0
+0
+0
+0
+0
+S 0 0
+#28049
+glass zeplin blood~
+a glass of Zeplin's blood~
+A Glass of Zeplin's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 100 10
+2
+0
+0
+0
+0
+0
+S 0 0
+#28050
+glass vladaars blood~
+a glass of Vladaar's blood~
+A Glass of Vladaar's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 1000 10
+2
+0
+0
+0
+0
+0
+S 0 0
+#28051
+glass taon blood~
+a glass of Taon's blood~
+A glass of Taon's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 900 90
+2
+0
+0
+0
+0
+0
+S 0 0
+#28052
+glass fya blood~
+a glass of Fya's blood~
+A Glass of Fya's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 800 80
+2
+0
+0
+0
+0
+0
+S 0 0
+#28053
+glass ivor blood~
+a glass of Ivor's blood~
+A Glass of Ivor's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 800 80
+2
+0
+0
+0
+0
+0
+S 0 0
+#28054
+glass torin blood~
+a glass of Torin's blood~
+A Glass of Torin's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 800 80
+2
+0
+0
+0
+0
+0
+S 0 0
+#28055
+glass samael blood~
+a glass of Samael's blood~
+A Glass of Samael's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 700 70
+2
+0
+0
+0
+0
+0
+S 0 0
+#28056
+glass alveradok blood~
+a glass of Alveradok's blood~
+A Glass of Alveradok's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 700 70
+2
+0
+0
+0
+0
+0
+S 0 0
+#28057
+glass aegmar blood~
+a glass of Aegmar's blood~
+A Glass of Aegmar's Blood.~
+~
+17 0 1
+20 20 13 0 0 0 0
+1 600 60
+2
+0
+0
+0
+0
+0
+S 0 0
+#28058
+orb light spark~
+a sparkling orb~
+A Sparkling orb hovers near by.~
+~
+1 65 1
+0 0 -1 0 0 0 0
+1 1 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#28059
+scroll ruin~
+a ruin scroll~
+A Ruin Scroll has been left here.~
+~
+2 0 1
+50 -1 -1 -1 0 0 0
+1 200 10
+1
+0
+0
+0
+0
+0
+'dispel evil' 'NONE' 'NONE'
+S 0 0
+#28060
+pool water fountain~
+a pool of spring water~
+A small fountain of fresh water is here.~
+~
+25 0 0
+10 10 0 0 0 0 0
+1 0 0
+1
+4
+0
+0
+0
+0
+S 0 0
+#28061
+bone black kriss dagger~
+a black bone handled kriss dagger~
+A long curvy dagger has been left here.~
+~
+5 524617 8193
+12 5 15 6 2 0 100
+1 3000 300
+1
+1
+0
+0
+0
+0
+S 0 0
+#28062
+post board ~
+a poster board~
+A Poster board sits by the desk.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+board~
+You see a board filled with notes and scheduals, prisoner data and
+prisoner lists. 
+~
+#28063
+chest~
+a wooden chest~
+A wooden chest stands in the corner.~
+~
+15 0 0
+10 13 28064 0 0 0 0
+40 100 10
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+chest~
+A simple wooden chest, with a bronze plaque on its top.  
+             written on the plaque is:
+                 Do Not Open !!!
+~
+#28064
+silver key~
+a silver key~
+A small silver key lays on the ground.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28065
+obsidian long bow~
+a obsidian longbow~
+A Long Bow has been left here.~
+~
+56 0 262145
+12 1 4 6 6 1 1
+1 3000 300
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+2 1
+A
+1 1
+#28066
+silver arrow ~
+a +1 silver arrow~
+An Arrow is stuck in the ground.~
+~
+57 64 16385
+12 5 15 6 1 15 0
+1 77 10
+4
+13
+0
+0
+0
+0
+S 0 0
+#28067
+quiver buckskin~
+a buckskin arrow quiver~
+A Buckskin Quiver has been discarded here.~
+~
+58 0 524289
+50 0 0 12 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#28068
+fire arrow~
+a +1 fire arrow~
+A blazing arrow is stuck in the ground.~
+~
+57 0 16385
+12 1 5 6 1 0 0
+1 200 20
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+26 33554432
+#28200
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#28000
+Hordes of Perdition Information Room~
+~
+Author - Zeplin
+Vnums - 28000 - 28200
+Connection Vnums     28001 - 
+
+Title - The Hordes of Perdition
+
+Desc - Welcome to the home of the Hordes of Hell
+A waren of complex caves with various tricks and traps
+orcs of all sizes and Colors
+
+Child          lowest level in range
+           + 1
+vigilant           + 1
+Elder          + 1
+
+orc guards = Level 1- 5
+orc guards = Level 5 -10
+orc guards ( Elite Sect ) = Level -10 - 15
+Black orcs = Guard and Worker Class ( varies )
+
+****NOTE ****
+An Additional area is added to this one to provide mobiles entry into
+the den complex. very few mobiles have actually been placed in the main
+area for reset reasons. the secondary area will be area flagged untosee
+and will be linked into hordes of perdition by one way exits all through
+the complex.
+
+Zep
+~
+1 4 13
+S
+#28001
+Heading towards the Mountain~
+~
+A wide very worn path leads off to the west towards a dark and haunting
+mountain. There are many large boulders scattered about, which could 
+make it easy for an entire army to hide within the feild without anyone 
+noticing. Gysers of steam spew gasous smoke into the air making visability 
+very difficult for anyone except maybe a orc.        
+~
+1 4 13
+D2
+~
+~
+0 -1 7522
+D3
+~
+~
+0 -1 28002
+S
+#28002
+Heading towards the Mountain~
+~
+A dark and ominous mountain towers high above its peaks covered and
+hidden by haze and clouds. Steep and jagged spires jutting towards
+the heavens. The path heading towards the mountain has been crushed 
+into fine powder by countless crossing.  
+~
+1 0 13
+D1
+~
+~
+0 -1 28001
+D9
+~
+~
+0 -1 28003
+S
+#28003
+Under the Arch~
+~
+Two hugh columns of course rough stone that are heavily scratched and
+marred support a single piece arch of blood red stone. large boulders 
+are stacked up around the base of the columns, but still allow for 
+protection to those behind it. A extremely large cave opening can be
+seen off to the Northwest.
+~
+1 0 13
+D6
+~
+~
+0 -1 28002
+D7
+~
+~
+0 -1 28004
+S
+#28004
+The Mouth of the Cave~
+~
+The ceiling of the cavern looms high over head, the width of the cavern is 
+well suited for staging an entire army within. This Cavern was cleverly 
+constructed to allow for cover during an outside assault. The cavern 
+narrows greatly as you go downwards to prevent the passage of a large 
+force at any one time. The Mouth of the cavern is shaded and sloped giving 
+a very strong advantage to those coming out of the cavern. 
+~
+1 0 13
+D5
+a hidden cave entrance
+~
+~
+0 -1 28005
+D8
+~
+~
+0 -1 28003
+R O 0 28005 1 28004
+S
+#28005
+Entrance of a Tunnel~
+~
+The opening of this tunnel is a tiny crack in the mountain side. finding 
+more room inside there are only two ways to go up and out or try your 
+fate by going deeper within the tunnel.
+~
+1 0 13
+D4
+~
+~
+0 -1 28004
+D5
+~
+~
+0 -1 28006
+S
+#28006
+Crawling Through a Tunnel~
+~
+Finding the floor of the tunnel to be very slippery you use the jagged 
+suface of the walls and ceiling for hand holds. An odd smell seems to
+be coming from below, mixed with slight sounds of motion.
+~
+1 4 13 0 0 1 0
+D4
+~
+~
+0 -1 28005
+D5
+~
+~
+0 -1 28007
+S
+#28007
+Entrance to the Hordes of Perdition ~
+~
+The entrance to the Horde's warren has been worn with the passage of 
+time and use. Floors of cobble stone extend in many different directions.
+Simple hewn stone archways decorate the walls.
+~
+1 4 13
+D0
+~
+~
+0 -1 28009
+D3
+~
+~
+0 -1 28008
+D4
+~
+~
+16779272 -1 28004
+R M 0 28005 1 28007
+  R E 0 28015 1 19
+  R E 0 28016 1 7
+  R E 0 28017 1 9
+  R E 0 28018 1 14
+  R E 0 28019 1 10
+  R E 0 28027 1 16
+  R E 0 28027 1 18
+S
+#28008
+Guard post~
+~
+A small worn desk resides in the center of the room covered with papers 
+and files with a small but comfortable chair behind it. A weapons rack is
+tucked in the far corner with many harsh and brutal weapons inside it.
+This office would only be given to a guard of very high distinction.
+~
+1 4 13
+D1
+~
+~
+0 -1 28007
+R O 0 28006 1 28008
+  R P 0 28012 1 28006
+S
+#28009
+Main Hallway~
+~
+High ceilings arched with mosaic designs line length of the main hall.
+Small cubby holes have been made in the walls some contain small 
+candles while others have bits and pieces or small trinkets. A torch 
+on the wall gives you a dim view of the hallway.
+~
+1 0 13
+D0
+~
+~
+0 -1 28010
+D1
+~
+~
+0 -1 28016
+D2
+~
+~
+0 -1 28007
+R O 0 28007 1 28009
+S
+#28010
+Main Hallway~
+~
+High ceilings arched with mosaic designs line length of the main hall.
+Small cubby holes have been made in the walls some contain small 
+candles while others have bits and pieces or small trinkets. A torch 
+on the wall gives you a dim view of the hallway.
+~
+1 0 13
+D0
+~
+~
+0 -1 28011
+D2
+~
+~
+0 -1 28009
+D3
+~
+~
+0 -1 28014
+R O 0 28007 1 28010
+S
+#28011
+Main hallway~
+~
+High ceilings arched with mosaic designs line length of the main hall.
+Small cubby holes have been made in the walls some contain small 
+candles while others have bits and pieces or small trinkets. A torch 
+on the wall gives you a dim view of the hallway.
+~
+1 0 13
+D0
+~
+~
+0 -1 28012
+D1
+~
+~
+0 -1 28019
+D2
+~
+~
+0 -1 28010
+D3
+~
+~
+0 -1 28021
+R M 0 28039 13 28011
+R O 0 28007 1 28011
+S
+#28012
+Main Hallway~
+~
+High ceilings arched with mosaic designs line length of the main hall.
+Small cubby holes have been made in the walls some contain small 
+candles while others have bits and pieces or small trinkets. A torch 
+on the wall gives you a dim view of the hallway.
+~
+1 0 13
+D0
+~
+~
+0 -1 28013
+D1
+~
+~
+0 -1 28035
+D2
+~
+~
+0 -1 28011
+R O 0 28007 1 28012
+S
+#28013
+Main Hallway~
+~
+High ceilings arched with mosaic designs line length of the main hall.
+Small cubby holes have been made in the walls some contain small 
+candles while others have bits and pieces or small trinkets. A torch 
+on the wall gives you a dim view of the hallway.
+~
+1 0 13
+D2
+~
+~
+0 -1 28012
+D6
+~
+~
+0 -1 28033
+R O 0 28007 1 28013
+S
+#28014
+The Kitchen~
+~
+Various meat and spices hang around the room, with a large furnace
+for cooking in the corner. Pots of boiling liquid bubble and steam
+on its top. A cutting table sits in the middle of the room and looks
+very used.
+~
+1 0 13
+D1
+~
+~
+0 -1 28010
+D9
+~
+~
+0 -1 28015
+R M 0 28009 4 28014
+S
+#28015
+A Small Den~
+~
+This a small area made for the sleeping of the Kitchen slaves.
+Crude bed rolls and sparse furniture denote the rough life of the 
+occupant. 
+~
+1 0 13
+D6
+~
+~
+0 -1 28014
+R O 0 28009 1 28015
+  R P 0 28066 1 28009
+S
+#28016
+Eastern Hall~
+~
+Worn Cobble stone floors with dirt filling most of the cracks and trash
+laying  about confirms that this place gets negelected. A slightly odd 
+odor coming from the end of the Hallway makes this area very unpleasant.  
+~
+1 0 13
+D0
+~
+~
+0 -1 28026
+D1
+~
+~
+0 -1 28017
+D2
+~
+~
+0 -1 28024
+D3
+~
+~
+0 -1 28009
+S
+#28017
+Eastern Hall~
+~
+Worn Cobble stone floors with dirt filling most of the cracks and trash
+laying  about confirms that this place gets negelected. A slightly odd 
+odor coming from the end of the Hallway makes this area very unpleasant.  
+~
+1 0 13
+D0
+~
+~
+0 -1 28028
+D1
+~
+~
+0 -1 28018
+D2
+~
+~
+0 -1 28029
+D3
+~
+~
+0 -1 28016
+R M 0 28009 1 28017
+S
+#28018
+Eastern Hall~
+~
+Worn Cobble stone floors with dirt filling most of the cracks and trash
+laying  about confirms that this place gets negelected. A slightly odd 
+odor coming from the end of the Hallway makes this area very unpleasant.  
+The Community bathing area is to the North East.
+~
+1 0 13
+D3
+~
+~
+0 -1 28017
+D6
+~
+curtain~
+3 -1 28030
+R M 0 28039 13 28018
+R D 0 28018 6 1
+S
+#28019
+Entrance into the Grand Hall~
+~
+Sturdy Iron columns boldly line the entrance walls as though this was
+a place of vast importance. the ceiling is considerably lower here giving 
+travelers barely enough room to walk upright. To the Northeast is the
+Grand Hall.
+~
+1 4 13
+D3
+~
+~
+0 -1 28011
+D6
+~
+~
+0 -1 28020
+S
+#28020
+The Grand Hall~
+~
+A massive fire pit is the center of attention in the room casting its 
+fiery shadows across the cracks and crevasses of the black and 
+silvery walls. The ceiling has been blackened from decades of fire.
+At the center of the back wall a rough throne has been chiseled 
+out of the rock. To the left two large iron rings have been fitted 
+into the wall no doubt for chaining up someone's wrists.
+~
+1 0 13
+D9
+~
+~
+0 -1 28019
+R M 0 28010 2 28020
+R M 0 28010 2 28020
+R O 0 28008 1 28020
+S
+#28021
+Western Hall~
+~
+The Western Hall shows to have had abit more effort go into its 
+construction. The walls are chiseled and polished down to form 
+a smooth surface, and ceiling arches and columns have been 
+guilded and adorned with semi precious metals.
+~
+1 0 13
+D1
+~
+~
+0 -1 28011
+D3
+~
+~
+0 -1 28022
+S
+#28022
+Western Hall~
+~
+The Western Hall shows to have had abit more effort go into its 
+construction. The walls are chiseled and polished down to form 
+a smooth surface, and ceiling arches and columns have been 
+guilded and adorned with semi precious metals.
+~
+1 0 13
+D1
+~
+~
+0 -1 28021
+D3
+~
+~
+0 -1 28023
+R M 0 28039 13 28022
+S
+#28023
+Western Hall~
+~
+The Western Hall shows to have had abit more effort go into its 
+construction. The walls are chiseled and polished down to form 
+a smooth surface, and ceiling arches and columns have been 
+guilded and adorned with semi precious metals.
+The Guard Barracks are to the South.
+~
+1 0 13
+D1
+~
+~
+0 -1 28022
+D2
+~
+~
+0 -1 28032
+R M 0 28006 1 28023
+S
+#28024
+A orc's Den~
+~
+With a small Hearth and some modest furniture, This den is home 
+for a worker class Black orc. Living for the comfort of others 
+and working all hours of the day and night leaves little time for rest.
+bare nessesities defines this room and its occupants life.
+~
+1 0 13
+D0
+~
+~
+0 -1 28016
+D2
+~
+door~
+3 -1 28025
+R D 0 28024 2 1
+S
+#28025
+A Small Treasure Vault~
+~
+Formed in the back wall this crude vault holds the trinkets and 
+treasure of its poor inhabitant. A makeshift door is its only 
+protection of theft. 
+~
+1 0 13
+D0
+~
+door~
+3 -1 28024
+R M 0 28008 1 28025
+R O 0 28009 1 28025
+  R P 0 28010 1 28009
+R D 0 28025 0 1
+S
+#28026
+An Orc's Den~
+~
+Extremely low ceiling makes for a room who's occupant who 
+has to be short in stature. Straw thrown on the floor acts as 
+a bed for its inhabitant. The rock wall has been chiseled away 
+to form shelves and cubby holes.
+~
+1 0 13
+D0
+~
+~
+0 -1 28027
+D2
+~
+~
+0 -1 28016
+R M 0 28007 1 28026
+S
+#28027
+The Back Room~
+~
+Scratched out walls of bare rock and dirt floor makes for a small 
+room for storage of odds and ends. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28026
+S
+#28028
+A orc's Den~
+~
+A small Alcove has been converted into living quarters for two 
+orc occupants. Two bed rolls are thrown out across the floor 
+making walking very difficult. The room offers little else.
+~
+1 0 13
+D2
+~
+~
+0 -1 28017
+S
+#28029
+A orc's Den~
+~
+A small Alcove has been converted into living quarters for two 
+orc occupants. Two bed rolls are thrown out across the floor 
+making walking very difficult. The room offers little else.
+~
+1 0 13
+D0
+~
+~
+0 -1 28017
+S
+#28030
+Entrance into the Community Bath~
+~
+Pegs on the rock wall hold various towels and rags made for 
+bathing. The users of this batth however are not so tidy and 
+have thrown used towels into one large pile that looks and 
+smells like it has been there for a long time.
+~
+1 4 13
+D1
+~
+~
+0 -1 28031
+D9
+~
+curtain~
+3 -1 28018
+R M 0 28009 2 28030
+R M 0 28007 2 28030
+R D 0 28030 9 1
+S
+#28031
+Community Bath~
+~
+A large crater has been formed in the floor with a gushing 
+waterfall splashing into from a break in the ceiling forming a 
+very crude bath basin large enough for several occupants at 
+one time.
+~
+1 0 13
+D3
+~
+~
+0 -1 28030
+R M 0 28009 3 28031
+> rand_prog 5~
+mpecho Water is Splashing on the Rocks.
+~
+|
+S
+#28032
+The Barracks~
+~
+A certain decorum is required in this room. Six bunks lined up
+neatly and straight along the left wall, with sheets made and
+folded in  military precision. Foot lockers each having its own 
+established place at the foot of each bunk. This room is
+maintained by slaves on a daily basis to provide comfort to 
+the guards.
+~
+1 0 13
+D0
+~
+~
+0 -1 28023
+R M 0 28006 2 28032
+R O 0 28006 1 28032
+  R P 0 28012 1 28006
+R O 0 28011 1 28032
+S
+#28033
+A Descending Walkway~
+~
+The rock hallway angles down with a gradual slope leading to the 
+lower levels that is easy to manuver. The sounds of more creatures 
+moving around can be heard from below. 
+~
+1 0 13
+D6
+~
+~
+0 -1 28034
+D9
+~
+~
+0 -1 28013
+S
+#28034
+A Descending Walkway~
+~
+The rock hallway angles down with a gradual slope leading to the
+lower levels.  Smoother and highly polished surfaces and structural 
+modifications show a noticeable improvement in the quality of craftsmanship.
+Denoting the higher class which lives below.
+~
+1 0 13
+D2
+~
+~
+0 -1 28036
+D9
+~
+~
+0 -1 28033
+R M 0 28009 6 28034
+S
+#28035
+Main Dining Hall~
+~
+A large oak table sits in the center of the room with chairs scattered 
+around in disarray. The remains of the previous meal have been left on 
+the table for the slaves to either clean it up or scrounge what little 
+bit of food is left for themselves.
+~
+1 0 13
+D3
+~
+~
+0 -1 28012
+R M 0 28009 5 28035
+R O 0 28000 1 28035
+S
+#28036
+The Bottom of the Ramp~
+~
+Black veins of ore run wickedly through the walls, Causing a spider web 
+effect across the surface. The passage way continues to the southwest
+going deeper into the warren. To the southeast the orcs have formed 
+a small area for a den.
+~
+1 0 13
+D0
+~
+~
+0 -1 28034
+D8
+~
+~
+0 -1 28044
+D9
+~
+~
+0 -1 28037
+S
+#28037
+A Split in the Tunnel~
+~
+The Small passage way splits into two paths here on leads off to the 
+southeast into some very unstable caverns, where constant eruptions 
+echo through the tunnels. A well worn path heads off to the south west
+going deeper into the maze of this massive warren.
+~
+1 0 13
+D6
+~
+~
+0 -1 28036
+D8
+~
+~
+0 -1 28039
+D9
+~
+~
+0 -1 28038
+R M 0 28039 13 28037
+S
+#28038
+The Stone Hallway~
+~
+The passage way shifts from a round chiseled out tunnel to a smoothly 
+polished cooridor with arch ways and lit by torches that are held in ornate
+holders. black and silver tile checker the walk way. This Hallway seems to 
+extend futher to the south. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28046
+D6
+~
+~
+0 -1 28037
+R M 0 28010 3 28038
+S
+#28039
+An Unstable Cavern~
+~
+A large cavern of savage beauty stretches before you. Jagged crevasses and 
+deep cracks that run the length of the floor. There is hardly any &Wdirt&z 
+on the floors except in one corner. The walls shake and rumble. Stones are 
+breaking off the ceiling and dropping all around. Small geysers of heated 
+air erupt from the floor with an unexpected frequency. Care must be taken 
+when crossing this room. 
+~
+1 4 13 5 28040 0 0
+D2
+~
+dirt~
+11 -1 28043
+D7
+~
+~
+0 -1 28037
+R D 0 28039 2 1
+E
+dirt ~
+The Dirt seems to be piled up in the southern portion of the room,
+A tiny sparkle can be seen behind the dirt.
+~
+> rand_prog 75~
+mpecho A SUDDEN ERRUPTION !! in the Floor hits you with a gush of air
+mpecho                       you are thrust up into the Air.
+mpopenpassage 28039 28040 4
+mpforce all up
+mpclosepassage 28039 4
+
+~
+|
+S
+#28040
+Up in the air~
+~
+Tumbling and Rolling through the Air The Gust of steam has shot you 
+into a steam tube and the pressure keeps pushing you up and up.
+~
+1 4 13 5 28041 0 0
+> entry_prog 100~
+mpecho Pushing you higher and Higher the pressure is still building 
+mpecho Banging against rocks and walls as your ride on the gust of steam 
+mpecho continues to get faster and faster.
+mpopenpassage 28040 28041 4
+mpforce all up
+mpclosepassage 28040 4
+~
+|
+S
+#28041
+UP Higher into the Air~
+~
+~
+1 4 13 5 28042 0 0
+> entry_prog 100~
+mpecho More gust of steam join into this ventilation tube adding to the power
+mpecho and speed of your ascent. tumbling faster and faster you feel the end
+mpecho is coming soon.
+mpopenpassage 28041 28042 4
+mpforce all up
+mpclosepassage 28041 4
+~
+|
+S
+#28042
+Crest of the Rapid Ascent~
+~
+~
+1 4 13
+> entry_prog 100~
+mpecho Out of the Top of the Mountain you are shot, the power of the steam 
+mpecho disperses and the speed of your ascent comes to a uneasy feeling as 
+mpecho Gravity slowly takes over and now your rapid ascent is becoming a rapid 
+mpecho descent!!!
+Mpecho WITH A SUDDEN STOP YOU HIT THE GROUND !!!!!
+mpopenpassage 28042 28004 5
+mpdamage $n 20
+mpforce all down
+mpclosepassage 28042 5
+~
+|
+S
+#28043
+A Small nook~
+~
+A small area that some one has converted into a hiding place for 
+their treasures. 
+~
+1 4 13
+D0
+~
+dirt~
+11 -1 28039
+R O 0 28000 1 28043
+R O 0 28015 1 28043
+R O 0 28010 1 28043
+R D 0 28043 0 1
+S
+#28044
+The Small Hall~
+~
+This small Hallway opens up into a cramped area that the black orcs 
+have formed into a den. However the poor quality of the furnishings and 
+dirt floors are all the occupants can manage to scrape together. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28045
+D7
+~
+~
+0 -1 28036
+S
+#28045
+A Small Den~
+~
+Bedmats and trash gathered for head rests are thrown out about the den
+for the inhabitants to rest and sleep upon. Brutal conditions echo throughout
+this small den in testimony of its owners hard life. The entrance of this small 
+den is to the West.
+~
+1 0 13
+D1
+~
+~
+0 -1 28050
+D3
+~
+~
+0 -1 28044
+R M 0 28007 3 28045
+S
+#28046
+The Stone Hallway~
+~
+The smoothly polished cooridor with arch ways, lit by torches that are 
+held in ornate holders. black and silver tile checker the walk way. 
+There are some stairs leading downwards to the South.
+~
+1 0 13
+D0
+~
+~
+0 -1 28038
+D2
+~
+~
+0 -1 28047
+S
+#28047
+Stairs leading Down~
+~
+The stairs are hardened stone cut to an extremely sharp perfection laced
+and webbed with grey and silver. large stone blocks polished and smooth 
+that was used for the walls would make anyone feel small next to them.
+~
+1 0 13
+D0
+~
+~
+0 -1 28046
+D5
+~
+~
+0 -1 28048
+R M 0 28008 2 28047
+S
+#28048
+Middle of the Stairs~
+~
+A small flat area gives you a small place to rest for a moment. Looking 
+back up the steps you notice a small trick in the steps, placed there by
+the makers, That being that the steps grow larger as you go upwards and
+smaller at the bottom. The creators were very crafty in their designs
+~
+1 0 13
+D2
+~
+~
+0 -1 28049
+D4
+~
+~
+0 -1 28047
+S
+#28049
+The Stairs Landing~
+~
+At the bottom of the stairs there is a larger Hallway leading South into
+a complex of smaller hallways. To the North the stairs seems to lead 
+upwards. Sound of movement echo through the hallways indicating that
+you are not alone down here.
+~
+1 0 13
+D0
+~
+~
+0 -1 28048
+D2
+~
+~
+0 -1 28051
+S
+#28050
+A Small Den~
+~
+More bed mats have been laid out on the floor, each laying haphazardly
+on the floor with out a care. crude shevles are on the walls holding small
+various items in disarray. 
+~
+1 0 13
+D3
+~
+~
+0 -1 28045
+R M 0 28009 7 28050
+S
+#28051
+Northern Main Hallways~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28049
+D2
+~
+~
+0 -1 28052
+S
+#28052
+Northern portion of the Center Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the East and West curve off 
+so you cant see where they might lead to. To the South you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28051
+D1
+~
+~
+0 -1 28060
+D2
+~
+~
+0 -1 28053
+D3
+~
+~
+0 -1 28056
+S
+#28053
+The Center ~
+~
+The expanse of this room shocks your senses, with a dome stretching high
+above with a pale grey texture coming down into eight different passage
+ways, each one decorated with ornate archway of silver and lead inlays
+and grey and black granite stone. In the center of the room a large statue
+deplicting a gruesome battle scene where a human warrior is being torn to
+shreds by a pack of ferocious orcs and the blood from the warrior runs
+down the statue into a basin of dark red blood.
+~
+1 0 13
+D0
+~
+~
+0 -1 28052
+D1
+~
+~
+0 -1 28061
+D2
+~
+~
+0 -1 28054
+D3
+~
+~
+0 -1 28057
+D6
+~
+~
+0 -1 28060
+D7
+~
+~
+0 -1 28056
+D8
+~
+~
+0 -1 28059
+D9
+~
+~
+0 -1 28058
+R M 0 28014 2 28053
+R O 0 28020 1 28053
+S
+#28054
+Southern portion of the Middle Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the East and West curve off 
+so you cant see where they might lead to. To the North you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28053
+D1
+~
+~
+0 -1 28059
+D2
+~
+~
+0 -1 28055
+D3
+~
+~
+0 -1 28058
+S
+#28055
+Southern Hallway~
+~
+Polished steps unfold downwards with a steep and spiralling slope in
+a dramatic display of steps and archways that can make most beings
+very dizzy and disoriented, care must be taken to traverse these steps.
+~
+1 0 13
+D0
+~
+~
+0 -1 28054
+D5
+~
+~
+0 -1 28104
+S
+#28056
+Northwest Corner of the Center Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the South and East curve so 
+you cant see where they might lead to. To the Southeast you can hear the 
+sound of water flowing.
+~
+1 0 13
+D1
+~
+~
+0 -1 28052
+D2
+~
+~
+0 -1 28057
+D7
+~
+~
+0 -1 28062
+D8
+~
+~
+0 -1 28053
+R M 0 28039 13 28056
+R M 0 28011 1 28056
+R O 0 28060 1 28056
+S
+#28057
+Western portion of the Middle Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the North and South curve off 
+so you cant see where they might lead to. To the East you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28056
+D1
+~
+~
+0 -1 28053
+D2
+~
+~
+0 -1 28058
+D3
+~
+~
+0 -1 28069
+S
+#28058
+Southwest Corner of the Center Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the North and East curve so 
+you cant see where they might lead to. To the Northeast you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28057
+D1
+~
+~
+0 -1 28054
+D6
+~
+~
+0 -1 28053
+D9
+~
+~
+0 -1 28076
+R M 0 28039 13 28058
+R O 0 28060 1 28058
+S
+#28059
+Southeast Corner of the Center Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the North and West curve so 
+you cant see where they might lead to. To the Northwest you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28061
+D3
+~
+~
+0 -1 28054
+D7
+~
+~
+0 -1 28053
+D8
+~
+~
+0 -1 28083
+R M 0 28039 13 28059
+R O 0 28060 1 28059
+S
+#28060
+Northeast Corner of the Center Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the South and West curve so 
+you cant see where they might lead to. To the Southwest you can hear the 
+sound of water flowing.
+~
+1 0 13
+D2
+~
+~
+0 -1 28061
+D3
+~
+~
+0 -1 28052
+D6
+~
+~
+0 -1 28097
+D9
+~
+~
+0 -1 28053
+R M 0 28039 13 28060
+R O 0 28060 1 28060
+S
+#28061
+Eastern portion of the Middle Ring~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very 
+dreamy nightmarish look. The passages to the North and South curve off 
+so you cant see where they might lead to. To the West you can hear the 
+sound of water flowing.
+~
+1 0 13
+D0
+~
+~
+0 -1 28060
+D1
+~
+~
+0 -1 28090
+D2
+~
+~
+0 -1 28059
+D3
+~
+~
+0 -1 28053
+S
+#28062
+Northwestern Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D6
+~
+~
+0 -1 28063
+D7
+~
+~
+0 -1 28065
+D8
+~
+~
+0 -1 28056
+D9
+~
+~
+0 -1 28064
+R O 0 28007 1 28062
+S
+#28063
+Equipment Room~
+~
+This is an equipment room, filled with armor and weapons in the event of an
+attack on the den. Swords, axes, flails and polearms have been placed around
+the room for easy access. Suits of armor have either been hung on a wall or
+are propped up by a wooden stand. 
+~
+1 0 13
+D9
+~
+~
+0 -1 28062
+R M 0 28013 1 28063
+S
+#28064
+A Storage Room~
+~
+Chains for many size and shape have been stored here, from the small 
+links of chain mail to large oval links of shackles all rest in small
+piles around the room. A couple of spools of steel wire rests in one 
+of the corners of the room.
+~
+1 0 13
+D6
+~
+~
+0 -1 28062
+S
+#28065
+Northwestern Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction.
+~
+1 0 13
+D6
+~
+~
+0 -1 28066
+D7
+~
+~
+0 -1 28068
+D8
+~
+~
+0 -1 28062
+D9
+~
+~
+0 -1 28067
+R O 0 28007 1 28065
+S
+#28066
+A orc guard's Den~
+~
+Rough walls adorned with paint reveals a picture of a fallen angel in
+agony as his wings are burning off as the angel makes an torturous fall
+towards flat earth. A ledge has been chiseled out from the wall to give
+the inhabitant a small place to rest their head.
+~
+1 0 13
+D9
+~
+~
+0 -1 28065
+S
+#28067
+A orc guard's Den~
+~
+Dank and dark, can barely see in this room rough hewn walls that have
+been chiseled out from the mountain one small chip at a time. A Crude
+bed has been fashioned from a column of stone, cupping its sleeper in
+a curved shallow. small pebbles litter the floor making walking very 
+difficult and entirely noisy.
+~
+1 0 13
+D6
+~
+~
+0 -1 28065
+R M 0 28012 1 28067
+S
+#28068
+A orc guard's Den~
+~
+Water trickling through a small trouth provides this inhabitant with
+fresh running water, a luxury few have the ability to enjoy. Stalagmites
+hang menancingly from the ceiling with their pointy spikes aiming for 
+the floor. One dark wall has been ground smooth to a glass like finish
+providing the owner of this den with a make shift mirror.
+~
+1 0 13
+D8
+~
+~
+0 -1 28065
+R M 0 28012 2 28068
+S
+#28069
+Western Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D0
+~
+~
+0 -1 28070
+D1
+~
+~
+0 -1 28057
+D2
+~
+~
+0 -1 28071
+D3
+~
+~
+0 -1 28072
+R M 0 28012 3 28069
+R O 0 28007 1 28069
+S
+#28070
+A orc guard's Den~
+~
+The Obsidian Order is an elite sect within the Hordes of Perdition, for 
+they are the hunter pack, archers extrodinare capable of making the most
+difficult shots with ease and grace. This room belongs to just a single
+member of that order. Bows and arrows hang on the walls and stacked in
+the corners. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28069
+R O 0 28067 1 28070
+  R P 0 28066 2 28067
+  R P 0 28066 7 28067
+  R P 0 28066 1 28067
+R O 0 28065 1 28070
+S
+#28071
+A Cold Room~
+~
+There are many shelves in this room and all filled with various meats
+and bottles of liquids. Every thing is cold to the touch, some how the
+crafty little orcs has funneled icey cold air down into this room from
+some unknown source. Some small foot prints can be seen coming and going.
+~
+1 0 13
+D0
+~
+~
+0 -1 28069
+S
+#28072
+Western Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction.
+~
+1 0 13
+D0
+~
+~
+0 -1 28073
+D1
+~
+~
+0 -1 28069
+D2
+~
+~
+0 -1 28074
+D3
+~
+~
+0 -1 28075
+R O 0 28007 1 28072
+S
+#28073
+A orc guard's Den~
+~
+Red and black veins run through the walls in a spider web effect making
+this room very dark and haunting. A raised platform in the center of the
+room has been converted into a bed. In one corner, the walls have been
+scratched and clawed at leaving nails and skin in the grooves.
+~
+1 0 13
+D2
+~
+~
+0 -1 28072
+R M 0 28014 1 28073
+S
+#28074
+A orc guard's Den~
+~
+The air is very hot here and a dim red glow seems to be coming from 
+around a small corner, There a level pit has taken over one corner of  
+the room. Four Ivory pillers stand strong against the walls supporting
+a faintly weak ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 28072
+R M 0 28013 2 28074
+S
+#28075
+A orc guard's Den~
+~
+Sharp clear semi precisious crystals cover the ceiling completely in
+a neverending series of points and angles. Dark deep red ore weaves 
+its way down the walls and into the floor almost looking like blood 
+veins of the mountain.
+~
+1 0 13
+D1
+~
+~
+0 -1 28072
+S
+#28076
+Southwestern Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D6
+~
+~
+0 -1 28058
+D7
+~
+~
+0 -1 28077
+D8
+~
+~
+0 -1 28078
+D9
+~
+~
+0 -1 28079
+R O 0 28007 1 28076
+S
+#28077
+A orc guard's Storage Room~
+~
+Various items have been stored here, ranging from weapons to dried 
+meats. Suits of armor stand on wooden racks and weapons stand in the
+corner or hanging on a wall. The room is small and cramped with very
+little room to move about.
+~
+1 0 13
+D8
+~
+~
+0 -1 28076
+R M 0 28011 2 28077
+S
+#28078
+A orc guard's Den~
+~
+A little light eminates from a pocket of glowing crystals on the wall,
+showing a room that is very damp and dark. water trickles down the 
+walls on over grown moss. A small ledge has been being used for a bed
+and is extremely worn down and smooth. Bones have been tossed carelessly
+into a corner of the room, drawing all sorts of minor creatures to it.
+~
+1 0 13
+D7
+~
+~
+0 -1 28076
+S
+#28079
+Southwestern Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction.
+~
+1 0 13
+D6
+~
+~
+0 -1 28076
+D7
+~
+~
+0 -1 28080
+D8
+~
+~
+0 -1 28082
+D9
+~
+~
+0 -1 28081
+S
+#28080
+A Sand Box~
+~
+Entering this room the smell is very odd, acidict and very muskie. The
+whole floor is covered with a very thick layer of sand. The walls are
+grey with a stain stretching along the bottom border. Up in the ceiling
+Vent holes leading to the outside are noticed.
+~
+1 0 13
+D8
+~
+~
+0 -1 28079
+S
+#28081
+A orc guard's Den~
+~
+Chrimson and gold stones lace and line the walls and ceiling forming
+and abstract picture of two winged horses flying across an emblazoned
+sunset. Small pebbles comprise the texture of the floor making moving
+silently impossible. A small diaz is raised in the center of the room
+to form the sleeping arrangements.
+~
+1 0 13
+D6
+~
+~
+0 -1 28079
+S
+#28082
+A orc guard's Den~
+~
+In this small den the owner has gathered various small colored stones
+and has embedded them into the wall forming a picture of a chromatic
+coloorc guard reaching his claws up into the air howling at the moon.
+A Small bed of stone has been positioned in front of the picture so the
+inhabitant can stare endlessly at it.
+~
+1 0 13
+D7
+~
+~
+0 -1 28079
+R M 0 28013 3 28082
+S
+#28083
+Southeastern Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D6
+~
+~
+0 -1 28084
+D7
+~
+~
+0 -1 28059
+D8
+~
+~
+0 -1 28086
+D9
+~
+~
+0 -1 28085
+R O 0 28007 1 28083
+S
+#28084
+A orc guard's Den~
+~
+Lava has broken through the ceiling in one corner of the room, dripping
+down the wall and through a hole in the floor. The heat in this room is
+intense and difficult to handle. There are several ladges that have been
+converted into laying spots for the inhabitants.
+~
+1 0 13
+D9
+~
+~
+0 -1 28083
+S
+#28085
+Equipment Room~
+~
+This is an equipment room, filled with armor and weapons in the event of an
+attack on the den. Swords, axes, flails and polearms have been placed around
+the room for easy access. Suits of armor have either been hung on a wall or
+are propped up by a wooden stand. 
+~
+1 0 13
+D6
+~
+~
+0 -1 28083
+S
+#28086
+Southeastern Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction.
+~
+1 0 13
+D6
+~
+~
+0 -1 28087
+D7
+~
+~
+0 -1 28083
+D8
+~
+~
+0 -1 28089
+D9
+~
+~
+0 -1 28088
+R O 0 28007 1 28086
+S
+#28087
+A orc guard's Den~
+~
+Stolen flagstones have been set into the floor in an attempt to jazz
+up this den. Rough grey walls and seemingly dull ceiling gives this den
+very little life of its own. The only noticable part of this room is a
+single raised island of stone that is used for a bed.
+~
+1 0 13
+D9
+~
+~
+0 -1 28086
+R M 0 28015 1 28087
+S
+#28088
+A orc guard's Den~
+~
+The floor has been smoothed to glass like finish, crystal stalagmites hang
+from the ceiling casting off a dim light though out the room. Ancient gylphs
+and segals are painted on the walls for protection. A steam vent makes this
+room very hot and humid, perfect for its orcic occupants. 
+~
+1 0 13
+D6
+~
+~
+0 -1 28086
+R M 0 28016 1 28088
+> rand_prog 4 ~
+mpecho The Gylphs and Segals start to glow, then slowly fade back to normal.
+~
+|
+S
+#28089
+A Round orc's Den~
+~
+A large circular room, of extrordinary measure. Completely round from
+any point to any other point. Concave floors and ceilings, gives this 
+room no other disinguishable traits any where in the room.
+~
+1 0 13
+D7
+~
+~
+0 -1 28086
+R M 0 28012 4 28089
+S
+#28090
+Eastern Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D0
+~
+~
+0 -1 28091
+D1
+~
+~
+0 -1 28093
+D2
+~
+~
+0 -1 28092
+D3
+~
+~
+0 -1 28061
+R O 0 28007 1 28090
+S
+#28091
+A orc guard's Den~
+~
+Warmth emminates from the floors to the point of being hot to the touch
+but not burning. The occupant of this hovel apparently loves the heat
+and makes full use of it. A small trickle of water has found an escape
+from behind the walls and now drips into a body length basin, which the
+owner now uses as a bed.
+~
+1 0 13
+D2
+~
+~
+0 -1 28090
+R M 0 28015 2 28091
+S
+#28092
+A orc guard's Den~
+~
+Black and gold veins of ore run criss-crossed through walls of dull 
+grey. Rough out croppings of rock have been fashioned into shelves and
+holders for the orcs posessions. The floor has been pain stakingly
+rubbed smooth and now has an almost glass like surface.
+~
+1 0 13
+D0
+~
+~
+0 -1 28090
+R M 0 28016 2 28092
+S
+#28093
+Eastern Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction. To the west the door way is covered by a
+chain-link curtain blocking your veiw into the den.
+~
+1 0 13
+D0
+~
+~
+0 -1 28094
+D1
+~
+~
+0 -1 28095
+D2
+~
+~
+0 -1 28096
+D3
+~
+~
+0 -1 28090
+R O 0 28007 1 28093
+S
+#28094
+An Abandoned Room~
+~
+Several springs of water have leaked through the roof and has long since 
+worn a indention int the floor, making it very slippery. This room has 
+since been abandoned by the orcs because of their distain of water and 
+the coldness associated with it.
+~
+1 0 13
+D2
+~
+~
+0 -1 28093
+R O 0 28063 1 28094
+R O 0 28064 1 28094
+> act_prog p is hit by an explosion.~
+mpdamage $n 200
+mpechoat $n The Force of the explosion knocks you out!
+mpforce $n sleep
+~
+|
+S
+#28095
+A orc guard's Den~
+~
+A shining chain-link curtain hangs in the doorway, blocking the veiw
+inside of the den. Red haziy smoke hovers up near the ceiling with only
+a few stalagmites long enough not to be covered completely by the smoke.
+Small round smooth pebbles by the hundreds litter the floor, making each
+step very loud. A smooth ledge breaks away from the wall horizontally for
+enough room for many to lay on comfortably.
+~
+1 0 13
+D3
+~
+~
+0 -1 28093
+R M 0 28017 2 28095
+S
+#28096
+A orc guard's Den~
+~
+Shadows dance across the walls cast from the dance of flames of a fire
+pit located in the center of the room. light reflecting off tiny chips 
+of crystals embedded in the walls glimmer and twinkle.
+Small hollowed out pockets have been fashioned into beds for the owners
+of this den. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28093
+R M 0 28017 1 28096
+S
+#28097
+Northeastern Hallway~
+~
+Silver and lead have been melded into ornate archways that shimmer its
+dreary color onto the walls and ceilings giving the whole hallway a very
+dreamy nightmarish look.
+~
+1 0 13
+D6
+~
+~
+0 -1 28098
+D7
+~
+~
+0 -1 28099
+D8
+~
+~
+0 -1 28100
+D9
+~
+~
+0 -1 28060
+R O 0 28007 1 28097
+S
+#28098
+Northeastern Hallway~
+~
+Blackened Granite stone tile and elaborate inlays of silver and gold make 
+this a very cold and unwarming place. At the end of the Hallway are three 
+doors each one arched with fine old hard and dark wood and leading off 
+into its own seperate direction.
+~
+1 0 13
+D6
+~
+~
+0 -1 28102
+D7
+~
+~
+0 -1 28101
+D8
+~
+~
+0 -1 28103
+D9
+~
+~
+0 -1 28097
+R O 0 28007 1 28098
+S
+#28099
+A orc guard's Den~
+~
+White quartz has been inlayed into the wall to form the design of a
+winged horse soaring through the skies in the epitomy of the freedom
+of flight. At the bottom of the design, scratch marks on the base are
+very noticable. A small puddle of a restless red liquid is cupped
+by the ground, not letting the poison be absorbed within.
+~
+1 0 13
+D8
+~
+~
+0 -1 28097
+S
+#28100
+A orc guard's store room.~
+~
+A small horde of comforts have been stashed into this room. A pile of
+silk tapestries and rolled up into a corner, next to a few choice barrels
+of ancient rum. Some lava rocks rests on the floor for heating purposes.
+chests of various sizes and shapes are strewn among the other stuff.         
+~
+1 0 13
+D7
+~
+~
+0 -1 28097
+R M 0 28017 3 28100
+S
+#28101
+A orc guard's Den~
+~
+Deep red stone runs through the grey marble of the walls are polished
+down smooth and etched with ancient gylphs and symbols deplicting
+a language long forgotten on flat earth. Runes of protection scrawl
+along the ceiling forming a barrier for the unknown and unwanted.
+In the center of the room is a single raised diaz, now used for a bed.
+~
+1 0 13
+D8
+~
+~
+0 -1 28098
+S
+#28102
+Zela's Den~
+~
+Through the dim light, This small and drab room has been retained for 
+the old and forgotten. So far removed from the center of the den makes
+this hovel suffer from the lack of the core's heat. A cold ledge suffices
+for a bed for its occupant. Upon a small out cropping sits the inhabitant.
+~
+1 4 13
+D9
+~
+~
+0 -1 28098
+R M 0 28036 1 28102
+S
+#28103
+A orc guard's Den~
+~
+Stalagmites and stalagtites criss-cross the room making barriers by
+which a tiny bit of privacy has been achieved. Working your way around
+Until the room opens up a bit reveiling a small sleeping area below
+a heated rock ledge. A group of crystals clumped together mysteriously
+sheds light in a dingy red haze about the room.                         
+~
+1 0 13
+D7
+~
+~
+0 -1 28098
+R M 0 28016 3 28103
+S
+#28104
+Bottom of the Stairs~
+~
+A small stone circular alcove is barely lit with a small weak torch makes the
+bottom of the stairs very hard to see, No doubt something that was meant
+to confuse people at the top of the stairs. To the south a busy intersection 
+can be heard.
+~
+1 0 13
+D2
+~
+~
+0 -1 28105
+D4
+~
+~
+0 -1 28055
+S
+#28105
+Main Hall~
+~
+Square red bricks on the walls and ceilings, give this Main Hallway a
+sense of commonality and functionality. The floor is extremely worn
+from heavy use. To the West is Maricks Repair Shop. To the East is 
+Gromacks Armory.
+~
+1 0 13
+D0
+~
+~
+0 -1 28104
+D1
+~
+~
+0 -1 28111
+D2
+~
+~
+0 -1 28106
+D3
+~
+~
+0 -1 28110
+S
+#28106
+Main Hall~
+~
+Square red bricks on the walls and ceilings, give this Main Hallway a 
+sense of commonality and functionality. The floor is extremely worn 
+from heavy use. To the West is Kagnia's Potion Shop. To the East is 
+Tymaw's Weapon Shop.
+~
+1 0 13
+D0
+~
+~
+0 -1 28105
+D1
+~
+~
+0 -1 28113
+D2
+~
+~
+0 -1 28107
+D3
+~
+~
+0 -1 28112
+S
+#28107
+Main Hall~
+~
+Square red bricks on the walls and ceilings, give this Main Hallway a 
+sense of commonality and functionality. The floor is extremely worn 
+from heavy use. To the West is Zan's Scroll Shop. To the East is 
+Korrupt's Medicine Shop.
+~
+1 0 13
+D0
+~
+~
+0 -1 28106
+D1
+~
+~
+0 -1 28115
+D2
+~
+~
+0 -1 28108
+D3
+~
+~
+0 -1 28114
+S
+#28108
+Main Hall~
+~
+Square red bricks on the walls and ceilings, give this Main Hallway a
+sense of commonality and functionality. The floor is extremely worn
+from heavy use. To the West is Malnaglekt's Drink Shop. To the East is
+Qwagmar's Bar-B-Q Pit.
+~
+1 0 13
+D0
+~
+~
+0 -1 28107
+D1
+~
+~
+0 -1 28117
+D2
+~
+~
+0 -1 28109
+D3
+~
+~
+0 -1 28116
+S
+#28109
+Mosaic Stairs Down~
+~
+The Mosaic stairs descend into the depths below, Warm air bellows through
+the center of the stair case making the air very hot and humid. Light from
+an unseen source makes the stair case shadowy and daunting. To the North
+a busy Intersection can be heard. To the Southwest is Coraths Pawn Shop.
+~
+1 0 13
+D0
+~
+~
+0 -1 28108
+D5
+~
+~
+0 -1 28118
+D9
+~
+~
+0 -1 28133
+S
+#28110
+Marick's Repair Shop~
+~
+Armor and Weapons line the walls, Either repairs no one has claimed or 
+items waiting to be repaired. Suits of mail and plate stand up on wooden 
+holders. Warhammers hanging on pegs and lances lashed to the wall for
+space. Type " Repair <Item> " or " Repair all ".
+~
+1 4 13
+D1
+~
+~
+0 -1 28105
+R M 0 28035 1 28110
+S
+#28111
+Gromacks Armory~
+~
+Rows and Rows of armor line the walls, Chainmail, Splint mail , Plate mail,
+Helmets , Sleeves and Leggings for the customers perusal. Behind a long 
+counter Gromack, the owner of this shop is busy counting his wares and  
+verifying his stock. Type " List " to view this shops wares.
+~
+1 4 13
+D3
+~
+~
+0 -1 28105
+R M 0 28026 1 28111
+  R G 1 28014 1
+  R G 1 28017 1
+  R G 1 28019 1
+  R G 1 28018 1
+S
+#28112
+Kagnia's Potion Shop~
+~
+Potions and bottles hang from twine connected to simple wooden rafters.
+Scents of exotic herbs and perfume twist about the shop finally finding their
+way out the door. The shopkeeper is over in the corner stirring a new potion. 
+~
+1 4 13
+D1
+~
+~
+0 -1 28106
+R M 0 28029 1 28112
+  R G 1 28032 1
+  R G 1 28033 1
+  R G 1 28034 1
+  R G 1 28031 1
+  R G 1 28058 1
+S
+#28113
+Tymaw's Weapon Shop~
+~
+Welcome to TyMal's Weapon shop, where you can find that special item
+that is best suited for those close intimate encounters. Rare knives are 
+proudly displayed  in a ornate case for his customers viewing. Weapons
+of all variety are displayed in racks and hung on the walls. 
+~
+1 4 13
+D3
+~
+~
+0 -1 28106
+R M 0 28028 1 28113
+  R G 1 28068 1
+  R G 1 28066 1
+  R G 1 28028 1
+  R G 1 28029 1
+  R G 1 28027 1
+  R G 1 28025 1
+  R G 1 28026 1
+  R G 1 28003 1
+S
+#28114
+Zan's Scroll Shop~
+~
+From ceiling to floor rows and rows of cubby holes filled with rolls 
+of parchments, ranging  from spells to religious documentation or  
+maps to untold treasures. From behind a hugh stack of papers you 
+hear the shopkeeper scribbling away with pen and parchment
+~
+1 4 13
+D1
+~
+~
+0 -1 28107
+R M 0 28030 1 28114
+  R G 1 28036 1
+  R G 1 28059 1
+  R G 1 28037 1
+  R G 1 28035 1
+S
+#28115
+Korrupt's Medicine Shop~
+~
+In deep contrast to any other room,  you are greeted by white walls and 
+stainless steel basins and containers. Every thing in this room has been
+sterilized time and time again  in a constant ritual of cleanliness. Diseases 
+and  wounds are the calling of this shopkeeper. 
+~
+1 4 13
+D3
+~
+~
+0 -1 28107
+R M 0 28031 1 28115
+  R G 1 28039 1
+  R G 1 28040 1
+  R G 1 28038 1
+  R G 1 28041 1
+  R G 1 28043 1
+  R G 1 28042 1
+S
+#28116
+Malnaglekt's Drink Shop~
+~
+Kegs of many different types of liquids line the wall and stand in the center 
+of the room near a long counter where behind it, Malnaglekt is serving up ales 
+and hot spice rums for the boys. With a smile Malnaglekt hollers over to you 
+to belly up to the bar for something wet. Type <list> to see my wares.
+~
+1 4 13
+D1
+~
+~
+0 -1 28108
+R M 0 28032 1 28116
+  R G 0 28044 1
+  R G 0 28030 1
+  R G 0 28045 1
+S
+#28117
+Qwagmar's Bar-B-Q Pit~
+~
+Large chunks of dried meat hang from the wooden rafters on hooks.
+Compounds and spices for rubbing on to the meat sits around on
+wooded shelves waiting to ferment and be used. Qwagmar waits
+for your order from behind a large oak counter.   
+~
+1 4 13
+D3
+~
+~
+0 -1 28108
+R M 0 28033 1 28117
+  R G 1 28048 1
+  R G 1 28047 1
+  R G 1 28046 1
+S
+#28118
+Bottom of the Mosiac Stairs~
+~
+Warm air blowing past your face makes its way up into the stair well 
+working its way towards the surface. Shadows dance across the walls 
+as creatures past a light some where up ahead. The stairs leading 
+upwards is just as ominous as the Hallway leading off to the South.
+~
+1 0 13
+D2
+~
+~
+0 -1 28119
+D4
+~
+~
+0 -1 28109
+S
+#28119
+Main Hall~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks 
+like webbing from a spider. A torch on the wall gives you a dim and 
+shadowy view of the hallway. The Hallway splits into two directions 
+one Southwest and the other to the Southeast.
+~
+1 0 13
+D0
+~
+~
+0 -1 28118
+D8
+~
+~
+0 -1 28121
+D9
+~
+~
+0 -1 28120
+S
+#28120
+Main Hall~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks 
+like webbing from a spider. A torch on the wall gives you a dim and 
+shadowy view of the hallway. The Hallway splits into two directions 
+one Southeast and the other to the Northeast.
+~
+1 0 13
+D3
+~
+~
+0 -1 28126
+D6
+~
+~
+0 -1 28119
+D8
+~
+~
+0 -1 28122
+S
+#28121
+Main Hall~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks 
+like webbing from a spider. A torch on the wall gives you a dim and 
+shadowy view of the hallway. The Hallway splits into two directions 
+one Southwest and the other to the Northwest.
+~
+1 0 13
+D1
+~
+~
+0 -1 28123
+D7
+~
+~
+0 -1 28119
+D9
+~
+~
+0 -1 28122
+S
+#28122
+Main Hall~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks 
+like webbing from a spider. A torch on the wall gives you a dim and 
+shadowy view of the hallway. The Hallway splits into two directions 
+one Northwest and the other to the Northeast.
+~
+1 0 13
+D2
+~
+~
+0 -1 28129
+D6
+~
+~
+0 -1 28121
+D7
+~
+~
+0 -1 28120
+S
+#28123
+Prison Hall~
+~
+Iron and silver lace the ceiling in an elaborate pattern that looks like 
+webbing from a spider. The East Hallway dead ends here with two 
+barred wooden doors, One door to the North and a door to the East.
+~
+1 0 13
+D0
+~
+~
+0 -1 28124
+D1
+~
+~
+0 -1 28125
+D3
+~
+~
+0 -1 28121
+R M 0 28006 4 28123
+S
+#28124
+A Empty Prison Cell~
+~
+Walls covered with mold and mildew, cobbwebs spanning the rooms 
+corners is testimony to the lack of an occupant. Rarely in the society 
+of orcs is one punished through isolation and lack of freedom, because
+due to their strict social structure things such as freedom and being 
+around others have very little meaning.
+~
+1 0 13
+D2
+~
+~
+0 -1 28123
+R M 0 28038 2 28124
+S
+#28125
+A Prison Cell~
+~
+The room is cold and drafty with a strange breeze blowing in from the cracks 
+in the walls and ceilings. Cobble stone walls and floor with old rotten timber 
+rafters denote the terrible conditions in which the prisoner is kept. Chained 
+to the back wall is a orc guard, who for the sake of being unable to sing a 
+tune for the king has been chained here beyound hearing range of his Lord.
+~
+1 0 13
+D3
+~
+~
+0 -1 28123
+R M 0 28049 1 28125
+S
+#28126
+Prison Hall~
+~
+Iron and silver lace the ceiling in an elaborate pattern that looks 
+like webbing from a spider. The West Hallway dead ends here. Two 
+wooden cell doors, one door to the South and the other to the West. 
+~
+1 4 13
+D1
+~
+~
+0 -1 28120
+D2
+~
+~
+0 -1 28128
+D3
+~
+~
+0 -1 28127
+R M 0 28006 3 28126
+S
+#28127
+A Prison Cell~
+~
+The occupant of this cell has long since past away, but the merciless king
+deemed that his suffering was not long enough for his tastes and has cast
+a spell to hold the prisoners soul here until he thought his suffering was 
+enough. Strange runes one the ground around the prisoner chained to the
+wall are an constant reminder of the kings wicked spell.
+~
+1 0 13
+D1
+~
+~
+0 -1 28126
+R M 0 28037 1 28127
+R O 0 28000 1 28127
+S
+#28128
+A Prison Cell~
+~
+In contrast to the manicured hallways and decorated archways, this room 
+is of simple square stones. A solid wooden door with bars on it allow for 
+some access to deliver food and water. Chained to the back wall is a Blue
+orc, who was unsuccessful at his attemp to over throw the king.
+~
+1 0 13
+D0
+~
+~
+0 -1 28126
+R M 0 28038 2 28128
+S
+#28129
+Main Hallway~
+~
+Standing before the Captain's Office, large silver arches and vaulted 
+ceilings have been devoted to show the splendor, power and trust he 
+wields with his Lords. Double war polearms cross above the door as a 
+display of power. Yet only a small plaque beside the door way indicates 
+his name and rank. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28122
+D1
+~
+~
+0 -1 28131
+D2
+~
+~
+0 -1 28135
+D3
+~
+~
+0 -1 28130
+R O 0 28007 1 28129
+S
+#28130
+The Captain's Room~
+~
+The Captain's Office is a modest place, filled with rough furniture and
+a few weapons and armor. Over in one corner is a small rack with various
+equipment for handling prisoners, some for restraint some for pain.
+~
+1 0 13
+D1
+~
+~
+0 -1 28129
+R M 0 28043 1 28130
+R O 0 28011 1 28130
+S
+#28131
+Officers Hall~
+~
+Rank and Order are the directive of this Hall. Officers from past to present 
+have left their own mark here. Ornate blades presented to them from lords and
+kings hang proudly on the walls. Pictures and Awards have found their home
+in amongst the relics, making this walk very prestigious.
+~
+1 0 13
+D0
+~
+~
+0 -1 28132
+D2
+~
+~
+0 -1 28134
+D3
+~
+~
+0 -1 28129
+S
+#28132
+Shift Commanders Office~
+~
+The Shift Commander's office is a stodgy place filled with military
+decorations from his past life in the Horde Army. Detailed summories
+litter his desk, detailing the prisoner movements. A large polearm
+rests in the corner of his office with some importance unknown to all
+except the Commander.
+~
+1 0 13
+D2
+~
+~
+0 -1 28131
+R M 0 28045 1 28132
+R O 0 28011 1 28132
+S
+#28133
+Corath's Pawn Shop~
+~
+Stepping inside of Corath's Pawn Shop, the smells of odd incents and mystic 
+aroamas greet your senses. Imports from far and near have been gathered 
+here for the viewing and for purchase. Above the counter, hanging on a wall
+a beautiful long sword glissening as its eldrich energy yearns for the taste 
+of battle once more. Type " Help List " or  " Help Sell " for instructions. 
+~
+1 0 13
+D6
+~
+~
+0 -1 28109
+R M 0 28034 1 28133
+  R G 1 28019 1
+  R G 1 28025 1
+S
+#28134
+Sergeant's Office~
+~
+Kept extremely busy by the demands from the commander and the captain
+the sergent is rarely allowed the comforts of his own office due to 
+being constantly on errand runs. This is the man who does everything
+from watering the prisoners to feeding them when he chooses. Although
+he does not carry the prestige of a high formal rank, everyone knows
+who to go to inorder to get things accomplished.
+~
+1 0 13
+D0
+~
+~
+0 -1 28131
+R O 0 28011 1 28134
+S
+#28135
+Main Hallway~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks
+like webbing from a spider. A torch on the wall gives you a dim and
+shadowy view of the hallway. The Hallway continues North and South.
+~
+1 0 13
+D0
+~
+~
+0 -1 28129
+D2
+~
+~
+0 -1 28138
+S
+#28136
+Nerid Pool~
+~
+Inside the Mystical Pool, water stirs and splashes about in a fascinating 
+display that entangles you into its rythmic dance. Energy flows with the 
+water currents, mixed and mingled not knowing which guides which. Peering 
+into the depths of the pool, odd humaniod shapes can been seen gracefully 
+gliding and swimming through the magical water passages.
+~
+1 0 13
+D10
+~
+~
+264192 -1 28139
+S
+#28137
+Nerid pool Mload~
+~
+Mob load room for Nerid Pool.
+~
+1 0 13
+D4
+~
+~
+0 -1 28136
+R M 0 28040 1 28137
+  R E 1 28061 1 16
+S
+#28138
+Main Hallway~
+~
+High ceilings and arched passage ways line length of the Main Hall.
+Iron and silver lace the ceiling in an elaborate pattern that looks
+like webbing from a spider. Splashing water seems to be coming 
+from the north. The Main Hallway ends here in a four way split.
+~
+1 0 13
+D0
+~
+~
+0 -1 28135
+D1
+~
+~
+0 -1 28140
+D2
+~
+~
+524288 -1 28139
+D3
+~
+~
+0 -1 28142
+R M 0 28044 1 28138
+S
+#28139
+Mystic Pool~
+~
+A magical shimmering pool resides in the southern potion of this room. 
+Water gushes from the center of the pool up into the air making a dazzling 
+display. Currents of illumonous energies surge around in the pool as 
+mystical creatures swim dauntingly below its surface. Any one Entering 
+the pool should be very cautious and extremely careful.
+~
+1 0 13
+D0
+~
+~
+0 -1 28138
+D10
+~
+~
+133120 -1 28136
+S
+#28140
+The Eastern Hall~
+~
+Deep red veins of ore criss-cross throughout the walls and ceilings.
+Tiles of onyx black makes the floors look almost glass like. Archways
+of silver and bronze stand out in brazen beautyagainst the darkness.
+To the East is a set of stairs seemingly heading deeper into the den.
+~
+1 4 13
+D1
+~
+~
+0 -1 28141
+D3
+~
+~
+0 -1 28138
+S
+#28141
+Top of the Stairs~
+~
+Black tile starts folding its way downwards into the darkness of the 
+stairs. Ancient runes have been placed as wards all along the wall 
+serving as protection. The sound of beating wings echo up through 
+the stair well to the point its almost deafening to your ears.
+~
+1 0 13
+D3
+~
+~
+0 -1 28140
+D5
+~
+~
+0 -1 28147
+R O 0 28007 1 28141
+S
+#28142
+The Western Hall~
+~
+Square blocks line the walls in an uneasy pattern of ridgidity and strength.
+The flat sharp cut stone leaves this hallway very plain and cold, for the 
+prisoners to get the full effect of being isolated and their freedom stripped.
+To the North the hallway continues past a few doors. To the East the hall
+splits into various directions.
+~
+1 0 13
+D1
+~
+~
+0 -1 28138
+D2
+~
+~
+0 -1 28143
+R M 0 28039 13 28142
+S
+#28143
+Prison Hall~
+~
+Welcome to the prison hallway, where the crimal or unwanted end up. 
+The floors have been recently mopped, making walking increasingly 
+difficult for a person passing by. A single dimmly lit torch provides 
+the light for this hallway, making it very shadowy and spooky. 
+Chains rattle from the cells near by denoting each has an occupant. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28142
+D2
+~
+~
+0 -1 28145
+D3
+~
+~
+0 -1 28144
+R O 0 28007 1 28143
+S
+#28144
+A Prison Cell~
+~
+The stink of this cell over powers your senses, and the putridness of bodily
+fluids purposefully cast randomly across the room from the vile creature that
+is imprisoned in this cell makes your skin crawl. A Black orc has been 
+chained to the ceiling and suspended, making it barely able to touch the floor. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28143
+R M 0 28041 1 28144
+S
+#28145
+Prison Hall~
+~
+Welcome to the prison hallway, where the crimal or unwanted end up. 
+The floors have been recently mopped, making walking increasingly 
+difficult for a person passing by. Chains rattle from the cells near 
+by denoting each has an occupant. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28143
+D3
+~
+~
+0 -1 28146
+R M 0 28006 5 28145
+S
+#28146
+A Prison Cell~
+~
+Entering into the cell, you are greeted by a orc guard with a great 
+deal of energy, bouncing from one side of the cell to the other and back 
+again. The Child is tethered to the back wall by a long length of chain which 
+is fastened safely to its ankle. The room is unusually well furnished for a 
+prison cell, with a fairly soft bed with covers and abnormaly clean walls. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28145
+R M 0 28042 1 28146
+S
+#28147
+Mid way down the Stairs~
+~
+The stairs ends abruptly here ending at a pit that is lined with the same
+black onyx tile of the floor. The Pit is very large, big enough to let the 
+biggest of creatures pass through with ease. The light of a near by torch
+seems unable to penatrate the darkness of the Pit. 
+~
+1 0 13
+D4
+~
+~
+0 -1 28141
+D5
+~
+~
+0 -1 28148
+S
+#28148
+Center of the Grand Chasm~
+~
+Floating mid-air in center of the upper most portion of the Grand Chasm,
+many things catch one attention. Looking all around, the number of floors 
+below and dens that easily number into the thousands could leave someone
+feeling abit out numbered. This stunning effect leaves one feeling that they
+are standing inside the middle of the largest hive ever imagined. There are 
+entrances in every direction and looking down one can see more of the same
+for many more levels. 
+~
+1 16777216 13
+D0
+~
+~
+0 -1 28154
+D1
+~
+~
+0 -1 28156
+D2
+~
+~
+0 -1 28158
+D3
+~
+~
+0 -1 28160
+D4
+~
+~
+0 -1 28147
+D5
+~
+~
+0 -1 28149
+D6
+~
+~
+0 -1 28155
+D7
+~
+~
+0 -1 28161
+D8
+~
+~
+0 -1 28157
+D9
+~
+~
+0 -1 28159
+R M 0 28039 13 28148
+R M 0 28039 13 28148
+S
+#28149
+Center of the Grand Chasm~
+~
+Floating mid-air in center of the upper most portion of the Grand Chasm,
+many things catch one attention. Looking all around, the number of floors 
+below and dens that easily number into the thousands could leave someone
+feeling abit out numbered. This stunning effect leaves one feeling that they
+are standing inside the middle of the largest hive ever imagined. There are 
+entrances in every direction and looking down one can see more of the same
+for many more levels. 
+~
+1 16777216 13
+D0
+~
+~
+0 -1 28162
+D1
+~
+~
+0 -1 28164
+D2
+~
+~
+0 -1 28166
+D3
+~
+~
+0 -1 28168
+D4
+~
+~
+0 -1 28148
+D5
+~
+~
+0 -1 28150
+D6
+~
+~
+0 -1 28163
+D7
+~
+~
+0 -1 28169
+D8
+~
+~
+0 -1 28165
+D9
+~
+~
+0 -1 28167
+S
+#28150
+The Middle of the Grand Chasm~
+~
+Floating mid-air in center of the Middle portion of the Grand Chasm, many 
+things catch one attention. Looking all around, the number of floors below 
+and dens that easily number into the thousands could leave someone feeling 
+abit out numbered. This stunning effect leaves one feeling that they are 
+standing inside the middle of the largest hive ever imagined. There are 
+entrances in every direction and looking down one can see more of the same
+for many more levels. 
+~
+1 16777216 13
+D0
+~
+~
+0 -1 28170
+D1
+~
+~
+0 -1 28172
+D2
+~
+~
+0 -1 28174
+D3
+~
+~
+0 -1 28176
+D4
+~
+~
+0 -1 28149
+D5
+~
+~
+0 -1 28151
+D6
+~
+~
+0 -1 28171
+D7
+~
+~
+0 -1 28177
+D8
+~
+~
+0 -1 28173
+D9
+~
+~
+0 -1 28175
+S
+#28151
+Center of the Grand Chasm~
+~
+Floating mid-air in center of the Lower portion of the Grand Chasm, many 
+things catch one attention. Looking all around, the number of floors below 
+and dens that easily number into the thousands could leave someone feeling 
+abit out numbered. This stunning effect leaves one feeling that they are 
+standing inside the middle of the largest hive ever imagined. There are 
+entrances in every direction and looking down one can see more of the same
+for many more levels. 
+~
+1 16777216 13
+D0
+~
+~
+0 -1 28178
+D1
+~
+~
+0 -1 28180
+D2
+~
+~
+0 -1 28182
+D3
+~
+~
+0 -1 28184
+D4
+~
+~
+0 -1 28150
+D5
+~
+~
+0 -1 28152
+D6
+~
+~
+0 -1 28179
+D7
+~
+~
+0 -1 28185
+D8
+~
+~
+0 -1 28181
+D9
+~
+~
+0 -1 28183
+R M 0 28039 13 28151
+R M 0 28039 13 28151
+S
+#28152
+Center of the Grand Chasm~
+~
+Floating mid-air in center of the Lowest portion of the Grand Chasm, many 
+things catch one attention. Looking all around, the number of floors below 
+and dens that easily number into the thousands could leave someone feeling 
+abit out numbered. This stunning effect leaves one feeling that they are 
+standing inside the middle of the largest hive ever imagined. There are 
+entrances in every direction and looking down one can see more of the same
+for many more levels. 
+~
+1 16777216 13
+D0
+~
+~
+0 -1 28186
+D1
+~
+~
+0 -1 28188
+D2
+~
+~
+0 -1 28190
+D3
+~
+~
+0 -1 28192
+D4
+~
+~
+0 -1 28151
+D5
+~
+~
+0 -1 28153
+D6
+~
+~
+0 -1 28187
+D7
+~
+~
+0 -1 28193
+D8
+~
+~
+0 -1 28189
+D9
+~
+~
+0 -1 28191
+S
+#28153
+Bottom of the Grand Chasm~
+~
+Above is the inside of a massive hive, with the entrances to dens that number
+well into the thousands. Standing at the bottom of this extrodinary chasm one 
+can feel hundreds of eyes gazing down upon you. To the North, hugh silver 
+and bronze arches tower over a double door entrance big enough for the largest
+of dragons to be able to pass freely.
+~
+1 0 13
+D0
+~
+~
+0 -1 28194
+D4
+~
+~
+0 -1 28152
+S
+#28154
+The orc's Den~
+~
+Flagstone entrance encompassed with arches, elegant tile floors and 
+mosaic pictures crafted on the walls. The ceiling borders are of long
+forgotten and ancient symbols. Ivory pillars stand strong in each corner
+of the room. An alter has been placed in the center of the room, On 
+closer inspection you realize the alter is being used for a bed.
+~
+1 0 13
+D2
+~
+~
+0 -1 28148
+R M 0 28018 1 28154
+S
+#28155
+A Meeting Hall~
+~
+A long stone table with several chiseled stone chair lined up beside
+it, with one at the head of the table. Maps of the local lands are
+stuck to the walls. Detailed lists of troop numbers and each troops
+movements for the last month are cast about on the table.
+~
+1 0 13
+D9
+~
+~
+0 -1 28148
+S
+#28156
+A orc's Den~
+~
+This room has been made into a storage vault by its owners. various items
+lay about the room amongst the relics and riches of past glory. Rolls of
+silk carpet and chalices filled with rubies so large they would inspire
+the most lowly of theives to take a chance.
+~
+1 0 13
+D3
+~
+~
+0 -1 28148
+R O 0 28063 1 28156
+R O 0 28006 1 28156
+> rand_prog 4~
+mpecho You suddenly hear a fluttler of wings shoot past the door.
+~
+|
+S
+#28157
+A Library~
+~
+Long shelves line the walls are filled with texts and book and scrolls
+from a countless numbers of generations of orcic history. Candles give
+enough light for some one to read by, still cast a dim shadow on the walls.
+~
+1 0 13
+D7
+~
+~
+0 -1 28148
+R O 0 28059 1 28157
+R O 0 28037 1 28157
+S
+#28158
+A orc's Den~
+~
+Stepping through a light weave of silky fabric reveals a finely furnished den.
+Flagstone flooring and majestic ivory pillars stand in contrast to the roughly
+hewn walls. A pool of pebbles has been created in the center of the room, 
+The pebbles are half way submersed in some very hot steamy water.
+~
+1 0 13
+D0
+~
+~
+0 -1 28148
+R M 0 28023 1 28158
+S
+#28159
+A orc's Den~
+~
+Passing through a chain-link curtain, the smell of a fire pit slips 
+through the air. In the corner a cornish hen is turning on the spiff
+its fragence tantalizing. An elaborate bed has been formed from a 
+single sheet of stone suspened from the ceiling by heavy duty chains.
+~
+1 0 13
+D6
+~
+~
+0 -1 28148
+R M 0 28021 1 28159
+S
+#28160
+An Empty Room~
+~
+Upon stepping through the entrance, the darkness and coldness of this
+room chills your bones. Devoid of any furniture or comforts, the only
+thing that can be seen is empty shelves that line the walls. Sitting
+in one corner a forgotten can has been left and forgotten about.       
+~
+1 0 13
+D1
+~
+~
+0 -1 28148
+R O 0 28044 1 28160
+> rand_prog 4~
+mpecho You suddenly hear a flutter of wings shoot past the entrance.
+~
+|
+S
+#28161
+The orc's Den~
+~
+This room has been made into a comfortable den, A warm fire pit rests
+in the corner with a murial of racing horses are deplicted in small
+chips of stone above it. Small multicolored crystals have been set in
+different areas around the room, some of which cast off a tiny bit of
+light to see by. A warm stone slab has been mounted upon several stone
+pillars for a bed.
+~
+1 0 13
+D8
+~
+~
+0 -1 28148
+R M 0 28020 1 28161
+R O 0 28021 1 28161
+S
+#28162
+The orc's Den~
+~
+The walls have been smoothed down to glass, casting various reflections
+about the room. The ceiling is oranmented with stalagmites that reach all
+the way to the floor. Palm size rounded river stones have been gathered
+and placed in a basin for a bed.
+~
+1 0 13
+D2
+~
+~
+0 -1 28149
+R M 0 28018 2 28162
+> rand_prog 4~
+mpecho You suddenly hear a flutter of wings shoot past the entrance.
+~
+|
+S
+#28163
+A Storage Room~
+~
+Various items have been placed in this room for storage. Casks of rum,
+whiskey and beer line the walls. Barrels of fresh water are stacked in
+one corner. A few Kegs of blood have also been stored here. Old wooden
+crates containing dried meats and spices are mixed through out the room.
+~
+1 0 13
+D9
+~
+~
+0 -1 28149
+S
+#28164
+A New Den~
+~
+Scraps of rocks lay about on the floor, the room soon to be a new den
+is on the process of being chiseled out of the mountains core. The 
+walls are still very rough and jagged 
+~
+1 0 13
+D3
+~
+~
+0 -1 28149
+R M 0 28022 2 28164
+S
+#28165
+The orc's Den~
+~
+Mellow colors of wheat and mild greys adorn this room shifting its 
+stone hardness to a lighter mood. Speckled flagstone covers the floor
+and half way up on the walls. Shelves have been sharply cut from the 
+wall of the mountain and possesse a smoothness of glass. A thin pad
+of bedding has been laid out in the southeastern corner of the room.
+~
+1 0 13
+D7
+~
+~
+0 -1 28149
+S
+#28166
+The orcs Den~
+~
+Flagstone entrance encompassed with arches, elegant tile floors and
+mosaic pictures crafted on the walls. The ceiling borders are of long
+forgotten and ancient symbols. Ivory pillars stand strong in each corner
+of the room. An alter has been placed in the center of the room, On
+closer inspection you realize the alter is being used for a bed.       
+~
+1 0 13
+D0
+~
+~
+0 -1 28149
+> rand_prog 4~
+mpecho You suddenly hear a flutter of wings shoot past the entrance.
+~
+|
+S
+#28167
+The orc's Den~
+~
+Stepping through a light weave of silky fabric reveals a finely furnished den.
+Flagstone flooring and majestic ivory pillars stand in contrast to the roughly
+hewn walls. A pool of pebbles has been created in the center of the room,
+The pebbles are half way submersed in some very hot steamy water.           
+~
+1 0 13
+D6
+~
+~
+0 -1 28149
+R M 0 28021 2 28167
+S
+#28168
+The orc's Den~
+~
+Passing through a chain-link curtain, the smell of a fire pit slips
+through the air. In the corner a cornish hen is turning on the spiff
+its fragence tantalizing. An elaborate bed has been formed from a
+single sheet of stone suspened from the ceiling by heavy duty chains.     
+~
+1 0 13
+D1
+~
+~
+0 -1 28149
+S
+#28169
+Armory Storage~
+~
+Racks and Racks of weapons and armor line the walls and adorn the 
+ceiling by hangers. An armory, for the storage of the Hordes weapon
+cache. Stratigically placed for easy access deep within the warrens
+of the mountain.
+~
+1 0 13
+D8
+~
+~
+0 -1 28149
+R M 0 28022 1 28169
+S
+#28170
+The orc's Den~
+~
+Passing through a chain-link curtain, the smell of a fire pit slips
+through the air. In the corner a cornish hen is turning on the spiff
+its fragence tantalizing. An elaborate bed has been formed from a
+single sheet of stone suspened from the ceiling by heavy duty chains.     
+~
+1 0 13
+D2
+~
+~
+0 -1 28150
+R M 0 28021 4 28170
+S
+#28171
+The orc's Den~
+~
+In the center of a high dome shaped ceiling a chain-link chandalier hangs,
+rocking back and fourth caused by the light movements of the mountain.
+The walls have been left very rough for design, On the back wall, artistians
+have used different colored rocks and stones to form a murial of  two of
+their own kind locked in combat with each other flying high above the earth.   
+~
+1 0 13
+D9
+~
+~
+0 -1 28150
+R M 0 28021 3 28171
+> rand_prog 4~
+mpecho You suddenly hear a flutter of wings shoot past the doorway.
+~
+|
+S
+#28172
+The orc's Den~
+~
+High Arches meet in the center point of the ceiling, hanging from center a
+majestic chandalier that has been stolen from the upper world of humans.
+The floors have been finely smoothed down to a glass like finish. The walls
+are very rough and jagged in contrast to the floors. A large flat sheet of rock
+has been positioned in one corner of the room for a bed.
+~
+1 0 13
+D3
+~
+~
+0 -1 28150
+R M 0 28023 2 28172
+S
+#28173
+The orc's Den~
+~
+This den is about half way finished, the walls have been smoothened 
+and the floors are waiting finishing touches. A small water fountain 
+has been made for this room and sits in the far left hand corner of 
+the room. For now there is no bed in this room and the remains of 
+construstion still litter the floors.
+~
+1 0 13
+D7
+~
+~
+0 -1 28150
+S
+#28174
+The orc's Den~
+~
+Stepping through the entrance of this den you are greeted by an unexpected 
+sight. The walls have been painted a bright yellow with a purplish ceiling. 
+Fresh flowers are planted in small pots located around the room. Pictures 
+of pixies and other forest creatures hang joyously on the walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 28150
+R M 0 28022 3 28174
+S
+#28175
+The orc's Den~
+~
+Flagstone entrance encompassed with arches, elegant tile floors and
+mosaic pictures crafted on the walls. The ceiling borders are of long
+forgotten and ancient symbols. Ivory pillars stand strong in each corner
+of the room. An alter has been placed in the center of the room, On
+closer inspection you realize the alter is being used for a bed.        
+~
+1 0 13
+D6
+~
+~
+0 -1 28150
+> rand_prog 4~
+mpecho You suddenly hear a flutter of wings shoot past the entrance.
+~
+|
+S
+#28176
+A Prayer Room~
+~
+A hugh checkered tapestry covers this entrance , the owner wanting some 
+added privacy no doubt. flat stone covers the floor in a pentagram shape.
+Five braziers rest at each of the pentagrams points emmiting a blue colored
+smoke into the air. A small alter has been positioned at the top point.
+~
+1 0 13
+D1
+~
+~
+0 -1 28150
+R M 0 28017 4 28176
+R M 0 28020 2 28176
+S
+#28177
+The orc's Den~
+~
+Stalagmites wrapped in spikes and barbed wire spread out through the 
+room along with a irregular square mirror give this room a very gothic
+motif. Black candles ardorn the walls in between black silk drapes that
+hang down to the floor.
+~
+1 0 13
+D8
+~
+~
+0 -1 28150
+S
+#28178
+The orc's Den~
+~
+Flagstone floors grouted with gold dust pave the floors with a glass like 
+surface. Standing along the walls clay busts of ancient orc leaders are 
+perched upon stone pedastals in all their glorious cruelty. Corinthian 
+designed molding line around the room filling in where the walls and ceiling 
+meet. A steel barbed wire curtain circles around the bed preventing any 
+one from getting too close. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28151
+S
+#28179
+The orc's Den~
+~
+Flagstone entrance encompassed with arches, elegant tile floors and
+mosaic pictures crafted on the walls. The ceiling borders are of long
+forgotten and ancient symbols. Ivory pillars stand strong in each corner
+of the room. An alter has been placed in the center of the room, On
+closer inspection you realize the alter is being used for a bed.        
+~
+1 0 13
+D9
+~
+~
+0 -1 28151
+R M 0 28023 3 28179
+S
+#28180
+A New Den~
+~
+Scraps of rocks lay about on the floor, the room soon to be a new den
+is on the process of being chiseled out of the mountains core. The
+walls are still very rough and jagged                
+~
+1 0 13
+D3
+~
+~
+0 -1 28151
+S
+#28181
+The orc's Den~
+~
+Flagstone floors grouted with gold dust pave the floors with a glass like 
+surface. Standing along the walls clay busts of ancient orc leaders are 
+perched upon stone pedastals in all their glorious cruelty. Corinthian 
+designed molding line around the room filling in where the walls and ceiling 
+meet. A steel barbed wire curtain circles around the bed preventing any 
+one from getting too close. 
+~
+1 0 13
+D7
+~
+~
+0 -1 28151
+S
+#28182
+The orc's Den~
+~
+Stalagmites wrapped in spikes and barbed wire spread out through the 
+room along with a irregular square mirror give this room a very gothic
+motif. Black candles ardorn the walls in between black silk drapes that
+hang down to the floor.
+~
+1 0 13
+D0
+~
+~
+0 -1 28151
+R M 0 28020 3 28182
+S
+#28183
+The orc's Den~
+~
+This den is about half way finished, the walls have been smoothened 
+and the floors are waiting finishing touches. A small water fountain 
+has been made for this room and sits in the far left hand corner of 
+the room. For now there is no bed in this room and the remains of 
+construstion still litter the floors.
+~
+1 0 13
+D6
+~
+~
+0 -1 28151
+S
+#28184
+The orc's Den~
+~
+Flagstone entrance encompassed with arches, elegant tile floors and
+mosaic pictures crafted on the walls. The ceiling borders are of long
+forgotten and ancient symbols. Ivory pillars stand strong in each corner
+of the room. An alter has been placed in the center of the room, On
+closer inspection you realize the alter is being used for a bed.        
+~
+1 0 13
+D1
+~
+~
+0 -1 28151
+S
+#28185
+The orc's Den~
+~
+Passing through a chain-link curtain, the smell of a fire pit slips
+through the air. In the corner a cornish hen is turning on the spiff
+its fragence tantalizing. An elaborate bed has been formed from a
+single sheet of stone suspened from the ceiling by heavy duty chains.     
+~
+1 0 13
+D8
+~
+~
+0 -1 28151
+S
+#28186
+The orc's Den~
+~
+High Arches meet in the center point of the ceiling, hanging from center a
+majestic chandalier that has been stolen from the upper world of humans.
+The floors have been finely smoothed down to a glass like finish. The walls
+are very rough and jagged in contrast to the floors. A large flat sheet of rock
+has been positioned in one corner of the room for a bed.
+~
+1 0 13
+D2
+~
+~
+0 -1 28152
+R M 0 28017 5 28186
+S
+#28187
+The orc's Den~
+~
+In the center of a high dome shaped ceiling a chain-link chandalier hangs, 
+rocking back and fourth caused by the light movements of the mountain.
+The walls have been left very rough for design, On the back wall, artistians
+have used different colored rocks and stones to form a murial of  two of
+their own kind locked in combat with each other flying high above the earth. 
+~
+1 0 13
+D9
+~
+~
+0 -1 28152
+R M 0 28023 4 28187
+S
+#28188
+The orc's Den~
+~
+Stepping through a light weave of silky fabric reveals a finely furnished den.
+Flagstone flooring and majestic ivory pillars stand in contrast to the roughly
+hewn walls. A pool of pebbles has been created in the center of the room,
+The pebbles are half way submersed in some very hot steamy water.        
+~
+1 0 13
+D3
+~
+~
+0 -1 28152
+R M 0 28020 4 28188
+S
+#28189
+A New Den~
+~
+Scraps of rocks lay about on the floor, the room soon to be a new den
+is on the process of being chiseled out of the mountains core. The
+walls are still very rough and jagged                                    
+~
+1 0 13
+D7
+~
+~
+0 -1 28152
+S
+#28190
+The orc's Den~
+~
+Stepping inside this den a fowl smell greets you, Looking around you
+find the reason for the smell. A elder orc guard has come to the 
+end of its ancient life and has yet to be discovered. Passing in its 
+sleep, the cruelty of death has made an alter out of this orcs bed.
+~
+1 0 13
+D0
+~
+~
+0 -1 28152
+S
+#28191
+Secondary Storage Room~
+~
+Racks and Racks of weapons and armor line the walls and adorn the
+ceiling by hangers. An armory, for the storage of the Hordes weapon
+cache. Stratigically placed for easy access deep within the warrens
+of the mountain.                                                
+~
+1 0 13
+D6
+~
+~
+0 -1 28152
+S
+#28192
+The orc's Den~
+~
+Passing through a chain-link curtain, the smell of a fire pit slips
+through the air. In the corner a cornish hen is turning on the spiff
+its fragence tantalizing. An elaborate bed has been formed from a
+single sheet of stone suspened from the ceiling by heavy duty chains.     
+~
+1 0 13
+D1
+~
+~
+0 -1 28152
+R M 0 28017 6 28192
+S
+#28193
+A Storage Room~
+~
+Various items have been placed in this room for storage. Casks of rum,
+whiskey and beer line the walls. Barrels of fresh water are stacked in
+one corner. A few Kegs of blood have also been stored here. Old wooden
+crates containing dried meats and spices are mixed through out the room.       
+~
+1 0 13
+D8
+~
+~
+0 -1 28152
+S
+#28194
+Entrance to the Throne room~
+~
+Walking Below the Arches of KrinMar the ominous feeling of  ancient power
+and great evil weighs heavily upon the soul. The Arches are stained deep with
+the cold dried red blood of thousand upon thousands of victims of the Horde.
+Great atrocities scar these arches, each battle every war all the way down to 
+the very drop of innocent blood finds its way here.
+~
+1 0 13
+D0
+~
+~
+0 -1 28195
+D2
+~
+~
+0 -1 28153
+R M 0 28023 5 28194
+S
+#28195
+Inside the Throne Room~
+~
+Inside the Throne Room, Endlessly vast ceilings and ivory pillars veined with 
+black ore that stand side by side down the wall towards the Throne. Currents 
+of wisps of smoke glide in and out between the columns. Etheral spirits drift 
+high above in an endless turmoil. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28196
+D2
+~
+~
+0 -1 28194
+S
+#28196
+Before the Throne ~
+~
+Standing before the Throne of Krin Mar, This blood soaked throne is the 
+corner stone of power within the orcic society. Here law and cruelty
+are dispersed throughout the ranks of orcic followers, each ready to
+fall upon its own sword at the drop of a word. Krin Mar the eldest of all
+orcs rules here and has been the ruler for twenty three generations.
+~
+1 0 13
+D0
+~
+~
+0 -1 28197
+D2
+~
+~
+0 -1 28195
+R M 0 28023 6 28196
+S
+#28197
+Upon the Throne~
+~
+Standing here before the ruler over the Hordes of Perdition, his cold cruel 
+eyes staring deep within your soul waiting to see what your next move will
+be. The throne is comprised of bones, skulls at the top and spines running
+down its length, arms and hands reach out for arm rests. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28196
+D7
+~
+~
+0 -1 28198
+R M 0 28025 1 28197
+R O 0 28004 1 28197
+> act_prog p puts a sharp bone  in a wooden chest.~
+mppurge chest
+mpoload 28004
+~
+|
+S
+#28198
+Inside the Secret Chamber~
+~
+Behind the Throne of Krin Mar is a small secretive passage way that allows
+Krin Mar entry into his private resting area. Surrounded by protective
+gylphs and anceint runes, the door way well protected against the magics
+that might pose harm towards its occupants.
+~
+1 4 13
+D1
+~
+~
+0 -1 28199
+D8
+~
+~
+0 -1 28197
+S
+#28199
+The Royal Bed Chambers~
+~
+The Royal bed chambers of Krin Mar are far in contrast to the gruesomeness 
+of the warrens, with a bed so massive that many people could occupy it with
+comfort and silk tapestries sewn with silver and gold, oranamented with rubies
+and other precious gems. Golden basins fed with pure clean water and spices.
+There is an exit out of the bed chambers to the East.  
+~
+1 0 13
+D3
+~
+~
+0 -1 28198
+R M 0 28009 8 28199
+S
+#28200
+Hordes of Perdition Prog Room~
+~
+~
+1 4 13
+R M 0 28200 1 28200
+S
+#0
+
+
+#SHOPS
+ 28026    0  0  0  0  0   120  90         0 23    ; Gromack
+ 28027    0  0  0  0  0   120  90         0 23    ; Marick
+ 28028    0  0  0  0  0   120  90         0 23    ; TyMaw
+ 28029    0  0  0  0  0   120  90         0 23    ; Kagnia
+ 28030    0  0  0  0  0   120  90         0 23    ; Zan the orc guard
+ 28031    0  0  0  0  0   120  90         0 23    ; Korrupt
+ 28032    0  0  0  0  0   120  90         0 23    ; Malnaglekt
+ 28033    0  0  0  0  0   120  90         0 23    ; QwagMar
+ 28034    5  9  3  4 10   150  50         0 23    ; Corath the orc guard
+0
+
+
+#REPAIRS
+ 28027    5  9 54         100   1         0 23    ; Marick
+ 28035    5  9  0         100   1         0 23    ; Marick
+0
+
+
+#SPECIALS
+M  28017 spec_cast_cleric
+M  28023 spec_cast_undead
+M  28037 spec_cast_undead
+M  28038 spec_cast_undead
+M  28039 spec_thief
+M  28040 spec_cast_undead
+M  28049 spec_cast_undead
+M  28200 spec_cast_cleric
+S
+
+
+#$

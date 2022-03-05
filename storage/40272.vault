@@ -1,0 +1,847 @@
+#VNUM 40272
+#OBJECT
+Name         swirling frozen portal~
+ShortDescr   &za &ps&zw&wi&pr&zl&wi&wn&pg &ci&bc&we&cy &pp&co&zr&ct&wa&pl&d~
+Description  A &za &ps&zw&wi&pr&zl&wi&wn&pg &ci&bc&we&cy &pp&co&zr&ct&wa&pl&d has been left here along the ground.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        60
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       750 0 0 12 0 0 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Voluntas, the expert carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        6
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 109 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         7501
+Level        20
+Currtype     3
+Color        1
+Size   4
+Values       20 20 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2770
+Level        10
+Currtype     3
+Color        13
+Size   0
+Values       20 6 6 184 0 10 0
+Spell 3      'unholy strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         scale-wrist~
+ShortDescr   a scale-wrist, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-wrist, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       3
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   scale-wrist~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fullplate-helmet~
+ShortDescr   a fullplate-helmet, finely forged from silvery-gray steel ore~
+Description  Here lies a fullplate-helmet, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    17
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       16 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 -3 13 0
+ExtraDescr   fullplate-helmet~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fullplate-visor~
+ShortDescr   a fullplate-visor, finely forged from silvery-gray steel ore~
+Description  Here lies a fullplate-visor, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    131073
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       15 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fullplate-visor~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plated-boots~
+ShortDescr   a plated-boots, finely forged from silvery-gray steel ore~
+Description  Here lies a plated-boots, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   plated-boots~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plate-leggings~
+ShortDescr   a plate-leggings, finely forged from silvery-gray steel ore~
+Description  Here lies a plate-leggings, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   plate-leggings~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plated-gauntlets~
+ShortDescr   a plated-gauntlets, finely forged from silvery-gray steel ore~
+Description  Here lies a plated-gauntlets, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    129
+ItemType     9
+Weight       2
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       13 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 3 17 0
+ExtraDescr   plated-gauntlets~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16074
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         plate-torque~
+ShortDescr   a plate-torque, finely forged from silvery-gray steel ore~
+Description  Here lies a plate-torque, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       3
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       16 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plate-torque~
+ShortDescr   a plate-torque, finely forged from silvery-gray steel ore~
+Description  Here lies a plate-torque, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       3
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       16 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         ornate-ring~
+ShortDescr   a ornate-ring, finely forged from silvery-gray steel ore~
+Description  Here lies a ornate-ring, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       16 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 8 17 0
+ExtraDescr   ornate-ring~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         ornate-ring~
+ShortDescr   a ornate-ring, finely forged from silvery-gray steel ore~
+Description  Here lies a ornate-ring, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 8 17 0
+ExtraDescr   ornate-ring~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         round-shield~
+ShortDescr   a round-shield, finely forged from silvery-gray steel ore~
+Description  Here lies a round-shield, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       1 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   round-shield~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         40029
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         ear-stud~
+ShortDescr   a ear-stud, finely forged from silvery-gray steel ore~
+Description  Here lies a ear-stud, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    65537
+ItemType     9
+Weight       2
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       16 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 -1 13 0
+AffectData   'acid breath' -1 10 17 0
+ExtraDescr   ear-stud~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         40025
+Level        1
+Currtype     1
+Color        5
+Size   0
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         scale-anklet~
+ShortDescr   a scale-anklet, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-anklet, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    2097153
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       15 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   scale-anklet~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         8307
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Name         scale-armlets~
+ShortDescr   a scale-armlets, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-armlets, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    257
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   scale-armlets~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         scale-mask~
+ShortDescr   a scale-mask, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-mask, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    1048577
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       15 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   scale-mask~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         8303
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8304
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10803
+Level        27
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         40032
+Level        25
+Currtype     4
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         26009
+Level        30
+Currtype     4
+Color        4
+Size   0
+Values       0 0 -1 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40026
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8302
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26010
+Level        29
+Currtype     4
+Color        4
+Size   0
+Values       300 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         scale-anklet~
+ShortDescr   a scale-anklet, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-anklet, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    2097153
+ItemType     9
+Weight       8
+Level        8
+Cost         25
+Currtype     2
+Color        13
+Size   0
+Values       17 17 15 300 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-anklet~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16719
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16718
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16721
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 152 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 7 152 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 152 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16719
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       34 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40027
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16721
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16718
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Name         shimmering planar tear~
+ShortDescr   &za &cs&zh&wi&cmm&zer&wi&cng &rp&zl&wa&rn&za&wr &ct&re&ca&rr&d~
+Description  A &za &cs&zh&wi&cmm&zer&wi&cng &rp&zl&wa&rn&za&wr &ct&re&ca&rr&d has been left here along the ground.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        60
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       750 0 0 12 0 0 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Voluntas, the expert carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         609
+Level        50
+Currtype     3
+Color        8
+Size   0
+Values       800 0 -1 12 0 50 0
+End
+
+#END

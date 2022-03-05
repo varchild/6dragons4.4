@@ -1,0 +1,478 @@
+Sender      Alice~
+PostTime    1456065404
+To          all~
+Subject     a sharpening stone~
+Bid         Hekkron~ 10
+Read        Mendicus~
+Read        Nedrik~
+Read        Jupiter~
+Read        Nightwing~
+Read        Rokthr~
+Read        Yonara~
+Read        Ascher~
+Read        Tarl~
+Read        Devlyn~
+Read        Ramsey~
+Read        Hekkron~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Darum~
+Read        Amaru~
+Read        Serylith~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Mirkoros~
+Read        Bastian~
+#OBJECT
+Vnum         11236
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       1 0 0 0 0 1 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Mendicus~
+PostTime    1470913642
+To          all~
+Subject     a sparkling gem~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Darum~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Vnum         2307
+Level        19
+Currtype     1
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Izak~
+PostTime    1470951963
+To          all~
+Subject     a bear pelt~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+AutoWin     1
+#OBJECT
+Vnum         11541
+Level        79
+Currtype     1
+Size   77
+Values       55 55 0 0 0 0 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Izak~
+PostTime    1470955649
+To          all~
+Subject     the tail of a giant sandrat~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+AutoWin     5
+#OBJECT
+Vnum         3757
+Level        65
+Currtype     1
+Color        8
+Size   3
+Values       12 35 70 5 3 65 9
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Skyraker~
+PostTime    1471219732
+To          all~
+Subject     a feces tipped short bamboo spear~
+Read        Hekkron~
+Read        Alastroden~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Vnum         10221
+Level        32
+Currtype     1
+Color        1
+Size   3
+Values       12 15 30 7 10 0 56
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Alastroden~
+PostTime    1471278759
+To          all~
+Subject     a full-breastplate, legendary produced from meteor~
+Read        Hekkron~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Name         full-breastplate~
+ShortDescr   a full-breastplate, legendary produced from meteor~
+Description  Here lies a full-breastplate, legendary produced from meteor.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Weight       8
+Level        50
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       40 40 76 400 777 30 0
+AffectData   'acid breath' -1 2 3 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   full-breastplate~ &CThis produced item bears the seal of Alastroden, the master draconic.
+~
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Alastroden~
+PostTime    1471278813
+To          all~
+Subject     a full-breastplate, legendary produced from meteor~
+Read        Hekkron~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Name         full-breastplate~
+ShortDescr   a full-breastplate, legendary produced from meteor~
+Description  Here lies a full-breastplate, legendary produced from meteor.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Weight       8
+Level        85
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       60 60 76 400 777 30 0
+AffectData   'acid breath' -1 4 18 0
+AffectData   'acid breath' -1 4 25 0
+AffectData   'acid breath' -1 4 19 0
+AffectData   'acid breath' -1 10 13 0
+ExtraDescr   full-breastplate~ &CThis produced item bears the seal of Alastroden, the master draconic.
+~
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Alastroden~
+PostTime    1471281245
+To          all~
+Subject     a crystal-light, legendary produced from meteor~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Name         crystal-light~
+ShortDescr   a crystal-light, legendary produced from meteor~
+Description  Here lies a crystal-light, legendary produced from meteor.~
+Vnum         41002
+WearFlags    16385
+ItemType     1
+Weight       8
+Level        33
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       30 30 76 6 6 30 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   crystal-light~ &CThis produced item bears the seal of Alastroden, the master draconic.
+~
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Izak~
+PostTime    1471727972
+To          all~
+Subject     Guardian of the Flesh~
+Bid         Nicodemus~ 1
+Read        Myrlan~
+Read        Nicodemus~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Vnum         10063
+Level        75
+Currtype     1
+Color        6
+Size   77
+Values       1 55 0 0 0 75 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Izak~
+PostTime    1471727979
+To          all~
+Subject     a funeral shroud~
+Read        Myrlan~
+Read        Vycon~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Vnum         10064
+Level        75
+Currtype     1
+Color        5
+Size   77
+Values       54 55 0 0 0 75 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Xander~
+PostTime    1471913175
+To          all~
+Subject     an extradimensional portal~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+AutoWin     1
+#OBJECT
+Vnum         1408
+Level        77
+Currtype     2
+Color        13
+Size   0
+Values       1000 0 0 12 0 0 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Xander~
+PostTime    1471914938
+To          all~
+Subject     a golden dagger~
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+AutoWin     1
+#OBJECT
+Vnum         35702
+Level        75
+Currtype     1
+Size   0
+Values       12 40 80 6 2 75 45
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Syndriel~
+PostTime    1472878146
+To          all~
+Subject     a feather of knowing~
+Bid         Rhys~ 1
+Read        Myrlan~
+Read        Teasel~
+Read        Arry~
+Read        Joseph~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Bastian~
+#OBJECT
+Vnum         16007
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       11 15 15 106 0 1 0
+Spell 3      'identify'
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Xander~
+PostTime    1473043977
+To          all~
+Subject     a war hammer~
+Read        Myrlan~
+Read        Vladaar~
+Read        Teasel~
+Read        Arry~
+Read        Amaru~
+Read        Aven~
+Read        Rhys~
+Read        Darien~
+Read        Caeli~
+Read        Zaiden~
+Read        Mirkoros~
+Read        Bastian~
+AutoWin     1
+#OBJECT
+Vnum         6502
+Level        100
+Currtype     1
+Color        5
+Size   0
+Values       12 50 100 4 5 0 0
+End
+
+Text
+auctioning
+~
+End
+
+Sender      Jaquen~
+PostTime    1509054499
+To          all~
+Subject     a broken wine bottle~
+Read        Aven~
+Read        Devlyn~
+Read        Bastian~
+AutoWin     1
+#OBJECT
+Vnum         55304
+Level        21
+Currtype     4
+Color        8
+Size   0
+Values       11 10 20 2 2 21 49
+End
+
+Text
+auctioning
+~
+End
+

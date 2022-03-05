@@ -1,0 +1,1879 @@
+#AREA        Kirwood Swamp~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES None~
+#COLOR       13
+#HTOWN       Orc~
+#DESC        The swamp is the foreboading homeland of the Orc race.
+Not much is know about the swamp, and no one has returned
+that has ever tried to enter it.
+~
+
+#RANGES
+1 10 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG An eerie silence is interrupted by the sounds of movement.~
+
+#FLAGS
+0 10
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 999999746 999990471 999999608 999997787 999996810 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#27000
+swamp eel~
+a swamp eel~
+A swamp eel dips in and out of the water looking for prey.
+~
+The eel swims without fins that fish have.  It has a dark red stripe running the lengthof it's body.
+~
+11
+Clanname none~
+0
+0
+16777281 0 0 C
+8 0 -1 2d10+100 0d0+0
+0 0 0 0 10 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 0
+0 0 65536 0 0 0 1 0
+#27001
+water beetle~
+a water beetle~
+A water beetle swims along in search of prey.
+~
+The beetle has many small legs, and large mandible jaws.
+~
+2
+Clanname none~
+0
+0
+16777281 0 0 C
+8 0 -1 2d10+100 0d0+0
+0 0 0 0 2 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 2 0 0 1 1 0
+0 0 1025 0 0 0 3 0
+#27002
+crocodile~
+a crocodile~
+A small crocodile surveys the area here.
+~
+The crocodile's body cannot be fully discerned in the water.  A powerful claw is visible just
+below the water's surface.
+~
+11
+Clanname none~
+0
+0
+16777281 0 0 C
+7 0 -1 2d10+100 0d0+0
+0 0 0 0 10 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1 1 0
+0 0 66560 0 0 0 3 0
+#27003
+salamander~
+a salamander~
+A red spotted salamander stands on a lily pad here.
+~
+The salamander is gray colored with large red spots covering it's body.
+~
+3
+Clanname none~
+0
+0
+16777281 4194304 0 C
+8 0 -1 2d10+100 0d0+1
+0 0 0 0 5 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 2 0 0 1 1 0
+0 0 0 0 0 0 262147 0
+> death_prog 100~
+if quest(dakarsalamanders) == 1
+  mpechoat $n &RHunting red spotted salamanders 1/10.
+  mpquest $n dakarsalamanders 2
+  mppause 10
+else
+  if quest(dakarsalamanders) == 2
+    mpechoat $n Hunting red spotted salamanders 2/10.
+    mpquest $n dakarsalamanders 3
+    mppause 10
+  else
+    if quest(dakarsalamanders) == 3
+      mpechoat $n Hunting red spotted salamanders 3/10.
+      mpquest $n dakarsalamanders 4
+      mppause 10
+    else
+      if quest(dakarsalamanders) == 4
+        mpechoat $n Hunting red spotted salamanders 4/10.
+        mpquest $n dakarsalamanders 5
+        mppause 10
+      else
+        if quest(dakarsalamanders) == 5
+          mpechoat $n Hunting red spotted salamanders 5/10.
+          mpquest $n dakarsalamanders 6
+          mppause 10
+        else
+          if quest(dakarsalamanders) == 6
+            mpechoat $n Hunting red spotted salamanders 6/10.
+            mpquest $n dakarsalamanders 7
+            mppause 10
+          else
+            if quest(dakarsalamanders) == 7
+              mpechoat $n Hunting red spotted salamanders 7/10.
+              mpquest $n dakarsalamanders 8
+              mppause 10
+            else
+              if quest(dakarsalamanders) == 8
+                mpechoat $n Hunting red spotted salamanders 8/10.
+                mpquest $n dakarsalamanders 9
+                mppause 10
+              else
+                if quest(dakarsalamanders) == 9
+                  mpechoat $n Hunting red spotted salamanders 9/10.
+                  mpquest $n dakarsalamanders 10
+                  mppause 10
+                else
+                  if quest(dakarsalamanders) == 10
+                    mpechoat $n Hunting red spotted salamanders 10/10.&D
+                    mpquest $n dakarsalamanders 11
+                  endif
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+|
+#27004
+frogman~
+a frogman~
+A frogman moves stealthily through the swamp here.
+~
+The frog has the body size of a short human, but the slimey skin of the frog.
+~
+9
+Clanname none~
+0
+0
+16777281 0 0 C
+10 0 -5 2d10+100 0d0+0
+0 0 0 0 10 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1 1 0
+0 0 1351 0 0 0 -2147483632 0
+> death_prog 100~
+mpoload 27056~
+|
+#27005
+frogman chieftain~
+the frogman chieftain~
+A frogman chieftain stands next to a tree here.
+~
+The chieftain has a badge of leadership slung over his shoulder.  He has many scars on his
+body.
+~
+9
+Clanname none~
+0
+0
+16777281 4194304 0 C
+10 0 -10 2d10+100 0d0+1
+0 0 0 0 5 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 1 0 0 1 1 0
+0 0 32 0 0 0 -2147483629 0
+> death_prog 100~
+if quest(Tarane) == 4
+  mpquest $n Tarane 5
+endif
+~
+|
+#27006
+frogman worker~
+a frogman~
+A frogman worker is hauling some brushes here.
+~
+Clothed in mere rags, the frogman has a glazed look in his bulging eyes.
+~
+9
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 -1 0d0+0 0d0+0
+0 0 0 0 2 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 2 0 0 1 1 0
+0 0 0 0 0 0 -2147483645 0
+> death_prog 100~
+mpoload 27056
+~
+|
+#27007
+frogman shaman~
+a frogman shaman~
+A frogman shaman looks into the sky here.
+~
+The shaman is wearing a skull-like helmet and soiled black robes.
+~
+9
+Clanname none~
+0
+0
+16777281 0 0 C
+10 0 0 2d10+100 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 1 0 0 1 1 0
+0 0 202 0 0 0 -2147479551 8
+> death_prog 100~
+if quest(warz) == 1
+mpquest $n warz 2
+mpoload 27056
+endif
+~
+|
+#27010
+orc guard maeakae~
+Maeakae~
+A tall orc stands guard at the city gate.
+~
+The orc has a pig snout and a fanged overbite.  The eyes are black as midnight and very small for such
+a large face.
+~
+11
+Clanname none~
+0
+0
+131075&36 4194304 -1000 C
+100 0 -800 10d10+30000 1d10+5
+0 0 0 0 10 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 3
+200 200 40 0 0 0 880 -536870653
+> act_prog p gives you 10 bronze coins.~
+mpoload 27040
+mppause 5
+emote puts two meety fingers in his mouth and whistles two loud blasts.
+mppause 3
+say The slaves will have the gate open in no time.
+mppause 3
+mpechoat $n &cYou hear the sound of wheels churning as the gate lowers.&D
+mppause 6
+unlock gate
+mpechoat $n &cThe gate finally lands with a large thud.&D
+open gate
+mppause 5
+say Step across lively, we can't keep the gate down long.
+mppause 20
+mpat 4 look
+mppause 10
+mpat $n mpechoat $n &cYou hear a guard yell, 'Closing the gate!'&D
+mppause 5
+mpat $n mpechoat $n &cThe gate starts to close with the sound of wheels churning.&D
+mppause 8
+close s
+lock s
+drop key
+sac key
+~
+> all_greet_prog 100~
+if ispc($n)
+  if clan($n) == THRONG
+  or clan($n) == HALCYON
+    tell $n If you wish the protection of Dakar city walls...
+    mppause 6
+    tell $n You must pay 10 bronze coins in tax.
+  else
+    if htown($n) == Paleon City
+     OR htown($n) == Forbidden City
+      yell WE'RE UNDER ATTACK!
+      yell FOR THE THRONG!
+      mpkill $n
+    else
+      tell $n If you wish the protection of Dakar city walls...
+      mppause 6
+      tell $n You must pay 10 bronze coins in tax.
+    endif
+  endif
+endif
+~
+> fight_prog 30~
+heavy
+heavy
+heavy
+heavy
+~
+|
+#27011
+orc guard draven~
+Draven~
+An orc guard is here directing the slaves who pull the gears for the gate.
+~
+The orc has a missing eye from the socket.  There is a scar across his face that digs
+into the eye socket.  There are random hair patches on it's head.
+~
+0
+Clanname none~
+0
+0
+2228227 4194304 0 C
+18 0 0 2d50+3000 2d6+4
+0 0 0 0 0 
+0
+115 115 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 3
+0 0 40 0 0 0 48 2
+> speech_prog leave~
+emote puts two meaty fingers in his mouth and whistles two loud blasts.
+mppause 4
+say The slaves will have the gate open soon.
+mppause 7
+mpechoat $n &cYou hear the sound of wheels churning as the gate lowers.&D
+mppause 7
+unlock n
+mpechoat $n &cThe gate finally lands with a large thud.&D
+open n
+mppause 20
+say Exit the city quickly, we can't keep the gate down long.
+mppause 10
+mpat $n mpechoat $n &cYou hear a guard yell, 'Closing the gate'!&D
+mppause 4
+mpat $n mpechoat $n &cThe gate starts to close to the sound of wheels churning.&D
+mppause 8
+close n
+lock n
+mpecho &wThe gate closes.&D
+~
+|
+#27015
+Nasgaar Ogre Warrior~
+Nasgaar~
+A heavily muscled ogre warrior stands proudly here.
+~
+The ogre is bulging with muscles and has layers of scars across his taunt skin.
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+40 0 0 1d1+2000 2d6+8
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+5 2 0 0 1 1 4
+0 0 41 0 0 0 48 524291
+> act_prog p arrives from the south.~
+mppause 1
+mpechoat $n &CNasgaar says, 'Halt!!!'&D
+mppause 4
+mpechoat $n &CNasgaar says, 'Me askss yoour helpp.'&D
+mppause 6
+mpechoat $n &CNasgaar says, 'Finishh taasks for me...'&D
+mppause 6
+mpechoat $n &CNasgaar says, 'Me rewaard yoou.'&D
+mppause 6
+mpechoat $n &CNasgaar says, 'Too try fiirst one, &WSAY FIRST&C.'&D
+~
+> speech_prog fiirst~
+mppause 8
+mpechoat $n &CNasgaar says, 'You fiind Masster Arrms Raeakan.'&D
+mppause 6
+mpechoat $n &CNasgaar says, 'Youu aask himm fer, &WME LOSST ITTEM&C.'&D
+~
+> speech_prog 'his sword at my home'~
+if iscarrying($n) == 27048
+  mpechoat $n &CNasgaar says, 'Yooouse alreeady hasss it!'&D
+else
+  mppause 8
+  mpechoat $n &cNasgaar sighs loudly.&D
+  mppause 8
+  mpechoat $n &cNasgaar looks over your equipment.&D
+  mppause 5
+  mpechoat $n &CNasgaar says, 'Yooou need bigggg stiick.'&D
+  mpoload 27048 1
+  give club $n
+  mppause 8
+  mpechoat $n &CNasgaar says, 'Me hass notheer tassk, tell me &WNOTHEER&C.'&D
+endif
+~
+> speech_prog notheer~
+mppause 2
+mpechoat $n &CNasgaar says, 'Fiiind daa Hiigh Prieest, tellss hiim &WMEES REEADY&C.'&D
+~
+> speech_prog 'come here'~
+if iscarrying($n) == 27049
+  mpechoat $n &CNasgaar says, 'Yooouse alreeady hasss it!'&D
+else
+  mppause 3
+  mpechoat $n &Nasgaar says, 'Gooood, Mee rreewaard.'&D
+  mppause 5
+  mpechoat $n &cNasgaar looks at your equipment.&D
+  mppause 6
+  mpechoat $n &CNasgaar says, 'Taakes tiis.'&D
+  mpoload 27049 1
+  mppause 2
+  give bracer $n
+  mppause 6
+  mpechoat $n &CNasgaar says, 'Me sttilll neeedss heelp.  Tell me &WHEELP&C.'&D
+endif
+~
+> speech_prog heelp~
+mppause 6
+mpechoat $n &CNasgaar says, 'Mee waantts daa frrrogmaan ccorrpse.'&D
+~
+> act_prog p gives you the corpse of a frogman.~
+if iscarrying($n) == 27050
+  mpechoat $n &CNasgaar says, 'Yooouse alreeady hasss it!'&D
+else
+  mppause 6
+  mpat 4 drop all
+  mpechoat $n &CNasgaar says, 'Grrreat!'&D
+  mppause 5
+  mpechoat $n &cNasgaar looks over your equipment.&D
+  mppause 6
+  mpechoat $n &CNasgaar says, 'Taakees ttthiis.'&D
+  mpoload 27050 1
+  mppause 2
+  give leggings $n
+endif
+~
+|
+#27018
+headbanger bloated ogre~
+Headbanger~
+A bloated looking ogre blocks the way
+~
+One of the more frequent visitors to the Atheneum, this patron talks a lot 
+and generally tends to disturb others. He is rather youngish, looks rather 
+plump. Headbanger is an ogre who earned his name by killing opponents with 
+his head, literally. Lately, he has been to Paleon City on his travels, 
+and improved on his combat skills. 
+~
+0
+Clanname none~
+0
+0
+16777281 4194304 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Me Big, Me Strong, Me Ogre'~
+say Me Big. Me Don't Want To Give You Book.
+say Me Strong. Me Keep Book.
+say Me Ogre. Me Die Then Give Book.
+mpoload 4659 1
+get book
+~
+> death_prog 100~
+mpechoat $n As Headbanger breathes his last, he drops a slim tome.
+mpoload 4659
+drop ogre
+~
+|
+#27019
+drow warrior kyfaek~
+Kyfaek~
+A slender drow warrior is standing here.
+~
+The drow is slender but muscular dressed in complete black, with long white hair.  
+~
+13
+Clanname none~
+0
+0
+131075&128 4292648 0 C
+50 0 0 0d0+2500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+10 6 0 0 1 1 0
+0 0 41 0 0 0 48 3
+> all_greet_prog 100~
+if clan($n) == throng
+else
+  if quest(throng) == 5
+    mpechoat $n &CKyfaek says, 'So you did it.  Maybe you do have it takes.  Find the boat man Charon by the River of Styxx, he will help you get into the Throng.  Now leave me to my work!&D
+    mpquest $n throng 6
+  else
+    mppause 5
+    if level($n) > 9
+    if race($n) != dragon
+      mppause 10
+       mpechoat $n &CKyfaek says, 'Greetings young one.  The Throng has need of you.  You do intend to join The Throng right?  I mean, it would be a pity if something were to happen to you, because you did not have the protection of The Throng.'&D
+      mppause 16 
+      mpechoat $n &cKyfaek places a hand on his sword hilt and studies you, awaiting your response.&D
+      mppause 20
+      mpechoat $n &CKyfaek says, 'Really it's not difficult simply &WSAY YES&C, or &WSAY NO&C.'&D
+      mpechoat $n &CHint:  &cIf you &W SAY NO, be ready to &WFLEE&c.&D
+    endif
+  endif
+endif
+endif
+~
+> speech_prog no~
+if level($n) < 10
+else
+  mppause 2
+  mpechoat $n &CKyfaek says, 'If your not with us, your against us!!!'&D
+  mppause 2
+  mpkill $n
+endif
+~
+> speech_prog yes~
+if quest(throng) > 1
+else
+  if level($n) < 10
+  else
+    if canpkill($n)
+      mppause 2
+      mpecho &CKyfaek says, 'I am glad you see things our way....However, not just anyone can be in the Throng.  We have to know if you have what it takes to represent the Throng.'&D
+      mppause 15
+      mpechoat $n &cKyfaek beckons to the shadows with a hand signal.&D
+      mpquest $n throng 1
+      mppause 20
+      mpecho &cA towering troll warrior with a tree for a club steps towards you.&D
+      if level($n) < 15
+        mpmload 27020 20
+      else
+        if level($n) < 25
+          mpmload 27021
+        else
+          if level($n) < 40
+            mpmload 27022
+          else
+            if level($n) < 60
+              mpmload 27023
+            else
+              if level($n) < 70
+                mpmload 27024
+              else
+                if level($n) > 69
+                  mpmload 27025
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+      mppause 20
+      mpechoat $n &CKyfaek with an evil gleam in his eyes, says, 'You must last in a fight with Gordav, till I stop the fight.  If you fail to do so, you are not worthy of being in the Throng.  Now eat this one, Gordav!!'&D
+      mppause 20
+      mpat 4 look
+      mppause 5
+      mpechoat $n &cKyfaek points at you!&D
+      mppause 1
+      mpforce Gordav mpkill $n
+      mppause 6
+      mpecho &cKyfaek grimaces as you are narrowly crushed by the tree for a club.&D
+      mppause 20
+      mpecho &cKyfaek watches with disinterest.&D
+      mppause 20
+      mpecho &cKyfaek snickers, and suggests with his body motions that you avoid the tree.&D
+      mppause 20
+      mpecho &cKyfaek suddenly appears serious.&D
+      mppause 1
+      mpechoat $n &CKyfaek says, 'Ok that's enough, you have proven yourself.'&D
+      mppause 4
+      mpechoat $n &CKyfaek says, 'I said stop Gordav!!'&D
+      mpechoat $n &cKyfaek, with staggering speed, unsheathes his sword and lops off the head of Gordav, returning his sword to sheath.&D
+      if mobinroom(27020) > 0
+      or mobinroom(27021) > 0
+      or mobinroom(27022) > 0
+      or mobinroom(27023) > 0
+      or mobinroom(27024) > 0
+      or mobinroom(27025) > 0
+        mpslay gordav
+      endif
+      mpquest $n throng 2
+      mppause 20
+      mpechoat $n &CKyfaek says, 'If there is one thing I cannot tolerate is disobedience.  You have done well young one.  However, being able to fight alone does not make you a member of the Throng.  You must intercept a messenger for the Paleon Captain.  We have reports the messenger is coming from the Citadel, they have been spying on our forces.  Find the messenger, and kill him.  You will wear this necklace which will give you the illusion of the messenger you kill.  Then go to the Blade Master in Paleon and tell him our number is &W300&C at the Citadel.'&D
+      mppause 20
+      mpoload 27020 1
+      get necklace
+      give necklace $n
+      mppause 8
+      mpechoat $n &CKyfaek says, 'Return here when done.'&D
+    else
+      mpechoat $n &cKyfaek spits at your feet.&D
+      mpechoat $n &CKyfaek says, 'I don't need a warrior without the guts to kill.  Begone!'&D
+    endif
+  endif
+endif
+~
+> speech_prog 'WE WISH TO HELP MAKE THE PEACE'~
+if quest(halcyon) == 1
+  mpechoat $n &CKyfaek says, 'If that peace-loving son of a bull Ovbere wants peace, he'll have to kill me first!'
+  mppause 3
+  mpechoat $n &CKyfaek says, 'You tell his representative, Hala,  &WTHERE WILL BE NO PEACE WHILE THE ALLIANCE STANDS&C.'&D
+  mpquest $n halcyon 2
+endif
+~
+|
+#27020
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+131075&32 0 0 C
+20 0 0 0d0+1500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 4 0 0 1 1 0
+8 8 0 0 0 0 48 3
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 10
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27021
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+1073872899&32 0 0 C
+30 0 0 0d0+1700 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+10 10 0 0 0 0 176 524291
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 10
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27022
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+1073872899&32 0 0 C
+40 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+12 12 0 0 0 0 688 524547
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 10
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27023
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+1073872899&32 0 0 C
+50 0 0 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+14 14 0 0 0 0 752 34078979
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 10
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27024
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+1073872899&32 0 0 C
+70 0 0 0d0+12000 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+21 21 0 0 0 0 753 34078983
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 20
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27025
+Gordav troll warrior~
+Gordav~
+A lumbering troll warrior carrying a tree for a club stands here.
+~
+The massive troll has a hunched back, and warts all over it's face.  It has many battle scars throughout it's
+body that are visible.
+~
+0
+Clanname none~
+0
+0
+1073872899&32 0 0 C
+90 0 0 0d0+28000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+31 31 0 0 0 0 1009 34080007
+> fight_prog 5~
+mpecho Gordav the troll warrior swings a mighty tree, smacking you in the head with it's branches!
+mpdamage $n 50
+mppause 10
+mpecho Gordav the troll warrior knocks you off your feet, by swinging his tree low to the ground!
+trip $n
+~
+|
+#27027
+ranger~
+An injured ranger~
+An injured ranger rests here.
+~
+The ranger is dressed in leather armor, and has a nice bow slung across his back.
+~
+1
+Clanname none~
+0
+0
+67239939 4194816 0 C
+100 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 8
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(ranger) < 1
+  mppause 4
+  mpechoat $n &CAn injured ranger says, 'Hey, get down! Cover the entrance back up.'
+  peer
+  mppause 2
+  look $n
+  mppause 5
+  mpechoat $n &CAn injured ranger says, 'So, what'd'ya need? If your here to help me 
+  mpechoat $n &Cget revenge on those bastards, camped over yonder just &WNOD&c your head. 
+else
+  mppause 4
+  mpechoat $n &CAn injured ranger says, 'What can I do for you?'
+endif
+~
+> act_prog p nods his head.~
+if quest(ranger) < 1
+  mppause 2
+  nod $n
+  mpechoat $n &CAn injured ranger says, 'Go out there, and bring me 10 frogman ears.  I'll
+  mpechoat $n &Creward you handsomely if you do.'
+  mpquest $n ranger 1
+endif
+~
+> act_prog p gives you the torn ear of~
+if quest(ranger) == 1
+  mpechoat $n &CAn injured ranger says, 'Thanks mate. I'll add it to my collection.'
+  if ovnuminv(27056) == 10
+    mppause 4
+    mpechoat $n &CAn injured ranger says, 'Well would you look at that. Aren't you making 
+    mpechoat $n &Cquick work of them then.'
+    mppause 5
+    mpwithdraw 500
+    give 500 gold $n
+    mpechoat $n &CAn injured ranger says, 'That's a little somethin' for your hard work.'
+    mpjunk all.ear
+    mpquest $n ranger 2
+  endif
+endif
+~
+> act_prog p nods her head.~
+if quest(ranger) < 1
+mppause 2
+nod $n
+mpechoat $n An injured ranger says, 'Go out there, and bring me 10 frogman ears.  I'll
+mpechoat $n reward you handsomely if you do.'
+mpquest $n ranger 1
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#27000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27001
+leather belt~
+a leather belt~
+A thick leather belt has been left here.~
+~
+9 0 2049
+5 5 0 0 0 5 0
+1 100 1
+3
+0
+0
+0
+0
+0
+S 77 0
+E
+belt~
+The leather belt is well crafted.
+~
+#27002
+blackened chain shirt~
+A blackened chain shirt~
+A blackened chain shirt is here.~
+~
+9 0 9
+5 5 0 0 0 5 0
+10 1 100
+2
+13
+0
+0
+0
+0
+S 0 0
+E
+chain shirt~
+The chain shirt is meshed iron ore and has a foul odor about it.
+~
+#27003
+iron helmet~
+not used~
+Some god dropped a newly created iron helmet here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27004
+leather pants~
+not used~
+Some god dropped a newly created leather pants here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27005
+blackened man catcher spear~
+a blackened man catcher spear~
+A blackened man catcher spear is here.~
+~
+5 8192 8193
+10 1 5 7 10 1 0
+6 5 0
+2
+13
+0
+0
+0
+0
+S 0 0
+E
+man catcher spear~
+The man catcher spear has a oak handle and barbs on the end.
+~
+#27006
+long sword longsword blackened iron~
+a blackened iron longsword~
+A blackened iron longsword has been left here.~
+~
+5 0 8193
+10 5 15 1 1 10 0
+9 5 0
+2
+13
+0
+0
+0
+0
+S 0 0
+> fight_prog 10~
+mpecho &gThe blackened blade's poison seeps into $T!
+c 'poison' $T
+~
+|
+E
+longsword~
+The crude blade of the longsword appears to be well worn.
+~
+#27007
+leather satchel~
+a leather satchel~
+A leather satchel has been left here.~
+~
+15 0 1
+300 0 0 8 0 1 0
+1 19 20
+4
+1
+0
+0
+0
+0
+S 0 0
+#27020
+necklace~
+a necklace~
+A necklace has been left here.~
+~
+9 0 5
+5 5 0 0 0 5 0
+1 62 6
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+12 15
+E
+necklace~
+The necklace is made out of silver and iron ore.
+~
+#27040
+gate key~
+a gate key~
+A large iron key has been left here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27041
+door key~
+a newly created door key~
+Some god dropped a newly created door key here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27042
+water fountain~
+A water fountain~
+A water fountain in the center of the platform flows here.~
+~
+25 1073741824 0
+100000 200 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27043
+green moss potion~
+a green moss potion~
+A green moss potion has been left here.~
+~
+10 0 1
+15 -1 -1 -1 0 1 0
+1 80 10
+3
+11
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+E
+green moss~
+The green moss potion is made out of a glass bottle, and it is filled with a syrupy green liquid.
+~
+#27044
+potion~
+a newly created potion~
+Some god dropped a newly created potion here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27045
+potion~
+a newly created potion~
+Some god dropped a newly created potion here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#27046
+black vial~
+a black vial~
+A black vial has been left on the ground here.~
+~
+10 0 1
+2 -1 -1 -1 0 5 0
+1 13 10
+4
+7
+0
+0
+0
+0
+'dark blessings' 'NONE' 'NONE'
+S 0 0
+#27047
+valnaes map~
+a tattered map~
+A tattered old map has been left here~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 0 0
+E
+map~
+&rxxx&RX&rxxxxxxxxx   Shops - &BS
+&rxxx&gO&YB&G@&rxxxxxxx   Roads - &gO
+&rxxx&gO&CT&G@&W#&RT&rxxxxx   Houses &WO
+&rxx&WO&gOOOOO&BS&rxxxx   Bank - &YB
+&rxx&WO&gO&BS&cC&gOOO&rxxxx   Teacher - &CT
+&rxx&WO&gOOO&BS&BS&rxxxxx   Palace - &RX
+&rxx&WO&gOO&BS&BS&rxxxxxx   City Entrance - &G@
+&rxxxxxxxxxxxxx   City Central - &cC
+&rxxxxxxxxxxxxx   Temple - &RT
+&rxxxxxxxxxxxxx   Berracks - &W#
+~
+#27048
+two-handed spiked oak club~
+a two-handed spiked oak club~
+A long oak spiked club lies here.~
+~
+5 8192 8193
+10 1 7 4 4 2 0
+1 100 10
+3
+1
+0
+0
+0
+0
+S 0 0
+> fight_prog 10~
+mpecho &RA spiked club gets stuck on $T, and visciously pulled out!
+mpdamage $n 6
+~
+|
+#27049
+blackened studded bracer~
+a blackened studded bracer~
+A blackened, studded bracer lies here.~
+~
+9 0 4097
+2 2 0 0 0 1 0
+1 25 2
+4
+13
+0
+0
+0
+0
+S 77 0
+#27050
+pair blackened studded leggings~
+a pair of blackened studded leggings~
+A pair of blackened studded leggings is here.~
+~
+9 0 33
+2 2 0 0 0 1 0
+4 40 4
+4
+13
+0
+0
+0
+0
+S 77 0
+#27051
+water flask~
+a leather water flask~
+A leather flask has been left here.~
+~
+17 0 16385
+15 15 0 0 0 0 0
+2 20 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#27052
+man flesh jerky~
+some man flesh jerky~
+A small packet of meat lies here.~
+%s chew$q $p.~
+19 0 16385
+5 0 0 0 0 1 0
+1 22 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+jerky~
+Some type of meat that has been turned into jerky.
+~
+#27053
+blackened spiked mace~
+a blackened iron spiked mace~
+A blackened iron spiked mace lies here.~
+~
+5 0 8193
+10 1 5 4 5 3 0
+1 5 0
+2
+13
+0
+0
+0
+0
+S 0 0
+E
+mace~
+The spiked mace appears to have been well used.
+~
+#27054
+blackened battle axe~
+a blackened iron battle axe~
+A blackened iron battle axe lies here.~
+~
+5 0 8193
+10 1 5 3 9 3 0
+1 5 0
+2
+13
+0
+0
+0
+0
+S 0 0
+E
+battle axe~
+The battle axe has a few chips along it's edge.
+~
+#27055
+well~
+A well~
+A well is here for all to use~
+~
+25 1073741824 0
+1000000 1000000 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#27056
+torn ear~
+the torn ear of a frogman~
+The torn ear of a frogman has been left here.~
+%s savagely devour$q $p!~
+61 0 1
+5 0 0 0 0 0 0
+1 1 0
+4
+9
+0
+0
+0
+0
+S 0 0
+E
+ear~
+The ear is coated in a green slime.
+~
+#0
+
+
+#ROOMS
+#27000
+Area Info Room~
+~
+This area is a homeland city for Orcs, Ogre, Trolls, and Goblins.
+I made a hunting area instead of including a academy.
+The underground city itself should provide supplies, have a healer,
+and a teacher for basic skills/spells.
+~
+1 4 1
+S
+#27001
+Along a Game Trail~
+~
+The water has a grey sheen in color.  Bogs of various sizes rise up out of
+the swamp.  A large white birch tree is along the trail here.  The sickly
+vegetation has thorns and burrs dangling from them.  A few large cat tail
+plants are growing in small groups.
+~
+1 0 1
+D0
+~
+~
+0 -1 27023
+D1
+~
+~
+0 -1 27003
+D2
+~
+~
+0 -1 27004
+D3
+~
+~
+0 -1 27002
+R M 0 27003 5 27001
+R M 0 27004 3 27001
+  R G 0 27053 1
+R M 0 27002 4 27001
+S
+#27002
+On a Worn Trail~
+~
+The water level is knee deep.  Bogs of various sizes rise up out of the
+swamp.  The sickly vegetation have thorns and burrs dangling from them.  A
+few cat-tail plants are growing in small groups.
+~
+1 0 1
+D1
+~
+~
+0 -1 27001
+D2
+~
+~
+0 -1 27008
+D6
+~
+~
+0 -1 27023
+R M 0 27002 4 27002
+S
+#27003
+A Muddy Bogg~
+~
+The water is at knee level.  Bogs of various sizes rise up out of the swamp
+A series of strange looking foot prints are imprinted on a muddy bog.  The
+sickly vegetation have thorns and burrs dangling from them.  A few large
+cat-tail plants are growing in small groups.
+~
+1 0 1
+D2
+~
+~
+0 -1 27005
+D3
+~
+~
+0 -1 27001
+D7
+~
+~
+0 -1 27023
+R M 0 27002 4 27003
+R M 0 27001 5 27003
+R M 0 27006 1 27003
+  R G 0 27052 1
+S
+#27004
+Amongst the High Grass~
+~
+The water has a grey sheen in color.  Bogs of various sizes rise up out of
+the swamp.  The sickly vegetation has thorns and burrs dangling from them.  A
+section of high grass has been matted down here by some creature.
+~
+1 0 1
+D0
+~
+~
+0 -1 27001
+D1
+~
+~
+0 -1 27005
+D2
+~
+~
+0 -1 27011
+D3
+~
+~
+0 -1 27008
+R M 0 27003 4 27004
+R M 0 27003 4 27004
+S
+#27005
+A Mud Slide~
+~
+The water has become thick with mud.  Bogs of various sizes rise up out of the
+swamp.  The sickly vegetation have thorns and burrs dangling from them.  A
+few large cat-tail plants are growing in small groups.
+~
+1 0 1
+D0
+~
+~
+0 -1 27003
+D1
+~
+~
+0 -1 27006
+D2
+~
+~
+0 -1 27012
+D3
+~
+~
+0 -1 27004
+S
+#27006
+An Encampment~
+~
+In the center of a pool of mud are massive slabs of rock that have been
+stacked together to form a encampment clear of the mud and water.  There
+is a small pit where fires have been made.  The sickly vegetation of
+thorns and burrs are overhanging the encampment area.
+~
+1 0 1
+D1
+~
+~
+2048 -1 27025
+D2
+~
+~
+0 -1 27013
+D3
+~
+~
+0 -1 27005
+R M 0 27002 4 27006
+R M 0 27001 5 27006
+R M 0 27004 3 27006
+  R G 0 27053 1
+R M 0 27007 1 27006
+  R G 0 27007 1
+  R G 0 27046 1
+R M 0 27004 3 27006
+  R G 0 27053 1
+> act_prog p arrives from the southeast.~
+mpforce $n emote makes a small splash while arriving from underwater.
+~
+|
+S
+#27007
+Swamp 8~
+~
+~
+1 4 1
+S
+#27008
+A Cluster of Pine Trees~
+~
+The water level is knee deep.  Bogs of various sizes rise up out of the
+swamp.  The sickly vegetation have thorns and burrs dangling from them.
+A tight cluster of pine trees are twisted together in a nightmarish
+nature setting.
+~
+1 0 1
+D0
+~
+~
+0 -1 27002
+D1
+~
+~
+0 -1 27004
+D2
+~
+~
+0 -1 27010
+D3
+~
+~
+0 -1 27009
+R M 0 27000 3 27008
+> act_prog p arrives from the northwest.~
+mpforce $n emote now visible while adjusting to the surrounding area colors.
+~
+|
+S
+#27009
+Within the Swamp~
+~
+The water level is knee deep.  Bogs of various sizes rise up out of the
+swamp.  The sickly vegetation have thorns and burrs dangling from them.
+A tight cluster of pine trees are to the east.
+~
+1 0 1
+D1
+~
+~
+0 -1 27008
+D8
+~
+~
+0 -1 27010
+R M 0 27001 5 27009
+S
+#27010
+Before an Island~
+~
+The water level is knee deep. A Island of land above the water is east. 
+Bogs of various sizes rise up out of the swamp. The sickly vegetation have 
+thorns and burrs dangling from them. Behind a thick bush a sewer grate can 
+partially be made out. 
+~
+1 0 1
+D0
+~
+~
+0 -1 27008
+D1
+~
+~
+0 -1 27011
+D5
+~
+sewer grate~
+16779267 -1 8710
+D7
+~
+~
+0 -1 27009
+D9
+~
+~
+0 -1 30021
+R M 0 27003 4 27010
+R M 0 27000 3 27010
+> entry_prog 100~
+if mobinroom(5510) == 1
+  if quest(telea) == 1
+    mpechoat $n &cAn arrow flies from the southwest and strikes Telea in the back!
+    mpechoat $n Telea stumbles, and then falls to the ground, dead.
+    mpslay telea
+    mpquest $n telea 2
+    mpechoat $n An amulet falls out of Telea's pocket.&D
+    mpechoat $n &CA voice echoes in the distance, 'You can only escape Dis when dead!'&D
+    mpquest $n telea 3
+    mpoload 5519 55
+    drop amulet
+  endif
+endif
+~
+|
+S
+#27011
+An Island~
+~
+The water of the swamp surrounds a tiny island of land here.  A few pine
+trees are growing on the land.  There are some fallen trees that have been
+interlocked to provide a overhead shelter.
+~
+1 0 1
+D0
+~
+~
+0 -1 27004
+D1
+~
+~
+0 -1 27012
+D3
+~
+~
+0 -1 27010
+R M 0 27003 5 27011
+R M 0 27000 4 27011
+R M 0 27005 1 27011
+  R G 0 27054 1
+  R G 0 27020 1
+  R G 0 27043 1
+S
+#27012
+A Clearing~
+~
+The water is only ankle deep, and there are stone slabs visible at the
+bottom.  The sickly vegetation surrounds the stone slabbed clearing.  The
+bogs end where the slabs of stone begin.
+~
+1 0 1
+D0
+~
+~
+0 -1 27005
+D1
+~
+~
+0 -1 27013
+D3
+~
+~
+0 -1 27011
+R M 0 27001 5 27012
+R M 0 27001 5 27012
+R M 0 27000 3 27012
+S
+#27013
+A Mined Tunnel~
+~
+The stone slabs are now at higher ground above the water level.  A mined
+tunnel is at the highest point, and it leads downward and away from the
+swamp.  There are torches mounted to the escavated tunnel walls.
+~
+1 67108864 1
+D0
+~
+~
+0 -1 27006
+D3
+~
+~
+0 -1 27012
+D5
+~
+~
+0 -1 27024
+> entry_prog 100~
+if htown($n) != Dakar City
+  mppause 2
+  mpechoat $n &cYou see the standards of your enemy downward, and know they will kill you on sight.
+endif
+~
+|
+S
+#27021
+Mobile Launch Point 1~
+~
+~
+1 2097152 1
+D8
+~
+~
+0 -1 27008
+R M 0 27006 7 27021
+  R G 0 27052 1
+R M 0 27006 7 27021
+R M 0 27006 7 27021
+  R G 0 27052 1
+R M 0 27006 7 27021
+  R G 0 27052 1
+R M 0 27006 7 27021
+  R G 0 27052 1
+S
+#27022
+Mobile Launch Point 2~
+~
+~
+1 2097152 1
+D7
+~
+~
+0 -1 27006
+R M 0 27004 8 27022
+  R G 0 27053 1
+R M 0 27004 8 27022
+  R G 0 27053 1
+R M 0 27004 8 27022
+  R G 0 27053 1
+R M 0 27004 8 27022
+  R G 0 27053 1
+S
+#27023
+Before a Swamp~
+~
+A dark and foreboarding swamp lies to the south.  The vegetation is thick
+even though it looks sickly.  There are tall pine trees clustered throughout
+the swamp.  Several game trails lead into the swamp.
+~
+1 0 11
+D2
+~
+~
+0 -1 27001
+D5
+~
+~
+0 -1 7500
+D8
+~
+~
+0 -1 27003
+D9
+~
+~
+0 -1 27002
+D11
+~
+~
+0 -1 43436
+R M 0 27019 1 27023
+S
+#27024
+An Outer City Gate~
+~
+The mine shaft ends at a massive city gate.  The ground is moist and there
+is a mildewy smell in the air.  The Gate has some strange writing burned
+into it.  There are two large stone columns that support the gate.  The
+columns have a giant snake entwining them.
+~
+1 1073741832 1
+D2
+~
+gate~
+7 27040 11205
+D4
+~
+~
+0 -1 27013
+R M 0 27010 1 27024
+  R G 0 27040 1
+R D 0 27024 2 2
+E
+writing~
+Here lies the new rules of world, surrender and pay homage with your soul!
+~
+> rand_prog 80~
+if iscarrying($i) == 27040
+else
+  mpoload 27040
+  give 27040 Maeakae
+endif
+~
+|
+S
+#27025
+Hidden Cove~
+~
+The forest covers over this place almost completely. Anything here is 
+almost completely hidden by the bushes, vines and trees surrounding it. A 
+small space can be see from within but nothing from without. Blood lines 
+the lower parts of the roots and trees in here. 
+~
+1 4 1
+D3
+~
+~
+0 -1 27006
+R M 0 27027 1 27025
+S
+#27062
+Mob Staging Area~
+~
+~
+1 1075838980 1
+D4
+~
+~
+0 -1 27002
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

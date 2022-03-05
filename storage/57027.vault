@@ -1,0 +1,113 @@
+#VNUM 57027
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   77
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         17
+Timer        2
+Currtype     1
+Color        6
+Size   0
+Values       5 4 0 1 0 0 0
+End
+
+#OBJECT
+Name         corpse Aniella~
+ShortDescr   the corpse of Aniella~
+Description  The corpse of Aniella is lying here.~
+Vnum         11
+ExtraFlags   4194304
+Timer        39
+Currtype     1
+Size   0
+Values       0 0 5 1 30 0 0
+End
+
+#END

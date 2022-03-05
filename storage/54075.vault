@@ -1,0 +1,723 @@
+#VNUM 54075
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         5101
+Level        100
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Vnum         33226
+Level        1
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Name         meat raw slice Traitor Naete goblin~
+ShortDescr   a slice of raw meat from Traitor Naete~
+Description  A slice of raw meat from Traitor Naete lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         6
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Name         meat raw slice Traitor Naete goblin~
+ShortDescr   a slice of raw meat from Traitor Naete~
+Description  A slice of raw meat from Traitor Naete lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16010
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16074
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         4002
+Level        15
+Currtype     4
+Color        11
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Name         meat raw slice Traitor Naete goblin~
+ShortDescr   a slice of raw meat from Traitor Naete~
+Description  A slice of raw meat from Traitor Naete lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11226
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       30 3 3 2 113 1 -1
+Spell 4      'kindred strength'
+End
+
+#OBJECT
+Vnum         4
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16005
+Level        1
+Currtype     2
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         40
+Currtype     1
+Color        1
+Size   0
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 5 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16006
+Level        1
+Currtype     3
+Color        14
+Size   0
+Values       11 9 9 200 0 1 0
+Spell 3      'word of recall'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         952
+Level        15
+Currtype     2
+Color        7
+Size   77
+Values       1 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         950
+Level        15
+Currtype     3
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         953
+Level        15
+Currtype     1
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         955
+Level        15
+Currtype     2
+Color        7
+Size   4
+Values       10 5 15 1 1 15 36
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Vnum         29
+Currtype     1
+Color        1
+Size   77
+Values       1 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         28
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16003
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       1 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16003
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         11244
+Level        1
+Currtype     4
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16063
+Level        1
+Currtype     1
+Color        8
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16078
+Level        1
+Currtype     2
+Color        13
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         4001
+Level        10
+Currtype     1
+Color        1
+Size   77
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         40
+Currtype     1
+Color        1
+Size   0
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11244
+Level        1
+Currtype     4
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         18310
+Level        31
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 31 0
+End
+
+#OBJECT
+Vnum         125
+Currtype     4
+Color        8
+Size   0
+Values       10 1 66 2 2 1 73
+End
+
+#OBJECT
+Vnum         125
+Currtype     4
+Color        8
+Size   0
+Values       11 1 53 2 2 1 63
+End
+
+#END

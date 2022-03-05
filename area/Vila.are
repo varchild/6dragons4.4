@@ -1,0 +1,2356 @@
+#AREA        Vila Island~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+30 60 15 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 10 0
+
+#RESETMSG &CA cool ocean breeze washes over you.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 42050010 0 999999555 999999555 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#10201
+Fisherman halfling Varton~
+Fisherman Varton~
+An old halfling fisherman is watching his lines here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 500 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the west.~
+if rand(25)
+  mppause 3
+  mpecho &CVarton says, 'Alas Lad...'&D
+  mppause 8
+  mpecho &CVarton says, 'Do you think you could find me some fishing bait?'&D
+else
+  if rand(25)
+    mppause 3
+    mpecho &CVarton says, 'It's gonna storm today...'&D
+    mppause 8
+    mpecho &CVarton says, 'I wish someone could rid the beach of the pesky sea gulls.'&D
+    mppause 6
+    mpecho &CVarton says, 'I would reward them.'&D
+  else
+    if rand(25)
+      mpecho &CVarton says, 'Ahoy!'&D
+      mppause 6
+      mpecho &CVarton says, 'I could sure use some crab meat.'&D
+    endif
+  endif
+endif
+~
+|
+#10202
+halfling guard Baxton~
+Guard Baxton~
+A pot bellied halfling guard is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+50 0 -50 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 6
+25 25 0 0 0 0 112 3
+> all_greet_prog 100~
+if quest(traitor) < 1
+  mppause 2
+  mpechoat $n &cBaxton leans over towards you.&D
+  mppause 2
+  if sex($n) == 1
+    mpechoat $n &CBaxton says, 'Excuse me lad, would you be willing to help in an investigation?'&D
+  else
+    mpechoat $n &CBaxton says, 'Excuse me lass, would you be willing to help in an investigation?'&D
+  endif
+  mppause 8
+  mpechoat $n &cType &WSAY YES&c to accept this task.&D
+else
+  mppause 4
+  nod $n
+endif
+~
+> speech_prog yes~
+if quest(antidote) == 7
+  mppause 3
+  mpechoat $n &CBaxton says, 'Very kind of you.'&D
+  mppause 8
+  mpechoat $n &CBaxton says, 'We are trying to solve who the traitor in the village is that sabotaged our fence.'&D
+  mppause 10
+  mpechoat $n &CBaxton says, 'Please feel free to go from person to person in the village, and say the keyword, &WSABATOGE&C.  Everyone has been instructed to comply with the investigation.  If you find out who it is, come back to me, with the evidence.'&D
+  mpquest $n traitor 1
+else
+   if quest(antidote) < 7
+    mpechoat $n &CBaxton says, 'You must complete your quest for the antidote before you may receive this one.'&D
+  endif
+endif
+~
+> act_prog p gives you a scroll of persuasion.~
+if quest(traitor) == 2
+  mppause 6
+  mpechoat $n &CBaxton says, 'Excellent you solved the sabotage mystery.'&D
+  mpquest $n traitor 3
+  mppause 8
+  mpechoat $n &CBaxton says, 'Here is your reward.'&D
+  mpat 4 drop scroll
+  mpmset self gold 100
+  give 100 gold $n
+  mpoload 10220 30
+  get potion
+  give potion $n
+else
+  mpechoat $n &CBaxton says, 'What's this?'&D
+  mpat 4 drop scroll
+endif
+~
+|
+#10203
+Cannibal Soldier~
+a cannibal soldier~
+A cannibal soldier is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+33 4194304 0 C
+35 0 50 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+23 20 41 0 0 0 33 2
+> all_greet_prog 100~
+if quest(Cannibals) == 1
+  mpquest $n cannibals 2
+endif
+~
+> death_prog 100~
+if quest(Cannibals) == 3
+  mpquest $n cannibals 4
+endif
+~
+|
+#10204
+black mamba snake~
+a black mamba snake~
+A black mamba snake is slithering along here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194816 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+58 4 0 0 1 1 4
+20 18 0 0 0 0 262145 2
+> death_prog 100~
+if quest(antidote) == 1
+  mpquest $n antidote 2
+endif
+~
+|
+#10205
+elderly shop keeper Daega~
+shop keeper~
+An elderly shop keeper is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 600 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 7
+30 30 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CDaega says, 'Sabotage? Oh yes, the chief did say someone would be coming to ask about that...I...was that is...I think...no, no, I remember now, I was asleep when it happened.  Yes, I had laid down for a nap, because I stayed up too late the other night.'&D
+  mppause 12
+  mpechoat $n &CDaega says, 'Now people tend to think that because I'm old that I don't hear things anymore....I did, however, hear that vixen Zerah talking about how she didn't like to be "caged in" the fence at night.'&D
+endif
+~
+|
+#10206
+Zerah shop keeper voodoo~
+shopkeeper Zerah~
+A voodoo shopkeeper is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 7
+30 30 0 0 0 0 48 2
+> all_greet_prog 100~
+if quest(antidote) == 2
+or quest(antidote) == 4
+or quest(antidote) == 6
+  mpechoat $n &CZerah says, 'Give me what I sent you for.'&D
+else
+  if quest(antidote) == 0
+    mpechoat $n &CZerah says, 'Greetings.'&D
+    mppause 6
+    mpechoat $n &CZerah says, 'I need someone to help attain an antidote for the black mamba poison.'&D
+    mppause 8
+    mpechoat $n &cType &WSAY YES&c to accept this task.&D
+  endif
+endif
+~
+> speech_prog yes~
+if quest(antidote) == 0
+  mppause 2
+  mpquest $n antidote 1
+  mppause 4
+  mpechoat $n &CZerah says, 'Very brave of you friend.'&D
+  mppause 8
+  mpechoat $n &CZerah says, 'The first thing we need is the gland itself.  You can get it from killing a mamba snake on this island.'&D
+  mppause 4
+  mpechoat $n &CZerah says, 'Bring me the gland, and I'll tell you the next ingredient.'&D
+endif
+~
+> act_prog p gives you a poison gland.~
+if quest(antidote) == 2
+  mppause 2
+  mpechoat $n &CZerah says, 'Good job.'&D
+  mpat 4 drop gland
+  mppause 6
+  mpechoat $n &CZerah says, 'Now we need the blood from Orc Captain Dlhara.  He is located in the Citadel , west and south of Manoake City.'&D
+  mppause 4
+  mpechoat $n &CZerah says, 'Kill him and bring me his blood.'&D
+  mpquest $n antidote 3
+else
+  mpechoat $n &CZerah says, 'What do I need this for?'&D
+  mpat 4 drop gland
+endif
+~
+> act_prog p gives you blood of the orc captain.~
+if quest(antidote) == 4
+  mppause 2
+  mpquest $n antidote 5
+  mppause 2
+  mpechoat $n &CZerah says, 'Great, now the final ingredient is a tail of the wolf from Mount Cierra.'&D
+  mpat 4 drop blood
+else
+  mpechoat $n &CZerah says, 'What do I need this for?'&D
+  mpat 4 drop blood
+endif
+~
+> act_prog p gives you a wolf tail.~
+if quest(antidote) == 6
+  mpquest $n antidote 7
+  mpechoat $n &CZerah says, 'You did it!'&D
+  mpechoat $n &CZerah says, 'Here is your reward.'&D
+  mpmset self gold 500
+  give 500 gold $n
+  mpat 4 drop tail
+  mpoload 10223 30
+  get earring
+  give earring $n
+else
+  mpat 4 drop tail
+  mpechoat $n &CZerah says, 'What do I need this for?'&D
+endif
+~
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &cZerah suddenly smiles at you lavishly.&D
+  mppause 6
+  mpechoat $n &CZerah says, 'Oh yes, the night the fence was sabotaged...Hrm...I was naked performing enchanting rituals over my wares.  It wasn't until later that night, I took a moonlight stroll, that I found a parchment by the fence.'&D
+  mpoload 10224 1
+  get parchment
+  give parchment $n
+  mpechoat $n &cThe parchment appears to be the second half of a document.&D
+endif
+~
+|
+#10207
+Mazas blacksmith shop keeper~
+blacksmith~
+A tall blacksmith is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 7
+30 30 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CThe blacksmith says, 'You know what! I'm not even going to talk to you.  Get out of here!  I have known these villagers for 10 years now, and they are my family.  If you're not going to buy something get out.'&D
+endif
+~
+|
+#10208
+Sindras shop keeper~
+a drum shop keeper~
+A drum shop keeper is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+20 18 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CSindras says, 'Hrm, the day the fence was sabotaged I was with Zerah.  We have been seeing each other on and off.  She told me she found something that night.  I have heard rumor that the guard did it, just to make himself look important to the chieftain, but of course there is no evidence of that.'&D
+endif
+~
+|
+#10209
+Drakes general supplies shop keeper~
+a shop keeper~
+A general supplies shop keeper is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+20 18 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CDrakes says, 'I know the chief wants everyone to talk to you, but, quite frankly, I know those people and none of us would do something like this.  I mean why would we want to jepordize our own safety?  Though they do say it's an inside job, could it possibly be that the cannibals are involved in some dark magic now?  It's mind boggling, because the cannibals magic has always been weak.'&D
+endif
+~
+|
+#10210
+skovals shop keeper~
+a shop keeper~
+A shop keeper is displaying his wares here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+20 18 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CSkovals says, 'Hrm, you know I saw an imposing shadow of a man I think by the fence on that night.  I ran inside my house, because I was scared.'&D
+endif
+~
+|
+#10211
+Ylandra shop keeper~
+a shop keeper~
+A shop keeper is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+20 18 0 0 0 0 0 0
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CYlandra says, 'I have no clue what happened.  The next day I went to the chief, and the guard was already there to inform him what happened.  They had a hard time waking the chief up, but the chief wanted the investigation started right away when we told him.'&D
+endif
+~
+|
+#10212
+village chief Teran~
+Chief Teran~
+A village chief is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 7
+30 30 0 0 0 0 48 2
+> act_prog p gives you the corpse of a cannibal soldier.~
+if quest(Cannibals) == 2
+  mpquest $n Cannibals 3
+  mpechoat $n &CTeran says, 'One down.'&D
+  mpat 4 drop all
+endif
+if quest(Cannibals) == 4
+  mpquest $n Cannibals 5
+  mpechoat $n &CTeran says, 'The entire village appreciates this.'&D
+  mpat 4 drop all
+  mppause 7
+  mpechoat $n &CTeran says, 'Here is your reward.'&D
+  mpmset self gold 50
+  give 50 gold $n
+  mpoload 10220 30
+  get potion
+  give potion $n
+endif
+~
+> speech_prog help~
+mppause 2
+mpechoat $n &CTeran says, 'Very good.'&D
+mpquest $n Cannibals 1
+mppause 8
+mpechoat $n &CTeran says, 'Bring me the corpse of two cannibal soldiers.  You will have to kill one, bring me the corpse, and then find another, and bring me the corpse.'&D
+~
+> speech_prog sabotage~
+if quest(traitor) >= 1
+  mppause 2
+  mpechoat $n &CTeran says, 'I didn't find out till they woke me up.  I'm glad you are asking me too, that means you're taking this seriously.  The guard told me they found this parchment by the fence.  However, it seems to be worthless.  You can have it, if it helps you out.'&D
+  mpechoat $n &cType &WSAY PARCHMENT&c to receive the parchment.&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &cTeran touches a small amulet that hangs around his neck.&D
+endif
+~
+> speech_prog parchment~
+if quest(traitor) >= 1
+  mppause 2
+  mpoload 10225 1
+  get parchment
+  give parchment $n
+  mpechoat $n &cThe parchment appears to be the first half of a document.&D
+endif
+~
+> greet_prog 100~
+if quest(Cannibals) == 2
+or quest(Cannibals) == 3
+or quest(Cannibals) == 4
+  mpechoat $n Teran says, 'Give me a corpse, only one at a time.'&D
+else
+  if quest(Cannibals) == 0
+    mppause 2
+    mpechoat $n &CTeran says, 'Greetings!'&D
+    mppause 8
+    mpechoat $n &CTeran says, 'Interested in helping the village?'&D
+    mppause 8
+    mpechoat $n &cType &WSAY HELP &cto accept this task.&D
+    mpat 4 drop all
+  else
+    mppause 2
+    mpechoat $n &CTeran says, 'Greetings!'&D
+  endif
+endif
+~
+|
+#10213
+stout old man tavern keeper~
+the tavern keeper~
+A stout old man is tapping ale behind the counter.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 400 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 5
+23 20 0 0 0 0 48 2
+> speech_prog sabotage~
+if quest(traitor) >= 1  
+  mppause 2
+  mpechoat $n &CThe tavern keeper says, 'Sabotage? When? Where? Who?!'&D
+  mppause 12
+  mpechoat $n &CThe tavern keeper says, 'Lookie here, I'm a simple sailor that settled here in the best place someone can think  of.'&D
+  mppause 10
+  mpechoat $n &cThe tavern keeper downs a jug of ale, and starts talking to another customer.&D
+endif
+~
+|
+#10214
+hermit shaman Galandra~
+an old hermit~
+An old hermit stands on a crooked cane here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 0 C
+60 0 -80 0d0+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 7
+30 30 41 0 0 0 906235904 33587522
+#10215
+island bird~
+a colorful island bird~
+A brightly colored island bird is perched here.
+~
+Beady black eyes regarding its surroundings with alertness, this bird has 
+extravagant plumage that ranges from indigo to fiery orange. It is roughly 
+the length of a human's forearm, but its wingspan reaches surprisingly 
+far. A tuft of bright green feathers crowns its sleek head. 
+~
+9
+Clanname none~
+0
+0
+16842817 0 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p pulls you close and begins to pet you lovingly.~
+mppause 3
+mea $n &cA colorful island bird warbles happily and ruffles its feathers.&D
+mppause 3
+drop feather
+~
+|
+#0
+
+
+#OBJECTS
+#10200
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#10201
+short bow~
+a short bow~
+A short bow has been left here.~
+~
+56 0 262145
+12 3 13 6 6 20 1
+8 25 2
+2
+1
+0
+0
+0
+0
+S 3 0
+#10202
+crossbow~
+a crossbow~
+A crossbow has been left here.~
+~
+56 0 262145
+12 3 13 6 6 20 0
+5 5 0
+1
+1
+0
+0
+0
+0
+S 3 0
+#10203
+long bow~
+a long bow~
+A long bow has been left here.~
+~
+56 0 262145
+12 4 14 8 6 30 1
+10 110 1
+4
+1
+0
+0
+0
+0
+S 3 0
+#10204
+arrow~
+a straight shaft arrow~
+An arrow has been left here.~
+~
+57 0 16385
+12 10 20 6 1 20 0
+1 10 1
+4
+1
+0
+0
+0
+0
+S 3 0
+A
+19 1
+#10205
+quiver~
+a leather quiver~
+A leather quiver has been left here.~
+~
+58 0 524289
+61 0 0 0 0 20 0
+10 10 1
+2
+1
+0
+0
+0
+0
+S 3 0
+#10206
+bolt~
+a bolt~
+A bolt has been left here.~
+~
+57 0 16385
+12 27 34 6 0 20 0
+1 30 3
+4
+13
+0
+0
+0
+0
+S 3 0
+A
+19 1
+#10207
+voodoo charm necklace~
+a voodoo charm necklace~
+A voodoo charm necklace has been left here.~
+~
+9 0&32 5
+30 30 0 0 0 30 0
+1 50 5
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+26 8192
+#10208
+voodoo broth~
+a voodoo broth~
+A voodoo broth lays here.~
+~
+10 0 16385
+20 -1 -1 -1 0 20 0
+1 10 8
+1
+2
+0
+0
+0
+0
+'remove curse' 'cure poison' 'NONE'
+S 3 0
+#10209
+small drum~
+a small drum~
+A small drum was left here.~
+~
+68 0 16385
+0 0 0 0 0 10 0
+1 5 0
+1
+5
+0
+0
+0
+0
+S 3 0
+#10210
+medium drum~
+a medium drum~
+A medium drum was left here.~
+~
+68 0 16385
+0 0 0 0 0 20 0
+1 10 1
+1
+5
+0
+0
+0
+0
+S 3 0
+#10211
+large drum~
+a large drum~
+A large drum was left here.~
+~
+68 8192 16385
+0 0 0 0 0 30 0
+1 20 2
+1
+5
+0
+0
+0
+0
+S 3 0
+#10212
+bamboo chest~
+a bamboo chest~
+A bamboo chest has been left here.~
+~
+15 0 16385
+1000 0 0 0 0 0 0
+15 10 1
+1
+1
+0
+0
+0
+0
+S 3 0
+#10213
+hooded lantern~
+a hooded lantern~
+A hooded lantern has been left here.~
+~
+1 0 16385
+0 0 6 0 0 0 0
+1 10 1
+3
+2
+0
+0
+0
+0
+S 3 0
+#10214
+clay pot water~
+a clay pot of water~
+A clay pot has been left here.~
+~
+17 1073750016 16401
+50 50 0 0 0 0 0
+5 25 2
+1
+1
+0
+0
+0
+0
+S 3 0
+#10215
+bamboo greaves~
+a set of bamboo greaves~
+A set of bamboo greaves has been left here.~
+~
+9 0 33
+30 30 0 0 0 30 0
+2 10 1
+1
+1
+0
+0
+0
+0
+S 77 0
+#10216
+acolyte robe black~
+an acolyte black robe~
+An acolytes' black robes are laying here.~
+~
+9 0 1025
+20 20 0 0 0 20 0
+1 100 10
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+18 -3
+A
+19 -3
+A
+12 200
+#10217
+coconut faced bamboo shield~
+a coconut faced bamboo shield~
+A coconut faced bamboo shield lays here.~
+~
+9 0 513
+35 35 0 0 0 35 0
+1 5 0
+1
+1
+0
+0
+0
+0
+S 77 0
+#10218
+small basket~
+a small basket~
+A small basket has been left here.~
+~
+15 0 16385
+130 0 0 0 0 0 0
+1 10 1
+3
+1
+0
+0
+0
+0
+S 3 0
+#10219
+medium basket~
+a medium sized basket~
+A medium sized basket has been left here.~
+~
+15 0 16385
+280 0 0 0 0 0 0
+2 10 1
+2
+1
+0
+0
+0
+0
+S 3 0
+#10220
+voodoo power potion~
+a voodoo power potion~
+A strange looking bottle is laying here.~
+~
+10 0 16385
+40 -1 -1 -1 0 30 0
+1 300 30
+1
+8
+0
+0
+0
+0
+'sanctuary' 'NONE' 'NONE'
+S 3 0
+#10221
+feces bamboo short spear~
+a feces tipped short bamboo spear~
+A short bamboo spear lays here.~
+~
+5 0 8193
+12 20 35 7 10 0 0
+4 2 0
+1
+1
+0
+0
+0
+0
+S 3 0
+#10222
+poison gland~
+a poison gland~
+A poison gland has been left here.~
+~
+23 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+3
+0
+0
+0
+0
+S 3 0
+#10223
+voodoo earrings~
+a pair of voodoo earrings~
+A pair of earrings lay here.~
+~
+9 0 65537
+30 30 0 0 0 30 0
+1 50 5
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 2
+#10224
+ripped second parchment~
+a ripped second half of a parchment~
+A ripped parchment has been left here.~
+~
+54 0 16385
+0 10225 10226 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 3 0
+E
+parchment ripped~
+Things that appear worthless are often gems.......
+
+~
+#10225
+ripped first parchment~
+a ripped first half parchment~
+A ripped parchment has been left here.~
+~
+54 0 16385
+10224 0 10226 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 3 0
+E
+parchment ripped~
+What seems normal is not always.....
+
+~
+#10226
+scroll persuasion~
+a scroll of persuasion~
+A strange looking scroll has been left here.~
+~
+41 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 3 0
+E
+scroll persuasion~
+While holding the scroll, in the amulet's presence... say the word traitor.
+
+~
+#10227
+trash~
+a piece of trash~
+A piece of trash lays here.~
+~
+13 -1073737696 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+> speech_prog traitor~
+if mobinworld(10212) >= 1
+mppause 2
+mpecho &YThe amulet around the chief's neck grows brightly.
+mppause 8
+mpquest $n traitor 2
+mppause 5
+mpecho &cThe chief's eyes roll back in his head, and he suddenly attacks you!
+mppause 6
+mpforce chief mpkill $n
+else
+mpechoat $n &cThe scroll will not activate here.
+endif
+~
+|
+#10228
+bamboo crafted blowgun~
+a bamboo crafted blowgun~
+A bamboo blowgun has been left here.~
+~
+56 0 262145
+10 4 14 5 7 30 2
+1 15 1
+3
+1
+0
+0
+0
+0
+S 0 0
+#10229
+dart~
+a small dart~
+A small dart has been left here.~
+~
+57 0 16385
+10 10 20 6 2 20 0
+1 3 0
+4
+2
+0
+0
+0
+0
+S 0 0
+#10230
+leather dart sling pouch~
+a leather dart sling pouch~
+A leather dart sling pouch has been left here.~
+~
+58 0 524289
+30 0 0 0 0 30 0
+1 80 8
+3
+1
+0
+0
+0
+0
+S 0 0
+#10231
+island bird feather~
+a colorful feather~
+A colorful feather dropped by an island bird rests here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+#10300
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#0
+
+
+#ROOMS
+#10200
+Vila Island~
+~
+&gThis grassland island will be filled with mobs levels 40 - 60, and in 
+addition have a small village, and a cave adventure with a quest for some
+spectacular loot.  At least that is my intentions.
+
+- Vladaar
+~
+1 0 1
+D3
+~
+~
+0 -1 10201
+S
+#10201
+Vila Island Pier~
+~
+&OThe structure is made out of stout oak logs, and strapped together by thick
+hemp rope.  The pier extends out over the ocean.  A vast beach extends outward
+across the island to the west.  A very lush forest fills the island interior.
+~
+1 0 11
+D3
+~
+~
+0 -1 10202
+D11
+~
+~
+0 -1 61108
+R M 0 10201 1 10201
+S
+#10202
+Along the Shore~
+~
+&OThe beach is littered with sea shells, and dead jelly fish that have washed
+ashore.  A large wooden pier is to the east, overlooking a vast ocean harbor.
+A large wooden fence to the west with twin gates stands high to the west.
+~
+1 0 37
+D0
+~
+~
+0 -1 10205
+D1
+~
+~
+0 -1 10201
+D2
+~
+~
+0 -1 10203
+D3
+~
+~
+0 -1 10207
+S
+#10203
+On the Beach~
+~
+&OA large rotted tree has washed ashore here.  Some hermit crabs have taken
+up residence inside the log.  The sand is covered with sea shells, and dead
+jelly fish.  The ocean spreads across the eastern horizon.
+~
+1 0 37
+D0
+~
+~
+0 -1 10202
+D2
+~
+~
+0 -1 10204
+S
+#10204
+Next to a Rocky Cliff~
+~
+&OThe beach runs into a steep cliff of rocks to the south.  There are a few
+tracks of small animals scattered about here, as well as various sea shells.
+The ocean spreads across the eastern horizon.
+~
+1 4 37
+D0
+~
+~
+0 -1 10203
+D3
+~
+~
+0 -1 4124
+S
+#10205
+Beside Some Washed up Sea Weed~
+~
+&OA large pile of sea weed has washed ashore just beyond the waters reach.  A
+large wooden pier is to the southeast.  The sand is littered with various
+sea shells, and dead jelly fish.  A few small rocks are stacked up here.
+~
+1 0 37
+D0
+~
+~
+0 -1 10206
+D2
+~
+~
+0 -1 10202
+S
+#10206
+Before a Massive Rock Cliff~
+~
+&OA pile of rocks, and boulders litter the rock cliff.  The tracks of some
+animals swarm around a decaying carcass on the beach.  There are some small
+shells, and dead jelly fish scattered about.
+~
+1 0 37
+D2
+~
+~
+0 -1 10205
+S
+#10207
+A Set of Twin Wooden Gates~
+~
+&OMassive gates are connected to a wall of wooden poles.  A large sign has
+been hung over the top of the gate.  A well worn path has been created that
+leads in and out of the gates.  The ocean spreads out across the horizon to
+the east.  A wooden pier edges out into the ocean to the east.
+~
+1 0 37
+D1
+~
+~
+0 -1 10202
+D3
+~
+gate~
+3 -1 10208
+R D 0 10207 3 1
+S
+#10208
+Interior Twin Wooden Gates~
+~
+&OThe gates are connected to massive wall of wooden poles that surrounds the
+village.  A sandy path leads through the gates to the east.  A lush land of
+green foliage covers the interior of the village.  A hooded lantern that is
+attached above the twin gates by an iron bracket provides lighting.
+~
+1 0 37
+D1
+~
+gate~
+3 -1 10207
+D3
+~
+~
+0 -1 10209
+R D 0 10208 1 1
+S
+#10209
+A Blazed Trail~
+~
+The trail is well used.  All vegetation has been cut back.  The trail
+extends from the pier at the ocean to the south, to a northern direction
+in the jungle.  There are coconut trees growing along the side of the
+trail.  A few ruts are in the trail, created by some type of wheel.
+~
+1 4 20
+D0
+~
+~
+0 -1 10211
+D1
+~
+~
+0 -1 10208
+D2
+~
+~
+0 -1 10210
+D3
+~
+~
+0 -1 10218
+S
+#10210
+Within Thick Vegetation~
+~
+Little tangle weeds make their way across the area.  Several thorn bushes
+intermingle within the weeds.  There are a few coconut trees here.  The
+mighty ocean is to the south.
+~
+1 0 20
+D0
+~
+~
+0 -1 10209
+D2
+~
+~
+0 -1 10230
+D3
+~
+~
+0 -1 10217
+S
+#10211
+Within Thick Vegetation~
+~
+Tall grass and tangle weeds fill this area.  There are large coconut
+trees scattered about here.  A few strange tracks are visible on the
+ground.  The mighty ocean is to the south.
+~
+1 0 20
+D0
+~
+~
+0 -1 10212
+D2
+~
+~
+0 -1 10209
+D3
+~
+~
+0 -1 10219
+R M 0 10204 2 10211
+  R G 1 10222 1
+S
+#10212
+A Blood Covered Altar~
+~
+There is a handmade wood altar in this small clearing.  The altar is 
+covered in dried blood.  There are humanoid bones stacked up to the
+side of the altar.  Strange tracks are on the ground here.
+~
+1 0 20
+D0
+~
+~
+0 -1 10213
+D2
+~
+~
+0 -1 10211
+D3
+~
+~
+0 -1 10220
+R M 0 10203 3 10212
+  R E 1 10215 1 7
+  R E 1 10221 1 16
+  R E 1 10217 1 11
+  R E 1 10216 1 12
+S
+#10213
+A Moss Covered Log~
+~
+There are several thorn bushes scattered about here.  A large log that
+has one side covered in moss lays here.  There are strange markings on
+the other side of the log, marked in dry blood.  A few strange tracks
+are on the ground.
+~
+1 0 20
+D0
+~
+~
+0 -1 4103
+D2
+~
+~
+0 -1 10212
+D3
+~
+~
+0 -1 10221
+R M 0 10215 1 10213
+  R G 0 10231 1
+S
+#10214
+A Giant Coconut Tree~
+~
+There is thick vegetation from thorn bushes and smaller coconut trees 
+around the giant coconut tree.  The giant tree stands a tree length
+higher then the other trees.
+~
+1 0 20
+D0
+~
+~
+0 -1 10215
+D1
+~
+~
+0 -1 10228
+D3
+~
+~
+0 -1 10222
+S
+#10215
+A Small Hut~
+~
+There is a small hut built out of coconut trees here.  Two tall stakes
+on both sides of the hut entrance have humanoid skulls attached to 
+them.  The vegetation is cut back away from the hut.
+~
+1 4 20
+D0
+~
+~
+0 -1 10216
+D1
+~
+~
+0 -1 10229
+D2
+~
+~
+0 -1 10214
+R M 0 10214 1 10215
+S
+#10216
+Within the Tall Grass~
+~
+Grass nearly as tall as trees grows about here.  There is also a mixture
+of tangle weeds, and coconut trees about.  A few strange tracks are
+visible on the ground.
+~
+1 0 20
+D0
+~
+~
+0 -1 10217
+D1
+~
+~
+0 -1 10230
+D2
+~
+~
+0 -1 10215
+R M 0 10204 1 10216
+  R G 1 10222 1
+S
+#10217
+Edge of the Tall Grass~
+~
+The edge of grass that is as tall as trees starts to the west of here.
+A small game trail with tracks and droppings heads to the northeast.
+There are a few coconut trees here.
+~
+1 0 20
+D0
+~
+~
+0 -1 10218
+D1
+~
+~
+0 -1 10210
+D2
+~
+~
+0 -1 10216
+S
+#10218
+On a Worn Trail~
+~
+The trail extends to the north and south of here.  The trail is well 
+used and covered in tracks.  The vegetation is cut back on both sides
+of the trail.  Coconut trees are along the sides of the trail.
+~
+1 4 1
+D0
+~
+~
+0 -1 10219
+D1
+~
+~
+0 -1 10209
+D2
+~
+~
+0 -1 10217
+D3
+~
+bamboo gate~
+1 -1 10226
+S
+#10219
+Before the Tall Grass~
+~
+The grass grows as tall as trees to the east of here.  There are a 
+series of coconut trees here.  Several strange tracks are visible
+on the ground.  A large boulder sits on its side here.
+~
+1 0 21
+D0
+~
+~
+0 -1 10220
+D1
+~
+~
+0 -1 10211
+D2
+~
+~
+0 -1 10218
+S
+#10220
+Within the Tall Grass~
+~
+A series of thorn bushes are intermingled in the tall grass.  The grass
+is as tall as trees here.  A few coconut trees are to the north.  The 
+remains of a small campfire where the grass was cut back is here.
+~
+1 0 21
+D0
+~
+~
+0 -1 10221
+D1
+~
+~
+0 -1 10212
+D2
+~
+~
+0 -1 10219
+R M 0 10203 19 10220
+R M 0 10203 19 10220
+R M 0 10203 19 10220
+R M 0 10203 19 10220
+R M 0 10203 19 10220
+R M 0 10203 19 10220
+S
+#10221
+Against a Hillside~
+~
+A massive hill is to the east.  The tall grass stops at the edge of the
+hillside.  There are thorn bushes along the edge as well.  Some scattered
+bones litter the ground here.
+~
+1 0 21
+D0
+~
+~
+0 -1 4100
+D1
+~
+~
+0 -1 10213
+D2
+~
+~
+0 -1 10220
+D3
+~
+~
+0 -1 10233
+S
+#10222
+In the Tall Grass~
+~
+The grass is as tall as trees here.  The grass has been cutback from the 
+eastern side.  There are thorn bushes scattered about, with a few coconut
+trees intermingled.  Some strange tracks are visible on the ground.
+~
+1 0 21
+D1
+~
+~
+0 -1 10214
+D3
+~
+~
+0 -1 10234
+R M 0 10203 13 10222
+R M 0 10203 13 10222
+R M 0 10203 13 10222
+R M 0 10203 13 10222
+R M 0 10203 13 10222
+S
+#10223
+Seafarers Tavern~
+~
+The small building has a counter set up with various bottles of drinks 
+behind it. There are paintings of the legendary Krakken squid along the 
+walls. A few hooded lanterns have been mounted to the walls for lighting. 
+A red colored rug is centered on the floor here. 
+~
+1 8 0
+D0
+~
+door~
+3 -1 10224
+R M 0 10213 1 10223
+R D 0 10223 0 1
+S
+#10224
+Next to the Village Fence~
+~
+The large fence is made out of bamboo trees to the south.  The small
+village has several buildings within the fenced in area.  All vegetation
+has been cut down here.
+~
+1 0 1
+D0
+~
+~
+0 -1 10225
+D2
+~
+door~
+3 -1 10223
+D3
+~
+~
+0 -1 10236
+R D 0 10224 2 1
+S
+#10225
+Next to the Village Gate~
+~
+The large fence is made out of bamboo trees.  There are many small 
+buildings within the village here.  The vegetation has been cut down
+within the fenced in area.
+~
+1 0 1
+D0
+~
+~
+0 -1 10226
+D2
+~
+~
+0 -1 10224
+S
+#10226
+Before the Village Gate~
+~
+The village gate is made up of bamboo trees.  There are two large poles
+on both sides of the gate.  The poles have humanoid skulls mounted to
+the tops of them.  All vegetation has been cut down here.
+~
+1 4 1
+D0
+~
+~
+0 -1 10227
+D1
+~
+bamboo gate~
+1 -1 10218
+D2
+~
+~
+0 -1 10225
+D3
+~
+door~
+1 -1 10238
+R M 0 10202 1 10226
+R D 0 10226 1 0
+R D 0 10226 3 0
+S
+#10227
+Along the Village Fence~
+~
+The large fence is made up of bamboo trees.  There are a series of trees
+that have been laid up against the fence here to brace a damaged section
+of the fence.  All vegetation has been cut down here.
+~
+1 0 1
+D0
+~
+~
+0 -1 10231
+D2
+~
+~
+0 -1 10226
+D3
+~
+~
+0 -1 10239
+S
+#10228
+Next to the Rocks~
+~
+There lies a massive pile of rocks to the north.  The shore line, and
+the mighty ocean are to the south.  The remains of a small campfire was
+scattered about here.  A few small bones litter the ground.
+~
+1 0 30
+D0
+~
+~
+0 -1 10229
+D3
+~
+~
+0 -1 10214
+R M 0 10203 6 10228
+  R E 1 10221 1 16
+  R E 1 10216 1 12
+  R E 1 10215 1 7
+  R G 1 10217 1
+S
+#10229
+Amongst Thick Vegetation~
+~
+There are several thorn bushes scattered about here.  Large trees are
+sprouting coconuts at their tops.  A few dried snake skins are decaying
+on the ground here.  The mighty ocean is to the south.
+~
+1 0 20
+D0
+~
+~
+0 -1 10230
+D2
+~
+~
+0 -1 10228
+D3
+~
+~
+0 -1 10215
+R M 0 10215 3 10229
+S
+#10230
+A Viper Nest~
+~
+There are dried snake skins from very large snakes decaying on the ground.
+A series of snake tracks mark the ground.  A variety of small and large
+bones are scattered about the ground.  The mighty ocean is south.
+~
+1 0 20
+D0
+~
+~
+0 -1 10210
+D2
+~
+~
+0 -1 10229
+D3
+~
+~
+0 -1 10216
+R M 0 10204 1 10230
+  R G 1 10222 1
+S
+#10231
+Along the Village Fence~
+~
+The large fence is made out of bamboo trees.  The fence has been damaged
+to the south, and is being braced with coconut trees.  A hooded lantern
+has been mounted on a stake here for lighting.  All vegetation has been
+cut down here.
+~
+1 0 1
+D0
+~
+door~
+3 -1 10232
+D2
+~
+~
+0 -1 10227
+R D 0 10231 0 1
+S
+#10232
+Ylandras' Basket Shop~
+~
+The shop has a small desk made out of bamboo with various types of small
+baskets displayed on it.  There are hooded lanterns mounted to the walls
+for lighting.  A blue rug is centered on the floor.
+~
+1 8 0
+D2
+~
+door~
+3 -1 10231
+R M 0 10211 1 10232
+  R G 0 10219 1
+  R G 0 10218 1
+R D 0 10232 2 1
+S
+#10233
+Amidst the Tall Grass~
+~
+The grass grows as tall as trees here.  A few snake skins are decaying
+on the ground here.  A thick thorn bush is here.  Coconut trees fill
+the area to the east.
+~
+1 0 21
+D0
+~
+~
+0 -1 4108
+D1
+~
+~
+0 -1 10221
+D3
+~
+~
+0 -1 10241
+R M 0 10215 1 10233
+  R G 0 10231 1
+  R G 0 10231 1
+S
+#10234
+A Game Trail~
+~
+A well used game trail is covered in animal tracks and droppings here.
+The tall grass is flattened where some animals have bedded down for the
+night.  A few coconut trees are to the south of the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 10222
+D3
+~
+~
+0 -1 10242
+S
+#10235
+A Small House~
+~
+The house has hooded lanterns mounted to the walls for lighting.  There
+is a small bed against the wall.  A few chairs have been setup along the
+walls for seating.  A painting of the ocean hangs on the west wall.
+~
+1 8 0
+D0
+~
+door~
+1 -1 10236
+S
+#10236
+The Village Yard~
+~
+There are a series of small buildings scattered throughout this village.
+The ground is covered in thick vegetation that has been cut down.  The
+village fence and gate are to the east.
+~
+1 0 1
+D1
+~
+~
+0 -1 10224
+D2
+~
+door~
+1 -1 10235
+D3
+~
+~
+0 -1 10244
+S
+#10237
+The Chiefs' Bedroom~
+~
+The floor is covered with a thick brown rug.  There are hooded lanterns
+mounted to the walls for lighting.  A desk made out of bamboo is along
+the west wall.  A large bed is against the east wall.
+~
+1 8 0
+D0
+~
+~
+0 -1 10238
+S
+#10238
+Inside the Village Chiefs' House~
+~
+save There is a thick brown rug centered on the floor here. A large 
+bookcase made out of cocunut trees holds many types of books. There are 
+some hooded lanterns mounted on the walls for lighting. A few chairs have 
+been set up along the walls for guest seating. 
+~
+1 8 0
+D1
+~
+door~
+1 -1 10226
+D2
+~
+~
+0 -1 10237
+R M 0 10212 1 10238
+  R E 1 10217 1 11
+  R E 1 10221 1 16
+R O 0 10227 1 10238
+R D 0 10238 1 0
+S
+#10239
+The Village Yard~
+~
+The village fence that is made out of bamboo is to the east of here.
+There are several large buildings within the fenced in village area.
+The vegetation though thick, has been cut down here.
+~
+1 0 21
+D0
+~
+door~
+1 -1 10240
+D1
+~
+~
+0 -1 10227
+D3
+~
+~
+0 -1 10247
+S
+#10240
+A Small House~
+~
+There is a large yellow rug centered in the floor here.  A few hooded
+lanterns are mounted to the walls for lighting.  A small bed is against
+the far wall.  There are a few chairs along the wall of the house.
+~
+1 8 0
+D2
+~
+door~
+1 -1 10239
+S
+#10241
+Within the Tall Grass~
+~
+The grass grows as tall as trees here.  The ground has strange tracks
+visible along it.  There are small bones scattered about the area.  A
+few thorn bushes are to the south.
+~
+1 0 21
+D0
+~
+~
+0 -1 4109
+D1
+~
+~
+0 -1 10233
+D3
+~
+~
+0 -1 10249
+S
+#10242
+A Giant Boulder~
+~
+There is a massive boulder that is surrounded by tall grass here.  The
+boulder comes up even in height with the grass.  There are some strange
+symbols written in blood on the sides of the boulder.
+~
+1 0 21
+D1
+~
+~
+0 -1 10234
+D3
+~
+~
+0 -1 10250
+S
+#10243
+Daegas' Archery Shop~
+~
+The floor is covered with a blood red colored rug. There are many large 
+displays setup of various arsenal. A large bamboo made counter is at the 
+west side of the shop. A few hooded lanterns are mounted to the walls for 
+lighting.  A large painting on the east wall appears to be a bulls eye.
+~
+1 8 0
+D0
+~
+door~
+3 -1 10244
+R M 0 10205 1 10243
+  R G 0 10230 1
+  R G 0 10228 1
+  R G 0 10203 1
+  R G 0 10206 1
+  R G 0 10202 1
+  R G 0 10205 1
+  R G 0 10201 1
+  R G 0 10229 1
+  R G 0 10204 1
+R D 0 10243 0 1
+S
+#10244
+The Village Yard~
+~
+A series of small buildings are within the village fenced in area.  A
+small coconut tree grows here.  All other vegetation has been cut down.
+There are small flowers growing around the tree.
+~
+1 0 1
+D0
+~
+~
+0 -1 10245
+D1
+~
+~
+0 -1 10236
+D2
+~
+door~
+3 -1 10243
+D3
+~
+door~
+3 -1 10252
+D7
+~
+door~
+1 -1 10251
+R D 0 10244 2 1
+R D 0 10244 3 1
+R D 0 10244 7 0
+S
+#10245
+The Village Yard~
+~
+All vegetation has been cut down here.  A small garden with that grows
+some vegetables is behind the building to the east.  There are small
+buildings within the fenced in area.
+~
+1 0 1
+D0
+~
+~
+0 -1 10246
+D2
+~
+~
+0 -1 10244
+D3
+~
+door~
+3 -1 10253
+R D 0 10245 3 1
+S
+#10246
+The Village Yard~
+~
+All vegetation has been cut down here.  A small garden that grows some 
+fruit is behind the small building to the east.  A hooded lantern has
+been mounted to a stake for lighting here.  There are small buildings
+within the fenced in area.
+~
+1 0 1
+D0
+~
+~
+0 -1 10247
+D2
+~
+~
+0 -1 10245
+D3
+~
+door~
+3 -1 10254
+R D 0 10246 3 1
+S
+#10247
+The Village Yard~
+~
+The vegetation though thick, has been cut down here.  A small pile of
+bamboo trees have been stacked up here.  There are several buildings
+throughout the fenced in area here.
+~
+1 0 1
+D0
+~
+door~
+3 -1 10248
+D1
+~
+~
+0 -1 10239
+D2
+~
+~
+0 -1 10246
+D3
+~
+door~
+1 -1 10255
+R D 0 10247 0 1
+R D 0 10247 3 0
+S
+#10248
+Skovals' Armory~
+~
+A thick blue rug is centered on the floor here.  There are two displays
+of armor on the shelves along the walls.  Hooded lanterns are mounted
+to the walls for lighting.  A large bamboo counter is against the wall.
+~
+1 8 0
+D2
+~
+door~
+3 -1 10247
+R M 0 10210 1 10248
+  R G 1 10217 1
+  R G 1 10215 1
+  R G 1 10216 1
+R D 0 10248 2 1
+S
+#10249
+A Small Stream~
+~
+There is a small stream of water that passes through the tall grass here.
+There are tracks of various animals that have come to the stream.  Some
+small rocks and fish are within the stream.  A few thorn bushes along
+the edges of the stream grow outward.
+~
+1 0 2
+D0
+~
+~
+0 -1 4110
+D1
+~
+~
+0 -1 10241
+D3
+~
+~
+0 -1 4175
+R M 0 10203 4 10249
+  R E 1 10221 1 16
+  R E 1 10216 1 12
+  R E 1 10215 1 7
+  R E 1 10217 1 11
+S
+#10250
+Within the Tall Grass~
+~
+The grass grows as tall as trees here.  There are tangle weeds and thorn
+bushes scattered about the area.  A few strange tracks are visible along
+the ground.  Some animal droppings and tracks also are on the ground.
+~
+1 0 21
+D1
+~
+~
+0 -1 10242
+D3
+~
+~
+0 -1 4170
+R M 0 10203 5 10250
+  R E 1 10221 1 16
+  R E 1 10216 1 12
+  R E 1 10215 1 7
+  R E 1 10217 1 11
+S
+#10251
+A Small House~
+~
+There is a green rug centered in the floor here.  A small bed is against
+the far wall.  A few hooded lanterns have been mounted to the walls for
+lighting.  A small shelf is on the north wall.
+~
+1 8 0
+D8
+~
+door~
+1 -1 10244
+S
+#10252
+Zerahs' Voodoo Shop~
+~
+There is a black rug centered in the floor here.  The strange looking
+displays are all behind a bamboo made counter here.  Hooded lanterns
+are mounted to the walls for lighting.
+~
+1 8 0
+D1
+~
+door~
+3 -1 10244
+R M 0 10206 1 10252
+  R G 1 10220 1
+  R G 1 10207 1
+  R G 1 10208 1
+R D 0 10252 1 1
+S
+#10253
+Mazas' Repair Shop~
+~
+There are hooded lanterns mounted to the walls for lighting.  A counter
+made out of bamboo is against the far wall.  The ground is made of dirt
+and a small forge is by a hammer and anvil here.
+~
+1 8 0
+D1
+~
+door~
+3 -1 10245
+R M 0 10207 1 10253
+R D 0 10253 1 1
+S
+#10254
+Sindras' Drum Shop~
+~
+The floor has a blue and red rug that is centered on it. There are hooded 
+lanterns mounted on the walls for lighting. A small bamboo counter has a 
+display on it. 
+~
+1 8 0
+D1
+~
+door~
+3 -1 10246
+R M 0 10208 1 10254
+  R G 1 10209 1
+  R G 1 10210 1
+  R G 1 10211 1
+R D 0 10254 1 1
+S
+#10255
+Drakes' General Supplies~
+~
+There are hooded lanterns mounted to the walls for lighting.  A series
+of shelves are displaying wares on the walls.  A large bamboo counter
+is at the rear of the shop.
+~
+1 8 0
+D1
+~
+door~
+3 -1 10247
+R M 0 10209 1 10255
+  R G 1 10214 1
+  R G 1 10213 1
+  R G 1 10212 1
+R D 0 10255 1 1
+S
+#0
+
+
+#SHOPS
+ 10205    0  0  0  0  0   120  90         0 23    ; shop keeper
+ 10206    0  0  0  0  0   120  90         0 23    ; shopkeeper Zerah
+ 10208    0  0  0  0  0   120  90         0 23    ; a drum shop keeper
+ 10209    0  0  0  0  0   120  90         0 23    ; a shop keeper
+ 10210    0  0  0  0  0   120  90         0 23    ; a shop keeper
+ 10211    0  0  0  0  0   120  90         0 23    ; a shop keeper
+0
+
+
+#REPAIRS
+ 10207    0  9  5           1   1         0 23    ; blacksmith
+0
+
+
+#SPECIALS
+S
+
+
+#$

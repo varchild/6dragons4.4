@@ -1,0 +1,709 @@
+#VNUM 40270
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         40030
+Level        1
+Currtype     4
+Color        14
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         31336
+Level        44
+Currtype     2
+Color        6
+Size   0
+End
+
+#OBJECT
+Vnum         31456
+Level        42
+Currtype     1
+Color        9
+Size   0
+Values       0 0 0 0 0 42 0
+End
+
+#OBJECT
+Vnum         63
+Level        42
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        18
+Currtype     1
+Size   0
+Values       0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        21
+Currtype     1
+Size   0
+Values       0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        20
+Currtype     1
+Size   0
+Values       0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26001
+Level        30
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26001
+Level        27
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         28015
+Level        15
+Currtype     4
+Color        13
+Size   0
+Values       6 10 0 0 0 15 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2788
+Level        5
+Currtype     3
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2787
+Level        5
+Currtype     3
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24827
+Level        44
+Currtype     1
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8315
+Level        20
+Cost         0
+Currtype     3
+Color        2
+Size   0
+Values       19 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25010
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8314
+Level        20
+Cost         0
+Currtype     3
+Color        2
+Size   0
+Values       19 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24824
+Level        44
+Currtype     1
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18637
+Level        10
+Currtype     4
+Color        1
+Size   0
+Values       20 0 0 0 0 10 0
+End
+
+#OBJECT
+Nest         2
+Vnum         18612
+Level        16
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         18606
+Level        5
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         28294
+Level        26
+Currtype     1
+Size   3
+End
+
+#OBJECT
+Nest         2
+Vnum         27040
+Level        12
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         1962
+Level        17
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         2201
+Level        49
+Currtype     4
+Size   0
+Values       0 2201 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         9827
+Level        14
+Currtype     1
+Size   3
+End
+
+#OBJECT
+Nest         2
+Vnum         9826
+Level        14
+Currtype     1
+Size   3
+End
+
+#OBJECT
+Nest         2
+Vnum         9893
+Level        1
+Currtype     1
+Size   3
+End
+
+#OBJECT
+Nest         2
+Vnum         9837
+Level        1
+Currtype     1
+Size   3
+End
+
+#OBJECT
+Nest         2
+Vnum         31315
+Level        32
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       40 8 8 121 0 20 0
+Spell 3      'iceshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         8300
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1951
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       40 9 9 90 0 20 0
+Spell 3      'fireshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       40 9 9 121 0 20 0
+Spell 3      'iceshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         1951
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       40 9 3 90 0 20 0
+Spell 3      'fireshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       39 8 2 121 0 20 0
+Spell 3      'iceshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         1965
+Level        19
+Currtype     4
+Color        5
+Size   0
+Values       0 1963 1966 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 6 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         8311
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       7 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8307
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25007
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8306
+Level        10
+Cost         0
+Currtype     4
+Color        1
+Size   0
+Values       3 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         1951
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       40 9 9 90 0 20 0
+Spell 3      'fireshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24826
+Level        43
+Currtype     1
+Size   0
+Values       35 35 0 0 0 43 0
+End
+
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         24829
+Level        44
+Currtype     1
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         24828
+Level        44
+Currtype     1
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#END

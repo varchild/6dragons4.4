@@ -1,0 +1,1353 @@
+#AREA        Bowels of the Citadel~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       2
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+10 25 10 25
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The tribal drums begin to beat in unison.~
+
+#FLAGS
+65536
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 2450020 0 999999946 999999946 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#5300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#5301
+elite orc soldier~
+an elite orc soldier~
+An elite orc soldier is patrolling here.
+~
+The soldier stands tall and ready.  Ocassionally the soldier will sniff the air for intruders.
+~
+11
+Clanname none~
+0
+5318
+1073741857&36 0 -1000 C
+35 0 0 0d0+350 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 3
+#5302
+orc elite shaman~
+an elite orc shaman~
+An elite orc shaman is standing here.
+~
+The shaman is wearing a strange assortment of animal bones, and leather skins across his body.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 0 -1000 C
+35 0 0 0d0+600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 0 0 0 1 1 0
+0 0 40 0 0 0 1076101120&3 33554442
+#5303
+orc elite warrior~
+an elite orc warrior~
+An elite orc warrior stands ready here.
+~
+The warrior is taller and more muscular then the other orcs.  
+~
+11
+Clanname none~
+0
+0
+1073872931&36 0 -1000 C
+35 0 0 0d0+1500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 33 1 0
+0 0 41 0 0 0 48 3
+#5304
+orc elite assassin~
+an elite orc assassin~
+An elite orc assassin is stalking prey here.
+~
+The assassin is covered in black clothing blending into the surrounding area.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 65536 -1000 C
+35 0 0 0d0+1500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 6 0 0 33 1 0
+0 0 41 0 0 0 1072 3
+#5305
+orc elite chief~
+an elite orc chief~
+An elite orc chief is standing here.
+~
+The chief is wearing a gold necklace which sticks out with his other blackened gear.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 4194432 -1000 C
+35 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 33 1 0
+12 0 41 0 0 0 176 524291
+#5306
+orc elite captain~
+an elite orc captain~
+An elite orc captain is giving orders here.
+~
+The captain is looking everywhere at once taking in all things.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 128 -1000 C
+35 0 0 0d0+1700 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 33 1 0
+0 0 41 0 0 0 240 524291
+#5307
+drow sorcerer~
+a drow sorcerer ~
+A drow sorcerer is speaking in tongues here.
+~
+The drow is wearing a black robe.  He has white hair and glowing green eyes.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 0 -1000 C
+35 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 2 0 0 1 1 0
+0 0 41 0 0 0 1342177280&3 2114
+#5308
+drow warrior~
+a drow warrior~
+A drow warrior stands watch here.
+~
+The warrior is wearing chain mail, and has white hair and green eyes.
+~
+11
+Clanname none~
+0
+0
+1073872931&36 0 -1000 C
+35 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 41 0 0 0 688 3
+#5309
+mindflayer~
+a mindflayer~
+A mindflayer is lurking about here.
+~
+The mindflayer is wearing chain mail.  He has squid-like head and glowing red eyes.
+~
+10
+Clanname none~
+0
+0
+1073872931&36 4194304&0&64 -1000 C
+35 0 0 0d0+1700 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 4 0 0 1 1 0
+0 0 8232 0 0 0 0 0
+> act_prog p arrives from the north.~
+if isnpc($n)
+  mppause 2
+  mpechoat $n &cA voice in your mind says...HERE BROTHER, THE ENEMY IS HERE!!&D
+else
+  mppause 6
+  mpechoat $n &cA voice screams in your mind....I WILL EAT YOUR BRAINS!!!&D
+  mppause 1
+  kinetic
+  mppause 1
+  whip
+  mppause 1
+  whip $n
+  mppause 2
+  whip $n
+  mppause 3
+  whip $n
+  mppause 5
+  whip $n
+  mppause 5
+  whip $n
+endif
+~
+> act_prog p arrives from the south.~
+if isnpc($n)
+  mppause 2
+  mpechoat $n &cA voice in your mind says...HERE BROTHER, THE ENEMY IS HERE!!&D
+else
+  mppause 6
+  mpechoat $n &cA voice screams in your mind....I WILL EAT YOUR BRAINS!!!&D
+  mppause 1
+  kinetic
+  mppause 1
+  whip
+  mppause 1
+  whip $n
+  mppause 2
+  whip $n
+  mppause 3
+  whip $n
+  mppause 5
+  whip $n
+  mppause 5
+  whip $n
+endif
+~
+> act_prog p arrives from the east.~
+if isnpc($n)
+  mppause 2
+  mpechoat $n &cA voice in your mind says...HERE BROTHER, THE ENEMY IS HERE!!&D
+else
+  mppause 6
+  mpechoat $n &cA voice screams in your mind....I WILL EAT YOUR BRAINS!!!&D
+  mppause 1
+  kinetic
+  mppause 1
+  whip
+  mppause 1
+  whip $n
+  mppause 2
+  whip $n
+  mppause 3
+  whip $n
+  mppause 5
+  whip $n
+  mppause 5
+  whip $n
+endif
+~
+> act_prog p arrives from the west.~
+if isnpc($n)
+  mppause 2
+  mpechoat $n &cA voice in your mind says...HERE BROTHER, THE ENEMY IS HERE!!&D
+else
+  mppause 6
+  mpechoat $n &cA voice screams in your mind....I WILL EAT YOUR BRAINS!!!&D
+  mppause 1
+  kinetic
+  mppause 1
+  whip
+  mppause 1
+  whip $n
+  mppause 2
+  whip $n
+  mppause 3
+  whip $n
+  mppause 5
+  whip $n
+  mppause 5
+  whip $n
+endif
+~
+|
+#5310
+wizard eyeball giant~
+A Drow Sorcerer's wizard eye~
+A giant floating eyeball is here.
+~
+The eyeball is has a lifeless look about it and seems to hover in the air.
+~
+0
+Clanname none~
+0
+0
+131075 7340032 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+  mppause 2
+  mpechoat $n &cA blackened arrow flies in from the north.&D
+  mpechoat $n &cAn elite orc warrior's pierce hits you!&D
+  mpat $n mpdamage $n 3
+  mppause 2
+  mpechoat $n &cA blackened arrow flies in from the north.&D
+  mpechoat $n &cAn elite orc warrior's pierce hits you!&D
+  mpat $n mpdamage $n 3
+  mppause 2
+  mpechoat $n &cA blackened arrow flies in from the north.&D
+  mpechoat $n &cAn elite orc warrior's pierce hits you!&D
+  mpat $n mpdamage $n 3
+  mpoload 17 1
+  mpechoat $n &RThe arrow wound bleeds profusely.&D
+  mpat $n mpdamage $n 3
+  if quest(timemachine) == 1
+    mpoload 5317 1
+    get cog
+    drop cog
+  endif
+endif
+~
+|
+#5311
+shimmering portal~
+a shimmering portal~
+&YA shimmering portal hovers above the ground here.
+~
+The portal colors being to swirl about as you look directly at it.
+~
+0
+Clanname none~
+0
+0
+1157759043 4194304 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#5350
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#5300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#5301
+blackened cadaver chest plate~
+a blackened cadaver chest plate~
+A blackened cadaver chest plate lays here.~
+~
+9 0 9
+30 30 0 0 0 0 0
+10 146 14
+3
+13
+0
+0
+0
+0
+S 4 0
+E
+chest~
+The chest plate has a rank smell to it and looks very fouled.~
+#5302
+blackened cadaver leggings~
+a blackened cadaver pair of leggings~
+A blackened cadaver pair of leggings lays here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+4 69 19
+4
+13
+0
+0
+0
+0
+S 4 0
+E
+leggings~
+The leggings appear to be well used with some scratches on them.~
+#5303
+blackened cadaver bracer~
+a blackened bracer~
+A blackened bracer lays here.~
+~
+9 0 4097
+30 30 0 0 0 0 0
+1 134 13
+3
+13
+0
+0
+0
+0
+S 4 0
+E
+bracer~
+The bracers are a little big, but appear to be of sturdy quality.~
+#5304
+blackened cadaver cloak~
+a blackened cadaver cloak~
+A blackened cadaver cloak is laying here.~
+~
+9 0 1025
+30 30 0 0 0 0 0
+1 182 18
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+cloak~
+The cloak has some mildew growing on the side of it.~
+#5305
+blackened cadaver shield~
+a blackened cadaver shield~
+A blackened cadaver shield lays here.~
+~
+9 0 513
+60 60 0 0 0 0 0
+5 206 20
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+shield~
+The shield has some small dents and scratches on it.~
+#5306
+blackened cadaver mask~
+a blackened cadaver mask~
+A blackened cadaver mask lays here.~
+~
+9 0 1048577
+30 30 0 0 0 0 0
+1 145 14
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+mask~
+The mask is hideous in appearance and has a foul odor to it.~
+#5307
+vorpal bladed short sword~
+a vorpal bladed short sword~
+A vorpal bladed short sword lays here.~
+~
+5 0 8193
+0 15 30 1 2 0 0
+5 158 15
+3
+8
+0
+0
+0
+0
+S 4 0
+E
+sword~
+The short sword is of very good quality, but has a foul presence with it.~
+#5308
+vorpal bladed long sword~
+a vorpal bladed long sword~
+A vorpal bladed long sword lays here.~
+~
+5 0 8193
+0 15 30 1 1 0 0
+8 156 15
+3
+8
+0
+0
+0
+0
+S 4 0
+E
+sword~
+The long sword is of very good quality, but has a foul presence with it.~
+#5309
+vorpal bladed dagger~
+a vorpal bladed dagger~
+A vorpal bladed dagger is laying here.~
+~
+5 0 8193
+0 20 35 6 2 0 0
+3 146 14
+3
+8
+0
+0
+0
+0
+S 4 0
+E
+dagger~
+The dagger is of very good quality, but has a foul presence within it.~
+#5310
+blackened arrow~
+a blackened arrow~
+A blackened arrow is laying here.~
+~
+57 0 16385
+12 15 30 6 1 0 1
+1 20 2
+3
+13
+0
+0
+0
+0
+S 4 0
+E
+arrow~
+The arrow appears to be straight and true.  There are a few scratches along it.~
+#5311
+blackened short bow~
+a blackened short bow~
+A blackened short bow has been left here.~
+~
+56 0 262145
+10 1 4 6 6 1 1
+5 0 0
+4
+13
+0
+0
+0
+0
+S 4 0
+E
+bow~
+The bow is made out of stout oak wood, and has a grimy layer covering it.~
+#5312
+blackened cadaver quiver~
+a blackened cadaver quiver~
+A blackened cadaver quiver is here.~
+~
+58 0 524289
+50 0 0 0 0 0 0
+3 0 0
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+quiver~
+The quiver is made out of quality leather and appears to be well used.~
+#5313
+jar blackened war paint~
+a jar of blackened war paint~
+A jar of blackened war paint has been left here.~
+~
+60 0 16385
+30 3 3 1 -1 1 -1
+1 25 2
+2
+13
+0
+0
+0
+0
+'kindred strength' 'NONE'
+S 4 0
+E
+paint~
+The jar of paint has a foul smell to it, and appears to be greasy.~
+#5314
+enchanters robe~
+an enchanter's robe~
+An enchanter's robe lies here in folds of silk.~
+~
+9 0 9
+30 30 0 0 0 0 0
+1 144 14
+3
+4
+0
+0
+0
+0
+S 77 0
+E
+robe~
+The robe has some strange inscriptions written on it.~
+A
+12 25
+A
+3 1
+#5315
+shimmering portal~
+a shimmering portal~
+A shimmering portal hovers above the ground here.~
+~
+41 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 4 0
+> exa_prog 100~
+mpechoat $n The portal suddenly widens, your feet suddenly leave the ground and you feel yourself drawn into it.
+mer $n $n disappears within the portal.
+mptrans $n 5312
+mppause 2
+mpat 5312 mpforce $n look
+~
+|
+#5316
+shimmering portal~
+a shimmering portal~
+A shimmering portal hovers above the ground here.~
+~
+41 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 4 0
+> exa_prog 100~
+mpechoat $n The portal suddenly widens, your feet suddenly leave the ground and you feel yourself drawn into it.
+mer $n $n disappears within the portal.
+mptrans $n 5311
+mppause 2
+mpat 5311 mpforce $n look
+~
+|
+#5317
+cog~
+a cog~
+A cog piece of machinery is laying here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mpquest $n timemachine 2
+~
+|
+#5318
+blackened belt~
+a blackened belt~
+A blackened belt has been left here.~
+~
+9 0 2049
+10 10 0 0 0 10 0
+1 109 10
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+belt~
+The blackened belt appears to be high quality material that is a perfect fit.
+~
+A
+5 3
+#5350
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#0
+
+
+#ROOMS
+#5300
+A Large Chamber~
+~
+The size of the chamber is enormous. The walls are made out of 
+interlocking cobblestones. There are torches mounted to the walls at 
+certain intervals to provide lighting. The floor is made out of stone 
+slabs. There are some bloody tracks leading away to the north. 
+~
+1 8 0 0 0 0 10000
+D0
+~
+~
+0 -1 5301
+D4
+~
+~
+128 -1 5302
+S
+#5301
+Entrance Hall~
+~
+The great hall has several wooden shelves build along the sides for 
+storing gear. The walls are made out of interlocking cobblestones. There 
+are torches mounted to the walls at certain intervals for lighting. A set 
+of bloody tracks leads off to the north. 
+~
+1 8 0 0 0 0 10000
+D0
+~
+Double Arched Doors~
+3 -1 5304
+D2
+~
+~
+0 -1 5300
+R D 0 5301 0 1
+S
+#5302
+On Steep Stairs~
+~
+The stairs are very steep going down into the darkness. The walls are made 
+out of interlocking cobblestones. There are rotted wood railings along the 
+sides. A torch has been mounted to the walls at certain intervals to 
+provide lighting. 
+~
+1 8 0 0 0 0 10000
+D4
+~
+~
+128 -1 5303
+D5
+~
+~
+128 -1 5300
+S
+#5303
+Within a Dark Cellar~
+~
+A massive cellar with rotting wood shelves along the walls.  There are
+broken wooden crates scattered about the room.  The walls are made up
+of interlocking cobblestones.  A torch is hanging from both sides of
+the walls for lighting.
+~
+1 12 0 0 0 0 10000
+D4
+~
+Cellar Door~
+3 -1 997
+D5
+~
+~
+128 -1 5302
+S
+#5304
+The Grand Hall~
+~
+The massive hallway extends far into the distance. There are lavish 
+tapestries hanging from the walls here. The walls are made out of 
+interlocking cobblestones. There are torches mounted to the walls at 
+certain intervals for lighting. 
+~
+1 8 0 0 0 0 10000
+D0
+~
+door~
+1 -1 5305
+D2
+~
+Double Arched Doors~
+3 -1 5301
+R D 0 5304 0 0
+R D 0 5304 2 1
+S
+#5305
+Inner Chamber~
+~
+The chamber has an intersecting hallway that extends to the east, and 
+west. The walls are covered in exotic paintings, and are made up of 
+interlocking cobblestones. There are torches mounted to the walls at 
+certain intervals for lighting. 
+~
+1 12 0 0 0 0 10000
+D0
+~
+~
+0 -1 5306
+D1
+~
+~
+0 -1 5308
+D2
+~
+door~
+3 -1 5304
+D3
+~
+~
+0 -1 5307
+R M 0 5310 1 5305
+R D 0 5305 2 1
+S
+#5306
+War Room~
+~
+The vast room is covered with maps of different parts of the world. There 
+are torches mounted to the walls at certain intervals for lighting. The 
+walls are made up of interlocking cobblestones. 
+~
+1 8 0 0 0 0 130
+D0
+~
+Double Arched Doors~
+3 -1 5309
+D2
+~
+~
+0 -1 5305
+R M 0 5303 2 5306
+  R E 1 5311 1 21
+  R E 1 5313 1 17
+  R E 1 5304 1 12
+  R E 1 5303 1 14
+  R E 1 5302 1 7
+  R G 1 5310 1
+  R G 1 5307 1
+  R G 1 5310 1
+  R G 1 5310 1
+R M 0 5303 2 5306
+  R E 1 5311 1 21
+  R E 1 5313 1 17
+  R E 1 5304 1 12
+  R E 1 5303 1 14
+  R E 1 5302 1 7
+  R G 1 5310 1
+  R G 1 5307 1
+  R G 1 5310 1
+  R G 1 5310 1
+  R G 1 5310 1
+R D 0 5306 0 1
+S
+#5307
+A Long Hallway~
+~
+The vast hall extends to the northwest and east of here. The walls are 
+made out of interlocking cobblestones. There are torches mounted to the 
+walls at certain intervals to provide lighting. 
+~
+1 8 0 0 0 0 130
+D1
+~
+~
+0 -1 5305
+D7
+~
+~
+0 -1 5311
+S
+#5308
+A Large Chamber~
+~
+The chamber has a few small stones scattered about here.  Torches are
+mounted to the walls to provide lighting.  The walls are made out of
+interlocking cobblestones.
+~
+1 8 0 0 0 0 130
+D3
+~
+~
+0 -1 5305
+D6
+~
+~
+0 -1 5314
+S
+#5309
+Audience Room~
+~
+The massive room has a large pull rope for requesting an audience that 
+hangs from the ceiling here. There are torches mounted to the walls at 
+certain intervals for lighting. The walls are made up of interlocking 
+cobblestones. 
+~
+1 8 0 0 0 0 130
+D0
+~
+Massive Oak Door~
+3 -1 5310
+D2
+~
+Double Arched Doors~
+3 -1 5306
+R M 0 5308 1 5309
+  R E 1 5308 1 16
+  R E 1 5304 1 12
+  R E 1 5302 1 7
+R M 0 5304 1 5309
+  R E 1 5309 1 16
+  R E 1 5309 1 18
+  R E 1 5302 1 7
+  R E 1 5303 1 14
+  R E 1 5303 1 15
+  R E 1 5304 1 12
+  R E 1 5306 1 23
+  R G 1 5313 1
+R D 0 5309 0 1
+R D 0 5309 2 1
+S
+#5310
+A Throne Room~
+~
+The large room has beautiful tapestries, and paintings hanging from the
+walls.  There is a massive golden throne against the far wall.  A large
+plush red rug extends from the throne to the doorway.  There are torches
+mounted to the walls for lighting.
+~
+1 8 0 0 0 0 130
+D2
+~
+Massive Oak Door~
+3 -1 5309
+R M 0 5305 1 5310
+  R E 1 5303 1 14
+  R E 1 5302 1 7
+  R E 1 5308 1 16
+  R E 1 5313 1 17
+  R E 1 5301 1 5
+  R E 1 5304 1 12
+  R E 1 5306 1 23
+  R E 1 5303 1 15
+R M 0 5306 1 5310
+  R E 1 5302 1 7
+  R E 1 5308 1 16
+  R E 1 5301 1 5
+  R E 1 5313 1 17
+  R E 1 5303 1 14
+  R E 1 5304 1 12
+  R E 1 5306 1 23
+  R E 1 5303 1 15
+R M 0 5307 1 5310
+  R E 1 5314 1 5
+R D 0 5310 2 1
+S
+#5311
+A Vast Cavern~
+~
+The cavern seems endless in size.  A extremely bright light is coming
+from a shimmering portal in the center of the cavern that hovers above
+the ground.  There are multitudes of small rocks scattered about here.
+~
+1 8 0 0 0 0 130
+D8
+~
+~
+0 -1 5307
+R M 0 5301 4 5311
+  R E 1 5302 1 7
+  R E 1 5307 1 16
+  R E 1 5304 1 12
+R M 0 5301 4 5311
+  R E 1 5302 1 7
+  R E 1 5307 1 16
+  R E 1 5304 1 12
+R M 0 5301 4 5311
+  R E 1 5302 1 7
+  R E 1 5307 1 16
+  R E 1 5304 1 12
+R O 0 5315 1 5311
+S
+#5312
+A Small Cavern~
+~
+The cavern is very small in size.  There are a few small rocks scattered
+about the area.  A extremely bright shimmering portal is in the center
+of the cavern, and is hovering off the ground.
+~
+1 8 0
+D0
+~
+~
+0 -1 5313
+R O 0 5316 1 5312
+S
+#5313
+A Massive Lair~
+~
+This vast chamber is loaded with piles of treasure covering various 
+crevices of rocks here and there. A small pool of a murky liquid is in the 
+center of the cavern. There are small humanoid bones scattered about. 
+~
+1 8 0
+D2
+~
+~
+0 -1 5312
+R M 0 5309 1 5313
+  R E 1 5314 1 5
+  R E 1 5309 1 16
+R M 0 5304 2 5313
+  R E 1 5306 1 23
+  R E 1 5304 1 12
+  R E 1 5303 1 14
+  R E 1 5309 1 16
+  R E 1 5302 1 7
+  R E 1 5303 1 15
+  R E 1 5309 1 18
+S
+#5314
+A Large Study~
+~
+The massive room has shelves all along the walls, that are covered with 
+various books, and maps. The floor is covered in a thick blue rug. The 
+walls have torches that are mounted along them to provide lighting. 
+~
+1 8 0 0 0 0 130
+D9
+~
+~
+0 -1 5308
+R M 0 5302 1 5314
+R M 0 5303 3 5314
+S
+#5315
+Floating in a void~
+~
+~
+1 12 0
+S
+#5316
+Floating in a void~
+~
+~
+1 12 0
+S
+#5317
+Floating in a void~
+~
+~
+1 12 0
+S
+#5318
+Floating in a void~
+~
+~
+1 12 0
+S
+#5319
+Floating in a void~
+~
+~
+1 12 0
+S
+#5320
+Floating in a void~
+~
+~
+1 12 0
+S
+#5321
+Floating in a void~
+~
+~
+1 12 0
+S
+#5322
+Floating in a void~
+~
+~
+1 12 0
+S
+#5323
+Floating in a void~
+~
+~
+1 12 0
+S
+#5324
+Floating in a void~
+~
+~
+1 12 0
+S
+#5325
+Floating in a void~
+~
+~
+1 12 0
+S
+#5326
+Floating in a void~
+~
+~
+1 12 0
+S
+#5327
+Floating in a void~
+~
+~
+1 12 0
+S
+#5328
+Floating in a void~
+~
+~
+1 12 0
+S
+#5329
+Floating in a void~
+~
+~
+1 12 0
+S
+#5330
+Floating in a void~
+~
+~
+1 12 0
+S
+#5331
+Floating in a void~
+~
+~
+1 12 0
+S
+#5332
+Floating in a void~
+~
+~
+1 12 0
+S
+#5333
+Floating in a void~
+~
+~
+1 12 0
+S
+#5334
+Floating in a void~
+~
+~
+1 12 0
+S
+#5335
+Floating in a void~
+~
+~
+1 12 0
+S
+#5336
+Floating in a void~
+~
+~
+1 12 0
+S
+#5337
+Floating in a void~
+~
+~
+1 12 0
+S
+#5338
+Floating in a void~
+~
+~
+1 12 0
+S
+#5339
+Floating in a void~
+~
+~
+1 12 0
+S
+#5340
+Floating in a void~
+~
+~
+1 12 0
+S
+#5341
+Floating in a void~
+~
+~
+1 12 0
+S
+#5342
+Floating in a void~
+~
+~
+1 12 0
+S
+#5344
+Floating in a void~
+~
+~
+1 12 0
+S
+#5345
+Floating in a void~
+~
+~
+1 12 0
+S
+#5346
+Floating in a void~
+~
+~
+1 12 0
+S
+#5347
+Floating in a void~
+~
+~
+1 12 0
+S
+#5348
+Floating in a void~
+~
+~
+1 12 0
+S
+#5350
+Floating in a void~
+~
+~
+1 12 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  5307 spec_cast_undead
+S
+
+
+#$
