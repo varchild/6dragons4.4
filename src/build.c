@@ -5099,7 +5099,7 @@ void do_oset(CHAR_DATA *ch, char *argument)
     if(!can_omodify(ch, obj))
       return;
 
-    if(!argument || argument == '\0')
+    if(!argument || argument == "\0")
     {
       send_to_char("Usage: oset <object> size (number or tiny, small, large etc). See HELP OBJECTSIZES\r\n", ch);
       return;

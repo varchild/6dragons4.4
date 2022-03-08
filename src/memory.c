@@ -38,7 +38,8 @@
 #define STR_HASH_SIZE 1024
 
 
-struct hashstr_data
+struct __attribute__((packed)) hashstr_data
+/* struct hashstr_data */
 {
   struct hashstr_data    *next; /* next hash element */
   unsigned short int      links;  /* number of links to this string */

@@ -1047,7 +1047,7 @@ void show_char_to_char_0(CHAR_DATA *victim, CHAR_DATA *ch, int num)
       break;
 
     case POS_SITTING:
-      if(victim->on != NULL && victim->on->short_descr != '\0' && victim->on->value[2] >= 0)
+      if(victim->on != NULL && victim->on->short_descr != "\0" && victim->on->value[2] >= 0)
       {
         if(IS_SET(victim->on->value[2], SIT_AT))
         {

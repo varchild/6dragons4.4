@@ -1264,7 +1264,7 @@ void destroy_I3_channel( I3_CHANNEL * channel )
     I3STRFREE( channel->layout_e );
 
     for ( x = 0; x < MAX_I3HISTORY; x++ ) {
-        if ( channel->history[x] && channel->history[x] != '\0' )
+        if ( channel->history[x] && channel->history[x] != "\0" )
             I3STRFREE( channel->history[x] );
     }
 
@@ -2754,7 +2754,7 @@ void i3_send_channel_t( I3_CHANNEL * channel, const char *name, const char *tmud
 int I3_token( char type, char *string, char *oname, char *tname )
 {
     char                    code[50];
-    char                   *p = '\0';
+    char                   *p = "\0";
 
     switch ( type ) {
         default:
@@ -3506,7 +3506,7 @@ void i3_update_tellhistory( CHAR_DATA *ch, const char *msg )
     snprintf( new_msg, LGST, "&R[%-2.2d:%-2.2d] %s", local->tm_hour, local->tm_min, msg );
 
     for ( x = 0; x < MAX_I3TELLHISTORY; x++ ) {
-        if ( I3TELLHISTORY( ch, x ) == '\0' ) {
+        if ( I3TELLHISTORY( ch, x ) == "\0" ) {
             I3TELLHISTORY( ch, x ) = I3STRALLOC( new_msg );
             break;
         }

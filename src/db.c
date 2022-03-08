@@ -4368,7 +4368,8 @@ char                   *fread_flagstring(FILE * fp)
         plast++;
         ln++;
         break;
-      case EOF:
+      case (unsigned char) EOF:
+	  /* case EOF: */
         bug("Fread_flagstring: EOF");
         if(fBootDb)
           exit(1);

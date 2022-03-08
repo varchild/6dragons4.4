@@ -1094,7 +1094,8 @@ void send_rip_screen(CHAR_DATA *ch)
 
   if((rpfile = FileOpen(RIPSCREEN_FILE, "r")) != NULL)
   {
-    while((BUFF[num] = fgetc(rpfile)) != EOF)
+    while( ( BUFF[num] = fgetc( rpfile ) ) != (char) EOF )
+	/* while((BUFF[num] = fgetc(rpfile)) != EOF) */
       num++;
     FileClose(rpfile);
     BUFF[num] = 0;
@@ -1110,7 +1111,8 @@ void send_rip_title(CHAR_DATA *ch)
 
   if((rpfile = FileOpen(RIPTITLE_FILE, "r")) != NULL)
   {
-    while((BUFF[num] = fgetc(rpfile)) != EOF)
+    while( ( BUFF[num] = fgetc( rpfile ) ) != (char) EOF )
+	/* while((BUFF[num] = fgetc(rpfile)) != EOF) */
       num++;
     FileClose(rpfile);
     BUFF[num] = 0;
@@ -1126,7 +1128,8 @@ void send_ansi_title(CHAR_DATA *ch)
 
   if((rpfile = FileOpen(ANSITITLE_FILE, "r")) != NULL)
   {
-    while((BUFF[num] = fgetc(rpfile)) != EOF)
+    while( ( BUFF[num] = fgetc( rpfile ) ) != (char) EOF )
+	/* while((BUFF[num] = fgetc(rpfile)) != EOF) */
       num++;
     FileClose(rpfile);
     BUFF[num] = 0;
@@ -1142,7 +1145,8 @@ void send_ascii_title(CHAR_DATA *ch)
 
   if((rpfile = FileOpen(ASCTITLE_FILE, "r")) != NULL)
   {
-    while((BUFF[num] = fgetc(rpfile)) != EOF)
+    while( ( BUFF[num] = fgetc( rpfile ) ) != (char) EOF )
+	/* while((BUFF[num] = fgetc(rpfile)) != EOF) */
       num++;
     FileClose(rpfile);
     BUFF[num] = 0;

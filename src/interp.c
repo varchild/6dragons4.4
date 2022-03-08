@@ -971,7 +971,7 @@ BANK_DATA              *find_bank(char *command)
   /*
    * Volk - attempt fix 
    */
-  if(!command || command == '\0')
+  if(!command || command == "\0")
     return NULL;
 
   /*

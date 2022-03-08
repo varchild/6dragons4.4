@@ -54,6 +54,7 @@ OPT_FLAG = -O$(OPT_LEVEL)
 
 #Warning check flags
 W_FLAGS = -Wall -Wunused -Werror -Wuinitialized -Wshadow -Wformat-security -Wpointer-arith -Wcast-align -Wredundant-decls -Wconversion $(WSTRINGS) 
+#akW_FLAGS = -Wall -Werror -Wshadow -Wformat-security -Wpointer-arith -Wcast-align -Wredundant-decls
 
 #Compile and Link flags
 ifdef MEMWATCH
@@ -98,6 +99,7 @@ all:
 
 $(PROG_NAME): $(O_FILES)
 	@rm -f $(PROG_NAME)
+	## gcc $(L_FLAGS) -o $(PROG_NAME) $(O_FILES) $(L_FLAGS)
 	@$(CC) $(L_FLAGS) -o $(PROG_NAME) $(O_FILES) $(L_FLAGS)
 	@chmod 700 $(C_FILES)
 	@chmod 700 $(H_FILES)
