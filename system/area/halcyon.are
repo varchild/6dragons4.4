@@ -1,0 +1,1042 @@
+#AREA        Halcyon Clan Hall~
+
+
+
+#VERSION     11
+#AUTHOR      Aurin~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+10 100 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A solitary bell tolls, marking the passing of another quarter-hour.~
+
+#FLAGS
+164352
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 101250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#6160
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6161
+Shopkeeper Layla~
+Shopkeeper Layla~
+Shopkeeper Layla busily shuffles around the shop, cleaning.
+~
+Layered in a dusty, plain brown robe, Layla is still a site to behold. 
+Long, flowing, raven-black hair, shines in the pale candle light. Eyes the 
+color of rubies peer out from under thin eyebrows and through a hawk-like 
+appearance. Her deeply tanned skin glows with radiant beauty. It is a 
+wonder she isn't married yet--or is she? 
+~
+1
+Clanname none~
+0
+0
+3 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 1073742192 33558819
+#6162
+Uncle Carbil~
+Uncle Carbil~
+Uncle Carbil wanders through the huge library, arranging, then rearranging books.
+~
+A venerable old man, this pixie can still pack a powerful punch--if he 
+weren't so devoted to the way of peace. 
+~
+1
+Clanname none~
+0
+0
+3&512 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 2 48 70 1 1 0
+0 0 0 0 0 0 0 0
+#6163
+Priestess Earane Mriel~
+Priestess Earane Mriel~
+A beautiful elven priestess walks among the wounded, tending to their needs.
+~
+Adorned in flowing white robes that match the rooms attire, Priestess 
+Earane Mriel is the perfect embodiment of Mnera. Long flowing hair, 
+beautiful green eyes and a subtle grace in everything that she does. 
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if istagged($n, heal) 
+  break
+else
+  c 'cure light' $n
+  mptag timer 10 $n heal
+  mppause 20
+  c 'cure light' $n
+endif
+~
+|
+#6164
+Halcyon Leader Ovbere~
+Halcyon Leader Ovbere~
+Halcyon Leader Obvere, a short imposing figure, stands here.
+~
+An imposing dwarf that commands the respect of all around him. It's no 
+wonder that he's the Leader. Massive arms look as though they can carry 
+the large, two-handed, full moon battle axe that is strapped to his back, 
+like a toy. 
+~
+0
+Clanname none~
+0
+0
+131075&128 4194432 -1000 C
+100 0 0 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 432 34078723
+> all_greet_prog 100~
+mpechoat $n &cHalcyon Leader Ovbere bows respectfully towards you.&D
+mppause 4
+mpechoat $n &CHalcyon Leader Ovbere says, 'I welcome you in the name of peace.'&D
+mpechoat $n &CHint: &cType &WSAY MISSIONS &cto fight for the Halcyon cause with quests.  &WSAY OUTCAST &cto be outcast from Halcyon.  &WSAY GEAR &cto receive appropriate Halcyon gear for your level.
+~
+> speech_prog missions~
+mpechoat $n &CHalcyon Leader Ovbere says, 'I'm afraid I don't have any at this time.'
+~
+> speech_prog outcast~
+mppause 3
+mptutorial $n
+shout You are BANNISHED FROM HALCYON!!!
+mpoutcast $n
+mppause 6
+mpecho &cHalcyon Leader Ovbere unsheaths his battle axe, and swings at you with murder in his eyes.&D
+mptutorial $n
+mpslay $n
+~
+> speech_prog gear~
+if clan($n) == Halcyon
+  mppause 5
+  mpechoat $n &cHalcyon Leader Ovbere looks you over carefully.&D
+  mer $n &cHalcyon Leader Ovbere looks $n over carefully.&D
+  mppause 5
+  if level($n) >=40
+    mppause 3
+    if iscarrying($n) == 6167
+    or iswearing($n) == 6167
+      mppause 2
+      mpechoat $n &CHalcyon Leader Ovbere says, 'You already have the cloak.'&D
+    else
+      mpoload 6167
+      get cloak
+      give cloak $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CHalcyon Leader Ovbere says, 'You are too low level to wear the cloak.'&D
+  endif
+  mppause 5
+  if level($n) >=80
+    if iscarrying($n) == 6168
+    or iswearing($n) == 6168
+      mppause 2
+      mpechoat $n &CHalcyon Leader Ovbere says, 'You already have the harness.'&D
+    else
+      mpoload 6168
+      get harness
+      give harness $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CHalcyon Leader Ovbere says, 'You are too low level to wear the harness.'&D
+  endif
+  mppause 5
+  if level($n) >=100
+    if iscarrying($n) == 6169
+    or iswearing($n) == 6169
+      mppause 2
+      mpechoat $n &CHalcyon Leader Ovbere says, 'You already have the helm.'&D
+    else
+      mpoload 6169
+      get helm
+      give helm $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CHalcyon Leader Ovbere says, 'You are too low level to wear the helm.'&D
+  endif
+  mppause 5
+  if level($n) >= 20
+    if iscarrying($n) == 6170
+    or iswearing($n) == 6170
+      mppause 2
+      mpechoat $n &CHalcyon Leader Ovbere says, 'You have the gauntlets already.'&D
+    else
+      mpoload 6170
+      get gauntlet
+      give gauntlet $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CHalcyon Leader Ovbere says, 'You are too low level to wear the gauntlets.'&D
+  endif
+  mppause 5
+  if level($n) >= 10
+    if iscarrying($n) == 6171
+    or iswearing($n) == 6171
+      mppause 2
+      mpechoat $n &CHalcyon Leader Ovbere says, 'You have the lantern already.'&D
+    else
+      mpoload 6171 10
+      get lantern
+      give lantern $n
+    endif
+  else
+    mppause 2
+    mpechoat $n &CHalcyon Leader Ovbere says, 'You are too low level to wear the lantern.'&D
+  endif
+else
+  mpkill $n
+endif
+~
+|
+#6165
+goat~
+A goat~
+A lone goat, chained to the wall, waits to be fed upon.
+~
+~
+1
+Clanname none~
+0
+0
+133123&32 0 0 C
+1 0 0 0d0+30000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog peace~
+mppeace goat
+~
+> fight_prog 5~
+mpechoat $n &CHint: &cType &WSAY PEACE &cfor peace to break up this fight.&D
+~
+> fight_prog 50~
+mprestore self 10000
+~
+|
+#6166
+Blacksmith Jililoth~
+Blacksmith Jililoth~
+Blacksmith Jililoth hammers away at his latest project on the large anvil.
+~
+Drenched in sweat, Jililoth is the purest form of muscle. Stripped to his 
+waist with only a leather apron covering his torso, many old scars can be 
+seen. A piercing gaze and fluid grace makes this a man to be avoided at 
+all costs. 
+~
+1
+Clanname none~
+0
+0
+131079 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 20 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6167
+Scholar Haton~
+Scholar Haton~
+Scholar Haton walks through the large chamber, speaking with any who wish to talk.
+~
+Clothed in a long white robe, though allowing its' wings to freely move, 
+Haton epitomizes etiquette in all forms. From the way it moves, to the 
+manner of speech when speaking. All should strive to be as polite as 
+Haton. 
+~
+1
+Clanname none~
+0
+0
+1179651 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 131071 1 0
+0 0 0 0 0 0 0 0
+#6200
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#6160
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#6161
+weapons rack~
+a weapons rack~
+A weapons rack sits here~
+~
+15 0 0
+9999 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#6162
+magic cabinet~
+a magic cabinet~
+A magic cabinet rests here~
+~
+15 0 0
+9999 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#6163
+armor chest~
+an armor chest~
+An armor chest is here~
+~
+15 0 0
+9999 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#6164
+oak chair~
+an oak chair~
+A series of high backed oak chairs are under the table.~
+~
+12 0 0
+8 2000 1 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+oak chair chairs high backed~
+It appears to be a sturdy high backed oak chair.  There is a purple cushion
+in the back and seat area.
+~
+#6165
+oak table~
+an oak table~
+A large oak table is centered in the room here.~
+~
+12 0 0
+4 1000 8 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+table ~
+It appears the oak table is sturdy enough to stand on.  There are intricate
+designs carved into the edges around the table.
+~
+#6166
+luxurious couch~
+A luxurious couch~
+A soft, plush, luxurious couch waits to be used.~
+~
+12 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#6167
+cloak balance~
+A cloak of balance~
+A neutral grey cloak has been left on the ground here.~
+~
+9 2097216 1025
+35 35 0 0 0 40 0
+1 91 10
+2
+13
+0
+0
+0
+0
+S 77 0
+E
+cloak pure~
+It appears to be a bright white cloak, but there is something that is just
+very special about it, as if it has always been.
+~
+A
+18 10
+A
+19 10
+#6168
+silver harness~
+A silver harness~
+A silver harness with leather straps lies here.~
+~
+9 2097216 524289
+55 55 0 0 0 80 0
+1 198 10
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+silver harness~
+This plain silver harness was made by Jililoth for use by the Halcyon 
+people. Though plain, it is a functional piece of equipment worn on ones 
+back. 
+~
+A
+18 10
+A
+19 10
+#6169
+iron helmet~
+a plain silver helm~
+A plain silver helm has been left here.~
+~
+9 2097216 17
+60 60 0 0 0 100 0
+1 280 10
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+iron helmet~
+It appears to be an exquisitely decorated helmet made of iron.  There is a
+trace of power emitting from the helmet.
+~
+A
+18 10
+A
+19 10
+#6170
+simple silver gauntlets~
+A pair of simple gauntlets~
+A pair of simple silver gauntlets has been left here.~
+~
+9 2097216 257
+20 20 9 0 0 20 0
+1 194 12
+3
+14
+0
+0
+0
+0
+S 0 0
+E
+simple gauntlets~
+It appears the gauntlets are very durable, and has a awe inspiring sense of power
+emitting from it.
+~
+A
+18 10
+A
+19 10
+#6171
+lantern balance~
+A lantern of balance~
+A lantern of balance has been left here.~
+~
+1 2097216 16385
+10 10 -1 0 0 0 0
+1 0 12
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+18 10
+A
+19 10
+#6172
+loaf bread~
+A loaf of bread~
+A loaf of bread is ready to be eaten.~
+~
+19 8192 16385
+0 0 0 0 0 1 0
+2 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#6173
+flask water~
+A flask of water~
+A flask of water lies here.~
+~
+17 8192 16385
+10 0 0 0 0 1 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#6174
+large satchel~
+A large satchel~
+A large satchel rests here.~
+~
+15 0 540673
+1000 0 0 12 0 10 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#6200
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#6160
+A Hidden Passageway~
+~
+&OA small opening in the tall grass reveals a thin trail towards a plain, 
+though sturdy, building. The path to either side is warded with various 
+runes, as well as translations. 
+~
+1 70254592 2
+D0
+~
+~
+0 -1 6161
+D4
+~
+~
+0 -1 2904
+E
+runes~
+&r1. Those who sue for war, shall never know peace.
+
+2. Tranquility comes to those who listen and understand.
+
+3. Knowing ones self is more powerful than knowing any other single thing.
+~
+S
+#6161
+Entryway to The Halcyon~
+~
+&OA huge door, made of granite with many strange symbols carved into it's 
+face, stands slightly ajar. Upon closer inspection of the symbols, a 
+strange peace overcomes any who views them. 
+~
+1 70254592 2
+D0
+~
+door~
+3 -1 6162
+D2
+~
+~
+0 -1 6160
+D3
+~
+~
+0 -1 6173
+E
+symbol symbols~
+Know all ye that enter, no harm shall befall you while inside these doors. 
+This is a place of peace and reconciliation with ones past. 
+~
+S
+#6162
+The Halcyon Centre~
+~
+&OIn the center a large open space for traffic to move freely about, 
+surrounded by support pillars, each carved into a different statue 
+resembling each of the Deities. Off to one side, a large desk with a huge 
+man behind it waits patiently for new applicants. 
+~
+1 70254592 0
+D0
+~
+~
+0 -1 6174
+D1
+~
+~
+0 -1 6163
+D2
+~
+door~
+3 -1 6161
+D3
+~
+~
+0 -1 6166
+D4
+~
+~
+0 -1 6168
+D5
+~
+~
+3 -1 6167
+D6
+~
+~
+0 -1 6164
+D7
+~
+~
+0 -1 6165
+R M 0 6164 1 6162
+R O 0 6164 1 6162
+R O 0 6165 1 6162
+R D 0 6162 2 1
+E
+mnera~
+&GThe Lovely. Mnera is a Major Deity and is all that is pure good. It is 
+Mnera who through detailed dreams, warned the leaders of the nations that 
+Tanzean'al and his army was marching on them. She mostly appears in the 
+form of a beautiful elven woman. Mnera seeks to stamp out evil with the 
+power of Love. She forgives all but the most heinous of crimes. 
+~
+E
+'The Creator'~
+&GAll-powerful Supreme Being of the deities. No one, but the other deities 
+may know his true name. He serves neither all good, nor all evil, but 
+tends to desire a balance between both good and evil. The Creator is a 
+hands off deity, who only intervenes if the balance of power between good 
+and evil is drastically wrong one way or another. 
+~
+E
+Uglar~
+&GThe Disfigured One. Uglar is a Major Deity and is all that is pure evil. 
+It was Uglar that gave Tanzean'al the secret of immortality making him a 
+demi-god.  Uglar lends the support of his minions the demons, and 
+necromancers to Tanzean'al as needed. The Creator smote Uglar for giving 
+the secret to Tanzean'al causing Uglar to be hideously disfigured. Uglar 
+seeks a way to remove his disfigured curse. However, that is a minor goal, 
+compared to Uglar's main goal REVENGE, and replacing the Creator with 
+himself as the All-powerful Supreme Being of the deities. 
+~
+E
+Corellon~
+The Butcher. Corellon is a Lesser Deity and is all that is chaotic evil. 
+He has been known to take out Tanzean'als army as well when when the blood 
+lust hits him. Corellon does not tolerate failure, and those who fail him 
+pay with their lives. He is the one Uglar sends when Uglar wants it done 
+right the first time, and no questions asked. 
+~
+E
+Calton~
+&GMinor Deity and Battle Tactician. Calton is rumored to have been a 
+dwarven general and at one time the greatest tactician to ever walk the 
+planet. Calton is a master of all forms of weaponry, and at times advises 
+the ALLIANCE on tactics to use against the THRONG. Calton appears to 
+mortals as a young dwarf in full battle gear. Calton believes in 
+destroying all that is evil, and vanquishing the unlawful. 
+~
+E
+Tanzean'al~
+&GDemi-God and Warlock in charge of the THRONG elite force, and an army of 
+evil races united to destroy all free people. Tanzean'al though a demi-god 
+often meddles in mortal affairs, and leads the THRONG into battle. This is 
+thought to be due to the fact that he has just become a demi-god and has 
+not become distant from his mortal past yet. Tanzean'al is a puppet for 
+Uglar's ambitions, and Tanzean'al knows this. Tanzean'al has other plans 
+however, that may cause him to oppose Uglar in the future. Tanzean'al 
+seeks to gain Minor Deity status. 
+~
+E
+Thara~
+&GCentaur Demi-God and Judicial Advisor to The ALLIANCE. After smiting 
+Uglar for giving the secret of immortality to Tanzean'al resulting in his 
+rise to Demi-God status, The Creator personally raised Thara to counter 
+the influence of Tanzean'al and his demons and restore the balance of 
+power between good and evil in the world. 
+~
+S
+#6163
+Healer's Sanctuary~
+~
+&OA small altar is placed against the far wall; simple, but functional. A 
+pearly white marble statue resides in the center of the altar, with it's 
+long hair flowing down over both shoulders and arms outstretched, as if to 
+offer tribute or give someone a hug. The artist of this statue was very 
+skilled, as evidenced by a technique called 'flesh into stone'. The statue 
+seems like it's moving, yet remaining still. A few rows of pews, two to 
+either side of a row, work their way towards the altar. 
+~
+1 3145728 0
+D1
+~
+~
+1 -1 6172
+D3
+~
+~
+0 -1 6162
+R M 0 6163 1 6163
+S
+#6164
+A Large Chamber~
+~
+&OIn the center of the room a large podium is placed, while all around are 
+tiers of seats and small desks. Two small entry ways allow access down to 
+the podium, meant to keep opposing forces from bumping into each other as 
+they descend to the stand. 
+~
+1 70254592 0
+D4
+~
+~
+0 -1 6169
+D9
+~
+~
+0 -1 6162
+R M 0 6167 1 6164
+S
+#6165
+The Halcyon Library~
+~
+&ORow upon row of books are seen here. Off in each corner can be found a 
+cozy little nook by a fire, in which one can comfortably read their 
+favorite novels. In the center of the room is a large oak table, used for 
+researching various matters to help conclude peace in many conflicts. 
+~
+1 70254592 0
+D8
+~
+~
+0 -1 6162
+R M 0 6162 1 6165
+S
+#6166
+Layla's Shop~
+~
+&OAll about the shelves are filled with knick-knack's. From the common 
+dolls and beads, to the more exotic looking totem poles. A rustic-looking 
+mahogany counter contains the register till and various other small items. 
+Below it are displayed the clan's most valuable items. 
+~
+1 70254592 0
+D1
+~
+~
+0 -1 6162
+R M 0 6161 1 6166
+  R G 0 6174 1
+  R G 0 6173 1
+  R G 0 6172 1
+S
+#6167
+Summoning Area~
+~
+&OIn the center of the room, strange symbols are drawn within a large 
+glowing circle. Chains and manacles line one wall, while basic weapons 
+line the opposite wall. Tapestries of horrible sights can be seen, all 
+ending in death. 
+~
+1 69206016 0
+D4
+~
+~
+3 -1 6162
+S
+#6168
+Halcyon Storage Chamber~
+~
+&OAn ornately wrought weapons rack stands out in the far left corner from 
+the door. Spears, javelins, pikes and other assorted weapons don this 
+beautiful masterpiece. In the other far corner, a large, magic cabinet 
+rests, holding who knows what inside. In the center of the room, a 
+solitary chest, armored in steel, though simple to work, resides. 
+~
+1 70778880 0
+D5
+~
+~
+0 -1 6162
+S
+#6169
+A Hallway~
+~
+&OA long corridor with many majestic paintings hanging on the walls can be 
+seen. Each painting is that of the prior Chieftain or Ambassador. Oddly, 
+the Ambassador paintings have a great deal more detail in their creation. 
+~
+1 70254592 0
+D2
+~
+~
+3 -1 6171
+D3
+~
+~
+3 -1 6170
+D5
+~
+~
+0 -1 6164
+R D 0 6169 2 1
+R D 0 6169 3 1
+S
+#6170
+Halcyon Chieftain's Office~
+~
+&OA large desk and comfortable looking chair are set in the center of the 
+room. Off to one side, a luxurious couch can be seen, almost inviting one 
+to sit upon and relax. Directly opposite the door hangs a larger-than-life 
+picture of the current Chieftain. 
+~
+1 70254592 0
+D1
+~
+~
+3 -1 6169
+R O 0 6164 1 6170
+R O 0 6165 1 6170
+R O 0 6166 1 6170
+R D 0 6170 1 1
+S
+#6171
+Halcyon Ambassador's Office~
+~
+&OA large oak desk is set in the middle of the room, with stacks of papers 
+and a cup full of ink quills on top. Many exotic gifts are arranged around 
+the room, denoting tokens of friendship and peace between the many races 
+and factions this person has helped in the past. 
+~
+1 70254592 0
+D0
+~
+~
+3 -1 6169
+R O 0 6165 1 6171
+R D 0 6171 0 1
+S
+#6172
+Bloodletting~
+~
+&RA vile room, blood has soaked into everything without regard to its 
+appearance. Only those that seek the need to quench a terrible thirst come 
+in here. 
+~
+1 3145728 0
+D3
+~
+~
+1 -1 6163
+R M 0 6165 1 6172
+S
+#6173
+Stables~
+~
+&ODozens of stalls for the weary traveler to stable their horse(s) can be 
+seen. A long picket pole for those also stands, for the short term 
+visitors. A pile of hay and a trough on either side of the stables extends 
+from door to far wall, to allow easy feeding and watering of ones mounts. 
+~
+1 70254592 2
+D1
+~
+~
+0 -1 6161
+S
+#6174
+Jililoth's Forge~
+~
+&OHeat is the first thing noticeable here. Next, is the massive hearth in 
+the center of the room, with a large draft chimney above it to filter out 
+a large portion of the smoke and heat to the outside. Next to the hearth 
+is a large, black anvil with a set of tongs resting on a hook welded to 
+its' side. Off to the side on a sturdy metal table, are a number of 
+chisels, fullers and hardies of all shapes and sizes. 
+~
+1 70254592 0
+D2
+~
+~
+0 -1 6162
+R M 0 6166 1 6174
+S
+#6200
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#0
+
+
+#SHOPS
+ 6161    5  9  8  0  0   120  90         0 23    ; Shopkeeper Layla
+0
+
+
+#REPAIRS
+ 6166    8  5  9          20   1         0 23    ; Blacksmith Jililoth
+0
+
+
+#SPECIALS
+M  6163 spec_cast_adept
+S
+
+
+#$

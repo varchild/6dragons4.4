@@ -1,0 +1,4497 @@
+#VNUM 54032
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Name         sheath~
+ShortDescr   a sheath, legendary tanned from bugbear~
+Description  Here lies a sheath, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    33554433
+ItemType     76
+Weight       2
+Level        20
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       20 20 10983 6 6 30 15
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   sheath~ &CThis tanned item bears the seal of Singar, the master tanner.
+~
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        23
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        24
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        28
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        25
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        26
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         63
+Level        27
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         21
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         22
+Currtype     1
+Size   0
+Values       0 100 0 0 0 0 0
+End
+
+#OBJECT
+Name         leather-whip~
+ShortDescr   a leather whip, legendary tanned from bugbear~
+Description  Here lies a leather whip, legendary tanned from bugbear.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       12 13 23 5 3 30 600
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-whip~ &CThis tanned item bears the seal of Singar, the master tanner.
+~
+End
+
+#END

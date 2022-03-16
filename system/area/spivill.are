@@ -1,0 +1,1615 @@
+#AREA        Spiral village~
+
+
+
+#VERSION     11
+#AUTHOR      Fya~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+10 20 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &WThe silver bells of the chapel ring out softly.&D~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#13000
+Kynor human~
+Kynor~
+A human neatly arranges his merchandise on the shelves.
+~
+Kynor is dressed in tanned leather clothing.  He has blond hair and green eyes.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+> act_prog drops~
+if goldamt($n) < 10
+  mpechoat $n &CKynor says 'You can't afford my services.'&D
+else
+if otyperoom(container) == 1
+  get $o
+  mpforce $n give 10 gold kynor
+  mpechoat $n &CKynor begins his work.&D
+  mposet $o name $n satchel
+  mposet $o short $n's leather satchel
+  mposet $o long A personalized leather satchel has been left here.
+  mposet $o color 1
+  give $o $n
+  mpechoat $n &CKynor smiles at you.&D
+else
+  mpechoat $n &CKynor says 'I can't do anything with that.'&D
+endif
+endif
+~
+> all_greet_prog 100~
+if istagged($n, bag)
+mppause 3
+else
+mppause 5
+mpechoat $n &CKynor says 'If you drop a container on the ground.... 
+mpechoat $n &CI can personalize the name of it for a wee fee of 10 gold.'
+mptag $n bag
+endif
+~
+> death_prog 100~
+mpjunk all
+~
+> act_prog p gives you an extradimensional portal.~
+mppause 10
+give portal $n
+mpechoat $n &CKynor says, 'Sorry, but you'll have to drop the portal for me to properly look at it.'&D
+~
+|
+#13001
+librarian human~
+the librarian~
+The human librarian sits behind her desk, looking at a list.
+~
+She has a plain pink dress on with white leather shoes.  The librarian has brown hair and black eyes.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13002
+Sedric human blacksmith~
+Sedric~
+A human blacksmith is ready to repair damaged items.
+~
+The blacksmith has tanned leather pants on, but is not wearing a shirt.  His entire body is covered in a thick sweat.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 20 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13003
+Juder human~
+Juder~
+A human wipes down the counter, ready to serve his customers.
+~
+Juder is dressed in black serving clothing.  He has brown hair and green eyes.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+26 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13004
+mask human seller~
+a mask seller~
+A human seller of masks hawks his wares.
+~
+The seller is wearing a blue robe and has a thick purse.  He has black hair, and gray beard.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+> death_prog 100~
+mpjunk all 
+~
+|
+#13005
+silver miner~
+a silver miner~
+A silver miner wanders the village while he isn't working.
+~
+The miner is covered in a black soot.  He has leather clothing on and hair appears to be black.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13006
+silver human jeweler~
+a jeweler~
+A human woman wanders the village, carrying a tray of silver jewelry.
+~
+The female is wearing a white dress and has several sparkling types of jewelry on.  She has blond hair
+and green eyes.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+21 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+> death_prog 100~
+mpjunk all 
+~
+|
+#13007
+woman human villager~
+a village woman~
+A human woman of the village goes intently about her errands.
+~
+The woman is wearing a plain green robe and has light blond hair with blue eyes.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+18 0 0 0d0+500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13008
+man villager~
+a village man~
+A human man of the village goes busily about his errands.
+~
+The man is wearing dark green leather armor.  He has brown hair and black eyes.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+18 0 0 0d0+500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 16 2
+#13009
+gray squirrel~
+a gray squirrel~
+A gray squirrel scampers around.
+~
+The squirrel appears to be on the verge of starving with it's ribs sticking out.
+~
+1
+Clanname none~
+0
+0
+16777217 0 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 32 2
+#13010
+gray rabbit~
+a gray rabbit~
+A gray rabbit hops about.
+~
+The rabbit is covered with gray fur.  It has a bloody cut on it's side.
+~
+1
+Clanname none~
+0
+0
+16777217 0 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 32 2
+#13011
+Spiral constable~
+a newly created Spiral constable~
+Some god abandoned a newly created Spiral constable here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#13012
+spiral priest Christoph~
+Christoph~
+A young priest tends to the spiritual needs of the village.
+~
+The priest is wearing a dark leather shirt and light brown trousers.  He has brown hair and black eyes.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#13013
+snow bird~
+a bird of snow~
+A white bird of snow glides about here.
+~
+Covered in soft white plumage, this bird of the northern regions has a 
+large wingspan but a small body, as large as a human fist. Its tail is 
+extremely long, the feathers tipped in pale hues of varying colors. Blue 
+eyes gaze brightly about it as it glides on the breeze. 
+~
+0
+Clanname none~
+0
+0
+65601 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 17 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p pulls you close and begins to pet you lovingly.~
+mppause 3
+mea $n &cA bird of snow gives a shrill cry, ruffling its feathers.&D
+mppause 3
+drop feather
+~
+|
+#13039
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#13000
+red shirt~
+a red shirt~
+A crumpled pile of red silk lies here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+1 78 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+18 1
+#13001
+yellow shirt~
+a yellow shirt~
+A crumpled pile of yellow silk lies here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+1 90 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+31 2
+A
+18 1
+#13002
+green shirt~
+a green shirt~
+A crumpled pile of green silk lies here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+1 86 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+4 2
+A
+19 1
+#13003
+blue shirt~
+a blue shirt~
+A crumpled pile of blue silk lies here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+1 111 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+19 1
+#13004
+purple shirt~
+a purple shirt~
+A crumpled pile of purple silk lies here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+1 93 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+5 2
+A
+19 1
+#13005
+blue hose~
+blue hose~
+A crumpled pile of blue silk lies here.~
+~
+9 0 33
+10 10 0 0 0 15 0
+1 112 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+3 2
+A
+18 1
+#13006
+black hose~
+black hose~
+A crumpled pile of black silk lies here.~
+~
+9 0 33
+10 10 0 0 0 15 0
+1 82 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+18 1
+A
+13 50
+#13007
+white hose~
+white hose~
+A crumpled pile of white silk lies here.~
+~
+9 0 33
+10 10 0 0 0 15 0
+1 86 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+18 1
+#13008
+silver link belt~
+a silver-linked belt~
+A coil of silver links glints in the light.~
+~
+9 0 2049
+10 10 0 0 0 15 0
+1 105 15
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+18 1
+A
+25 2
+#13009
+brown boots~
+brown boots~
+Two brown boots sit side by side.~
+~
+9 0 65
+10 10 0 0 0 15 0
+1 81 14
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+2 2
+A
+19 1
+#13010
+gray cape~
+gray cape~
+A gray cape lies in a huddle of fabric.~
+~
+9 0 1025
+10 10 0 0 0 15 0
+1 95 17
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+1 2
+A
+19 1
+#13011
+brown cape~
+brown cape~
+A brown cape lies in a huddle of fabric.~
+~
+9 0 1025
+10 10 0 0 0 15 0
+1 71 14
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+13 50
+#13012
+silver anklet~
+silver anklet~
+A silver anklet twinkles brightly.~
+~
+9 0 2097153
+10 10 0 0 0 15 0
+1 105 18
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+19 1
+#13013
+silver bracelet~
+silver bracelet~
+A silver bracelet twinkles brightly.~
+~
+9 0 4097
+10 10 0 0 0 15 0
+1 63 19
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+19 1
+#13014
+silver cat mask~
+silver cat mask~
+A silver mask depicts the visage of a cat.~
+~
+9 0 1048577
+10 10 0 0 0 15 0
+1 103 15
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+26 8
+#13015
+silver fox mask~
+silver fox mask~
+A silver mask depicts the visage of a fox.~
+~
+9 0 1048577
+10 10 0 0 0 15 0
+1 76 15
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+26 32
+#13016
+silver hawk mask~
+silver hawk mask~
+A silver mask depicts the visage of a hawk.~
+~
+9 0 1048577
+10 10 0 0 0 15 0
+1 87 16
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+26 16
+#13017
+gray earmuffs~
+gray earmuffs~
+Earmuffs covered in soft gray rabbit fur lie here..~
+~
+9 0 65537
+10 10 0 0 0 15 0
+1 75 19
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+19 1
+#13018
+silver framed eyeglasses~
+silver framed eyeglasses~
+Silver framed eyeglasses twinkle brightly.~
+~
+9 0 131073
+10 10 0 0 0 15 0
+1 93 14
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+12 50
+#13019
+silver tiara~
+silver tiara~
+A silver tiara twinkles brightly.~
+~
+9 0 17
+10 10 0 0 0 15 0
+1 108 14
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+12 50
+A
+18 1
+#13020
+silver torc~
+silver torc~
+A silver torc twinkles brightly.~
+~
+9 0 5
+10 10 0 0 0 15 0
+1 100 15
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+13 50
+#13021
+feather snow bird~
+a feather of a snow bird~
+A long feather from a bird of snow rests here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#13039
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#13000
+The Library~
+~
+The smell of freshly cut wood emanates from the shelves.  Small slender 
+tomes are arranged neatly, a few on each shelf.  The library does not 
+seem to have a great deal of reading material yet.
+~
+1 8 0
+D9
+~
+~
+0 -1 13001
+S
+#13001
+The Library~
+~
+A large desk fills the center of the room.  A box filled with note 
+cards sits on one end of the desk.  On the other side of the desk 
+is a small open book, with neat writing filing halfway down one page.
+The library's exit lies to the east.
+~
+1 8 0
+D1
+~
+~
+3 -1 13002
+D6
+~
+~
+0 -1 13000
+D7
+~
+~
+0 -1 13037
+D8
+~
+~
+0 -1 13039
+D9
+~
+~
+0 -1 13038
+R M 0 13001 1 13001
+  R E 0 13005 1 7
+  R E 0 13003 1 5
+  R E 0 13018 1 20
+R D 0 13001 1 1
+S
+#13002
+Upper Spiral Way~
+~
+From the top of Spiral Way, there is a clear vista of Spiral Village.
+The Way itself can be seen snaking its way in a coil down and around
+the side of the dormant volcano.  A large, rather new looking building
+lies to the west.
+~
+1 0 1
+D3
+~
+~
+3 -1 13001
+D7
+~
+~
+0 -1 13003
+R M 0 13005 1 13002
+  R E 0 13007 1 7
+  R E 0 13004 1 5
+R D 0 13002 3 1
+S
+#13003
+Upper Spiral Way~
+~
+Spiral Way curves sharply here, as it nears the peak.  The road is
+narrow and steep.  One side hugs the dormant volcano, the other side
+drops off sharply.  Another coil of the road can be seen below.
+~
+1 0 1
+D8
+~
+~
+0 -1 13002
+D9
+~
+~
+0 -1 13004
+S
+#13004
+Upper Spiral Way~
+~
+The narrow road rises in a steep incline toward the peak.  Carved
+into the volcano's side, the outer edge of Spiral Way is a sheer
+drop to its lower counterpart.  A thin rail borders the edge.
+~
+1 0 1
+D6
+~
+~
+0 -1 13003
+D8
+~
+~
+0 -1 13005
+R M 0 13007 1 13004
+  R E 0 13005 1 7
+  R E 0 13000 1 5
+S
+#13005
+Upper Spiral Way~
+~
+The curve of the road becomes more sharp as it rises to the west.
+A thin wooden rail marches along the outside edge of Spiral Way.
+Above looms a large structure, below is the main village itself.
+~
+1 0 1
+D1
+~
+~
+0 -1 13006
+D7
+~
+~
+0 -1 13004
+R M 0 13008 1 13005
+  R E 0 13004 1 5
+  R E 0 13007 1 7
+S
+#13006
+Upper Spiral Way~
+~
+The road curves around in a seemingly unending angled spiral.  The
+sound of distant voices flows by lazily on a light but chill breeze.
+Birds soar high overhead, intent upon mysterious avian business.
+~
+1 0 1
+D3
+~
+~
+0 -1 13005
+D6
+~
+~
+0 -1 13007
+R M 0 13005 2 13006
+  R E 0 13001 1 5
+  R E 0 13007 1 7
+S
+#13007
+Spiral Way~
+~
+The narrow road hugs the side of the dormant volcano.  Above and 
+below, the rocky wall moves away, almost perpendicular to the
+far distant ground.  Occasionally a small shower of pebbles falls.
+~
+1 0 1
+D0
+~
+~
+0 -1 13008
+D9
+~
+~
+0 -1 13006
+R M 0 13007 2 13007
+  R E 0 13003 1 5
+  R E 0 13005 1 7
+S
+#13008
+Spiral Way~
+~
+The road briefly widens and levels out here.  A small section of
+the volcano's wall is missing, possibly chipped off in an avalanche.
+A small house perches precariously on an outcropping to the north.
+~
+1 0 1
+D0
+~
+~
+3 -1 13032
+D2
+~
+~
+0 -1 13007
+D7
+~
+~
+0 -1 13009
+R M 0 13010 1 13008
+R M 0 13008 2 13008
+  R E 0 13001 1 5
+  R E 0 13006 1 7
+R D 0 13008 0 1
+S
+#13009
+Spiral Way~
+~
+The narrow road makes its determined way around the dormant volcano. Small 
+porous rocks litter the edges of the road. There is a small house located 
+just south of the road. 
+~
+1 0 1
+D2
+~
+~
+3 -1 13029
+D3
+~
+~
+0 -1 13010
+D8
+~
+~
+0 -1 13008
+R M 0 13005 3 13009
+  R E 0 13002 1 5
+  R E 0 13006 1 7
+R D 0 13009 2 1
+S
+#13010
+Spiral Way~
+~
+The road runs straight and true for this small stretch, hugging the 
+mountain wall to the south. To the north the wall drops off in a sheer 
+fall to the distant road far below. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13009
+D3
+~
+~
+0 -1 13011
+R M 0 13007 4 13010
+  R E 0 13002 1 5
+  R E 0 13006 1 7
+S
+#13011
+Spiral Way~
+~
+The road here has apparently been recently swept clean of debris. Porous 
+rock has been neatly lined along the road's edges. A small, well-maintained 
+chapel lies to the south. Atop the chapel is a wooden bell tower holding 
+two sparkling silver bells.
+~
+1 0 1
+D1
+~
+~
+0 -1 13010
+D2
+~
+~
+3 -1 13028
+D9
+~
+~
+0 -1 13012
+R D 0 13011 2 1
+S
+#13012
+Lower Spiral Way~
+~
+Heavy traffic has made the path to the nearby restaurant as clearly 
+defined as the road itself. Savory smells waft tantalizingly from the 
+small building to the north. 
+~
+1 0 1
+D0
+~
+~
+3 -1 13036
+D2
+~
+~
+0 -1 13013
+D6
+~
+~
+0 -1 13011
+R D 0 13012 0 1
+S
+#13013
+Lower Spiral Way~
+~
+The road makes its precarious way along a narrow ledge, bordered on both 
+sides by dominating cliffs. Birds move around both above and below the 
+level of the road. A small crack in the side of the cliff to the east 
+leads nowhere. 
+~
+1 0 1
+D0
+~
+~
+0 -1 13012
+D2
+~
+~
+0 -1 13014
+R M 0 13013 1 13013
+  R G 0 13021 1
+S
+#13014
+Lower Spiral Way~
+~
+The cliffs fall away sharply to the west, while rising just as 
+dramatically to the east. The road itself occupies a narrow neutral 
+ground. Wheel marks on the road at a strange angle indicate that someone 
+didn't respect the road's borders. 
+~
+1 0 1
+D0
+~
+~
+0 -1 13013
+D8
+~
+~
+0 -1 13015
+S
+#13015
+Lower Spiral Way~
+~
+The road widens and curves around here. To the north and the west lie 
+small homes. The home to the north nestles against the base of a cliff 
+wall, while the home to the west perches atop a cliff. 
+~
+1 0 1
+D0
+~
+~
+3 -1 13030
+D1
+~
+~
+0 -1 13016
+D3
+~
+~
+3 -1 13033
+D7
+~
+~
+0 -1 13014
+R M 0 13004 1 13015
+  R G 0 13014 1
+  R G 0 13015 1
+  R G 0 13016 1
+R D 0 13015 0 1
+R D 0 13015 3 1
+S
+#13016
+Lower Spiral Way~
+~
+The narrow road continues on its way around the mountain. On both sides 
+the cliff stretches away, up to the north and down to the south. Birds fly 
+obliviously by, not just above but also below. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13017
+D3
+~
+~
+0 -1 13015
+R M 0 13013 1 13016
+  R G 0 13021 1
+S
+#13017
+Lower Spiral Way~
+~
+The narrow road makes its determined way around the mountain. On either 
+side the cliff stretches away, up to the north and down to the south. 
+Birds soar by, not just above but also below. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13018
+D3
+~
+~
+0 -1 13016
+R M 0 13009 2 13017
+R M 0 13009 2 13017
+R M 0 13010 3 13017
+R M 0 13010 3 13017
+S
+#13018
+Lower Spiral Way~
+~
+The road curves, edging slightly out and away from the mountain here. To 
+the north is a small house. Sounds of vigorous clanging come from the 
+east, along with the sharp scent of molten metal. 
+~
+1 0 1
+D0
+~
+~
+3 -1 13031
+D1
+~
+~
+3 -1 13034
+D3
+~
+~
+0 -1 13017
+D6
+~
+~
+0 -1 13019
+R M 0 13006 1 13018
+  R G 0 13012 1
+  R G 0 13013 1
+  R G 0 13019 1
+  R G 0 13020 1
+R D 0 13018 0 1
+R D 0 13018 1 1
+S
+#13019
+Lower Spiral Way~
+~
+Signs of a heavy washout mark the road, making travel hazardous. Many of 
+the wagon tracks have been washed clean away. A small patch of wildflowers 
+seems to have recently been planted by the road. 
+~
+1 0 1
+D0
+~
+~
+0 -1 13020
+D9
+~
+~
+0 -1 13018
+S
+#13020
+Lower Spiral Way~
+~
+The road detours around a huge boulder. From the appearance of the tracks, 
+it used to once go through the area now blocked. Small bits of wooden 
+debris indicate a wagon may have been unfortunate enough to have met the 
+boulder. 
+~
+1 0 1
+D0
+~
+~
+0 -1 13021
+D2
+~
+~
+0 -1 13019
+S
+#13021
+Lower Spiral Way~
+~
+The dirt road is pocked with debris from a recent avalanche. Larger stones 
+have been shoved off of the road itself, into the grass hat borders the 
+road. A single bird scolds passersby from overhead. 
+~
+1 0 1
+D0
+~
+~
+0 -1 13022
+D2
+~
+~
+0 -1 13020
+S
+#13022
+Lower Spiral Way~
+~
+The dirt road ambles lazily around the hill. Green grass spreads as far as 
+the eye can see to the east. Birds soar by high overhead, busily caroling 
+their avian melodies. 
+~
+1 0 1
+D2
+~
+~
+0 -1 13021
+D7
+~
+~
+0 -1 13023
+R M 0 13013 1 13022
+  R G 0 13021 1
+S
+#13023
+Lower Spiral Way~
+~
+The road runs flat to the west, and curves up to the southeast. Thick 
+grass stretches off to the north in undulating waves of green. A small 
+shop lies to the east. 
+~
+1 0 1
+D1
+~
+~
+3 -1 13035
+D3
+~
+~
+0 -1 13024
+D8
+~
+~
+0 -1 13022
+R D 0 13023 1 1
+S
+#13024
+Lower Spiral Way~
+~
+Small pebbles litter the road, debris from a very minor avalanche. A large 
+boulder sits in the grass to the north, a vivid reminder of the dangers of 
+larger avalanches. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13023
+D3
+~
+~
+0 -1 13025
+S
+#13025
+Lower Spiral Way~
+~
+Rutted wheel tracks and hoof marks pock the narrow trail. Sheer rock looms 
+to the south, while grass spreads out in a ongoing flat and monotonous 
+green flow to the north. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13024
+D3
+~
+~
+0 -1 13026
+S
+#13026
+Lower Spiral Way~
+~
+A carpet of verdant grass stretches off to the north, bordering a rocky 
+trail barely wide enough for a cart. The trail curves up and east, 
+disappearing from view as it curves around the side of the mountain. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13025
+D3
+~
+~
+0 -1 13027
+S
+#13027
+Lower Spiral Way~
+~
+A long, winding trail leads from the base of the mountains to a village 
+farther up. A carpet of verdant grass flows off to the north beside the 
+trail. To the south is the sheer rocky wall of the mountain itself. 
+~
+1 0 1
+D1
+~
+~
+0 -1 13026
+D11
+~
+~
+0 -1 51061
+S
+#13028
+A Small Chapel~
+~
+A large statue dedicated to the Creator dominates the center of the room. 
+To the east are lesser status dedicated to Mnera, Calton, and Thara. To 
+the west are lesser statues for Uglar and Corellon. 
+~
+1 1036 0
+D0
+~
+~
+3 -1 13011
+R M 0 13012 1 13028
+R D 0 13028 0 1
+S
+#13029
+A Small House~
+~
+Filth litters the floor, uncured hides, half-eaten food, torn
+clothing.  Along one wall is a stinking pallet, piled high with
+more uncured hides.  The stench is both thick and pervasive.
+~
+1 8 0
+D0
+~
+~
+3 -1 13009
+S
+#13030
+A Small House~
+~
+A small cot is set up in the back of the room, neatly covered with a green 
+blanket. In the front of the room is a small table with a single wooden 
+stool. On top of the table is a partially assembled silver mechanism. 
+~
+1 8 0
+D2
+~
+~
+3 -1 13015
+R D 0 13030 2 1
+S
+#13031
+A Small House~
+~
+Screens of painted cloth on wooden frames divide this house into three 
+chambers. The main chamber appears to be the eating area. The second 
+chamber holds a table with metalworking tools and small bits of silver. 
+The third and smallest chamber holds a long but narrow bed. 
+~
+1 8 0
+D2
+~
+~
+3 -1 13018
+R D 0 13031 2 1
+S
+#13032
+A Small House~
+~
+This home is a single room. Three pallets neatly line the walls.
+Interspersed between the pallets are long, low chests. Affixed to
+the walls overhead are shelves, loaded with a variety of containers.
+~
+1 8 0
+D2
+~
+~
+3 -1 13008
+R M 0 13007 3 13032
+  R E 0 13003 1 5
+  R E 0 13005 1 7
+R D 0 13032 2 1
+S
+#13033
+A Small House~
+~
+Wide windows give a view of the street to the east. Comfortable chairs sit 
+around a low table in the center of the room. In the back of the room is a 
+curtain, behind which is a large bed with a flowered quilt. 
+~
+1 8 0
+D1
+~
+~
+3 -1 13015
+R D 0 13033 1 1
+S
+#13034
+Sedric's Smithy~
+~
+A large, glowing forge takes up most of the back of the room. Beside it is 
+a large barrel full of water for quenching the freshly forged goods. Metal 
+ingots and bars are stacked neatly along the walls. 
+~
+1 8 0
+D3
+~
+~
+3 -1 13018
+R M 0 13002 1 13034
+R D 0 13034 3 1
+S
+#13035
+Kynor's Supplies~
+~
+Shelves filled with supplies line the walls. Bags are stacked neatly in 
+piles throughout the shop. Wooden racks hold assorted tools. Everything is 
+arranged neatly, in such a way as to make it easy for customers to find 
+what they seek. 
+~
+1 8 0
+D3
+~
+~
+3 -1 13023
+R M 0 13000 1 13035
+  R G 0 13000 1
+  R G 0 13003 1
+  R G 0 13002 1
+  R G 0 13004 1
+  R G 0 13008 1
+  R G 0 13001 1
+  R G 0 13006 1
+  R G 0 13005 1
+  R G 0 13009 1
+  R G 0 13011 1
+  R G 0 13010 1
+  R G 0 13017 1
+  R G 0 13018 1
+  R G 0 13007 1
+R D 0 13035 3 1
+S
+#13036
+Juder's Restaurant~
+~
+Small tables are arranged neatly around the room, each with 2 chairs. 
+Clean white tablecloths cover the tables. In the center of each table is a 
+silver vase with filled with mountain wildflowers. The restaurant is 
+clean, and smells of good food. 
+~
+1 8 0
+D2
+~
+~
+3 -1 13012
+R M 0 13003 1 13036
+R D 0 13036 2 1
+S
+#13037
+The Library~
+~
+A large rectangular table fills this wing of the library.   Neatly 
+cut scrolls are laid out on the table, precisely spaced.  Each is 
+painstakingly inscribed by the same bold, clear, even hand.
+~
+1 8 0
+D8
+~
+~
+0 -1 13001
+S
+#13038
+The Library~
+~
+Comfortable looking chairs are arranged around the room, situated so 
+as to catch the most light.  Pictures of various creatures line the 
+walls, each labeled with the word "Donor" followed by what may (or 
+may not) be a name.
+~
+1 8 0
+D6
+~
+~
+0 -1 13001
+S
+#13039
+The Library~
+~
+Empty shelves line the walls, forlornly awaiting the arrival of 
+to fill them.  Small desks with uncomfortable seeming chairs litter 
+the room, possibly intended for the use of children.
+~
+1 8 0
+D7
+~
+~
+0 -1 13001
+S
+#0
+
+
+#SHOPS
+ 13000    0  0  0  0  0   150  15         0 23    ; Kynor
+ 13004    0  4  0  0  0   150  15         0 23    ; a mask seller
+ 13006    0  8  0  0  0   150  15         0 23    ; a jeweler
+0
+
+
+#REPAIRS
+ 13002    0  5  9          50   1         0 23    ; Sedric
+0
+
+
+#SPECIALS
+M  13012 spec_cast_adept
+S
+
+
+#$

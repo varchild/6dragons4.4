@@ -1,0 +1,1083 @@
+#AREA        Giant Wasp Hive~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 50 30 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThe sound of a wasps wings echos throughout the hive.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#25000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#25001
+wasp queen~
+a wasp queen~
+A wasp queen is hovering here.
+~
+Queen The queen is the largest wasp by far of the hive.~
+1
+Clanname none~
+0
+0
+131107 524928 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!
+mpdamage $n 500
+endif
+~
+|
+#25002
+wasp guard~
+a wasp guard~
+A wasp guard is hovering here.
+~
+Guard The guard's stinger appears longer and more pronounced then the worker wasp.~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!                         
+mpdamage $n 500
+endif
+~
+|
+#25003
+wasp guard~
+a wasp guard~
+A wasp guard is hovering here.
+~
+Guard The guard's stinger appears longer and more pronounced then the worker wasp.~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!                         
+mpdamage $n 500
+endif
+~
+|
+#25004
+wasp guard~
+a wasp guard~
+A wasp guard is hovering here.
+~
+~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!                         
+mpdamage $n 500
+endif
+~
+|
+#25005
+wasp guard~
+a wasp guard~
+A wasp guard is hovering here.
+~
+Guard The guard's stinger appears longer and more pronounced then the worker wasp.~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!                         
+mpdamage $n 500
+endif
+~
+|
+#25006
+wasp guard~
+a wasp guard~
+A wasp guard is hovering here.
+~
+~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> fight_prog 10~
+if race($n) == Dragon
+mpecho &GThe wasp sprays out acid!                         
+mpdamage $n 500
+endif
+~
+|
+#25007
+wasp worker~
+a wasp worker~
+A wasp worker is hovering about here.
+~
+~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+#25008
+wasp worker~
+a wasp worker~
+A wasp worker is hovering about here.
+~
+~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+#25009
+wasp worker~
+a wasp worker~
+A wasp worker is hovering about here.
+~
+~
+1
+Clanname none~
+0
+0
+33 524928 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+#25010
+wounded elf~
+a wounded elven prince~
+A wounded elven prince is laying here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(maiden) < 1
+mppause 3
+mpechoat $n &CA wounded elven prince says, 'Please help me, I am near mortaly wounded.  I tracked
+mpechoat $n &Ca giant wasp here that took one of the elven maidens.'
+mppause 5
+mpechoat $n &cType &WSAY HELP&c if you want to help the prince.
+endif
+~
+> speech_prog help~
+if quest(maiden) < 1
+mppause 3
+mpechoat $n &CA wounded elven prince says, 'Thank you she is in the hive some place.'
+mpquest $n maiden 1
+endif  
+~
+> act_prog $n arrives from the north.~
+mppause 3
+if quest(maiden) == 2
+mpechoat $n &CA wounded elven prince says, 'princess I am so relieved to see you well.
+mpechoat $n &CThank you $n please take this as a token of my gratitude.'
+mpquest $n maiden 3
+mpoload 25009 40
+get root
+give root $n
+mpforce maiden follow self
+mpforce maiden mpgoto 4
+endif
+~
+|
+#25011
+elven maiden~
+an elven maiden~
+An elven maiden is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4719232 1000 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 40992 0 0 0 1074004992 1073741826
+> all_greet_prog 100~
+mppause 3
+if quest(maiden) == 1
+mpechoat $n &CA elven maiden says, 'Thank you for rescuing me.  Please take 
+mpechoat $n &Cme to the prince.'
+mpfollow $n
+mpquest $n maiden 2
+endif
+~
+|
+#25050
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#25000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#25001
+light beacon~
+a light beacon~
+A light beacon has been left blazing here.~
+~
+1 1 16385
+0 0 -1 0 0 10 0
+1 269 26
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+beacon~
+The beacon puts out a enormous amount of light, pushing back all darkness to who holds it.
+~
+A
+19 3
+A
+17 -25
+#25002
+leather hide barding~
+a set of leather hide barding~
+A set of leather hide barding has been left here.~
+~
+9 0 9 4
+10 10 0 0 0 10 0
+5 106 10
+2
+13
+0
+0
+0
+0
+S 77 0
+E
+hide~
+The hide is a very thick leather that appears to be well oiled by some type of substance.
+~
+A
+19 3
+A
+17 -20
+#25003
+skull helmet~
+a skull helmet~
+A skull helmet has been left here.~
+~
+9 0 17
+35 35 0 0 0 35 0
+3 210 9
+3
+5
+0
+0
+0
+0
+S 77 0
+E
+skull helmet~
+It appears to be a humanoid type of skull made into a helmet.
+~
+A
+19 3
+A
+17 -20
+A
+3 1
+#25004
+scale mail hand straps~
+a set of scale mail hand straps~
+A set of scale mail hand straps has been left here.~
+~
+9 0 129
+35 35 1966 0 0 35 0
+1 237 11
+3
+5
+0
+0
+0
+0
+S 77 0
+E
+hand~
+The scale mail is intricate in it's design and appears to be a solid construction.
+~
+A
+19 3
+A
+17 -20
+#25005
+spaulders spiked~
+a set of spiked spaulders~
+A set of spiked spaulders has been left here.~
+~
+9 64 257
+10 10 0 0 0 10 0
+30 79 7
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+spaulders~
+The spaulders is covered with nasty looking iron spikes.
+~
+A
+17 -25
+A
+19 3
+#25006
+a scaled mail saddle~
+a scaled mail saddle~
+A scaled mail saddle has been left here.~
+~
+9 0 2049 32
+10 10 0 0 0 10 0
+1 121 12
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+saddle~
+The saddle appears to be a outer protective layer for a normal saddle.
+~
+A
+14 100
+A
+19 3
+#25007
+leather mask insert~
+a leather mask insert~
+A leather mask insert has been left here.~
+~
+9 0 1048577 1
+10 10 0 0 0 10 0
+1 105 10
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+wrist~
+This leather wrist guard appears to be made out of quality hide leather.
+~
+A
+19 3
+A
+17 -10
+#25008
+leather backplate insert~
+a leather backplate insert~
+A leather backplate insert has been left here.~
+~
+9 0 524289 1
+2 2 0 0 0 2 0
+2 2 0
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+17 -15
+#25009
+saphara root~
+a saphara root~
+A saphara root has been left here.~
+~
+26 0 1
+60 -1 -1 -1 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+'sanctuary' 'NONE' 'greater heal'
+S 0 0
+#25010
+wing left mesh~
+a left wing mesh~
+A left wing mesh has been left here.~
+~
+9 0 134217729 64
+35 35 0 0 0 35 0
+1 274 22
+3
+2
+0
+0
+0
+0
+S 0 0
+A
+18 5
+A
+19 5
+#25011
+right wing mesh~
+a right wing mesh~
+A right wing mesh has been left here.~
+~
+9 0 268435457 64
+35 35 0 0 0 35 0
+1 265 22
+3
+2
+0
+0
+0
+0
+S 0 0
+A
+18 5
+A
+19 5
+#25012
+ancient scroll~
+an ancient scroll~
+An ancient scroll has been left here.~
+~
+35 0 1
+0 0 0 0 0 0 0
+1 155 15
+4
+5
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(hive) == 1
+mpquest $n hive 2
+endif
+~
+|
+#25050
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#25000
+The Hive Entrance~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 8 1
+D0
+~
+~
+0 -1 25001
+D11
+~
+~
+0 -1 60640
+R M 0 25010 1 25000
+S
+#25001
+Within the Hive~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here.
+~
+1 8 1
+D0
+~
+~
+0 -1 25002
+D2
+~
+~
+0 -1 25000
+S
+#25002
+Along the Pathway~
+Not Assigned~
+The passage becomes almost a right angle as turn sharply goes north here.
+There are several sets of tracks that lead north along the ground. An
+incredible amount of heat comes from the walls and ground here.
+~
+1 8 1
+D0
+~
+~
+0 -1 25005
+D1
+~
+~
+0 -1 25003
+D2
+~
+~
+0 -1 25001
+D3
+~
+~
+0 -1 25004
+S
+#25003
+Within a Hive Cell~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There 
+are small piles of skeleton bones shoved to the sides of the cell. A few 
+stalagmites are along the passage. A great heat comes from the ground. 
+~
+1 8 1
+D3
+~
+~
+0 -1 25002
+R M 1 25007 3 25003
+  R G 0 25012 1
+S
+#25004
+Within a Hive Cell~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There 
+are small piles of skeleton bones shoved to the sides of the cell. A few 
+stalagmites are along the passage. A great heat comes from the ground. 
+~
+1 8 1
+D1
+~
+~
+0 -1 25002
+R M 0 25005 1 25004
+  R E 0 25005 1 10
+S
+#25005
+A Widened Pathway~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 8 1
+D0
+~
+~
+0 -1 25006
+D2
+~
+~
+0 -1 25002
+S
+#25006
+Within the Hive Traveling Duct~
+Not Assigned~
+The passage is covered in a thick ash along the walls and ground. A heavy
+amount of ash still floats in the air. There is a large crack in the
+ground that the ash and hot air pours through.
+~
+1 16777224 1
+D2
+~
+~
+0 -1 25005
+D4
+~
+~
+0 -1 25009
+D5
+~
+~
+0 -1 25007
+S
+#25007
+Within the Hive Traveling Duct~
+Not Assigned~
+Large amounts of steam fill the passage descent obscuring most visibility.
+There are sharp stone crevices along the walls that can be made out every
+now and then. A hot gust of wind comes from below.
+~
+1 16777224 1
+D4
+~
+~
+0 -1 25006
+D5
+~
+~
+0 -1 25008
+D8
+~
+~
+0 -1 25016
+D9
+~
+~
+0 -1 25015
+S
+#25008
+The Bottom Floor of the Hive~
+Not Assigned~
+The tunnel splits off into a ledge of some sort to the northwest, and a small
+passage way to the northeast. Heat pours up from below. There are sharp rocks
+all along the sides of the tunnel walls.
+~
+1 8 1
+D4
+~
+~
+0 -1 25007
+D6
+~
+~
+0 -1 25013
+D7
+~
+~
+0 -1 25010
+R M 0 25002 2 25008
+  R E 0 25002 1 5
+  R G 0 25011 1
+S
+#25009
+Within the Hive Traveling Duct~
+Not Assigned~
+The passageway expands greatly here due to recent excavation. The sides
+have marks along them from some type of tool. There are giant sized
+mushrooms growing along the sides.
+~
+1 16777224 1
+D1
+~
+~
+0 -1 25020
+D3
+~
+~
+0 -1 25018
+D5
+~
+~
+0 -1 25006
+S
+#25010
+A Hive Intersection~
+Not Assigned~
+The passage expands on the sides becoming massive in size. There are
+recent excavation marks along the sides of the passage. There are signs of
+a battle taking place along this ground.
+~
+1 8 1
+D1
+~
+~
+0 -1 25012
+D3
+~
+~
+0 -1 25011
+D8
+~
+~
+0 -1 25008
+S
+#25011
+Within a Hive Cell~
+Not Assigned~
+There are several sets of stalagmites along the edges of the walls with a
+few giant clusters of mushrooms interspersed among them. There are gouges
+in the walls from large talons  The cell was recently broken into.
+~
+1 8 1
+D1
+~
+~
+0 -1 25010
+S
+#25012
+Within a Hive Cell~
+Not Assigned~
+There are several sets of stalagmites along the edges of the walls with a
+few giant clusters of mushrooms interspersed among them. There are gouges
+in the walls from large talons  The cell was recently broken into.
+~
+1 8 1
+D3
+~
+~
+0 -1 25010
+S
+#25013
+Before the Hive Antechamber~
+Not Assigned~
+The passageway narrows here the farther down traveled. A few broken talons 
+tell the tale of a wasp trying to dig down deeper. A series of giant 
+mushrooms grow along the edges of the passage. The heat all around is very 
+hot from the volcanic gases. 
+~
+1 8 1
+D1
+~
+~
+0 -1 25014
+D9
+~
+~
+0 -1 25008
+S
+#25014
+The Queen's Lair~
+Not Assigned~
+The tunnel is in reality a small lair for a beast. There are more bones
+scattered about the lair. A few rusted items from adventurers lay about as
+well. A few stalagmites are along the edges of the lair.
+~
+1 8 1
+D3
+~
+~
+0 -1 25013
+R M 0 25001 1 25014
+  R G 0 25001 1
+  R G 0 25010 1
+S
+#25015
+Within the Pathway~
+Not Assigned~
+A boulder the size of a large house is against the wall of the passage.
+There are large cracks in the boulder from water that has dripped down
+onto the boulder. A series of tracks lead off to the west.
+~
+1 8 1
+D6
+~
+~
+0 -1 25007
+S
+#25016
+Along the Pathway~
+Not Assigned~
+There are jagged rocks along the passage walls here. Several types of
+stalagmites grow throughout the passage. There are small obsidian stones
+along the ground. A great heat comes from the ground.
+~
+1 8 1
+D7
+~
+~
+0 -1 25007
+S
+#25017
+Along a Pathway~
+Not Assigned~
+The passage turns sharply to the south here. There is a heavy build up of
+ash along the walls and floor. A few cracks in the walls and floor have
+ash billowing out through them.
+~
+1 8 1
+D7
+~
+~
+0 -1 25016
+S
+#25018
+Along the Top Hive Landing~
+Not Assigned~
+The intersection expands outward as the recent excavation on the sides
+have greatly increased the size of the passage to the north. There are
+various types of tracks leading through the north passage
+~
+1 8 1
+D1
+~
+~
+0 -1 25009
+D9
+~
+~
+0 -1 25019
+S
+#25019
+A Food Storage Cell~
+Not Assigned~
+The massive cell has a tiered shelf system of storage for food.  Various creatures have
+been carefully packed away to be eaten later.  There are stalagmites throughout the cell
+area here.  A series of tracks lead in and out of the cell.
+~
+1 8 1
+D6
+~
+~
+0 -1 25018
+R M 0 25011 1 25019
+R M 0 25007 1 25019
+  R E 0 25006 1 13
+S
+#25020
+Along the Top Hive Landing~
+Not Assigned~
+The tunnel walls have stalagmites jutting up close to the sides of them. A
+small pool of hot water is in the center of the tunnel. There are signs of
+a hastily abandoned campfire here.
+~
+1 8 1
+D3
+~
+~
+0 -1 25009
+D8
+~
+~
+0 -1 25021
+S
+#25021
+Within the Top Hive Landing~
+Not Assigned~
+There are clusters of stalagmites around this cavern. A few giant sized
+mushrooms are growing along the walls. A few small rocks are piled to the
+rear of the cavern.
+~
+1 8 1
+D2
+~
+~
+0 -1 25022
+D7
+~
+~
+0 -1 25020
+R M 0 25008 1 25021
+  R E 0 25007 1 14
+S
+#25022
+A Hive Cell~
+Not Assigned~
+There are a pile of boulders and small rocks along the edge of the
+cell. Some type of collapse has happened there. There are many small
+bones scattered among the rocks. The ground is extremely hot here.
+~
+1 8 1
+D0
+~
+~
+0 -1 25021
+R M 0 25002 2 25022
+  R E 0 25003 1 6
+  R G 0 25008 1
+S
+#25050
+Floating in a void~
+Not Assigned~
+~
+1 12 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

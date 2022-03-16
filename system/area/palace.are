@@ -1,0 +1,985 @@
+#AREA        Demon Palace~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+100 100 100 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA strange clacking sound can be heard in the distance.~
+
+#FLAGS
+65988 15
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#8100
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8101
+Tanzean'al lord~
+Lord Tanzean'al~
+Lord Tanzean'al is surveying things here.
+~
+~
+1
+Clanname none~
+0
+0
+131075&36 4194432 -1000 C
+100 0 0 0d0+20000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+200 200 41 0 1048576 0 48 524355
+> fight_prog 20~
+mpforce demon mpkill $n
+eld $n
+mppause 20
+eld $n
+mppause 20
+eld $n
+~
+> all_greet_prog 100~
+if wasinroom($n) == 8106
+  mptutorial $n
+  mpechoat $n &GTanzean'al points at you, uttering 'hold place'.&D
+  mppause 8
+  mpechoat $n &CTanzean'al says, 'We have no time for interruptions.  Guards take care of these ones!'&D
+  mpforce demon follow tanzean'al
+  mptutorial $n
+  e
+  mpat $n mpmload 8106
+  mpat $n mpmload 8106
+  mpat $n mpmload 8106
+  mpat $n mpmload 8106
+  d
+  d
+  e
+  e
+else
+  if wasinroom($n) == 8122
+    mppause 5
+    mpechoat $n &CLord Tanzean'al says, 'Well there you are again.'&D
+    mppause 8
+    mpechoat $n &CLord Tanzean'al says, 'I suppose you think I have something
+    mpechoat $n &Cto do with that rift letting death knights into your world.
+    mpechoat $n &CI do not, that is the kindly death priest that was at the
+    mpechoat $n &Crift when you entered.  She is not what she seems.  Be gone
+    mpechoat $n &Cyou are a mere nuisance to me.'&D
+    mpquest $n rift 4
+    mppause 10
+    mpechoat $n &CDemon Lord Occata says, 'Lord Tanzean'al let me eat these ones.'&D
+  endif
+endif
+~
+|
+#8102
+Demon Lord Occata~
+Demon Lord Occata~
+Demon Lord Occata is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075&36 4194432&2097152 -1000 C
+100 0 0 0d0+15000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+150 150 41 0 8192 0 48 524291
+> fight_prog 20~
+if mobinroom(8101) == 1
+  mpforce tanzean'al mpkill $n
+endif
+c 'shadow bolt'
+mppause 20
+c 'shadow bolt'
+mppause 20
+c 'shadow bolt'
+mppause 20
+~
+|
+#8103
+dreadlord greater~
+a greater dreadlord~
+A Greater Dreadlord is consuming life energy from everything around here.
+~
+~
+1
+Clanname none~
+0
+0
+131107&4 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+> fight_prog 20~
+mpecho &YA Greater Dreadlord attacks $n's life energy!
+mpdamage $n 3000
+~
+|
+#8104
+Battle Demon~
+a battle demon~
+A battle demon is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107&4 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 0 0 0 49 2
+> fight_prog 20~
+mpecho &GA battle demon launches a flame blast at $n!
+mpdamage $n 2000
+~
+|
+#8105
+death knight commander~
+Death Knight Commander~
+The Death Knight Commander is giving orders here.
+~
+~
+1
+Clanname none~
+0
+0
+131107&4 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+> fight_prog 20~
+mpecho &GA death knight commander hits $n with a overhead attack!
+mpdamage $n 2000
+~
+|
+#8106
+death knight~
+a death knight~
+A death knight is standing guard here.
+~
+~
+1
+Clanname none~
+0
+0
+131107&4 4194944 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+> rand_prog 5~
+mount lizard
+mount 2.lizard
+~
+> fight_prog 100~
+mount lizard
+mount 2.lizard
+mpecho &GA death knight upon his mount rides wildly into $n thrusting with his lance into $s body!
+mpdamage $n 300
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+~
+|
+#8107
+giant riding lizard~
+a giant riding lizard~
+A giant riding lizard is here.
+~
+The giant riding lizard has bright green scales, and a
+flickering forked tongue.
+~
+9
+Clanname none~
+0
+0
+393475 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8150
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#8100
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#8101
+graven lance~
+a graven lance~
+A graven lance has been left here.~
+~
+5 0 8193
+10 45 100 6 12 95 0
+1 208 20
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+19 12
+A
+18 12
+#8102
+graven bastard sword~
+a graven bastard sword~
+A graven bastard sword is laying here.~
+~
+5 0 8193
+12 45 90 1 1 90 0
+5 199 19
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#8103
+large bed~
+a large bed~
+A large bed is in the corner here.~
+~
+12 0 0
+3 3000 1160 200 200 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#8104
+enslaver two handed sword~
+the "enslaver" two handed sword ~
+A two handed sword has been left here.~
+~
+5 0 8193
+12 1 5 1 0 90 0
+10 103 19
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+19 18
+> fight_prog 10~
+mpecho &bA blue flame bursts on the "enslaver" sword burning $n!
+mpdamage $n 50
+~
+|
+#8105
+jeweled bracer~
+a jeweled bracer~
+A jeweled bracer has been left here.~
+~
+9 0 4097
+60 60 0 0 0 95 0
+3 212 21
+1
+5
+0
+0
+0
+0
+S 77 0
+A
+19 12
+#8106
+harpoon staff~
+a harpoon staff~
+A harpoon staff has been left here.~
+~
+5 0 8193
+0 45 100 6 15 95 0
+6 187 18
+1
+1
+0
+0
+0
+0
+S 0 0
+A
+19 15
+#8107
+robes of tanzean'al~
+robes of tanzean'al~
+A dirty robe lays on the ground here.~
+~
+9 0 9 128
+60 60 0 0 0 95 0
+1 247 24
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+12 300
+A
+13 300
+A
+27 1048576
+A
+19 12
+A
+18 12
+#8108
+sash of tanzean'al~
+sash of tanzean'al~
+A dirty sash lays on the ground here.~
+~
+9 0 2049
+60 60 0 0 0 95 0
+1 247 24
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+12 300
+A
+13 300
+A
+27 1048576
+A
+19 12
+A
+18 12
+#8109
+tongue of occata necklace~
+a tongue of occata necklace~
+A tongue hanging from a necklace is laying here.~
+~
+9 0 5
+60 60 0 0 0 95 0
+1 247 24
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+3 1
+A
+12 300
+A
+13 300
+A
+27 1048576
+A
+19 12
+A
+18 12
+#8150
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#8100
+Before a Massive Palace~
+~
+There is a giant palace built up on the rocks of a mountain base. Two 
+large pillars support the roof that covers an enormous gate. There are 
+strange looking runes around the gate that are embedded into the stone. 
+The gate appears to be defended by guards. 
+~
+1 0 10
+D0
+~
+~
+0 -1 8101
+D11
+~
+~
+0 -1 6837
+S
+#8101
+Outside the Palace Gates~
+~
+Giant stout wood gates control the entrance and exit to the palace. There 
+is a stone roof platform over the gates. Murder holes are visible along 
+the walls where archers can shoot at undesirables. 
+~
+1 0 10
+D0
+~
+~
+0 -1 8102
+D2
+~
+~
+0 -1 8100
+R M 0 8106 3 8101
+  R E 0 8101 1 16
+  R G 0 8102 1
+R M 0 8106 3 8101
+  R E 0 8101 1 16
+  R G 0 8102 1
+R M 0 8107 2 8101
+R M 0 8107 2 8101
+S
+#8102
+Inside the Palace Gates~
+~
+There are large wooden platforms that allow access to the murder holes in 
+the walls. Archers line the walls along the platform. A stoic courtyard 
+extends into the palace. There are some types of vegetation growing along 
+the courtyard sides. A well used trail of small stones leads inside.
+~
+1 32 0
+D0
+~
+~
+0 -1 8103
+D2
+~
+~
+0 -1 8101
+S
+#8103
+Within the Inner Courtyard~
+~
+The courtyard has vegetation growing along the sides. There is a large 
+statue of someone resembling Tanzean'al in the center. A trail of small 
+stones lead down the center of the courtyard. 
+~
+1 32 0
+D0
+~
+~
+0 -1 8104
+D1
+~
+~
+0 -1 8108
+D2
+~
+~
+0 -1 8102
+S
+#8104
+The Reception Hall~
+~
+A massive hall with a long table. There are chairs lining the sides of the 
+table. A few paintings hang from the walls depicting various battles. A 
+series of hooded lanterns hang from wooden supports on the ceiling. 
+~
+1 32 0
+D0
+~
+~
+0 -1 8106
+D2
+~
+~
+0 -1 8103
+D3
+~
+~
+0 -1 8105
+R M 0 8104 1 8104
+  R E 0 8106 1 16
+  R E 0 8106 1 18
+R M 0 8105 1 8104
+  R E 0 8104 1 16
+  R E 0 8105 1 15
+  R E 0 8105 1 14
+S
+#8105
+The Kitchen~
+~
+There is a large pantry along the far wall. Shelves line the walls with 
+various ingredients on them. A large wooden table is in the center of the 
+room. A large water basin is mounted to the north wall. 
+~
+1 32 0
+D1
+~
+~
+0 -1 8104
+S
+#8106
+The Great Hall~
+~
+The massive hall has paintings and tapestries decorating the walls. There 
+are hooded lanterns mounted to the walls at intervals to provide lighting. 
+A lush thick blue rug runs the length of the hall. 
+~
+1 32 0
+D0
+~
+~
+0 -1 8110
+D1
+~
+~
+0 -1 8107
+D2
+~
+~
+0 -1 8104
+D3
+~
+~
+0 -1 8109
+S
+#8107
+The Servants Quarters~
+~
+There are torches mounted to the walls. The floor is made up of solid 
+stone slabs. There are some beds made out of stone, with blankets over the 
+top of them within the room. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8106
+S
+#8108
+Guard Barracks~
+~
+There are rows upon rows of bunks in this massive barracks. Each bunk has 
+a large chest in front of it, for supplies to be stored. The ground is 
+made of up stone slabs. There is a small blue rug that runs in the middle 
+of the bunks from the doorway to the end wall. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8103
+R M 0 8106 3 8108
+  R E 0 8102 1 16
+S
+#8109
+Guards Quarters~
+~
+There are two rows of bunks in this massive barracks. Each bunk has a 
+large chest in front of it, for supplies to be stored. The ground is made 
+of up stone slabs. There is a small blue rug that runs in the middle of 
+the bunks from the doorway to the end wall. 
+~
+1 0 0
+D1
+~
+~
+0 -1 8106
+S
+#8110
+Throne Room~
+~
+There is a massive throne chair built up on stone platform. There are 
+chairs that line the walls here. A red rug leads up to the throne. A set 
+of stairs lead up onto the throne. There are hooded lanterns suspended 
+above from the ceiling to provide lighting. 
+~
+1 32 0
+D1
+~
+~
+0 -1 8118
+D2
+~
+~
+0 -1 8106
+D3
+~
+~
+0 -1 8111
+R M 0 8101 1 8110
+  R E 0 8107 1 5
+  R E 0 8108 1 13
+R M 0 8102 1 8110
+  R E 0 8109 1 3
+S
+#8111
+Tower Lower Landing~
+~
+There is a stairway made out of some type of black stone that leads up 
+into the tower. There are hooded lanterns mounted to the walls to provide 
+lighting. Tapestries hang from the walls. 
+~
+1 32 0
+D1
+~
+~
+0 -1 8110
+D4
+~
+~
+0 -1 8112
+S
+#8112
+Within the Stairway~
+~
+The walls and stairs are made out of a black stone. There are hooded 
+lanterns along the walls to provide for the lighting. A stone that has a 
+resemblance to wood is used on a handrail that is attached to the walls. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8113
+D4
+~
+~
+0 -1 8114
+D5
+~
+~
+0 -1 8111
+S
+#8113
+Honored Guest Room~
+~
+The walls have elegant tapestries hanging from them. There is a hooded 
+lantern that hangs from the ceiling. A large closet is opposite of the 
+bed. There is a thick lush blue rug centered on the floor. 
+~
+1 0 0
+D1
+~
+~
+0 -1 8112
+R O 0 8103 1 8113
+S
+#8114
+Along the Stairway~
+~
+There are some cracks in the walls beside a window that peers out over the 
+desert. The stairway and walls are made out of black stone substance. 
+There are hooded lanterns mounted to the walls. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8115
+D4
+~
+~
+0 -1 8116
+D5
+~
+~
+0 -1 8112
+S
+#8115
+Meeting Room~
+~
+There is a massive table in this room with chairs lining the sides. A few 
+hooded lanterns are suspended from the ceiling. There are maps of the 
+world posted on the walls. 
+~
+1 0 0
+D1
+~
+~
+0 -1 8114
+R M 0 8104 3 8115
+  R E 0 8106 1 16
+  R E 0 8106 1 18
+R M 0 8104 3 8115
+  R E 0 8106 1 16
+  R E 0 8106 1 18
+S
+#8116
+Upper Tower Landing~
+~
+The upper level of the tower has black stone stairs that lead downward. 
+There are beautiful paintings hanging on the walls. A hooded lantern is 
+suspended from the ceiling. A high-backed chair is in the corner. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8117
+D5
+~
+~
+0 -1 8114
+S
+#8117
+Master Bedroom~
+~
+There are plush blue curtains mounted to the wall over a large window that 
+provides a commanding view of the countryside. A dark blue rug is centered 
+on the floor. There is a hooded lantern suspended from the ceiling. 
+~
+1 0 0
+D1
+~
+~
+0 -1 8116
+R O 0 8103 1 8117
+S
+#8118
+Underground Stairway~
+~
+The walls are covered in a blackish-red substance. There is a hooded 
+lantern suspended from the ceiling above. The stairs are made from a 
+strange black colored stone. A few bones are scattered along the stairs. 
+~
+1 32 0
+D3
+~
+~
+0 -1 8110
+D5
+~
+~
+0 -1 8119
+S
+#8119
+Along the Stairway~
+~
+Several iron spikes are mounted to the walls here. A hooded lantern is 
+suspended from the ceiling. The stairs are made from a strange black 
+covered stoned. A few small cracks are in the walls. 
+~
+1 0 0
+D1
+~
+~
+0 -1 8120
+D4
+~
+~
+0 -1 8118
+D5
+~
+~
+0 -1 8121
+S
+#8120
+An Arcane Library~
+~
+There are rows of shelves all along the walls with various books on them. 
+The books all have titles in an unknown language on them. There is a 
+hooded lantern suspended from the ceiling. A few chairs are around the 
+room.  A large blue rug is centered on the floor.
+~
+1 0 0
+D3
+~
+~
+0 -1 8119
+R M 0 8106 5 8120
+  R E 0 8102 1 16
+R M 0 8106 5 8120
+  R E 0 8102 1 16
+S
+#8121
+Into the Depths~
+~
+The walls and floor are made out of solid stone slabs. There are hooded 
+lanterns attached to the walls here. A few odd looking hooks are mounted 
+to the walls at various intervals. 
+~
+1 32 0
+D1
+~
+~
+0 -1 8122
+D4
+~
+~
+0 -1 8119
+S
+#8122
+Along a Dark Passagway~
+~
+The ground is covered in a variety of skulls. There are a few half alive 
+creatures hanging from hooks on the walls. A few hooded lanterns are 
+mounted to the walls to provide lighting. 
+~
+1 32 0
+D1
+~
+~
+0 -1 8123
+D3
+~
+~
+0 -1 8121
+R M 0 8103 1 8122
+S
+#8123
+A Massive Slaughter Chamber~
+~
+&rThe walls are covered with a fresh coating of blood, and human parts. 
+There are hooks hanging from the walls. A few hooded lanterns are 
+suspended from the ceiling. There are skulls coating the floor. 
+~
+1 0 0
+D3
+~
+~
+0 -1 8122
+S
+#8150
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

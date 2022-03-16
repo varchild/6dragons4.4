@@ -1,0 +1,1513 @@
+#AREA        Estate of Unrest~
+
+
+
+#VERSION     11
+#AUTHOR      Greetmir~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+25 50 25 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &O[Yell] Someone: Argh!!! Help me please!&D~
+
+#FLAGS
+81920 15
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 7200000 0 0 10 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#19500
+undead butler~
+an undead butler~
+A tall man wearing a three piece suit stands here smiling courteously.
+~
+Faldwyn the Butler is a tall crisply dressed man with pride of place showing in his erect posture.
+~
+13
+Clanname none~
+0
+0
+131075&36 0 -1000 C
+35 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 4 0 0 1 1 0
+40 40 2047 0 0 0 112 3
+> greet_prog 100~
+if ispc($n)
+  if race($n) == Demon
+  or race($n) == Vampire
+  or level($n) > 100
+    mppause 6
+    mpechoat $n &cAn undead butler cautiously allows you to enter the estate.&D
+  else
+    mppause 3
+    mpkill $n
+    mppause 10
+    mpechoat $n &CAn undead butler says, 'Your mortal soul and living flesh will fill my hunger.'&D
+  endif
+endif
+~
+|
+#19501
+Minor Demon Jaexsv~
+Minor Demon Jaexsv~
+An insect-like demon is standing here.
+~
+Young Connell Wiggins is an impish looking boy with blonde hair.
+~
+0
+Clanname none~
+0
+0
+1&4 4194432 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+70 70 2047 0 0 0 1342183425 2115
+> all_greet_prog 100~
+if iswearing($n) == 19506
+  mppause 5
+  mpechoat $n &cMinor Demon Jaexsv sees the sword of Zalkyze and begins to rant uncontrollably.&D
+  mppause 6
+  mpkill $n
+  mppause 10
+  mpechoat $n &GThe sword of Zalkyze glows brightly!&D
+  mpmset self affected poison
+  mppause 20
+  mpechoat $n &rThe sword of Zalkyze glows brightly!&D
+  mpmset self affected brittle_bones
+  mppause 20
+  mpechoat $n &PThe sword of Zalkyze glows brightly!&D
+  mpmset self affected faerie_fire
+else
+  mpkill $n
+endif
+~
+> death_prog 100~
+if quest(zalkyze) == 2
+  mpquest $n zalkyze 3
+endif
+~
+|
+#19502
+rotting flesh zombie~
+a rotting flesh zombie~
+A rotting flesh zombie is shambling towards you.
+~
+The grayish green skin and flesh on the zombie is diseased and cracked 
+open in many places. 
+~
+13
+Clanname none~
+0
+0
+131075&4 0 -1000 C
+32 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 2 0 0 1 1 0
+30 30 2047 0 0 0 97 515
+> greet_prog 100~
+mppause 8
+mea $n &cThe Estate Chef says, '&cI am afraid that we are VERY busy and dinner won't be ready for quite some time.'&D
+mppause 8
+mea $n The Estate Chef raises his nose into the air and looks away.
+~
+> all_greet_prog 100~
+if ispc($n)
+  if race($n) == Demon
+  or race($n) == Vampire
+    mppause 6
+    mpechoat $n &cA rotting flesh zombie cautiously allows you to enter the room.&D
+  else
+    mppause 3
+    mpkill $n
+    mppause 10
+    mpechoat $n &CA rotting flesh zombie says, 'Your mortal soul and living flesh will fill my hunger.'&D
+  endif
+endif
+~
+|
+#19503
+Greater Skeleton~
+a Greater Skeleton~
+A greater skeleton is moving towards you.
+~
+Grandma Janiri Wiggins has very white hair and looks rather
+fit even considering her relaxed demeanour.
+~
+5
+Clanname none~
+0
+0
+131075&4 268435456 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 4 0 0 1 1 0
+50 50 2047 0 0 0 161 259
+> greet_prog 100~
+if ispc($n)
+  if race($n) == Demon
+  or race($n) == Vampire
+    mppause 6
+    mpechoat $n &cA greater skeleton cautiously allows you to enter the room.&D
+  else
+    mppause 3
+    mpkill $n
+    mppause 10
+    mpechoat $n &CA greater skeleton says, 'Your mortal soul and living flesh will fill my hunger.'&D
+  endif
+endif
+~
+|
+#19504
+lesser skeleton animated~
+a lesser skeleton ~
+An animated skeleton moves shakily towards you.
+~
+Isenrain's pointed eartips barely protrude from her flowing long brown hair.
+~
+5
+Clanname none~
+0
+0
+1073741825&4 0 -1000 C
+36 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 1 0 0 1 1 0
+40 40 2047 0 0 0 536870945 3
+> all_greet_prog 100~
+if ispc($n)
+if race($n) == Demon
+or race($n) == Vampire
+mppause 6
+emote cautiously allows you to enter the room.
+else
+mppause 3
+mpkill $n
+mppause 10
+say Your mortal soul and living flesh will fill my hunger.
+endif
+endif
+~
+|
+#19505
+pale faced vampire~
+a pale faced vampire~
+A pale faced vampire is standing here.
+~
+The pale faced figure wears a black cloak.  There is an old musty smell
+coming from the cloak.
+~
+5
+Clanname none~
+0
+0
+131075&4 0 -1000 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 6 0 0 1 1 0
+55 55 2047 0 0 0 2912 524547
+> greet_prog 100~
+if ispc($n)
+  if race($n) == Demon
+  or race($n) == Vampire
+    mppause 6
+    mpechoat $n &cA pale faced vampire cautiously allows you to enter the room.&D
+  else
+    mppause 3
+    mpkill $n
+    mppause 10
+    mpechoat $n &CA pale faced vampire says, 'Your mortal soul and living flesh will fill my hunger.'&D
+  endif
+endif
+~
+|
+#19506
+Lesser Banshee~
+a Lessor Banshee~
+A lessor Banshee is floating in here.
+~
+This young woman has her long blonde hair tied into a ponytail.
+~
+5
+Clanname none~
+0
+0
+131075&4 0 -1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 2 0 0 1 1 0
+50 50 2047 0 0 0 4129 7
+> greet_prog 100~
+if ispc($n)
+  if race($n) == Demon
+  or race($n) == Vampire
+    mppause 6
+    mpechoat $n &cA lessor banshee cautiously allows you to enter the room.&D
+  else
+    mppause 3
+    mpkill $n
+    mppause 10
+    mpechoat $n &CA lessor banshee says, 'Your mortal soul and living flesh will fill my hunger.'&D
+  endif
+endif
+~
+|
+#19507
+rotting flesh hand~
+a rotting flesh hand~
+A rotting flesh hand scoots along towards you.
+~
+~
+13
+Clanname none~
+0
+0
+97 512 0 C
+24 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 4 0 0 1 1 2
+0 0 15 0 0 0 0 0
+#19508
+elf prince tolvaen~
+Elf Prince Tolvaen~
+A dying elf laying in a pool of blood is here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+If ispc($n)
+  If race($n) == Demon
+  Or race($n) == Vampire
+    Mppause 3
+    mpechoat $n &cElf Prince Tolvaen looks boldly at you awaiting deaths embrace.&D
+  Else
+    if quest(zalkyze) != 1
+      Mppause 4
+      mpechoat $n &cElf Prince Tolvaen makes a gurgling sound as he chokes on his fluids, then coughs loudly.&D
+      Mppause 6
+      mpechoat $n &CElf Prince Tolvaen says, 'You are the only hope.The dark power that resides here.I could not beat.'&D
+      Mppause 6
+      mpechoat $n &CElf Prince Tolvaen says, 'You must find the Scimitar Zalkyze to defeat the evil here.'&D
+      Mppause 10
+      mpechoat $n &CElf Prince Tolvaen says, 'Say you'll accept this charge quickly, because I am dying now.'&D
+      Mpechoat $n &cType &WSAY ACCEPT &cto begin the Zalkyze Quest.&D
+      Mppause 20
+      Mpat 4 look
+      Mppause 20
+      Mpat 4 look
+      Mppause 10
+      mpechoat $n &cElf Prince Tolvaen suddenly falls back with a thud, and stops breathing.&D
+      Mpgoto 4
+    Endif
+  Endif
+endif
+~
+> speech_prog accept~
+if race($n) == demon
+or race($n) == vampire
+else
+  Mpquest $n zalkyze 1
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#19500
+Pony Barn Path Sign~
+Pony Barn Path Sign~
+A sign on a post is here, canted slightly.~
+~
+12 0 0
+0 0 0 0 0 0 0
+3000 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+sign~
+&WPlease keep the gates to the corrals closed at all times!&D
+
+&D&G                  Thank you, Chadim Zuilast, Stablehand
+
+~
+#19501
+ebony two-handed sword~
+an ebony two-handed sword~
+An ebony two-handed sword lays here.~
+~
+5 0 8193
+12 38 51 1 0 30 0
+8 218 21
+3
+13
+0
+0
+0
+0
+S 0 0
+E
+'sword' 'ebony' 'two-handed'~
+The ebony blade appears to absorb all light nearby.  There is a dark
+power that comes from the blade.
+~
+A
+19 6
+#19502
+piece right scimitar blade~
+a right piece of a curved scimitar blade~
+A right piece of a curved scimitar blade has been left here.~
+slash~
+54 0 16385
+19503 19503 19504 3 0 25 0
+6 5 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+rusty sword scimitar~
+Very rusty and old...it has a wide blade and chunks missing from
+its cutting edge.
+~
+#19503
+piece left scimitar blade~
+a left piece of a curved scimitar blade~
+A left piece of a curved scimitar blade has been left here.~
+slash~
+54 0 16385
+19502 19502 19504 3 0 25 0
+6 5 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+rusty sword scimitar~
+Very rusty and old...it has a wide blade and chunks missing from
+its cutting edge.
+~
+#19504
+complete piece scimitar blade~
+the complete piece of a curved scimitar blade~
+The complete piece of a curved scimitar blade lays here.~
+slash~
+54 0 16385
+25 19505 19506 3 0 25 0
+6 5 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+rusty sword scimitar~
+Very rusty and old...it has a wide blade and chunks missing from
+its cutting edge.
+~
+#19505
+scimitar hilt piece~
+a scimitar hilt piece~
+The complete piece of a curved scimitar blade lays here.~
+slash~
+54 0 16385
+19504 50 19506 3 0 25 0
+6 5 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+rusty sword scimitar~
+Very rusty and old...it has a wide blade and chunks missing from
+its cutting edge.
+~
+#19506
+scimitar sword Zalkyze~
+the Zalkyze scimitar sword~
+A scimitar sword has been left here.~
+~
+5 0 8193
+0 15 30 1 1 30 90
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'sword' 'scimitar' 'zalkyze'~
+The mystical blade long since thought gone... Zalkyze was forged by elves
+to kill the undead that plagued the lands.
+~
+A
+26 8192
+A
+18 6
+A
+19 4
+A
+1 2
+> wear_prog 100~
+if quest(zalkyze) == 1
+mpquest $n zalkyze 2
+endif
+~
+|
+#19507
+the spilled blood~
+the spilled blood~
+&rA pool of spilled blood lies here.&D~
+~
+27 0 0
+5 0 0 1 0 0 0
+1 0 0
+1
+6
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#19500
+The Entrance to a Large Estate~
+~
+The massive building has large marble columns that provide support. The 
+columns have thick vines that climb up their lengths. There are hooded 
+lanterns mounted to both sides of the doorway to provide lighting. A few 
+massive stone slabs are setup as stairs leading to the door. 
+~
+1 4 11
+D2
+~
+~
+3 -1 19501
+D11
+~
+~
+0 -1 41428
+R D 0 19500 2 1
+S
+#19501
+The Mud Room~
+~
+This comfortable vestibule is richly appointed with silver framed artwork 
+with long flowing gilded drapes between them. The floor is a very dark, 
+highly polished wood and the walls are a rich creamy coffee colour. Hanging
+from the ceiling is a small highly reflective crystal and brass chandelier. 
+~
+1 137363464 0
+D0
+~
+~
+3 -1 19500
+D1
+~
+~
+3 -1 19504
+D2
+~
+~
+3 -1 19503
+D3
+~
+~
+3 -1 19502
+R M 0 19500 1 19501
+  R G 0 19502 1
+R D 0 19501 0 1
+R D 0 19501 1 1
+R D 0 19501 2 1
+R D 0 19501 3 1
+S
+#19502
+The Cloakroom~
+~
+This small room is lined with hooks on the wall waiting for coats with little
+shelves above probably designed for hats. It is a compact but efficient and
+practical room but is very dimly lit and therefore quite gloomy looking.
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19501
+R D 0 19502 1 1
+S
+#19503
+The North End of the Main Corridor~
+~
+This is the beginning of a long corridor which stretches for quite a way 
+to the south with many doors in evidence. To the east is the Sitting Room, 
+and from the west comes savory smells of delicious food. The corridor is 
+well insulated with a thick carpet against loud sounds and cool floors. In 
+the northwest corner of this space there is a staircase leading upwards 
+and to the northeast you see another leading downwards. 
+~
+1 3145736 0
+D0
+~
+~
+3 -1 19501
+D1
+~
+~
+3 -1 19512
+D2
+~
+~
+0 -1 19507
+D3
+~
+~
+3 -1 19505
+D6
+~
+~
+0 -1 19539
+D7
+~
+~
+0 -1 19527
+R M 0 19508 1 19503
+R M 0 19507 10 19503
+R O 0 19507 1 19503
+R D 0 19503 0 1
+R D 0 19503 1 1
+R D 0 19503 3 1
+S
+#19504
+The Library~
+~
+All the walls are covered floor to ceiling with bookshelves bearing a huge 
+selection of books and scrolls. There is a large crystal chandelier 
+overhead providing plenty of light for those that would wish to read from 
+the many tomes in this collection of literature. The floor is covered with 
+a soft green carpet to dampen footsteps that may disturb a reader. There 
+is a large table in the center of the room with four comfortable-looking 
+chairs around it. 
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19501
+R D 0 19504 3 1
+S
+#19505
+The Kitchen~
+~
+It is obvious from the number of dented worn pans and well used cutting 
+board that this kitchen has been the site of many a meal preparation. 
+There seems to be a fine film of grease over everything and the 
+temperature in here is quite warm. A huge wood-burning cooking stove is 
+happily roaring away and the soup pot on the back of the stove is 
+simmering and giving out smells of a delicious soup stock being made. 
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19503
+D2
+~
+~
+3 -1 19513
+D3
+~
+~
+3 -1 19511
+R M 0 19502 1 19505
+R D 0 19505 1 1
+R D 0 19505 2 1
+R D 0 19505 3 1
+S
+#19506
+Floating in a void~
+~
+~
+1 3145740 0
+S
+#19507
+The Centre of the Main Corridor~
+~
+Here in the center of the main corridor, the door to the east leads to the 
+Servants' Lounge and to the west is seen the door which opens to the 
+Dining Room. More doors can be seen further north and further south along 
+this expanse of corridor. 
+~
+1 3145736 0
+D0
+~
+~
+0 -1 19503
+D1
+~
+~
+3 -1 19514
+D2
+~
+~
+0 -1 19508
+D3
+~
+~
+3 -1 19513
+R M 0 19507 5 19507
+R D 0 19507 1 1
+R D 0 19507 3 1
+S
+#19508
+The South End of the Main Corridor~
+~
+This is the southern end of the main corridor. To the south is a door 
+leading out onto the back porch. To the west is the downstairs bathroom 
+and to the east is the Conservatory. To the north further along the main 
+corridor are many doorways. 
+~
+1 3145736 0
+D0
+~
+~
+0 -1 19507
+D1
+~
+~
+3 -1 19515
+D2
+~
+~
+3 -1 19509
+D3
+~
+~
+3 -1 19516
+R D 0 19508 1 1
+R D 0 19508 2 1
+R D 0 19508 3 1
+S
+#19509
+The Back Porch~
+~
+There is nothing much here. Mostly this porch is only used for doffing 
+ones boots after being in the pony barn or the corral so as not to make a 
+mess of the carpets in the house. 
+~
+1 3145740 0
+D0
+~
+~
+3 -1 19508
+D2
+~
+~
+3 -1 19518
+R D 0 19509 0 1
+R D 0 19509 2 1
+S
+#19510
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19511
+The Pantry~
+~
+This is a very small and cramped pantry, but it seems quite well stocked 
+with many food items required by a busy, bustling kitchen. Shelves upon 
+shelves are filled to overflowing with a variety of things and there is a 
+cabinet in the south west corner of the room. 
+~
+1 3145736 1
+D1
+~
+~
+3 -1 19505
+R D 0 19511 1 1
+S
+#19512
+The Sitting Room~
+~
+This quiet sitting room is the favorite haunt of Grandma Janiri Wiggins. 
+She finds it to be very comfortable and draft free unlike some of the 
+other rooms in the house that are closer to outside doors. The rocking 
+chair in here was brought especially from her previous residence for her 
+and is her favourite piece of furniture. 
+~
+1 3145736 1
+D3
+~
+~
+3 -1 19503
+R M 0 19503 1 19512
+  R G 0 19505 1
+R D 0 19512 3 1
+S
+#19513
+The Dining Room~
+~
+What a grand Dining Room this is! Beautiful scenic paintings with gilded 
+frames line the walls and the floor is covered with a plush burgundy 
+carpet. A massive oval mahogany table adorns the center of the room and is 
+surrounded by ten matching arm chairs with luxuriously carved backs and 
+legs. There are sounds of clattering dishes and clanging pots to the 
+north. The way to the main corridor is to the east. 
+~
+1 3145736 1
+D0
+~
+~
+3 -1 19505
+D1
+~
+~
+3 -1 19507
+R D 0 19513 0 1
+R D 0 19513 1 1
+S
+#19514
+The Servants' Lounge~
+~
+Even the servants in Wiggins Estate are treated with an air of luxury and 
+elegance. This lounge has been specifically set aside so that they may 
+come here during their rest periods to relax before going back on shift. 
+All around are various refreshments and snacks provided by the kitchen so 
+that they are never short supply of a snack or refreshment. 
+~
+1 3145736 1
+D3
+~
+~
+3 -1 19507
+R D 0 19514 3 1
+S
+#19515
+The Conservatory~
+~
+There are the strong smells of lemon geraniums and rich soil in this 
+peaceful Conservatory. A comfortable bench runs the length of the north 
+wall and looks out through windows to the south over the rear lawns and to 
+the east over the western pony corral where a feed trough full of freshly 
+cut hay is seen. Across the hall to the west is the main floor bathroom.
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19508
+R D 0 19515 3 1
+S
+#19516
+The Main Floor Bathroom~
+~
+This, the main floor bathroom seems quite luxuriously appointed with a 
+huge bath and a large vanity mirror strattled by shelves over the sink. 
+Even the toilet looks quite luxurious and comfortable. 
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19508
+R D 0 19516 1 1
+S
+#19517
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19518
+The Rear Lawns~
+~
+This huge expanse of well-trimmed lawn extends to the east over to the 
+pony corrals and pony barn and to the west towards large vegetable and 
+flower gardens. Obviously, the gardener has been very busy lately. 
+~
+1 3145728 1
+D0
+~
+~
+3 -1 19509
+D1
+~
+~
+0 -1 19519
+D3
+~
+~
+0 -1 19523
+R D 0 19518 0 1
+S
+#19519
+A Path to the Pony Barn~
+~
+Along this serene path wafts the smells of pony manure, freshly cut grass 
+and dark rich soil. The Pony Barn is to the east and the Western Pony 
+Corral is to the northeast on the east side of the house. 
+~
+1 3145732 1
+D1
+~
+~
+3 -1 19522
+D3
+~
+~
+0 -1 19518
+D6
+~
+~
+3 -1 19520
+R O 0 19500 1 19519
+R D 0 19519 1 1
+R D 0 19519 6 1
+S
+#19520
+The Western Pony Corral~
+~
+This is the Western Pony Corral which runs along the east side of the 
+house where you can see through the windows into the Conservatory. A food 
+trough sits here full of freshly cut hay for the ponies to nibble on at 
+their leisure, as well as a water trough to fend away thirst. To the south 
+is the Pony Barn and to the east is the Eastern Pony Corral. 
+~
+1 3145728 1
+D1
+~
+~
+3 -1 19521
+D2
+~
+~
+3 -1 19522
+D9
+~
+~
+3 -1 19519
+R D 0 19520 1 1
+R D 0 19520 2 1
+R D 0 19520 9 1
+S
+#19521
+The Eastern Pony Corral~
+~
+This corral has the evidence of a training and workout corral for the 
+ponies with a well warn path around the inside of the fence and small 
+jumps and obstacles to jump over in the central area. The Pony Barn is to 
+the southwest and the Western Pony Corral is to the west. 
+~
+1 3145728 1
+D3
+~
+~
+1 -1 19520
+D9
+~
+~
+1 -1 19522
+R D 0 19521 3 0
+R D 0 19521 9 0
+S
+#19522
+The Pony Barn~
+~
+It is quite warm and humid in here. Obviously, however, the stablehand has 
+been working hard to keep it as clean and tidy as possible. There are four 
+stalls here where the ponies may be placed for grooming and special 
+attention. Various tack lines the walls and a workbench is in one corner 
+where Chadim might perform repairs or cleaning of saddles or bridles and 
+other gear. The corrals are through large doors to the north and northeast.
+~
+1 3145728 1
+D0
+~
+~
+3 -1 19520
+D3
+~
+~
+3 -1 19519
+D6
+~
+~
+3 -1 19521
+R D 0 19522 0 1
+R D 0 19522 3 1
+R D 0 19522 6 1
+S
+#19523
+The Vegetable Garden~
+~
+Here are long rows of immaculately kept and very healthy looking 
+vegetables. The gardener must take great pride in his cultivation of these 
+wonderful culinary delights. There seems to be a soft blue glow hanging 
+over the produce in this garden. Perhaps this means there may be some 
+magic at work here in this place. To the west is the Gardener's Shack and 
+to the southwest is a truly beautiful Rose Garden. 
+~
+1 3145728 1
+D1
+~
+~
+0 -1 19518
+D3
+~
+~
+3 -1 19524
+D9
+~
+~
+0 -1 19526
+R D 0 19523 3 1
+S
+#19524
+The Gardeners Shack~
+~
+Tools related to gardening lie about all over the place in this shack. The 
+gardener certainly does keep his gardens in a much better condition than 
+he does his working space. It smells quite musty in here and could use 
+airing. To the east is the vegetable garden and to the south is the rose
+garden. There is a also a heavily reinforced door to the west.
+~
+1 3145728 1
+D1
+~
+~
+3 -1 19523
+D2
+~
+~
+3 -1 19526
+D3
+~
+~
+7 -1 19525
+R D 0 19524 1 1
+R D 0 19524 2 1
+R D 0 19524 3 2
+S
+#19525
+The Tulip Garden~
+~
+So here is where Reladur hides his private tulip garden. They look absolutely
+beautiful to gaze upon. He must be very proud of this hidden away splash
+of vibrant colour. The tulips look as though they could win blue ribbons at
+the Paleon Spring Fair. To the east is the sturdy door into the Gardener's Shack.
+~
+1 3145728 1
+D1
+~
+~
+7 -1 19524
+R D 0 19525 1 2
+S
+#19526
+The Rose Garden~
+~
+This garden awash with many colours and breeds of roses. They are
+immaculately pruned and have huge blossoms. To the north is the
+Gardener's Shack and to the northeast is the Vegetable Garden.
+~
+1 3145728 1
+D0
+~
+~
+3 -1 19524
+D6
+~
+~
+0 -1 19523
+R D 0 19526 0 1
+S
+#19527
+The Second Floor Landing~
+~
+Looking northward from the main landing there is a short hallway, while to 
+the south the hallway is much longer. There are many doors to be seen in 
+this hallway. It is covered in a deep blue carpet to absorb noise so that 
+those who may be sleeping are not disturbed. To the west here, is the 
+Nursery and the Nurse's Quarters are through the door to the east.
+In the southwest direction are the stairs leading down to the Main Floor.
+~
+1 3145736 1
+D0
+~
+~
+0 -1 19530
+D1
+~
+~
+3 -1 19529
+D2
+~
+~
+0 -1 19533
+D3
+~
+~
+3 -1 19528
+D8
+~
+~
+0 -1 19503
+R D 0 19527 1 1
+R D 0 19527 3 1
+S
+#19528
+The Nursery~
+~
+This is a delightfully decorated nursery for the Wiggins' baby. The walls 
+are a luxurious lilac colour while the trim is done in a light burgundy. 
+The hand crafted crib and changing table beside it are both a veritable 
+work of art and a showing of the stature and wealth of this family.
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19527
+R D 0 19528 1 1
+S
+#19529
+The Nurse's Quarters~
+~
+Here is where Lliaryth the Nurse spends her time when she is not tending 
+to Baby Wiggins. It is a small room and sparcely decorated yet looks very 
+cozy and clean. The room is quite brightly painted, so it seems quite 
+cheerful. 
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19527
+R D 0 19529 3 1
+S
+#19530
+The North End of the Second Floor Hallway~
+~
+This is the northern extreme of the second floor hallway. To the west is 
+little Finella Wiggins' bedroom and to the east is little Connell Wiggins' 
+bedroom. The Second Floor Landing is to the south. 
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19532
+D2
+~
+~
+0 -1 19527
+D3
+~
+~
+3 -1 19531
+R O 0 19507 1 19530
+R D 0 19530 1 1
+R D 0 19530 3 1
+S
+#19531
+A Large Bedroom~
+~
+This is definitely a young lady's room. There is pink and pink and pink 
+with white lace everywhere. There are many dolls lying around that seem to 
+have a bit of a blue glow or aura around them. This might indicate that 
+Finella is so precious to her parents that they have deemed it fitting to 
+shower her with extremely expensive and rare magical dolls. There is a 
+stunning view of the sun setting over the west harbour through the window 
+every evening. 
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19530
+R M 0 19506 1 19531
+R D 0 19531 1 1
+S
+#19532
+An Inner Sanctum~
+~
+This small room is painted a soft blue colour and the walls are covered 
+with paintings of unicorns, satyrs, faeries and other magical animals. 
+Various toys are strewn about the room.  A series of unholy markings in
+blood cover the walls and floor.
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19530
+R M 0 19501 1 19532
+R O 0 19507 1 19532
+R D 0 19532 3 1
+S
+#19533
+Further Along the Second Floor Hallway~
+~
+The hallway continues southward and northward. The bedroom of the Wiggins 
+grandparents is to the east and the master bedroom is to the west. There 
+are doorways further in the hallway to the south and north. 
+~
+1 3145736 0
+D0
+~
+~
+0 -1 19527
+D1
+~
+~
+3 -1 19535
+D2
+~
+~
+0 -1 19536
+D3
+~
+~
+3 -1 19534
+R D 0 19533 1 1
+R D 0 19533 3 1
+S
+#19534
+The Master Bedroom~
+~
+This bedroom is HUGE. The bed alone is the size of some of the other bedrooms
+in this large mansion. The four poster bed is plated with gold and the art
+on the walls is astounding. Most of the paintings depict battle scenes 
+including cavalry attacks and castle breaches. It is simply a grand room.
+There is a fine view over the gardens and the harbour to the west.
+~
+1 3145736 0
+D1
+~
+~
+1 -1 19533
+R D 0 19534 1 0
+S
+#19535
+The Grandparents' Bedroom~
+~
+Lace and chince and satin are all over this room. The paintings on the wall 
+are mostly of woodland scenery and castles. This is not a huge room but it 
+seems quite comfortable if rather dated and overly fancy. Grandpa Kajarn 
+Wiggins obviously has less say about the decor in here than does Grandma 
+Janiri Wiggins. This is another room that is blessed with the morning sun. 
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19533
+R D 0 19535 3 1
+S
+#19536
+The South End of the Second Floor Hallway~
+~
+This is the southernmost end of the second floor hallway. The Upper 
+Bathroom is to the west while Uncle Tyrnon Therg's bedroom is to the east. 
+There is a window on the south wall overlooking the estate's Rear Lawns.
+Many doorways line the length of the Second Floor Hallway to the north.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 19533
+D1
+~
+~
+3 -1 19538
+D2
+~
+~
+100663296 -1 19518
+D3
+~
+~
+3 -1 19537
+R M 0 19507 5 19536
+R M 0 19507 5 19536
+R O 0 19507 1 19536
+R D 0 19536 1 1
+R D 0 19536 3 1
+S
+#19537
+The Upper Bathroom~
+~
+This is the exquisitely fitted main bathroom. Everywhere you look you can see
+gold glimmering. Even the mirrored cabinet above the sink is plated with gold.
+A huge bathtub also equipped with golden fixtures dominates the room.
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19536
+R M 0 19505 1 19537
+  R E 0 19501 1 16
+  R G 0 19503 1
+R O 0 19507 1 19537
+R D 0 19537 1 1
+S
+#19538
+Uncle Tyrnon Therg's Bedroom~
+~
+Does it ever STINK in here! It is obvious that Uncle Tyrnon Therg is a 
+very heavy smoker. The very walls are yellow, sticky, and collecting dust. 
+This is a tiny bachelor bedroom but is messy enough for a grand hall. 
+Through the stench of the smoke, there are even worse odours coming from 
+the bed. It might be best not to investigate into that any further.
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19536
+R D 0 19538 3 1
+S
+#19539
+The Central Cellar~
+~
+The central part of the basement level is not very inviting. This estate 
+may have been built on the foundation of a much older structure. The walls 
+are constructed of rock and are oozing water in many places. It is quite 
+damp here. There are doors in all four of the main cardinal directions that
+lead to special purpose storage cellars of various types from here.
+~
+1 3145736 0
+D0
+~
+~
+3 -1 19540
+D1
+~
+~
+3 -1 19542
+D2
+~
+~
+3 -1 19543
+D3
+~
+~
+3 -1 19541
+D9
+~
+~
+0 -1 19503
+R M 0 19507 5 19539
+R D 0 19539 0 1
+R D 0 19539 1 1
+R D 0 19539 2 1
+R D 0 19539 3 1
+> rand_prog 3~
+mpecho &BDrip...drip...drip...
+~
+|
+S
+#19540
+The Wine Cellar~
+~
+There are many dusty bottles of wine here of all types and vintages on
+organized racks against the four walls. Some of the labels are not even
+readable. It is damp, dark and humid in here, ideal for wine storage.
+~
+1 3145736 0
+D2
+~
+~
+3 -1 19539
+R D 0 19540 2 1
+S
+#19541
+The Root Cellar~
+~
+There is a tiny glowing lantern on a raised part of the floor in the 
+middle of this room. It gives a weak but functional light. There are bins 
+and bins of root vegetables of all kinds along the walls. There is a chute
+that goes from northern side of the floor into the northern ceiling.
+~
+1 3145736 0
+D1
+~
+~
+3 -1 19539
+R D 0 19541 1 1
+S
+#19542
+The Coal Cellar~
+~
+Piles of coal almost to the ceiling adorn this place. The air is thick 
+with coal dust and it is very dark in here. There surely must be enough 
+coal in here to supply the house's cooking and heating needs for an entire 
+winter. There is some kind of chute leading upwards into the east ceiling.
+~
+1 3145736 0
+D3
+~
+~
+3 -1 19539
+R D 0 19542 3 1
+S
+#19543
+The Wood Cellar~
+~
+Stacks upon stack upon stacks of wood line the walls. This wood must be 
+used by the estatehold to suppliment their coal for cooking and heating 
+purposes. It is quite clear that no on in this estate is going hungry or 
+cold this winter. There is a glowing magical ball on one wall for light.
+There is a long chute leading upwards in the northern part of the ceiling.
+~
+1 3145736 0
+D0
+~
+~
+3 -1 19539
+R D 0 19543 0 1
+S
+#19544
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19545
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19546
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19547
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19548
+Floating in a void~
+~
+~
+1 3145732 1
+S
+#19549
+Floating in a void~
+~
+The thick forest here is pushing its way up to the mountain. Brambles,
+ferns and other undergrowth make travel more difficult here. There seems
+to be a thinning of the forest to the northwest that you may be able to
+push yourself through. There is not much sound here, which seems to make
+it feel oppressive. There is a sign nailed to the trunk of a large pine.
+There are three small marble pebbles on the ground in the shape of a
+triangle depicting the directions southwest, northwest and northeast.
+~
+1 3145732 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,13 @@
+Filename            Auction~
+Min_post_level      1
+Min_remove_level    101
+Max_posts           999
+End
+Filename            Roleplay~
+Min_remove_level    101
+Max_posts           999
+End
+Filename            General~
+Min_remove_level    101
+Max_posts           999
+End

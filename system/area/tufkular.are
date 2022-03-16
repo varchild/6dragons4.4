@@ -1,0 +1,2878 @@
+#AREA        Tufkul'ar~
+
+
+
+#VERSION     11
+#AUTHOR      Samael~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+15 30 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG Battle drums can be heard in the distance.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31251510 0 999962722 996052325 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#28250
+orc scout chamchir Ni'blar~
+Chamchir Ni'blar~
+A tall, skinny orc lurks in the bushes.
+~
+The orc has a pig snout, and fanged teeth.  His upper body is covered with battle scars.
+~
+0
+Clanname none~
+0
+0
+97 4227072 -400 C
+23 0 150 1d1+2500 2d6+26
+0 0 0 0 31 
+0
+115 115 0
+16 8 8 14 15 6 8
+0 0 0 0 0
+6 27 0 0 32 32 3
+30 30 2043 1049122 0 69 2032 3
+> death_prog 100~
+if quest(chamchir) == 1
+  mpoload 28255 1
+  mpquest $n chamchir 2
+else
+  if quest(shadowgod) == 1
+    mpoload 28255 1
+  endif
+endif
+~
+> rand_prog 5~
+say He'll never get it back now. It's mine, the pretties!
+~
+|
+#28251
+goblin scout~
+Charag the scout~
+Charag the scout is here watching warily.
+~
+The scout has his body covered with mud to blend in with his surroundings.
+~
+0
+Clanname none~
+0
+0
+1 4227584 -450 C
+22 0 150 1d1+2500 2d6+26
+0 0 0 0 0 
+0
+115 115 0
+18 6 6 12 18 6 6
+14 8 0 -14 0
+9 4 0 0 1 1 3
+30 30 2047 2097473 0 1049122 1648 3
+#28252
+goblin shieftan ab'loc~
+Goblin Chieftan Ab'loc~
+A lanky goblin stands here slouched over.
+~
+The goblin chieftain has deep green skin, there is a necklace of victim ears worn around his neck.
+The chieftain has a crooked nose, and sharp long teeth.
+~
+0
+Clanname none~
+0
+0
+19005443 4194304 -400 C
+23 0 50 1d1+4000 2d6+28
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 16385 16384 3
+30 30 1861 0 0 0 112 3
+> all_greet_prog 100~
+if mobinroom(25253) == 1
+  if ispc($n)
+    if quest(chamchir) == 3
+    or quest(shadowgod) == 1
+      if iscarrying($n) == 28263
+        mpechoat $n &CChieftain Ab'loc says 'What is your choice child?'&D
+        mpechoat $n &W<   &RGive it to him || &GNEVER &cgive in?   &W>&D
+      else
+        mpechoat $n &CChieftain Ab'loc says, 'Yes, treaty we have come to, yes.'
+        mppause 2
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'Yes, we have come to an agreement.'
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'Now, Goblin kind and Orc kind shall rule together.'
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'As long as we are here, you can show your support by giving me a gift of say, that ruby on your staff.'
+        mpechoat $n &cChieftain Ab'loc looks down at his staff.
+        mppause 3
+        mpechoat $n &CChieftain Ab'loc says, 'Why you want pretty gem?'
+        mppause 1
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'Just as a gesture of your friendship of course.'
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'I'd be willing to pay dearly for...your...friendship.  Yes.  Your ..."friendship"...'
+        mpforce sha'bladoc mpechoat $n &cKing Sha'Bladoc smiles to himself.
+        mppause 3
+        mpechoat $n &CChieftain Ab'loc says, 'Hmm, Okay.'
+        mpechoat $n &CChieftain Ab'loc turns towards you and says, 'Here.  I entrust you with this.  The choice is yours.'
+        rem scepter
+        give scepter $n
+        mpechoat $n &cChieftan Ab'loc gives you A small scepter.
+        mpoload 28263 20
+        get scepter
+        wie scepter
+        wear scepter
+        mpforce sha'bladoc mpechoat $n &CKing Sha'Bladoc says, 'Give me the staff child, you play with things far beyond your understanding.'
+      endif
+    endif
+  endif
+endif
+~
+> speech_prog never~
+if quest(chamchir) == 3
+  mppause 3
+  mpquest $n chamchir 4
+or quest(shadowgod) == 1
+  mpforce $n dro scepter
+  mpforce $n sac scepter
+  mpechoat $n &cYou throw the scepter down on the ground in a fit of righteous rage!
+  mpechoat $n &cThe light shines down upon you for your choice. Well done young one. Take this as proof that you have served the light well.
+  mpechoat $n &cThe light shines down upon $n for a moment.
+  mpoload 28266 20 $n
+  give light $n
+  mpforce $n in
+  if quest(shadowgod) == 1
+    mpechoat $n &cReturn to Barzak with the ring of light.&D
+  endif
+endif
+~
+|
+#28253
+orc king sha'bladoc~
+Orc King Sha'bladoc~
+A rather tall orc stands here wearing an over pompous headdress.
+~
+The orc has mud slimed onto half it's body.  He is wearing a headdress and has a black
+poney tail in the back of his otherwise shaved head.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 -450 C
+25 0 50 1d1+6000 2d6+30
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 33 32 3
+30 30 1729 0 0 0 0 3
+> act_prog p gives you A small scepter.~
+if mobinroom(28252) == 1
+  mpechoat $n &CKing Sha'Bladoc says, 'At last, I have what it is I seek.'
+  mpechoat $n &cThunder clouds gather and lightning flashes in the sky as the wind whistles through the trees with a fierce shriek.
+  mpechoat $n &CKing Sha'Bladoc says, 'The Dragons Fire!'
+  mppause 3
+  mpechoat $n &CKing Sha'Bladoc says, 'Heart of the queen of the dragons of light, and key to their realm.'
+  mppause 2
+  mpechoat $n &CKing Sha'Bladoc says, 'With this, I shall open a door to their realm and conquer them once and for all.'
+  mpechoat $n &cKing Sha'Bladoc's eyes begin to glow with a dark almost purple light.  Chieftain Ab'loc cringes away in fear, as the darkness suddenly begins to coalesce and take shape.
+  mpechoat $n &cA large shadow seems to rise up from behind the orc king in the shape of a small, yet very powerful, shadow dragon.&D
+  mppause 3
+  mpmload 28257
+  mpforce ferfonhof roar
+  mpquest $n chamchir 4
+  mpquest $n sha'bladoc 1
+else
+endif
+~
+> all_greet_prog 100~
+if quest(chamchir) <= 1
+  if mobinroom(28252) == 1
+    mppause 1
+    mpechoat $n &CKing Sha'Bladoc says, 'Now look, Ab'loc.  The perfect thing to do to bind our agreement would be an exchange of gifts.'
+    mpechoat $n &CKing Sha'Bladoc says, 'From one ruler to another.'
+    mppause 1
+    mpforce ab'loc mpechoat $n &CChieftain Ab'loc says, 'Yes, is very gud, yes.'
+    mppause 2
+    mpechoat $n &CKing Sha'Bladoc says, 'Now I think the perfect thing for you to do, is give me that staff of yours.'
+    mpforce ab'loc mpechoat $n &cChieftain Ab'loc cringes towards King Sha'Bladoc.
+    mpforce ab'loc mpechoat $n &CChieftain Ab'loc says, 'Why you want pretty stick?'
+    mpechat $n &CKing Sha'Bladoc says, 'Just as a token of friendship between our clans.'
+    mppause 3
+    mpechoat $n &cKing Sha'Bladoc hmms at chieftain Ab'loc.
+    mppause 2
+    mpechoat $n &CKing Sha'Bladoc says, 'Tell you what, I'll give you my... headdress! As proof of our friendship.'
+    mppause 3
+    mpechoat $n &CKing Sha'Bladoc says, 'So, what do you think?'
+    mpforce ab'loc mpechoat $n &cChieftain Ab'loc hmms at King Sha'Bladoc.
+    mppause 7
+    mpforce ab'loc mpechoat $n &CChieftain Ab'loc says, 'Deal!'&D
+  else
+  endif
+endif
+~
+|
+#28254
+cook Ablados~
+Ablados~
+An orc cook stands here looking worried.
+~
+The cook has a dirty apron on, with streaks of dried blood upon it.  
+~
+0
+Clanname none~
+0
+0
+67108865 4194816 0 C
+21 0 0 0d0+4000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 33 1 0
+0 0 0 0 0 0 0 0
+> act_prog p gives you a skull necklace.~
+if quest(chamchir) == 2
+  mpechoat $n &CAblados says, 'Oh thanks you!'&D
+  mpechoat $n &CAblados says, 'You have no idea how long I've been looking for this.'&D
+  mpsleep 3
+  wear skull
+  mpjunk skull
+  mpechoat $n &CAblados says, 'Wait here just a second.'&D
+  mpechoat $n &cThe Orc Cook bustles off into the supplies cabinet.&D
+  south
+  mpsleep 5
+  mpat $n mpechoat $n &cThe cook moves some barrels aside and pulls out a sack from behind one of them.&D
+  mpsleep 3
+  north
+  mpechoat $n &cThe cook opens a small chest and takes out a ring.&D
+  mpechoat $n &CAblados says, 'It could never fit me so I might as well give it to you.'&D
+  mpoload 28257 1
+  give ring $n
+  mpechoat $n &CAblados says, 'Good luck on your adventure.'&D
+  mpquest $n chamchir 3
+else
+  if quest(shadowgod) == 1
+    mpechoat $n &CAblados says, 'Oh thanks you!'&D
+    mpechoat $n &CAblados says, 'You have no idea how long I've been looking for this.'&D
+    mpsleep 3
+    wear skull
+    mpjunk skull
+    mpechoat $n &CAblados says, 'Wait here just a second.'&D
+    mpechoat $n &cThe Orc Cook bustles off into the supplies cabinet.&D
+    south
+    mpsleep 5
+    mpat $n mpechoat $n &cThe cook moves some barrels aside and pulls out a sack from behind one of them.&D
+    mpsleep 3
+    north
+    mpechoat $n &cThe cook opens a small chest and takes out a ring.&D
+    mpechoat $n &CAblados says, 'It could never fit me so I might as well give it to you.'&D
+    mpoload 28257 1
+    give ring $n
+    mpechoat $n &CAblados says, 'Good luck on your adventure.'&D
+  endif
+endif
+~
+> speech_prog yes yeah ya yah~
+if ispc($n)
+  if quest(chamchir) < 2
+    mpechoat $n &CAblados says, 'Oh Goody! I think Chamchir took it, if you could confront him. Me would be most grateful.'&D
+    mpquest $n chamchir 1
+  else
+    if quest(shadowgod) == 1
+      mppause 2
+      mpquest $n chamchir 1
+      mpechoat $n &CAblodos says, 'So, you're looking for the signet of light?  Well, you're gonna have to complete this quest again to get it.'&D
+      mppause 5
+      mpechoat $n Ablados says, 'I think Chamchir took it, if you could confront him. Me would be most grateful.'
+    endif
+  endif
+endif
+~
+> greet_prog 100~
+if level($n) >= 20
+  if quest(shadowgod) == 1
+    mpechoat $n &CAblados says, 'Now where did my skull necklace go?'&D
+    mppause 3
+    peer
+    mppause 5
+    mpechoat $n &CAblados says, 'I must have left it somewhere.'&D
+    peer
+    mppause 5
+    mpechoat $n &CAblados says, 'Damn, I hope I can find it before that damn Chamchir.'&D
+    mppause 3
+    grumble
+    peer
+    mpechoat $n &CAblados says, 'Will YOU 'elp me find it? Me can give you someting good, ME promise!'
+    mpechoat $n &cTo continues, &WSAY YES&c.&D
+  endif
+endif
+~
+|
+#28255
+head orc cook~
+the head orc cook~
+The head orc cook stand here purvaying his domain with a regal stare.
+~
+The orc chef is wearing a blood soaked apron.  He has many different tattoos across his
+upper body.  The chef has a pig snout and fanged teeth.
+~
+0
+Clanname none~
+0
+0
+1 0 -350 C
+25 0 0 1d1+6000 2d4+13
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 15 13 13 13
+0 0 0 0 0
+6 3 0 0 32 32 3
+0 0 1847 0 0 0 268959841 3
+> fight_prog 100~
+if hps($i) <= 3000
+  if mobinroom(28256) > 1
+    mpforce orc_head_help mpkill $n
+    mpforce 2.orc_head_help mpkill $n
+  else
+    mpmload 28256
+    mpmload 28256
+    mpechoat $n &CHead Orc Cook says, 'GET IN HERE YOU SLIMEY MAGGOTS, GET THIS THING AWAY FROM ME!'&D
+    mpforce orc_head_help mpkill $n
+    mpforce 2.orc_head_help mpkill $n
+  endif
+endif
+~
+|
+#28256
+orc cook~
+an Orc Cook~
+An Orc Cook bustles about the kitchen cooking something vile smelling.
+~
+The orc has grayish pigmented skin, and a pig snout.  There are many battle scars
+across his upper arms.
+~
+0
+Clanname none~
+0
+0
+1 0 -230 C
+21 0 150 1d1+800 1d4+8
+0 0 0 0 13 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 3
+20 18 1799 0 0 0 524897 3
+> death_prog 7~
+mpoload 28288
+~
+|
+#28257
+shadow dragon ferfonhof~
+A Shadow Dragon~
+A dragon made of the slightest shadows floats here.
+~
+The dragon has midnight black shadowy scales that cover it's body.  It has glowing yellow eyes
+that seem to see everything around it at once.
+~
+0
+Clanname none~
+0
+0
+50331651 4718720 -1000 C
+23 0 150 1d1+800 8d7+86
+0 0 0 0 0 
+0
+115 115 0
+25 16 15 25 22 7 17
+-10 -10 0 0 -5
+13 8 0 0 2048 1 3
+20 18 0 0 0 0 1078460418 2
+> act_prog p gives you A small scepter.~
+mppause 5
+mpe &cThe shadow dragon reaches down to the scepter and pulls the &Rfiery&c orb off the top of the scepter and stares deeply into it.&D
+mppause 3
+mpe &cAfter a couple of seconds the jewel begins to glow fiercely and the shadow dragon begins to to firm up. His lines become darker+&D
+&cand he becomes more tangible as the jewel's glow start to diminish.&D
+mppause 3
+say I'll save this untill I reach them. Then I'll kill her before their very eyes.
+mppause 5
+mpe &cThe black dragon looks around slowly as if thinking what to do next.&D
+mppause 3
+say &cThe dragon's eyes lock onto you and with a sudden ferocious glimmer he draws near.&D
+if isgood($n)
+say &cAh HA! Someone pure of heart. You'll do perfectly as a blood sacrifice to open the portal.&D
+or isevil($n)
+say &cAh HA! Someone of mine ilk. You'll do perfectly as a blood sacrifice to open the portal.&D
+else
+say &cAh HA! You'll do perfectly as a blood sacrifice to open the portal.&D
+endif
+mptransfer $n 28250
+mpgoto 28250
+say So Shantir. We meet again.
+mpquest $n sha'bladoc 2
+~
+> death_prog 100~
+mpoload 28275
+mpquest $n sha'bladoc 4
+give aura $n
+~
+|
+#28258
+shantanar scholar~
+Shantanar the Scholar~
+An aged scholar sits here at a desk writing on a scroll.
+~
+The scholar is wearing a grey robe and has a priestly isignia on the chest of the robe.
+~
+0
+Clanname none~
+0
+0
+67108867 4718720 1000 C
+100 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 25167873 1 8
+80 80 0 0 0 0 0 0
+> all_greet_prog 100~
+mpechoat $n &CShantanar the Scholar says, 'Welcome young pupil, are you ready to have your mind molded?'&D
+~
+|
+#28259
+monk assassin~
+A monk assassin~
+A monk assassin is surveying the area here.
+~
+The assassin is dressed completely in black.  
+~
+0
+Clanname none~
+0
+0
+1073741827 640 1000 C
+30 0 -300 0d0+850 0d0+0
+0 0 0 0 10000 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 8
+80 80 41 0 0 0 68157472 524291
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &cA monk assassin looks you over carefully.&D
+~
+|
+#28260
+monk assassin~
+a monk assassin~
+A monk assassin is moving very cautiously here.
+~
+The assassin is dressed completely in black.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194432 1000 C
+30 0 -300 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 8
+80 80 9 0 0 0 8388656 524291
+> all_greet_prog 100~
+(null)~
+|
+#28261
+monk assassin~
+a monk assassin~
+A monk assassin is standing guard here.
+~
+The assassin is dressed completely in black.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194432 1000 C
+30 0 -300 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 16 0 0 1 1 8
+0 0 41 0 0 0 68157504 524291
+> all_greet_prog 100~
+(null)~
+|
+#28262
+Ras Ghul master~
+Master Ras Al Ghul~
+The leader of the assassins guild is standing here.
+~
+The leader is covered in ancient tattoos.  His eyes are dark and sullen. Master Ras has short brown hair and a goatee for facial
+hair.  There is a air of respect around him. 
+~
+0
+Clanname none~
+0
+0
+1027&4 4194432 0 C
+100 0 -300 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 16 0 0 1 1 8
+80 80 41 0 0 0 0&687874048 67
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CMaster Ras Al Ghul says, 'Welcome young one, are you here to join the guild of assassins?  
+mpechoat $n &CWe don't require much just your loyalty and all your belongings.'&D
+~
+|
+#28263
+monk assassin trainee~
+a monk trainee~
+A young monk training to be a assassin for the guild is here.
+~
+The monk is dressed in a plain brown robe and has a shaved head.
+~
+0
+Clanname none~
+0
+0
+1073741825 4194432 0 C
+30 0 180 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 3
+15 15 41 0 0 0 -2139094992 8
+#28264
+monk assassin~
+a monk assassin~
+A monk assassin is moving with a cat's grace here.
+~
+The assassin is dressed completely in black.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194432 0 C
+100 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+3 16 0 0 1 1 8
+80 80 41 0 0 0 1024&687865856 524355
+> all_greet_prog 100~
+mpechoat $n &CAn monk assassin says, 'Welcome to the guild simthy, my master has instructed me to repair any of your items.'&D
+~
+|
+#28265
+monk assassin~
+A monk assassin~
+A monk assassin is providing security for the area here.
+~
+The monk is covered head to toe in black garb, concealing his identity.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194432 1000 C
+100 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 8
+80 80 41 0 0 0 0&687874048 524291
+> act_prog p arrives from the north.~
+mppause 7
+unlock u
+open u
+mpechoat $n &CA monk assassin says, 'Leave while you can.'
+mppause 20
+mppat 4 look
+mppause 10
+close u
+lock u
+~
+|
+#28266
+sleeping orc~
+A sleeping orc~
+A wild animal looking humanoid is sleeping comfortably on the floor here.
+~
+The orc has a pig's snout and fanged overbite.  He is wearing nothing more than rags.
+~
+0
+Clanname none~
+0
+0
+1 4194304 -250 C
+20 0 180 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 3
+15 15 513 0 0 0 32 2
+#28267
+human cook monk assassin~
+a monk assassin~
+A human cook is standing very protectively over the steel doorway.
+~
+The assassin is dressed as a simple cook, with a dirty apron.
+~
+0
+Clanname none~
+0
+0
+1073741827 4194432 0 C
+100 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 8
+0 0 0 0 0 0 0&687874048 524291
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CA human cook says, 'State your business here.'
+~
+> speech_prog train~
+mppause 3
+mpechoat $n &CA human cook says, 'Train is it?  I don't recall seeing you here before.
+mpechoat $n &CRa Al Ghul doesn't teach anyone.  Either you make a large donation for his teaching
+mpechoat $n &Cor your here as a student for the guild of assassins.'
+mppause 8
+mpechoat $n &cType say donation or say student.
+~
+> speech_prog donation~
+mppause 4
+mpechoat $n &CA human cook says, 'A donation must be 25 gold for an audience.'
+~
+> act_prog p gives you 25 gold coins.~
+mppause 4
+mpechoat $n &CA human cook says, 'You may pass.'
+mppause 2
+unlock d
+open d
+mppause 10
+mpechoat $n &CA human cook says, 'Go quickly.'
+mppause 10
+close d
+lock d
+~
+> speech_prog student~
+mppause 4
+mpechoat $n &CA human cook says, 'You are willing to give up your life as you know it to join us?  Show me your loyalty by giving me all your gear.'
+~
+|
+#28268
+sleeping goblin~
+A sleeping goblin~
+A tall gangly, clean looking humanoid creature is sleeping here.
+~
+The goblin has dark green skin and a broken crooked nose.  
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+21 0 150 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 3
+20 18 513 0 0 0 32 2
+#28269
+goblin soldier~
+A goblin soldier~
+A lightly armed goblin stands here slightly alert.
+~
+The goblin has light green skin and red burning eyes.
+~
+0
+Clanname none~
+0
+0
+37 4194304 0 C
+23 0 150 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 3
+20 18 513 0 0 0 32 2
+#28270
+orc soldier~
+An orc soldier~
+A tall orc stands here warily watching everything.
+~
+The orc has a pig's snout and large overbite fangs.
+~
+0
+Clanname none~
+0
+0
+37 4194304 -450 C
+20 0 180 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 3
+15 15 513 0 0 0 32 2
+#28271
+orc guard captain tualthos~
+Guard Captain Tualthos~
+A tall, buff goblin stands here looking down at a map on his desk.
+~
+The orc has a pig's snout and is dressed in black chain mail armor.
+~
+0
+Clanname none~
+0
+0
+3&4 4194944 0 C
+26 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+20 17 13 20 23 13 20
+0 0 0 0 0
+6 4 0 0 1 1 4
+20 18 1 0 0 0 33 3
+> death_prog 100~
+if rand(3)
+  mpoload 28294
+endif
+if rand(10)
+  mpoload 28295
+endif
+~
+|
+#28300
+nothing~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+say If youse neeeds a corpse retrieved I can helps.
+mppause 10
+if level($n) < 10
+say Give me 10 copper coins and I'll get your corpse.
+else
+if level($n) > 9
+say Give me 25 bronze coins and I'll get your corpse.
+else
+if level($n) > 20
+say Give me 5 gold coins and I'll get your corpse.
+else
+if level($n) > 30
+say Give me 50 gold coins and I'll get your corpse.
+endif
+endif
+endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#28250
+worthless shield~
+a worthless shield~
+A small metal shield lies on the ground.~
+~
+9 0 513
+30 30 0 0 0 0 0
+1 0 0
+1
+6
+0
+0
+0
+0
+S 77 0
+E
+shield~
+The quality of this shield is a very bad iron ore.
+~
+#28251
+worthless spear~
+a worthless spear~
+A long stick with a head whittled lies here.~
+~
+5 0 8193
+0 15 30 6 10 0 40
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+spear~
+The pine wood used for the spear handle has a serious crack down the center of it.
+~
+#28252
+forest sign~
+a sign~
+A sign with the word WARNING carved into it.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 3 0
+E
+sign plaque warning~
+A weathered wooden sign carries in big black letters the word :
+
+   W A R N I N G
+
+~
+#28253
+worthless axe~
+a worthless axe~
+A sharp rock tied to a stick is lying here.~
+~
+5 0 8193
+0 10 30 3 9 0 40
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+axe~
+The axe appears to have been made by a novice craftsman.
+~
+#28254
+cheap buckler~
+a cheap buckler~
+A piece of hide tied to some wood lies here undisturbed.~
+~
+9 0 513
+20 20 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+buckler~
+The buckler was not put together very well.
+~
+#28255
+skull necklace~
+a skull necklace~
+A necklace with a jolly roger made out of creamy bone ivory.~
+~
+13 0 5
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 2
+E
+necklace skull~
+The skull necklace has the skull of some small creature hanging down from the center of it.
+~
+#28256
+spatula~
+a spatula~
+A small spatula lies here.~
+~
+5 0 8193
+8 10 20 3 2 0 40
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+spatula~
+The spatula is made out of quality wood.
+~
+#28257
+ruby ring~
+a ruby ring~
+A shiny ruby inset in a gold band lies here glinting softly.~
+~
+9 0 3
+60 60 0 0 0 0 0
+1 75 7
+1
+3
+0
+0
+0
+0
+S 77 0
+E
+ruby ring~
+The ruby ring appears to be a high quality piece of jewelry.
+~
+#28258
+white apron~
+a newly created white apron~
+Some god dropped a newly created white apron here.~
+~
+9 0 2049 32
+20 20 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 77 0
+#28259
+underground spring~
+an underground spring~
+A leak from an underground river.~
+~
+25 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+spring~
+The spring has clear sparkling water within it.
+~
+#28260
+waterskin~
+a small waterskin~
+A small waterskin lies here.~
+~
+17 0 16385
+35 35 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+waterskin skin~
+The water skin is made out of quality hide.
+~
+#28261
+beef jerky~
+some beef jerky~
+A rolled up piece of beefjerky is lying here.~
+~
+19 0 1
+7 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+beef jerky~
+The jerky appears to be dried and slightly old.
+~
+#28262
+deer jerky~
+some deer jerky~
+A rolled up piece of deer jerky is lying here.~
+~
+19 0 1
+7 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+deer jerky~
+The deer jerky appears to be recently dehydrated.
+~
+#28263
+dragon fire scepter~
+A small scepter~
+A small scepter with a fiery, pulsing red jewel mounted on top.~
+~
+8 0 8193
+0 0 0 0 0 0 0
+1 0 0
+1
+3
+0
+0
+0
+0
+S 3 0
+E
+scepter dragon~
+The dragon fire scepter is covered with various symbols.
+~
+#28264
+orc chief headdress~
+a orc chief headdress~
+An orc chief headdress has been left here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+headdress~
+The headdress has the symbols of leadership upon it.
+~
+#28265
+hearts queen red orb fiery~
+a fiery orb~
+A fiery orb has been left here.~
+~
+8 0 1
+0 0 1 0 0 0 0
+1 165 16
+1
+3
+0
+0
+0
+0
+S 3 0
+E
+orb~
+The orb has a swirling color of orange and red along it.
+~
+#28266
+light signet~
+A signet of Light~
+An intricately carved signet of Light is laying here, sparkling in the grass.~
+&W As $n wears A signet of Light, a beam of light briefly surrounds $s.~
+1 1 1
+0 0 -1 0 0 20 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+2 1
+A
+5 1
+E
+signet light~
+The light signet appears to be made of good quality.
+~
+#28267
+tabi boots~
+A pair of tabi boots~
+A pair of tabi boots has been left here.~
+~
+9 524288 65 128
+60 60 0 0 0 100 0
+1 289 50
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+boots~
+The black tabi boots have a split toe for gripability.
+~
+A
+18 3
+A
+1 3
+#28268
+tabi socks~
+A pair of tabi socks~
+A pair of tabi socks has been left here.~
+~
+9 524288 65 32
+60 60 0 0 0 100 0
+1 322 75
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+socks~
+The black tabi socks have a split toe to fit into tabi boots.
+~
+A
+5 3
+A
+2 1
+#28269
+hammer~
+a blacksmith's hammer~
+A blacksmith's hammer has been left here.~
+~
+5 524288 8193
+60 27 34 4 4 0 0
+18 200 90
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+hammer~
+The blacksmith hamemr is very large requiring two hands to deliver steady blows.
+~
+A
+1 1
+A
+19 4
+#28270
+shinobi shozoko outfit~
+a black shinobi shozoko~
+A black shinobi shozoko outfit.~
+~
+9 524288 9 12
+60 60 0 0 0 0 0
+1 295 100
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+shinobi shozoko outfit~
+The black outfit covers the upper body completely.  It is lightweight, but extremely tough
+material.  It appears to have strange qualities beyond what is obvious.
+~
+A
+17 -100
+A
+13 500
+A
+18 5
+#28271
+black spiked gauntlets~
+A pair of black spiked gauntlets~
+A pair of black spiked gauntlets.~
+~
+9 524289 129 32
+20 20 0 0 0 0 0
+1 350 35
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+17 -2
+E
+spiked gauntlets~
+The pair of spiked gauntlets are made out of quality wolf hide.
+~
+#28272
+aether earrings~
+A pair of aether earrings~
+A pair or earrings made entirely out of light.~
+~
+9 524289 65537
+30 30 0 0 0 0 0
+1 500 50
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 3
+E
+aether earrings~
+The earrings have the aether style of craftsmanship that is visible in the gold inlays.
+~
+#28273
+leadership ring~
+A ring of leadership~
+A ring of leadership has been left here.~
+~
+8 524289 3
+0 0 0 0 0 100 0
+1 615 150
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+ring leadership~
+The leadership ring of ras al ghul.  It is said that he who wears it rules the guild of assassins.
+~
+A
+25 2
+A
+19 4
+#28274
+aether cape~
+An aether cape~
+A cape made entirely of light.~
+~
+9 524289 1025 64
+30 30 0 0 0 0 0
+1 1200 120
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 3
+A
+17 -10
+E
+cape~
+The cape have the aether style of craftsmanship that is visible in the woven patterns.
+~
+#28275
+robe gi~
+a brown robe gi~
+A brown robed gi has been left here.~
+%s sling$q $p about $mself.~
+9 0 1025
+30 30 0 0 0 0 0
+1 151 5000
+3
+1
+0
+0
+0
+0
+S 77 0
+E
+gi robe~
+The gi robe has been dyed brown and is non descriptive indicating a novice.
+~
+A
+31 2
+#28276
+katana sword~
+a katana sword~
+A katana sword has been left here.~
+~
+5 524288 8193
+0 50 100 1 1 100 100
+1 750 75
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+katana sword~
+The katana sword appears to have been forged in the old ways with the folding of steel upon steel over hot fire.
+~
+A
+18 8
+A
+19 8
+#28277
+wakizashi sword~
+a wakizashi sword~
+A wakizashi sword has been left here.~
+~
+5 524288 8193
+0 15 30 3 9 0 100
+1 260 75
+3
+0
+0
+0
+0
+0
+S 3 0
+E
+wakizashi sword~
+The wakizashi sword appears to have been forged in the old ways with the folding of steel upon steel over hot fire.
+~
+A
+18 4
+#28278
+tabi boots~
+a pair of tabi boots~
+A pair of tabi boots has been left here.~
+~
+9 524288 65 128
+20 20 20 2 2 20 0
+1 145 75
+3
+0
+0
+0
+0
+0
+S 3 0
+E
+boots~
+The boots have a split toe for getting better traction.
+~
+A
+18 4
+#28279
+tabi socks~
+a pair of tabi socks~
+A pair of tabi socks has been left here.~
+~
+9 524288 65 64
+30 30 34 1 0 0 0
+1 153 150
+3
+0
+0
+0
+0
+0
+S 3 0
+E
+socks~
+The black tabi socks have a split toe to allow it to fit into the tabi boots.
+~
+A
+14 20
+#28286
+shinobi shozoko outfit~
+A shinobi shozoko outfit~
+A shinobi shozoko outfit has been left here.~
+~
+9 0 9
+30 30 0 0 0 0 0
+1 156 50
+3
+1
+0
+0
+0
+0
+S 3 0
+E
+shinobi shozoko outfit~
+The black outfit covers the upper body completely.  It is lightweight, but extremely tough
+material.  It appears to have strange qualities beyond what is obvious.
+~
+A
+2 2
+A
+17 -50
+A
+18 3
+#28287
+aether fountain~
+An aether fountain~
+A fountain made entirely out of light is shooting light into the air.~
+~
+25 1 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+fountain~
+The fountain has some swirling clear water within it.
+~
+#28288
+pantry key~
+a small key~
+A small dull key lies here undisturbed.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+key~
+The pantry key is made out of a soft bronze ore.                                     
+~
+#28289
+aether portal~
+An aether portal~
+A portal made entirely our of light.~
+~
+46 1 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+portal~
+The portal is a magic not familar to most of the realms.                            
+~
+#28290
+leather quiver~
+A leather quiver~
+A leather quiver has been left here.~
+~
+58 0 524289
+51 0 0 0 0 0 0
+1 139 75
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+quiver~
+The leather quiver appears to be well crafted in the traditional ways.
+~
+#28291
+arrow~
+a arrow~
+An arrow has been left here.~
+~
+57 0 16385
+0 15 30 6 1 0 0
+1 50 5
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+arrow~
+The arrow is a hardwood construct done in the traditional ways.
+~
+#28292
+yumi bow~
+a yumi bow~
+A traditonally crafted yumi bow has been left here.~
+~
+56 0 262145
+12 1 4 6 6 1 1
+1 900 90
+1
+1
+0
+0
+0
+0
+S 3 0
+E
+yumi bow~
+The well crafted long bow appears to be made the traditional way.
+~
+#28293
+priceless diamond~
+A priceless diamond~
+A priceless diamond is sitting here glinting quietly.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 6 2100
+1
+14
+0
+0
+0
+0
+S 3 0
+E
+diamond~
+The shear size of the diamond is only enhanced by the clarity of the gem. 
+~
+#28294
+an ornate key~
+An ornate key~
+An ornately carved key.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+key~
+The gawdy ornate key is made out of gold and has small gems encrusted in it.             
+~
+#28295
+eye eyeglasses contraption~
+A pair of dwarven eyeglasses~
+A strange eye contraption lies here.~
+~
+8 0 131073
+0 0 0 0 0 0 0
+1 2100 210
+1
+0
+0
+0
+0
+0
+S 3 0
+A
+18 2
+A
+19 2
+A
+17 -2
+A
+26 4194304
+E
+glasses eye~
+The eye glasses are well constructed. 
+~
+#28296
+portal vortex~
+A swirling vortex~
+A swirling vortex is here.~
+~
+8 0 0
+0 0 0 0 0 0 0
+1 6 0
+1
+14
+0
+0
+0
+0
+S 3 0
+> greet_prog 100~
+mppause 5
+mpe &YA swirling vortex opens, revealing a pathway to the east.&D
+mpopenpassage 28284 28287 1
+mppause 20
+mpecho &YA slight wavering in the swirling vortex begins.&D
+mppause 20
+mpecho &YA swirling vortex begins to close it's opening.&D
+mppause 20
+mpe &YA swirling vortex closes.&D
+mpclosepassage 28284 1
+~
+|
+E
+portal vortex~
+The swirling vortex portal seems to draw your eyes to another place.     
+~
+#28297
+silver key~
+a silver key~
+You see a silver key here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+key silver~
+for the altar...
+~
+#0
+
+
+#ROOMS
+#28250
+Shadowed Haven~
+~
+~
+1 4 3
+R M 0 28267 1 28250
+E
+sign~
+&O                             'WARNING!'
+
+    Beyond these woods is said to lie a fearsome groupd of beasties and monsters.
+Beware of being out alone at night. Only the strong may live to tell the tale. Many
+have ventured into these woods but few have returned to tell the tale.
+
+                             'BEWARE!'
+                                                          &GSamael&D
+~
+> death_prog 100~
+mpforce shadow mpgoto 4
+mpat 4 mpforce shadow say purge
+~
+|
+S
+#28251
+Trodden Path~
+~
+The path continues along to the north with signs of a large force becoming 
+more evident farther along the path. The bends around a tree and continues 
+along the side of a small stream as the wind blows slowly through the 
+trees. The bushes stand clumped together in little patches together along 
+the side of the path.
+~
+1 0 11
+D0
+~
+~
+0 -1 28253
+D6
+A hidden path...
+~
+~
+2097152 -1 28252
+D11
+~
+~
+0 -1 43446
+R M 0 28270 6 28251
+R M 0 28250 1 28251
+  R E 0 28250 1 11
+  R E 0 28251 1 16
+R O 0 28252 1 28251
+S
+#28252
+Hidden Nook~
+~
+This nook was made for hiding. The lush green bushes in front block view 
+from oncoming people while allowing the hidden to stay hidden. Leaves 
+cover the ground in what appears to be a soft bed. The wind blows through 
+this section just right keeping it cool in the summer and the hanging 
+limbs keep the snow out. 
+~
+1 4 3
+D3
+~
+~
+100663296 -1 28253
+D9
+~
+~
+0 -1 28251
+S
+#28253
+Trodden Path~
+~
+The path continues along to the north with signs of a large force becoming 
+more evident farther along the path. The bends around a tree and continues 
+along the side of a small stream as the wind blows slowly through the 
+trees. The bushes stand clumped together in little patches together along 
+the side of the path.
+~
+1 0 3
+D0
+~
+~
+0 -1 28255
+D2
+~
+~
+0 -1 28251
+D7
+~
+~
+2097152 -1 28254
+R M 0 28251 1 28253
+  R E 0 28254 1 11
+  R E 0 28253 1 16
+S
+#28254
+Hidden Nook~
+~
+This nook was made for hiding. The lush green bushes in front block view 
+from oncoming people while allowing the hidden to stay hidden. Leaves 
+cover the ground in what appears to be a soft bed. The wind blows through 
+this section just right keeping it cool in the summer and the hanging 
+limbs keep the snow out.
+~
+1 0 3
+D8
+~
+~
+0 -1 28253
+R M 0 28270 6 28254
+S
+#28255
+Along a Trodden Path~
+~
+The path continues along to the north with signs of a large force becoming 
+more evident farther along the path. The path then bends around a tree and 
+continues along the side of a small stream as the wind blows slowly 
+through the trees. The bushes stand clumped together in little patches 
+together along the side of the path. 
+~
+1 4 3
+D0
+~
+~
+0 -1 28257
+D1
+~
+~
+0 -1 28256
+D2
+~
+~
+0 -1 28253
+R M 0 28270 6 28255
+S
+#28256
+Clearing in the Forest~
+~
+This place is nearly empty of natural environmental factors. Such as rock 
+formations or leaves or twigs. This area seems to be kept in perfect 
+condition by the multitudes of goblins bowing at the outer edge of the 
+circle. As any leaves fall from the trees, one of the attendants reaches 
+up and snatches it and promptly eats it just to keep the sacred ground 
+bare. 
+~
+1 4 3
+D0
+~
+~
+0 -1 28258
+D3
+~
+~
+0 -1 28255
+D7
+~
+~
+0 -1 28257
+R M 0 28270 6 28256
+S
+#28257
+Clearing in the Forest~
+~
+This place is nearly empty of natural enviromental factors. Such as rock 
+formations or leaves or twigs. This area seems to be kept in perfect 
+codition by the mutitudes of goblins bowing at the outer edge of the 
+circle. As any leaves fall from the trees, one of the attendants reaches 
+up and snatches it and promptly eats it just to keep the sacred ground 
+bare.
+~
+1 4 3
+D1
+~
+~
+0 -1 28258
+D2
+~
+~
+0 -1 28255
+D8
+~
+~
+0 -1 28256
+S
+#28258
+Clearing in the Forest~
+~
+&gThis place is nearly empty of natural environmental factors. Such as 
+rock formations or leaves or twigs. This area seems to be kept in perfect 
+condition by the multitudes of goblins bowing at the outer edge of the 
+circle. As any leaves fall from the trees, one of the attendants reaches 
+up and snatches it and promptly eats it just to keep the sacred ground 
+bare. 
+~
+1 0 3
+D2
+~
+~
+0 -1 28256
+D3
+~
+~
+0 -1 28257
+D6
+~
+~
+16777216 -1 28259
+R M 0 28253 1 28258
+  R G 0 28297 1
+R M 0 28252 1 28258
+  R E 0 28263 1 16
+R M 0 28270 6 28258
+R M 0 28270 6 28258
+R O 0 28008 1 28258
+S
+#28259
+Cave Entrance~
+~
+The entrance to this cave is slightly damp as if from an underground 
+spring. The air is slightly musty and the walls are very clean. There are 
+muddy footprints on the ground leading further into the cave. 
+~
+1 1024 13
+D0
+~
+~
+0 -1 28260
+D1
+~
+~
+0 -1 28262
+D3
+~
+~
+0 -1 28261
+D9
+~
+~
+16777216 -1 28258
+R M 0 28269 8 28259
+R M 0 28269 8 28259
+S
+#28260
+Passageway~
+~
+The floor is slightly damp as if water were seeping through up through the 
+ground from some underground source. The smell in the air gets slightly 
+worse deeper into the cave. 
+~
+1 4 13
+D0
+~
+~
+16777219 -1 28264
+D2
+~
+~
+0 -1 28259
+D6
+~
+~
+0 -1 28263
+D7
+~
+~
+3 -1 28265
+R D 0 28260 0 1
+R D 0 28260 7 1
+S
+#28261
+Water Closet~
+~
+The air is slightly musty and arid for a cave. The cave widens to the side 
+as it continues further into the cliff face. The muddy footprints get more 
+numerous further down the passageway. Theres a stinking trough dug into 
+the dirt of the cave. 
+~
+1 4 13
+D1
+~
+~
+0 -1 28259
+S
+#28262
+Cave Antechamber~
+~
+The air is slightly musty and arid for a cave. The cave widens to the side 
+as it continues further into the cliff face. The muddy footprints get more 
+numerous further down the passageway. 
+~
+1 4 13
+D3
+~
+~
+0 -1 28259
+S
+#28263
+Passageway~
+~
+The floor is slightly damp as if water were seeping through up through the 
+ground from some underground source. The smell in the air gets slightly 
+worse deeper into the cave.
+~
+1 4 13
+D0
+~
+~
+0 -1 28270
+D1
+~
+~
+3 -1 28268
+D9
+~
+~
+0 -1 28260
+R D 0 28263 1 1
+S
+#28264
+Dark Office~
+~
+The cave breaks and forms a natural formation in the general size of a 
+room. Someone seems to be taking advantage of this and placed a small desk 
+in here with a stool. The room is blocked off from the rest of the cave by 
+a flimsy hanging curtain. 
+~
+1 1 13
+D0
+~
+door~
+7 28294 28266
+D2
+~
+~
+1 -1 28260
+R M 0 28271 1 28264
+R D 0 28264 0 2
+R D 0 28264 2 0
+S
+#28265
+Barracks~
+~
+The ground is littered with blankets, trash, pallets, bunks and futons 
+everywhere as if this place were lived in by pigs and wild animals. There 
+seem to be a few sleeping forms lying about the place. 
+~
+1 0 13
+D3
+~
+~
+0 -1 28267
+D8
+~
+~
+16777216 -1 28260
+R M 0 28266 5 28265
+R M 0 28266 5 28265
+R M 0 28266 5 28265
+S
+#28266
+Personal Bathroom~
+~
+The air is slightly musty and arid for a cave. The cave widens as it 
+continues further into the cliff face. Theres a stinking trough dug into 
+the dirt of the cave floor. 
+~
+1 0 13
+D2
+~
+door~
+1 28294 28264
+R O 0 28293 1 28266
+R D 0 28266 2 0
+S
+#28267
+Barracks~
+~
+The ground is littered with blankets, trash, pallets, bunks and futons 
+everywhere as if this place were lived in by pigs and wild animals. There 
+seem to be a few sleeping forms lying about the place.
+~
+1 0 13
+D1
+~
+~
+0 -1 28265
+R M 0 28266 5 28267
+R M 0 28266 5 28267
+S
+#28268
+Barracks~
+~
+The room seems to be a bit cleaner than it's counterpart across the hall. 
+The bodies are lined up here with a semblence of order that seems to have 
+escaped the generation of goblins sleeping in the other room. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28269
+D3
+~
+~
+16777216 -1 28263
+R M 0 28268 4 28268
+R M 0 28268 4 28268
+S
+#28269
+Barracks~
+~
+The room seems to be a bit cleaner than it's counterpart across the hall. 
+The bodies are lined up here with a semblence of order that seems to have 
+escaped the generation of goblins sleeping in the other room.
+~
+1 0 13
+D3
+~
+~
+0 -1 28268
+R M 0 28268 4 28269
+R M 0 28268 4 28269
+S
+#28270
+Passageway~
+~
+The floor is slightly damp as if water were seeping through up through the 
+ground from some underground source. The smell in the air gets slightly 
+worse deeper into the cave.
+~
+1 0 13
+D0
+~
+~
+0 -1 28273
+D1
+~
+~
+3 -1 28271
+D2
+~
+~
+0 -1 28263
+D3
+~
+~
+0 -1 28272
+R M 0 28269 8 28270
+R M 0 28269 8 28270
+R D 0 28270 1 1
+S
+#28271
+Supplies Closet~
+~
+The closet is made up of several wooden shelves that have been attached to the walls
+here.  There are many types of staples that are being stored within the closet.  The
+closet is kept lit by a hooded lantern mounted to the walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 28275
+D3
+~
+~
+16777216 -1 28270
+D6
+~
+~
+0 -1 28276
+S
+#28272
+Armory~
+~
+The old armor rack in the back of the room is almost falling apart. The 
+armor on it are old worthless peics of junk not suited for normal everyday 
+use much less war. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28274
+D1
+~
+~
+0 -1 28270
+R M 0 28269 8 28272
+R M 0 28256 11 28272
+R O 0 28250 1 28272
+R O 0 28254 1 28272
+S
+#28273
+Passageway~
+~
+The floor is slightly damp as if water were seeping through up through the 
+ground from some underground source. The smell in the air gets slightly 
+worse deeper into the cave.
+~
+1 0 13
+D0
+~
+~
+2051 -1 28285
+D1
+~
+~
+0 -1 28275
+D2
+~
+~
+0 -1 28270
+D3
+~
+~
+0 -1 28274
+R M 0 28269 8 28273
+R M 0 28256 11 28273
+R D 0 28273 0 1
+S
+#28274
+Weapons Rack~
+~
+The old rack of weapons in the back of the room is almost falling apart. 
+The weapons on it are old worthless peics of junk not suited for normal 
+everyday use much less war. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28273
+D2
+~
+~
+0 -1 28272
+R M 0 28269 8 28274
+R M 0 28256 11 28274
+R M 0 28256 11 28274
+R O 0 28251 1 28274
+R O 0 28253 1 28274
+S
+#28275
+Kitchen~
+~
+This is the kitchen. The smells coming from the back waft n on a slight 
+fresh breeze with the smell of water. This must be from where the dampness 
+in the floor originates from. 
+~
+1 0 13
+D1
+~
+~
+16777216 -1 28276
+D2
+~
+~
+0 -1 28271
+D3
+~
+~
+0 -1 28273
+D6
+~
+~
+7 28288 28282
+R M 0 28255 1 28275
+R M 0 28256 11 28275
+R D 0 28275 6 2
+S
+#28276
+Kitchen~
+~
+This is the kitchen. The smells coming from the back waft n on a slight 
+fresh breeze with the smell of water. This must be from where the dampness 
+in the floor originates from. 
+~
+1 0 13
+D0
+~
+~
+7 28288 28282
+D1
+~
+~
+0 -1 28277
+D2
+~
+~
+0 -1 28279
+D3
+~
+~
+0 -1 28275
+D9
+~
+~
+0 -1 28271
+R M 0 28256 11 28276
+R D 0 28276 0 2
+S
+#28277
+Kitchen~
+~
+This is the kitchen. The smells coming from the back waft n on a slight 
+fresh breeze with the smell of water. This must be from where the dampness 
+in the floor originates from. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28280
+D2
+~
+~
+0 -1 28278
+D3
+~
+~
+0 -1 28276
+S
+#28278
+Kitchen~
+~
+This is the kitchen. The smells coming from the back waft n on a slight 
+fresh breeze with the smell of water. This must be from where the dampness 
+in the floor originates from. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28277
+D1
+~
+~
+0 -1 28281
+D3
+~
+~
+0 -1 28279
+R M 0 28256 11 28278
+S
+#28279
+Kitchen~
+~
+This is the kitchen. The smells coming from the back waft n on a slight 
+fresh breeze with the smell of water. This must be from where the dampness 
+in the floor originates from. 
+~
+1 0 13
+D0
+~
+~
+0 -1 28276
+D1
+~
+~
+0 -1 28278
+R M 0 28256 11 28279
+R M 0 28256 11 28279
+R M 0 28254 1 28279
+  R E 0 28256 1 16
+  R E 0 28258 1 13
+S
+#28280
+Kitchen Sink~
+~
+The cavern twists around here.  There is a large stone basin cut into the wall that
+has water flowing along it.  A series dishes are setup on a wooden shelf above the
+stone basin.  A few wooden bins are against the far wall for trash.
+~
+1 0 13
+D2
+~
+~
+0 -1 28281
+D3
+~
+~
+0 -1 28277
+R M 0 28269 8 28280
+R M 0 28256 11 28280
+R O 0 28259 1 28280
+S
+#28281
+Kitchen Sink~
+~
+The cavern twists around here.  There is a large stone basin cut into the wall that
+has water flowing along it.  A series dishes are setup on a wooden shelf above the                                                                                                              
+stone basin.  A few wooden bins are mounted to the wall for trash.
+~
+1 0 13
+D0
+~
+~
+0 -1 28280
+D3
+~
+~
+0 -1 28278
+R M 0 28256 11 28281
+R O 0 28259 1 28281
+S
+#28282
+Kitchen Pantry~
+~
+The ground is littered with small peices of raw meat. There is tras hand 
+garbage everywhere. The smells coming from this place would make anybody 
+puke. What kind of supplies would be kept in a place like this? 
+~
+1 0 13
+D1
+~
+~
+0 -1 28283
+D2
+~
+~
+7 -1 28276
+D9
+~
+~
+3 -1 28275
+R O 0 28261 1 28282
+R O 0 28262 1 28282
+R D 0 28282 2 2
+R D 0 28282 9 1
+S
+#28283
+Kitchen Pantry~
+~
+As the cave ends, the ground has less trash on it so that the ground 
+actually seems like a normal ground and not a trash heap. The air is dry 
+and very light here as if coming from another source. 
+~
+1 0 13
+D1
+~
+~
+0 -1 28284
+D3
+~
+~
+0 -1 28282
+R O 0 28261 1 28283
+R O 0 28262 1 28283
+> entry_prog 100~
+if istagged($n, train)                                                                                                                                                                          
+else
+mppause 2
+mpechoat $n &cYou hear in the distance a muffled conversation where someone says they are here to train.
+mptag $n train
+endif
+~
+|
+S
+#28284
+Kitchen Pantry~
+~
+As the cave ends, the ground has less trash on it so that the ground 
+actually seems like a normal ground and not a trash heap. The air is dry 
+and very light here as if coming from another source.
+~
+1 0 13
+D3
+~
+~
+0 -1 28283
+D5
+~
+iron doorway~
+7 28297 28286
+R M 0 28267 2 28284
+  R G 0 28297 1
+R D 0 28284 5 2
+S
+#28285
+Hidden Treasury~
+~
+The treasury is kind of empty because nobody brought anything to store in 
+it. This room was created before anyone thought about it. It was just the 
+standard. 
+~
+1 0 13
+D2
+~
+~
+0 -1 28273
+S
+#28286
+Within a Fortress Entryway~
+~
+The size of the chamber is enormous.  The walls are made out of interlocking
+cobblestones.  There are torches mounted to the walls at certain intervals to
+provide lighting.  The floor is made out of stone.
+~
+1 8 13
+D0
+~
+~
+0 -1 28287
+D4
+~
+iron doorway~
+7 28297 28284
+R M 0 28265 1 28286
+  R G 0 28297 1
+  R E 0 28270 1 5
+  R E 0 28268 1 8
+  R E 0 28267 1 8
+  R E 0 28276 1 16
+R D 0 28286 4 2
+S
+#28287
+Within a Intersection~
+~
+The chamber has an intersecting hallway that extends to the east, and 
+west. The walls are covered in exotic paintings, and are made up of 
+interlocking cobblestones. There are torches mounted to the walls at 
+certain intervals for lighting.
+~
+1 8 13
+D1
+~
+~
+0 -1 28288
+D2
+~
+~
+0 -1 28286
+D3
+~
+~
+0 -1 28289
+R M 0 28263 3 28287
+  R E 0 28279 1 8
+  R E 0 28278 1 8
+  R E 0 28290 1 22
+    R P 0 28291 1 28290
+    R P 0 28291 1 28290
+  R E 0 28292 1 21
+  R G 0 28291 1
+  R E 0 28275 1 12
+S
+#28288
+The Smithy~
+~
+The dusty room is covered in metallic shavings.  There are three massive
+anvils that are anchored in the center of the room, in front of a large
+brick covered fire place.  Various tools are hanging from the walls as
+well as examples of completed works.
+~
+1 8 13
+D3
+~
+~
+0 -1 28287
+R M 0 28264 1 28288
+  R E 0 28269 1 16
+S
+#28289
+A Sharp Turn~
+~
+The vast room is covered with maps of different parts of the world. There 
+are torches mounted to the walls at certain intervals for lighting. The 
+walls are made up of interlocking cobblestones.
+~
+1 8 13
+D0
+~
+~
+0 -1 28290
+D1
+~
+~
+0 -1 28287
+S
+#28290
+At an Intersection~
+~
+There are cobble stones that make up the walls here. A series of torches 
+leads to the west and east ends of the intersection. There are bronze 
+statues of monks in various fighting stances along the walls. 
+~
+1 8 13
+D1
+~
+~
+0 -1 28291
+D2
+~
+~
+0 -1 28289
+D3
+~
+~
+0 -1 28295
+D4
+~
+~
+0 -1 28294
+S
+#28291
+The Armory~
+~
+The light is extremely bright here and the light beneath your feet seems 
+incredibly solid as if the sun from this dimension strengthened it. The 
+wind whistles through the air warm and light as if it were singing a song.
+~
+1 8 13
+D3
+~
+~
+0 -1 28290
+R M 0 28259 1 28291
+  R G 0 28290 1
+  R G 0 28286 1
+R M 0 28263 2 28291
+R M 0 28263 2 28291
+S
+#28292
+Aether Shopping District~
+~
+The light is extremely bright here and the light beneath your feet seems 
+incredibly solid as if the sun from this dimension strengthened it. The 
+wind whistles through the air warm and light as if it were singing a song.
+~
+1 8 13
+D1
+~
+~
+0 -1 28293
+D5
+~
+~
+0 -1 28291
+R M 0 28260 1 28292
+  R G 0 28267 1
+  R G 0 28268 1
+  R G 0 28273 1
+  R G 0 28272 1
+  R G 0 28274 1
+  R G 0 28270 1
+  R G 0 28269 1
+  R G 0 28271 1
+S
+#28293
+Aether Shopping District~
+~
+The light is extremely bright here and the light beneath your feet seems 
+incredibly solid as if the sun from this dimension strengthened it. The 
+wind whistles through the air warm and light as if it were singing a song.
+~
+1 8 13
+D3
+~
+~
+0 -1 28292
+R M 0 28261 1 28293
+  R G 0 28276 1
+  R G 0 28277 1
+  R G 0 28278 1
+  R G 0 28279 1
+S
+#28294
+Within the Dojo~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation. 
+~
+1 8 13
+D0
+~
+~
+0 -1 28298
+D1
+~
+~
+0 -1 28296
+D3
+~
+~
+0 -1 28297
+D5
+~
+~
+0 -1 28290
+S
+#28295
+The Planning Room~
+~
+&gA shaft of light beams through the window highlighting the large desks 
+in the room. It seems to be a place for learning as there are many 
+different writing utensils as well as parchment of the blackest light. 
+~
+1 8 13
+D1
+~
+~
+0 -1 28290
+S
+#28296
+The End of the Dojo~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation. 
+~
+1 8 13
+D0
+~
+~
+0 -1 28299
+D3
+~
+~
+0 -1 28294
+R M 0 28260 2 28296
+  R E 0 28286 1 5
+  R E 0 28277 1 16
+S
+#28297
+Along the Dojo~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation.
+~
+1 8 13
+D0
+~
+~
+0 -1 28300
+D1
+~
+~
+0 -1 28294
+R M 0 28259 2 28297
+  R E 0 28286 1 5
+  R E 0 28277 1 16
+S
+#28298
+The Audience Chamber~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation. 
+~
+1 8 13
+D1
+~
+~
+0 -1 28299
+D2
+~
+~
+0 -1 28294
+D3
+~
+~
+0 -1 28300
+R M 0 28262 1 28298
+  R E 0 28268 1 8
+  R E 0 28267 1 8
+  R E 0 28273 1 1
+  R E 0 28270 1 5
+  R E 0 28277 1 16
+  R E 0 28276 1 18
+S
+#28299
+Within the Dojo~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation. 
+~
+1 8 13
+D2
+~
+~
+0 -1 28296
+D3
+~
+~
+0 -1 28298
+R M 0 28261 2 28299
+  R E 0 28286 1 5
+  R E 0 28277 1 16
+S
+#28300
+Within the Dojo~
+~
+The ground here seems to be slightly more stable as if someone were 
+expecting disaster or hard hits. The air feels as if it's charged as if 
+from a recent burst of lightning. There are many young dragons here 
+training and focusing their individual skills in the martial arts and 
+mental preperation. 
+~
+1 8 13
+D1
+~
+~
+0 -1 28298
+D2
+~
+~
+0 -1 28297
+S
+#0
+
+
+#SHOPS
+ 28259    0  0  0  0  0   120  90         0 23    ; A monk assassin
+ 28260    0  0  0  0  0   120  90         0 23    ; a monk assassin
+ 28261    0  0  0  0  0   120  90         0 23    ; a monk assassin
+0
+
+
+#REPAIRS
+ 28264    9  5  0           1   1         0 23    ; a monk assassin
+ 28265    0  0  0         100   1         0 23    ; A monk assassin
+0
+
+
+#SPECIALS
+M  28252 spec_cast_undead
+M  28253 spec_cast_mage
+M  28257 spec_breath_acid
+S
+
+
+#$

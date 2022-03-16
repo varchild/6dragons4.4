@@ -1,0 +1,519 @@
+#VNUM 40499
+#OBJECT
+Vnum         8304
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         31336
+Level        43
+Currtype     2
+Color        6
+Size   0
+End
+
+#OBJECT
+Vnum         31330
+Level        18
+Currtype     1
+Size   0
+Values       20 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         28263
+Level        22
+Currtype     1
+Color        3
+Size   3
+End
+
+#OBJECT
+Vnum         32006
+Level        30
+Currtype     3
+Color        14
+Size   77
+Values       29 30 0 0 0 30 0
+End
+
+#OBJECT
+Name         gear~
+ShortDescr   a draconic gear bag~
+Description  a draconic gear bag has been left here along the ground.~
+Vnum         41002
+WearFlags    2049
+ItemType     15
+Level        38
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       4000 1 0 12 6 30 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   pocket-dimension~ &CThis produced item bears the seal of Myrlan, the master draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         958
+Level        40
+Currtype     1
+Color        12
+Size   77
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11514
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11517
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35804
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35806
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35805
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25008
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25007
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16702
+Level        53
+Currtype     1
+Size   77
+Values       40 40 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         605
+Level        45
+Currtype     2
+Color        4
+Size   77
+Values       40 40 0 0 0 45 0
+End
+
+#OBJECT
+Nest         1
+Name         full-breastplate~
+ShortDescr   a full-breastplate, legendary produced from meteor~
+Description  Here lies a full-breastplate, legendary produced from meteor.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Weight       8
+Level        38
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       35 35 30 400 777 30 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   full-breastplate~ &CThis produced item bears the seal of Myrlan, the master draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Name         talons~
+ShortDescr   a pair of talons, legendary produced from meteor~
+Description  Here lies a pair of talons, legendary produced from meteor.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        38
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       12 22 37 1 14 30 600
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   talons~ &CThis produced item bears the seal of Myrlan, the master draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         25011
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        21
+Currtype     1
+Size   0
+Values       0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11522
+Level        68
+Currtype     2
+Color        11
+Size   77
+Values       50 50 0 0 0 68 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11523
+Level        67
+Currtype     1
+Color        11
+Size   77
+Values       50 50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11520
+Level        67
+Currtype     2
+Color        9
+Size   77
+Values       50 50 0 0 0 67 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11521
+Level        68
+Currtype     2
+Color        9
+Size   77
+Values       50 50 0 0 0 68 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11518
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11524
+Level        67
+Currtype     1
+Color        11
+Size   77
+Values       50 50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11541
+Level        80
+Currtype     1
+Size   77
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8305
+Level        10
+Currtype     3
+Color        5
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         24856
+Level        42
+Currtype     1
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         35805
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11517
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11514
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11514
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Vnum         31368
+Level        65
+Currtype     1
+Color        1
+Size   77
+Values       50 50 0 0 0 65 0
+End
+
+#OBJECT
+Vnum         964
+Level        30
+Currtype     2
+Color        3
+Size   77
+Values       29 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         31456
+Level        42
+Currtype     1
+Color        9
+Size   77
+Values       0 0 0 0 0 42 0
+End
+
+#OBJECT
+Vnum         28295
+Level        27
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Vnum         11516
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         35548
+Currtype     4
+Color        1
+Craft3       49
+Craft5       27
+Size   0
+Values       125 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         35805
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Vnum         16702
+Level        53
+Currtype     1
+Size   77
+Values       40 40 0 0 0 0 0
+End
+
+#END

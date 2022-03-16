@@ -1,0 +1,62 @@
+Name           Bat~
+Filename       Bat~
+Class          3
+Starting       0
+AttrPrime      1
+AttrSecond     0
+AttrDeficient  0
+Races          524287
+Nocombo        0
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          75
+Hpmax          90
+ManaMin        4
+ManaMax        10
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'dark blessings' 28 95
+Skill 'bat form' 1 95
+Skill 'bite' 1 95
+Skill 'combo' 9 95
+Skill 'dodge' 1 95
+Skill 'feed' 1 95
+Skill 'fifth attack' 60 95
+Skill 'fly home' 1 95
+Skill 'fourth attack' 40 95
+Skill 'gauge' 4 95
+Skill 'gorge' 63 95
+Skill 'marble skin' 14 95
+Skill 'mistwalk' 43 95
+Skill 'rake' 35 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'sixth attack' 80 95
+Skill 'smell' 19 95
+Skill 'swim' 1 95
+Skill 'thaitin' 35 95
+Skill 'third attack' 25 95
+Skill 'truesight' 38 95
+Skill 'wings' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 95
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

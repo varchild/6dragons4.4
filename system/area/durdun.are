@@ -1,0 +1,1940 @@
+#AREA        Durdun~
+
+
+
+#VERSION     11
+#AUTHOR      Kacy~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+18 28 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 2 1
+
+#RESETMSG A foul wind blows from the direction of the keep.~
+
+#FLAGS
+0 10
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 999999338 999999348 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#18300
+durdun guard~
+A Durdun guard~
+A guard of durdun is standing here.
+~
+The guard has brown hair and black eyes.  He is in good physical shape.
+~
+1
+Clanname none~
+0
+0
+131075 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18301
+durdun guard Horace~
+Horace~
+A durdun guard is standing at the ready here.
+~
+The guard has blond hair and green eyes.  He is in good physical shape.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18302
+brash heavyhammer smith~
+Brash Heavyhammer~
+A huge weaponsmith stands here, smashing on a red-hot length of steel.
+~
+The smithy is wearing leather pants, but has no shirt on.  He is covered in sweat.
+~
+1
+Clanname none~
+0
+0
+3 0 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2039 0 0 0 48 0
+#18303
+crush heavyhammer armor smith~
+Crush Heavyhammer~
+A massive man stands here, beating the dents out of some armor.
+~
+The smith is wearing light leather clothing, and has dark red hair.
+~
+1
+Clanname none~
+0
+0
+3 0 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 48 0
+#18304
+ash heavyhammer smith man~
+Ash Heavyhammer~
+A mountain of a man fixes some horseshoes.
+~
+Dressed in a light brown leather armor.  The massive man has brown curly hair, and a thick gray
+beard.  His eyes are a light brown in color.
+~
+1
+Clanname none~
+0
+0
+3 0 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2046 0 0 0 560 524291
+#18305
+Durdun banker man~
+Durdun's banker~
+The Durdun banker is behind his desk, as always.
+~
+The banker is wearing fine clothing.  The robe he has is a deep purple color.  He has blue sullen eyes.
+~
+1
+Clanname none~
+0
+0
+3&262144 0 0 C
+29 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2039 0 0 0 560 524291
+#18306
+evil crazy necromancer woman human~
+An evil cleric~
+An insane and evil necromancer stands here, blood running down her chin.
+~
+The female is wearing a blood red robe, that exposes the upper half of her chest.  She has a insane look 
+in her eyes.
+~
+0
+Clanname none~
+0
+0
+1 4194304 -1000 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 16779321 1 0
+0 0 2039 0 0 0 0 0
+> all_greet_prog 100~
+if quest(meadows) == 1
+  mpquest $n meadows 2
+endif
+~
+|
+#18307
+orc assassin~
+An orcish assassin~
+An orcish assassin watches from the shadows.
+~
+Dressed completely in black with his gear tied down to make little to no noise, the assassin
+has a black pony tail, and a shaved head.
+~
+2
+Clanname none~
+0
+0
+2097155 2 -1000 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 0
+0 0 2039 0 0 0 1265 524291
+#18308
+orc torturer~
+an orcish torturer~
+An orcish torturer stands here, covered from head to toe in blood.
+~
+The orc has a pig's snout and fanged overbite jaw.  He is dressed in leather armor that
+has many blood stains on it.
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 2039 0 0 0 0 0
+> all_greet_prog 100~
+if isgood
+vault $n
+~
+|
+#18309
+Constable Meadows human female guard~
+Constable Meadows~
+Constable Meadows is here, looking at reports.
+~
+The constable is wearing fine chain mail armor.  She has a short brown pony tail,
+and has green eyes.  
+~
+1
+Clanname none~
+0
+0
+1073741827 4194304 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2039 0 0 0 0 0
+> all_greet_prog 100~
+if level($n) >= 18
+  if quest(meadows) == 3
+    if iscarrying($n) == 18309
+      mpechoat $n &CConstable Meadows says, 'Yes, Good you have it.'&D
+      mppause 2
+      mpechoat $n &CConstable Meadows says, 'Now hand it to me.'&D
+      mpforce $n give crown meadows
+      mpechoat $n &CConstable Meadows says, 'Finally, I can rest. Let this madness end.'&D
+      mpechoat $n &cConstable Meadows smash the crown on the ground and it disintegrates.&D
+      mpjunk crown
+      mpoload 18310
+      give mail $n
+      mpechoat $n &CConstable Meadows says, 'This is for your help.'&D
+      mppause 3
+      mpechoat $n &CConstable Meadows says, 'Thank you.'&D
+      mpquest $n meadows 4
+    else
+      mpechoat $n &CConstable Meadows says, 'Get the crown, fool!  We must not let it's taint destroy us all!'&D
+    endif
+  else
+    mpechoat $n &CConstable Meadows says, 'Greetings.  Can you help me with something really quick?&D
+    mpechoat $n &CYou look like you're capable.'&D
+  endif
+endif
+~
+> speech_prog yes yeah~
+mpechoat $n &CConstable Meadow says, 'Good. We need you to go get a crown from the orc hold to the north. We don't know where it is, only that you must not put it on. It is an artifact of great evil... and it might kill you were you to put it on.'&D
+mpquest $n Meadows 1
+~
+|
+#18310
+durdun guard Kayle~
+Kayle~
+A durdun guard is patrolling the area here.
+~
+The guard is dressed in chain mail.  He is in good shape, and has a cleft chin and green eyes.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18311
+durdun guard Ashad~
+Ashad~
+A durdun guard walks his post here.
+~
+The guard is dressed in fine chain mail that doesn't appear to have been in battle yet.  He is
+blond haired and blue eyed.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18312
+durdun guard Cyad~
+Cyad~
+A durdun guard is standing here.
+~
+The guard is hardened leather armor.  He has brown hair and blue eyes.
+~
+1
+Clanname none~
+0
+0
+131075 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18313
+durdun guard Engle~
+A Durdun guard~
+A durdun guard is standing here.
+~
+The guard is slightly overwieght.  He doesn't quite fit in his armor and has a sloppy appearance.
+~
+1
+Clanname none~
+0
+0
+1073872899 0 1000 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 1783 0 0 0 48 3
+#18322
+farmer Byzan human~
+Farmer Byzan~
+A human male farmer is standing here.
+~
+The farmer is wearing plain clothing.  He has brown hair and black eyes.
+~
+1
+Clanname none~
+0
+0
+1073872899 512 0 C
+25 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> fight_prog 30~
+get apple sack
+eat apple
+~
+|
+#18324
+human peasant Jacal~
+Jacal~
+A human male peasant is working on his house here.
+~
+The peasant is wearing mere rags for clothes.  He has dirty blond hair and green eyes.
+~
+1
+Clanname none~
+0
+0
+1073741827 4194816 0 C
+27 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2047 0 0 0 753 524291
+> act_prog p arrives from the west.~
+mppause 3
+mpechoat $n &CJacal says, 'Greetings Stranger.  This is my land, can I help you?'
+~
+> act_prog p flies in from the west.~
+mppause 3
+mpechoat $n &CJacal says, 'Greetings Stranger.  This is my land, can I help you?'
+~
+> act_prog p floats in from the west.~
+mppause 3
+mpechoat $n &CJacal says, 'Greetings Stranger.  This is my land, can I help you?'
+~
+|
+#18325
+woman Mala human~
+Mala~
+A human woman is supervising her children here.
+~
+The woman is very heavy with a blue dress on.  She has blond hair and blue eyes.
+~
+1
+Clanname none~
+0
+0
+1 4194816 0 C
+24 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 721 0
+> act_prog p arrives from the west.~
+mppause 3
+mpechoat $n &OMala yells, 'Jacal someone is in the house!  Kids behind me.'
+~
+> act_prog p flies in from the west.~
+mppause 3
+mpechoat $n &OMala yells, 'Jacal someone is in the house!  Kids behind me.'
+~
+> act_prog p floats in from the west.~
+mppause 3
+mpechoat $n &OMala yells, 'Jacal someone is in the house!  Kids behind me.'
+~
+|
+#18326
+child human ~
+a human child~
+A human child is playing here.
+~
+The child is wearing light tanned trousers with no shirt on.  He has brown hair
+and green eyes.
+~
+1
+Clanname none~
+0
+0
+1140850691 0 0 C
+2 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#18327
+orc sentinel~
+an orc sentinel~
+An orc sentinel is patrolling here.
+~
+The orc is wearing chain mail armor.  He has a pig snout and fanged overbite.
+~
+11
+Clanname none~
+0
+0
+33 0 -1000 C
+20 0 0 1d1+750 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+#18350
+last mob~
+a newly created last mob~
+A sneaky bastard Vladaar put here to simulate Kacy's contraption.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4292610 0 C
+106 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+mppause 2
+mpecho A small dart flies from a contraption.
+mpecho An small dart pierce hits $n!
+mpdamage $n 3
+mppause 2
+mpecho A small dart flies from a contraption.
+mpecho An small dart pierce hits $n!
+mpdamage $n 3
+mppause 2
+mpecho &R$n's small dart wounds bleed profusely!
+else
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#18300
+large sword broad broadsword~
+a large broadsword~
+A large broadsword sits here.~
+~
+5 0 8193
+0 10 20 1 1 20 50
+5 173 15
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+E
+broadsword broad sword~
+The broadsword is made out of a quality iron ore. 
+~
+#18301
+mace metal spiked~
+A spiked metal mace~
+A spiked metal mace rests here~
+~
+5 524288 8193
+0 5 15 4 5 0 0
+1 61 6
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+spiked mace~
+The spiked mace has been crafted by a quality blacksmith. 
+~
+#18302
+knight's armor~
+set of knight's armor~
+A full set of knight's plate armor is here.~
+~
+9 0 9
+30 30 0 0 0 0 0
+1 169 18
+3
+0
+0
+0
+0
+0
+S 0 0
+E
+knight armor~
+The full set of knight's armor gleams in the sunlight. 
+~
+#18303
+lochaber axe~
+a lochaber axe~
+A lochaber axe lies here before you.~
+~
+5 532480 8193
+0 30 50 3 8 0 50
+1 88 8
+4
+0
+0
+0
+0
+0
+S 0 0
+#18304
+knight's visor helm helmet~
+A knight's helmet with a visor~
+A knight's helmet with visor lays here, almost seeming to stare at you.~
+~
+9 0 17
+30 30 0 0 0 0 0
+1 124 18
+4
+0
+0
+0
+0
+0
+S 0 0
+#18305
+knight's boots~
+A pair of knight's boots~
+A pair of boots commonly worn by knight are here.~
+~
+9 0 65
+20 20 0 0 0 0 0
+1 111 19
+4
+0
+0
+0
+0
+0
+S 0 0
+#18306
+knight's shield~
+A knight's shield~
+A large shield used by knights lies here.~
+~
+9 0 513
+30 30 0 0 0 0 0
+1 66 20
+4
+0
+0
+0
+0
+0
+S 0 0
+#18307
+steel lance~
+a steel lance~
+A steel lance lies here it's point glinting sharply.~
+~
+5 532480 8193
+0 15 30 7 12 0 50
+1 93 9
+4
+0
+0
+0
+0
+0
+S 0 0
+#18308
+knight's gauntlets~
+a pair of knight's gauntlets~
+A pair of knight's gauntlets lie here.~
+~
+9 532480 129
+20 20 0 0 0 0 0
+1 89 8
+4
+0
+0
+0
+0
+0
+S 0 0
+#18309
+crown idaliss evil artifact magic~
+A blood-covered crown~
+A metal crown sits here, covered in blood.~
+~
+9 -2146952685 17
+10 10 0 0 0 0 0
+1 228 22
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+This crown is covered in blood, and has many evil-looking designs carved upon it.~
+(null)~
+> get_prog 100~
+if quest(meadows) == 2
+  mpquest $n meadows 3
+endif
+~
+|
+#18310
+rohr mail chain suit~
+Rohr's Mail~
+A suit of chainmail with the name Rohr lies in a pile.~
+~
+9 0 9
+30 30 0 0 0 31 0
+10 192 20
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+2 3
+#18311
+bloody diamond~
+a bloody diamond~
+A small, beautifully cut bloodstained diamond lies here, glittering.~
+~
+8 33554432 1
+0 0 1 0 0 0 0
+1 5 1
+1
+5
+0
+0
+0
+0
+S 0 0
+#18312
+hand half sword blackened~
+a hand and a half sword~
+A hand and a half sword has been left here.~
+~
+5 524608 8193
+0 27 34 1 0 22 0
+25 179 17
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+1 1
+A
+19 1
+#18313
+blackened dagger~
+a blackened dagger~
+A blackened dagger has been left here.~
+~
+5 0 8193
+0 5 15 2 2 15 0
+1 95 9
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 1
+#18314
+faded green tunic~
+a faded green tunic~
+A faded green tunic has been left here.~
+~
+9 0 9 32
+20 20 0 0 0 20 0
+1 185 18
+3
+11
+0
+0
+0
+0
+S 77 0
+E
+tunic green~
+The tunic is made out of faded cotton and is a light material. 
+~
+A
+17 -20
+#18315
+faded blue robe~
+a faded blue robe~
+A faded blue robe has been left here.~
+~
+9 64 1025
+20 20 0 0 0 20 0
+8 177 17
+3
+4
+0
+0
+0
+0
+S 77 0
+E
+fur robe~
+This robe will serve you well, unless a vampire or thief.  The smell of
+it would drive a vampire mad and would cause a thief to be detected.
+~
+A
+12 25
+#18316
+water fountain~
+a water fountain~
+A marble water fountain is embedded in the ground here.~
+~
+25 0 0
+20 20 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+marble water fountain~
+The marble water fountain appears to have been crafted many years ago.  
+The water does not look the best, but it is probably drinkable.
+~
+#18317
+water well~
+a water well~
+A water well is beside the house here.~
+~
+25 0 0
+20 20 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+marble water fountain~
+The marble water fountain appears to have been crafted many years ago.  
+The water does not look the best, but it is probably drinkable.
+~
+#18318
+sickle farm~
+a farm sickle~
+A farm sickle has been left here.~
+~
+5 524608 8193
+0 10 20 1 15 22 0
+8 179 17
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#18319
+straw hat~
+a straw hat~
+A straw hat has been left here.~
+~
+9 0 17
+20 20 0 0 0 20 0
+1 165 16
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+17 -20
+#18320
+red apple~
+a red apple~
+A red apple has been left here.~
+~
+26 0 16385
+5 -1 -1 -1 27 10 -1
+1 1 0
+4
+3
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#18321
+burlap sack~
+a large burlap sack~
+A sack made from a brown burlap lies here.~
+~
+15 0 16385
+75 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+sack burlap~
+To use this sack, type:  examine sack   OR   exam sack
+To get items from this sack, type:  get <item name> sack
+To put an item in this sack, type:  put <item name> sack
+ 
+You can also use get all or put all.  See help container for more information.
+~
+#18322
+green apple~
+a green apple~
+A green apple has been left here.~
+~
+26 0 16385
+5 -1 -1 -1 27 10 -1
+1 1 0
+4
+9
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+#18323
+chain mail trousers~
+a pair of chain mail trousers~
+A pair of chain mail trousers has been left here.~
+~
+9 0 33
+30 30 0 0 0 0 0
+4 73 7
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+pants chain mail~
+A finely crafted pair of chain mail pants appears a good find.
+~
+A
+17 -20
+#18324
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt has been left here.~
+~
+9 0 9
+30 30 0 0 0 0 0
+8 127 12
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+chain mail shirt~
+It appears to be a chain mail shirt of superb quality.
+~
+A
+17 -20
+#18350
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#18300
+A Guard Post~
+~
+There is a heavily reinforced guard post along the trail here. The trail 
+leads north to a small village. There is a thick forest on either sides of 
+the trail. A small wooden gate that is broken hangs from the hinges. 
+~
+1 0 11
+D0
+~
+~
+0 -1 18301
+D11
+~
+~
+0 -1 41100
+R M 0 18300 2 18300
+  R E 0 18300 1 16
+  R E 0 18323 1 7
+  R E 0 18324 1 5
+R M 0 18300 2 18300
+  R E 0 18300 1 16
+  R E 0 18323 1 7
+  R E 0 18324 1 5
+S
+#18301
+An Intersection in the Trail~
+~
+The keep to the north seems to give the local villagers a start every time 
+they see it. There is a newly repaired road leading to the east and the 
+west. To the north, on the road all travelers come in on, there is a 
+statue. There is also a statue to the east. 
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18302
+D1
+~
+~
+0 -1 18303
+D2
+~
+~
+0 -1 18300
+D3
+~
+~
+0 -1 18304
+> entry_prog 100~
+if wasinroom($n) == 18300
+  if quest(fysklor) > 0
+    mpat 18307 mpmload 4664
+  endif
+endif
+~
+|
+S
+#18302
+Rohr Street~
+~
+A street sign is seen at last, saying the road is called Rohr Street. It 
+is apparently named after a local hero . To the north, there is a statue 
+of an elfin archer, his features distinguished even at this great 
+distance. There are drains in the sides of the road for sewage. 
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18305
+D2
+~
+~
+0 -1 18301
+S
+#18303
+Throkk Way~
+~
+This path has a large sign that denotes it as Throkk Way. It seems to be 
+heading toward the richer section of the city, and in the other direction, 
+it seems to be going to the poorer side. A small lean-to shack seems to 
+lie at the eastern end of the way. 
+~
+1 3145728 1
+D1
+~
+~
+0 -1 18332
+D3
+~
+~
+0 -1 18301
+S
+#18304
+Throkk Way~
+~
+This poorly cobbled path has a long-rotten signpost proclaiming it
+to be Throkk Way. This path goes into the slightly darker-seeming
+areas of town. Footsteps echo all around. The shadows stretch,
+seeming to warp and move, following your movements.
+~
+1 3145728 1
+D1
+~
+~
+0 -1 18301
+D3
+~
+~
+0 -1 18306
+S
+#18305
+Rohr's Statue~
+~
+This square is dominated by a statue of a man in leather armor with a bow 
+pointed toward the rising sun. The plaque on its base reads: This statue 
+is dedicated to our protectors, Rohr and his band of friends known as the 
+Serafan. The square leads in the cardinal directions. 
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18309
+D1
+~
+~
+0 -1 18311
+D2
+~
+~
+0 -1 18302
+D3
+~
+~
+0 -1 18310
+R O 0 18316 1 18305
+S
+#18306
+Throkk Way~
+~
+The trail leads west to an old farm house and field. The trail has large 
+ruts in it from wagons constantly being pulled along it. There are juniper 
+bushes growing along the edge of the trail. A large boulder is to the 
+north.  A thick forest is to the south of the trail.
+~
+1 3145728 1
+D1
+~
+~
+0 -1 18304
+D3
+~
+~
+0 -1 18307
+S
+#18307
+Before a Farm House~
+~
+A large farm house made out of solid oak logs is here. There is a small 
+water well to the side of the house. A large field of crops is behind the 
+house. There are some apple trees planted around the house. 
+~
+1 0 1
+D1
+~
+~
+0 -1 18306
+D3
+~
+door~
+3 -1 18326
+R O 0 18317 1 18307
+S
+#18308
+Destroyed Home~
+~
+Now the reason for the smoke becomes clear. A house is burned to
+the ground, blocking the path. There is nothing to do here. There is a 
+cart with charred skeletons in it nearby, but the smell is sickening
+to the point of fleeing.
+~
+1 4 1
+S
+#18309
+Durdun City Gate~
+~
+The gate is made out of stout oak wood. The wall around the rear of the 
+city is made out of stone slabs that come to head height. A small hole in 
+the wall by the gate has a set of bows and arrows laid by it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18337
+D2
+~
+~
+0 -1 18305
+R M 0 18312 1 18309
+  R E 0 18300 1 16
+  R E 0 18324 1 5
+  R E 0 18323 1 7
+S
+#18310
+Market Street~
+~
+This street has many vendors hawking their wares. It doesn't seem like 
+they sell anything an adventurer would want to buy, but the sound of 
+ringing metal comes from the west. The heat from forges can be felt, even 
+at this distance. 
+~
+1 3145728 1
+D1
+~
+~
+0 -1 18305
+D3
+~
+~
+0 -1 18312
+S
+#18311
+Court Street~
+~
+This street leads to big, imposing buildings made from marble and
+granite. The bank is to the south, and to the north is the constable's
+office. The sound of ringing metal can be heard in the west.
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18318
+D2
+~
+~
+0 -1 18319
+D3
+~
+~
+0 -1 18305
+S
+#18312
+Before the Smithing Brothers.~
+~
+The ringing of metal gets louder as you approach a large building with 
+black smoke pouring out of the chimney. The man inside the building to the 
+north is beating a hammer on a red-hot chunk of metal. Another man to the 
+south is making what appears to be metal armor. There is yet a third man 
+to the west, who seems to be the local blacksmith. 
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18313
+D1
+~
+~
+0 -1 18310
+D2
+~
+~
+0 -1 18314
+D3
+~
+~
+0 -1 18315
+R M 0 18311 1 18312
+  R E 0 18300 1 16
+S
+#18313
+Durdun Weaponsmith~
+~
+This room reeks of hot metal and sweat. A list is hanging on the wall,
+telling you what there is available for purchase. The heat coming from
+the forge is incredible, but the smith barely seems to notice. There are
+swords, axes, lances, and many other kinds of weapons around the small forge.
+~
+1 3145728 1
+D2
+~
+~
+0 -1 18312
+R M 0 18302 1 18313
+  R E 1 18304 1 6
+  R E 1 18306 1 11
+  R E 1 18305 1 8
+  R E 1 18300 1 16
+  R G 1 18300 1
+  R E 1 18308 1 9
+  R E 1 18302 1 5
+  R G 1 18301 1
+  R G 1 18303 1
+  R G 1 18307 1
+S
+#18314
+Durdun Armorsmith~
+~
+The smell of hot metal pounds forth like a hammer, but the smith doesn't 
+notice. A list on the wall has his available wares, and pieces of armor 
+hang all around the room. A few shields, nearly as tall as a man, dot the 
+walls amongst the armor. 
+~
+1 3145728 1
+D0
+~
+~
+0 -1 18312
+R M 0 18303 1 18314
+  R E 1 18304 1 6
+  R E 1 18306 1 11
+  R E 1 18305 1 8
+  R E 1 18300 1 16
+  R E 1 18308 1 9
+  R E 1 18302 1 5
+  R G 1 18302 1
+  R G 1 18304 1
+  R G 1 18306 1
+  R G 1 18305 1
+  R G 1 18308 1
+S
+#18315
+The Durdun Smith~
+~
+This forge is cooler, but the smith is still as massive. There are many 
+broken and damaged items laying about, and, though there are many orders 
+and he must be very busy, he grunts an affirmation when he hears the door 
+open. However, he stays bent over his work. 
+~
+1 3145728 1
+D1
+~
+~
+0 -1 18312
+R M 0 18304 1 18315
+S
+#18316
+A Small Clearing~
+~
+The orcish keep looms over the small town. The small courtyard is so 
+littered with debris it's impassable. The keep stands tall to the north. 
+The stench of the dead fills the nostrils and the first of the dead 
+guards and villagers make themselves apparent. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18317
+D2
+~
+~
+0 -1 18336
+S
+#18317
+Entrance to the Keep~
+~
+The keep has a large ceiling, from which hangs absolutely no decorations. 
+In fact, there are no kind of decoration anywhere. There are stairs 
+leading up. A staircase leads down, as well. The stones are smoothed from 
+constant travel, and there are bloated and ruptured corpses everywhere. 
+~
+1 0 0
+D2
+~
+~
+0 -1 18316
+D4
+~
+~
+0 -1 18320
+D5
+~
+~
+0 -1 18327
+S
+#18318
+Constable Meadows' Home~
+~
+As the door opens, a noticeable hunk of the door seems to be missing, as 
+if was hit with an axe. Once inside, the constable is well-deserving of 
+the title, as there are many heads of vicious animals mounted on the 
+walls. Wanted posters with large red X's also litter the walls, apparently 
+caught criminals. 
+~
+1 3145732 1
+D2
+~
+~
+0 -1 18311
+R M 0 18309 1 18318
+  R E 0 18300 1 16
+  R E 0 18324 1 5
+  R E 0 18323 1 7
+S
+#18319
+Durdun Bank~
+~
+The inside of this building is at odds with the rest of the town. Whereas 
+most of Durdun is made of log structures, the bank is crafted not from 
+marble, but is instead crafted from what appears to be bronze. 
+~
+1 271581196 1
+D0
+~
+~
+16777216 -1 18311
+R M 0 18305 1 18319
+R M 0 18310 1 18319
+  R E 0 18300 1 16
+S
+#18320
+The Foyer~
+~
+The smell of orcs assaults the senses. To the north, there is a hole in 
+the wall, and to the south, east and west are doors, but they have caved 
+in and are inaccesible. A sickly smell slides in under the stink of 
+rotting corpses. 
+~
+1 4 0
+D0
+~
+~
+0 -1 18321
+D1
+~
+~
+2315 -1 18324
+D5
+~
+~
+0 -1 18317
+S
+#18321
+A foul-smelling stairway.~
+~
+The smell gets even stronger near the hole, and once inside, the only 
+thing around are stairs leading up. There is a path downward, but the way 
+is caved in. The smell gets worse as a new odor begins to color it. 
+~
+1 4 0
+D2
+~
+~
+0 -1 18320
+D4
+~
+~
+0 -1 18322
+S
+#18322
+The sacrifice area~
+~
+On the floor lies an immense figure, shaped like three triangles aligned 
+one atop the other, each pointing a different way. An evil aura permeates 
+the air around the figure, and the undertone of the smell is now 
+identifiable as roasting human flesh. There is an offering trough that is 
+glowing red-hot with sizzling human remains piled inside. There is a lone 
+door to the east. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18323
+D5
+~
+~
+0 -1 18321
+S
+#18323
+The Laboratory~
+~
+The sight of the remains is sickening, yet there are flowers in bloom 
+here. The horrible stink of orcs and seared flesh is gone, leaving only 
+the scent of the flowers. The room appears is outfitted like a laboratory. 
+However, the bloodstains on the floor speak of hideous acts. 
+~
+1 4 0
+D3
+~
+~
+0 -1 18322
+R M 0 18306 1 18323
+  R E 0 18309 1 6
+S
+#18324
+A shattered balcony~
+~
+~
+1 4 1
+D3
+~
+~
+0 -1 18320
+S
+#18325
+Barracks~
+~
+~
+1 4 1
+S
+#18326
+The Mud Room~
+~
+There are old tapestries hanging on the walls within the room. A large 
+blue rug is centered on the floor. There are shelves on the walls with 
+small statues on them. A hooded lantern is on a side table. 
+~
+1 12 1
+D1
+~
+door~
+3 -1 18307
+R M 0 18322 1 18326
+  R E 0 18318 1 16
+  R E 0 18319 1 6
+  R G 0 18321 1
+    R P 0 18320 1 18321
+    R P 0 18320 2 18321
+    R P 0 18320 1 18321
+    R P 0 18320 2 18321
+    R P 0 18320 4 18321
+    R P 0 18322 3 18321
+R D 0 18326 1 1
+S
+#18327
+The Cellar~
+~
+This cellar is filled with old wine, and many cracks run through its 
+walls. As far as you can see in the dim light filtering in from above, the 
+only other way to go is down through a drainhole that seems to have been 
+excavated. 
+~
+1 4 13
+D4
+~
+~
+0 -1 18317
+D5
+~
+drain hole~
+1 -1 18328
+R D 0 18327 5 0
+S
+#18328
+The Catacombs~
+~
+Water dripping down from above creates a rank stench of stagnant water 
+within this room. Wafting in from the east, a strong smell of rotting 
+flesh is overlaid on top of the smell of stagnant water. Nothing can be 
+detected from the south. 
+~
+1 4 13
+D1
+~
+~
+0 -1 18329
+D4
+~
+drain hole~
+3 -1 18327
+D5
+~
+~
+0 -1 1951
+R M 0 18307 1 18328
+  R E 0 18313 1 16
+  R E 0 18313 1 18
+S
+#18329
+Strange Room~
+~
+The door to the north is bloodcaked and battered, and the arch south has 
+smashed and crushed bones beyond. The smell of blood comes with an almost 
+physical force from the north, and the smell of death from the south. 
+~
+1 4 13
+D0
+~
+~
+0 -1 18331
+D2
+~
+~
+0 -1 18330
+D3
+~
+~
+0 -1 18328
+S
+#18330
+A trap~
+~
+A small room with hooded lanterns mounted to the walls for lighting.  The
+far wall has a strange contraption on it.  A pair of chairs are on both
+sides of the wall.
+~
+1 4 13
+D0
+~
+~
+0 -1 18329
+R M 0 18350 1 18330
+R O 0 18310 1 18330
+E
+contraption ~
+A strange looking device with small holes at the end of it.
+~
+S
+#18331
+A Blood-soaked room~
+~
+Blood coats the walls, ceiling and floor. There is a small array of 
+torture devices here, and all have blood on them. Corpses are piled in the 
+corners, and the stench has drawn flies. There are maggots feasting 
+everywhere, and the flies attack once they smell more flesh.
+~
+1 4 13
+D2
+~
+~
+0 -1 18329
+R O 0 18311 1 18331
+S
+#18332
+Throkk Way~
+~
+&gOff to the east, a small shack presents itself, and to the west, the 
+tip of a statue can barely be seen. The cobblestones here seem to be in 
+better repair than those nearby, and the homes nearby are not as run-down, 
+except for the shack to the east. 
+~
+1 4 1
+D1
+~
+~
+0 -1 18333
+D3
+~
+~
+0 -1 18303
+S
+#18333
+Throkk's Estate~
+~
+There is a small house built out of sturdy logs to the east. A large plow 
+is sitting in the field beside the house. There are a few small flowers 
+that grow along a path that leads up to the house. 
+~
+1 4 1
+D1
+~
+~
+0 -1 18334
+D3
+~
+~
+0 -1 18332
+R M 0 18324 1 18333
+  R E 0 18312 1 16
+  R E 0 18314 1 5
+S
+#18334
+Throkk's Foyer~
+~
+The foyer is fairly small. There is a fireplace in the corner of the 
+house. A great axe hangs above the fire place. There is a small table and 
+a few chairs in the room. A small red rug is centered on the floor. 
+~
+1 12 1
+D3
+~
+~
+0 -1 18333
+R M 0 18326 2 18334
+R M 0 18326 2 18334
+R M 0 18325 1 18334
+  R E 0 18315 1 12
+S
+#18335
+Within the Forest~
+~
+The trees and vegetation are thick along this trail. The trail is nothing 
+more then a game run that leads into a thick forest. There are places 
+along the ground where the grass is matted down where something slept. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18336
+D3
+~
+~
+0 -1 18345
+S
+#18336
+Within the Tall Grass~
+~
+The thick forest thins out some ahead and a large fortification is 
+visible. There are tracks by some type of humanoids along the ground. A 
+few small scrapings on the trees indicate the trail was marked. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18316
+D2
+~
+~
+0 -1 18335
+R M 0 18327 1 18336
+  R E 0 18301 1 16
+S
+#18337
+Along a Narrow Trail~
+~
+A dirt trail leads off into the woods. The trees and undergrowth have been 
+cut back along the trail. There are several sets of tracks going north 
+along the trail. A few small rocks are along the edge. 
+~
+1 4 1
+D2
+~
+~
+0 -1 18309
+D7
+~
+~
+0 -1 18338
+S
+#18338
+The End of a Trail~
+~
+The thick forest swallows up the trail, as it suddenly ends. There are 
+pine trees all around the trail. A large rotting stump is at the end of 
+the trail. A few bushes have been beaten down to the north. 
+~
+1 4 1
+D0
+~
+~
+0 -1 18339
+D8
+~
+~
+0 -1 18337
+S
+#18339
+Within the Tall Grass~
+~
+The forest thins somewhat here, and a tall grass fills the area. The grass 
+is half as tall as the trees. There are a few matted down sections to the 
+grass indicating some wildlife bedded down there recently. 
+~
+1 4 1
+D0
+~
+~
+0 -1 18340
+D2
+~
+~
+0 -1 18338
+S
+#18340
+A Cluster of Trees~
+~
+A thick cluster of trees prevents any further progress except for a small 
+opening leading to the east. The tall grass grows up and around the trees 
+here. A few deer tracks are along the ground. 
+~
+1 0 1
+D1
+~
+~
+0 -1 18341
+D2
+~
+~
+0 -1 18339
+S
+#18341
+Beside a White Birch Tree~
+~
+There is a massive white birch tree growing along here. The tree has a 
+wide girth. A small cluster of mushrooms are growing at the base of the 
+massive tree trunk. A few wild berry plants are scattered about here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18342
+D3
+~
+~
+0 -1 18340
+S
+#18342
+Within the Forest~
+~
+The forest thickens up with pine trees all around. The tall grass 
+intermingles with the tall trees. A small game trail runs through here. 
+There are pine cones scattered about the area. A rotting tree lays on the 
+ground. It appears some creature has made the tree a home. 
+~
+1 0 1
+D2
+~
+~
+0 -1 18341
+D3
+~
+~
+0 -1 18343
+S
+#18343
+Beside a Small Stream~
+~
+There is a clear stream of water running along here. Several small game 
+trails lead to the stream. Various types of humanoid tracks as well go to 
+the stream. There are some matted down sections where something bedded 
+down for the night recently. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18344
+D1
+~
+~
+0 -1 18342
+S
+#18344
+The Edge of a Swamp~
+~
+The ground becomes wet, and small bogs are scattered about the area. A 
+series of cattail weeds are growing throughout here. There is a large 
+boulder that has been cut in two by something standing on end. 
+~
+1 0 1
+D0
+~
+~
+0 -1 18345
+D2
+~
+~
+0 -1 18343
+S
+#18345
+Within the Swamp~
+~
+Large bogs are all over the swamp. The water is waist deep. The trees have 
+a growth of vegetation along the base of them. There are cattail weeds 
+growing throughout the area. 
+~
+1 0 1
+D1
+~
+~
+0 -1 18335
+D2
+~
+~
+0 -1 18344
+S
+#18346
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#18347
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#18348
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#18349
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#18350
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#0
+
+
+#SHOPS
+ 18302    0  0  0  0  0   120  90         0 23    ; Brash Heavyhammer
+ 18303    0  0  0  0  0   120  90         0 23    ; Crush Heavyhammer
+0
+
+
+#REPAIRS
+ 18304    9  5  4          30   1         0 23    ; Ash Heavyhammer
+0
+
+
+#SPECIALS
+M  18300 spec_guard
+M  18301 spec_guard
+M  18310 spec_guard
+M  18311 spec_guard
+M  18312 spec_guard
+M  18313 spec_guard
+S
+
+
+#$

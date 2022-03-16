@@ -1,0 +1,3514 @@
+#AREA        Dragon Tutorial~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThere is a clattering noise suddenly of something moving along the passageway.~
+
+#FLAGS
+181700
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 17 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#19000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19001
+Elf vextor~
+Elf Vextor~
+An elderly elf is displaying his wares here.
+~
+This powerfully built human male has piercing blue eyes, and is wearing a 
+black tunic and a mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19002
+Elf tavern Taenoc~
+Taenoc~
+A slender elf is standing here to take your order.
+~
+This elderly human male has piercing green eyes, and is wearing a green 
+tunic and a mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 6
+if quest(dtutorial) != 4
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n dtutorial 5
+  mpechoat $n &cTaenoc puts away the glass he is polishing and looks at you.&D
+  mppause 8
+  mpechoat $n &CTaenoc says, 'Ah, another youngling sent by Raesaav for me to 
+  mpechoat $n &Cprepare?  You know, as barkeeper for Tavern of the Forked Tongue, I 
+  mpechoat $n &Chear many things from all kinds of people... 
+  mpechoat $n &CYou can keep an eye on your body and mind by simply typing &WSCORE&C. 
+  mpechoat $n &CWhy don't you try it?  Apart from that, you can customize things for 
+  mpechoat $n &Cyourself with the &WCONFIG &Ccommand. Check it out!'&D
+  mppause 20
+  mpechoat $n &cTaenoc urges you on.&D
+  mppause 20
+  mpechoat $n &CTaenoc says, 'Find Cerax he will help you with equipment.'&D
+  mptutorial $n
+endif
+~
+|
+#19003
+Elf weapon weapons Chorak~
+Elf Chorak~
+A tall elf is here displaying his wares.
+~
+This short stature human male has piercing brown eyes, and is wearing a 
+red tunic and a mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19004
+elf maiden magical Shozat~
+Shozat~
+A elven maiden is displaying her wares here.
+~
+This elderly human female has piercing green eyes, and is wearing a green 
+tunic and a mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 8
+if quest(dtutorial) != 3
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n dtutorial 4
+  mppause 10
+  mpechoat $n &CShozat says, 'Ahh, $n. I was expecting you. You're the last of the new younglings to come. Come in!'&D
+  mppause 15
+  mpechoat $n &cShozat strokes her chin as she gazes upon you.&D
+  mppause 20
+  mpechoat $n &CShozat says, 'Alright. Why don't you take a look at my shop first? Take a look with &WLIST &Ccommand.'&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CHint:  &cThe saliva buckets grants HEALTH when you type &WQUAFF POTION NAME&c, use the &WBUY &ccommand, potions must be &WQUAFFED&c, other types of liquids are utilized with the &WDRINK &ccommand.&D
+  mppause 4
+  mpechoat $n &CHint:  &cThe salve grants MANA when you type &WAPPLY SALVE&c.&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CShozat says, 'Have one of each on the house, all our younglings get them for free on the Trial by Fire ceremony day.'&D
+  mppause 10
+  mpoload 19013 1
+  mpoload 19017 1
+  get bucket
+  get salve
+  give bucket $n
+  give salve $n
+  mppause 20
+  mptutorial $n
+  mpechoat $n &CShozat says, 'Go now your trial awaits...'&D
+endif
+~
+|
+#19005
+elf supply supplies dretaz~
+Dretaz~
+A robust elf stands here displaying his wares.
+~
+This robust elven male has brown hair, and is wearing a dirty tunic and a 
+mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19006
+elf armor armorer Umbar~
+elf Umbar~
+A tall elf is displaying his wares here.
+~
+This tall elven male has black eyes, and is wearing a brown tunic and a 
+mail shirt. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304&0&0&32 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19007
+Gold Dragon healer Raesaav~
+Raesaav~
+An ancient gold dragon is tending the wounded here.
+~
+Towering at a majestic sixty feet, Raesaav's enormous form gleams brightly 
+as his golden scales catch the light. His large eyes regard you with a 
+careful yet calm gaze. A silver stripe running down his back and tail, 
+Raesaav's body shows the brittle signs of aging with its cracked scales 
+and discolored claws. 
+~
+14
+Clanname none~
+0
+0
+131075 4194304 1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p has entered the game.~
+mptutorial $n
+mppause 4
+mpechoat $n &CDarkness swirls around you and you hear a voice saying to you, 'It is time for you to return from the Land of the Dead!'&D
+mppause 20
+mpechoat $n &cYou see a large foreboding stone temple approaching you, or rather you falling towards it. Through the roof, you can see your body lying unconscious on a simple straw pallet. As you enter into your body, you let out a shriek in pain!&D
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &cAn ancient gold dragon's lamp light eyes focus on you.&D
+mppause 10
+mpat 4 look
+mppause 8
+mpechoat $n &CAn ancient gold dragon says, 'Greetings youngling, my name is Raesaav.  I am the temple keeper, and healer of the wounded.  $n, since you have felt the calling to leave your mother's lair, it is time for you to find your place among us.'&D
+mppause 20
+mpat 4 look
+mppause 15
+mpecho &CHint: &cYou may type &WTEXTSPEED # &cwhere number is 1 - 10, 5 being default to speed up or slow down the tutorial speed.&D
+mppause 10
+mpechoat $n &CRaesaav says, 'You begin your Trial by Fire Ceremony today.  The ceremony is very important as we are a race bound by tradition.  Get up so I can prepare you.'&D
+mppause 8
+mpat 4 look
+mppause 10
+mpechoat $n &cYou stand up to full height still a little groggy.&D
+mppause 10
+mpechoat $n &CRaesaav says, 'There are a few things you must do, before the start of it.  Follow me, and I will show you around the city briefly.'&D
+mptutorial $n
+mpechoat $n &cType &WFOLLOW RAESAAV&c.&D
+~
+> act_prog p follows you.~
+mpquest $n dtutorial 1
+mppause 20
+mpclear $n
+ mppause 6
+n
+mpechoat $n &CRaesaav says, 'Here is the entrance to Forbidden City's Temple.'&D
+mppause 6
+mpechoat $n &CHint: &cWhen you encounter doors, you can open doors with the &WOPEN &ccommand.&D
+mppause 15
+e
+mppause 12
+n
+mppause 12
+n
+mppause 12
+n
+mppause 12
+n
+mppause 12
+e
+mppause 12
+e
+mptutorial $n
+mppause 12
+mpechoat $n &CGold Dragon Raesaav says, 'As you can see, the Temple is to the southwest of here, the shops are to the southwest where you may purchase goods. Upward leads you out of our city, and onto the mountain itself, you will have no need to go there for a while.  East and downward, will lead you to the lower level caverns where you may hunt.'&D
+mppause 20
+mpechoat $n &cRaesaav roars deafeningly in greeting to a dragon in the distance.&D
+mppause 20
+mpat 4 look
+mppause 10
+mpoload 19035
+get list
+give list $n
+mppause 20
+mpechoat $n &CRaesaav says, 'Now type &WLOOK LIST &Cyou should be able to see a list of jobs you must complete. You may also type &WJOURNAL &Cto see what part of the job you should be trying to get done.'&D
+mpat 4 look
+mppause 20
+mppause 5
+mppause 5
+mpechoat $n &CHint: &cIf you need help finding your way around type &WHELP FORBIDDEN&c.&D
+mppause 10
+mptutorial $n
+mpechoat $n &cRaesaav leaves north.&D
+mpgoto 4
+~
+|
+#19008
+teacher Ulave Silver Dragon~
+Ulave~
+An adult silver dragon is training young dragons here.
+~
+Ulave's large frame show old battlescars, one of which forms an ugly gash 
+through her left eye. Her silver scales are scratched but no duller than 
+those of her students. Formidable claws and a spike-tipped tail in 
+addition to her steely gaze attest to her battle prowess, as years of 
+teaching has not slowed the silver dragon down in the slightest. 
+~
+8
+Clanname none~
+0
+0
+131075&512 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 4
+mpquest $n dtutorial 2
+mptutorial $n
+mppause 15
+mpechoat $n &cYou see several dragons fighting in the background as an enormous Silver Dragon approaches you.&D
+mppause 10
+mpechoat $n &cUlav roars!&D
+mppause 20
+mpechoat $n &CUlave says, 'So they send you here for the Trial by Fire Ceremony.'&D
+mppause 20
+mpechoat $n &CUlave says, 'Very well, lets begin!'&D
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CUlave says, 'As you know there are teachers throughout the realms of magic, due to Magic being scattered across the realms. The same is true for some special skills of combat. You will know when you have found a teacher, when you type the &WTEACHER &Ccommand next to someone. All soldiers should know some basic fighting techniques. I recommend practicing the bite skill. Watch as I demonstrate it.'&D
+mppause 3
+mpechoat $n &cType &WPRACTICE BITE&c to practice the skill.&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CUlave says, 'To see what you can practice currently just type &WPRACTICE &Cby itself. To know what you are inclined to be able to learn in the future type &WSLIST&C. You may practice spells/skills more then once to increase your skill with them.'&D
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mptutorial $n
+mpechoat $n &CUlave says, 'When you are ready to test your newly practiced skills, I want to hear your war cry. A war cry gets your adrenaline pumping, and may startle your opponent. Type &WSAY ROAR&C! to begin the battle.'&D
+~
+> speech_prog 'roar!' 'roar'~
+if quest(dtutorial) == 2
+  mptutorial $n
+  mppause 8
+  mpechoat $n &CUlave says, 'Let us see how you fare in combat.'&D
+  mppause 15
+  mpechoat $n &cUlave opens a cage and a bugbear comes running out.&D
+  mpmload 19015 1
+  mppause 20
+  mpechoat $n &CUlave says, 'To attack the bugbear you will need to type &WKILL BUGBEAR&C.  You may either &WBITE &Cor use another skill/spell you practiced to attack it. Do this until it dies. Don't worry, we've got many where it comes from.'&D
+  mppause 3
+  mpat 4 look
+  mppause 8
+  mpechoat $n &CHint: &cSee also &WHELP WIMPY&c, &WHELP CLEAR&c, &WHELP CONSIDER&c.&D
+  mptutorial $n
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CUlave says, 'After you kill the bugbear, Dragons often state their incredible hunger/thrist by devouring the corpse!'&D
+  mppause 3
+  mpechoat $n &cType &WDEVOUR CORPSE&c to eat the corpse and no longer be hungry/thirsty.
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpquest $n dtutorial 3
+  mpechoat $n &CUlave says, 'Now be on your way your Trial by Fire starts soon!'
+else
+  mpechoat $n &CUlave says, 'You already killed the bugbear, get going.'&D
+endif
+~
+|
+#19009
+moss crawler~
+a moss crawler~
+A moss crawler is crawling around here.
+~
+With moss covering most of its body, this creature takes on the look of a
+large spider. It has no fangs, yet its legs seem to be made of a sharp and
+solid looking substance. Its eyes are casted over with white and it looks
+very irritable.
+~
+11
+Clanname none~
+0
+0
+1 0 0 C
+5 0 -25 1d1+50 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 2 0 0 1 1 0
+0 0 65536 0 0 0 2 0
+#19010
+skeleton~
+a skeleton~
+A skeleton clatters about here, his bones dry and old.
+~
+This skeleton is made of grey and cracking bones. The marrow seems to have
+turned to dust and now shakes off when any slight movement occures. The
+femur bones have large cracks and look as if they were broken at one time.
+~
+5
+Clanname none~
+0
+0
+1 0 0 C
+9 0 -15 1d1+80 2d2+1
+0 0 0 0 0 
+0
+115 115 0
+10 14 14 18 15 4 18
+0 0 0 0 0
+59 2 0 0 1 1 1
+0 0 32 0 0 0 2 0
+#19011
+quartz runner~
+a quartz runner~
+A quartz runner skitters about here.
+~
+With small crystals growing out of its body this Quartz Runner has a
+glittering to it as it shifts in the light. Its legs seem to be made of
+pure quartz. With a misshapen body and eyes made of a red quartz this
+creature wanders about, making a slight tapping sound whenever one of its
+feet sets to the ground.
+~
+12
+Clanname none~
+0
+0
+1 0 0 C
+6 0 0 1d1+50 4d4+1
+0 0 0 0 0 
+0
+115 115 0
+14 11 11 15 18 9 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#19012
+rust monster~
+a rust monster~
+A rust monster scurries about here.
+~
+This skeleton is made of grey and cracking bones. The marrow seems to have
+turned to dust and now shakes off when any slight movement occures. The
+femur bones have large cracks and look as if they were broken at one time.
+~
+1
+Clanname none~
+0
+0
+1 4194304 0 C
+15 0 -15 1d1+300 2d2+1
+0 0 0 0 0 
+0
+115 115 0
+10 14 14 18 15 4 18
+0 0 0 0 0
+85 2 0 0 1 1 1
+0 0 32 0 0 0 2 0
+#19013
+wererat ugly~
+The ugly wererat~
+A wererat is lurking about here.
+~
+This gruesome creature resembles its common rat cousin, but is mutilated 
+almost beyond recognition. Its matted fur shows tears and hints of caked 
+blood. Crimson eyes are unfocused, its maw dripping blood and saliva 
+constantly due to its infection, which causes the wererat to stagger about 
+and twitch constantly. 
+~
+13
+Clanname none~
+0
+0
+131075 512 0 C
+8 0 0 1d1+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65569 0 0 0 262147 0
+#19014
+ancient blue dragon Talshik~
+Talshik~
+An ancient blue dragon stands watch over the Hall.
+~
+Worn and dulled scales the color of lapis lazuli covering his long body, 
+the ancient Talshik Drak regards his surroundings with a majestic gaze. 
+His large translucent wings fold neatly across his back while his tail 
+lazily encircles his form. Between his eyes, there is a crescent shaped 
+mark a shade lighter than the blue of his armor. 
+~
+4
+Clanname none~
+0
+0
+131075 4194432 600 C
+101 0 0 10d10000+10000 10d5+30
+0 0 0 0 0 
+0
+115 115 1
+25 18 15 25 18 13 21
+0 0 0 0 0
+14 10 0 0 1 1 8
+0 0 0 0 0 0 163843 33554498
+> all_greet_prog 100~
+mppause 6
+if quest(dtutorial) != 7
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpechoat $n &CTalshik says, 'I have learend a lot as a dragon over many battles.
+  mpechoat $n &COnce I was a young adventurer like yourself.  I know many tricks that make this
+  mpechoat $n &Cgame accessible.  Type &WSAY TRICKS&C to learn more.
+  mppause 3
+  mptutorial $n
+endif 
+~
+> speech_prog tricks~
+mppause 5
+mptutorial $n
+mpechoat $n &CTalshik says, 'Well my friend, the best thing is you never have to worry about getting lost.   If your in your own city the
+mpechoat $n &Cwhereis command will give you directions to anybody you need.  See help whereis.  If you find yourself in the wilderness, the
+mpechoat $n &Clandmark command will tell you how to get to different areas.  Text being read is one thing, but you haven't lived till you
+mpechoat $n &Cdownload our soundpack, and play the game with sounds.  Type help sound to learn more.  There are also many commands that
+mpechoat $n &Cmake life easier with screenreaders see help accessible to learn more.'
+mppause 20
+mpquest $n dtutorial 8
+mptutorial $n
+~
+|
+#19015
+bugbear~
+a bugbear~
+A frothing at the mouth bugbear is standing here.
+~
+A massive bugbear with red eyes, and sharp fangs.
+~
+1
+Clanname none~
+0
+19004
+1073741825 0 0 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 1 1 0
+0 0 40 0 0 0 0 0
+> death_prog 100~
+mpechoat $n &CUlave says, 'Very nice, some creatures like to swallow items of power.  It is a good practice to &WSLICE&C corpse.  Now get going for your cermeony!~
+|
+#19016
+dragon spy~
+a newly created spy~
+Some god abandoned a newly created spy here.
+~
+~
+0
+Clanname none~
+0
+0
+1082261507 4292610 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(dtutorial) == 9
+  mppause 2
+  mptutorial $n
+  mpechoat $n &cAs you wait you see various dragons arrive at the central platform. You first see Ulave entering, and with him is Shozat. Other dragons fly in, and they seem completely oblivious to your existence. As you continue to wait, various kids of different ranks come and join you. Some give you a quick smile, others ignore you. You sense the nervousness around you and cannot yourself be still.&D
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &CUlave says, 'Are there any here who wish to be granted the Trial by Fire Ceremony?'&D
+  mppause 20
+  mpechoat $n &cSeveral younglings step forward and give their reasons. You feel too nervous to listen closely. They are quickly dismissed.&D
+  mppause 20
+  mpechoat $n &cSuddenly, a heat wave seems to shimmer in front of you and a bright light blinds you.&D
+  mpforce $n sleep
+  mppause 6
+  mptutorial $n
+  mpat $n mpapplyb $n
+  mppause 6
+  mpat $n mpforce $n wake
+  mppause 6
+  mpat $n mpechoat $n &cYou awake feeling light headed, and wondering if your Trial by Fire Ceremony was but a dream...&D
+  mppause 15
+  mpat $n mpquest $n dtutorial 10
+endif
+~
+|
+#19017
+kael drak thakkel~
+kael drak thakkel, scholar~
+Kael Drak' Thakkel, a scholar, stands here awaiting his students.
+~
+An old bespectacled black dragon, this scholar stands with an air of 
+wisdom and authority. An abnormally long, whip-like tail wraps around his 
+thin frame. Long ivory claws clack against the ground and his large ebony 
+wings fold gracefully against his sides. 
+~
+1
+Clanname none~
+0
+0
+131075 0 100 C
+20 0 -100 2d200+2000 3d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 8 0 0 1 1 3
+0 0 0 0 0 0 3 2
+#19018
+Blue Dragon guard city entrance Gsaar~
+Gsaar~
+An adult blue dragon guard is standing here.
+~
+This silver haired dragonlord stands at around six foot tall, but his 
+shadow is strangely long and appears to form the shape of a great dragon. 
+Though he looks to be an adult in his prime, his red eyes show the 
+weariness of ancients. The brass keyring on his belt stands out against 
+his black guard outfit. 
+~
+8
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 6
+if quest(dtutorial) != 6
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n dtutorial 7
+  mpechoat $n &cGsaar roars, 'Youngling I have some advice for you.'
+  mppause 6
+  mpechoat $n &CGsaar says, 'Beyond the city in the harsh lands you can get wounded fast.
+  mpechoat $n &CCollect Treasure items, and carry them on you, so when you rest you heal
+  mpechoat $n &Cfaster.  That is a dragon's special ability.  Treasure makes us heal fast!
+  mpechoat $n &COnce you are an adult dragon there is a quest in the city that you can
+  mpechoat $n &Cdo to attain your own lair.  That is the perfect place to store treasure.'
+  mppause 3
+  mpechoat $n &cType &WHELP TREASURE &cand &WHELP LAIR&c to learn more.
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mptutorial $n
+  mpechoat $n &CGsaar says, 'Now be off with you to Blue Dragon Talshik!'
+endif
+~
+|
+#19019
+Cerax Elf~
+Cerax~
+A stout elf is ready to assist you here.
+~
+The elf is filled out with thick muscles rippling beneath his leather armor.
+~
+1
+Clanname none~
+0
+0
+1073872899&1024 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 6
+if quest(dtutorial) != 5
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n dtutorial 6
+  mpechoat $n &CCerax says, 'Ho there my friend.  I am the resizer of equipment for dragons.  
+  mpechoat $n &CYour race is very large and much equipment in the land is small.  I can often
+  mpechoat $n &Cresize equipment to fit you if possible.  You should also know that dragons
+  mpechoat $n &Ccan only use certain things.  Obviously you have no need of weapons with 
+  mpechoat $n &Cthose nasty talons and sharp teeth you have.  But it is also true that some
+  mpechoat $n &Cequipment just was not meant for dragons.
+  mppause 4
+  mpechoat $n &cType &WHELP DRAGON EQUIPMENT&c to learn what you can wear.
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mptutorial $n
+  mpechoat $n &CCerax says, 'Find Blue Dragon Gsaar now he is looking for you.'
+endif
+~
+|
+#19020
+elf banker Haevar~
+Haevar~
+An elf sits behind a desk here.
+~
+~
+1
+clanname none~
+0
+0
+131075&262144 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 7 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#19100
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#19000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19001
+short nosed pipe~
+a short nosed pipe~
+A short nosed pipe has been left here.~
+~
+30 0&32 16385
+50 0 0 0 0 30 0
+1 30 3
+1
+13
+0
+0
+0
+0
+S 3 0
+E
+'short' 'nosed' 'pipe'~
+The pipe appears to be made from some type of obsidian stone, and is 
+perfectly formed with small grooves by the mouth piece. 
+~
+A
+14 75
+#19002
+a long handled pipe~
+a long handled pipe~
+A long handled pipe was left here.~
+~
+30 0 16385
+50 0 0 0 0 1 0
+1 10 1
+4
+2
+0
+0
+0
+0
+S 3 0
+E
+'long' 'handled' 'pipe'~
+The pipe is made from a cherry wood, and corn combination. A light red 
+color has been stained onto the pipe. 
+~
+#19003
+packet raw draconic leaves~
+a packet of raw draconic leaves~
+A packet of raw draconic leaves has been left here.~
+~
+32 0 1
+0 20 5 0 0 1 0
+1 11 1
+4
+11
+0
+0
+0
+0
+S 0 0
+E
+'packet' 'raw' 'draconic' 'leaves'~
+The raw leaves off the draconic plant. The leaves are very bright green in 
+color, And have a strong sweet odor. 
+~
+#19004
+packet enriched draconic leaves~
+a packet of enriched draconic leaves~
+A packet of enriched draconic leaves has been left here.~
+~
+32 8192&32 1
+0 20 3 0 0 1 0
+1 50 2
+2
+1
+0
+0
+0
+0
+S 0 0
+E
+'enriched' 'packet' 'draconic' 'leaves'~
+Draconic leaves that have been enriched with spices, and dried out. The 
+leaves are brown in color, and have a mild bitter odor. 
+~
+#19005
+Copper plated talons~
+a set of copper plated talons~
+A set of copper plated talons has been left here.~
+~
+5 0 8193
+0 10 20 1 14 20 0
+5 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+'copper' 'plated' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. The copper plates attach the hand and wrist with 
+leather straps. 
+~
+#19006
+bronze plated talons~
+a set of bronze plated talons~
+A set of bronze plated talons has been left here.~
+~
+5 0 8193
+12 15 30 1 14 30 0
+5 208 20
+3
+1
+0
+0
+0
+0
+S 0 0
+E
+'bronze' 'plated' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. The bronze plates attach the hand and wrist with 
+leather straps. 
+~
+#19007
+silver plated talons~
+a set of silver plated talons~
+A set of silver plated talons has been left here.~
+~
+5 0 8193
+12 20 40 1 14 40 0
+5 76 7
+2
+5
+0
+0
+0
+0
+S 0 0
+E
+'silver' 'plated' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. The silver plates attach the hand and wrist with 
+leather straps. 
+~
+#19008
+gold plated talons~
+a set of gold plated talons~
+A set of gold plated talons has been left here.~
+~
+5 0 8193
+12 25 50 1 14 50 0
+5 84 8
+2
+14
+0
+0
+0
+0
+S 0 0
+E
+'gold' 'plated' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. The gold plates attach the hand and wrist with 
+leather straps. 
+~
+#19009
+Ruby embedded talons~
+a set of ruby embedded talons~
+A set of ruby embedded talons has been left here.~
+~
+5 0 8193
+12 30 60 1 14 60 0
+5 120 12
+1
+3
+0
+0
+0
+0
+S 0 0
+E
+'ruby' 'embedded' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. There are rubies embedded within the gold plate. 
+The hand and wrist with leather straps. 
+~
+#19010
+Sapphire embedded talons~
+a set of sapphire embedded talons~
+A set of sapphire embedded talons has been left here.~
+~
+5 0 8193
+12 35 70 1 14 70 0
+5 118 11
+1
+4
+0
+0
+0
+0
+S 0 0
+E
+'sapphire' 'embedded' 'talons' ~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. There are sapphires embedded within the gold 
+plate. The hand and wrist with leather straps. 
+~
+#19011
+Emerald embedded talons~
+a set of emerald embedded talons~
+A set of emerald embedded talons has been left here.~
+~
+5 0 8193
+12 40 80 1 14 80 0
+5 187 18
+1
+9
+0
+0
+0
+0
+S 0 0
+E
+'emerald' 'embedded' 'talons' ~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. There are emeralds embedded within the gold plate. 
+The hand and wrist with leather straps. 
+~
+#19012
+Diamond embedded talons ~
+a set of diamond embedded talons~
+A set of diamond embedded talons has been left here.~
+~
+5 0 8193
+12 45 90 1 14 90 0
+5 192 19
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+'diamond' 'embedded' 'talons'~
+The talon hand attachment has three razor sharp steel knives that extend 
+outward from the hands. There are diamonds embedded within the gold plate. 
+The hand and wrist with leather straps. 
+~
+#19013
+small bucket dragon saliva ~
+a small bucket of dragon saliva~
+A small bucket of dragon saliva has been left here.~
+~
+10 0&32 16385
+10 -1 -1 -1 0 1 0
+3 5 0
+3
+1
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+E
+'small' 'bucket' 'saliva' 'dragon'~
+The wooden bucket is filled with a thick gray colored saliva of a mighty 
+dragon. Saliva from dragons are know to have healing properties. 
+~
+#19014
+large bucket of dragon saliva~
+a large bucket of dragon saliva~
+A large bucket of dragon saliva has been left here.~
+~
+10 0&32 16385
+30 -1 -1 -1 96 10 0
+8 2 0
+2
+1
+0
+0
+0
+0
+'heal' 'NONE' 'NONE'
+S 0 0
+E
+'large' 'bucket' 'saliva'~
+The massive wooden bucket contains the thick gray colored saliva of a 
+mature dragon. Dragons saliva are known to have healing properties. 
+~
+#19015
+recall~
+a newly created recall~
+Some god dropped a newly created recall here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19016
+small wisdom tree~
+a small wisdom tree~
+A small wisdom tree has been left here.~
+~
+3 0 16385
+1 3 3 -1 0 1 0
+5 20 2
+2
+1
+0
+0
+0
+0
+'identify'
+S 5 0
+E
+'small' 'wisdom' 'tree'~
+The tree is made out of an ancient mystical wood. It ranges from 3 to 6 
+feet in length. 
+~
+#19017
+salve rejuvenation ~
+a salve of rejuvenation~
+A salve of rejuvenation has been left here.~
+~
+60 0&32 16385
+45 1 1 1 -1 5 -1
+1 4 0
+2
+4
+0
+0
+0
+0
+'restore mana' 'NONE'
+S 0 0
+E
+'salve' 'rejuvenation'~
+The small container holds some blue salve that rejuvenates the mind.
+~
+#19018
+rune~
+a rune~
+A rune has been left here.~
+~
+41 0 16385
+0 0 0 0 0 1 0
+1 1 0
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+rune~
+The rune is the shape that seems similar to the shape of the portal stone 
+in your city.
+~
+#19019
+unused~
+unused~
+Some god dropped a newly created dye here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19020
+unused~
+unused~
+Some god dropped a newly created sharpening stone here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19021
+globe light~
+a globe of light~
+A globe of light has been left here.~
+~
+1 0 16385
+0 0 10 0 0 0 0
+3 23 2
+4
+2
+0
+0
+0
+0
+S 5 0
+E
+'globe' 'light'~
+A large globe of crystal that glows with a bright light.
+~
+#19022
+unused~
+unused~
+Some god dropped a newly created leather saddle bag here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19023
+leather saddle bag~
+a leather saddle bag~
+A leather saddle bag has been left here.~
+~
+15 0 16385
+700 0 0 12 0 1 0
+1 50 5
+2
+1
+0
+0
+0
+0
+S 0 0
+E
+'leather' 'saddle' 'bag'~
+A large saddle bag made out of thick leather with straps on it.
+~
+#19024
+dragon chain barding~
+dragon chain barding~
+A massive set of dragon chain barding lays here.~
+~
+9 0 9
+5 5 0 0 0 5 0
+8 51 5
+4
+8
+0
+0
+0
+0
+S 5 0
+E
+'dragon' 'chain' 'barding'~
+The massive chain linked barding has straps on it that maybe secured tightly.
+~
+#19025
+dragon bronze plate barding~
+dragon bronze plate barding~
+A massive set of bronze dragon plate barding lays here.~
+~
+9 0 9
+20 20 0 0 0 20 0
+8 184 18
+3
+1
+0
+0
+0
+0
+S 5 0
+E
+'dragon' 'bronze' 'barding'~
+The massive bronze plated barding has straps on it that maybe secured tightly.
+~
+#19026
+field plate dragon barding~
+dragon field plate barding~
+A massive set of dragon field plate barding lays here.~
+~
+9 0 9
+35 35 0 0 0 40 0
+8 110 11
+2
+5
+0
+0
+0
+0
+S 6 0
+E
+'dragon' 'field' 'barding'~
+The massive field plated barding has straps on it that maybe secured tightly.
+~
+#19027
+dragon bronze full plate barding~
+dragon bronze full plate barding~
+A massive set of dragon bronze full plate barding lies here.~
+~
+9 0 9
+45 45 0 0 0 60 0
+8 150 15
+1
+1
+0
+0
+0
+0
+S 7 0
+E
+'dragon' 'plate' 'barding'~
+The massive plate barding has straps on it that maybe secured tightly.
+~
+#19028
+unused~
+unused~
+Some god dropped a newly created dragon full plate barding here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#19029
+dragon full plate barding~
+dragon full plate barding~
+A massive set of dragon full plate barding lays here.~
+~
+9 0 9
+55 55 0 0 0 80 0
+8 220 22
+1
+8
+0
+0
+0
+0
+S 7 0
+E
+'dragon' 'plate' 'barding'~
+The massive plate barding has straps on it that maybe secured tightly.
+~
+#19030
+shot whiskey~
+a shot of whiskey~
+A shot of whiskey was left here.~
+~
+17 8192 16385
+5 5 5 0 0 10 0
+1 61 6
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+'shot' 'whiskey'~
+A small glass of whiskey that is designed to be drank in one gulp.
+~
+#19031
+pint ale~
+a pint of ale~
+A pint of ale has been left here.~
+~
+17 0 16385
+6 6 4 0 0 5 0
+1 15 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'pint' 'ale'~
+The large glass cup holds a dark thick liquid, with a foamy top.
+~
+#19032
+bowl stew~
+a bowl of stew~
+Some god dropped a newly created bowl stew here.~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 25 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'bowl' 'stew'~
+A large clay bowl containing a few vegetables, and pieces of meat.
+~
+#19033
+dye bottle~
+a bottle of dye~
+A bottle of dye has been left here.~
+~
+70 0 16385
+0 0 0 0 0 0 0
+1 13 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'dye' 'bottle'~
+A small glass bottle of ink dye with a cork stopper on it.
+~
+#19034
+sharpening stone~
+a sharpening stone~
+A sharpening stone has been cast aside here.~
+~
+65 8192 16385
+1 0 0 0 0 0 0
+1 10 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'sharp' 'sharpening' 'stone'~
+A small gray stone with a flat course side to it.
+~
+#19035
+note list~
+a note list~
+A note list is laying here.~
+~
+47 0 1
+0 0 0 0 0 0 0
+1 18 1
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+'note' 'note list' 'list' 'list note'~
+Here is a list of tasks you must complete:
+
+Seek out Silver Dragon Ulave for training.
+Find Shozat in the Mystical Shop.
+Find Taenoc in the Tavern.
+
+~
+#19036
+rump raw venison~
+a rump of raw venison~
+A bloodied rump of raw venison is lying here.~
+~
+19 0 16385
+10 0 0 0 0 0 0
+1 5 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+rump~
+It's a chunk of boneless raw meat.
+~
+#19037
+slab mutton food~
+a slab of mutton~
+A bloodied piece of meat is laying here.~
+~
+19 0 16385
+10 0 0 0 0 0 0
+1 4 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+slab~
+It's a lean slab of meat, and appears to be deboned.
+~
+#19038
+portal stone~
+portal stone~
+A portal stone is embedded in the ground here.~
+~
+72 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+19038 portal stone portalstone~
+This smooth, black stone feels warm to the touch and seems to be of a glass material. Inside its transparent, dark depths, a faint flame flickers erratically. Miniscule gold specks dust the surface of the portal stone and shimmer entrancingly. Gold letters form the word 'ACTIVATE' on the top of the stone. &Y Type 'activate' to activate the stone.
+~
+#19100
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#19000
+At the Base of a Mountain~
+~
+A gravel trail climbs up the length of the mountain above. There are many 
+pine trees surrounding the mountain, and hills in the area. A small pond 
+of water with cat tail weeds growing along the edge of it forms just to 
+the west of the trail. 
+~
+1 4 36
+D1
+~
+~
+0 -1 19001
+S
+#19001
+Along a Mountain Trail~
+~
+The mountain edge has a loose gravel surface throughout the trail. A few 
+pine trees, and different vegetation growths growing along the trail. A 
+few large boulders of moss covered stone edge out along the sides of the 
+trail. The trail edge has a long drop to the ground below. 
+~
+1 4 36
+D3
+~
+~
+0 -1 19000
+D8
+~
+~
+0 -1 19002
+S
+#19002
+Within a Mountain Trail~
+~
+A loose gravel surface covers the length of the mountain trail. Small 
+trees, and different vegetation growths growing along the trail. The 
+remains of a campfire are beside the trail here. The trail edge has a long 
+drop to the ground below. 
+~
+1 4 36
+D4
+~
+~
+0 -1 19003
+D7
+~
+~
+0 -1 19001
+S
+#19003
+A Steep Incline in the Trail~
+~
+The mountain edge has a loose gravel surface along the trail. Many small 
+trees, and different vegetation growths growing along the trail. Some 
+small animal tracks are visibly along the trail. The trail edge has a long 
+drop to the ground below. 
+~
+1 4 36
+D4
+~
+~
+0 -1 19004
+D5
+~
+~
+0 -1 19002
+S
+#19004
+Along a Mountain Trail~
+~
+The trail along the mountain edge has a loose gravel surface. There are 
+small trees, and different vegetation growths growing along the trail. A 
+large boulder is embedded in the center of the trail. The trail edge has a 
+long drop to the ground below. 
+~
+1 4 36
+D1
+~
+~
+0 -1 19005
+D5
+~
+~
+0 -1 19003
+S
+#19005
+Along the Edge of a Trail~
+~
+The trail has a very sharp incline along the mountain face here. There are 
+jagged rocks along it that make traveling very difficult. A cluster of 
+small pine trees and a few small shrubs grow out along the trail edge. The 
+ground is a soft gravel surface. 
+~
+1 4 36
+D3
+~
+~
+0 -1 19004
+D8
+~
+~
+0 -1 19006
+S
+#19006
+At the Base of a Steep Incline~
+~
+The mountain face has a sharp incline trail here. Jagged rocks along it 
+that make traveling very difficult. Many odd looking shrubs, and small 
+trees are growing out along the trail edge. The ground is a soft gravel 
+surface.  A shallow dug hole is along the trail side.
+~
+1 4 36
+D4
+~
+~
+0 -1 19007
+D7
+~
+~
+0 -1 19005
+S
+#19007
+On a Steep Incline~
+~
+A sharp incline in the trail moves up the mountain face here. Many jagged 
+rocks along it that make traveling very difficult. Odd looking shrubs, and 
+small trees grow out along the trail edge. There is soft gravel along the 
+trail path. 
+~
+1 4 36
+D4
+~
+~
+0 -1 19008
+D5
+~
+~
+0 -1 19006
+S
+#19008
+Along a Steep Incline~
+~
+The trail has a sharp incline along the mountain face here. There are 
+jagged rocks along it that make traveling very difficult. A few odd 
+looking shrubs, and small trees grow out along the trail edge. The ground 
+is a soft gravel surface. 
+~
+1 4 36
+D4
+~
+~
+0 -1 19009
+D5
+~
+~
+0 -1 19007
+S
+#19009
+On a Landing Platform~
+~
+A massive outcropping of rock that has been completely leveled of 
+vegetation, and debris. This point gives a view of the entire valley and 
+sides of the mountain range. There are two wooden poles with chains 
+attached to them on the edge of the platform. 
+~
+1 4 36
+D1
+~
+~
+0 -1 19010
+D2
+~
+~
+0 -1 19011
+D5
+~
+~
+0 -1 19008
+S
+#19010
+Before a Massive Tunnel~
+~
+The mouth of the tunnel leading into the mountain below is enormous. There 
+are stalagmites and stalactites along the edge of the tunnel entrance. 
+There are large grooves, and scratches in the stone along the tunnel 
+edges. A few large rocks are on both sides of the entrance. 
+~
+1 4 36
+D3
+~
+~
+0 -1 19009
+D5
+~
+~
+0 -1 19015
+R M 0 19018 1 19010
+S
+#19011
+Along a Ridgeline~
+~
+The ridgeline is a jagged trail along the mountainside. A few large ruts 
+are in the trail from heavy loads. A wall of large boulders is on the west 
+side of the ridgeline. A few rocks and sparse vegetation are scattered 
+along the ridgeline sides. There is a light dusting of snow in a few 
+places along the ridgeline here. 
+~
+1 4 36
+D0
+~
+~
+0 -1 19009
+D2
+~
+~
+0 -1 19012
+S
+#19012
+Within a Ridgeline~
+~
+The ridgeline is a jagged trail along the mountainside. A wall of large 
+boulders is on the west side of the ridgeline. A small tree grows along 
+the ridgeline here. A few bushes covered in frost are on the opposite side 
+of the tree. A few rocks are scattered about the trail here. 
+~
+1 4 36
+D0
+~
+~
+0 -1 19011
+D9
+~
+~
+0 -1 19013
+S
+#19013
+Along a Ridgeline~
+~
+The jagged trail moves haphazardly along the mountainside. Many large ruts 
+are in the trail from heavy loads. A crumbling wall of boulders is on the 
+west side of the ridgeline. A few rocks and sparse vegetation are 
+scattered along the ridgeline sides. There is a light dusting of snow in a 
+few places along the ridgeline here. 
+~
+1 4 36
+D3
+~
+~
+0 -1 19014
+D6
+~
+~
+0 -1 19012
+S
+#19014
+A Lower Landing Platform~
+~
+The mountainside has been cut by a jagged ridgeline that provides a trail. 
+A wall of large boulders is on the west side of the ridgeline. The trail 
+is completely covered in a thick layer of ice. A few rocks with a layer of 
+snow upon the top of them are scattered about the trail here. 
+~
+1 4 36
+D1
+~
+~
+0 -1 19013
+S
+#19015
+High Perch Centre~
+~
+The centre is a massive intersection of caverns leading in all directions. 
+The caverns are reinforced with beams to support the ceiling. There are 
+formations of stalagmites, and stalactites throughout. A heavily worn path 
+has been formed leading to the different caverns. A small underground lake 
+is along the north side of the intersection. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19038
+D1
+~
+~
+0 -1 19037
+D2
+~
+~
+0 -1 19030
+D3
+~
+~
+0 -1 19016
+D4
+~
+~
+0 -1 19010
+R M 0 19016 1 19015
+S
+#19016
+Barter Caverns~
+~
+The cavern walls are made out of roughly cut stone slabs. A few large ruts 
+have been caused from heavy loads. A series of talon marks adorning it is 
+on the south side of the cavern. A few buildings are along the cavern 
+sides. A cluster of beautiful crystals are set into the cavern sides. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19029
+D1
+~
+~
+0 -1 19015
+D3
+~
+~
+0 -1 19017
+S
+#19017
+Barter Caverns~
+~
+The cavern walls are made out of cracked and scratched up old stone slabs. 
+A series of talon marks adorning it is on the south side of the cavern. 
+There are small sewer grates on the sides of the cavern to provide sewage 
+to drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the cavern here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19028
+D1
+~
+~
+0 -1 19016
+D2
+~
+~
+0 -1 19018
+D3
+~
+~
+0 -1 19027
+S
+#19018
+Barter Caverns~
+~
+The cavern walls are made out of broken stained stone slabs. Some rotten 
+food is in its final stages of decay along the cavern side. A series of 
+talon marks adorning it is on the south side of the cavern. A section of 
+the wall has been destroyed by something leaving a large whole and rubble. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19017
+D2
+~
+~
+0 -1 19019
+D3
+~
+~
+0 -1 19026
+S
+#19019
+Barter Caverns~
+~
+The stone slabs are cracked and scratched up throughout the cavern here. A 
+series of talon marks our on the ground on the south side of the cavern. 
+There are small sewer grates on both sides of the cavern to provide sewage 
+a place to drain into. A few skulls are along the cavern side here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19018
+D1
+~
+~
+0 -1 19097
+D2
+~
+~
+0 -1 19020
+D3
+~
+~
+0 -1 19025
+S
+#19020
+Barter Caverns~
+~
+The jagged trail along the depths of the cavern. Many large ruts are in 
+the trail from heavy loads. A giant mushroom stump is along the cavern 
+here. A few rocks covered in mold are on the opposite side of the giant 
+mushroom stump. Several rocks are scattered about the trail here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19019
+D2
+~
+~
+0 -1 19021
+D3
+~
+~
+0 -1 19024
+S
+#19021
+Hallow Cavern and Barter Caverns Intersection~
+~
+A series of turns and elevation changes run along the depths of the 
+cavern. A series of torches have been mounted to the walls and are spaced 
+out that are covered with a heavy mold layer are on the west side of the 
+cavern. Several tall stalagmites stand tall along the trail here. A few 
+rocks with loose gravel are scattered about the trail here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19020
+D1
+~
+~
+0 -1 19036
+D3
+~
+~
+0 -1 19022
+S
+#19022
+Before an Ancient Temple~
+~
+An enormous cavern that has many columns that have many intricate designs 
+along them is to the south. Large blocks of perfectly cut stone slabs make 
+up the ground of the building. The stalagmites and stalactites end 
+abruptly before the temple and there is naught but smooth stone. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19021
+D2
+~
+~
+0 -1 19023
+S
+#19023
+Within a Temple~
+~
+The vast room has giant pillars of marble supporting the ceiling. There 
+are lush tapestries hanging from the walls. A massive stone altar in the 
+shape of a dragon head is against the south wall. The altar is covered 
+with various precious jewels embedded on it. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19022
+S
+#19024
+The Weapon Shop~
+~
+The floor is made up of wooden planks here. A large golden rug is centered 
+on the floor here. All along the walls are wooden shelves with displays 
+setup on them. A few torches have been mounted to the walls for lighting. 
+A beautiful tapestry hangs from the rear wall of the shop. 
+~
+1 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 19020
+R M 0 19003 1 19024
+  R G 0 19012 1
+  R G 0 19011 1
+  R G 0 19010 1
+  R G 0 19009 1
+  R G 0 19008 1
+  R G 0 19007 1
+  R G 0 19006 1
+  R G 0 19005 1
+E
+rug~
+The rug appears to be made of exquisite quality. There is complicated 
+design of a triangle with an eye, and several runes that is zigzagged 
+across it. 
+~
+E
+tapestry~
+The tapestry is made of cloth woven together, and depicts several angels 
+flying around a central person. 
+~
+S
+#19025
+A Mystical Shop~
+~
+Wooden planks make up the floor here. A small red rug lays centered on the 
+floor here. All along the walls are wooden shelves with displays setup on 
+them. A hooded lantern is suspended from the ceiling for lighting. A small 
+painting hangs from the rear wall of the shop. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19019
+R M 0 19004 1 19025
+  R G 0 19014 1
+  R G 0 19017 1
+  R G 0 19018 1
+  R G 0 19013 1
+  R G 0 19016 1
+E
+rug~
+The rug appears to be made of poor quality. There is no design on it, just 
+the frayed thread in places throughout it. 
+~
+E
+painting~
+The painting depicts a beautiful mountain scene.
+~
+S
+#19026
+General Supply Store~
+~
+The floor is made out of interlocking bricks. There is a large blue rug 
+centered on the floor here. All along the walls are wooden shelves with 
+displays setup on them. A hooded lantern is suspended from the ceiling for 
+lighting. A large oak desk is at the rear of the shop 
+~
+1 8 13
+D1
+~
+~
+0 -1 19018
+R M 0 19005 1 19026
+  R G 0 19023 1
+  R G 0 19037 1
+  R G 0 19033 1
+  R G 0 19021 1
+  R G 0 19036 1
+  R G 0 19034 1
+E
+rug~
+The rug is rather worn, but appears to be made of good quality. There is a 
+diamond design that zigzags across the rug. 
+~
+E
+displays~
+The displays are setup in various positions to show the best features of 
+the products that are being displayed. 
+~
+S
+#19027
+Armor Shop~
+~
+The floor is made out of interlocking bricks. There is a large blue rug 
+centered on the floor here. All along the walls are wooden shelves with 
+displays setup on them. A hooded lantern is suspended from the ceiling for 
+lighting. A large oak desk is at the rear of the shop. 
+~
+1 8 13 0 0 0 1000
+D1
+~
+~
+0 -1 19017
+R M 0 19006 1 19027
+  R G 0 19029 1
+  R G 0 19027 1
+  R G 0 19026 1
+  R G 0 19025 1
+  R G 0 19024 1
+E
+rug~
+The rug is rather worn, but appears to be made of good quality. There is a 
+diamond design that zigzags across the rug. 
+~
+E
+displays~
+The displays are setup in various positions to show the best features of 
+the products that are being displayed. 
+~
+S
+#19028
+Tavern of the Forked Tongue~
+~
+Wooden planks make up the floor here. A small red rug lays centered on the 
+floor here. All along the walls are wooden shelves with displays setup on 
+them. A hooded lantern is suspended from the ceiling for lighting. A small 
+painting hangs from the rear wall of the shop. 
+~
+1 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 19017
+R M 0 19002 1 19028
+  R G 0 19032 1
+  R G 0 19030 1
+  R G 0 19031 1
+E
+rug~
+The rug appears to be made of poor quality. There is no design on it, just 
+the frayed thread in places throughout it. 
+~
+E
+painting~
+The painting depicts a beautiful waterfall scene.
+~
+S
+#19029
+Tobacco Shop~
+~
+The floor is made up of wooden planks here. A large golden rug is centered 
+on the floor here. All along the walls are wooden shelves with displays 
+setup on them. A few torches have been mounted to the walls for lighting. 
+A beautiful tapestry hangs from the rear wall of the shop. 
+~
+1 8 13 0 0 0 1000
+D2
+~
+~
+0 -1 19016
+R M 0 19001 1 19029
+  R G 0 19004 1
+  R G 0 19001 1
+  R G 0 19002 1
+  R G 0 19003 1
+E
+tapestry~
+The tapestry is made of cloth woven together, and depicts several angels 
+flying around a central person. 
+~
+E
+rug~
+The rug appears to be made of exquisite quality. There is complicated 
+design of a triangle with an eye, and several runes that is zigzagged 
+across it. 
+~
+S
+#19030
+Hallow Cavern~
+~
+A series of turns and elevation changes run along the depths of the 
+cavern. A few large ruts are in the trail from heavy loads. A series of 
+torches have been mounted to the walls and are spaced out along the cavern 
+trail. A few rocks with thick mildew are along the cavern sides. There are 
+claw marks gouged along in a few places here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19015
+D2
+~
+~
+0 -1 19032
+D3
+~
+~
+0 -1 19031
+S
+#19031
+Treasure Bank~
+~
+The enormous cavern has a giant sized iron gate in front of a vast 
+treasure of gold and jewels. Rich tapestries hang from the walls. There 
+are a few perfectly chiseled stone desks before the gate. The floor is 
+made out of cut to fit stone slabs. 
+~
+1 268435464 13
+D1
+~
+~
+0 -1 19030
+R M 1 19020 1 19031
+S
+#19032
+Hallow Cavern~
+~
+The cavern has a series of turns and elevation throughout its length. A 
+series of torches have been mounted to the walls and are spaced out along 
+the cavern trail. A giant mushroom grows along the cavern here. A few 
+rocks covered in mold are on the opposite side of the giant mushroom. A 
+few rocks are scattered about the trail here. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19030
+D2
+~
+~
+0 -1 19033
+S
+#19033
+Hallow Cavern~
+~
+The jagged trail moves haphazardly along the depths of the cavern. Many 
+large ruts are in the trail from heavy loads. A series of torches have 
+been mounted to the walls and are spaced out along the cavern trail. A few 
+rocks with thick mildew are scattered along the cavern sides. There are 
+claw marks gouged along in a few places along the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19032
+D2
+~
+~
+0 -1 19034
+S
+#19034
+Hallow Cavern~
+~
+The depths of the cavern has been cut by a jagged cavern that provides a 
+trail. A series of torches have been mounted to the walls and are spaced 
+out along the cavern trail. The trail is completely covered in a thick 
+layer of mold. A few rocks with a layer of mold upon the top of them are 
+scattered about the trail. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19033
+D2
+~
+~
+0 -1 19035
+D3
+~
+~
+0 -1 19036
+S
+#19035
+Lower Landing Caverns~
+~
+Thick reinforced beams are supporting the weight of the massive stones 
+above. A steady stream of water drips down from above and runs along the 
+sides of the passage. A few stalagmites have formed here. Large scrapings 
+are visible along the passageway. A cluster of giant size mushrooms grow 
+close to the walls. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19034
+D5
+~
+~
+0 -1 19061
+R M 0 19017 1 19035
+S
+#19036
+Hallow Cavern~
+~
+The trail along the cavern is very steep here. A series of torches have 
+been mounted to the walls and are spaced out along the cavern trail. The 
+elevation here rises at a sharp incline. A few rocks with thick mildew are 
+scattered along the cavern sides. There are claw marks gouged along in a 
+few places along the cavern here. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19034
+D3
+~
+~
+0 -1 19021
+S
+#19037
+Lower Landing Caverns~
+~
+There are thick reinforced beams supporting the weight of the stones 
+above. Water drips down from places along the walls and runs along the 
+sides of the passage. Large stalagmites have formed throughout here. There 
+are a few scrapings along the passageway. A few giant size mushrooms grow 
+close to the walls. 
+~
+1 8 13
+D3
+~
+~
+0 -1 19015
+D5
+~
+~
+0 -1 19069
+S
+#19038
+Trial Lane~
+~
+The stone slabs are broken and stained along the cavern here. A series of 
+talon marks adorning it is along the south side of the cavern. The inner 
+city lights of a few buildings are visible to the north. A beautiful 
+crystal is set into the ground on the south side of the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19039
+D2
+~
+~
+0 -1 19015
+R O 0 19038 1 19038
+> entry_prog 100~
+if quest(dtutorial) == 8
+mppause 3
+mptutorial $n
+mpechoat $n &cYou realize this is the portalstone that Taenar was talking about.
+mpechoat $n &cOn an impulse you nudge the portalstone with your snout, and a flood of 
+mpechoat $n &cinformation comes into your mind.
+mppause 10
+mpechoat $n &GLocation                   Difficulty Level
+mpechoat $n &G1. Merchant's Discovery        00 - 10
+mpechoat $n &G2. Norrinton South Harbor      10 - 20
+mpechoat $n &G3. The Abyss                   05 - 10
+mpechoat $n &G4. Gnome Tower                 05 - 20
+mpechoat $n &G5. Kirwood Swamp               00 - 05
+mpechoat $n &G6. Abandoned Cabin             05 - 20
+mpechoat $n &G7. Garden                      15 - 20
+mpechoat $n &G8. Tufkul'ar                   15 - 30
+mpechoat $n &G9. Durdun                      10 - 20
+mpechoat $n &G10.Spiral Village              10 - 20
+mpechoat $n &G11.Ice Cavern                   5 - 20
+mpechoat $n &G12.Under Sewer                 03 - 10 &R[Group Area]
+mpechoat $n &G13.Bowels of the Citadel       10 - 25 &R[Group Area]
+mpechoat $n &cProper Syntax: Activate < Location Number ( 1 - 13 )>
+mppause 10
+mpechoat $n &cYou have learned that the portalstone can send you to locations by using
+mpechoat $n &cthe &WACTIVATE&c command.  Remember you can always return home up to
+mpechoat $n &clevel 20 with the &WRECALL&c command.
+mpquest $n dtutorial 9
+mptutorial $n
+else
+endif
+~
+|
+S
+#19039
+Trial Lane~
+~
+The old stone slabs are broken, and there are ruts in the cavern here. The 
+series of talon marks adorning it is on the south side of the cavern here. 
+A few buildings are along the north side of the cavern. A blackened red 
+stain is smeared along the edge here. There are small drains on the sides 
+of the cavern to provide sewage drainage. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19040
+D2
+~
+~
+0 -1 19038
+S
+#19040
+Trial Lane~
+~
+The passageway is a well worn trail through the cavern. A small pile of 
+rocks, and stones are along the edge of the passageway from cracks in the 
+ceiling. Large beams reinforce the ceiling to support the upper stonework. 
+A few stalactites are scattered throughout the passageway 
+~
+1 8 13
+D0
+~
+~
+0 -1 19086
+D1
+~
+~
+0 -1 19041
+D2
+~
+~
+0 -1 19039
+D3
+~
+~
+0 -1 19044
+S
+#19041
+Trial Lane~
+~
+A well worn trail runs through the cavern. A large pile of rocks, and 
+stones are along the edge of the passageway from cracks in the ceiling. 
+The ceiling is reinforced by large beams supporting the upper stonework. 
+Many stalactites are scattered throughout the passageway. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19042
+D3
+~
+~
+0 -1 19040
+S
+#19042
+Trial Lane~
+~
+The cavern has a well worn trail throughout it. A small stream of water 
+runs along the edge of the passageway. Many Large beams reinforce the 
+ceiling to support the upper stonework. A series of stalactites are 
+scattered throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19043
+D3
+~
+~
+0 -1 19041
+S
+#19043
+Cavern of Warfare~
+~
+A series of vast caverns make up this warfare training ground. The ground 
+is reached from an incredibly steep passage that leads downward. The 
+ceiling is covered with stalagmites throughout it. A few statues of 
+massive dragons are along the cavern walls. 
+~
+1 8 13
+D2
+~
+~
+0 -1 19042
+R M 0 19008 1 19043
+S
+#19044
+Trial Lane~
+~
+The trail runs throughout the passageway of the cavern. A small stream of 
+water runs along the edge of the passageway, and disappears under a wall. 
+Many large beams reinforce the ceiling to support the upper stonework. The 
+stalactites are very sparse in number here. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19040
+D3
+~
+~
+0 -1 19045
+S
+#19045
+Trial Lane~
+~
+The passageway well worn trail widens in the cavern here. A large pile of 
+rocks, and stones are along the edge of the passageway from cracks in the 
+ceiling. Large beams reinforce the ceiling to support the upper stonework. 
+The stalactites end abruptly at this point in the passage. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19044
+D3
+~
+~
+0 -1 19046
+S
+#19046
+Trial Lane~
+~
+The passageway is a well worn trail through the cavern. A small pile of 
+rocks, and stones are along the edge of the passageway from cracks in the 
+ceiling. Large beams reinforce the ceiling to support the upper stonework. 
+A few stalactites are scattered throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19047
+D1
+~
+~
+0 -1 19045
+S
+#19047
+Lower Landing Caverns~
+~
+The weight of the stones above has been supported by thick reinforced 
+beams. A small stream of water runs along the sides of the passage. Both 
+stalagmites and stalactites have formed throughout here. There are a few 
+bones scattered along the passageway. Many clusters of giant size 
+mushrooms grow close to the walls. 
+~
+1 12 13
+D2
+~
+~
+0 -1 19046
+D5
+~
+~
+0 -1 19048
+S
+#19048
+Upper Landing Caverns~
+~
+The overhead passage leads upward to the higher level. Many reinforced 
+beams along the walls support the stone supports of overhead passage. A 
+very small stream of water runs along the sides of the passageway. Many 
+clusters of giant sized mushrooms are located by the small stream. 
+~
+1 12 13
+D2
+~
+~
+0 -1 19049
+D4
+~
+~
+0 -1 19047
+S
+#19049
+Flooded Caverns~
+~
+There is standing water of varying depths throughout the passageway. 
+Reinforced beams along the walls are supporting the stone above. A few 
+rocks and floating debris are within the standing water. There are 
+stalagmites and stalactites throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19048
+D2
+~
+~
+0 -1 19050
+S
+#19050
+Flooded Caverns~
+~
+Standing water of varying depths fills the entire passageway. There are 
+many reinforced beams along the walls are supporting the stone above. Much 
+floating debris are within the standing water. There are stalagmites and 
+stalactites throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19049
+D2
+~
+~
+0 -1 19051
+S
+#19051
+Flooded Caverns~
+~
+There is standing water of varying depths throughout the passageway. 
+Reinforced beams along the walls are supporting the stone above. A few 
+rocks and floating debris are within the standing water. There are 
+stalagmites and stalactites throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19050
+D2
+~
+~
+0 -1 19052
+R M 0 19011 7 19051
+R M 0 19011 7 19051
+R M 0 19010 7 19051
+R M 0 19009 9 19051
+R M 0 19009 9 19051
+S
+#19052
+Flooded Caverns~
+~
+Standing water of varying depth runs throughout the passageway. The 
+ceiling is supported by reinforced beams along the walls. Many rocks and 
+floating debris are within the standing water. There are stalagmites and 
+stalactites throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19051
+D2
+~
+~
+0 -1 19053
+S
+#19053
+Flooded Caverns~
+~
+A small amount of standing water is throughout the passageway. Large beams 
+along the walls are supporting the stone above. A few giant sized 
+mushrooms are growing beside the standing water. There are stalagmites and 
+stalactites throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19052
+D1
+~
+~
+0 -1 19068
+D2
+~
+~
+0 -1 19054
+S
+#19054
+Flooded Caverns~
+~
+A lot of standing water is throughout the passageway. Many reinforced 
+beams along the walls are supporting the stone above. Giant sized 
+mushrooms grow beside the standing water. Stalagmites and stalactites are 
+throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19053
+D2
+~
+~
+0 -1 19055
+R M 0 19010 9 19054
+R M 0 19010 9 19054
+S
+#19055
+Flooded Caverns~
+~
+Large amounts of standing water are throughout the passageway. Various 
+reinforced beams along the walls are supporting the stone above. Clusters 
+of giant sized mushrooms fill the passageway besides the standing water. 
+Many stalagmites and stalactites are throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19054
+D2
+~
+~
+0 -1 19056
+R M 0 19009 11 19055
+R M 0 19009 11 19055
+S
+#19056
+Flooded Caverns~
+~
+Varying depths of standing water are throughout the passageway. The stone 
+above is supported by reinforced beams along the walls. A small humanoid 
+skull lays on the ground. There are stalagmites and stalactites throughout 
+the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19055
+D2
+~
+~
+0 -1 19057
+R M 0 19011 9 19056
+R M 0 19011 9 19056
+S
+#19057
+Flooded Caverns~
+~
+Standing water nearly fills the entire passageway. Water logged reinforced 
+beams along the walls are supporting the stone above. A few rocks and 
+floating debris are within the standing water. There are stalagmites 
+throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19056
+D2
+~
+~
+0 -1 19058
+S
+#19058
+Intersection of Flooded Caverns and Graveyard Caverns~
+~
+The entire passageway is nearly filled with standing water. Many water 
+logged reinforced beams along the walls are supporting the stone above. 
+Some floating debris are within the standing water. Stalactites are 
+throughout the passageway. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19057
+D1
+~
+~
+0 -1 19059
+S
+#19059
+Graveyard Caverns~
+~
+The vast cavern is littered with bleached white dragon skeletons. Some of 
+the skeletons are buried, some are half buried, and others are scattered 
+about in various bones. A wide trail edges around the skeletons. There are 
+tracks of small animals scurrying about the area. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19060
+D3
+~
+~
+0 -1 19058
+R M 0 19012 7 19059
+S
+#19060
+Graveyard Caverns~
+~
+Bleached white dragon skeletons litter the cavern. A few of the skeletons 
+are buried, some are half buried, and others are scattered about in 
+various bones. A wide trail edges around the skeletons. There are tracks 
+of small animals scurrying about the area. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19061
+D3
+~
+~
+0 -1 19059
+R M 0 19011 11 19060
+R M 0 19011 11 19060
+R M 0 19010 10 19060
+R M 0 19009 12 19060
+S
+#19061
+Upper Landing Caverns~
+~
+A vast overhead passage leads upward to the higher level. There are 
+reinforced beams along the walls to support the stone supports of overhead 
+passage. A small stream of water runs along the sides of the passageway. A 
+few giant sized mushrooms are located by the stream. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19062
+D1
+~
+~
+0 -1 19070
+D3
+~
+~
+0 -1 19060
+D4
+~
+~
+16777216 -1 19035
+R M 0 19012 6 19061
+S
+#19062
+Low Caverns~
+~
+A massive cluster of stalactites along the ceiling cause the cavern to 
+have a much lower height then the other connecting caverns. A small stream 
+of water runs along the edge of the passageway. Within the stream a series 
+of giant sized mushrooms are growing. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19063
+D2
+~
+~
+0 -1 19061
+R M 0 19009 6 19062
+R M 0 19009 6 19062
+R M 0 19009 6 19062
+S
+#19063
+Low Caverns~
+~
+The cluster of stalactites along the ceiling cause the cavern to have a 
+much lower height then the other connecting caverns. A large stream of 
+water runs along the edge of the passageway. Within the stream a few giant 
+sized mushrooms are growing. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19064
+D2
+~
+~
+0 -1 19062
+S
+#19064
+Low Caverns~
+~
+Stalactites completely filing the ceiling cause the cavern to have a much 
+lower height then the other connecting caverns. A small stream of water is 
+running along the edge of the passageway. There are giant sized mushrooms 
+growing close to the stream. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19065
+D2
+~
+~
+0 -1 19063
+R M 0 19011 13 19064
+R M 0 19011 13 19064
+S
+#19065
+Low Caverns~
+~
+Much lower heights along the ceiling has been caused by stalactites 
+filling the entire cavern. A very small stream of water runs along the 
+edge of the passageway. Giant sized mushrooms are clustered about besides 
+the water. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19066
+D2
+~
+~
+0 -1 19064
+R M 0 19009 7 19065
+S
+#19066
+Low Caverns~
+~
+Clusters of stalactites along the ceiling cause the cavern to have a much 
+lower height then the other connecting caverns. Water runs along the edge 
+of the passageway in a large stream. Within the stream a series of giant 
+sized mushrooms are growing. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19069
+D2
+~
+~
+0 -1 19065
+D3
+~
+~
+0 -1 19067
+S
+#19067
+Low Caverns~
+~
+Throughout the entire cavern a massive cluster of stalactites along the 
+ceiling cause the cavern to have a much lower height then the other 
+connecting caverns. Water from a stream runs along the edge of the 
+passageway. Besides the stream a group of giant sized mushrooms are 
+growing.  A thick mildew is growing on the walls.
+~
+1 8 13
+D1
+~
+~
+0 -1 19066
+D3
+~
+~
+0 -1 19068
+S
+#19068
+Low Caverns~
+~
+Many clusters of stalactites along the ceiling cause the cavern to have a 
+much lower height then the other connecting caverns. A small stream of 
+water runs along the edge of the passageway. Within the stream a few giant 
+sized mushrooms are growing. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19067
+D3
+~
+~
+0 -1 19053
+S
+#19069
+Upper Landing Caverns~
+~
+A higher level can be reached from the vast overhead passage. Reinforced 
+beams along the walls support the stone supports of overhead passage. A 
+small stream of water runs along the sides of the passageway. Many giant 
+sized mushrooms are located by the stream. 
+~
+1 12 13
+D1
+~
+~
+0 -1 19076
+D3
+~
+~
+0 -1 19066
+D4
+~
+~
+16777216 -1 19037
+R M 0 19009 7 19069
+R M 0 19010 6 19069
+R M 0 19011 5 19069
+S
+#19070
+Graveyard Caverns~
+~
+The vast cavern is littered with bleached white dragon skeletons. Some of 
+the skeletons are buried, some are half buried, and others are scattered 
+about in various bones. A wide trail edges around the skeletons. There are 
+tracks of small animals scurrying about the area. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19071
+D3
+~
+~
+0 -1 19061
+S
+#19071
+Graveyard Caverns~
+~
+Bleached white dragon skeletons litter the cavern. A few of the skeletons 
+are buried, some are half buried, and others are scattered about in 
+various bones. A wide trail edges around the skeletons. There are tracks 
+of small animals scurrying about the area. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19072
+D3
+~
+~
+0 -1 19070
+S
+#19072
+Graveyard Caverns~
+~
+Littered throughout the cavern are bleached white dragon skeletons. Many 
+of the skeletons are buried, some are half buried, and others are 
+scattered about in various bones. Around the skeleton remains winds a 
+trail. A few piles of rocks are scattered about the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19073
+D2
+~
+~
+0 -1 19071
+R M 0 19012 5 19072
+S
+#19073
+Graveyard Caverns~
+~
+Dragon remains in the form of skeletons, and bones are scattered about the 
+vast cavern. A wide trail edges around the skeletons. Many piles of rocks 
+are along the edge of the cavern. A few stalagmites are scattered about 
+the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19074
+D2
+~
+~
+0 -1 19072
+R M 0 19010 6 19073
+R M 0 19010 6 19073
+R M 0 19010 6 19073
+S
+#19074
+Graveyard Caverns~
+~
+The vast cavern is littered with bleached white dragon skeletons. Some of 
+the skeletons are buried, some are half buried, and others are scattered 
+about in various bones. A wide trail edges around the skeletons. There are 
+tracks of small animals scurrying about the area. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19075
+D2
+~
+~
+0 -1 19073
+S
+#19075
+Graveyard Caverns~
+~
+The vast cavern is littered with bleached white dragon skeletons. Some of 
+the skeletons are buried, some are half buried, and others are scattered 
+about in various bones. A vast crater in the cavern floor is next to the 
+trail. A massive pile of rocks cover the remains of a mighty dragon within 
+the crater. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19076
+D2
+~
+~
+0 -1 19074
+R M 0 19012 4 19075
+S
+#19076
+Graveyard Caverns~
+~
+The remains of dragons lay scattered about the vast cavern. Some of the 
+skeletons are buried, and some are half buried. A wide trail edges around 
+the skeletons. A few large rocks are along the sides of the cavern. There 
+are stalagmites and stalactites formed throughout the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19077
+D2
+~
+~
+0 -1 19075
+D3
+~
+~
+0 -1 19069
+R M 0 19011 5 19076
+R M 0 19011 5 19076
+R M 0 19010 3 19076
+R M 0 19010 3 19076
+S
+#19077
+Graveyard Caverns~
+~
+Bleached white dragon skeletons are throughout the cavern. Some of the 
+skeletons are buried, some are half buried, and others are scattered about 
+in various bones. There is a wide trail that edges around the skeletons. 
+There are stalagmites and stalactites formed throughout the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19078
+D2
+~
+~
+0 -1 19076
+R M 0 19011 15 19077
+R M 0 19011 15 19077
+R M 0 19010 11 19077
+S
+#19078
+Graveyard Caverns~
+~
+The vast cavern appears filled with bleached white dragon skeletons. Some 
+of the skeletons are buried, some are half buried, and others are 
+scattered about in various bones. A wide trail edges around the skeletons. 
+Many Stalagmites and stalactites are within the cavern. 
+~
+1 8 13
+D0
+~
+~
+0 -1 19079
+D2
+~
+~
+0 -1 19077
+R M 0 19012 3 19078
+S
+#19079
+Intersection of Collapsed Caverns and Graveyard Caverns~
+~
+There are bleached white dragon skeletons within this vast cavern. Many of 
+the skeletons are buried, some are half buried, and others are scattered 
+about in various bones. The trail edges around the skeletons throughout 
+the cavern. A few stalagmites are scattered about. 
+~
+1 8 13
+D2
+~
+~
+0 -1 19078
+D3
+~
+~
+0 -1 19080
+R M 0 19011 3 19079
+R M 0 19011 3 19079
+S
+#19080
+Collapsed Caverns~
+~
+The massive cavern has had some damage from broken support beams. There 
+are rocks scattered about the cavern from a near collapsed ceiling. 
+Temporary support beams have been rigged in critical places to keep any 
+further damage from occurring. A small stream of water flows along the 
+passage.  A pile of rocks appears to be blocking off a passage north.
+~
+1 8 13
+D0
+~
+~
+256 -1 19084
+D1
+~
+~
+0 -1 19079
+D3
+~
+~
+0 -1 19081
+R M 0 19012 2 19080
+R D 0 19080 0 3
+S
+#19081
+Collapsed Caverns~
+~
+Broken support beams have caused damage to the ceiling of the cavern. Many 
+rocks scattered about the cavern from a near collapsed ceiling. Temporary 
+support beams have been rigged in critical places to keep any further 
+damage from occurring. Water flows along the passage on the side. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19080
+D3
+~
+~
+0 -1 19082
+S
+#19082
+Collapsed Caverns~
+~
+Damage from broken support beams has been done to the ceiling. There are 
+rocks scattered about the cavern from a near collapsed ceiling. Many 
+temporary support beams have been rigged in critical places to keep any 
+further damage from occurring. There is a small stream of water flows 
+along the passage side. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19081
+D3
+~
+~
+0 -1 19083
+R M 0 19009 3 19082
+R M 0 19009 3 19082
+S
+#19083
+A Filthy Lair~
+~
+There is a thick coating of mildew and mold along the walls of the cavern. 
+A black sludge of liquid pools in the center of the cavern. There are large 
+amounts of foul smelling trash throughout the cavern. A few skeletons of 
+small creatures and various bones are scattered about. 
+~
+1 8 13
+D1
+~
+~
+0 -1 19082
+S
+#19084
+A Quartz Tunnel~
+~
+The tunnel has walls of pure quartz that have been mined recently. There 
+are reinforced beams that help support the tunnel. A worn path leads to 
+the north. There are a few giant sized mushrooms growing along the edge of 
+the pathway. A few scattered bones are along the ground. 
+~
+1 8 13
+D0
+~
+~
+0 -1 40023
+D2
+~
+~
+256 -1 19080
+R D 0 19084 2 3
+S
+#19085
+Floating in a void~
+~
+~
+1 12 13
+S
+#19086
+Sagonis Hall~
+~
+The ground at the sides of the hall here is covered by many small plants 
+with pale green leaves, some have small black flowers on them. A large 
+opening lies to the south leading into intersection of passages. The 
+ground is soft soil and the smell of earth entirely consumes the area. 
+~
+1 8 13
+D2
+~
+~
+0 -1 19040
+R M 0 19014 1 19086
+S
+#19087
+Floating in a void~
+~
+~
+1 12 13
+S
+#19088
+Floating in a void~
+~
+~
+1 12 13
+S
+#19089
+Floating in a void~
+~
+~
+1 12 13
+S
+#19090
+Floating in a void~
+~
+~
+1 12 13
+S
+#19091
+Floating in a void~
+~
+~
+1 12 13
+S
+#19092
+Floating in a void~
+~
+~
+1 12 13
+S
+#19093
+Floating in a void~
+~
+~
+1 12 13
+S
+#19094
+Floating in a void~
+~
+~
+1 12 13
+S
+#19095
+Floating in a void~
+~
+~
+1 12 13
+S
+#19096
+Floating in a void~
+~
+~
+1 12 13
+S
+#19097
+The Craftsman Shop~
+~
+The floor is made out of interlocking bricks. There is a large blue rug 
+centered on the floor here. All along the walls are wooden shelves with 
+displays setup on them. A hooded lantern is suspended from the ceiling for 
+lighting. A large oak desk is at the rear of the shop.
+~
+1 12 13
+D3
+~
+~
+0 -1 19019
+R M 0 19019 1 19097
+S
+#19098
+Altar to the Creator~
+~
+The vast room has giant pillars of marble supporting the ceiling. There 
+are lush tapestries hanging from the walls. A massive stone altar in the 
+shape of a dragon head is against the south wall. The altar is covered 
+with various precious jewels embedded on it. 
+~
+1 12 13
+D0
+~
+~
+0 -1 19022
+S
+#19099
+Altar to the Creator~
+~
+The vast room has giant pillars of marble supporting the ceiling. There 
+are lush tapestries hanging from the walls. A massive stone altar in the 
+shape of a dragon head is against the south wall. The altar is covered 
+with various precious jewels embedded on it. 
+~
+1 12 13
+D0
+~
+~
+0 -1 19022
+S
+#19100
+Floating in a void~
+~
+~
+1 12 13
+S
+#0
+
+
+#SHOPS
+ 19001    0  0  0  0  0   120  90         0 23    ; Elf Vextor
+ 19002    0  0  0  0  0   120  90         0 23    ; Taenoc
+ 19003    0  0  0  0  0   120  90         0 23    ; Elf Chorak
+ 19004    0  0  0  0  0   120  90         0 23    ; Shozat
+ 19005    0  0  0  0  0   120  90         0 23    ; Dretaz
+ 19006    0  0  0  0  0   120  90         0 23    ; elf Umbar
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

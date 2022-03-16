@@ -1,0 +1,4883 @@
+#AREA        Kingdom of Heaven~
+
+
+
+#VERSION     11
+#AUTHOR      Maynard~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       Celestial~
+#DESC        ~
+
+#RANGES
+1 20 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A bell rings in the distance.~
+
+#FLAGS
+4 15
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31335160 0 999996505 999951303 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#31000
+Master Drath celestial teacher~
+Master Drath~
+Master Drath floats here, powerful and wise.
+~
+~
+0
+Clanname none~
+0
+0
+67 4202624 1000 C
+50 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+17 17 18 15 18 16 15
+0 0 0 0 0
+15 14 0 0 4227072 4194305 5
+0 0 32775 2048 0 0 176 0
+> all_greet_prog 100~
+mppause 3
+nod $n
+mppause 7
+mpechoat $n &CMaster Drath says, 'I am Master Drath, Headmaster of Training in Heaven here. If you have any questions, feel free to ask me.'&D
+mppause 4
+bow
+~
+> speech_prog quest~
+mppause 3
+mpechoat $n &CMaster Drath says, 'Are you looking for a Quest?'&D
+mppause 3
+mpechoat $n &cMaster Drath looks you over, considers your skill, and then nods to himself.&D
+mppause 4
+mpechoat $n &CMaster Drath says, 'I think this will do nicely, yes...'&D
+mppause 2
+mpechoat $n &CMaster Drath says, 'I hereby endow you with a Quest, that of cleansing the Labyrinth of Atonement!'&D
+mppause 5
+mpechoat $n &cMaster Drath's eyes flash.&D
+mppause 2
+nod
+mppause 5
+mpechoat $n &CMaster Drath says, 'You will find the Labyrinth of Atonement south of the Light, down
+mpechoat $n &CEverbright Way. I do warn you however, use your wits and be careful!'&D
+mppause 4
+mpe _blu Master Drath utters some arcane words.
+mppause 5
+mpechoat $n &CMaster Drath says, 'Go forth, $n, and cleanse the Labyrinth of Atonement! Free the tormented
+mpechoat $n &Csouls that have atoned for their deeds inside of that unhallowed place.'&D
+mppause 6
+bow $n
+mppause 4
+mpa $n &cA glimmering seraphim holds you and flies you to the Labyrinth, smiling at you and giggling.&D
+mptrans $n 31027
+~
+|
+#31001
+cain shadowy creature~
+Cain~
+A hideous, shadowy creature creeps here.
+~
+From within the shadows of this secret, dank and dark chamber, this twisted
+creature floats forth.  Both shadowy and powerful-looking, Cain is the sad
+product of a fallen aasimar, the effects of evil and self-torture.  However,
+a glint in his black and sunken eyes seems to reveal that both blood and 
+unfound treasures keep his interest.
+~
+0
+Clanname none~
+0
+0
+1 525316 -666 C
+10 0 0 1d8+1 1d13+1
+0 0 0 0 0 
+0
+115 115 1
+10 17 16 14 15 9 13
+0 0 0 0 0
+8 4 0 0 23068673 1 3
+0 0 65545 1048832 0 0 264193 8
+> death_prog 100~
+mpoload 31005
+~
+> greet_prog 100~
+mppause 2
+mpechoat $n &cThe shadowy form of Cain comes into view.&D
+mppause 5
+mpechoat $n &CCain says, 'YYou know who I am, pilgrim?  I am Cain, the fallen angel of Heaven...'&D
+mppause 10
+mpechoat $n &CCain says, 'Want to know why I'm here? Heh, the Gods abandoned me from their holy hole.'&D
+mppause 8
+mpechoat $n &cCain grins evilly and snickers.&D
+mppause 2
+mpechoat $n &CCain says, 'I think there's treasure in 'ere somewhere... but its all mine!!!'&D
+mppause 6
+mpechoat $n &RThe crucifix creaks loudly as the magical chains holding Cain break!&D
+mppause 5
+mpechoat $n &RCain looks at you with a maniacal glare and looks ready to kill!!!&D
+~
+|
+#31002
+Lady Valerra seraphim healer~
+Lady Valerra~
+Lady Valerra aids the sick and mends the broken here.
+~
+A beautiful Seraph robed in snow white, Lady Valerra is a powerful figure
+indeed.  Her soft pure white hands seem to dance from bed to bed, granting
+health and giving an angel's touch of life to others, yet still her soft
+and comforting singing puts everyone at ease.
+~
+0
+Clanname none~
+0
+0
+16777411 67109036 1000 C
+100 0 -200 2d20+2 1d20+3
+0 0 0 0 0 
+0
+115 115 2
+13 18 20 16 15 18 14
+0 0 0 0 0
+15 14 0 0 1 1 3
+1 0 72 1049344 2097152 0 673185792 388
+#31003
+Deacon Dominus cherubim cleric~
+Deacon Dominus~
+A cherub Deacon gives prayers and utters incantations here.
+~
+~
+0
+Clanname none~
+0
+0
+16908355 2621612 1000 C
+100 0 0 2d200+3000 2d8+200
+0 0 0 0 0 
+0
+115 115 1
+17 15 18 16 15 17 14
+0 0 0 0 0
+15 14 0 0 4194305 4194305 3
+5 2 32777 0 0 0 10485762 5376
+> greet_prog 100~
+mppause 5
+mpechoat $n &CDeacon Dominus says, 'Welcome to the Holy Church of the Gods, the Divine House in Heaven!'&D
+~
+|
+#31004
+a praying cherubim~
+a praying cherubim~
+A cute, floating cherub prays here.
+~
+A small, cupid-like cherub floats here, with a small aura of light
+encircling his head and illuminating his charming face, which, although
+like that of a child or baby, has the features and look of one with
+much more wisdom than your average Man, and much more mischief.
+~
+0
+Clanname none~
+0
+0
+65731 2621580 500 C
+5 0 0 2d20+10 2d6+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 17 16 13 18 10
+0 0 0 0 0
+15 14 0 0 4194305 4194304 0
+0 0 33025 1048579 0 0 608 130
+#31005
+Shelby dapper celestial banker~
+Shelby~
+A dapper celestial banker is here behind the window.
+~
+Quite a dapper fellow, this Shelby is an old and noble man by appearance,
+although a slight glow about the head reveals more. He dons a perfect
+bowler, tilted upon his head, and some spectacles, and his eyes sparkle
+like the sky when he smiles at you charmingly.
+~
+0
+Clanname none~
+0
+0
+131139 132 1000 C
+50 0 -20 20d200+200 20d20+3
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 4227073 1 3
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &cA bell rings as the door opens.&D
+mppause 3
+mpechoat $n &CShelby says, 'Why hello there! Welcome to the Cloud Street Bank of Heaven!'&D
+mppause 5
+mpechoat $n &cShelby smiles warmly.&D
+mppause 3
+mpechoat $n &CShelby says, 'What can I do for you today?'&D
+~
+|
+#31006
+Orghund massive archangel weaponsmith~
+Orghund~
+A massive archangel weaponsmith stands here crafting a sword.
+~
+Before you looms a massive colossal figure! A golden ring of light crowns
+Orghund's stern head, upon short silver hair and a clean, powerful face 
+that shows not one line of age yet displays a wisdom of millenia. His
+body is built like a tank, muscles rippling and built upon others like a
+mountain. His eyes flash with extreme and divine power, but the moment he
+smiles you feel much safer and much more at ease.
+~
+0
+Clanname none~
+0
+0
+16908291 140 1000 C
+70 0 0 3d1000+584 8d20+3
+0 0 0 0 0 
+0
+115 115 1
+21 13 17 16 20 14 13
+0 0 0 0 0
+15 14 0 0 1 1 6
+4 5 0 0 0 0 537990066 13319
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &cOrghund looks up, and nods to you.&D
+mppause 3
+mpechoat $n &COrghund says, 'Welcome to my Weaponry Shop, if there's anything I can do just holler.'&D
+mppause 8
+mpechoat $n &COrghund says, 'Would you like to know what's on &WSALE&C, or about my grand and completed &WMASTERPIECE&C?'&D
+~
+> speech_prog sale~
+mppause 4
+nod
+mppause 6
+mpechoat $n &COrghund says, 'Well, right now I have Celestial Blades on sale - they're very magnificent weapons, you know. You can feel the power crackle like lightning down your limbs when you wield it!'&D
+mppause 5
+mpechoat $n &cOrghund beams proudly and shows you some celestial blades for sale.&D
+~
+> speech_prog masterpiece~
+mppause 5
+mpechoat $n &cOrghund sighs contentedly, and reveals a gleaming silver spear, like lightning, from a curtain behind the counter top and shows it to you proudly.&D
+mppause 6
+mpechoat $n &COrghund says, 'This piece of work, this beautiful weapon is the Spear of the Heavens.'&D
+mppause 6
+grin
+mppause 5
+mpechoat $n &COrghund says, 'The Spear of the Heavens is the most powerful weapon of all these Realms...its thunderous strike is like the fury of the Gods themselves, and there is even an enchantment that blesses the owner of such a weapon!'&D
+mppause 6
+mpechoat $n &cOrghund smiles softly.&D
+mppause 4
+mpechoat $n &COrghund says, 'It is a work of art, and my final masterpiece. Unfortunately, it is not for sale at the moment, I await the time when it is needed, so that it may be properly used as it was meant to be!'&D
+mppause 8
+mpechoat $n &cOrghund nods solemnly.&D
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#31007
+Thassilod busy armorer~
+Thassilod~
+Thassilod, the busy armorer, works busily and hard here.
+~
+~
+0
+Clanname none~
+0
+0
+16778307 4 1000 C
+51 0 0 400d2+30000 50d100+143
+0 0 0 0 0 
+0
+115 115 1
+21 18 17 20 16 17 25
+0 0 0 0 0
+15 14 0 0 1 1 4
+2 4 0 0 0 0 268435632 515
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#31008
+Gavin~
+Gavin~
+Gavin, the bartender of the "Winged Palatte", serves here.
+~
+This is Gavin, equally famous as the Owner and Bartender of the reknowned
+Tavern, the "Winged Palatte". Tales are sung across the land of Gavin's
+masterful skill of cookery, his art of gourmet, and of his excellently
+(and equally) potent drinks. To stand up to such legends, it takes quite a
+person, and indeed stands before you one, as he has witnessed the Dawn of
+Time, he has served during the Mage Wars, and he will serve until his
+silver hair falls limp to the ground upon the Day of Ragnarok.
+~
+0
+Clanname none~
+0
+0
+16777283 4194308 1000 C
+101 0 -100 10d5000+10000 10d100+358
+0 0 0 0 0 
+0
+115 115 1
+25 17 21 13 20 18 19
+0 0 0 0 0
+15 14 0 0 23181313 1 8
+20 50 201 0 0 0 144 259
+> all_greet_prog 100~
+if isevil($n)
+  mppause 3
+  mpechoat $n &cGavin stares coldly at you, and you stop dead in your tracks.&D
+  mpechoat $n &CGavin says, 'Evil one, leave this hallowed ground now.'&D
+  mppause 4
+  mpechoat $n &CGavin says, 'You are not welcome here, wraith of Hell!'&D
+  angelfire $n smite
+  angelfire $n smite
+  angelfire $n smite
+  angelfire $n smite
+else
+  mpechoat $n &cGavin looks up at you and smiles.&D
+  mpechoat $n &CGavin says, 'Hullo, welcome to the "Winged Palatte"! Take a seat, take a seat!
+  mpechoat $n &CWould you like a menu, $n?'&D
+endif
+~
+> speech_prog p Yes please~
+mppause 2
+mpoload 31019 0
+get menu
+mpechoat $n &CGavin says, 'Alright $n, here ya go.'&D
+mppause 5
+give menu $n
+mpechoat $n &cGavin nods to you.&D
+~
+> speech_prog p Water please~
+mppause 3
+nod $n
+mpechoat $n &CGavin says, 'One water, coming up!'&D
+mppause 5
+mpechoat $n &cGavin goes behind the bar and fills a flask with water.&D
+mppause 7
+mpechoat $n &CGavin says, 'That'll be 3 bronze, please.'&D
+~
+> act_prog p gives you 3 bronze~
+smile $n
+mppause 3
+mpoload 21441
+get flask
+mpechoat $n &CGavin says, 'Here ya go, $n.'&D
+give flask $n
+~
+> speech_prog menu~
+mppause 3
+look $n
+mppause 2
+mpechoat $n &CGavin says, 'Would you like a menu, $n?'&D
+~
+> speech_prog p Ale please~
+mppause 3
+nod $n
+mpechoat $n &CGavin says, 'One pale Ale, comin' right up!'&D
+mppause 5
+mpechoat $n &cGavin walks to the end of the bar, gets a large mug, and fills it to the brim
+mpechoat $n &cwith a dark bubbly fluid at the tap.&D
+mppause 7
+mpechoat $n &CGavin says, 'Alright, that'll be 7 bronze please.'&D
+~
+> act_prog p gives you 7 bronze~
+smile $n
+mppause 3
+mpoload 21010
+get ale
+mpechoat $n &CGavin says, 'Here ya go, $n. Don't gulp it too fast, now.'&D
+give ale $n
+~
+> speech_prog p Nectar please~
+mppause 3
+nod $n
+mpechoat $n &CGavin says, 'A godly nectar for $n!'&D
+mppause 5
+mpechoat $n &cGavin walks to the middle of the bar and fills a tankard with a sweet smelling
+mpechoat $n &csyrupy liquid that tantalizes your senses.&D
+mppause 7
+mpechoat $n &CGavin says, 'Alright, tha'll be 2 silvers then.'&D
+~
+> act_prog p gives you 2 silver~
+smile $n
+mppause 3
+mpoload 31020
+get tankard
+mpechoat $n &CGavin says, 'Her's ya go, $n, the best drink in all o' Heaven!'&D
+give tankard $n
+~
+> speech_prog p Cloudtail please~
+mppause 3
+nod $n
+mpechoat $n &CGavin says, 'A cloudtail, $n? That be my special!'&D
+mppause 5
+mpechoat $n &cGavin turns behind him, cooking a piece of grey fluff into a delectable-
+mpechoat $n &clooking piece of cloudtail that makes your mouth water.&D
+mppause 7
+mpechoat $n &CGavin says, 'Alright, tha'll be 8 bronze coins.'&D
+~
+> act_prog p gives you 8 bronze~
+smile $n
+mppause 3
+mpoload 31021
+get cloudtail
+mpechoat $n &CGavin says, 'Her's ya cloudtail, $n. Specialty entree of the "Winged Palatte"!'&D
+give cloudtail $n
+~
+> speech_prog p Ambrosia please~
+mppause 3
+nod $n
+mpechoat $n &CGavin says, 'Ambrosia, fit for a God, $n!'&D
+mppause 5
+mpechoat $n &cGavin walks to a counter beside him and proceeds to conjure using magic and
+mpechoat $n &cangelic powers a large platter full of beautiful ambrosia, just for you!&D
+mppause 7
+mpechoat $n &CGavin says, 'Alright, tha' be 3 silver coins, please.'&D
+~
+> act_prog p gives you 3 silver~
+smile $n
+mppause 3
+mpoload 31022 1
+get ambrosia
+mpechoat $n &CGavin says, 'Your ambrosia, sire. The legendary food of the Gods, ready to eat!'&D
+give ambrosia $n
+~
+|
+#31009
+J. R. Donnachie happy old man~
+J. R. Donnachie~
+A happy old man, J. R. Donnachie beams at you here.
+~
+A great, benefactory and loving old man, J. R. Donnachie loves happiness and
+children so much he has made it his life's work to create them for the little
+ones, so he may see their happy faces, smiling and full of laughter and gaity.
+The short, very old and thin J. R. Donnachie is smiling, although he wears a
+dusty red coat and a long, white beard.
+~
+0
+Clanname none~
+0
+0
+67 4194432 1000 C
+24 0 -10 2d100+24 2d23+13
+0 0 0 0 0 
+0
+115 115 1
+13 17 20 13 12 25 13
+0 0 0 0 0
+15 14 0 0 1 1 3
+0 0 72 0 0 0 0 12292
+> all_greet_prog 100~
+mppause 5
+smile $n
+~
+> speech_prog broken~
+mppause 3
+mpechoat $n &CJ. R. Donnachie says, 'Broken?'&D
+mppause 4
+mpechoat $n &cJ. R. Donnachie strokes his white beard thoughtfully.&D
+mppause 5
+mpechoat $n &CJ. R. Donnachie says, 'I hope it's not one of those darned Angel Toys, the shipment was a little
+mpechoat $n &Crocky.'&D
+mppause 5
+mpechoat $n &cJ. R. Donnachie goes 'Hmmm.'&D
+mppause 4
+mpechoat $n &CJ. R. Donnachie says, 'I'll tell you what, $n -- if you can find the broken part, give it to
+mpechoat $n &Cme and I'll give you something special.'&D
+mppause 5
+smile
+~
+> act_prog p gives you a broken tin wing~
+mppause 5
+gasp
+mppause 4
+mpechoat $n &CJ. R. Donnachie says, 'You found the broken part! Bless your heart, king $n!'&D
+mppause 5
+mpechoat $n &cJ. R. Donnachie walks into a back room cradling the piece of tin.
+mppurge tin
+mppause 6
+mpechoat $n &cJ. R. Donnachie returns from the back room, carrying a small sack filled with something.
+mppause 4
+mpechoat $n &CJ. R. Donnachie says, 'For your kindness, $n, I will reward you properly.'&D
+mppause 3
+mpmset Donnachie gold 50
+give 50 gold $n
+smile $n
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#31010
+Suword portly man~
+Suword~
+Suword, the portly Sweets Shop owner, stands here.
+~
+A big man, Suword has no trouble commanding attention inside his shop,
+although he almost never needs to (unless there is trouble).  A bald-topped
+head, a sweaty forehead, big cheeks and a smile usually mark the face of 
+this merry man.
+~
+0
+Clanname none~
+0
+0
+195 4194304 750 C
+40 0 0 1d20+816 8d40+28
+0 0 0 0 1000 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 4194305 1 2
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &cSuword grins widely.&D
+mppause 4
+mpechoat $n &CSuword says, 'Welcome, welcome to Suword's Dandy Candy Sweet Shop! I hope you can find ... well, not find, but HAVE ROOM for all the candy you'd like!'&D
+mppause 7
+mpechoat $n &cSuword scratches his bald head, then quickly grabs a paper sack from behind the black counter and smiles.&D
+mppause 4
+if iswearing($n) == 31035
+or iscarrying($n) == 31035
+  mpechoat $n &CSuword says, 'Well, it seems you already have a Sweet Sack...go buy your candy!!!'&D
+  mppause 4
+  mpechoat $n &cSuword grins almost maniacally and waves his hands before the sweets on the counter!&D
+else
+  mpechoat $n &CSuword says, 'In fact, here's a free bag for you to put your candied goods inside!'&D
+  mpoload 31035
+  get sack
+  give sack $n
+  mppause 3
+  grin
+endif
+~
+> rand_prog 20~
+emote whistles to himself as he restocks the shop.
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#31011
+Elysiatus watcher spirit~
+Elysiatus~
+Elysiatus the Watcher Spirit floats ethereally before you.
+~
+Elysiatus the Watcher Spirit is a powerful being of ethereal stuffs whose
+sole purpose always has been, as he has always been, and always will be,
+Watching over Heaven and the Realms.
+~
+0
+Clanname none~
+0
+0
+65603 4718724 1000 C
+202 0 0 20d200+2000 20d50+73
+0 0 0 0 0 
+0
+115 115 1
+13 20 25 13 10 14 13
+0 0 0 0 0
+15 14 0 0 4567041 4194304 4
+34 0 1025 0 112 0 4096 1027
+> rand_prog 1~
+mppause 3
+emote watches over the Heaven and the Realms, its great Eye scanning about.
+mppause 5
+nod $n
+~
+> all_greet_prog 15~
+mppause 2
+nod $n
+~
+|
+#31012
+mischievous cloud tuft~
+A mischievous cloud tuft~
+A mischievous cloud tuft floats by quickly.
+~
+A mischevious cloud tuft is here, speedily floating by at a breakneck speed.
+~
+0
+Clanname none~
+0
+0
+65 0 400 C
+5 0 0 1d1+35 2d5+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 4 0 0 1 1 0
+0 0 65568 0 0 0 129 2
+> all_greet_prog 50~
+if ispc($n)
+  mpechoat $n &cA mischievous cloud tuft trips you!&D
+  mpforce $n sit
+  mpechoat $n &cA mischievous cloud tuft giggles.&D
+endif
+~
+> rand_prog 10~
+if inroom($i) == 31007
+or inroom($i) == 31010
+or inroom($i) == 31011
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31010
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31007
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31010
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31011
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31010
+  mppause 2
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31007
+  mppause 4
+  giggle
+else
+  mppause 3
+  emote looks around, and giggles mischievously.
+  mppause 4
+  mpecho &cA mischievous cloud tuft giggles, and zooms off!&D
+  mptrans $i 31007
+  mpecho _blu A mischievous cloud tuft appears in a puff of smoke.&D
+endif
+~
+> exa_prog 100~
+mppause 2
+giggle $n
+~
+|
+#31033
+spikey hair musician~
+a spikey-haired musician~
+A spikey-haired musician strums a few strings.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+20 0 10 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 17 0 0 1 1 0
+0 0 0 0 0 0 688 530439
+#31034
+spirit labyrinth~
+The Spirit of the Labyrinth~
+The Spirit of the Labyrinth floats before you.
+~
+~
+0
+Clanname none~
+0
+0
+2097155 0 0 C
+20 0 0 1d1+516 8d6+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 2
+0 0 0 0 0 0 4096 2
+> act_prog p as the seal is opened.~
+close east
+mppause 3
+excellent
+muhah
+~
+|
+#31035
+evil spirit~
+An evil spirit~
+An evil spirit floats maliciously here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+15 0 0 5d10+200 2d6+5
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+80 3 0 0 1 1 2
+0 0 1 0 0 0 16 0
+#31036
+minor imp~
+A minor imp~
+A minor imp cackles from within the mists.
+~
+~
+0
+Clanname none~
+0
+0
+1073741889 0 0 C
+5 0 100 1d1+35 2d5+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1725 0 0 0 132 2
+#31037
+shade~
+A shade~
+A shade dances from shadow to shadow upon the walls.
+~
+~
+0
+Clanname none~
+0
+0
+33 0 0 C
+10 0 0 5d10+200 2d2+1
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 1 1 1
+0 0 129 0 0 0 0 2
+#31038
+celestial shop owner Aragon~
+Aragon~
+A celestial male shop owner is standing behind a counter here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+30 0 0 1d500+1600 2d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 4
+20 0 47 0 0 0 268435504 258
+> act_prog p A slight breeze enters the room momentarily.~
+mppause 2
+emote looks up and nods to you.
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#31039
+a holy spirit~
+a holy spirit~
+A holy spirit glides here peacefully.
+~
+A holy spirit is here, gliding over the ground and glowing ethereally.
+Although it gives off a sense of power, it seems to emanate peace.
+~
+0
+Clanname none~
+0
+0
+16777281 140 1000 C
+70 0 0 3d1000+584 8d20+3
+0 0 0 0 0 
+0
+115 115 0
+21 13 17 16 20 14 13
+0 0 0 0 0
+80 5 0 0 1 1 6
+0 0 0 0 0 0 537990066 13319
+> act_prog p You sit down.~
+mppause 1
+grumble
+stand
+~
+> rand_prog 75~
+stand
+~
+|
+#31040
+Daemur flying cherabim~
+Daemur~
+A flying cherabim glides about devoutly here.
+~
+This is a young cherabim, one with a teenager-like appearance yet also
+an uncanny face that speaks of devotion and unhuman wisdom.  He also
+sports a set of small white wings from his bare back, which beat quite
+frequently to keep him constantly floating above the ground.
+~
+0
+Clanname none~
+0
+0
+65 0 1000 C
+5 0 100 1d1+35 2d5+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 0
+0 0 1725 0 0 0 1725 2
+#31041
+celestial parlor owner Cietres~
+Cietres~
+A celestial parlor owner sits behind a counter here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+30 0 0 1d500+1600 2d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 4
+20 0 41 0 0 0 67108912 6
+#31042
+polite celestial~
+a polite celestial~
+A polite celestial floats about the area.
+~
+~
+0
+Clanname none~
+0
+0
+65 4194304 1000 C
+15 0 0 5d10+200 2d6+5
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 2
+0 0 1 0 0 0 16 0
+> act_prog p You sit down.~
+mppause 1
+grumble
+stand
+~
+> rand_prog 75~
+stand
+~
+|
+#31043
+a happy ethereal being~
+a happy being~
+A happy ethereal being smiles joyously here.
+~
+~
+0
+Clanname none~
+0
+0
+65 4194304 1000 C
+10 0 0 4d10+175 1d6+6
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 2
+0 0 1 0 0 0 16 0
+> rand_prog 75~
+stand
+~
+|
+#31044
+air elemental~
+An air elemental~
+An air elemental hovers about here.
+~
+A large, astral-yet-puffy-looking air elemental floats here, glowing 
+and seemingly rolling about the air.
+~
+0
+Clanname none~
+0
+0
+193 0 750 C
+40 0 0 1d20+816 8d40+28
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+80 10 0 0 1 1 2
+0 0 0 0 0 0 0 0
+> act_prog p You sit down.~
+mppause 1
+grumble
+stand
+~
+> rand_prog 75~
+stand
+~
+|
+#31045
+archangel Marian gate keeper~
+Marian~
+A female archangel is standing watch of the gate here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 71303296 1000 C
+80 0 0 5d4000+30000 6d8+40
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 8
+40 0 41 0 0 0 256 2
+> fight_prog 5~
+judge
+wield spear
+mppause 2
+angelfire $n smite
+mppause 5
+angelfire $n smite
+~
+> act_prog p arrives from the north.~
+mppause 3
+mpechoat $n &CMarian says, 'Greetings, $n.'&D
+mppause 3
+mpechoat $n &CMarian says, 'I Marian, am the Keeper of the Gate of Mortality.'&D
+mppause 4
+mpechoat $n &CMarian says, 'Simply tell me the name of mortal homeland you wish to visit.'&D
+mppause 5
+mpechoat $n &CMarian says, 'Type &WHTOWN&C to see a list of available homelands.  Not all homelands are available, though.'&D
+mppause 4
+~
+> speech_prog Paleon~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 16007
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+> speech_prog Loramoor~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 31623
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+> speech_prog Manoake~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 31392
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+> speech_prog Avernus~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 30083
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+> speech_prog Dakar~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 11210
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+> speech_prog Forbidden~
+mppause 2
+mpechoat $n &WThe gate suddenly glows bright white, and vanishes.&D
+mppause 4
+mpechoat $n &WYou are suddenly pulled out onto the bridge by a force, and enveloped in light!&D
+mppause 6
+mptrans $n 35515
+mpat $n mpforce $n emote appears in a sudden flash of brilliant light.
+mpat $n mpforce $n look
+~
+|
+#31046
+Serathia robed figure~
+Serathia~
+A robed figure with a head bowed in prayer
+~
+Serathia is an angel living in Elysium City. She rarely ventures down into 
+the mortal world below unless it suits her fancy. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+15 14 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Five People You Meet in Elysian City'~
+mpechoat $n &cSerathia blinks in surprise.&D
+mppause 3
+mpechoat $n &CSerathia says, 'Oh...that book.'&D
+mppause 2
+mpechoat $n &CSerathia says, 'Has it really been that long?'&D
+mpechoat $n &cSerathia apologizes to you.&D
+if iscarrying($n) == 4657
+  mpechoat $n &CSerathia says, 'Please return it to Fysklor as soon as possible.'&D
+else
+  mpoload 4657
+  give book $n
+  mpechoat $n &CSerathia says, 'Please return it to Fysklor as soon as possible.'&D
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#31000
+The Light~
+&YT&Wh&Ye&W L&Yi&Wg&Yh&Wt&D~
+&YA dazzling &WL&Yi&Wg&Yh&Wt&Y shines forth here.&D~
+~
+12 3 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31001
+A golden celestial altar~
+A golden celestial altar~
+&YA golden celestial altar hums here powerfully.&D~
+~
+12 3 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31002
+A silver fountain~
+a silver fountain~
+A shimmering, beautiful fountain of silver flows here.~
+~
+25 1 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31003
+a golden halo circlet~
+a golden circlet~
+&YA beautiful halo of gold floats here majestically.&D~
+~
+9 8962115 17
+40 40 0 0 0 48 0
+1 25 30000
+1
+14
+0
+0
+0
+0
+S 77 0
+E
+golden circlet~
+&YThis magnificent and holy piece of armor is not only a powerful halo,
+but an object of social status as well, revealing to all who see it the
+wearer as a proven and indeed divine Angel.&D
+~
+A
+4 1
+A
+25 2
+A
+27 1048576
+A
+12 25
+#31004
+a set of shimmering silver robes~
+a set of shimmering silver robes~
+&WA pile of shimmering robes lay here in a heap.&D~
+~
+9 8439041 1025
+40 40 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+2 1
+A
+3 3
+A
+31 1
+#31005
+touch pad~
+a touch pad~
+A touch pad is embedded in the wall here.~
+~
+13 0 0
+-1 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+> push_prog 100~
+mpecho As you push a dusty iron lever....
+mppause 3
+mpecho &YA beam of light shoots down and encompasses you!
+mptrans $n 31026
+mppause 3
+mpat $n mpecho The light fades and you find yourself in another room.
+mppause 3
+mpat $n mpforce $n look
+~
+> exa_prog 100~
+mpecho As you look at the touch pad, you feel compelled to touch it.
+mppause 3
+mpecho &YA beam of light shoots down and emcompasses you!
+mptrans $n 31026
+mppause 3
+mpat $n mpecho The light fades and you find yourself in another room.
+mppause 3
+mpat $n mpforce $n look
+mppurge touch
+~
+|
+#31006
+a gleaming chest~
+A gleaming chest~
+A gleaming chest beckons you to peruse its contents.~
+~
+15 1 0
+500 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31007
+a sack of celestial gold~
+a sack of celestial gold~
+A magical sack of celestial gold glitters here.~
+~
+20 0 1
+5 0 0 0 0 0 0
+1 5 500
+1
+1
+0
+0
+0
+0
+S 0 0
+#31008
+a massive wooden crucifix~
+A massive wooden crucifix~
+A massive wooden crucifix holds magical chains here.~
+~
+12 0 0
+0 0 262404 1 1000 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31009
+a clean white bed~
+a clean white bed~
+A covered bed of clean white sheets is here.~
+~
+12 2 0
+0 0 266241 5 5000 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31010
+a wooden donation box~
+a wooden donation box~
+A wooden donation box rests here.~
+~
+15 0 0
+10000 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31011
+a silver basin of holy water~
+a silver basin of holy water~
+A silver basin of holy water is here.~
+~
+25 3 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+> use_prog 100~
+if isevil($n)
+or race($n) == demon
+or race($n) == vampire
+or race($n) == shade
+mppause 1
+mer $n &WThe holy water boils and splashes upon $n, who screams in pain,+
+flesh scarred and searing with blood!&D
+mpechoat $n &WThe holy water boils and splashes upon you, and you scream in+
+pain, your flesh searing and scarred, and blood flowing freely from skin!&D
+mpdamage $n 10
+else
+mppause 1
+mer $n &W$n anoints $mself with holy water, and is blessed against evil.&D
+mea $n &WYou anoint yourself with holy water, and you are blessed against+
+evil.&D
+endif
+~
+|
+#31012
+a gray bowler~
+a gray bowler~
+A gray bowler rolls around here perfectly.~
+~
+9 0 17
+40 40 0 0 0 0 0
+1 60 6
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 2
+A
+25 4
+#31013
+Spear of the Heavens~
+The Spear of the Heavens~
+A gleaming celestial spear, etched with arcane runes, hums here.~
+~
+5 525635 24576
+0 15 3 7 10 0 0
+25 1000 100
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+1 3
+A
+5 4
+A
+56 36
+#31014
+a celestial blade~
+a celestial blade~
+A celestial blade hums here.~
+~
+5 1346 8193
+0 10 20 1 1 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+31 2
+A
+26 4
+> wear_prog 100~
+mpechoatr &B$n wields a celestial blade, which hums violently.&D
+mpecho &B$n wields a celestial blade, which hums with power.&D
+~
+|
+#31015
+shield of faith~
+a shield of faith~
+A shield of faith hums here.~
+~
+9 525571 513
+5 5 0 0 0 0 0
+8 175 2
+2
+0
+0
+0
+0
+0
+S 77 0
+A
+5 3
+A
+4 1
+A
+31 2
+A
+2 -1
+#31016
+some cloud boots~
+some cloud boots~
+A pair of cloud boots float here.~
+~
+9 259 65
+10 10 0 0 0 0 0
+1 100 2
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+56 292
+#31017
+a polished wooden bar~
+a polished wooden bar~
+A polished wooden bar is here, with a vacant barstool.~
+~
+12 0 0
+7 10000 2084 125 100 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+a polished wooden bar~
+This bar seems to have a brilliant, glowing wooden grain that has been
+routinely cleaned and polished, and it extends almost from each end to
+the other. A rusty brass bar lines the bottom of the front of it, where
+7 red barstools sit before the bar, some occupied and some vacant.  Many
+tankards, mugs, bottles and steins adorn the surface of the bar, with a
+few rags placed purposely around them.
+~
+#31018
+long wooden table~
+a long wooden table~
+A long wooden table is filled with spirit and merriment here.~
+~
+12 0 0
+30 25000 588 200 200 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+wooden table~
+A massive table of thick oak is here, spanning the majority of the southern
+ section of the Tavern, sporting fifteen wooden seats about it.  Different
+juices and drinks flow down cracks on spots, and tankard rings mark the
+majority of the dull grained finish as all sorts of characters and sorts 
+enjoy their stop with full blown singing, spirit, cheer and merriment.
+~
+#31019
+old menu~
+an old menu~
+An old menu with a flying tongue upon the front is crumpled here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+old menu~
+&d+--------------------------------------------------+
+|                                                  | 
+|               &WThe Winged Palatte&d                 |
+|                                                  |
+|                                                  |
+|    DRINKS                                        |
+|                                                  |
+|          &cWater     &O3 Bronze&d                      |
+|                                                  |
+|          &cAle       &O7 Bronze&d                      |
+|                                                  |
+|          &cNectar    &O2 Silver&d                      |
+|                                                  |
+|    FOODES                                        |
+|                                                  |
+|          &rCloudtail &O8 Bronze&d                      |
+|                                                  |
+|          &rAmbrosia  &O3 Silver&d                      |
+|                                                  |
+|        &WSAY what ye would like to order!&d          |
+|                                                  |
++--------------------------------------------------+
+~
+#31020
+tankard nectar~
+a tankard of nectar~
+A tankard of godly nectar bubbles here sweetly.~
+~
+17 0 16385
+10 10 15 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+tankard nectar~
+This is a large tankard, with a smooth curled lip and a big handle, both
+made in the same style, straight and smooth metal.  There is an old
+enameled design around the Tankard, one of them being the winged tongue
+icon, others being little sketches and paintings depicting archangel
+battles with demons.  The legendary godly nectar, only found in Heaven,
+bubbles away in this cup, just asking to be drunk.  Even now, just the
+smell of it tantalizes the senses and tickles your fancy!
+~
+#31021
+cloudtail~
+a cloudtail~
+A long cloudtail is here, ready to be eaten.~
+~
+19 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+cloudtail~
+This is a long, puffy piece of food that is a dull grey color, a cloudtail.
+Cloudtails are pieces of cumulus beings that are prepared and cooked for
+consumption, often a rare delicacy. Gavin seems to have a particular forte 
+when it comes to cloudtail, for this piece looks very scrumptious, sweet,
+and makes your mouth water.
+~
+#31022
+ambrosia~
+ambrosia~
+Some godly ambrosia awakens the senses here.~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+ambrosia~
+Such sweet, succulently rich and extravagance!  One brings to mind "Heaven"
+whenever such ambrosia is mentioned and especially seen or smelled, yet it
+seems not even this divine reference can do the special delicacy justice.
+Soft, tasty pieces of ambrosia, swirled with a chocolate sauce and dipped
+into a smooth garnish, complete the image that your mind has already made!
+~
+#31023
+tall stone pedestal~
+a tall stone pedestal~
+A tall pedestal of stone looms here in solitude.~
+~
+15 2 0
+0 0 0 0 0 0 0
+1000 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+tall stone pedestal~
+A large and heavy-looking pedestal of stone is here, looming up to the
+shoulder-height of a man, humming softly.
+~
+> exa_prog 100~
+mppause 2
+mpecho &YA golden light suddenly surrounds the pedestal, which begins to+
+hum violently!&D
+mppause 3
+mpecho &CA heavenly voice booms 'You, $n, have ventured into the Temple of+
+Solomon, and have now found what you are searching for.'&D
+mppause 6
+mpecho &CA heavenly voice booms 'The Heaume of Solomon has been placed here,+
+a relic of the ancient Paladin, and is now yours... however, to truly+
+become a Paladin of Solomon, you must aquire the two other artifacts that+
+once belonged to the Ancient.'&D
+mppause 8
+mpecho &CA heavenly voice booms 'Once you find the Guard and the Band,+
+wear and return to this chamber and say " Against Evil and Terror, Striking+
+Demon and Wraith, to you Ancient Solomon I do pledge my faith ". Only then+
+will you have found yourself a True Paladin of Solomon.'&D
+mppause 8
+mpecho &CA heavenly voice booms 'Go forth, $n, and find thy faith!'&D
+mppause 2
+mpecho &YA tall stone pedestal glows briefly, and the golden light fades.&D
+~
+|
+#31024
+silver Heaume Solomon~
+the Heaume of Solomon~
+A gleaming silver heaume glows here.~
+~
+9 524617 17
+10 10 0 0 0 0 0
+20 104 500
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+4 2
+A
+3 1
+A
+56 3
+#31025
+polished guard shield Solomon~
+the Guard of Solomon~
+A polished guard shield is here, humming softly.~
+~
+9 524618 513
+5 5 0 0 0 0 0
+40 93 500
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+17 -10
+A
+1 2
+A
+5 3
+A
+2 -2
+#31026
+gold Band Solomon~
+the Band of Solomon~
+A glimmering gold band sits here alone.~
+~
+8 34079048 3
+500 0 0 0 0 0 0
+1 4 1500
+1
+14
+0
+0
+0
+0
+S 0 0
+A
+12 25
+A
+31 3
+A
+25 2
+#31027
+crumpled piece parchment~
+a crumpled piece of parchment~
+A crumpled piece of parchment lies here collecting dust.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+crumpled piece parchment~
+A crumpled piece of parchment is here, with scribbles scratched upon it.
+A crumpled piece of parchment reads:
+ 
+To achieve the true path of faith,
+ 
+         find the Final Chamber and examine the pedestal.
+ 
+   Be careful, I have lost myself for more than a hundred years inside
+   this maze of a Temple, and now my corpse is most likely turned to
+   dust on the floor. Listen for your footsteps, and find the Chamber!
+ 
+ -- Qui'Ergan, Lost Squire
+~
+#31028
+porcelain horse~
+a porcelain horse~
+A beautifully crafted horse of porcelain is here.~
+~
+8 0 16385
+24 24 0 0 0 0 0
+1 10 1
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+porcelain horse~
+&YBeautiful enameled colors give a spirit to this grand porcelain equus, yet
+it also seems that somehow it is very much full of life!&D
+~
+A
+25 3
+> get_prog 100~
+mppause 4
+mpecho A porcelain horse whinnies and thrashes it's tail!
+~
+> exa_prog 100~
+mppause 4
+mpechoat $n A porcelain horse looks at you, and licks you.
+mpechoaround $n A porcelain horse looks at $n, and licks $n.
+~
+> drop_prog 100~
+mppause 3
+mpecho A porcelain horse whinneys and stomps its hooves angrily!
+~
+|
+#31029
+angel toy~
+an angel toy~
+A toy angel floats here.~
+~
+1 1 0
+0 0 0 0 0 0 0
+1 12 1
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+angel toy~
+A glowing model angel of tin is here, wings folded and hands clasped in
+prayer.  It seems that the tip of one of the wings is missing though.
+~
+> drop_prog 100~
+mpecho An angel toy falls to the ground, and a small piece of tin breaks off.
+~
+|
+#31030
+glinting piece chip tin broken wing tip~
+a broken tin wing tip~
+A glinting, chipped piece of tin is here.~
+~
+13 33554433 1
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+broken tin wing tip~
+A chip of tin resembling the tip of a wing is here, broken and marred.
+~
+#31031
+dandy sweet~
+a Dandy Sweet~
+A dandy sweet lies here, melting away.~
+~
+19 0 16385
+0 0 0 0 0 0 0
+1 100 10
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+dandy sweet~
+This delectible candy smells very sweet and is a hard but chewy dandy, of
+course a special direct from Heaven's Sweet Shop, Suword's Dandy Candy
+Sweet Shop.
+~
+#31032
+candy chocolate suword bar~
+a Suword Bar~
+A golden-wrapped chocolate Suword bar lies here magnificently.~
+~
+19 0 16385
+0 0 0 0 0 0 0
+1 300 30
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+suword bar chocolate candy~
+A chocolate bar, wrapped in gold tin foil and stamped with **SUWORD** upon
+it is here, looking mighty tasty.
+~
+#31033
+gummy chewy chew~
+a Chewy Chew~
+A gummy Chewy Chew lies here, waiting to be eaten.~
+~
+19 0 16385
+0 0 0 0 0 0 0
+1 250 25
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+gummy chewy chew~
+Wrapped in a fine edible paper of sugar, this appears to be a Chewy Chew,
+a short rod of caramel, sugar, chocolate, and gummy.  MmMmMmmm, delish!
+~
+#31034
+sugary swizzle stick~
+a Swizzle Stick~
+A sugary Swizzle Stick melts here, twinkling.~
+~
+19 0 16385
+0 0 0 0 0 0 0
+1 325 32
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+sugary swizzle stick~
+This is a long, beautiful cane of Suword's confectioner sugar, wrapped
+in flavoured bands of light blue and white hard icing, just waiting to
+be sucked on or ravenously devoured by small hands and mouths.
+~
+#31035
+Suword's brown paper sack~
+a Suword's Sweet Shop sack~
+A folded brown paper sack with the words "Suword's Sweet Shop" lies here.~
+~
+15 0 16385
+20 0 0 0 0 0 0
+1 1 0
+3
+0
+0
+0
+0
+0
+S 0 0
+#31036
+some clean sitting booths~
+some clean sitting booths~
+Some clean sitting booths line the southern wall.~
+~
+12 0 0
+12 2400 1170 115 175 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+clean sitting booths~
+A row of booths, all identical, is here- each with two red velvet seats,
+a clean, white round table in between, and a gold-edged window between each.
+~
+#31037
+wooden barrel~
+a wooden barrel~
+A wooden barrel is in the corner here, opened.~
+~
+15 0 0
+250 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31038
+small solid wooden stage~
+a small wooden stage~
+A small wooden stage is here, solidly used and merry.~
+~
+12 0 0
+10 2000 585 100 115 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31039
+tree ambrose fruit Du'eden~
+an ambrose tree~
+The Du'eden Ambrose tree bears heavenly fruit and sways here.~
+~
+15 321 0
+101 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31040
+ambrose fruit~
+an ambrose fruit~
+An ambrose fruit has fallen here.~
+$n relish$q a delicious ambrose fruit.~
+19 0 16385
+0 0 0 0 0 0 0
+1 6 0
+3
+0
+0
+0
+0
+0
+S 0 0
+#31041
+ambrose fruit~
+an ambrose fruit~
+An ambrose fruit has fallen here.~
+$n relish$q a delicious ambrose fruit.~
+19 0 16385
+0 0 0 0 0 0 0
+1 6 0
+3
+0
+0
+0
+0
+0
+S 0 0
+#31042
+forbidden fruit~
+some forbidden fruit~
+A piece of fruit beckons you, reaches your mind to pick it up and eat it...~
+~
+19 3 16385
+0 0 0 21 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+> use_prog 100~
+mpdamage $n 15
+mea $n You greedily devour some forbidden fruit and grin selfishly.
+mer $n $n greedily devours some forbidden fruit and grins selfishly.
+~
+|
+#31043
+long silver trumpet~
+a long silver trumpet~
+A shiny silver trumpet with an elongated bell lies here.~
+$n blow$q upon a long silver trumpet, sound blasting loudly!~
+3 524545 16385
+15 9 9 -1 0 0 0
+5 500 50
+2
+8
+0
+0
+0
+0
+'colour spray'
+S 0 0
+E
+long silver trumpet~
+This is a gleaming, silver trumpet, finished with a long bell that rings
+loudly with sound, four piston valves that sprout from within some tubing,
+played with a golden mouthpiece. There is an etching upon the bell.
+~
+E
+writing bell~
+The silver bell has this smith mark engraved upon the front of it:
+ 
+  *STRADIVARIUS*
+ 
+~
+#31044
+trickle water~
+a trickle of water~
+A trickle of water seeps from a crack in the wall here.~
+~
+25 33554432 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+> use_prog 100~
+mer $n &W$n bends over and drinks from a trickle of water in the wall.&D
+mea $n &WYou bend over and drink from a trickle of water in the wall.&D
+~
+|
+#31045
+divine crest~
+a divine crest~
+A divine crest lays hidden upon the wall here.~
+~
+13 1107296258 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+divine crest~
+A divine crest is hidden upon the wall here.
+Upon it is a jeweled sword of silver and gold,
+Piercing a heart of white vertical. Along the
+Bottom reads "Virtutis Gloria Merces", and
+Upon the top "The Brotherhood".
+~
+> exa_prog 100~
+if clan($n) == Alliance
+mppause 3
+mea $n &WA white light shines upon you, and you find yourself elsewhere.&D
+mer $n &WA white light shines upon $n, who fades in a shimmering glow.&D
+mptrans $n 31094
+mpat $n mpforce $n look
+endif
+~
+|
+#31046
+woven rucksack~
+a woven rucksack~
+&wA woven rucksack lies here in a heap.&D~
+~
+15 0 16385
+600 0 0 8 0 0 0
+3 1000 100
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+woven rucksack~
+A finely spun thread, of a silver color that glitters in the light, has
+been woven into a fine rucksack that not only is of a big capacity, but
+also is appealing to the eye and the feel of the hand, being soft to the
+touch.
+~
+#31047
+glowing crystal sphere~
+a glowing crystal sphere~
+&WA glowing crystal sphere lights up the area brilliantly.&D~
+~
+1 1 16385
+0 0 -1 0 0 0 0
+1 3 0
+3
+5
+0
+0
+0
+0
+S 0 0
+E
+glowing crystal sphere~
+A glowing crystalline sphere appears to contain a fragment of stardust
+inside, providing the brilliant and unyielding light that pierces all it
+touches.
+~
+#31048
+smooth white map~
+a smooth white map~
+A smooth white map floats in the air, perfectly flat.~
+~
+45 0 16385
+0 0 0 0 0 0 0
+1 15 1
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+smooth white map~
+&d  .-.--------------------------------------------------------.-.
+ ((o))                                                          )
+  \U/_______          _________________________         _______/
+   |                                                         |
+   |                 &WElysian City&d                            |
+   |                                                         |
+   |                   C                      &ON&d              |
+   |             S S-S *                      &O|&d              |
+   |            S-******-S                 &OW--O--E&d           |
+   |               \   *                      &O|&d              |
+   |             S | S *-S                    &OS&d              |
+   |           B-******H*****-[C]                            |
+   |             T S S * [T]                                 |
+   |                   *                                     |
+   |                 L-*                 &cMap Key&d             |
+   |                   *                [C]= Grand Church    |
+   |                   *                [S]= Temple          |
+   |                  [S]               [T]= Training Room   |
+   |                                     C = White Castle    |
+   |                                     T = Tavern          |
+   |                                     B = Cloud St. Bank  |
+   |                                     L = Labyrinth       |
+   |                                     S = Shop            |
+  /^\                                                       /^\
+ / ^ \-------------------- -----------   ---------------   /   \
+ ((o))                                                         )
+  '-'---------------------------------------------------------'
+~
+#31049
+book elysian city five people~
+The '&WFive People You Meet in Elysian City&g'~
+A slim book lies on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book elysian city five people~
+The book is actually a small journal with notes in it. Flipping through 
+it, you find that it describes five unique people living in Elysian City. 
+~
+#31200
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#31000
+The Gate of Mortality~
+~
+&WA giant gate stands before a lighted bridge that leads through a shimmering
+portal of bright light.  The light has a swirling mist of colors in it that
+sometimes forms images of far away places, and people.  There is only an empty
+void below the bridge that has no beginning or end.
+~
+1 0 11
+D0
+~
+~
+0 -1 31001
+D11
+~
+~
+0 -1 48787
+R M 0 31045 1 31000
+S
+#31001
+Further Along A Lighted Path~
+~
+&WIt seems the omnipresent Light is almost closer now, and small
+bits of stardust seem to almost deem a worthy path towards the
+piercing force. The air seems to reverberate with a powerful hum
+that seems to shake the space it consumes as you continue along
+this lit bridge.
+~
+1 1028 41
+D0
+~
+~
+0 -1 31002
+D2
+~
+~
+0 -1 31000
+S
+#31002
+Before A Blinding Archway of Light~
+~
+&WAt last, this blinding Light is now in distance, taking shape as a
+colossal Archway crafted of a pearlescent silver, etched with many
+arcane runes and sigils of a celestial tongue and gleaming as a sea
+of blinding Light pours from within to envelop everything about you...
+~
+1 66564 41
+D0
+~
+~
+0 -1 31003
+D2
+~
+~
+0 -1 31001
+D5
+~
+pit~
+2315 -1 31004
+R D 0 31002 5 1
+E
+Archway silver runes sigils celestial~
+&WThis massive and gleaming silver Archway appears to be a grandiose
+entrance into another Realm, rooted into the Light and glowing with
+a pearlescent magnificence that hums with extreme power.
+~
+> act_prog p opens the pit.~
+if ispc($n)
+  if isevil($n)
+    mpe _lbl A mighty wind picks you up, and throws you through the clouds!
+    mpforce $n d
+  endif
+endif
+~
+> entry_prog 100~
+if ispc($n)
+  mppause
+  mpe &cA mighty wind blows before the Celestial Archway.&D
+  if isevil($n)
+    mppause 3
+    mpe &cA mighty wind blows through the clouds, revealing a starry pit.&D
+  endif
+endif
+~
+|
+S
+#31003
+Entering The Light~
+~
+&WHaving entered the Celestial Archway, everything is blinding Light,
+all about.... a powerful hum softens to reveal a familiar sound,
+an immense yet soothing sound of music, which calls upwards, up into
+Light...
+~
+1 1028 41
+D2
+~
+~
+0 -1 31002
+D4
+~
+The light can_enter~
+0 -1 31005
+S
+#31004
+&CFalling Towards Earth&D~
+~
+&WOh no! On the path towards the Light, somehow the pit between the clouds
+was opened and here we are! Egads, this is far up... clouds race skywards
+as they plummet up into the air... uh oh, the clouds are staying still --
+YOU are the one that is plummeting! Watch out below!!!
+~
+1 4 1
+D0
+~
+~
+0 -1 31004
+D1
+~
+~
+0 -1 31004
+D2
+~
+~
+0 -1 31004
+D3
+~
+~
+0 -1 31004
+D4
+~
+cloud~
+11 -1 31002
+D5
+~
+~
+0 -1 31107
+R D 0 31004 4 1
+S
+#31005
+&CHeaven Centre&D~
+~
+&WThis is Heaven Centre, the focus point of all Heaven. Resting upon a
+soft and puffy cloud-like ground, the entirety of this realm spreads 
+from this area, located around a large globe of dazzling light from which
+the legendary Celestial Archway can be seen within. Bustling with crowds
+of different celestials of all types, a soft and soothing seraphim choir
+can be heard with such heavenly music that even the cloud tufts smile.
+~
+1 1024 1
+D0
+~
+~
+0 -1 31006
+D1
+~
+~
+0 -1 31009
+D2
+~
+~
+0 -1 31008
+D3
+~
+~
+0 -1 31007
+D5
+~
+The light can_enter~
+0 -1 31003
+R M 0 31011 1 31005
+R M 0 31039 5 31005
+R O 0 31000 1 31005
+R O 0 31002 1 31005
+E
+dazzling Light~
+&YThis &WLight&Y }Ydazzles&D&Y, almost blindingly, and shines forth at
+everything here, a massive and almost ethereal-appearing sphere
+whose size is almost certainly greater than a giant. It seems
+to float right in the middle of Heaven, with the clouds and all
+else forming about it.
+&D
+~
+> entry_prog 50~
+if ispc($n)
+  if isevil($n)
+    mppause 1
+    mpecho &cBolts of divine light strike $n's body from every direction!&D
+    mpdamage $n 5
+  else
+    mpecho &cA soft and warm Light encompasses $n lovingly.&D
+  endif
+endif
+~
+> entry_prog 80~
+if race($n) == demon
+  mppause 1
+  mpecho &WA blinding Light strikes $n, banishing him from Heaven for all time!&D
+  mpdamage $n 15
+  mppause 2
+  mea $n &BYou disappear in a glowing mist!&D
+  mptrans $n 31040
+endif
+~
+|
+S
+#31006
+&CStarlight Lane&D~
+~
+&WA comfortably-soft and starry-lit Lane makes its way through the walls
+and shops and open festivities that line the road, a bright sky beaming
+down from above.  Multiple seraphim crowd and harp before a large bazaar
+to the right, where it seems musical items are being sold and used as the
+lingering notes of a sonorous flute float before the air hauntingly.
+~
+1 4 1
+D0
+~
+~
+0 -1 31023
+D1
+~
+~
+0 -1 31033
+D2
+~
+~
+0 -1 31005
+R M 0 31043 7 31006
+S
+#31007
+&CEntrance to Cloud Street&D~
+~
+&WThis is the Entrance to Cloud Street, where a grand banner which reads
+"CLOUD STREET" hangs from between two lantern archons high in the air 
+above the bustling shopping community and between the rows of shops that 
+line the Street. It seems this shopping district was so named for the soft
+and puffy ground, and the small cloud tufts which float up and down the 
+street nonchalantly. To the north is an old building spiked with a faded
+sign, while a splendidly magnificent store filled with toys is to the south.
+~
+1 0 1
+D0
+~
+~
+3 -1 31013
+D1
+~
+~
+0 -1 31005
+D2
+~
+door~
+35 -1 31082
+D3
+~
+~
+0 -1 31010
+R M 0 31042 12 31007
+R M 0 31012 1 31007
+R D 0 31007 0 1
+R D 0 31007 2 1
+E
+grand banner~
+&W*-\\&w....&CC L O U D&w...&CS T R E E T&w....&W//-*
+~
+E
+faded sign~
+&O||..  &YARAGON's  GENERAL  SHOPPE&O  ..||&D
+~
+> act_prog p trips you!~
+if isnpc($n)
+  mpforce $n grumble
+  mpforce $n stand
+endif
+~
+|
+S
+#31008
+&CEverbright Way&D~
+~
+&WClose to the Centre, the sounds of gaity and festivities resonate still in
+the air about the Everbright Way, although there are not many that come down
+these parts.  For superstition or not, rumors are that horrific and terrible
+sounds pierce the air from within a place further down the Way, and it is due
+to this why it seems a bit empty.
+~
+1 4 1
+D0
+~
+~
+0 -1 31005
+D2
+~
+~
+0 -1 31027
+D3
+~
+doors~
+7 -1 31084
+R D 0 31008 3 2
+S
+#31009
+&COn Faith Road&D~
+~
+&WAway from the Centre, Faith Road is a less-busy part of Heaven, but always
+full of prayers and chants as the grand Church lays far to the east.  Many
+cherubim fly up and down the road occasionally, humming mantras and looking
+particularly stern and devout, hovering closely above the groves of colorful
+flora that line the Road.  To the south stands a lone structure, domed in a
+golden-colored glass high in the upper clouds.
+~
+1 4 1
+D1
+~
+~
+0 -1 31018
+D2
+~
+~
+0 -1 31017
+D3
+~
+~
+0 -1 31005
+R M 0 31040 1 31009
+R O 0 31039 1 31009
+  R P 0 31040 1 31039
+  R P 0 31041 1 31039
+  R P 0 31042 1 31039
+S
+#31010
+&CUpon Cloud Street&D~
+~
+&WFurther along Cloud Street, the sound of the occasional aasimar merchant
+or the bumbling crashing noises of cupid-like children with small wings 
+fills the air as the sonorous choir of angels sings softly.  A large but
+clean structure booms to the south, with an old fashioned sign swaying in
+the wind.
+~
+1 0 1
+D0
+~
+~
+0 -1 31030
+D1
+~
+~
+0 -1 31007
+D2
+~
+~
+3 -1 31014
+D3
+~
+~
+0 -1 31011
+R M 0 31039 5 31010
+R M 0 31044 3 31010
+R D 0 31010 2 1
+E
+old fashioned sign sway~
+&z||.&w===&WThassilod's Armor Shop&w===&z.||
+~
+E
+old fashioned sign sway~
+~
+S
+#31011
+&CTravelling Down Cloud Street&D~
+~
+&WThe rolling clouds end upon the gray brick foundation of the Cloud Street
+Bank, the Bank of Heaven.  The old Bank seems fortified, but also wedged
+between two other shops, the first of which appearing to be a guard's shop
+for some sort of merchandise, and the southern being the famed Tavern known
+as "The Winged Palatte", whose godly nectar and ambrosia are legendary
+throughout all the realms.
+~
+1 0 1
+D0
+~
+door~
+3 -1 31015
+D1
+~
+~
+0 -1 31010
+D2
+~
+door~
+3 -1 31016
+D3
+~
+door~
+3 -1 31012
+R M 0 31042 12 31011
+R D 0 31011 0 1
+R D 0 31011 2 1
+R D 0 31011 3 1
+S
+#31012
+&CCloud Street Bank of Heaven&D~
+~
+&WThis tidy bank seems much larger upon entrance than when first seen
+outside, however still gives a very clean and professional feeling. Upon
+a polished countertop is the banking window, of the old-fashioned style
+with vertical bars of cast iron, between high stacks of papers and files.
+~
+1 268436488 0
+D1
+~
+door~
+3 -1 31011
+R M 0 31005 1 31012
+  R E 1 31012 1 6
+R D 0 31012 1 1
+S
+#31013
+&CAragon's General Shoppe&D~
+~
+&WThe room extends farther then what the outside of the shop appears to be.
+There are racks upon racks of supplies set up for display.  Several
+hooded lanterns are mounted to the walls for lighting.  A large sky blue
+rug runs the length of the floor to a oak counter in the rear.
+~
+1 8 0
+D2
+~
+~
+3 -1 31007
+R M 0 31038 1 31013
+  R G 1 31047 1
+  R G 1 31048 1
+  R G 1 31046 1
+R D 0 31013 2 1
+> entry_prog 100~
+mppause
+mpe _lbl A slight breeze enters the room momentarily.
+~
+|
+S
+#31014
+&CA Busy Armory&D~
+~
+&WThis spacious building seems very immaculate, with not one floor tile
+unpolished or out of place, and as it is an armory, it seems very clean
+also with not a touch of dust anywhere on the racks and stands about --
+however, what lacks in sloppiness is made up with a chaos of people, doing
+many things, running around, performing errands and such. It seems a wonder
+that one is still in one piece when entering the store!
+~
+1 8 0
+D0
+~
+~
+3 -1 31010
+R M 0 31007 1 31014
+  R G 1 31015 1
+  R G 1 31015 1
+  R G 1 31016 1
+  R G 1 31016 1
+R D 0 31014 0 1
+S
+#31015
+&COrghund's Weaponry Shop&D~
+~
+&WThis small shop is filled with rusty junk, antique swords, vintage halberds,
+and all sorts of other weapons and odds-and-ends on the walls, and lying in
+piles and stacks.  It seems there isn't nearly enough room as there should
+be, however the retired Archangel behind the small countertop must find it
+workable.  Some very beautifully-crafted spears hang next to the door here,
+but one must try to avoid the flying sparks so as not to get blinded.
+~
+1 8 0
+D2
+~
+door~
+3 -1 31011
+R M 0 31006 1 31015
+  R G 1 31014 1
+  R G 1 31014 1
+  R G 1 31014 1
+R D 0 31015 2 1
+E
+rusty junk~
+Lots of broken and rusted weapons lie in a pile here, including some
+old bent swords, a compeletely rusted flail, and even an old rusted
+tuba with some spikes piercing through the sides!
+~
+E
+antique swords vintage halberds~
+The dusty walls are adorned with hanging (or floating) weapons of a previous
+age -- several antique swords, vintage halberds, and other powerful items
+whose strength, memory, and age are not what they used to be, although they
+are all still very beautiful and must still be very strong.
+~
+E
+beautifully-crafted beautifully crafted spears~
+All the way down Cloud Street, folks smile as they see the grand Spears in
+the window display, and the extreme magnificence and grandiosity only seems
+to increase as one gets closer to them.  They seem crafted of a gleaming 
+silver, with gold trim upon the vamplate and grip, with a beautifully sharp
+tip, with magical etchings in the celestial tongue, holding divine power,
+all over the weapon.  What a work of art!
+~
+S
+#31016
+&C"The Winged Palatte"&D~
+~
+&WThis is the famous tavern, known throughout the Realms and told about in
+local myth and folktales, the legendary "Winged Palatte" Tavern on Cloud
+Street.  Above the old wooden door is the large icon of the Tavern, framed
+below by a long yellowed strip of scripted parchment.  Ancient shields
+adorn the walls and hang beneath stone beams under the arched ceiling,
+while a great long oaken table rests in front of a roaring fireplace.
+~
+1 8 0
+D0
+~
+door~
+3 -1 31011
+R M 0 31008 1 31016
+R M 0 31042 12 31016
+R M 0 31043 7 31016
+R M 0 31043 7 31016
+R O 0 31017 1 31016
+R O 0 31018 1 31016
+R D 0 31016 0 1
+E
+large icon Tavern~
+A great wooden icon of aged enamel colors is above the old wooden door here,
+which appears to be a straight, long tongue donning feathered wings upon the
+sides like that of a sword. Below is posted a long roll of parchment, where
+archaic-styled script is printed.
+~
+E
+long yellowed strip roll script parchment~
+A long roll of yellowed parchment, scripted with a faded ink, is posted
+below the flying tongue icon of the Tavern. It is hard to discern what is
+written, but after a long period of time it appears to read:
+ 
+   &OYe  Olde  'Winged Pallatte' of Heavene
+ 
+      The Ende Of Th  Worlde Tavern&D
+ 
+~
+E
+ancient shields walls beams ceiling~
+Old and rusted shields, some completely broken and others needing quite
+badly new paint or repair, line the walls in the styles of the ships of
+Asgard, while the better-conditioned ones, shinier and fully painted ones
+fill the air beneath the stone beams of the high, arched ceiling.
+~
+> entry_prog 75~
+mppause 3
+mpecho The sound of music and festivities pours about the Tavern.
+~
+> rand_prog 25~
+mppause 4
+mpecho &CThe smell of drink, smouldering cedar and merriment fill the air as+
+a crowd at the bar start up another round of Oom-Pah-Pah and drinks, roaring+
+with laughter and gaity!&D
+~
+> rand_prog 25~
+mpecho &cSmall wisps of blue smoke rise from the fireplace, clouding the+
+Tavern.&D
+~
+|
+S
+#31017
+&CA Training Room&D~
+~
+&WThis mysterious structure, bathed in a golden light borne of a glass dome
+above, appears to be a sort of training room, where numerous celestials, of
+all genders, types and sorts, practice their flight and other such innate 
+abilities. A group of young cherubim seem to keep crashing into the wall,
+so perhaps it IS a good idea to practice, practice and practice in here.
+~
+1 8 0
+D0
+~
+~
+0 -1 31009
+R M 0 31000 1 31017
+  R E 1 31003 1 6
+  R E 1 31004 1 12
+E
+group cherubim crashing~
+&W.....ZOOOOOOOOOOMMM!!!      }RCrash!&D
+~
+S
+#31018
+&CBefore a Grand Church&D~
+~
+&WDirectly to the east looms a great building of pure white stone, the
+Church of the Gods.  The flower groves continue their border down to
+the grandly styled silver engraved doors, where large golden rings serve
+as doorknockers as a finishing touch.  It seems the Church rises even 
+higher into the air above, and into the higher clouds until it recedes
+from view.
+~
+1 0 1
+D1
+~
+doors~
+1 -1 31019
+D3
+~
+~
+0 -1 31009
+R M 0 31046 1 31018
+  R G 0 31049 1
+R D 0 31018 1 0
+E
+grandly styled silver engraved doors~
+&WA pair of polished and gleaming silver doors shine and reflect the light,
+revealing a delicate and solid set of writings that are engraved down the
+entirety of each door, written in an arcane celestial tongue known still to
+very few.
+&D
+~
+E
+large golden rings doorknockers~
+&YPerfectly shaped golden rings, flawless and shining, are mounted by silver
+decorative plates, to serve as powerful doorknockers and beautiful touches
+for such a great and awe-inspiring Church.&D
+~
+S
+#31019
+&CChurch of the Gods&D~
+~
+&WThis is the grand Church of the Gods, the temple of Heaven and one of
+the most famous places in all the realms.  The white stone floor is 
+polished and gleaming, the walls are filled with tapestries and stained
+glasswork, and the extremely high domed top is finished by a mural- it 
+seems fit for the housing of a God indeed.  Angelic music can be heard 
+throughout the Church as the familiar light of candles glows from the south.
+~
+1 134218760 0
+D0
+~
+~
+0 -1 31020
+D1
+~
+~
+0 -1 31021
+D2
+~
+~
+0 -1 31022
+D3
+~
+doors~
+3 -1 31018
+R M 0 31039 5 31019
+R O 0 31011 1 31019
+R D 0 31019 3 1
+S
+#31020
+&CThe Healing Ward&D~
+~
+&WThis somber room is marked by quite a few clean beds, each covered by
+long protective white sheets which serve to give privacy and safety to
+the patient inside.  A robed seraph floats to each bed, checking the 
+status of each patient and then closes the vertical sheets before her
+return to her watchpost next to a large wooden donation box.&D
+~
+1 17416 0
+D2
+~
+~
+0 -1 31019
+R M 0 31002 1 31020
+R O 0 31009 1 31020
+R O 0 31010 1 31020
+S
+#31021
+&CThe Church Worship Hall&D~
+~
+&WHallowed, divine, grandiose, utterly magnificent... it seems none of these
+terms stand fit to describe the terrific splendor and awesome power of the
+central Hall in this Church.  Celestials and creatures of all types bow down
+in prayer, basked in the glow of a golden altar, blessed and incensed by the
+floating seraphim and inspiring cherub Deacons in this holy, supreme and
+Godly House of Gods.&D
+~
+1 134218764 0
+D3
+~
+~
+0 -1 31019
+R M 0 31003 1 31021
+R O 0 31001 1 31021
+S
+#31022
+&CA Room Filled With Candles&D~
+~
+&WThe attention in this room is drawn to the almost endless amount of candles
+strewn about, both upon long tables that border the sides of the chamber and
+on a large wooden stand.  A fuzzy red carpet is centered about the middle of
+the floor, almost covering the entire room, one would think to catch drip-
+ping wax, especially since a small puddle sits on the corner of the carpet
+beneath the edge of the stand.&D
+~
+1 17416 0
+D0
+~
+~
+0 -1 31019
+D5
+Within a Trapdoor
+~
+trapdoor~
+2623499 -1 31025
+R M 0 31004 1 31022
+R D 0 31022 5 1
+E
+large wooden stand~
+A long, tilted rectangle of a finely-grained wood holds a number of candles,
+all burning down the wick and dripping wax upon the stand, which then drips 
+down onto the red carpet beneath.  But ho, why is all this wax on the stand
+moving down the edge? Perhaps the stand has been placed upon something...
+~
+E
+fuzzy red carpet drip wax puddle corner~
+Drip, drip, drip!  This ubiquitous sound of the room resonates especially
+about the portion of the red, fuzzy carpet beneath the wooden candle stand. 
+Interestingly enough, the carpet feels soft and comfortable to the touch,
+but it seems there is a raised edge - like a trapdoor or such beneath the
+carpet!
+~
+S
+#31023
+&CUpon Starlight Lane and Light Turn&D~
+~
+&WMany folk traverse this area, traveling down the Light Turn, across the
+Starlight Lane, off towards the bazaar to the south, and many into a noisy
+shop to the east, where it sounds as if expensive things are breaking and
+laughter floats above all the commotion of the intersection.&D
+~
+1 0 1
+D0
+~
+~
+0 -1 31024
+D1
+~
+door~
+3 -1 31072
+D2
+~
+~
+0 -1 31006
+D3
+~
+~
+0 -1 31032
+R M 0 31042 12 31023
+R D 0 31023 1 1
+S
+#31024
+&CBefore A Massive Castle of White&D~
+~
+&WThe soft path of cloud-stuffs follows to a long series of steps, at the 
+top of which leads past some pillars and great flaming braziers to the 
+grand doors of the White Castle of the Kingdom of Heaven, so named for the 
+steps, pillars, doors and indeed the great Castle itself which is all 
+crafted of a pure white marble, smooth as the atmosphere about it. 
+~
+1 0 1
+D0
+~
+gate~
+8389671 -1 31034
+D2
+~
+~
+0 -1 31023
+R M 0 31039 5 31024
+R D 0 31024 0 2
+S
+#31025
+&CA Secret Chamber&D~
+~
+&WFrom the light above that pierces the darkness, it can be seen that this
+is some sort of hidden chamber, not meant to be seen by normal eyes ever. 
+In the middle of the room stands a massive, colossal crucifix, where a 
+shadowy form is locked and held.  The trapdoor in the ceiling can still be
+used to get out!
+~
+1 3154056 0
+D4
+Past a Trapdoor
+~
+Trapdoor~
+3 -1 31022
+R M 0 31001 1 31025
+R O 0 31008 1 31025
+R D 0 31025 4 1
+E
+massive wooden crucifix~
+This colossal work of wood seems to just emanate a purpose, and equally so
+with such a painful texture, almost blood-red grain and stains, and with
+the uncomfortable-looking chains.  This must be here for a purpose!
+~
+S
+#31026
+&CA Dank, Dark Chamber Under the Church&D~
+~
+&WThis chamber is different from the secret room beneath the Candle Room...
+although dark and very musty, it is filled with a natural glow that spreads
+from a chest that sits in the middle of the room.  It appears the Gods are
+pleased with your cleansing of the Forsaken Evil from the Heavenly Church,
+as the chest seems to almost glow with beckoning intent, and a mirror to the
+north seems to hum with anticipation!
+~
+1 3145740 0
+D0
+~
+mirror~
+524296 -1 31019
+R O 0 31006 1 31026
+  R P 0 31007 1 31006
+  R P 0 31003 1 31006
+E
+mirror ~
+It seems you could almost walk through it....  but to where?
+~
+S
+#31027
+&CDown Everbright Way&D~
+~
+&WThe cheer and merriment sound distanced from this part of the Everbright
+Way, as not many folks tend to travel down this Way, and certainly not
+as far down as to this particular location, where a single, shabby and
+grim-looking chamber rests westward, touched by time but *never* by the
+kind peoples of Heaven.  As one comes by, it seems strange sounds emanate
+from within the Chamber to the west, from within the small sealed entrance.
+~
+1 4 1
+D0
+~
+~
+0 -1 31008
+D2
+~
+~
+0 -1 31028
+D3
+~
+seal~
+8389667 -1 31039
+R D 0 31027 3 1
+> rand_prog 20~
+mpecho _red A thick sense of fear emanates from the west like a fog...
+~
+> entry_prog 75~
+mppause 6
+mpecho &RTerrible shrieks and blood-curdling screams echo from the Chamber!&D
+~
+|
+S
+#31028
+&CAlong the Everbright Way&D~
+~
+&WThe air is noticeably calm between the grim-looking chamber to the northwest
+and the great stone Temple to the south, but specks of stardust always glitter
+down from above and reflect in the light, keeping the Way always bright...
+even when it is this calm and quiet, in Heaven.
+~
+1 4 1
+D0
+~
+~
+0 -1 31027
+D2
+~
+~
+0 -1 31029
+R M 0 31044 3 31028
+S
+#31029
+&COn Everbright And The Temple Of Solomon&D~
+~
+&WNow finding the end of the Everbright Way, the cumulus tufts give way to
+firmer and harder blocks of solid grey stone, all of which lead up to a
+great Temple crafted of the same stone, fortified in the virtue and power,
+consecrated in glory and faith, and hallowed in the Light of good - this 
+must be the divine Temple of Solomon.  It seems to wonder, however, how one
+would enter, as nothing but arcane runes mark the ubiquitous Temple stones.
+~
+1 0 1
+D0
+~
+~
+0 -1 31028
+D2
+~
+runes~
+8389675 -1 31038
+R D 0 31029 2 1
+E
+arcane runes~
+&WAs you peruse ancient runes of a long forgotten tongue, they glow with a
+blue light momentarily as their forms shift and rearrange themselves to
+create a great, circular rune with what resembles a crucifix glowing in
+the center, surrounded by a glowing circle of blue that closely resembles
+the outline for an entrance.
+~
+> act_prog p opens the runes.~
+mppause 3
+mpecho &B$n pushes a glowing crucifix rune, which slowly recedes into the+
+Temple stones to reveal an entrance!&D
+mppause 3
+mpecho &YThe Entrance into the Temple of Solomon has been opened!&D
+~
+> act_prog p closes the runes.~
+mppause 3
+mpecho &B$n traces a finger around a receded glowing circle, which suddenly+
+lurches forward back into place to reveal a mass of unrecognizeable runes+
+ to close the entrance!&D
+mppause 3
+mpecho &YThe Entrance into the Temple of Solomon has been sealed!&D
+~
+|
+S
+#31030
+&CDown the Light Turn&D~
+~
+&WAs one travels down the Light Turn, one cannot help but smell many many
+different and aromatic scents, that of celestial folk, of Gavin's ambrosia,
+of travelling spirits, of iced creams and dandied sweets from up the Light
+Turn... the hustling crowd that moves in both directions seems busy enough
+besides, as Cloud Street and the Turn both have many delectable places full
+of business and merriment.&D
+~
+1 0 1
+D0
+~
+~
+0 -1 31031
+D2
+~
+~
+0 -1 31010
+R M 0 31043 7 31030
+S
+#31031
+&CRounding Light Turn&D~
+~
+&WThe Corner of Light Turn here is filled with performers, a small stage,
+some open shops to the west and northwest and lots of music and merriment!
+Some smooth male tones echo from the barbershop to the west, and something
+really sweet issues a wafting mist from the northwest as laughter and gaity
+take control of the Light Turn Corner!  One should watch out, or they might
+be trampled on by a cheery mob or run into a happy crowd heading down to the
+"Winged Palatte", which is only south and down Cloud Street from here.&D
+&WAlso, the famous Sweet Shop of Heaven, Suword's Dandy Candy, beams to the
+north here, many children and miniature cherubim scrambling inside.
+~
+1 0 1
+D0
+~
+door~
+3 -1 31070
+D1
+~
+~
+0 -1 31032
+D2
+~
+~
+0 -1 31030
+D3
+~
+door~
+1 -1 31081
+D7
+~
+~
+0 -1 31083
+R M 0 31039 5 31031
+R M 0 31042 12 31031
+R M 0 31042 12 31031
+R M 0 31043 7 31031
+R M 0 31043 7 31031
+R O 0 31038 1 31031
+R D 0 31031 0 1
+R D 0 31031 3 0
+> rand_prog 25~
+mpe _lbl The smell of sweets and cream wafts in from the north and northwest.
+~
+|
+S
+#31032
+&CAcross A Light Turn&D~
+~
+&WThrough glass walls one can peer inside the bustling building to the north,
+the famous Suword's Dandy Candy, the Sweet Shop of Heaven, where many children
+and folk of all ages wander about, tasting and testing, enjoying and taking
+pleasure in candy.  If one wanted to indulge a sweettooth, then one would
+only have to open the backdoor seems to be to the north.&D
+~
+1 0 1
+D0
+~
+door~
+3 -1 31071
+D1
+~
+~
+0 -1 31023
+D3
+~
+~
+0 -1 31031
+R D 0 31032 0 1
+S
+#31033
+&CA Musical Bazaar&D~
+~
+&WLong white poles hold up a large, white and fluffy piece of material used
+as a tent overhead, hosting the grand bazaar that is bustling underneath.
+A great pipe organ booms to the east, notes pouring out sonorously like
+water from a fountain, while many other exotic and mundane instruments of
+cloudskin, brass and wood hang from the edges of the white tarp above.
+Tables displaying beautifully crafted harps and horns are surrounded by a
+merry mob of folk as music roams across the clouds.&D
+~
+1 8 1
+D3
+~
+~
+0 -1 31006
+R M 0 31033 1 31033
+  R E 1 31014 1 29
+  R G 1 31043 1
+R M 0 31044 3 31033
+E
+tables harp horn~
+From what you can see past the cheery crowd upon the table, there lies a
+beautiful silver lyre, an elegant golden harp, and a charming, polished
+wooden lute, most likely an exotic import from a master craftsman of another
+realm.
+~
+S
+#31034
+&CThe Hall of Powers&D~
+~
+~
+1 8 0
+D0
+~
+~
+0 -1 31036
+D2
+~
+gate~
+8388643 -1 31024
+D4
+~
+~
+0 -1 31085
+D5
+~
+~
+0 -1 31103
+D6
+~
+~
+0 -1 31037
+D7
+~
+~
+0 -1 31035
+R D 0 31034 2 1
+S
+#31035
+&CThe Choir of Seraphim&D~
+~
+~
+1 8 0
+D1
+~
+~
+0 -1 31036
+D8
+~
+~
+0 -1 31034
+S
+#31036
+&CThe Archangelic Choir&D~
+~
+~
+1 12 0
+D1
+~
+~
+0 -1 31037
+D2
+~
+~
+0 -1 31034
+D3
+~
+~
+0 -1 31035
+S
+#31037
+&CThe Choir of Cherubim&D~
+~
+~
+1 8 0
+D3
+~
+~
+0 -1 31036
+D9
+~
+~
+0 -1 31034
+S
+#31038
+&CInside The Temple Of Solomon&D~
+~
+This is a grand Temple, evidently built more for strength and awe than a
+grandly displayed show of wealth or perpetual use.  It must be that not many
+have ever found the way inside, as there are no footstep marks in the dust
+that collects all over the floor and walls.  Mounted torches burn along the
+walls, providing a dim light and the smell of camphor and ash.  The large
+stone chamber has a single hallway whose light cannot be fathomed because of
+the twisting path, and a partially hidden entrance is to the north.
+~
+1 8 0
+D0
+~
+entrance~
+8389667 -1 31029
+D9
+~
+~
+0 -1 31041
+R D 0 31038 0 1
+S
+#31039
+&CWithin A Spacious Chamber&D~
+~
+It seems that this dark chamber is laid with a thick fog, pouring from a hole
+in the floor, but whether that fog is of fear, evil or a water spout and
+low air pressure cannot be determined.  What is for certain, however, is
+that this unlit chamber somehow has an innate looming darkness about it,
+and it would not do well to stay for very long!
+~
+1 12 0
+D1
+~
+seal~
+8389667 -1 31027
+D5
+~
+~
+0 -1 31040
+R M 0 31034 1 31039
+R D 0 31039 1 1
+> act_prog p from the east.~
+mpe The sound of stone grinding against stone fills the chamber as the seal+
+is opened.
+mppause 3
+mpe &zTHUNK!&d The seal suddenly is closed shut!&D
+~
+> rand_prog 10~
+mpe _dch A thick fog that chills your bones floats in from below...
+~
+> act_prog p as the seal is opened.~
+silent mpforce 31034 close east
+silent mpforce spirit close east
+~
+|
+S
+#31040
+&CThe Labyrinth of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D0
+~
+~
+0 -1 31074
+D1
+~
+~
+0 -1 31077
+D2
+~
+~
+0 -1 31079
+D3
+~
+~
+0 -1 31076
+D4
+~
+~
+0 -1 31039
+R M 0 31036 5 31040
+> rand_prog 1~
+mpe _lbl The sound of a drip echoes through a labyrinth.
+~
+|
+S
+#31041
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D1
+~
+~
+0 -1 31042
+D2
+~
+~
+0 -1 31053
+D6
+~
+~
+0 -1 31038
+R O 0 31027 1 31041
+S
+#31042
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D3
+~
+~
+0 -1 31041
+D8
+~
+~
+0 -1 31054
+D9
+~
+~
+0 -1 31044
+S
+#31043
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D2
+~
+~
+0 -1 31046
+D9
+~
+~
+0 -1 31045
+S
+#31044
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D1
+~
+~
+0 -1 31045
+D2
+~
+~
+0 -1 31056
+D6
+~
+~
+0 -1 31042
+D9
+~
+~
+0 -1 31057
+S
+#31045
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D2
+~
+~
+0 -1 31059
+D3
+~
+~
+0 -1 31044
+D6
+~
+~
+0 -1 31043
+S
+#31046
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31043
+D2
+~
+~
+0 -1 31060
+D8
+~
+~
+0 -1 31061
+D9
+~
+~
+0 -1 31048
+S
+#31047
+&CDeep Inside A Stone Temple&D~
+~
+This is the end of the twisting hallways, dimly lit and muggy just as all
+the other hallways. A thick layer of dust lines the entire floor, untouched 
+for centuries it seems, but the dust seems to thin out before a tall stone
+pedestal out of respect, which hums softly with a divine presence.
+~
+1 3147784 0
+D2
+~
+~
+0 -1 31050
+R O 0 31045 1 31047
+R O 0 31023 1 31047
+R O 0 31024 1 31047
+> entry_prog 100~
+mppause 3
+mpecho &YA holy light shines upon you from above!&D
+mprestore $n 100
+~
+> speech_prog p Against Evil and Terror, Striking Demon and Wraith, to you Ancient Solomon I do pledge my faith~
+if iswearing($n) == 31024
+  if iswearing($n) == 31025
+    if iswearing($n) == 31026
+      mpecho &YA holy light, humming with power, encompasses you as the Chamber begins to shake violently!&D
+      mppause 8
+      mpechozone &YA heavenly voice booms 'Hark! Let it be known that $n has passed the Ritual of the Templar, and is a Holy Paladin of Solomon! Huzzah!'&D
+      mpmset $n title , Holy Paladin of Solomon
+      mppractice $n solomonic 100
+      mpfavor 0.$n +50
+      mppause 2
+      mpecho &YLord $n, Know that now you are charged with the Protection of the Realms of Light and to Uphold the Faith of Light in this dark Age of Despair.&D
+      mpqpset $n 20
+    endif
+  endif
+endif
+~
+|
+S
+#31048
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D1
+~
+~
+0 -1 31049
+D2
+~
+~
+0 -1 31062
+D6
+~
+~
+0 -1 31046
+S
+#31049
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D2
+~
+~
+0 -1 31052
+D3
+~
+~
+0 -1 31048
+D8
+~
+~
+0 -1 31063
+S
+#31050
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31047
+D1
+~
+~
+0 -1 31051
+D3
+~
+~
+0 -1 31069
+D8
+~
+~
+0 -1 31068
+S
+#31051
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D1
+~
+~
+0 -1 31052
+D3
+~
+~
+0 -1 31050
+D9
+~
+~
+0 -1 31068
+S
+#31052
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31049
+D2
+~
+~
+0 -1 31064
+D3
+~
+~
+0 -1 31051
+D9
+~
+~
+0 -1 31067
+S
+#31053
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31041
+S
+#31054
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D2
+~
+~
+0 -1 31055
+D7
+~
+~
+0 -1 31042
+S
+#31055
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31054
+S
+#31056
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31044
+S
+#31057
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D6
+~
+~
+0 -1 31044
+D7
+~
+~
+0 -1 31058
+S
+#31058
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D8
+~
+~
+0 -1 31057
+R O 0 31025 1 31058
+> entry_prog 100~
+mpecho &CAs you walk into this chamber, your footsteps echo loudly.&D
+~
+|
+S
+#31059
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31045
+S
+#31060
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31046
+D6
+~
+~
+0 -1 31061
+S
+#31061
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D7
+~
+~
+0 -1 31046
+D9
+~
+~
+0 -1 31060
+S
+#31062
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31048
+S
+#31063
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D7
+~
+~
+0 -1 31049
+S
+#31064
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31052
+D8
+~
+~
+0 -1 31065
+S
+#31065
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D2
+~
+~
+0 -1 31066
+D7
+~
+~
+0 -1 31064
+S
+#31066
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D0
+~
+~
+0 -1 31065
+R O 0 31026 1 31066
+> entry_prog 100~
+mpecho &CAs you walk into this chamber, your footsteps echo loudly.&D
+~
+|
+S
+#31067
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D6
+~
+~
+0 -1 31052
+S
+#31068
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D6
+~
+~
+0 -1 31051
+D7
+~
+~
+0 -1 31050
+S
+#31069
+&CInside A Stone Temple&D~
+~
+A dank hallway, dimly lit by mounted torches, extends far as the eye can
+see, smelling of mold and cold ash.  Several cobwebs line the corners and
+edges, perhaps covering forsaken treasures or miniscule cobs and hobs.  A
+muggy, humid atmosphere encompasses the entire hallway, and the walls almost
+seem to move towards each other as one progresses upon the stone floor.
+~
+1 3145736 0
+D1
+~
+~
+0 -1 31050
+S
+#31070
+&CSuword's Dandy Candy Sweets Shop&D~
+~
+&WA white parlour with a black countertop, cabinets, and a black-and-white
+checkered floor seem fit for a Candy Shop, and very clean also.  Cleaned
+white booths line the southern wall across from the sales floor, and many
+cupids and small children scramble across the booths and the checkered tile
+floor, just inching to see some yummy candy.
+~
+1 8 0
+D1
+~
+~
+0 -1 31071
+D2
+~
+door~
+3 -1 31031
+R M 0 31010 1 31070
+  R G 1 31033 1
+  R G 1 31031 1
+  R G 1 31032 1
+  R G 1 31034 1
+R M 0 31042 12 31070
+R O 0 31036 1 31070
+R D 0 31070 2 1
+E
+countertop counter~
+A polished black counter of marble arches in an arc gracefully about the
+back and middle of the store, attracting attention. Upon the countertop are
+numerous candies, prominently showing a golden-wrapped chocolate bar that
+reads "SUWORD BAR" upon the wrapping, a chewy-looking caramel rod, a nice
+and traditional dandy sweet, and a cane of sugar and colored icing. MmMmMmm!
+~
+E
+cabinet cabinets walls wall~
+Many black marble cabinets, with glass panels, are locked upon the walls,
+all containing sealed jars of sugars, glazes, icings, garnishes, spices, and
+even a cabinet that holds jars of gummies, candied chocolate bits, and
+gumballs.
+~
+> rand_prog 25~
+mpecho _lbl The scent of delectable candies floats about the Sweets Shop.
+~
+|
+S
+#31071
+&CThe Back of a Sweet Shop&D~
+~
+&WThis is the rear of the Sweet Shop, although it appears very similar to
+the western front as the black-and-white checkered tile continues as does
+the color scheme about the walls.  There are no booths in this section,
+however, and instead of a black counter to ring up candy orders, there
+lie some barrels against the eastern wall, most likely more backstock and
+inventory.&D
+~
+1 8 0
+D2
+~
+door~
+3 -1 31032
+D3
+~
+~
+0 -1 31070
+R O 0 31037 1 31071
+  R P 0 31032 1 31037
+  R P 0 31031 1 31037
+R D 0 31071 2 1
+E
+barrel barrels east eastern wall~
+Some barrels lie against the eastern wall, closed and sealed and stamped
+as "S. D. C. S. S. STOCK". One in particular stands out, as it lies alone
+in the corner and it is opened.
+~
+> rand_prog 25~
+mpecho _lbl The scent of delectable candies floats about the Sweets Shop.
+~
+|
+S
+#31072
+&CRolintar's Joke Shopp&D~
+~
+&WA small cramped office here is crammed further with many weird and different
+creatures, some humans, a few cherubs, many air elementals and lesser cumulus
+beings, all of them either breaking something or being mischevious in one
+way or another, especially given the fact that the wall shelves are lined
+with pocket-sized toys and objects, likely both unsafe and innately full of
+mischief.  A small counter and desk sit squished in the northeastern corner.&D
+~
+1 8 0
+D3
+~
+door~
+3 -1 31023
+R M 0 31043 7 31072
+R D 0 31072 3 1
+S
+#31073
+&CDeep Within The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each shade in the dark. A loose stone pokes from the wall.
+~
+1 8 0
+D2
+~
+~
+0 -1 31076
+D3
+~
+wall~
+11 -1 31106
+R M 0 31037 4 31073
+R D 0 31073 3 1
+E
+loose stone wall~
+A grey brick peeks out from the western wall. It seems that maybe one could
+open the wall somehow?
+~
+S
+#31074
+&CDeep In The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D2
+~
+~
+0 -1 31040
+R M 0 31035 2 31074
+S
+#31075
+&CDeep Inside The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D2
+~
+~
+0 -1 31077
+R M 0 31037 4 31075
+S
+#31076
+&CThe Western Corridor Inside The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D0
+~
+~
+0 -1 31073
+D1
+~
+~
+0 -1 31040
+D2
+~
+~
+0 -1 31078
+R M 0 31036 5 31076
+R M 0 31036 5 31076
+S
+#31077
+&CThe Eastern Corridor Inside The Labyrinth Of Atonement&d~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 12 0
+D0
+~
+~
+0 -1 31075
+D2
+~
+~
+0 -1 31080
+D3
+~
+~
+0 -1 31040
+R M 0 31036 5 31077
+R M 0 31036 5 31077
+> rand_prog 10~
+mpe _lbl The sound of a drip echoes through the labyrinth.
+~
+|
+S
+#31078
+&CDown Within A Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D0
+~
+~
+0 -1 31076
+R M 0 31037 4 31078
+S
+#31079
+&CDown In The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in each monster and shadow that lurks in the dark.
+~
+1 8 0
+D0
+~
+~
+0 -1 31040
+R M 0 31035 2 31079
+S
+#31080
+&CDown Inside The Labyrinth Of Atonement&D~
+~
+A thick fog lays upon the ground and hangs in the air here, clouding vision
+and thought.  This appears to be a dank labyrinth, for the purpose of holding
+creatures for them to atone, yet it seems that much evil still thrives here
+in the creatures that lurk. There is a small crack in the wall here.
+~
+1 8 0
+D0
+~
+~
+0 -1 31077
+R M 0 31037 4 31080
+R O 0 31044 1 31080
+E
+small crack wall~
+A small crack lines the masoned wall of stone to the south, there is a
+trickle of water barely seeping through it. Perhaps one could drink from
+it?
+~
+> rand_prog 25~
+mpe _lbl The sound of a drip echoes loudly here.
+~
+|
+S
+#31081
+&CA Dapper Barbershop&D~
+~
+&WThis is a very clean, traditional-feeling and happy place, where a sense
+of contentedness fills the air.  Round mirrors adorn the northern walls
+accompanied by a row of marble sinks, drawers underneath, and black
+leather chairs.  Bits of hair clippings surround the first two chairs, and
+a long wooden pushbroom rests in the corner.&D
+~
+1 8 0
+D1
+~
+door~
+1 -1 31031
+R M 0 31042 12 31081
+R D 0 31081 1 0
+E
+round mirrors north wall~
+.,::OOO::,.
+.:'         `:.
+:"           ":
+:"           ":
+:,           ::
+:,           ::
+ :,,        ,:
+  `*0Ooo:"O^'
+~
+E
+black leather chairs~
+Piles of hair adorn a polished, round silver base, from which a clean, black
+leather chair is positioned. There is comfortable padding across the back,
+about the armrests, and a shining silver footrest is placed perfectly at
+the foot of the chair, with a similar-looking silver loop coming from the base.
+~
+S
+#31082
+&CJ. R. Donnachie's Toy Store&D~
+~
+&WWhat a grand palace this is, covered from ceiling to floor with toys of
+all kinds, for all girls and boys and goodlings!  Magical vehicles that
+issue steam and ride tracks speed around the carpeted ground with a happy
+locomotive mood, large trees of ever-green color adorned with garlands of
+gold and silver star fragments and toy ornaments, and sparkling wrapped
+packages with brightly colored bows!  And my, what decorations that stream
+from wall to wall, and nice paper boxes in the far corner!  A mood of pure
+innocence and happiness fills the large parlor, and smiles are everywhere.
+~
+1 8 0
+D0
+~
+door~
+35 -1 31007
+D2
+~
+backdoor~
+39 -1 31084
+R M 0 31009 1 31082
+  R G 1 31028 1
+  R G 1 31029 1
+R O 0 31030 1 31082
+R D 0 31082 0 1
+R D 0 31082 2 2
+S
+#31083
+&CAn Ice Cream Parlor&D~
+~
+&WThe room itself is a surreal scene of a hardwood floored, and walled ice
+cream parlor.  There is a large oak counter in the rear of the parlor
+with many bar stools that are mounted to the floor there.  Several nice
+paintings hang from the walls.  There are hooded lanterns mounted on each
+end of the room for lighting.
+~
+1 8 0
+D8
+~
+~
+0 -1 31031
+R M 0 31041 1 31083
+R M 0 31042 12 31083
+S
+#31084
+&CA Storage Area&D~
+~
+&WA large loading area is here, the southern wall filled with stacks of
+pallets, all filled with brown boxes shipped from manufacturers across
+the realms.  A small work area is located to the west, where a desk is
+accompanied by a toolbench and some saws.  Boxes are scattered everywhere,
+some opened with packaging filler spilling, and some closed.
+~
+1 0 1
+D0
+~
+door~
+39 -1 31082
+D1
+~
+doors~
+7 -1 31008
+R D 0 31084 0 2
+R D 0 31084 1 2
+S
+#31085
+&CHall of Life&D~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 31086
+D4
+~
+~
+0 -1 31090
+D5
+~
+~
+0 -1 31034
+S
+#31086
+&CHall of Life&D~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 31087
+D2
+~
+~
+0 -1 31085
+S
+#31087
+&CHall of Life&D~
+~
+seal
+~
+1 0 1
+D0
+~
+door~
+1027 -1 31088
+D2
+~
+~
+0 -1 31086
+D5
+~
+seal~
+8389673 -1 31089
+R D 0 31087 0 1
+R D 0 31087 5 0
+S
+#31088
+&CChambers of the Domination&D~
+~
+~
+1 0 1
+D2
+~
+door~
+1027 -1 31087
+R D 0 31088 2 1
+S
+#31089
+&CThe Portal Chamber&D~
+~
+&WThis is a broad chamber, however it is short in depth which creates
+difficulty for taller folk who wish to move... seems as it poses no problem
+though, as dust is fairly distributed about all the parcels, mirrors and
+portals that line the northern, eastern, southern, and western walls.&D
+~
+1 0 1
+D2
+~
+portal~
+8 -1 30021
+D3
+~
+portal~
+8 -1 31000
+D4
+~
+seal~
+8389667 -1 31087
+R O 0 31045 1 31089
+R D 0 31089 4 1
+E
+parcel parcels north northern~
+Some parcels are strewn about to the north, dusty boxes and packaged
+objects.  However, a dusty emblem fixed upon the wall seems to intrigue
+the mind.
+~
+E
+emblem~
+A round emblem with some archaic script and figures seems to possess a certain
+force about it, invoking wonder and curiosity about your mind.  Perhaps
+if you were to search about, you could find out what it means!
+~
+E
+mirrors mirror east eastern~
+Several mirrors are stacked about the floor here, and one in particular,
+a polished and shining one with a dull blue rectangular border, is laid
+against the eastern wall.  In fact, it seems as you gaze into the mirrors
+depths that if one were to touch or walk through it, they could traverse
+through the mirror and into the lively city square that is shown inside.
+~
+E
+portals portal~
+Two large and grand portals, crafted in a Gilded Age, stand ominously in
+the southern and western sides of the chamber.
+~
+E
+south southern~
+A dark portal stands upright against the southern wall here, where dark 
+colors swirl inside the cold, black metal frame.
+~
+E
+west western~
+A mid-sized, round portal framed in a beautiful frame of polished white
+stone stands proudly to the west, with swirling pastel colors flowing
+inside.
+~
+S
+#31090
+&CHall of Thrones&D~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 31091
+D5
+~
+~
+0 -1 31085
+S
+#31091
+&CHall of Thrones&D~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 31092
+D2
+~
+~
+0 -1 31090
+S
+#31092
+&CHall of Thrones&D~
+~
+air
+~
+1 0 1
+D2
+~
+~
+0 -1 31091
+D4
+~
+air~
+8389679 -1 31093
+R D 0 31092 4 2
+S
+#31093
+&CA Sphere of Crystal&D~
+~
+crystal crystals
+~
+1 0 1
+D2
+~
+crystals~
+8389679 -1 1210
+D5
+~
+crystal~
+3 -1 31092
+R D 0 31093 2 2
+R D 0 31093 5 1
+S
+#31094
+&CHall of the Brotherhood&D~
+~
+This is a large, very regal Hall high inside the Temple of Solomon, although
+these expansive chambers have much more comfort and more life than the halls
+of stone that wind and twist ubiquitously below.  A large and heavily engraved
+silver crucifix rests against the middle of the southern wall, where the red
+carpeted floor slopes downwards into a shadowed chamber.  Many tapestries and
+paintings cover the walls as bits of stardust litter the air before the
+ceiling yet high off the carpeted floor which leads further north.
+~
+1 8 0
+D0
+~
+~
+0 -1 31095
+D5
+~
+~
+0 -1 31047
+S
+#31095
+&CHall of the Brotherhood&D~
+~
+~
+1 12 0
+D0
+~
+~
+0 -1 31096
+D1
+~
+~
+0 -1 31099
+D2
+~
+~
+0 -1 31094
+D3
+~
+~
+0 -1 31098
+S
+#31096
+&CHall of the Brotherhood&D~
+~
+~
+1 8 0
+D0
+~
+doors~
+3 -1 31097
+D2
+~
+~
+0 -1 31095
+R D 0 31096 0 1
+S
+#31097
+&CChamber of Sanctity&D~
+~
+~
+1 8 0
+D2
+~
+doors~
+3 -1 31096
+D4
+~
+~
+0 -1 31102
+R D 0 31097 2 1
+S
+#31098
+&CCorridor of the Hand&D~
+~
+~
+1 8 0
+D1
+~
+~
+0 -1 31095
+D3
+~
+door~
+3 -1 31100
+R D 0 31098 3 1
+S
+#31099
+&CCorridor of the Faith&D~
+~
+~
+1 8 0
+D1
+~
+door~
+3 -1 31101
+D3
+~
+~
+0 -1 31095
+R D 0 31099 1 1
+S
+#31100
+&CChamber of the Light&D~
+~
+~
+1 8 0
+D1
+~
+door~
+3 -1 31098
+R D 0 31100 1 1
+S
+#31101
+&CChamber of the Divinity&D~
+~
+~
+1 8 0
+D3
+~
+door~
+3 -1 31099
+R D 0 31101 3 1
+S
+#31102
+&CChamber of Purity&D~
+~
+~
+1 8 0
+D5
+~
+~
+0 -1 31097
+S
+#31103
+&CHall of Memories&D~
+~
+~
+1 8 0
+D0
+~
+~
+0 -1 31104
+D4
+~
+~
+0 -1 31034
+S
+#31104
+&CHall of Memories&D~
+~
+~
+1 8 0
+D0
+~
+~
+0 -1 31105
+D2
+~
+~
+0 -1 31103
+S
+#31105
+&CHall of Memories&D~
+~
+~
+1 8 0
+D2
+~
+~
+0 -1 31104
+S
+#31106
+&CHanging Upon A String of Cloud&D~
+~
+&WA vast waste of crystal clear sky against a pale blue backdrop fills the
+space around you, in particular a great mass of clouds above you, and a
+darker peculiar mass to the east.  It would do good to tread lightly
+here, for the cloudstrings that lethargically float about this area
+do not seem to be of a sturdy quality or in enough quantity to restrain
+gravity for long.&D
+~
+1 0 40
+D1
+~
+stones~
+11 -1 31073
+D5
+~
+~
+0 -1 31107
+R D 0 31106 1 1
+E
+dark darker peculiar mass east~
+Within a dark mass of cloudstuffs to the east seems a group, nay about a
+wall of stones. Perhaps one could open the stones and find passage within?
+Must be more comfortable than barely hovering over a great depth of air.
+~
+S
+#31107
+&CHigh In The Air&D~
+~
+The thin air that fills this starry and vast sky of pale blue seems to 
+be at the point of release, not even a winged insect could fly at this
+level of atmosphere.  Although clouds fill the air and the area about
+is vast, it seems that a bit farther off and one could not find their
+way back into this particular fold of the heavens above.
+~
+1 0 9
+D4
+~
+~
+0 -1 31106
+S
+#31200
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+ 31005    0  0  0  0  0   120  90         0 23    ; Shelby
+ 31006    0  5  0  0  0   100  90         0 23    ; Orghund
+ 31007    0  0  0  0  0   120  90         0 23    ; Thassilod
+ 31008    0  0  0  0  0   120  90         0 23    ; Gavin
+ 31009    0  0  0  0  0   120  90         0 23    ; J. R. Donnachie
+ 31010    0  0  0  0  0   120  90         0 23    ; Suword
+ 31033    0  0  0  0  0   120  90         0 23    ; a spikey-haired musician
+ 31038    0  0  0  0  0   120  90         0 23    ; Aragon
+0
+
+
+#REPAIRS
+ 31007    0  0  0         100   1         0 23    ; Thassilod
+0
+
+
+#SPECIALS
+M  31002 spec_cast_cleric
+M  31003 spec_cast_adept
+M  31005 spec_cast_mage
+M  31007 spec_breath_fire
+M  31008 spec_breath_lightning
+M  31011 spec_executioner
+M  31012 spec_fido
+M  31034 spec_breath_gas
+M  31036 spec_fido
+M  31039 spec_guard
+S
+
+
+#$

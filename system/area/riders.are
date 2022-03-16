@@ -1,0 +1,1605 @@
+#AREA        Desert Riders~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+95 100 90 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &OThe sands of time blow, in the ever-changing winds.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 200000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#25200
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#25201
+Desert Rider~
+a desert rider~
+A desert rider is standing here.
+~
+Wrapped up in black robes and wearing sandles on his feet, this rider appears quite menacing.~
+1
+Clanname none~
+0
+0
+33 128 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 640&64 -1073741821
+> death_prog 100~
+if quest(riders) == 2
+  if qkamount(riders) < 10
+    mpqkamount $n riders 1
+else
+    mpqkamount $n riders 1
+    mpquest $n riders 3
+  endif
+endif
+~
+|
+#25202
+camel~
+a camel~
+A camel is standing here.
+~
+The beast of burden has a large hump.  It has a horrid smell to it.A camel is in perfect health.~
+1
+Clanname none~
+0
+0
+262145 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 262145 2
+#25203
+Leader Sheik~
+Sheik~
+The Desert Rider Leader Sheik is standing here.
+~
+The Sheik leader is garbed in crimson red robes.  He carries himself in a confident manner.~
+1
+Clanname none~
+0
+0
+131107 128 0 C
+107 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 1048576 8192 0 640&68 -1073741757
+> all_greet_prog 100~
+(null)~
+> death_prog 100~
+if quest(riders) == 2
+  if qkamount(riders) < 10
+    mpqkamount $n riders 1
+else
+    mpqkamount $n riders 1
+    mpquest $n riders 3
+  endif
+endif
+~
+|
+#25204
+desert rider~
+a desert rider~
+A desert rider is standing here.
+~
+Wrapped up in black robes and wearing sandles on his feet, this rider appears quite menacing.~
+1
+Clanname none~
+0
+0
+33 128 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 1048576 0 640&64 -1073741821
+> death_prog 100~
+if quest(riders) == 2
+  if qkamount(riders) < 10
+    mpqkamount $n riders 1
+else
+    mpqkamount $n riders 1
+    mpquest $n riders 3
+  endif
+endif
+~
+|
+#25205
+desert rider~
+a desert rider~
+A desert rider is standing here.
+~
+Wrapped up in black robes and wearing sandles on his feet, this rider appears quite menacing.~
+1
+Clanname none~
+0
+0
+33 128 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 640&64 -1073741821
+> fight_prog 100~
+if quest(riders) == 2
+  if qkamount(riders) < 10
+    mpqkamount $n riders 1
+else
+    mpqkamount $n riders 3
+    mpquest $n riders 2
+  endif
+endif
+~
+|
+#25206
+camel~
+a camel~
+A camel is standing here.
+~
+The beast of burden has a large hump.  It has a horrid smell to it.~
+1
+Clanname none~
+0
+0
+1 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 262145 2
+#25207
+swarm giant locust~
+a swarm of giant locust~
+A swarm of giant locust is here devouring everything in sight.
+~
+There is nothing to see because the swarm of locusts is too thick.~
+1
+Clanname none~
+0
+0
+33 0 0 C
+107 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 1 2
+> fight_prog 10~
+mpechoat $n &RA thousand bites of locust begin to devour you!
+mpdamage $n 1000
+~
+|
+#25208
+swarm giant locust~
+a swarm of giant locust~
+A swarm of giant locust is here devouring everything in sight.
+~
+There is nothing to see because the swarm of locusts is too thick.~
+1
+Clanname none~
+0
+0
+33 0 0 C
+107 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 1 2
+> fight_prog 10~
+mpechoat $n &RA thousand bites of locust begin to devour you!
+mpdamage $n 1000
+~
+|
+#25250
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#25200
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#25201
+gallon water flask~
+a gallon water flask~
+A gallon water flask has been left here.~
+~
+17 0 16385
+100 100 0 0 0 0 0
+1 1358 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+flask~
+The flask is a heavy duty leather material and is quite large.
+~
+#25202
+ruby embedded scimitar~
+a ruby embedded scimitar~
+A ruby embedded scimitar has been left here.~
+slash~
+5 0 8193
+0 45 100 1 1 0 100
+6 222 1
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+rusty sword scimitar~
+Very rusty and old...it has a wide blade and chunks missing from
+its cutting edge.
+~
+A
+26 33554432
+A
+19 10
+#25203
+turban wrap~
+a turban wrap~
+A turban wrap has been left here.~
+~
+9 0 17
+60 60 0 0 0 0 0
+1 233 28
+1
+2
+0
+0
+0
+0
+S 77 0
+E
+turban~
+The turban is a long scarf of weaved cotton material.
+~
+A
+64 25
+A
+18 5
+A
+19 5
+#25204
+locust meat~
+some dried locust meat~
+A few scraps of locust meat has been left here.~
+%s chew$q $p.~
+19 0 16385
+5 0 0 0 0 1 0
+1 22 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+'locust' 'meat'~
+This meat appears to have been smoked to preserve for awhile.
+~
+#25205
+sandals~
+a pair of sandals~
+A pair of sandals has been left there.~
+~
+9 0 65
+60 60 0 0 0 0 0
+1 225 22
+1
+1
+0
+0
+0
+0
+S 77 0
+E
+sandals~
+The sandals appear to be well worn and covered in dirt.
+~
+A
+14 20
+A
+2 2
+#25206
+black robes~
+a set of black robes~
+A set of black robes has been left here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+1 268 26
+1
+13
+0
+0
+0
+0
+S 77 0
+E
+robes~
+A faded black set of robes has a strong musty odor to it.
+~
+A
+13 500
+#25207
+crimson red robes~
+a set of crimson red robes~
+A set of crimson red robes has been left here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+1 330 33
+1
+3
+0
+0
+0
+0
+S 77 0
+E
+robes~
+A crisp set of crimson robes has a perfumed scent to it.
+~
+A
+13 600
+#25250
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#25200
+Within the Desert Sands~
+Not Assigned~
+~
+1 4 1
+S
+#25201
+Within the Desert Sands~
+Not Assigned~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? The smell is strong enough to literally taste. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25202
+D1
+~
+~
+0 -1 25207
+D11
+~
+~
+0 -1 43916
+R M 0 25207 1 25201
+S
+#25202
+Before a Tent~
+Not Assigned~
+There is a tent providing shade to the searing sun to the east.  The desert sands
+have a few stones and old bones intermingled throughout it.  A few catus plants
+are growing up in small clusters.
+~
+1 0 1
+D0
+~
+~
+0 -1 25203
+D1
+~
+tent flap~
+3 -1 25208
+D2
+~
+~
+0 -1 25201
+R D 0 25202 1 1
+S
+#25203
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25204
+D1
+~
+~
+0 -1 25209
+D2
+~
+~
+0 -1 25202
+S
+#25204
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25205
+D1
+~
+~
+0 -1 25210
+D2
+~
+~
+0 -1 25203
+S
+#25205
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. Rumbling deep under the sand is violent 
+enough at times various sand dunes are flattened.
+~
+1 0 1
+D0
+~
+~
+0 -1 25206
+D1
+~
+~
+0 -1 25211
+D2
+~
+~
+0 -1 25204
+R M 0 25204 3 25205
+  R E 0 25201 1 17
+  R E 0 25202 1 16
+  R G 0 25204 1
+  R E 0 25206 1 5
+  R E 0 25205 1 8
+  R E 0 25203 1 6
+R M 0 25206 2 25205
+S
+#25206
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand.
+~
+1 0 1
+D1
+~
+~
+0 -1 25212
+D2
+~
+~
+0 -1 25205
+S
+#25207
+Next to a Tent~
+Not Assigned~
+Jackpot! More sand! Tiny rivlets of sand seem to slither and writhe in the 
+scorching sun. Heat rises in waves, leading to hallucinations and 
+delusional mindsets.
+~
+1 0 1
+D1
+~
+~
+0 -1 25213
+D3
+~
+~
+0 -1 25201
+S
+#25208
+Inside a Desert Rider Tent~
+Not Assigned~
+The tent is patched together with various hides of animals.  There are a few sets
+of packs setup inside the tent.  A small campfire is in the middle of the tent.
+A blue rug is rolled out over the sand here.
+~
+1 8 0
+D1
+~
+tent flap~
+3 -1 25214
+D3
+~
+tent flap~
+3 -1 25202
+R M 0 25204 2 25208
+  R E 0 25206 1 5
+  R E 0 25205 1 8
+  R E 0 25202 1 16
+R D 0 25208 1 1
+R D 0 25208 3 1
+S
+#25209
+Next to a Tent~
+Not Assigned~
+Sand, nothing but sand. The sun beating down, the heat from the sand 
+searing and oppressive. There looks to be no end in sight to this gods 
+forsaken sand.
+~
+1 0 1
+D0
+~
+~
+0 -1 25210
+D1
+~
+~
+0 -1 25215
+D3
+~
+~
+0 -1 25203
+R M 0 25202 2 25209
+R M 0 25205 4 25209
+  R E 0 25206 1 5
+  R E 0 25205 1 8
+  R E 0 25203 1 6
+  R E 0 25202 1 16
+  R E 0 25204 1 17
+  R G 0 25201 1
+S
+#25210
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun literally baking the ground 
+beneath it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25211
+D1
+~
+~
+0 -1 25216
+D2
+~
+~
+0 -1 25209
+D3
+~
+~
+0 -1 25204
+S
+#25211
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25212
+D1
+~
+~
+0 -1 25217
+D2
+~
+~
+0 -1 25210
+D3
+~
+~
+0 -1 25205
+S
+#25212
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand
+~
+1 0 1
+D1
+~
+~
+0 -1 25218
+D2
+~
+~
+0 -1 25211
+D3
+~
+~
+0 -1 25206
+S
+#25213
+Within the Desert Sands~
+Not Assigned~
+Flat, endless sand stretches out as far as the eye can see. No life in 
+this sea of sand, no water, or could that be an unknown explorer's biased 
+words? 
+~
+1 0 1
+D0
+~
+~
+0 -1 25214
+D1
+~
+~
+0 -1 25219
+D3
+~
+~
+0 -1 25207
+S
+#25214
+Before a Tent~
+Not Assigned~
+The patched together hides makeup a tent to the west.  It provides some shade for
+the searing heat of the sun.  The sand burns from the heat it has accumulated.  The
+catus plant is scattered amongst the desert in small clusters.
+~
+1 0 1
+D0
+~
+~
+0 -1 25215
+D1
+~
+~
+0 -1 25220
+D2
+~
+~
+0 -1 25213
+D3
+~
+tent flap~
+3 -1 25208
+R D 0 25214 3 1
+S
+#25215
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand
+~
+1 0 1
+D0
+~
+~
+0 -1 25216
+D1
+~
+~
+0 -1 25221
+D2
+~
+~
+0 -1 25214
+D3
+~
+~
+0 -1 25209
+S
+#25216
+Before the Sheik Tent~
+Not Assigned~
+The patched together hides makeup a tent to the west.  It provides some shade for
+the searing heat of the sun.  The sand burns from the heat it has accumulated.  The
+catus plant is scattered amongst the desert in small clusters.
+~
+1 0 1
+D0
+~
+~
+0 -1 25217
+D1
+~
+tent flap~
+3 -1 25222
+D2
+~
+~
+0 -1 25215
+D3
+~
+~
+0 -1 25210
+S
+#25217
+Within the Desert Sands~
+Not Assigned~
+Towering dunes offer some small shade from the unrelenting heat. Flat, 
+scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25218
+D1
+~
+~
+0 -1 25223
+D2
+~
+~
+0 -1 25216
+D3
+~
+~
+0 -1 25211
+S
+#25218
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun literally baking the ground 
+beneath it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 25224
+D2
+~
+~
+0 -1 25217
+D3
+~
+~
+0 -1 25212
+S
+#25219
+Within the Desert Sands~
+Not Assigned~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? 
+~
+1 0 1
+D0
+~
+~
+0 -1 25220
+D1
+~
+~
+0 -1 25225
+D3
+~
+~
+0 -1 25213
+S
+#25220
+Within the Desert Sands~
+Not Assigned~
+Jackpot! More sand! Tiny rivlets of sand seem to slither and writhe in the 
+scorching sun. Heat rises in waves, leading to hallucinations and 
+delusional mindsets.
+~
+1 0 1
+D0
+~
+~
+0 -1 25221
+D1
+~
+~
+0 -1 25226
+D2
+~
+~
+0 -1 25219
+D3
+~
+~
+0 -1 25214
+S
+#25221
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above. 
+~
+1 0 1
+D1
+~
+~
+0 -1 25227
+D2
+~
+~
+0 -1 25220
+D3
+~
+~
+0 -1 25215
+R M 0 25202 3 25221
+R M 0 25205 5 25221
+  R E 0 25201 1 17
+  R G 0 25204 1
+  R E 0 25206 1 5
+  R E 0 25205 1 8
+  R E 0 25203 1 6
+  R E 0 25202 1 16
+S
+#25222
+Within the Sheik Tent~
+Not Assigned~
+The tent is patched together with various hides of animals.  There are a few sets
+of packs setup inside the tent.  A small campfire is in the middle of the tent.
+A blue rug is rolled out over the sand here.  There are a few plush pillows set out
+on the rug.  There is a small fold out table by the pillows.
+~
+1 0 1
+D3
+~
+tent flap~
+3 -1 25216
+R M 0 25203 2 25222
+  R E 0 25207 1 5
+  R E 0 25203 1 6
+  R E 0 25201 1 17
+  R E 0 25202 1 16
+R D 0 25222 3 1
+S
+#25223
+Within the Desert Sands~
+Not Assigned~
+The sand butts up against solid rock here. Towering walls of obsidian loom 
+skyward beyond normal sight. The sand is still scorched and steaming from 
+the sun.
+~
+1 0 1
+D0
+~
+~
+0 -1 25224
+D1
+~
+~
+0 -1 25229
+D3
+~
+~
+0 -1 25217
+S
+#25224
+Within the Desert Sands~
+Not Assigned~
+Jackpot! More sand! Tiny rivlets of sand seem to slither and writhe in the 
+scorching sun. Heat rises in waves, leading to hallucinations and 
+delusional mindsets.
+~
+1 0 1
+D1
+~
+~
+0 -1 25230
+D2
+~
+~
+0 -1 25223
+D3
+~
+~
+0 -1 25218
+S
+#25225
+Within the Desert Sands~
+Not Assigned~
+A steady thrumming pounds through the sand. The dunes shifting and 
+flattening to this sound. What could it be? It makes a soul wonder. The 
+sun boiling down upon the victims. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25226
+D1
+~
+~
+0 -1 25231
+D3
+~
+~
+0 -1 25219
+S
+#25226
+Within the Desert Sands~
+Not Assigned~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? The smell is strong enough to literally taste.
+~
+1 0 1
+D0
+~
+~
+0 -1 25227
+D1
+~
+~
+0 -1 25232
+D2
+~
+~
+0 -1 25225
+D3
+~
+~
+0 -1 25220
+S
+#25227
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. Rumbling deep under the sand is violent 
+enough at times various sand dunes are flattened.
+~
+1 0 1
+D0
+~
+~
+0 -1 25228
+D1
+~
+~
+0 -1 25233
+D2
+~
+~
+0 -1 25226
+D3
+~
+~
+0 -1 25221
+S
+#25228
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand.
+~
+1 0 1
+D0
+~
+~
+0 -1 25229
+D1
+~
+~
+0 -1 25234
+D2
+~
+~
+0 -1 25227
+S
+#25229
+Within the Desert Sands~
+Not Assigned~
+Is that a tree up ahead? A shimmer or water? No, it was just a mirage. 
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25230
+D1
+~
+~
+0 -1 25235
+D2
+~
+~
+0 -1 25228
+D3
+~
+~
+0 -1 25223
+S
+#25230
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. Rumbling deep under the sand is violent 
+enough at times various sand dunes are flattened.
+~
+1 0 1
+D1
+~
+~
+0 -1 25236
+D2
+~
+~
+0 -1 25229
+D3
+~
+~
+0 -1 25224
+S
+#25231
+Within the Desert Sands~
+Not Assigned~
+A few shifting sand dunes criss-cross the landscape. The sand under the 
+feet seems to try to pull at an unsuspecting victim. The heat lifts from 
+the sand in massive waves.
+~
+1 0 1
+D0
+~
+~
+0 -1 25232
+D1
+~
+~
+0 -1 25237
+D3
+~
+~
+0 -1 25225
+S
+#25232
+Before a Tent~
+Not Assigned~
+The patched together hides makeup a tent to the west.  It provides some shade for
+the searing heat of the sun.  The sand burns from the heat it has accumulated.  The
+catus plant is scattered amongst the desert in small clusters.
+~
+1 0 1
+D0
+~
+~
+0 -1 25233
+D1
+~
+tent flap~
+3 -1 25238
+D2
+~
+~
+0 -1 25231
+D3
+~
+~
+0 -1 25226
+S
+#25233
+Within the Desert Sands~
+Not Assigned~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand.
+~
+1 0 1
+D0
+~
+~
+0 -1 25234
+D1
+~
+~
+0 -1 25239
+D2
+~
+~
+0 -1 25232
+D3
+~
+~
+0 -1 25227
+S
+#25234
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. Rumbling deep under the sand is violent 
+enough at times various sand dunes are flattened. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25235
+D1
+~
+~
+0 -1 25240
+D2
+~
+~
+0 -1 25233
+D3
+~
+~
+0 -1 25228
+S
+#25235
+Within the Desert Sands~
+Not Assigned~
+There is a smell of water in the air. The tangy taste of salt can be felt 
+upon the tongue. The rumbling is fainter here, almost as if there is a 
+haven nearby. The sun baking relentlessly down upon the sands, cooking 
+anything it comes in contact with for more than a minute. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25236
+D1
+~
+~
+0 -1 25241
+D2
+~
+~
+0 -1 25234
+D3
+~
+~
+0 -1 25229
+S
+#25236
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above. 
+~
+1 0 1
+D1
+~
+~
+0 -1 25242
+D2
+~
+~
+0 -1 25235
+D3
+~
+~
+0 -1 25230
+S
+#25237
+Next to a Tent~
+Not Assigned~
+Sand, nothing but sand. The sun beating down, the heat from the sand 
+searing and oppressive. There looks to be no end in sight to this gods 
+forsaken sand. 
+~
+1 0 1
+D1
+~
+~
+0 -1 25243
+D3
+~
+~
+0 -1 25231
+S
+#25238
+Within a Tent~
+Not Assigned~
+The tent is patched together with various hides of animals.  There are a few sets
+of packs setup inside the tent.  A small campfire is in the middle of the tent.
+A blue rug is rolled out over the sand here.
+~
+1 8 0
+D1
+~
+tent flap~
+3 -1 25244
+D3
+~
+tent flap~
+3 -1 25232
+R M 0 25205 2 25238
+  R E 0 25206 1 5
+  R E 0 25202 1 16
+  R E 0 25205 1 8
+R D 0 25238 1 1
+R D 0 25238 3 1
+S
+#25239
+Next to a Tent~
+Not Assigned~
+Jackpot! More sand! Tiny rivlets of sand seem to slither and writhe in the 
+scorching sun. Heat rises in waves, leading to hallucinations and 
+delusional mindsets.
+~
+1 0 1
+D0
+~
+~
+0 -1 25240
+D1
+~
+~
+0 -1 25245
+D3
+~
+~
+0 -1 25233
+S
+#25240
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above.
+~
+1 0 1
+D0
+~
+~
+0 -1 25241
+D1
+~
+~
+0 -1 25246
+D2
+~
+~
+0 -1 25239
+D3
+~
+~
+0 -1 25234
+S
+#25241
+Within the Desert Sands~
+Not Assigned~
+Sparkling small particles litter the ground. Giving off a slight radiance 
+when the sun touches it. The smell grows stronger, the one of salvation if 
+it can be found. There, over that dune. It looks like, could it be? A 
+tree? Mirage, hallucination, or truth?
+~
+1 0 1
+D0
+~
+~
+0 -1 25242
+D1
+~
+~
+0 -1 25247
+D2
+~
+~
+0 -1 25240
+D3
+~
+~
+0 -1 25235
+S
+#25242
+Within the Desert Sands~
+Not Assigned~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? The smell is strong enough to literally taste.
+~
+1 0 1
+D1
+~
+~
+0 -1 25248
+D2
+~
+~
+0 -1 25241
+D3
+~
+~
+0 -1 25236
+S
+#25243
+Within the Desert Sands~
+Not Assigned~
+Flat terrain as far as an eye can see. A small well is half hidden here by 
+the shifting sands. The clouds flit by, occasionally blocking the sun 
+momentarily. The heat rolls off the sand in waves, the sun beating down 
+ceaselessly. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25244
+D3
+~
+~
+0 -1 25237
+S
+#25244
+Before a Tent~
+Not Assigned~
+The patched together hides makeup a tent to the west.  It provides some shade for
+the searing heat of the sun.  The sand burns from the heat it has accumulated.  The
+catus plant is scattered amongst the desert in small clusters.
+~
+1 0 1
+D0
+~
+~
+0 -1 25245
+D2
+~
+~
+0 -1 25243
+D3
+~
+tent flap~
+3 -1 25238
+S
+#25245
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand.
+~
+1 0 1
+D0
+~
+~
+0 -1 25246
+D2
+~
+~
+0 -1 25244
+D3
+~
+~
+0 -1 25239
+S
+#25246
+Within the Desert Sands~
+Not Assigned~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun literally baking the ground 
+beneath it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25247
+D2
+~
+~
+0 -1 25245
+D3
+~
+~
+0 -1 25240
+S
+#25247
+Within the Desert Sands~
+Not Assigned~
+Sparkling small particles litter the ground. Giving off a slight radiance 
+when the sun touches it. The smell grows stronger, the one of salvation if 
+it can be found. There, over that dune. It looks like, could it be? A 
+tree? Mirage, hallucination, or truth? One more step will tell the tale. 
+~
+1 0 1
+D0
+~
+~
+0 -1 25248
+D2
+~
+~
+0 -1 25246
+D3
+~
+~
+0 -1 25241
+S
+#25248
+Oasis~
+Not Assigned~
+Finally, some shade! The palm trees sway gently when the highest winds 
+buffet the area. A quiet hissing can be heard faintly, giving credence to 
+the rumors of a giant snake somewhere nearby.
+~
+1 0 1
+D2
+~
+~
+0 -1 25247
+D3
+~
+~
+0 -1 25242
+R M 0 25208 1 25248
+S
+#25250
+Within the Desert Sands~
+Not Assigned~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

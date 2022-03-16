@@ -1,0 +1,10131 @@
+#AREA        Paleon Housing~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+16448
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#54000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#55000
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#54000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#55000
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#54000
+Along a Pathway~
+~
+There are hooded lanterns posted at certain intervals to provide lighting 
+along the pathway. A small flower bed is along both sides of the pathway. 
+The pathway is made up of large slabs of stone. 
+~
+1 0 1
+D2
+~
+door~
+1 -1 55000
+D5
+~
+~
+0 -1 16007
+S
+#54001
+Kyrigan's House~
+Kyrigan~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54002
+Galt's House~
+Galt~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54003
+Roselia's House~
+Roselia~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54004
+Osaerok's House~
+Osaerok~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54005
+Koraesag's House~
+Koraesag~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54006
+Norrindio's House~
+Norrindio~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54007
+Numair's House~
+Numair~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54008
+Talon's House~
+Talon~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54009
+Kimel's House~
+Kimel~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54010
+Althea's House~
+Althea~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54011
+Saltus's House~
+Saltus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54012
+Weibble's House~
+Weibble~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54013
+Leonem's House~
+Leonem~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54014
+Kyndai's House~
+Kyndai~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54015
+Gilanthas's House~
+Gilanthas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54016
+Maerak's House~
+Maerak~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54017
+Weiryn's House~
+Weiryn~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54018
+Aleccia's House~
+Aleccia~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54019
+Not Assigned~
+Aleccia~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54020
+Weiryn's House~
+Weiryn~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54021
+Othinus's House~
+Othinus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54022
+Mendicus's House~
+Mendicus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54023
+Crux's House~
+Crux~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54024
+Gilanthas's House~
+Gilanthas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54025
+Zandavar's House~
+Zandavar~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54026
+Desmond's House~
+Desmond~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54027
+Jennock's House~
+Jennock~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54028
+Dagon's House~
+Dagon~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54029
+Kimel's House~
+Kimel~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54030
+Singar's House~
+Singar~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54031
+Audriana's House~
+Audriana~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54032
+Haine's House~
+Haine~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54033
+Amros's House~
+Amros~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54034
+Cantor's House~
+Cantor~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54035
+Haine's House~
+Haine~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54036
+Nwyfre's House~
+Nwyfre~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54037
+Joraga's House~
+Joraga~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54038
+Thorne's House~
+Thorne~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54039
+Kiernan's House~
+Kiernan~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54040
+Silvanus's House~
+Silvanus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54041
+Ilanthas's House~
+Ilanthas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54042
+Nyrian's House~
+Nyrian~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54043
+Shenzu's House~
+Shenzu~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54044
+Gremory's House~
+Gremory~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54045
+Arelaem's House~
+Arelaem~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54046
+Kirath's House~
+Kirath~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54047
+Ramsey's House~
+Ramsey~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54048
+Ilanthas's House~
+Ilanthas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54049
+Nebula's House~
+Nebula~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54050
+Shane's House~
+Shane~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54051
+Kalsin's House~
+Kalsin~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54052
+Raziel's House~
+Raziel~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54053
+Weiryn's House~
+Weiryn~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54054
+Nicodemus's House~
+Nicodemus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54055
+Numair's House~
+Numair~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54056
+Garrett's House~
+Garrett~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54057
+Abraxas's House~
+Abraxas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54058
+Oberon's House~
+Oberon~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54059
+Griff's House~
+Griff~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54060
+Not Assigned~
+Null~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54061
+Osaroz's House~
+Osaroz~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54062
+Adrian's House~
+Adrian~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54063
+Ilanthas's House~
+Ilanthas~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54064
+Brinnuk's House~
+Brinnuk~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54065
+Fang's House~
+Fang~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54066
+Margaret's House~
+Margaret~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54067
+Impulse's House~
+Impulse~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54068
+Tharra's House~
+Tharra~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54069
+Vaard's House~
+Vaard~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54070
+Verrana's House~
+Verrana~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54071
+Kuardrin's House~
+Kuardrin~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54072
+Krynne's House~
+Krynne~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54073
+Warrenn's House~
+Warrenn~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54074
+Esther's House~
+Esther~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54075
+Serren's House~
+Serren~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54076
+Dominic's House~
+Dominic~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54077
+Hanta's House~
+Hanta~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54078
+Phaedra's House~
+Phaedra~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54079
+Fanad's House~
+Fanad~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54080
+Lyrandel's House~
+Lyrandel~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54081
+Liragorn's House~
+Liragorn~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54082
+Haus's House~
+Haus~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54083
+Ralase's House~
+Ralase~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54084
+Cole's House~
+Cole~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54085
+Jayden's House~
+Jayden~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54086
+Ilainia's House~
+Ilainia~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54087
+Aven's House~
+Aven~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54088
+Norad's House~
+Norad~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54089
+Ulaxor's House~
+Ulaxor~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54090
+Gedd's House~
+Gedd~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54091
+Luxx's House~
+Luxx~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54092
+Rayvan's House~
+Rayvan~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54093
+Viktor's House~
+Viktor~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54094
+Cultro's House~
+Cultro~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54095
+Mordion's House~
+Mordion~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54096
+Kuardrin's House~
+Kuardrin~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54097
+Quinnd's House~
+Quinnd~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54098
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54099
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54100
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54101
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54102
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54103
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54104
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54105
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54106
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54107
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54108
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54109
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54110
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54111
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54112
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54113
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54114
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54115
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54116
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54117
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54118
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54119
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54120
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54121
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54122
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54123
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54124
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54125
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54126
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54127
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54128
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54129
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54130
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54131
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54132
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54133
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54134
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54135
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54136
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54137
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54138
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54139
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54140
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54141
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54142
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54143
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54144
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54145
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54146
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54147
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54148
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54149
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54150
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54151
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54152
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54153
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54154
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54155
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54156
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54157
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54158
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54159
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54160
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54161
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54162
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54163
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54164
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54165
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54166
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54167
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54168
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54169
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54170
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54171
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54172
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54173
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54174
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54175
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54176
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54177
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54178
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54179
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54180
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54181
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54182
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54183
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54184
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54185
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54186
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54187
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54188
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54189
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54190
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54191
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54192
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54193
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54194
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54195
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54196
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54197
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54198
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54199
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54200
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54201
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54202
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54203
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54204
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54205
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54206
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54207
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54208
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54209
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54210
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54211
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54212
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54213
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54214
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54215
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54216
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54217
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54218
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54219
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54220
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54221
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54222
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54223
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54224
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54225
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54226
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54227
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54228
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54229
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54230
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54231
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54232
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54233
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54234
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54235
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54236
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54237
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54238
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54239
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54240
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54241
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54242
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54243
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54244
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54245
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54246
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54247
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54248
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54249
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54250
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54251
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54252
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54253
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54254
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54255
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54256
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54257
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54258
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54259
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54260
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54261
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54262
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54263
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54264
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54265
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54266
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54267
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54268
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54269
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54270
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54271
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54272
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54273
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54274
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54275
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54276
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54277
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54278
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54279
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54280
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54281
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54282
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54283
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54284
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54285
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54286
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54287
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54288
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54289
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54290
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54291
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54292
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54293
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54294
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54295
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54296
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54297
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54298
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54299
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54300
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54301
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54302
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54303
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54304
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54305
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54306
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54307
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54308
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54309
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54310
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54311
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54312
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54313
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54314
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54315
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54316
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54317
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54318
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54319
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54320
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54321
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54322
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54323
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54324
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54325
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54326
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54327
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54328
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54329
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54330
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54331
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54332
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54333
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54334
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54335
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54336
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54337
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54338
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54339
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54340
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54341
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54342
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54343
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54344
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54345
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54346
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54347
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54348
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54349
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54350
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54351
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54352
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54353
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54354
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54355
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54356
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54357
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54358
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54359
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54360
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54361
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54362
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54363
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54364
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54365
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54366
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54367
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54368
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54369
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54370
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54371
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54372
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54373
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54374
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54375
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54376
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54377
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54378
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54379
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54380
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54381
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54382
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54383
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54384
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54385
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54386
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54387
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54388
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54389
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54390
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54391
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54392
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54393
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54394
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54395
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54396
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54397
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54398
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54399
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54400
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54401
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54402
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54403
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54404
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54405
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54406
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54407
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54408
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54409
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54410
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54411
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54412
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54413
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54414
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54415
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54416
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54417
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54418
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54419
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54420
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54421
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54422
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54423
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54424
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54425
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54426
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54427
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54428
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54429
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54430
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54431
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54432
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54433
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54434
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54435
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54436
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54437
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54438
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54439
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54440
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54441
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54442
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54443
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54444
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54445
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54446
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54447
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54448
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54449
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54450
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54451
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54452
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54453
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54454
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54455
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54456
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54457
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54458
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54459
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54460
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54461
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54462
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54463
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54464
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54465
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54466
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54467
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54468
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54469
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54470
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54471
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54472
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54473
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54474
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54475
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54476
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54477
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54478
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54479
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54480
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54481
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54482
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54483
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54484
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54485
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54486
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54487
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54488
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54489
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54490
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54491
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54492
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54493
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54494
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54495
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54496
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54497
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54498
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54499
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54500
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54501
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54502
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54503
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54504
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54505
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54506
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54507
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54508
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54509
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54510
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54511
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54512
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54513
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54514
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54515
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54516
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54517
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54518
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54519
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54520
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54521
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54522
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54523
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54524
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54525
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54526
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54527
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54528
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54529
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54530
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54531
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54532
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54533
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54534
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54535
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54536
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54537
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54538
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54539
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54540
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54541
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54542
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54543
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54544
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54545
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54546
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54547
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54548
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54549
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54550
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54551
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54552
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54553
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54554
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54555
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54556
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54557
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54558
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54559
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54560
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54561
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54562
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54563
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54564
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54565
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54566
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54567
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54568
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54569
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54570
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54571
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54572
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54573
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54574
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54575
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54576
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54577
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54578
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54579
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54580
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54581
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54582
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54583
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54584
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54585
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54586
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54587
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54588
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54589
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54590
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54591
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54592
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54593
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54594
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54595
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54596
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54597
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54598
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54599
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54600
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54601
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54602
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54603
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54604
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54605
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54606
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54607
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54608
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54609
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54610
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54611
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54612
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54613
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54614
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54615
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54616
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54617
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54618
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54619
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54620
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54621
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54622
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54623
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54624
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54625
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54626
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54627
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54628
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54629
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54630
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54631
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54632
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54633
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54634
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54635
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54636
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54637
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54638
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54639
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54640
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54641
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54642
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54643
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54644
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54645
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54646
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54647
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54648
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54649
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54650
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54651
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54652
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54653
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54654
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54655
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54656
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54657
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54658
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54659
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54660
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54661
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54662
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54663
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54664
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54665
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54666
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54667
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54668
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54669
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54670
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54671
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54672
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54673
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54674
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54675
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54676
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54677
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54678
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54679
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54680
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54681
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54682
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54683
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54684
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54685
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54686
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54687
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54688
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54689
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54690
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54691
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54692
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54693
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54694
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54695
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54696
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54697
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54698
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54699
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54700
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54701
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54702
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54703
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54704
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54705
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54706
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54707
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54708
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54709
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54710
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54711
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54712
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54713
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54714
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54715
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54716
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54717
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54718
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54719
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54720
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54721
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54722
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54723
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54724
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54725
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54726
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54727
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54728
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54729
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54730
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54731
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54732
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54733
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54734
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54735
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54736
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54737
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54738
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54739
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54740
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54741
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54742
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54743
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54744
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54745
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54746
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54747
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54748
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54749
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54750
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54751
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54752
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54753
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54754
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54755
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54756
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54757
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54758
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54759
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54760
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54761
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54762
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54763
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54764
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54765
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54766
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54767
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54768
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54769
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54770
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54771
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54772
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54773
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54774
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54775
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54776
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54777
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54778
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54779
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54780
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54781
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54782
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54783
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54784
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54785
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54786
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54787
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54788
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54789
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54790
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54791
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54792
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54793
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54794
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54795
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54796
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54797
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54798
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54799
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54800
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54801
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54802
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54803
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54804
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54805
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54806
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54807
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54808
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54809
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54810
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54811
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54812
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54813
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54814
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54815
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54816
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54817
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54818
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54819
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54820
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54821
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54822
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54823
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54824
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54825
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54826
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54827
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54828
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54829
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54830
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54831
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54832
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54833
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54834
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54835
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54836
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54837
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54838
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54839
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54840
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54841
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54842
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54843
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54844
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54845
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54846
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54847
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54848
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54849
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54850
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54851
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54852
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54853
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54854
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54855
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54856
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54857
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54858
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54859
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54860
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54861
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54862
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54863
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54864
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54865
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54866
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54867
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54868
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54869
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54870
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54871
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54872
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54873
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54874
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54875
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54876
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54877
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54878
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54879
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54880
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54881
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54882
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54883
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54884
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54885
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54886
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54887
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54888
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54889
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54890
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54891
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54892
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54893
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54894
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54895
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54896
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54897
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54898
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54899
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54900
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54901
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54902
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54903
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54904
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54905
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54906
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54907
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54908
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54909
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54910
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54911
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54912
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54913
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54914
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54915
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54916
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54917
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54918
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54919
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54920
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54921
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54922
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54923
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54924
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54925
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54926
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54927
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54928
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54929
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54930
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54931
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54932
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54933
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54934
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54935
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54936
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54937
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54938
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54939
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54940
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54941
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54942
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54943
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54944
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54945
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54946
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54947
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54948
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54949
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54950
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54951
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54952
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54953
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54954
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54955
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54956
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54957
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54958
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54959
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54960
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54961
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54962
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54963
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54964
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54965
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54966
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54967
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54968
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54969
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54970
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54971
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54972
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54973
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54974
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54975
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54976
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54977
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54978
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54979
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54980
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54981
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54982
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54983
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54984
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54985
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54986
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54987
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54988
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54989
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54990
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54991
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54992
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54993
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54994
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54995
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54996
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54997
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#54998
+Not Assigned~
+Not Assigned~
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 54000
+S
+#55000
+Not Assigned~
+Not Assigned~
+~
+1 4 1
+D0
+~
+~
+0 -1 54000
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

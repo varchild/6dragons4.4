@@ -1,0 +1,593 @@
+#VNUM 40184
+#OBJECT
+Vnum         15741
+Level        1
+Currtype     1
+Color        7
+Size   0
+End
+
+#OBJECT
+Vnum         10212
+Currtype     1
+Color        1
+Size   3
+Values       1000 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18627
+Level        1
+Currtype     4
+Color        5
+Size   0
+Values       0 18628 18631 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24875
+Currtype     1
+Size   0
+Values       25 23 10 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10220
+Level        30
+Currtype     1
+Color        8
+Size   3
+Values       40 172 47 25 0 30 0
+Spell 1      'sanctuary'
+Spell 2      'cure light'
+Spell 3      'bless'
+End
+
+#OBJECT
+Nest         1
+Vnum         24804
+Level        33
+Currtype     1
+Size   0
+Values       11 15 30 4 5 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24806
+Level        35
+Currtype     1
+Size   0
+Values       12 20 35 5 10 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24803
+Level        37
+Currtype     1
+Size   0
+Values       12 20 35 3 9 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         24801
+Level        36
+Currtype     3
+Size   0
+Values       12 20 35 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18310
+Level        31
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 31 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10006
+Level        1
+Currtype     1
+Color        14
+Size   3
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2779
+Level        3
+Currtype     4
+Color        9
+Size   0
+Values       10 2 3 4 47 3 -1
+Spell 4      'cure light'
+End
+
+#OBJECT
+Nest         1
+Vnum         16715
+Level        38
+Currtype     4
+Color        1
+Size   0
+Values       80 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         2
+Vnum         16701
+Level        30
+Currtype     1
+Size   0
+Values       30 30 15 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16238
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16285
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35533
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         35513
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       10 46 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         35533
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         35513
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       10 46 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         35533
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         35533
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   a dark blue leather bandolier~
+Vnum         15704
+Level        27
+Currtype     1
+Color        7
+Size   0
+Values       50 1 0 0 0 0 0
+End
+
+#OBJECT
+ShortDescr   a dark red large burlap sack~
+Vnum         18321
+Level        23
+Currtype     1
+Color        6
+Size   0
+Values       75 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Ashad head~
+ShortDescr   A decapitated head from the corpse of Ashad~
+Description  A decapitated head from the corpse of Ashad is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Ash Heavyhammer head~
+ShortDescr   A decapitated head from the corpse of Ash Heavyhammer~
+Description  A decapitated head from the corpse of Ash Heavyhammer is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Brash Heavyhammer head~
+ShortDescr   A decapitated head from the corpse of Brash Heavyhammer~
+Description  A decapitated head from the corpse of Brash Heavyhammer is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Rasak'argh head~
+ShortDescr   A decapitated head from the corpse of Rasak'argh~
+Description  A decapitated head from the corpse of Rasak'argh is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Crush Heavyhammer head~
+ShortDescr   A decapitated head from the corpse of Crush Heavyhammer~
+Description  A decapitated head from the corpse of Crush Heavyhammer is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Tsaeth head~
+ShortDescr   A decapitated head from the corpse of Tsaeth~
+Description  A decapitated head from the corpse of Tsaeth is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse a devotee priest head~
+ShortDescr   A decapitated head from the corpse of a devotee priest~
+Description  A decapitated head from the corpse of a devotee priest is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse An evil cleric head~
+ShortDescr   A decapitated head from the corpse of An evil cleric~
+Description  A decapitated head from the corpse of An evil cleric is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse the huge, green dragon head~
+ShortDescr   A decapitated head from the corpse of the huge, green dragon~
+Description  A decapitated head from the corpse of the huge, green dragon is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Gratch head~
+ShortDescr   A decapitated head from the corpse of Gratch~
+Description  A decapitated head from the corpse of Gratch is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Envy head~
+ShortDescr   A decapitated head from the corpse of Envy~
+Description  A decapitated head from the corpse of Envy is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Owner        Klorawn~
+Name         corpse Evil head~
+ShortDescr   A decapitated head from the corpse of Evil~
+Description  A decapitated head from the corpse of Evil is laying on the ground here.~
+Vnum         1135
+Currtype     4
+Color        1
+Size   0
+End
+
+#END

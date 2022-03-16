@@ -1,0 +1,1955 @@
+#AREA        School of Shadow~
+
+
+
+#VERSION     11
+#AUTHOR      Ivor~
+#DERIVATIVES ~
+#COLOR       8
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+60 75 60 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &BAs the mist disperses, nothing is as it was.~
+
+#FLAGS
+132
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 20000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#35601
+curiner priest shadowy~
+Curiner~
+A shadowy priest is standing here.
+~
+The priest stands just above six feet tall, and weighs around two 
+hundred pounds.  Wearing only a simple robe made of wool.  Eyes blue
+as the sky, and skin fairly pale.  
+~
+1
+Clanname none~
+0
+0
+67239939 375390336 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+105 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 70 0 0 0 0 0
+> speech_prog journey~
+if ispc($n)
+  if level($n) < 60
+    mppause 3
+    mpechoat $n &CCuriner says 'You are not ready for that path!'&D
+  else
+    if level($n) > 59
+      mppause 3
+      mpechoat $n &CCuriner says 'Very well, good luck on your adventure!'&D
+      mptransfer $n 35606
+    endif
+  endif
+endif
+~
+> greet_prog 100~
+if level($n) < 60
+  mpechoat $n &CCuriner says 'You have not adventured enough to journey into this school!'&D
+endif
+if quest(curiner) > 0
+  mpechoat $n &cType &WSAY JOURNEY &cto explore the school.&D
+else
+  mppause 3
+  mpechoat $n &CCuriner says 'If you wish to journey into the school.
+  mpechoat $n You need just say so!'&D
+  mpechoat $n &cType &WSAY JOURNEY &cto accept.&D
+endif
+if level($n) > 59
+  if quest(curiner) < 1
+    mppause 8
+    mpechoat $n &CCuriner says 'We have been overrun by Demons!  We need
+    mpechoat $n your help to try, and rid ourselves of there foul presence!'&D
+    mpechoat $n &cType &WSAY YES &cto accept.&D
+  endif
+endif
+if quest(curiner) == 3
+  mppause 3
+  if iscarrying($n) == 35606
+    mpechoat $n &CCuriner says 'Did you retrieve the token?'&D
+    mppause 3
+    mpechoat $n &CCuriner Says 'I see you HAVE defeated the ghoul! Wonderful
+    mpechoat $n work. Maybe now we can return to what we have been trying to do.'&D
+    mppause 8
+    mpechoat $n &CCuriner says 'You may have the token. Maybe it will help!'&D
+    mpquest $n curiner 4
+  endif
+  mpechoat $n &CCuriner says 'Are you having trouble finding the
+  mpechoat $n Ravaged Ghoul? If so I may be of assistance!'&D
+  mppause 3
+  mpechoat $n &cType &WSAY ASSISTANCE &cto accept.&D
+endif
+~
+> speech_prog yes~
+if level($n) > 59
+  if quest(curiner) < 1
+    mpechoat $n &CCuriner says 'To start please rid the school of the evil priestess.'&D
+    mpquest $n curiner 1
+    mptag $n story 1
+  endif
+endif
+~
+> speech_prog assistance~
+if level($n) > 59
+  if quest(curiner) == 3
+    mppause 3
+    mpechoat $n   &CCuriner says 'I placed that dangerous thing in A locked
+    mpechoat $n   &Cpit, and gave the keys to the door to my former apprentices.'&D
+    mppause 3
+    mpechoat $n   &CCuriner says 'Each of my former students will have one piece
+    mpechoat $n   &Cof the key. You will need both pieces in order to complete the
+    mpechoat $n   &Ckey.  Once you have the key you should look for an area with
+    mpechoat $n   &Cclaw marks upon the floor. As this ghoul resisted viciously.'&D
+  endif
+endif
+~
+> rand_prog 10~
+mpmload 35608
+mpforce lyri emote runs into the room in such a rush she almost trips.
+mppause 8
+mpforce lyri Say Master, it seems to be getting worse!
+mppause 8
+mpforce lyri say Lyri, what is getting worse?
+mppause 8
+mpforce lyri say Master, the demons seem to be gaining strength!
+mppause 8
+mpforce lyri say  By all that is holy. I hope we get some aid soon!
+mppause 8
+mpforce lyri say I hope so too master.. Ill run for more help!
+mppause 8
+mpforce lyri say I hope for our sake it doesn't come to late.
+mppause 8
+mpforce lyri emote &C Runs wildly out of the room.
+mppurge lyri
+~
+> act_prog p gives you a black dragon scale.~
+if quest(scale) == 1
+   mpjunk scale
+   mppause 3
+     mpechoat $n &C Curiner says 'Oh my.. Have you assisted in the defeat
+     mpechoat $n &C of the great black dragon within the school? I am quite
+     mpechoat $n &C impressed. He was imprisoned many years ago when he broke
+     mpechoat $n &C into our school. I believe it was the old school master
+     mpechoat $n  that imprisoned him.  Maybe... Maybe you can assist us farther...
+    mpquest $n scale 2
+   mppause 3
+     mpechoat $n &C Curiner looks at you very thoughtfully trying to decide upon something.
+   mppause 3
+     mpechoat $n   Curiner says '$n would you be interested in going even farther towards
+     mpechoat $n  &Cthe cleansing of our school? If you would be &wTYPE SAY CLEANSE &Cto accept
+endif
+if quest(scale) == 1
+  mpjunk scale
+  mppause 3
+  mpechoat $n &CCuriner says 'Oh my.. Have you assisted in the defeat
+  mpechoat $n &Cof the great black dragon within the school? I am quite
+  mpechoat $n &Cimpressed. He was imprisoned many years ago when he broke
+  mpechoat $n &Cinto our school. I believe it was the old school master
+  mpechoat $n &Cthat imprisoned him.  Maybe... Maybe you can assist us farther...'&D
+  mpquest $n scale 2
+  mppause 3
+  mpechoat $n &cCuriner looks at you very thoughtfully trying to decide upon something.&D
+  mppause 3
+  mpechoat $n &CCuriner says '$n would you be interested in going even farther towards
+  mpechoat $n &Cthe cleansing of our school? If you would be, &WTYPE SAY CLEANSE &cto accept'&D
+endif
+~
+> speech_prog cleanse~
+if quest(scale) == 2
+  mppause 3
+  mpechoat $n &CCuriner says 'Very well i am impressed from the feat you
+  mpechoat $n &Cperformed by being able to obtain this scale.  You must
+  mpechoat $n &Cunderstand the task I have to set you on is not one that 
+  mpechoat $n &Cwill be easily done.  Nor should you rush right into it.'&D
+  mppause 5
+  mpechoat $n &CCuriner says 'What you have seen in the school so far is just
+  mpechoat $n &Cthe tip of the iceberg I believe is the saying.'&D
+  mppause 3
+  mpechoat $n &cCuriner looks around the room with a glint in his eyes lost in memories.&D
+  mppause 3
+  mpechoat $n &CCuriner says 'Ahem I apologize for that.  It has been some time since
+  mpechoat $n &Cthe school was overrun you see. Even now we do not really understand
+  mpechoat $n &Cthe what has happened to bring these creatures into our school.'&D
+  mppause 3
+  mpechoat $n &CCuriner looks at you and says 'Would you my braver adventurer be willing
+  mpechoat $n &Cto risk life and limb to help our cause? If you would be in the end you
+  mpechoat $n &Cwould be paid well for your services to our school.'&D
+  mppause 3
+  mpechoat $n &cIf you would like to help further type &WSAY SCHOOL &cto accept.&D
+endif
+~
+> speech_prog school~
+if quest(scale) == 2
+  mppause 8
+  mpechoat $n &CCuriner says 'Ahh, I am thankful that you are brave
+  mpechoat $n &Cenough to accept this quest.  I will not life to you
+  mpechoat $n &Cthis adventure is full of danger, but i think in the end
+  mpechoat $n &Cyou will be happy with the reward!'&D
+  mppause 8
+  mpquest $n scale 3
+  mpechoat $n &CCuriner says 'You will be able to find the hidden door to
+  mpechoat $n &Cget to the where you need to be around the black fountain in
+  mpechoat $n &Cour school.  All you need to do is combine the key you used
+  mpechoat $n &Cto gain access to the ghoul with this scale.'&D
+  mppause 5
+  mpoload 35607
+  mptag $n mausoleum
+  give scale $n
+  mpechoat $n &CCuriner says 'Good luck $n, I know you will defeat whatever is
+  mpechoat $n &Ccausing this to happen to our school. Take care my friend!'&D
+endif
+~
+> speech_prog p i lost the key~
+if quest(scale) > 2
+  if iscarrying($n) == 35608
+    mpechoat $n &CCuriner says '$n you already have that key!'&D
+  else
+    mppause 4
+    mpechoat $n &CCuriner says 'Ahh, I see you still need to defeat
+    mpechoat $n &Cthe one within the catacombs. Well $n, my friend...
+    mppause 3
+    mpechoat $n &Cperhaps I may be of assistance.  I will give you
+    mpechoat $n &Cmy key so that you may be able to complete your mission!'&D
+    mpoload 35608
+    give shadow $n
+  endif
+endif
+~
+|
+#35602
+Ravaged Ghoul~
+Ravaged Ghoul~
+A figure with rotting skin is here
+~
+Having been dead for an unknown amount of time this ghoul has barely 
+any skin left upon its rotting torso.  It has only mostly rotted cloths
+which to say the least only barely cloths its rotted chest. 
+~
+1
+Clanname none~
+0
+0
+131107 306184320 -1000 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 97 0 0 0 257 3
+> greet_prog 100~
+if ispc($n)
+  mpechoat $n &CA Ravaged Ghoul says 'Welcome to my home. Time to die!'&D
+endif
+~
+> death_prog 100~
+if quest(curiner) == 3
+  mpecho &cYou have almost completed your quest!! Hurry back to Curiner!&D
+endif
+~
+|
+#35603
+hound demon canine~
+Demonic hound~
+A Canine with red skin wanders here
+~
+In a different life this creature may have been a dog.  Now with horns
+over two feet long. flames coming from its very mouth, and an evil aura
+that surrounds every bit of it. This canine is of a dangerous variety, and 
+is ready to devour anything in its path.
+~
+1
+Clanname none~
+0
+0
+33 33554432 0 C
+62 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 69 0 0 0 12323 3
+#35604
+satyr~
+Satyr~
+A humanoid with horns is here
+~
+This demon stands about 7 feet tall with horns almost half as long
+as it is tall. Having what looks like goat legs with the top half of
+a humanoid figure. The skin of this creature is red in places black
+in others.  The hoofs of this creature radiate a blast of fire every
+step it takes.
+~
+1
+Clanname none~
+0
+0
+33 33554432 0 C
+64 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 4147 3
+#35605
+bubbling ooze~
+bubbling ooze~
+A bubbling pile of ooze is here
+~
+A puddle of ooze, and debris there is not much to this foul creature 
+it simply exists to eat, and destroy everything in its path.  
+~
+1
+Clanname none~
+0
+0
+33 268435456 0 C
+61 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 2359296 3
+#35606
+Shrouded priestess~
+shrouded priestess~
+A shrouded priestess is here
+~
+This priestess stands 5 feet 8 inches tall. She weighs about 100 pounds
+and has the beautiful looks of an angel.  When you see her eyes, however
+you see deep pits of darkness, and despair. You can feel real evil, and a 
+dangerous power within this priestess.
+~
+1
+Clanname none~
+0
+0
+131075 274727040 -1000 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 51 9
+> greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mppause 3
+    mpechoat $n &CA shrouded priestess says 'Welcome, $n It is about time we got some recruits!'&D
+  else
+    mppause 3
+    mpechoat $n &CA shrouded priestess says '$n, I will kill you!'&D
+    mpkill $n
+  endif
+endif
+~
+> death_prog 100~
+if quest(curiner) == 1
+  mpquest $n Curiner 2
+endif
+~
+|
+#35607
+Shrouded priest~
+shrouded priest~
+A shrouded priest is here
+~
+Standing at just over 5 feet tall and weighing just under 100 pounds 
+this priest looks rather weakly.  When you see his eyes glowing a bright
+red you get a differnt feeling however. Looking into his eyes you feel
+an evil presence that has never been felt before.
+~
+1
+Clanname none~
+0
+0
+131075 73400448 -1000 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 51 9
+> greet_prog 100~
+if ispc($n)
+  if isevil($n)
+    mpechoat $n &CA shrouded priest says '$n, have you come to join our cause?'&D
+  else
+    mpechoat $n &CA shrouded priest says 'You will die by my hands $n.'&D
+    mpkill $n
+  endif
+endif
+~
+> death_prog 100~
+if quest(curiner) == 2
+  mpquest $n Curiner 3
+endif
+~
+|
+#35608
+Lyri~
+acolyte~
+A young Acolyte looks around nervously 
+~
+This priestess stands five feet tall, and weighs only eighty five
+pounds.  While it can be told that she is fairly attractive she seems
+to hide her face as much as can be done.  What little of her face that
+is seen looks to be well worry warn and almost frightened.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 69 0 0 0 0 2
+#35609
+lorox ancient black dragon ~
+Lorox~
+An ancient black dragon rests on a pile of treasure here.
+~
+This black dragon seems to be large then most other dragons with the
+same age.  It would seem that someone has been pouring magical power
+into this dragon for some time.  Many scares litter the over sized
+body of this dragon.
+~
+13
+Clanname none~
+0
+0
+131107 373293184 -1000 C
+99 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 8 0 0 1 1 0
+0 0 196621 0 0 0 33849411 524291
+> death_prog 100~
+mpecho &cAs the dragon flails around as it dies, a small piece of a
+mpecho &cscale is torn apart from its dying body, and falls to the ground.
+mpoload 35607
+~
+|
+#35610
+Duiran~
+Duiran the wise~
+Duiran the wise stands here
+~
+~
+1
+Clanname none~
+0
+0
+67239939 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(curiner) == 4
+  if quest(courbin) == 4
+    if quest(thieves) == 6
+      if quest(scale) == 4
+        if quest(mausoleum) < 1
+          mppause 2
+          mpechoat $n &CDuiran the wise says 'Ahh, $n I have heard about you from my friends.'&D
+          mppause 3
+          mpechoat $n &CDuiran the wise says 'Here soon I will have a special job for you!'&D
+          mpechoat $n &CDuiran the wise says '$n, The unholy Iufn has arised yet again!'&D
+          mppause 3
+          mpechoat $n &CDuiran the wise says 'We can use your assistance, However this
+          mpechoat $n &Cnext quest we are in need of your help with is not one for the
+          mpechoat $n &Cfaint of heart.  It will require a lot of bravery.  Will you help?'&D
+          mppause 2
+          mpechoat $n &cType &WSAY BRAVERY &cto accept.&D
+          mpquest $n mausoleum 1
+    endif
+   endif
+  endif
+ endif
+endif
+if quest(mausoleum) == 5
+  mppause 3
+  mpechoat $n &cType &WSAY ENTRANCE &cto enter the Mausoleum.&D
+endif
+~
+> speech_prog p bravery~
+if quest(mausoleum) == 1
+  mppause 3
+  mpechoat $n &cDuiran the wise says 'Ahh, I thank you my friend.  In order to get
+  mpechoat $n &cyou to the place that Iufn has hold up in for now.  You need to collect
+  mpechoat $n &csome special items.  When I have them all I will be able to create a 
+  mpechoat $n &ctransporter of types to get you to the Mausoleum.
+  mppause 10
+  mpechoat $n &cDuiran the wise says 'The first item we will need is a powerful object
+  mpechoat $n &cthat has the capabilities to harness, and focus the needed power.
+  mppause 10
+  mpechoat $n &cDuiran the wise says 'I believe the object that we need can be found within
+  mpechoat $n &cthe place called Regius fonds.  Give me the wand of wonders!.  This is Important.
+  mpquest $n mausoleum 2
+endif
+~
+> speech_prog p entrance~
+if quest(mausoleum) == 5
+  mppause 5
+  mpechoat $n &cDuiran the wise says 'Greetings, $n. Be safe.. and good luck!'
+  mpechoat $n &cDuiran the wise says '$n, you must bring your own way out of the mausoleum!'
+  mppause 3
+  mptransfer $n 35751
+endif
+~
+> act_prog p gives you Wand of wonders.~
+if quest(mausoleum) == 2
+  if ovnuminv(18018) == 1
+    mppause 3
+    mpechoat $n &c Duiran the wise smiles at you.
+    mpechoat $n &cDuiran the wise says 'Very good job, $n.
+    mppause 3
+    mpechoat $n &cDuiran the wise places the wand into a special pocket in his robes.
+    mpjunk wand
+    mppause 3
+    mpechoat $n &cDuiran the wise says 'I am impressed.  Now we need the second item!'
+    mppause 3
+    mpechoat $n &cDuiran the wise says 'We need an item that is associated with the vile
+    mpechoat $n &cLord Iufn himself.  Bring me his sword.  Bring me the Shadowblade!
+    mpquest $n mausoleum 3
+else 
+    give wand $n
+   endif
+endif
+~
+> act_prog p gives you the Shadowblade.~
+if quest(mausoleum) == 3
+  if ovnuminv(35656) == 1
+   mpjunk blade
+   mppause 3
+   mpechoat $n &cDuiran the wise says 'very good $n we are another step closer to 
+   mpechoat $n &cgaining access to the mausoleum.  We are in need of just one other item!'
+   mppause 3
+   mpechoat $n &cDuiran the wise places the Shadowblade in the same hidden pocket as the wand'
+   mppause 3
+   mpechoat $n &cDuiran the wise ponders quietly for a moment.
+   mppause 3
+   mpechoat $n &cDuiran the wise says 'Very well. It is time to get the last item that will be
+   mpechoat $n &crequired to create the transport into the Mausoleum. 
+   mppause 3 
+   mpechoat $n &cDuiran the wise says 'I will need a Diamond necklace to focus the magic through
+   mpechoat $n &cthe wand.  I am sure one as brave as you will be able to bring my this item!
+   mpquest $n mausoleum 4
+else
+   give blade $n
+  endif
+endif
+~
+> act_prog p gives you a diamond necklace.~
+if quest(mausoleum) == 4
+  if ovnuminv(35654) == 1
+   mpjunk diamond
+   mppause 3
+   mpechoat $n &cDuiran the wise says 'YES, $n It is time to prepare for the venture into the
+   mpechoat $n &cmausoleum.  I can now transport you anytime you need.  Just ask.  I hope
+   mpechoat $n &cthat you will be able to slay that miserable Iufn once and for all!'
+   mpquest $n mausoleum 5
+   mppause 3
+   mpechoat $n &cWhen you need to enter the Mausoleum just &w'TYPE SAY ENTRANCE'
+  endif
+endif
+~
+|
+#35650
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#35601
+Curiner~
+sacrificial table~
+A table covered in blood looms menacingly in the center of the room~
+~
+12 0 0
+2 0 1 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#35602
+key half eaten~
+A half eaten key~
+A half eaten key lays here~
+~
+54 524289 16385
+0 35603 35604 0 0 0 0
+1 476 47
+4
+0
+0
+0
+0
+0
+S 0 0
+#35603
+key half devoured~
+A half devoured key~
+A half devoured key lays here~
+~
+54 524289 16385
+35602 0 35604 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#35604
+rotten key~
+A rotten key~
+A half rotten key lies here~
+~
+54 524291 16385
+0 35607 35608 0 0 0 0
+1 1003 100
+4
+0
+0
+0
+0
+0
+S 0 0
+#35605
+simple white robe~
+A simple white robe~
+A robe made of wool lays here~
+~
+9 262656 9
+50 50 0 0 0 0 0
+1 134 13
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+12 50
+A
+18 5
+A
+26 2097152
+#35606
+ghoul token~
+A ghoul token~
+A small piece of metal rests here~
+~
+9 524289 16385
+50 50 0 0 0 0 0
+1 138 16
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+13 25
+A
+12 25
+A
+19 5
+A
+18 5
+#35607
+Black Dragon Scale~
+a black dragon scale~
+A scale from a black dragon rests here~
+~
+54 262145 1
+35604 0 35608 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mpquest $n scale 1
+~
+|
+#35608
+shadow key~
+Shadow key~
+A key made of pure shadow writhes here~
+~
+18 524288 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#35609
+blackened trumpet ~
+a blackened trumpet~
+An old blackened trumpet lies on the ground here~
+~
+68 524547 16385
+1 0 0 25 20 90 0
+1 1158 115
+4
+0
+0
+0
+0
+0
+S 0 0
+A
+13 100
+A
+12 100
+A
+19 8
+A
+18 8
+#35650
+long key~
+a long key~
+A long key has been left here.~
+~
+18 0 1
+0 0 0 0 0 100 0
+1 1256 125
+4
+1
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#35601
+Cross paths~
+~
+A stone building lays to the north of this forested area.  Northwest from
+here lays the town of Accura.  Trees grow here in large sizes.  At the
+base of the trees are smaller rose bushes blooming.  A wonderful smell
+rises up from the roses.
+~
+1 2097156 11
+D0
+~
+~
+0 -1 35650
+D7
+~
+~
+0 -1 35745
+D11
+~
+~
+0 -1 60792
+S
+#35602
+Foyer of the School~
+~
+This room is filled with a couch in the middle of the room sitting on top 
+of a beautiful rug. beside the couch sits a small in table with what looks 
+to be books strewn atop of it. The couch appears to be well worn perhaps 
+having seen many sitting on top of it awaiting a visit with someone. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35605
+D1
+~
+~
+1 -1 35604
+D2
+~
+~
+0 -1 35650
+D3
+~
+~
+1 -1 35603
+R D 0 35602 1 0
+R D 0 35602 3 0
+S
+#35603
+Priest's Chambers~
+~
+The walls of this room are adorned with pictures, and murals all
+around the four corners of the room. Sitting in the middle of of 
+the room is a rather large oak desk. The desk is piled to the brink
+of toppling over. There is also a rather small bed in the back corner
+of the room, which does not seem to have been slept in.
+~
+1 2097152 0
+D1
+~
+~
+1 -1 35602
+R M 0 35610 1 35603
+R D 0 35603 1 0
+> entry_prog 100~
+if istagged($n, mausoleum)
+  mppause 2
+else
+if quest(mausoleum) < 1
+  mppause 5 
+        mpechoat $n &CDuiran the wise says, 'I could use your help, but first I need to know
+        mpechoat $n &Cif your worthy.  Complete all jobs for Mayor Courbin, Help Curiner,
+        mpechoat $n &Cand find a task from a dragon in the school.
+ endif
+endif
+~
+|
+S
+#35604
+Sleeping Quarters~
+~
+&CMany cots litter the ground in all corners of this room. Seemingly 
+unslept in for a long time, not a single cot has been disturbed. At first 
+glance dozens over empty cots fill this room. Under each of the many 
+sleeping places a small rune can be seen of the likes of which have never 
+been seen before. 
+~
+1 2097152 0
+D3
+~
+~
+1 -1 35602
+R D 0 35604 3 0
+S
+#35605
+Audience Chambers~
+~
+Standing in the center of the room is the priest of the school. He
+seems to notice at least in part each of the new arrivals into this
+rather small room, However, his attention also seems to be partly else
+where. Once in a while a shadowy glow erupts in all directions from
+the Priest.
+~
+1 0 0
+D2
+~
+~
+0 -1 35602
+R M 0 35601 1 35605
+  R E 0 35605 1 5
+S
+#35606
+The Beginning~
+~
+&wA cloud of darkness fills this room making it difficult to see even a 
+few inches ahead. A low murmuring sound is heard. The direction from which 
+it originates it seems to be either under the ground, or perhaps to the 
+east.  Something appears out of place with the east wall.
+~
+1 2097156 0
+D0
+~
+~
+0 -1 35610
+D1
+~
+~
+8391687 35604 35641
+R D 0 35606 1 2
+> speech_prog leave~
+mppause 3
+     mpechoat $n &CA voice whispers 'Very well.'
+     mppause 3
+     mpechoat $n  &BYou Disappear into a black mist!&C
+     mptransfer $n 35601
+~
+> entry_prog 100~
+if ispc($n)
+     mppause 3
+     mpechoat $n &CA voice whispers 'If you wish to leave just say so
+     mppause 3
+     mpechoat $n &CType &wSay leave &CIf you so wish.
+endif
+~
+|
+S
+#35607
+Beginning~
+~
+A cloud of blackness fills this room making it difficult to see
+even a few inches ahead. A low murmuring sound is heard the direction
+from which it originates is undeterminable. There seems to be only one
+exit.
+~
+1 2097156 0
+S
+#35608
+Beginning~
+~
+A cloud of blackness fills this room making it difficult to see
+even a few inches ahead. A low murmuring sound is heard the direction
+from which it originates is undeterminable. There seems to be only one
+exit.
+~
+1 2097156 0
+S
+#35609
+Beginning~
+~
+A cloud of blackness fills this room making it difficult to see
+even a few inches ahead. A low murmuring sound is heard the direction
+from which it originates is undeterminable. There seems to be only one
+exit.
+~
+1 2097156 0
+S
+#35610
+Monster Carvings~
+~
+The wall of the school runs just to the right of this room. Small
+carvings are seen carved into the wall with a sharp object. The carvings
+depict various types of what seem to be monsters. There are dozens of such
+symbols in total covering the wall.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35616
+D2
+~
+~
+0 -1 35606
+D3
+~
+~
+0 -1 35611
+S
+#35611
+Sacrificial Carvings~
+~
+&CThe wall of the school runs along the southern side of this room. There 
+are carvings from the top to the bottom of the wall. These carvings depict 
+what looks like some kind of ritual. One of the carvings in the middle of 
+the wall looks like some kind of table with another carving of a person 
+laying on top. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35630
+D1
+~
+~
+0 -1 35610
+D3
+~
+~
+0 -1 35612
+S
+#35612
+Demon Carvings~
+~
+Carvings along this wall depict demons, humanoids attempting to 
+complete some kind of ritual. These carvings Cover the entire wall
+except for a small corner of the wall which is unlike the rest bare.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35631
+D1
+~
+~
+0 -1 35611
+D3
+~
+~
+0 -1 35613
+R M 0 35603 7 35612
+R M 0 35605 6 35612
+S
+#35613
+Control the Carvings~
+~
+&CMore carvings on this wall depict more types of demons. In these 
+carvings a being in the center of the wall seem to have a leash around the 
+figures on the edges of the walls as if controlling them in some way claw 
+marks, and bloodstains cover part of the floor in this room. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35634
+D1
+~
+~
+0 -1 35612
+D3
+~
+~
+0 -1 35614
+R M 0 35603 7 35613
+R M 0 35604 6 35613
+S
+#35614
+Void of Carvings~
+~
+&CThe wall on the southern side of this room seem to be strangely void of 
+any carvings. A mist is eerily hanging over head just below the ceiling. A 
+murmuring is heard almost coming from the mist. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35637
+D1
+~
+~
+0 -1 35613
+D3
+~
+~
+0 -1 35615
+S
+#35615
+Wayward Carvings~
+~
+Carvings are once again seen covering the entire surface of this wall.
+These carvings seem almost as if in a warning to any that would see them
+The carvings seem to be pointing in a way back down the wall to the 
+side.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35627
+D1
+~
+~
+0 -1 35614
+S
+#35616
+Carvings of Demons~
+~
+Carvings appear on this wall from the floor of the room up to the bottom
+of the ceiling. These carvings depict different types of demons. From one
+that resembles that of a dog to one that looks like a humanoid with horns.
+In the very center of these carvings is what looks like a humanoid holding
+a staff that is emanating black lightning bolts.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35617
+D2
+~
+~
+0 -1 35610
+D3
+~
+~
+0 -1 35630
+S
+#35617
+Governed Carvings~
+~
+Carvings litter the entire surface of this wall. From top to bottom
+there is no place on this part of the wall that is untouched by carvings.
+These carvings seem to depict more rituals that seem to be governed by some
+powerful humanoid.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35618
+D2
+~
+~
+0 -1 35616
+D3
+~
+~
+0 -1 35629
+R M 0 35606 1 35617
+  R E 0 35605 1 5
+  R G 0 35602 1
+R M 0 35604 6 35617
+S
+#35618
+Carvings of power~
+~
+Carvings upon this wall depict a monster of incredible power.  Seen in the carvings
+this monster is what looks like eating humanoids upon some kind of table. Claw marks
+can be seen barely upon the very ground. Leavings towards the north.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35619
+D2
+~
+~
+0 -1 35617
+D3
+~
+~
+0 -1 35628
+S
+#35619
+Markings of the claw~
+~
+More carvings cover not only the wall in this room, but the floor as
+well as the ceiling. There seems to be hundreds of them everywhere. in
+each one that can be see the same figure looms about them.  A presence can
+be felt in this room.  Claw marks from the south seem to enter and vanish.
+~
+1 2097152 0
+D2
+~
+~
+0 -1 35618
+D3
+~
+~
+0 -1 35620
+D5
+~
+~
+8391719 35604 35640
+R D 0 35619 5 2
+S
+#35620
+Littering of Bones~
+~
+Bones litter the ground of this room. Many of these bones are unknown 
+shapes, and sizes. Marks cover the floor wall, and ceiling as well some of 
+these marks are deep gashes into the stone itself. 
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35619
+D2
+~
+~
+0 -1 35628
+D3
+~
+~
+0 -1 35621
+S
+#35621
+Void of bodies~
+~
+This room seems to be eerily void of all the corpses and mist that has
+been seen in most of the rooms up till this point. Rather large claw
+and teeth marks however cover the floors, and walls.  
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35620
+D2
+~
+~
+0 -1 35633
+D3
+~
+~
+0 -1 35622
+S
+#35622
+Evil Abounds~
+~
+An evil presence fills the air in this room in all corners.  Rather
+large chunks of the stone, and masonry of this room are missing.  Blood
+stains cover the floor in various locations.
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35621
+D2
+~
+~
+0 -1 35636
+D3
+~
+~
+0 -1 35623
+R M 0 35607 1 35622
+  R G 0 35603 1
+  R E 0 35605 1 5
+S
+#35623
+Disperse of the Mist~
+~
+The dark mist seems to disperse in this room. The bones, and corpses  
+seem to not have been touched thus far.  More deep claw marks, and 
+blood stains are seen all around this room.  A murmur is once again heard.
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35622
+D2
+~
+~
+0 -1 35639
+D3
+~
+~
+0 -1 35624
+S
+#35624
+Black Fountain~
+~
+A large fountain fills most of this room. This once beautiful fountain has
+fallen is dismay filled with a black looking substance one would surely never
+drink from this putrefied fountain.
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35623
+D2
+~
+~
+0 -1 35625
+D5
+~
+~
+8391719 35608 35651
+R D 0 35624 5 2
+S
+#35625
+Floating presence~
+~
+A presence is felt floating all about within a mist that seems to
+emanate from all directions. A faint murmuring can be heard that 
+seems to be coming from overheard. The ceiling however is made of
+stone. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35624
+D1
+~
+~
+0 -1 35639
+D2
+~
+~
+0 -1 35626
+S
+#35626
+Sacrificial Room~
+~
+An evil presence is felt thick within the walls floor, and ceiling a table
+sits upon the ground here covered in blood. Bones are strewn about here in 
+all directions.  A quick guess marks this room as a sacrificial chambers of 
+some kind.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35625
+D1
+~
+~
+0 -1 35638
+D2
+~
+~
+0 -1 35627
+R M 0 35603 7 35626
+R O 0 35601 1 35626
+S
+#35627
+Pile of Bones~
+~
+A pile of bones sits in the middle of this room in what looks like might
+have been a defense posture upon the ground almost as if this poor victim
+was begging for its life, or perhaps its death! In any case its quite evident
+that it did not work.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35626
+D1
+~
+~
+0 -1 35637
+D2
+~
+~
+0 -1 35615
+R M 0 35603 7 35627
+S
+#35628
+Horrendous Stentch~
+~
+A stench of horrendous power emanates from the corpses that litter the entire
+floor of this area.  Many of the corpses appear to have been dead for awhile
+where as other corpses seem to be fairly fresh.  An evil presence is noticed 
+that seems to come from all directions.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35620
+D1
+~
+~
+0 -1 35618
+D2
+~
+~
+0 -1 35629
+D3
+~
+~
+0 -1 35633
+S
+#35629
+Pile of bodies~
+~
+In the middle of the room bodies are situated in a rather large pile. As
+if awaiting something that would feed of them. At the corners of the room 
+there are many bones most of which seem to have rather deep, and long teeth
+marks within them.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35628
+D1
+~
+~
+0 -1 35617
+D2
+~
+~
+0 -1 35630
+D3
+~
+~
+0 -1 35632
+S
+#35630
+Circle of Sacrifices ~
+~
+A wave of fear is felt within this room. Strange carvings are upon the 
+ground in a circle. Several bodies are situated around the circle their
+feet pointing into the middle of this strange carving.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35629
+D1
+~
+~
+0 -1 35616
+D2
+~
+~
+0 -1 35611
+D3
+~
+~
+0 -1 35631
+R M 0 35603 7 35630
+R M 0 35605 6 35630
+S
+#35631
+Darkness Abounds ~
+~
+A mist of darkness floats just above the ground concealing all that is
+beneath it.  Parts of a few bones can barely be seen jutting out above 
+the black mist.  A dull glow can also barely be seen just below the darkness.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35632
+D1
+~
+~
+0 -1 35630
+D2
+~
+~
+0 -1 35612
+D3
+~
+~
+0 -1 35634
+R M 0 35604 6 35631
+R M 0 35605 6 35631
+R M 0 35604 6 35631
+R M 0 35605 6 35631
+S
+#35632
+Darkness covers~
+~
+The mist of darkness Covers all corners of this room.  A few bodies can
+be seen just above the mist.  A few pieces of each of these corpses have
+been what looks like removed.  On one body the look of fear is still in place.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35633
+D1
+~
+~
+0 -1 35629
+D2
+~
+~
+0 -1 35631
+D3
+~
+~
+0 -1 35635
+S
+#35633
+Bodies, and Bones~
+~
+Bodies, and bones litter the whole of this room. The almost ankle deep 
+carnage can not go unknown by anyone.  There does seem to be foot 
+impressions of some type within the corpses themselves as if someone
+walked right over them.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35621
+D1
+~
+~
+0 -1 35628
+D2
+~
+~
+0 -1 35632
+D3
+~
+~
+0 -1 35636
+S
+#35634
+Bloodstains, and claws~
+~
+Bloodstains, and claw marks lead the way in from the room north along with
+much damage to the masonry of this room.  It would appear that a large fight
+from the northern room lead into this room almost destroying it.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35635
+D1
+~
+~
+0 -1 35631
+D2
+~
+~
+0 -1 35613
+D3
+~
+~
+0 -1 35637
+R M 0 35604 6 35634
+S
+#35635
+Bloodstains and Claws~
+~
+Claw marks, and bloodstains lead the way into this room.  Bodies, and bones
+once again litter the ground in all directions.  From the look of the floor
+and wall it would appear that there was once a rather large battle here.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35636
+D1
+~
+~
+0 -1 35632
+D2
+~
+~
+0 -1 35634
+D3
+~
+~
+0 -1 35638
+R M 0 35605 6 35635
+R M 0 35603 7 35635
+S
+#35636
+Murmuring abounds ~
+~
+A low murmuring can be heard in this room.  Bloodstains, and claw marks 
+cover the floor, and even the ceiling.  Bones, and bodies little the ground 
+just below the blood stains. These appear to have been here awhile.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35622
+D1
+~
+~
+0 -1 35633
+D2
+~
+~
+0 -1 35635
+D3
+~
+~
+0 -1 35639
+S
+#35637
+Mist About~
+~
+A dark mist hovers just above the floor in this room. Under the mist bodies, 
+and bones seem to be disappearing almost as if being devoured by some unseen
+force.  Rather large claw marks, and more bloodstains can be seen.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35638
+D1
+~
+~
+0 -1 35634
+D2
+~
+~
+0 -1 35614
+D3
+~
+~
+0 -1 35627
+R M 0 35603 7 35637
+S
+#35638
+A dark presence~
+~
+The Dark mist covers the ground in this room just barely off it.  As
+before the mist seems to be devouring the bones, and corpses.  A presence
+can be felt within the mist as if someone alive is there.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35639
+D1
+~
+~
+0 -1 35635
+D2
+~
+~
+0 -1 35637
+D3
+~
+~
+0 -1 35626
+R M 0 35604 6 35638
+S
+#35639
+A Strange presence ~
+~
+An Evil presence is felt within the mist that hovers just above the 
+ground eating the corpses, and bones that litter the ground.  A murmuring
+can be heard rather easily coming from the mist.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35623
+D1
+~
+~
+0 -1 35636
+D2
+~
+~
+0 -1 35638
+D3
+~
+~
+0 -1 35625
+R M 0 35605 6 35639
+S
+#35640
+Into the pit~
+~
+Bones litter the room in all corners.  Just below the entrance into this
+must filled room sits a fresh corpse almost as a meal for some kind of
+creature. The light in this room are little and far between.  An evil
+presence is felt all around.
+~
+1 2097152 0
+D4
+~
+~
+8389671 35604 35619
+R M 0 35602 1 35640
+  R G 0 35606 1
+R D 0 35640 4 2
+S
+#35641
+The hidden chambers~
+~
+This room appears to be have been designed to be ornate. All four of
+its walls are covered with many different types of trinkets, and other
+objects that look to be of some kind of spiritual kind.  This room also
+has what looks to be a sacrificial table in the middle of the room.
+~
+1 2097152 0
+D3
+~
+~
+8389671 35604 35606
+D5
+~
+~
+0 -1 35642
+R D 0 35641 3 2
+S
+#35642
+Within the Hidden Chamber~
+~
+&CThis room, just as the last, is very heavily decorated with many 
+different types of decorations. Most of which are not recognized from 
+anything seen before. A murmuring can be heard coming from the east. 
+~
+1 2097152 0
+D1
+~
+~
+8391715 -1 35643
+D4
+~
+~
+0 -1 35641
+R D 0 35642 1 1
+S
+#35643
+Behind the Hidden Door~
+~
+&CA large hallway stretches out in front of you. Torches line the wall on 
+both sides at predetermined distances. The torches are burning rather 
+brightly as if someone has just lit them. The murmuring is still heard. 
+~
+1 2097152 0
+D2
+~
+~
+0 -1 35644
+D3
+~
+~
+8391715 -1 35642
+R D 0 35643 3 1
+S
+#35644
+The Hallway~
+~
+&CThe walls on either side slowly change from smooth, well worked granite, 
+to rough, less worked, stone. The hallway continues onwards towards what 
+looks to be some kind of door at the end of the hallway. 
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35643
+D2
+~
+~
+0 -1 35645
+S
+#35645
+End of the hallway~
+~
+A door lies at the end of the hallway.  This door appears to be larger 
+then any other door seen up till this point.  In the middle of the door
+is a rather large rune.  The rune reads any that dare to open this door
+will face the wrath of evil of the likes of which has never been seen.
+~
+1 2097152 0
+D0
+~
+~
+0 -1 35644
+D2
+~
+~
+8389671 35604 35646
+R D 0 35645 2 2
+S
+#35646
+Blackened Lair~
+~
+The walls of this room appear to be covered with some sort of black
+substance.  When examined closely it would appear the walls themselves
+have not been touched by anything except this substance in a long time.
+The floor of this room is also covered with it as well.  In this substance
+rather large nearing gigantic claw marks are seen moving away to the west.
+~
+1 2097152 0
+D0
+~
+~
+8389671 35604 35645
+D3
+~
+~
+0 -1 35647
+R D 0 35646 0 2
+S
+#35647
+Blackened Death~
+~
+This room is covered with the same substance as the previous room except
+it appears to have more of it.  Corpses lie in all directions over this
+room.  Most are in various stages of decaying some of them are nothing  
+more then bones holding broken staves, and swords.  One unlucky adventurer
+is standing with his back against the wall a scream still etched upon his 
+dead face.
+~
+1 2097152 0
+D1
+~
+~
+0 -1 35646
+D3
+~
+door~
+8389671 35650 35600
+D5
+~
+~
+7 -1 35648
+R M 0 35609 1 35647
+  R G 0 35609 1
+  R G 0 35650 1
+R D 0 35647 3 2
+R D 0 35647 5 2
+> act_prog p gets a black dragon scale~
+if quest(scale) == < 1
+     mpquest $n scale 1
+mppause 3
+mpechoat $n You get the feeling you should go see curiner about the scale!
+endif
+~
+|
+S
+#35648
+The Dragons horde~
+~
+&CThis room appears to be covered everywhere with gold, jewels, and many 
+other valuables. As each item is closely examined, it becomes very 
+apparent that these items, however valuable the enchantments and various 
+other spells that were once laid upon them, have long since died out from 
+the deadly mists of the dragon. Even the gold, and other coins, are 
+useless as they have been melted together. 
+~
+1 2097152 0
+D4
+~
+~
+7 -1 35647
+R D 0 35648 4 2
+S
+#35649
+Ivor's Office~
+~
+This is a rather large room with paintings of various shapes, and sizes
+upon all four walls,  However in the middle of the back wall just behind
+his rather large desk hangs what one would presume to be a very special
+painting as it has a special glow designed to make it visible even in the
+darkest of times.  This painting has upon the very bottom words that reads
+as follows 'A lovely painting of my wonderful wife Fya'
+~
+1 2097156 0
+D5
+~
+~
+2048 -1 35650
+D10
+~
+wade~
+526336 -1 35650
+S
+#35650
+Entrance to the school~
+~
+A stone buildings resides just to the north. The rather large entrance
+looms just ahead with the doors standing wide open inviting all those
+brave enough to enter, and find out what is within. A low chanting sound 
+can be heard from within the structure.
+~
+1 2097156 1
+D0
+~
+~
+0 -1 35602
+D2
+~
+~
+0 -1 35601
+D4
+~
+~
+2048 -1 35649
+D10
+~
+brook~
+526336 -1 35649
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+ 35605    0  0  0         100   1         0 23    ; bubbling ooze
+0
+
+
+#SPECIALS
+M  35604 spec_cast_undead
+M  35606 spec_cast_mage
+M  35607 spec_cast_mage
+M  35609 spec_breath_acid
+S
+
+
+#$

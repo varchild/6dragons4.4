@@ -1,0 +1,5761 @@
+#AREA        Dakar City~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       2
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 100 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA horn sounds to call the changing of the guard.~
+
+#FLAGS
+49664
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250011 0 999999490 999999539 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#11200
+yochlol priestess healer Sktael~
+Priestess Sktael~
+A yochlol priestess is performing her duties here.
+~
+A molten blob of wax wearing black robes with glaring red eyes looks at you.  ~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if quest(dakar) == 3
+  mppause 2
+  mpechoat $n &CPriestess Sktael, 'What Sergeant Durgas is showing mercy?  Excellent
+  mpechoat $n &Cjob.  Had this not been a hoax to test you for citizenship, we would
+  mpechoat $n &Chave executed Sergeant Durgas.  The fool can play a role when his life
+  mpechoat $n &Cdepends on it.  You have passed the citizenship test.  
+  mppause 20
+  mpcity $n 'Dakar City'
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CPriestess Sktael says, 'Excellent another Dakar Citizen!
+  mpechoat $n &CThere are some things you should know about being a citizen...
+  mpechoat $n &CFirst off ALL citizens have the responsibility to defend their city
+  mpechoat $n &Cduring sieges.  There are great rewards for defending your city.  The
+  mpechoat $n &Cfirst thing you should do is head outside the north gate of Dakar.
+  mpechoat $n &Clocate the enemies catapults, ballista, ram, and platforms.  SABOTAGE
+  mpechoat $n &Cthem.  This will weaken the enemies siege attempt!'
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &Chint&c: Type &WHELP SABOTAGE&c and &WHELP SIEGE&c to learn more.
+  mppause 8
+  mpechoat $n &CPriestess Sktael says, 'That said, it is important to LAYSIEGE on the
+  mpechoat $n &Cenemies cities.  It is known to us that every city has a sewer system.
+  mpechoat $n &CIf you find the secret entrance to the city you can sneak into the
+  mpechoat $n &Cafter you laysiege and sabotage their defenses.'
+  mppause 10
+  mpat 4 look
+  mppause 20
+  mpechoat $n &Chint&c: Type &WHELP LAYSIEGE&c to learn more.
+  mpat 4 look
+  mppause 10
+  mpat 4 look
+  mppause 20
+  mpquest $n dakar 7
+endif
+if quest(dakarsalamanders) == 11
+  mpechoat $n &CPriestess Sktael says, ' Hail, and well met!'&D
+  mppause 2
+  mpechoat $n &CPriestess Sktael says, ' Thanks for doing that for me, and here, for your troubles.'&D
+  mpmset self bronze 100
+  give 100 bronze $n
+  mpquest $n dakarsalamanders 12
+endif
+if istagged($n, heal) 
+  break
+else
+  c 'cure light' $n
+  mptag timer 10 $n heal
+  mppause 20
+  c 'cure light' $n
+endif
+~
+> speech_prog yes~
+if quest(dakarsalamanders) < 1
+  mppause 2
+  mpechoat $n &CPriestess Sktael says, 'Oh good, well, you see...'&D
+  mppause 3
+  sigh
+  mppause 10
+  mpechoat $n &CPriestess Sktael says, ' There are some red spotted salamanders in the Kirwood Swamp&D
+  mpechoat $n &Cto the north of the city, and they annoy me.  For no other reason than they just do,&D
+  mpechoat $n &Cplease go kill ten of them and report back to me. Yeah, it's pointless, but you're&D
+  mpechoat $n &Cgetting paid so don't complain.'&D
+  mppause 10
+  mpechoat $n &cPriestess Sktail waves at you to go away.&D
+  mppause 1
+  mpquest $n dakarsalamanders 1
+endif
+~
+|
+#11201
+horse~
+a riding horse~
+A riding horse is standing here.
+~
+The horse appears to be slightly suffering from lack of nutrition, but
+is a sturdy beast for riding.
+~
+1
+Clanname none~
+0
+0
+262401 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11202
+orc animal trainer gyakas petshop~
+Gyakas, the animal trainer~
+A thickly muscled orc animal trainer is standing here.
+~
+The orc has a green sheen to his skin complexion.  He wears leather pants
+with high boots and no shirt.
+~
+11
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if level($n) >= 80
+  if quest(jellyfish) < 1
+    if quest(sandlizards) > 2
+      mpechoat $n &CGyakas says, 'Oh you must be $n.'&D
+      mppause 2
+      mpechoat $n &cGyakas looks you up and down.&D
+      mppause 2
+      mpechoat $n &CGyakas says, 'I suppose you'll do.  I figured Annaliea would send someone more...oh well never mind, if you wanna hear my task just say yes.'&D
+      mpechoat $n &cType &WSAY YES&c to accept this task.&D
+    endif
+  endif
+endif
+if quest(jellyfish) == 2
+  mpechoat $n &CGyakas says, 'Good enough I guess...here.'&D
+  mpwithdraw 1000 gold
+  give 1000 gold $n
+  mpquest $n jellyfish 3
+  mppause 2
+  mpechoat $n &CGyakas says, 'Oh yea, that lady from Paleon sent message, she'd like to see you again, Marlana.'&D
+endif
+~
+> speech_prog p yes~
+if level($n) >= 80
+  if quest(sandlizards) == 3
+    if quest(jellyfish) < 1
+      mppause 2
+      mpecohat $n &CGyakas says, 'Lemme think, yes I know what I'll have you do.'&D
+      chuckle
+      mppause 4
+      mpechoat $n &CGyakas says, 'Ok, same place as you've been going, just kill ten jelly fish and report back to me ok? Sounds simple enough eh, go for it.'&D
+      mpquest $n jellyfish 1
+    endif
+  endif
+endif
+~
+|
+#11203
+lesser Imp Zarakai~
+Lesser Imp Zarakai~
+A hideously shaped Imp is flying about here.
+~
+&ONo more than two feet tall, this small, winged demon hovers here, his 
+barbed tail whipping back and forward menacingly. Despite his small size, 
+he seems to exude an aura of pure malevolence. Wearing a feral grin, he 
+darts back and forward, his small wings flapping furiously.&d 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11204
+Dralak dark elf warlock magical~
+Warlock Dralak~
+A dark elf warlock is displaying his wares here.
+~
+The dark elf has a black robe on over the top of some elven chain mail.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11205
+ogre weaponsmith weapons weapon Daktar~
+Daktar, the weaponsmith~
+An ogre weaponsmith is displaying his wares here.
+~
+The massive ogre is wearing tanned trousers with no shirt on.  A massive
+war hammer hangs from his belt.
+~
+2
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11206
+goblin blacksmith repairs repair Takarz~
+Takarz, the blacksmith~
+A goblin blacksmith is repairing armor here.
+~
+The goblin has grayish skin, and long black hair.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11207
+orc armorsmith armorer Rautal~
+Armorsmith Rautal~
+A orc armor smith is displaying his wares here.
+~
+The orc has on black leather to protect him while working on the forge.
+~
+11
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11208
+drow archery dealer~
+an archery dealer~
+A drow archery dealer is displaying his wares here.
+~
+The drow has on forestry colored clothing, and a long knife on his hip.
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11209
+goblin banker bank grindatck~
+Grindatck, the banker~
+A goblin banker is counting money here.
+~
+The short and stout goblin is wearing a lavish gold and red robe.
+~
+13
+Clanname none~
+0
+0
+131075&262144 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11210
+orc supplies supply trader~
+An Orc Supply Trader~
+An orc supply trader is displaying his wares here.
+~
+The orc is massive in size and has loose fitting leather clothing.
+~
+11
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11211
+goblin pawn dealer warz~
+pawn dealer Warz~
+A goblin pawn shop dealer awaits your business here.
+~
+The goblin has a crafty look about him.  He is wearing a blue robe, and
+has several crates of goods behind him.
+~
+13
+Clanname none~
+0
+0
+67239943 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 3
+mpmset self gold 5000
+mpmset self silver 5000
+mpmset self copper 5000
+mpmset self bronze 5000
+if quest(warz) == 2
+mpechoat $n &CPawn Dealer Warz says, 'Did you kill the frogman shaman?  Give me the corpse if so.'&D
+endif
+if quest(warz) == 4
+mpechoat $n &CPawn Dealer Warz says, 'Did you kill the ogre guard? Give me the corpse if so.'&D
+smile $n
+endif
+if quest(warz) == 6
+mpechoat $n &CPawn Dealer Warz says, 'Did you kill the dwarven miner?  Give me the corpse if so.'&D
+endif
+if quest(warz) == 8
+mpechoat $n &CPawn Dealer Warz says, 'Did you kill Lord Naker? Give me the corpse if so.'&D
+endif
+if quest(warz) == 9
+mpechoat $n &CPawn Dealer Warz says, 'Here to Barter?  I am open for business.'&D
+endif
+if quest(warz) == 0
+mpechoat $n &CPawn Dealer Warz says, 'Here to Barter?  I can't barter today, I have some debtors that have to dealt with unless 
+mpechoat $n &Cyou want to deal with them for me.  I'd reward you for your time.'
+mpechoat $n &cType &WSAY REWARD&c if you're interested.&D
+endif
+~
+> speech_prog reward~
+if quest(warz) == 0
+mppause 3
+cackle
+mppause 2
+mpechoat $n &CPawn Dealer Warz says, 'Very well the first one that needs to be dealt with the frogman shaman.  He is located
+mpechoat $n &Cin Kirwood Forest and has not paid me my money.  Kill him and bring his corpse back to me!'
+mpquest $n warz 1
+endif
+~
+> act_prog p gives you the corpse of a frogman shaman.~
+if quest(warz) == 2
+  mpechoat $n &CPawn Dealer Warz says, 'That's one down.  Here take this as a reward.'
+  mpoload 11223
+  get roots
+  give roots $n
+  mpquest $n warz 3
+endif
+~
+> act_prog p gives you the corpse of a ogre guard.~
+if quest(warz) == 4
+  mpechoat $n &CPawn Dealer Warz says, 'That's two down.  Here take this as a reward.'
+  mpoload 11221
+  get wand
+  give wand $n
+mpquest $n warz 5
+endif
+~
+> act_prog p gives you the corpse of a dwarven miner.~
+if quest(warz) == 6
+  mpechoat $n &CPawn Dealer Warz says, 'That's three down.  Here take this as a reward.'
+  mpoload 11226
+  get war
+  give war $n
+mpquest $n warz 7
+endif
+~
+> act_prog p gives you the corpse of Lord Naker.~
+if quest(warz) == 8
+  mpechoat $n &CPawn Dealer Warz says, 'That's the last one.  Here take this as a reward.'
+  mpoload 11224
+  get potion
+  give potion $n
+mpquest $n warz 9
+endif
+~
+|
+#11212
+Blademaster teacher blade master Jardal~
+Blademaster Jardal~
+A muscular drow in elven chain mail is standing here.
+~
+The drow moves with grace of a cat, and has steel in his eyes.
+~
+13
+Clanname none~
+0
+0
+131075&512 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(dakar) == 1
+  mptrans $n 11333
+  mpat $n mpforce $n look
+  mpat $n mpechoat $n &CBlade Master Jardal says, 'The enemy is weak! Do not ever show
+  mpat $n mpechoat $n &Cthem mercy.  Kill the elf that our Throng has beaten half to death.' &D
+  mppause 10
+  mpat $n mpechoat $n &cBlade Master Jardal pulls a lever opening the cage, and a half
+  mpat $n mpechoat $n &cbloodied elf crawls into the holding area.&D
+  mpat $n mpmload 11238
+endif
+if quest(militia) == 4
+  mppause 4
+  laugh $n
+  mppause 8
+  mpechoat $n &CBlademaster Jardal says, 'Sergeant Durgas must not like you at all,&D
+  mpechoat $n &Cthe pit is usually for more experienced soldiers.  However, it is&D
+  mpechoat $n &Cmy pleasure to watch!'&D
+  mppause 12
+  mpechoat $n &cBlademaster Jardal reaches up and pulls a weighted chain.&D
+  mppause 6
+  mpechoat $n &cThe floor under you suddenly falls away!&D
+  mpechoat $n &cOuch that hurt!&D
+  mpdamage $n 1
+  mptrans $n 11296
+  mpat $n mpforce $n look
+  mppause 6
+  mpat 11296 mpechoat $n &CBlademaster Jardal shouts, 'Release the challenger!'&D
+  mppause 6
+  mpat $n mpquest $n militia 5
+  mpat $n mpgenmob $n
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 11296 mpechoat $n &cType &WSAY RECALL&c to exit the pit.&D
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 11296 mpechoat $n &cType &WSAY RECALL&c to exit the pit.&D
+else
+  mppause 4
+  mpechoat $n &CBlademaster Jardal says, 'The Master bids I train his soldiers well.  Do not fail him, or me!'&D
+endif
+if level($n) >= 20
+  if quest(foxden1) < 1
+    mpechoat $n &CBlademaster Jardal says, 'Hello $n, I've got a few jobs that need done, if you're interested.'&D
+    mpechoat $n &cType &WSAY YES&c to accept.&D
+  endif
+endif
+if level($n) >= 25
+  if quest(foxden1) == 3
+    if quest(foxden2) < 1
+      mpechoat $n &CBlademaster Jardal says, 'Hello, if you want to take on the next job in Fox Den I have, just &WSAY YES&C.'&D
+    endif
+  endif
+endif
+if level($n) >= 30
+  if quest(foxden2) == 3
+    if quest(foxden3) < 1
+      mpechoat $n &CBlademaster Jardal says, 'Hello, if you want to take on the next job in Fox Den I have, just &WSAY YES&c.'&D
+    endif
+  endif
+endif
+if level($n) >= 35
+  if quest(foxden3) == 3
+    if quest(foxden4) < 1
+      mpechoat $n &CBlademaster Jardal says, 'Hello, if you want to take on the next job in Fox Den I have, just &WSAY YES&c.'&D
+    endif
+  endif
+endif
+if quest(foxden1) == 2
+  mpechoat $n &CBlademaster Jardal says, 'Hail! I see you've done well $n, well here you go, and thanks for helping.'&D
+  mpmset self gold 200
+  give 200 gold $n
+  mpquest $n foxden1 3
+  mppause 2
+  mpechoat $n &CBlademaster Jardal says, 'Now come back when you get a little stronger, and I'll give you another job.'&D
+endif
+if quest(foxden2) == 2
+  mpechoat $n &CBlademaster Jardal says, 'Very good $n, very good indeed. Well here is your reward for your help.'&D
+  mpmset self gold 300
+  give 300 gold $n
+  mpquest $n foxden2 3
+  mppause 2
+  mpechoat $n &CBlademaster Jardal says, 'Now come back when you get a little stronger, and I'll give you another job.'&D
+endif
+if quest(foxden3) == 2
+  mpechoat $n &CBlademaster Jardal says, 'Very good $n, very good indeed. Well here is your reward for your help.'&D
+  mpmset self gold 400
+  give 400 gold $n
+  mpquest $n foxden3 3
+  mppause 2
+  mpechoat $n &CBlademaster Jardal says, 'Now come back when you get a little stronger, and I'll give you another job.'&D
+endif
+if quest(foxden4) == 2
+  mpechoat $n &CBlademaster Jardal says, 'Very good $n, very good indeed. Well here is your reward for your help.'&D
+  mpmset self gold 500
+  give 500 gold $n
+  mpquest $n foxden4 3
+  mppause 2
+  mpechoat $n &CBlademaster Jardal says, 'Now come back when you get a little stronger, and I'll give you my last task.'&D
+endif
+if level($n) >= 40
+  if quest(foxden4) == 3
+    if quest(lanoir) < 1
+      mpechoat $n &CBlademaster Jardal says, 'Hello, if you want to take on the last job in Fox Den I have, just &WSAY YES&C.'&D
+    endif
+  endif
+endif
+if quest(lanoir) == 2
+  mpechoat $n &CBlademaster Jardal says, 'Very good $n, here is your reward, good job!'&D
+  mpmset self gold 1000
+  give 1000 gold $n
+  mpquest $n lanoir 3
+  mppause 2
+  mpechoat $n &CBlademaster Jardal says, 'That's all I have for you now.'&D
+endif
+~
+> speech_prog yes~
+if level($n) >= 20
+  if quest(foxden1) < 1
+    mppause 1
+    mpechoat $n &CBlademaster Jardal says, 'Very well then! Well here's the deal, there is a place called fox den north in the mountains of the wilderness populated with lots of, well, fox clan religious fanatics.'&D
+    mppause 3
+    grin
+    mpechoat $n &CBlademaster Jardal says, 'I wanna see what you can do, so go kill ten redfox clergyman and report back to me so I can make sure you're good enough.'&D
+    mpquest $n foxden1 1
+  endif
+endif
+if level($n) >= 25
+  if quest(foxden1) == 3
+    if quest(foxden2) < 1
+      mppause 1
+      mpechoat $n &CBlademaster Jardal says, 'Ok then, well lets move onto harder prey shall we?'&D
+      snicker
+      mppause 2
+      mpechoat $n &CBlademaster Jardal says, 'Now, kill ten redfox guards for me, and report back to me.'&D
+      mpquest $n foxden2 1
+    endif
+  endif
+endif
+if level($n) >= 30
+  if quest(foxden2) == 3
+    if quest(foxden3) < 1
+      mppause 1
+      mpechoat $n &CBlademaster Jardal says, 'OK! Looks like you're about ready to get a real hunt going.'&D
+      snicker
+      mppause 2
+      mpechoat $n &CBlademaster Jardal says, 'Now, kill ten watchfoxes for me, and report back to me.'&D
+      mpquest $n foxden3 1
+    endif
+  endif
+endif
+if level($n) >= 35
+  if quest(foxden3) == 3
+    if quest(foxden4) < 1
+      mppause 1
+      mpechoat $n &CBlademaster Jardal says, 'OK! Your almost ready to take on some really big game, do this one and I know you're ready!'&D
+      snicker
+      mppause 2
+      mpechoat $n &CBlademaster Jardal says, 'Now, kill ten assassin foxes for me, and report back to me.'&D
+      mpquest $n foxden4 1
+    endif
+  endif
+endif
+if level($n) >= 40
+  if quest(foxden4) == 3
+    if quest(lanoir) < 1
+      mppause 1
+      mpechoat $n &CBlademaster Jardal says, 'OK! This is what you've been gunning for this whole time, the fox king Lanoir. In the caves there is a place called "Moonless Hall". Look for the door and now that you've proven yourself, I'll make it open, just get there and wait, be careful, it could open or close at anytime, but you have more then one chance.'&D
+      snicker
+      mppause 4
+      mpechoat $n &CBlademaster Jardal says, 'Now, kill the Fox King, Lanoir and report back to me!'&D
+      mpquest $n lanoir 1
+    endif
+  endif
+endif
+~
+|
+#11213
+Korlok barkeeper tavern~
+Barkeeper Korlok~
+A fat bellied goblin barkeeper is standing here.
+~
+The fat bellied goblin is wearing a grease covered apron.  The goblin 
+has no hair on his head, but thick hair covers his green ears.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(militia) == 1
+or quest(militia) == 2
+  mppause 1
+  mpmload 11217 
+  mppause 3
+  mpechoat $n &cYou hear 'militia' whispered, and a sudden silence falls over the tavern.&D
+  mppause 10
+  mpechoat $n &CTavern Keeper Korlok says, 'Please do not break anything... If it's
+  mpechoat $n &CNaete you want, he's right there!'&D
+  mppause 10
+  mppause 2
+  mpquest $n militia 2
+  if mobinroom(11217) > 0 
+    mpechoat $n &cNaete screams at you while drawing his dagger!&D
+    mpforce naete mpkill $n
+  endif
+else
+  mppause 3
+  mpechoat $n &CTavern Keeper Korlok says, 'Welcome to the Tavern of the Dead Goblin.'&D
+endif
+~
+|
+#11214
+Shaman Ulthas~
+Shaman Ulthas~
+An orc shaman dressed in dark black robes stands here.
+~
+The shaman has a foreboding look about him.  An overwhelming sense of
+power seems to radiate from the orc wrapped in black robes.
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11215
+wild dog~
+a wild dog~
+A wild dog is standing here.
+~
+The wild dog has it's hair standing on end, as it growls at you menacingly.
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+2 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 65576 0 0 0 0 0
+#11216
+Sergeant Durgas black tower orc militia~
+Sergeant Durgas~
+An orc militia sergeant stands here.
+~
+&ONearly a giant in his own right, this gargantuan orc peers down at you 
+over two sharpened tusks, his eyes red and beady. Watching over the 
+barracks, he is adorned with the standard soldier's uniform for Dakar 
+City, and wears his Sergeant insignia proudly. &d 
+~
+11
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+20 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p wakes and stands up.~
+mppause 6
+mpechoat $n &cAn Orc Sergeant of Militia is kicking you and others to wake up.
+mppause 8
+mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Listiin upp, trooops!  
+mpechoat $n &CThis tis whaats it bee.  Youse now city Militia.  Youse doo tasks tooo 
+mpechoat $n &Cproove worrth.'
+mppause 20
+mpechoat $n &cType &WSAY TASKS&c to find out what is the first task.
+~
+> speech_prog tasks~
+if quest(militia) > 2
+  mppause 2
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'I taakes youse&D
+  mpechoat $n &Cearrs ifs youse doo noot lissten firsst time!'&D
+else
+  mppause 4
+  mpquest $n militia 1
+  mppause 10
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Tis a traaitor in&D
+  mpechoat $n &Cthee Deed Goblin Taveeern.  Gooo Kill Naete noow!!'&D
+  mppause 3
+  mpechoat $n &cThough his speech is poor you make out that the sergeant wants you to&D
+  mpechoat $n &chead to &WTAVERN OF DEAD GOBLINS&c find a fellow named &WNAETE&c and&D
+  mpechoat $n &WKILL NAETE&c.&D
+endif
+~
+> all_greet_prog 100~
+mppause 5
+if quest(dakar) == 2
+  mpechoat $n &cAs you walk in you see Sergeant Durgas showing mercy to a young solider.
+  mppause 8
+  mpechoat $n &cSergeant Durgas abruptly starts cussing out the soldier, and glares at
+  mpechoat $n &cyou when you walk in.
+  mppause 15
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Yoouse, noot see me
+  mpechoat $n &Cgive mercy yoouse here foor citizenship?
+  mpechoat $n &Chint:&c Type &WSAY MERCY&c or &WSAY CITIZENSHIP&c.
+endif
+if quest(dakar) == 5
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Yoouse proove self!'
+  mpcity $n 'dakar city'
+  mppause 10
+  mpechoat $n &CSergeant Durgas says, 'Excellent another Dakar Citizen!
+  mpechoat $n &CThere are some things you should know about being a citizen...
+  mpechoat $n &CFirst off ALL citizens have the responsibility to defend their city
+  mpechoat $n &Cduring sieges.  There are great rewards for defending your city.  The
+  mpechoat $n &Cfirst thing you should do is head outside the north gate of Dakar.
+  mpechoat $n &Clocate the enemies catapults, ballista, ram, and platforms.  SABOTAGE
+  mpechoat $n &Cthem.  This will weaken the enemies siege attempt!'
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &Chint&c: Type &WHELP SABOTAGE&c and &WHELP SIEGE&c to learn more.
+  mppause 8
+  mpechoat $n &CSergeant Durgas says, 'That said, it is important to LAYSIEGE on the
+  mpechoat $n &Cenemies cities.  It is known to us that every city has a sewer system.
+  mpechoat $n &CIf you find the secret entrance to the city you can sneak into the
+  mpechoat $n &Cafter you laysiege and sabotage their defenses.'
+  mppause 10
+  mpat 4 look
+  mppause 20
+  mpquest $n dakar 7
+endif
+if quest(militia) == 2
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Tanzean'al's Armees
+  mpechoat $n &Creewaards thoose whooss servve.  Youse shaall hass tis warr paate.'&D
+  mppause 1
+  mpoload 11226 1
+  get paint
+  give paint $n
+  mppause 10
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Yousse reddy foor
+  mpechoat $n &Cseconnd taask?'&D
+  mppause 10
+  mpechoat $n &cType &WSAY SECOND &cfor next task.&D
+  mpquest $n militia 3
+else
+  if quest(militia) == 5
+    mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'I seees youse done
+    mpechoat $n &Cwhaats Iiise asssks.  Takes thiis rring.'&D
+    mpoload 11244
+    give filthy $n
+    mpoload 11244
+    give filthy $n
+    mpechoat $n &cType &WSAY THIRD&c for the next task.&D
+  endif
+endif
+~
+> speech_prog mercy~
+mppause 5
+if quest(dakar) == 2
+    mpechoat $n &CSergeant Durgas drawls, 'Yoouse not reeport me to Yoouchlol.'
+    mpquest $n dakar 3
+endif
+~
+> speech_prog citizenship~
+mppause 5
+if quest(dakar) == 2
+    mpechoat $n &CSergeant Durgas drawls, 'struggles as he says, 'Yoouse diisgust me
+    mpechoat $n &Ca Dakar Citizen wiill reeport those shoowing mercy.  Youse hass one
+    mpechoat $n &Cmoore chance or wee kills you!'
+    mpquest $n dakar 4
+    mppause 5
+    mpechoat $n &cSergeant Durgas drawls, 'Fiinds a seecret Entrance into Paleon City.'
+    mppause 8
+endif
+~
+> speech_prog second~
+if quest(militia) < 3
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Youse noot reedy yet.'&D
+else
+  if quest(militia) == 3
+    mppause 4
+    mpquest $n militia 4
+    mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Finees Blaademaaster Jardal&D
+    mpechoat $n &Ctells him youse needs speeecial traening in thee Pittt!!'&D
+  endif
+endif
+~
+> speech_prog third~
+if quest(militia) == 5
+  mppause 5
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Tooday youse musst&D
+  mpechoat $n &Cfiind aaan foollow Vaskar thee Drow.  Hees daangeroos and caautios man.'&D
+  mppause 20
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Fiinds hiis hiddeout aan&D
+  mpechoat $n &Creeports baack heere.'&D
+  mppause 2
+  mpquest $n militia 6
+endif
+~
+> speech_prog 'VASKAR SOUTHERN GORATH SECRET LEVER'~
+if quest(militia) == 8
+  mppause 2
+  mpquest $n militia 9
+  mppause 3
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue, 'Tanzean'al's Armees&D
+  mpechoat $n &Creewaards thoose whooss servve.  Youse shaall hass tis Militia Maask.'&D
+  mpoload 11227 2
+  get mask
+  mppause 2
+  give mask $n
+  mpechoat $n &CSergeant Durgas drawls in broken common tongue,'There tiis noothinng ellse&D
+  mpechoat $n &Cheere foor youse.'&D
+endif
+~
+|
+#11217
+Traitor Naete goblin~
+Traitor Naete~
+A stoutly built goblin wearing black trousers is here
+~
+&wJust over four feet tall, this goblin glances frantically to and fro. 
+His eyes seem to bulge outwards from their sockets, and it seems likely 
+they will fall out completely due to his shaking. His pointer finger is 
+missing off of his left hand; a badly scarred stump evidence of the poor 
+job done in caring for the wound.&d 
+~
+13
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11218
+drow Vaskar~
+Drow Vaskar~
+A black cloaked drow is standing here.
+~
+&wStanding near to a head shorter than the average human, the drow before 
+you has backed himself into the corner of the room, his cloak wrapped 
+tightly about his slender frame. Covered head to toe in black garb, his 
+ebony skin seems to almost mould into the fabric that he has wrapped 
+himself in. Over the top of the cloak, his face is just barely visible. 
+Red eyes and long white hair, tied carefully into a ponytail, stand out in 
+stark contrast to the rest of his dark being. A pair of throwing knives 
+rests on his belt, situated next to a black, adamantite rapier.&d 
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 160&3 -536870656
+> act_prog p gives you a parchment of plans.~
+if quest(changeofheart) == 4 )
+  mpechoat $n &CVaskar says, 'Very well I am convinced that you are sincere.
+  mpquest $n changeofheart 5
+  mpechoat $n &CVaskar says, 'Which city do you wish to forsake Dakar for?'
+  mpechoat $n &cType &WSAY PALEON&c or &WSAY FORBIDDEN&c.
+  mpat 4 drop plans
+endif
+~
+> speech_prog paleon~
+if quest(changeofheart) == 5 
+  mppause 5
+  mpechoat $n &CVaskar says, 'Very well may you find peace if it exists for
+  mpechoat $n &Cone like you.'
+  mphtown $n Paleon City
+endif
+~
+> speech_prog forbidden~
+if quest(changeofheart) == 5 
+  mppause 5
+  mpechoat $n &CVaskar says, 'Very well may you find peace if it exists for
+  mpechoat $n &Cone like you.'
+  mphtown $n Forbidden City
+endif
+~
+> all_greet_prog 100~
+mppause 4
+if quest(militia) != 6
+mpechoat $n &cVaskar looks up from his desk, and draws two swords.
+mppause 5
+endif
+if quest(changeofheart) == 2 
+  mpechoat $n &CVaskar says, 'Well that is a start, but it's not unlike
+  mpechoat $n &CSergeant Durgas to sacrifice fifty men to get a spy in place.
+  mpechoat $n &CYour next task will truly show your commitment.  I need you
+  mpechoat $n &Cto go into the black tower.  In the Master Bedroom of the
+  mpechoat $n &CFifth Floor there should be plans of raiding the Alliance.
+  mpechoat $n &CSteal the plans and return here.'
+  mpquest $n changeofheart 3
+endif
+if quest(changeofheart) < 1 
+if quest(militia) != 6
+  mpechoat $n &CVaskar says, 'The fact that you found me in this abandoned
+  mpechoat $n &Cwarehouse means, you are either here to try to kill me, or
+  mpechoat $n &Cyou have a change of heart, and want to my connections to
+  mpechoat $n &Chelp you go over to the other side.'
+  mpechoat $n &cType either &WSAY KILL&c or &WSAY CHANGE&c.
+endif
+endif
+~
+> speech_prog kill~
+mppause 5
+mpechoat $n &CVaskar says, 'I'm not an easy kill that is why I have lasted
+mpechoat $n &Cso long.  Die!
+~
+> speech_prog change~
+mppause 5
+mpechoat $n &CVaskar says, 'Well many spies have died pretending they want
+mpechoat $n &Cto change.  We have developed a system of weeding them out.
+mpechoat $n &CThe first task to ensure your not a spy, is for you to kill
+mpechoat $n &Cfifty goblins from the Merchant Discovery area.  Do that and
+mpechoat $n &Ccome back to see me.'
+mpquest $n changeofheart 1
+~
+|
+#11219
+scholar demoz tactician~
+Scholar Demoz, the Tactician~
+Scholar Demoz, an extraordinary tactician, stands here wearing all black clothes. 
+~
+&wAbout waist high to most, this goblin leans against his spear before the mass of maps. A wicked grin evident upon his features, he drums
+on the spear with one hand, the other rubbing his pointed chin. Sunken, red eyes dart from sketch to sketch as he quietly mumbles to 
+himself.&d
+~
+13
+Clanname none~
+0
+0
+1179651 6815912 -1000 C
+76 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+9 18 0 0 91377 1 12
+0 0 0 0 0 0 67109488&3 33560587
+> speech_prog learn~
+mpechoat $n &CDemoz says, 'Oh My, Well there are several things I could teach you...'&D
+mppause 3
+hrm
+mppause 2
+mpechoat $n &CDemoz says, 'Well, I do know how to speak, 'elven', 'dwarven', 'ogrian', 'orcish', 'trollese', 'goblic', and 'centaurian'.'&D
+mppause 6
+mpechoat $n &CDemoz says, 'Just use '&Wlanguage learn <language>&C' to learn how to speak any of these.'&D
+mppause 3
+mpechoat $n &CDemoz says, 'Is there anything else, you would like me to teach you?'&D
+~
+|
+#11220
+Undertaker HaKast~
+Undertaker HaKast~
+A foreboding creature stands here.
+~
+&zFlickering in and out of visibility, this ghostly stands shade here, 
+arms dropped to either side and staring away into nothingness. Behind him, 
+a glyph is etched into the ground, and the inescapable smell of decay 
+seeps from within. A dark, enveloping robe encompasses him. This, coupled 
+with his already insubstantial nature, could easily give one the 
+impression that the Reaper stands before them.&d 
+~
+11
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &CUndertaker Hakast says, 'If youse neeeds a corpse retrieved I can helps.'&D
+mppause 10
+if level($n) < 10 
+  mpechoat $n &CUndertaker Hakast says, 'Give me 10 copper coins and I'll get your corpse.'&D
+endif
+if level($n) > 9
+  if level ($n) < 21
+    mpechoat $n &CUndertaker Hakast says, 'Give me 25 bronze coins and I'll get your corpse.'&D
+  endif
+endif
+if level($n) > 20
+  if level ($n) < 31
+    mpechoat $n &CUndertaker Hakast says, 'Give me 5 gold coins and I'll get your corpse.'&D
+  endif
+endif
+if level($n) > 30
+  mpechoat $n &CUndertaker Hakast says, 'Give me 10 gold coins and I'll get your corpse.'&D
+endif
+~
+> act_prog p gives you 10 copper coins.~
+if level($n) < 10
+  mpbodybag $n
+  drop all
+  mpclearbodies
+  mpat 4 drop 10 copper coins
+else
+  mpechoat $n &CUndertaker Hakast says, 'That is not the price I told you.'&D
+endif
+~
+> act_prog p gives you 10 gold coins.~
+if level($n) > 30
+  mpbodybag $n
+  drop all
+  mpclearbodies
+  mpat 4 drop 10 gold coins
+else
+  mpechoat $n &CUndertaker Hakast says, 'That is not the price I told you.'&D
+endif
+~
+> act_prog p gives you 5 gold coins.~
+if level($n) > 20
+  if level($n) < 31
+    mpbodybag $n
+    drop all
+    mpclearbodies
+    mpat 4 drop 5 gold coins
+  else
+    say That is not the price I told you.
+  endif
+endif
+~
+> act_prog p gives you 25 bronze coins.~
+if level($n) > 9
+  if level($n) < 21
+    mpbodybag $n
+    drop all
+    mpclearbodies
+    mpat 4 drop 25 bronze coins
+  else
+    mpechoat $n &CUndertaker Hakast says, 'That is not the price I told you.'&D
+  endif
+endif
+~
+|
+#11221
+drow craftsman resizer Paetael~
+Craftsman Paetael~
+A drow craftsman is standing here.
+~
+The massive ogre is wearing tanned trousers with no shirt on.  A massive
+war hammer hangs from his belt.
+~
+13
+Clanname none~
+0
+0
+131075&1024 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mppause 6
+mpechoat $n &CPaetael says, 'I can resize equipment if the price is right.'&D
+~
+|
+#11222
+goblin guild master Vecnia~
+Guild Master Vecnia~
+A short and stout goblin guild master stands here.
+~
+&wCovered head to toe with soot, the goblin before you could almost be 
+mistaken for a malformed drow, at first glance. Closer inspection reveals 
+his true heritage, through his bulbous nose, and his scrunched, pointed 
+facial structure. Even for one of his kind, he is short; barely topping 
+four feet tall. Despite his stature, however, he is powerfully built from 
+years at the forge.&d 
+~
+13
+Clanname none~
+0
+0
+67239939 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(trade) == 3
+  mppause 6
+  mpechoat $n &CGuild Master Vecnia snarls, 'Ahh yes, you did pay the fee.'&D
+  mppause 8
+  mpquest $n trade 4
+  mpechoat $n &CGuild Master Vecnia snarls, 'Now you will need equipment, I do happen to sell it.'&D
+  mppause 10
+  mpechoat $n &CGuild Master Vecnia snarls, 'Also, if you're a blacksmith or jeweler, you need to mine 
+  mpechoat $n ore in the wilderness, there should be some ore sites near any mountains out there. Bakers 
+  mpechoat $n and carpenters can gather ingredients many places in wilderness where things grow.  Tanners 
+  mpechoat $n must hunt their prey in the wild, and return to tan.'&D
+else
+  if quest(trade) > 3
+    mppause 6
+    nod $n
+  else
+    if quest(trade) == 1
+      mppause 6
+      mpechoat $n &CGuild Master Vecnia snarls, 'I cannot help you until you pay the City Manager 10 gold.'&D
+    else
+      mppause 6
+      mpechoat $n &CGuild Master Vecnia snarls, 'What business do you have with Trade Skills Denizens!'&D
+      mppause 20
+      mpechoat $n &CGuild Master Vecnia snarls, 'Are you here to learn a craft?'&D
+      mpechoat $n &cType &WSAY YES&c or go &WNORTH&c.&D
+    endif
+  endif
+endif
+~
+> speech_prog yes~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well which profession are you interested in?'
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'We have Blacksmith, Baker, Carpenter, Jeweler and Tanner'
+mpechoat $n &cType SAY <&WPROFESSION&c> that you would like to learn.
+~
+> speech_prog blacksmith~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well, the first thing you need to do is pay for your apprentice card.'
+mpquest $n trade 1
+mppause 8
+mpechoat $n &CGuild Master Vecnia snarls, 'Find the City Manager, and pay him 10 gold.'
+~
+> speech_prog baker~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well, the first thing you need to do is pay for your apprentice card.'
+mpquest $n trade 1
+mppause 8
+mpechoat $n &CGuild Master Vecnia snarls, 'Find the City Manager, and pay him 10 gold.'
+~
+> speech_prog jeweler~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well, the first thing you need to do is pay for your apprentice card.'
+mpquest $n trade 1
+mppause 8
+mpechoat $n &CGuild Master Vecnia snarls, 'Find the City Manager, and pay him 10 gold.'
+~
+> speech_prog carpenter~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well, the first thing you need to do is pay for your apprenticeship card.'
+mpquest $n trade 1
+mppause 8
+mpechoat $n &CGuild Master Vecnia snarls, 'Find the City Manager, and pay him 10 gold.'
+~
+> speech_prog tanner~
+mppause 6
+mpechoat $n &CGuild Master Vecnia snarls, 'Very well, the first thing you need to do is pay for your apprentice 
+card.'
+mpquest $n trade 1
+mppause 8
+mpechoat $n &CGuild Master Vecnia snarls, 'Find the City Manager, and pay him 10 gold.'
+~
+|
+#11223
+dark elf drow city manager Taerva~
+City Manager Taerva~
+A devious looking dark elf city manager stands here.
+~
+&wTall for one of his kind, this drow stands as high as the average man. 
+White hair flows from his scalp down to his shoulders, untied but well 
+kept. His clothing is all black, from vest to boots, and his muscular 
+frame is clearly visible. A spear is kept within easy reach, should the 
+need arise, but he looks as though he is more than capable of solving most 
+problems without it.&d 
+~
+13
+Clanname none~
+0
+0
+131075 4194432&2097152 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 268435760 524291
+> all_greet_prog 100~
+mppause 6
+if htown($n) == Dakar City
+mpechoat $n &CCity Manager Taerva says 'Are you here to apply for &WCITIZENSHIP&C or a &WTRADESKILL&C?'
+endif
+if quest(trade) > 2
+mppause 4
+mpechoat $n &WCity Manager Taerva tells you, 'I could rip up your trade card and allow you try a different trade for 100 gold.'
+endif
+~
+> speech_prog citizenship~
+mppause 3
+if htown($n) == Dakar City
+  mpechoat $n &CCity Manager Taerva says, 'What can you do for our city?
+  mpechoat $n &CMy Lord Tanzean'al only accepts the strong, and loyal.
+  mpechoat $n &CYou will have to prove you are both.  Are you ready?'
+else
+  mpechoat $n &CCity Manager Taerva says, 'I have heard of your kind becoming
+  mpechoat $n &Ccitizens but this isn't the place we do that.'
+endif
+~
+> speech_prog tradeskill~
+mppause 3
+mpechoat $n &CCity Manager Taerva says, 'It costs 10 gold to apply for a trade.'
+~
+> speech_prog yes~
+mppause 5
+if htown($n) == Dakar City
+mpechoat $n &CCity Manager Taerva says, 'The first task is to see 
+mpechoat $n &CBlade Master Jardal.'
+mpquest $n dakar 1
+endif
+~
+> speech_prog blacksmith~
+mppause 6
+if quest(trade) == 2
+  mpquest $n trade 3
+  mptrade $n blacksmith
+  mppause 6
+  mpechoat $n &CTaerva says, 'Return to the Tradeskill Denizens now!'&D
+else
+  mpechoat $n &CTaerva says, 'You idiot you missed the tradeskill information at the Denizens!'&D
+endif
+~
+> speech_prog jeweler~
+if quest(trade) == 2
+  mpquest $n trade 3
+  mptrade $n jeweler
+  mppause 6
+  mpechoat $n &CTaerva says, 'Return to the Tradeskill Denizens.'&D
+else
+  mpechoat $n &CTaerva says, 'You idiot you missed the tradeskill information at the Denizens!'&D
+endif
+~
+> speech_prog carpenter~
+if quest(trade) == 2
+  mpquest $n trade 3
+  mptrade $n carpenter
+  mppause 6
+  mpechoat $n &CTaerva says, 'Return to the Tradeskill Denizens.'&D
+else
+  mpechoat $n &CTaerva says, 'You idiot you missed the tradeskill information at the Denizens!'&D
+endif
+~
+> speech_prog baker~
+mppause 6
+if quest(trade) == 2
+  mpquest $n trade 3
+  mptrade $n baker
+  mppause 6
+  mpechoat $n &CTaerva says, 'Return to the Tradeskill Denizens now!'&D
+else
+  mpechoat $n &CTaerva says, 'You idiot you missed the tradeskill information at the Denizens!'&D
+endif
+~
+> speech_prog tanner~
+if quest(trade) == 2
+  mpquest $n trade 3
+  mptrade $n tanner
+  mppause 6
+  mpechoat $n &CTaerva says, 'Return to the Tradeskill Denizens.'&D
+else
+  mpechoat $n &CTaerva says, 'You idiot you missed the tradeskill information at the Denizens!'&D
+endif
+~
+> act_prog p gives you 10 gold coins.~
+mppause 6
+if quest(trade) == 1
+  mpechoat $n &CTaerva says, 'What do you want, &WBLACKSMITH&C application? &WBAKER&C application? &WTANNER&C application?
+  mpechoat $n &WCARPENTER&C application? &WJEWELER&C application?'&D
+  mpquest $n trade 2
+else
+  mpechoat $n &CTaerva says, 'I guess this is for taxes?'&D
+endif
+~
+> act_prog p gives you 100 silver coins.~
+mppause 6
+if quest(trade) == 1
+  mpechoat $n &CTaerva says, 'What do you want, &WBLACKSMITH&C application? &WBAKER&C application? &WTANNER&C application?   
+  mpechoat $n &WCARPENTER&C application? &WJEWELER&C application?'&D
+  mpquest $n trade 2
+else
+  mpechoat $n &CTaerva says, 'I guess this is for taxes?'&D
+endif
+~
+> act_prog p gives you 1000 copper coins.~
+mppause 6
+if quest(trade) == 1
+  mpechoat $n &CTaerva says, 'What do you want, &WBLACKSMITH&C application? &WBAKER&C application? &WTANNER&C application?   
+  mpechoat $n &WCARPENTER&C application? &WJEWELER&C application?'&D
+  mpquest $n trade 2
+else
+  mpechoat $n &CTaerva says, 'I guess this is for taxes?'&D
+endif
+~
+> act_prog p gives you 100 gold coins.~
+mppause 6
+if quest(trade) > 3
+  mptrade $n trade
+endif
+~
+|
+#11224
+Dravea tall orc guard north~
+Dravea~
+A tall orc stands guard at the city gate.
+~
+&OThis orc is about what you would expect for one of its kind. Two tusks 
+protrude from his upper lip, one missing the point. His eyes are red and 
+unfocused, as he lazily surveys the area before him. He stands well above 
+where a tall human would, and his frame is almost completely composed of 
+muscle.&d 
+~
+9
+Clanname none~
+0
+0
+2228227 4194304 0 C
+15 0 -80 10d10+2000 1d10+5
+0 0 0 0 0 
+0
+115 115 1
+22 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 3
+0 0 40 0 0 0 112 2
+> speech_prog leave~
+if htown($n) == Paleon City
+   yell WE'RE UNDER ATTACK!
+   yell FOR THE THRONG!
+   mpkill $n
+   abort
+endif
+mppause 5
+mpechoat $n &cDravea puts two meaty fingers in his mouth and whistles two loud blasts.&D
+mppause 3
+mpechoat $n &CDravea says, 'The slaves will have the gate open in no time.'&D
+mppause 3
+mpechoat $n &cYou hear the sound of wheels churning as the gate lowers.&D
+mppause 6
+unlock n
+mpechoat $n &cThe gate finally lands with a large thud.&D
+open n
+mppause 5
+mpechoat $n &CDravea says, 'Step across lively, we can't keep the gate down long.'&D
+mppause 20
+mpat $n mpechoat $n &CYou hear a guard yell, 'Closing the gate!'&D
+mppause 5
+mpat $n mpechoat $n &cThe gate starts to close with the sound of wheels churning.&D
+mppause 8
+close n
+lock n
+~
+> act_prog p arrives from the south.~
+if htown($n) == Paleon City
+   yell WE'RE UNDER ATTACK!
+   yell FOR THE THRONG!
+   mpkill $n
+endif
+mpechoat $n &WDravea tells you, 'If you wish to leave the city..'
+mppause 5
+mpechoat $n &WDravea tells you, 'Just type &WSAY LEAVE&W.'
+~
+> act_prog p arrives from the east.~
+if htown($n) == Paleon City
+   yell WE'RE UNDER ATTACK!
+   yell FOR THE THRONG!
+   mpkill $n
+endif
+mpechoat $n &WDravea tells you, 'If you wish to leave the city..'
+mppause 5
+mpechoat $n &WDravea tells you, 'Just type &WSAY LEAVE&W.'
+~
+> act_prog p arrives from the west.~
+if htown($n) == Paleon City
+   yell WE'RE UNDER ATTACK!
+   yell FOR THE THRONG!
+   mpkill $n
+endif
+mpechoat $n &WDravea tells you, 'If you wish to leave the city..'
+mppause 5
+mpechoat $n &WDravea tells you, 'Just type &WSAY LEAVE&W.'
+~
+|
+#11225
+warhorse war horse~
+a war horse~
+A war horse is standing here.
+~
+The war horse is thickly muscled for quick bursts of speed.
+~
+13
+Clanname none~
+0
+0
+262401 0 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11226
+mastodon ~
+a giant mastodon~
+A giant mastodon is standing here.
+~
+The giant mastodon has a thick grey hide with massive wrinkles.
+The mastodon has a pair of giant ivory tusks.
+~
+8
+Clanname none~
+0
+0
+262401 0 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11227
+giant riding lizard~
+a giant riding lizard~
+A giant riding lizard is here.
+~
+The giant riding lizard has bright green scales, and a
+flickering forked tongue.
+~
+9
+Clanname none~
+0
+0
+262401 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11228
+jeweled man Danzis~
+Danzis~
+A jeweled man looks about anxiously. 
+~
+A very attractive vampire man adorned with many pieces of jewelery looks 
+about watching people. His long white hair flows like a river down his 
+back and he seems to carry himself with a large amount of pride. 
+~
+0
+Clanname none~
+0
+0
+67108867 0 1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+14 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if quest(sandblade) == 6
+  mpechoat $n &CDanzis says, 'Oh hello there, I've been expecting you...'&D
+  mppause 3
+  smile
+  mpechoat $n &CDanzis says, 'You know the drill.  Bring me something, and I give you something.  I want a ring, not just any ring, but the ring Draupnir. I have no idea where to find it, but I hear it would be a wonderful addition to my collection.'&D
+  mpquest $n sandblade 7
+endif
+~
+> act_prog p gives you the ring Draupnir.~
+if quest(sandblade) == 7
+  smile
+  mppause 3
+  mpechoat $n &CDanzis says, 'Thank you very much, well here is your gift champion!'&D
+  mpoload 1654
+  give wind $n
+  mppurge ring
+  mpechoat $n &CDanzis says, 'Now I suppose I'll get back to what I was doing, good luck, and, do try not to die will you.'&D
+  mpquest $n sandblade 8
+else
+  mpechoat $n &CDanzis says, 'I have no use for this.'&D
+  mpat 4 drop ring
+endif
+~
+|
+#11236
+headbanger bloated ogre~
+Headbanger~
+A bloated looking ogre blocks the way
+~
+One of the more frequent visitors to the Atheneum, this patron talks a lot 
+and generally tends to disturb others. He is rather youngish, looks rather 
+plump. Headbanger is an ogre who earned his name by killing opponents with 
+his head, literally. Lately, he has been to Paleon City on his travels, 
+and improved on his combat skills. 
+~
+0
+Clanname none~
+0
+0
+16777281 4194304 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Me Big, Me Strong, Me Ogre'~
+mpechoat $n &CHeadbanger says, 'Me big. Me don't want to give you book.'&D
+mppause 5
+mpechoat $n &CHeadbanger says, 'Me strong. Me keep book.'&D
+mppause 5
+mpechoat $n &CHeadbanger says, 'Me Ogre. Me die, then give book.'&D
+mpoload 4659 1
+get book
+~
+> death_prog 100~
+mpechoat $n As Headbanger breathes his last, he drops a slim tome.
+mpoload 4659
+drop ogre
+~
+|
+#11237
+drow shopkeeper keeper shop naevas~
+Shopkeeper Naevas~
+A drow male shopkeeper is tending his wares here.
+~
+&wLeaning against his desk, this drow seems to be working on a list of 
+goods he has received. From his hunched position, it is hard to get an 
+idea of how tall he truly is. Slender in build, his head is shaved 
+completely bald and an eyepatch covers his right eye. As more and moer 
+goods are brought in to his shop, the drow seems to becoming ever more 
+trapped by the multitude of boxes.&d 
+~
+1
+Clanname none~
+0
+0
+131075&16384 4194432&2097152 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 48 524291
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &CShopkeeper Naevas says, 'I buy and sell crafted items only!'
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#11238
+blood elf~
+a blood soaked elf~
+A blood soaked elf has been left here to die.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 4194304 1000 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 80~
+if quest(dakar) == 1
+  mpechoat $n &CA blood soaked elf pleads, 'Please good citizen, do not hurt me!'
+  mpquest $n dakar 2
+endif
+~
+> death_prog 100~
+if quest(dakar) == 1
+mpquest $n dakar 2
+endif
+~
+|
+#11239
+invis helper~
+You suddenly realize that ~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1075970051 4292610 0 C
+108 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(changeofheart) == 3
+mpoload 11301 1
+drop plans
+mppause 2
+mpechoat $n &cAs you enter the room, you see Lord Tanzean'al with his back
+mpechoat $n &cfacing you.  Lord Tanzean'al appears to chanting in a strange
+mpechoat $n &ctongue.
+endif
+~
+|
+#11240
+Central~
+Central~
+Dakar Central pointer
+~
+~
+0
+Clanname none~
+0
+0
+1149370371 4292608 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11241
+warg wolf~
+The Warg~
+A warg wolf is standing on her haunches here.
+~
+The war horse is thickly muscled for quick bursts of speed.
+~
+13
+Clanname none~
+0
+0
+262401 0 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11242
+rhino~
+a rhino~
+A rhino is standing here.
+~
+The war horse is thickly muscled for quick bursts of speed.
+~
+13
+Clanname none~
+0
+0
+262401 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11243
+griffon ~
+a griffon~
+A griffon is flying here.
+~
+The giant mastodon has a thick grey hide with massive wrinkles.
+The mastodon has a pair of giant ivory tusks.
+~
+8
+Clanname none~
+0
+0
+262401 524288 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11400
+last mob~
+You suddenly realize that ~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1149370371 4292608 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(militia) == 6
+  mpmload 11218
+  mpforce vaskar emote suddenly lights up a tobacco pipe.
+  mppause 2
+  mpforce vaskar emote looks around cautiously.
+  mpechoat $n You think to yourself that you should follow Vaskar to his destination.
+  mpquest $n militia 7
+  mppause 20
+  mpforce vaskar e
+  mppause 20
+  mpat 11248 mpforce vaskar e
+  mppause 20
+  mpat 11249 mpforce vaskar e
+  mppause 8
+  mpat 11250 mpforce vaskar e
+  mppause 8
+  mpat 11251 mpforce vaskar e
+  mppause 8
+  mpat 11252 mpforce vaskar e
+  mppause 8
+  mpat 11238 mpforce vaskar s
+  mppause 8
+  mpat 11239 mpforce vaskar s
+  mppause 8
+  mpat 11240 mpforce vaskar s
+  mppause 8
+  mpat 11241 mpforce vaskar s
+  mpat 11241 mpforce vaskar mpgoto 4
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#11200
+marble water fountain~
+a water fountain~
+A marble water fountain is embedded in the ground here.~
+~
+25 1073741824 0
+20 20 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+marble water fountain~
+The marble water fountain appears to have been crafted many years ago.  
+The water does not look the best, but it is probably drinkable.
+~
+#11201
+arrow~
+a blackened arrow~
+A blackened arrow has been left here.~
+~
+57 0 16385
+10 1 5 6 1 1 1
+1 11 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+blackened arrow~
+The blackened arrow of Dakar.  Is known to often be poisoned.
+~
+#11202
+quiver~
+a blackened leather quiver~
+A blackened leather quiver has been left here.~
+~
+58 0 524289
+8 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+leather quiver~
+A sturdy black leather quiver capable of holding many arrows.
+~
+#11203
+long bow~
+a blackened long bow~
+A blackened long bow has been left here.~
+~
+56 0 262145
+10 1 4 6 6 1 1
+8 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+long bow~
+The blackened long bow has a mystical quality about it.  A strange
+feeling of hate radiates from it.
+~
+#11204
+black studded leather trousers~
+a pair of black studded leather trousers~
+A pair of black studded leather trousers has been left here.~
+~
+9 0 33
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+studded leather trousers~
+A pair of blackened studded trousers are thickly padded to provide protection.
+There are several small holes and rips in the sides of the trousers.
+~
+#11205
+black studded leather vest~
+a black studded leather vest~
+A black studded leather vest has been left here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+studded leather vest~
+A studded leather vest is worn and faded.  There is thick padding on the
+inside to provide protection.
+~
+#11206
+black studded leather gloves~
+a pair of black studded leather gloves~
+A pair of black studded leather gloves has been left here.~
+~
+9 0 129
+60 60 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+gloves~
+The worn leather gloves have large studs on the knuckle areas.
+~
+#11207
+black studded leather bracers~
+a pair of black studded leather bracers~
+A pair of black studded leather bracers has been left here.~
+~
+9 0 4097
+60 60 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+bracers~
+The worn leather bracers are made out of thick leather for protection.
+~
+#11208
+black leather boots~
+a pair of black leather boots~
+A pair of black leather boots has been left here.~
+~
+9 0 65
+60 60 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+boots~
+The leather boots are very well broken in, and the sole is worn on them.
+~
+#11209
+dagger~
+a blackened dagger~
+A blackened dagger has been left here.~
+~
+5 0 8193
+12 1 5 6 2 1 0
+2 37 3
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+dagger~
+The dagger has nicks in the blade, but is very well balanced.
+~
+#11210
+short sword~
+a blackened short sword~
+A blackened short sword has been left here.~
+~
+5 0 8193
+12 1 5 1 2 1 0
+5 50 5
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+short~
+The short sword is a thick and heavy blade designed for clubbing rather
+then slicing into anything.
+~
+#11211
+blackened long sword~
+a blackened long sword~
+A blackened long sword has been left here.~
+~
+5 0 8193
+0 1 5 1 1 1 0
+10 35 3
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+long~
+The long sword has a fairly sharp edge to it.  The hilt is a thick black
+square with a stud on it to bludgeon people with.
+~
+#11212
+mace~
+a blackened mace~
+A blackened mace has been left here.~
+~
+5 0 8193
+0 1 5 4 5 1 0
+8 46 4
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+mace~
+The mace is a black ball attached to a metal rod.  The ball has large spikes
+protruding from it across the entire surface of the ball.
+~
+#11213
+war hammer~
+a blackened war hammer~
+A blackened war hammer has been left here.~
+~
+5 0 8193
+12 1 5 4 5 1 0
+10 38 3
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+hammer~
+The war hammer has a flat hammer side on one end, and a large pick side
+on the other.
+~
+#11214
+bastard sword~
+a blackened bastard sword~
+A blackened bastard sword has been left here.~
+~
+5 0 8193
+12 1 5 1 1 1 0
+15 30 3
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+bastard~
+The bastard sword is larger then a normal long sword, but still able to
+be wielded one handed.  
+~
+#11215
+spear~
+a blackened spear~
+A blackened spear has been left here.~
+~
+5 0 8193
+12 1 5 7 10 1 0
+8 27 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+spear~
+The spear is shorter then most spears, but thick in circumference.
+~
+#11216
+black leather satchel~
+a black leather satchel~
+A black leather satchel has been left here.~
+~
+15 0 16385
+700 0 0 12 0 0 0
+3 23 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+satchel~
+The satchel is large, and has several pockets where items can be stored.
+~
+#11217
+deer jerky~
+a hunk of deer jerky~
+A large hunk of deer jerky was left here.~
+%s chomp$q down $p!~
+19 0 1
+20 20 0 0 0 0 0
+1 1 0
+4
+11
+0
+0
+0
+0
+S 0 0
+E
+pickled jar~
+This is a greenish liquid filled jar with pickled human flesh.
+~
+#11218
+human jerky strips~
+a packet of human jerky strips~
+A packet of human jerky strips has been left here.~
+~
+19 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+jerky strips~
+The packet of dried human flesh jerky is thick and has spice on it.
+~
+#11219
+black hooded lantern~
+a hooded lantern~
+A hooded lantern has been left here.~
+~
+1 0 16385
+0 0 10 0 0 0 0
+3 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+lantern~
+The oil based lamp, is covered with a removable hood so the amount of
+light can be directed.
+~
+#11220
+black wand damnation~
+a black wand of damnation ~
+A black wand of damnation has been left here.~
+~
+3 0 16385
+10 3 3 -1 0 1 0
+1 10 1
+2
+13
+0
+0
+0
+0
+'word of recall'
+S 0 0
+E
+damnation~
+There is repulsively evil aura coming from the wand.
+~
+#11221
+wand knowing~
+a black wand of knowing~
+A black wand of knowing has been left here.~
+~
+3 0 16385
+20 16 16 -1 0 1 0
+1 5 0
+3
+13
+0
+0
+0
+0
+'identify'
+S 0 0
+E
+wand knowing~
+The black wand is hideously shaped with sharp edges on it.
+~
+#11222
+packet yaka roots~
+a packet of yaka roots~
+A packet of yaka roots has been left here.~
+~
+26 8192 1
+10 -1 -1 -1 0 1 0
+1 5 1
+3
+1
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+E
+yaka roots packet~
+A finely woven packet of yellow and green roots with small flowers on the end.
+~
+#11223
+packet talyaka roots~
+a packet of talyaka roots~
+A packet of talyaka roots has been left here.~
+~
+26 8192 1
+10 -1 -1 -1 0 1 0
+1 2 0
+2
+1
+0
+0
+0
+0
+'heal' 'NONE' 'NONE'
+S 0 0
+E
+roots packet talyaka~
+A threw pronged like root packet is bound tightly here.
+~
+#11224
+mana rejuvenation potion~
+a mana rejuvenation potion~
+A mana rejuvenation potion has been left here.~
+~
+10 0 16385
+45 -1 -1 -1 0 1 0
+1 11 1
+4
+4
+0
+0
+0
+0
+'restore mana' 'NONE' 'NONE'
+S 0 0
+E
+mana potion ~
+The liquid within this potion bottle has a slight glowing property to it.
+~
+#11225
+greater mana rejuvenation potion~
+a greater mana rejuvenation potion~
+A greater mana rejuvenation potion has been here.~
+~
+10 0 16385
+45 -1 -1 -1 0 1 0
+1 20 1
+4
+4
+0
+0
+0
+0
+'restore mana' 'restore mana' 'NONE'
+S 0 0
+E
+greater mana potion~
+The liquid within this potion bottle has a glowing property to it.
+~
+#11226
+war paint jar~
+a jar of blackened war paint~
+A jar of blackened war paint has been left here.~
+~
+60 0 16385
+30 3 3 1 -1 1 -1
+1 13 1
+3
+13
+0
+0
+0
+0
+'kindred strength' 'NONE'
+S 0 0
+#11227
+militia mask~
+a mask of the militia~
+A fearsome looking mask has been left here.~
+~
+9 0 1048577
+2 2 0 0 0 2 0
+1 63 5
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 1
+#11228
+leather belt~
+a leather belt~
+A thick leather belt has been left here.~
+~
+9 0 2049
+5 5 0 0 0 5 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 0 0
+#11229
+chain shirt blackened~
+A blackened chain shirt~
+A blackened chain shirt is here.~
+~
+9 0 9
+5 5 0 0 0 5 0
+10 1 0
+2
+13
+0
+0
+0
+0
+S 0 0
+#11230
+iron helmet ~
+an iron helmet~
+An iron helmet has been left here.~
+~
+9 1073741824 17
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#11231
+portal stone~
+portal stone~
+A portal stone is embedded in the ground here.~
+~
+72 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+11231 portal stone portalstone~
+This smooth, black stone feels warm to the touch and seems to be of a glass material. Inside its transparent, dark depths, a faint flame flickers erratically. Miniscule gold specks dust the surface of the portal stone and shimmer entrancingly. Gold letters form the word 'ACTIVATE' on the top of the stone. &Y Type 'activate' to activate the stone.
+~
+#11232
+blackened studded bracer~
+a blackened studded bracer~
+A blackened, studded bracer lies here.~
+~
+9 0 4097
+2 2 0 0 0 1 0
+1 25 2
+4
+13
+0
+0
+0
+0
+S 0 0
+#11233
+blackened studded leggings~
+a pair of blackened studded leggings~
+A pair of blackened studded leggings is here.~
+~
+9 0 33
+2 2 0 0 0 1 0
+4 40 4
+4
+13
+0
+0
+0
+0
+S 0 0
+#11234
+rotgut booze~
+A canister of rotgut~
+A short, wide, metal canister is here.~
+~
+17 0 1
+100 100 17 0 0 0 0
+1 10 1
+2
+13
+0
+0
+0
+0
+S 0 0
+#11235
+A rune~
+a rune~
+A magical rune has been left here.~
+~
+41 8192 16385
+0 0 0 0 0 1 0
+1 11 1
+4
+8
+0
+0
+0
+0
+S 0 0
+#11236
+a sharpening stone~
+a sharpening stone~
+A sharpening stone has been cast aside here.~
+~
+65 8192 16385
+1 0 0 0 0 1 0
+1 13 1
+4
+13
+0
+0
+0
+0
+S 0 0
+#11237
+bottle dye~
+a bottle of dye~
+A bottle of dye has been left here.~
+~
+71 0 16385
+0 0 0 0 0 1 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#11238
+jar odor neutralizer ~
+a jar of odor neutralizer powder~
+A jar of odor neutralizer powder has been left here.~
+~
+60 0&32 1
+20 3 3 1 -1 0 -1
+1 10 1
+1
+5
+0
+0
+0
+0
+'noscent' 'NONE'
+S 0 0
+#11239
+jar odor enhancing powder~
+a jar of odor enhancing powder~
+A jar of odor enhancing powder has been left here.~
+~
+60 0&32 1
+50 10 10 1 -1 0 -1
+1 10 1
+1
+5
+0
+0
+0
+0
+'easy victim' 'NONE'
+S 0 0
+#11240
+flint stone~
+a flint stone~
+A flint stone has been left here.~
+~
+48 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#11241
+Ornate Chest~
+Ornate Chest~
+An Ornate Chest rests here, unable to be opened.~
+~
+15 0 0
+5000 15 3503712 12 0 101 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#11242
+potion cures~
+a blessed potion of cures~
+A potion of cures has been left here.~
+~
+10 0 1
+10 -1 -1 -1 0 5 0
+1 10 1
+2
+5
+0
+0
+0
+0
+'cure affliction' 'NONE' 'NONE'
+S 0 0
+#11243
+salamander wanted sign~
+A sign reading, "Salamander's Wanted"~
+A sign has been posted on the wall here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+sign~
+&cHigh Priestess Yochlol is looking for someone to take on a
+quest regarding salamanders.  Any non-experienced adventurer
+may undertake this, it's not difficult, just too time consuming
+for Yochlol to bother with it.  &WSAY YES&c to learn more.&D 
+~
+#11244
+filthy necklace~
+a filthy necklace~
+A filthy necklace has been discarded here.~
+~
+9 0 5
+2 2 0 0 0 1 0
+1 44 4
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+filthy necklace~
+This necklace is covered in so much filth, grime and debris that it takes 
+a great deal of ones constitution just to stomach it. 
+~
+A
+5 1
+A
+13 10
+#11245
+obsidian plaque~
+an obsidian plaque~
+&bA large obsidian plaque has been embedded here, surrounded by debris.&D~
+~
+12 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+7
+0
+0
+0
+0
+S 0 0
+E
+obsidian plaque~
+&bThis smooth plaque of gleaming obsidian has rows of words etched upon its surface within an similarly etched border of entwining lines.&D
+
+&b[To read the plaque, please READ NEWS]&D
+~
+E
+news~
+&bCurrent Dakar City news:
+
+I now have a whole new set of mounts available, come buy yours today! -Gyakas, the animal trainers
+
+
+----------- Public Announcement -----------
+If you want to write something on the plaque, send a personal note to Rene!
+For now.
+-----------------------
+&D
+~
+#11246
+kit~
+an inventors kit~
+An inventors kit has been left here.~
+~
+82 0 1
+0 0 0 0 0 0 0
+2 5 0
+2
+1
+0
+0
+0
+0
+S 0 0
+E
+kit 'inventor kit'~
+The inventor kit appears to be very tiny in size, but when you look into it the bottom cannot be seen.
+To see how many of what item your kit holds type look in kit.
+~
+#11247
+hunter bag~
+a hunter's bag~
+A hunter's bag has been left here.~
+~
+81 0 1
+0 0 0 0 0 0 0
+1 4 0
+4
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+S 0 0
+E
+hunter bag 'hunter bag'~
+The hunter bag appears to be very tiny in size, but when you look into it the bottom cannot be seen.
+To see how many of what item your bag holds type look in bag.~
+#11248
+baker bag~
+a baker's bag~
+A baker's bag has been left here.~
+~
+80 0 1
+0 0 0 0 0 0 0
+1 25 2
+4
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+S 0 0
+E
+baker bag 'baker bag'~
+The baker bag appears to be very tiny in size, but when you look into it the bottom cannot be seen.
+To see how many of what item your bag holds type look in bag.
+~
+#11249
+miner bag~
+a miner's bag~
+A miner's bag has been left here.~
+~
+79 0 1
+0 0 0 0 0 0 0
+1 24 2
+4
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+S 0 0
+E
+miner bag 'miner bag'~
+The miner bag appears to be very tiny in size, but when you look into it the bottom cannot be seen.
+To see how many of what item your bag holds type look in bag.~
+#11250
+lumber sled~
+a lumber sled~
+A lumber sled has been left here.~
+~
+79 0 1
+500 0 0 0 0 0 0
+1 4 0
+4
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+S 0 0
+E
+miner bag 'miner bag'~
+The miner bag appears to be very tiny in size, but when you look into it the bottom cannot be seen.
+To see how many of what item your bag holds type look in bag.
+~
+#11251
+wood axe~
+a wood cutters axe~
+A axe used for cutting wood lays on its side here.~
+~
+5 0 8193
+0 1 5 3 9 2 0
+6 38 3
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+axe~
+The axe has a solid oak handle for gripping the axe securely, the edge seems well tended.
+~
+#11295
+black metal helm~
+A black metal helm~
+A black helm made out of heavy metal lies here.~
+~
+9 0 17 128
+55 55 0 0 0 75 0
+12 160 16
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+5 5
+A
+18 4
+A
+19 4
+#11296
+black ruffle shirt~
+A black shirt~
+A black long sleeve shirt with ruffles at the neck and wrists lies here.~
+~
+9 0 9 24
+55 55 0 0 0 0 0
+1 161 16
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+5 2
+A
+18 5
+A
+19 5
+#11297
+forge~
+a iron cast forge~
+An iron cast forge covered in soot is mounted to the floor here.~
+~
+78 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#11298
+oven~
+a iron cast oven~
+An iron cast oven is mounted to the floor here.~
+~
+74 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#11299
+coal~
+several coal pieces~
+Several coal pieces have been left here.~
+~
+75 0 1
+0 0 0 0 0 0 0
+1 25 2
+4
+13
+0
+0
+0
+0
+S 0 0
+#11300
+pick axe~
+a pick axe~
+A pick axe has been left here.~
+%s enjoy$q $p~
+73 0 16385
+8 0 0 0 0 2 0
+5 19 1
+4
+13
+0
+0
+0
+0
+S 0 0
+#11301
+parchment plans~
+a parchment of plans~
+A parchment of plans has been left here.~
+~
+47 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mpquest $n changeofheart 4
+~
+|
+#11302
+pauldrons emblem~
+A set of spiked pauldrons with emblems on the side~
+A set of spiked pauldrons with emblems on the side has been left here.~
+~
+9 0 67108865
+20 20 0 0 0 20 0
+1 139 13
+3
+13
+0
+0
+0
+0
+S 0 0
+E
+pauldrons~
+The emblem is the crest of Dakar City.  With the words
+We will conquer all.. inscribed on it.
+~
+A
+18 5
+A
+19 5
+A
+17 -25
+#11303
+herbal broth~
+a herbal broth~
+A herbal broth has been left here.~
+~
+10 0 16385
+10 -1 -1 -1 0 1 0
+1 5 0
+3
+3
+0
+0
+0
+0
+'remove curse' 'NONE' 'NONE'
+S 0 0
+E
+broth~
+The herbal broth is milky colored and there are many herbs floating within it.
+~
+#11304
+bowl stew~
+a bowl of stew~
+Some god dropped a newly created bowl stew here.~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 25 2
+4
+13
+0
+0
+0
+0
+S 0 0
+#11305
+dark ale~
+a mug of dark ale~
+A mug of dark ale has been left here.~
+~
+17 0 16385
+6 6 4 0 0 5 0
+1 15 1
+4
+13
+0
+0
+0
+0
+S 0 0
+#11306
+wheel cheese~
+a wheel of cheese~
+A wheel of cheese was left here.~
+~
+19 0 16385
+10 0 0 0 0 0 0
+1 22 2
+4
+14
+0
+0
+0
+0
+S 0 0
+#11307
+meat pie~
+a meat pie~
+A meat pie lies here.~
+~
+19 0 1
+5 0 0 0 0 0 0
+1 60 6
+3
+1
+0
+0
+0
+0
+S 0 0
+#11394
+black metal spear~
+A black metal spear~
+Some god dropped a newly created black metal spear here.~
+~
+5 0 8193
+0 35 80 7 10 0 0
+15 119 11
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+1 3
+#11395
+crusaders shield~
+A crusaders shield~
+A large shield with the symbol of a large cross surrounded by a wyrm lies here quietly.~
+~
+9 0&32 524801 255
+110 110 0 0 0 0 0
+30 153 15
+1
+6
+0
+0
+0
+0
+S 0 0
+A
+5 3
+A
+1 2
+#11396
+A pair of Sturdy, black, leather boots~
+A pair of sturdy, black, leather boots~
+A pair of sturdy, black, leather boots lay here.~
+~
+9 0&128 65 96
+55 55 0 0 0 75 0
+4 150 15
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+2 5
+A
+18 4
+A
+19 4
+#11397
+black metal torc~
+a black metal torc~
+A torc made out of heavy black metal lies here.~
+~
+9 0 5
+55 55 0 0 0 0 0
+8 135 13
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+3 3
+A
+4 3
+A
+18 1
+A
+19 1
+#11398
+office key~
+An ornate key~
+An ornate key made out of heavy black metal lies here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#11399
+deerskin water~
+a water deerskin~
+A water deerskin has been left here.~
+~
+17 0 16385
+20 20 0 0 0 0 0
+1 28 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+water~
+The water skin is of good deer hide quality.
+~
+#11400
+deerskin blood~
+a deerskin of blood~
+A deerskin has been left here.~
+~
+17 0 16385
+20 20 13 0 0 1 0
+1 10 1
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+blood~
+The deerskin flask of blood appears to be made of good quality.
+~
+#0
+
+
+#ROOMS
+#11200
+The Intersection of Waguo Road and Dipak Street~
+~
+The road is made of broken old cobblestones.  There are large stakes
+on both sides of the intersection with humanoid skulls impaled on them.
+The massive cavern completely wraps around the entire city.  There are
+hooded lanterns at regular intervals to provide lighting.
+~
+1 0 13
+D1
+~
+~
+0 -1 11201
+D2
+~
+~
+0 -1 11227
+S
+#11201
+Waguo Road~
+~
+There are broken out cobblestones in the road creating ruts.  A massive
+boulder shaped like a half moon is embedded beside the road.  The cavern
+above has an identical shaped cut missing from the section above.  The
+road has hooded lanterns on poles set at regular intervals for lighting.
+~
+1 0 13
+D1
+~
+~
+0 -1 11202
+D3
+~
+~
+0 -1 11200
+S
+#11202
+Waguo Road~
+~
+Broken old cobblestones make up the road here.  A large sewer grate allows
+waste to flow down the street to the sewer.  A large stake with humanoid
+skulls impaled on it is against the road.  Hooded lanterns are attached
+to poles at regular intervals to provide lighting.
+~
+1 0 13
+D1
+~
+~
+0 -1 11203
+D3
+~
+~
+0 -1 11201
+S
+#11203
+Waguo Road~
+~
+The road is made of broken old cobblestones.  A large section of the road
+here is covered with dried blood.  The massive cavern encloses the entire
+city underground.  There are hooded lanterns that have been attached to
+poles to provide lighting.
+~
+1 0 13
+D1
+~
+~
+0 -1 11204
+D3
+~
+~
+0 -1 11202
+S
+#11204
+Waguo Road~
+~
+The road is made of broken old cobblestones. There are large stakes on 
+both sides of the road with humanoid skulls impaled on them. The massive 
+cavern encloses the entire city underground. There are hooded lanterns
+mounted to poles at regular intervals to provide lighting.
+~
+1 0 13
+D1
+~
+~
+0 -1 11205
+D3
+~
+~
+0 -1 11203
+S
+#11205
+Inside the Massive Gate~
+~
+&OThe gate is composed of large oak timbers that have iron bands wrapped 
+around it. The size of the gate resembles the size of a large house. A 
+massive iron chain is connected to the gate. Large gears on a type of 
+machine with the iron chain connected to it, is to the right of the gate. 
+~
+1 0 13
+D0
+~
+gate~
+7 27040 27024
+D1
+~
+~
+0 -1 11228
+D2
+~
+~
+0 -1 11206
+D3
+~
+~
+0 -1 11204
+R M 0 11224 1 11205
+  R G 0 27040 1
+R D 0 11205 0 2
+S
+#11206
+Gakak Street~
+~
+The street is made up of gravel stones. The width of the street can fit 
+two wagons side by side along it. Large stone slab barricades are along 
+the sides of the road with kill ports for archers. There are large wooden 
+poles with hooded lanterns mounted on them at regular intervals. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11205
+D2
+~
+~
+0 -1 11207
+S
+#11207
+Gakak Street~
+~
+A few stone buildings are on both sides of the street.  The street is
+made up of gravel stones.  A large statue is on the west side of the
+street.  There are wooden poles with hooded lanterns attached to them
+at regular intervals along the street for lighting.
+~
+1 0 13
+D0
+~
+~
+0 -1 11206
+D2
+~
+~
+0 -1 11208
+S
+#11208
+Gakak Street~
+~
+A dark tower edges above a stone building to the northwest.  Gravel stones
+were used to make this street.  A large stake with humanoid skulls impaled
+on it is posted next to the street.  A wooden pole with a hooded lantern
+attached to it provides lighting.
+~
+1 0 13
+D0
+~
+~
+0 -1 11207
+D2
+~
+~
+0 -1 11209
+S
+#11209
+Gakak Street~
+~
+An intersection of streets is to the south. The street is made up of loose 
+gravel stones. A few stone buildings line both sides of the street. Hooded 
+lanterns are attached to wooden poles at regular intervals to provide 
+lighting. The massive cavern encloses the entire city underground. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11208
+D2
+~
+~
+0 -1 11210
+R O 0 11231 1 11209
+S
+#11210
+Dakar Central~
+~
+&cThe intersection is the main crossing point for the city. There is a 
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11209
+D1
+~
+~
+0 -1 11248
+D2
+~
+~
+0 -1 11211
+D3
+~
+~
+0 -1 11253
+D4
+~
+~
+0 -1 57000
+D5
+~
+sewer grate~
+16777219 -1 8700
+R M 0 11400 1 11210
+R M 0 11240 1 11210
+R O 0 11200 1 11210
+R O 0 11245 1 11210
+R D 0 11210 5 1
+E
+sign embedded~
+Dakar City
+
+West Dakar City ruled by the Dark Tower
+East Dakar City ruled by Lloth Tars Conclave
+
+North - Gakak Street and City Gate
+East - Taupa Avenue (Shops)
+West - Taupa Avenue (Shops)
+South - Gakak Street
+
+~
+S
+#11211
+Gakak Street~
+~
+The street is made up of loose gravel. There is a strange looking building 
+to the southeast. A crumbling stone building is to the west. The massive 
+cavern encloses the entire city underground. There are hooded lanterns 
+attached to wooden poles at regular intervals to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11210
+D2
+~
+~
+0 -1 11212
+S
+#11212
+Gakak Street~
+~
+The street is made up of loose gravel. There are wooden stakes on both 
+sides of the street with humanoid skulls impaled on them. A strange 
+looking building is to the southeast. There is a hooded lantern mounted to 
+a wooden pole here to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11211
+D2
+~
+~
+0 -1 11213
+S
+#11213
+Gakak Street~
+~
+A large stone building to the west has a crumbling stone slabbed wall 
+around it. The street is made up of loose gravel. An intersection is to 
+the south. There are wooden poles spaced out at regular intervals with 
+hooded lanterns attached to them to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11212
+D2
+~
+~
+0 -1 11214
+S
+#11214
+The Intersection of Sanok Road and Gakak Street~
+~
+The massive intersection has a statue of Tanzean'al against the cavern 
+wall. The statue is as tall as the stone buildings on the street. There is 
+a strange looking building to the east. The cavern encloses the entire 
+city underground. Hooded lanterns mounted on poles on both sides of the 
+statue provide lighting for the intersection. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11213
+D1
+~
+~
+0 -1 11247
+D3
+~
+~
+0 -1 11215
+D5
+~
+sewer grate~
+16777217 -1 8714
+R D 0 11214 5 0
+E
+statue Tanzean'al~
+The massive statue is of the powerful wizard Tanzean'al.  He is clothed
+in robes, and carrying a scepter in his right hand.
+~
+S
+#11215
+Sanok Road~
+~
+The road is made out of broken old cobblestones. A wall made out of large 
+boulders is on the south side of the road. There is a wooden sign on the 
+wall, with a diagram of the city that is too blurry to read. A cobblestone 
+made house is to the south. A large pole is set into the ground on the 
+south side of the road with a hooded lantern attached. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11214
+D3
+~
+~
+0 -1 11216
+S
+#11216
+Sanok Road~
+~
+The cobblestones are cracked and scratched up throughout the road here. A 
+wall of midsize boulders butts up to some large boulders forming a wall on 
+the south side of the road here. There are small sewer grates on both 
+sides of the road to provide sewage a place to drain into. A few skulls 
+are along the roadside here 
+~
+1 0 13
+D1
+~
+~
+0 -1 11215
+D3
+~
+~
+0 -1 11217
+S
+#11217
+Sanok Road~
+~
+The cobblestones are broken and stained along the road here. A wall made 
+out of midsize boulders is along the south side of the road. The inner 
+city lights of a few buildings are visible to the east. A large pole is 
+set into the ground on the south side of the road with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11216
+D2
+~
+double gates~
+3 -1 11299
+D3
+~
+~
+0 -1 11218
+R D 0 11217 2 1
+S
+#11218
+Sanok Road~
+~
+The old cobblestones are broken, and there are ruts in the road here. The 
+wall along the south side of the road ends in a pile of crushed rock here. 
+A few buildings are along the east side of the road. A blackened red stain 
+is smeared along the edge of the road here. There are small drains on the 
+sides of the road to provide sewage drainage. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11217
+D3
+~
+~
+0 -1 11219
+S
+#11219
+The Intersection of Sanok Road and Dipak Street~
+~
+The street is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+west side of the street. A few buildings are along the streetsides. A 
+large pole is set into the ground at the streetsides with a hooded lantern 
+attached to it to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11220
+D1
+~
+~
+0 -1 11218
+S
+#11220
+Dipak Street~
+~
+The old cobblestones are broken, and there are ruts in the street here. 
+The wall along the west side of the street ends in a pile of crushed rock 
+here. A few buildings are along the east side of the street. A blackened 
+red stain is smeared along the edge of the street here. There are small 
+drains on the sides of the street to provide sewage drainage. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11221
+D2
+~
+~
+0 -1 11219
+S
+#11221
+Dipak Street~
+~
+The cobblestones are broken and stained along the street here. A wall made 
+out of midsize boulders is along the west side of the street. The inner 
+city lights of a few buildings are visible to the east. A large pole is 
+set into the ground on the west side of the street with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11222
+D2
+~
+~
+0 -1 11220
+S
+#11222
+Dipak Street~
+~
+The cobblestones are cracked and scratched up throughout the street here. 
+A wall of midsize boulders butt up to some large boulders forming a wall 
+on the west side of the street here. There are small sewer grates on both 
+sides of the street to provide sewage a place to drain into. A few skulls 
+are along the streetside here.
+~
+1 0 13
+D0
+~
+~
+0 -1 11223
+D2
+~
+~
+0 -1 11221
+S
+#11223
+The Intersection of Taupa Avenue and Dipak Street~
+~
+The street is made out of broken old cobblestones. A wall made out of 
+large boulders is on the west side of the street. There is a wooden sign 
+on the wall, with a diagram of the city that is too blurry to read. A 
+cobblestone made house is to the west. A large pole is set into the ground 
+on the west side of the street with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11224
+D1
+~
+~
+0 -1 11256
+D2
+~
+~
+0 -1 11222
+D5
+~
+sewer grate~
+16777217 -1 8705
+R D 0 11223 5 0
+S
+#11224
+Dipak Street~
+~
+The street is made out of broken stained cobblestones. A dead animal is 
+rotting in its final stages of decay along the streetside. A wall made out 
+of large boulders is on the west side of the street. A section of the wall 
+has been destroyed by something. A large pole is set into the ground on 
+the east side of the street with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11225
+D2
+~
+~
+0 -1 11223
+S
+#11225
+Dipak Street~
+~
+The street is made out of cracked and scratched up old cobblestones. A 
+wall of large boulders is on the west side of the street. There are small 
+sewer grates on the sides of the street to provide sewage to drain into. A 
+buildup of trash has nearly clogged up the grates and the sewage is thick 
+on the street here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11226
+D2
+~
+~
+0 -1 11224
+S
+#11226
+Dipak Street~
+~
+The street is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+west side of the street. A few buildings are along the street sides. A 
+large pole is set into the ground at the street sides with a hooded 
+lantern attached to it to provide lighting.
+~
+1 0 13
+D0
+~
+~
+0 -1 11227
+D2
+~
+~
+0 -1 11225
+S
+#11227
+Dipak Street~
+~
+A massive dark tower stands forebodingly before the street to the east. 
+The street is made of broken old cobblestones. The massive cavern encloses 
+the entire city underground. There are hooded lanterns attached to poles 
+that provide lighting at regular intervals.
+~
+1 0 13
+D0
+~
+~
+0 -1 11200
+D1
+~
+Double Doors~
+1 -1 11270
+D2
+~
+~
+0 -1 11226
+R D 0 11227 1 0
+S
+#11228
+Waguo Road ~
+~
+The road is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the road. A few buildings are along the road 
+sides. A large pole is set into the ground at the road sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11229
+D3
+~
+~
+0 -1 11205
+S
+#11229
+Waguo Road~
+~
+The road is made out of cracked and scratched up old stone slabs. A spear 
+with rotting enemy ears adorning it is on the south side of the road. 
+There are small sewer grates on the sides of the road to provide sewage to 
+drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the road here. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11230
+D3
+~
+~
+0 -1 11228
+S
+#11230
+Waguo Road~
+~
+The road is made out of broken stained stone slabs. Some rotten food is in 
+its final stages of decay along the road side. A spear with rotting enemy 
+ears adorning it is on the south side of the road. A section of the spear 
+has been destroyed by something. A large pole is on the north side of the 
+road with a hooded lantern attached.
+~
+1 0 13
+D1
+~
+~
+0 -1 11231
+D3
+~
+~
+0 -1 11229
+S
+#11231
+Waguo Road~
+~
+The stone slabs are cracked and scratched up throughout the road here. A 
+spear with rotting enemy ears adorning it is embedded in the ground on the 
+south side of the road here. There are small sewer grates on both sides of 
+the road to provide sewage a place to drain into. A few skulls are along 
+the road side here. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11232
+D3
+~
+~
+0 -1 11230
+S
+#11232
+Waguo Road~
+~
+The old stone slabs are broken, and there are ruts in the road here. The 
+spear with rotting enemy ears adorning it is on the south side of the road 
+here. A few buildings are along the north side of the road. A blackened 
+red stain is smeared along the edge here. There are small drains on the 
+sides of the road to provide sewage drainage. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11233
+D3
+~
+~
+0 -1 11231
+S
+#11233
+The Intersection of Waguo Road and Gorath Street~
+~
+The street is made out of crushed gravel stones. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the street. A few buildings are along the street 
+sides. A large pole is set into the ground at the street sides with a 
+hooded lantern attached to it to provide lighting. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11234
+D3
+~
+~
+0 -1 11232
+S
+#11234
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A spear with rotting 
+enemy ears adorning it is on the south side of the street. There are small 
+sewer grates on the sides of the street to provide sewage to drain into. A 
+buildup of trash has nearly clogged up the grates and the sewage is thick 
+on the street here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11233
+D2
+~
+~
+0 -1 11235
+S
+#11235
+Gorath Street~
+~
+The street is made out of crushed gravel. Some rotten food is in its final 
+stages of decay along the street side. A spear with rotting enemy ears 
+adorning it is on the south side of the street. A section of the spear has 
+been destroyed by something. A large pole is on the north side of the 
+street with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11234
+D2
+~
+~
+0 -1 11236
+S
+#11236
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A spear with rotting 
+enemy ears adorning it is on the south side of the street. There is a 
+wooden sign posted in the ground, with a diagram of the city that is too 
+blurry to read. A cobblestone made house is to the south. A large pole is 
+on the south side of the street with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11235
+D2
+~
+~
+0 -1 11237
+S
+#11237
+Gorath Street~
+~
+The crushed gravel stones are sparse along the street here. A spear with 
+rotting enemy ears adorning it is embedded in the ground on the south side 
+of the street here. There are small sewer grates on both sides of the 
+street to provide sewage a place to drain into. A few skulls are along the 
+street side here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11236
+D2
+~
+~
+0 -1 11238
+D3
+~
+arched doorway~
+3 -1 11306
+R D 0 11237 3 1
+S
+#11238
+The Intersection of Taupa Avenue and Gorath Street~
+~
+The stone slabs are cracked and scratched up throughout the avenue here. A 
+spear with human skulls adorning it is embedded in the ground on the south 
+side of the avenue here. There are small sewer grates on both sides of the 
+avenue to provide sewage a place to drain into. A few skulls are along the 
+avenue side here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11237
+D2
+~
+~
+0 -1 11239
+D3
+~
+~
+0 -1 11252
+D5
+~
+sewer grate~
+16777219 -1 8725
+R D 0 11238 5 1
+S
+#11239
+Gorath Street~
+~
+The crushed gravel stones are sparse along the street here. A spear with 
+rotting enemy ears adorning it is along the south side of the street. The 
+inner city lights of a few buildings are visible to the north. A large 
+pole is set into the ground on the south side of the street with a hooded 
+lantern attached to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11238
+D2
+~
+~
+0 -1 11240
+S
+#11240
+Gorath Street~
+~
+The crushed gravel stones are interupted by ruts in the street here. The 
+spear with rotting enemy ears adorning it is on the south side of the 
+street here. A few buildings are along the north side of the street. A 
+blackened red stain is smeared along the edge here. There are small drains 
+on the sides of the street to provide sewage drainage. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11239
+D2
+~
+~
+0 -1 11241
+D3
+~
+~
+0 -1 11294
+S
+#11241
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the street. A few buildings are along the street 
+sides. A large pole is set into the ground at the street sides with a 
+hooded lantern attached to it to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11240
+D2
+~
+~
+0 -1 11242
+S
+#11242
+The Intersection of Sanok Road and Gorath Street~
+~
+The street is made out of broken old cobblestones. A wall made out of 
+large boulders is on the east side of the street. A cobblestone made house 
+is to the west. A large pole is set into the ground on the west side of 
+the street with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11241
+D1
+~
+barricaded door~
+7 -1 11334
+D3
+~
+~
+0 -1 11243
+R D 0 11242 1 2
+> entry_prog 100~
+if quest(militia) == 7
+  mppause 5
+  mpechoat $n &cvaskar pushes a secret lever on a wall, then enters a doorway that closes.
+  mppause 2
+  mpechoat $n You think to yourself Sergeant Durgas needs to know this:
+  mpechoat $n VASKAR SOUTHERN GORATH SECRET LEVER
+  mpquest $n militia 8
+endif
+~
+|
+S
+#11243
+Sanok Road~
+~
+The road is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+south side of the road. A few buildings are along the roadsides. A large 
+pole is set into the ground at the roadsides with a hooded lantern 
+attached to it to provide lighting. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11242
+D3
+~
+~
+0 -1 11244
+S
+#11244
+Sanok Road~
+~
+The road is made out of cracked and scratched up old cobblestones. A wall 
+of large boulders is on the south side of the road. There are small sewer 
+grates on the sides of the road to provide sewage to drain into. A buildup 
+of trash has nearly clogged up the grates and the sewage is thick on the 
+road here. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11243
+D3
+~
+~
+0 -1 11245
+S
+#11245
+Sanok Road~
+~
+The road is made out of broken stained cobblestones. A dead animal is 
+rotting in its final stages of decay along the roadside. A wall made out 
+of large boulders is on the south side of the road. A section of the wall 
+has been destroyed by something. A large pole is set into the ground on 
+the east side of the road with a hooded lantern attached.
+~
+1 0 13
+D1
+~
+~
+0 -1 11244
+D3
+~
+~
+0 -1 11246
+S
+#11246
+Sanok Road~
+~
+The road is made up of interlocking bricks. A strange looking building is 
+to the northwest. A small house made of stone is to the south. The cavern 
+encloses the entire city underground. There are wooden poles with hooded 
+lanterns attached set at regular intervals to provide lighting. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11245
+D2
+~
+door~
+1 -1 11269
+D3
+~
+~
+0 -1 11247
+R D 0 11246 2 0
+S
+#11247
+Sanok Road~
+~
+The road is made up of interlocking bricks.  A set of stone slab stairs
+lead north to the open archway of Myrlochar Temple.  The temple has many
+detailed carvings etched into the stonework of the building.  There are
+hooded lanterns mounted to each side of the temple archway.
+~
+1 0 13
+D0
+~
+~
+0 -1 11267
+D1
+~
+~
+0 -1 11246
+D3
+~
+~
+0 -1 11214
+E
+carvings etched ~
+The carvings appear to be some sort of ancient runes of dark power that
+issues a warning to those who would desecrate the temple.
+~
+S
+#11248
+Taupa Avenue~
+~
+The stone slabs are cracked and scratched up throughout the avenue here. A 
+spear with human skulls adorning it is embedded in the ground on the south 
+side of the avenue here. There are small sewer grates on both sides of the 
+avenue to provide sewage a place to drain into. A few skulls are along the 
+avenue side here. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11249
+D2
+~
+~
+0 -1 11261
+D3
+~
+~
+0 -1 11210
+S
+#11249
+Taupa Avenue~
+~
+The stone slabs are broken and stained along the avenue here. A spear with 
+human skulls adorning it is along the south side of the avenue. The inner 
+city lights of a few buildings are visible to the north. A large pole is 
+set into the ground on the south side of the avenue with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11262
+D1
+~
+~
+0 -1 11250
+D2
+~
+~
+0 -1 11332
+D3
+~
+~
+0 -1 11248
+S
+#11250
+Taupa Avenue~
+~
+The old stone slabs are broken, and there are ruts in the avenue here. The 
+spear with human skulls adorning it is on the south side of the avenue 
+here. A few buildings are along the north side of the avenue. A blackened 
+red stain is smeared along the edge here. There are small drains on the 
+sides of the avenue to provide sewage drainage. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11263
+D1
+~
+~
+0 -1 11251
+D2
+~
+door~
+3 -1 11265
+D3
+~
+~
+0 -1 11249
+R D 0 11250 2 1
+S
+#11251
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with human skulls adorning it is on 
+the south side of the avenue. A few buildings are along the avenue sides. 
+A large pole is set into the ground at the avenue sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11264
+D1
+~
+~
+0 -1 11252
+D3
+~
+~
+0 -1 11250
+S
+#11252
+Taupa Avenue~
+~
+The avenue is made out of cracked and scratched up old stone slabs. A 
+spear with human skulls adorning it is on the south side of the avenue. 
+There are small sewer grates on the sides of the avenue to provide sewage 
+to drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the avenue here. 
+~
+1 0 13
+D0
+~
+~
+3 -1 11297
+D1
+~
+~
+0 -1 11238
+D2
+~
+door~
+3 -1 11295
+D3
+~
+~
+0 -1 11251
+R D 0 11252 0 1
+R D 0 11252 2 1
+S
+#11253
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A spear with human 
+skulls adorning it is on the south side of the avenue. There is a wooden 
+sign posted in the ground, with a diagram of the city that is too blurry 
+to read. A cobblestone made house is to the south. A large pole is on the 
+south side of the avenue with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11260
+D1
+~
+~
+0 -1 11210
+D3
+~
+~
+0 -1 11254
+S
+#11254
+Taupa Avenue~
+~
+The avenue is made out of broken stained stone slabs. Some rotten food is 
+in its final stages of decay along the avenue side. A spear with human 
+skulls adorning it is on the south side of the avenue. A section of the 
+spear has been destroyed by something. A large pole is on the north side 
+of the avenue with a hooded lantern attached. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11259
+D1
+~
+~
+0 -1 11253
+D3
+~
+~
+0 -1 11255
+S
+#11255
+Taupa Avenue~
+~
+The avenue is made out of cracked and scratched up old stone slabs. A 
+spear with human skulls adorning it is on the south side of the avenue. 
+There are small sewer grates on the sides of the avenue to provide sewage 
+to drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the avenue here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11258
+D1
+~
+~
+0 -1 11254
+D3
+~
+~
+0 -1 11256
+S
+#11256
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with human skulls adorning it is on 
+the south side of the avenue. A few buildings are along the avenue sides. 
+A large pole is set into the ground at the avenue sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11257
+D1
+~
+~
+0 -1 11255
+D3
+~
+~
+0 -1 11223
+S
+#11257
+Archery Shop~
+~
+The floor is made out of stone slabs. There is a blue rug in the center of 
+the room. various displays are hanging on the walls from wooden shelves. A 
+hooded lantern mounted on opposite sides of the room provides lighting. A 
+large oak desk and chair are at the rear of the shop with a small display 
+setup on it. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11258
+D2
+~
+~
+0 -1 11256
+R M 0 11208 1 11257
+  R G 0 11201 1
+  R G 0 11203 1
+  R G 0 11202 1
+S
+#11258
+Armor Shop~
+~
+The floor has cracked and broken stone slabs among it. There is a green 
+rug in the center of the room. A few displays are hanging on the walls 
+from wooden shelves. A few torches are mounted on opposite sides of the 
+room provides lighting. A large oak desk and chair are in the center of 
+the shop with many displays setup on it. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11259
+D2
+~
+~
+0 -1 11255
+D3
+~
+~
+0 -1 11257
+R M 0 11207 1 11258
+  R G 0 11302 1
+  R G 0 11229 1
+  R G 0 11232 1
+  R G 0 11233 1
+S
+#11259
+Weapons Shop~
+~
+The floor is made out of interlocking bricks. At the center of the floor 
+is a dark blue rug. displays on humanoid dummies are setup throughout the 
+shop. A hooded lantern is on a small wooden desk in the center of the 
+shop. There are a few wooden stools within the shop, and a wooden chair 
+behind the desk. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11260
+D2
+~
+~
+0 -1 11254
+D3
+~
+~
+0 -1 11258
+R M 0 11205 1 11259
+  R G 0 11214 1
+  R G 0 11209 1
+  R G 0 11211 1
+  R G 0 11212 1
+  R G 0 11210 1
+  R G 0 11215 1
+  R G 0 11213 1
+S
+#11260
+Blacksmith Shop~
+~
+Interlocking bricks are used the floor here. A plush golden rug is 
+centered on the floor. There is displays setup throughout the shop on 
+wooden shelves. Two hooded lanterns are suspended from the ceiling to 
+provide lighting. A high backed wooden chair is behind an oak desk in the 
+center of the shop. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11253
+D3
+~
+~
+0 -1 11259
+R M 0 11206 1 11260
+S
+#11261
+Dakar Bank~
+~
+The floor to the bank is made out of decorative tiles that are very well
+maintained.  There are beautiful tapestries hanging from the walls.  A
+series of hooded lanterns adorn the walls for lighting.  A large table
+and chairs are set up in the rear of the bank.
+~
+1 268435456 13
+D0
+~
+~
+0 -1 11248
+R M 0 11209 1 11261
+S
+#11262
+General Supply Store~
+~
+Interlocking bricks are used the floor here. A plush golden rug is 
+centered on the floor. There is displays setup throughout the shop on 
+wooden shelves. Two hooded lanterns are suspended from the ceiling to 
+provide lighting. A high backed wooden chair is behind an oak desk in the 
+center of the shop. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11249
+R M 0 11210 1 11262
+  R G 0 11306 1
+  R G 0 11237 1
+  R G 0 11400 1
+  R G 0 11236 1
+  R G 0 33 1
+  R G 0 11216 1
+  R G 0 11240 1
+  R G 0 11219 1
+  R G 0 11217 1
+  R G 0 11399 1
+S
+#11263
+Mystical Shop~
+~
+The floor is made out of interlocking bricks. At the center of the floor 
+is a dark blue rug. displays on humanoid dummies are setup throughout the 
+shop. A hooded lantern is on a small wooden desk in the center of the 
+shop. There are a few wooden stools within the shop, and a wooden chair 
+behind the desk. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11250
+R M 0 11204 1 11263
+  R G 0 11220 1
+  R G 0 11221 1
+  R G 0 11225 1
+  R G 0 11303 1
+  R G 0 11224 1
+  R G 0 11223 1
+  R G 0 11222 1
+  R G 0 11235 1
+  R G 0 11239 1
+  R G 0 11238 1
+S
+#11264
+Dakar Pawn Shop~
+~
+The floor has cracked and broken stone slabs among it. There is a green 
+rug in the center of the room. A few displays are hanging on the walls 
+from wooden shelves. A few torches are mounted on opposite sides of the 
+room provides lighting. A large oak desk and chair are in the center of 
+the shop with many displays setup on it. 
+~
+1 1024 13
+D2
+~
+~
+0 -1 11251
+R M 0 11211 1 11264
+S
+#11265
+Animal Trade Shop~
+~
+A large wooden barn like structure, there is a massive pile of stacked
+hay in the rear.  Several stalls of various animals are also located
+to the rear of the bar.  A small hooded lantern hangs from the ceiling
+to provide lighting.
+~
+1 4096 13
+D0
+~
+door~
+3 -1 11250
+R M 0 11202 1 11265
+R D 0 11265 0 1
+S
+#11266
+Pet Storage~
+~
+~
+1 3145748 13
+R M 0 11201 1 11266
+R M 0 11225 1 11266
+R M 0 11241 1 11266
+R M 0 11242 1 11266
+R M 0 11226 1 11266
+R M 0 11243 1 11266
+R M 0 11227 1 11266
+S
+#11267
+Myrlochar Temple~
+~
+Inside the building there are beautiful tapestries hanging from the walls. 
+A small statue of a beautiful naked half woman half spider is embedded in 
+the archway that leads north. Large spikes on both sides of the archway 
+have humanoid skulls impaled on them. A hooded lantern is mounted to the 
+west wall to provide lighting.
+~
+1 4 13
+D0
+~
+~
+0 -1 11268
+D1
+~
+~
+0 -1 11298
+D2
+~
+~
+0 -1 11247
+S
+#11268
+Altar of Lloth~
+~
+The massive room seems to shimmer with an eerie glow.  There is a golden
+altar against the north wall, that is stained with thick dried blood now
+a black color.  There are humanoid skulls covering the entire ground.  A
+painting of a beautiful woman in a sheer gown is behind the altar.
+~
+1 1028 13
+D2
+~
+~
+0 -1 11267
+R M 0 11200 1 11268
+R O 0 11243 1 11268
+> pre_enter_prog 100~
+if isimmort($n)
+mppause 3
+else
+if htown($n) != Dakar City
+mpat $n mpechoat $n &WA wall of force shimmers as you attempt to go north, blocking your path.
+abort
+endif
+endif
+~
+|
+S
+#11269
+Within a Small House~
+~
+The dwelling appears to have been recently vacated.  There are no personal
+items still in place in the house.  A terrible smell fills the air from
+a heavy mold growth covering the walls.  There are various items of trash
+laying about on the ground.  A broken chair is against the wall.
+~
+1 4 13
+D0
+~
+door~
+1 -1 11246
+R D 0 11269 0 0
+S
+#11270
+Within the Gate House~
+~
+&bThe walls of the gate house are smooth with no seams, and jet black in
+color.  There is a chandelier hanging from the ceiling made up of flesh
+and bones.  There are several kill ports in the entry wall for archers.
+A few oak high back chairs are against the walls.
+~
+1 4 13
+D1
+~
+door~
+3 -1 11271
+D2
+~
+~
+0 -1 11273
+D3
+~
+Double Doors~
+3 -1 11227
+R M 0 11214 1 11270
+R D 0 11270 1 1
+R D 0 11270 3 1
+S
+#11271
+The Barracks~
+~
+&bThe massive room is filled with beds.  Each bed has a foot locker that
+is underneath it.  A large fire place is at the north wall.  There is a
+cauldron setup within it.  A few hooded lanterns are mounted to the walls.
+The walls are jet black colored and smooth to touch.
+~
+1 4 13
+D2
+~
+door~
+3 -1 11272
+D3
+~
+door~
+3 -1 11270
+R M 0 11216 1 11271
+R D 0 11271 2 1
+R D 0 11271 3 1
+S
+#11272
+The Armory ~
+~
+&bThe room is filled with wooden racks that hold weapons and various types 
+of armor. The wall and floor are jet black in color, and are made out of 
+smooth stone. A few lanterns are mounted to the walls to provide lighting. 
+A chest lies in the southeastern corner.
+~
+1 4 13
+D0
+~
+door~
+3 -1 11271
+R O 0 11241 1 11272
+R D 0 11272 0 1
+S
+#11273
+Sitting Room~
+~
+&bThere are oak high backed chairs scattered about the room. A few lavish 
+tapestries hang from the jet black walls. A chandelier made out of flesh 
+and bones hangs from the ceiling above to provide lighting. A small oak 
+table sits against the far wall. 
+~
+1 4 13
+D0
+~
+~
+0 -1 11270
+D4
+~
+~
+0 -1 11274
+S
+#11274
+Second Floor Entry~
+~
+&bThe walls are jet black in color with no seams in the stone. A large oak 
+bench is against the wall. There are hooded lanterns attached to the 
+walls. A strange shaped iron rack hangs from above. The iron rack has a 
+decomposing body strapped to it. 
+~
+1 4 13
+D1
+~
+~
+0 -1 11275
+D4
+~
+~
+0 -1 11278
+D5
+~
+~
+0 -1 11273
+S
+#11275
+The Dining Room~
+~
+&bThe jet black walls are almost completely covered by giant paintings
+depicting scenes of different battles.  A chandelier made out of flesh
+and bones hangs from the ceiling.  A large oak table, and several high
+backed chairs are centered in the room.
+~
+1 4 13
+D0
+~
+~
+0 -1 11276
+D3
+~
+~
+0 -1 11274
+S
+#11276
+The Kitchen~
+~
+&bThere are oak shelves on the walls, holding various types of cooking 
+equipment. A large fire place is against the north wall with a large 
+cauldron in it. Various spice jars, and ingredients are on a small table. 
+There are hooded lanterns mounted to the walls for lighting. 
+~
+1 4 13
+D2
+~
+~
+0 -1 11275
+D3
+~
+~
+0 -1 11277
+S
+#11277
+The Wine Cellar~
+~
+&bThere are piles of oak shelves lining the walls with various dusty wine 
+bottles in them. A small pantry shelf is against the west wall, to store 
+dried foods. There are hooded lanterns attached to the walls to provide 
+lighting. A small foot stool is beside the shelves. 
+~
+1 4 13
+D1
+~
+~
+0 -1 11276
+S
+#11278
+Third Floor Entry~
+~
+&bThe jet black stone walled room has a painting of Tanzean'al leading a 
+horde of demons in battle. There are hooded lanterns mounted to the walls 
+for lighting. A large table fashioned from human skulls is in the center 
+of the room. An oak high back chair is beside the table. 
+~
+1 4 13
+D0
+~
+~
+0 -1 11279
+D4
+~
+~
+0 -1 11282
+D5
+~
+~
+0 -1 11274
+S
+#11279
+The Meeting Room~
+~
+&bThe jet black walled room, has several tapestries hanging from it. The 
+save walls have hooded lanterns mounted to them to provide lighting. A 
+massive oak table is in the center of the room with oak high backed chairs 
+against it. A map of the continent displays the enemies position.
+~
+1 4 13
+D1
+~
+~
+0 -1 11280
+D2
+~
+~
+0 -1 11278
+S
+#11280
+Elite Barracks~
+~
+&bThe barracks walls are jet black in color, and smooth to the touch. 
+There are beds uniformly aligned throughout the room. Large foot lockers 
+are under each bed. A chandelier made out of flesh and bones hangs from 
+the ceiling. A large sign written in dark tongue is on the walls. 
+~
+1 4 13
+D2
+~
+~
+0 -1 11281
+D3
+~
+~
+0 -1 11279
+S
+#11281
+The Armory~
+~
+&bThe armory walls are jet black in color, and covered in oak wooden 
+shelves. There are weapon racks set up all along the floor, as well as 
+heavy oak chests. The wooden shelves hold various pieces of armor, and 
+equipment. A small bin is filled with dried food. A hooded lantern hangs 
+from the ceiling. 
+~
+1 4 13
+D0
+~
+~
+0 -1 11280
+S
+#11282
+Fourth Floor Entry~
+~
+&bThere are oak high backed chairs scattered about the room. A few lavish 
+tapestries hang from the jet black walls. A chandelier made out of flesh 
+and bones hangs from the ceiling above to provide lighting. A small oak 
+table sits against the far wall.
+~
+1 4 13
+D0
+~
+~
+0 -1 11283
+D1
+~
+door~
+1 -1 11285
+D4
+~
+~
+0 -1 11286
+D5
+~
+~
+0 -1 11278
+R D 0 11282 1 0
+S
+#11283
+Hallway~
+~
+&bThe hallway has a series of humanoid skulls that hang from the top of 
+the jet black colored walls. There are hooded lanterns mounted to the 
+walls to provide lighting. A few tapestries hang from the walls. A small 
+table has a wash basin on it. 
+~
+1 4 13
+D1
+~
+door~
+1 -1 11284
+D2
+~
+~
+0 -1 11282
+R D 0 11283 1 0
+S
+#11284
+Guest Bedroom~
+~
+&bThe circular room has a small bed against the far wall. There is a large 
+chest at the foot of the bed. There are small paintings hanging from the 
+walls. A few hooded lanterns are mounted on small wooden stands. 
+~
+1 4 13
+D3
+~
+door~
+1 -1 11283
+R D 0 11284 3 0
+S
+#11285
+Guest Bedroom~
+~
+&bThe circular room has a small bed against the far wall. There is a large 
+chest at the foot of the bed. There are small paintings hanging from the 
+walls. A few hooded lanterns are mounted on small wooden stands. 
+~
+1 4 13
+D3
+~
+door~
+1 -1 11282
+R D 0 11285 3 0
+S
+#11286
+Fifth Floor Entry~
+~
+&bA small but exquisite altar is against the east wall.  There are five
+humanoid skulls on a shelf above it, that has gold gilding on the edges.
+A dark black colored stain that is thick in substance is on the altar.
+There are torches mounted to the walls to provide lighting.
+~
+1 4 13
+D0
+~
+~
+0 -1 11287
+D1
+~
+door~
+1 -1 11289
+D4
+~
+~
+0 -1 11290
+D5
+~
+~
+0 -1 11282
+R D 0 11286 1 0
+S
+#11287
+Hallway~
+~
+&bThe hallway has intricate stone carvings along the walls depicting 
+horrors that should have been forgotten. The ceiling is covered with long 
+spikes that have some crushed skulls stuck to them. The walls have torches 
+mounted to them to provide lighting. 
+~
+1 4 13
+D1
+~
+door~
+1 -1 11288
+D2
+~
+~
+0 -1 11286
+R D 0 11287 1 0
+S
+#11288
+Master Bedroom~
+~
+&bThere are black suits of plate mail poised with swords at each corner of
+the room.  A large chandelier hangs from the ceiling to provide lighting
+over an enormous bed.  There are book shelves along the walls filled with
+arcane types of books.  A large blood red rug is centered over the floor.
+~
+1 4 13
+D3
+~
+door~
+1 -1 11287
+R M 0 11239 1 11288
+R D 0 11288 3 0
+S
+#11289
+Guest Bedroom~
+~
+&bA hooded lantern is on top of a statue of a goblin holding the skull
+of a elf.  A small bed is against the far wall.  There is a dark blue
+rug centered in the floor.  A small table is next to the bed.
+~
+1 4 13
+D3
+~
+door~
+1 -1 11286
+R D 0 11289 3 0
+S
+#11290
+Antechamber ~
+~
+&bThe room is filled with mystical objects, and a unknown presence.  A large
+hooded lantern is suspended from the ceiling.  There are several skeletons
+standing in the rooms like guards over this strange room.  A small fireplace 
+is against the far wall of the room.
+~
+1 4 13
+D0
+~
+~
+0 -1 11291
+D5
+~
+~
+0 -1 11286
+S
+#11291
+Observatory~
+~
+&bThe entire observatory is built to be used with a massive window. The 
+window is the size of a room wall, and magnifies images seen through it. 
+The entire Dakar Central can be viewed from the window. There are hooded 
+lanterns mounted to the walls to provide lighting. 
+~
+1 4 13
+D1
+~
+~
+0 -1 11292
+D2
+~
+~
+0 -1 11290
+E
+window~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+E
+gate~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped 
+around it. The size of the gate resembles the size of a large house. A 
+massive iron chain is connected to the gate. Large gears on a type of 
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+inner~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped
+around it. The size of the gate resembles the size of a large house. A
+massive iron chain is connected to the gate. Large gears on a type of
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+observatory~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped
+around it. The size of the gate resembles the size of a large house. A
+massive iron chain is connected to the gate. Large gears on a type of
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+dakar~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+E
+central~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+S
+#11292
+The Library~
+~
+&bThe walls are covered with book shelves. A large chandelier hangs from 
+the ceiling above to provide lighting. A large oak table and some chairs 
+have been setup in the center of the room. 
+~
+1 4 13
+D2
+~
+~
+0 -1 11293
+D3
+~
+~
+0 -1 11291
+S
+#11293
+The Study~
+~
+&bA massive room with thick red carpeting along the floor. There are 
+hooded lanterns mounted to the walls to provide lighting. A few exotic 
+paintings decorate the walls. There are some cushioned high backed chairs 
+along the walls of the room. 
+~
+1 4 13
+D0
+~
+~
+0 -1 11292
+S
+#11294
+The Training Centre~
+~
+The room is a vast circular shaped room.  There are large mats made out
+of straw on the floors.  A few racks of various types of weapons are
+along the walls.  There are torches mounted to the walls to provide the
+lighting.  A small sign is on the far wall.
+~
+1 4 13
+D1
+~
+~
+0 -1 11240
+R M 0 11212 1 11294
+E
+sign~
+Use your brains, and live longer.
+~
+S
+#11295
+Dead Goblin Tavern~
+~
+The tavern is filled with tables and chairs.  The floor is made out of
+solid cobblestones.  There are shelves of various liquors behind the
+oak bar table in the rear of the tavern.  Plaques to very important now
+dead goblins are hanging on the walls.
+~
+1 4 13
+D0
+~
+door~
+3 -1 11252
+R M 0 11213 1 11295
+  R G 0 11307 1
+  R G 0 11305 1
+  R G 0 11234 1
+  R G 0 11304 1
+R M 0 11228 1 11295
+R D 0 11295 0 1
+S
+#11296
+The Gladiator Pit~
+~
+The walls are covered with a slippery grease type substance.  A large
+oak gate appears to be mechanically operated.  There are piles of old
+bones and skeletons littering the ground.
+~
+1 3145732 13
+> speech_prog recall~
+mptrans $n 11294
+mppause 4
+mpat 11294 mpforce $n look
+~
+> rand_prog 60~
+mpecho &cType &WSAY RECALL &cto exit the pit.&D
+~
+|
+S
+#11297
+An Office~
+~
+A richly decorated office table and chair are set in a richly decorated
+room. The fireplace in the west wall crackles loudly. There are a lot of
+figurines scattered around the room, and a few maps tacked on the eastern
+wall across from the fireplace.
+~
+1 4 13
+D2
+~
+~
+3 -1 11252
+R M 0 11219 1 11297
+  R E 0 11397 1 4
+  R E 0 11397 1 3
+  R E 0 11296 1 5
+  R E 0 11396 1 8
+  R E 0 11295 1 6
+  R E 0 11395 1 22
+  R E 0 11394 1 16
+R D 0 11297 2 1
+S
+#11298
+Hall of the Dead~
+~
+A bleak looking charred black brick room. There is a strange looking glyph 
+on the ground, and several candles are on shelves surrounding the room. A 
+humanoid skull decorates a wooden bench. 
+~
+1 4 13
+D3
+~
+~
+0 -1 11267
+R M 0 11220 1 11298
+S
+#11299
+Trade Skill Denizens~
+~
+The iron gate entrance to the facility expands on the vastness of the 
+building.  The floor is made up of long oak planks.  There are hooded
+lanterns hanging from the ceilings to provide lighting.  A small oak
+desk is in the center of this room.
+~
+1 1073741824 1
+D0
+~
+double gates~
+1 -1 11217
+D1
+~
+~
+0 -1 11400
+D2
+~
+~
+0 -1 11300
+R M 0 11222 1 11299
+  R G 0 11251 1
+  R G 0 11300 1
+  R G 0 11248 1
+  R G 0 11247 1
+  R G 0 11250 1
+  R G 0 11249 1
+  R G 0 11299 1
+R D 0 11299 0 0
+S
+#11300
+A Culinary Room~
+~
+There are cabinets all along the walls. A few side tables are setup in key 
+positions. A medium size wood stove is against the far wall. There are 
+many pots and pans hanging from the ceiling. A couple hooded lanterns 
+provide lighting within the room. 
+~
+1 1073758208 0
+D0
+~
+~
+0 -1 11299
+D1
+~
+~
+0 -1 11301
+D3
+~
+~
+0 -1 11302
+D4
+~
+~
+0 -1 11308
+D5
+~
+~
+0 -1 11303
+R O 0 11298 1 11300
+S
+#11301
+A Culinary Room~
+~
+There are cabinets all along the walls. A few side tables are setup in key 
+positions. A medium size wood stove is against the far wall. There are 
+many pots and pans hanging from the ceiling. A couple hooded lanterns 
+provide lighting within the room. 
+~
+1 1073758208 0
+D3
+~
+~
+0 -1 11300
+D4
+~
+~
+0 -1 11309
+D5
+~
+~
+0 -1 11304
+R O 0 11298 1 11301
+S
+#11302
+A Culinary Room~
+~
+There are cabinets all along the walls. A few side tables are setup in key 
+positions. A medium size wood stove is against the far wall. There are 
+many pots and pans hanging from the ceiling. A couple hooded lanterns 
+provide lighting within the room. 
+~
+1 1073758208 0
+D1
+~
+~
+0 -1 11300
+D4
+~
+~
+0 -1 11307
+D5
+~
+~
+0 -1 11305
+R O 0 11298 1 11302
+S
+#11303
+A Smithy Workshop~
+~
+The workstation has a large forge in the rear. There is an anvil mounted to 
+the floor next to the forge. Several types of bending and shaping tools 
+are hanging from the walls. A few hooded lanterns provide the lighting 
+within the room. 
+~
+1 1073758208 0
+D1
+~
+~
+0 -1 11304
+D3
+~
+~
+0 -1 11305
+D4
+~
+~
+0 -1 11300
+R O 0 11297 1 11303
+S
+#11304
+A Smithy Workshop~
+~
+The workstation has a large forge in the rear. There is an anvil mounted to 
+the floor next to the forge. Several types of bending and shaping tools 
+are hanging from the walls. A few hooded lanterns provide the lighting 
+within the room. 
+~
+1 1073758208 0
+D3
+~
+~
+0 -1 11303
+D4
+~
+~
+0 -1 11301
+R O 0 11297 1 11304
+S
+#11305
+A Smithy Workshop~
+~
+The workstation has a large forge in the rear. There is an anvil mounted to 
+the floor next to the forge. Several types of bending and shaping tools 
+are hanging from the walls. A few hooded lanterns provide the lighting 
+within the room. 
+~
+1 1073758208 0
+D1
+~
+~
+0 -1 11303
+D4
+~
+~
+0 -1 11302
+R O 0 11297 1 11305
+S
+#11306
+Office of the City Manager~
+~
+There are oak high backed chairs scattered about the room. A few lavish 
+tapestries hang from the jet black walls. A chandelier made out of flesh 
+and bones hangs from the ceiling above to provide lighting. A small oak 
+table sits against the far wall. 
+~
+1 4 13
+D1
+~
+arched doorway~
+3 -1 11237
+R M 0 11223 1 11306
+R D 0 11306 1 1
+S
+#11307
+A Tannery Room~
+~
+There are shelves along the walls. A few side tables are setup with 
+various size mixing bowels. Bottles with various liquids are within the 
+shelves. A few hooded lanterns are mounted to the walls to provide 
+lighting within the room. 
+~
+1 1073758220 0
+D1
+~
+~
+0 -1 11308
+D5
+~
+~
+0 -1 11302
+S
+#11308
+A Tannery Room~
+~
+There are shelves along the walls. A few side tables are setup with 
+various size mixing bowels. Bottles with various liquids are within the 
+shelves. A few hooded lanterns are mounted to the walls to provide 
+lighting within the room. 
+~
+1 1073758220 0
+D1
+~
+~
+0 -1 11309
+D3
+~
+~
+0 -1 11307
+D5
+~
+~
+0 -1 11300
+S
+#11309
+A Tannery Room~
+~
+There are shelves along the walls. A few side tables are setup with 
+various size mixing bowels. Bottles with various liquids are within the 
+shelves. A few hooded lanterns are mounted to the walls to provide 
+lighting within the room. 
+~
+1 1073758216 0
+D3
+~
+~
+0 -1 11308
+D5
+~
+~
+0 -1 11301
+S
+#11332
+The Craftsman Shop~
+~
+The floor has cracked and broken stone slabs among it. There is a green 
+rug in the center of the room. A few displays are hanging on the walls 
+from wooden shelves. A few torches are mounted on opposite sides of the 
+room provides lighting. A large oak desk and chair are in the center of 
+the shop with many displays setup on it. 
+~
+1 4 13
+D0
+~
+~
+0 -1 11249
+R M 0 11221 1 11332
+S
+#11333
+A Prisoner Holding Area~
+~
+There are solid bricks around a chamber that has prison cells along the
+walls.  There are burly troll guards patrolling the cells.  A puddle of
+dried blood is in the center of the holding area.
+~
+1 1073741828 1
+D1
+~
+~
+16777216 -1 11239
+S
+#11334
+An Abandoned Warehouse~
+~
+There are piles of empty containers stacked throughout the old warehouse. 
+Cobwebs, and dust cover everything in a thick layer. A small hooded 
+lantern hangs over an oak desk and chair that have been cleaned up. 
+~
+1 1073741828 1
+D3
+~
+barricaded door~
+3 -1 11242
+R M 0 11218 1 11334
+R M 0 11236 1 11334
+R D 0 11334 3 1
+S
+#11400
+Crafted Item Shop~
+~
+There are shelves upon shelves of crafted items available for sale. A 
+large oak desk is at the rear of the shop with a high back chair behind 
+it. There is a dark red rug centered over the stone floor here. 
+~
+1 4 13
+D3
+~
+~
+0 -1 11299
+R M 0 11237 1 11400
+S
+#0
+
+
+#SHOPS
+ 11202    0  0  0  0  0   120  90         0 23    ; Gyakas, the animal trainer
+ 11204    0  0  0  0  0   120  90         0 23    ; Warlock Dralak
+ 11205    0  0  0  0  0   120  90         0 23    ; Daktar, the weaponsmith
+ 11207    0  0  0  0  0   120  90         0 23    ; Armorsmith Rautal
+ 11208    0  0  0  0  0   120  90         0 23    ; an archery dealer
+ 11210    0  0  0  0  0   120  90         0 23    ; An Orc Supply Trader
+ 11211    5  9  3  4  8   150  10         0 23    ; pawn dealer Warz
+ 11213    0  0  0  0  0   120  90         0 23    ; Barkeeper Korlok
+ 11222    0  0  0  0  0   120  90         0 23    ; Guild Master Vecnia
+ 11237    5  9 19 17  0   120  90         0 23    ; Shopkeeper Naevas
+0
+
+
+#REPAIRS
+ 11206    3  9  5         100   1         0 23    ; Takarz, the blacksmith
+0
+
+
+#SPECIALS
+M  11200 spec_cast_adept
+S
+
+
+#$

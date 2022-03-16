@@ -1,0 +1,457 @@
+#VNUM 57008
+#OBJECT
+Name         bottomless pit~
+ShortDescr   &za &rb&zo&rt&wt&ro&zm&rl&we&zs&rs &zp&wi&rt&d~
+Description  &za &rb&zo&rt&wt&ro&zm&rl&we&zs&rs &zp&wi&rt&d has been left here along the ground.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Weight       8
+Level        100
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       1000 1 0 12 6 30 0
+AffectData   'acid breath' -1 5 4 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 20 13 0
+ExtraDescr   hardened-backpack~ &CThis tanned item bears the seal of Thorne, the master tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Name         cloak shadows~
+ShortDescr   &za &rcloak &zof &cshadows&d~
+Description  A &za &rcloak &zof &cshadows&d has been left here along the ground.~
+Vnum         41002
+WearFlags    1025
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       24 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   cape~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bloodstone ring~
+ShortDescr   &za &rblood&c-&wstone &cring&d~
+Description  A &za &rblood&c-&wstone &cring&d has been left here along the ground.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       25 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bloodstone ring~
+ShortDescr   &za &rblood&c-&wstone &cring&d~
+Description  A &za &rblood&c-&wstone &cring&d has been left here along the ground.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       25 30 0 400 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         spiked collar~
+ShortDescr   &za &rspiked &ccollar&d~
+Description  A &za &rspiked &ccollar&d has been left here along the ground.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       23 30 0 400 777 30 5
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         spiked collar~
+ShortDescr   &za &rspiked &ccollar&d~
+Description  A &za &rspiked &ccollar&d has been left here along the ground.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       24 30 0 400 777 30 5
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         voices violence~
+ShortDescr   &zthe &rvoices &zof &cviolence&d~
+Description  A &zthe &rvoices &zof &cviolence&d has been left here along the ground.~
+Vnum         41002
+WearFlags    65537
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       22 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   ear-stud~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bracers belial~
+ShortDescr   &zthe &rbracers &zof &cbelial&d~
+Description  A &zthe &rbracers &zof &cbelial&d has been left here along the ground.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       25 30 10982 400 777 30 15
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bracers belial~
+ShortDescr   &zthe &rbracers &zof &cbelial&d~
+Description  A &zthe &rbracers &zof &cbelial&d has been left here along the ground.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       21 30 10982 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 -9 17 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         boots malevolence~
+ShortDescr   &zthe &rboots &zof &cmalevolence&d~
+Description  A &zthe &rboots &zof &cmalevolence&d has been left here along the ground.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       22 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 10 13 0
+ExtraDescr   sandals~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         pentagram tattoo~
+ShortDescr   &za &rpentagram &ctattoo&d~
+Description  A &za &rpentagram &ctattoo&d has been left here along the ground.~
+Vnum         41002
+WearFlags    257
+ItemType     9
+Weight       8
+Level        31
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       25 30 30 400 777 30 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   leather-armlets~ &CThis tanned item bears the seal of Vycon, the master tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Name         visions chaos~
+ShortDescr   &zthe &rvisions &zof &cchaos&d~
+Description  A &zthe &rvisions &zof &cchaos&d has been left here along the ground.~
+Vnum         41002
+WearFlags    131073
+ItemType     9
+Weight       8
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       24 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 9 13 0
+ExtraDescr   fullplate-visor~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         greaves grief~
+ShortDescr   &zthe &rgreaves &zof &cgrief&d~
+Description  A &zthe &rgreaves &zof &cgrief&d has been left here along the ground.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       25 30 10983 400 777 30 15
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   leggings~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         blood cuirass~
+ShortDescr   &za &rblood&c-&wstained &ccuirass&d~
+Description  A &za &rblood&c-&wstained &ccuirass&d has been left here along the ground.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       22 30 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 7 17 0
+ExtraDescr   fullplate-suit~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         horns demon~
+ShortDescr   &zthe &rhorns &zof a &cdemon&d~
+Description  A &zthe &rhorns &zof a &cdemon&d has been left here along the ground.~
+Vnum         41002
+WearFlags    17
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       26 30 0 400 777 0 888
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   crown~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16721
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       32 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11518
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11511
+Level        55
+Currtype     2
+Size   3
+Values       12 30 60 4 5 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26010
+Level        28
+Currtype     4
+Color        4
+Size   0
+Values       300 0 0 10 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11519
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11542
+Level        75
+Currtype     1
+Size   0
+Values       10 40 80 1 2 0 40
+End
+
+#OBJECT
+Nest         1
+Vnum         67
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11518
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         circlet andariel~
+ShortDescr   &zthe &rcirclet &zof &candariel&d~
+Description  A &zthe &rcirclet &zof &candariel&d has been left here along the ground.~
+Vnum         41002
+WearFlags    2097153
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       24 30 10982 400 777 30 15
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 9 13 0
+AffectData   'acid breath' -1 -9 17 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         circlet andariel~
+ShortDescr   &zthe &rcirclet &zof &candariel&d~
+Description  A &zthe &rcirclet &zof &candariel&d has been left here along the ground.~
+Vnum         41002
+WearFlags    2097153
+ItemType     9
+Weight       2
+Level        31
+Cost         25
+Currtype     1
+Size   0
+Values       22 30 10982 400 777 30 15
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   77
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11541
+Level        79
+Currtype     1
+Size   77
+Values       55 55 0 0 0 0 0
+End
+
+#END

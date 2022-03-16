@@ -1,0 +1,235 @@
+#AREA        test~
+
+
+
+#VERSION     9
+#AUTHOR      Ludum~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+50500
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 0 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#1300
+The Questing Quail~
+a newly created first mob~
+The Questing Quail pecks at the ground here.
+~
+Towering over you is a giant quail. It's feathers are as hard as steel and they clink
+and clank when the great beast moves. Hollow, black eyes are set forward in this bird's
+skull, implying that it was created to be a predator. Razor sharp talons adorn this
+creature's feet, and you can see thumb-like talons protruding from its wing-tips.
+Blood stains this nightmare's beak, as it opens it to roar in defiance at you!
+~
+1
+clanname none~
+0
+0
+1 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+15 10 10 25 25 5 20
+0 0 0 0 0
+39 4 0 0 0 0 0
+0 0 0 0 0 0 1073741827&64 34078722
+#1349
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1300
+Candy Cane~
+A Candy Cane~
+A delicious looking Candy Cane is resting on the ground.~
+&GC&Rh&Gr&Ri&Gs&Rt&Gm&Ra&Gs&R music can be heard in the distance, as &wsnow&R begins to fall.~
+26 0 1
+100 -1 -1 -1 0 0 0
+1 0 0
+4
+3
+'sanctuary' 'fireshield' 'iceshield'
+S 0 0
+> use_prog 100~
+mpechoat $n &RYou begin to radiate &GChristmas &Rcheer!&D
+mpechoar $n &R$n devours a &wcandy cane&R and begins to radiate &GChristmas&R cheer!
+~
+|
+#1301
+snow globe~
+A Snow Globe~
+A globe depicting the celebration of yule lies on the ground here.~
+~
+9 0 16385
+2 2 1 108 0 0 0
+1 56 5
+4
+0
+S 0 0
+> wear_prog 100~
+mpechoat $n &RAs you shake the &wSnow &GGlobe&R you begin to take on the properties of a &GChristmas Tree!
+mpechoar $n &RAs $n shakes the &wSnow &GGlobe&R they begin to look like a &GChristmas Tree!&D
+mppause 5
+cast armor $n
+cast sanctuary $n
+cast 'willow skin' $n
+c heroism $n
+mpechoat $n &OYour skin becomes as hard as bark, allowing you to take more damage!
+mpechoar $n &O$n's skin becomes as hard as bark, and they look a lot stronger!
+mppause 7
+mpforce $n remove globe
+mppause 2
+mpecho &RWith its magic spent, the &wSnow &GGlobe&R vanishes into thin air!
+mppurge $n globe
+~
+|
+#1349
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+S 0 0
+#0
+
+
+#ROOMS
+#1300
+&zT&wh&We &cQ&Cu&ze&Ws&wt&cm&Ca&zs&Wt&we&cr'&Cs &zD&ce&Wn&D~
+Not Assigned~
+You are standing in an immense cavern deep inside the earth. The smell of fresh
+blood and dirt permeate the air here. Trophies and medals are seen strewn about
+the floor of this terribly unorganized living space. A desk sits in the far
+corner, covered in a layer of dust from centuries of neglect. An arcane workstation
+is glowing with an eerie light. A sizable hole is seen in the heighest part of the wall
+to the south, letting the light of the sun filter in and illuminate this dreadful place.
+~
+1 3145728 1
+D2
+~
+~
+0 -1 1200
+S
+#1301
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#1302
+Floating in a void~
+Not Assigned~
+~
+1 16777216 1
+D0
+~
+~
+0 -1 1305
+D1
+~
+~
+0 -1 1303
+D2
+~
+~
+0 -1 63001
+D3
+~
+~
+0 -1 1304
+S
+#1303
+Floating in a void~
+Not Assigned~
+~
+1 16777216 1
+D3
+~
+~
+0 -1 1302
+S
+#1304
+Floating in a void~
+Not Assigned~
+~
+1 16777216 1
+D1
+~
+~
+0 -1 1302
+S
+#1305
+Floating in a void~
+Not Assigned~
+~
+1 16777216 1
+D2
+~
+~
+0 -1 1302
+S
+#1349
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

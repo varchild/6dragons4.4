@@ -1,0 +1,93 @@
+Name           Beastmaster~
+Filename       Beast~
+Class          31
+Starting       1
+AttrPrime      1
+AttrSecond     0
+AttrDeficient  0
+Races          516096
+Nocombo        0
+Reclass        0 0 0
+Skilladept     0
+Thac0          0
+Thac32         0
+Hpmin          65
+Hpmax          85
+ManaMin        10
+ManaMax        20
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'backhand' 20 95
+Skill 'bear spirit' 22 95
+Skill 'beast meld' 9 95
+Skill 'bull spirit' 4 95
+Skill 'clawed hands' 72 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'dodge' 2 95
+Skill 'dual wield' 17 95
+Skill 'elbow' 32 95
+Skill 'ferocious strike' 58 95
+Skill 'fifth attack' 85 95
+Skill 'find water' 7 95
+Skill 'find weakness' 88 95
+Skill 'flint fire' 1 95
+Skill 'fourth attack' 42 95
+Skill 'headbutt' 44 95
+Skill 'hone claws' 28 95
+Skill 'infectious claws' 38 95
+Skill 'infrasion' 3 95
+Skill 'join' 14 95
+Skill 'keen eye' 13 95
+Skill 'kick' 10 95
+Skill 'lore' 12 95
+Skill 'net' 35 95
+Skill 'parry' 3 95
+Skill 'pounce' 90 95
+Skill 'punch' 1 95
+Skill 'restring' 1 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'share' 11 95
+Skill 'sharpen' 1 95
+Skill 'shroud spirit' 15 95
+Skill 'sixth attack' 92 95
+Skill 'slice' 1 95
+Skill 'smell' 8 95
+Skill 'spirit travel' 52 95
+Skill 'stalk prey' 6 95
+Skill 'swim' 1 95
+Skill 'tame' 5 95
+Skill 'third attack' 25 95
+Skill 'wolf spirit' 40 95
+Skill '1h bludgeons' 1 95
+Skill '1h long blades' 1 95
+Skill '1h short blades' 1 95
+Skill 'archery' 1 95
+Skill 'flails' 1 95
+Skill 'polearms' 1 95
+Skill 'pugilism' 1 95
+Skill 'staves' 1 95
+Skill 'whips' 1 95
+Skill 'celestial' 1 95
+Skill 'centaurian' 1 95
+Skill 'common' 1 95
+Skill 'demonic' 1 95
+Skill 'draconic' 1 95
+Skill 'dwarven' 1 95
+Skill 'elven' 1 95
+Skill 'gnomish' 1 95
+Skill 'goblic' 1 95
+Skill 'hobbit' 1 95
+Skill 'infernal' 1 95
+Skill 'ogrian' 1 95
+Skill 'orcish' 1 95
+Skill 'pixish' 1 95
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

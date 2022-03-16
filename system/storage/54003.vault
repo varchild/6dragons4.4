@@ -1,0 +1,326 @@
+#VNUM 54003
+#OBJECT
+Vnum         27007
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         27043
+Level        1
+Currtype     3
+Color        11
+Size   0
+Values       15 48 -1 -1 0 1 0
+Spell 1      'cure serious'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        108
+Currtype     4
+Color        14
+Size   0
+Values       20 25 45 159 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        108
+Currtype     2
+Color        9
+Size   0
+Values       15 45 45 125 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         27046
+Level        5
+Currtype     4
+Color        7
+Size   0
+Values       2 50 -1 -1 0 5 0
+Spell 1      'dark blessings'
+End
+
+#OBJECT
+Nest         1
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 167 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 110 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        9
+Currtype     2
+Color        9
+Size   0
+Values       15 45 45 125 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        12
+Currtype     2
+Color        9
+Size   0
+Values       15 45 45 125 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        11
+Currtype     2
+Color        9
+Size   0
+Values       15 45 45 125 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        4
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 125 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        7
+Currtype     4
+Color        14
+Size   0
+Values       20 25 45 159 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 25 45 159 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 45 159 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        8
+Currtype     4
+Color        14
+Size   0
+Values       20 25 45 159 0 0 0
+Spell 1      'bless'
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       10 110 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Nest         1
+Vnum         27043
+Level        1
+Currtype     3
+Color        11
+Size   0
+Values       15 48 -1 -1 0 1 0
+Spell 1      'cure serious'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        10
+Currtype     2
+Color        9
+Size   0
+Values       15 45 45 125 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Vnum         16244
+Cost         6
+Currtype     4
+Color        1
+Craft3       1000
+Craft4       1000
+Craft8       1000
+Craft9       1000
+Craft13       1000
+Craft14       1000
+Craft17       1000
+Craft18       1000
+Craft19       716
+Size   0
+Values       0 0 0 0 0 0 3
+End
+
+#OBJECT
+Vnum         16071
+Level        1
+Currtype     2
+Color        1
+Size   3
+Values       700 0 0 12 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16241
+Level        20
+Currtype     3
+Color        5
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         5103
+Level        1
+Currtype     4
+Color        9
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         67
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         2111
+Level        10
+Currtype     4
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         10815
+Level        34
+Currtype     3
+Size   0
+Values       30 30 0 0 0 34 0
+End
+
+#OBJECT
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         3760
+Level        70
+Currtype     1
+Size   3
+Values       12 35 70 5 3 70 6
+End
+
+#OBJECT
+Name         mix~
+ShortDescr   a watery mix~
+Description  A powdery mix has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#END

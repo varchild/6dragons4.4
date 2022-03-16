@@ -1,0 +1,20 @@
+#VNUM 65005
+#OBJECT
+Vnum         28293
+Level        1
+Cost         0
+Currtype     1
+Color        14
+Size   3
+End
+
+#OBJECT
+Vnum         40029
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#END

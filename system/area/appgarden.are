@@ -1,0 +1,1515 @@
+#AREA        The Apprentice Garden~
+
+
+
+#VERSION     11
+#AUTHOR      Fya~
+#DERIVATIVES ~
+#COLOR       9
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+55 65 45 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG An eerie noise whispers at the edge of hearing.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 0 20 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#11510
+willow tree~
+a willow tree~
+A willow tree sways slowly back and forth.
+~
+This tree is small and slender, with branches like whips.  It 
+seems to move independently of any breeze.  Oddly, there seems 
+to be a sense of leashed hunger about it...
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> rand_prog 10~
+mpe A willow tree rustles its leaves.
+~
+> hitprcnt_prog 15~
+mpe A willow tree rips its roots out of the ground and tries to flee.
+flee
+flee
+~
+> fight_prog 30~
+mpechoat $n A willow tree lashes you with its branches.
+mpechoaround $n A willow tree's branches flail at $n wildly.
+mpat $n mpdamage $n 10
+~
+> death_prog 100~
+mpe A shower of leaves flutter to the ground as a willow tree dies.
+mpe A piece of the tree breaks off.
+if rand(20)
+   mpoload 11510 55
+else
+   mpoload 11511 55
+endif
+~
+|
+#11511
+giant ant queen~
+the ant queen~
+The queen of the ants looms over her eggs.
+~
+This ant is the size of a horse! Based on the pile of eggs around
+her, and the servility of the other ants, it is clear that she is
+the queen of this nest.
+~
+1
+Clanname none~
+0
+0
+131107 4194432 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 4 0 0 1 1 0
+0 0 5 0 0 0 9 2
+> rand_prog 10~
+if ispc($n)
+  if rand(50)
+    mpe The Ant queen lays another egg.
+  else
+    The ant queen rearranges her eggs.
+  endif
+endif
+~
+> fight_prog 30~
+if ispc($n)
+  mpechoat $n The ant queen lunges at you, striking at you with her mandibles.
+  mpechoaround $n The ant queen tries to catch $n in her mandibles.
+  mpdamage $n 25
+endif
+~
+> death_prog 100~
+if ispc($n)
+  mpe The carapace of the ant queen breaks open, spilling out her last meal.
+    if rand(20)
+      mpoload 11519 55
+    else
+      mpoload 11518 55
+    endif
+    if quest(jarolan) == 3
+      mpechoat $n &WYou should return to Jarolan.
+      mpquest $n jarolan 4
+    endif
+endif
+~
+|
+#11512
+giant ant worker~
+an ant worker~
+A giant ant is carrying a piece of a root.
+~
+This ant is the size of a small pony.  The size of its head, as
+well as the root it is carrying, indicate that it is of the
+worker caste.
+~
+1
+Clanname none~
+0
+0
+16777217 0 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 4 0 0 1 1 0
+0 0 5 0 0 0 9 2
+> death_prog 100~
+if ispc($n)
+  mpe The carapace of the ant worker breaks open, spilling out her last meal.
+    if rand(50)
+      mpoload 11514 55
+    else
+      mpoload 11515 55
+    endif
+endif
+~
+|
+#11513
+giant ant soldier~
+an ant soldier~
+An ant soldier patrols for invaders.
+~
+This ant is the size of a small pony.  The larger size of its 
+head, as well as its aggressiveness, indicate that it is of the
+soldier caste.
+~
+1
+Clanname none~
+0
+0
+33 0 0 C
+67 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 4 0 0 1 1 0
+0 0 5 0 0 0 9 2
+> death_prog 100~
+if ispc($n)
+  mpe The carapace of the ant soldier breaks open, spilling out her last meal.
+    if rand(50)
+      mpoload 11516 55
+    else
+      mpoload 11517 55
+    endif
+endif
+~
+|
+#11514
+giant ant drone~
+an ant drone~
+An ant drone does absolutely nothing.
+~
+This ant is the size of a small pony.  The wings on its back 
+indicate that it is a fertile male of the drone caste.
+~
+1
+Clanname none~
+0
+0
+16777217 0 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 4 0 0 1 1 0
+0 0 5 0 0 0 9 2
+#11515
+priest Jarolan ghost~
+Jarolan~
+The ghost of a holy priest shimmers in the air.
+~
+A glowing shadow is all that is left of what was once a human
+priest of Mnera.
+~
+1
+Clanname none~
+0
+0
+67239939 71303296 1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if ispc($n)
+  if level($n) < 55
+    mpechoat $n &cJarolan smiles serenely at you.&D 
+  else
+  if quest(jarolan) == 0
+    mpechoat $n &CJarolan says 'Would you be willing to aid me with some tasks, adventurer?'&D 
+    mpechoat $n &CJarolan says 'If so, &Wsay Yes, Jarolan&C.'&D &D 
+  endif 
+  endif
+  if quest(jarolan) == 1
+    mpechoat $n &CJarolan says 'Please find my staff. I am sure an ant has it.'&D 
+  endif 
+  if quest(jarolan) == 2
+    mpechoat $n &CJarolan says 'Do you have the staff?'&D 
+  endif  
+  if quest(jarolan) == 3
+    mpechoat $n &CJarolan says 'Please slay the Ant Queen."&D 
+  endif  
+  if quest(jarolan) == 4
+    mpechoat $n &CJarolan says 'Congratulations on slaying the Ant Queen!'&D 
+    mpechoat $n &CJarolan says 'All that remains is to slay the apprentice'&D 
+    mpechoat $n &CJarolan says 'necromancer who created these foul beasts.'&D 
+    mpquest $n jarolan 5
+  endif  
+  if quest(jarolan) == 5
+    mpechoat $n &CJarolan says 'Please slay the mad apprentice.'&D 
+  endif 
+  if quest(jarolan) == 6
+    mpechoat $n &CJarolan says 'You have done well, adventurer.'&D 
+    mpechoat $n &CJarolan says 'Please take this small token of my appreciation.'&D 
+    mpoload 11526 55
+    give necklace $n
+    mpquest $n jarolan 7
+  endif 
+endif
+~
+> speech_prog p Yes, Jarolan~
+if ispc($n)
+  mppause 7
+  mpechoat $n &CJarolan says 'When I was slain, I lost my staff. It holds great'&D 
+  mpechoat $n &CJarolan says 'sentimental value for me. One of these giant ants'&D 
+  mpechoat $n &CJarolan says 'with wings has it. Please bring it back to me.'&D 
+  mpquest $n jarolan 1
+endif
+~
+> act_prog p gives you Jarolan's staff.~
+if ispc($n)
+  if quest(jarolan) == 2
+    mpechoat $n &CJarolan says 'Thank you for my staff!'&D 
+    mpechoat $n &CJarolan says 'I would ask that next you slay the Ant Queen.'&D 
+    mpechoat $n &CJarolan says 'Her lair is hidden somewhere underground.'&D 
+    mpjunk all.staff
+    mpquest $n jarolan 3
+  endif
+endif
+~
+|
+#11516
+apprentice necromancer Taribas~
+Taribas~
+A furtive figure skulks about warily.
+~
+This ragged figure of a man jabbers and babbles to himself.  It
+seems likely that his wits are totally gone.
+~
+1
+Clanname none~
+0
+0
+16908359 37847170 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 13 0 0 0 268435552 2
+> death_prog 100~
+if ispc($n)
+  if quest(jarolan) == 5
+    mpechoat $n &WYou should return to Jarolan.
+    mpquest $n jarolan 6
+  endif
+endif
+~
+|
+#11517
+giant ant drone~
+an ant drone~
+An ant drone does absolutely nothing.
+~
+This ant is the size of a small pony.  The wings on its back 
+indicate that it is a fertile male of the drone caste.
+~
+1
+Clanname none~
+0
+0
+16777217 4194304 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+18 4 0 0 1 1 0
+0 0 5 0 0 0 9 2
+> death_prog 100~
+if ispc($n)
+  if quest(jarolan) == 1
+    mpechoat $n Something falls out of the dead drone's body.
+    mpoload 11525 55
+  endif
+endif
+~
+|
+#11540
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#11510
+willow whip~
+a willow whip~
+A thin willow branch lies here.~
+~
+5 0 8193
+0 30 60 5 3 55 0
+1 102 11
+2
+0
+0
+0
+0
+0
+S 3 0
+E
+willow whip~
+This is a thin branch from a willow tree. It would make a good weapon.
+~
+A
+18 5
+A
+19 5
+A
+2 2
+#11511
+willow club~
+a willow club~
+A thick willow branch lies here.~
+~
+5 0 8193
+0 30 60 4 5 55 0
+1 91 11
+2
+0
+0
+0
+0
+0
+S 3 0
+E
+willow club~
+This is a thick branch from a willow tree. It would make a good weapon.
+~
+A
+19 5
+A
+18 5
+A
+1 2
+#11512
+ripped journal page~
+a ripped journal page~
+A ripped journal page lies here in tatters.~
+~
+13 33554432 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+ripped journal page~
+...aster has assigned me to work in this small garden. I am to 
+take the creatures I find here and turn them into weap...
+~
+#11513
+torn journal page~
+a torn journal page~
+A torn journal page lies here in tatters.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+torn journal page~
+...ly thing the creatures fear is light, so I have set a 
+permanent mage globe at the top of the w...
+~
+#11514
+dragonhide anklet~
+a dragonhide anklet~
+A small strip of some black hide coils here.~
+~
+9 0 2097153
+60 60 0 0 0 0 0
+1 119 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+dragonhide anklet~
+This coil of black dragonhide would fit well around a humanoid ankle.
+~
+A
+13 150
+A
+1 1
+#11515
+garnet ring~
+a garnet ring~
+A silver ring with a red stone lies here.~
+~
+9 0 3
+60 60 0 0 0 0 0
+1 118 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+garnet ring~
+This silver ring bears a sparkling garnet.
+~
+A
+4 3
+A
+3 3
+A
+12 40
+#11516
+silver earclasp~
+a silver earclasp~
+A tiny silver cuff lies here.~
+~
+9 0 65537
+60 60 0 0 0 0 0
+1 118 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+silver earclasp~
+This small piece of silver would nicely decorate a humanoid ear.
+~
+A
+25 3
+A
+31 3
+#11517
+beaded necklace~
+a beaded necklace~
+Tiny red, green, and yellow beads are strung together with silver wire.~
+~
+9 0 5
+60 60 0 0 0 0 0
+1 125 12
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+bead necklace~
+Silver wire holds tiny beads of red. green, and yellow.  It is just
+the right size to fit around a humanoid neck.
+~
+A
+5 2
+A
+1 2
+A
+13 75
+#11518
+wire-rimmed monocle~
+a wire-rimmed monocle~
+A piece of rough glass is encircled by silver wire, and attached to a fine silver chain.~
+~
+9 0 131073
+60 60 0 0 0 0 0
+1 118 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+monocle~
+This is an eyepiece made of silver and glass.
+~
+A
+26 8
+A
+18 5
+A
+13 60
+#11519
+crystal sceptre~
+a crystal sceptre~
+A short rod of scintillating crystal sparkles brightly, as if lit from within.~
+~
+9 0 16385
+60 60 0 0 0 0 0
+1 119 11
+2
+0
+0
+0
+0
+0
+S 77 0
+E
+crystal sceptre~
+A short crystal rod is topped by a faceted crystal globe. The
+globe reflects all the iridescent colors of the rainbow.
+~
+A
+26 67108864
+A
+4 3
+A
+3 2
+#11520
+sea-foam sea foam green shirt~
+a sea-foam green shirt~
+A shirt in shades of sea-foam green lies crumpled here.~
+~
+9 0 9 1
+50 50 0 0 0 67 0
+1 102 13
+2
+9
+0
+0
+0
+0
+S 77 0
+E
+green shirt~
+This shirt is made of thin pale green silk. The stitching is a
+slightly darker shade of green.
+~
+A
+12 100
+A
+13 75
+#11521
+aqua robes~
+aqua robes~
+Robes in shades of blue and green lie crumpled here.~
+~
+9 0 9 16
+50 50 0 0 0 68 0
+1 112 14
+2
+9
+0
+0
+0
+0
+S 77 0
+E
+aqua robes~
+This robe is made of thin blue-green silk. The stitching is a
+slightly darker shade of green.
+~
+A
+18 5
+A
+19 5
+A
+14 50
+#11522
+green tabard~
+a dark green tabard~
+A tabard in shades of deepest green lies crumpled here.~
+~
+9 0 9 32
+50 50 0 0 0 68 0
+1 132 15
+2
+11
+0
+0
+0
+0
+S 77 0
+E
+green tabard~
+This tabard is made of thick dark green silk. The stitching is a
+slightly darker shade of green.
+~
+A
+26 1048576
+A
+31 5
+#11523
+green hose~
+dark green hose~
+A pair of hose in shades of deepest green lies crumpled here.~
+~
+9 0 33 2
+50 50 0 0 0 0 0
+1 140 14
+1
+11
+0
+0
+0
+0
+S 77 0
+E
+green hose~
+These hose are made of thick dark green silk. The stitching is a
+slightly darker shade of green.
+~
+A
+2 3
+A
+14 100
+#11524
+green slippers~
+green slippers~
+A pair of dark green slippers sits here.~
+~
+9 0 65
+50 50 0 0 0 0 0
+1 124 12
+1
+11
+0
+0
+0
+0
+S 77 0
+E
+green slippers~
+These slippers are made of thin dark green leather. The stitching is a
+slightly darker shade of green.
+~
+A
+26 32768
+A
+2 4
+A
+14 40
+#11525
+jarolan staff~
+Jarolan's staff~
+This staff is only useful to Jarolan...~
+~
+9 0 1
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+staff~
+This is a simple staff of pale wood.
+~
+> get_prog 100~
+if ispc($n)
+  if quest(jarolan) == 1
+    mpechoat $n &WYou should take this to Jarolan.
+    mpquest $n jarolan 2
+  endif
+endif
+~
+|
+#11526
+crystal necklace~
+a crystal necklace~
+Scintillating crystal beads are held together with thin platinum wire.~
+~
+9 0 5
+45 45 0 0 0 0 0
+1 125 12
+2
+0
+0
+0
+0
+0
+S 0 0
+E
+crystal necklace~
+Tiny faceted crystal beads are linked by platinum wire. The beads
+sparkle brightly, scintillating in iridescent rainbow hues.
+~
+A
+5 2
+A
+4 2
+A
+3 2
+A
+1 1
+#11527
+jarolan diary~
+Jarolan's diary~
+A small blue book lies here, perhaps a diary. ~
+~
+9 0 1
+45 45 0 0 0 0 0
+1 55 5
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+diary book~
+The first part of this diary is full of stories about Jarolan's adventures. 
+It isn't until the end that he speaks of the Apprentice's Garden.
+
+&Y"My companions and I came upon a small garden, hidden within the forest. 
+At first, it seemed like any other abandoned place. Until the trees attacked 
+us! Sarikan found some fragments of paper, and we came to realise that the 
+place we had found was the training ground for a young necromancer apprenticed 
+to a dark master. Nor is it the only one. It seems the lad's master has much 
+land, and assigned apprentices to various spots. The one with the most success 
+would rise in his master's ranks. This lad didn't have much luck. Things got 
+out of hand, and now he skulks about, hiding from the monsters he made. 
+The others have left me to deal with this area, while they check out the 
+other apprentices."
+"I fear I am dying. I have failed in my duty. I destroyed the young of the 
+ant queen, but she drove me off. One of her winged comrades yanked my staff 
+from my hand. My companions expected me to deal with the lair of evil here, 
+and I have failed. I killed many ants, but I fear I will die of my wounds. 
+I have not the strength of mind left to heal myself. I have failed.."
+~
+#11540
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#11510
+A Nearly Invisible Trail~
+~
+A very faint trail leads through the forest.  The singing of birds
+seems oddly muted here.  Dead leaves are piled upon the ground in
+heavy drifts.  There seems to be a faint odor of decay. 
+~
+1 0 11
+D1
+~
+~
+0 -1 11511
+D11
+~
+~
+0 -1 42557
+S
+#11511
+A Nearly Invisible Trail~
+~
+The trail continues through the forest.  Heavy piles of leaves give
+off a faint scent of decay.  Small ants move purposefully along a
+trail of their own upon the ground.  An owl hoots mournfully.
+~
+1 0 3
+D3
+~
+~
+0 -1 11510
+D6
+~
+~
+0 -1 11512
+S
+#11512
+Before a Neglected Garden~
+~
+A trail leads from the forest to a rusty iron gate.  The gate itself
+seems to have been ripped half off of its hinges by some powerful
+force.  A garden that has not seen the touch of a loving gardener's
+hand in quite some time lies on the other side of the gate.
+~
+1 0 3
+D1
+~
+~
+0 -1 11513
+D9
+~
+~
+0 -1 11511
+S
+#11513
+In a Neglected Garden~
+~
+White pebbles in meticulous patterns separate small plots of soil. 
+In some plots, herbs grow wildly.  In other plots, bare dirt shows. 
+A path of red gravel meanders through the garden.
+~
+1 0 21
+D1
+~
+~
+0 -1 11514
+D2
+~
+~
+0 -1 11516
+D3
+~
+~
+0 -1 11512
+S
+#11514
+In a Neglected Garden~
+~
+The ground in this section of the garden seems oddly torn.  The
+white pebbles that divide plots in other areas are scattered
+through the area.  Dead willow leaves are everywhere.
+~
+1 0 21
+D1
+~
+~
+0 -1 11515
+D2
+~
+~
+0 -1 11517
+D3
+~
+~
+0 -1 11513
+R M 0 11510 1 11514
+S
+#11515
+In a Neglected Garden~
+~
+Verdant growth runs rampant over this section of the garden.  An
+occasional flash of a whiskered grey nose indicates the presence
+of mice.  The gravel path is barely visible beneath the greenery.
+~
+1 4 21
+D2
+~
+~
+0 -1 11518
+D3
+~
+~
+0 -1 11514
+S
+#11516
+In a Neglected Garden~
+~
+The ground is torn up and uneven, with white pebbles mixed with
+the soil.  Crushed herbs struggle to grow in wilderness that
+once was tamed and cultivated.  An iron fence is nearly hidden.
+~
+1 4 21
+D0
+~
+~
+0 -1 11513
+D1
+~
+~
+0 -1 11517
+D2
+~
+~
+0 -1 11519
+R M 0 11510 3 11516
+S
+#11517
+An Old Well~
+~
+A large, circular stone well made of grey blocks sits in the center 
+of the garden.  Its sides are covered in damp grey moss.  A stench 
+of mildew emanates from within.  Wooden fragments surrounding the 
+area might have once been a cover for the well.  A large ball of 
+light hovers over the opening.
+~
+1 0 21
+D0
+~
+~
+0 -1 11514
+D1
+~
+~
+0 -1 11518
+D2
+~
+~
+0 -1 11520
+D3
+~
+~
+0 -1 11516
+D5
+~
+~
+0 -1 11526
+R O 0 11513 1 11517
+E
+well~
+There is a rusty metal ladder inside the well.
+~
+S
+#11518
+In a Neglected Garden~
+~
+White and red gravel is scattered wildly about the garden, leaving
+no sign of the neatly arranged plots and path that once were here.
+Thick vines almost totally obscure the wrought iron fence to the east.
+~
+1 4 21
+D0
+~
+~
+0 -1 11515
+D2
+~
+~
+0 -1 11521
+D3
+~
+~
+0 -1 11517
+R M 0 11510 4 11518
+S
+#11519
+The Remains of a Shack~
+~
+A bare dirt floor marks the spot that once housed a gardening shed.
+The walls of the shack appear to have been chewed away by giant
+insects.  Broken gardening tools are scattered everywhere.  The 
+remains of a table lie against one wall of the shack.  There seems
+to be something under the table...
+~
+1 4 21
+D0
+~
+~
+0 -1 11516
+D1
+~
+~
+0 -1 11520
+R O 0 11512 1 11519
+S
+#11520
+In a Neglected Garden~
+~
+A broken hatchet rests against the base of a wrought iron fence.
+Red gravel provides a pathway through low, tangled grass.  A single
+yellow flower rises from the ground in defiance of the garden's
+abandoned, neglected condition.
+~
+1 4 21
+D0
+~
+~
+0 -1 11517
+D1
+~
+~
+0 -1 11521
+D3
+~
+~
+0 -1 11519
+R M 0 11510 2 11520
+S
+#11521
+Before a Rusty Iron Gate~
+~
+Herbs grow wild in neatly sectioned plots bordered by white
+gravel.  Black wrought iron fencing covered in vines encloses
+the garden on the east and south sides. Set into the eastern
+fence is a large gate, with a strong padlock hanging loose.
+~
+1 4 21
+D0
+~
+~
+0 -1 11518
+D2
+~
+gate~
+3 -1 11551
+D3
+~
+~
+0 -1 11520
+E
+gate~
+The gate is strong, and used to be securely fastened closed
+by thick chains held together by a strong padlock.
+~
+S
+#11522
+A Rough Tunnel~
+~
+Strange scratching sounds reverberate from rough stone walls. The ceiling 
+dips low overhead, making passage hazardous. An occasional root juts out 
+of the walls and ceiling, catching at those who pass. 
+~
+1 4 13
+D1
+~
+~
+0 -1 11523
+D2
+~
+~
+0 -1 11525
+S
+#11523
+A Rough Tunnel~
+~
+Dank walls enclose a tunnel leading further underground.  The
+ceiling is low, and the ground beneath is rough and uneven. The
+sounds of large creatures scurrying through the tunnel echoes.
+~
+1 4 13
+D2
+~
+~
+0 -1 11526
+D3
+~
+~
+0 -1 11522
+R M 0 11514 2 11523
+S
+#11524
+A Rough Tunnel~
+~
+The tunnel seems to come to an abrupt end here. The rock walls
+are exceedingly jagged.  The ceiling slopes down at a sharp angle
+to the floor to the north.  Tiny crystals are embedded in the walls.
+~
+1 0 13
+D2
+~
+~
+0 -1 11527
+D8
+~
+~
+2048 -1 11540
+S
+#11525
+A Rough Tunnel~
+~
+The narrow tunnel curves its way through the rough rock.  The
+air is cool, not quite chilly, with a faint scent of water.  A
+faint sound of rustling movement can be heard in the distance.
+~
+1 0 13
+D0
+~
+~
+0 -1 11522
+D2
+~
+~
+0 -1 11528
+R M 0 11513 2 11525
+S
+#11526
+Within the Well~
+~
+Little light trickles down into the well.  The grey blocks that 
+comprise the walls are in an early stage of decomposition.  Large 
+cracks gape in the walls.  There seems to be an opening chewed 
+into the north side of the well.
+~
+1 0 13
+D0
+~
+~
+0 -1 11523
+D4
+~
+~
+0 -1 11517
+D5
+~
+~
+0 -1 11535
+R M 0 11517 1 11526
+S
+#11527
+A Rough Tunnel~
+~
+Rocky walls press close enough to evoke claustrophobia in those
+used to wide open spaces.  The tunnel is both narrow and shallow.
+Strange noises echo through the tunnel, their origin unknown.
+~
+1 0 13
+D0
+~
+~
+0 -1 11524
+D2
+~
+~
+0 -1 11530
+R M 0 11512 1 11527
+R M 0 11513 1 11527
+R M 0 11514 1 11527
+S
+#11528
+A Rough Tunnel~
+~
+A wide path has been chewed through solid rock.  Tiny crystals
+jut out of the walls at irregular intervals. The ceiling in this
+section of tunnel is high, and the little crystals reflect even
+the tiniest amount of light.
+~
+1 0 13
+D0
+~
+~
+0 -1 11525
+D1
+~
+~
+0 -1 11529
+S
+#11529
+A Rough Tunnel~
+~
+Rock debris litters the ground, likely broken off from the walls.
+Wind whistles down into the tunnel from a tiny crack in the 
+ceiling overhead, its condensed strength enough to shift small
+pebbles occasionally.
+~
+1 0 13
+D1
+~
+~
+0 -1 11530
+D3
+~
+~
+0 -1 11528
+R M 0 11512 2 11529
+S
+#11530
+A Rough Tunnel~
+~
+The rocky tunnel curves sharply here.  The walls are smoother on
+the inner curve than the outer, probably due to the pressure of
+passing bodies.  The ceiling looms low overhead, pressing down.
+~
+1 0 13
+D0
+~
+~
+0 -1 11527
+D3
+~
+~
+0 -1 11529
+R M 0 11516 1 11530
+  R E 0 11524 1 8
+  R E 0 11520 1 5
+  R E 0 11523 1 7
+  R E 0 11521 1 5
+  R E 0 11522 1 5
+S
+#11531
+A Muddy Cavern~
+~
+Muddy water covers the floor of the cavern.  Slimy stalagmites reach
+up from the floor, striving to meet overhanging stalactites.  The
+sound of water dripping all around is magnified by unending echoes.
+~
+1 0 13
+D1
+~
+~
+0 -1 11532
+D2
+~
+~
+0 -1 11534
+S
+#11532
+A Muddy Cavern~
+~
+Stalagmites rise up out of shallow muddy water.  Overhanging 
+stalactites drop down towards their mates below.  Thin tunnels
+of dirty water trickle unceasingly down the surrounding walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 11533
+D2
+~
+~
+0 -1 11535
+D3
+~
+~
+0 -1 11531
+R M 0 11514 3 11532
+R M 0 11513 3 11532
+R M 0 11512 3 11532
+S
+#11533
+A Muddy Cavern~
+~
+Slimy water sloshes languidly as drops from the ceiling plop down.
+Algae coats the walls, as well as small rocks thrusting out of the 
+water.  Roots thrust down out of the ceiling, striving for, but
+not reaching, the liquid below.
+~
+1 0 13
+D2
+~
+~
+0 -1 11536
+D3
+~
+~
+0 -1 11532
+S
+#11534
+A Muddy Cavern~
+~
+The half-decayed body of a dead rat is barely visible in thick,
+muddy water.  A single bone that seems like a humanoid thigh bone
+lies beside the corpse of the rat.  Both are firmly mired in the mud.
+~
+1 0 13
+D0
+~
+~
+0 -1 11531
+D1
+~
+~
+0 -1 11535
+D2
+~
+~
+0 -1 11537
+R M 0 11512 4 11534
+S
+#11535
+The Bottom of the Well~
+~
+The ground here is churned into mud.  In all directions, the ground
+sinks below scummy water.  Endless dripping echoes throughout the
+area with relentless monotony.  Overhead, a gaping hole cleaves the
+ceiling, a rusty ladder affixed to its wall.
+~
+1 0 13
+D0
+~
+~
+0 -1 11532
+D1
+~
+~
+0 -1 11536
+D2
+~
+~
+0 -1 11538
+D3
+~
+~
+0 -1 11534
+D4
+~
+~
+0 -1 11526
+S
+#11536
+A Muddy Cavern~
+~
+Debris is piled in the water near the wall to the east.  Large,
+deep scratch-marks mar the wall itself, almost as if something
+had been attempting to dig through the wall.  Water drips in an
+unending monotonous trickle from the ceiling overhead.
+~
+1 0 13
+D0
+~
+~
+0 -1 11533
+D2
+~
+~
+0 -1 11539
+D3
+~
+~
+0 -1 11535
+R M 0 11513 4 11536
+S
+#11537
+A Muddy Cavern~
+~
+Stagnant water laps against algae coated rocks.  Tangled root ends
+thrust downward from the ceiling, looking almost like twisted
+bones.  The sound of dripping water echoes in the otherwise silent
+cavern, as drop follows drop in an unending pattern.
+~
+1 0 13
+D0
+~
+~
+0 -1 11534
+D1
+~
+~
+0 -1 11538
+S
+#11538
+A Muddy Cavern~
+~
+Hints of dirty white are barely visible in a thick pile of algae.
+Scummy water hides the floor of the cavern.  Water drips from the
+overhanging stalactites.  Several stalagmites lie in pieces.
+~
+1 0 13
+D0
+~
+~
+0 -1 11535
+D1
+~
+~
+0 -1 11539
+D3
+~
+~
+0 -1 11537
+R M 0 11512 5 11538
+S
+#11539
+A Muddy Cavern~
+~
+Shallow water lies over thick mud on the floor of the cavern.  More
+water trickles down the walls in lazy lines.  The air is cold and
+clammy, and thick with moisture.  A small skeleton huddles on the ground.
+~
+1 0 13
+D0
+~
+~
+0 -1 11536
+D3
+~
+~
+0 -1 11538
+R M 0 11515 1 11539
+  R E 0 11521 1 5
+R O 0 11527 1 11539
+S
+#11540
+The Lair of the Queen~
+~
+A large chamber has been hollowed out at the end of the tunnel.
+Large off-white globes are the eggs of the ant queen, guaranteeing
+the continuance of the colony.  Oddly, there are no ants present
+in either the pupal or larval stages.
+~
+1 0 13
+D7
+~
+~
+0 -1 11524
+R M 0 11511 1 11540
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11516 spec_cast_mage
+S
+
+
+#$

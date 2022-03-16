@@ -1,0 +1,98 @@
+Name           Warrior~
+Filename       Warrior~
+Class          4
+Starting       1
+AttrPrime      1
+AttrSecond     5
+AttrDeficient  0
+Races          253952
+Nocombo        262240
+Reclass        0 0 0
+Skilladept     90
+Thac0          18
+Thac32         6
+Hpmin          87
+Hpmax          102
+ManaMin        1
+ManaMax        5
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'adrenaline rush' 6 95
+Skill 'aid' 1 95
+Skill 'backhand' 20 95
+Skill 'behead' 1 95
+Skill 'body drop' 80 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'disarm' 7 85
+Skill 'dodge' 2 95
+Skill 'doorbash' 9 85
+Skill 'dual wield' 17 95
+Skill 'dye' 1 95
+Skill 'enrage' 16 95
+Skill 'fifth attack' 63 95
+Skill 'find weakness' 75 95
+Skill 'flint fire' 1 95
+Skill 'forward charge' 30 95
+Skill 'fourth attack' 38 95
+Skill 'grendals stance' 28 95
+Skill 'grip' 70 95
+Skill 'headbutt' 45 95
+Skill 'heavy hands' 67 95
+Skill 'hunker down' 65 95
+Skill 'keen eye' 60 95
+Skill 'kick' 10 95
+Skill 'lore' 13 25
+Skill 'maim' 56 90
+Skill 'maintain position' 52 95
+Skill 'mitigate' 15 95
+Skill 'mortify' 35 95
+Skill 'mount' 1 85
+Skill 'parry' 3 85
+Skill 'punch' 1 90
+Skill 'restring' 1 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'sharpen' 1 95
+Skill 'slice' 1 95
+Skill 'stun' 95 95
+Skill 'swim' 1 95
+Skill 'taunt' 5 95
+Skill 'third attack' 25 95
+Skill 'track' 23 85
+Skill '1h axes' 1 95
+Skill '1h bludgeons' 1 95
+Skill '1h long blades' 1 95
+Skill '1h short blades' 1 95
+Skill '2h axes' 1 95
+Skill '2h bludgeons' 1 95
+Skill '2h long blades' 1 95
+Skill 'archery' 1 95
+Skill 'flails' 1 95
+Skill 'lances' 1 95
+Skill 'polearms' 1 95
+Skill 'pugilism' 1 95
+Skill 'spears' 1 95
+Skill 'staves' 1 95
+Skill 'whips' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

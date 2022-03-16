@@ -1,0 +1,24 @@
+#VNUM 1215
+#OBJECT
+Name         corpse the Mi-Go~
+ShortDescr   the corpse of the Mi-Go~
+Description  The corpse of the Mi-Go lies here.~
+Vnum         10
+Weight       30
+Timer        6
+Cost         -3406
+Currtype     1
+Size   0
+Values       100 0 0 100 0 0 0
+End
+
+#OBJECT
+Vnum         17
+Timer        3
+Currtype     1
+Color        6
+Size   0
+Values       5 4 0 1 0 0 0
+End
+
+#END

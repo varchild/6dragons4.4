@@ -1,0 +1,2404 @@
+#AREA        Newunderdark~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       2
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 40 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG Water dripping in the distance can be heard.~
+
+#FLAGS
+592
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 4997000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2301
+lesser deamon~
+A lesser deamon~
+A lesser deamon walks about rampaging!
+~
+This deamon comes from the very bowels of hell! Its eyes burn like the 
+very fires that keep hell hot for all eternaty. 
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2302
+Gratch~
+Gratch~
+A nycadaemon cackles insanely and strikes!~
+This is a tall (7'), slender black-skinned daemon with a horned head and sharp claws. However, it wields an evil-looking battleaxe as well.~
+0
+Clanname none~
+0
+0
+1123 8892 -1000 C
+43 0 0 3d200+3000 3d3+1
+0 0 0 0 0 
+0
+115 115 0
+23 13 13 13 13 13 13
+0 0 0 0 0
+13 3 0 0 1 1 2
+0 0 1 0 0 0 2050 2
+#2303
+drow mage~
+A drow mage~
+A drow mage watches the entrance to the Drow city
+~
+This fellow is actually a noble, a member of house Barrison del'Armgo, thesecond house of Menzoberranzan, and will not let his house's reputationsuffer by letting you escape!~
+13
+Clanname none~
+0
+0
+99 8832 -1000 C
+25 0 -50 2d200+1000 2d5+20
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 8 0 0 0 8192 2
+#2304
+nightmare~
+a nightmare~
+A fiery nightmare stands here
+~
+These fell black stallions are native to the Lower Planes. They reek of fireand brimstone, and flame spews from their mouths at will.~
+0
+Clanname none~
+0
+0
+262211 33563136 -1000 C
+30 0 -80 1d500+1500 2d8+20
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+82 3 0 0 1 1 4
+0 0 1024 0 0 0 33 2
+#2305
+drow priestess~
+A drow priestess~
+A drow priestess watches people as they pass
+~
+She is in charge of this outpost and it won't look good on her report if shefails to apprehend a simple adventurer.~
+13
+Clanname none~
+0
+0
+67 640 -1000 C
+28 0 -50 2d200+1000 2d5+20
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 13 13 13 13
+0 0 0 0 0
+10 1 0 0 1 1 3
+0 0 0 0 0 0 0 2
+#2306
+drow guard~
+A drow guard~
+A Drow guard moves about on patrol
+~
+A long haired and well armored soldier, this female is a fine example of 
+how drow train to protect themselves and their homeland. 
+~
+13
+Clanname none~
+0
+0
+195 512 -1000 C
+24 0 -50 2d200+1000 2d5+20
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 1 1 3
+0 0 0 0 0 0 0 0
+#2307
+Demonic leader samsam~
+A demonic leader~
+A demonic Leader stands here barking orders
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+20 0 0 0d0+-31072 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2308
+underworld fish~
+An Underworld fish~
+An Underworld fish swims here
+~
+A small fish that seems to be pretty in its own special way. It's scales 
+are a dark blue color and it has appendages coming from it's face that 
+resemble a cat fish. 
+~
+0
+Clanname none~
+0
+0
+65 268435456 -1 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 262144 2
+#2309
+A large fish~
+A large fish~
+A large fish swims around here looking for food
+~
+A large fish has many colors about it's body and a large row of very sharp 
+teeth. This fish seem to be a carnivore so it would probably not be a good 
+idea to feed it. 
+~
+0
+Clanname none~
+0
+0
+65 0 -1 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8194
+#2310
+drow apprentice~
+A drow apprentice~
+A drow apprentice sits here stuck behind the cave in
+~
+Long white hair and dark red eyes, this young drow appears to be a student 
+of some sort. She appears to be of great beauty and very strong. 
+~
+0
+Clanname none~
+0
+0
+67 4194304 -1 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8194
+> greet_prog 100~
+if quest(drowmaster) == 1
+  mpechoat $n &cA drow apprentice sighs.&D
+  mpechoat $n &CA drow apprentice says, 'I bet master sent you.  Thanks though, I was trapped behind all those rocks that caved in.'&D
+  mpechoat $n &cA drow apprentice thinks about it for a moment.&D
+  mppause 3
+  mpechoat $n &CA drow apprentice says, 'Could you please do me a quick favor before to tell her I'm OK?'&D
+  mpechoat $n &cType &WSAY YES&c to continue with the quest.&D
+endif
+~
+> speech_prog p yes~
+if quest(drowmaster) == 1
+  mppause 2
+  mpechoat $n &CA drow apprentice says, 'Thanks, can you please get me a magic mushroom from the caves, thats what i've been after but I really would love it if you could help.'&D
+  mpquest $n drowmaster 2
+endif
+~
+> act_prog p gives you A magic mushroom.~
+if quest(drowmaster) == 2
+  mppause 2
+  mpechoat $n &CA drow apprentice says, 'Oh thank you so much for this, now if you could go to my master now and tell her, &WYOUR APPRENTICE IS OK AND SHE HAS WHAT YOU SENT FOR&C.'&D
+  mpquest $n drowmaster 3
+else
+  mpechoat $n &CA drow apprentice says, 'No thanks.'&D
+  give magic $n
+endif
+~
+|
+#2311
+drow master~
+A drow master~
+A drow master stands here in some kind of chant
+~
+Long white hair and dark red eyes, this old drow appears to be very wise 
+with her age. She watches everything closely making sure to take in 
+everything everyone does. 
+~
+0
+Clanname none~
+0
+0
+67 373301248&8 -1 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 25 25 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> greet_prog 100~
+if quest(drowmaster) < 1
+  mpechoat $n &cA drow master looks at you as you enter and nods.&D
+  if race($n) == drow
+    mpechoat $n &CA drow master says, 'Hello adventurer would you be interested in helping me with something?'&D
+  else
+    mpechoat $n &CA drow master says, 'You there.  I require your help, and I best not get any lip outta you!'&D
+  endif
+  mpechoat $n &cType &WSAY YES&c to accept this task.&D
+else
+  if quest(drowmaster) == 1
+  or quest(drowmaster) == 2
+    mpechoat $n &cA drow master looks at $n as they enter.&D
+    if race($n) == drow
+      mepchoat $n &CA drow master says, 'Hello, have you found her yet?'&D
+    else
+      mpechoat $n &CA drow master says, 'Why haven't you found her yet?!'&D
+    endif
+  else
+    if quest(drowmaster) == 3
+      mpechoat $n &cA drow master nods at you.&D
+      if race($n) == drow
+        mpechoat $n &CA drow master says, 'Thanks again for helping my apprentice out.'&D
+      else
+        mpechoat $n &CA drow master says, 'Why are you here? Leave!'&D
+      endif
+    endif
+  endif
+endif
+~
+> speech_prog p yes~
+if quest(drowmaster) < 1
+  mppause 2
+  if race($n) == drow
+    mpechoat $n &CA drow master says, 'Oh thank you, thank you so much!'&D
+  else
+    mpechoat $n &CA drow master says, 'Wise choice.'&D
+  endif
+  mpechoat $n &cA drow master thinks about what she is going to say for a moment.&D
+  mppause 4
+  mpechoat $n &CA drow master says, 'My young apprentice is lost somewhere in the caves. Not too long after I sent her out, there was an earthquake so I need to know that she's alive or not.  Go find her and bring back news of her health.'&D
+  mpquest $n drowmaster 1
+endif
+~
+> speech_prog p Your apprentice is ok and she has what you sent for~
+if quest(drowmaster) == 3
+  mppause 2
+  if race($n) == drow
+    mpechoat $n &CA drow master says, 'Ok, thanks for the news.  Here, take this.'&D
+  else
+    mpechoat $n &CA drow master says, 'Take this and be gone.  Don't let me catch you here again.'&D
+  endif
+  mpwithdraw 1000
+  give 1000 gold $n
+  mpquest $n drowmaster 4
+else
+  mpechoat $n &CA drow master says, 'Don't lie to me!'&D
+  if quest(dromaster) > 3
+    if race($n) != drow
+      mpechoat $n &CA drow master says, 'I told you not to come back!'&D
+      mpkill $n
+    endif
+  endif
+endif
+~
+|
+#2312
+massive salamander~
+A massive salamander~
+A massive salamander swims about the lava
+~
+A massive firey salamander lurks about in it's heated surroundings. It has 
+smooth leathery skin along with a large gapeing mouth that doesn't seem to 
+be affected by the heat of the lava. 
+~
+3
+Clanname none~
+0
+0
+1 33554560 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2313
+ugly mindflayer~
+An ugly mindflayer~
+An ugly mindflayer glides along here
+~
+This mindflayer is a pretty standard one, long tenticals and a squid like 
+head. It wears nothing about its body just ranging though the caves 
+mindlessly sucking the minds of anything it can touch 
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+17 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 40~
+mind $n
+~
+|
+#2314
+drow scout~
+a Drow scout~
+A Drow scout moves about the area trying to not be seen.
+~
+These scouts are intended for reconnaissance, not combat, and thus this 
+Drow is irritated at being discovered, for he is woefully unprepared to 
+deal with you. 
+~
+0
+Clanname none~
+0
+0
+193 512 -1000 C
+19 0 0 5d10+200 1d5+5
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 1 1 2
+0 0 0 0 0 0 48 3
+#2315
+svirfneblin deep gnome~
+A svirfneblin~
+A Svirfneblin, or Deep Gnome, moves about the caves glancing around
+~
+These gnomes are distant cousins of the surface-dwelling variety of 
+gnomes,and share many characteristics. They are the only good-natured race 
+native to the Underdark, but are by no means weak because of it. They 
+share a close friendship with earth elementals, and it wouldn't be wise to 
+challenge a deep gnome when one is nearby 
+~
+0
+Clanname none~
+0
+0
+65 512 -1000 C
+22 0 -50 1d20+650 1d4+8
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 3 0 0 1 1 2
+0 0 41 0 0 0 16 2
+#2399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2301
+magic mushroom~
+A magic mushroom~
+A magic mushroom lays here~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#2302
+fire gem~
+A fire gem~
+A fire gem lays here~
+~
+8 1 16385
+0 0 2 0 0 0 0
+1 45 4
+1
+3
+0
+0
+0
+0
+S 0 0
+#2303
+drow crossbow~
+a drow hand crossbow~
+A Drow hand crossbow is here.~
+~
+56 0 262145
+20 3 13 6 6 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#2304
+drow short sword~
+a drow short sword~
+An adamantite short sword with a razor sharp blade is here.~
+~
+5 64 8193
+0 10 20 1 1 0 0
+20 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+18 4
+#2305
+drow chainmail~
+a suit of drow chainmail~
+A suit of finely crafted adamantite chainmail is here.~
+~
+9 64 9
+20 20 0 0 0 0 0
+5 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+5 1
+A
+13 10
+A
+17 -10
+#2306
+drow boots~
+a pair of drow boots~
+A pair of dark drow boots is here.~
+~
+9 4 65
+20 20 0 0 0 0 0
+1 0 0
+1
+7
+0
+0
+0
+0
+S 77 0
+A
+2 1
+A
+14 50
+A
+17 -5
+#2307
+sparkling gem~
+a sparkling gem~
+A sparkling gem lays here~
+~
+8 0 16385
+0 0 1 0 0 0 0
+1 2 1
+1
+0
+0
+0
+0
+0
+S 0 0
+#2310
+Ultima Weapon~
+Ultima Weapon~
+The Ultima Weapon lays here~
+~
+5 1073741824 8193
+0 50 150 1 0 0 0
+1 91 9
+2
+0
+0
+0
+0
+0
+S 0 0
+> fight_prog 40~
+mpecho &RA massive dragon rises after being called by the Ultima Weapon!
+~
+|
+#2311
+gnome dagger~
+gnome dagger~
+A small, short, gnome dagger rests here.~
+~
+5 0 8193
+10 10 20 2 2 22 0
+1 20 2
+1
+0
+0
+0
+0
+0
+S 0 0
+#2312
+iron bolt~
+an iron bolt~
+An iron bolt has been left here.~
+~
+57 0 16385
+10 14 24 6 0 10 0
+1 49 4
+4
+1
+0
+0
+0
+0
+S 0 0
+#2399
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2300
+A Dark Cave~
+~
+&cA winding cave and nothing else. Water can be heard dripping in some 
+places within the dark caves that seem to lead into infinity. A cool 
+breeze blows through the caverns keeping it relatively cold. 
+~
+1 0 11
+D2
+~
+~
+0 -1 2301
+D11
+~
+~
+0 -1 43842
+S
+#2301
+Within the Underdark~
+~
+&cThe caves weave around and about through the ground, leading deeper into 
+the planet. Large stalagmites and stalactites form themselves all over the 
+ground and the roof of the caves. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2300
+D5
+~
+~
+0 -1 2302
+R M 0 2314 1 2301
+S
+#2302
+Deep in the Underdark~
+~
+The cave walls have grooves in an almost stair like appearance that have 
+been mined into the walls. There are large cobwebs everywhere. A large 
+puddle of some type of murky water is at the center of the cavern. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2301
+D5
+~
+~
+0 -1 2303
+S
+#2303
+Deep in the Underdark~
+~
+What little light that emanated from the entrance point has now gone 
+completely. The complete darkness only shows the light reflecting off of 
+some crystal-like substance attached to the stalagmites. A soft dripping 
+of water can be heard from the conically formed stalactites above. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2304
+D3
+~
+~
+0 -1 2369
+D4
+~
+~
+0 -1 2302
+R M 0 2314 3 2303
+R M 0 2314 3 2303
+S
+#2304
+A Dangerous Slope~
+~
+&cThis passage is very narrow and precarious to travel. To the west it 
+seems to drop off down deeper into the earth, whereas to the north it 
+seems to head up rather then down into the caves. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2303
+D3
+~
+~
+1 -1 2305
+D5
+~
+~
+0 -1 2306
+S
+#2305
+In a Large Lair~
+~
+&cThe room is octagonal in shape, with strange symbols along the walls. A 
+small altar is against the west wall. Various humanoid bones lay about the 
+floor. There are a few rows of oak pews mounted to the floor. 
+~
+1 0 13
+D1
+~
+~
+1 -1 2304
+R M 0 2302 1 2305
+S
+#2306
+A Junction~
+~
+&cLarge tunnels lead everywhere down here. To the east, sounds of people 
+can be heard moving around in groups, whereas the west is nothing but 
+creatures who inhabit the Underdark. Up leads to the higher parts of the 
+Underdark. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2307
+D2
+~
+~
+0 -1 2362
+D3
+~
+~
+0 -1 2316
+D4
+~
+~
+0 -1 2304
+R M 0 2315 6 2306
+  R E 0 2311 1 16
+  R G 0 2307 1
+S
+#2307
+A long passage~
+~
+&cThe winding caves of the Underdark continue though the earth. To the 
+east a small outpost can be seen before some kind of cave, to the west, 
+however, doesn't appear to be anything but winding caves. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2308
+D3
+~
+~
+0 -1 2306
+S
+#2308
+Before an Outpost~
+~
+&cTo the east a large outpost can been seen. Drow seem to inhabit the 
+outpost as a part of their expansion into the massive Underdark. Archers 
+watch closely as people come and go to the outpost. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2309
+D3
+~
+~
+0 -1 2307
+S
+#2309
+Inside the Outpost~
+~
+&cThe inside of the outpost is full of nothing but soldiers and anger. 
+Everyone seems to be very busy doing one thing or another. The outpost 
+seems to be a standard base for the drow as they move deeper into the 
+Underdark. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2310
+D1
+~
+~
+0 -1 2314
+D2
+~
+~
+0 -1 2312
+D3
+~
+~
+0 -1 2308
+R M 0 2306 9 2309
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+  R G 0 2312 1
+R M 0 2306 9 2309
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+  R G 0 2312 1
+R M 0 2306 9 2309
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+  R G 0 2312 1
+R M 0 2306 9 2309
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+  R G 0 2312 1
+S
+#2310
+Warrior's Quarters~
+~
+&cArmor and weapons line the walls in a very orderly manner. Soldiers move 
+about the area as they patrol or just change shifts of guard. Many drow 
+can be seen coming and going here as soldiers are very important and 
+always are easy to find. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2311
+D2
+~
+~
+0 -1 2309
+R M 0 2306 9 2310
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+R M 0 2306 9 2310
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2303 1
+  R G 0 2304 1
+R M 0 2306 9 2310
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+S
+#2311
+Warrior's Quarters~
+~
+The hall ends and so does the small cave that houses the soldiers. Armor 
+and weapons line the walls along with cots and other things that a soldier 
+would absolutely need while guarding the outpost. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2310
+R M 0 2306 9 2311
+  R G 0 2303 1
+  R G 0 2304 1
+  R G 0 2305 1
+  R G 0 2306 1
+R M 0 2306 9 2311
+  R G 0 2306 1
+  R G 0 2305 1
+  R G 0 2304 1
+  R G 0 2303 1
+S
+#2312
+The Cleric's Quarters~
+~
+The cleric's area provides a very magical environment. There are 
+miscellaneous items that one could use for casting magic or places just to 
+meditate as one prepares to cast spells in the future. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2309
+D2
+~
+~
+0 -1 2313
+R M 0 2305 1 2312
+S
+#2313
+The Cleric's Quarters~
+~
+&cMagical items can be seen scattered around the room everywhere. Clerics 
+and magi move around here as they prepare to go to work, or are finishing 
+up from working. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2312
+R M 0 2304 1 2313
+S
+#2314
+Inside the Iron Doors~
+~
+&cWithin the walls of the outpost it seems like it could be a risky place 
+to be. Guards move about looking, watching and waiting for any sign of 
+trouble, almost as if they just want to kill something. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2315
+D3
+~
+~
+0 -1 2309
+R M 0 2303 1 2314
+S
+#2315
+A Large Cave~
+~
+To the east is a large cave that leads down somewhere. To the west is The 
+drow outpost that seems to be protecting this cave. A large sign on the 
+side of the road looks like it might have something to say. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2275
+D3
+~
+~
+0 -1 2314
+S
+#2316
+Twisting Caves~
+~
+Water drips in the distance echoing through the caves. Filth and slime 
+cover the walls of the cave as the only real people seen down here besides 
+the monsters are mostly explorers of some nature. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2306
+D7
+~
+~
+0 -1 2370
+D9
+~
+~
+0 -1 2317
+R M 0 2315 6 2316
+  R E 0 2311 1 16
+S
+#2317
+A Separation of Caves~
+~
+&cTo the southern directions, the cave splits into three parts. One cave 
+leads due south, whereas the other two lead southwest and southeast. There 
+is one cave to the north leading up, and what appears to be out of, the 
+Underdark. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2337
+D6
+~
+~
+0 -1 2316
+D8
+~
+~
+0 -1 2338
+D9
+~
+~
+0 -1 2318
+S
+#2318
+A Winding Cave~
+~
+&cA long intersection of caves move through the ground. Small amounts of 
+water and slime lay about or move slowly depending on the location, 
+showing the many years of slow erosion that it took to create the massive 
+maze that is the Underdark. 
+~
+1 0 13
+D6
+~
+~
+0 -1 2317
+D9
+~
+~
+0 -1 2319
+S
+#2319
+In the Underdark~
+~
+Water drips slowly from the peaks of the stalagmites as a cool breeze 
+flows through the caves. Cracks in the walls of the cave show where they 
+are weaker and stronger, or maybe just where a new cave is gonna form 
+someday. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2320
+D6
+~
+~
+0 -1 2318
+R M 0 2315 5 2319
+  R G 0 2307 1
+  R E 0 2311 1 16
+S
+#2320
+Above a Giant Hole~
+~
+Below is a massive hole that leads down so far no light can be seen from 
+the top of it. To the east is a set of winding caves that lead through the 
+gigantic maze that is the Underdark. 
+~
+1 16777220 13
+D1
+~
+~
+0 -1 2319
+D5
+~
+~
+0 -1 2321
+S
+#2321
+In a Massive Hole~
+~
+&cNo floor or roof in this room as it's in the middle of a decent into the 
+deepest parts of the Underdark. Up is the beginning of the hole where as 
+the way down has a way to go before the hole ends. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2320
+D5
+~
+~
+0 -1 2322
+S
+#2322
+In a Massive Hole~
+~
+&cA very deep hole going up and down here without any real place to grab a 
+hold of. Down and up both seem to have the same appearance from here to 
+the normal eye, as it's the middle of a huge hole. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2321
+D5
+~
+~
+0 -1 2323
+S
+#2323
+In a Massive Hole~
+~
+The bottom of the hole can be seen not to far from here. The top of the 
+hole is quite a ways up from here on the other hand. The walls of the hole 
+are fairly smooth giving it the impression that it would be a very hard 
+wall to scale. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2322
+D5
+~
+~
+0 -1 2324
+S
+#2324
+At the Bottom of a Huge Hole~
+~
+Loud sounds of water can be heard echoing through the caves here. Up above 
+is a gigantic hole that leads very far up into the higher levels of the 
+Underdark. To the west is another cave leading into the darkness of the 
+Underdark. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2325
+D4
+~
+~
+0 -1 2323
+S
+#2325
+Before a Massive Underground Lake~
+~
+&To the west is a massive underground lake collecting water that has 
+trickled down through the layers of the Underdark for years and years. To 
+the east is the bottom of a huge hole that leads down here or up to higher 
+levels of the Underdark. 
+~
+1 4 13
+D1
+~
+~
+0 -1 2324
+D3
+~
+~
+0 -1 2326
+S
+#2326
+A Massive Underground Lake~
+~
+&cThe water is calm and quite silent compared to the Overworld's massive 
+oceans with hurricanes and typhoons. The moisture in the vast cavern is 
+very intense as water fills the air here with nothing but a cool breeze to 
+blow disturb it. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2327
+D1
+~
+~
+0 -1 2325
+D2
+~
+~
+0 -1 2328
+D3
+~
+~
+0 -1 2329
+R M 0 2308 3 2326
+R M 0 2308 3 2326
+S
+#2327
+The Underground Lake~
+~
+The moisture in the air is quite thick here. Deep below there is a small 
+cave that leads deeper into the lake, to reach it one might try to "sink" 
+deeper into the lake. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2326
+D3
+~
+~
+0 -1 2330
+D10
+~
+sink~
+536872960 -1 2335
+S
+#2328
+The Underground Lake~
+~
+Moist air and calm waters are all that can be seen here. Small drips of 
+water can be seen falling from the roof of the cavern high above head as 
+it falls, filling the lake more and more even though there doesn't seem to 
+be much. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2326
+D3
+~
+~
+0 -1 2331
+S
+#2329
+The Underground Lake~
+~
+The calm waters of the cave's underground lake do nothing but riple upon 
+the surface where no bodies push it about. Every now and then a fish can 
+be seen swimming but at the top of the lake seems rather calm compared to 
+the oceans of the overworld. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2330
+D1
+~
+~
+0 -1 2326
+D2
+~
+~
+0 -1 2331
+D3
+~
+~
+0 -1 2332
+R M 0 2309 3 2329
+R M 0 2309 3 2329
+S
+#2330
+The Underground Lake~
+~
+Water all around filling the huge hole in the planet. Magical pressure 
+along with the regular pressure of the world push on everything in here 
+making this a very mystical place. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2327
+D2
+~
+~
+0 -1 2329
+D3
+~
+~
+0 -1 2333
+R M 0 2308 1 2330
+S
+#2331
+The Underground Lake~
+~
+The water has a very calm appearance as only a few fish and other 
+creatures move about in it, otherwise giving it a void look. The moisture 
+in the air is very strong as there is no place for it to go like it would 
+into the clouds in the overworld. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2329
+D1
+~
+~
+0 -1 2328
+D3
+~
+~
+0 -1 2334
+S
+#2332
+The Underground Lake~
+~
+The massive roof of the cave lingers over head the calm waters of the 
+Underdark's lake within the ground. A slight breeze blows through the 
+caves and the moisture in the air is quite thick. 
+~
+1 0 29
+D0
+~
+~
+0 -1 2333
+D1
+~
+~
+0 -1 2329
+D2
+~
+~
+0 -1 2334
+S
+#2333
+The Underground Lake~
+~
+&cA cool breeze flows through the air down here in the cavern that 
+contains the massive lake. The pressure in the air from being down so far 
+in the ground is quite obvious here in the wet hole in the planet. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2330
+D2
+~
+~
+0 -1 2332
+R M 0 2309 4 2333
+S
+#2334
+The Underground Lake~
+~
+Calm waters cover the massive underground lake in all directions. Drips of 
+water can be seen dropping from the roof of the caves as the water 
+continues to fill the massive caverns. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2332
+D1
+~
+~
+0 -1 2331
+R M 0 2308 4 2334
+R M 0 2309 1 2334
+S
+#2335
+Under the Lake~
+~
+Deep within the underground lake there is a cavern that leads down a 
+little deeper into the planet. If one wanted to get back up from under the 
+water, one might try to "resurface". 
+~
+1 0 13
+D5
+~
+~
+0 -1 2336
+D10
+~
+resurface~
+536872960 -1 2327
+S
+#2336
+A Large Lair~
+~
+Treasure and gold can be seen laying all over the place in this massive 
+cavern under the lake, giving it the appearance of some kind of lair. 
+Although completly submerged under the lake, it seems to not be abandoned. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2335
+S
+#2337
+A Winding Cave~
+~
+&cOld and ancient markings line the walls of the vast amounts of the caves 
+that move through the endless Underdark burrowing deep into the planet. 
+Cool breezes can be felt even though this cave is so deep within the 
+ground. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2317
+D2
+~
+~
+0 -1 2339
+S
+#2338
+In the Underdark~
+~
+Stalagmites and stalactites line the floors and roof of the cave, slowly 
+dripping water down moving through cracks in the walls and floor. Ancient 
+markings and even newer ones can be seen on most of the walls as explorers 
+have moves through the maze that is the Underdark's caves. 
+~
+1 0 13
+D7
+~
+~
+0 -1 2317
+D8
+~
+~
+0 -1 2348
+S
+#2339
+In a Long Passage~
+~
+The caves continue winding through the ground giving shelter to the things 
+that lurk down here. A slight breeze blows its way though the caves 
+keeping them slightly cold. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2337
+D3
+~
+~
+0 -1 2340
+D8
+~
+~
+0 -1 2342
+R M 0 2315 5 2339
+  R E 0 2311 1 16
+S
+#2340
+A Small Off-Section~
+~
+&cWater and small amounts of cave slime drip from the top of the cave and 
+it's stalactites hanging down. To the southwest leads to a dead end in the 
+caves and to the east leads to another section of caves. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2339
+D9
+~
+~
+0 -1 2341
+S
+#2341
+A Dead End~
+~
+The only place to go from here is north east, otherwise this room in the 
+caves is a dead end. there is a small crack in the wall where water seeps 
+down but is far to small for even a pixie to fit through. 
+~
+1 0 13
+D6
+~
+~
+0 -1 2340
+R M 0 2313 3 2341
+S
+#2342
+In the Underdark~
+~
+&cNameless caves and caverns leading deep into the planet creates the maze 
+known only as the Underdark. Water moving along with slime and other cave 
+gunk like mold cover the walls and floors. 
+~
+1 0 13
+D7
+~
+~
+0 -1 2339
+D8
+~
+~
+0 -1 2343
+S
+#2343
+In the Underdark~
+~
+&cThe massive spider web of caves spreads out underground like a maze. 
+Small crevices and holes in the walls show where the next caves will 
+appear in the next thousand years or so. 
+~
+1 0 13
+D5
+~
+~
+0 -1 2344
+D7
+~
+~
+0 -1 2342
+R M 0 2313 4 2343
+S
+#2344
+A Splitting Cavern~
+~
+This part of the cave leads in three directions. East leads to what 
+appears to be a dead end, where as the northwest and going up seem to have 
+better chances of actually going somewhere. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2346
+D4
+~
+~
+0 -1 2343
+D7
+~
+~
+0 -1 2345
+R M 0 2315 5 2344
+  R E 0 2311 1 16
+S
+#2345
+A Collapsed Cave~
+~
+&cRocks and boulders block passage down this cavern any further making it 
+appear to be a dead end. There is a small crack in the rocks that might be 
+big enough for someone to dig to the west. 
+~
+1 0 13
+D3
+~
+~
+2304 -1 2347
+D8
+~
+~
+0 -1 2344
+R D 0 2345 3 3
+S
+#2346
+A Dead End~
+~
+This cave only leads to the west from this one small section. There 
+isn't much here to take notice of besides the stalactites and the 
+stalagmites slowly growing over years of small erosion. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2344
+S
+#2347
+A Collapsed Room~
+~
+&cRocks and boulders lay on the ground, making this cave stay open 
+somehow. There is no way to continue digging west without mining equipment 
+or letting nature take its toll over a few thousand years. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2345
+R M 0 2310 1 2347
+S
+#2348
+In the Underdark~
+~
+&cCaves moving though the ground covered in cave slime and small amounts 
+of water slowly eroding the passages. Darkness fills the caves so far from 
+the surface of the Overworld so one would most likely have to bring a 
+light to see here if they can't on their own ability. 
+~
+1 0 13
+D5
+~
+~
+0 -1 2350
+D6
+~
+~
+0 -1 2349
+D7
+~
+~
+0 -1 2338
+D9
+~
+~
+0 -1 2375
+S
+#2349
+A Dead End~
+~
+The only way out of this cave is to the south west making it a dead end. 
+Nothing spectacular here compared to the rest of the caves, just another 
+nameless dead end in the massive web of caves that is the Underdark. 
+~
+1 0 13
+D9
+~
+~
+0 -1 2348
+R M 0 2315 5 2349
+  R G 0 2307 1
+  R G 0 2311 1
+S
+#2350
+In the Underdark~
+~
+&cDarkness fills the area along with a large amount of moisture in the 
+air. The walls of the caves are full of cracks and the occasional carving 
+from an adventurer from the past who either got lost or just made their 
+mark here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2351
+D4
+~
+~
+0 -1 2348
+D8
+~
+~
+0 -1 2353
+S
+#2351
+In a Cave~
+~
+Water drips down from the roof of the caves forming spikes that protrude 
+from the top and bottom of the cave. There are small puddles of water that 
+line the floor of the cave making it very damp here. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2350
+D7
+~
+~
+0 -1 2352
+S
+#2352
+A Dead End~
+~
+Nothing much in this part of the cave. The only way to go is to the 
+southeast otherwise making this a complete dead end in the caves. Water 
+pools up on the ground causing it to be very moist in here. 
+~
+1 0 13
+D8
+~
+~
+0 -1 2351
+S
+#2353
+In the Underdark~
+~
+&cCaves leading back and forth causing the Underdark to be one giant maze 
+of moist cracked walls. Engravings and pictures left by past explorers 
+mark the sides of the cave showing just how deep the Underdark really 
+goes. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2354
+D7
+~
+~
+0 -1 2350
+S
+#2354
+Before a Volcanic Tube~
+~
+&cJust south of here is a large hole leading down deeper into the 
+Underdark, and to the north leads up more into the higher parts of the 
+Underdark. The temperature is very warm here from the obvious volcanic 
+activity near by. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2353
+D2
+~
+~
+0 -1 2355
+S
+#2355
+In a Volcanic Tube~
+~
+&cThe heat coming up from the deep hole is very intense compared to the 
+cool moistness of the rest of the Underdark. Steam can be seen rising from 
+the tube made from volcanic activity in the Underdark. 
+~
+1 16777220 13
+D0
+~
+~
+0 -1 2354
+D5
+~
+~
+0 -1 2356
+S
+#2356
+In a Volcanic Tube~
+~
+The intense heat of the tube is almost unbearable by normal standards. 
+Steam rises from the deep hole as water flows down into the volcanic tube 
+within the planet's deepest parts. 
+~
+1 16777216 13
+D4
+~
+~
+65536 -1 2355
+D5
+~
+~
+0 -1 2357
+S
+#2357
+In a Volcanic Tube~
+~
+Light from the bottom of the hole can be seen as a pool of lava is 
+visible. Up leads to the higher parts and from the looks of things 
+probably the safer parts of the Underdark. 
+~
+1 16777216 13
+D4
+~
+~
+65536 -1 2356
+D5
+~
+~
+0 -1 2358
+S
+#2358
+In a Volcanic Tube~
+~
+&cA giant pool of lava can be seen not to far below here. Large amounts of 
+steam rises though the air going up to a cooler part of the caves. Small 
+fountains of lava pour out from cracks in the wall, which seem to be what 
+fill the large hole that holds all of it. 
+~
+1 16777216 13
+D4
+~
+~
+65536 -1 2357
+D5
+~
+~
+0 -1 2359
+S
+#2359
+In a Volcanic Tube~
+~
+A giant pool of lava is just below here, and up is the long tube that 
+leads to it. The intense heat of the lava rises up in the air sending a 
+current of air up into the higher parts of the cave along with all the 
+steam from any moisture that finds it's way here. 
+~
+1 16777216 13
+D4
+~
+~
+65536 -1 2358
+D5
+~
+~
+0 -1 2360
+S
+#2360
+Inside a Pool of Lava~
+~
+&RThe lava flows around bubbling and spurting. Although this kind of place 
+doesn't seem like something should be able to live in it, there seems to 
+be something that moves though it, or maybe it's just a current in the 
+lava it's self. 
+~
+1 0 13
+D4
+~
+~
+65536 -1 2359
+D5
+~
+~
+0 -1 2361
+> rand_prog 90~
+mpechoat $n &RThe intense heat from the lava burns you!
+mpdamage $n 200
+~
+|
+S
+#2361
+Under the Lava~
+~
+&RThe lava is intensely hot down underneath it. The currents from the 
+intense heat swirl the lava around causing it to be very hard to swim in. 
+Though somewhat uninhabitable there seems to be something that lives down 
+here in the intense heat of the molten lava. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2360
+R M 0 2312 1 2361
+  R G 0 2302 1
+> rand_prog 90~
+mpechoat $n &RThe intense heat from the lava burns you!
+mpdamage $n 200
+~
+|
+S
+#2362
+In the Underdark~
+~
+&cThe caves underground wind and weave their way into a complex spider web 
+maze that is the Underdark. Water drips from the roof of the cave, as well 
+as puddles up on the floor making the caves very moist. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2306
+D8
+~
+~
+0 -1 2363
+R M 0 2315 5 2362
+  R E 0 2311 1 16
+S
+#2363
+In the Underdark~
+~
+This cave echoes loudly with the sound of falling water droplets, the 
+walls striped grey and black from where the running rivulets of water have 
+swept alternate patches clean. The water itself runs out slowly to the 
+south, and the lower sloping ground that can be seen there. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2364
+D7
+~
+~
+0 -1 2362
+S
+#2364
+In the Underdark~
+~
+The ground is very muddy here as water collects into large puddles on the 
+floor of the cave. The air is very humid here as droplets of water cover 
+everything, even the walls of the cave that are not even close to a 
+puddle. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2363
+D2
+~
+~
+0 -1 2366
+D8
+~
+~
+0 -1 2365
+S
+#2365
+A Cleaned Cave~
+~
+For some reason this cave seems to have been cleaned out. The puddles of 
+water have been formed to move down to another section of caves with a 
+small dug trench as well as most of the spikes of dirt have been removed 
+and cleaned up. 
+~
+1 4 13
+D2
+~
+~
+0 -1 2367
+D7
+~
+~
+0 -1 2364
+S
+#2366
+A Dead End~
+~
+The only way out of this part of the cave is north. Cracks in the walls 
+show where erosion has been taking place as water moves through them 
+slowly over time making the cave actually go somewhere. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2364
+R M 0 2314 4 2366
+S
+#2367
+A Small Home~
+~
+&cThis home seems to be just the cave walls, but it's been cleaned up a 
+lot. The cracks in the walls have been filled in, as well as the 
+stalactites and stalagmites have all been removed to make room for the 
+small amount of furniture that is here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2365
+R M 0 2311 1 2367
+S
+#2368
+Floating in a void~
+~
+~
+1 4 13
+S
+#2369
+A Dead End~
+~
+This cave leads no where but east. Water puddles on the floor and flows 
+into the cracks in the walls of the caves getting ready to form the next 
+series of caves in the next couple thousand years. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2303
+S
+#2370
+In the Underdark~
+~
+The walls of the caves are cracked and show signs of years and years of 
+erosion. Water puddles up all over the floor of the cave giving it a muddy 
+feel most of the time. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2371
+D8
+~
+~
+0 -1 2316
+S
+#2371
+In the Underdark~
+~
+The air here is very humid with all the water and cave slime that covers 
+everything within the caves. Darkness fills the corridors as the nearest 
+entry to the Underdark is quite a bit of a ways away. 
+~
+1 0 13
+D2
+~
+~
+0 -1 2370
+D3
+~
+~
+0 -1 2372
+D6
+~
+~
+0 -1 2373
+S
+#2372
+A Dead End~
+~
+&cTo the east is a main route through the Underdark, otherwise there is no 
+other way out of this part of the cave, as it is a dead end. Cave drawings 
+and marking from past adventurers show that not too many people move down 
+into the Underdark too deep. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2371
+S
+#2373
+A Small Cavern~
+~
+&cThe caves open up here into a small cavern. Stalactites hanging far 
+overhead threatening to fall at any moment, which would cause some pain. 
+The ground seems relatively clear of the stalagmites though. 
+~
+1 0 13
+D1
+~
+~
+0 -1 2374
+D9
+~
+~
+0 -1 2371
+S
+#2374
+A Small Lair~
+~
+&cSmall piles of junk clutter the floor of the cavern here. By the 
+looks of this place it appears to be an old lair of some sort, probably of 
+some dragon that had been slain as all the treasure has been ransacked and 
+nothing is really left. 
+~
+1 0 13
+D3
+~
+~
+0 -1 2373
+S
+#2375
+A Collapsed Cavern~
+~
+&cIt appears that the only way out of this dead end is to the northeast. 
+There isn't anything very different from the rest of the endless caves 
+except the fact that a large crack lines the wall to the south that looks 
+almost as if it could be dug out. 
+~
+1 0 13
+D2
+~
+~
+256 -1 2376
+D6
+~
+~
+0 -1 2348
+R D 0 2375 2 3
+S
+#2376
+A Hidden Cave~
+~
+This cave is well hidden behind the small crack that blocks it to the 
+north. The cave leads a bit to the south from here, but seems very 
+dangerous as it may collapse completely at any moment. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2375
+D2
+~
+~
+0 -1 2377
+S
+#2377
+In a Cave~
+~
+Darkness fills the cave as it leads into two directions, to the north and 
+to the south. Debris and other rocks and loose objects lay cluttered 
+around here as they were probably knocked down by an earthquake at some 
+time. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2376
+D2
+~
+~
+0 -1 2378
+S
+#2378
+A Dead End~
+~
+&cRocks lay on the ground knocked down and cluttered about. Water drips 
+down the walls of the cave creating puddles on the floor that slowly seep 
+into the ground below. Some steam seems to be rising from the ground, 
+maybe one could dig their way down. 
+~
+1 0 13
+D0
+~
+~
+0 -1 2377
+D5
+~
+~
+256 -1 2379
+R O 0 2301 1 2378
+R D 0 2378 5 3
+S
+#2379
+A Volcanic Tube~
+~
+Steam slowly rises from the bottom of the tube within the ground. The 
+walls are slick and slowly loosing their slimy appearance as the hole goes 
+down deeper into the world. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2378
+D5
+~
+~
+0 -1 2380
+S
+#2380
+A Volcanic Tube~
+~
+&cThe hole expands down into pure darkness. Looking down from here the 
+only thing besides steam is a small red light way at the bottom of the 
+tube. Up leads to a cooler part of the Underdark. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2379
+D5
+~
+~
+0 -1 2381
+S
+#2381
+A Volcanic Tube~
+~
+&cThe volcanic tube starts to get hot here as the heat raises though the 
+caves. Steam rolls up from the bottom of the hole as any moisture coming 
+from the top moves down, just to return. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2380
+D5
+~
+~
+0 -1 2382
+S
+#2382
+A Volcanic Tube~
+~
+Steam rolls up from the bottom of the volcanic tube as any moisture in the 
+air from above is returned. The hole goes down to a light at the bottom 
+that appears to be molten lava. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2381
+D5
+~
+~
+0 -1 2383
+S
+#2383
+A Volcanic Tube~
+~
+&cFiery heat rises from the bottom of the hole up to the top along with 
+steam. Not to far below is a glowing pool of molten magma and above is the 
+top of the hole and a much cooler part of the Underdark. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2382
+D5
+~
+~
+0 -1 2384
+S
+#2384
+A Volcanic Tube~
+~
+Just below here is a molten pit of lava. The heat rising from the lava 
+below is very intense to the point that any metals in the rocks and walls 
+of the caves are red hot from it. 
+~
+1 16777216 13
+D4
+~
+~
+0 -1 2383
+D5
+~
+~
+0 -1 2385
+S
+#2385
+In a Pit of Lava~
+~
+&RThe lava has a very powerful heat coming from it. Metals and cloth can 
+barely stand the heat without some kind of magical protections to them. 
+There is nothing living in this hot pool of molten liquid. 
+~
+1 0 13
+D4
+~
+~
+0 -1 2384
+> rand_prog 90~
+mpechoat $n &RThe heat from the magma burns you!&D
+mpdamage $n 500
+~
+|
+S
+#2386
+Floating in a void~
+~
+~
+1 4 1
+S
+#2387
+Floating in a void~
+~
+~
+1 4 1
+S
+#2388
+Floating in a void~
+~
+~
+1 4 1
+S
+#2389
+Floating in a void~
+~
+~
+1 4 1
+S
+#2390
+Floating in a void~
+~
+~
+1 4 1
+S
+#2391
+Floating in a void~
+~
+~
+1 4 1
+S
+#2394
+Floating in a void~
+~
+~
+1 4 1
+S
+#2395
+Floating in a void~
+~
+~
+1 4 1
+S
+#2396
+Floating in a void~
+~
+~
+1 4 1
+S
+#2397
+Floating in a void~
+~
+~
+1 4 1
+S
+#2398
+Floating in a void~
+~
+~
+1 4 1
+S
+#2399
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2303 spec_cast_mage
+M  2305 spec_cast_cleric
+M  2306 spec_cast_mage
+M  2314 spec_cast_mage
+S
+
+
+#$

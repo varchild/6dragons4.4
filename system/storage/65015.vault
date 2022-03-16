@@ -1,0 +1,51 @@
+#VNUM 65015
+#OBJECT
+Name         coins gold~
+ShortDescr   744 gold coins~
+Description  &YA heap of gold coins.~
+Vnum         129
+Currtype     1
+Color        14
+Size   0
+Values       744 0 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         26001
+Level        27
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       20 10 10 8 0 20 0
+Spell 3      'aqua breath'
+End
+
+#OBJECT
+Vnum         24857
+Level        43
+Currtype     1
+Size   0
+Values       43 4 4 156 0 0 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Count        2
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#END

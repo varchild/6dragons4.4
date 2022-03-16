@@ -1,0 +1,2542 @@
+#AREA        Gnome Tower~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 30 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThe sound of gears turn from some type of mechanism in the tower.~
+
+#FLAGS
+0 10
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 2450000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#18600
+Gnome Guard Vasara~
+Gnome Guard Vasara~
+A gnome guard stands his post here.
+~
+The gnome is very short in stature, and flesh has earthy tones to it.  The gnome's eyes
+and mouth appear to be overly large for the size of it's head.
+~
+1
+Clanname none~
+0
+0
+67239939 4194304 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(tower) > 0
+  mppause 3
+  mpechoat $n &CGuard Vasara says, 'Welcome to the Tower!'&D
+endif
+if quest(tower) == 6
+  if iscarrying($n) == 18606
+    break
+  else
+    mpoload 18606 1
+    get key
+    give key $n
+  endif
+endif
+if quest(tower) < 1
+  mppause 2
+  mpechoat $n &CGuard Vasara says, 'Ho, young one...'&D
+  mppause 8
+  mpechoat $n &CGuard Vasara says, 'If you seek entrance into the tower, you must solve its mysteries.'&D
+  mpquest $n tower 1
+endif
+~
+|
+#18601
+voice tower~
+voice tower~
+The voice of the tower is hidden here.
+~
+~
+14
+Clanname none~
+0
+0
+69337091 4259842 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(tower) == 2
+  mppause 3
+  mpechoat $n &cYou notice the left mount on the ground, and think...&D
+  mppause 3
+  mpechoat $n &cThe &WLEFT &ccould &WCONNECT &cto the &WGNOME&c.&D
+  mppause 20
+  mpat $n mpquest $n tower 3
+else
+  if quest(tower) == 4
+    mppause 3
+    mpechoat $n &cYou notice the right mount on the ground, and think...&D
+    mppause 3
+    mpechoat $n &cThe &WRIGHT &ccould &WCONNECT &cto the &WGNOME&c.&D
+    mppause 20
+    mpat $n mpquest $n tower 5
+    mppause 20
+    mpat 4 look
+    mppause 20
+    mpecho &YA magical key hole suddenly appears shimmering on the south wall.&D
+    mppause 4
+    mpechoat $n &cYou think to yourself maybe I could &WUNLOCK DOOR&c with the connected key halves.&D
+    mpat 4 look
+    mppause 20
+    get left
+    mpat 4 drop left
+    mpoload 18602 1
+    drop left
+    get right
+    mpat 4 drop right
+    mpoload 18603 1
+    drop right
+  endif
+endif
+~
+|
+#18602
+tower voice~
+voice tower~
+The voice of the tower is hidden here.
+~
+~
+0
+Clanname none~
+0
+0
+67239939 4259842 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if iscarrying($n) == 18600
+  mpat 18601 get gnome
+  mpat 4 drop gnome
+  mpat 18601 mpoload 18600 1
+  mpat 18601 drop gnome
+endif
+~
+|
+#18603
+tower voice~
+voice tower~
+The voice of the tower is hidden here.
+~
+~
+0
+Clanname none~
+0
+0
+67239939 4259842 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if iscarrying($n) == 18601
+  mpat 18612 get gnome
+  mpat 4 drop gnome
+  mpat 18612 mpoload 18601 1
+  mpat 18612 drop gnome
+endif
+~
+|
+#18604
+gnome worker~
+a gnome worker~
+A gnome worker is busily working on things here.
+~
+This is a well trained gnome.  He might not have a lot of strength but
+he makes up for it with his scientific skills.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+10 13 3 5d5+90 1d7+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 2 0 1 -2147483104 2
+> all_greet_prog 100~
+if quest(tower) == 5
+  mpquest $n tower 6
+endif
+~
+> death_prog 100~
+if quest(malevolentheart) == 1
+  if qkamount(malevolentheart) < 49
+    mpqkamount $n malevolentheart 1
+else
+    mpqkamount $n malevolentheart 1
+    mpquest $n malevolentheart 2
+  endif
+endif
+~
+|
+#18605
+Gnome Team Leader~
+a gnome team leader~
+A gnome team leader is standing here.
+~
+You see a gnome who is lost deep into some invention that he is about
+to make.  His hair is white, but he looks fairly strong.
+~
+1
+Clanname none~
+0
+0
+16777217 4194856 1000 C
+12 14 4 2d10+150 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 0 0 0 32 0
+> death_prog 100~
+if quest(malevolentheart) == 1
+  if qkamount(malevolentheart) < 49
+    mpqkamount $n malevolentheart 1
+else
+    mpqkamount $n malevolentheart 1
+    mpquest $n malevolentheart 2
+  endif
+endif
+~
+|
+#18606
+gnome engineer~
+a gnome engineer~
+A gnome engineer is standing here.
+~
+The woman is short and gnarled, but acts like a woman several times her beauty.
+She's starting to look pretty attractive to you ...
+~
+1
+Clanname none~
+0
+0
+16777217 0 1000 C
+10 16 5 5d10+100 1d8+0
+0 0 0 0 0 
+0
+115 115 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 2 0 0 -2147483648 2
+> death_prog 100~
+if quest(malevolentheart) == 1
+  if qkamount(malevolentheart) < 49
+    mpqkamount $n malevolentheart 1
+else
+    mpqkamount $n malevolentheart 1
+    mpquest $n malevolentheart 2
+  endif
+endif
+~
+|
+#18607
+Gnome Duke Yabu~
+Gnome Duke Yabu~
+A regal looking gnome stands here wearing ornate clothing.
+~
+The Duke is wearing his royal best dark blue uniform.  He has a slight
+gray color to his hair, and beard.  
+~
+1
+Clanname none~
+0
+0
+1027 0 1000 C
+18 6 -1 2d10+200 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+#18608
+cave bear~
+a cave bear~
+A massive cave bear is standing here.
+~
+The bear is the size of a large ogre, with gray and brown fur. The bear has claws the size of
+a gnome's head.
+~
+1
+Clanname none~
+0
+0
+131107 4194304 -1 C
+20 0 0 1d50+350 5d3+4
+0 0 0 0 0 
+0
+115 115 2
+16 13 13 13 13 13 13
+0 0 0 0 0
+22 3 0 0 1 1 0
+0 0 1064 0 0 0 515 2
+> death_prog 100~
+mpquest $n bear 2
+~
+|
+#18609
+gnome miner~
+a gnome miner~
+A gnome miner is standing here.
+~
+The miner is covered with dirt, and has a thick leather suit on.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+10 16 5 5d10+80 1d8+0
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 2 0 0 736 2
+#18610
+gnome elder~
+a gnome elder~
+A gnome elder is standing here.
+~
+You see a gnome who is lost deep into some invention that he is about
+to make.  His hair is white, but he looks fairly strong.
+~
+1
+Clanname none~
+0
+0
+131075 4194856 1000 C
+18 14 4 2d10+500 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 1 0 0 1 1 1
+0 0 1775 0 0 0 1207959584&1 258
+> fight_prog 100~
+if mobinarea(18611) < 1
+  mpmload 18611
+  mpforce dog mpkill $n
+endif
+~
+> all_greet_prog 100~
+mppause 5
+if quest(bear) < 1
+  mpechoat $n &CA Gnome Elder says, 'Greetings.'&D
+  mppause 6
+  mpechoat $n &CA Gnome Elder says, 'If you are willing we have a terrible plague upon us.'&D
+  mppause 4
+  mpechoat $n &CA Gnome Elder says, 'There is a cave bear somewhere near the underground river.'&D
+  mppause 5
+  mpechoat $n &CA Gnome Elder says, 'Kill the cave bear, and bring me the corpse, I will reward you.'&D
+  mpquest $n bear 1
+endif
+if quest(bear) == 2
+  mppause 4
+  mpechoat $n &CA Gnome Elder says, '&WGIVE CORPSE ELDER&C' and I will reward you.'&D
+endif
+~
+> act_prog p gives you the corpse of a cave bear.~
+if quest(bear) == 2
+  mppause 2
+  mpat 4 drop corpse
+  mpquest $n bear 3
+  mppause 4
+  mpechoat $n &CA Gnome Elder says, 'I don't have riches, but this spell will greatly help you.'&D
+  c 'bestow vitae' $n
+else
+  mpechoat $n &CA Gnome Elder says, 'What do you want me to do with this?'&D
+endif
+~
+|
+#18611
+war dog~
+a war dog~
+A war dog is standing his ground here.
+~
+Baragar bred these brutes from the most vicious alsatians and pit bulls he
+could find, then infected them with super-rabies to make 'em nice and
+friendly.
+~
+13
+Clanname none~
+0
+0
+131075 8192 -400 C
+16 0 0 5d10+200 1d5+5
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 4 0 0 1 1 1
+0 0 0 0 0 0 1 0
+#18612
+tower voice~
+a tower voice~
+The voice of the tower is hidden here.
+~
+~
+14
+Clanname none~
+0
+0
+67239939 4259842 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 4
+mpechoat $n &cAfter studying the collapsed tunnel, you think to yourself...
+mppause 2
+mpechoat $n &cI could probably &WDIG NORTH&c and see what is behind this.
+~
+|
+#18613
+gnome inventor yarla~
+Gnome Inventor Yarla~
+A gnome inventor is working on some machinery here.
+~
+The woman inventor is wearing a lab coat.  She has golden blond hair, and
+piercing blue eyes.
+~
+1
+Clanname none~
+0
+0
+3 4194304 1000 C
+18 6 -1 2d10+200 1d2+5
+0 0 0 0 0 
+0
+115 115 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> all_greet_prog 100~
+if quest(timemachine) < 1 
+  mppause 4
+  mpechoat $n &CGnome Inventor Yarla says, 'Would you like to help me fix my time machine?'&D
+  mppause 6
+  mpechoat $n &cType &WSAY HELP &cif your interested.&D
+endif
+if quest(timemachine) == 2
+  mppause 3
+  mpechoat $n &CGnome Inventor Yarla says, 'If you have the cog please &WGIVE COG INVENTOR&C'&D
+endif
+~
+> speech_prog help~
+mpquest $n timemachine 1
+~
+> act_prog p gives you a cog.~
+if quest(timemachine) == 2
+  mppause 3
+  mpechoat $n &CGnome Inventor Yarla says, 'Very good now I can fix the time machine.'&D
+  mppause 6
+  mpquest $n timemachine 3
+  mpat 4 drop cog
+  mpechoat $n &cGnome Inventor Yarla fumbles with the cog as she slides it in place.&D
+  mppause 3
+  mpechoat $n &YThe Machine suddenly lights up.&D
+  mppause 6
+  mpechoat $n &CGnome Inventor Yarla says, 'Go south now to use the machine.'&D
+endif
+~
+|
+#18614
+tower voice~
+a tower voice~
+The voice of the tower is hidden here.
+~
+~
+0
+Clanname none~
+0
+0
+67239939 4259842 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(timemachine) != 3
+  mpechoat $n &cThe time machine isn't ready yet.&D
+  mpforce $n n
+else
+  mppause 2
+  mpechoat $n &CYou hear the inventor say, 'To use the time machine, you should &WACTIVATE &Cit.'&D
+endif
+~
+|
+#18615
+King Jazat~
+King Jazat~
+A gnome king is sitting on his throne here.
+~
+The king has a royal purple colored robe on, and is wearing gold colored sandals.  The king has a
+neatly trimmed goatee.
+~
+1
+Clanname none~
+0
+0
+131075 4194432 500 C
+30 0 0 1d50+850 5d3+4
+0 0 0 0 0 
+0
+115 115 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+11 3 0 0 1 1 0
+0 0 1064 0 0 0 48 2
+> act_prog p gives you The scroll of discovery.~
+mpecho &cThe King turns red as he reads the scroll.
+mpecho &CKing Jazat says, Thank you for you help $n.
+mpoload 18629 30
+get helmet
+give helmet $n
+mpat 4 drop scroll
+~
+|
+#18616
+gnome magician advisor~
+a magician advisor~
+A hooded gnome magician advisor is standing off in the shadows.
+~
+The gnome has a dark grey hooded cloak that masks most of his face.  He has no facial hair
+at all.  There is a strange look in his eyes.
+~
+1
+Clanname none~
+0
+0
+1073872899 4194432 500 C
+35 0 0 1d50+900 5d3+4
+0 0 0 0 0 
+0
+115 115 2
+16 13 13 13 13 13 13
+0 0 0 0 0
+11 3 0 0 1 1 0
+0 0 1064 0 0 0 1879573000 2
+> rand_prog 3~
+mpecho &cA Magician Advisor whispers something quickly to the King.
+~
+> death_prog 100~
+mpechoat $n &cYou notice something odd about the bookcase.
+~
+|
+#18617
+gnome cook~
+a gnome cook~
+A gnome cook is setting up food here.
+~
+The cook is wearing a white apron and a chef's hat.  He has thick blonde hair and green eyes.
+~
+1
+Clanname none~
+0
+0
+131075 4194432 500 C
+30 0 0 1d50+850 5d3+4
+0 0 0 0 0 
+0
+115 115 2
+16 13 13 13 13 13 13
+0 0 0 0 0
+11 3 0 0 1 1 0
+0 0 1064 0 0 0 -2147483600 2
+#18618
+gnome magician advisor~
+a magician advisor~
+A hooded gnome magician advisor is standing off in the shadows.
+~
+The gnome has a dark grey hooded cloak that masks most of his face.  He has no facial hair
+at all.  There is a strange look in his eyes.
+~
+1
+Clanname none~
+0
+0
+131075 4194432 -1000 C
+50 0 0 1d50+2000 5d3+4
+0 0 0 0 0 
+0
+115 115 2
+16 13 13 13 13 13 13
+0 0 0 0 0
+22 3 0 0 1 1 0
+0 0 1064 0 0 0 262144&3 66
+> all_greet_prog 100~
+mppause 3
+mpecho &CThe Gnome Magician Advisor says, 'So you could not leave well
+mpecho &Cenough alone!  I will hang you on my wall of tortured bodies
+mpecho &Cin the room next door!  You will not be able to convince the
+mpecho &Cof my true nature without this final piece of parchment I have!'
+~
+|
+#18619
+dying gnome knight~
+a dying gnome knight~
+A dying gnome knight is chained to the wall here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mpechoat $n &CA dying gnome knight says, 'Succeed where I failed!  Kill
+mpechoat $n &Cthe magician advisor he is involved in dark magic and is
+mpechoat $n &Ccontrolling the king through his vile magic!'
+mpechoat $n &rA dying gnome knight is DEAD!
+mpgoto 4
+~
+> act_prog p floats in from the south.~
+mpechoat $n &CA dying gnome knight says, 'Succeed where I failed!  Kill
+mpechoat $n &Cthe magician advisor he is involved in dark magic and is
+mpechoat $n &Ccontrolling the king through his vile magic!'
+mpechoat $n &rA dying gnome knight is DEAD!
+mpgoto 4
+~
+> act_prog p flies in from the south.~
+mpechoat $n &CA dying gnome knight says, 'Succeed where I failed!  Kill
+mpechoat $n &Cthe magician advisor he is involved in dark magic and is
+mpechoat $n &Ccontrolling the king through his vile magic!'
+mpechoat $n &rA dying gnome knight is DEAD!
+mpgoto 4
+~
+|
+#18620
+gnome sentry~
+a gnome sentry~
+A gnome sentry is standing watch here.
+~
+You see a gnome who is lost deep into some invention that he is about
+to make.  His hair is white, but he looks fairly strong.
+~
+1
+Clanname none~
+0
+0
+16908291 4194856 1000 C
+12 14 4 2d10+150 1d2+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+11 4 0 0 1 1 1
+0 0 1775 0 0 0 32 524288
+> death_prog 100~
+if quest(malevolentheart) == 1
+if qkamount(malevolentheart) < 49
+mpqkamount $n malevolentheart 1
+else
+mpqkamount $n malevolentheart 1
+mpquest $n malevolentheart 2
+endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#18600
+white gnome statue~
+a white statue of a gnome~
+A white statue of a gnome holding a shield is here.~
+~
+54 0 1
+0 18602 18604 0 0 0 0
+2 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mpquest $n tower 2
+~
+|
+E
+white statue~
+The white statue appears to be precisely cut to connect to something.
+~
+#18601
+gold gnome statue~
+a gold statue of a gnome~
+A gold statue of a gnome holding a shield is here.~
+~
+54 0 1
+0 18603 18605 0 0 0 0
+2 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mpquest $n tower 4
+~
+|
+E
+gold statue~
+The gold statue appears to be precisely cut to connect to something.
+~
+#18602
+left mount~
+a left side mount~
+A left side mount is on the floor here.~
+~
+54 0 1
+18600 0 18604 0 0 0 0
+2 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+left mount~
+The left mount appears to be precisely cut to connect to something.
+~
+#18603
+right mount~
+a right side mount~
+A right side mount is on the floor here.~
+~
+54 0 1
+18601 0 18605 0 0 0 0
+2 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+right mount~
+The right mount appears to be precisely cut to connect to something.
+~
+#18604
+left half key~
+a left half of a key~
+A left half of a key is here.~
+~
+54 0 1
+0 18605 18606 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+left~
+The left half of a key appears to be precisely cut to connect to something.
+~
+#18605
+right half key~
+a right half of a key~
+A right half of a key is here.~
+~
+54 0 1
+18604 0 18606 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+right~
+The right half of a key appears to be precisely cut to connect to something.
+~
+#18606
+key~
+a key~
+A key has been left here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+key~
+The key appears to have a slightly noticeable joint in the halfway position of it.
+~
+#18607
+glowing yellow potion~
+a glowing yellow potion~
+A glowing yellow potion was left here.~
+~
+10 65 1
+20 -1 -1 -1 0 0 0
+1 5 0
+4
+14
+0
+0
+0
+0
+'NONE' 'cure critical' 'refresh'
+S 0 0
+E
+yellow~
+The yellow potion is made out of a glass bottle, and it is filled with a thick yellow liquid.
+~
+#18608
+glowing green potion~
+a glowing green potion~
+A glowing green potion has been left here.~
+~
+10 0 1
+15 -1 -1 -1 0 0 0
+2 20 2
+2
+9
+0
+0
+0
+0
+'cure critical' 'cure critical' 'kindred strength'
+S 0 0
+E
+green~
+The green potion is made out of a glass bottle, and it is filled with a strong odored herbal liquid.
+~
+#18609
+elegant rapier~
+an elegant rapier~
+An elegant rapier has been left here.~
+~
+5 524288 8193
+0 5 15 2 1 0 0
+3 81 8
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+rapier~
+The elegant rapier is made out of a good quality iron ore.
+~
+#18610
+duke signet ring~
+duke signet ring~
+A duke signet ring has been left here.~
+~
+9 0 3
+10 10 0 0 0 0 0
+1 122 12
+4
+14
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 2
+E
+signet ring~
+The signet ring has the royal stamp of the duke which can be used to stamp letters.
+~
+#18611
+ducal uniform~
+a dark blue ducal uniform~
+A ducal uniform has been left here.~
+~
+9 0 9
+10 10 0 0 0 0 0
+4 106 10
+4
+4
+0
+0
+0
+0
+S 77 0
+A
+13 50
+E
+uniform~
+The dark blue uniform has three yellow stripes on the sleeves and several medals on the chest.
+~
+#18612
+cellar key~
+a cellar key~
+A cellar key has been left here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 90 9
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+key~
+The cellar key is made out of a soft copper and appears to be slightly worn.
+~
+#18613
+long handled knife~
+a long handled knife~
+A long handled knife has been left here.~
+~
+5 0 8193
+0 5 15 1 2 0 0
+2 89 8
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+knife~
+The long handled knife has a very sharp blade and a bone handle.
+~
+#18614
+leather satchel~
+a leather satchel~
+A leather satchel has been left here.~
+~
+15 0 16385
+300 0 0 8 0 0 0
+3 17 1
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+satchel ~
+The leather satchel is fairly worn from use, but is still is good shape.
+~
+#18615
+steel shovel~
+a steel shovel~
+A steel shovel has been left here.~
+~
+59 0 16385
+0 0 0 0 0 5 0
+5 62 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+shovel~
+This shovel looks like it would be good for mining and digging.
+~
+A
+5 1
+#18616
+oak staff~
+a stout oak staff~
+A stout oak staff has been left here.~
+~
+5 0 8193
+10 1 5 4 11 1 0
+5 48 4
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+12 25
+E
+oak staff~
+The oak staff is in great shape and has many odd runes carved within it.
+~
+#18617
+well water~
+well water~
+A water well sits upon a brick foundation here.~
+~
+25 0 0
+1000 10 0 0 0 0 0
+1 1 0
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+well~
+The well is made up of solid bricks.  There is a bucket to lower into the well.
+~
+#18618
+miners pickaxe~
+a miners pickaxe~
+A miners pickaxe lies here~
+~
+5 524288 8193
+25 3 10 1 1 5 0
+1 59 10
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+E
+pick pickaxe~
+The pickaxe is made out of iron ore and appears to be well crafted.
+~
+#18619
+time machine~
+a newly created time machine~
+A time machine control panel is mounted to the wall here.~
+~
+72 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+8
+0
+0
+0
+0
+S 0 0
+#18620
+dusty goggles~
+a pair of dusty goggles~
+A pair of dusty goggles has been left here.~
+~
+9 0 131073
+10 10 0 0 0 10 0
+1 97 9
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+26 512
+E
+dusty goggles~
+The dusty goggles have a pair of leather straps on them to secure them in place.
+~
+#18621
+flute silvery~
+a silvery flute~
+A beautifully crafted flute made of pure silver~
+~
+68 524547 16385
+1 10 0 5 2 10 0
+1 1 10
+4
+0
+0
+0
+0
+0
+S 3 0
+A
+13 15
+A
+12 15
+A
+19 2
+E
+silvery flute~
+The silvery flute is precisely crafted and has been well maintained.
+~
+#18622
+old pipe~
+an old pipe~
+An old well used pipe rests here~
+~
+30 524288 1
+1 0 0 1 0 10 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+pipe~
+The pipe has a little bit of burned herb left within it.
+~
+#18623
+piece of parchment bottom right~
+The bottom right piece of a ripped up parchment~
+The bottom right piece of a ripped up parchment has been left here.~
+~
+54 0 1
+0 18624 18627 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+right bottom~
+There appears to be the words necromancy written on it.
+~
+#18624
+piece of parchment bottom left~
+The bottom left piece of a ripped up parchment~
+The bottom left piece of a ripped up parchment has been left here.~
+~
+54 0 1
+18623 0 18627 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+bottom left~
+There appears to be the words discovery written on it.
+~
+#18625
+piece of parchment top left~
+The top left piece of a ripped up parchment~
+The top left piece of a ripped up parchment has been left here.~
+~
+54 0 1
+0 18626 18628 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+top left~
+This appears to have been addressed to the king.
+~
+#18626
+piece of parchment top right~
+The top right piece of a ripped up parchment~
+The top right piece of a ripped up parchment has been left here.~
+~
+54 0 1
+18625 0 18628 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+top right~
+The parchment stresses importance of keeping this secure.
+~
+#18627
+complete bottom half parchment~
+The complete bottom half of a ripped up parchment~
+The complete bottom half of a ripped up parchment has been left here.~
+~
+54 0 1
+0 18628 18631 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+complete bottom~
+There appears to be the words beware of the Necromancer.
+~
+#18628
+complete top half parchment~
+The complete top half of a ripped up parchment~
+The complete top half of a ripped up parchment has been left here.~
+~
+54 0 1
+18627 0 18631 0 0 1 0
+1 23 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+top complete~
+There appears to be the words King Jazat keep the scroll of discovery secure.
+~
+#18629
+plate full helmet majestic power~
+a majestic full plate helmet of power~
+A majestic full plate helmet of power has been left here.~
+~
+9 524609 17
+30 30 0 0 0 30 0
+10 273 27
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+19 8
+A
+18 8
+E
+majestic power helmet~
+The helmet appears to be crafted of mystical ore with a quality never seen before.
+~
+#18630
+mining cart~
+a mining cart~
+A mining cart has been left here.~
+~
+15 1073741824 0
+1000 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+cart~
+The mining cart is covered in a light rust and is filled with ore.
+~
+#18631
+scroll discovery~
+The scroll of discovery~
+The scroll of discovery has been left here.~
+~
+13 0 1
+0 0 0 0 0 1 0
+1 0 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+scroll discovery~
+King Jazat,
+
+Your Magician Advisor is performing evil acts in the bowels of
+the tower.  I failed to kill him myself, but if you got this
+parchment then someone succeeded where I failed.  Please reward
+the bearer of this parchment accordingly.  Give this scroll to
+the King immediately. 
+
+Sir Garad
+First Knight of Gnome Tower
+~
+#18632
+ring splendor~
+The ring of splendor~
+The ring of splendor has been left here.~
+~
+9 0 3
+20 20 0 0 0 20 0
+1 156 15
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+12 75
+A
+4 1
+E
+ring splendor~
+The ring of splendor has some mystical colors that swirl around on the ring's band.
+~
+#18633
+white leather apron~
+a white leather apron~
+A white leather apron has been left here.~
+~
+9 256 2049 128
+20 20 0 0 0 20 0
+1 161 16
+3
+5
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+18 2
+A
+5 1
+E
+white apron~
+The white apron is covered in flour and has a wine stain on it.
+~
+#18634
+jeweled sceptre~
+a jeweled sceptre~
+A jeweled sceptre has been left here.~
+~
+9 0 16385
+20 20 0 0 0 20 0
+5 174 17
+3
+14
+0
+0
+0
+0
+S 0 0
+A
+19 5
+E
+sceptre~
+The jeweled sceptre is covered in sapphires and rubies.
+~
+#18635
+jeweled crown~
+a jeweled crown~
+A jeweled crown has been left here.~
+~
+9 0 17 64
+20 20 0 0 0 20 0
+1 183 18
+3
+14
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+4 1
+E
+crown~
+The jewled crown has small diamonds encrusted along it's edge.
+~
+#18636
+half spear~
+a half spear~
+A half spear has been left here.~
+~
+5 0 8193
+12 3 10 7 10 8 0
+4 31 3
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+18 4
+E
+spear~
+The half spear is the same length size of a standard sword.
+~
+#18637
+brass keyring~
+a brass keyring~
+A brass keyring has been left here.~
+~
+62 0 1
+20 0 0 0 0 10 0
+1 38 3
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+'brass' 'key' 'keyring'~
+The brass key ring is very large and appears that it could hold several sets of keys.
+~
+#0
+
+
+#ROOMS
+#18600
+Tower Entryway ~
+~
+The materials used to construct the tower are not recognizable.  The walls
+and floors appear to be seamless.  Strange looking globes are attached to 
+the ceiling and give off a blue glow providing lighting.  A lush blue rug
+is centered on the floor.
+~
+1 0 0
+D0
+~
+~
+0 -1 18631
+D2
+~
+~
+0 -1 18607
+R M 0 18600 1 18600
+S
+#18601
+A Dead End~
+~
+The passageway suddenly ends at a small decorative wall carving that 
+houses a statue. There appears to be no seams with the construction of the 
+walls and floors of the tower. A series of blue globes run along the 
+ceiling and provide lighting in the passage. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18605
+R O 0 18600 1 18601
+S
+#18602
+A Stairway~
+~
+The walls along the stairway are decorated with mechanical diagrams. A 
+sturdy oak hand rail is mounted to the wall. A series of blue globes along 
+the ceiling provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18603
+D4
+~
+~
+0 -1 18613
+S
+#18603
+Planning Room~
+~
+The walls are covered with various diagrams of machinery, and plans for 
+woodworking. A large table and oak chairs are centered in the room on a 
+blue rug. An oversized blue globe provides lighting for the room. 
+~
+1 0 0
+D1
+~
+~
+0 -1 18604
+D2
+~
+~
+0 -1 18602
+R M 0 18605 4 18603
+  R E 0 18613 1 16
+  R G 0 18608 1
+R M 0 18605 4 18603
+  R E 0 18613 1 16
+  R G 0 18608 1
+S
+#18604
+Mechanical Room~
+~
+There are tables along the walls with various tools and components. A 
+large bin of components has been placed underneath each table. An over 
+sized blue globe provides lighting for the room. 
+~
+1 0 0
+D2
+~
+~
+0 -1 18611
+D3
+~
+~
+0 -1 18603
+R M 0 18606 4 18604
+  R E 0 18614 1 17
+  R G 0 18607 1
+R M 0 18606 4 18604
+  R G 0 18607 1
+  R E 0 18614 1 17
+S
+#18605
+Along the Passageway~
+~
+The tower passage continues to curve around the tower. A bright object is 
+visible in the distance to the west. The walls and floors have no visible 
+seams in their construction. There are glowing blue globes that run along 
+the ceiling providing lighting. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18606
+D3
+~
+~
+0 -1 18601
+R M 0 18602 1 18605
+S
+#18606
+North Passage~
+~
+The passage curves around the tower base.  The walls and floors appear to
+be seamlessly constructed.  A painting hangs from the north wall here.
+A series of blue glowing globes provides lighting though the passageway.
+Some strange scratches are along the floor where something was dragged.
+~
+1 4 0
+D1
+~
+~
+0 -1 18607
+D3
+~
+~
+0 -1 18605
+E
+painting~
+A catapult with a series of fancy gears.
+~
+S
+#18607
+Passage Intersection~
+~
+The walls and floors appear to be seamless in construction. There are two 
+stands that are along the floor here. One stand is white, and the other 
+stand is gold. It appears that something once was located on the stands. 
+Strange blue light globes are attached to the ceiling and provide adequate 
+lighting throughout the passage. 
+~
+1 4 0
+D0
+~
+~
+0 -1 18600
+D1
+~
+~
+0 -1 18608
+D2
+~
+door~
+15 18606 18610
+D3
+~
+~
+0 -1 18606
+R M 0 18601 1 18607
+R O 0 18602 1 18607
+R O 0 18603 1 18607
+R D 0 18607 2 2
+S
+#18608
+North Passage~
+~
+The passageway along the tower base curves around. There is a small 
+painting hanging from the wall. The walls and floors appear to be 
+seamlessly constructed. A series of blue glowing globes are along the 
+ceiling providing lighting. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18609
+D3
+~
+~
+0 -1 18607
+E
+painting~
+A massive windmill constructed with oak timber.
+~
+S
+#18609
+Along the Passageway~
+~
+The passage curves around the tower. A bright objects is visible to the 
+east. A narrow blue rug is in the center of the passageway here. The tower 
+appears to be constructed seamlessly. Blue globes are along the ceiling 
+glowing to provide lighting. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18612
+D3
+~
+~
+0 -1 18608
+R M 0 18603 1 18609
+S
+#18610
+A Stairway~
+~
+The stairs leading upward appear to be made from some type of marble. 
+There is a hand rail that curves around the stair case leading up the 
+tower. The walls and floors appear to be seamless in construction. There 
+are a series of blue globes that cast a light along the ceiling. 
+~
+1 0 0
+D0
+~
+door~
+3 18606 18607
+D2
+~
+~
+0 -1 18648
+D4
+~
+~
+0 -1 18611
+D5
+~
+cellar door~
+7 18612 18619
+R M 0 18604 1 18610
+  R G 0 18607 1
+R D 0 18610 0 1
+R D 0 18610 5 2
+S
+#18611
+Within a Stairway~
+~
+A series of paintings line the walls along the stairway. There is a dark 
+blue rug centered along the stairs. The walls and floors are made from 
+some type of seamless material. There are blue glowing globes along the 
+ceiling that provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18604
+D5
+~
+~
+0 -1 18610
+R M 0 18605 3 18611
+  R E 0 18613 1 16
+  R G 0 18608 1
+  R G 0 18621 1
+S
+#18612
+A Dead End~
+~
+The passageway ends with a decorative wall carving houses a statue. There 
+appears to be no seams with the construction of the walls and floors of 
+the tower. A series of blue globes run along the ceiling and provide 
+lighting in the passage. 
+~
+1 4 0
+D3
+~
+~
+0 -1 18609
+R O 0 18601 1 18612
+S
+#18613
+Within a Stairway~
+~
+The walls along the stairs are decorated with strange math-like formulas 
+written on boards. There is a sturdy oak hand rail that is mounted to the 
+wall. Blue globes along the ceiling glow to provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18614
+D5
+~
+~
+0 -1 18602
+S
+#18614
+A Laboratory ~
+~
+There are several tables setup with glass containers filled with different 
+colored liquids. A few bins under the tables contain different types of 
+materials. An oversized blue globe provides lighting for the room. 
+~
+1 0 0
+D1
+~
+~
+0 -1 18615
+D2
+~
+~
+0 -1 18613
+R M 0 18606 4 18614
+  R E 0 18614 1 17
+  R G 0 18607 1
+R M 0 18606 4 18614
+  R E 0 18614 1 17
+  R G 0 18607 1
+S
+#18615
+A Meeting Room~
+~
+A large rectangular room has a massive oak table centered in it with 
+chairs all around it. There are several diagrams and drawings scattered on 
+the top of the table. An oversized blue globe glows brightly providing 
+light for the room. 
+~
+1 0 0
+D2
+~
+~
+0 -1 18616
+D3
+~
+~
+0 -1 18614
+R M 0 18605 4 18615
+  R G 0 18608 1
+  R E 0 18613 1 16
+R M 0 18605 4 18615
+  R G 0 18608 1
+  R E 0 18613 1 16
+S
+#18616
+A Stairway~
+~
+The walls along the stairs have beautiful tapestries decorating them. An 
+oak hand rail is mounted to the wall. A plush blue rug covers the stairs. 
+Blue globes are along the ceiling to provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18615
+D4
+~
+~
+0 -1 18617
+S
+#18617
+Within a Stairway~
+~
+The stair walls are decorated with beautiful paintings. Gold trimmed 
+moulding is along the ceiling edges. A plush blue rug is centered along 
+the stairs. A series of glowing blue globes provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18618
+D5
+~
+~
+0 -1 18616
+S
+#18618
+The Duke's Quarters~
+~
+The Quarters are lavish in design. There are beautiful paintings and 
+tapestries hanging from the walls. A massive bed is against the wall with 
+plush pillows on top of it. A small oak desk with intricate engravings on 
+it is against the far wall. An oversized blue globe provides lighting. 
+~
+1 4 0
+D2
+~
+~
+0 -1 18617
+R M 0 18607 1 18618
+  R E 0 18610 1 1
+  R E 0 18611 1 5
+  R E 0 18609 1 16
+  R G 0 18612 1
+  R G 0 18624 1
+  R G 0 18637 1
+S
+#18619
+Within a Massive Cavern~
+~
+The cavern expands greatly outward from here. There are stalagmites 
+scattered about. Small puddles of water are scattered around the area 
+here. There are torches mounted to the walls to provide lighting. 
+~
+1 4 0
+D0
+~
+~
+0 -1 18632
+D1
+~
+~
+0 -1 18620
+D2
+~
+~
+0 -1 18635
+D3
+~
+~
+0 -1 18621
+D4
+~
+cellar door~
+3 18612 18610
+R M 0 18609 3 18619
+  R E 0 18615 1 17
+  R E 0 18618 1 16
+R D 0 18619 4 1
+S
+#18620
+A Large Passageway ~
+~
+There are stalagmites scattered about here. A few giant sized mushrooms 
+are growing along the south wall. There are small puddles of water located 
+throughout the area. Torches are mounted to the walls for lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18633
+D1
+~
+~
+0 -1 18626
+D3
+~
+~
+0 -1 18619
+S
+#18621
+A Small Tunnel~
+~
+The stalagmites are heavily concentrated here.  A small foundation of
+bricks is built up around a well.  Torches are mounted to the walls to
+provide adequate lighting.
+~
+1 0 0
+D0
+~
+~
+0 -1 18634
+D1
+~
+~
+0 -1 18619
+D3
+~
+~
+0 -1 18622
+R O 0 18617 1 18621
+S
+#18622
+A Moist Cavern ~
+~
+There are stalagmites scattered about the cavern. The walls to the west 
+have a steady stream of water that runs down them, and collects into a 
+small pool on the side. The pool then runs towards the north. There are 
+torches mounted to the walls to provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18623
+D1
+~
+~
+0 -1 18621
+S
+#18623
+An Underground River~
+~
+&BA clear blue underground river runs to the north of here. There are 
+small rocks, and loose gravel along the river bed. A few small fish can be 
+seen swimming along the river. A torch has been mounted to the wall. 
+~
+1 4 27
+D0
+~
+~
+0 -1 18624
+D2
+~
+~
+0 -1 18622
+S
+#18624
+Underwater in the River~
+~
+&BThere is a heavy algae growing along the bottom of the river bed here. 
+Fish swim about the river. The ceiling is too low to be able to come up 
+for air in this location. 
+~
+1 0 8
+D2
+~
+~
+0 -1 18623
+D3
+~
+~
+0 -1 18625
+S
+#18625
+Within the River~
+~
+&BThe river bed has loose gravel and small stones along the bottom of it. 
+There are small fish swimming along the river's edge. The ceiling has come 
+up enough that there is clearance to leave the river here. 
+~
+1 0 27
+D1
+~
+~
+0 -1 18624
+D3
+~
+~
+0 -1 18629
+S
+#18626
+A Roughly Dug Tunnel~
+~
+The tunnel has fresh tool scrapped marks along it's walls. There is a 
+trail of tracks along the ground. A series of torches are mounted to the 
+walls to provide lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18627
+D3
+~
+~
+0 -1 18620
+R M 0 18609 3 18626
+  R E 0 18618 1 16
+  R E 0 18615 1 17
+R M 0 18609 3 18626
+  R E 0 18615 1 17
+  R E 0 18618 1 16
+S
+#18627
+A Collapsed Tunnel~
+~
+The tunnel passage to the north has been caved in. There are broken oak 
+supports laying underneath a pile of rocks. A few torches are mounted to 
+the walls to provide the lighting. 
+~
+1 0 0
+D0
+~
+~
+256 -1 18628
+D2
+~
+~
+0 -1 18626
+R M 0 18612 1 18627
+R D 0 18627 0 3
+S
+#18628
+A Buried Passageway~
+~
+The passage has been buried under a pile of rock to the south. A few 
+broken wooden supports are underneath the rubble. There are torches 
+mounted to the walls to provide lighting. A few puddles of water are 
+scattered about the area. 
+~
+1 4 0
+D2
+~
+~
+256 -1 18627
+R O 0 18630 1 18628
+  R P 0 18618 1 18630
+  R P 0 18615 1 18630
+  R P 0 18620 1 18630
+R D 0 18628 2 3
+S
+#18629
+Before a Large Cave Entrance~
+~
+A massive cave is to the north. There are scraping tracks that lead to and 
+from the cave. A few pieces of bone are scattered about the area. There 
+are stalagmites outside the cave entrance. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18630
+D1
+~
+~
+0 -1 18625
+S
+#18630
+A Musty Lair~
+~
+The cave has a layer of mildew on the walls. A few giant sized mushrooms 
+are growing in the rear of the cave. A large pile of skeletons are in the 
+center of the lair. Tracks lead in and out of the cave. 
+~
+1 0 0
+D2
+~
+~
+0 -1 18629
+R M 0 18608 1 18630
+S
+#18631
+On a Draw Bridge ~
+~
+The massive oak draw bridge covers a moat of green colored water below.
+The tower extends several stories above.  There are kill holes at various
+points, and a platform on the top with mounts for large vats of burning
+liquids to be housed.
+~
+1 0 11
+D2
+~
+~
+0 -1 18600
+D11
+~
+~
+0 -1 42408
+S
+#18632
+An Open Cavern~
+~
+There is a large boulder along the wall here.  A small black colored puddle
+is here.  There is a pile of oak timbre along the far wall.  A few torches
+are setup to provide lighting.
+~
+1 0 0
+D0
+~
+~
+0 -1 18637
+D1
+~
+~
+0 -1 18633
+D2
+~
+~
+0 -1 18619
+D3
+~
+~
+0 -1 18634
+S
+#18633
+Within an Open Cavern~
+~
+The cavern is filled with stalagmites throughout the area.  There are
+some giant sized mushrooms scattered about.  A few pools of water are
+on the ground.  A small wooden platform has been erected here.
+~
+1 0 0
+D2
+~
+~
+0 -1 18620
+D3
+~
+~
+0 -1 18632
+R M 0 18610 1 18633
+  R E 0 18616 1 16
+R M 0 18611 1 18633
+S
+#18634
+Within an Open Cavern~
+~
+The wall to the west has fallen rocks that scattered around this location. 
+There are stalagmites throughout the cavern. A few torches are setup to 
+provide lighting. A puddle of water is along the far wall. 
+~
+1 0 0
+D1
+~
+~
+0 -1 18632
+D2
+~
+~
+0 -1 18621
+S
+#18635
+A Large Workshop~
+~
+The room has heavy reinforced oak beams supporting the ceiling. There are 
+rows of bins containing gadgets, and components against the walls. Three 
+large shelves contain various tools. A large table with a few chairs has 
+diagram documents scattered across the top of it. 
+~
+1 4 0
+D0
+~
+~
+0 -1 18619
+D2
+~
+~
+0 -1 18636
+R M 0 18613 1 18635
+S
+#18636
+Within the Time Machine Room~
+~
+The Room is filled with gadgets mounted to the walls.  A fancy control
+panel is mounted to the west wall.  You see a giant sized blue globe on
+the ceiling providing lighting.
+~
+1 4 0
+D0
+~
+~
+0 -1 18635
+R M 0 18614 1 18636
+R O 0 18619 1 18636
+S
+#18637
+An Open Cavern~
+~
+There is a large boulder along the wall here.  A small black colored puddle
+is here.  There is a pile of oak timbre along the far wall.  A few torches
+are setup to provide lighting.
+~
+1 0 0
+D0
+~
+~
+0 -1 18638
+D2
+~
+~
+0 -1 18632
+S
+#18638
+A Damp Cavern~
+~
+The cavern has been reinforced by thick oak timbers. The timbers help 
+support the walls and ceiling. There are half walls made out of 
+interlocking bricks with kill holes for archers.
+~
+1 0 0
+D2
+~
+~
+0 -1 18637
+D3
+~
+~
+0 -1 18639
+S
+#18639
+Within a Corridor~
+~
+The tunnel has fresh tool scrapped marks along it's walls. There is a 
+trail of tracks along the ground. A series of torches are mounted to the 
+walls to provide lighting. 
+~
+1 0 0
+D1
+~
+~
+0 -1 18638
+D3
+~
+~
+0 -1 18640
+S
+#18640
+A Small Passage~
+~
+There are stalagmites scattered about here. A few giant sized mushrooms 
+are growing along the south wall. There are small puddles of water located 
+throughout the area. Torches are mounted to the walls for lighting. 
+~
+1 0 0
+D0
+~
+~
+0 -1 18643
+D1
+~
+~
+0 -1 18639
+D3
+~
+~
+0 -1 18641
+S
+#18641
+The Dining Hall~
+~
+The vast chamber has a floor of black and white tiles. There is a large 
+chandelier hanging from the ceiling above to provide lighting. A massive 
+oak table is centered with several oak high back chairs along the sides of 
+it. There are paintings and tapestries hanging on the walls. 
+~
+1 4 0
+D1
+~
+~
+0 -1 18640
+D3
+~
+~
+0 -1 18642
+S
+#18642
+The Kitchen~
+~
+The room has several oak shelves along the walls with various ingredients
+along them.  A large table with kitchen utensils along it is centered
+in the room.  A large water basin is in the rear of the room.  There is
+a massive fire place against the far wall, with a kettle hanging above.
+~
+1 0 0
+D1
+~
+~
+0 -1 18641
+R M 0 18617 1 18642
+  R E 0 18633 1 13
+S
+#18643
+The Throne Room~
+~
+The room is supported by sculpted bricks along the walls.  There are
+engraved bronze shields hanging from the walls.  A plush blue rug is
+centered on the floor and leads up to a bronze engraved throne that is
+a few steps up from the ground.  There is an oddly fit bookcase that is
+against the wall.  A set of tracks are on the bottom edge of the case.
+~
+1 0 0
+D2
+~
+~
+0 -1 18640
+D3
+~
+bookcase~
+2051 -1 18644
+R M 0 18615 1 18643
+  R E 0 18634 1 17
+  R E 0 18635 1 6
+R M 0 18616 1 18643
+  R G 0 18623 1
+  R E 0 18632 1 1
+R D 0 18643 3 1
+S
+#18644
+A Pitch Black Shaft~
+~
+&bThe shaft walls are completely smooth down the length of them.  There
+is no ground in sight.  A few places on the walls someone's nails has
+clawed sections along the walls.
+~
+1 16785536 0
+D1
+~
+bookcase~
+1 -1 18643
+D5
+~
+~
+0 -1 18645
+S
+#18645
+Bottom of a Shaft~
+~
+&bThere is a pile of bones along the bottom of the shaft.  A small 
+source of light comes from the north under a door frame.  The walls
+are completely smooth and there is nothing to get a grip on.
+~
+1 8320 0
+D0
+~
+~
+0 -1 18646
+D4
+~
+~
+0 -1 18644
+R O 0 18626 1 18645
+S
+#18646
+A Desecrated Chamber~
+~
+&rThe chamber is filled with mutilated bodies hanging in chains to the
+walls.  A large stand is in the center of the room with a book of the
+occult positioned on it.  A pentagram with candles around it is on
+the floor beside the stand.
+~
+1 2097152 0
+D2
+~
+~
+0 -1 18645
+D3
+~
+~
+0 -1 18647
+R M 0 18619 1 18646
+S
+#18647
+A Small Study~
+~
+There are shelves upon shelves with books on them along the walls.  A
+few candles are on table stands to provide lighting.  A wooden desk
+and chair are at the rear of the study.  A human skull sits on the
+edge of the desk.  There is a rug centered on the floor.
+~
+1 2105472 0
+D1
+~
+~
+0 -1 18646
+R M 0 18618 1 18647
+  R G 0 18625 1
+S
+#18648
+Within the Gate House Entryway~
+~
+The walls and floors are made out of interlocking bricks.  There are
+beautiful tapestries hanging from the walls.  Some hooded lanterns
+are mounted to the walls to provide lighting.  A small oak bench is
+against the far wall here.
+~
+1 0 0
+D0
+~
+~
+0 -1 18610
+D1
+~
+~
+0 -1 18650
+D3
+~
+~
+0 -1 18649
+R M 0 18620 4 18648
+  R G 0 18607 1
+  R E 0 18636 1 16
+R M 0 18620 4 18648
+  R G 0 18607 1
+  R E 0 18636 1 16
+S
+#18649
+West End of the Gate House~
+~
+A series of paintings cover the walls within this room.  The paintings
+depict great inventions.  A green rug with an elaborate design that
+resembles the alliance crest is centered on the ground.  A hooded
+lantern is suspended from the ceiling to provide lighting.
+~
+1 0 0
+D1
+~
+~
+0 -1 18648
+R M 0 18620 6 18649
+  R E 0 18636 1 16
+  R G 0 18607 1
+R M 0 18620 6 18649
+  R E 0 18636 1 16
+  R G 0 18607 1
+S
+#18650
+East End of the Gate House~
+~
+The walls are floors are made out of interlocking bricks.  A large
+blue rug is centered on the floor.  The rug has an elaborate design
+that is the crest of the gnome race.  A hooded lantern has been 
+suspended from the ceiling to provide lighting.
+~
+1 0 0
+D3
+~
+~
+0 -1 18648
+R M 0 18620 4 18650
+  R E 0 18636 1 16
+  R G 0 18607 1
+R M 0 18620 4 18650
+  R E 0 18636 1 16
+  R G 0 18607 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  18611 spec_poison
+S
+
+
+#$

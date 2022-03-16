@@ -1,0 +1,2057 @@
+#AREA        Palace Parade~
+
+
+
+#VERSION     11
+#AUTHOR      Sinjin~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 60 35 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG You hear the clash of weapons all around.~
+
+#FLAGS
+0 1
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 5000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#45150
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#45159
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45161
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45163
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45165
+An Annoying Little Pawn.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+> death_prog 100~
+mppause 20
+mpmload 45165
+~
+|
+#45198
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45200
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45202
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45204
+An annoying little pawn stands here defiantly.~
+an annoying little pawn~
+An annoying little pawn stands here defiantly.
+~
+~
+1
+Clanname none~
+0
+0
+65569 128 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#45209
+The white king.~
+a newly created The white king.~
+Some god abandoned a newly created The white king. here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#45214
+Halcyon peacekeeper~
+a newly created Halcyon peacekeeper~
+Some god abandoned a newly created Halcyon peacekeeper here.
+~
+~
+1
+Clanname none~
+0
+0
+1048579 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 18 15 10 10 20 10
+0 0 0 0 0
+13 12 2000 0 1 1 0
+0 0 0 0 0 0 0 0
+#45215
+Halcyon Guardian~
+a newly created Halcyon Guardian~
+Some god abandoned a newly created Halcyon Guardian here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#45250
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#45150
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#45209
+a glowing ivory key~
+a newly created a glowing ivory key~
+Some god dropped a newly created a glowing ivory key here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#45250
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#45150
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45151
+D1
+~
+~
+0 -1 45165
+S
+#45151
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45152
+D1
+~
+~
+0 -1 45164
+D2
+~
+~
+0 -1 45150
+S
+#45152
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45153
+D1
+~
+~
+0 -1 45163
+D2
+~
+~
+0 -1 45151
+S
+#45153
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45154
+D1
+~
+~
+0 -1 45162
+D2
+~
+~
+0 -1 45152
+S
+#45154
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45155
+D1
+~
+~
+0 -1 45161
+D2
+~
+~
+0 -1 45153
+D5
+~
+~
+10488879 -1 45221
+S
+#45155
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45156
+D1
+~
+~
+0 -1 45160
+D2
+~
+~
+0 -1 45154
+S
+#45156
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45157
+D1
+~
+~
+0 -1 45159
+D2
+~
+~
+0 -1 45155
+S
+#45157
+A black square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45158
+D2
+~
+~
+0 -1 45156
+S
+#45158
+A white square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45166
+D2
+~
+~
+0 -1 45159
+D3
+~
+~
+0 -1 45157
+S
+#45159
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45158
+D1
+~
+~
+0 -1 45167
+D2
+~
+~
+0 -1 45160
+D3
+~
+~
+0 -1 45156
+R M 0 45159 1 45159
+> rand_prog 80~
+if mobinarea(45159) < 1
+mpmload 45159
+endif
+~
+|
+S
+#45160
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45159
+D1
+~
+~
+0 -1 45168
+D2
+~
+~
+0 -1 45161
+D3
+~
+~
+0 -1 45155
+S
+#45161
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45160
+D1
+~
+~
+0 -1 45169
+D2
+~
+~
+0 -1 45162
+D3
+~
+~
+0 -1 45154
+R M 0 45161 1 45161
+> rand_prog 80~
+if mobinarea(45161) < 1
+mpmload 45161
+endif
+~
+|
+S
+#45162
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45161
+D1
+~
+~
+0 -1 45170
+D2
+~
+~
+0 -1 45163
+D3
+~
+~
+0 -1 45153
+S
+#45163
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45162
+D1
+~
+~
+0 -1 45171
+D2
+~
+~
+0 -1 45164
+D3
+~
+~
+0 -1 45152
+R M 0 45163 1 45163
+> rand_prog 80~
+if mobinarea(45163) < 1
+mpmload 45163
+endif
+~
+|
+S
+#45164
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45163
+D1
+~
+~
+0 -1 45172
+D2
+~
+~
+0 -1 45165
+D3
+~
+~
+0 -1 45151
+S
+#45165
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45164
+D1
+~
+~
+0 -1 45173
+D3
+~
+~
+0 -1 45150
+R M 0 45165 1 45165
+> rand_prog 80~
+if mobinarea(45165) < 1
+  mpmload 45165
+endif
+~
+|
+S
+#45166
+A black square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45174
+D2
+~
+~
+0 -1 45167
+D3
+~
+~
+0 -1 45158
+S
+#45167
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45166
+D1
+~
+~
+0 -1 45175
+D2
+~
+~
+0 -1 45168
+D3
+~
+~
+0 -1 45159
+S
+#45168
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45167
+D1
+~
+~
+0 -1 45176
+D2
+~
+~
+0 -1 45169
+D3
+~
+~
+0 -1 45160
+S
+#45169
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45168
+D1
+~
+~
+0 -1 45177
+D2
+~
+~
+0 -1 45170
+D3
+~
+~
+0 -1 45161
+S
+#45170
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45169
+D1
+~
+~
+0 -1 45178
+D2
+~
+~
+0 -1 45171
+D3
+~
+~
+0 -1 45162
+S
+#45171
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45170
+D1
+~
+~
+0 -1 45179
+D2
+~
+~
+0 -1 45172
+D3
+~
+~
+0 -1 45163
+S
+#45172
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45171
+D1
+~
+~
+0 -1 45180
+D2
+~
+~
+0 -1 45173
+D3
+~
+~
+0 -1 45164
+S
+#45173
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45172
+D1
+~
+~
+0 -1 45181
+D3
+~
+~
+0 -1 45165
+S
+#45174
+A white square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45182
+D2
+~
+~
+0 -1 45175
+D3
+~
+~
+0 -1 45166
+D6
+~
+~
+2061 -1 45215
+S
+#45175
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45174
+D1
+~
+~
+0 -1 45183
+D2
+~
+~
+0 -1 45176
+D3
+~
+~
+0 -1 45167
+S
+#45176
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45175
+D1
+~
+~
+0 -1 45184
+D2
+~
+~
+0 -1 45177
+D3
+~
+~
+0 -1 45168
+S
+#45177
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45176
+D1
+~
+~
+0 -1 45185
+D2
+~
+~
+0 -1 45178
+D3
+~
+~
+0 -1 45169
+S
+#45178
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45177
+D1
+~
+~
+0 -1 45186
+D2
+~
+~
+0 -1 45179
+D3
+~
+~
+0 -1 45170
+S
+#45179
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45178
+D1
+~
+~
+0 -1 45187
+D2
+~
+~
+0 -1 45180
+D3
+~
+~
+0 -1 45171
+S
+#45180
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45179
+D1
+~
+~
+0 -1 45188
+D2
+~
+~
+0 -1 45181
+D3
+~
+~
+0 -1 45172
+S
+#45181
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45180
+D1
+~
+~
+0 -1 45189
+D3
+~
+~
+0 -1 45173
+D8
+~
+~
+0 -1 45214
+S
+#45182
+A black square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45190
+D2
+~
+~
+0 -1 45183
+D3
+~
+~
+0 -1 45174
+D7
+~
+~
+2061 -1 45215
+S
+#45183
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45182
+D1
+~
+~
+0 -1 45191
+D2
+~
+~
+0 -1 45184
+D3
+~
+~
+0 -1 45175
+S
+#45184
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45183
+D1
+~
+~
+0 -1 45192
+D2
+~
+~
+0 -1 45185
+D3
+~
+~
+0 -1 45176
+S
+#45185
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45184
+D1
+~
+~
+0 -1 45193
+D2
+~
+~
+0 -1 45186
+D3
+~
+~
+0 -1 45177
+S
+#45186
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45185
+D1
+~
+~
+0 -1 45194
+D2
+~
+~
+0 -1 45187
+D3
+~
+~
+0 -1 45178
+S
+#45187
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45186
+D1
+~
+~
+0 -1 45195
+D2
+~
+~
+0 -1 45188
+D3
+~
+~
+0 -1 45179
+S
+#45188
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45187
+D1
+~
+~
+0 -1 45196
+D2
+~
+~
+0 -1 45189
+D3
+~
+~
+0 -1 45180
+S
+#45189
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45188
+D1
+~
+~
+0 -1 45197
+D3
+~
+~
+0 -1 45181
+D9
+~
+~
+0 -1 45214
+S
+#45190
+A white square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45198
+D2
+~
+~
+0 -1 45191
+D3
+~
+~
+0 -1 45182
+S
+#45191
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45190
+D1
+~
+~
+0 -1 45199
+D2
+~
+~
+0 -1 45192
+D3
+~
+~
+0 -1 45183
+S
+#45192
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45191
+D1
+~
+~
+0 -1 45200
+D2
+~
+~
+0 -1 45193
+D3
+~
+~
+0 -1 45184
+S
+#45193
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45192
+D1
+~
+~
+0 -1 45201
+D2
+~
+~
+0 -1 45194
+D3
+~
+~
+0 -1 45185
+S
+#45194
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45193
+D1
+~
+~
+0 -1 45202
+D2
+~
+~
+0 -1 45195
+D3
+~
+~
+0 -1 45186
+S
+#45195
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45194
+D1
+~
+~
+0 -1 45203
+D2
+~
+~
+0 -1 45196
+D3
+~
+~
+0 -1 45187
+S
+#45196
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45195
+D1
+~
+~
+0 -1 45204
+D2
+~
+~
+0 -1 45197
+D3
+~
+~
+0 -1 45188
+S
+#45197
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45196
+D1
+~
+~
+0 -1 45205
+D3
+~
+~
+0 -1 45189
+S
+#45198
+A black square.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45206
+D2
+~
+~
+0 -1 45199
+D3
+~
+~
+0 -1 45190
+R M 0 45198 1 45198
+> rand_prog 80~
+if mobinarea(45198) < 1
+mpmload 45198
+endif
+~
+|
+S
+#45199
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45198
+D1
+~
+~
+0 -1 45207
+D2
+~
+~
+0 -1 45200
+D3
+~
+~
+0 -1 45191
+S
+#45200
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45199
+D1
+~
+~
+0 -1 45208
+D2
+~
+~
+0 -1 45201
+D3
+~
+~
+0 -1 45192
+R M 0 45200 1 45200
+> rand_prog 80~
+if mobinarea(45200) < 1
+mpmload 45200
+endif
+~
+|
+S
+#45201
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45200
+D1
+~
+~
+0 -1 45209
+D2
+~
+~
+0 -1 45202
+D3
+~
+~
+0 -1 45193
+S
+#45202
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45201
+D1
+~
+~
+0 -1 45210
+D2
+~
+~
+0 -1 45203
+D3
+~
+~
+0 -1 45194
+R M 0 45202 1 45202
+> rand_prog 80~
+if mobinarea(45202) < 1
+mpmload 45202
+endif
+~
+|
+S
+#45203
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45202
+D1
+~
+~
+0 -1 45211
+D2
+~
+~
+0 -1 45204
+D3
+~
+~
+0 -1 45195
+S
+#45204
+A Black Square.~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 45203
+D1
+~
+~
+0 -1 45212
+D2
+~
+~
+0 -1 45205
+D3
+~
+~
+0 -1 45196
+R M 0 45204 1 45204
+> rand_prog 80~
+if mobinarea(45204) < 1
+mpmload 45204
+endif
+~
+|
+S
+#45205
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45204
+D1
+~
+~
+0 -1 45213
+D3
+~
+~
+0 -1 45197
+S
+#45206
+A white square.~
+~
+~
+1 4 1
+D2
+~
+~
+0 -1 45207
+D3
+~
+~
+0 -1 45198
+S
+#45207
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45206
+D2
+~
+~
+0 -1 45208
+D3
+~
+~
+0 -1 45199
+S
+#45208
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45207
+D2
+~
+~
+0 -1 45209
+D3
+~
+~
+0 -1 45200
+S
+#45209
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45208
+D2
+~
+~
+0 -1 45210
+D3
+~
+~
+0 -1 45201
+D5
+~
+~
+27266095 45209 45227
+S
+#45210
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45209
+D2
+~
+~
+0 -1 45211
+D3
+~
+~
+0 -1 45202
+S
+#45211
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45210
+D2
+~
+~
+0 -1 45212
+D3
+~
+~
+0 -1 45203
+S
+#45212
+A white square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45211
+D2
+~
+~
+0 -1 45213
+D3
+~
+~
+0 -1 45204
+S
+#45213
+A black square.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45212
+D3
+~
+~
+0 -1 45205
+S
+#45214
+At the palace gates.~
+~
+~
+1 4 0
+D2
+~
+~
+0 -1 45232
+D6
+~
+~
+0 -1 45189
+D7
+~
+~
+0 -1 45181
+S
+#45215
+Doors to the Halcyon tower.~
+~
+~
+1 4 1
+D0
+~
+~
+3 -1 45216
+D8
+~
+~
+0 -1 45182
+D9
+~
+~
+0 -1 45174
+S
+#45216
+Inside the Halcyon tower.~
+~
+~
+1 4 1
+D2
+~
+~
+0 -1 45215
+D4
+~
+~
+0 -1 45217
+S
+#45217
+Halfway up the tower.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45220
+D4
+~
+~
+0 -1 45218
+D5
+~
+~
+0 -1 45216
+S
+#45218
+Top of the tower.~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 45219
+D5
+~
+~
+0 -1 45217
+S
+#45219
+Peacemaker's office.~
+~
+~
+1 4 1
+D2
+~
+~
+0 -1 45218
+D5
+~
+~
+0 -1 45220
+S
+#45220
+Guard post.~
+~
+~
+1 4 1
+D2
+~
+~
+0 -1 45217
+D4
+~
+~
+0 -1 45219
+S
+#45221
+The entrance to a dark tunnel.~
+~
+~
+1 4 0
+D3
+~
+~
+0 -1 45222
+D4
+~
+~
+0 -1 45154
+S
+#45222
+In a dank tunnel.~
+~
+~
+1 4 0
+D1
+~
+~
+0 -1 45221
+D4
+~
+~
+0 -1 45223
+S
+#45223
+On dark steps.~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 45224
+D5
+~
+~
+0 -1 45222
+S
+#45224
+The war room.~
+~
+~
+1 4 1
+D3
+~
+~
+0 -1 45225
+D5
+~
+~
+0 -1 45223
+S
+#45225
+Overseers office.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45224
+D4
+~
+~
+0 -1 45226
+S
+#45226
+Stronghold of Tanzean'al.~
+~
+~
+1 4 1
+D5
+~
+~
+0 -1 45225
+S
+#45227
+A white marble walkway.~
+~
+~
+1 4 1
+D1
+~
+~
+0 -1 45228
+D4
+~
+~
+33 -1 45209
+S
+#45228
+Bottom of the steps.~
+~
+~
+1 4 1
+D3
+~
+~
+0 -1 45227
+D4
+~
+~
+0 -1 45229
+S
+#45229
+On the marble staircase.~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 45230
+D5
+~
+~
+0 -1 45228
+S
+#45230
+Doors to the keep.~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 45231
+D5
+~
+~
+0 -1 45229
+S
+#45231
+The ivory keep.~
+~
+~
+1 4 1
+D5
+~
+~
+0 -1 45230
+S
+#45232
+Foot of the Staircase.~
+~
+~
+1 4 0
+D0
+~
+~
+0 -1 45214
+D4
+~
+~
+0 -1 45233
+S
+#45233
+On the Grand Staircase.~
+~
+~
+1 4 0
+D4
+~
+~
+0 -1 45234
+D5
+~
+~
+0 -1 45232
+S
+#45234
+On the Grand Staircase.~
+~
+~
+1 4 0
+D4
+~
+~
+0 -1 45235
+D5
+~
+~
+0 -1 45233
+S
+#45235
+On the Grand Staircase.~
+~
+~
+1 4 0
+D4
+~
+~
+0 -1 45236
+D5
+~
+~
+0 -1 45234
+S
+#45236
+On the Grand Staircase.~
+~
+~
+1 4 0
+D4
+~
+~
+0 -1 45237
+D5
+~
+~
+0 -1 45235
+S
+#45237
+Theater of the Skies.~
+~
+~
+1 4 40
+D5
+~
+~
+0 -1 45236
+S
+#45250
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

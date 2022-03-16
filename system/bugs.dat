@@ -40,3 +40,93 @@
 [*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days. &D
 [*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days. &D
 [*****] BUG: I3: i3_fread_line: EOF encountered on read. &D
+[*****] BUG: fread_bank: Deleting bank aeon because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank annellin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank aven because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank cole because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank daughterofhv because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank dominic because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank gedd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank google because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank hydra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jayden because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jelix because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank karith1 because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kweeuu because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kyrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lorina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank luxx because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lyra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank mairl because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank margaret because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morgan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nedrik because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nicodemus because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank parnooson because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank phaedra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank quinton because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank rowan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank serren because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank taelynd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tulvir because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank viktor because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank vladaar because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank aeon because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank annellin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank aven because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank cole because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank daughterofhv because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank dominic because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank gedd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank google because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank hydra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jayden because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jelix because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank karith1 because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kweeuu because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kyrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lorina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank luxx because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lyra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank mairl because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank margaret because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morgan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nedrik because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nicodemus because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank parnooson because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank phaedra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank quinton because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank rowan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank serren because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank taelynd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tulvir because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank viktor because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank vladaar because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days. &D
+[*****] BUG: __FileOpen: can't open player/m/Mirkoros for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/x/Xander for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/i/Izak for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/m/Myrlan for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/a/Amaru for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/h/Hexus for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/r/Rayvan for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/s/Saerataga for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/k/Koraesag for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Tulvir for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/d/Darconda for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/d/Dyedeme for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/m/Maerak for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/m/Mendicus for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/q/Quinton for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/k/Krezzle for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/b/Bojan for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/p/Pane for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/s/Skyraker for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/f/Fang for r. Called from player.c:3900 &D

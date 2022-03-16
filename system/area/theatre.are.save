@@ -1,0 +1,306 @@
+#AREA        The Theatre~
+
+
+
+#VERSION     7
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+17408
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#500
+Greeter Nathan~
+Nathan~
+A theatre greeter is standing here to direct patrons.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the south.~
+mppause 3
+mpechoat $n &CNathan says, 'Greetings.'
+if quest(drama) < 1
+  mppause 3
+  mpechoat $n &CNathan says, 'Have you come to the theatre to learn
+  mpechoat $n &Cthe fine art of drama?'
+  mppause 2
+  mpechoat $n &Chint: &cType &CSay Yes&c to learn about drama.
+endif
+~
+> act_prog p flies in from the south.~
+mppause 3
+mpechoat $n &CNathan says, 'Greetings.'
+if quest(drama) < 1
+  mppause 3
+  mpechoat $n &CNathan says, 'Have you come to the theatre to learn
+  mpechoat $n &Cthe fine art of drama?'
+  mppause 2
+  mpechoat $n &Chint: &cType &CSay Yes&c to learn about drama.
+endif
+~
+> act_prog p floats in from the south.~
+mppause 3
+mpechoat $n &CNathan says, 'Greetings.'
+if quest(drama) < 1
+  mppause 3
+  mpechoat $n &CNathan says, 'Have you come to the theatre to learn
+  mpechoat $n &Cthe fine art of drama?'
+  mppause 2
+  mpechoat $n &Chint: &cType &CSay Yes&c to learn about drama.
+endif
+~
+> speech_prog yes~
+mppause 3
+mpechoat $n &CNathan says, 'Well Met. First thing you should do is
+mpechoat $n &Cthink about your race and class selection.  Depending
+mpechoat $n &Con if you picked an evil race or good you would probably
+mpechoat $n &Cuse that for the theme of a short history.  You should
+mpechoat $n &Cwrite a short history of yourself in your bio.  This
+mpechoat $n &Cis done with the &WBIO&C command.  This lets the other
+mpechoat $n &Crole players know how to interact with you.  They can
+mpechoat $n &Cfind out what your bio is with the &WWHOIS&C command.'
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CNathan says, 'The next thing you will want to do is make
+mpechoat $n &Ca description of what players see, when they type look
+mpechoat $n &Cat you.  Use the &WDESCRIPTION&C command to write out
+mpechoat $n &Cwhat you look like.  Are you tall, do you have scars,
+mpechoat $n &Cfacial hair, etc.'
+mppause 20
+mpechoat $n &CNathan says, 'Once you have your bio created find Lhanna
+mpechoat $n &Cin the theatre she has more to teach you.'
+mpquest $n drama 1
+~
+|
+#501
+theatre actor Lhanna~
+Lhanna~
+A beautiful female actor is standing here. &Y[&CRP&Y]&D
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpechoat $n &cLhanna curtseys towards you.
+mppause 3
+mpechoat $n &CLhanna says, 'Good Morrow to thee, here to learn some lessons
+mpechoat $n &Cin role play?  Very good, I love to teach. Let's begin by some
+mpechoat $n &Crole play or RP ettiquete.  First off, you must stay incharacter
+mpechoat $n &Cin say, icc, emotes, socials, and city channels.  Incharacter
+mpechoat $n &Cmeans that you speak as if you really are at that time and place
+mpechoat $n &Cyour character is in.  You have their worries and goals nothing
+mpechoat $n &Cfrom the "real world" should be said on incharacter channels.'
+~
+|
+#525
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#500
+plush chair row~
+a plush chair~
+There are rows of plush chairs set up throughout the balcony.~
+~
+12 0 0
+10 3000 2 0 0 0 0
+1 1 0
+4
+1
+S 0 0
+#501
+high backed chair row~
+a high backed chair~
+There are rows of high backed chairs set up throughout here.~
+~
+12 0 0
+10 3000 2 0 0 0 0
+1 1 0
+4
+1
+S 0 0
+#525
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+S 0 0
+#0
+
+
+#ROOMS
+#500
+Within the Theatre Entrance~
+The entrance has a massive red rug that is centered along the floor.  The
+walls are made out of interlocking bricks.  Announcements are posted to
+the walls with information on what plays are forthcoming.  There are a
+series of hooded lanterns hanging from the ceiling to provide lighting.
+~
+1 8 0
+D0
+~
+~
+0 -1 501
+D2
+~
+~
+0 -1 16004
+R M 0 500 2 500
+S
+#501
+Within a Hallway~
+The long hallway has a plush golden rug that runs down the length of it.
+There are beautiful tapestries hanging from the walls.  Intricate wood
+trimmings decorate the edges of the floor and ceiling.  Hooded lanterns
+are suspended from the ceiling along the length of the hallway.
+~
+1 8 0
+D0
+~
+double doors~
+3 -1 503
+D2
+~
+~
+0 -1 500
+D4
+~
+~
+0 -1 502
+S
+#502
+Within the Balcony~
+There is a small table with monocles on it to better observe the play
+from the balcony.  A hooded lantern is mounted to the wall every other
+row of chairs.  There are wooden oak stained planks that run horizonal
+along the ceiling of the theatre for decoration.
+~
+1 8 0
+D5
+~
+~
+0 -1 501
+R O 0 500 1 502
+S
+#503
+Rows of Seating~
+There are wooden stained oak planks that run vertical up the walls for
+decoration and meet horizontal planks along the ceiling.  A hooded lantern
+is mounted to the walls every other row of chairs.  There is a path in the
+center of the chairs that runs down the length of the hall.
+~
+1 8 0
+D0
+~
+~
+0 -1 504
+D2
+~
+double doors~
+3 -1 501
+R O 0 501 1 503
+R D 0 503 2 1
+S
+#504
+On the Stage~
+The stage is several feet higher then the hall.  The floor is made out of
+wooden planks.  There is a massive curtain that can be closed above.  A large
+set of wooden catwalks with hooded lanterns mounted to them above.  A series
+of ropes are along the curtain edge to the west that run to the ceiling.
+~
+1 8 0
+D2
+~
+~
+0 -1 503
+R M 0 501 1 504
+S
+#525
+Floating in a void~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

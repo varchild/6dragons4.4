@@ -1,0 +1,3154 @@
+#AREA        Merchant Discovery~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 10 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThere is something foul in the air here.~
+
+#FLAGS
+0 5
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 10 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2750
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2751
+Lord Naker necromancer~
+Lord Naker~
+A dark robed necromancer stands here.
+~
+The necromancer appears to be a goblin, with slightly green skin and dark sullen eyes.
+He has a look of hatred on his face.
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 41 0 0 0 4104 2
+> death_prog 100~
+if quest(sheriff) == 5
+  mpquest $n sheriff 6
+endif
+if quest(warz) == 7
+mpquest $n warz 8
+endif
+~
+> all_greet_prog 100~
+mppause 4
+mpechoat $n &CLord Naker says, 'Very good another corpse for my plan.'&D
+~
+|
+#2752
+Montahue Halfling Baker~
+Baker Montahue~
+A halfling baker is standing by his wagon of wares here.
+~
+The halfling is short even for a halfing, with a large round belly.  He has brown curly hair.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> all_greet_prog 100~
+if istagged($n, story) < 1
+  mppause 3
+  mpechoat $n &CBaker Montahue says, 'Sheriff Seano will be wanting to talk to you.'&D
+endif
+if istagged($n, story)
+  mppause 2
+else
+  mppause 6
+  mpechoat $n &CBaker Montahue says, 'We were on our way to Paleon City when we stumbled
+  mpechoat $n &Cupon orcs guarding this desecrated tunnel.  We killed the orcs, and established
+  mpechoat $n &Ca perimeter around it.  We sent a dwarf guard into the tunnel to scout, and one
+  mpechoat $n &Cof our lads ran ahead to Paleon to get help.'&D
+  mppause 6
+  mpechoat $n &CBaker Montahue says, 'Alas, we have had no word from the scout that entered the tunnel.  
+  mpechoat $n &CWe can only assume he is dead.'&D
+  mptag $n story
+endif
+~
+|
+#2753
+Finagan Halfling Tanner~
+Tanner Finagan~
+A halfling tanner is standing by a wagon of his wares here.
+~
+The tanner is wearing a fur lined hide clothing set.  He has a round belly and joyful eye.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> all_greet_prog 100~
+if istagged($n, story) < 1
+  mppause 3
+  mpechoat $n &CTanner Finagan says, 'Sheriff Seano will be wanting to talk to you.'&D
+endif
+if istagged($n, story)
+  mppause 2
+else
+  mppause 6
+  mpechoat $n &CTanner Finagan says, 'We were on our way to Paleon City when we stumbled&D
+  mpechoat $n &Cupon orcs guarding this desecrated tunnel.  We killed the orcs, and established&D
+  mpechoat $n &Ca perimeter around it.  We sent a dwarf guard into the tunnel to scout, and one&D
+  mpechoat $n &Cof our lads ran ahead to Paleon to get help.'&D
+  mppause 6
+  mpechoat $n &CTanner Finagan says, 'Alas, we have had no word from the scout that entered the tunnel.&D 
+  mpechoat $n &CWe can only assume he is dead.'&D
+  mptag $n story
+endif
+~
+|
+#2754
+Beandar Halfling Blacksmith~
+Blacksmith Beandar~
+A halfling blacksmith is standing next to a wagon with his wares.
+~
+The blacksmith has black curly hair, with green eyes.  He is remarkably fit for a halfling.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> all_greet_prog 100~
+if istagged($n, story) < 1
+  mppause 3
+  mpechoat $n &CBlacksmith Beandar says, 'Sheriff Seano will be wanting to talk to you.'&D
+endif
+if istagged($n, story)
+  mppause 2
+else
+  mppause 6
+  mpechoat $n &CBlacksmith Beandar says, 'We were on our way to Paleon City when we stumbled
+  mpechoat $n &Cupon orcs guarding this desecrated tunnel.  We killed the orcs, and established
+  mpechoat $n &Ca perimeter around it.  We sent a dwarf guard into the tunnel to scout, and one
+  mpechoat $n &Cof our lads ran ahead to Paleon to get help.'&D
+  mppause 6
+  mpechoat $n &CBlacksmith Beandar says, 'Alas, we have had no word from the scout that entered the tunnel.  
+  mpechoat $n &CWe can only assume he is dead.'&D
+  mptag $n story
+endif
+~
+|
+#2755
+Tantros Halfling Trinkets~
+Trinkets Tantros~
+A halfling trinkets is standing by a wagon with his wares.
+~
+A black curly haired halfling.  The hafling has blue piercing eyes, and a jovial smile that seems fixed to his face.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> all_greet_prog 100~
+if istagged($n, story) < 1
+  mppause 3
+  mpechoat $n &CTrinkets Tantros says, 'Sheriff Seano will be wanting to talk to you.'&D
+endif
+if istagged($n, story)
+  mppause 2
+else
+  mppause 6
+  mpechoat $n &CTrinkets Tantros says, 'We were on our way to Paleon City when we stumbled
+  mpechoat $n &Cupon orcs guarding this desecrated tunnel.  We killed the orcs, and established
+  mpechoat $n &Ca perimeter around it.  We sent a dwarf guard into the tunnel to scout, and one
+  mpechoat $n &Cof our lads ran ahead to Paleon to get help.'&D
+  mppause 6
+  mpechoat $n &CTrinkets Tantros says, 'Alas, we have had no word from the scout that entered the tunnel.  
+  mpechoat $n &CWe can only assume he is dead.'&D
+  mptag $n story
+endif
+~
+|
+#2756
+Seano Halfling Sheriff~
+Sheriff Seano~
+A halfling sheriff is standing guard here.
+~
+The sheriff is very tall for a halfling.  The sheriff is wearing leather armor and has a slight protruding tummy.
+~
+1
+Clanname none~
+0
+0
+131139 4194304 1000 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+> all_greet_prog 100~
+if quest(sheriff) == 4
+  mppause 3
+  mpechoat $n &cYou see the sheriff, and instantly tell the story the apprentice
+  mpechoat $n &ctold you in a gush of words.&D
+  mppause 5
+  mpechoat $n &CSheriff Seano says, 'Excellent, now we need to kill that Necromancer!'&D
+  mpquest $n sheriff 5
+  break
+endif
+if quest(sheriff) > 0
+  break
+endif
+if istagged($n, story)
+  mppause 3
+  mpechoat $n &CSheriff Seano says, 'Thank the Creator we have reinforcements now.  Are you willing to help us?'&D
+  mppause 2
+  mpechoat $n &cType &WSAY YES &cto accept the quest.&D
+else
+  mppause 6
+  mpechoat $n &CSheriff Seano says, 'We were on our way to Paleon City when we stumbled
+  mpechoat $n &Cupon orcs guarding this desecrated tunnel.  We killed the orcs, and established
+  mpechoat $n &Ca perimeter around it.  We sent a dwarf guard into the tunnel to scout, and a
+  mpechoat $n &Ccouple of our lads ran ahead to Paleon to get help.'&D
+  mppause 6
+  mpechoat $n &CSheriff Seano says, 'Alas, we have had no word from the scout that entered the tunnel.  
+  mpechoat $n &CWe can only assume he is dead.'&D
+  mptag $n story
+endif
+~
+> speech_prog yes~
+if quest(sheriff) < 1
+  mppause 3
+  mpechoat $n &CSheriff Seano says, 'Please try to find the lost scout.'&D
+  mpquest $n sheriff 1
+  mptag $n story 1
+endif
+~
+> act_prog p gives you a dwarf scout corpse.~
+if quest(sheriff) == 2
+  mppause 3
+  mpat 4 drop corpse
+  mpechoat $n &CSheriff Seano says, 'The poor lad, was a great scout.  This bodes ill for us.'&D
+  mppause 6
+  mpechoat $n &CSheriff Seano says, 'Are you willing to find out what the purpose of this evil place is?'&D
+  mpechoat $n &cType &WSAY PURPOSE &cif you are willing.&D
+endif
+mpat 4 drop corpse
+~
+> speech_prog purpose~
+if quest(sheriff) == 2
+  mppause 3
+  mpechoat $n &CSheriff Seano says, 'Thank you for being willing to help, it may be dangerous.'&D
+  mppause 3
+  mpquest $n sheriff 3
+endif
+~
+|
+#2757
+orc guard~
+An orc guard~
+An orc guard stands watch here.
+~
+The orc guard is ugly and filthy.  The jaw of the orc has fangs protruding outward, and he has beedy black eyes.
+~
+11
+Clanname none~
+0
+0
+16777249 0 -1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+#2758
+orc chieftain Cugal~
+Chieftain Cugal~
+An orc chieftain is giving orders here.
+~
+The chieftain is larger than most orcs.  He has a pig snout for a nose and a protruding lower jaw.
+~
+11
+Clanname none~
+0
+0
+33 0 -1000 C
+8 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 9 0 0 0 560 2
+#2759
+apprentice jarak~
+Apprentice Jarak~
+A young cowardly apprentice is visibly shaking here.
+~
+The apprentice is wearing a dark toned cloak.  He is a human boy with black hair and brown eyes.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+6 0 0 0d0+24 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(sheriff) == 3
+  mppause 3
+  mpechoat $n &cApprentice Jarak looks terrified at your presence.&D
+  mppause 5
+  mpechoat $n &CApprentice Jarak says, 'Please don't hurt me, I...I...had..nothing...absolutely...nothing to do with it.'&D
+  mppause 3
+  mpechoat $n &cAn idea hits you!  Maybe if you tell the apprentice your going to bash him he will talk.&D
+  mpechoat $n &cType &WSAY BASH&c to continue.&D
+endif
+~
+> speech_prog bash~
+if quest(sheriff) == 3
+  mppause 3
+  mpechoat $n &CApprentice Jarak says, 'Bash? me?  Please kind master take pity on me!'&D
+  mppause 5
+  mpechoat $n &CApprentice Jarak says, 'I am only a cowardly apprentice.'&D
+  mppause 3
+  mpechoat $n &cYou shake your weapon violently towards the apprentice.
+  mppause 6
+  mpechoat $n &CApprentice Jarak says, 'Okay, okay, I will tell you what I know.'&D
+  mppause 8
+  mpechoat $n &CApprentice Jarak says, 'My master, a necromancer of powerful evil magic, is working 
+  mpechoat $n &Cfor the Throng.  He has prison cells that he keeps Paleon Citizens in that he captures.  He kills
+  mpechoat $n &Cthem with his magic, leaving no wounds.  Then he takes them to a chamber filled with corpses and
+  mpechoat $n &Cinjects them with this virus that will infect all who come within contact of it...'&D
+  mppause 6
+  mpechoat $n &CApprentice Jarak says, 'He means to resurrect the citizens, send them to Paleon, and
+  mpechoat $n &Chave them infect the whole city.'&D
+  mpquest $n sheriff 4
+endif
+~
+|
+#2760
+orc chieftain Draza~
+Orc Chieftain Draza~
+An ugly oversized orc chieftain stands here.
+~
+The orc is wearing a necklace of enemy ears, and has no hair on his head.  The orc has sullen eyes and
+is wearing chain mail armor that has a putrid smell about it.
+~
+11
+Clanname none~
+0
+0
+1025 0 0 C
+9 0 0 0d0+50 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+3 3 41 0 0 0 48 2
+#2761
+orc guard~
+An orc guard~
+An orc guard stands watch here.
+~
+The guard has fresh wounds across his back as if he has been punished for something.  He has a 
+pig snout and jawed fangs.
+~
+11
+Clanname none~
+0
+0
+16777249 0 -1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+#2762
+orc guard~
+An orc guard~
+An orc guard stands watch here.
+~
+The orc is fairly short for orcs.  His eyes appear to be too close together.  There are a series
+of tattoos across his forearms.
+~
+11
+Clanname none~
+0
+0
+16777249 0 -1000 C
+5 0 0 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+#2763
+Sheriff Malox~
+Sheriff Malox~
+A sheriff is standing here.
+~
+The sheriff has black hair and brown eyes.  He is dressed in chainmail armor.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(intimidation) == 1
+mppause 4
+  mpechoat $n &cYou see the sheriff, so you walk back towards the horse trail.
+  mptrans $n 2787
+  mpat $n mpforce $n look
+  mppause 2
+  n
+  mppause 4
+  mpechoat $n &cYou yell out Heary! Heary! All people of Shatare!
+  mppause 6
+  mpechoat $n &CSheriff Malox mutters what is this about?
+  mpechoat $n &cSeveral villagers approach and crowd around.
+  mppause 5
+  mpechoat $n &CYou shout out, 'I have found signs of goblins!  We must form a
+  mpechoat $n &Chunting party and destroy them!'
+  mppause 6
+  mpechoat $n &CSheriff Malox says, 'Signs? What signs?  If you have proof of goblins
+  mpechoat $n &Csurely you'd bring it to me, before calling on a hunting party and
+  mpechoat $n &Ccausing a stir in the people?
+  mppause 8
+  mpechoat $n &CYou shout out, 'I shall return with the corpse of a goblin!'
+  mpquest $n intimidation 2
+  mppause 20
+  s
+  endif
+if quest(intimidation) < 1 
+  mppause 2
+mpechoat $n Sheriff Malox gives you a hard look.
+endif
+~
+> act_prog p gives you the corpse of a goblin scout.~
+mppause 3
+if quest(intimidation) == 3
+  mppause 2
+  mpechoat $n &CSheriff Malox says, 'A goblin indeed!  We have a hero in our
+  mpechoat $n &Clittle village.  Let me buy you a drink!'
+  mppause 5
+  mpechoat $n &cYou say neigh good sheriff, this is but one of many we need
+  mpechoat $n &cto kill them all.
+  mppause 12
+  mpechoat $n &CSheriff Malox says, 'The hour is late, and to their advantage
+  mpechoat $n &CLet us rest, and we will search the forest with a party in the
+  mpechoat $n &Cmorning.'
+  mppause 12
+  mpechoat $n &cYou however note the sheriff is sweating profusely and seems shaken.
+  mpechoat $n &cOn an impulse you decide to follow the sheriff.
+  mppause 12
+  mpechoat $n &cYou skulk behind the sheriff in the shadows at night.
+  mppause 6
+  mpechoat $n &cThe sheriff looks around cautiously, but seeing no one, sneaks 
+  mpechoat $n &cbehind a nearby house, and heads into the woods.
+  mpgoto 2807
+  mpat $n mptrans $n 2807
+  mpechoat $n &cYou see a thick cluster of trees and decide to hunker down as you
+  mpechoat $n &cwatch the sheriff enter it.
+  mppause 15
+  mpechoat $n &cYou hear the sheriff saying, 'An intruder in our village knows
+  mpechoat $n &cabout you, and has killed one of your kind to prove it.'
+  mpechoat $n &cThere are choking noises, as the sheriff gulps for air, and
+  mpechoat $n &cA harsh voice says, 'Yoouse Kiill outsidder!'
+  mppause 20
+  mpechoat $n &cThe sheriff stammers, 'Of of course I I I will.'  The other person
+  mpechoat $n &cruns off into the woods, and the sheriff emerges from the trees.
+  mpechoat $n &cYou stand up confronting him.
+  mppause 5
+  mpkill $n
+endif
+~
+> death_prog 100~
+mpquest $n intimidation 4
+~
+|
+#2764
+Blacksmith Jolram~
+Blacksmith Jolram~
+A blacksmith is busy working here.
+~
+The blacksmith has no shirt on and is covered in black sooty sweat.  He is wearing animal hide pants.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+  if quest(intimidation) < 2
+    mppause 2
+    mpechoat $n &CBlacksmith Jolram says, 'I'm sorry the smithy is closed.'
+    mppause 3
+    mpechoat $n &cBlacksmith Jolran escorts you out of his smithy.&D
+    mppause 2
+    mpforce $n e
+  endif
+endif
+~
+|
+#2765
+Supply Keeper Farly~
+Supply Keeper Farly~
+A supply shop keeper is here.
+~
+The shop keeper has a jovial smile on his face.  He is wearing a purple tunic and
+black trousers.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(intimidation) < 2
+mppause 2
+mpechoat $n &CSupply Keeper Farly says, 'I'm sorry my shop is closed.'
+mppause 3
+mpechoat $n &cSupply Keeper Farly escorts you out of his shop.
+mppause 2
+mpforce $n w
+endif
+~
+|
+#2766
+Tavern Mistress Saena~
+Tavern Mistress Saena~
+A tavern mistress is standing here.
+~
+The mistress has a natural beauty that is rare to find.  She is well porportioned for her
+size.  She has blond hair and blue eyes.
+~
+1
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(intimidation) < 1
+  mppause 5
+  mpechoat $n &cTavern mistress Saena looks around the empty tavern quickly.&D
+  mppause 6
+  mpechoat $n &WTavern mistress Saena whispers to you, 'I need your help.'&D
+  mppause 4
+  mpechoat $n &cTavern mistress Saena shivers and starts crying.  Between sobs she starts talking.&D
+  mppause 12
+  mpechoat $n &CTavern mistress Saena says, 'They'll kill me if they find out I told.&D
+  mpechoat $n &CThere are goblins in the woods.  They control our village, and take&D
+  mpechoat $n &Canything they want.  My husband tried to raise the alarm, and they&D
+  mpechoat $n &Ckilled him.'&D
+  mppause 2
+  mpechoat $n &cType &WSAY HELP&c to offer help.&D&W
+else
+  mppause 3
+  mpechoat $n &CTavern mistress Saena says, 'What can I get you?'&D
+endif
+~
+> speech_prog help~
+mppause 2
+mpechoat $n &cYou assure Tavern mistress Saena that she will be ok.  You will
+mpechoat $n &cgo to the sheriff and let him know.
+mppause 4
+mpechoat $n &CTavern mistress Saena says, 'Be careful someone in the village is..
+mpechoat $n &Cworking with the goblins, they always know when someone betrays them.'
+mpquest $n intimidation 1
+~
+|
+#2767
+young lad Bales~
+Young Lad Bales~
+A young lad is standing here.
+~
+The young lad is wearing tanned trousers, and a ripped up white shirt.  He has brown hair
+and black eyes.
+~
+1
+Clanname none~
+0
+0
+1073872899 0 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(intimidation) < 2
+mppause 3
+mpechoat $n &cA young lad looks visibly frightened by your appearance and moves away.
+endif
+~
+|
+#2768
+Goblin Chieftain Vanok~
+Goblin Chieftain Vanok~
+A goblin chieftain is standing here.
+~
+The goblin chieftain has dark green skin tones.  He has yellow eyes, and a mixture of scars and tattoos across
+his body.
+~
+2
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+16 0 0 0d0+350 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 48 2
+#2769
+goblin scout~
+a goblin scout~
+A goblin scout is patrolling here.
+~
+Prowling the Black Forest, this predator represents the initial line of
+defense against those who might try to infiltrate the mighty mountain.
+~
+2
+Clanname none~
+0
+0
+97 512 -500 C
+13 15 6 2d10+150 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 1775 0 0 0 -2147483615 0
+> all_greet_prog 100~
+if quest(intimidation) == 2
+mpkill $n
+mpquest $n intimidation 3
+endif
+~
+> death_prog 100~
+if quest(changeofheart) == 1
+  if qkamount(changeofheart) < 49
+    mpqkamount $n changeofheart 1
+else
+    mpqkamount $n changeofheart 1
+    mpquest $n changeofheart 2
+  endif
+endif
+~
+|
+#2770
+goblin scout~
+a goblin scout~
+A goblin scout is patrolling here.
+~
+Prowling the Black Forest, this predator represents the initial line of
+defense against those who might try to infiltrate the mighty mountain.
+~
+2
+Clanname none~
+0
+0
+97 4194816 -500 C
+13 15 6 2d10+150 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 1775 0 0 0 -2147483615 0
+> all_greet_prog 100~
+if quest(intimidation) == 2
+mpkill $n
+mpquest $n intimidation 3
+endif
+~
+> death_prog 100~
+if quest(changeofheart) == 1
+if qkamount(changeofheart) < 49
+mpqkamount $n changeofheart 1
+else
+mpqkamount $n changeofheart 1
+mpquest $n changeofheart 2
+endif
+endif
+~
+|
+#2771
+goblin scout~
+a goblin scout~
+A goblin scout is patrolling here.
+~
+Prowling the Black Forest, this predator represents the initial line of
+defense against those who might try to infiltrate the mighty mountain.
+~
+2
+Clanname none~
+0
+0
+97 512 -500 C
+13 15 6 2d10+150 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 1775 0 0 0 -2147483615 0
+> all_greet_prog 100~
+if quest(intimidation) == 2
+mpkill $n
+mpquest $n intimidation 3
+endif
+~
+> death_prog 100~
+if quest(changeofheart) == 1
+  if qkamount(changeofheart) < 49
+    mpqkamount $n changeofheart 1
+else
+    mpqkamount $n changeofheart 1
+    mpquest $n changeofheart 2
+  endif
+endif
+~
+|
+#2800
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2750
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2751
+dwarf scout corpse~
+a dwarf scout corpse~
+A dwarf scout corpse has been left here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+corpse~
+The dead dwarven scout appears to put up a valiant struggle from all the wounds.
+~
+> get_prog 100~
+if quest(sheriff) == 1
+mpquest $n sheriff 2
+endif
+~
+|
+#2752
+Sendai Weed~
+A package of sendai weed~
+A package of sendai weed has been left here.~
+~
+32 0 16385
+0 3 5 0 0 1 0
+1 29 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+sendai weed~
+It appears to be a type of weed that can be smoked.
+~
+#2753
+corn pipe~
+a corn pipe~
+A corn pipe has been left here.~
+~
+30 0 16385
+40 0 0 0 0 2 0
+1 10 1
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+corn pipe~
+It appears to be a simple corn pipe.
+~
+#2754
+decorative necklace~
+a decorative necklace~
+A decorative necklace has been left here.~
+~
+9 0 5
+5 5 0 0 0 0 0
+1 40 4
+4
+0
+0
+0
+0
+0
+S 77 0
+E
+decorative necklace~
+It appears to be decorative necklace with no magical qualities.
+~
+#2755
+decorative earrings~
+a pair of decorative earrings~
+A pair of decorative earrings has been left here.~
+~
+9 0 65537
+5 5 0 0 0 0 0
+1 58 5
+4
+5
+0
+0
+0
+0
+S 77 0
+E
+decorative earrings~
+It appears to be a highly decorative earring pair.
+~
+#2756
+bread~
+a loaf of bread~
+A loaf of bread was left here.~
+%s thoroughly enjoy$q $p.~
+19 8192 1
+4 0 0 0 0 0 0
+1 23 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+(null)~
+A freshly baked loaf of bread appears to have been cooked too long.
+~
+E
+bread~
+A freshly baked loaf of bread appears to be cooked just right.
+~
+#2757
+dried beef~
+some dried beef~
+Some dried beef has been left here.~
+%s thoroughly enjoy$q $p.~
+19 8192 1
+2 0 0 0 0 0 0
+1 3 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+dried beef~
+It appears to be a hunk of dried beef.
+~
+#2758
+cheese wheel~
+a cheese wheel~
+A wheel of cheese has been left here.~
+%s thoroughly enjoy$q $p.~
+19 8192 1
+3 0 0 0 0 0 0
+1 15 1
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+cheese wheel~
+It appears to be a slightly molded cheese wheel.
+~
+#2759
+wine bottle~
+a wine bottle~
+A wine bottle has been left here.~
+~
+17 8192 1
+30 30 2 0 0 1 0
+1 3 0
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+wine bottle~
+A nearly full bottle of wine, smells like a good brand.
+~
+#2760
+pants~
+a pair of tanned pants~
+A pair of tanned pants have been left here.~
+~
+9 0 33
+5 5 0 0 0 0 0
+1 46 4
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+tanned pants~
+It appears to be a finely crafted pair of tanned pants.
+~
+#2761
+vest~
+a tanned vest~
+A tanned vest has been left here.~
+~
+9 0 9
+10 10 0 0 0 0 0
+1 52 5
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+tanned vest~
+It appears to be a finely crafted tanned vest.
+~
+#2762
+belt~
+a tanned belt~
+A tanned belt has been left here.~
+~
+9 0 2049
+5 5 0 0 0 0 0
+1 59 5
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+tanned belt~
+It appears to be a finely crafted tanned belt.
+~
+#2763
+hooded cloak~
+a hooded cloak~
+A hooded cloak has been left here.~
+~
+9 0 1025
+5 5 0 0 0 0 0
+1 53 5
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+hooded cloak~
+It appears to be a finely crafted tanned hooded cloak.
+~
+#2764
+tanned boots~
+a pair of tanned boots~
+A pair of tanned boots has been left here.~
+~
+9 0 65
+10 10 0 0 0 0 0
+1 46 4
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+tanned boots~
+It appears to be a pair of finely crafted tanned boots.
+~
+#2765
+bracers iron~
+a pair of iron bracers~
+A pair of iron bracers has been left here.~
+~
+9 0 257
+5 5 0 0 0 0 0
+1 46 4
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+iron bracers~
+It appears to be a finely crafted pair of iron bracers.
+~
+#2766
+chain mail vest~
+a chain mail vest~
+A chain mail vest has been left here.~
+~
+9 0 9
+5 5 0 0 0 0 0
+5 52 5
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+chain vest~
+It appears to be a finely crafted chain mail vest.
+~
+#2767
+chain mail pants~
+a pair of chain mail pants~
+A pair of chain mail pants has been left here.~
+~
+9 0 33
+5 5 0 0 0 0 0
+4 49 4
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+pants chain mail~
+A finely crafted pair of chain mail pants appears a good find.
+~
+#2768
+dagger~
+a dagger~
+A dagger has been left here.~
+~
+5 0 8193
+12 1 5 2 2 3 60
+1 39 3
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+dagger~
+It appears to be a sharpened average quality dagger.
+~
+#2769
+short sword~
+a short sword~
+A short sword has been left here.~
+~
+5 0 8193
+12 1 5 1 1 2 0
+1 0 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+short sword~
+It appears to be an average quality short sword.
+~
+#2770
+blackened staff~
+a blackened staff~
+A blackened staff has been left here.~
+~
+4 64 16385
+20 5 5 -1 0 10 0
+15 100 10
+3
+13
+0
+0
+0
+0
+'unholy strength'
+S 0 0
+E
+blackened staff~
+It appears to be a magical staff.  There is a dark foreboding power within it.
+~
+#2771
+blood caked boots~
+a pair of blood caked boots~
+A pair of blood caked boots has been left here.~
+~
+9 0 65
+10 10 0 0 0 10 0
+2 10 1
+1
+6
+0
+0
+0
+0
+S 77 0
+E
+blood caked boots~
+It appears to be a very good pair of boots, but they are caked in dried blood.
+~
+A
+17 -5
+A
+14 50
+#2772
+naker bone dagger~
+Naker's bone dagger~
+A bone dagger has been left here.~
+~
+5 8 8193
+12 5 15 2 2 10 0
+1 178 17
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+naker bone dagger~
+It appears to be a necromancer magical bone dagger, but upon closer
+examination you realize it is only a very sharp dagger.
+~
+#2773
+thorn covered ring~
+a thorn covered ring~
+A thorn covered ring has been left here.~
+~
+9 524480 3
+10 10 0 0 0 12 0
+1 4 0
+1
+8
+0
+0
+0
+0
+S 77 0
+E
+thorn ring~
+It appears to be a ring covered in thorns.  Once placed on your finger
+the thorns must surely cut your hand.
+~
+A
+1 1
+A
+18 1
+#2774
+black leather vest~
+a black leather vest~
+A black leather vest has been left here.~
+~
+9 0 9
+5 5 0 0 0 0 0
+5 5 0
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+black vest~
+It appears to be a black vest of dubious quality.
+~
+#2775
+long sword~
+a long sword~
+A long sword has been left here.~
+~
+5 0 8193
+12 1 5 1 1 2 0
+1 49 4
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+long sword~
+It appears to be a long sword of fair craftsmanship.
+~
+#2776
+milky gray potion~
+a milky gray potion~
+A milky gray potion has been left here.~
+~
+10 64 1
+20 -1 -1 -1 0 0 0
+2 5 0
+1
+8
+0
+0
+0
+0
+'NONE' 'NONE' 'kindred strength'
+S 0 0
+E
+milky gray potion~
+It appears to be some sort of potion, or a broth.  The contents are milky
+colored so you cannot make them out.
+~
+#2777
+buckler shield~
+a buckler shield~
+A buckler shield has been left here.~
+~
+9 0 513
+2 2 0 0 0 0 0
+3 47 4
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+buckler shield~
+It appears to be a wooden buckler shield.
+~
+A
+19 1
+#2778
+girdle health~
+a girdle of health~
+A girdle of health has been left here.~
+~
+9 0 2049
+2 2 0 0 0 0 0
+1 5 0
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+girdle health~
+It appears to be a girdle that is worn around the waist.
+~
+A
+13 25
+#2779
+tin dog salve~
+a tin of dog salve~
+A tin of dog salve has been left here.~
+~
+60 0 16385
+10 3 3 3 -1 3 -1
+1 1 0
+4
+9
+0
+0
+0
+0
+'NONE' 'NONE'
+S 0 0
+E
+dog salve~
+It appears to be some type of saliva mixed with something inside a tin can.
+~
+#2780
+leather armguards~
+a pair of leather armguards~
+A pair of leather armguards has been left here.~
+~
+9 524308 257
+5 5 0 0 0 5 0
+4 57 5
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+18 1
+E
+armguards~
+The armguards have the smell of goblin sweat on them.
+~
+#2781
+blackened necklace~
+a blackened necklace~
+A blackened necklace lies here.~
+~
+9 0 5
+5 5 2 0 0 5 0
+1 50 5
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+19 2
+A
+17 -2
+E
+necklace~
+The necklace has a charcoal-like black substance all over it.
+~
+#2782
+leather gloves~
+a pair of black leather gloves~
+A pair of black leather gloves has been left here.~
+~
+9 0 129
+5 5 0 0 0 5 0
+1 40 4
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+31 1
+E
+gloves glove~
+The gloves are well worn, but made out of thick black cow hide.
+~
+#2783
+horned helm~
+a blackened horned helm~
+A blackened horned helm has been left here.~
+~
+9 0 17
+5 5 0 0 0 5 0
+3 20 2
+3
+13
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 2
+A
+31 -1
+A
+4 -1
+E
+horn helm~
+The helm has one bull horn that angles away from the center of it.
+~
+#2784
+black robe~
+a black torn robe~
+A black torn robe has been left here.~
+~
+15 0 1025
+800 0 0 0 0 5 0
+1 10 1
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+12 10
+A
+13 10
+E
+robe~
+The robe has black and tan patched animal hide throughout it.
+~
+#2785
+leather sleeves~
+a pair of black leather sleeves~
+A pair of black leather sleeves was left here.~
+~
+9 0 257
+5 5 0 0 0 5 0
+3 40 4
+2
+13
+0
+0
+0
+0
+S 77 0
+A
+18 1
+E
+sleeve sleeves~
+The black sleeves have rips along the sides of the leather.
+~
+#2786
+leather vest~
+a black leather studded vest~
+A black leather studded vest is here.~
+~
+9 0 9 4
+5 5 0 0 0 5 0
+4 20 2
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+5 1
+E
+vest~
+The vest has iron studs that protrude from the shoulders..
+~
+#2787
+bone earring~
+a pair of bone earrings~
+A pair of bone earrings have been left here.~
+~
+9 0 65537 2
+5 5 0 0 0 5 0
+4 20 2
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+18 1
+E
+bone~
+The earring is made from a bone that has been carved and is no longer recognizable.
+There are a few teeth marks on the bone.
+~
+#2788
+gold earring~
+a pair of gold earrings~
+A pair of gold earrings have been left here.~
+~
+9 0 65537 16
+5 5 0 0 0 5 0
+4 20 2
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+18 1
+E
+gold~
+The earring has a gold edge to it.  There are smudges all over the earring.
+~
+#2789
+mud covered boots~
+a pair of mud covered boots~
+A pair of mud covered boots has been left here.~
+~
+9 262144 65
+5 5 0 0 0 5 0
+6 47 4
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+2 2
+A
+13 10
+E
+mud~
+The boots are caked with a red thick mud and appears to be well worn.
+~
+#2790
+two handed sword ~
+a two handed sword~
+A two handed sword has been left here.~
+~
+5 0 8193
+12 14 24 1 0 10 0
+10 58 5
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+E
+two sword~
+The sword appears to be made out of an inferior ore, but is still servicable..
+~
+#2791
+leather backpack~
+a leather backpack~
+A leather backpack was left here.~
+~
+15 0 524289
+600 0 0 12 0 5 0
+3 10 1
+3
+2
+0
+0
+0
+0
+S 77 0
+A
+23 -10
+E
+backpack back~
+The backpack has a small hole in the side of it.  There is a musty smell to it.
+~
+#2792
+bed roll~
+a comfortable bed roll~
+A comfortable bed roll has been left here.~
+~
+12 0 1
+2 0 641 200 200 5 0
+10 25 2
+3
+2
+0
+0
+0
+0
+S 0 0
+E
+bed roll bedroll~
+The bed roll is water tight and has a nice padding to it for comfort.
+~
+#2793
+water flask~
+a leather water flask~
+A leather flask has been left here.~
+~
+17 0 16385
+30 30 0 0 0 0 0
+1 20 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+water flask~
+The water flask appears to hold a travelers worth of water.
+~
+#2800
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2750
+Floating in a void~
+~
+~
+1 0 1
+D0
+~
+~
+0 -1 2751
+S
+#2751
+Next to a Horse Pulled Wagon~
+~
+The dirt road has a small wooden wagon pulled by two horses here.  The
+wagon bed is filled with various goods.  There are large ruts in the road
+from wagons being pulled along.
+~
+1 0 1
+D1
+~
+~
+0 -1 2752
+D2
+~
+~
+0 -1 2758
+R M 0 2752 1 2751
+  R G 0 2756 1
+  R G 0 2757 1
+  R G 0 2758 1
+  R G 0 2759 1
+S
+#2752
+Within the High Grass~
+~
+Thick and high grass has been matted down by something sleeping there.
+There are animal tracks running along a game trail.  A few small rocks
+are scattered about the area.
+~
+1 0 1
+D1
+~
+~
+0 -1 2753
+D2
+~
+~
+0 -1 2757
+D3
+~
+~
+0 -1 2751
+S
+#2753
+A large Boulder~
+~
+A deformed large boulder rests deep into the ground here.  A large split
+in the boulder runs all the way to the ground.  There are small shrubs
+scattered about the boulder.
+~
+1 0 1
+D1
+~
+~
+0 -1 2754
+D2
+~
+~
+0 -1 2756
+D3
+~
+~
+0 -1 2752
+S
+#2754
+A Small Camp~
+~
+A hastily dug camp fire is surrounded by small stones.  A fortified stone
+outpost provides excellent cover and concealment of the camp.  There are
+small pine trees around the camp.
+~
+1 0 1
+D2
+~
+~
+0 -1 2755
+D3
+~
+~
+0 -1 2753
+R M 0 2756 1 2754
+S
+#2755
+A Horse Pulled Wagon~
+~
+A wagon rests along a dirt road here. The wagon has two small horses 
+attached to it. There are a variety of goods within the wagon bed. Several 
+deep ruts have been cut into the dirt road from previous wagons. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2754
+D2
+~
+~
+0 -1 2762
+D3
+~
+~
+0 -1 2756
+R M 0 2755 1 2755
+  R G 0 2755 1
+  R G 0 2754 1
+  R G 0 2753 1
+  R G 0 2752 1
+S
+#2756
+Beside a Large Horse Pulled Wagon~
+~
+Two horses are tied off to a wooden wagon. The wagon is on the side of a 
+dirt road. There are assorted goods in the bed of the wagon. A small game 
+trail runs through the high grass towards the forest. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2753
+D1
+~
+~
+0 -1 2755
+D2
+~
+~
+0 -1 2761
+D3
+~
+~
+0 -1 2757
+R M 0 2754 1 2756
+  R G 0 2767 1
+  R G 0 2768 1
+  R G 0 2766 1
+  R G 0 2765 1
+S
+#2757
+Next to a Horse Pulled Wagon~
+~
+An old but sturdy wagon is on the side of the road here. There are two 
+horses tied off to a tree. There are ruts along the dirt road from 
+previous wagons that have gone by. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2752
+D1
+~
+~
+0 -1 2756
+D2
+~
+~
+0 -1 2760
+D3
+~
+~
+0 -1 2758
+R M 0 2753 1 2757
+  R G 0 2760 1
+  R G 0 2761 1
+  R G 0 2762 1
+  R G 0 2763 1
+  R G 0 2764 1
+S
+#2758
+Along a Road~
+~
+A dirt road winds along the grasslands here. There are a few ruts in the 
+road cut by wagons. Some fruit trees are along the side of the road. There 
+are tracks from heavy humanoids that lead off towards the woods.
+~
+1 0 11
+D0
+~
+~
+0 -1 2751
+D1
+~
+~
+0 -1 2757
+D2
+~
+~
+0 -1 2759
+D11
+~
+~
+0 -1 41195
+S
+#2759
+Within the High Grass~
+~
+The tall grass has a series of game trails running through it. There are 
+deer droppings and ruts along the trails. A few large stones are scattered 
+about the area. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2758
+D1
+~
+~
+0 -1 2760
+S
+#2760
+A Shrub Filled Area~
+~
+The surrounding area is filled with small shrubs. A few small trees are 
+scattered amongst the shrubs. A multitude of tangle vines are along the 
+ground. The vines have small needles on them. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2757
+D1
+~
+~
+0 -1 2761
+D3
+~
+~
+0 -1 2759
+S
+#2761
+At the Edge of a Forest~
+~
+The grasslands butt up to an ancient forest. The trees are very large, and 
+block out most of the light within them. A small tunnel entrance is to the 
+east of the forest edge. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2756
+D1
+~
+~
+0 -1 2762
+D2
+~
+~
+0 -1 2783
+D3
+~
+~
+0 -1 2760
+S
+#2762
+A Desecrated Entrance to a Tunnel~
+~
+A small tunnel entrance leads into the ground. A bloody symbol has been 
+smeared on the wall of the tunnel. There are bones scattered about on the 
+ground. A series of tracks lead in and out of the tunnel. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2755
+D3
+~
+~
+0 -1 2761
+D5
+~
+~
+0 -1 2763
+S
+#2763
+Within a Tunnel Entrance~
+~
+The tunnel has been recently reinforced with solid oak timbers. A small 
+stone wall is setup as a post to defend the entrance. There are many 
+tracks leading to and from the tunnel. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2764
+D4
+~
+~
+0 -1 2762
+S
+#2764
+Along a Passageway~
+~
+The passage has been reinforced with oak timbers. A few loose stones that 
+have fallen, were pushed to the sides of the passage. A trail of dried 
+blood leads to the east of here. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2765
+D3
+~
+~
+0 -1 2763
+R M 0 2757 4 2764
+  R E 0 2777 1 11
+  R E 0 2775 1 16
+S
+#2765
+A Battle Site~
+~
+Dried blood is splattered everywhere. There are corpses of goblins that 
+have suffered violent deaths laying about. The markings on the ground 
+indicate a great battle took place here. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2766
+D3
+~
+~
+0 -1 2764
+R M 0 2761 1 2765
+  R E 0 2778 1 13
+  R E 0 2775 1 16
+R O 0 2751 1 2765
+> entry_prog 100~
+if quest(sheriff) == 1
+mppause 3
+mpechoat $n &cYou think to yourself I should get this corpse to give to the sheriff.
+endif
+~
+|
+S
+#2766
+An Entryway ~
+~
+A vast room that has been reinforced by heavy oak timbers. There are 
+torches mounted to both sides of the walls here. A tapestry hangs from the 
+wall. A few oak chairs are against the walls. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2767
+D2
+~
+double doors~
+1 -1 2773
+D3
+~
+~
+0 -1 2765
+S
+#2767
+Inner Chamber~
+~
+The walls are made out of interlocking stones. Torches are mounted to the 
+walls to provide lighting. There are tapestries hanging from both sides of 
+the doorway. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2768
+D3
+~
+~
+0 -1 2766
+S
+#2768
+Along a Catwalk~
+~
+There are dark red stains along the floor of the catwalk. On both sides of 
+the catwalk are prison cells to hold prisoners. Large hooks are mounted to 
+the walls. There are torches along the catwalk walls. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2769
+D2
+~
+~
+0 -1 2775
+D3
+~
+~
+0 -1 2767
+R M 0 2762 2 2768
+  R E 0 2775 1 16
+  R G 0 2779 1
+R M 0 2762 2 2768
+  R G 0 2779 1
+  R G 0 2775 1
+S
+#2769
+A Guards Barracks ~
+~
+There are ten bunk beds covered and aligned within the barracks. Each bunk 
+bed has a chest at the foot of it. An empty weapons rack is in the corner 
+of the barracks. 
+~
+1 134217736 13
+D3
+~
+~
+0 -1 2768
+S
+#2770
+A Kitchen~
+~
+A large oak table is in the center of the room with various containers of 
+spices and ingredients on it. A large fire place is against the rear wall. 
+There is a large cauldron hanging over the fire. There are shelves along 
+the walls with pots and pans on them. 
+~
+1 134217736 13
+D1
+~
+door~
+1 -1 2771
+S
+#2771
+A Dining Hall~
+~
+There are two massive oak tables centered in the room with high backed 
+chairs around them. Tapestries hang from the walls. There are hooded 
+lanterns that are suspended from the ceiling. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2772
+D2
+~
+~
+0 -1 2777
+D3
+~
+door~
+1 -1 2770
+R M 0 2759 1 2771
+R D 0 2771 3 0
+S
+#2772
+An Inner Chamber~
+~
+There is a dark green rug centered on the floor here.  Torches are mounted
+to the walls to provide lighting.  The walls are made out of solid stone.
+There are some tapestries hanging from the walls.
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2773
+D3
+~
+~
+0 -1 2771
+S
+#2773
+The Antechamber ~
+~
+There are high backed chairs along the walls. A dark blue rug is centered 
+on the floor here. There are a few torches mounted to the walls. The walls 
+are made out of solid stone. 
+~
+1 134217736 13
+D0
+~
+double doors~
+1 -1 2766
+D3
+~
+~
+0 -1 2772
+S
+#2774
+A Filthy Cell~
+~
+The cell has feces piled up in the corner. A small drain hole is in the 
+center of the cell floor, but appears to be mostly clogged. A stone slab 
+is in the far side of the cell. Dark red stains cover the floor and walls. 
+~
+1 134217736 13
+D1
+~
+gate~
+1 -1 2775
+S
+#2775
+Within a Catwalk~
+~
+The floor is stained with dried blood. There are prison cells on both 
+sides of the catwalk. Torches are mounted to the walls to provide 
+lighting. A few large hooks are also attached to the walls. 
+~
+1 134217736 13
+D0
+~
+~
+0 -1 2768
+D1
+~
+gate~
+1 -1 2776
+D3
+~
+gate~
+1 -1 2774
+S
+#2776
+A Filthy Cell~
+~
+The cell has feces piled up in the corner. A small drain hole is in the 
+center of the cell floor, but appears to be mostly clogged. A stone slab 
+is in the far side of the cell. Dark red stains cover the floor and walls. 
+~
+1 134217736 13
+D3
+~
+gate~
+1 -1 2775
+S
+#2777
+An Inner Chamber~
+~
+A dark green rug has been centered in the room. A hooded lantern has been 
+suspended from the ceiling. There are tapestries hanging on each wall. A 
+small table and chair are in the corner of the room. 
+~
+1 134217736 13
+D0
+~
+~
+0 -1 2771
+D1
+~
+~
+0 -1 2779
+D3
+~
+door~
+1 -1 2778
+S
+#2778
+A Corpse Filled Chamber~
+~
+There are dead corpses stacked neatly in rows throughout this vast 
+chamber. There does not appear to be any wounds on any of the bodies. A 
+large vat with a syringe like device attached is in the center of the 
+chamber.  A strange glow comes from the device.
+~
+1 134217736 13
+D1
+~
+door~
+1 -1 2777
+R M 0 2760 1 2778
+  R G 0 2776 1
+  R E 0 2775 1 16
+  R E 0 2774 1 5
+R D 0 2778 1 0
+S
+#2779
+A Library~
+~
+There is a small library of books within this chamber. Several shelves of 
+strange books line the walls. A small oak table with a high backed chair 
+has a book on it that was left opened. There are torches mounted to the 
+walls to provide lighting. 
+~
+1 134217736 13
+D1
+~
+~
+0 -1 2780
+D3
+~
+~
+0 -1 2777
+S
+#2780
+A Sacrificial Room~
+~
+A strange pentagram symbol is on the floor. There are giant steel hooks 
+that are suspended from the ceiling. The walls and entire floor are caked 
+with dried blood. A hooded lantern is suspended from the ceiling. 
+~
+1 134217736 13
+D2
+~
+double door~
+1 -1 2781
+D3
+~
+~
+0 -1 2779
+R M 0 2758 1 2780
+  R E 0 2774 1 5
+  R E 0 2775 1 16
+  R G 0 2776 1
+R D 0 2780 2 0
+S
+#2781
+A Throne Room~
+~
+A gold gilded high backed chair with a plush cushion on it is at the far 
+side of the room. There is a dark blue rug that leads from the door to the 
+chair. An oak decorative table with refreshments is next to the chair. 
+~
+1 134217736 13
+D0
+~
+double door~
+1 -1 2780
+D3
+~
+door~
+1 -1 2782
+R M 0 2751 1 2781
+  R E 0 2771 1 8
+  R E 0 2772 1 16
+  R G 0 2770 1
+  R E 0 2773 1 1
+R D 0 2781 0 0
+R D 0 2781 3 0
+S
+#2782
+A Bedroom~
+~
+An oversized bed is covered in cushions and centered in the middle of
+the room.  There are beautiful tapestries hanging from the walls.  A
+hooded lantern is suspended from the ceiling.
+~
+1 134217736 13
+D1
+~
+door~
+1 -1 2781
+S
+#2783
+Along a Horse Trail~
+~
+A trail wide enough for a horse cuts through the forest. Trees and 
+vegetation have been cut back to keep the trail clear. A few small rocks 
+are along the trail edge. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2761
+D1
+~
+~
+0 -1 2794
+D2
+~
+~
+0 -1 2784
+D3
+~
+~
+0 -1 2788
+S
+#2784
+On a Horse Trail~
+~
+The horse trail widens here. All trees and vegetation have been cut back 
+from the trail. A rusted old horseshoe has been left on the side of the 
+trail. A fallen pine tree has been cut up and moved to the side. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2783
+D1
+~
+~
+0 -1 2791
+D2
+~
+~
+0 -1 2785
+D3
+~
+~
+0 -1 2790
+> entry_prog 100~
+if quest(missions) == 1
+mppause 3
+mpechoat $n &cYou realize this is the place your clan leader was talking about.
+mpquest $n missions 2
+endif
+~
+|
+S
+#2785
+A Horse Trail~
+~
+The trail bends some here and then straightens out. A few wild raspberry 
+bushes are growing along the edge of the tail. A few animal tracks are 
+crossing the trail. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2784
+D1
+~
+~
+0 -1 2811
+D2
+~
+~
+0 -1 2786
+D3
+~
+~
+0 -1 2795
+S
+#2786
+Along a Horse Trail~
+~
+There is a large boulder that is on the trail edge. The trees and 
+vegetation are cut back behind the boulder and away from the trail. A few 
+wild mushrooms are growing next to the trail. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2785
+D1
+~
+~
+0 -1 2804
+D2
+~
+~
+0 -1 2787
+D3
+~
+~
+0 -1 2803
+S
+#2787
+End of the Horse Trail~
+~
+A few wild mushrooms are growing along the trail here. There is an 
+assortment of tracks and horse tracks that appear to be in such a way that 
+a struggle took place here. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2786
+D1
+~
+~
+0 -1 2809
+D2
+~
+~
+0 -1 2810
+D3
+~
+~
+0 -1 2802
+S
+#2788
+Along a Game Trail~
+~
+A small trail through the tall grass is covered with animal tracks. There 
+is a large area of matted down grass where an animal bedded down for the 
+night. A few humanoid tracks cross the trail here. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2783
+D2
+~
+~
+0 -1 2790
+D3
+~
+~
+0 -1 2789
+R M 0 2769 1 2788
+  R G 0 2780 1
+  R G 0 2789 1
+> entry_prog 100~
+if quest(missions) == 1
+mppause 3
+mpechoat $n &cYou realize this is the place your clan leader was talking about.
+mpquest $n missions 2
+endif
+~
+|
+S
+#2789
+Within the Forest~
+~
+The area is thick with tall pine trees. There are brambles all about the 
+ground. A few wild mushrooms are growing around a thick pine tree that has 
+moss all up one side of it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2788
+D2
+~
+~
+0 -1 2800
+R M 0 2770 1 2789
+  R G 0 2783 1
+  R G 0 2782 1
+  R G 0 2781 1
+  R G 0 2787 1
+  R G 0 2788 1
+S
+#2790
+In the Tall Grass~
+~
+The grass grows very tall here. A few pine trees are scattered about. A 
+large patch of wild mushrooms runs through the tall grass. A small creek 
+of water runs down a hill here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2788
+D1
+~
+~
+0 -1 2784
+D2
+~
+~
+0 -1 2795
+D3
+~
+~
+0 -1 2800
+S
+#2791
+Within the Trees~
+~
+A cluster of pine trees block out most visibility here. There are wild 
+mushrooms growing about. A small pine tree has fallen over. A giant ant 
+mound has ants scurrying about along the top of it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2794
+D1
+~
+~
+0 -1 2792
+D2
+~
+~
+0 -1 2811
+D3
+~
+~
+0 -1 2784
+R M 0 2769 2 2791
+  R G 0 2782 1
+  R G 0 2783 1
+  R G 0 2788 1
+  R G 0 2787 1
+S
+#2792
+Within the Swamp~
+~
+The swamp is thick with boggs jutting up, making travel very difficult. 
+There are cat tail weeds sticking out of the murky black water. A high 
+point of land has matted down grass where an animal bedded down. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2793
+D2
+~
+~
+0 -1 2805
+D3
+~
+~
+0 -1 2791
+S
+#2793
+Abandoned Camp~
+~
+There is a hastily abandoned camp site here. There are large spots where 
+the grass is matted down from something being there. The remains of a few 
+campfires that had small rocks around them is left. 
+~
+1 4 1
+D2
+~
+~
+0 -1 2792
+D3
+~
+~
+0 -1 2794
+R M 0 2769 2 2793
+  R G 0 2782 1
+  R G 0 2783 1
+  R G 0 2788 1
+  R G 0 2787 1
+S
+#2794
+At the Tree Line~
+~
+The tree line of the forest and a pasture meet here. There are several 
+thick bushes along the tree line. The ground has a sink hole from 
+something that has burrowed under here. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2793
+D2
+~
+~
+0 -1 2791
+D3
+~
+~
+0 -1 2783
+> entry_prog 100~
+if quest(missions) == 1
+mppause 3
+mpechoat $n &cYou realize this is the place your clan leader was talking about.
+mpquest $n missions 2
+endif
+~
+|
+S
+#2795
+By the Hollow Log~
+~
+A large pine tree that is hollow on the inside sits up against a stump. 
+There are several small bushes here. Pine trees are scattered about the 
+area. A few wild mushrooms are growing by the log. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2790
+D1
+~
+~
+0 -1 2785
+D3
+~
+~
+0 -1 2796
+S
+#2796
+At a Game Trail~
+~
+A frequented small trail with various animal tracks across it cuts through 
+the grass. A few deer droppings are scrapes on the tress are visible. A 
+few small rocks are at the bottom of a hill beside the trail. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2800
+D1
+~
+~
+0 -1 2795
+D2
+~
+~
+0 -1 2797
+R M 0 2771 1 2796
+  R G 0 2784 1
+  R G 0 2785 1
+  R G 0 2786 1
+  R G 0 2781 1
+S
+#2797
+Along a River ~
+~
+The clear water of the river runs here. There is a game trail that comes 
+out beside the river. A few wild flowers are growing along the river bed. 
+Several schools of fish swim along the river edge. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2796
+D2
+~
+~
+0 -1 2798
+S
+#2798
+Beside a River Bed~
+~
+Along the river bed there are small bushes growing. The river water is a 
+clear blue. Different colored rocks are visible along the river bottom. 
+The river appears to have a fast current. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2797
+D2
+~
+~
+0 -1 2799
+R M 0 2771 1 2798
+  R G 0 2784 1
+  R G 0 2785 1
+  R G 0 2786 1
+  R G 0 2781 1
+S
+#2799
+Before a Majestic Lake~
+~
+A large lake has a river running into it. There is a small beach 
+surrounding the lake. A few game trails run down to the lake. A small 
+wooden dock has been built on the lake. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2798
+R M 0 2771 1 2799
+  R G 0 2784 1
+  R G 0 2785 1
+  R G 0 2786 1
+  R G 0 2781 1
+S
+#2800
+Beside a Game Trail~
+~
+The tall grass is matted down where animals have passed through. A large 
+boulder is against the edge of the trail. A few wild flowers are growing 
+here. An old tree stump is rotting away next to the trail. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2789
+D1
+~
+~
+0 -1 2790
+D2
+~
+~
+0 -1 2796
+R M 0 2770 1 2800
+  R G 0 2783 1
+  R G 0 2782 1
+  R G 0 2781 1
+  R G 0 2787 1
+  R G 0 2788 1
+R M 0 2769 2 2800
+  R G 0 2780 1
+  R G 0 2789 1
+> entry_prog 100~
+if quest(missions) == 1
+mppause 3
+mpechoat $n &cYou realize this is the place your clan leader was talking about.
+mpquest $n missions 2
+endif
+~
+|
+S
+#2801
+Within a Log House~
+~
+The inside of the log house has a tiny window to look out. There is a red 
+rug centered on the floor. A small bed is in the corner of the house. A 
+few wooden shelves are mounted to the walls. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2802
+S
+#2802
+The Blacksmith Shop~
+~
+There is a forge and anvil set up here. Various smithing tools are lined 
+up along the walls. A hooded lantern is mounted to the wall. There is a 
+large basin of water just to the side of the forge. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2787
+D2
+~
+~
+0 -1 2801
+R M 0 2764 1 2802
+S
+#2803
+Within the Tavern~
+~
+The small tavern has a bar and a few tables. Various wildlife game hang 
+from the walls. There is a hooded lantern mounted on the wall. A small 
+green rug is centered on the floor. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2786
+R M 0 2766 1 2803
+S
+#2804
+Within a Log House~
+~
+A small log house with one bed made out of straw in the corner of it. 
+There is a small wood stove that is vented outside. A few wooden shelves 
+are mounted to the walls. A small blue rug is centered on the floor. 
+~
+1 4 1
+D3
+~
+~
+0 -1 2786
+R M 0 2767 1 2804
+S
+#2805
+Within a Swamp~
+~
+The swamp is filled with black murky water. Lilly pads and cat tail weeds 
+cover the swamp's surface. A few bogs are scattered about the swamp. A 
+large tree that has fallen over has an old bird nest on it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2792
+D2
+~
+~
+0 -1 2806
+D3
+~
+~
+0 -1 2811
+R M 0 2769 2 2805
+  R G 0 2782 1
+  R G 0 2783 1
+  R G 0 2788 1
+  R G 0 2787 1
+S
+#2806
+The Enemy Camp~
+~
+There are small tents and campfires throughout this section of the forest. 
+Sentry built-up positions surround the campsite at strategic points. There 
+are a few posts with manacles attached to them in the center of the camp. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2805
+D2
+~
+~
+0 -1 2807
+R M 0 2768 1 2806
+  R E 0 2790 1 16
+S
+#2807
+A Hidden Entrance~
+~
+The pine trees are so thick around this small area that visibility is 
+prevented from the outside. A few wild mushrooms are growing about the 
+area. A small entrance into the mass of trees is nearly hidden by 
+vegetation that appears out of place.
+~
+1 0 1
+D0
+~
+~
+0 -1 2806
+S
+#2808
+A Log House~
+~
+A small log house build with a chimney for a wood stove. There are a few 
+wooden shelves along the walls. A table with a hooded lantern on it is in 
+the corner of the house. 
+~
+1 12 1
+D0
+~
+~
+0 -1 2809
+S
+#2809
+General Supply Store~
+~
+There are wooden shelves mounted to the walls. Various displays are setup 
+on the shelves. A hooded lantern is mounted to the wall. A small blue rug 
+is centered on the floor. 
+~
+1 12 1
+D2
+~
+~
+0 -1 2808
+D3
+~
+~
+0 -1 2787
+R M 0 2765 1 2809
+  R G 0 2793 1
+  R G 0 2792 1
+  R G 0 2791 1
+  R G 0 2758 1
+  R G 0 2756 1
+S
+#2810
+The Village Sheriff~
+~
+A large log building with a small desk centered inside it. A small iron 
+cage is in the rear of the building to house prisoners. There are a few 
+shelves along the walls. 
+~
+1 12 1
+D0
+~
+~
+0 -1 2787
+R M 0 2763 1 2810
+S
+#2811
+Beside a Birch Tree~
+~
+A massive white birch tree is next to a cluster of pine trees. A large 
+patch of wild mushrooms are growing behind the birch tree. A few thick 
+bushes are scattered about here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2791
+D1
+~
+~
+0 -1 2805
+D3
+~
+~
+0 -1 2785
+S
+#2813
+Mob Staging Area~
+~
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 2799
+D1
+~
+~
+0 -1 2796
+D3
+~
+~
+0 -1 2805
+R M 0 2769 6 2813
+  R G 0 2788 1
+  R G 0 2781 1
+R M 0 2770 3 2813
+  R G 0 2783 1
+  R G 0 2784 1
+S
+#0
+
+
+#SHOPS
+ 2752    0  0  0  0  0   120  90         0 23    ; Baker Montahue
+ 2753    0  0  0  0  0   120  90         0 23    ; Tanner Finagan
+ 2754    0  0  0  0  0   120  90         0 23    ; Blacksmith Beandar
+ 2755    0  0  0  0  0   120  90         0 23    ; Trinkets Tantros
+ 2765    0  0  0  0  0   120  90         0 23    ; Supply Keeper Farly
+0
+
+
+#REPAIRS
+ 2764    0  0  0         100   1         0 23    ; Blacksmith Jolram
+0
+
+
+#SPECIALS
+S
+
+
+#$

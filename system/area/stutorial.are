@@ -1,0 +1,1014 @@
+#AREA        &Y6 Dragons Staff Tutorial~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+100 100 100 20
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+1092
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999987 999999987 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4500
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4501
+retired staff member~
+a retired staff member~
+A retired &Y6 Dragons STAFF member&D is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+104 0 -300 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 8
+80 80 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Greetings $n!'&D
+mppause 3
+mpechoat $n &CA retired staff member says, 'I am pleased to see you are interested in 
+mpechoat $n &Cbecoming a STAFF member for Classic 6 Dragons.  In order for us to understand  
+mpechoat $n &Ceach member's role, you will learn about every council member's job here.  You 
+mpechoat $n &Cwill learn what it means to be a STAFF member, and understand how your role 
+mpechoat $n &Cplays an important part in this game.  All STAFF are volunteers who have lives 
+mpechoat $n &Coutside this mud.  However, we hold ourselves to a higher level.  We are going 
+mpechoat $n &Cto consider ourselves professionals and I will hold everyone to the line, to act 
+mpechoat $n &Clike professionals at ALL TIMES.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CA retired staff member says, 'What would you like to learn about first? 
+mpechoat $n &CEach role must be learned, and is equally important to this game.  Just say any 
+mpechoat $n &Cof the following with the say command: &WPR&C, &WArchitects&C, &WEvents&C, &WCode&C.  I suggest 
+mpechoat $n &Cyou take notes for each of the roles, and what is expected of you.  After this
+mpechoat $n &Ctutorial you cannot say you did not know, because you are given all the information.
+mpechoat $n &CTake a moment grab a pen and piece of paper write down anything you feel is important.'&D
+~
+> speech_prog PR~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Excellent choice!  PR, or Player Relations, are
+mpechoat $n &Cextremely important to this games success.  PR is a job that often has a bad 
+mpechoat $n &Creputation for STAFF that log on and don't do any work.  Your job is to change 
+mpechoat $n &Cthat reputation.'&D
+mppause 5
+mpechoat $n &CA retired staff member says, 'What is expected from Player Relations?
+mppause 3
+mpechoat $n &C1) Use the email command and set your email with it.
+mpechoat $n &C2) Complete your daily tasks.  Daily tasks you ask?  Well, my friend, I will gladly 
+mpechoat $n &Cgo over them in detail.  Just &WSAY DAILY TASKS&C when ready.'&D
+~
+> speech_prog 'daily tasks'~
+mppause 3
+mpechoat $n &CA retired staff member says, 'Your first daily task as a new PR member, is to 
+mpechoat $n &Cwelcome all new players to the game.  Remember, if they are level 1, they can't 
+mpechoat $n &Csee the &WOOC&C channel yet; you must use the &WCHAT&C channel.  Typically welcoming 
+mpechoat $n &Ca new player while in the tutorial is done like this: 
+mpechoat $n &WCHAT Hello <player name>&C 
+mpechoat $n &C...then give them a moment to return the greeting.  After they respond, type:
+mpechoat $n &WCHAT Welcome to 6 Dragons, if you need help with anything please let me know.&C'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Next, whenever players log onto the game, you are 
+mpechoat $n &Cexpected to type:
+mpechoat $n &WOOC Hello <player name>
+mpechoat $n &C...to greet them.  Or, if you're feeling more medieval:
+mpechoat $n &WOOC Hail <player name>&C.'&D
+mppause 3
+mpechoat $n &CA retired staff member says, 'As a PR member, your job is to gain the respect, or
+mpechoat $n &Cfriendship if you will, of the players.  They should be logging because they are 
+mpechoat $n &Cexcited to talk with you.  When a player levels in this game, there is an 
+mpechoat $n &W[&RAnnouncment&W] &Cmessage.  You will need to type:
+mpechoat $n &WOOC HUZZAH <player name>
+mpechoat $n &C...or something along the lines of 'Congratulations'.  Bring in the EXCITEMENT!'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'All staff need to be online as much as possible.  
+mpechoat $n &CNOT a daily 2 minute log in to say, "Hello, and I have to go."  When you log in,
+mpechoat $n &Calways log your alt on, even if you don't want to play them.  It gives the 
+mpechoat $n &Cimpression of players being online.  Everyone knows when a new player logs onto a 
+mpechoat $n &Cmud and types &WWHO&C...  If there are no players online, 9 times out of 10 they 
+mpechoat $n &Cwill quit, before they even try the mud to see if they like it. Type &WSAY PUPPET&C
+mpechoat $n &Cto continue.'&D
+~
+> speech_prog puppet~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Puppets are important to 6 Dragons for the time being.
+mpechoat $n &CIn order to use the puppet system, you first need to make 5 alt characters to play 
+mpechoat $n &Cwith.  Then you can use the puppet command.  
+mppause 4
+mpechoat $n &CSyntax: &WPUPPETEER ALT1 <NAME>
+mppause 3
+mpechoat $n &CYou name all your alts, and then can load them all one at a time.  
+mppause 3
+mpechoat $n &CSyntax: &WPUPPETEER LOAD <NAME>
+mppause 4
+mpechoat $n &CYou will notice that all your alts load up in a puppet staging room that players 
+mpechoat $n &Ccan't access.  Your alts will not get thirsty, or hungry, but will show up with 
+mpechoat $n &Cthe &WWHO&C command.  You also will see all messages that your alts see.  You will 
+mpechoat $n &Chave to use the force command to manipulate your puppets.'&D
+mppause 3
+mpechoat $n &WWAIT, WAIT, WAIT!!! Vladaar you say, that's not ethical, your pulling the wool over 
+mpechoat $n &Wplayers eyes.  I say... why yes I am.  However, it is for the greater good of the 
+mpechoat $n &Wgame.  It's not like these players don't exist, they are your alts, and you will 
+mpechoat $n &Wplay them from time to time.  The GOAL being once we have an established playerbase 
+mpechoat $n &Wwe won't need to use puppets anymore to get players to try out our game.&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CA retired staff member says, 'Logging out with puppets.  Players are not stupid, 
+mpechoat $n &Cand are not to be told about our puppet code.  Thus, when you use puppets, don't 
+mpechoat $n &Cgive the impression that all of them are yours.  If you want to log out and quit, 
+mpechoat $n &Ccleverly have one alt at a time log off in 5 minute intervals.  Like:
+mppause 3
+mpechoat $n &WFORCE <ALT1NAME> OOC gah look at at the time, I got to go, bye guys.  
+mppause 3
+mpechoat $n &CAlso please don't log in more then one deadly alt for puppets.  Players may wonder 
+mpechoat $n &Chow you can have 2 deadly alts on at a time and they can't as they figure out alts.'&D
+mppause 6
+mpechoat $n &CA retired staff member says, 'Type &WSAY PROFESSIONALISM &Cto continue.'&D
+~
+> speech_prog professionalism~
+mppause 3
+mpechoat $n &CA retired staff member says, 'Conduct yourself in a professional manner at all times.
+mpechoat $n &CRefrain from swearing, lying, cheating, picking on players or STAFF.  We don't want 
+mpechoat $n &Cimmature people on the STAFF.  Please do not smother players or STAFF with your 
+mpechoat $n &Cpresence.  We are here to work most of the time.  Players are here to play, not have
+mpechoat $n &Csome STAFF member &WGOTO <PLAYER>&C every few minutes to play GOD, and try to impress
+mpechoat $n &Cthem.  It is also rude to &WGOTO&C another STAFF member without first asking, if 
+mpechoat $n &Cyou're lower level, or telling, if you're higher.  Try not to do that.'&D
+mppause 10
+mpechoat $n &CA word or two from our sponsor, Aurin, 'Hey!  I just want to also put in, as a bit
+mpechoat $n &Cof clarification, that while it is not professional to pick on players or STAFF, it
+mpechoat $n &Cis NOT against the rules to tease players or STAFF, in a friendly manner of course.
+mpechoat $n &CI view PR as the talkative type, and you should get to know your players as quickly
+mpechoat $n &Cas you can.  This will invite players to talk to you about whatever is on their mind,
+mpechoat $n &Cand allows a more efficient way of handling any disputes later on.'&D
+mppause 10
+mpechoat $n &CA retired staff member says, 'To continue, type &WSAY PLAYERTEST&C.'&D
+~
+> speech_prog playertest~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Yes, please playertest this game, level your hearts 
+mpechoat $n &Cout!  Report bugs, typos, etc.  If for some reason a race/class skill/spell is 
+mpechoat $n &Coverpowered, or underpowered, let Vlad know.  He needs to know so he can change things
+mpechoat $n &Cnow, before we get a lot of players, and have to upset a whole player base with
+mpechoat $n &Cchanging their class.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'The &WGBOARD&C USE IT.  Get players checking it for when
+mpechoat $n &CGame Events/Role play events will be starting, etc.
+mppause 20
+mpechoat $n &CA retired staff member says, 'Voting is also &WEXTREMELY &Cimportant!!  Vote daily for the
+mpechoat $n &Cgame at &Whttp://6dragons.tk/bin/vote.html.  
+mppause 3
+mpechoat $n &CIf we, as staff ALONE, voted daily we would have &Y210&C votes!
+mpechoat $n &CVotes increase the likely hood of new players trying the game and giving us
+mpechoat $n &Ca shot.  It's free advertising for the game.  Occasionally hit players with 
+mpechoat $n &WECHO &RAnnoucnement: &CA good way to earn glory see help &WCONTRIBUTE'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY VOLUNTEER&C to continue.'&D
+~
+> speech_prog volunteer~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Please volunteer to work events for the Head of Game
+mpechoat $n &CEvents.  Each event can last as little as 1/2 hour in time.  If every STAFF member
+mpechoat $n &Cvolunteered 1/2 hour a week, the week would be filled.  In fact, once a month would
+mpechoat $n &Cmake Ludum's job much easier.  Those who volunteer will move up the ladder quicker
+mpechoat $n &Cthan those who do not.'&D
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CA retired staff member says, 'Create your own events, the glory system of rewards is
+mpechoat $n &Cin place already.  Simply schedule and run your own trivia session, or scavenger hunt,
+mpechoat $n &Cor arena event.  Take initiative, and do it.  Players love it.'&D
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CA retired staff member says, 'Auth new player names when needed.  We prefer medieval
+mpechoat $n &Csounding names here, but we are not too hard on what is acceptable.  If you deny a
+mpechoat $n &Cplayer's name, send them a tell first.  For example: &Wtell player Greetings
+mpechoat $n &W12inchdagger your name is not a medieval sounding name, I am going to allow you to
+mpechoat $n &Wchange it with the name command.  Please do so. &CThen you can type &Wauth player name&C.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY HELPFILES&C to continue.'&D
+~
+> speech_prog helpfiles~
+mppause 2
+mpechoat $n &CA retired staff member says, 'As a PR staff member, you are required to keep our
+mpechoat $n &Chelpfiles up to date in the game.  Also, you may fix or replace socials as the game
+mpechoat $n &Cgoes on.  To find out what helpfiles are missing in the game, use the &WHELPCHECK&C
+mpechoat $n &Ccommand.  It will display all missing helpfiles.  To make a helpfile, type &WHEDIT
+mpechoat $n &W<name> &Cit will put you into an editor where you can type out what the helpfile does. 
+mpechoat $n &CTo set the level the helpfile is viewable at, you type &WHSET LEVEL <number> <helpfile
+mpechoat $n &Wname>&C.  Finally, to save the helpfile.  Type &WHSET SAVE&C.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 10
+mpechoat $n &CA retired staff member says, 'Also, we have socials in the game.  To make a new social
+mpechoat $n &Ctype &WSEDIT <social name>&C.  To save the social type &WSEDIT SAVE&C.'&D
+mppause 10
+mpechoat $n &CA retired staff member says, 'Type &WSAY DIRECTIONS&C to continue.'&D
+~
+> speech_prog Directions~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Map out areas, and write down directions to different
+mpechoat $n &Careas.  Then submit them to Vladaar so he can place it on our website.  Also, make
+mpechoat $n &Cmaps of areas.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Build an area when you have time.  You are not required
+mpechoat $n &Cto do so as PR, but it sure helps them out.  Build it in your spare time.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Enforce Rules, but don't be a rule NAZI.  Generally give
+mpechoat $n &Cplayers 3 strikes before punishing.  Also, use the &WCOMMENT&C command to place a 
+mpechoat $n &Ccomment on a players profile so that other STAFF can see what's going on.  If the 
+mpechoat $n &Cplayer is a repeat offender, something more stringent will need to be done to handle
+mpechoat $n &Cthis.'&D
+mppause 10
+mpechoat $n &CA retired staff member says, 'Now for some scenarios, type &WSAY SCENARIO&Cto continue.'&D
+~
+> speech_prog scenario~
+mppause 2
+mpechoat $n &CA retired staff member says, 'We will first start out with a scenario where the player
+mpechoat $n &Cis cursing on public channels.  *NOTE* Though PR is generally responsible for rule
+mpechoat $n &Cenforcements, if they are not on, it falls to whatever STAFF is on.  Let's begin...'&D
+mppause 8
+mpechoat $n &CA retired staff member says, 'You are a 6 DRAGONS STAFF member and hear this over ooc
+mpechoat $n &Cchannel.  I apologize in advance for the language.'&D
+mppause 8
+mpechoat $n [OoC]: PlayerA 'fuck this place, you all are bitches.'
+mppause 20
+mpechoat $n &CA retired staff member says, 'As a STAFF member, you can respond in the following
+mpechoat $n &Cmanners: 
+mpechoat $n &C1) ooc playerA watch the cursing please, cursing is only allowed on the swear channel. 
+mpechoat $n &C2) Tell playerA watch the cursing please, cursing is only allowed on the swear 
+mpechoat $n &Cchannel. 
+mpechoat $n &C3) Silence playerA, and don't bother to tell him anything.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Normally, I would prefer to send a tell to a player,
+mpechoat $n &Chowever since this affected other players, and you want them to know the correct
+mpechoat $n &Cpolicy too, I lean towards ooc it to them.  You definitely don't want to just silence
+mpechoat $n &Ca player, and not really explain why, or how they can prevent it in the future.'&D
+mppause 10
+mpechoat $n &CA retired staff member says, 'Just type &WSAY SCENARIO2&C to continue.'&D
+~
+> speech_prog scenario2~
+mppause 2
+mpechoat $n &CA retired staff member says, 'In this scenario, we are looking at a complaining
+mpechoat $n &Cplayer.  Complaining players, usually like the game, and can be good players depending
+mpechoat $n &Con how we handle it.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Here is the scenario...'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'OoC: PlayerB 'When is sharpen bug going to be fixed?  Do
+mpechoat $n &Cyou guys fix anything here?'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'In this case, give the player this message each time
+mpechoat $n &Cthey continue whining.  &WTell playerb, 'I'm sorry your not happy with how _____ is
+mpechoat $n &Wbeing done.  However, on this game, complaining over public channels is not allowed. 
+mpechoat $n &WThere is a procedure though, which is to post your problem on the forums, and, or
+mpechoat $n &W through our bug/typo/idea reporting system, and someone will address it, as soon as
+mpechoat $n &Wthey are able.  &CNow if you are telling PlayerB this the 3rd time, cause they
+mpechoat $n &Ccontinue complaining, it's time to take them to your office.  There explain how their
+mpechoat $n &Cbehavior is bringing down game morale, and again it won't be addressed unless they
+mpechoat $n &Cpost it in forums, or through the bug/typo/idea system.  If they continue again, they
+mpechoat $n &Cwill be silenced.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Now all disciplinary actions on players should be posted
+mpechoat $n &Cwith the &WCOMMENT command or staff forums for review.  We should avoid it at all
+mpechoat $n &Ccosts if possible.  Type &WSAY SCENARIO3&C now to continue.'&D
+~
+> speech_prog scenario3~
+mppause 2
+mpechoat $n &CA retired staff member says, 'In this scenario, we are looking at a cheating player. 
+mpechoat $n &CCheating players usually involve a player using a bug to their advantage.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Here is the scenario...'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'PlayerC has slain a dragon player of the same level. 
+mpechoat $n &CNow that should clue you in on something is wrong.  However, it could just be that the
+mpechoat $n &Cdragon player had no hp when he was pkilled.  This however, is a good time to
+mpechoat $n &Cinvestigate PlayerC.  I don't encourage spying on players, but you may do so, when
+mpechoat $n &Cthere is reasonable suspiscion. Such as this or a player leveling too quickly.  Your
+mpechoat $n &Cfirst step should be, type &WMSTAT PlayerC&C.  You may notice something strange with
+mpechoat $n &Chis/her hitroll or damroll.  If there is nothing unusual.  Try &WSNOOP PlayerC&C.  You
+mpechoat $n &Cwill be able to see how playerc fights mobs and players.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Well we find out PlayerC is using an illegal weapon
+mpechoat $n &CThor's Hammer.  Somehow asgard.are wasn't set right for the weapon.  We must now ask
+mpechoat $n &CPlayerC to give up the weapon since it's not authorized.  Explain it's unfair for them
+mpechoat $n &Cto have it, when others don't.  If they give it up feel free to give them a boon for
+mpechoat $n &Cwillingly giving it.  Such as a heavens blessing, or a weapon of their level.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'If PlayerC says no, I will not it's mine, my precious! 
+mpechoat $n &CThen you will need to take them to your office, and explain you are not picking on
+mpechoat $n &Cthem, but it's not fair to other players.  If they still won't.  Mpforce them to do
+mpechoat $n &Cso, and if they log off before you can, report it to Taon or Vladaar, we can remove it
+mpechoat $n &Cfrom the pfile.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'To continue, type &WSAY SCENARIO4&C.'&D
+~
+> speech_prog scenario4~
+mppause 2
+mpechoat $n &CA retired staff member says, 'In this scenario, we are looking at a harassing player. 
+mpechoat $n &CThis can be a serious situation, as we don't want players or STAFF being harassed
+mpechoat $n &Cverbally or sexually by others.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Here is the scenario...'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'PlayerD is found to be making sexual comments to other
+mpechoat $n &Cplayers.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Think of how you'd feel if your daughter, or son, was
+mpechoat $n &Cplaying this game and a sexual perv was harassing them.  Not all situations are
+mpechoat $n &Ccalling for jail time though, or instant death in my case, if someone did that to my
+mpechoat $n &Cdaughter.  However, depending on what he/she does, depends upon how harshly we
+mpechoat $n &Crespond.  Is it just flirting socials, or is someone creepily asking for too much
+mpechoat $n &Cinformation from a young female, or male, player? Is someone making rude gestures?  If
+mpechoat $n &Cit's rude gestures, warning them would be appropriate.  If they are flirting socials,
+mpechoat $n &Cand it's unwanted, again warning is appropriate.  If it's creepy, and they appear to
+mpechoat $n &Cbe trying to manipulate someone, log them, silence them, and let Vlad or Volk know. 
+mpechoat $n &CWe may ban them, depending on how it is.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Also see &WHELP COC&C
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'To continue, type &WSAY ARCHITECT&C. Or, &WSAY PALEON&C
+mpechoat $n &Cto return to Paleon.'&D
+~
+> speech_prog Architect~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Ahh a topic on my favorite subject.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Building at 6 Dragons is not typical smaug building.  I
+mpechoat $n &Cwill explain the differences.  First you will want to make sure you have a pen and
+mpechoat $n &Cpaper to write this stuff down.  Though you may return to this tutorial anytime you
+mpechoat $n &Cwish.  I will cover a lot of information, and it's easier to remember, and find if you
+mpechoat $n &Cwrite it down.  The 6dragons building guide is at http://6dragons.org/guide.html'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'First thing you need to do...Is get some paper, and
+mpechoat $n &Cbrain storm what kind of area you want to make.  Write down as many ideas as you can,
+mpechoat $n &Cit will really help with making your area.  Next, find out how many vnums you are
+mpechoat $n &Cgetting assigned.  Vnums are rooms/objects/mobiles that you can make.  Generally, I
+mpechoat $n &Conly give 50 for new staff.  So you can map out your area on another piece of paper
+mpechoat $n &Cwith the idea you'll have 50 rooms to use.  Now as soon as you are given the 50 vnums,
+mpechoat $n &Cand you have it already mapped out....You start with rooms.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY ROOMS&C to begin.'&D
+~
+> speech_prog Rooms~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Great, so you got assigned 50 vnums to use on your own
+mpechoat $n &Carea.  The first thing you will want to do, is use the &WRGRID&C command to make 48
+mpechoat $n &Crooms.  Like makerooms 48 only 48, because code already makes your first and last room
+mpechoat $n &Cfor you.  Now you can use the &WGOTO&C command and goto your first room.  
+mpechoat $n &WGOTO <vnum>&C.  It will take you to the empty room you can begin editing in.  Let's
+mpechoat $n &Ctry naming this room.  The &WREDIT&C command will allow you to do this. 
+mpechoat $n &WREDIT NAME <Whatever you want to name it>&C.  There are to be no colors used in room
+mpechoat $n &Cnames.  When you make a room name every word is capitalized, but words like the, of,
+mpechoat $n &Ca, an.  Unless they are the starting word of the room name.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY ROOMDESC to continue.'&D
+~
+> speech_prog roomdesc~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Room descriptions, have to be well written.  They may
+mpechoat $n &Conly be 3 to 6 lines in length.  Unfortunately, most players won't bother to read more
+mpechoat $n &Cthan that.  You may use a single color for the start of the room description.  For
+mpechoat $n &Cexample if you're doing a room that is supposed to be part of a river. You can do the
+mpechoat $n &Croom in color.  When you describe the room, DO NOT use the word &WYOU&C.  What you do is
+mpechoat $n &Cthink if you were looking at this location, what would you actually see, and describe
+mpechoat $n &Cit.  Don't tell players what they think, or feel.  I find a thesaurus very handy for
+mpechoat $n &Cthis.  I will at times actually research an area for room description ideas prior to
+mpechoat $n &Cdoing it.  Like if I am going to build a ship area.  I'll search ships on internet,
+mpechoat $n &Cand write down all the info I can on them. Well the command to make a description
+mpechoat $n &Cis... &WREDIT DESC&C.  That will put you into an editor where you can add your
+mpechoat $n &Clines.  Until you get the hang of it use &W/f &Cto format your line lengths.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'To continue to room exits, type &WSAY ROOMEXIT&C.'&D
+~
+> speech_prog roomexit~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Room exits, allow you to connect one or more rooms, in
+mpechoat $n &Cany direction.  This is also accomplished with the redit command.  Lets say you have
+mpechoat $n &Cvnums 1200 to 1250.  When your in vnum 1200, and want to make an exit to room 1201. 
+mpechoat $n &CThe exit you desire is to the east, because that's how you mapped out your area.  You
+mpechoat $n &Ctype &WREDIT BEXIT E 1201&C.  That will make an exit to the east going into 1201, and also
+mpechoat $n &Can exit to the west from 1201 to 1200.  Bexit makes 2 way entrances, where exit, only
+mpechoat $n &Cmakes one way.  Now if you want a door in the exit.  You could type the same thing,
+mpechoat $n &Cbut add...&WREDIT BEXIT E 1201 3 DOOR&C.  The 3 tells it there is a type of door, you
+mpechoat $n &Ccould write gate, or double door, or something else instead of door if that is your
+mpechoat $n &Cdesire.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Very good now, keep in mind you can also set flags for
+mpechoat $n &Crooms.  See &WHELP ROOMFLAGS&C.  For example.  &WREDIT FLAGS SAFE&C will make the room safe
+mpechoat $n &Cfrom anyone being attacked in it. Now we are ready to move on...'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY MOBS&C to continue.'&D
+~
+> speech_prog mobs~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Ahh yes, let's do the cool stuff now....  Heh, I know
+mpechoat $n &Ceveryone thinks rooms are boring, I do too.  Mobs, and objects work off the same
+mpechoat $n &Cvnum's you used for your rooms.  To make your first mob, you would type &WMCREATE  <vnum>
+mpechoat $n &C<name of mob>&C.  That will make the mob for you.  You can also edit your mob via the
+mpechoat $n &C&WMOB&C command, since 6D uses Oasis OLC now.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY OBJECTS&C to continue.'&D
+~
+> speech_prog Code~
+mppause 2
+mpechoat $n &CA retired staff member says, 'Coding for 6 Dragons is a very sensitive position.  You
+mpechoat $n &Cneed Vladaar's utmost trust to gain server access and it may take awhile before that
+mpechoat $n &Chappens.  As a coder for 6 Dragons, you will be tempted to make changes here and
+mpechoat $n &Cthere, and not even mention it to Vladaar.  In fact players and staff will ask you to
+mpechoat $n &Cdo so.  Do not fall into this trap.  There is a coding to do list for a reason.  It's
+mpechoat $n &Cwhat Vladaar wants coded.'&D
+mppause 20
+mpechoat $n &CA retired staff member says, 'Now that being said, Vladaar is very reasonable, and
+mpechoat $n &Cloves to get ideas from other people.  If you have an idea, feel free to run it by
+mpechoat $n &Chim, and or post it on forums.  That doesn't mean Vladaar will agree with every idea,
+mpechoat $n &Cbut every idea has a chance.  Vladaar doesn't want this game to be a game that only
+mpechoat $n &CVladaar likes, but a game that the majority of people will appreciate.  It is still a
+mpechoat $n &Cgame that Vladaar pays for though, and if he just doesn't like something so much that
+mpechoat $n &Che wouldn't want to pay for the game anymore, then he won't allow something.'&D
+mppause 20
+mapt 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'You will find the list of things that need to be coded
+mpechoat $n &Cor bug fixed with the idea and bug command.
+mpechoat $n &CIf you currently do not have server access, you may code from a stock copy of
+mpechoat $n &Csmaugfuss or smaug1.4a, and submit snippets until you gain server access.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Having stable bug free code is very important to
+mpechoat $n &CVladaar.  Vladaar has the following programs for that cause.  Valgrind, type help
+mpechoat $n &Cvalgrind to find out how to run it.  Valgrind is used to detect memory leaks, and can
+mpechoat $n &Chelp with crashes.  Splint is used to find code that isn't used, you can also type
+mpechoat $n &Whelp splint&C.'&D
+mppause 10
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Unlike the other professions in 6 Dragons, this tutorial
+mpechoat $n &Cisn't going to teach someone how to code.  You know how or you don't.  It's much too
+mpechoat $n &Ccomplicated to try to teach with this mob.  Thank you for accepting a coding position 
+mpechoat $n &Cwith 6 dragons.'&D
+mppause 10
+mpechoat $n &CA retired staff emmber says, 'If wish to leave the tutorial, and return to Paleon,
+mpechoat $n &Cjust type &WSAY PALEON&C.'&D
+~
+> speech_prog paleon~
+mptrans $n 16007
+mpat $n mpforce $n look
+~
+> speech_prog objects~
+mppause 3
+mpechoat $n &CA retired staff member says, 'Objects are much like mobs in how they are created.  The
+mpechoat $n &Conly real difference is now you have to worry about build points.  Each 10-level
+mpechoat $n &Cinterval has a bps requirement that cannot be exceeded without permission from the
+mpechoat $n &CHead of Area Architects, or Vladaar.  You can find the guidelines for this, among
+mpechoat $n &Cother things, here:
+mpechoat $n &Whttp://6dragons.tk/guide.html
+mpechoat $n &CYou can also use the &WOBJ&C command to modify objects, since we have the Oasis OLC
+mpechoat $n &C here, now.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSHOPS&C to continue.'&D
+~
+> speech_prog shops~
+mppause 3
+mpechoat $n &CA retired staff member says, 'Shops are a tricky business, particularly if you don't
+mpechoat $n &Cknow what you're doing.  I highly recommend reading &WHELP SHOPS&C and all related
+mpechoat $n &Chelpfiles before creating a shop of any kind.  This will help to reduce any confusion
+mpechoat $n &Cyou may have.  If all else fails, ask someone!'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY PROGS&C to continue.'&D
+~
+> speech_prog progs~
+mppause 3
+mpechoat $n &CA retired staff member says, 'Progs for room, objects and mobs have finally been
+mpechoat $n &Cstandardized throughout 6D.  It is required to follow the guidelines concerning this,
+mpechoat $n &Cas it helps to maintain a professional image to new STAFF just coming aboard.  More
+mpechoat $n &Cinformation can be found here:
+mpechoat $n &CThe biggest thing that can be stressed upon, is indentation.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'Type &WSAY RESET AREA&C to continue.'&D
+~
+> speech_prog reset area~
+mppause 3
+mpechoat $n &CA retired staff member says, 'The primary purpose of resetting an area is to refresh
+mpechoat $n &Cmobs and objects while testing.  While this is the primary purpose, the command also
+mpechoat $n &Chas the ability to make room settings reset at the given resetfrequency interval.  To
+mpechoat $n &Cfind out more information, look at &WHELP RESET&C and associated helpfiles for more
+mpechoat $n &Cinformation.  Note: after instaroom is used to add the desired settings to the reset
+mpechoat $n &Clist, you must savearea/foldarea before the settings will take effect.'&D
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n &CA retired staff member says, 'This concludes the staff tutorial.  If you would like to
+mpechoat $n &Cgo back to Paleon City, type &WSAY PALEON&C.'&D
+~
+|
+#4600
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4500
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#4600
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#4500
+Hearing a Higher Calling~
+~
+This area is a tutorial for those applying to become new&Y STAFF on 6 
+Dragons.&D Room descriptions will only be &Ythree&D to &Ysix&D lines in 
+length. You may not use the word You in your room descriptions. Your 
+describing what players see, not what they think. Close your eyes and 
+imagine your standing there, and describe it. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 4501
+S
+#4501
+Hall of Choices~
+~
+Room descriptions must be all one color.  You are not allowed to change
+colors of &Ycertain&D words.  You are however allowed to change the whole
+room color.  For example, if your room is describing a player being in
+water, you make the room blue.
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 4500
+R M 0 4501 1 4501
+S
+#4502
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4503
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4504
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4505
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4506
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4507
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4508
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4509
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4510
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4511
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4512
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4513
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4514
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4515
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4516
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4517
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4518
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4519
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4520
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4521
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4522
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4523
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4524
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4525
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4526
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4527
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4528
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4529
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4530
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4531
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4532
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4533
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4534
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4535
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4536
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4537
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4538
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4539
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4540
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4541
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4542
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4543
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4544
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4545
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4546
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4547
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4548
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4549
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4550
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#4600
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

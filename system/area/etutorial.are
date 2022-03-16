@@ -1,0 +1,3616 @@
+#AREA        Evil Tutorial~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       2
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 5 1 5
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA horn sounds to call the changing of the guard.~
+
+#FLAGS
+181956
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250010 0 999999489 999999489 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#33200
+healer yochlol priestess~
+Priestess Yochlol~
+A yochlol priestess is performing her duties here.
+~
+A molten blob of wax wearing black robes with glaring red eyes looks at 
+you. 
+
+~
+13
+Clanname none~
+0
+0
+3 4194304 0 C
+100 0 0 0d0+-25536 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p has entered the game.~
+mptutorial $n
+mppause 4
+mpechoat $n &cDarkness swirls around you...&D
+mppause 3
+mpechoat $n &CYou hear a voice saying to you, 'It is time for you to return from the Land of the Dead!'&D
+mppause 10
+mpat 4 look
+mppause 10
+mpechoat $n &cYou see a large foreboding stone temple approaching you, or rather you falling towards it. 
+mpechoat $n &cThrough the roof, you can see your body lying unconscious on a simple straw pallet. 
+mpechoat $n &cAs you enter into your body, you let out a shriek in pain!&D
+mppause 10
+mpat 4 look
+mpecho &CHint: &cYou may type &WTEXTSPEED # &cwhere number is 1 - 10, 5 being default to speed up or slow down the tutorial speed.&D
+mppause 10
+mpechoat $n &CHigh Priestess Yochlol glares at you saying, 'Get up $n you weakling! I have no time for your sniveling. Definitely not on our Master's Recruitment Day.'&D
+mppause 10
+mpat 4 look
+mppause 10
+mpechoat $n &cYou stand up from a simple straw pallet.&D
+mppause 10
+mpat 4 look
+mppause 10
+mpechoat $n &CHigh Priestess Yochlol says, 'You have several things you must do before I will present you before our Master
+mpechoat $n &Cto see if he will accept you in the Army! If you are not accepted you will return to working in the slave mines.'&D
+mppause 10
+mpechoat $n &cStill slightly uncoordinated, you still think you can manage. You nod at High Priest Yochlol.&D
+mppause 10
+mpat 4 look
+mptutorial $n
+mppause 10
+mpechoat $n &CHigh Priestess Yochlol says with an evil grin, 'Excellent! Go outside so we can get a good bearing about you.'&D
+mpechoat $n &cType &WFOLLOW YOCHLOL&c.&D
+~
+> act_prog p follows you.~
+mpquest $n etutorial 1
+mppause 20
+s
+mppause 20
+s
+mppause 20
+mpechoat $n &CHint:&c When you encounter doors, you can open doors with the &WOPEN&c command.
+mpechoat $n &c      If you want to auto open doors, type &WCONFIG AUTODOOR&D
+mppause 15
+mpat 4 look
+mppause 8
+w
+mppause 12
+n
+mppause 12
+n
+mppause 12
+n
+mppause 12
+n
+mppause 10
+mpechoat $n &CHigh Priestess Yochlol says, "As you can see, the Temple is to the Southeast
+mpechoat $n &Cof here, the Black Tower to the Northwest. There are shops to the east and
+mpechoat $n &Cwest where you may purchase goods. To the north through the city gate is 
+mpechoat $n &CKirwood Swamp. You won't need to go into the swamp for your tasks, but it
+mpechoat $n &Cis good to know."
+mppause 10
+mpat 4 look
+mppause 10
+mpecho &cYochlol cackles suddenly as if having a hidden secret.
+mppause 20
+mpoload 33226 1
+get list
+give list $n
+mppause 10
+mpechoat $n &CHigh Priestess Yochlol says, "Now type &WLOOK LIST &Cyou should be able to
+mpechoat $n &Csee a list of jobs you must complete. You may also type &WJOURNAL&C 
+mpechoat $n &Cto see what part of the job you should be trying to get done."
+mppause 20
+mpat 4 look
+mppause 20
+mpechoat $n High Priestess Yochlol yells, "Now get moving!"
+mppause 20
+mpechoat $n &cHigh Priestess Yochlol walks back towards her temple.&D
+mpgoto 4
+~
+|
+#33201
+horse~
+a riding horse~
+A riding horse is standing here.
+~
+The horse appears to be slightly suffering from lack of nutrition, but
+is a sturdy beast for riding.
+~
+0
+Clanname none~
+0
+0
+257 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33202
+orc animal trainer petshop gyakas~
+Gyakas, the animal trainer~
+A thickly muscled orc animal trainer is standing here.
+~
+The orc has a green sheen to his skin complexion.  He wears leather pants
+with high boots and no shirt.
+~
+11
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33203
+lesser Imp Zarakai~
+Lesser Imp Zarakai~
+A hideously shaped Imp is flying about here.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33204
+magical Dralak dark elf warlock~
+Dralak of the Mystical Shop~
+A dark elf warlock is displaying his wares here.
+~
+The dark elf has a black robe on over the top of some elven chain mail.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(etutorial) != 5
+  mpechoat $n &CHint: &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n etutorial 6
+  mppause 10
+  mpechoat $n &CDralak of the Mystical Shop says, 'Ahh, $n. I was expecting you. You're the last of the recruits-to-be to come. Come in!'&D
+  mppause 15
+  mpechoat $n &cDralak strokes his beard as he gazes upon you.&D
+  mppause 20
+  mpechoat $n &CDralak of the Mystical Shop says, 'All right. Why don't you take a look at my shop first? Take a look with the &WLIST&C command.'
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CHint: &cThe talyaka roots grants &WHEALTH &cwhen you type &WEAT YAKA&c, use the BUY command, yaka roots must be &WEATEN&c, other types of herbs may require you to use the &WSMOKE &ccommand.&D
+  mppause 10
+  mppause 4
+  mpechoat $n &CHint: &cThe blue mana rejuvenation potion grants &WMANA &cwhen &WQUAFFED&c.&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CDralak of the Mystical Shop says, 'For a special offer to all our new recruits I will give you one of each vial for free!'&D
+  mppause 10
+  mpoload 33223 1
+  mpoload 33224 1
+  get talyaka
+  get potion 
+  give talyaka $n
+  give potion $n
+  mppause 20
+  mptutorial $n
+  mpechoat $n &CDralak of the Mystical Shop says, 'Now go and I'll see you at the Day of Recruitment.'&D
+endif
+~
+|
+#33205
+ogre weaponsmith weapon weapons Daktar~
+Daktar~
+An ogre weaponsmith is displaying his wares here.
+~
+The massive ogre is wearing tanned trousers with no shirt on.  A massive
+war hammer hangs from his belt.
+~
+0
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 8
+if quest(etutorial) != 7
+  mpechoat $n &CHint:  &cIt is important that you complete quests in the order they are
+tasked to you.  Type &WJOURNAL&c to see what you should be doing next.&D
+else
+  mptutorial $n
+  mppause 10
+  mpechoat $n &CDakar sneers, 'I sell weapons! But I once powerful warrior!  As
+  mpechoat $n &Ca young adventurer learned much.  I know many tricks that make this
+  mpechoat $n &Cgame accessible.  Type &WSAY TRICKS&C to learn more.
+  mppause 3
+  mptutorial $n
+endif 
+~
+> speech_prog tricks~
+mppause 5
+mptutorial $n
+mpechoat $n &CDakar says, 'Well my friend, the best thing is you never have to worry about getting lost.   If your in your own city the
+mpechoat $n &Cwhereis command will give you directions to anybody you need.  See help whereis.  If you find yourself in the wilderness, the
+mpechoat $n &Clandmark command will tell you how to get to different areas.  Text being read is one thing, but you haven't lived till you
+mpechoat $n &Cdownload our soundpack, and play the game with sounds.  Type help sound to learn more.  There are also many commands that
+mpechoat $n &Cmake life easier with screenreaders see help accessible to learn more.'
+mppause 20
+mpquest $n etutorial 8
+mptutorial $n
+~
+|
+#33206
+goblin blacksmith repair repairs Takarz~
+Takarz, the blacksmith~
+A goblin blacksmith is repairing armor here.
+~
+The goblin has grayish skin, and long black hair.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33207
+orc armorsmith armoer armorer Rautal~
+an orc armor smith~
+An orc armor smith is displaying his wares.
+~
+The orc has on black leather to protect him while working on the forge.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 32 1 0
+0 0 0 0 0 0 0 0
+#33208
+drow archery dealer~
+a drow archery dealer~
+A drow archery dealer is displaying his wares here.
+~
+The drow has on forestry colored clothing, and a long knife on his hip.
+~
+0
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33209
+goblin bank banker grindatck~
+Grindatck, the banker~
+A goblin banker is counting money here.
+~
+The short and stout goblin is wearing a lavish gold and red robe.
+~
+0
+Clanname none~
+0
+0
+131075&262144 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33210
+orc supplies supply trader~
+An Orc Supply Trader~
+An orc supply trader is displaying his wares here.
+~
+The orc is massive in size and has loose fitting leather clothing.
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33211
+goblin pawn shop dealer~
+A tall lanky goblin~
+A goblin pawn shop dealer awaits your business here.
+~
+The goblin has a crafty look about him.  He is wearing a blue robe, and
+has several crates of goods behind him.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#33212
+teacher blademaster jardal drow~
+Blademaster Jardal~
+A muscular drow in elven chain mail is standing here.
+~
+The drow moves with grace of a cat, and has steel in his eyes.
+~
+13
+Clanname none~
+0
+0
+131075&512 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(etutorial) != 2
+  mpechoat $n &CHint: &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL &cto see what you should be doing next.&D
+else
+  mptutorial $n
+  mpquest $n etutorial 3
+  mppause 15
+  mpechoat $n &cYou see several soldiers fighting in the background as Blade Master Jardal approaches you.&D
+  mppause 10
+  mpechoat $n &cBlade Master Jardal sneers at you.&D
+  mppause 20
+  mpechoat $n &CBlade Master Jardal says, 'You can't be serious! Yochlol sends me a little runt like you? Well, I guess I better make the best of it then.  This blade is true, you may have it for the cause.'&D
+  mpoload 125 1
+  get dagger
+  give dagger $n
+  mppause 20
+  mpat 4 look
+  mppause 10
+  if class($n) == 19
+    mpechoat $n &CBlade Master Jardal says, 'First you must practice a few skills and spells.  Typing &WPRACTICE &Cshows you what you can learn at your level.  You may practice a skill or spell more then once to increase your proficiency in it.  As someone new to the realm of fighting, I would suggest typing &WPRACTICE CHOKE&C for starters.  You will find that for some spells and skills you have to search out special teachers.  You can find these teachers with the &WTEACHER &Ccommand.'&D
+  else
+    mpechoat $n &CBlade Master Jardal says, 'First you must practice a few skills and spells.  Typing &WPRACTICE &Cshows you what you can learn at your level.  You may practice a skill or spell more then once to increase your proficiency in it.  As someone new to the realm of fighting, I would suggest typing &WPRACTICE KICK &Cfor starters.  You will find that for some spells and skills you have to search out special teachers.  You can find these teachers with the &WTEACHER &Ccommand.'&D
+  endif
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mptutorial $n
+  mpechoat $n &CBlade Master Jardal says, 'Once you have practiced everything you want to practice, and you are ready to proceed in the lesson, just &WSAY PROCEED&C.'&D
+endif
+~
+> speech_prog proceed~
+if quest(etutorial) == 3
+  mptutorial $n
+  mppause 8
+  mpechoat $n &CBlade Master Jardal says, '$n, lets see how you do in combat then.'&D
+  mppause 15
+  mpechoat $n &cBlade Master Jardal opens a cage and a wild dog comes running out.&D
+  mpmload 33215 1
+  mppause 20
+  if class($n) == 19
+    mpechoat $n &CBlade Master Jardal says, 'You must &WKILL DOG&C, and you may &WCHOKE DOG&C or use some other skill/spell you practiced to attack it. Do this until it dies! Never show mercy in battle!'&D  
+  else
+    mpechoat $n &CBlade Master Jardal says, 'You must &WKILL DOG&C, and you may &WKICK DOG&C or use some other skill/spell you practiced to attack it. Do this until it dies! Never show mercy in battle!'&D
+  endif
+  mppause 8
+  mpechoat $n &cHint: See also help wimpy, help clear, help consider.&D
+  mppause 5
+  mptutorial $n
+  mpechoat $n &CBlade Master Jardal says, 'After you kill the dog, you need to find Guild Master Vecnia to learn about crafting.'&D
+else
+  mpechoat $n &CBlademaster Jardal says, 'You already killed the wild dog, get going.'&D
+endif
+~
+|
+#33213
+tavern Korlok barkeeper~
+Barkeeper Korlok~
+A fat bellied goblin barkeeper is standing here.
+~
+The fat bellied goblin is wearing a grease covered apron.  The goblin 
+has no hair on his head, but thick hair covers his green ears.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if quest(etutorial) != 6
+  mpechoat $n &CHint: &cIt is important that you complete quests in the order they are tasked to you.  Type &WJOURNAL &cto find out what you should be doing according to your quest jorunal.&D
+else
+  mptutorial $n
+  mpechoat $n &cKorlok the Barkeep puts away the glass he is polishing and looks at you.&D
+  mppause 20
+  mpechoat $n &CKorlok the Barkeep says, 'Ah, another slave miner sent by Yochlol for me to prepare.'&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CKorlok the Barkeep says, 'You know, as barkeeper of Dead Goblin Tavern, I hear many things from all kinds of people. I think I have one tip for you. You can keep an eye on your body and mind by simply typing &WSCORE&C. Why don't you try it?'&D
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &CKorlok the Barkeep says, 'Apart from that, you can customize things for yourself with the &WCONFIG &Ccommand. Check it out!'&D
+  mppause 20
+  mpechoat $n &cKorlok the Barkeep urges you on.&D
+  mppause 10
+  mpechoat $n &CKorlok the Barkeep says, 'Very well $n, be gone, I do not get paid for any more than I have just taught you.'&D
+  mpquest $n etutorial 7
+  mptutorial $n
+  mpforce $n north
+endif
+~
+|
+#33214
+durgas Shaman Ulthas~
+Shaman Ulthas~
+An orc shaman dressed in dark black robes stands here.
+~
+The shaman has a foreboding look about him.  An overwhelming sense of
+power seems to radiate from the orc wrapped in black robes.
+~
+13
+Clanname none~
+0
+0
+131075 4194304 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(etutorial) > 1
+  mpechoat $n &CShaman Ulthas says, 'What are you doing here!?  Get on with your duties.'&D
+else
+  mppause 6
+  mptutorial $n
+  mpechoat $n &cShaman Ulthas is sitting at an oak desk with a large parchment, and looks up at you with an annoyed expression.&D
+  mppause 20
+  mpat 4 look
+  mppause 10
+  mpechoat $n &CShaman Ulthas says, 'State your business with the Black Tower!'&D
+  mppause 2
+  mpechoat $n &cShaman Ulthas looks bemused.&D
+  mppause 3
+  mpechoat $n &CShaman Ulthas says, 'You must be here to have your name added to the list.'&D
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &cShaman Ulthas spits on the ground and sneers.&D
+  mppause 20
+  mpechoat $n &CShaman Ulthas says mockingly, 'What is your name?'&D
+  mppause 20
+  mppat 4 look
+  mppause 20
+  mpechoat $n &cShaman Ulthas scribbles your name down on his list, and suddenly looks at you with a religious zeal.&D
+  mppause 20
+  mpechoat $n &CShaman Ulthas looks distantly stating, 'You do understand the importance of the Recruitment Ceremony yes? The Master is freeing us from being confined to dark corners of the world. The human slugs and their alliances will be food, and slaves for us to grind into the ground. Go now prepare yourself for the Ceremony!'&D
+  mptutorial $n
+  mpquest $n etutorial 2
+endif
+~
+|
+#33215
+wild dog~
+a wild dog~
+A wild dog is standing here.
+~
+The wild dog has it's hair standing on end, as it growls at you menacingly.
+~
+0
+Clanname none~
+0
+33223
+131075 0 0 C
+2 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 65576 0 0 0 0 0
+> death_prog 100~
+if quest(etutorial) == 3
+  mpechoat $n &CBlademaster Jardal says, 'You seem to have a knack for killing. Maybe I will train you in the elite &WTHRONG &csome day. Be aware though that some creatures will swallow items of power.  It is a good practice to &WSLICE&c corpse.  I have things to do now, get out of here!'&D
+  mpquest $n etutorial 4
+else
+  mpechoat $n &CBlademaster Jardal says, 'You already killed the wild dog, get going.'&D
+endif
+~
+|
+#33216
+demoz~
+Demoz, the scholarly tactician~
+A tall, burly goblin with a flare for languages, stands here wearing black clothes.
+~
+About waist high to most, this goblin leans against his spear before the mass of maps. A wicked grin 
+evident upon his features, he drums on the spear with one hand, the other rubbing his pointed chin. Sunken, red eyes dart from sketch to 
+sketch as he quietly mumbles to himself.
+~
+13
+Clanname none~
+0
+0
+131075 6815912 -1000 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+9 18 0 0 1 1 12
+0 0 0 0 0 0 67109488&3 33560587
+#33217
+Vecnia guild master~
+Guild Master Vecnia~
+A short and stout goblin guild master stands here.
+~
+Covered head to toe with soot, the goblin before you could almost be 
+mistaken for a malformed drow, at first glance. Closer inspection reveals 
+his true heritage, through his bulbous nose, and his scrunched, pointed 
+facial structure. Even for one of his kind, he is short; barely topping 
+four feet tall. Despite his stature, however, he is powerfully built from 
+years at the forge. 
+~
+13
+Clanname none~
+0
+0
+67239939 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 4
+if quest(etutorial) == 4
+mpechoat $n &CGuild Master Vecnia says, 'This is Dakar City Trade Skill Denizens
+mpechoat $n &Chere you can learn a tradeskill to make a fast money.  We teach baking,
+mpechoat $n &Cblacksmithing, and tanning.  You can sell your products to the shop
+mpechoat $n &Cto the east of here.  Your not quite ready yet, but come back to me
+mpechoat $n &Cafter your rites of passage and we will help you make a profit.'
+mpquest $n etutorial 5
+endif
+~
+|
+#33218
+shop keeper Naevas drow~
+Shopkeeper Naevas~
+A drow male shopkeeper is tending his wares here.
+~
+Leaning against his desk, this drow seems to be working on a list of 
+goods he has received. From his hunched position, it is hard to get an 
+idea of how tall he truly is. Slender in build, his head is shaved 
+completely bald and an eyepatch covers his right eye. As more and moer 
+goods are brought in to his shop, the drow seems to becoming ever more 
+trapped by the multitude of boxes.
+~
+1
+Clanname none~
+0
+0
+131075&16384 4194432&2097152 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 48 524291
+> all_greet_prog 100~
+mppause 4
+mpechoat $n &CShopkeeper Naevas sneers, 'I buy or sell crafted things for profit!'
+~
+|
+#33400
+last mob~
+last mob~
+A mob put here by Vladaar to Ambush new players.
+~
+~
+14
+Clanname none~
+0
+0
+1082261507 4292610 0 C
+106 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(etutorial) != 9
+else
+  mptutorial $n
+  mppause 4
+  mpechoat $n &cAs you leave the portalstone, you are slammed to the ground by something heavy, 
+  mpechoat $n &cand feel something tighten around your neck!&D
+  mppause 10
+  mpechoat $n &CHigh Priest Yochlol is standing above you, and says, 'You fool, the ceremony is 
+  mpechoat $n &Cabout to begin, and we must be there now!'&D
+  mppause 10
+  mpechoat $n &cA horn sounds in the distance, and drums begin to sound.
+  mpechoat $n &cHigh Priest Yochlol leads you back to the square with a leather neck restraint 
+  mpechoat $n &con your neck, choking you to the point you almost lose consciousness as he 
+  mpechoat $n &cdrags you off to the ceremony!&D
+  mppause 10
+  mpechoat $n &cAs you approach the square, you see a massive elephant surrounded by 
+  mpechoat $n &ccolumns of soldiers.&D
+  mppause 20
+  mpechoat $n &cHigh Priest Yochlol throws you to the ground with a large group of other 
+  mpechoat $n &crecruits that are all groveling before a powerful looking man. After seeing 
+  mpechoat $n &cother guards around your group with whips, you quickly move forward deciding 
+  mpechoat $n &cto join them and grovel on the ground as well.&D
+  mpechoat $n &CYochlol himself then grovels before Master Tanzean'al stating, 'Master this 
+  mpechoat $n &Cslave is the last recruit from the slave mines that is suitable for your Army.
+  mpechoat $n &CIs this one acceptable, or should I take $m back to the slave mines?'&D
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpechoat $n &CTanzean'al speaking in a normal tone, but is heard perfectly through the noise 
+  mpechoat $n &Cof the beating drums says, 'All of ye may serve in the Army. We will crush 
+  mpechoat $n &Cthe ALLIANCE!  Now stand forth, and take your vow of servitude.'&D
+  mppause 10
+  mpechoat $n &cYou feel a burning sensation in your mind as you say the words with the other 
+  mpechoat $n &crecruits. Everything fades to black, as you fall into unconsciousness.&D
+  mpforce $n sleep
+  mptutorial $n
+  mpat $n mpapplyb $n
+  mppause 6
+  mpat $n mpforce $n wake
+  mpat $n mpquest $n etutorial 10
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#33200
+marble water fountain~
+a water fountain~
+A marble water fountain is embedded in the ground here.~
+~
+25 0 0
+20 20 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+marble water fountain~
+The marble water fountain appears to have been crafted many years ago.  
+The water does not look the best, but it is probably drinkable.
+~
+#33201
+arrow~
+a blackened arrow~
+A blackened arrow has been left here.~
+~
+57 1073741824 1
+0 50 100 6 1 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+blackened arrow~
+The blackened arrow of Dakar.  Is known to often be poisoned.
+~
+#33202
+quiver~
+a blackened leather quiver~
+A blackened leather quiver has been left here.~
+~
+58 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+leather quiver~
+A sturdy black leather quiver capable of holding many arrows.
+~
+#33203
+long bow~
+a blackened long bow~
+A blackened long bow has been left here.~
+~
+56 0 8193
+12 10 20 6 6 1 1
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+long bow~
+The blackened long bow has a mystical quality about it.  A strange
+feeling of hate radiates from it.
+~
+#33204
+black studded leather trousers~
+a pair of black studded leather trousers~
+A pair of black studded leather trousers has been left here.~
+~
+9 1073741824 0
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+studded leather trousers~
+A pair of blackened studded trousers are thickly padded to provide protection.
+There are several small holes and rips in the sides of the trousers.
+~
+#33205
+black studded leather vest~
+a black studded leather vest~
+A black studded leather vest has been left here.~
+~
+9 1073741824 0
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+studded leather vest~
+A studded leather vest is worn and faded.  There is thick padding on the
+inside to provide protection.
+~
+#33206
+black studded leather gloves~
+a pair of black studded leather gloves~
+A pair of black studded leather gloves has been left here.~
+~
+9 1073741824 0
+60 60 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+gloves~
+The worn leather gloves have large studs on the knuckle areas.
+~
+#33207
+black studded leather bracers~
+a pair of black studded leather bracers~
+A pair of black studded leather bracers has been left here.~
+~
+9 1073741824 0
+2 2 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+bracers~
+The worn leather bracers are made out of thick leather for protection.
+~
+#33208
+black leather boots~
+a pair of black leather boots~
+A pair of black leather boots has been left here.~
+~
+9 1073741824 0
+2 2 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+boots~
+The leather boots are very well broken in, and the sole is worn on them.
+~
+#33209
+dagger~
+a blackened dagger~
+A blackened dagger has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+dagger~
+The dagger has nicks in the blade, but is very well balanced.
+~
+#33210
+short sword~
+a blackened short sword~
+A blackened short sword has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+short~
+The short sword is a thick and heavy blade designed for clubbing rather
+then slicing into anything.
+~
+#33211
+blackened long sword~
+a blackened long sword~
+A blackened long sword has been left here.~
+~
+5 1073741824 8193
+0 50 100 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+long~
+The long sword has a fairly sharp edge to it.  The hilt is a thick black
+square with a stud on it to bludgeon people with.
+~
+#33212
+mace~
+a blackened mace~
+A blackened mace has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+mace~
+The mace is a black ball attached to a metal rod.  The ball has large spikes
+protruding from it across the entire surface of the ball.
+~
+#33213
+war hammer~
+a blackened war hammer~
+A blackened war hammer has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+hammer~
+The war hammer has a flat hammer side on one end, and a large pick side
+on the other.
+~
+#33214
+bastard sword~
+a blackened bastard sword~
+A blackened bastard sword has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+bastard~
+The bastard sword is larger then a normal long sword, but still able to
+be wielded one handed.  
+~
+#33215
+spear~
+a blackened spear~
+A blackened spear has been left here.~
+~
+5 1073741824 0
+0 1 5 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+spear~
+The spear is shorter then most spears, but thick in circumference.
+~
+#33216
+black leather satchel~
+a black leather satchel~
+A black leather satchel has been left here.~
+~
+15 0 16385
+100 0 0 12 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+satchel~
+The satchel is large, and has several pockets where items can be stored.
+~
+#33217
+pickled human flesh~
+a jar of pickled human flesh~
+A pickled jar of human flesh has been left here.~
+~
+19 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+11
+0
+0
+0
+0
+S 0 0
+E
+pickled jar~
+This is a greenish liquid filled jar with pickled human flesh.
+~
+#33218
+human jerky strips~
+a packet of human jerky strips~
+A packet of human jerky strips has been left here.~
+~
+19 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+jerky strips~
+The packet of dried human flesh jerky is thick and has spice on it.
+~
+#33219
+black hooded lantern~
+a black hooded lantern~
+A black hooded lantern has been left here.~
+~
+1 1073741824 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+lantern~
+The oil based lamp, is covered with a removable hood so the amount of
+light can be directed.
+~
+#33220
+black wand damnation ~
+a black wand of damnation ~
+A black wand of damnation has been left here.~
+~
+3 0 16385
+10 3 3 -1 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+'word of recall'
+S 0 0
+E
+damnation~
+There is repulsively evil aura coming from the wand.
+~
+#33221
+black wand knowing~
+a black wand of knowing~
+A black wand of knowing has been left here.~
+~
+3 0 16385
+20 3 3 -1 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+'identify'
+S 0 0
+E
+wand knowing~
+The black wand is hideously shaped with sharp edges on it.
+~
+#33222
+yaka roots~
+a packet of yaka roots~
+A packet of yaka roots has been left here.~
+~
+26 0 1
+10 -1 -1 -1 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+'NONE' 'NONE' 'NONE'
+S 0 0
+E
+yaka roots packet~
+A finely woven packet of yellow and green roots with small flowers on the end.
+~
+#33223
+talyaka root roots~
+a packet of talyaka roots~
+A packet of talyaka roots has been left here.~
+~
+26 0 1
+10 -1 -1 -1 0 1 0
+1 1 0
+4
+1
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+E
+roots packet talyaka~
+A threw pronged like root packet is bound tightly here.
+~
+#33224
+mana rejuvenation potion~
+a mana rejuvenation potion~
+A mana rejuvenation potion has been left here.~
+~
+10 0 16385
+45 -1 -1 -1 0 0 0
+1 1 0
+4
+4
+0
+0
+0
+0
+'restore mana' 'NONE' 'NONE'
+S 0 0
+E
+mana potion ~
+The liquid within this potion bottle has a slight glowing property to it.
+~
+#33225
+greater mana rejuvenation potion~
+a greater mana rejuvenation potion~
+A greater mana rejuvenation potion has been here.~
+~
+10 0 16385
+45 -1 -1 -1 0 1 0
+1 1 0
+4
+4
+0
+0
+0
+0
+'restore mana' 'restore mana' 'NONE'
+S 0 0
+E
+greater mana potion~
+The liquid within this potion bottle has a glowing property to it.
+~
+#33226
+note list~
+a note list~
+A note list is laying here.~
+~
+47 0 1
+0 0 0 0 0 0 0
+1 21 2
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+'list note' 'note list'~
+&WHere is a list of tasks you must complete:
+
+Find the Shaman at the Black Tower, and add your name to the list.
+Seek out Blademaster Jardal for training.
+Seek out Guild Master Vecnia
+Find Dralak in the Mystical Shop.
+Find Korlok the Barkeeper.
+Seek out Daktar the Weaponsmith.
+Find the Portalstone.
+~
+#33227
+portal stone~
+portal stone~
+A portal stone is embedded in the ground here.~
+~
+72 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+33227 portal stone portalstone~
+This smooth, black stone feels warm to the touch and seems to be of a glass material. Inside its transparent, dark depths, a faint flame flickers erratically. Miniscule gold specks dust the surface of the portal stone and shimmer entrancingly. Gold letters form the word 'ACTIVATE' on the top of the stone. &Y Type 'activate' to activate the stone.
+~
+#33400
+last obj~
+a newly created last obj~
+A blackened  last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#33200
+The Intersection of Waguo Road and Dipak Street~
+~
+The road is made of broken old cobblestones.  There are large stakes
+on both sides of the intersection with humanoid skulls impaled on them.
+The massive cavern completely wraps around the entire city.  There are
+hooded lanterns at regular intervals to provide lighting.
+~
+1 4 1
+D1
+~
+~
+0 -1 33201
+D2
+~
+~
+0 -1 33227
+S
+#33201
+Waguo Road~
+~
+There are broken out cobblestones in the road creating ruts.  A massive
+boulder shaped like a half moon is embedded beside the road.  The cavern
+above has an identical shaped cut missing from the section above.  The
+road has hooded lanterns on poles set at regular intervals for lighting.
+~
+1 0 1
+D1
+~
+~
+0 -1 33202
+D3
+~
+~
+0 -1 33200
+S
+#33202
+Waguo Road~
+~
+Broken old cobblestones make up the road here.  A large sewer grate allows
+waste to flow down the street to the sewer.  A large stake with humanoid
+skulls impaled on it is against the road.  Hooded lanterns are attached
+to poles at regular intervals to provide lighting.
+~
+1 0 1
+D1
+~
+~
+0 -1 33203
+D3
+~
+~
+0 -1 33201
+S
+#33203
+Waguo Road~
+~
+The road is made of broken old cobblestones.  A large section of the road
+here is covered with dried blood.  The massive cavern encloses the entire
+city underground.  There are hooded lanterns that have been attached to
+poles to provide lighting.
+~
+1 0 1
+D1
+~
+~
+0 -1 33204
+D3
+~
+~
+0 -1 33202
+S
+#33204
+Waguo Road~
+~
+The road is made of broken old cobblestones. There are large stakes on 
+both sides of the road with humanoid skulls impaled on them. The massive 
+cavern encloses the entire city underground. There are hooded lanterns
+mounted to poles at regular intervals to provide lighting.
+~
+1 0 1
+D1
+~
+~
+0 -1 33205
+D3
+~
+~
+0 -1 33203
+S
+#33205
+Inside the Massive Gate~
+~
+&OThe gate is composed of large oak timbers that have iron bands wrapped 
+around it. The size of the gate resembles the size of a large house. A 
+massive iron chain is connected to the gate. Large gears on a type of 
+machine with the iron chain connected to it, is to the right of the gate. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33228
+D2
+~
+~
+0 -1 33206
+D3
+~
+~
+0 -1 33204
+S
+#33206
+Gakak Street~
+~
+The street is made up of gravel stones. The width of the street can fit 
+two wagons side by side along it. Large stone slab barricades are along 
+the sides of the road with kill ports for archers. There are large wooden 
+poles with hooded lanterns mounted on them at regular intervals. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33205
+D2
+~
+~
+0 -1 33207
+S
+#33207
+Gakak Street~
+~
+A few stone buildings are on both sides of the street.  The street is
+made up of gravel stones.  A large statue is on the west side of the
+street.  There are wooden poles with hooded lanterns attached to them
+at regular intervals along the street for lighting.
+~
+1 0 1
+D0
+~
+~
+0 -1 33206
+D2
+~
+~
+0 -1 33208
+S
+#33208
+Gakak Street~
+~
+A dark tower edges above a stone building to the northwest.  Gravel stones
+were used to make this street.  A large stake with humanoid skulls impaled
+on it is posted next to the street.  A wooden pole with a hooded lantern
+attached to it provides lighting.
+~
+1 0 1
+D0
+~
+~
+0 -1 33207
+D2
+~
+~
+0 -1 33209
+S
+#33209
+Gakak Street~
+~
+An intersection of streets is to the south. The street is made up of loose 
+gravel stones. A few stone buildings line both sides of the street. Hooded 
+lanterns are attached to wooden poles at regular intervals to provide 
+lighting. The massive cavern encloses the entire city underground. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33208
+D2
+~
+~
+0 -1 33210
+R O 0 33227 1 33209
+> entry_prog 100~
+if quest(etutorial) == 8
+mppause 3
+mptutorial $n
+mpechoat $n &cYou realize this is the portalstone.
+mpechoat $n &cOn an impulse you touch, and a flood of information comes into your mind.
+mppause 10
+mpechoat $n &GLocation                   Difficulty Level
+mpechoat $n &G1. Merchant's Discovery        00 - 10
+mpechoat $n &G2. Norrinton South Harbor      10 - 20
+mpechoat $n &G3. The Abyss                   05 - 10
+mpechoat $n &G4. Gnome Tower                 05 - 20
+mpechoat $n &G5. Kirwood Swamp               00 - 05
+mpechoat $n &G6. Abandoned Cabin             05 - 20
+mpechoat $n &G7. Garden                      15 - 20
+mpechoat $n &G8. Tufkul'ar                   15 - 30
+mpechoat $n &G9. Durdun                      10 - 20
+mpechoat $n &G10.Spiral Village              10 - 20
+mpechoat $n &G11.Ice Cavern                   5 - 20
+mpechoat $n &G12.Under Sewer                 03 - 10 &R[Group Area]
+mpechoat $n &G13.Bowels of the Citadel       10 - 25 &R[Group Area]
+mpechoat $n &cProper Syntax: Activate < Location Number ( 1 - 13 )>
+mppause 10
+mpechoat $n &cYou have learned that the portalstone can send you to locations by using
+mpechoat $n &cthe &WACTIVATE&c command.  Remember you can always return home up to 
+mpechoat $n &clevel 20 with the &WRECALL&c command.
+mpquest $n etutorial 9
+mptutorial $n
+else
+endif
+~
+|
+S
+#33210
+Dakar Central~
+~
+&cThe intersection is the main crossing point for the city. There is a 
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33209
+D1
+~
+~
+0 -1 33248
+D2
+~
+~
+0 -1 33211
+D3
+~
+~
+0 -1 33253
+R M 0 33400 1 33210
+R O 0 33200 1 33210
+E
+sign embedded~
+Dakar City
+
+West Dakar City ruled by the Dark Tower
+East Dakar City ruled by Lloth Tars Conclave
+
+North - Gakak Street and City Gate
+East - Taupa Avenue (Shops)
+West - Taupa Avenue (Shops)
+South - Gakak Street
+
+~
+S
+#33211
+Gakak Street~
+~
+The street is made up of loose gravel. There is a strange looking building 
+to the southeast. A crumbling stone building is to the west. The massive 
+cavern encloses the entire city underground. There are hooded lanterns 
+attached to wooden poles at regular intervals to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33210
+D2
+~
+~
+0 -1 33212
+S
+#33212
+Gakak Street~
+~
+The street is made up of loose gravel. There are wooden stakes on both 
+sides of the street with humanoid skulls impaled on them. A strange 
+looking building is to the southeast. There is a hooded lantern mounted to 
+a wooden pole here to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33211
+D2
+~
+~
+0 -1 33213
+S
+#33213
+Gakak Street~
+~
+A large stone building to the west has a crumbling stone slabbed wall 
+around it. The street is made up of loose gravel. An intersection is to 
+the south. There are wooden poles spaced out at regular intervals with 
+hooded lanterns attached to them to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33212
+D2
+~
+~
+0 -1 33214
+S
+#33214
+The Intersection of Sanok Road and Gakak Street~
+~
+The massive intersection has a statue of Tanzean'al against the cavern 
+wall. The statue is as tall as the stone buildings on the street. There is 
+a strange looking building to the east. The cavern encloses the entire 
+city underground. Hooded lanterns mounted on poles on both sides of the 
+statue provide lighting for the intersection. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33213
+D1
+~
+~
+0 -1 33247
+D3
+~
+~
+0 -1 33215
+E
+statue Tanzean'al~
+The massive statue is of the powerful wizard Tanzean'al.  He is clothed
+in robes, and carrying a scepter in his right hand.
+~
+S
+#33215
+Sanok Road~
+~
+The road is made out of broken old cobblestones. A wall made out of large 
+boulders is on the south side of the road. There is a wooden sign on the 
+wall, with a diagram of the city that is too blurry to read. A cobblestone 
+made house is to the south. A large pole is set into the ground on the 
+south side of the road with a hooded lantern attached. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33214
+D3
+~
+~
+0 -1 33216
+S
+#33216
+Sanok Road~
+~
+The cobblestones are cracked and scratched up throughout the road here. A 
+wall of midsize boulders butt up to some large boulders forming a wall on 
+the south side of the road here. There are small sewer grates on both 
+sides of the road to provide sewage a place to drain into. A few skulls 
+are along the roadside here 
+~
+1 0 1
+D1
+~
+~
+0 -1 33215
+D3
+~
+~
+0 -1 33217
+S
+#33217
+Sanok Road~
+~
+The cobblestones are broken and stained along the road here. A wall made 
+out of midsize boulders is along the south side of the road. The inner 
+city lights of a few buildings are visible to the east. A large pole is 
+set into the ground on the south side of the road with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33216
+D2
+~
+~
+0 -1 33299
+D3
+~
+~
+0 -1 33218
+S
+#33218
+Sanok Road~
+~
+The old cobblestones are broken, and there are ruts in the road here. The 
+wall along the south side of the road ends in a pile of crushed rock here. 
+A few buildings are along the east side of the road. A blackened red stain 
+is smeared along the edge of the road here. There are small drains on the 
+sides of the road to provide sewage drainage. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33217
+D3
+~
+~
+0 -1 33219
+S
+#33219
+The Intersection of Sanok Road and Dipak Street~
+~
+The street is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+west side of the street. A few buildings are along the streetsides. A 
+large pole is set into the ground at the streetsides with a hooded lantern 
+attached to it to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33220
+D1
+~
+~
+0 -1 33218
+S
+#33220
+Dipak Street~
+~
+The old cobblestones are broken, and there are ruts in the street here. 
+The wall along the west side of the street ends in a pile of crushed rock 
+here. A few buildings are along the east side of the street. A blackened 
+red stain is smeared along the edge of the street here. There are small 
+drains on the sides of the street to provide sewage drainage. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33221
+D2
+~
+~
+0 -1 33219
+S
+#33221
+Dipak Street~
+~
+The cobblestones are broken and stained along the street here. A wall made 
+out of midsize boulders is along the west side of the street. The inner 
+city lights of a few buildings are visible to the east. A large pole is 
+set into the ground on the west side of the street with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33222
+D2
+~
+~
+0 -1 33220
+S
+#33222
+Dipak Street~
+~
+The cobblestones are cracked and scratched up throughout the street here. 
+A wall of midsize boulders butt up to some large boulders forming a wall 
+on the west side of the street here. There are small sewer grates on both 
+sides of the street to provide sewage a place to drain into. A few skulls 
+are along the streetside here.
+~
+1 0 1
+D0
+~
+~
+0 -1 33223
+D2
+~
+~
+0 -1 33221
+S
+#33223
+The Intersection of Taupa Avenue and Dipak Street~
+~
+The street is made out of broken old cobblestones. A wall made out of 
+large boulders is on the west side of the street. There is a wooden sign 
+on the wall, with a diagram of the city that is too blurry to read. A 
+cobblestone made house is to the west. A large pole is set into the ground 
+on the west side of the street with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33224
+D1
+~
+~
+0 -1 33256
+D2
+~
+~
+0 -1 33222
+S
+#33224
+Dipak Street~
+~
+The street is made out of broken stained cobblestones. A dead animal is 
+rotting in its final stages of decay along the streetside. A wall made out 
+of large boulders is on the west side of the street. A section of the wall 
+has been destroyed by something. A large pole is set into the ground on 
+the east side of the street with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33225
+D2
+~
+~
+0 -1 33223
+S
+#33225
+Dipak Street~
+~
+The street is made out of cracked and scratched up old cobblestones. A 
+wall of large boulders is on the west side of the street. There are small 
+sewer grates on the sides of the street to provide sewage to drain into. A 
+buildup of trash has nearly clogged up the grates and the sewage is thick 
+on the street here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33226
+D2
+~
+~
+0 -1 33224
+S
+#33226
+Dipak Street~
+~
+The street is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+west side of the street. A few buildings are along the street sides. A 
+large pole is set into the ground at the street sides with a hooded 
+lantern attached to it to provide lighting.
+~
+1 0 1
+D0
+~
+~
+0 -1 33227
+D2
+~
+~
+0 -1 33225
+S
+#33227
+Dipak Street~
+~
+A massive dark tower stands forebodingly before the street to the east. 
+The street is made of broken old cobblestones. The massive cavern encloses 
+the entire city underground. There are hooded lanterns attached to poles 
+that provide lighting at regular intervals.
+~
+1 0 1
+D0
+~
+~
+0 -1 33200
+D1
+~
+Double Doors~
+3 -1 33270
+D2
+~
+~
+0 -1 33226
+S
+#33228
+Waguo Road ~
+~
+The road is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the road. A few buildings are along the road 
+sides. A large pole is set into the ground at the road sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33229
+D3
+~
+~
+0 -1 33205
+S
+#33229
+Waguo Road~
+~
+The road is made out of cracked and scratched up old stone slabs. A spear 
+with rotting enemy ears adorning it is on the south side of the road. 
+There are small sewer grates on the sides of the road to provide sewage to 
+drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the road here. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33230
+D3
+~
+~
+0 -1 33228
+S
+#33230
+Waguo Road~
+~
+The road is made out of broken stained stone slabs. Some rotten food is in 
+its final stages of decay along the road side. A spear with rotting enemy 
+ears adorning it is on the south side of the road. A section of the spear 
+has been destroyed by something. A large pole is on the north side of the 
+road with a hooded lantern attached.
+~
+1 0 1
+D1
+~
+~
+0 -1 33231
+D3
+~
+~
+0 -1 33229
+S
+#33231
+Waguo Road~
+~
+The stone slabs are cracked and scratched up throughout the road here. A 
+spear with rotting enemy ears adorning it is embedded in the ground on the 
+south side of the road here. There are small sewer grates on both sides of 
+the road to provide sewage a place to drain into. A few skulls are along 
+the road side here. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33232
+D3
+~
+~
+0 -1 33230
+S
+#33232
+Waguo Road~
+~
+The old stone slabs are broken, and there are ruts in the road here. The 
+spear with rotting enemy ears adorning it is on the south side of the road 
+here. A few buildings are along the north side of the road. A blackened 
+red stain is smeared along the edge here. There are small drains on the 
+sides of the road to provide sewage drainage. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33233
+D3
+~
+~
+0 -1 33231
+S
+#33233
+The Intersection of Waguo Road and Gorath Street~
+~
+The street is made out of crushed gravel stones. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the street. A few buildings are along the street 
+sides. A large pole is set into the ground at the street sides with a 
+hooded lantern attached to it to provide lighting. 
+~
+1 0 1
+D2
+~
+~
+0 -1 33234
+D3
+~
+~
+0 -1 33232
+S
+#33234
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A spear with rotting 
+enemy ears adorning it is on the south side of the street. There are small 
+sewer grates on the sides of the street to provide sewage to drain into. A 
+buildup of trash has nearly clogged up the grates and the sewage is thick 
+on the street here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33233
+D2
+~
+~
+0 -1 33235
+S
+#33235
+Gorath Street~
+~
+The street is made out of crushed gravel. Some rotten food is in its final 
+stages of decay along the street side. A spear with rotting enemy ears 
+adorning it is on the south side of the street. A section of the spear has 
+been destroyed by something. A large pole is on the north side of the 
+street with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33234
+D2
+~
+~
+0 -1 33236
+S
+#33236
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A spear with rotting 
+enemy ears adorning it is on the south side of the street. There is a 
+wooden sign posted in the ground, with a diagram of the city that is too 
+blurry to read. A cobblestone made house is to the south. A large pole is 
+on the south side of the street with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33235
+D2
+~
+~
+0 -1 33237
+S
+#33237
+Gorath Street~
+~
+The crushed gravel stones are sparse along the street here. A spear with 
+rotting enemy ears adorning it is embedded in the ground on the south side 
+of the street here. There are small sewer grates on both sides of the 
+street to provide sewage a place to drain into. A few skulls are along the 
+street side here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33236
+D2
+~
+~
+0 -1 33238
+S
+#33238
+The Intersection of Taupa Avenue and Gorath Street~
+~
+The stone slabs are cracked and scratched up throughout the avenue here. A 
+spear with human skulls adorning it is embedded in the ground on the south 
+side of the avenue here. There are small sewer grates on both sides of the 
+avenue to provide sewage a place to drain into. A few skulls are along the 
+avenue side here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33237
+D2
+~
+~
+0 -1 33239
+D3
+~
+~
+0 -1 33252
+S
+#33239
+Gorath Street~
+~
+The crushed gravel stones are sparse along the street here. A spear with 
+rotting enemy ears adorning it is along the south side of the street. The 
+inner city lights of a few buildings are visible to the north. A large 
+pole is set into the ground on the south side of the street with a hooded 
+lantern attached to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33238
+D2
+~
+~
+0 -1 33240
+D3
+~
+~
+0 -1 33294
+S
+#33240
+Gorath Street~
+~
+The crushed gravel stones are interupted by ruts in the street here. The 
+spear with rotting enemy ears adorning it is on the south side of the 
+street here. A few buildings are along the north side of the street. A 
+blackened red stain is smeared along the edge here. There are small drains 
+on the sides of the street to provide sewage drainage. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33239
+D2
+~
+~
+0 -1 33241
+S
+#33241
+Gorath Street~
+~
+The street is made out of crushed gravel stones. A few large ruts have 
+been caused from heavy loads. A spear with rotting enemy ears adorning it 
+is on the south side of the street. A few buildings are along the street 
+sides. A large pole is set into the ground at the street sides with a 
+hooded lantern attached to it to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33240
+D2
+~
+~
+0 -1 33242
+S
+#33242
+The Intersection of Sanok Road and Gorath Street~
+~
+The street is made out of broken old cobblestones. A wall made out of 
+large boulders is on the east side of the street. A cobblestone made house 
+is to the west. A large pole is set into the ground on the west side of 
+the street with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33241
+D3
+~
+~
+0 -1 33243
+S
+#33243
+Sanok Road~
+~
+The road is made out of broken old cobblestones. A few large ruts have 
+been caused from heavy loads. A wall made out of large boulders is on the 
+south side of the road. A few buildings are along the roadsides. A large 
+pole is set into the ground at the roadsides with a hooded lantern 
+attached to it to provide lighting. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33242
+D3
+~
+~
+0 -1 33244
+S
+#33244
+Sanok Road~
+~
+The road is made out of cracked and scratched up old cobblestones. A wall 
+of large boulders is on the south side of the road. There are small sewer 
+grates on the sides of the road to provide sewage to drain into. A buildup 
+of trash has nearly clogged up the grates and the sewage is thick on the 
+road here. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33243
+D3
+~
+~
+0 -1 33245
+S
+#33245
+Sanok Road~
+~
+The road is made out of broken stained cobblestones. A dead animal is 
+rotting in its final stages of decay along the roadside. A wall made out 
+of large boulders is on the south side of the road. A section of the wall 
+has been destroyed by something. A large pole is set into the ground on 
+the east side of the road with a hooded lantern attached.
+~
+1 0 1
+D1
+~
+~
+0 -1 33244
+D3
+~
+~
+0 -1 33246
+S
+#33246
+Sanok Road~
+~
+The road is made up of interlocking bricks. A strange looking building is 
+to the northwest. A small house made of stone is to the south. The cavern 
+encloses the entire city underground. There are wooden poles with hooded 
+lanterns attached set at regular intervals to provide lighting. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33245
+D2
+~
+door~
+1 -1 33269
+D3
+~
+~
+0 -1 33247
+S
+#33247
+Sanok Road~
+~
+The road is made up of interlocking bricks.  A set of stone slab stairs
+lead north to the open archway of Myrlochar Temple.  The temple has many
+detailed carvings etched into the stonework of the building.  There are
+hooded lanterns mounted to each side of the temple archway.
+~
+1 0 1
+D0
+~
+~
+0 -1 33267
+D1
+~
+~
+0 -1 33246
+D3
+~
+~
+0 -1 33214
+E
+carvings etched ~
+The carvings appear to be some sort of ancient runes of dark power that
+issues a warning to those who would desecrate the temple.
+~
+S
+#33248
+Taupa Avenue~
+~
+The stone slabs are cracked and scratched up throughout the avenue here. A 
+spear with human skulls adorning it is embedded in the ground on the south 
+side of the avenue here. There are small sewer grates on both sides of the 
+avenue to provide sewage a place to drain into. A few skulls are along the 
+avenue side here. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33249
+D2
+~
+~
+0 -1 33261
+D3
+~
+~
+0 -1 33210
+S
+#33249
+Taupa Avenue~
+~
+The stone slabs are broken and stained along the avenue here. A spear with 
+human skulls adorning it is along the south side of the avenue. The inner 
+city lights of a few buildings are visible to the north. A large pole is 
+set into the ground on the south side of the avenue with a hooded lantern 
+attached to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33262
+D1
+~
+~
+0 -1 33250
+D3
+~
+~
+0 -1 33248
+S
+#33250
+Taupa Avenue~
+~
+The old stone slabs are broken, and there are ruts in the avenue here. The 
+spear with human skulls adorning it is on the south side of the avenue 
+here. A few buildings are along the north side of the avenue. A blackened 
+red stain is smeared along the edge here. There are small drains on the 
+sides of the avenue to provide sewage drainage. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33263
+D1
+~
+~
+0 -1 33251
+D2
+~
+door~
+3 -1 33265
+D3
+~
+~
+0 -1 33249
+R D 0 33250 2 1
+S
+#33251
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with human skulls adorning it is on 
+the south side of the avenue. A few buildings are along the avenue sides. 
+A large pole is set into the ground at the avenue sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33264
+D1
+~
+~
+0 -1 33252
+D3
+~
+~
+0 -1 33250
+S
+#33252
+Taupa Avenue~
+~
+The avenue is made out of cracked and scratched up old stone slabs. A 
+spear with human skulls adorning it is on the south side of the avenue. 
+There are small sewer grates on the sides of the avenue to provide sewage 
+to drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the avenue here. 
+~
+1 0 1
+D0
+~
+~
+3 -1 33298
+D1
+~
+~
+0 -1 33238
+D2
+~
+door~
+3 -1 33295
+D3
+~
+~
+0 -1 33251
+R D 0 33252 0 1
+R D 0 33252 2 1
+S
+#33253
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A spear with human 
+skulls adorning it is on the south side of the avenue. There is a wooden 
+sign posted in the ground, with a diagram of the city that is too blurry 
+to read. A cobblestone made house is to the south. A large pole is on the 
+south side of the avenue with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33260
+D1
+~
+~
+0 -1 33210
+D3
+~
+~
+0 -1 33254
+S
+#33254
+Taupa Avenue~
+~
+The avenue is made out of broken stained stone slabs. Some rotten food is 
+in its final stages of decay along the avenue side. A spear with human 
+skulls adorning it is on the south side of the avenue. A section of the 
+spear has been destroyed by something. A large pole is on the north side 
+of the avenue with a hooded lantern attached. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33259
+D1
+~
+~
+0 -1 33253
+D3
+~
+~
+0 -1 33255
+S
+#33255
+Taupa Avenue~
+~
+The avenue is made out of cracked and scratched up old stone slabs. A 
+spear with human skulls adorning it is on the south side of the avenue. 
+There are small sewer grates on the sides of the avenue to provide sewage 
+to drain into. A buildup of trash has nearly clogged up the grates and the 
+sewage is thick on the avenue here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33258
+D1
+~
+~
+0 -1 33254
+D3
+~
+~
+0 -1 33256
+S
+#33256
+Taupa Avenue~
+~
+The avenue is made out of roughly cut stone slabs. A few large ruts have 
+been caused from heavy loads. A spear with human skulls adorning it is on 
+the south side of the avenue. A few buildings are along the avenue sides. 
+A large pole is set into the ground at the avenue sides with a hooded 
+lantern attached to it to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 33257
+D1
+~
+~
+0 -1 33255
+D3
+~
+~
+0 -1 33223
+S
+#33257
+Archery Shop~
+~
+The floor is made out of stone slabs. There is a blue rug in the center of 
+the room. various displays are hanging on the walls from wooden shelves. A 
+hooded lantern mounted on opposite sides of the room provides lighting. A 
+large oak desk and chair are at the rear of the shop with a small display 
+setup on it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33258
+D2
+~
+~
+0 -1 33256
+R M 0 33208 1 33257
+S
+#33258
+Armor Shop~
+~
+The floor has cracked and broken stone slabs among it. There is a green 
+rug in the center of the room. A few displays are hanging on the walls 
+from wooden shelves. A few torches are mounted on opposite sides of the 
+room provides lighting. A large oak desk and chair are in the center of 
+the shop with many displays setup on it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33259
+D2
+~
+~
+0 -1 33255
+D3
+~
+~
+0 -1 33257
+R M 0 33207 1 33258
+S
+#33259
+Weapons Shop~
+~
+The floor is made out of interlocking bricks. At the center of the floor 
+is a dark blue rug. displays on humanoid dummies are setup throughout the 
+shop. A hooded lantern is on a small wooden desk in the center of the 
+shop. There are a few wooden stools within the shop, and a wooden chair 
+behind the desk. 
+~
+1 0 1
+D1
+~
+~
+0 -1 33260
+D2
+~
+~
+0 -1 33254
+D3
+~
+~
+0 -1 33258
+R M 0 33205 1 33259
+S
+#33260
+Blacksmith Shop~
+~
+Interlocking bricks are used the floor here. A plush golden rug is 
+centered on the floor. There is displays setup throughout the shop on 
+wooden shelves. Two hooded lanterns are suspended from the ceiling to 
+provide lighting. A high backed wooden chair is behind an oak desk in the 
+center of the shop. 
+~
+1 0 1
+D2
+~
+~
+0 -1 33253
+D3
+~
+~
+0 -1 33259
+R M 0 33206 1 33260
+S
+#33261
+Dakar Bank~
+~
+The floor to the bank is made out of decorative tiles that are very well
+maintained.  There are beautiful tapestries hanging from the walls.  A
+series of hooded lanterns adorn the walls for lighting.  A large table
+and chairs are set up in the rear of the bank.
+~
+1 268435456 1
+D0
+~
+~
+0 -1 33248
+R M 0 33209 1 33261
+S
+#33262
+General Supply Store~
+~
+Interlocking bricks are used the floor here. A plush golden rug is 
+centered on the floor. There are displays setup throughout the shop on 
+wooden shelves. Two hooded lanterns are suspended from the ceiling to 
+provide lighting. A high backed wooden chair is behind an oak desk in the 
+center of the shop. 
+~
+1 0 1
+D2
+~
+~
+0 -1 33249
+R M 0 33210 1 33262
+S
+#33263
+Mystical Shop~
+~
+The floor is made out of interlocking bricks. At the center of the floor 
+is a dark blue rug. Displays on humanoid dummies are setup throughout the 
+shop. A hooded lantern is on a small wooden desk in the center of the 
+shop. There are a few wooden stools within the shop, and a wooden chair 
+behind the desk. 
+~
+1 0 1
+D2
+~
+~
+0 -1 33250
+R M 0 33204 1 33263
+  R G 0 33220 1
+  R G 0 33221 1
+  R G 0 33225 1
+  R G 0 33224 1
+  R G 0 33223 1
+  R G 0 33222 1
+S
+#33264
+Dakar Pawn Shop~
+~
+The floor has cracked and broken stone slabs among it. There is a green 
+rug in the center of the room. A few displays are hanging on the walls 
+from wooden shelves. A few torches are mounted on opposite sides of the 
+room provides lighting. A large oak desk and chair are in the center of 
+the shop with many displays setup on it. 
+~
+1 0 1
+D2
+~
+~
+0 -1 33251
+R M 0 33211 1 33264
+S
+#33265
+Animal Trade Shop~
+~
+A large wooden barn like structure, there is a massive pile of stacked
+hay in the rear.  Several stalls of various animals are also located
+to the rear of the bar.  A small hooded lantern hangs from the ceiling
+to provide lighting.
+~
+1 4096 1
+D0
+~
+door~
+3 -1 33250
+R M 0 33202 1 33265
+R D 0 33265 0 1
+S
+#33266
+Pet Storage~
+~
+~
+1 4 1
+S
+#33267
+Myrlochar Temple~
+~
+Inside the building there are beautiful tapestries hanging from the walls. 
+A small statue of a beautiful naked half woman half spider is embedded in 
+the archway that leads north. Large spikes on both sides of the archway 
+have humanoid skulls impaled on them. A hooded lantern is mounted to the 
+west wall to provide light.
+~
+1 0 1
+D0
+~
+~
+0 -1 33268
+D2
+~
+~
+0 -1 33247
+S
+#33268
+Altar of Lloth~
+~
+The massive room seems to shimmer with an eerie glow.  There is a golden
+altar against the north wall, that is stained with thick dried blood now
+a black color.  There are humanoid skulls covering the entire ground.  A
+painting of a beautiful woman in a sheer gown is behind the altar.
+~
+1 1024 0
+D2
+~
+~
+0 -1 33267
+S
+#33269
+Within a Small House~
+~
+The dwelling appears to have been recently vacated.  There are no personal
+items still in place in the house.  A terrible smell fills the air from
+a heavy mold growth covering the walls.  There are various items of trash
+laying about on the ground.  A broken chair is against the wall.
+~
+1 4 1
+D0
+~
+door~
+1 -1 33246
+S
+#33270
+Within the Gate House~
+~
+&bThe walls of the gate house are smooth with no seams, and jet black in
+color.  There is a chandelier hanging from the ceiling made up of flesh
+and bones.  There are several kill ports in the entry wall for archers.
+A few oak high back chairs are against the walls.
+~
+1 4 1
+D1
+~
+door~
+3 -1 33271
+D2
+~
+~
+0 -1 33273
+D3
+~
+Double Doors~
+3 -1 33227
+R M 0 33214 1 33270
+R D 0 33270 1 1
+R D 0 33270 3 1
+S
+#33271
+The Barracks~
+~
+&bThe massive room is filled with beds.  Each bed has a foot locker that
+is underneath it.  A large fire place is at the north wall.  There is a
+cauldron setup within it.  A few hooded lanterns are mounted to the walls.
+The walls are jet black colored and smooth to touch.
+~
+1 4 1
+D2
+~
+door~
+1 -1 33272
+D3
+~
+door~
+3 -1 33270
+S
+#33272
+The Armory ~
+~
+&bThe room is filled with wooden racks that hold weapons and various types 
+of armor. The wall and floor are jet black in color, and are made out of 
+smooth stone. A few lanterns are mounted to the walls to provide lighting. 
+A large chest is against the south wall. 
+~
+1 4 1
+D0
+~
+door~
+1 -1 33271
+S
+#33273
+Sitting Room~
+~
+&bThere are oak high backed chairs scattered about the room. A few lavish 
+tapestries hang from the jet black walls. A chandelier made out of flesh 
+and bones hangs from the ceiling above to provide lighting. A small oak 
+table sits against the far wall. 
+~
+1 4 1
+D0
+~
+~
+0 -1 33270
+D4
+~
+~
+0 -1 33274
+S
+#33274
+Second Floor Entry~
+~
+&bThe walls are jet black in color with no seams in the stone. A large oak 
+bench is against the wall. There are hooded lanterns attached to the 
+walls. A strange shaped iron rack hangs from above. The iron rack has a 
+decomposing body strapped to it. 
+~
+1 4 1
+D1
+~
+~
+0 -1 33275
+D4
+~
+~
+0 -1 33278
+D5
+~
+~
+0 -1 33273
+S
+#33275
+The Dining Room~
+~
+&bThe jet black walls are almost completely covered by giant paintings
+depicting scenes of different battles.  A chandelier made out of flesh
+and bones hangs from the ceiling.  A large oak table, and several high
+backed chairs are centered in the room.
+~
+1 4 1
+D0
+~
+~
+0 -1 33276
+D3
+~
+~
+0 -1 33274
+S
+#33276
+The Kitchen~
+~
+&bThere are oak shelves on the walls, holding various types of cooking 
+equipment. A large fire place is against the north wall with a large 
+cauldron in it. Various spice jars, and ingredients are on a small table. 
+There are hooded lanterns mounted to the walls for lighting. 
+~
+1 4 1
+D2
+~
+~
+0 -1 33275
+D3
+~
+~
+0 -1 33277
+S
+#33277
+The Wine Cellar~
+~
+&bThere are piles of oak shelves lining the walls with various dusty wine 
+bottles in them. A small pantry shelf is against the west wall, to store 
+dried foods. There are hooded lanterns attached to the walls to provide 
+lighting. A small foot stool is beside the shelves. 
+~
+1 4 1
+D1
+~
+~
+0 -1 33276
+S
+#33278
+Third Floor Entry~
+~
+&bThe jet black stone walled room has a painting of Tanzean'al leading a 
+horde of demons in battle. There are hooded lanterns mounted to the walls 
+for lighting. A large table fashioned from human skulls is in the center 
+of the room. An oak high back chair is beside the table. 
+~
+1 4 1
+D0
+~
+~
+0 -1 33279
+D4
+~
+~
+0 -1 33282
+D5
+~
+~
+0 -1 33274
+S
+#33279
+The Meeting Room~
+~
+&bThe jet black walled room, has several tapestries hanging from it. The 
+save walls have hooded lanterns mounted to them to provide lighting. A 
+massive oak table is in the center of the room with oak high backed chairs 
+against it. A map of the continent displays the enemies position.
+~
+1 4 1
+D1
+~
+~
+0 -1 33280
+D2
+~
+~
+0 -1 33278
+S
+#33280
+Elite Barracks~
+~
+&bThe barracks walls are jet black in color, and smooth to the touch. 
+There are beds uniformly aligned throughout the room. Large foot lockers 
+are under each bed. A chandelier made out of flesh and bones hangs from 
+the ceiling. A large sign written in dark tongue is on the walls. 
+~
+1 4 1
+D2
+~
+~
+0 -1 33281
+D3
+~
+~
+0 -1 33279
+S
+#33281
+The Armory~
+~
+&bThe armory walls are jet black in color, and covered in oak wooden 
+shelves. There are weapon racks set up all along the floor, as well as 
+heavy oak chests. The wooden shelves hold various pieces of armor, and 
+equipment. A small bin is filled with dried food. A hooded lantern hangs 
+from the ceiling. 
+~
+1 4 1
+D0
+~
+~
+0 -1 33280
+S
+#33282
+Fourth Floor Entry~
+~
+&bThere are oak high backed chairs scattered about the room. A few lavish 
+tapestries hang from the jet black walls. A chandelier made out of flesh 
+and bones hangs from the ceiling above to provide lighting. A small oak 
+table sits against the far wall.
+~
+1 4 1
+D0
+~
+~
+0 -1 33283
+D1
+~
+door~
+1 -1 33285
+D4
+~
+~
+0 -1 33286
+D5
+~
+~
+0 -1 33278
+S
+#33283
+Hallway~
+~
+&bThe hallway has a series of humanoid skulls that hang from the top of 
+the jet black colored walls. There are hooded lanterns mounted to the 
+walls to provide lighting. A few tapestries hang from the walls. A small 
+table has a wash basin on it. 
+~
+1 4 1
+D1
+~
+door~
+1 -1 33284
+D2
+~
+~
+0 -1 33282
+S
+#33284
+Guest Bedroom~
+~
+&bThe circular room has a small bed against the far wall. There is a large 
+chest at the foot of the bed. There are small paintings hanging from the 
+walls. A few hooded lanterns are mounted on small wooden stands. 
+~
+1 4 1
+D3
+~
+door~
+1 -1 33283
+S
+#33285
+Guest Bedroom~
+~
+&bThe circular room has a small bed against the far wall. There is a large 
+chest at the foot of the bed. There are small paintings hanging from the 
+walls. A few hooded lanterns are mounted on small wooden stands. 
+~
+1 4 1
+D3
+~
+door~
+1 -1 33282
+S
+#33286
+Fifth Floor Entry~
+~
+&bA small but exquisite altar is against the east wall.  There are five
+humanoid skulls on a shelf above it, that has gold gilding on the edges.
+A dark black colored stain that is thick in substance is on the altar.
+There are torches mounted to the walls to provide lighting.
+~
+1 4 1
+D0
+~
+~
+0 -1 33287
+D1
+~
+door~
+1 -1 33289
+D4
+~
+~
+0 -1 33290
+D5
+~
+~
+0 -1 33282
+S
+#33287
+Hallway~
+~
+&bThe hallway has intricate stone carvings along the walls depicting 
+horrors that should have been forgotten. The ceiling is covered with long 
+spikes that have some crushed skulls stuck to them. The walls have torches 
+mounted to them to provide lighting. 
+~
+1 4 1
+D1
+~
+door~
+1 -1 33288
+D2
+~
+~
+0 -1 33286
+S
+#33288
+Master Bedroom~
+~
+&bThere are black suits of plate mail poised with swords at each corner of
+the room.  A large chandelier hangs from the ceiling to provide lighting
+over an enormous bed.  There are book shelves along the walls filled with
+arcane types of books.  A large blood red rug is centered over the floor.
+~
+1 4 1
+D3
+~
+door~
+1 -1 33287
+S
+#33289
+Guest Bedroom~
+~
+&bA hooded lantern is on top of a statue of a goblin holding the skull
+of a elf.  A small bed is against the far wall.  There is a dark blue
+rug centered in the floor.  A small table is next to the bed.
+~
+1 4 1
+D3
+~
+door~
+1 -1 33286
+S
+#33290
+Antechamber ~
+~
+&bThe room is filled with mystical objects, and a unknown presence.  A large
+hooded lantern is suspended from the ceiling.  There are several skeletons
+standing in the rooms like guards over this strange room.  A small fireplace 
+is against the far wall of the room.
+~
+1 4 1
+D0
+~
+~
+0 -1 33291
+D5
+~
+~
+0 -1 33286
+S
+#33291
+Observatory~
+~
+&bThe entire observatory is built to be used with a massive window. The 
+window is the size of a room wall, and magnifies images seen through it. 
+The entire Dakar Central can be viewed from the window. There are hooded 
+lanterns mounted to the walls to provide lighting. 
+~
+1 4 1
+D1
+~
+~
+0 -1 33292
+D2
+~
+~
+0 -1 33290
+E
+window~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+E
+gate~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped 
+around it. The size of the gate resembles the size of a large house. A 
+massive iron chain is connected to the gate. Large gears on a type of 
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+inner~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped
+around it. The size of the gate resembles the size of a large house. A
+massive iron chain is connected to the gate. Large gears on a type of
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+observatory~
+&RInside the Massive Gate
+&OThe gate is composed of large oak timbers that have iron bands wrapped
+around it. The size of the gate resembles the size of a large house. A
+massive iron chain is connected to the gate. Large gears on a type of
+machine with the iron chain connected to it, is to the right of the gate.
+&WExits east south west.
+~
+E
+dakar~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+E
+central~
+&RDakar Central
+&cThe intersection is the main crossing point for the city. There is a
+massive sign embedded in the ground here. A strange looking building is to 
+the southeast. There is a massive statue of a winged demonic beast that 
+sits upon a fountain of water here. A hooded lantern has been attached to 
+a large wooden pole behind the statue to provide lighting.
+&WExits north east south west.
+A marble water fountain is embedded in the ground here.
+~
+S
+#33292
+The Library~
+~
+&bThe walls are covered with book shelves. A large chandelier hangs from 
+the ceiling above to provide lighting. A large oak table and some chairs 
+have been setup in the center of the room. 
+~
+1 4 1
+D2
+~
+~
+0 -1 33293
+D3
+~
+~
+0 -1 33291
+S
+#33293
+The Study~
+~
+&bA massive room with thick red carpeting along the floor. There are 
+hooded lanterns mounted to the walls to provide lighting. A few exotic 
+paintings decorate the walls. There are some cushioned high backed chairs 
+along the walls of the room. 
+~
+1 4 1
+D0
+~
+~
+0 -1 33292
+S
+#33294
+The Training Centre~
+~
+The room is a vast circular shaped room.  There are large mats made out
+of straw on the floors.  A few racks of various types of weapons are
+along the walls.  There are torches mounted to the walls to provide the
+lighting.  A small sign is on the far wall.
+~
+1 4 1
+D1
+~
+~
+0 -1 33239
+R M 0 33212 1 33294
+S
+#33295
+Dead Goblin Tavern~
+~
+The tavern is filled with tables and chairs.  The floor is made out of
+solid cobblestones.  There are shelves of various liquors behind the
+oak bar table in the rear of the tavern.  Plaques to very important now
+dead goblins are hanging on the walls.
+~
+1 4 0
+D0
+~
+door~
+3 -1 33252
+R M 0 33213 1 33295
+R D 0 33295 0 1
+S
+#33296
+Altar to Lloth~
+~
+The massive room seems to shimmer with an eerie glow.  There is a golden
+altar against the north wall, that is stained with thick dried blood now
+a black color.  There are humanoid skulls covering the entire ground.  A
+painting of a beautiful woman in a sheer gown is behind the altar.
+~
+1 1028 1
+D2
+~
+~
+0 -1 33267
+S
+#33297
+Altar to Lloth~
+~
+The massive room seems to shimmer with an eerie glow.  There is a golden
+altar against the north wall, that is stained with thick dried blood now
+a black color.  There are humanoid skulls covering the entire ground.  A
+painting of a beautiful woman in a sheer gown is behind the altar.
+~
+1 0 1
+D2
+~
+~
+0 -1 33267
+S
+#33298
+An Office~
+~
+&cA richly decorated office table and chair are set in a richly decorated 
+room. The fireplace in the west wall crackles loudly. There are a lot of 
+figurines scattered around the room, and a few maps tacked on the eastern 
+wall across from the fireplace. 
+~
+1 4 1
+D2
+~
+~
+3 -1 33252
+R M 0 33216 1 33298
+R D 0 33298 2 1
+S
+#33299
+Trade Skill Denizens~
+~
+The iron gate entrance to the facility expands on the vastness of the 
+building.  The floor is made up of long oak planks.  There are hooded
+lanterns hanging from the ceilings to provide lighting.  A small oak
+desk is in the center of this room.
+~
+1 4 1
+D0
+~
+~
+0 -1 33217
+D1
+~
+~
+0 -1 33300
+R M 0 33217 1 33299
+S
+#33300
+Crafted Item Shop~
+~
+There are shelves upon shelves of crafted items available for sale. A 
+large oak desk is at the rear of the shop with a high back chair behind 
+it. There is a dark red rug centered over the stone floor here. 
+~
+1 4 1
+D3
+~
+~
+0 -1 33299
+R M 0 33218 1 33300
+S
+#33301
+Floating in a void~
+~
+~
+1 4 1
+S
+#33302
+Floating in a void~
+~
+~
+1 4 1
+S
+#33303
+Floating in a void~
+~
+~
+1 4 1
+S
+#33304
+Floating in a void~
+~
+~
+1 4 1
+S
+#33305
+Floating in a void~
+~
+~
+1 4 1
+S
+#33306
+Floating in a void~
+~
+~
+1 4 1
+S
+#33307
+Floating in a void~
+~
+~
+1 4 1
+S
+#33308
+Floating in a void~
+~
+~
+1 4 1
+S
+#33309
+Floating in a void~
+~
+~
+1 4 1
+S
+#33310
+Floating in a void~
+~
+~
+1 4 1
+S
+#33311
+Floating in a void~
+~
+~
+1 4 1
+S
+#33312
+Floating in a void~
+~
+~
+1 4 1
+S
+#33313
+Floating in a void~
+~
+~
+1 4 1
+S
+#33314
+Floating in a void~
+~
+~
+1 4 1
+S
+#33315
+Floating in a void~
+~
+~
+1 4 1
+S
+#33316
+Floating in a void~
+~
+~
+1 4 1
+S
+#33317
+Floating in a void~
+~
+~
+1 4 1
+S
+#33318
+Floating in a void~
+~
+~
+1 4 1
+S
+#33319
+Floating in a void~
+~
+~
+1 4 1
+S
+#33320
+Floating in a void~
+~
+~
+1 4 1
+S
+#33321
+Floating in a void~
+~
+~
+1 4 1
+S
+#33322
+Floating in a void~
+~
+~
+1 4 1
+S
+#33323
+Floating in a void~
+~
+~
+1 4 1
+S
+#33324
+Floating in a void~
+~
+~
+1 4 1
+S
+#33325
+Floating in a void~
+~
+~
+1 4 1
+S
+#33326
+Floating in a void~
+~
+~
+1 4 1
+S
+#33327
+Floating in a void~
+~
+~
+1 4 1
+S
+#33328
+Floating in a void~
+~
+~
+1 4 1
+S
+#33329
+Floating in a void~
+~
+~
+1 4 1
+S
+#33330
+Floating in a void~
+~
+~
+1 4 1
+S
+#33331
+Floating in a void~
+~
+~
+1 4 1
+S
+#33332
+Floating in a void~
+~
+~
+1 4 1
+S
+#33400
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+ 33202    0  0  0  0  0   120  90         0 23    ; Gyakas, the animal trainer
+ 33204    0  0  0  0  0   120  90         0 23    ; Dralak of the Mystical Shop
+0
+
+
+#REPAIRS
+ 33206    0  0  0         100   1         0 23    ; Takarz, the blacksmith
+0
+
+
+#SPECIALS
+S
+
+
+#$

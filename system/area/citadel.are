@@ -1,0 +1,2843 @@
+#AREA        Citadel~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 50 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The tribal drums begin to beat in unison.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250010 0 999999127 999999192 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#950
+Leader Hakarr Orc~
+Tribe Leader Hakarr~
+An Orc Tribe Leader stands here giving orders.
+~
+~
+0
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+25 0 0 2d10+1500 2d1+4
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 33 1 3
+30 30 41 0 0 0 48 524290
+#951
+Leader Paga Orc~
+Tribe Leader Paga~
+An Orc Tribe Leader is giving orders here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+25 0 0 2d10+1500 2d1+4
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 33 1 2
+0 0 41 0 0 0 48 524290
+> time_prog 6~
+yell Death to all invaders of the Citadel!
+~
+|
+#953
+Leader Torka Orc~
+Tribe Leader Torka~
+An Orc Tribe Leader is giving orders here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+25 0 0 2d10+1500 2d1+4
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 33 1 2
+0 0 41 0 0 0 48 524290
+#954
+Leader Ukaow Orc~
+Tribe Leader Ukaow~
+An Orc Tribe Leader is giving orders here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+25 0 0 2d10+1500 2d1+4
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 33 1 2
+0 0 41 0 0 0 48 524290
+#955
+Orc Scout TouFa~
+Orc Scout TouFa~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+> fight_prog 100~
+if quest(Tarane) == 14
+  yell Take the wench then!! It will be on your death!
+  dismiss jenna
+  mpforce Jenna follow $n
+  mpforce $n group jenna
+  mpquest $n Tarane 15
+else
+  mppause 1
+endif
+~
+> all_greet_prog 100~
+if quest(Tarane) == 13
+  mpmload 981 1
+  mppause 5
+  c 'charm' female
+  mpquest $n Tarane 14
+else
+  mppause 2
+endif
+~
+> death_prog 100~
+if quest(Tarane) == 15
+  mpquest $n Tarane 16
+else
+  mppause 2
+endif
+~
+|
+#956
+Orc Scout Nadan~
+Orc Scout Nadan~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#957
+Orc Scout Dakan~
+Orc Scout Dakan~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#958
+Orc Scout Ukak~
+Orc Scout Ukak~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#959
+Orc Scout Faek~
+Orc Scout Faek~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#960
+Orc Scout Gorrg~
+Orc Scout Gorrg~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#961
+Orc Scout Houtz~
+Orc Scout Houtz~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#962
+Orc Scout Jgarg~
+Orc Scout Jgarg~
+An orc scout is surveying the area here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 -1000 C
+20 0 0 1d10+1000 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 1
+0 0 41 0 0 0 48 2
+#963
+Orc Warrior Vork~
+Orc Warrior Vork~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#964
+Glarn~
+Orc Warrior Glarn~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#965
+Orc Warrior Aarat~
+Orc Warrior Aarat~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#966
+Orc Warrior Vaeka~
+Orc Warrior Vaeka~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#967
+Orc Warrior Gragask~
+Orc Warrior Gragask~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#968
+Orc Warrior Mannon~
+Orc Warrior Mannon~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#969
+Orc Warrior Torin~
+Orc Warrior Torin~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#970
+Orc Warrior Agamenon~
+Orc Warrior Agamenon~
+An orc warrior stands at the ready here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 -1000 C
+22 0 0 2d10+1000 1d2+2
+0 0 0 0 0 
+0
+115 115 1
+17 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 32 1 0
+0 0 41 0 0 0 48 2
+#971
+Orc Elite Guard Magaar~
+Orc Elite Guard Magaar~
+An orc elite guard marches through here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 0 -1000 C
+25 0 0 1d1+650 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+> time_prog 7~
+yell Make way for the Citadel Guard!
+s
+s
+w
+~
+> time_prog 19~
+yell Make way for the Citadel Guard!
+e
+n
+n
+~
+|
+#972
+Orc Elite Guard Waena~
+Orc Elite Guard Waena~
+An orc elite guard marches through here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 0 -1000 C
+25 0 0 1d1+650 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+> time_prog 7~
+mppause 5
+yell All infidels will be slain!
+s
+s
+e
+~
+> time_prog 19~
+mppause 8
+yell All in my way shall meet the sharp end of my sword!
+w
+n
+n
+~
+|
+#973
+drow sorceror Klarae~
+Sorceror Klarae~
+A drow sorceror in long black robes stands here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 71303168 -1000 C
+50 0 0 3d10+3500 2d2+6
+0 0 0 0 0 
+0
+115 115 1
+13 25 13 13 13 13 13
+0 0 0 0 0
+10 2 0 0 1 1 2
+40 50 9 0 0 0 1979973632 2626
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CSorceror Klarae says, 'Greetings $n...'&D
+mppause 7
+mpechoat $n &CSorceror Klarae says, 'The Orcs are in quite a disarray because of you.'&D
+mppause 8
+mpechoat $n &CSorceror Klarae says, 'They have hired my services, but I have been insulted here...'&D
+mppause 6
+mpechoat $n &CSorceror Klarae says, 'Bring me the Captain of the Guard's corpse, and I will greatly reward thee.'&D
+mppause 8
+mpechoat $n &CSorceror Klarae says, 'He is in the Study to the south.'&D
+~
+> act_prog p gives you the corpse of Captain Dlhara.~
+if iscarrying($n) == 958
+  mppause 4
+  look $n
+  mppause 3
+  mpechoat $n &CSorceror Klarae says, 'You already possess the amulet.'&D
+else
+  mpoload 958 40
+  get amulet
+  mppause 3
+  look $n
+  mppause 4
+  mpechoat $n &CSorceror Klarae says, 'Here is your reward.'&D
+  give amulet $n
+  mpat 4 drop amulet
+  mpat 4 drop corpse
+endif
+~
+|
+#974
+Orc Captain Dlhara~
+Captain Dlhara~
+An orc captain in black plate mail stands here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 5242880 -1000 C
+55 0 0 3d20+4000 1d4+5
+0 0 0 0 0 
+0
+115 115 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 33 1 2
+20 0 105 0 0 0 304 524289
+> death_prog 100~
+if quest(antidote) == 3
+  mpoload 965 1
+  get blood
+  mpquest $n antidote 4
+endif
+~
+|
+#975
+Lord Human Shaman Dkarhaf~
+Lord Dkarhaf~
+A human dressed in an elegant dark green robe is here.
+~
+~
+0
+Clanname none~
+0
+0
+131107&4 4194304 -1000 C
+60 0 0 1d1+5000 8d1+4
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+40 40 41 0 0 0 211812352 258
+> death_prog 100~
+if quest(Michael) == 4
+  mpquest $n Michael 5
+else
+  mppause 3
+endif
+~
+|
+#976
+Orc Elite Guard Tukar~
+Orc Elite Guard Tukar~
+An elite orc guard is making his rounds here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 0 -1000 C
+40 0 0 3d20+1800 1d3+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 2
+20 0 41 0 0 0 48 524290
+> time_prog 12~
+u
+u
+u
+u
+emote looks at each cell to make sure they are secure.
+open n
+n
+close s
+~
+> time_prog 24~
+open s
+s
+close n
+emote looks at each cell to make sure they are secure.
+d
+d
+d
+d
+~
+|
+#977
+Orc Elite Guard Danad~
+Orc Elite Guard Danad~
+An elite orc guard is making his rounds here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 0 -1000 C
+40 0 0 3d20+1800 1d3+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 2
+20 0 41 0 0 0 48 524290
+> time_prog 14~
+e
+s
+open e
+e
+emote scans the area.
+w
+close e
+n
+w
+s
+d
+s
+s
+e
+~
+> time_prog 2~
+w
+n
+n
+u
+n
+~
+|
+#978
+Shade Slave Yarko~
+Shade Slave Yarko~
+A shade creature hovers above the ground here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 -1000 C
+60 0 0 1d1+6000 2d2+4
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+8 3 0 0 1 1 3
+30 0 0 0 0 0 134223872 35842
+> act_prog p arrives from the west.~
+mppause 2
+mpechoat $n &CSlave Yarko says, 'You there...please...I'm in need of help.'&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'Would you be willing to help me?'&D
+mpechoat $n &cType &WSAY YES&c to accept the job.&D
+~
+> act_prog p flies in from the west.~
+mppause 2
+mpechoat $n &CSlave Yarko says, 'You there...please...I'm in need of help.'&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'Would you be willing to help me?'&D
+mpechoat $n &cType &WSAY YES&c to accept the job.&D
+~
+> act_prog p floats in from the west.~
+mppause 2
+mpechoat $n &CSlave Yarko says, 'You there...please...I'm in need of help.'&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'Would you be willing to help me?'&D
+mpechoat $n &cType &WSAY YES&c to accept the job.&D
+~
+> speech_prog yes~
+mppause 3
+mpechoat $n &CSlave Yarko says, 'Thanks, the evil shaman ruler here has imprisoned my soul.'&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'I must do what he bids, unless my soul is freed.'&D
+mppause 6
+mpechoat $n &CSlave Yarko says, 'There are 2 pieces of an amulet in the citadel, that must be joined...'&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'Connect the 2 pieces, and return the whole amulet to me, I will reward you.'&D
+~
+> act_prog p gives you an amulet soul.~
+mppause 5
+mpechoat $n &cSlave Yarko's eyes suddenly light on fire with a hunger.&D
+mppause 8
+mpechoat $n &CSlave Yarko says, 'Here is your reward.'&D
+mpoload 964 30
+get mask
+mppause 5
+give mask $n
+mpat 4 drop amulet
+~
+|
+#979
+Human prisoner Kana~
+Kana, the prisoner~
+A half-naked human prisoner is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 1000 C
+30 0 0 1d1+2000 1d1+4
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+10 0 41 0 0 0 48 2
+> act_prog p arrives from the east.~
+mppause 3
+mpechoat $n &CKana says, 'Please help!'&D
+mppause 8
+mpechoat $n &CKana says, 'Will you help me escape this place?'&D
+mpechoat $n &cType &WSAY YES&c to continue.&D
+~
+> act_prog p flies in from the east.~
+mppause 3
+mpechoat $n &CKana says, 'Please help!'&D
+mppause 8
+mpechoat $n &CKana says, 'Will you help me escape this place?'&D
+mpechoat $n &cType &WSAY YES&c to continue.&D
+~
+> act_prog p floats in from the east.~
+mppause 3
+mpechoat $n &CKana says, 'Please help!'&D
+mppause 8
+mpechoat $n &CKana says, 'Will you help me escape this place?'&D
+mpechoat $n &cType &WSAY YES&c to continue.&D
+~
+> speech_prog yes~
+mppause 2
+mpechoat $n &CKana says, 'Thank you.'&D
+mppause 6
+mpechoat $n &CKana says, 'You will have to lead the way out of the Citadel.'&D
+mppause 8
+mpechoat $n &CKana says, 'I will follow you, and reward you if we make it out.'&D
+mppause 6
+follow $n
+~
+> death_prog 100~
+mpoload 962 1
+get amulet
+~
+|
+#980
+invisble being~
+An invisible being~
+An invisible being is here to do devious things.
+~
+~
+0
+Clanname none~
+0
+0
+75628547 4292610 0 C
+101 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+  mpdonothing
+else
+  mppause 2
+  mpslay kana
+endif
+~
+|
+#981
+human female prisoner Jenna~
+Jenna~
+A female human prisoner is tied up here.
+~
+~
+0
+Clanname none~
+0
+0
+84019201&32 4194304 1000 C
+1 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#982
+messenger~
+a messenger~
+A messenger is attempting to hide here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 41 0 0 0 0 0
+> death_prog 100~
+mpquest $n throng 4
+~
+|
+#1100
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#950
+black studded leather vest~
+a black studded leather vest~
+A black studded leather vest has been left here.~
+~
+9 0 9
+10 10 0 0 0 15 0
+8 25 2
+3
+7
+0
+0
+0
+0
+S 77 0
+#951
+black studded leather trousers~
+a pair of black studded leather trousers~
+A pair of black studded leather trousers has been left here.~
+~
+9 0 33
+10 10 0 0 0 15 0
+1 25 2
+3
+7
+0
+0
+0
+0
+S 77 0
+#952
+buckler shield~
+a black dyed buckler shield~
+A black dyed buckler shield has been left here.~
+~
+9 0 513
+10 10 0 0 0 15 0
+2 1 0
+2
+7
+0
+0
+0
+0
+S 77 0
+#953
+black sash~
+a black sash~
+A black sash has been left here.~
+~
+9 0 2049
+10 10 0 0 0 15 0
+1 5 0
+1
+7
+0
+0
+0
+0
+S 77 0
+A
+1 2
+#954
+battle axe~
+a blackened battle axe~
+A blackened battle axe has been left here.~
+~
+5 0 8193
+10 5 15 3 9 15 0
+3 20 2
+3
+7
+0
+0
+0
+0
+S 4 0
+#955
+short sword~
+a blackened short sword~
+A blackened short sword has been left here.~
+~
+5 0 8193
+10 5 15 1 1 15 0
+2 1 0
+2
+7
+0
+0
+0
+0
+S 4 0
+#956
+blackened bastard sword~
+a blackened bastard sword~
+A blackened bastard sword lies here.~
+~
+5 0 8193
+12 10 20 1 1 20 0
+10 10 1
+2
+7
+0
+0
+0
+0
+S 4 0
+#957
+suit black plate mail~
+a suit of black plate mail~
+A suit of black plate mail lies here.~
+~
+9 0 9
+35 35 0 0 0 40 0
+20 5 0
+1
+7
+0
+0
+0
+0
+S 4 0
+A
+19 2
+A
+26 1048576
+#958
+amulet magi~
+amulet of the magi~
+A beautiful amulet whose gem pieces changes colors lies here.~
+~
+9 64 5
+35 35 0 0 0 40 0
+1 10 1
+1
+12
+0
+0
+0
+0
+S 77 0
+A
+3 2
+A
+4 2
+A
+12 200
+#959
+rod ruling~
+rod of ruling~
+A silver tipped oak rod has been left here.~
+~
+3 0 16385
+38 1 1 -1 11 50 0
+5 5 0
+1
+1
+0
+0
+0
+0
+'NONE'
+S 4 0
+A
+25 2
+#960
+chair~
+a high backed padded chair~
+A high backed padded oak chair is here.~
+~
+12 0 0
+8 5000 1 200 200 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 77 0
+#961
+left half amulet~
+the left half of a broken amulet~
+The left half of a broken amulet has been left here.~
+~
+54 0 5
+962 0 963 0 0 1 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 4 0
+#962
+right half amulet~
+the right half of a broken amulet~
+A right half of a broken amulet has been left here.~
+~
+54 0 5
+961 0 963 0 0 1 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 4 0
+#963
+amulet soul~
+an amulet soul~
+A beautiful amulet is laying here.~
+~
+9 0 5
+2 2 0 0 0 1 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 77 0
+#964
+mask deception~
+the mask of deception~
+A strange looking mask has been left here.~
+~
+9 524288 1048577
+30 30 0 0 0 30 0
+4 5000 10
+2
+3
+0
+0
+0
+0
+S 77 0
+A
+26 524288
+A
+26 8
+A
+26 32
+A
+25 5
+A
+19 5
+A
+18 5
+#965
+blood orc captain~
+blood of the orc captain~
+The blood of the orc captain lies here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+3
+0
+0
+0
+0
+S 4 0
+#1100
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#0
+
+
+#ROOMS
+#950
+Tribe Shanke~
+~
+&gA few large tents cover this hill side, and a massive camp fire is in the
+center of the location.  A few boulders are set up as fortifications 
+along the sides.  A large pot hangs over the camp fire.
+~
+1 0 1
+D0
+~
+~
+0 -1 984
+D1
+~
+~
+0 -1 951
+R M 0 951 1 950
+  R E 1 950 1 5
+  R E 1 955 1 16
+  R E 1 953 1 13
+  R E 1 952 1 11
+  R E 1 951 1 7
+R M 0 955 1 950
+  R E 1 951 1 7
+  R E 1 952 1 11
+  R E 1 954 1 16
+  R E 1 950 1 5
+R M 0 956 1 950
+  R E 1 952 1 11
+  R E 1 951 1 7
+  R E 1 954 1 16
+  R E 1 950 1 5
+R M 0 965 1 950
+  R E 1 951 1 7
+  R E 1 952 1 11
+  R E 1 954 1 16
+  R E 1 950 1 5
+R M 0 966 1 950
+  R E 1 950 1 5
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 952 1 11
+S
+#951
+Along a Trail~
+~
+&gThe trail comes out of the weeds, and grass and leads up a hill to the
+west.  A few large boulders are on either side of the trail leading
+up the hill.  A few humanoid bones litter the path.
+~
+1 0 1
+D0
+~
+~
+0 -1 985
+D1
+~
+~
+0 -1 952
+D3
+~
+~
+0 -1 950
+S
+#952
+Next to a Stump~
+~
+&gThe path comes to a massive oak stump, that has been cut out in the shape
+of a chair.  A large bee nest is above in another oak tree.  The path is 
+littered with tracks from various creatures.
+~
+1 0 1
+D1
+~
+~
+0 -1 953
+D2
+~
+~
+0 -1 988
+D3
+~
+~
+0 -1 951
+S
+#953
+A Weed filled Trail~
+~
+&gHigh grass fills the area to the south.  The grass has become weed filled
+at this point in the trail.  Several large pine trees are to the north.
+A few ruts in the path have caused some mud holes.
+~
+1 0 1
+D1
+~
+~
+0 -1 954
+D3
+~
+~
+0 -1 952
+D7
+~
+~
+0 -1 986
+S
+#954
+At a Slight Elevation~
+~
+The grass ends at the higher elevation here.  A large trail leads into 
+the grass.  Large cat tail weeds sprout out along the northern side.
+Several small bones litter the ground.
+~
+1 0 1
+D0
+~
+~
+0 -1 989
+D1
+~
+~
+0 -1 955
+D3
+~
+~
+0 -1 953
+S
+#955
+Along a Hillside~
+~
+The ground has become very muddy along this hillside.  There are various
+thick foliage on both sides of the trail from conifer trees.  The ground
+has large ruts in them where some type of wagon has been brought through.
+~
+1 0 1
+D1
+~
+~
+0 -1 956
+D3
+~
+~
+0 -1 954
+S
+#956
+Beside a Fallen Tree~
+~
+A massive oak tree has fallen partially into the trail.  There are
+some strange tracks in the ground.  Large prickly bushes are along 
+the south side of the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 957
+D3
+~
+~
+0 -1 955
+S
+#957
+The Trail Widens~
+~
+The muddy trail widens to twice it's normal size.  There are a few large 
+stones scattered about the mud.  Thick foliage is to the south.  A few 
+chopped up trees are to the north.
+~
+1 0 1
+D1
+~
+~
+0 -1 958
+D3
+~
+~
+0 -1 956
+S
+#958
+Kahaar Tribe~
+~
+The trail suddenly ends at a small clearing where there are several
+tents put up.  A large campfire is at the center of the clearing.  Large 
+boulders have been stacked to form small walls.
+~
+1 0 1
+D0
+~
+~
+0 -1 959
+D3
+~
+~
+0 -1 957
+R M 0 950 1 958
+  R E 1 952 1 11
+  R E 1 950 1 5
+  R E 1 951 1 7
+  R E 1 953 1 13
+  R E 1 955 1 16
+R M 0 957 1 958
+  R E 1 954 1 16
+  R E 1 952 1 11
+  R E 1 950 1 5
+  R E 1 951 1 7
+R M 0 958 1 958
+  R E 1 954 1 16
+  R E 1 952 1 11
+  R E 1 950 1 5
+  R E 1 951 1 7
+R M 0 963 1 958
+  R E 1 954 1 16
+  R E 1 952 1 11
+  R E 1 950 1 5
+  R E 1 951 1 7
+R M 0 964 1 958
+  R E 1 952 1 11
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 950 1 5
+S
+#959
+On a Wide Path~
+~
+The pathway leads north and south here.  A small clearing is to the 
+south.  There is intensely thick foliage on both sides of the trail.
+A few scattered bones can be found on the trail.
+~
+1 0 1
+D0
+~
+~
+0 -1 960
+D2
+~
+~
+0 -1 958
+S
+#960
+Before a Small Creek~
+~
+A small creek of cold water runs across the pathway here.  There are
+gravel stones that cover the bottom of the creek.  Several large trees
+are to the east.  High grass is to the west.
+~
+1 0 1
+D0
+~
+~
+0 -1 961
+D2
+~
+~
+0 -1 959
+S
+#961
+Within Thick Thorn Bushes~
+~
+A small creek is to the south.  The pathway here is covered with
+thick thorn brushes that meld into a series of trees to the east.
+A large boulder is to the west of the trail here.
+~
+1 0 1
+D0
+~
+~
+0 -1 962
+D2
+~
+~
+0 -1 960
+S
+#962
+A Small Clearing~
+~
+The thick brushes to the south open up to a small clearing here.  The
+pathway is covered by large muddy ruts.  A few large rocks are along
+the side of the pathway.  Several large oak trees line the trail.
+~
+1 0 1
+D0
+~
+~
+0 -1 963
+D2
+~
+~
+0 -1 961
+S
+#963
+Along a Winding Trail~
+~
+The trail enters some tall grass, and begins to wind around some large
+oak trees.  There is heavy foliage to the east and west of the trail.
+Various animal tracks are scattered about on the trail.
+~
+1 0 1
+D0
+~
+~
+0 -1 964
+D2
+~
+~
+0 -1 962
+S
+#964
+An Abandoned Camp Site~
+~
+The trail comes next to a set of medium sized rocks that are wrapped
+around the remains of a camp fire.  There are several large trees that
+hang over the camp fire site.
+~
+1 0 1
+D0
+~
+~
+0 -1 965
+D2
+~
+~
+0 -1 963
+S
+#965
+The Trail Ends At a Clearing~
+~
+A large clearing encompasses this area.  There are various tracks of 
+strange creatures on the ground.  A massive collection of pine trees
+fills the area to the west.  A few small fruit trees are to the east.
+~
+1 0 1
+D0
+~
+~
+0 -1 966
+D2
+~
+~
+0 -1 964
+S
+#966
+In the Tall Grass~
+~
+The trail is totally encompassed in tall grass.  The grass is taller then
+some small trees, and so thick visibility is limited.  There are small
+rocks that lay scattered about the trail.
+~
+1 0 1
+D0
+~
+~
+0 -1 967
+D2
+~
+~
+0 -1 965
+S
+#967
+Gargor Tribe~
+~
+The trail ends at a small camp.  There are several large tents setup.
+A massive campfire is by a large tent in the center.  There are some
+trees that have been felled to create makeshift walls around the area.
+~
+1 0 1
+D2
+~
+~
+0 -1 966
+D3
+~
+~
+0 -1 968
+R M 0 954 1 967
+  R E 1 951 1 7
+  R E 1 953 1 13
+  R E 1 955 1 16
+  R E 1 950 1 5
+  R E 1 952 1 11
+R M 0 959 1 967
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 950 1 5
+  R E 1 952 1 11
+R M 0 960 1 967
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 950 1 5
+  R E 1 952 1 11
+R M 0 969 1 967
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 950 1 5
+  R E 1 952 1 11
+R M 0 970 1 967
+  R E 1 954 1 16
+  R E 1 951 1 7
+  R E 1 950 1 5
+  R E 1 952 1 11
+S
+#968
+The Trail Ends~
+~
+There are several felled trees to the east as the trail comes to an
+abrupt end.  The foliage to the north is thick with high grass, and
+various trees.  Large pine trees crowd the south side of the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 967
+D3
+~
+~
+0 -1 969
+S
+#969
+A Trail Littered with Small Bones~
+~
+The trail fades from view intermingled with some thick weeds.  The ground
+has piles of various humanoid bones scattered about it.  Some of the
+bones are complete humanoid skeletons.
+~
+1 0 1
+D1
+~
+~
+0 -1 968
+D3
+~
+~
+0 -1 970
+S
+#970
+The Pathway begins to Twist~
+~
+The small trail twists to the north and south slightly here.  There
+are large pine trees to the north of the trail.  Thick brush, and small
+trees fill the area to the south.
+~
+1 0 1
+D1
+~
+~
+0 -1 969
+D3
+~
+~
+0 -1 971
+S
+#971
+Next to Some Felled Trees~
+~
+The trail somewhat wider here has felled criss crossed trees to the 
+south.  A stone citadel top protrudes slightly above the tree tops to
+the south.  Large pine trees are to the north.
+~
+1 0 1
+D1
+~
+~
+0 -1 970
+D3
+~
+~
+0 -1 972
+S
+#972
+An Abandoned Post~
+~
+A narrow pathway leads to an abandoned post just south of the trail.
+The post appears to be nothing more then rotting wood.  There is high
+grass that has surrounds the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 971
+D3
+~
+~
+0 -1 973
+S
+#973
+Within the High Grass~
+~
+Very high grass is along both sides of the trail, and small patches of
+it has entered the trail.  The pine trees to the south have been blazed
+by some type of tool to mark them.
+~
+1 0 1
+D1
+~
+~
+0 -1 972
+D3
+~
+~
+0 -1 974
+S
+#974
+Beside a Cherry Tree~
+~
+A massive cherry tree to the north of the trail appears to be halfway
+dead.  There are pine trees that surround the misplaced cherry tree.  The 
+trail has several strange tracks along it.
+~
+1 0 1
+D1
+~
+~
+0 -1 973
+D3
+~
+~
+0 -1 975
+S
+#975
+On a Rut Filled Trail~
+~
+A series of felled trees is to the west, almost blocking the trail.  The
+trail is filled with a series of large ruts, and some wheel tracks.  There
+are several large pine trees that fill the sides of the trail.
+~
+1 0 1
+D1
+~
+~
+0 -1 974
+D3
+~
+~
+0 -1 976
+S
+#976
+Charka Tribe~
+~
+This small hilltop has a series of large tents set up throughout it.  There
+are some felled trees that fortify the entrance into the camp.  A large 
+camp fire is at the center of the camp.
+~
+1 0 1
+D1
+~
+~
+0 -1 975
+D2
+~
+~
+0 -1 977
+R M 0 953 1 976
+  R E 1 951 1 7
+  R E 1 952 1 11
+  R E 1 950 1 5
+  R E 1 953 1 13
+  R E 1 955 1 16
+R M 0 961 1 976
+  R E 1 954 1 16
+  R E 1 952 1 11
+  R E 1 951 1 7
+  R E 1 950 1 5
+R M 0 962 1 976
+  R E 1 954 1 16
+  R E 1 950 1 5
+  R E 1 952 1 11
+  R E 1 951 1 7
+R M 0 967 1 976
+  R E 1 954 1 16
+  R E 1 950 1 5
+  R E 1 951 1 7
+  R E 1 952 1 11
+R M 0 968 1 976
+  R E 1 950 1 5
+  R E 1 952 1 11
+  R E 1 951 1 7
+  R E 1 954 1 16
+S
+#977
+The Pathway Ends~
+~
+The pathway seems to come to an end at a fortified hill to the north.  There
+is heavy foliage of all types to the west.  The east is filled with very tall 
+pine trees that line the pathway.
+~
+1 0 1
+D0
+~
+~
+0 -1 976
+D2
+~
+~
+0 -1 978
+S
+#978
+Next to a Field of Cat Tail Weeds~
+~
+The trail has a giant field of cat tail weeds to the west, the weeds stand
+very tall next to some pine trees.  There are some small humanoid bones
+that litter the trail here.
+~
+1 0 1
+D0
+~
+~
+0 -1 977
+D2
+~
+~
+0 -1 979
+S
+#979
+A Small Clearing~
+~
+There is a mass of flowers to the south.  A small clearing opens up the
+trail on both sides.  There is high grass to the west of the clearing.
+Strange tracks litter the clearing.
+~
+1 0 1
+D0
+~
+~
+0 -1 978
+D2
+~
+~
+0 -1 980
+S
+#980
+Amongst Some Wild Flowers~
+~
+There is an abundance of wild flowers that not only appear on both 
+sides of the trail, but also sporadically appear in the trail itself.
+There is thick foliage surrounding the flower boundries.
+~
+1 0 1
+D0
+~
+~
+0 -1 979
+D2
+~
+~
+0 -1 981
+S
+#981
+A Large Birch Tree~
+~
+A gigantic white birch tree edges into the pathway to the east.  There are
+many large pines trees that surround the birch.  Very thick foliage is 
+to the west.  Some small rocks protrude from the trail.
+~
+1 0 1
+D0
+~
+~
+0 -1 980
+D2
+~
+~
+0 -1 982
+S
+#982
+The Path Narrows~
+~
+The pathway narrows due to a cliff that edges it on the western side.
+There are small bushes that grow on the cliff side.  A series of large
+pine trees fill the eastern side of the pathway.
+~
+1 0 1
+D0
+~
+~
+0 -1 981
+D2
+~
+~
+0 -1 983
+S
+#983
+Beside Some Ant Hills~
+~
+Large sized ant hills line the western side of the trail, where the foliage
+is not as thick.  There are large pines trees to the east, just beyond a
+small swamp littered with boggs, and high grass.
+~
+1 0 1
+D0
+~
+~
+0 -1 982
+D2
+~
+~
+0 -1 984
+S
+#984
+On a Narrow Pathway~
+~
+The pathway narrows on both sides, and young trees encroach on both
+sides of the pathway.  There is a small path to the east.  Various
+strange tracks litter the gound.
+~
+1 0 1
+D0
+~
+~
+0 -1 983
+D1
+~
+~
+0 -1 985
+D2
+~
+~
+0 -1 950
+S
+#985
+Within the High Grass~
+~
+The small path leads to the west and south each uniting with a larger
+trail.  There are thick hard woods on either side of the pathway.
+Very high weeds fill the pathway.
+~
+1 0 1
+D2
+~
+~
+0 -1 951
+D3
+~
+~
+0 -1 984
+S
+#986
+In the High Grass~
+~
+&gGrass fills this area as tall as most men.  A small path has beaten down 
+the grass towards the northeast, and southwest.  A few bushes with strange
+looking berries on them grow to the left and right of the path.
+~
+1 0 11
+D3
+~
+~
+0 -1 987
+D8
+~
+~
+0 -1 953
+D11
+~
+~
+0 -1 42844
+S
+#987
+A Small Clearing~
+~
+&gHeavy foliage is to the south.  The clearing has been hacked out by some
+type of tools leaving cut down trees, and bushes.   There are various tracks 
+along the path that leads to the northeast.
+~
+1 0 1
+D1
+~
+~
+0 -1 986
+D3
+~
+~
+0 -1 988
+> entry_prog 100~
+if quest(throng) == 2
+mpmload 982
+mpecho &cYou notice a messenger trying to quickly hide behind a bush.
+mpquest $n throng 3
+endif
+~
+|
+S
+#988
+Within Some Thick Foliage~
+~
+&gA clearing is visible to the south.  The foliage is very heavy reducing
+visibility.  There is a mixture of small, and large trees throughout the
+area.  A small pathway leads to the north from here.
+~
+1 4 1
+D0
+~
+~
+0 -1 952
+D1
+~
+~
+0 -1 987
+S
+#989
+Before a Massive Draw Bridge~
+~
+&OThe citadel is made out of large stone slabs that interlock.  The draw
+bridge is lowered, allowing entrance into the citadels gaping mouth.
+There are large chains that connect to the draw bridge pulley system.
+~
+1 0 1
+D0
+~
+~
+0 -1 990
+D1
+~
+~
+0 -1 991
+D2
+~
+~
+0 -1 954
+D3
+~
+~
+0 -1 995
+R M 0 980 1 989
+S
+#990
+Entry Room~
+~
+&zThe vast room is made out of thick slabs of interlocking stones.  There are
+torches that are mounted to the walls.  Several rich tapestries hang from
+the walls.  A well used thick blue rug is centered on the floor.
+~
+1 8 1
+D0
+~
+~
+0 -1 996
+D1
+~
+~
+0 -1 1000
+D2
+~
+~
+0 -1 989
+D3
+~
+~
+0 -1 998
+R M 0 971 1 990
+  R E 1 956 1 16
+R M 0 972 1 990
+  R E 1 956 1 16
+S
+#991
+Above a Dark Colored Moat~
+~
+&BThe water is very thick, and dark colored. There are strange objects 
+floating about in it. The Citadel walls are just to the north. The thick 
+oak drawbridge is just above. 
+~
+1 0 0
+D3
+~
+~
+0 -1 989
+D4
+~
+~
+0 -1 1025
+D5
+~
+~
+0 -1 992
+S
+#992
+Within the Dark Colored Moat~
+~
+&BThe water is thick like soup.  There are strange foreign objects that
+float about within it.  The north is the citadels stone slab walls, and
+they are covered by heavy mold.
+~
+1 8 8
+D3
+~
+~
+0 -1 993
+D4
+~
+~
+0 -1 991
+S
+#993
+Underneath the Draw Bridge~
+~
+&BA massive oak draw bridge is upward of here.  The water itself is filled
+with strange foriegn objects that float about.  The north is the citadels 
+stone slab walls covered by heavy mold.
+~
+1 8 8
+D1
+~
+~
+0 -1 992
+D3
+~
+~
+0 -1 994
+S
+#994
+Within the Dark Colored Moat~
+~
+&BThe water is thick with foriegn materials.  Some strange green weeds are
+along the ground.  The north is the citadels stone slab walls covered by
+heavy mold.  Strange objects float in the water.
+~
+1 8 8
+D1
+~
+~
+0 -1 993
+D4
+~
+~
+0 -1 995
+S
+#995
+Above a Dark Colored Moat~
+~
+~
+1 0 0
+D1
+~
+~
+0 -1 989
+D4
+~
+~
+0 -1 1022
+D5
+~
+~
+0 -1 994
+S
+#996
+The Ante Chamber~
+~
+&zThe chamber has intricate wood beams that support the interlocking
+stone slabs.  The wood beams join a trim piece at the ceiling.  There
+are some paintings hanging from the walls depicting major battle scenes.
+~
+1 8 1
+D0
+~
+~
+0 -1 997
+D2
+~
+~
+0 -1 990
+S
+#997
+The Stairwell~
+~
+&zThe room has a spiral staircase that has been made out of large slabs
+of solid stone.  There is an oak hand rail that is attached to the stair
+case.  Several beautiful tapestries hang on the walls here.
+~
+1 8 1
+D2
+~
+~
+0 -1 996
+D4
+~
+~
+0 -1 1002
+D5
+~
+Cellar Door~
+3 -1 5303
+R D 0 997 5 1
+R D 0 997 5 1
+R D 0 997 5 1
+S
+#998
+Dining Room~
+~
+&zThe room is large and rectangular shaped.  There several paintings 
+that line the east and west sides.  Giant tapestries hang from the 
+north and south walls.  Large torches are mounted to the walls.
+~
+1 8 1
+D0
+~
+~
+0 -1 999
+D1
+~
+~
+0 -1 990
+R O 0 960 1 998
+S
+#999
+Kitchen~
+~
+&zThe room has large oak cabinets that are attached to the walls.  A 
+large water basin is in the center of the room.  A small wine rack is
+on the north counter.  The floor is made out of stone slabs.
+~
+1 8 1
+D2
+~
+~
+0 -1 998
+S
+#1000
+A Massive Barracks~
+~
+&zThe room is made out of solid slab stones.  There is a large board
+against the south wall for messages.  There are many beds set up
+with small chests underneath each rack.  A large red rug is in the
+center of the room.
+~
+1 8 1
+D0
+~
+~
+0 -1 1001
+D3
+~
+~
+0 -1 990
+S
+#1001
+The Armory~
+~
+&zThe chamber has rows of locked weapon racks along the walls.  A
+large black rug is centered on the floor.  Several torches have been
+mounted to the walls.
+~
+1 8 1
+D2
+~
+~
+0 -1 1000
+S
+#1002
+The Second Floor Landing~
+~
+&zThe landing has a spiral stair case that has been made out of large
+slabs of stone leading down.  There is a thick red rug that is centered
+in the room.  Large torches are mounted to the walls, and beautiful oak
+wood trim edges the doorway to the north.
+~
+1 8 1
+D0
+~
+~
+0 -1 1003
+D5
+~
+~
+0 -1 997
+S
+#1003
+Reception Hall~
+~
+&zThe massive hall extends the length of the citadel.  There are beautiful
+paintings that decorate the walls.  A large oak table, and several chairs
+are set up on the east side of the room.  Torches are mounted to the walls.
+There is a massive stairway that leads upward here.
+~
+1 8 1
+D0
+~
+'double doors'~
+3 -1 1004
+D1
+~
+~
+0 -1 1008
+D2
+~
+~
+0 -1 1002
+D3
+~
+~
+0 -1 1006
+D4
+~
+~
+0 -1 1013
+R M 0 976 1 1003
+  R E 1 956 1 16
+R M 0 977 1 1003
+  R E 1 956 1 16
+R D 0 1003 0 1
+S
+#1004
+Throne Room~
+~
+&zThe massive room has beautiful tapestries, and paintings that hang
+from the walls.  There is a long thick red rug that lines the floor up
+to the throne itself.  Torches are mounted to the walls.
+~
+1 8 1
+D2
+~
+'double doors'~
+1 -1 1003
+D3
+~
+door~
+1 -1 1005
+R M 0 975 1 1004
+  R E 1 959 1 17
+  R E 1 961 1 3
+R D 0 1004 2 0
+R D 0 1004 3 0
+S
+#1005
+Master Bedroom~
+~
+&zThe chamber has oak wooden beams in the corners, which have been 
+engraved with various designs.  Blue and gold linens stretch across the
+walls to each wooden beam.  There is a gold rug in the floor center.
+A large bed with a massive chest underneath is against the north wall.
+~
+1 8 1
+D1
+~
+door~
+1 -1 1004
+S
+#1006
+The Library~
+~
+&zThe walls are lined with oak built in book shelves.  A thick green rug
+is centered on the floor.  Several small tables, and chairs are located in 
+the room.  A small ladder is attached to the shelves to allow access higher.
+~
+1 8 1
+D1
+~
+~
+0 -1 1003
+D2
+~
+~
+0 -1 1007
+R M 0 973 1 1006
+R O 0 960 1 1006
+S
+#1007
+The Study~
+~
+&zThe chamber walls have a varnished oak wood paneling around them.
+There are several padded high back chairs within the room.  Large 
+torches are mounted to the walls.  A beautiful tapestry hangs from 
+the south wall.  A green rug is centered on the floor.
+~
+1 8 1
+D0
+~
+~
+0 -1 1006
+R M 0 974 1 1007
+  R E 1 957 1 5
+  R E 1 956 1 16
+R O 0 960 1 1007
+S
+#1008
+Hallway~
+~
+&zThe hallway extends to the south.  The walls are made out of slabs of
+stone.  A soft red rug extends its length.  Several torches are mounted
+to the walls.  A large painting hangs from the wall.
+~
+1 8 1
+D1
+~
+~
+0 -1 1011
+D2
+~
+~
+0 -1 1009
+D3
+~
+~
+0 -1 1003
+R M 0 978 1 1008
+S
+#1009
+Hallway~
+~
+&zThe hallway extends to the north.  The walls are made out of slabs of
+stone.  A soft red rug extends its length.  Several torches are mounted 
+to the walls.  A massive tapestry is against the south wall.
+~
+1 8 1
+D0
+~
+~
+0 -1 1008
+D1
+~
+door~
+3 -1 1010
+S
+#1010
+Guest Room~
+~
+&zThe room has solid oak trimming around the corners, that has been
+connected with dark purple and red linen.  There is a purple rug in
+the center of the room.  A large chest is underneath the bed against
+the north wall.  A painting hangs from the south wall.
+~
+1 0 1
+D3
+~
+door~
+3 -1 1009
+S
+#1011
+Dining Room~
+~
+&zThe vast chamber is lined with chairs against the wall.  A massive table
+is in the center of the room.  There are torches that are mounted to the
+walls.  Various paintings decorate the walls.
+~
+1 0 1
+D0
+~
+~
+0 -1 1012
+D3
+~
+~
+0 -1 1008
+S
+#1012
+Kitchen~
+~
+&zThe east and north wall are lined with cabinets made out of oak wood.
+The west and south Walls are shelves that have been built into the walls.  
+There is a large water basin in the center of the room on a platform.
+~
+1 0 1
+D2
+~
+~
+0 -1 1011
+S
+#1013
+Along a Stairway~
+~
+&zThe stairwell is made up of large stone slabs.  There are torches 
+mounted to the walls.  A few old blood stains are on the walls.  A
+thick oak railing has been attached to the walls along the stairs.
+~
+1 8 1
+D4
+~
+~
+0 -1 1014
+D5
+~
+~
+0 -1 1003
+S
+#1014
+Midway in the Stairway~
+~
+&zThere is a window cut into the stone slabs at this point in the stairwell.
+Torches are mounted to the walls.  A thick oak railing has been attached 
+to the walls along the stairway.
+~
+1 8 1
+D4
+~
+~
+0 -1 1015
+D5
+~
+~
+0 -1 1013
+E
+window~
+&CThe blue sky beckons you, until you see the ground far below.
+~
+S
+#1015
+Top of the Stairway~
+~
+&zThere are gouges in the walls from some instrument here.  Torches have
+been mounted to the walls.  A thick oak railing has been attached to
+the walls and leads down the stairway.
+~
+1 8 1
+D4
+~
+~
+0 -1 1016
+D5
+~
+~
+0 -1 1014
+S
+#1016
+Obediance Hall~
+~
+&zThe massive hall has cells that line the east and west walls.  A 
+gigantic oak door is to the north.  There are torches that are mounted
+to the walls.  A large red rug is in the center of the hall.
+~
+1 8 1
+D0
+~
+door~
+3 -1 1019
+D1
+~
+'cell door'~
+1 -1 1018
+D3
+~
+'cell door'~
+1 -1 1017
+D5
+~
+~
+0 -1 1015
+S
+#1017
+Inside a Cell~
+~
+&zThe cell is made up of broken old stone slabs.  The cell door is made 
+up of iron bars.  There is no western wall, only a clear view of the sky.
+The ground is covered with various stains.
+~
+1 0 1
+D1
+~
+'cell door'~
+1 -1 1016
+D3
+~
+~
+0 -1 1020
+R M 0 979 1 1017
+R D 0 1017 1 0
+S
+#1018
+Inside a Cell~
+~
+&wThe cell is made up of broken old stone slabs.  There is blood smeared 
+on the iron bars of the cell door.  There is no eastern wall, only a 
+clear view of the sky.  The ground is covered in stains.
+~
+1 0 1
+D1
+~
+~
+0 -1 1023
+D3
+~
+'cell door'~
+1 -1 1016
+S
+#1019
+Torture Chamber~
+~
+&rThe walls are covered in dried blood. There are a multitude of torture 
+devices throughout the room. There are torches that are mounted to the 
+walls. The floor has leg chains attached to it. 
+~
+1 8 1
+D2
+~
+door~
+3 -1 1016
+S
+#1020
+Next to a Cell Without Walls~
+~
+&CA massive Citadel is to the east.  Nothing else is around, but air.
+The vast land below spreads across the horizon.  The city of Paleon
+is visible to the west.
+~
+1 16777216 1
+D1
+~
+~
+0 -1 1017
+D5
+~
+~
+0 -1 1021
+S
+#1021
+Next to the Citadel~
+~
+~
+1 16777216 1
+D4
+~
+~
+0 -1 1020
+D5
+~
+~
+0 -1 1022
+S
+#1022
+Next to the Citadel~
+~
+~
+1 16777216 1
+D4
+~
+~
+0 -1 1021
+D5
+~
+~
+0 -1 995
+S
+#1023
+Next to a Cell Without Walls~
+~
+&CA massive Citadel is to the west.  Nothing else is around, but air.
+The vast land below spreads across the horizon.  The city of Manoake
+is visible to the east.
+~
+1 16777216 1
+D3
+~
+~
+0 -1 1018
+D5
+~
+~
+0 -1 1024
+S
+#1024
+Next to the Citadel~
+~
+~
+1 16777216 1
+D4
+~
+~
+0 -1 1023
+D5
+~
+~
+0 -1 1025
+S
+#1025
+Next to the Citadel~
+~
+~
+1 16777216 1
+D4
+~
+~
+0 -1 1024
+D5
+~
+~
+0 -1 991
+S
+#1026
+Floating in a void~
+~
+~
+1 4 1
+S
+#1027
+Floating in a void~
+~
+~
+1 4 1
+S
+#1028
+Floating in a void~
+~
+~
+1 4 1
+S
+#1029
+Floating in a void~
+~
+~
+1 4 1
+S
+#1030
+Floating in a void~
+~
+~
+1 4 1
+S
+#1031
+Floating in a void~
+~
+~
+1 4 1
+S
+#1032
+Floating in a void~
+~
+~
+1 4 1
+S
+#1033
+Floating in a void~
+~
+~
+1 4 1
+S
+#1034
+Floating in a void~
+~
+~
+1 4 1
+S
+#1035
+Floating in a void~
+~
+~
+1 4 1
+S
+#1036
+Floating in a void~
+~
+~
+1 4 1
+S
+#1037
+Floating in a void~
+~
+~
+1 4 1
+S
+#1038
+Floating in a void~
+~
+~
+1 4 1
+S
+#1039
+Floating in a void~
+~
+~
+1 4 1
+S
+#1040
+Floating in a void~
+~
+~
+1 4 1
+S
+#1041
+Floating in a void~
+~
+~
+1 4 1
+S
+#1042
+Floating in a void~
+~
+~
+1 4 1
+S
+#1043
+Floating in a void~
+~
+~
+1 4 1
+S
+#1044
+Floating in a void~
+~
+~
+1 4 1
+S
+#1045
+Floating in a void~
+~
+~
+1 4 1
+S
+#1046
+Floating in a void~
+~
+~
+1 4 1
+S
+#1047
+Floating in a void~
+~
+~
+1 4 1
+S
+#1048
+Floating in a void~
+~
+~
+1 4 1
+S
+#1049
+Floating in a void~
+~
+~
+1 4 1
+S
+#1050
+Floating in a void~
+~
+~
+1 4 1
+S
+#1100
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

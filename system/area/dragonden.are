@@ -1,0 +1,1568 @@
+#AREA        Dragons Den~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 30 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cAn eerie chanting fills yours ears.&D~
+
+#FLAGS
+512
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#1950
+sacrificial young virgin~
+a sacrificial young virgin~
+A sacrificial young female virgin is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+1073741825 0 0 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CA sacrificial young woman shrieks, 'please save me!'
+~
+|
+#1951
+red dragon Tsaeth~
+Tsaeth~
+An adult red dragon is standing here.
+~
+The red dragon is enormous, with gem-like scales covering it's entire body.
+The teeth of the dragon could be used as swords.
+~
+3
+Clanname none~
+0
+0
+39 520 -1000 C
+24 -10 -10 1d50+1800 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 11 0 0 1 1 2
+0 0 361105 0 3073 2 0 0
+> fight_prog 30~
+if iswearing($n) == 1950
+mpecho An young adult red dragon roars!
+mppause 3
+mpecho &CTsaeth bellows, 'You will now feel my full fury!!'
+mppause 10
+mpecho &cTsaeth opens his jaws wide...
+mppause 10
+mpecho &WThe Frost Shield begins to glow absorbing the dragon's firey breath!
+else
+mpecho &cAn young adult red dragon roars!
+mppause 3
+breath $n aoe
+mppause 10
+tail $n
+mppause 20
+breath $n aoe
+mppause 20
+gut $n
+mppause 20
+mpecho &CTsaeth bellows, 'You will now feel my full fury!!'
+mppause 10
+mpecho &cTsaeth opens his jaws wide...
+mppause 20
+breath $n aoe
+endif
+~
+> death_prog 100~
+if quest(shield) == 4
+  mpquest $n shield 5
+endif
+if quest(falsegod) == 1
+  mpquest $n falsegod 2
+endif
+~
+|
+#1952
+devotee priestess~
+a devotee priestess~
+A devotee priestess is chanting here.
+~
+~
+3
+Clanname none~
+0
+0
+1 4194304 0 C
+20 0 0 1d20+500 1d4+8
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if htown($n) == Forbidden City
+  mpechoat $n &cA devotee priestess recognizes the power of the Dragon in you, and&D
+  mpechoat $n &ckneels in your presence.&D
+else
+  if ispc($n)
+    mpkill $n
+  endif
+endif
+~
+|
+#1953
+devotee priest~
+a devotee priest~
+A devotee priest is standing here.
+~
+~
+3
+Clanname none~
+0
+0
+1 4194304 0 C
+20 0 0 1d20+500 1d4+8
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if htown($n) == Forbidden City
+  mpechoat $n &cA devotee priest recognizes the power of the Dragon in you, and&D
+  mpechoat $n &ckneels in your presence.&D
+else
+  if ispc($n)
+    mpkill $n
+  endif
+endif
+~
+|
+#1954
+devotee acolyte~
+a devotee acolyte~
+A devotee acolyte is walking about with his eyes downcast.
+~
+~
+3
+Clanname none~
+0
+0
+1 4194304 0 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if htown($n) == Forbidden City
+  mpechoat $n &cA devotee acolyte recognizes the power of the Dragon in you, and&D
+  mpechoat $n &ckneels in your presence.&D
+else
+  if ispc($n)
+    mpkill $n
+  endif
+endif
+~
+|
+#1955
+orc devotee guard~
+Orc Devotee Guard~
+An orc devotee guard is standing here.
+~
+~
+11
+Clanname none~
+0
+0
+131107 0 -1000 C
+20 0 0 1d1+750 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+#1956
+orc devotee guard~
+Orc Devotee Guard~
+An orc devotee guard surveys the area here.
+~
+~
+13
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+20 0 0 1d1+750 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+#1957
+orc devotee guard~
+Orc Devotee Guard~
+An orc devotee guard stands his post here.
+~
+~
+13
+Clanname none~
+0
+0
+1073872931 0 -1000 C
+20 0 0 1d1+750 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+#1958
+orc devotee guard~
+Orc Devotee Guard~
+An orc devotee guard is patrolling here.
+~
+~
+11
+Clanname none~
+0
+0
+131107 0 -1000 C
+20 0 0 1d1+750 1d4+2
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+6 18 0 0 1 1 1
+0 0 41 0 0 0 48 1
+#1959
+acolyte devotee turncoat ~
+a devotee acolyte~
+A devotee acolyte is walking about with his eyes downcast.
+~
+~
+3
+Clanname none~
+0
+0
+1 4194304 0 C
+15 0 0 0d0+300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 3
+if htown($n) == Paleon City
+  if quest(shield) < 1 
+    mpechoat $n &WA devotee acolyte whispers, 'Over here please quickly!'
+    mppause 5
+    mpechoat $n &CA devotee acolyte says, 'What I'm about to tell you, I could die for.
+    mpechoat $n &CI was on my way to becoming a priest here.  Until today.  In my desire
+    mpechoat $n &Cto be closer to my God, I snuck through the false doors that lead into
+    mpechoat $n &Cthe altar.  I heard screaming, and continued onward to find a sacrificial
+    mpechoat $n &Croom.  There was a young lady being tied to a stake.  I heard an earth
+    mpechoat $n &Cshattering roar, and a red dragon entered the room.  I was shaking so
+    mpechoat $n &Chard I thought my heart stopped.  The dragon devoured the girl!'
+    mppause 20
+    mpat 4 look
+    mppause 20
+    mpat 4 look
+    mppause 20
+    mpechoat $n &CA devotee acolyte says, 'This may only be a legend, but the priests that 
+    mpechoat $n &Ctaught me had a snow flake medallion, and it is whispered that combined 
+    mpechoat $n &Cwith a dragon eye lens, and a hand strap, will create a legendary shield 
+    mpechoat $n &Cthat can withstand the dragon's fire!  Since I discovered this, I have
+    mpechoat $n &Cskipped study, and overheard some guards talking about how Throng mages
+    mpechoat $n &Cdrop off prey and treasure for the dragon in exchange for flights in 
+    mpechoat $n &Cbattle.  Are you interested in finding the shield?'
+    mpechoat $n &cType &WSAY SHIELD&c to accept the quest.
+  endif
+endif
+  if htown($n) == Forbidden City
+    if quest(falsegod) < 1
+      mpechoat $n &cA devotee acolyte recognizes the power of the Dragon in you, and
+      mpechoat $n &ckneels in your presence.
+      mppause 5
+      mpechoat $n &CA devotee acolyte says, 'Thank goodness you are here.  What I'm about
+      mpechoat $n &Cto tell you I could die for.  I seen a red dragon here, devour a human
+      mpechoat $n &Cwith priests being trained that the dragon is a god to be worshipped.
+      mpechoat $n &CThe dragon goes so far to assist Throng in their war efforts.  I fear
+      mpechoat $n &COnly one as mighty as you can put a stop to this!'
+      mpechoat $n &cType &WSAY IT ENDS NOW&c to accept the quest.
+    endif
+  endif
+if htown($n) == Dakar City
+  if quest(shield) < 1
+    mpechoat $n &WA devotee acolyte whispers, 'Over here quickly!  I have
+    mpechoat $n &Wvaluable news.  A story of great treasure if your interested.'
+    mppause 5
+    mpechoat $n &CMind you there is great risk involved for the treasure as it is
+    mpechoat $n &Ca dragon that has it.  However, one my teachers has a snow flake
+    mpechoat $n &Cmedallion.  It is whispered that the medallion combined with a
+    mpechoat $n &Ca dragon eye lens, and a hand strap will create a legendary shield
+    mpechoat $n &Cthat can withstand the dragon's fire!  Are you interested?'
+    mpechoat $n &cType &WSAY SHIELD&c to accept the quest.&D
+  endif
+endif
+~
+> speech_prog shield~
+if htown($n) == Dakar City
+  mpquest $n shield 1
+  mpechoat $n &CA devotee acolyte says, 'Go now before we are found!'
+endif
+if htown($n) == Paleon City
+  mpquest $n shield 1
+  mpechoat $n &CA devotee acolyte says, 'Go now before we are found!'
+endif
+~
+> speech_prog 'it ends now'~
+if htown($n) == Forbidden City
+  mpquest $n falsegod 1
+  mpechoat $n &CA devotee acolyte says, 'The Creator be with you!'
+endif
+~
+|
+#1960
+high priest Chaldra~
+High Priest Chaldra~
+The high priest is standing here.
+~
+~
+3
+Clanname none~
+0
+0
+1 0 0 C
+20 0 0 1d20+500 1d4+8
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if htown($n) == Forbidden City
+  mpechoat $n &cA devotee high priest recognizes the power of the Dragon in you, and&D
+  mpechoat $n &ckneels in your presence.&D
+else
+  if ispc($n)
+    mpkill $n
+  endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#1950
+frost shield jalzaar kite~
+the Frost Shield Jalzaar~
+A solid white kite shield has been left here.~
+~
+9 0 513
+20 20 0 0 0 20 0
+5 144 14
+3
+5
+0
+0
+0
+0
+S 0 0
+A
+26 268435456
+#1951
+red dragon orb~
+a red dragon orb~
+A large reddish orb draws your eye.~
+~
+4 64 16385
+40 8 8 -1 0 20 0
+8 10 1
+1
+3
+0
+0
+0
+0
+'fly'
+S 0 0
+A
+3 2
+A
+4 2
+#1952
+claw red~
+the enormous claw of a red dragon~
+On the floor rests the enormous claw of a red dragon.~
+~
+5 80 8193
+0 10 20 1 14 20 0
+19 180 18
+1
+3
+0
+0
+0
+0
+S 0 0
+E
+claw red redclaw~
+This big claw looks like a part of a dragon.
+~
+A
+19 5
+#1953
+armguards red arm~
+armguards of red dragonscale~
+On the ground are two armguards of red dragonscale.~
+~
+9 80 257
+20 20 0 0 0 20 0
+30 168 16
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1954
+rear claws red~
+the rear claws of a red dragon~
+The rear claws of a red dragon lay on the foor.~
+~
+9 80 65
+20 20 0 0 0 20 0
+40 189 18
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1955
+shield red~
+a shield of red dragonscale~
+A large shield of red dragonscale rests on the floor.~
+~
+9 80 513
+20 20 0 0 0 20 0
+10 191 19
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1956
+red dragonhelm helm~
+a red dragonhelm~
+A helmet fashioned into the likeness of a dragon skull is here.~
+~
+9 80 17
+20 20 0 0 0 20 0
+15 154 15
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1957
+fore red~
+the fore claws of a red dragon~
+A set of claws covered in red dragonscale lie here.~
+~
+9 80 129
+20 20 0 0 0 20 0
+6 163 16
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1958
+leggings red~
+leggings of red dragonscale~
+On the floor are two leggings of red dragonscale.~
+~
+9 80 33
+20 20 0 0 0 20 0
+17 150 15
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1959
+torso red~
+a torso of red dragonscale~
+A large pile of red dragonscale lies on the ground.~
+~
+9 80 9
+20 20 0 0 0 20 0
+40 206 20
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#1960
+acolyte novice robe~
+an acolyte novice robe~
+An acolyte novice robe has been left here.~
+~
+9 0 1025
+10 10 0 0 0 10 0
+1 75 7
+4
+3
+0
+0
+0
+0
+S 77 0
+A
+4 2
+#1961
+devotee priesthood robe~
+a devotee priesthood robe~
+A devotee priesthood robe has been left here.~
+~
+9 0 1025
+10 10 0 0 0 10 0
+1 127 12
+4
+3
+0
+0
+0
+0
+S 77 0
+A
+4 1
+A
+12 20
+#1962
+temple key~
+a temple key~
+A temple key has been left here.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#1963
+snow flake medallion~
+a snow flake medallion~
+A snow flake medallion has been left here.~
+~
+54 0 1
+1965 0 1966 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 77 0
+> get_prog 100~
+if quest(shield) == 1
+  mpquest $n shield 2
+endif
+~
+|
+#1964
+leather hand straps~
+a pair of sturdy leather hand straps~
+A pair of sturdy leather hand straps has been left here.~
+~
+54 0 1
+1966 0 1950 0 0 0 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(shield) == 3
+  mpquest $n shield 4
+endif
+~
+|
+#1965
+dragon eye lens~
+a dragon eye lens~
+A dragon eye lens has been left here.~
+~
+54 0 1
+0 1963 1966 0 0 0 0
+1 39 3
+4
+5
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+if quest(shield) == 2
+  mpquest $n shield 3
+endif
+~
+|
+#1966
+kite shield~
+a kite shield~
+A kite shield has been left here.~
+~
+54 0 0
+0 1964 1950 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+#1967
+harbringer battle axe~
+a harbringer battle axe~
+A harbringer battle axe has been left here.~
+~
+5 0 8193
+12 17 25 3 8 0 0
+4 100 10
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#0
+
+
+#ROOMS
+#1950
+Area Information Room~
+~
+This will be a replacement area for the sewer in Manoake that is terribly 
+designed and written, and a new place for the red dragon to reside. I will 
+attempt to spruce up Durdun as well so players have a reason to come here 
+other then just the explorer experience. 
+~
+1 4 1
+S
+#1951
+Under Ground Entrance ~
+~
+There are lavish looking tapestries hanging from the walls. The walls are 
+made out of interlocking bricks. A few hooded lanterns are mounted on the 
+walls.  There are ancient runes inscribed in the walls.
+~
+1 0 1
+D0
+~
+~
+0 -1 1975
+D1
+~
+~
+0 -1 1952
+D3
+~
+~
+0 -1 1981
+D4
+~
+~
+16777216 -1 18328
+S
+#1952
+A Passageway~
+~
+There is a long passage that has paintings hanging on the walls. The 
+paintings are pictures of surrounding country side. There are hooded 
+lanterns mounted to the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1953
+D3
+~
+~
+0 -1 1951
+S
+#1953
+Within the Passageway~
+~
+There are beautiful tapestries hanging from the walls here. A hooded 
+lantern hangs over the top of each tapestry. The walls are made out of 
+interlocking bricks. A pair of chairs are against the far wall. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1954
+D2
+~
+~
+0 -1 1952
+S
+#1954
+A Small Study~
+~
+The cozy study has several high backed chairs along the sides of the 
+walls. There is a small table setup in the center of the room. A few books 
+are scattered about on the table top. A hooded lantern hangs from the 
+ceiling above. There is a thick red rug centered on the floor.
+~
+1 0 1
+D1
+~
+~
+0 -1 1955
+D3
+~
+~
+0 -1 1953
+R M 0 1959 1 1954
+  R E 0 1960 1 12
+S
+#1955
+Library~
+~
+The walls are covered in shelves holding mostly religious types of books. 
+There are several small tables, and chairs setup throughout the library. A 
+few bins along the wall hold old maps. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1956
+D3
+~
+~
+0 -1 1954
+R M 0 1953 2 1955
+  R E 0 1961 1 12
+  R G 0 1963 1
+S
+#1956
+The Dining Hall~
+~
+There is a vast oak dining table that has a red fabric that is centered 
+down the middle of it. The dining table runs the length of the room. A 
+thick red rug is centered under the table. Hooded lanterns are suspended 
+above the table. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1955
+D2
+~
+~
+0 -1 1969
+D3
+~
+~
+0 -1 1957
+S
+#1957
+The Devotees Guard Station~
+~
+There are built up wooden fortifications in the room that have been dyed 
+black and have gold designs along them. There are hooded lanterns posted 
+above the entrances to the room. A barrel of supplies is behind the wooden 
+fortifications. A red rug is in the center of the room. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1956
+D2
+~
+~
+0 -1 1958
+R M 0 1956 1 1957
+  R E 0 1967 1 16
+R M 0 1957 1 1957
+  R E 0 1967 1 16
+S
+#1958
+Along the Hallway~
+~
+There are several tall black vases along the walls with intricate gold 
+designs on them. A red rug runs down the center of the hallway. The walls 
+are made out of interlocking bricks. There are hooded lanterns mounted 
+above each vase. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1957
+D2
+~
+~
+0 -1 1959
+S
+#1959
+A Long Stretch of Hallway~
+~
+This section of the hallway is longer then the others. There are paintings 
+along the walls depicting dragons in various locations. A hooded lantern 
+is mounted over the top of each painting. A red rug runs down the length 
+of the entire hallway.
+~
+1 0 1
+D0
+~
+~
+0 -1 1958
+D3
+~
+~
+0 -1 1960
+S
+#1960
+The Hallway Narrows~
+~
+The hall narrows significantly here due to marble pillars along both sides 
+of the hallway. There is a thick red rug that is centered along the length 
+of the floor. A pair of hooded lanterns are mounted to the walls. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1959
+D2
+~
+~
+0 -1 1961
+S
+#1961
+Along the Hallway~
+~
+There is a statue of priests kneeling in worship against the far wall. The 
+floor has a red rug that runs down the length of it. A hooded lantern is 
+mounted just above the statue. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1960
+D2
+~
+~
+0 -1 1962
+S
+#1962
+Within the Hallway~
+~
+A plush red rug is centered on the floor and runs the length of the 
+hallway. The walls are made out of interlocking bricks. There are hooded 
+lanterns mounted to the walls to provide lighting. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1961
+D3
+~
+~
+0 -1 1963
+S
+#1963
+Room of Mirrors~
+~
+This room has a series of mirrors all around it on the walls. There is a 
+small cushion in the center of the room. A small table in front of the 
+cushion has incense burning in a bronze bowel. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1964
+D1
+~
+~
+0 -1 1962
+R M 0 1958 4 1963
+  R E 0 1967 1 16
+R M 0 1955 3 1963
+  R E 0 1967 1 16
+S
+#1964
+Within the Hallway~
+~
+There are large oak timbers along the sides of the walls here that have 
+been setup to reinforce the walls. A red rug runs down the center of the 
+hallway. There are hooded lanterns setup to provide lighting. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1963
+D3
+~
+~
+0 -1 1965
+S
+#1965
+A Right Angle~
+~
+The hallway makes a sharp turn here. There are a series of tapestries that 
+hang from the walls. A red rug runs down the length of the hallway. There 
+are hooded lanterns mounted to the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1966
+D1
+~
+~
+0 -1 1964
+S
+#1966
+Along the Hallway~
+~
+There are intricate tapestries hanging from the walls. The walls are made 
+out of interlocking bricks. A plush red carpet is centered along the floor 
+and runs the length of the hallway. An reinforced oak door with intricate 
+runes around it is to the north. 
+~
+1 0 1
+D0
+~
+door~
+7 1962 1982
+D1
+~
+~
+0 -1 1967
+D2
+~
+~
+0 -1 1965
+R M 0 1953 1 1966
+  R E 0 1961 1 12
+R M 0 1952 1 1966
+  R E 0 1961 1 12
+R D 0 1966 0 2
+S
+#1967
+The Sacrificial Room~
+~
+There is a giant oak stake that is in the center of the room with straps 
+attached to it for making a sacrifice. There are charred burn marks along 
+the walls within the chamber. A series of stone slabs are under the stake 
+to raise it higher in the air. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1968
+D3
+~
+~
+0 -1 1966
+R M 0 1950 1 1967
+S
+#1968
+Within a Massive Lair~
+~
+The lair is filled with a massive mound of treasure that is mostly 
+combined into one piece due to extreme heat. There is a small pile of 
+bones off to the side of the treasure. A small set of stairs built from 
+slabs of stone lead up to the top of the treasure mound. A large opening 
+in the ceiling leads up into the sky. 
+~
+1 3145728 1
+D2
+~
+~
+0 -1 1967
+R M 0 1951 1 1968
+  R G 0 1959 1
+  R G 0 1958 1
+  R G 0 1957 1
+  R G 0 1956 1
+  R G 0 1955 1
+  R G 0 1954 1
+  R G 0 1953 1
+  R G 0 1952 1
+  R G 0 1951 1
+> entry_prog 100~
+if quest(missions) == 5
+mppause 4
+mpechoat $n &cYou know this is the dragon your leader was talking about.
+mpquest $n missions 6
+endif
+~
+|
+S
+#1969
+The Kitchen~
+~
+There is a large chimney with a pot mounted inside it. There are several 
+shelves mounted to the walls. A pair of side tables are setup with various 
+types of utensils on them. A hooded lantern hangs from the ceiling. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1956
+D2
+~
+~
+0 -1 1970
+S
+#1970
+The Pantry~
+~
+There are several shelves mounted to the walls. A modified version of a 
+wine rack is against the far wall. The wall has two giant bins that are 
+made out of solid oak. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1969
+D2
+~
+~
+0 -1 1971
+S
+#1971
+Along the Hallway~
+~
+The walls are made out of interlocking bricks. There are paintings along 
+the walls that depict servants gloriously serving their liege lords. A few 
+hooded lanterns are mounted to the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1970
+D2
+~
+~
+0 -1 1972
+D3
+~
+~
+0 -1 1974
+S
+#1972
+The Hallway Ends~
+~
+The abrupt end of the hallway has a large tapestry with intricate designs 
+embroidered in it. There are hooded lanterns mounted to the walls. A small 
+mat is outside the doorway to the west. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1971
+D3
+~
+~
+0 -1 1973
+S
+#1973
+Servants Chambers~
+~
+The chamber is pretty barren of decorations. There is a plain bed with 
+sheer thin blankets on top of it. A small wooden chest is in front of the 
+bed. There are a set of robes, and shoes folded on the bed. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1972
+R M 0 1954 2 1973
+  R E 0 1960 1 12
+S
+#1974
+Servants Chambers~
+~
+There is a small pile of debris in the corner of the room. A plain wooden 
+bed with sheer thin linen is in the center of the room. A small wooden 
+chest is at the foot of the bed. A small hooded lantern is mounted to the 
+wall. A pair of robes and boots are laying on the chest. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1971
+R M 0 1954 1 1974
+  R E 0 1960 1 12
+S
+#1975
+A Bricked Up Hall~
+~
+The walls, floors and ceiling are completely bricked up here. There are 
+tapestries of the throng standard hanging from the walls. A hooded lantern 
+is mounted over the top of each tapestry. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1951
+D3
+~
+~
+0 -1 1976
+S
+#1976
+Along the Bricked Up Hall~
+~
+Completely bricked up the hallway has several hooded lanterns mounted to 
+the walls to provide lighting. A thick red rug runs down the center of the 
+hallway. There is a small statue of Tanzean'al against the far wall. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1975
+D3
+~
+~
+0 -1 1977
+S
+#1977
+Within the Bricked Up Hall~
+~
+A large oak pole with a gold finish holds a throng standard against the 
+far wall. The walls, floors and ceiling are made up of interlocking 
+bricks. There are hooded lanterns mounted to the walls. A small red rug is 
+centered on the floor. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1976
+D2
+~
+~
+0 -1 1979
+D3
+~
+~
+0 -1 1978
+S
+#1978
+Guard Barracks ~
+~
+There are a series of beds lined up within the room. Each bed has a small 
+wooden chest at the foot of it. There are hooded lanterns mounted to the 
+walls. There is a red rug centered on the floor.s 
+~
+1 0 1
+D1
+~
+~
+0 -1 1977
+R M 0 1958 3 1978
+  R G 0 1964 1
+R M 0 1958 3 1978
+S
+#1979
+A Bricked Up Hall~
+~
+A set of hooded lanterns are around the door entrance to the west. There 
+is a wooden bench along the wall. The walls, floors, and ceiling are 
+completely made up of bricks. A small red rug is centered on the floor. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1977
+D1
+~
+~
+0 -1 1981
+D3
+~
+~
+0 -1 1980
+S
+#1980
+Guard Barracks~
+~
+The barracks have a series of beds lined up with small wooden chests at 
+the foot of each bed. There is a small weapons rack at the rear of the 
+room that is secured to the floor with a chain. A large red rug is 
+centered on the floor. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1979
+D2
+~
+~
+0 -1 1983
+R M 0 1955 3 1980
+  R E 0 1967 1 16
+R M 0 1955 3 1980
+  R E 0 1967 1 16
+S
+#1981
+A Richly Decorated Hall~
+~
+There are thick well decorated tapestries hanging from the walls. There 
+are brass hooded lanterns mounted to the walls to provide lighting. A 
+thick red rug runs along the center of the floor. A mural is along the 
+wall with horrific battlefield painted on it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1951
+D2
+~
+false wall~
+2051 -1 1982
+D3
+~
+~
+0 -1 1979
+E
+mural battlefield~
+The battlefield that is painted on the wall shows elves attacking a
+fierce red dragon.  However the dragon appears to win the battle with
+elves hanging from it's mighty maw.
+~
+E
+crack seem~
+The south wall appears to be a false wall.
+~
+> entry_prog 35~
+mppause 3
+mpechoat $n &cSomething odd about the mural on the south wall catches
+mpechoat $n &cyour eye.  There is a crack or seem in the south wall.
+~
+|
+S
+#1982
+The Altar~
+~
+The chamber has elaborate tapestries hanging from the walls. There is a 
+red rug that leads up to the altar. The altar has a bronze statue of a 
+dragon on it. There is a pew made out of solid oak in the center. 
+~
+1 0 1
+D0
+~
+false wall~
+3 -1 1981
+D2
+~
+door~
+7 1962 1966
+R M 0 1960 1 1982
+  R G 0 1962 1
+R D 0 1982 0 1
+R D 0 1982 2 2
+S
+#1983
+The Armory~
+~
+There are several weapon racks chained to the walls. A few wooden chests 
+of supplies are stacked up. There are hooded lanterns mounted to the 
+walls. There is a red rug that is centered along the floor. The walls are 
+made up of interlocking bricks. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1980
+D1
+~
+~
+0 -1 1984
+S
+#1984
+Before a Catwalk~
+~
+There is a narrow walkway to the south that is made out of interlocking 
+stone slabs. A pair of manacles are attached to the east wall here. A 
+hooded lantern is hanging from the ceiling. 
+~
+1 0 1
+D2
+~
+~
+0 -1 1985
+D3
+~
+~
+0 -1 1983
+S
+#1985
+Along the Catwalk~
+~
+The narrow walkway has prisoner cells to the west side. The east wall hold 
+manacles and various tools. There is a large drain that runs the length of 
+the catwalk. A hooded lantern is mounted to the wall. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1984
+D2
+~
+~
+0 -1 1986
+D3
+~
+~
+0 -1 1991
+S
+#1986
+The Center of the Catwalk~
+~
+There is a large drain that runs down the length of the catwalk. The east 
+wall is covered in dried blood. There is a prisoner cell to the west. 
+Three different types of whips are attached to the east wall. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1985
+D2
+~
+~
+0 -1 1987
+D3
+~
+~
+0 -1 1990
+R M 0 1952 2 1986
+  R G 0 1965 1
+R M 0 1958 4 1986
+  R E 0 1967 1 16
+S
+#1987
+The End of the Catwalk~
+~
+The floor drain comes to an end at the wall. There is a cell to the west. 
+The cell bars are covered in some mold from a thrown meal. There is a vast 
+chamber to the east. A hooded lantern is mounted to the wall. 
+~
+1 0 1
+D0
+~
+~
+0 -1 1986
+D1
+~
+~
+0 -1 1988
+D3
+~
+~
+0 -1 1989
+S
+#1988
+The Torture Chamber~
+~
+There are chairs set up facing the corners, that have chains on them to 
+strap someone in. Iron instruments hang from the walls. A wooden rack with 
+a pulley system to extend the rack is in the center of the room. 
+~
+1 0 1
+D3
+~
+~
+0 -1 1987
+S
+#1989
+A Prison Cell~
+~
+The cell is made out of interlocking bricks. There is a small drain hole 
+in the center of the cell. A solid slab stone in the corner is the bed. 
+There is dried blood caked on the walls in the rear of the cell. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1987
+S
+#1990
+A Prison Cell~
+~
+Various graffiti symbols have been smeared on the walls. There is a small 
+drain hole that appears to be clogged with debris in the center of the 
+cell. A chipped up stone slab at the rear of the cell is the bed.
+~
+1 0 1
+D1
+~
+~
+0 -1 1986
+S
+#1991
+A Prison Cell~
+~
+There is a bowel of gruel like food laying on the stone slab bed at the 
+rear of the cell. A small drain hole is in the center of the floor. There 
+is various debris littering the ground. 
+~
+1 0 1
+D1
+~
+~
+0 -1 1985
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

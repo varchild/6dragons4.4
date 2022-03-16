@@ -1,0 +1,19 @@
+ 
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Fri Jan 27 07:00:10 2017
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+WILD free: <1197448> db.c(3863), unknown pointer 0x43e8420
+WILD free: <1197450> db.c(3932), unknown pointer 0x43e8420
+WILD free: <1201141> handler.c(3985), unknown pointer 0x43e8420
+WILD free: <1465141> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465144> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465145> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465146> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465147> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465148> channels.c(1053), unknown pointer 0x43e8420
+WILD free: <1465149> channels.c(1053), unknown pointer 0x43e8420

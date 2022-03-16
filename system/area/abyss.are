@@ -1,0 +1,1101 @@
+#AREA        Abyss~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 15 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A strange foul wind blows about suddenly.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999740 999999740 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#7500
+portal gateway~
+a portal gateway~
+&YA swirling magical portal gateway is hovering above the ground here.
+~
+A swirling mixtures of lights that makes you dizzy as you look at it.
+~
+0
+Clanname none~
+0
+0
+67239939 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from above.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the east.
+mpopenpassage 7500 7501 1
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7500 1
+mpecho &YA swirling portal suddenly closes.
+~
+> act_prog p flies in from above.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the east.
+mpopenpassage 7500 7501 1
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7500 1
+mpecho &YA swirling portal suddenly closes.
+~
+> act_prog p floats in from above.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the east.
+mpopenpassage 7500 7501 1
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7500 1
+mpecho &YA swirling portal suddenly closes.
+~
+|
+#7501
+portal gateway~
+a gateway portal~
+&YA swirling magical portal gateway is hovering above the ground here.
+~
+A swirling mixtures of lights that makes you dizzy as you look at it.
+~
+0
+Clanname none~
+0
+0
+67239939 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from the north.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the west.
+mpopenpassage 7501 7500 3
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7501 3
+mpecho &YA swirling portal suddenly closes.
+~
+> act_prog p flies in from the north.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the west.
+mpopenpassage 7501 7500 3
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7501 3
+mpecho &YA swirling portal suddenly closes.
+~
+> act_prog p floats in from the north.~
+mppause 5
+mpecho &YA swirling portal suddenly opens larger revealing a pathway to the west.
+mpopenpassage 7501 7500 3
+mppause 20
+mpecho &YA slight wavering in the swirling portal begins....
+mppause 20
+mpecho &YA swirling portal begins to close its opening...
+mppause 20
+mpclosepassage 7501 3
+mpecho &YA swirling portal suddenly closes.
+~
+|
+#7502
+wolf spider~
+a wolf spider~
+A wolf spider lurks about here.
+~
+The massive spider has thick patches of fur in different sections on it's legs.
+~
+1
+Clanname none~
+0
+0
+16777281 0 0 C
+8 0 0 1d10+70 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 3 0 0 1 1 0
+0 0 4 0 0 0 262145 0
+#7503
+green slime~
+a green slime~
+A green slime is oozing fluids here.
+~
+The slime appears to be translucent, and has internal organs visible within it.
+~
+9
+Clanname none~
+0
+0
+16777217 0 0 C
+8 0 0 1d1+56 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+57 8 0 0 1 1 0
+0 0 0 0 0 0 4097 0
+#7504
+brown bat~
+a brown bat~
+A brown bat is hovering here.
+~
+The bat has a short brown hair covering it's entire body.
+~
+1
+Clanname none~
+0
+0
+16777281 524288 0 C
+8 0 0 1d10+65 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+21 4 0 0 1 1 0
+0 0 0 0 0 0 2049 0
+#7505
+orc sentinel~
+an orc sentinel~
+An orc sentinel is standing guard here.
+~
+The orc has a mishappened face with various scars from battle along it.
+~
+13
+Clanname none~
+0
+0
+65 0 -1000 C
+8 0 0 1d1+65 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+6 4 0 0 1 1 0
+0 0 0 0 0 0 -2147483600 0
+#7506
+goblin miner~
+a goblin miner~
+A goblin miner is making his way here.
+~
+The goblin is hunched over and moving with a slight limp.
+~
+2
+Clanname none~
+0
+0
+16777281 0 0 C
+8 0 0 1d1+450 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 4 0 0 1 1 0
+0 0 0 0 0 0 -2147483600 0
+#7507
+troll slavemaster~
+a troll slave master~
+A troll slavemaster glares about the area here.
+~
+The massive troll is looking about the area with the gaze of a predator.
+~
+9
+Clanname none~
+0
+0
+16777281 0 0 C
+10 0 0 1d1+80 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+7 4 0 0 1 1 0
+0 0 41 0 0 0 -2147483600 0
+#7508
+beholder~
+a beholder~
+A giant floating eye with multiple eye stalks is hovering in the air here.
+~
+The beholder is a giant eyeball that is floating in the air.  The eyeball also has many
+salks with smaller eyes on them sprouted from the top of it.
+~
+0
+Clanname none~
+0
+0
+131139&4 524416 -1000 C
+15 0 0 1d1+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+20 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 2
+0 0 12288 0 0 0 537403400 66
+> fight_prog 100~
+if quest(beholder) == 1
+  mpquest $n beholder 2
+endif
+~
+> fight_prog 10~
+mpecho &GOne of the beholder's eye hits you with a funky green beam of light!
+mpdamage $n 200
+~
+> death_prog 100~
+mpoload 4656 1
+get book
+~
+|
+#7509
+ogre guard~
+a ogre guard~
+An ogre guard struts about here.
+~
+The ogre is rippling with muscles bulging everywhere. 
+~
+2
+Clanname none~
+0
+0
+16777281 4194304 0 C
+12 0 0 1d1+200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 0 0 0 0 -2147483600 0
+> death_prog 100~
+if quest(warz) == 3
+mpquest $n warz 4
+endif
+~
+|
+#7510
+priest turath~
+Priest Turath~
+A weary old priest clad in black robes sits here.
+~
+The priest has a serious look on his face and a thick brown beard.
+~
+1
+Clanname none~
+0
+0
+67240003 4194304 0 C
+20 0 0 1d1+1500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 3
+20 20 0 0 0 0 67108912 33554434
+> all_greet_prog 100~
+if quest(beholder) > 0
+  if quest(beholder) < 3
+    mpechoat $n &CPriest Turath says, 'Have you found the beholder?'&D
+  endif
+else
+  mppause 4
+  mpechoat $n &CPriest Turath says, 'Welcome adventurer.'&D
+  mppause 10
+  mpechoat $n &CPriest Turath says, 'Interested in taking on a grand challenge?'&D
+  mppause 3
+  mpechoat $n &cType &WSAY YES&c to accept the task.&D
+endif
+~
+> speech_prog yes~
+if quest(beholder) == 0
+  mppause 3
+  mpechoat $n &CPriest Turath says, 'Well I wasn't up to the challenge myself though I tried.'&D
+  mpquest $n beholder 1
+  mppause 8
+  mpechoat $n &CPriest Turath says, 'To the north, and then West there is an old fort where a terrible creation rules...'&D
+  mppause 6
+  mpechoat $n &CPriest Turath says, 'Bring me the corpse of the abomination and I will reward you.'&D
+  mppause 8
+  mpechoat $n &CPriest Turath says, 'I am weakened, but I can help protect you.'&D
+  mpechoat $n &cType &WSAY PROTECT&c to gain some protection.&D
+endif
+~
+> speech_prog protect~
+if quest(beholder) == 1
+  mppause 3
+  mpechoat $n &CPriest Turath says, 'May this help you on your quest.'&D
+  c 'bestow vitae' $n
+else
+  mpechoat $n &CPriest Turath says, 'You are not doing the quest.'&D
+endif
+~
+> act_prog p gives you the corpse of a beholder.~
+if quest(beholder) == 2
+  mpat 3 drop corpse
+  mppause 3
+  mpechoat $n &CPriest Turath says, 'Great Job!'&D
+  mppause 5
+  mpoload 7501
+  mpquest $n beholder 3
+  get belt
+  give belt $n
+else
+  mpat 3 drop corpse
+  mpechoat $n &CPriest Turath says, 'You were not doing the quest.'&D
+endif
+~
+|
+#8000
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#7500
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#7501
+adventurers belt~
+an adventurer's belt~
+A worn out leather belt lies here.~
+~
+9 0 2049
+60 60 0 0 0 0 0
+2 10 1
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+5 2
+E
+belt adventurer~
+The belt is thick and sturdy.
+~
+#7502
+bloody flail~
+&Ra bloody flail~
+&RA bloody flail lies here forgotten.~
+~
+5 0 8193
+10 5 15 4 13 10 0
+2 0 0
+1
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+E
+flail~
+The flail has pieces of bloody flesh stuck on it.
+~
+#7503
+blackened wrist guard~
+a blackened wrist guard~
+A blackened wrist guard has been left here.~
+~
+9 0 4097
+5 5 0 0 0 5 0
+1 57 5
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+17 -25
+E
+wrist guard~
+The wrist guard is made out of copper ore and has strange symbols inscribed on it.
+~
+#7504
+blackened leather leggings~
+a pair of blackened leather leggings ~
+A pair of blackened leather leggings has been left here.~
+~
+9 0 33
+5 5 0 0 0 5 0
+4 56 5
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+17 -25
+E
+legging leggings~
+The leggings appear to be well worn, and have a foul odor to them.
+~
+#7505
+blackened spiked spaulders ~
+a pair of blackened spiked spaulders~
+A pair of blackened spiked spaulders has been left here.~
+~
+9 0 257
+5 5 0 0 0 5 0
+4 56 5
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+17 -25
+A
+17 -25
+E
+spiked spaulders spaulder~
+The spaulders have large rusty spikes that are protruding from them.
+~
+#7506
+blackened iron helmet~
+a blackened iron helmet~
+A blackened iron helmet has been left here.~
+~
+9 0 17
+5 5 0 0 0 5 0
+1 55 5
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+17 -25
+E
+iron helmet~
+The iron helmet is fairly crafted, but has been well used.
+~
+#7507
+wolf spider gland~
+a wolf spider gland~
+A wolf spider gland has been left here.~
+~
+60 0 16385
+1 1 1 1 -1 5 -1
+1 6 0
+3
+3
+0
+0
+0
+0
+'cure poison' 'NONE'
+S 0 0
+E
+gland~
+The spider gland appears to have some type of liquid within it.
+~
+#7508
+meat cleaver~
+a meat cleaver~
+A meat cleaver has been left here.~
+~
+5 0 8193
+10 3 10 3 9 5 0
+2 10 1
+2
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+E
+cleaver~
+The meat cleaver has some chinks in it's edge as it has been well used.
+~
+#8000
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 4 0
+#0
+
+
+#ROOMS
+#7500
+A Stone Chamber~
+~
+The room is made up of large stones, and there are torches that are
+mounted to the walls.  The floor pitches downward towards the strange
+glowing portal in the center of the room.  There is various debris 
+littering the floor along the edges of the walls.
+~
+1 0 0
+D4
+~
+~
+0 -1 27023
+R M 0 7500 1 7500
+S
+#7501
+A Narrow Pathway~
+~
+A small pathway appears to have been chiseled through a bed of solid
+rocks.  The ground is made up of a hard red clay.  There are strange
+tracks littered throughout the clay floor.  A strange heat source 
+radiates from the stone walls.
+~
+1 1073741825 0
+D0
+~
+~
+0 -1 7502
+R M 0 7501 1 7501
+S
+#7502
+A Collapsed Tunnel~
+~
+&zA narrow tunnel is partially collapsed here where some rocks have
+fallen from the sides of the walls.  The ground is made up of hard 
+red clay.  A few small bones are scattered about on the ground.
+~
+1 1 0
+D0
+~
+~
+0 -1 7503
+D1
+~
+~
+0 -1 7523
+D2
+~
+~
+0 -1 7501
+S
+#7503
+A Wider Tunnel~
+~
+The tunnel is three times the size of the south tunnel, and has an
+intersection that extends to the east and west.  The ground is made 
+up of hard red clay.  Four large oak beams have been placed to help
+support the wall structure here.
+~
+1 1 0
+D0
+~
+~
+0 -1 7504
+D1
+~
+~
+0 -1 7506
+D2
+~
+~
+0 -1 7502
+D3
+~
+~
+0 -1 7505
+S
+#7504
+A Descending Pathway~
+~
+The trail leads downward along a steep cliff.  The ground is covered
+by broken cobblestones, and loose gravel.  There are small humanoid type
+skulls, and bones littering the ground.
+~
+1 0 0
+D2
+~
+~
+0 -1 7503
+D5
+~
+~
+0 -1 7521
+S
+#7505
+A Guard Post~
+~
+Several oak beams support this excavated room.  A crumbling half
+stone wall was set up as a barracade.  The ground is made up of
+hard red clay, and is littered with old fossils.
+~
+1 1 0
+D1
+~
+~
+0 -1 7503
+D7
+~
+~
+0 -1 7507
+S
+#7506
+A Storage Room~
+~
+This room was dug out through the rocks in a very crude manner.  
+There are several large oak posts that support the walls.  Some
+rotted wood shelves line walls.  
+~
+1 1 0
+D3
+~
+~
+0 -1 7503
+S
+#7507
+A Large Path~
+~
+The large path has several oak beams in place along the walls to help
+support the walls.  A large wooden gate is to the west.  The ground is
+made up of the hard red clay.
+~
+1 1 0
+D3
+~
+~
+0 -1 7508
+D8
+~
+~
+0 -1 7505
+S
+#7508
+Before an Abandoned Fort~
+~
+A large crumbling stone structure stands to the north.  An old wooden
+gate is nearly rusted off the hinges.  The path to the fort is made up
+of broken old cobblestones.
+~
+1 1 0
+D0
+~
+gate~
+3 -1 7509
+D1
+~
+~
+0 -1 7507
+R D 0 7508 0 1
+S
+#7509
+An Unmanned Gate~
+~
+The entry to the fort is in shambles.  There are all types of debris
+littering the floors.  A few oak beams support the walls, and ceiling.
+Color changes on the walls indicate where tapestries, and paintings
+used to hang.  A few mounts for torches remain on the walls.
+~
+1 1 0
+D0
+~
+~
+0 -1 7512
+D2
+~
+gate~
+3 -1 7508
+R D 0 7509 2 1
+S
+#7510
+Mob Loading Room~
+~
+~
+1 8 0
+D1
+~
+~
+0 -1 7504
+R M 0 7502 7 7510
+  R G 0 7507 1
+R M 0 7503 3 7510
+R M 0 7504 3 7510
+R M 0 7505 8 7510
+  R G 0 7503 1
+R M 0 7506 3 7510
+  R G 0 7504 1
+R M 0 7507 5 7510
+  R G 0 7506 1
+  R G 0 7508 1
+R M 0 7502 7 7510
+  R G 0 7507 1
+R M 0 7503 3 7510
+R M 0 7504 3 7510
+R M 0 7505 8 7510
+  R G 0 7503 1
+R M 0 7506 3 7510
+  R G 0 7504 1
+R M 0 7505 8 7510
+  R G 0 7503 1
+R M 0 7507 5 7510
+  R G 0 7506 1
+  R G 0 7508 1
+S
+#7511
+Mob Loading Room~
+~
+~
+1 8 0
+D3
+~
+~
+0 -1 7504
+R M 0 7502 3 7511
+R M 0 7503 3 7511
+R M 0 7504 3 7511
+R M 0 7505 4 7511
+R M 0 7506 3 7511
+R M 0 7507 3 7511
+S
+#7512
+Ranshacked Reception Hall~
+~
+The large hall obviously has been empty for quite some time. A thick layer 
+of dust and cobwebs can be spotted throughout the entire hall. The ground 
+is made up of broken cobblestones. A few torch mounts are still attached 
+to the walls. 
+~
+1 1 0
+D0
+~
+~
+0 -1 7514
+D2
+~
+~
+0 -1 7509
+D3
+~
+~
+0 -1 7513
+S
+#7513
+Old Barracks~
+~
+Broken stone slabs that once were used for beds can be spotted along the 
+walls of these large barracks. Cobwebs and dust cover the room. The ground 
+is made up of broken old cobblestones. 
+~
+1 1 0
+D0
+~
+~
+0 -1 7518
+D1
+~
+~
+0 -1 7512
+S
+#7514
+A Spoiled Antechamber~
+~
+The room has been spoiled with a mass growth of mildew and mold on the
+walls.  There are cobwebs that dangle from the ceiling corners.  The
+ground is made up of broken old cobblestones.
+~
+1 1 0
+D1
+~
+'Double Doors'~
+3 -1 7515
+D2
+~
+~
+0 -1 7512
+D3
+~
+~
+0 -1 7516
+R D 0 7514 1 1
+S
+#7515
+The War Council Room~
+~
+This large room has some beginnings of mold, and mildew by the doorway.
+There are rusted iron mounts for torches along the walls.  Some color
+variations along the walls indicate where paintings, and tapestries used
+to hang.  The floor is made up of broken old cobblestones.
+~
+1 5 0
+D3
+~
+'Double Doors'~
+3 -1 7514
+R M 0 7508 1 7515
+R D 0 7515 3 1
+S
+#7516
+A Spoiled Dining Room~
+~
+The stone walls in this large square room appear to be still in quite a 
+good shape. A rotted oak table and chairs fill the center of the room, 
+standing on a ragged faded red and white carpet. A few rusted iron torch 
+mounts are hanging from the walls. Strange mildew and mold are growing 
+plentiful on the ceiling and walls. 
+~
+1 1 0
+D1
+~
+~
+0 -1 7514
+D2
+~
+~
+0 -1 7517
+S
+#7517
+A Mildew Covered Kitchen~
+~
+The small room has a collapsed fireplace in the center of the rear wall.
+The mold and mildew growth is very thick in here, and some walls are 
+not visible through it.  The ground is made up green mold.
+~
+1 1 0
+D0
+~
+~
+0 -1 7516
+S
+#7518
+An Empty Armory~
+~
+Rusty spears still stand in the as rusty iron racks against the empty 
+spaces in the wall, that is not covered with rotted wood shelving. The 
+room is covered with cobwebs, and dust. The ground is made up of broken 
+old cobblestones. 
+~
+1 1 0
+D2
+~
+~
+0 -1 7513
+E
+racks~
+The racks obviously were meant to hold spears and other large weapons.
+~
+E
+spears~
+The wooden shafts are rotted, the iron heads are rusted and no longer sharp.
+~
+S
+#7520
+Fort Mob Loading Room~
+~
+~
+1 1073741832 0
+D2
+~
+~
+0 -1 7514
+R M 0 7505 8 7520
+  R G 0 7503 1
+  R G 0 7503 1
+  R G 0 7504 1
+R M 0 7507 5 7520
+  R G 0 7506 1
+  R G 0 7508 1
+R M 0 7505 8 7520
+  R G 0 7503 1
+  R G 0 7503 1
+  R G 0 7504 1
+R M 0 7507 5 7520
+  R G 0 7506 1
+  R G 0 7508 1
+R M 0 7509 4 7520
+  R G 0 7505 1
+R M 0 7505 8 7520
+  R G 0 7503 1
+  R G 0 7503 1
+  R G 0 7504 1
+R M 0 7505 8 7520
+  R G 0 7503 1
+  R G 0 7503 1
+  R G 0 7504 1
+R M 0 7509 4 7520
+  R G 0 7505 1
+R M 0 7502 7 7520
+  R G 0 7507 1
+R M 0 7502 7 7520
+  R G 0 7507 1
+R M 0 7502 7 7520
+  R G 0 7507 1
+R M 0 7502 7 7520
+  R G 0 7507 1
+S
+#7521
+Descending Down the Pathway~
+~
+The trail takes a turn inward, and down along the steep cliff face.  The
+ground is made up of loose gravel, and is littered with small humanoid type 
+skulls, and bones.  Various tracks are on the side of the path.
+~
+1 1 0
+D4
+~
+~
+0 -1 7504
+D5
+~
+~
+0 -1 7522
+S
+#7522
+On a Plateau~
+~
+The pathway ends on a plataeu overlooking a vast emptiness.  The ground
+is made up of small humanoid skulls.  The path heads upward against 
+a steep cliff face.  The residue of a campfire is at the center.
+~
+1 1 5
+D0
+~
+~
+0 -1 28001
+D4
+~
+~
+0 -1 7521
+S
+#7523
+Holy Ground Sanctuary~
+~
+The small cubby space that was dug into the rock wall is supported by
+two large oak beams.  There are some strange arcane symbols that are
+engraved into the east wall.
+~
+1 5 0
+D3
+~
+~
+0 -1 7502
+R M 0 7510 1 7523
+S
+#8000
+A Large Antechamber~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

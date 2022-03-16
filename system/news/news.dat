@@ -1,0 +1,1638 @@
+#HTML
+1
+
+#News
+TimeStamp 1448329040
+NewsData  Breech replaces astral walk for Angels, Demons~
+End
+
+#News
+TimeStamp 1448329059
+NewsData  fly home replaces word of recall for Angels, Demons and Vampires~
+End
+
+#News
+TimeStamp 1448329102
+NewsData  kick skill set to level 10 for all classes that have it~
+End
+
+#News
+TimeStamp 1448364034
+NewsData  parry skill set to level 3~
+End
+
+#News
+TimeStamp 1448364270
+NewsData  Dodge skill all set to level 2~
+End
+
+#News
+TimeStamp 1448373808
+NewsData  new angel skill ethereal body~
+End
+
+#News
+TimeStamp 1448407860
+NewsData  ethreal body also acts like passdoor~
+End
+
+#News
+TimeStamp 1448417815
+NewsData  Added maxmove, minmove to setclass function. Reworking hp min and 
+            max for all classes in attempt to balance gains~
+End
+
+#News
+TimeStamp 1448424203
+NewsData  New skill rake added for angels~
+End
+
+#News
+TimeStamp 1448424637
+NewsData  New skill flyby added for angels~
+End
+
+#News
+TimeStamp 1448453730
+NewsData  New cool skill hurl added for angels, yes I dubbed it cool~
+End
+
+#News
+TimeStamp 1448461127
+NewsData  New skill ethereal attack added for angels~
+End
+
+#News
+TimeStamp 1448467794
+NewsData  New skill ward of ethereal for angels~
+End
+
+#News
+TimeStamp 1448502846
+NewsData  Every angel spell or skill has sounds attached to them~
+End
+
+#News
+TimeStamp 1448506363
+NewsData  Combo function works to a degree, fleshing it out now~
+End
+
+#News
+TimeStamp 1448560384
+NewsData  fixed a bug with fade skill~
+End
+
+#News
+TimeStamp 1448564129
+NewsData  angelfire adjusted so does damage one would expect at level the 
+            level given, but now also can heal the angel casting it.~
+End
+
+#News
+TimeStamp 1448574417
+NewsData  fixed a bug with Vaskar quest~
+End
+
+#News
+TimeStamp 1448580771
+NewsData  fixed a crash bug with archery~
+End
+
+#News
+TimeStamp 1448590891
+NewsData  fixed bug with sieges not removing all siege equipment after siege~
+End
+
+#News
+TimeStamp 1448627968
+NewsData  Added a sound for area reset messages~
+End
+
+#News
+TimeStamp 1448628249
+NewsData  sounds added for coin drop and regular drop of items for enhanced 
+            sound config~
+End
+
+#News
+TimeStamp 1448637187
+NewsData  Added more sounds for close, unlock, lock, open~
+End
+
+#News
+TimeStamp 1448640578
+NewsData  sound added for socials~
+End
+
+#News
+TimeStamp 1448641335
+NewsData  sound added for running~
+End
+
+#News
+TimeStamp 1448646257
+NewsData  Music donated by Girnath now had all portalstone areas with sound 
+            when you enter.~
+End
+
+#News
+TimeStamp 1448680233
+NewsData  Added help files for angels new skills~
+End
+
+#News
+TimeStamp 1448744592
+NewsData  New skill for monks, option of using grappling techniques instead 
+            of martial arts~
+End
+
+#News
+TimeStamp 1448754982
+NewsData  fixed bug where angelfire occassionally targetted the agnel~
+End
+
+#News
+TimeStamp 1448927480
+NewsData  New skill angelic being for angels~
+End
+
+#News
+TimeStamp 1448929014
+NewsData  New skill minor restore added for angels~
+End
+
+#News
+TimeStamp 1448935850
+NewsData  New skill for bards called story~
+End
+
+#News
+TimeStamp 1448969383
+NewsData  New skill for bards called juggle~
+End
+
+#News
+TimeStamp 1448970863
+NewsData  New skill for bards talkup~
+End
+
+#News
+TimeStamp 1449017506
+NewsData  New skill for bard critic~
+End
+
+#News
+TimeStamp 1449020082
+NewsData  New skill for bard morris dance~
+End
+
+#News
+TimeStamp 1449105408
+NewsData  Bard sound files added to sound pack~
+End
+
+#News
+TimeStamp 1449106448
+NewsData  Revamped Bard Class moved from test port to game port~
+End
+
+#News
+TimeStamp 1449186616
+NewsData  Tanner now can craft drums instrument and Carpenter can craft 
+            violin instruments~
+End
+
+#News
+TimeStamp 1449186746
+NewsData  Happy Hour all Weekend Long!~
+End
+
+#News
+TimeStamp 1449350322
+NewsData  Shaman Class moved from testport to main port~
+End
+
+#News
+TimeStamp 1449350384
+NewsData  Sound Pack updated with Shaman sounds. Gah, never ending sound 
+            pack downloads. lol~
+End
+
+#News
+TimeStamp 1449454560
+NewsData  Vampire Class and skills added from testport~
+End
+
+#News
+TimeStamp 1449454571
+NewsData  Soundpack updated with vampire sounds~
+End
+
+#News
+TimeStamp 1449539245
+NewsData  Fixed a major bug with sheath item adding hp to players each time 
+            worn.~
+End
+
+#News
+TimeStamp 1449619434
+NewsData  Fixed major bug with crafted items sometimes disappearing~
+End
+
+#News
+TimeStamp 1449623022
+NewsData  Bat form now gives proper description in that form~
+End
+
+#News
+TimeStamp 1449623693
+NewsData  Batform for vampires also uses blood points now~
+End
+
+#News
+TimeStamp 1449628505
+NewsData  Tanners can now craft quivers~
+End
+
+#News
+TimeStamp 1449629748
+NewsData  Fixed problems with bow and arrow not working properly that 
+            carpenters made~
+End
+
+#News
+TimeStamp 1449661161
+NewsData  Druid class being updated... ( work in progress )~
+End
+
+#News
+TimeStamp 1449717722
+NewsData  New skill for Druid's Creeping Doom~
+End
+
+#News
+TimeStamp 1449745729
+NewsData  Skill improvement Root for Druid, now can retract roots by using 
+            it again, and also regens mana.~
+End
+
+#News
+TimeStamp 1449794537
+NewsData  128 more capability added for affects~
+End
+
+#News
+TimeStamp 1449801091
+NewsData  Fixed some issues with housing not assigning proper houses for 
+            Paleon~
+End
+
+#News
+TimeStamp 1449801708
+NewsData  Can now practice at teachers till 50 percent, thank Girnath and 
+            Ludum for that.~
+End
+
+#News
+TimeStamp 1449878100
+NewsData  Sounds added for druid class, sound pack updated~
+End
+
+#News
+TimeStamp 1449886946
+NewsData  Kinetic Barrier skill for psionics effectiveness increased~
+End
+
+#News
+TimeStamp 1449948044
+NewsData  New skill for psionics mechanism~
+End
+
+#News
+TimeStamp 1450058364
+NewsData  New skill Astral Travel for psionics~
+End
+
+#News
+TimeStamp 1450092913
+NewsData  Telepathy now can be responded too, once a telepath initiates the 
+            contact~
+End
+
+#News
+TimeStamp 1450141716
+NewsData  New skill for psionics called disable~
+End
+
+#News
+TimeStamp 1450145132
+NewsData  New skill for psioncis called density~
+End
+
+#News
+TimeStamp 1450178153
+NewsData  New skill for psionics called touch~
+End
+
+#News
+TimeStamp 1450237719
+NewsData  Had to add bools to affect_to_char and modify_affect function to 
+            differientiate between affected_by and affected_by2 giving full 
+            functionality to the 256 affects~
+End
+
+#News
+TimeStamp 1450312340
+NewsData  fixed a bug with mobs showing unknown assailant message, by adding 
+            a IS_AFFECTED2 function~
+End
+
+#News
+TimeStamp 1450319372
+NewsData  Psionic sounds added for their skills. Soundpack has been updated!~
+End
+
+#News
+TimeStamp 1450401800
+NewsData  fixed a bug with bat form not allowing fly home skill~
+End
+
+#News
+TimeStamp 1450561392
+NewsData  Magic Missile spell enhanced for Mage class~
+End
+
+#News
+TimeStamp 1450626401
+NewsData  Kinetic Barrier duration now permenant unless shattered~
+End
+
+#News
+TimeStamp 1450645302
+NewsData  fireball spell updated~
+End
+
+#News
+TimeStamp 1450647034
+NewsData  New spell for mages wind attack~
+End
+
+#News
+TimeStamp 1450649518
+NewsData  New skill astral attack for mage~
+End
+
+#News
+TimeStamp 1450658968
+NewsData  New spell for mages sage wisdom~
+End
+
+#News
+TimeStamp 1450664843
+NewsData  foundation for new spell imprisonment added for mages.~
+End
+
+#News
+TimeStamp 1450841618
+NewsData  Happy Hour Double Experience throught he holidays!~
+End
+
+#News
+TimeStamp 1451391616
+NewsData  Dragons can now fly out of their lairs into wilderness instead of 
+            having to travel throughout the city.~
+End
+
+#News
+TimeStamp 1451490880
+NewsData  Imprison spell now will shrink victims down, and place them in a 
+            cage until the spell wears off~
+End
+
+#News
+TimeStamp 1451492823
+NewsData  fixed advance_level from not showing blood gains~
+End
+
+#News
+TimeStamp 1451500208
+NewsData  Grafted weapons from psionic will now graft dual wielded weapons 
+            if both weapons worn when graft used~
+End
+
+#News
+TimeStamp 1451508058
+NewsData  Mage imprisoment spell now lets them pick up the victim in the 
+            cage, and drop them to any location where the victim will now be 
+            at when the cage releases them.~
+End
+
+#News
+TimeStamp 1451527034
+NewsData  Many mage sound files added, will finish rest tomorrow.~
+End
+
+#News
+TimeStamp 1451570716
+NewsData  adjusted fighting sounds, so if magic spell, you don't hear 
+            playerhit.wav thus blocking the sound of magic attacks~
+End
+
+#News
+TimeStamp 1451577102
+NewsData  Every single skill and spell that mages use now has a sound for 
+            it. Sound Pack updated!~
+End
+
+#News
+TimeStamp 1451588042
+NewsData  New skill for thieves called Throat punch~
+End
+
+#News
+TimeStamp 1451599029
+NewsData  New skill for thieves called leg sweep~
+End
+
+#News
+TimeStamp 1451601271
+NewsData  New skill for thieves called target~
+End
+
+#News
+TimeStamp 1451602031
+NewsData  New skill for thieves called quick blade~
+End
+
+#News
+TimeStamp 1451620760
+NewsData  Dexterity and Luck are required for steal skill success~
+End
+
+#News
+TimeStamp 1451659644
+NewsData  All theives skills will now have sounds for them, sound pack will 
+            be updated again~
+End
+
+#News
+TimeStamp 1451746155
+NewsData  New skill for Warriors added forward charge~
+End
+
+#News
+TimeStamp 1451749065
+NewsData  Headbutt skill for warriors recieved a facelift and coolness 
+            factor +1~
+End
+
+#News
+TimeStamp 1451788026
+NewsData  New skill for warriors called hunker down~
+End
+
+#News
+TimeStamp 1451790663
+NewsData  Sound pack updated for warrior sounds.~
+End
+
+#News
+TimeStamp 1451846882
+NewsData  pugilism added to every class for when your fighting without a 
+            weapon~
+End
+
+#News
+TimeStamp 1451870495
+NewsData  Fixed pick locks so if your hiding it don't matter how close mobs 
+            are to the lock~
+End
+
+#News
+TimeStamp 1451870517
+NewsData  Added different fighting message for using pugilism~
+End
+
+#News
+TimeStamp 1451921501
+NewsData  New skill sprout spikes for Hellspawn~
+End
+
+#News
+TimeStamp 1452038684
+NewsData  New skill for Shaman hawk spirit~
+End
+
+#News
+TimeStamp 1452038699
+NewsData  New spell for shaman called torpor~
+End
+
+#News
+TimeStamp 1452049252
+NewsData  New spell for Shamans called wolf spirit~
+End
+
+#News
+TimeStamp 1452126849
+NewsData  Sounds added for all hellspawn spells/skills~
+End
+
+#News
+TimeStamp 1452130976
+NewsData  New skill for monks crane kick~
+End
+
+#News
+TimeStamp 1452130988
+NewsData  New skill for monks leg sweep~
+End
+
+#News
+TimeStamp 1452133275
+NewsData  Sounds added for all monk skills~
+End
+
+#News
+TimeStamp 1452296366
+NewsData  Mobs in the game are being issued the same attack spells and 
+            skills that players have.~
+End
+
+#News
+TimeStamp 1452475006
+NewsData  clawed hands attack added for Beast Master~
+End
+
+#News
+TimeStamp 1452650684
+NewsData  Help bank updated, as banking commands have changed.~
+End
+
+#News
+TimeStamp 1452728808
+NewsData  Help Mush updated for instructions on how to add sounds to MUSH 
+            Client~
+End
+
+#News
+TimeStamp 1452733345
+NewsData  If mobs have descriptions when they die, that description will now 
+            transfer to the corpse, when you type look corpse. If there is no 
+            description on a mob pls use the bug command to report it.~
+End
+
+#News
+TimeStamp 1452816834
+NewsData  Description added to spear of judgements~
+End
+
+#News
+TimeStamp 1452825114
+NewsData  Many mobs getting descriptions added. Please keep bug reporting as 
+            you find them. It maybe tedious but improves overall quality of 
+            the game.~
+End
+
+#News
+TimeStamp 1452889428
+NewsData  New option for quest journals, now can do journal quest number to 
+            get more information about the task in the journal your on. Use 
+            bug command to report chapters that need a phrase you have to say 
+            to mobs there.~
+End
+
+#News
+TimeStamp 1453038219
+NewsData  fixed a crash with color.c descriptors~
+End
+
+#News
+TimeStamp 1453046545
+NewsData  Fixed a problem with copyover stalling out game~
+End
+
+#News
+TimeStamp 1453061716
+NewsData  Fixed a crash with journal command when players chose to find out 
+            more information on a chapter number that was higher than what the 
+            quest actually had~
+End
+
+#News
+TimeStamp 1453133394
+NewsData  Pets should now be able to enter rooms they were previously denied 
+            because they are a mob.~
+End
+
+#News
+TimeStamp 1453141556
+NewsData  Players cannot choose mob names in creation, code will tell you 
+            illegal name. This is due to targeting issue and confusion it 
+            creates in general~
+End
+
+#News
+TimeStamp 1453146360
+NewsData  Mob defenses updated to be more what players use for defense~
+End
+
+#News
+TimeStamp 1453261472
+NewsData  New quest added in Dakar City~
+End
+
+#News
+TimeStamp 1453509616
+NewsData  angelfire skill and tend skill for angels updated~
+End
+
+#News
+TimeStamp 1453515867
+NewsData  increased sighted players view of wilderness~
+End
+
+#News
+TimeStamp 1453519376
+NewsData  Dragon damaging skills have more usefulness, in higher levels.~
+End
+
+#News
+TimeStamp 1453559246
+NewsData  New skill for Red Dragons called fumes~
+End
+
+#News
+TimeStamp 1453605294
+NewsData  Dragons given telepathy skill~
+End
+
+#News
+TimeStamp 1453671942
+NewsData  Fixed a crash with city->knight freeing memory before checking to 
+            see if NULL~
+End
+
+#News
+TimeStamp 1453680743
+NewsData  fixed a bug where if the arrow you shot into your victim was 
+            higher level than them it would not get lodged in victim~
+End
+
+#News
+TimeStamp 1453680773
+NewsData  fixed crossbows crafted by carpenters to work correctly~
+End
+
+#News
+TimeStamp 1453690678
+NewsData  Bank code revisions done by Volk adding a balance command, and a 
+            merge command if you need to merge bank accounts.~
+End
+
+#News
+TimeStamp 1453716833
+NewsData  Holding breath and frost bite damage now appear as a percentage 
+            for screen readers~
+End
+
+#News
+TimeStamp 1453722756
+NewsData  'Eq' command updated to accept a wear location, ie 'eq finger'~
+End
+
+#News
+TimeStamp 1453856090
+NewsData  Players keep money when they die till we get this bank stuff fixed 
+            properly~
+End
+
+#News
+TimeStamp 1453907041
+NewsData  Banks and bankers fixed, they should accept commands (eg 
+            'account') as usual~
+End
+
+#News
+TimeStamp 1453935752
+NewsData  fixed bug with quiver crafted amounts held and with wear location~
+End
+
+#News
+TimeStamp 1453979431
+NewsData  bankers can be used in tutorials now as well.~
+End
+
+#News
+TimeStamp 1454029768
+NewsData  fixed bug where if you had a shield or sanc affect people could 
+            see your name when disguised or morphed~
+End
+
+#News
+TimeStamp 1454068489
+NewsData  Soldier, Archer, Warrior, Guard mobs now all will have difficulty 
+            set based on player fighting them for city siege events~
+End
+
+#News
+TimeStamp 1454118121
+NewsData  Thieves target skill will now have daggers on the ground when they 
+            fail to stick~
+End
+
+#News
+TimeStamp 1454118351
+NewsData  Angels hurl skill will also have spears on the ground when they 
+            fail to stick~
+End
+
+#News
+TimeStamp 1454166140
+NewsData  Heavens Blessing rewarded from staff has been replaced with Boost. 
+            Boost not only helps in combat, but will boost crafting skills.~
+End
+
+#News
+TimeStamp 1454167240
+NewsData  sound effect added so players know when they get boosted. Added to 
+            soundpack.~
+End
+
+#News
+TimeStamp 1470269399
+NewsData  Quaffing potions no longer makes you full.~
+End
+
+#News
+TimeStamp 1470269416
+NewsData  Eating pills and herbs no longer makes you full.~
+End
+
+#News
+TimeStamp 1470269435
+NewsData  Eating pills and herbs have a timer just like potions when in 
+            combat.~
+End
+
+#News
+TimeStamp 1470270902
+NewsData  There is no timer on baker crafted drinks~
+End
+
+#News
+TimeStamp 1470504341
+NewsData  Fixed a bug and made it so bakers heal salve gets more effective 
+            higher tradelevel~
+End
+
+#News
+TimeStamp 1470569590
+NewsData  Fixed bug with psionic whip skill~
+End
+
+#News
+TimeStamp 1470569610
+NewsData  adjusted shaman mend skill~
+End
+
+#News
+TimeStamp 1470569651
+NewsData  hopefully fixed crash from city siege event~
+End
+
+#News
+TimeStamp 1470569705
+NewsData  adjusted hide and sneak so have no duration rather based on luck 
+            and dexterity~
+End
+
+#News
+TimeStamp 1470572409
+NewsData  No longer have to be city leadership to laysiege, just a city 
+            member.~
+End
+
+#News
+TimeStamp 1470592449
+NewsData  You can now buy up to 50 items from shops instead of being limited 
+            to 20.~
+End
+
+#News
+TimeStamp 1471055154
+NewsData  new spell enlarge for mages. Also changed shrink skill to a spell.~
+End
+
+#News
+TimeStamp 1471110282
+NewsData  Fixed bug with spectral ward, spirits ward~
+End
+
+#News
+TimeStamp 1471110358
+NewsData  Removed useless but sentimental skill wizard eye and replaced with 
+            Insanity spell for mages.~
+End
+
+#News
+TimeStamp 1471116681
+NewsData  Fixed a bug where if you died with enlarge affect your height 
+            weight would get screwed up~
+End
+
+#News
+TimeStamp 1471143861
+NewsData  New trade skill unearth has been created.~
+End
+
+#News
+TimeStamp 1471196917
+NewsData  New tradeskill produce added~
+End
+
+#News
+TimeStamp 1471196939
+NewsData  New Trade Draconic added for Dragon Lords available at level 30.~
+End
+
+#News
+TimeStamp 1471208640
+NewsData  Fixed a bug with quest not updating on draconic quest~
+End
+
+#News
+TimeStamp 1471304594
+NewsData  Fixed a bug where dragon lords were able to use some dragon 
+            skills.~
+End
+
+#News
+TimeStamp 1471341448
+NewsData  Fixed enlarge/shrink bug if it in fact has to do with using crawl 
+            in combination with one or the other.~
+End
+
+#News
+TimeStamp 1471400752
+NewsData  Combo command will now with 2 attacks or 3 attacks~
+End
+
+#News
+TimeStamp 1471401175
+NewsData  Combo command changed to a skill so more players know about it's 
+            existence.~
+End
+
+#News
+TimeStamp 1471465611
+NewsData  Fixed bug with combo attack changes showing syntax in middle of 
+            combat~
+End
+
+#News
+TimeStamp 1471475080
+NewsData  New skill coalesce for spell casters. combining spell attacks into 
+            one like combo attack.~
+End
+
+#News
+TimeStamp 1471517492
+NewsData  Produce products updated to add some layers and a few fixes~
+End
+
+#News
+TimeStamp 1471552294
+NewsData  New mage spell kolaks stand added~
+End
+
+#News
+TimeStamp 1471566560
+NewsData  Fixed bug with spell kolak stand that allowed stacking hp affects~
+End
+
+#News
+TimeStamp 1471642609
+NewsData  There's a tiny chance that the game will grant a minor boost 
+            effect instead of typical restore to thank players for patronage 
+            now.~
+End
+
+#News
+TimeStamp 1471805595
+NewsData  Mages given detect hidden and detect invis spells~
+End
+
+#News
+TimeStamp 1471811624
+NewsData  Druid sylvan touch skill revamped and also druids given hide 
+            skill.~
+End
+
+#News
+TimeStamp 1471858887
+NewsData  Druid forest skill adjusted~
+End
+
+#News
+TimeStamp 1472118282
+NewsData  Added back bark skin skill for druids after noticing it was 
+            missing from their slist.~
+End
+
+#News
+TimeStamp 1472178443
+NewsData  Added new software clang debugger is pretty awesome at finding 
+            some errors in code.~
+End
+
+#News
+TimeStamp 1472208744
+NewsData  Fixed a setting issue with furniture milled, found with clang 
+            software.~
+End
+
+#News
+TimeStamp 1472209112
+NewsData  Fixed an error in do_cone found with clang software.~
+End
+
+#News
+TimeStamp 1472209380
+NewsData  Fixed error in whois code for staff found with clang~
+End
+
+#News
+TimeStamp 1472212074
+NewsData  Fixed a bug with blunt weapons updates and sharpen skill found 
+            with clang software~
+End
+
+#News
+TimeStamp 1472212289
+NewsData  fixed a bug with roll command found by clang software~
+End
+
+#News
+TimeStamp 1472212845
+NewsData  Removed conflicting declaration of get_race fround with clang 
+            software~
+End
+
+#News
+TimeStamp 1472216133
+NewsData  fixed a few conflicting const declarations found with clang 
+            software~
+End
+
+#News
+TimeStamp 1472229028
+NewsData  Fixed memory leak in roster and clan member~
+End
+
+#News
+TimeStamp 1472229537
+NewsData  fixed memory leak in quests.c and new_auth.c~
+End
+
+#News
+TimeStamp 1472243637
+NewsData  Fixed a bug where get_char_room didn't have rch initialized~
+End
+
+#News
+TimeStamp 1472246055
+NewsData  fixed a bug with mist acid where rch wasn't initialized~
+End
+
+#News
+TimeStamp 1472246228
+NewsData  fixed a bug in do_balistic where arg was not initialized~
+End
+
+#News
+TimeStamp 1472246710
+NewsData  Fixed a unitialized victim call in spec_thief~
+End
+
+#News
+TimeStamp 1472297874
+NewsData  config autodoor will now open the door if you are trying to flee 
+            and all the doors are closed.~
+End
+
+#News
+TimeStamp 1472298478
+NewsData  fixed bug with druid where they didn't auto wear gear back when 
+            going back to humanform~
+End
+
+#News
+TimeStamp 1472301013
+NewsData  fixed a bug where mine list showed a few steels that jewelers were 
+            never supposed to be able to use.~
+End
+
+#News
+TimeStamp 1472303057
+NewsData  cast continual light spell enhanced~
+End
+
+#News
+TimeStamp 1472304444
+NewsData  Fixed a bug where coalesce would take caster to negative mana~
+End
+
+#News
+TimeStamp 1472308034
+NewsData  New skill for shaman hex, see help file.~
+End
+
+#News
+TimeStamp 1472308990
+NewsData  mend skill revamped for shamans~
+End
+
+#News
+TimeStamp 1472309118
+NewsData  Shaman given 2h bludgeons and blowguns skills~
+End
+
+#News
+TimeStamp 1472317090
+NewsData  Fixed bug with autodoor and flee~
+End
+
+#News
+TimeStamp 1472341725
+NewsData  Norrinton South Harbor area slightly expanded.~
+End
+
+#News
+TimeStamp 1472341755
+NewsData  A few areas that objects had no descriptions were given them. 
+            Gnome tower, Merchant Discovery.~
+End
+
+#News
+TimeStamp 1472388156
+NewsData  Abandoned Cabin area objects have descriptions added to them.~
+End
+
+#News
+TimeStamp 1472388553
+NewsData  Garden area has object descriptions added.~
+End
+
+#News
+TimeStamp 1472390556
+NewsData  Tufkular area object descriptions that were missing have been 
+            added.~
+End
+
+#News
+TimeStamp 1472424744
+NewsData  fixed a bug with shoulder pauldrons disappearing when you die~
+End
+
+#News
+TimeStamp 1472434805
+NewsData  Dragons can now do quests of any quest level since they can 
+            already hunt in areas beyond their level.~
+End
+
+#News
+TimeStamp 1472464406
+NewsData  fixed a bug with druid owls not being able to fly home~
+End
+
+#News
+TimeStamp 1472467165
+NewsData  Fixed a bug with enlarge shrink affects with using crawl, and 
+            getting dispelled by mobs.~
+End
+
+#News
+TimeStamp 1472553488
+NewsData  Ok fix on enlarge shrink wasn't perfect, now if game finds you 
+            with incorrect height weight and our not a dragon it sets you back 
+            to your race height weight.~
+End
+
+#News
+TimeStamp 1472689805
+NewsData  cure affliction now cures more ailments the higher level the 
+            caster.~
+End
+
+#News
+TimeStamp 1472690155
+NewsData  Druids and Angels now get Sanctuary at level 98~
+End
+
+#News
+TimeStamp 1472854150
+NewsData  Fixed a crash bug in send_tochannel function~
+End
+
+#News
+TimeStamp 1472856327
+NewsData  Sorceror class given create food spell~
+End
+
+#News
+TimeStamp 1472896259
+NewsData  players can now join Halcyon clan, although they are only neutral 
+            in their actions, they can still be attacked as all players are 
+            player killers in this game.~
+End
+
+#News
+TimeStamp 1472900328
+NewsData  You can now get some fitful sleep dozing off in your saddle, which
+             wont be as effective as sleeping on the ground.  Unless your a
+             crusader or shadowknight, then you are used to sleeping in the saddle.~
+End
+
+#News
+TimeStamp 1472941760
+NewsData  fixed a out of bounds array with pc_display~
+End
+
+#News
+TimeStamp 1472941816
+NewsData  fixed arrays with dragonic trade and lumber trade~
+End
+
+#News
+TimeStamp 1473011062
+NewsData  Fixed a bug with tanned items saying only a massive dragon can 
+            wear~
+End
+
+#News
+TimeStamp 1473070943
+NewsData  The time it takes to get hungry/thirsty has been doubled.~
+End
+
+#News
+TimeStamp 1473072821
+NewsData  New sound file learn.wav added for when you improve at a skill, 
+            you must have config enhanced on~
+End
+
+#News
+TimeStamp 1473080697
+NewsData  Restriction added for angels with minor restore -> they do more or 
+            less healing the better alignment they have.~
+End
+
+#News
+TimeStamp 1473089836
+NewsData  New magic spell for mages -> find familiar~
+End
+
+#News
+TimeStamp 1473120406
+NewsData  Added a fix so if wee little dragons happen upon dragon quest 
+            before, level 20 it will automatically remove the quest at the 
+            end, so they can in fact do it when they hit level 20.~
+End
+
+#News
+TimeStamp 1473123570
+NewsData  Dream Walk revamped to same standards as breech and astral~
+End
+
+#News
+TimeStamp 1473297232
+NewsData  New skill for Beastmasters called spirit travel~
+End
+
+#News
+TimeStamp 1473331247
+NewsData  Exits now show up to the beastmaster that is in beast meld mode~
+End
+
+#News
+TimeStamp 1473378804
+NewsData  Beastmaster using beast meld mode will now show up with who 
+            command usage.~
+End
+
+#News
+TimeStamp 1473379841
+NewsData  Beast Masters can now do hone skill while beast melded.~
+End
+
+#News
+TimeStamp 1473415915
+NewsData  Beastmasters can now use the affects command when in beast meld 
+            mode~
+End
+
+#News
+TimeStamp 1473416272
+NewsData  Landmark command now works for beastmaster in beast meld mode~
+End
+
+#News
+TimeStamp 1473466870
+NewsData  Beastmaster's in beast meld mode can now use normal talking 
+            channels.~
+End
+
+#News
+TimeStamp 1473512717
+NewsData  Mobs will attack beastmaster when using beastmeld mode~
+End
+
+#News
+TimeStamp 1473514533
+NewsData  Beastmasters now see pet leveling info with level command~
+End
+
+#News
+TimeStamp 1473516687
+NewsData  Pet hunger instantly fulfilled on successful use of stalk skill 
+            for beastmaster~
+End
+
+#News
+TimeStamp 1473517865
+NewsData  Pet thirst instantly fulfilled on successful use of find water for 
+            beastmaster~
+End
+
+#News
+TimeStamp 1473519193
+NewsData  Beastmasters given smell skill~
+End
+
+#News
+TimeStamp 1473591936
+NewsData  New skill called join for beastmasters lets their body be called 
+            to their location.~
+End
+
+#News
+TimeStamp 1473612277
+NewsData  Beastmaster pets, now have to swim in water~
+End
+
+#News
+TimeStamp 1473613519
+NewsData  Halflings, humans and gnomes can now be Beastmaster class as well.~
+End
+
+#News
+TimeStamp 1473626980
+NewsData  Fixed a few bugs with beast master pets not being set to proper 
+            hitpoints when tamed and when they level.~
+End
+
+#News
+TimeStamp 1473644830
+NewsData  Fixed crash bug with a NULL string~
+End
+
+#News
+TimeStamp 1473719964
+NewsData  Now if Beastmaster flee's the pet will flee as well.~
+End
+
+#News
+TimeStamp 1473761086
+NewsData  fixed a crash bug for blind players who use level in beast meld 
+            mode.~
+End
+
+#News
+TimeStamp 1473806421
+NewsData  New sounds added for Beastmaster download at 6dragons.tk/sounds.tar.gz~
+End
+
+#News
+TimeStamp 1473896093
+NewsData  Beastmaster in beast mode can now trash objects, had to fix bug so 
+            they could see the objects, use portalstone, and recall.~
+End
+
+#News
+TimeStamp 1473898182
+NewsData  Wilderness mobs will also jump beastmasters in beast meld mod.~
+End
+
+#News
+TimeStamp 1473901074
+NewsData  whereis command now works for beastmaster in beast meld mode~
+End
+
+#News
+TimeStamp 1473903983
+NewsData  Fixed compilation errors with i3 intermud code.~
+End
+
+#News
+TimeStamp 1474021410
+NewsData  New command for beastmaster in beast meld mode called petscore.~
+End
+
+#News
+TimeStamp 1474075949
+NewsData  Blue Dragons can now breathe water through gills, glide through 
+            the water for swimming, and withstand any arctic weather.~
+End
+
+#News
+TimeStamp 1474078835
+NewsData  Black Dragons have a auto physical attack of a tail whip.~
+End
+
+#News
+TimeStamp 1474111697
+NewsData  added snap.wave for sound when mining picks break.~
+End
+
+#News
+TimeStamp 1474134046
+NewsData  Fixed a sector type bug with arctic wilderness locations not 
+            showing descriptions~
+End
+
+#News
+TimeStamp 1474163290
+NewsData  Fixed prob with free_banks so cleanup_memory didn't crash game.~
+End
+
+#News
+TimeStamp 1474163311
+NewsData  Added STRFREE obj->owner to obj_clean_que~
+End
+
+#News
+TimeStamp 1474326006
+NewsData  Gold Dragons - issued back some of the magic they used to have and 
+            as per the help file they ae supposed to be strong in magic.~
+End
+
+#News
+TimeStamp 1474327010
+NewsData  New skill for Silver Dragons Steel Flex~
+End
+
+#News
+TimeStamp 1474407580
+NewsData  Fixed a crash bug with wimpy settings~
+End
+
+#News
+TimeStamp 1474592170
+NewsData  Fixed a big memory leak in void free_obj_here_list(void) thanks to 
+            Valgrind software and Remcon~
+End
+
+#News
+TimeStamp 1474592702
+NewsData  New code added to compiler called memwatch that alerts of memory 
+            errors.~
+End
+
+#News
+TimeStamp 1474683034
+NewsData  Fixed a crash bug with boost affect and players quitting game~
+End
+
+#News
+TimeStamp 1474849044
+NewsData  Fixed crash with beast meld using skills command, it should not 
+            have been allowed.~
+End
+
+#News
+TimeStamp 1474971018
+NewsData  fixed a memory leak with CHQUEST_DATA~
+End
+
+#News
+TimeStamp 1475019540
+NewsData  fixed bug with ball of light~
+End
+
+#News
+TimeStamp 1475019908
+NewsData  Beastmeld mode now get's crash.wav sound when ambushed by mobs in 
+            wild.~
+End
+
+#News
+TimeStamp 1475057513
+NewsData  Fixed a crash bug with carpentry~
+End
+
+#News
+TimeStamp 1475059351
+NewsData  helpfile for Carpenters and mill updated~
+End
+
+#News
+TimeStamp 1475283751
+NewsData  New command queststat for staff that lets us view where players 
+            are on a quest for helping those who have quest issues.~
+End
+
+#News
+TimeStamp 1475327118
+NewsData  Useless title_table removed from class function~
+End
+
+#News
+TimeStamp 1475354249
+NewsData  New innate ability of red dragon they draw outward a searing haze 
+            of heat when in battle.~
+End
+
+#News
+TimeStamp 1475448826
+NewsData  Vampires now burn less in the sun the older they get.~
+End
+
+#News
+TimeStamp 1475452576
+NewsData  Feed skill acquires more blood the older the vampire gets.~
+End
+
+#News
+TimeStamp 1475452753
+NewsData  Gorge skill acquires more blood the older the vampire gets.~
+End
+
+#News
+TimeStamp 1475453195
+NewsData  When flying if you use sleep or rest command you automatically 
+            land instead of having to type land first, it is now assumed you 
+            would if you wanted to sleep.~
+End
+
+#News
+TimeStamp 1475453864
+NewsData  Demons feed skill now acquires more blood the older the demon is.~
+End
+
+#News
+TimeStamp 1475453877
+NewsData  Angels heal more the older the angel is.~
+End
+
+#News
+TimeStamp 1475663755
+NewsData  Fixed Dragonic produced crystal lights settings~
+End
+
+#News
+TimeStamp 1475795876
+NewsData  fixed a crash with staff fighting and using life command getting 
+            hp set to zero and crashing game.~
+End
+
+#News
+TimeStamp 1475927526
+NewsData  Fixed a bug where you couldn't fill your flask of water from a 
+            fountain~
+End
+
+#News
+TimeStamp 1476552027
+NewsData  Adjusted shipwright mob in wilderness so it will sell you a ship 
+            to sail across the ocean or repair your ship hull.~
+End
+
+#News
+TimeStamp 1476552956
+NewsData  fliers and floaters you will no longer be able to coast across the 
+            ocean with as low a movement loss as you once enjoyed.~
+End
+
+#News
+TimeStamp 1476573317
+NewsData  Added a auth all option for authorizing new player names as I am 
+            that lazy.~
+End
+
+#News
+TimeStamp 1476665850
+NewsData  Fixed dispel magic bug with Dragon human form~
+End
+
+#News
+TimeStamp 1477180532
+NewsData  Canniablize now works better based on age, and heals more if not 
+            fighting.~
+End
+
+#News
+TimeStamp 1477187046
+NewsData  Burrowed vampires loose no blood from tick updates.~
+End
+
+#News
+TimeStamp 1479250459
+NewsData  New config Keepalive will keep you logged on when you are away 
+            from computer~
+End
+
+#News
+TimeStamp 1486833451
+NewsData  Fixed crusaders and shadowknights healing rate while mounted~
+End
+
+#News
+TimeStamp 1492960666
+NewsData  Now all non-specialized races can be any class, why not?~
+End
+
+#News
+TimeStamp 1508089184
+NewsData  New Area added Vampire's Den~
+End
+
+#News
+TimeStamp 1509581531
+NewsData  Fixed the issue with having to type your name in twice at log-in~
+End
+
+#News
+TimeStamp 1509583905
+NewsData  city healers should be casting remove curse now and then~
+End
+
+#News
+TimeStamp 1509796734
+NewsData  Fixed a bug where if a class had combo and coal it was confusing 
+            one for the other, also fixed a minor leak associated with it~
+End
+
+#News
+TimeStamp 1509796958
+NewsData  Fixed a messaging issue with dark blessing spell~
+End
+
+#News
+TimeStamp 1509797353
+NewsData  Now if a caster's beast kills you in arena it should not causes 
+            you to lose your corpse there.~
+End
+
+#News
+TimeStamp 1509797819
+NewsData  Adjusted alias command to allow 250 uses in a row instead of 50 
+            max.~
+End
+
+#News
+TimeStamp 1509798040
+NewsData  Fixed issue with RP flag missing a bracket~
+End
+
+#News
+TimeStamp 1509799859
+NewsData  Adjusted City sieges so even if no defenses a few guards remain~
+End
+
+#News
+TimeStamp 1519001726
+NewsData  Fixed bugg with shrink and enlarge making people negative numbers.~
+End
+
+#News
+TimeStamp 1519003456
+NewsData  You automatically start on general board when you type boards as 
+            default now instead of auction~
+End
+
+#News
+TimeStamp 1519052096
+NewsData  New skill for Beastmaster Pounce!~
+End
+
+#News
+TimeStamp 1519052844
+NewsData  New skill for psionics takeover!~
+End
+
+#News
+TimeStamp 1519060445
+NewsData  fixed config keepalive to work with all mud clients.~
+End
+
+#News
+TimeStamp 1519062821
+NewsData  Black Dragons get bonus when using tail swipe~
+End
+
+#News
+TimeStamp 1519063392
+NewsData  New skill for Black Dragons whiplash~
+End
+
+#End

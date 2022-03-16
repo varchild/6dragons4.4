@@ -1,0 +1,1434 @@
+#AREA        Garden~
+
+
+
+#VERSION     11
+#AUTHOR      Ryner~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+15 20 1 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 999999955 999996283 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4001
+scare crow~
+a scare crow~
+A straw filled scare crow is standing vigilantly here.
+~
+The scare crow has clothing made from sewed together rags.  It appears to be made mostly up of straw.
+It has a set of glowing green eyes, and shiny white fangs in it's mouth.
+~
+1
+Clanname none~
+0
+0
+131107 4194816 0 C
+15 0 0 1d1+600 1d4+2
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+10 0 0 0 0 0 4144 0
+> fight_prog 5~
+mpecho &GA scare crows eyes turn bright green, and the light encompasses you!
+c 'weaken' $n
+c 'kindred' self
+~
+> death_prog 100~
+if quest(Tarane) == 7
+  mpquest $n Tarane 8
+endif
+~
+|
+#4002
+skunk~
+a skunk~
+A skunk is foraging here.
+~
+A giant sized black cat-like creature with a white stripe down it's back and tail.
+~
+13
+Clanname none~
+0
+0
+1 0 0 C
+10 0 0 1d1+700 1d1+2
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 1
+10 0 33 0 0 0 262147 2
+#4003
+farmer Hala~
+Farmer Hala~
+Hala, a humble farmer, stands here.
+~
+The farmer is a weathered old man.  He has white hair, and blue eyes.
+~
+1
+Clanname none~
+0
+0
+1&2048 4194304 0 C
+25 0 0 1d1+2000 1d4+4
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+20 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if clan($n) == HALCYON
+  mpechoat $n &CFarmer Hala says, 'Welcome friend.'&D
+else
+  mpechoat $n &CFarmer Hala says, 'Welcome.  Have you ever thought of doing peaceful work? Or do you enjoy solving disputes?'
+  mppause 3
+  mpechoat $n &CFarmer Hala says, 'Well, have I got an opportunity for you!  We in the Halcyon have devoted ourselves to peace and the settling of disputes.  If you think this is something you are interested in, please tell me!'&D
+  mppause 4
+  mpechoat $n &cType &WSAY HALCYON&c to learn more.&D
+endif
+~
+> speech_prog HALCYON~
+if clan($n) == HALCYON
+  mppause 2
+  mpechoat $n Farmer Hala says, 'Your help with us is always appreciated.'
+else
+  if quest(halcyon) == 0
+    if level($n) > 9
+        mppause 4
+        mpechoat $n &CFarmer Hala says, 'Wonderful news.  The first task that I need you to perform is to deliver this message to Kyfaek, in Kirwood Swamp: &WWE WISH TO HELP MAKE THE PEACE&C.'&D
+        mpquest $n halcyon 1
+        mpechoat $n &CFarmer Hala says, 'Good luck to you, friend.'&W
+    endif
+  endif
+endif
+~
+> speech_prog 'THERE WILL BE NO PEACE WHILE THE ALLIANCE STANDS'~
+if quest(halcyon) == 2
+  mpechoat $n &CFarmer Hala says, 'That's quite a shame.  But, to be certain, you'll need to speak with Blademaster Symon in Paleon city.  Give him the same message, &WWE WISH TO HELP MAKE THE PEACE&C.'&D
+  mpquest $n halcyon 3
+  mpechoat $n &CFarmer Hala says, 'If neither side wants peace, then peace is but a dream for us all.'&D
+endif
+~
+> speech_prog 'PEACE WILL COME ONCE THE THRONG IS GONE'~
+if quest(halcyon) == 4
+  mpechoat $n &CFarmer Hala says, 'I see.  So no peace is possible.  That's a shame.'
+  mpechoat $n &cFarmer Hala sits down, deep in though.&D
+  mppause 5
+  mpechoat $n &CFarmer Hala says, 'Thank you for all your work.'&D
+  mpinduct $n
+  mpquest $n halcyon 5
+endif
+~
+|
+#4004
+black crow~
+a black crow~
+A little black crow pecks at the ground looking for something to eat.
+~
+A crow is covered with black feathers and has sharp piercing eyes.
+~
+13
+Clanname none~
+0
+0
+65 524288 0 C
+12 0 0 20d20+100 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 4
+0 0 0 0 0 0 3 0
+#4050
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 2 0
+#4001
+straw hat~
+a straw hat~
+A straw hat has been left here.~
+~
+9 0 17
+10 10 0 0 0 10 0
+1 12 1
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+19 1
+A
+5 1
+E
+straw hat~
+The straw hat has many holes in it, but has held up nicely.
+~
+#4002
+faded green shirt~
+a faded green shirt~
+A faded green shirt has been left here.~
+~
+9 0 9 4
+10 10 0 0 0 15 0
+1 86 8
+4
+11
+0
+0
+0
+0
+S 77 0
+A
+17 -24
+E
+green shirt~
+The faded green shirt has seen many days of sun.
+~
+#4003
+work leather gloves~
+a pair of leather work gloves~
+A pair of leather work gloves has been left here.~
+~
+9 0 129
+10 10 0 0 0 15 0
+1 74 7
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+1 2
+E
+work gloves~
+The leather work gloves are well used and has a few gouges in it.
+~
+#4004
+worn leather boots~
+a pair of worn leather boots~
+A pair of worn leather boots has been left here.~
+~
+9 0 65 128
+10 10 0 0 0 15 0
+12 97 9
+4
+1
+0
+0
+0
+0
+S 77 0
+A
+14 75
+E
+boots worn~
+The work boots have a layer of mud caked on the bottom of them.
+~
+#4005
+odor enhancing gland~
+a odor enhancing gland~
+A odor enhancing gland has been left here.~
+~
+60 0&32 1
+50 3 3 1 -1 10 -1
+1 10 1
+1
+5
+0
+0
+0
+0
+'easy victim' 'NONE'
+S 0 0
+E
+gland~
+The gland has a pugnent strong odor emitting from it.
+~
+#4050
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 2 0
+#0
+
+
+#ROOMS
+#4000
+Beginning of a Garden Path~
+~
+Towards the east a more detailed view of the neatly arranged rows can be 
+seen. It appears to be a well kept garden surrounded by a white picket fence. 
+Within this garden a well aged Willow tree stands, although thick foliage 
+prevents anyone from looking into the tree. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4001
+D3
+~
+~
+0 -1 4004
+E
+desc~
+Towards the East you see neatly arranged rows that you can only assume is 
+part of a well kept garden surrounded by a white picket fence. Within this 
+garden a gigantic, well aged Willow tree stands. Not being able to see 
+through the thick foliage of the tree an urge of curiousty flows through 
+you. Towards the east a more detailed view of the neatly arranged rows can 
+be seen. It appears to be a well kept garden surrounded a white picket 
+fence. Within this garden a well aged Willow tree stands. Not being able 
+to see through the thick foliage of the tree an urge of curiousty 
+develops. 
+~
+S
+#4001
+Along a Garden Path~
+~
+As the garden nears, the aromas of produce and freshly turned earth dance 
+in the air. The Willow tree lies not far to the east and strange noises 
+emit from it. The path here is different than the path before the bend. It 
+is not quite as wide and appears to have decorative bricks lining the 
+edges rather than half burried rocks. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4002
+D3
+~
+~
+0 -1 4000
+S
+#4002
+Nearing a Garden~
+~
+As the garden nears, a small patch of pumpkins begins to appear. Just 
+behind the Willow tree a small farm house is just visible. Although not 
+large in size, the farm house looks unkept for, unlike the garden. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4003
+D3
+~
+~
+0 -1 4001
+S
+#4003
+Just Outside a Garden~
+~
+Being just outside the garden, the pure magnitude of it can be seen. A 
+small gate is propped open by a large rock, but its ability to function 
+could be questioned as it is dangling by a single hinge. Also, posted 
+alongside the fence is a cracked and weathered wooden sign. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4009
+D3
+~
+~
+0 -1 4002
+R M 0 4002 2 4003
+  R G 0 4005 1
+E
+sign~
+To all ye' filthy animals: Stay out of mu' garden and don't try to eat mu' 
+crops! I been workin' hard to keep 'em for me, an' thats what I intend to 
+do! Good day, -Head Farmer 
+~
+S
+#4004
+A Bend in the Path~
+~
+A sharp bend in the path takes the direction in almost a 90 degree turn in 
+the eastern direction. To the east, a bundle of various crops can be seen. 
+A few shovels and rakes are here up against an oak tree beside the path. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4000
+D2
+~
+~
+0 -1 4005
+R M 0 4002 3 4004
+  R G 0 4005 1
+S
+#4005
+Along a Rustic Path~
+~
+As the road nears the bend in the path a white picket fence is noticable. 
+The apex of a large tree can be seen as well as many tall stocks of corn. 
+The decorative rocks begin to disappear as the path continues south. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4004
+D2
+~
+~
+0 -1 4006
+S
+#4006
+Along a Rustic Path~
+~
+While this well travelled path continues, it begins to narrow  slightly.
+The trees that lined the path on the eastern and western side completely
+disappear. Further south a sharp bend in the path is noticable. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4005
+D2
+~
+~
+0 -1 4007
+S
+#4007
+Along a Rustic Path~
+~
+This baron path continues to the north and south. To the east and west 
+there are bare fields that once appeared to have flourished. The plants 
+are, if not dead, on the brink of death. It appears that the fields have 
+been turned into part of the surround wildlife. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4006
+D2
+~
+~
+0 -1 4008
+S
+#4008
+A Rustic Path~
+~
+This wide, worn path has been used by many carts. This is apparent because 
+of the deep ruts running down the sides. A few trees line the edges, but 
+nothing too dense to see through. Small rocks also line the borders which 
+adds a decorative look. 
+~
+1 0 11
+D0
+~
+~
+0 -1 4007
+D11
+~
+~
+0 -1 42297
+S
+#4009
+Garden Entrance~
+~
+Although the path through the garden is in a simple grid formation, it is 
+quite large in size. To the not-so-far-off east the giant Willow can be 
+seen in further detail and a few large holes can be seen in the trunk. 
+~
+1 4 21
+D0
+~
+~
+0 -1 4010
+D1
+~
+~
+0 -1 4037
+D2
+~
+~
+0 -1 4012
+D3
+~
+~
+0 -1 4003
+S
+#4010
+Along the Western Fence~
+~
+Many flies are buzzing around as rotten fruit and other organic materials 
+are stretched along this side of the fence. The smell of the pile is 
+putrid and the bite leaves a taste close to bile in the mouth. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4011
+D1
+~
+~
+0 -1 4028
+D2
+~
+~
+0 -1 4009
+S
+#4011
+Northwestern Garden Corner~
+~
+The rancid compost pile gets more intense in this corner of the garden. No 
+doubt the pile has been brewing for years and has most likely never dried 
+out completely, for a musty smell lingers deep within in the horrible 
+stench. To the east northern boundaries of the garden stretch. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4027
+D2
+~
+~
+0 -1 4010
+S
+#4012
+Along the Western Fence~
+~
+Small rocks and other discarded objects from the now valuable soil
+are scattered along this western fence. An exit to the garden is not far
+off to the north, and to the east there are various types of crops
+growing.
+~
+1 0 21
+D0
+~
+~
+0 -1 4009
+D1
+~
+~
+0 -1 4036
+D2
+~
+~
+0 -1 4013
+S
+#4013
+Southwestern Garden Corner~
+~
+In this corner a walking space can be seen stretching far to the east. 
+Quite a few small gardening tools lay half buried in this corner. The 
+entrance to the garden is still in sight in the northern direction. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4012
+D1
+~
+~
+0 -1 4014
+R M 0 4002 2 4013
+  R G 0 4005 1
+S
+#4014
+Along the Southern Fence~
+~
+Along this southern end of the garden, the picket fence is bowed and the 
+paint is chipping off in large chunks. Small weeds and wild flowers line 
+the base of the fence and half-surfaced stones add to the rustic look. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4036
+D1
+~
+~
+0 -1 4015
+D3
+~
+~
+0 -1 4013
+S
+#4015
+Along the Southern Fence~
+~
+The path is very dry here. Dust blows up at the slightest gust of air.
+The moment the dust has settled again, the skeleton of a hand can be noticed on
+the side of the path, lacking a body. This boney figure, once a fleshy hand, 
+is tightly gripping a withered ear of corn. A handful of maggots remain, to
+pick off the rest of their decadent meal.
+~
+1 0 21
+D0
+~
+~
+0 -1 4035
+D1
+~
+~
+0 -1 4016
+D3
+~
+~
+0 -1 4014
+S
+#4016
+Along the Southern Fence~
+~
+The farmhouse to the east can be seen at a new angle. Although the roofing 
+of this farmhouse is in need of repair, it has a fresh new coat of tan 
+paint that makes it seem slightly more appealing. A silhouette appears to 
+be in front of a window, but upon a second look no one can be seen. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4034
+D1
+~
+~
+0 -1 4017
+D3
+~
+~
+0 -1 4015
+S
+#4017
+Along the Southern Fence~
+~
+A few scattered bones can be seen scattered around the ground here, 
+including the skull of a gopher that most likely came from a pile of bones 
+to the east. More of the path can be seen continuing in the western 
+direction and the southeastern corner of the garden lies to the east. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4020
+D1
+~
+~
+0 -1 4018
+D3
+~
+~
+0 -1 4016
+S
+#4018
+Southeastern Garden Corner~
+~
+This corner of the garden has a wooden box without a lid that is 
+overflowing with bones of garden pests. Someone must have done justice to 
+all of the rodents that were eating their crops, most likely the farmer. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4019
+D3
+~
+~
+0 -1 4017
+S
+#4019
+Along the Eastern Fence~
+~
+A carved wooden bench lays here as an apparent rest spot for one to marvel 
+at the neatly crafted garden. Small slices in the wood provide evidence 
+that a knife has been stuck into the bench many times. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4021
+D2
+~
+~
+0 -1 4018
+D3
+~
+~
+0 -1 4020
+S
+#4020
+Among Some Pepper Plants~
+~
+Quite a few pepper plants are thriving here. Fiery red peppers bulge off 
+of the base of these plants and are ready to be picked. To the west a nice resting 
+area can be seen and beyond that are patches of tomato plants. To the east 
+a path runs north and south along a picket fence. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4032
+D1
+~
+~
+0 -1 4019
+D2
+~
+~
+0 -1 4017
+D3
+~
+~
+0 -1 4034
+R M 0 4004 3 4020
+S
+#4021
+Garden Exit~
+~
+The garden exit is here. Finally, for the first time a clear view of a 
+small but cozy farm house can be seen far off to the east. To the 
+south a box overflowing with what appears to be white sticks and rocks can 
+barely be made out. To the west the large Willow tree stands. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4022
+D1
+~
+~
+0 -1 4046
+D2
+~
+~
+0 -1 4019
+D3
+~
+~
+0 -1 4032
+S
+#4022
+Along the Eastern Fence~
+~
+To the west, the Willow tree can be spotted, towering above the surrounding
+crops. A pile of rocks, barely bigger than a human skull, are formed from
+stones and rocks found in the garden. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4023
+D2
+~
+~
+0 -1 4021
+D3
+~
+~
+0 -1 4031
+S
+#4023
+Northeastern Garden Corner~
+~
+This corner of the garden has twigs from the plants of the garden and 
+large stones that were removed from the soil. In the southern direction an 
+exit to the garden can be seen that leads to a small farmhouse. 
+~
+1 0 21
+D2
+~
+~
+0 -1 4022
+D3
+~
+~
+0 -1 4024
+S
+#4024
+Along the Northern Fence~
+~
+This path along the weed stricken fence seems to go on forever. A bit more 
+grass stretches across this path, but it consists mostly of dirty and 
+small rocks. To the west the path continues comes to the garden exit. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4023
+D2
+~
+~
+0 -1 4031
+D3
+~
+~
+0 -1 4025
+S
+#4025
+Along the Northern Fence~
+~
+A small patch of luscious green grass is running along the base of the 
+northern fence and stretches forth to the north beyond the borders of the 
+garden. A few bees fly by searching for a pollen infested flower and are 
+shortly followed by a butterfly. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4024
+D2
+~
+~
+0 -1 4030
+D3
+~
+~
+0 -1 4026
+S
+#4026
+Along the Northern Fence~
+~
+A patch of dandelions and other wild flowers surround the base of the 
+fence and some even stretch across the path. Beyond the fence, far off in 
+the northern direction, a few mountains can be seen lining the horizon. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4025
+D2
+~
+~
+0 -1 4029
+D3
+~
+~
+0 -1 4027
+S
+#4027
+Along the Northern Fence~
+~
+The path here continues to run along the fence on the northern side of the 
+garden. The base of the fence is scattered with small, ankle high weeds 
+that would tickle unprotected legs. In the distance yet another corner of 
+the garden can be seen. 
+~
+1 0 21
+D1
+~
+~
+0 -1 4026
+D2
+~
+~
+0 -1 4028
+D3
+~
+~
+0 -1 4011
+S
+#4028
+Along a Row of Corn~
+~
+A neat row of tall stalks of corn are here loaded with plump corn that is 
+bursting from the husks. A few sunflower plants lie dead on the ground 
+with sunflower seed shells and bird droppings scattered all around them. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4027
+D1
+~
+~
+0 -1 4029
+D2
+~
+~
+0 -1 4037
+D3
+~
+~
+0 -1 4010
+R M 0 4001 2 4028
+  R E 0 4001 1 6
+  R G 0 4002 1
+R M 0 4004 3 4028
+S
+#4029
+A Scarecrow in the Corn~
+~
+An insignificant scarecrow is stuck in the ground here amongst the rows of 
+corn. Many birds are resting on its arms and a family of finches has even 
+managed to make a nest inside of its chest. To the east more corn can be 
+seen and to the west the entrance to the garden is not far off. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4026
+D1
+~
+~
+0 -1 4030
+D2
+~
+~
+0 -1 4038
+D3
+~
+~
+0 -1 4028
+S
+#4030
+Along a Row of Corn~
+~
+Through the many stalks of corn the large Willow tree can be seen not far 
+off to the south. Unfortunately it doesn't look like there is any way to 
+get to the base of the tree from this direction. A puny scarecrow is off 
+to the west, and through the corn a picket fence can be seen to the east. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4025
+D1
+~
+~
+0 -1 4031
+D3
+~
+~
+0 -1 4029
+S
+#4031
+A Few Small Corn Stalks~
+~
+The corn here looks as though it was replanted recently. The stalks aren't 
+very thick or tall. Small mounds of dirt that most likely came from a 
+disgruntled gopher show proof of why the stalks needed to be replaced. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4024
+D1
+~
+~
+0 -1 4022
+D2
+~
+~
+0 -1 4032
+D3
+~
+~
+0 -1 4030
+S
+#4032
+A Small Patch of Squash~
+~
+Plump yellow squash is covering almost all of the ground here. A trail of 
+ants runs on top a few of these plants, but they don't seem to be 
+interested. To the west the large Willow tree looms overtop and to the 
+east a farmhouse isn't far off. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4031
+D1
+~
+~
+0 -1 4021
+D2
+~
+~
+0 -1 4020
+S
+#4033
+Base of a Large Willow Tree~
+~
+Inside at the base of the tree there is enough standing water for a Willow 
+tree to thrive. The sunlight has faded once the wall of leaves that 
+surrounds the tree to the west was entered. Large knots in the tree trunk 
+come close to resembling steps. 
+~
+1 0 0
+D3
+~
+~
+0 -1 4038
+D4
+~
+~
+0 -1 4039
+S
+#4034
+A Small Patch of Clovers~
+~
+The ground here is covered with a patch of clovers. This area looks as 
+though it were made for picnicking. This picturesque area is overlooked by 
+the shade of a large Willow tree just to the north. Although there is no 
+way to climb the tree from this area, a few holes can be seen in the trunk of 
+the tree. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4020
+D2
+~
+~
+0 -1 4016
+D3
+~
+~
+0 -1 4035
+S
+#4035
+Through a Row of Tomatoes~
+~
+The tomatoes here don't look quite as healthy as the ones to the west. It 
+appears as if a few tomato worms have gotten to these plants, the leaves 
+have many holes in them. Instead of ripe, shapely tomatoes they are 
+disfigured. Many half eaten tomatoes are dangling from a tiny, yellowish stem. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4038
+D1
+~
+~
+0 -1 4034
+D2
+~
+~
+0 -1 4015
+D3
+~
+~
+0 -1 4036
+R M 0 4001 2 4035
+  R G 0 4001 1
+  R G 0 4002 1
+S
+#4036
+Through a Row of Tomatoes~
+~
+Quite a few tomato plants here have lots of pump, red tomatoes dangling 
+from it. These tomato plants appear to be not only healthy, but also 
+inclosed in a small cylinder of wire for their protection from animals. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4037
+D1
+~
+~
+0 -1 4035
+D2
+~
+~
+0 -1 4014
+D3
+~
+~
+0 -1 4012
+R M 0 4004 3 4036
+S
+#4037
+In a Small Pumpkin Patch~
+~
+There are a couple pumpkin plants here with fist sized pumpkins on them. 
+The vines of the plants cover the ground in an extremely thick tangle of 
+leaves and hard stems. This thick ground cover could trip-up an unaware 
+traveler very easily. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4028
+D1
+~
+~
+0 -1 4038
+D2
+~
+~
+0 -1 4036
+D3
+~
+~
+0 -1 4009
+S
+#4038
+Near a Large Willow~
+~
+The massive Willow tree towers above everything in the surrounding area. 
+The ground here is soft and squishy much resembling the edge of a marsh. 
+Many dangling branches covered with leaves obstruct the view of the trunk. 
+~
+1 0 21
+D0
+~
+~
+0 -1 4029
+D1
+~
+~
+0 -1 4033
+D2
+~
+~
+0 -1 4035
+D3
+~
+~
+0 -1 4037
+S
+#4039
+Climbing Up The Willow~
+~
+A few large knots jetting out from the trunk of the Willow tree provide a 
+few steps for one to climb on. The thick trunk appears to have a few giant 
+branches growing out of it. One of such branches is hanging overhead. 
+~
+1 0 0
+D4
+~
+~
+0 -1 4040
+D5
+~
+~
+0 -1 4033
+S
+#4040
+On A Thick Willow Branch~
+~
+This thick branch has even more room on it than what appeared from below. 
+Birds can be heard chirping towards the top of the tree and a few can be 
+seen standing on the nearby branches uncomfortable with any presence 
+besides their own. Also, a hole is dug into the trunk of the tree here. 
+~
+1 0 0
+D3
+~
+~
+0 -1 4044
+D4
+~
+~
+0 -1 4041
+D5
+~
+~
+0 -1 4039
+S
+#4041
+On A Twisting Branch~
+~
+This branch is not quite as large as the one below but is equally as 
+supportive. The way it twists and turns around other, smaller branches 
+adds to the gurth of the branch. Another hole is in the trunk here 
+surrounded by a thin layer of moss. 
+~
+1 0 0
+D3
+~
+~
+0 -1 4045
+D4
+~
+~
+0 -1 4042
+D5
+~
+~
+0 -1 4040
+S
+#4042
+Climbing Up The Willow~
+~
+More large knots are growing out of the trunk providing natural steps 
+upward. A ray of light can be seen shining through a hole in the thick 
+foliage above. A flat area near the top of the tree can be seen above. 
+~
+1 0 0
+D4
+~
+~
+0 -1 4043
+D5
+~
+~
+0 -1 4041
+S
+#4043
+A Large Clearing~
+~
+This large area is scattered with bones and blood stains. A hole in the 
+leaves above is the only supply of light, but unfortunately it fails to 
+supply any fresh air. The musty air is scattered with the stench of feces 
+and rotting flesh. 
+~
+1 0 0
+D5
+~
+~
+0 -1 4042
+S
+#4044
+A Squirrel's Lair~
+~
+This hole holds a wonderful little home for a family of squirrels. These 
+small bushy-tailed rodents have crafted part of the tree into a snug 
+little living space. The ground is covered with moss and appears to be 
+neatly trimmed. There is also a designated area for sleeping and a corner 
+set aside for storing nuts. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4040
+S
+#4045
+A Tree Hollow~
+~
+This hole has wood shavings everywhere. There isn't any furniture around 
+and it looks as though the hole isn't finished. A few peanut shells lay 
+strewn about and a small spider seems to have made a gossamer web here. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4041
+S
+#4046
+Front Porch of the Farm House~
+~
+The porch of this small farmhouse is old and the floorboards creak as 
+they are walked on. A rocking chair is positioned at an angle in the 
+corner of the porch and an old, lazy dog is next to the chair sleeping. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4047
+D3
+~
+~
+0 -1 4021
+S
+#4047
+Inside the Living Room~
+~
+This small living room contains a couch, two chairs, and a large coffee 
+table. A few food scraps have been left on the table, but a troop of ants 
+seem to be cleaning up nicely. The dull colored walls and low ceilings add 
+to the lethargic environment of the living room. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4050
+D1
+~
+~
+0 -1 4048
+D3
+~
+~
+0 -1 4046
+R M 0 4003 1 4047
+  R E 0 4003 1 9
+  R E 0 4004 1 8
+S
+#4048
+In the Kitchen~
+~
+The aromas in this small kitchen are wonderful. What the house lacks in 
+extravagant style, the kitchen makes up for in the way it smells. Many 
+knives are scattered around the counter-tops usually next to cutting 
+boards that are littered with bits of meat and vegetables. A large iron 
+cooking pot is here simmering on a hot firepit. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4049
+D3
+~
+~
+0 -1 4047
+S
+#4049
+Farmer's Bedroom~
+~
+Two small matresses are on the floor here. These matresses are separated 
+by a large lantern that is hooked onto the wall and floor. A window is on 
+the eastern wall of the bedroom and it looks out into a dark forest. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4048
+S
+#4050
+A Small Parlor~
+~
+A desk scattered with numerous papers makes this room resemble more of an 
+office than a parlor. The nicest chair in the house is located underneath 
+a window on the western wall, overlooking the garden just outside. A shelf 
+containing a dozen or so record books is along the northern wall. 
+~
+1 4 0
+D2
+~
+~
+0 -1 4047
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

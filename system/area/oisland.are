@@ -1,0 +1,1599 @@
+#AREA        Obscure Island~
+
+
+
+#VERSION     11
+#AUTHOR      Amarath~
+#DERIVATIVES ~
+#COLOR       9
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+85 100 85 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG You hear some birds squawking in the distance.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 2450000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#47101
+Statue Intercia feminine figure~
+A Statue of Intercia~
+A statue of a feminine figure stands on a pedestal in the center of the room.
+~
+~
+1
+Clanname none~
+0
+0
+3 134217896 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 13 13 13 25 13 25
+0 0 0 0 0
+37 18 0 0 4097 1 0
+0 0 263111 0 0 0 136315266 8194
+#47102
+Man Jalick Tunic cowering~
+Jalick the Crazy~
+A man sits, cowering, in the corner.
+~
+~
+1
+Clanname none~
+0
+0
+3 0 -1000 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+18 5 10 20 10 11 15
+0 0 0 0 0
+0 16 0 0 1 1 0
+0 0 233 17825792 0 0 302022656&2 1052163
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &cJalick the Crazy looks around with a crazed expression.&D
+mppause 5
+mpechoat $n &CJalick the Crazy says, 'They will come for us, and get all of us!'&D
+~
+> fight_prog 5~
+higher
+mppause 10
+eldritch $n
+mppause 20
+eldritch $n
+~
+|
+#47103
+Cackling woman Salsie~
+Salsie the Fortuneteller~
+A cackling elderly woman leans over her crystal ball.
+~
+~
+1
+Clanname none~
+0
+0
+3 128 0 C
+82 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+15 20 14 11 16 5 23
+0 0 0 0 0
+84 2 0 0 1 1 0
+0 0 255 0 0 0 170000384&2 33554434
+#47104
+male young darcal knight~
+Darcal the Knight~
+A young, richly adorned male stands in the corner watching two squires train.
+~
+~
+1
+Clanname none~
+0
+0
+3 0 0 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+23 20 13 20 24 13 15
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 193 0 0 0 1308622896 14403
+> fight_prog 5~
+spirits
+mppause 5
+righteous $n
+mppause 5
+righteous $n
+mppause 4
+mpecho &cDarcal the Knight lowers his sword and raises his Shield of Valor.
+mpecho &cDarcal the Knight bashes you with his Shield of Valor!
+mpdamage $n 200
+~
+|
+#47109
+Corrupted Gold Drake~
+a corrupted golden drake~
+A corrupted drake snarls at those who challenge it.
+~
+~
+1
+Clanname none~
+0
+0
+35 33554560 0 C
+92 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+20 16 13 16 24 11 15
+0 0 0 0 0
+13 9 0 0 4097 1 0
+0 0 327821 0 0 0 150995137 2051
+#47110
+fumbling old man Ivan Blind~
+Ivan the Blind~
+An old man fumbles around on the floor.
+~
+~
+1
+Clanname none~
+0
+0
+131073 369098880 0 C
+84 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+15 25 25 16 17 10 20
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 207 0 0 0 134217905 1050115
+#47111
+Whyrm Infected Hound~
+a hound infected by whyrms~
+A hound with flesh rotting off of its hide stares hungrily at the wall.
+~
+~
+1
+Clanname none~
+0
+0
+131105 369098880 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+25 20 20 23 25 16 24
+0 0 0 0 0
+28 18 0 0 1 1 0
+0 0 65677 0 0 0 1224736961 3
+#47112
+zombie creature~
+a zombie~
+A rotting flesh creature limps along here.
+~
+~
+1
+Clanname none~
+0
+0
+33 640 -500 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 69 0 0 0 128&136 3&1
+#47113
+zombie creature chief red~
+a zombie chieftain~
+A red skinned rotting flesh creature limps along here.
+~
+~
+3
+Clanname none~
+0
+0
+33 640 -500 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 69 0 0 0 128&136 3&1
+#47150
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#47101
+Gold Dragon Statue~
+a Statue of a Proud Gold Dragon~
+A detailed statue shows a Gold Dragon standing basking in yellow light.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+gold~
+This Dragon stands here, proud with it's head craned.  The colored glass of the window
+shines down on this usually white rock to make it a golden color, while it's eyes reflect
+a shade of aquamarine.  The well inlaid details of this statue make it look as if it
+ might come alive any moment and bring the building down.
+~
+#47102
+Silver Dragon Statue~
+a Statue of a Wise Silver Dragon~
+A detailed statue shows a Silver Dragon sitting reading a large book in white light.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+Silver~
+This Silver dragon sits proud, one taloned forepaw raised and placed delicately on the
+page of stone book which sits upon a stone stand, all of this looks to be extremely heavy
+as it's made of grey stone.  All of the colors are cast from the window, creating life
+so that it may look like it might read aloud any second.  Green eyes stare at the book,
+where the words are etched in time.
+
+" Back in time, the trees once stood true in grand forests.  ELVES lived among the trees
+without harming them.  "
+~
+#47103
+Blue Dragon Statue~
+A Statue of a Playful Blue Dragon~
+A detailed statue shows a Blue Dragon rearing up to peer at a Butterfly basked in blue light.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+Playful Blue~
+This dragon stands on it's hind legs with it's head on a ledge, showing it's pale
+yellow under belly scales to anyone who approaches it, it's smiling chops looking
+ at a butterfly that has landed on the ledge that it's head rests upon.
+~
+#47104
+Black Dragon Statue~
+A statue of a Menacing Black Dragon~
+A detailed statue shows a Black Dragon sitting with its wings flared in darkness.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+Menacing Black~
+This Dragon stares menacing at you from the shadows of the area, it's red eyes
+ glowing, and a faint draft of warm air gives the impression that it could devour
+ someone in one bite any moment now.
+~
+#47105
+Red Dragon Statue~
+A statue of a Fierce Red Dragon~
+A detailed statue shows a Red Dragon laying here with one eye open in red light.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#47107
+Clover Covered Stump~
+A clover covered stump~
+A stump covered in clover sits forgotten.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+stump~
+These stumps are covered in clover, drowning out the color of the stump 
+itself. Though, from the looks of things, there is a carving in the top. 
+But, there's too much foliage in the way to make out what it says. 
+~
+#47108
+leather leggings~
+a pair of leather leggings~
+A pair of leather leggings has been left here.~
+~
+9 0 33 32
+60 60 0 0 0 90 0
+8 241 24
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+18 10
+A
+19 10
+A
+14 50
+#47109
+black silk trousers~
+a pair of black silk trousers~
+A pair of black silk trousers has been left here.~
+~
+9 0 33 64
+60 60 0 0 0 90 0
+8 199 19
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+14 50
+A
+12 300
+#47110
+black silk cloak~
+a black silk cloak~
+A black silk cloak has been left here.~
+~
+9 0 1025 32
+60 60 0 0 0 90 0
+1 196 19
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+3 3
+A
+4 3
+A
+12 150
+#47111
+black silk cape~
+a black silk cape~
+A black silk cape has been left here.~
+~
+9 0 1025 64
+60 60 0 0 0 90 0
+1 234 23
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+12 300
+#47112
+enchanted dagger~
+an enchanted dagger~
+An enchanted dagger has been left here.~
+~
+5 524290 8193
+0 40 80 2 2 80 0
+1 186 5
+1
+5
+0
+0
+0
+0
+S 0 0
+A
+21 -8
+A
+13 200
+#47113
+mystic robes~
+mystic robes~
+A set of mystic robes has been left here.~
+~
+9 64 1025
+55 55 0 0 0 80 0
+1 196 19
+1
+5
+0
+0
+0
+0
+S 0 0
+A
+25 4
+A
+12 75
+A
+19 5
+#47114
+pearl ring~
+a pearl ring~
+A pearl ring has been left here.~
+~
+9 524354 3
+55 55 0 0 0 80 0
+3 177 17
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+2 1
+A
+1 1
+A
+13 30
+A
+19 4
+#47115
+hand half sword knight~
+a hand and half sword of a knight~
+A hand and half sword of a knight lies here.~
+~
+5 524608 8193
+0 124 153 1 0 90 0
+25 206 20
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+17 -200
+A
+19 12
+A
+27 1048576
+#47116
+shield valor ~
+the Shield of Valor~
+A shield of Valor has been left here.~
+~
+9 524609 513
+60 60 0 0 0 90 0
+33 235 23
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+27 512
+A
+17 -50
+A
+13 200
+#47117
+necklace solomon~
+a necklace of solomon~
+A necklace of solomon has been left here.~
+~
+9 0 5
+60 60 0 0 0 90 0
+5 234 23
+1
+14
+0
+0
+0
+0
+S 0 0
+A
+26 8192
+A
+19 5
+#47118
+torn trousers~
+a pair of torn trousers~
+A pair of torn trousers has been left here.~
+~
+9 0 33
+60 60 0 0 0 90 0
+8 241 24
+1
+8
+0
+0
+0
+0
+S 0 0
+A
+18 10
+A
+19 10
+A
+13 50
+#47119
+wooden spiked club~
+a spiked wooden club~
+A spiked wooden club has been left here.~
+~
+5 0 8193
+12 45 100 0 5 93 0
+4 190 19
+1
+1
+0
+0
+0
+0
+S 0 0
+A
+18 12
+#47150
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#47101
+A Hidden Passage Way~
+~
+Stairs lead down a passageway and into a large cave like area. The passage 
+is lit by dangling balls of blue cold fire, barely lighting it enough so 
+that you can see where it leads without tripping. 
+~
+1 3145728 13
+D0
+~
+~
+0 -1 47102
+D2
+~
+~
+2048 -1 47118
+D4
+~
+~
+0 -1 47103
+D5
+~
+~
+0 -1 47105
+S
+#47102
+Along the Hidden Path~
+~
+A wide path is lined with balls of glowing cold fire, which feeds the 
+moss and otherwise undiscovered flowers, their petals a deep red at the 
+base and flowing out to a soft yellow against the harsh brown of the 
+earth. Roots and vines hang from the ceiling, both brown in some spots 
+with age, and green in others. 
+~
+1 3145728 13
+D2
+~
+~
+0 -1 47101
+D8
+~
+garden path~
+0 -1 47104
+S
+#47103
+A Darkened Platform~
+~
+This room, which so previously was dark, lights up by candles on either 
+side of the path as they are passed by a living body. Stairs can be seen 
+leading down from the platform, small doors to either side of it, though 
+they seem to be too small to hold anything important. Skulls sit under the 
+candles, these skulls seem to be human in nature, though some of them vary 
+to that of the darker side. 
+~
+1 3145736 0
+D5
+~
+~
+0 -1 47101
+S
+#47104
+Before a Large Gate~
+~
+A towering gate stands here, made of a dense wood that looks like its 
+stood the test of time, strong, thick planks bolted together with tempered 
+iron, the handle in the design of a plant. The dirt floor has been evened 
+out here, though both the gate and the cavern is well oversized for the 
+average explorer. 
+~
+1 3145728 13
+D6
+~
+Hidden Garden~
+1 -1 47106
+D7
+~
+garden path~
+0 -1 47102
+E
+sign~
+~
+S
+#47105
+A Floorless Pit~
+~
+Claw marks are dug into the wall, unsuitable for climbing. Darkness awaits below,
+too far down to see the bottom, though from the marks in the walls of the circular
+pit, it seems many people have tried to escape from whatever lies below.
+~
+1 16777216 1
+D4
+~
+~
+0 -1 47101
+D5
+~
+~
+0 -1 47109
+S
+#47106
+An Underground Garden~
+~
+A breath taking waterfall falls in the north of this room, a lake sitting 
+peacefully at the bottom, water lilies floating on their lily pads with 
+little frogs sitting on them. Balls of coldfire light this room with a 
+glowing bright blue light, showing off the little specks of mist and 
+pollen in the air. There is a stone table with eight chairs in which to 
+sit. 
+~
+1 3153920 3
+D0
+~
+granite boulder~
+1 -1 47107
+D1
+~
+Maple door~
+1 -1 47110
+D9
+~
+Hidden Garden Gate~
+1 -1 47104
+R M 0 47112 1 47106
+R D 0 47106 0 0
+R D 0 47106 1 0
+R D 0 47106 9 0
+E
+Waterfall~
+This Waterfall spans upwards into the ceiling where a hole drops it down
+into the room. There seems to be a passage north beyond the water.
+~
+S
+#47107
+Behind the Waterfall~
+~
+Stepping behind the waterfall and opening the door, there's another 
+room, this time one that's lit by a natural glowing moss that is 
+as thick as carpet at the start, but slowly wanes away as you go 
+deeper into the passage. Ahead the passage seems to open up
+into a big room.
+~
+1 3145736 0
+D0
+~
+dragons path~
+0 -1 47108
+D2
+~
+granite boulder~
+1 -1 47106
+S
+#47108
+In a Massive Cavern~
+~
+Darkness, that is the word that describes this place best. Bones litter 
+the floor, smashed and broken in places that a bone should never be 
+allowed to break. Shields and what were once swords join the mess of what 
+is all over the ground, while claw marks that have been smoothed virtually 
+away over the years line the walls. 
+~
+1 3153928 0
+D2
+~
+dragons path~
+0 -1 47107
+R M 0 47109 1 47108
+S
+#47109
+The Bottom of The Pit~
+~
+Chains hang on the walls, broken chains, and the claw marks appear to have 
+been made by things that are rather strong. Bones litter the ground close 
+to the walls, skulls arranged in a pile, marks gouged through the surface. 
+~
+1 3145736 0
+D4
+~
+~
+0 -1 47105
+R M 0 47111 2 47109
+R M 0 47111 2 47109
+E
+Pink flower~
+The painting looks like a lotus but the tips of the petals curl out like a rose just beginning to bloom. Each petal looks like it's about to jump off the canvas, and sure enough, it's soon realise that they are, but that's not physical. of course, logically, that's impossible; but sure enough the petals bloom out further and further, showing the flower's blooming and closing proccess, it's then that a snapping of fingers interupts it, and it goes back to just a painting.
+~
+E
+Black Flame~
+The torches in the room glow a dim grey while the flames of hellfire remain a bright black, but surprisingly the rest of the room is lighter due to it. It doesn't make sense, a dark flame yet the room is light, perhaps asking the owner of the room would shed some light on the subject.
+~
+S
+#47110
+Little Drink Shop~
+~
+Dust scatters all over the room as the door is opened. Moths flutter 
+outside to escape the room filled with cobwebs. Spiders crawl from view in 
+annoyance as light enters their home. In the corners of the room, the 
+shadows seem to move back and forth in sight, weaving themselves into 
+shapes. 
+~
+1 3145736 0
+D3
+~
+Maple door~
+1 -1 47106
+D5
+~
+trapdoor~
+1 -1 47111
+S
+#47111
+The Wine Cellar~
+~
+The stairs creak as they're walked on, a single torch lighting on the wall 
+as the magic in the air senses the presence of a living being. This dark 
+place holds many racks of alcohol, some labels known by everyone, and then, 
+there are bottles that have the labels ripped off of them. 
+~
+1 3153920 13
+D0
+~
+~
+0 -1 47112
+D4
+~
+trapdoor~
+1 -1 47110
+S
+#47112
+A Dead End~
+~
+The cobwebs are really thick here, so thick the lights are out, and the 
+room is dank, moisture is in the air while a trickle of water falls from 
+the celing. Many sets of tiny eyes look out from between the bottles on 
+the wine racks, waiting for their unsuspecting victims to reach their hand 
+inside to grab one. 
+~
+1 3145732 13
+D2
+~
+~
+0 -1 47111
+S
+#47113
+The Ledge Of The Island~
+~
+The ground here is worn from people landing on it, void of all plant life 
+except for the edges, which only bear a light amount of grass.  To the
+north from here the wall of the place is visible at a distance. There's 
+a path going around to either side of it, brush blocking off these paths,
+as if they're not traveled that often. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47114
+D11
+~
+~
+0 -1 50569
+S
+#47114
+Before The South Entrance~
+~
+Before a set of massive gates made of cherry, the walls of a city tower
+to either side, making an attack upon the place nearly impossible. 
+The walls are made of a fine rock that fits together to form a surface
+as smooth as glass and twice as reflective.
+~
+1 0 1
+D0
+~
+Large Cherry Gate~
+1 -1 47115
+D2
+~
+~
+0 -1 47113
+D6
+~
+~
+0 -1 47121
+D7
+~
+~
+0 -1 47119
+R M 0 47112 2 47114
+R D 0 47114 0 0
+S
+#47115
+Intersection of Cloud 9 Blvd, East Rain Ave and Sun Street~
+~
+The stones of the streets merge here, dividing the street in two in the 
+direction of the pagoda. A wave of color floods the intersection and 
+ripples towards the pagoda in a show of blinding light that refracts off 
+of all the buildings for a few seconds. The trees here react with every 
+flash, growing taller, then shrinking. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47116
+D2
+~
+Large Cherry Gate~
+1 -1 47114
+D6
+~
+~
+0 -1 47137
+D7
+~
+~
+0 -1 47132
+R M 0 47112 5 47115
+R D 0 47115 2 0
+S
+#47116
+Cloud 9 Blvd~
+~
+Sparkling white and green stones line the street. Drains in the corners 
+are lined with moss here, and small weeds rest in fermented trash. There 
+are little areas to sit along the sides of the road for those who are 
+walking, where one can enjoy the natural beauty of nature coexisting with 
+man-made life. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47117
+D2
+~
+~
+0 -1 47115
+S
+#47117
+The Center Of A Pagoda~
+~
+The stone colors gather here, swirling into a spectrum of color as they 
+drown into a point. The stone in the center has absorbed all the color, 
+and is a sight to behold, sharing all of the shades at once on it's 
+surface. Four poles extend to the top of a hexagonal ceiling, blocking 
+rain from falling down onto the leather seats. 
+~
+1 0 1
+D0
+~
+~
+3 -1 47118
+D1
+~
+~
+0 -1 47140
+D2
+~
+~
+0 -1 47116
+D7
+~
+~
+0 -1 47142
+R M 0 47112 3 47117
+R D 0 47117 0 1
+S
+#47118
+In A Multicolored Temple~
+~
+Multi-colored glass covers the windows of this place, though inside it 
+seems to be completely barren, save for seven statues. The one in the 
+center is a female, standing proudly with her arms spread to either side, 
+to which a dragon of each color stands. The first on her left, is the gold 
+dragon, followed by the silver, and the blue finally, furthest from her. 
+On her right the closest is the black dragon, followed by the red dragon, 
+and lastly green, who has half way crumbled to dust. 
+~
+1 8 0
+D0
+~
+~
+2048 -1 47101
+D2
+~
+~
+3 -1 47117
+R M 0 47101 1 47118
+R O 0 47104 1 47118
+R O 0 47103 1 47118
+R O 0 47102 1 47118
+R O 0 47101 1 47118
+R O 0 47105 1 47118
+R D 0 47118 2 1
+S
+#47119
+At The Start Of The NorthWestern Path~
+~
+Wild blackberry bushes line the path here, their fruit not yet ripe, though
+there are still some flowers left on the plants waiting to be pollinated.
+Lilies grow near well etched cracks formed in the dirt. Some reeds lay
+dried and yellow, lightly covered by a layer of sand.
+~
+1 0 1
+D7
+~
+~
+0 -1 47120
+D8
+~
+~
+0 -1 47114
+S
+#47120
+On A Barren and Dusty Path~
+~
+Dust bellows here in a strong wind. Dead fox tails seek to get deeper into
+soil, trying to be able to re-propagate themselves, but alas, most of it is
+just dust.  Reeds lay crushed here, swept across the path.  Even the trees
+are dead here, bare of all leaves and fruit.
+~
+1 0 1
+D7
+~
+~
+0 -1 47122
+D8
+~
+~
+0 -1 47119
+S
+#47121
+On The Northeastern Path~
+~
+This path seems to wind in and out around the city, overgrown with 
+foliage in some spots, others as barren as a desert. Bushes littered with
+flowers grow close to the wall, and little lines where water has trickled
+out to the edge are etched in the dirt.
+~
+1 0 1
+D1
+~
+~
+0 -1 47123
+D9
+~
+~
+0 -1 47114
+S
+#47122
+Veering Around An Old Oak Tree~
+~
+A tall old oak tree stands here, and a worn path leads around it, two ruts 
+worn into the path from wheels of carts. Some thin grass sprouts here, the 
+rest of the ground muddy and soft from rain and other sources of water, 
+providing a fresh new environment for plants and weeds alike to sprout and 
+grow. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47124
+D8
+~
+~
+0 -1 47120
+S
+#47123
+A Slight Widening Of The Path~
+~
+Here the path widens, a light grass covering the earth. Little puddles of 
+water gather here, dotting the ground from moisture. Weeds grow along the 
+wall, and small daisies poke their buds up out of the ground, just 
+starting to open their petals. 
+~
+1 0 1
+D3
+~
+~
+0 -1 47121
+D6
+~
+~
+0 -1 47125
+S
+#47124
+Before The West Entrance~
+~
+The looming shadow of the gate is here, though strangely, the guard is 
+missing from his post. A burning fire is here, and there are scratches in 
+the wall, difficult to make out. The grass here shies from the fire pit, 
+blackened by the fire in the places that dared to get too close to the 
+flame. The ditches in the ground form a peculiar pattern that almost seems 
+to make a word in it's crevices. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47126
+D1
+~
+~
+7 -1 47136
+D2
+~
+~
+0 -1 47122
+S
+#47125
+A Bend In The Path~
+~
+A sharp curve exposes the cliff on the outside of the protective walls of 
+the city, while ivy is present on the wall, jutting up into the light, 
+fighting for it's right to grow here against the many trees and shrubs 
+that grow along the edge, discouraging people from falling off of the 
+ledge. A sharp curve exposes the cliff on the outside of the protective 
+walls of the city, while ivy is present on the wall, jutting up into the 
+light, fighting for it's right to grow here against the many trees and 
+shrubs that grow along the edge, discouraging people from falling off of 
+the ledge. 
+~
+1 0 1
+D7
+~
+~
+0 -1 47127
+D9
+~
+~
+0 -1 47123
+S
+#47126
+Before A Patch of Trees~
+~
+This patch of trees hugs a good portion of the wall, resembling a very 
+smooth carpet or tent that stretches for at least a mile out from the wall 
+and then begins to hook back toward the wall like a talon. One tree grows 
+into the next and the canopy meshes together into a smooth fluid flow of 
+leaves. There seems to be no way to get into this mass of trees except for 
+one small break in the wall of leaves that leads into the heart of the 
+mass. The path is dark and worn away as if a hiking trail. 
+~
+1 0 1
+D2
+~
+~
+0 -1 47124
+D6
+~
+~
+0 -1 47128
+S
+#47127
+On The Outskirting Path~
+~
+All the trees in this area seem to be in continuous bloom, coloring their 
+tops in white, pink, purple and red flowers. The ground is covered in 
+fescue grass, and ivy crawls up the wall, thinly covering its surface in a 
+dark shade of green. Mums sit in a makeshift garden here, happily 
+absorbing light. 
+~
+1 0 1
+D7
+~
+~
+0 -1 47129
+D8
+~
+~
+0 -1 47125
+R M 0 47112 6 47127
+S
+#47128
+On The Overgrown Path Through A Thicket~
+~
+The trail into the little patch of forest has expanded into a dense 
+thicket. Most of the leaves are at the canopy level and close together, 
+letting no light through their barrier. The forest from here consists of 
+grey gnarled limbs and trunks and the floor has many scattered leaves on 
+the ground. Some of the leaves are pushed away and there is a small trail 
+that leads through the forest. The trail fades into just forest but there 
+is a pseudo trail leading off one way that dead ends against the wall. 
+~
+1 0 1
+D6
+~
+~
+0 -1 47130
+D9
+~
+~
+0 -1 47126
+S
+#47129
+A Path Through The Bushes~
+~
+Bushes grow wildly on either side of a relatively worn path, some bearing 
+flowers or fruit, others plain looking with just their leaves to keep them 
+from being bare. Dried mud cakes the ground here, weeds sprouting up 
+between the cracks on the surface, dried and yellow from lack of water. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47131
+D8
+~
+~
+0 -1 47127
+R M 0 47113 1 47129
+  R E 0 47118 1 7
+  R E 0 47119 1 16
+S
+#47130
+Cliffside Against The Wall~
+~
+Surrounded by trees, this cliff is a straight shot down from the island. 
+Spruce trees grow around the edge of the cliff, a feeble attempt to keep 
+people from falling off in place of the broken guard rails that have been 
+worn from weather and time. Looking at the ground, there are a few boards 
+that were once used as railings lying here, covering up something beneath 
+them. 
+~
+1 0 1
+D9
+~
+~
+0 -1 47128
+S
+#47131
+On A Narrow Ledge~
+~
+The ground here is uneven, most of it at a steep grade downward off of the 
+island. There is a small patch up against the wall that is safe to walk 
+on, though it doesn't appear to be that stable either. Water lines are 
+etched here in the dirt, appearing as cracks, while the little streams of 
+water race down the slope. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47133
+D2
+~
+~
+0 -1 47129
+S
+#47132
+Sun Street~
+~
+Yellow cobblestones line the ground here, and even the gutters are clean, 
+though there doesn't seem to be any place to throw any trash on this 
+street. The buildings here are highly refractive, lighting the area and 
+allowing for the trees and flowers to grow wild along the sides of the 
+road. 
+~
+1 0 1
+D0
+~
+~
+3 -1 47134
+D8
+~
+~
+0 -1 47115
+S
+#47133
+Ivy Covered Path~
+~
+The ivy here has abandoned seeking the wall, and has moved on to cover the 
+ground. In its fury, not an inch of space has been left uncovered. Even 
+the trees in this place have their trunks covered in ivy. Any flowers and 
+bushes that were once here seem to have died off, leaving the overpowering 
+ivy unchallenged. 
+~
+1 0 1
+D2
+~
+~
+0 -1 47131
+D7
+~
+~
+0 -1 47135
+S
+#47134
+In a Dimly Lit Room~
+~
+The soft glow of two candles light this room to its current visibility, 
+barely emitting enough light to show behind the desk, though there seem to 
+be scraps of leather and parchment scattered over the top. The leather is 
+stitched in a pattern that can only be a large bag, though its missing 
+some components. 
+~
+1 8 0
+D2
+~
+~
+3 -1 47132
+R M 0 47110 1 47134
+  R E 0 47114 1 1
+R D 0 47134 2 1
+S
+#47135
+Among Some Cherry Trees~
+~
+Large cherry trees block the path to the west, though it can be seen 
+clearly on the other side. Over ripened cherries and the pits of what were 
+once cherries litter the ground. Some of them have sprouted new shoots 
+from the ground. Others have rotted away to nothing, leaving the ground 
+sticky in their place. 
+~
+1 0 1
+D8
+~
+~
+0 -1 47133
+S
+#47136
+Intersection of Cloud 9 Blvd and West Rain Ave~
+~
+&GThe intersection here is loaded with light blue stones which gets 
+lighter in color as time passes, then rotates back into a dark blue, and 
+the sequence starts again. The torches here keep everything light, though 
+the ground between the stones is damp. The gates to the west are laden 
+with dew and suffering from wood rot, looking almost as if they'd fall off 
+their hinges any moment. 
+~
+1 0 1
+D0
+~
+~
+0 -1 47144
+D1
+~
+~
+0 -1 47142
+D2
+~
+~
+1 -1 47138
+D3
+~
+~
+7 -1 47124
+S
+#47137
+East Rain Ave~
+~
+Considerably darker than it's west side counterpart, this street is 
+abandoned of any and all lamp posts. The stones are a dark purple. 
+Buildings of refractive glass line the road, and each cobblestone is 
+written upon in glowing chalk, each a different letter of the common 
+alphabet. High up above the tops of the buildings come to an end. 
+~
+1 0 1
+D1
+~
+~
+1 -1 47139
+D9
+~
+~
+0 -1 47115
+S
+#47138
+In A Spacious Training Room~
+~
+Wooden swords and staffs lean against the rack here and litter the dirt 
+floor. A white chalk circle is etched into the floor, though the buildings 
+walls are made of wood rather than stone, providing sufficient though poor 
+shelter from the elements. Aside from the few tables, chairs and the large 
+chests to hold shields there is little to no furniture about the room, 
+leaving plenty of open space for people to train here. 
+~
+1 8 0
+D0
+~
+~
+3 -1 47136
+R M 0 47104 1 47138
+  R E 0 47115 1 16
+  R G 0 47116 1
+  R E 0 47117 1 3
+R D 0 47138 0 1
+S
+#47139
+In A Well Lit Shop~
+~
+Candles scatter the ground, insuring that every inch of the building is 
+lit. Puddles of wax cover the floor beneath the candles, all sorts of wax 
+from different candles splattered on top of one another. A desk sits in 
+the back, though no chair accompanies it, and like the floor, it too is 
+coated in melted wax. 
+~
+1 8 0
+D3
+~
+~
+1 -1 47137
+R M 0 47102 1 47139
+  R E 0 47108 1 7
+  R E 0 47109 1 7
+  R E 0 47111 1 12
+  R E 0 47110 1 12
+R D 0 47139 3 0
+S
+#47140
+In A Small Park~
+~
+Trees of maple here grow tall, and park benches have their feet covered in 
+weeds and mums. Baby's breath coats the ground here in patches of clover, 
+growing over old stumps from the trees long past. The passage here is 
+cracked and broken, letting thin weeds pop up in what was once a firm line 
+between the two sides of the park. To the west a large pagoda towers over 
+the horizon, and beyond it, an even taller building with stained glass 
+windows to the north. 
+~
+1 0 1
+D3
+~
+~
+0 -1 47117
+R O 0 47107 1 47140
+S
+#47141
+West Rain Ave~
+~
+The stones on this area wash in shades of blue towards the east, moving 
+the damp soil beneath the stones slightly with each color change. Piles of 
+weeds and other garbage sit on the sides of the road, slowly rotting and 
+being turned into fertile soil. The leaves on the trees sway in the 
+breeze, remaining green no matter the season. 
+~
+1 0 1
+D1
+~
+~
+0 -1 47145
+D9
+~
+~
+0 -1 47144
+S
+#47142
+Cloud 9 Blvd~
+~
+Drains in the corners are lined with moss here, and small weeds rest in 
+fermented trash. Sparkling white and green stones line the street. There 
+are little areas to sit at the sides of the road for those who are 
+walking, where one can enjoy the natural beauty of nature coexisting with 
+man-made life. 
+~
+1 0 1
+D0
+~
+~
+3 -1 47143
+D3
+~
+~
+0 -1 47136
+D8
+~
+~
+0 -1 47117
+S
+#47143
+In A Glowing Room~
+~
+This room gives off its own light and is filled with lit and smoking peach 
+incense. Dried flowers hanging on the walls. A crystal ball sits on the 
+table, smoke swirling around on the inside, though how the smoke got 
+within the sphere is still a mystery. Small idols are scattered around the 
+room, made of either wood or stone with jewels for eyes. All of these 
+idols seem to be looking towards the crystal ball.
+~
+1 8 0
+D2
+~
+~
+3 -1 47142
+R M 0 47103 1 47143
+  R E 0 47112 1 16
+  R E 0 47113 1 12
+R D 0 47143 2 1
+S
+#47144
+West Rain Ave~
+~
+Deep ocean blue cobblestones line the street, reflecting the color onto 
+the white birch trees and surrounding buildings in an un-natural blend of 
+color. Water drips from the branches of the trees into puddles by the base 
+of the trunk, their paths outlined by wet spider webs that glisten in the 
+light. 
+~
+1 0 1
+D2
+~
+~
+0 -1 47136
+D6
+~
+~
+0 -1 47141
+R M 0 47112 4 47144
+S
+#47145
+West Rain Ave~
+~
+The soil continues to move here, though it gets slower as it heads towards 
+the wall. Strangely this area is devoid of cobblestones, yet theres a sign 
+hanging here, swaying and squeaking on rusty hinges. The sign is so old 
+that its coated in a thick layer of rust, the door just south of here, 
+however, is well maintained. 
+~
+1 0 1
+D2
+~
+~
+3 -1 47146
+D3
+~
+~
+0 -1 47141
+S
+#47146
+In A Room Littered with Blades~
+~
+Blades lean against the walls of the one room building, some hanging on 
+the walls in their proper rack, wiggling with every step that one might 
+take. The wooden floor is well kept, though scratches line the planks from 
+the swords and other weapons falling. A fireplace lurks on the back wall, 
+a roaring fire keeping the building warm. 
+~
+1 8 0
+D0
+~
+~
+3 -1 47145
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

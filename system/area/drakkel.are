@@ -1,0 +1,6030 @@
+#AREA        Drakkel Sharda~
+
+
+
+#VERSION     11
+#AUTHOR      Nagafen~
+#DERIVATIVES Vladaar~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 20 20 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The scraping of something very large is heard all around here.~
+
+#FLAGS
+1984 5
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 999999263 999997361 999996388 999980756 999945714 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#40000
+Argeld~
+Argeld~
+Argeld The Ancient stands here.
+~
+~
+0
+Clanname none~
+0
+0
+35 0 -1000 C
+25 0 0 2d200+1000 1d6+5
+0 0 0 0 0 
+0
+115 115 1
+20 20 22 19 25 20 13
+0 0 20 20 0
+13 8 0 0 2048 2048 3
+5 10 0 0 0 0 3 2
+#40001
+Kheldrin~
+Kheldrin~
+Lord Kheldrin stands here, looking about irritably.
+~
+Lord Kheldrin is not large persay, but looks quite agile and has a set of
+sharp claws on each leg/arm. is scales are rough and lay haphazardly over
+eachother in a messy fold. His eyes are a dull grey color and one of the
+teeth that slips between his lips has a small chip out of it. He smells of
+greenery and moss.
+~
+0
+Clanname none~
+0
+0
+3 4194816 0 C
+25 0 0 2d200+2000 3d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 2 0 0 1 2049 3
+0 0 0 0 0 0 3 2
+> all_greet_prog 100~
+mpecho Lord Kheldrin says, "Here to [shop], or need the [password]?".
+ 
+~
+> speech_prog shop~
+mppause 9
+mpecho Lord Kheldrin says, "Ah. Well then, by my guest. Simply type LIST."
+mppause 9
+emote gestures towards his inventory.
+~
+> speech_prog password~
+mppause 7
+mpechoat $n Lord Kheldrin whispers to you, "The password is 'Torak'."
+~
+|
+#40002
+Lord Nycta~
+Lord Nycta~
+Lord Nycta is here, being very still.
+~
+The scales of this mighty dragon are an ice blue color and are frozen solid.
+They look extremely tough and have many small ice shards that have formed on
+them. The eyes of this great dragon are a cold, light blue color, almost hazy.
+A set of ice blue teeth protrude from his upper jaw. A large set of dull blue
+wings are mounted on his back, folding neatly when he is steady and not moving.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+35 0 -35 1d500+3000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+20 20 13 12 20 20 20
+0 0 0 0 0
+13 12 0 0 2048 2048 4
+3 8 0 0 0 0 3 2
+#40003
+Agatha~
+Lady Agatha~
+Lady Agatha stands here, waiting patiently.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+202 0 0 5d10000+30000 10d10+50
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 10
+50 0 0 0 0 0 0 0
+#40004
+talshik drak chromatic~
+Talshik Drak~
+A very old chromatic dragon is here teaching young dragons.
+~
+~
+0
+Clanname none~
+0
+0
+131075&512 4194432 0 C
+101 0 0 10d10000+10000 10d5+30
+0 0 0 0 0 
+0
+115 115 1
+25 18 15 25 18 13 21
+0 0 0 0 0
+14 10 0 0 2049 1 8
+100 100 0 0 0 0 163843 33554498
+> all_greet_prog 10~
+emote shows a young dragon the proper way to bite a opponent.
+~
+> all_greet_prog 10~
+emotes demonstrates the proper way to breath fire.
+~
+> act_prog p arrives from the south.~
+say Greetings young dragon...
+mppause 10
+if quest(Chromatic) < 1
+say I have some tasks I need done.
+mppause 10
+say If you have time, just say &Cfirst, second, third, fourth, fifth and sixth.&D'
+mppause 8
+say I will be happy to tell you what I need done, and I am willing to give you a small reward for your given time.
+endif
+~
+> speech_prog 'consumption in moderation is the key'~
+if quest(Chromatic) == 2
+mppause 3
+say is that so....
+mppause 8
+mpoload 40025 1
+get helm
+give helm $n
+mpquest $n Chromatic 3
+else
+say Sorry my friend you were not doing the task for me.
+endif
+~
+> speech_prog first~
+mppause 2
+mpquest $n Chromatic 1
+say I need you find Acai our healer at the Dragon's Resting.
+mppause 4
+say When you find Acai tell him, "the dragon is all consuming".
+mppause 5
+say He will know what that means.
+mppause 8
+say I would be willing to give you an iron dragon helm for doing this.
+~
+> speech_prog second~
+mppause 2 
+say I need you to bring me the corpse of a Quartz Runner.
+mppause 3
+say For this I would give you....
+mppause 3
+say A pair of leather talon straps.
+~
+> speech_prog third~
+mppause 2
+say Bring me the tail of a Moss Crawler.
+mppause 4
+say I would be willing to give you a set of crimson red drakkel bracers for doing this.
+~
+> speech_prog fourth~
+mppause 2
+say This won't be easy, but I need the guts of a skeleton.
+mppause 4
+say I will lavishly reward you with a crimson red drakkel chainmail coat.
+~
+> speech_prog fifth~
+mppause 2
+say Locate Lord Kheldrin and purchase some saddlebags for me.
+mppause 4
+say I will reward you with a crimson red drakkel visor.
+~
+> speech_prog sixth~
+mppause 2
+say Find the secret path through southern gates of Drakkel Sharda.
+mppause 4
+say Heading easternly you'll find Paleon City.
+mppause 4
+say Bring me the corpse of the wererat that resides in the city sewers.
+mppause 6
+say I will reward you with a golden drakkel claw.
+mpechoat $n See help 'treasure hoarde'.
+~
+> act_prog p gives you the corpse of A Quartz Runner.~
+if iscarrying($n) == 40026
+tell $n you already have leather talon straps.
+else
+tell $n Great job!
+mppause 6
+mpoload 40026 1
+get straps
+give straps $n
+mpquest $n Chromatic 4
+endif
+~
+> act_prog p gives you the thrashing tail of A Moss Crawler.~
+if iscarrying($n) == 40027
+tell $n you already have crimson red drakkel bracers.
+else
+tell $n Great job!
+mppause 6
+mpoload 40027 1
+get bracers
+give bracers $n
+mpquest $n Chromatic 5
+endif
+~
+> act_prog p gives you the spilled guts of A Skeleton.~
+if iscarrying($n) == 40028
+tell $n you already have a crimson red drakkel chainmail coat.
+else
+tell $n Great job!
+mppause 6
+mpoload 40028 1
+get coat
+give coat $n
+mpquest $n Chromatic 6
+endif
+~
+> act_prog p gives you a saddlebag.~
+if iscarrying($n) == 40029
+tell $n you already have a crimson red drakkel visor.
+else
+tell $n Great job!
+mppause 6
+mpoload 40029 1
+get visor
+give visor $n
+mpquest $n Chromatic 7
+endif
+~
+> act_prog p gives you the corpse of the ugly Wererat.~
+if iscarrying($n) == 40030
+tell $n you already have a golden drakkel claw.
+else
+tell $n Great job!
+mppause 6
+mpoload 40030 1
+get claw
+give claw $n
+mpquest $n Chromatic 8
+endif
+~
+|
+#40005
+Ashdok Cabarrik~
+Ashdok Cabarrik~
+Ashdok Cabarrik stands here, awaiting his students.
+~
+Ashdok looks muscular and intelligent. His scales fall neatly over one another
+and lie in perfect rows. His eyes a cat-like yellow, that shimmer in the low
+light. A set of mighty teeth slip between his lips and look white very clean.
+Claws with the point of a well made dagger have small ridges in them from the
+time it took to grow them to the calibur they are today. His scales are
+that of an ash grey color, with black pecks on them.
+~
+0
+Clanname none~
+0
+0
+3 0 100 C
+40 0 -10 1d500+3000 3d8+20
+0 0 0 0 0 
+0
+115 115 1
+22 20 20 16 16 24 20
+0 0 0 0 0
+13 8 0 0 2048 2048 4
+30 14 0 0 0 0 3 2
+#40007
+Acai~
+Acai~
+Acai the Ancient stands here, almost completely lifeless.
+~
+Acai is completely made of bone. No skin or muscle can be found on him. An
+ancient magic holds these bones together. The bones which this Dracolich is
+comprised of are a dull grey color and have more than a few cracks in them.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+100 0 -140 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 1
+15 13 13 13 25 13 20
+0 0 0 0 0
+13 10 0 0 1 2049 6
+50 10 0 0 0 0 3 2
+> speech_prog 'the dragon is all consuming'~
+if quest(chromatic) == 1
+mppause 3
+say Well my, my, my...
+mppause 3
+say Talshik is indeed still teaching young dragons.
+mppause 10
+tell $n Let Talshik know, &cconsumption in moderation is the key
+mpquest $n chromatic 2
+else
+say I cannot help you.
+endif
+~
+|
+#40008
+High Priestess~
+A High Priestess~
+A High Priestess stands here, looking very regal.
+~
+This half dragon half human is odd and indeed a rare sight. Dressed in robes
+of white she stands ready to defend her faith. Her hair is a platinum white
+and her skin is tinted slightly grey. She is tall and fit. Her muscles look
+strong and toned.
+~
+0
+Clanname none~
+0
+0
+3 0 1000 C
+100 0 0 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 2
+18 17 22 13 15 19 17
+0 0 0 0 0
+13 0 0 0 1 1 6
+40 14 0 0 0 0 3 2
+#40009
+red dragon An'Kasha~
+An' Kasha~
+A large red dragon is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+100 0 0 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 11 0 0 1 1 6
+60 0 0 0 0 0 8195 2
+#40010
+Kel Shael~
+Kel Shael~
+Kel' Shael stands here, awaiting his students.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+30 0 0 2d200+2000 3d6+20
+0 0 0 0 0 
+0
+112 112 1
+18 20 17 14 15 17 20
+0 0 0 0 0
+14 6 0 0 1 1 3
+0 0 0 0 0 0 3 2
+#40011
+Shad Amin Arka~
+Shad Amin Arka~
+Shad' Amin' Arka stands here, waiting for those willing to learn.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+70 0 0 2d500+14000 5d6+20
+0 0 0 0 0 
+0
+115 115 1
+14 18 18 14 19 11 14
+0 0 0 0 0
+13 12 0 0 1 1 6
+40 0 0 0 0 0 3 2
+#40012
+Kael Shattel~
+Kael Shattel~
+Kael Shattel stands here, very patiently and calm.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+100 0 -250 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 10 0 0 1 1 6
+40 0 0 0 0 0 3 2
+#40013
+Manfir Shattel~
+Manfir Shattel~
+Manfir Shattel stands here, heat radiationg from him.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+75 0 -200 2d500+18000 5d8+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 6
+40 0 0 0 0 0 3 2
+#40014
+Cannilis Shattel~
+Cannilis Shattel~
+Cannilis Shattel is here, waiting in a calm manner.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+60 0 -160 2d500+14000 5d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 11 0 0 1 1 4
+30 0 0 0 0 0 3 2
+#40015
+Gravebane Zombie~
+Gravebane Zombie~
+A Gravebane Zombie wanders about here.
+~
+The skin of this zombie is grey and rotting. Maggots hang all over it and
+a few worms weave in and out of the flesh. There is one eye missing on his
+face and a spider can be seen resting in it. The stench of death and rot are
+very strong off him and are very repulsive.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+8 0 -10 5d10+100 2d1+1
+0 0 0 0 0 
+0
+115 115 1
+14 11 11 9 10 5 10
+0 0 0 0 0
+70 2 0 0 1 1 1
+1 3 262529 0 0 0 2 0
+#40016
+Skeleton~
+a skeleton~
+A skeleton clatters about here, his bones dry and old.
+~
+This skeleton is made of grey and cracking bones. The marrow seems to have
+turned to dust and now shakes off when any slight movement occures. The
+femur bones have large cracks and look as if they were broken at one time.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+9 0 -15 1d1+80 2d2+1
+0 0 0 0 0 
+0
+115 115 0
+10 14 14 18 15 4 18
+0 0 0 0 0
+59 2 0 0 1 1 1
+2 2 32 0 0 0 2 0
+#40017
+Large Skeleton~
+A Large Skeleton~
+A Large Skeleton shambles about, it's footsteps unsteady.
+~
+This skeleton is large and has bones that you could beat someone or something
+to death with. Cracks run through the bones like water through a sluce. A few
+insects crawl on the skeleton, but do not seem to bother him.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+15 0 0 5d10+200 2d6+5
+0 0 0 0 0 
+0
+115 115 0
+15 16 13 12 14 9 13
+0 0 0 0 0
+59 2 0 0 1 1 2
+10 1 0 0 0 0 2 0
+#40018
+Shard Crawler~
+A Shard Crawler~
+A Shard Crawler skitters about here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+4 0 0 2d4+1 1d2+1
+0 0 0 0 0 
+0
+115 115 0
+5 11 11 12 10 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+2 2 0 0 0 0 0 0
+#40019
+Lady Vocks~
+Lady Vocks~
+Lady Vocks stands here patiently.
+~
+Emerald green scales cover Lady Vocks's back. A large set of wings fold neatly
+over her back and lie flat. Her eyes are a gently green and her claws don't
+seem as sharp. There seems to be a very calm aura about her.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+60 0 0 2d500+10000 4d8+20
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+14 11 0 0 1 1 5
+50 0 0 0 0 0 34 2
+#40020
+Quartz Runner~
+a quartz runner~
+A quartz runner skitters about here.
+~
+With small crystals growing out of its body this Quartz Runner has a
+glittering to it as it shifts in the light. Its legs seem to be made of
+pure quartz. With a misshapen body and eyes made of a red quartz this
+creature wanders about, making a slight tapping sound whenever one of its
+feet sets to the ground.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+6 0 0 1d1+50 4d4+1
+0 0 0 0 10 
+0
+115 115 0
+14 11 11 15 18 9 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#40021
+Moss Crawler~
+a moss crawler~
+A moss crawler is crawling around here.
+~
+With moss covering most of its body, this creature takes on the look of a
+large spider. It has no fangs, yet its legs seem to be made of a sharp and
+solid looking substance. Its eyes are casted over with white and it looks
+very irritable.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+5 0 -25 1d1+50 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 2 0 0 1 1 0
+0 0 65536 0 0 0 2 0
+#40022
+Shirra Mar~
+Shirra Mar~
+Shirra Mar' stands here, waiting for business.
+~
+Shirra looks as if she has an idea for a good deal in her thoughts. Her face
+is bright and she seems to be in good spirits. Her eyes are a deep blue color
+and her hair a golden brown. Her skin has a slight grey tint to it, and in a
+few areas resembles scales.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+30 0 -60 2d200+2000 3d6+20
+0 0 0 0 0 
+0
+115 115 0
+18 19 19 15 14 10 17
+0 0 0 0 0
+13 2 0 0 1 1 3
+20 0 0 0 0 0 19 2
+#40023
+Kael Senara~
+Kael Senara~
+Kael Senara stands here, awaiting customers.
+~
+~
+0
+Clanname none~
+0
+0
+3&262144 0 0 C
+200 0 0 5d10000+30000 10d10+50
+0 0 0 0 1000 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 2 0 0 1 1 9
+80 0 0 0 0 0 336 2
+#40024
+bank guard~
+a bank guard~
+A bank guard stands here, watching carefully.
+~
+This guard is completely shrouded in dark cloth and stands tall. He looks
+very tough and seems to be standing completely still at the moment. His
+clothes are not of this particular city and are stained with rust from his
+armor.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+100 0 -200 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 1
+21 14 14 14 13 12 12
+0 0 0 0 0
+0 4 0 0 1 1 6
+40 0 0 0 0 0 48 524290
+#40025
+city guard~
+a city guard~
+A city guard stands here, intent on his duty.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+202 0 0 5d10000+30000 10d10+50
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 8 0 0 1 1 10
+100 0 0 0 0 0 608 2
+> all_greet_prog 100~
+mppause 2
+mpechoat $n A city guard says, "Hello, and welcome to our great city!"
+~
+|
+#40026
+royal defender~
+a royal defender~
+A royal defender stands here, a look of determination on his face.
+~
+This man is tall with straight black hair and seems to be very muscular. His
+fave set in stone with eyes of a light grey color does not change. Some sweat
+collects on his brow as he stands his post. However, there seems to be a kind
+of friendly aura eminating from him. His presence makes you feel much safer.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+202 0 0 5d10000+30000 10d10+50
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 10
+50 0 0 0 0 0 464 66
+> all_greet_prog 100~
+if ispc($n)
+mppause 9
+mpecho A royal defender says, "To enter this door, speak the password."
+mppause 9
+emote points to a crystal door to the north.
+mppause 9
+mpecho A royal defender says, "You can obtain the password from Lord Kheldrin."
+endif
+~
+> speech_prog torak~
+if ispc($n)
+mppause 8
+mpecho A royal defender says, "I see you have gotten the ancient password."
+mppause 8
+mpecho A royal defender says, "But are you experienced enough to complete
+mpecho the chamber of trials?:
+mppause 8
+emote nods.
+unlock north
+mppause 8
+open north
+mppause 20
+close north
+lock north
+endif
+~
+|
+#40027
+Kaolin~
+Kaolin~
+Kaolin, the sage stands here.
+~
+His dark green robes flow to the floor like a waterfall in slow motion. His
+beard is long and white mounted by a long white mustache. A pair of wire-rim
+spectacles sit atop the bridge of his nose. His skin is a pale white color
+and his hair is silver and falls over his shoulders neatly.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+201 0 -110 30000d3+30000 2d10+35
+0 0 0 0 900 
+0
+115 115 1
+14 18 18 16 12 17 20
+0 0 0 0 0
+0 5 0 0 1 1 8
+50 0 0 0 0 0 41216 66
+> all_greet_prog 100~
+if ispc($n)
+mppause 9
+mpecho Kaolin says, "Hello, I see you have found our library."
+mppause 9
+mpecho Kaolin says, "Take your time and look around, much history is here."
+emote takes a long draw from his pipe and exhales slowly.
+endif
+~
+> speech_prog torak~
+if ispc($n)
+mppause 8
+emote stops smoking his pipe as his eyes widen.
+mppause 8
+mpecho Kaolin says, "Hm, I see you have come across an ancient name..."
+mppause 8
+open east
+mpecho A voice says, "Go forth into the eastern chamber please."
+mppause 20
+close east
+endif
+~
+|
+#40028
+Maelkor Shaen~
+Maelkor Shaen~
+Maelkor Shaen stands here, looking attentive.
+~
+Maelkor Shaen is surrounded in an obscuring mist.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+201 0 0 30000d3+9000 5d10+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 8
+50 0 0 0 0 0 8192 66
+> all_greet_prog 100~
+if ispc($n)
+if ovnumcarry (40017)
+mpecho Maelkor says, "Please remember that books remain in house."
+mppause 2
+mpforce $n give black Maelkor
+mpecho Maelkor leaves north to attend some other business.
+mpgoto 40147
+put black bookshelf
+mppause 12
+mpgoto 40146
+mpecho Maelkor enters from the north and stands here to greet.
+endif
+endif
+~
+|
+#40029
+royal defender~
+a royal defender~
+A royal defender stands guard here.
+~
+The royal defender is shrouded in a dark mist.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+200 0 -110 5d10000+30000 10d10+50
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 10
+50 0 0 0 0 0 320 66
+> all_greet_prog 100~
+if ispc($n)
+mpecho A royal defender says, "Ah, you must need me to open the [gate]."
+mppause 8
+emote looks at you in question.
+endif
+~
+> speech_prog gate~
+if ispc($n)
+mppause 8
+emote nods.
+unlock south
+open south
+mppause 20
+close south
+lock south
+endif
+~
+|
+#40030
+Nightshroud Sentinel~
+a Nightshroud Sentinel~
+A Nightshroud Sentinel stands here, watching very carefully.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+100 0 -110 2d500+30000 6d6+30
+0 0 0 0 0 
+0
+115 115 0
+14 16 16 14 19 20 15
+0 0 0 0 0
+1 2 0 0 1 1 6
+60 0 0 0 0 0 268439553 2
+> all_greet_prog 100~
+if ispc($n)
+mpecho A Nightshroud Sentinel says, "Welcome to the chambers of trial."
+mppause 10
+mpecho A Nightshroud Sentinel says, "Are you ready to begin the [trial]?"
+mppause 10
+mpecho A Nightshroud Sentinel says, "If you do not know of what I speak...
+mpecho simply say 'what'".
+endif
+~
+> speech_prog trial~
+if ispc($n)
+mppause 10
+mpecho A Nightshroud Sentinel says, "Very well, please proceed to the east."
+unlock east
+open east
+mppause 20
+mppause 20
+close east
+lock east
+endif
+~
+> speech_prog what~
+if ispc($n)
+mppause 9
+mpecho A Nightshroud Sentinel says, "If you are unready, leave now..."
+mppause 9
+unlock west
+open west
+mppause 20
+close west
+lock west
+endif
+~
+|
+#40031
+Lightshroud Sentinel~
+A Lightshroud Sentinel~
+A Lightshroud Sentinel stands here, watching over the area.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+201 0 -100 5d10000+30000 10d10+50
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 10
+60 0 0 0 0 0 112 2
+> all_greet_prog 100~
+if ispc($n)
+mppause 9
+mpecho A Lightshroud Sentinel says, "Hello, are you of level twenty and
+mpecho ready to proceed unto one of the trials?
+endif
+~
+> speech_prog yes~
+if ispc($n)
+mppause 9
+mpecho A Lightshroud Sentinel says, "Very well..."
+mppause 5
+unlock north
+open north
+mppause 20
+close north
+lock north
+endif
+~
+> speech_prog no~
+if ispc($n)
+mppause 9
+mpecho A Lightshroud Sentinel says, "Very well, come back to me when you
+mpecho are ready."
+mppause 9
+emote smiles and chuckles at your inexperience.
+endif
+~
+|
+#40032
+dragon slayer scout zachaeos~
+Sir Zachaeos~
+A dragon slayer scout in full armor is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 4194304 0 C
+30 0 0 5d10+850 2d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 2
+15 0 41 0 0 0 48 2
+> fight_prog 100~
+charge $n
+~
+|
+#40033
+war horse~
+a war horse~
+A jetblack war horse is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+393219 4194304 0 C
+20 0 0 2d100+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+82 2 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#40034
+imagination~
+a newly created imagination~
+Some god abandoned a newly created imagination here.
+~
+~
+0
+Clanname none~
+0
+0
+8519683 4816898 0 C
+102 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if mobinarea(40032) > 0
+mpat 40163 mpforce slayer mount horse
+endif
+if mobinarea(40035) > 1
+mpat 40165 mpforce squire mount horse
+mpat 40165 mpforce 2.squire mount horse
+endif
+endif
+~
+|
+#40035
+a dragon knight squire~
+a dragon knight squire~
+A dragon knight squire is sitting on his horse here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 4194304 0 C
+10 0 0 5d10+200 1d6+5
+0 0 0 0 30 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 2
+8 0 9 0 0 0 0 0
+> fight_prog 50~
+charge $n
+~
+|
+#40036
+dragon knight Kaisaran~
+Sir Kaisaran~
+A dragon knight in full plate mail armor is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131107 4194432 1000 C
+40 0 0 5d10+1000 2d4+10
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+20 0 9 0 0 0 48 1
+> death_prog 100~
+if quest(lair) == 1
+mpquest $n lair 2
+endif
+~
+|
+#40037
+Rasak'argh small blue dragon~
+Rasak'argh~
+A small blue dragon slinks about here.
+~
+Rasak'argh is a blue dragon in his prime. He is rather greedy, and likes 
+to accumulate as much treasure as possible. 
+~
+0
+Clanname none~
+0
+0
+16908291 0 0 C
+10 0 300 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 8716473 0 0 0 3 2
+> speech_prog 'Gold and Grub'~
+emote chortles heartily.
+say Nah. I prefer to keep that book of knowledge.
+mppause 2
+say You have to kill me to get it.
+mpoload 4660 1
+~
+> death_prog 100~
+mpechoat $n As Razak'argh breathes his last, he drops a slim tome.
+mpoload 4660
+drop gold
+~
+|
+#40038
+dragon knight~
+Sir Zachaeos~
+A dragon slayer scout in full armor is standing here.
+~
+~
+0
+clanname none~
+0
+0
+1082261507 4292610 0 C
+105 0 0 5d10+10000 2d6+20
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 0 0 2
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if level($n) < 20
+mpquest $n lair remove
+endif
+~
+|
+#40100
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#40000
+a bone key~
+a bone key~
+A bone key lies here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+This key looks to be made form the bone of a dragon.~
+This key looks to be made from the ancient bone of a dragon, and has a slight
+blue tint to it.
+~
+#40001
+red dragon claw~
+a red dragon claw~
+A red dragon claw lies here.~
+~
+5 262144 8193
+0 1 6 1 14 0 0
+1 250 25
+1
+0
+0
+0
+0
+0
+S 0 0
+#40002
+dragontooth spear~
+a dragontooth spear~
+A dragontooth spear lies here.~
+~
+5 0 8193
+0 2 4 6 0 0 0
+4 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+dragontooth spear~
+This spear is made from a shaft of wood, and a sharp dragon tooth fixed
+to the end of it. THe tooth gleams white.
+~
+#40003
+a giant slab of ice~
+a giant slab of ice~
+A giant slab of ice is permanently affixed to the ground here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+10000 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+Slab~
+The slab of ice is permanently frozen to the ground. It gleams with a pale
+glow and seems to be in the rough shape of some sort of large bed.
+~
+#40004
+grave mold~
+a grave mold~
+A piece of grave mold lies here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+11
+0
+0
+0
+0
+S 0 0
+#40005
+ancient map~
+an ancient map~
+An ancient map lies here.~
+~
+47 0 16385
+0 0 0 0 0 0 0
+1 1 1
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+ancient map~
+&rAn Ancient Map to the Caverns of Drakkel Sharda
+
+&OX&YB&COOO&OXXXXXXXX              &WMAP KEY&O
+&OXX&CO&OX&CO&OXXXXXXXX                       &R      N&O
+&OXX&COOO&OXXXXXXXX                           W-|-E
+&OXXX&CO&OXXXXXXXXX                             S
+&OXXX&COOOOO&OX&CO&GS&OXX
+&OXXXXXXX&COO&OX&CO&OXX             &GS = SHOP&O
+&OXXXXX&COO&RT&OX&CO&OXX&CO&O             &YB = BANK&O
+&OXXXXX&CO&OX&CO&OX&COOOO&O             &RT = TEACHER&O
+&OXXXXX&CO&OXXXXXX&CO&O             &OX = STONE WALL&O
+&OXXXXX&cR&OXXXXXX&PO&O             &CO = CAVERN/PASSAGE&O
+                          &cR = DRAGONS RESTING
+                          &PO = CAVERN SOUTHERN GATES
+
+~
+#40006
+a cracked bone spear~
+a cracked bone spear~
+A cracked bone spear lies here.~
+~
+5 0 8193
+0 7 16 6 0 0 0
+3 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+cracked bone spear~
+This spear is made of a long thin bone. It looks somewhat damaging, but is
+cracked and old. This spear is grey in color and very light.
+~
+#40007
+meat pie~
+a meat pie~
+A meat pie lies here.~
+~
+19 0 1
+5 0 0 0 0 0 0
+1 60 6
+3
+1
+0
+0
+0
+0
+S 0 0
+#40008
+a stone counter~
+a stone counter~
+A stone counter is here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1000 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+stone counter~
+This counter looks old, yet well made and definately very heavy. It is made
+of a dark stone with a few hairline cracks running through it. It has two
+large stone legs that support it, and a somewhat flat top. There are small
+groves in it that reach the length of about one foot.
+~
+#40009
+strongbox~
+a strongbox~
+A strongbox sits here on the counter.~
+~
+15 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40010
+sunrod~
+a sunrod~
+A sunrod lies here.~
+~
+1 8192 16385
+0 0 5 0 0 0 0
+1 20 2
+3
+0
+0
+0
+0
+0
+S 0 0
+#40011
+saddlebag~
+a saddlebag~
+A saddlebag lies here.~
+~
+15 0 540673
+16 0 0 0 0 0 0
+1 10 1
+3
+1
+0
+0
+0
+0
+S 0 0
+E
+saddlebag~
+This saddlebag is made of well-cured leather and has been stitched together
+at the seems by a master tailor. It is bron in color as most leathers are
+and looks pretty handy.
+~
+#40012
+small ivory table~
+a small ivory table~
+A small ivory table sits here, very white under the light.~
+~
+12 8506880 0
+0 0 0 0 0 0 0
+9999 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+small ivory table~
+This table is made from pure ivory and carries a bright shine to it. The top
+is flat, and the legs twist into spirals as they reach to the ground. It has
+no drawers, just a top and legs to support it.
+~
+#40013
+ivory chair~
+an ivory chair~
+An ivory chair rests here, worn from use.~
+~
+12 0 0
+0 0 0 0 0 0 0
+9999 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40014
+ashwood pipe~
+an ashwood pipe~
+An ashwood pipe lies here.~
+~
+30 0 16385
+10 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+ashwood pipe~
+This pipe has been carefully carved from ashwood and is engraved with small
+leave designs and vines. It's mouthpiece is made of tarnished brass with
+small toothmarks in it. It smells heavily of pipe tobacco.
+~
+#40015
+dark green robes~
+a set of dark green robes~
+A set of dark green robes lie in a pile here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+dark green robes~
+These robes are dark green in color and seem to have a magical aura about
+them. They are made of a soft silk.
+~
+#40016
+marble bookshelf~
+a marble bookshelf~
+A marble bookshelf stands here, holding the bookstacks.~
+~
+15 0 0
+1000 0 0 0 0 0 0
+30 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+marble bookshelf bookcase~
+This bookshelf is made of white marble and has many books in it. Most of
+them have a red glow to them, however, one does not. It is a SMALL BLACK BOOK
+and has the title of &RHistory of Drakkell Sharda&g.
+~
+#40017
+small black book~
+a small black book~
+A small black book is here, it's pages glowing green.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+read small black book~
+The history of Drakkel Sharda and the Angeriks:
+ 
+the Angeriks were the human race that worshipped the dragon god Lokatar. He
+was the god of all things slaughter and death. He ruled with an iron claw.
+His people were murderous and hatefull, never caring for anything but them-
+selves. They were exiled from all of their normal cities for their acts. Such
+as Paleon, and many other cities. So they took to the cliffs and began work
+on what is now Drakkel Sharda. Most of these humans were wiped out when the
+good dragons came and wiped the city out. Now, the city is calm once again.
+but there is still one dragon which holds a tie to the Angerik god...his
+name is Ageld. If he dies, then the god will be released into the heavens
+again to rule with his hate and bloodthirsty religion. He lies in his den,
+deep within Drakkel Sharda, waiting for someone to come by and wake the
+ancient one.
+~
+#40018
+wooden key~
+a wooden key~
+A Wooden Key lies here.~
+~
+13 0 1
+40050 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40019
+stone key~
+a stone key~
+A stone key lies here.~
+~
+18 0 1
+40151 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40020
+marble key~
+a marble key~
+A marble key lies here.~
+~
+18 0 1
+40160 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40021
+dragonlance~
+a dragonlance~
+A silver polished dragonlance lies here.~
+~
+5 0 8193
+12 5 15 6 12 15 0
+10 1000 100
+1
+0
+0
+0
+0
+0
+S 0 0
+#40022
+dragon crest~
+the dragon crest~
+A dragon crest lays on the ground here.~
+~
+9 -2146959294 513
+20 20 0 0 0 20 0
+5 100 10
+1
+0
+0
+0
+0
+0
+S 0 0
+> get_prog 100~
+mplair $n
+~
+|
+#40023
+dragon slayer bastard sword~
+a dragon slayer bastard sword~
+A dragon slayer bastard sword has been left here.~
+~
+5 66 8193
+8 10 20 1 1 20 0
+10 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#40024
+large pond~
+a large pond~
+A glistening large pond fills the northern end of the cavern here.~
+~
+17 0 0
+1000 1000 0 0 0 0 0
+1 0 0
+1
+4
+0
+0
+0
+0
+S 0 0
+#40025
+iron dragon helm~
+an iron dragon helm~
+An iron dragon helm has been left here.~
+~
+9 0 17
+2 2 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#40026
+leather talon straps~
+a pair of leather talon straps~
+A large pair of leather talon straps has been left here.~
+~
+9 0 129
+2 2 0 0 0 2 0
+1 10 1
+4
+1
+0
+0
+0
+0
+S 0 0
+#40027
+crimson red drakkel bracers~
+a pair of crimson red drakkel bracers~
+A pair of crimson bracers has been left here.~
+~
+9 0 4097
+2 2 0 0 0 1 0
+1 20 2
+4
+6
+0
+0
+0
+0
+S 0 0
+#40028
+crimson red drakkel chainmail coat~
+a crimson red drakkel chainmail coat~
+A crimson red chainmail coat lies here.~
+~
+9 0 1025
+60 60 0 0 0 0 0
+5 20 2
+4
+6
+0
+0
+0
+0
+S 0 0
+#40029
+crimson red drakkel visor~
+a crimson red drakkel visor~
+A crimson red visor has been left here.~
+~
+9 0 131073
+2 2 0 0 0 1 0
+2 10 1
+4
+6
+0
+0
+0
+0
+S 0 0
+#40030
+golden drakkel claw~
+a golden drakkel claw~
+A golden claw has been left here.~
+~
+8 0 16385
+0 0 1 0 0 0 0
+1 50 5
+4
+14
+0
+0
+0
+0
+S 0 0
+#40031
+gouged tunnel~
+a gouged tunnel~
+There is a small gouged tunnel in the rear of the lair.~
+~
+15 0 0
+800 0 0 0 0 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#40032
+rusted lever~
+A rusted lever~
+A lever lies discarded on the ground~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 130 13
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+lever rusted~
+This lever looks like it could move a boulder, if applied properly. 
+~
+#40033
+potion flying~
+a potion of flying~
+A glass vial with a golden wing on the side has been left here.~
+~
+10 8192 1
+15 -1 -1 -1 0 0 0
+1 14 1
+4
+0
+0
+0
+0
+0
+'fly' 'NONE' 'NONE'
+S 0 0
+E
+40033 potion flying vial~
+This glass vial is a cylindrical shape, tall and narrow. Its base is gold and from it, a golden wing extends to wrap around the small bottle. The cork at the top is painted gold. Inside, a milky white liquid splashes about, smelling faintly of vanilla. 
+~
+#40034
+portal stone~
+a portal stone~
+An ancient portal stone has been embedded in the ground here.~
+~
+72 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+13
+0
+0
+0
+0
+S 0 0
+#40100
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#40000
+The Valley of Serus Maru~
+~
+The sand is a glistening white as a thick fog stays low and close to the
+ground. A single tree with leaves of a palm stands here, barely shading the
+area. A worn path looks to lead north, standing out as a printed trail by
+footprints, scuffs and a few large gouges cutting deeply into the ground.
+~
+1 4 10
+S
+#40001
+A Worn Path~
+~
+The white sand here has been scuffed aside and hard packed sand has taken
+its place. Deep scratches have been made into the ground and continue north
+and south here. The fog is still thick and close to the ground, but is still
+light enough to see through. A rockface seems to rise up to the north, a
+large split leading into the mass of solid stone. The heat is intense here.
+~
+1 0 11
+D0
+~
+~
+0 -1 40002
+S
+#40002
+A Rockface Opening~
+~
+A tall rockface stands here, towering into the sky. A thick mist seems to
+come from the north where a large split leads into the large cliffbottom.
+The ground here is hardpacked sand and has many deep scrathes going every
+direction. A gust of wind blows slowly from the opening, making it temperate
+here. The rock is made of a pure black quarts, veins of purple and red run
+through it. The hall formed by the split leads north and into the large rock.
+~
+1 0 10
+D0
+~
+~
+0 -1 40008
+D2
+~
+~
+0 -1 40001
+S
+#40003
+A Quartz Tunnel~
+~
+The tunnel is bright with many slightly glowing veins of red and pruple
+that pulsate somewhat. The tunnel exit is just ahead but it is too dark
+to tell exactly where or what it leads to from here. Swirling mist is thick
+near the ground and has a slight glow of its own as well. The smell of wet
+and new growth is in the air, which stands remarkably still with a cool
+temperature. An eerie silence fills this hall here, as if something were
+causing everything to stop its actions in fear.
+~
+1 0 13
+D0
+~
+~
+0 -1 40004
+D2
+~
+~
+0 -1 40002
+S
+#40004
+Growth Cavern~
+~
+The smell of wet rock and moss permeates the air here. The cool air is still
+and unchanging. Rocks with moss and plants growing by them lie in abundance.
+A small pool with crystal blue water puts forth a pale light with sparkling
+water. Large crystals of blue and red jut out of the ground and glow slightly
+as well. A mist is slight and seems to roll in from the tunnel to the south.
+A tunnel entrance can be seen to the east and west.
+~
+1 0 13
+D1
+~
+~
+0 -1 40005
+D2
+~
+~
+0 -1 40003
+D3
+~
+~
+0 -1 40009
+S
+#40005
+A Quartz Tunnel~
+~
+The walls are thick with veins of red and purple that put out a bright glow.
+Many scratches run deep into the ground here and the air is still yet cool.
+The smell of damp rock fills the area. A slight glow comes from the east, the
+tunnel empties into a large cavern of something, anything else is too difficult
+to derive from here.
+~
+1 0 13
+D1
+~
+~
+0 -1 40006
+D3
+~
+~
+0 -1 40004
+S
+#40006
+A Large Cavern~
+~
+The air moves through this cavern at only a drift. A light mist swirls about
+the ground with a slight glow to it. Ever burning firepits set into the walls
+illuminate the room, casting shadows to dance over the floor and opposing
+walls. A few bright red crystals jut up out of the stone floor, glowing bright
+and pulsating a bit. A tunnel entrance can be seen to the north, leading down
+to another area unable to be seen from here.
+~
+1 0 13
+D0
+~
+~
+0 -1 40007
+D3
+~
+~
+0 -1 40005
+S
+#40007
+A Quartz Tunnel~
+~
+The tunnel here is lined with blue and green veins that pulsate and put forth
+a soft glow, enough to see by. The smell of damp rock and fresh water lend an
+aroma to the area. A slight breeze flows through here, keeping it temperate
+and cool. A few blue crystals stand from the ground, glowing softly as a thick
+mist swirls around staying close to the tunnel floor. The tunnel opens into
+a very large cavern to the north. However, a gate seems to be guarding the
+way, being made of very heavy steel.
+~
+1 4 13
+D2
+~
+Gates~
+0 -1 40006
+S
+#40008
+Southern Gates of Drakkel Sharda~
+~
+The gates of the ancient Dragon city Drakkel Sharda stand here, withstanding
+the tests of time, although the gates themselves were torn from their hinges,
+the archway and path still remain the same as they did so many years ago. Large
+braziers burn brightly with an ancient flame never dying. The path is lined
+with many crystals that sparkle in the dim luminance. Directly to the north
+lies the great city of Drakkel Sharda.
+~
+1 0 13
+D0
+~
+gate~
+1 -1 40105
+D2
+~
+~
+0 -1 40002
+R D 0 40008 0 0
+S
+#40009
+A Quartz Tunnel~
+~
+The tunnel here is somewhat plain and unused, many crystals jut up from the
+ground making the path inconsistent and difficult. Rocks lie in piles and
+cracks line the walls of this ancient area. It would seem as if it has not
+been used in decades, or longer. The hallway continues west for a short ways
+beyond this, but no further.
+~
+1 4 13
+D1
+~
+~
+0 -1 40004
+D3
+~
+~
+0 -1 40010
+S
+#40010
+A Collapsed Quartz Tunnel~
+~
+The tunnel here comes to an end as rocks and large blocks of broken crystal
+lie in the path. This tunnel looks to be once used, but no more. Vines and
+moss grow over most of the stone here as a very small stream seems to trickle
+into the closed off area down the wall. The air is still and old, the smell of
+moss is very overpowering yet doesn't seem to stink, it is just very strong
+and smells of earth, water and fungi.
+~
+1 4 13
+D1
+~
+~
+0 -1 40009
+S
+#40011
+Ancient's Way~
+~
+The tunnel here is very tall and very wide. Another tunnel leads to the east
+and west here. The ground here is paved with a white stone, packed down from
+thousands of years worth of use. Large white crystals jut up from the ground
+and run into the sides of the tunnels producing a faint glow, just enough to
+see by. A swirling mist seems to drift about the ground here, also flowing to
+the east and west.
+~
+1 0 13
+D0
+~
+~
+0 -1 40012
+D2
+~
+~
+0 -1 40101
+D3
+~
+~
+0 -1 40021
+R O 0 40034 1 40011
+S
+#40012
+Ancient's Way~
+~
+The tunnel here is wide and spacious, leading both to the north, south, east
+and west. A single white crystal stands to one side of the tunnel producing
+a bright light for vision. The floor here is a hardpacked white stone, trampled
+by many many passerby. The smell of hot stone permiates the area here. The
+temperature is that of a summer day, very warm.
+~
+1 0 13
+D1
+~
+~
+0 -1 40016
+D2
+~
+~
+0 -1 40011
+S
+#40013
+An Intersection~
+~
+The large tunnel splits to the east and west here. A large white crystal
+stands at the back glowing bright enough to see the way. The ground here is
+a hardpacked white stone. The tunnel prodices a slight echo of sounds from
+either direction. The way is continued to the south leading to a few branches
+that cannot be seen from here. The walls of this tunnel are cracked with age
+yet seem to be extremely sturdy.
+~
+1 4 13
+D1
+~
+~
+0 -1 40018
+D2
+~
+~
+0 -1 40076
+S
+#40014
+Lady Vock's Den~
+~
+The cavern here is midsized and has been decorated with many strings with
+countless sprigs of herbs and plants attached to them. There is a large stone
+counter here with a few deep scratches on it but nothing too damaging. The
+area smells strongest of Lavender and another plant that cannot yet be seen.
+Shelves also take up some space on the cavern walls here, lined with a few
+things usefull to some, useless to others.
+~
+1 1028 13
+R M 0 40019 1 40014
+S
+#40015
+Lord Shael's Den~
+~
+Many shelves line the walls of this cavern, stocked with goods and tools.
+A large stone counter is here for doing business at. A large fireplace lies
+against the west wall behind the counter and blazes brightly with an undying
+flame. Its mantle inlaid with large crystal of green coloring. There are
+a few empty racks that are yet to be filled. The air is stale and smells of
+moss, which covers the north wall. Some cracks run through the walls, but
+nothing too dangerous.
+~
+1 4 13
+S
+#40016
+Lord Kheldrin's Den~
+~
+A few shelves line the walls here with all sorts of items on them. A thick
+mist wirls about the room here as a large fireplace blazes behind a stone
+counter to the east. The smell of burned magic is here. The air is warm and
+still here as the mist floats slowly around. A few small crystals have been
+placed in stands and give off light. A small hall leads west back onto the
+Ancient's Way.
+~
+1 1024 13
+D3
+~
+~
+0 -1 40012
+D8
+~
+~
+0 -1 40107
+S
+#40017
+A Decrepid Den~
+~
+This den is unused and decrepid, many cracks run through the walls and the
+smell of dead plants lies here, there is only the light from the path to the
+east to light the area, allowing not much to be seen. The ground is uneven
+and the air is stale, no mist as in the hall to the east flows here, not even
+the sound of a breeze goes through here. An eerie feeling lingers here, a cold
+and unwelcoming one.
+~
+1 4 13
+S
+#40018
+Sagonis Hall~
+~
+The hall here is illuminated by many small white crystal that glow from their
+lanterns suspended in the air. The smell of earth is strong here, and the
+ground is soft soil. Small plants sprout up here and there with pale green
+leaves. The walls of the hall are not cracked, but in perfect condition. A
+single scratch lies in the wall to the south, it looks very old. This hall
+continues east for a short ways, and west to the intersection of Ancient's Way.
+~
+1 0 13
+D1
+~
+~
+0 -1 40019
+D3
+~
+~
+0 -1 40013
+S
+#40019
+Sagonis Hall~
+~
+The ground at the sides of the hall here is covered by many small plants with
+pale green leaves, some have small black flowers on them. A large opening lies
+to the south leading into what looks to be a temple of some sort. To the north,
+Sagonis Hall continues but is not well lit and is very hard to see. The ground
+is soft soil and the smell of earth entirely consumes the area.
+~
+1 4 13
+D0
+~
+~
+0 -1 40021
+D2
+~
+~
+0 -1 40020
+D3
+~
+~
+0 -1 40018
+R M 0 40004 1 40019
+  R G 1 40011 1
+  R G 1 40028 1
+  R G 1 40029 1
+S
+#40020
+The Temple Of Lokatar~
+~
+The temple here is carved high and deep into the rock, making a large area.
+The floor is made of black marble and has some scratches here and there. The
+walls are also made of black marble, as is the ceiling. The pillars are also
+made of this dark rock. There is a black marble altar at the center of the
+southern wall. The smell of old lingers here, as does the smell of dried blood.
+~
+1 1024 13
+D0
+~
+~
+0 -1 40019
+R M 0 40008 1 40020
+R M 0 40009 1 40020
+S
+#40021
+Sagonis Hall~
+~
+The hall is illuminated by small white crystals that have been place in lamps
+hanging from the room of the hall. The ground is made of soft soil and has
+small plants sprouting on the sides with pale green leaves. The smell of earth
+is very potent here. The air is heavy and moist, also very warm. A swirling
+mist with a slight glow to it stays close to the ground, illumintaing the
+area a bit more. Directly to the north, a large chamber can be seen, spanning
+what looks to be for possibly one hundred feet, or more.
+~
+1 0 13
+D0
+~
+~
+0 -1 40022
+D1
+~
+~
+0 -1 40011
+D2
+~
+~
+0 -1 40019
+S
+#40022
+Drakkel Sharda Council Hall~
+~
+The long hall here is draped with black cloth which has been singed in areas
+most likely due to a heated argument. A large firepit in the middle contains
+ashes and some bones. It is very deep and very wide. The air here smells of
+burned bones and heated rock. The ground is soft soil with a few plants that
+managed to sprout up, their leaves a pale green color. A tunnel entrance lies
+to the south as well as to the north. The area here is lit by a single large
+white crystal that hangs from the center of the hall ceiling.
+~
+1 4 13
+D0
+~
+~
+0 -1 40023
+D2
+~
+~
+0 -1 40021
+S
+#40023
+A Quartz Tunnel~
+~
+The tunnel here is short and wide enough for only one dragon at a time. To
+the north lies a large iron-bound door. The air here is heavy with moisture
+and smells of decay. Something is etched, or, scratched rather into the door.
+The ground is made of stone with blue veins running through it, as are the
+walls and ceiling. The door to the north has a lock on it and looks well made.
+~
+1 0 13
+D0
+door
+~
+door~
+7 40000 40024
+D2
+~
+~
+0 -1 35584
+R D 0 40023 0 2
+E
+door~
+This door is made of solid iron. It has the words "KEEP OUT" scratched into it.
+~
+S
+#40024
+Lord Argeld's Lair~
+~
+The air is cool and still here. The smell of death and decay is strong. A
+few crystals jut out of the ground, but are grey and burnt producing no light.
+The ground is of black sand and is uneven. Small pieces of bone lie here and
+there. This Lair is very large, and no sound from anywhere seems to get to
+this place. The door to the south is shrouded in shadow from lack of light.
+There is a giant boulder to the north, that appears to have a tunnel behind it.
+~
+1 2097152 13
+D0
+~
+boulder~
+3111 40032 40161
+D2
+~
+~
+33 -1 40023
+R M 0 40000 1 40024
+  R G 1 40032 1
+R D 0 40024 0 2
+S
+#40025
+A Quartz Tunnel~
+~
+The ground here is made of stone with a few small white crystals jutting
+up that carry a slight glow. The glow is barely enough to see by. Blue
+veins run through the walls and produce a faint glow as well. This tunnel
+looks very old, but very sturdy. The ceiling is high and the walls split
+far making for plenty of room for passerby. To the east, lies a large council
+room. To the west, this tunnel continues.
+~
+1 0 13
+D1
+~
+~
+0 -1 40022
+D3
+~
+~
+0 -1 40026
+R M 0 40021 25 40025
+R M 0 40020 25 40025
+S
+#40026
+A Quartz Tunnel~
+~
+A slight breeze drifts through here, keeping the area somewhat cool. A couple
+sizeable white crystals have grown through the stone floor of the tunnel and
+have a soft glow to them, enough to illuminate the passage here. The smell of
+wet stone lends an aroma to the air as the breeze drifts by. The ground is
+somewhat slippery due to the moisture. This tunnel leads to the east and west.
+~
+1 0 13
+D1
+~
+~
+0 -1 40025
+D3
+~
+~
+0 -1 40027
+R M 0 40021 25 40026
+S
+#40027
+A Quartz Tunnel~
+~
+The ground is very moist here, water seems to be trickling over the stone and
+seeping into its cracks and splits. The air is cool, but very heavy with
+moisture. Some plants have grown through the cracks and thrive on this water.
+The walls are decorated with many patches of moss that carry a bright
+illumination to them. The tunnel continues east and west from here.
+~
+1 0 13
+D1
+~
+~
+0 -1 40026
+D3
+~
+~
+0 -1 40028
+S
+#40028
+A Quartz Tunnel~
+~
+The tunnel takes a turn here from its usual straight passage to the east.
+The tunnel curves here and leads north, the walls decorated with bright patches
+of moss with their intense glow. The water flows over the stone floor into its
+cracks and crevices. Watering whatever lies beneath. The smell of moss, damp
+stone, and earth are strong here, nature has a gold hold somewhere along this
+tunnel.
+~
+1 0 13
+D0
+~
+~
+0 -1 40029
+D1
+~
+~
+0 -1 40027
+R M 0 40020 25 40028
+S
+#40029
+A Quartz Tunnel~
+~
+Water trickles over the stone floor and seeps into the cracks. The air smells
+of wet stone and moss. The walls here are cracked and almost completely taken
+over with different kinds of growth, including a moss which produces a bright
+glow. An intersection lies to the north, and the curve of this tunnel upon its'
+return to the south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40030
+D2
+~
+~
+0 -1 40028
+R M 0 40016 5 40029
+S
+#40030
+A Quartz Tunnel Intersection~
+~
+The tunnel comes to an intersection here, a large white crystal stands at the
+back of the wall here producing light. At its bottom, there is a small
+opening in which water trickles through, covering the stone floor and making
+it somewhat slippery. Moss has completely taken over the walls here and the air
+is cool as well as damp. The quartz tunnel split to the east and west here,
+curving almost immediately after they begin their seperate journeys.
+~
+1 0 13
+D1
+~
+~
+0 -1 40031
+D2
+~
+~
+0 -1 40029
+D3
+~
+~
+0 -1 40052
+R M 0 40021 25 40030
+S
+#40031
+A Moss Covered Tunnel~
+~
+The tunnel here including the floor and ceiling is completely overtaken by
+moss. Some of it producing a faint glow. The air is cool and very damp. No
+air moves through here, it is still, and quiet. This tunnel leads to the west
+where a large glowing crystal stands at an intersection. It also leads to
+the north, which is somewhat dark.
+~
+1 0 13
+D0
+~
+~
+0 -1 40032
+D3
+~
+~
+0 -1 40030
+R M 0 40021 25 40031
+S
+#40032
+A Moss Covered Tunnel~
+~
+It is dark here with only the glow of some moss to see by. The smell of earth
+is strong and lingers here. A slight breeze drifts through, but just barely.
+The ground is soft due to the thick spongy layer of moss that has taken up
+residence there. It is cool here, and very moist. his tunnel leads south as
+well as continues north.
+~
+1 0 13
+D0
+~
+~
+0 -1 40033
+D2
+~
+~
+0 -1 40031
+S
+#40033
+A Moss Covered Tunnel~
+~
+The moss is very thick on the floor and has even begun to grow vines from the
+ceiling. The air is very cool with nothing more than a slight breeze to move
+it from one area to another. A few patches of luminant moss provide a scarce
+amount of light. Just enough so one doesn't trip. This tunnel leads north to
+what can barely be made out as a curve, and to the south.
+~
+1 0 13
+D2
+~
+~
+0 -1 40032
+D3
+~
+~
+0 -1 40056
+R M 0 40021 25 40033
+S
+#40034
+A Curved Tunnel~
+~
+The moss covered tunnel curves and leads to the east here. Vines hang down
+thick from the cieling making it a bit harder to see. The glowing moss
+continues to grow here and provides a pale blue-green light for the eyes.
+The air is very cool here and seems to carry a heavy scent of nature with it.
+~
+1 0 13
+D1
+~
+~
+0 -1 40035
+S
+#40035
+A Moss Covered Tunnel~
+~
+The hallway here opens into a very large area to the east. The air is very
+cold here and ice crystals have permanently formed over the moss on the walls.
+Icicles hand from the cieling and the ground is very slippery due to patches
+ice. The air is stale, and has no scent to it, the cold has completely taken
+over.
+~
+1 4 13
+D1
+~
+~
+0 -1 40036
+D3
+~
+~
+0 -1 40034
+S
+#40036
+Lord Nycta's Lair~
+~
+Ice encases the floor here making it very slippery. The air is biting cold
+and very still. It seems that nothing has upset this area in centuries. A
+very keen sense of evil is here, an unwelcoming feeling, yet not a hostile
+one. The mouth to a moss covered tunnel lies to the west. The center of this
+Lair to the east and the corners of the frozen room to the north and south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40039
+D1
+~
+~
+0 -1 40037
+D2
+~
+~
+0 -1 40042
+D3
+~
+~
+0 -1 40035
+D6
+~
+~
+0 -1 40040
+D8
+~
+~
+0 -1 40043
+R M 0 40020 25 40036
+S
+#40037
+Lord Nycta's Lair~
+~
+A large glacier has been frozen solid to the ground here. The ice puts off
+a very bright glow and has many cuts that project the sparkling edges. The
+air is deadly cold and the ground is pure ice. To the east and west lie
+tunnel entrances, to the north and south, the walls of this Lair.
+~
+1 0 13
+D0
+~
+~
+0 -1 40040
+D1
+~
+~
+0 -1 40038
+D2
+~
+~
+0 -1 40043
+D3
+~
+~
+0 -1 40036
+D6
+~
+~
+0 -1 40041
+D7
+~
+~
+0 -1 40039
+D8
+~
+~
+0 -1 40044
+D9
+~
+~
+0 -1 40042
+R M 0 40002 1 40037
+R M 0 40020 25 40037
+S
+#40038
+Lord Nycta's Lair~
+~
+The air is very cold here and seems not to move at all. To the east is the
+mouth of a tunnel made completely from ice, glowing brightly. To the west,
+the center of the Lair, as well as a large glacier that has been frozen solid
+to the ground. To the north and south lie a pair of frozen over corners. This
+place has a very unwelcome feeling to it.
+~
+1 0 13
+D0
+~
+~
+0 -1 40041
+D1
+~
+~
+0 -1 40045
+D2
+~
+~
+0 -1 40044
+D3
+~
+~
+0 -1 40037
+D7
+~
+~
+0 -1 40040
+D9
+~
+~
+0 -1 40043
+S
+#40039
+Lord Nycta's Lair~
+~
+The corner here is completely encased in ice. Its deep blue glows putting
+forth a bright light. The cut of the ice sparkles in it's own light. Some moss
+has been trapped inside for what looks to be centuries, its tiny leaves
+crystalized almost completely. The air is still and freezing here. The wall
+here continues east, to the south is the mouth of an ice and moss covered
+tunnel. The ground is made of stone which is also completely iced over.
+To the southeast, the middle front part of the chamber stands open.
+~
+1 0 13
+D1
+~
+~
+0 -1 40040
+D2
+~
+~
+0 -1 40036
+D8
+~
+~
+0 -1 40037
+S
+#40040
+Lord Nycta's Lair~
+~
+The wall here is iced over completely. Some of the veins running through the
+wall have also frozen and split it severely. Crystalized moss stands timeless
+and puts forth its ever illuminating glow. The ground is uneven and slippery
+due to the ice. The air is damagingly cold and still. Any smell that was once
+here has been nullified by the frozen shadows of ice that now take the place
+of objects that are no longer recognizeable. To the west, a frozen corner,
+to the east another corner much like the one to the west. Southward lies the
+dead center of the Lair.
+~
+1 0 13
+D1
+~
+~
+0 -1 40041
+D2
+~
+~
+0 -1 40037
+D3
+~
+~
+0 -1 40039
+D8
+~
+~
+0 -1 40038
+D9
+~
+~
+0 -1 40036
+S
+#40041
+Lord Nycta's Lair~
+~
+The corner here is frozen solid and cracked with ice. The stone that once
+was so great, has lost all of its' integrity. A hole in the floor here has
+also been cased over with ice. To the south lies the entrance to a frozen
+tunnel of complete ice. To the west, the wall tward another tunnel, covered
+in moss, southwest lies the dead center.
+~
+1 0 13
+D2
+~
+~
+0 -1 40038
+D3
+~
+~
+0 -1 40040
+D9
+~
+~
+0 -1 40037
+R M 0 40020 25 40041
+S
+#40042
+Lord Nycta's Lair~
+~
+The corner here is iced over completely. Underneath the ice is a large amount
+of moss. The small leaves of this moss are crystalized and died a permanent
+icy blue color. The ice produces a bright glow, yet chills the air greatly.
+To the east the wall of this Lair continues, and to the north, the mouth of
+a mossy tunnel. To the northeast, the center, with a large glacier affixed
+to the ground.
+~
+1 0 13
+D0
+~
+~
+0 -1 40036
+D1
+~
+~
+0 -1 40043
+D6
+~
+~
+0 -1 40037
+S
+#40043
+Lord Nycta's Lair~
+~
+The stone here has been eaten away and replaced with the blue ice. The floor
+is no longer the rough rock, but slick blue ice. No air moves here, everything
+seems stagnant, even time itself. The ceiling is resident to sharp icicles
+which appear to have not moved for some time, let alone been disturbed. To
+the north a large slab of ice is frozen to the ground, glowing brightly. To
+the east and west, the corners of the Lair.
+~
+1 0 13
+D0
+~
+~
+0 -1 40037
+D1
+~
+~
+0 -1 40044
+D3
+~
+~
+0 -1 40042
+D6
+~
+~
+0 -1 40038
+D7
+~
+~
+0 -1 40036
+R M 0 40020 25 40043
+S
+#40044
+Lord Nycta's Lair~
+~
+The corner here is made completely of ice, the stone that was once there has
+been frozen so long, it has transformed into ice itself. The ground is ice as
+well, with no sign that it was ever stone. The air is cold and stale. An
+eerie feeling lingers about here. The ceiling is home to many jagged icicles.
+To the north, the mouth of an ice tunnel can be seen, to the west, the further
+wall of the Lair. Northwest lies the center of the Lair with a large chunk of
+ice permanently affixed to the ground.
+~
+1 0 13
+D0
+~
+~
+0 -1 40038
+D3
+~
+~
+0 -1 40043
+D7
+~
+~
+0 -1 40037
+S
+#40045
+An Ice Tunnel~
+~
+The ice here is a bright blue color. It covers the walls, floor and ceiling
+of the tunnel here. Air drifts through here, freezing the area over as it
+goes. To the east, a short chamber can be seen. To the west, a Lair of some
+sort. The feeling here is only slightly welcoming.
+~
+1 4 13
+D1
+~
+~
+0 -1 40046
+D3
+~
+~
+0 -1 40038
+S
+#40046
+A Solide Stone Chamber~
+~
+The air here is cold and a breeze carries itself through the area. The floor
+is rough stone, the walls are of smooth and well carved stone. To the east,
+a small series of stone steps lead up to a platform. To the west, a tunnel
+encased in ice. To the north and south lie the extensions of the chamber.
+~
+1 0 13
+D0
+~
+~
+0 -1 40047
+D1
+~
+~
+0 -1 40049
+D2
+~
+~
+0 -1 40048
+D3
+~
+~
+0 -1 40045
+D6
+~
+~
+0 -1 40050
+D8
+~
+~
+0 -1 40051
+R M 0 40021 25 40046
+R M 0 40021 25 40046
+S
+#40047
+A Solide Stone Chamber~
+~
+The area here is empty and bare, the rough stone floor and smooth stone walls
+lend a nice feeling to the area, but there is nothing special here. A few
+patches of moss have taken up residence in the corner and are quite large. To
+the east is the adjacent corner to this one. To the south, the mouth of an ice
+tunnel. To the southeast, a small set up steps leading up to a platform, all
+made of stone, finely cut.
+~
+1 0 13
+D1
+~
+~
+0 -1 40050
+D2
+~
+~
+0 -1 40046
+D8
+~
+~
+0 -1 40049
+R M 0 40021 25 40047
+R M 0 40021 25 40047
+R M 0 40003 1 40047
+S
+#40048
+A Solide Stone Chamber~
+~
+This corner is empty with the exception of a single patch of moss that looks
+to be firmly attached to its piece of stone. It has a bluish color and has
+tiny ice crystals for leaves. To the north lies the entrance to an icy tunnel.
+To the east, a corner opposite this one stacked full of boxes. There is nothing
+special here.
+~
+1 0 13
+D0
+~
+~
+0 -1 40046
+D1
+~
+~
+0 -1 40051
+D6
+~
+~
+0 -1 40049
+R M 0 40021 25 40048
+S
+#40049
+A Solide Stone Chamber~
+~
+A platform is here, followed by a set of small steps. This platform has been
+carved with care and looks very precise. It has no large cracks and seems to
+be polished on top. It is a pure black with a sparkle in it. To the south is
+the following corner, to the southwest, the corner diagonal this. To the west,
+the entrance to an icy tunnel lay.
+~
+1 0 13
+D0
+~
+~
+0 -1 40050
+D2
+~
+~
+0 -1 40051
+D3
+~
+~
+0 -1 40046
+D7
+~
+~
+0 -1 40047
+D9
+~
+~
+0 -1 40048
+S
+#40050
+A Solide Stone Chamber~
+~
+This corner is plain and empty, the wall is smooth and cut well. The floor is
+compiled of rough stone. To the south, a small set of steps lead to a platform.
+To the southwest, the entrance to an icy tunnel. The air moves towards a large
+crack in the ceiling, cooling the area. The outline of a crystal door can be
+seen to the north here, but it is very faint.
+~
+1 0 13
+D0
+~
+~
+2055 40018 40140
+D2
+~
+~
+0 -1 40049
+D3
+~
+~
+0 -1 40047
+D9
+~
+~
+0 -1 40046
+R M 0 40026 1 40050
+  R G 1 40018 1
+  R G 1 40018 1
+R D 0 40050 0 2
+S
+#40051
+A Solide Stone Chamber~
+~
+This corner is stacked with boxes and seems pretty ordinary. Nothing out of
+place, just a few large cracks running through the wall. The air is cool here
+as a breeze moves it throughout the rest of the room. To the west is the
+adjacent corner to this one. To the northwest lies the entrnace to an icy
+tunnel.
+~
+1 0 13
+D0
+~
+~
+0 -1 40049
+D3
+~
+~
+0 -1 40048
+D7
+~
+~
+0 -1 40046
+S
+#40052
+A Moss Covered Tunnel~
+~
+This tunnel is completely overtaken by moss. Thick shreds of it hang from
+the ceiling.  The air is moist and heavy, yet remains temperate here despite
+the closed surroundings. The tunnel curves immediately here and leads north.
+To the east an intersection can be seen with a large glowing crystal. The
+ground is spongy with moss, but underneath that is solid stone.
+~
+1 0 13
+D0
+~
+~
+0 -1 40053
+D1
+~
+~
+0 -1 40030
+R M 0 40021 25 40052
+S
+#40053
+A Mossy Tunnel~
+~
+The tunnel here is grown over with moss as it hangs from the ceiling and
+walls. The air is cool and moist, with a slight breeze drifting through.
+This tunnel runs north and south from here, a crystal to the north marks
+something, but no more can be derived from here. The area here is lit by
+only the luminance from the crystal to the north.
+~
+1 0 13
+D0
+~
+~
+0 -1 40054
+D2
+~
+~
+0 -1 40052
+R M 0 40020 25 40053
+R M 0 40016 5 40053
+S
+#40054
+A Mossy Tunnel~
+~
+The tunnel here has been cleared of some moss making way for an entry to
+the west that leads into a small den. The tunnel continues north and south,
+a small crystal glows with a soft light to provide sight. The air is cool
+and damp, a slight breeze makes its way through, circulating what would be
+stale, old air, for new fresh air.
+~
+1 0 13
+D1
+~
+~
+0 -1 40056
+D2
+~
+~
+0 -1 40053
+D3
+~
+~
+0 -1 40055
+R M 0 40016 5 40054
+R M 0 40020 25 40054
+S
+#40055
+A Small Den~
+~
+This den is not small perssay, but goes back a ways. The walls are covered
+in moss ranging in many different shades of green. There is a small stone
+counter here and a strongbox. The air is cool and damp, no air circulates
+through here. The floor is made of solid rough stone. To the east, a mossy
+tunnel lies.
+~
+1 268435460 13
+D1
+~
+~
+0 -1 40054
+R M 0 40023 1 40055
+R M 0 40024 2 40055
+R M 0 40024 2 40055
+R O 0 40008 1 40055
+R O 0 40009 1 40055
+S
+#40056
+A Mossy Tunnel~
+~
+This tunnel is overrun with moss, some of it has a soft glow to it providing
+light to see by. A gentle breeze passes through, cooling the air and bringing
+a freshness to the area. To the north, two entry ways can be seen to the east
+and west, to the south, only one to the west. The ground is pretty even and
+not difficult to travel on.
+~
+1 0 13
+D1
+~
+~
+0 -1 40033
+D3
+~
+~
+0 -1 40054
+R M 0 40016 5 40056
+S
+#40057
+A Mossy Tunnel~
+~
+The tunnel here is overtaken by moss of all different colors. There is a
+single crystal that juts up out of the ground and produces light to illuminate
+the area. The air is temperate ans cool, a slight breeze circulates it
+throughout the tunnel. The ground is spongy due to the high density of moss.
+To the east and west, lie Dens of mediocre size. To the north and south, this
+tunnel continues.
+~
+1 4 13
+D0
+~
+~
+0 -1 40060
+D1
+~
+~
+0 -1 40058
+D3
+~
+~
+0 -1 40059
+R M 0 40025 1 40057
+R M 0 40020 25 40057
+R M 0 40020 25 40057
+S
+#40058
+A Den~
+~
+The air here is relatively still and cool. The ground is made of rough, uneven
+stone. The walls reach high above. There are a few small pools of water here
+that have a seemingly odd glow to them. Their water sparkles brightly. A few
+patches of moss have grown at the sides of the pool and put forth a dank smell.
+To the west lies the mouth of a mossy tunnel.
+~
+1 4 13
+D3
+~
+~
+0 -1 40057
+R M 0 40005 1 40058
+R M 0 40020 25 40058
+R M 0 40020 25 40058
+S
+#40059
+A Small Den~
+~
+A large pool with glowing water stands in the very center of this den. Mold
+and moss grow together at the edge of the pool putting forth a dank and putrid
+stench. The walls reach high above and are made of rough, cracked stone, as is
+the ground. Not much air cirsulates through here making the smell worse. The
+entrance to a mossy tunnel lies to the east.
+~
+1 4 13
+D1
+~
+~
+0 -1 40057
+> entry_prog 100~
+mptransfer $n 40057
+mpat $n mpforce $n look
+~
+|
+S
+#40060
+A Mossy Tunnel~
+~
+Moss covers the walls ceiling and floor here. The only light is that from a
+glowing crystal that lies to the south. The moss is all different colors and
+smells dank. The air is cool and seems to be carried by a slight breeze coming
+from the north. Not too far to the north the tunnel can be seen splitting to
+the east and continuing north.
+~
+1 4 13
+D0
+~
+~
+0 -1 40061
+D2
+~
+~
+0 -1 40057
+R M 0 40020 25 40060
+S
+#40061
+A Tunnel Intersection~
+~
+The tunnel here splits and leads to the east as well as continues north. The
+air is cool and a breeze seems to come from the north and east tunnel to
+circulate the air. A few small crystals have sprouted up on the sides of the
+tunnel and produce a soft glow allowing light to shine on the surrounding area.
+The crystals themselves put forth a small magical aura.
+~
+1 4 13
+D0
+~
+~
+0 -1 40094
+D1
+~
+~
+0 -1 40062
+D2
+~
+~
+0 -1 40060
+S
+#40062
+A Mossy Tunnel~
+~
+The tunnel is completely covered in moss. Long strands of a deep green color
+moss hang down from the ceiling. There is a cool breeze coming from the east
+that is cool, but smells quite dank and earthy. The ground is uneven and
+spongy due to the high amount of moss growing there. This tunnel continues
+east and west at which point it splits into a couple of directions from there.
+Some patches of moss put forth a soft glow, lending little light to see by.
+~
+1 4 13
+D1
+~
+~
+0 -1 40063
+D3
+~
+~
+0 -1 40061
+S
+#40063
+A Mossy Tunnel~
+~
+The tunnel here is cool and very mossy. A breeze drifts in from the east,
+circulating the air around. The moss here is thich and some patches glow.
+A very earthy smell inhabits the area, it smells of roots and wet stone.
+To the east and west, this tunnel continues, only lit by glowing moss and
+the occassional odd crystals that put off light.
+~
+1 4 13
+D1
+~
+~
+0 -1 40064
+D3
+~
+~
+0 -1 40062
+R M 0 40020 25 40063
+S
+#40064
+A Mossy Tunnel~
+~
+This tunnel is overgrown with moss. The ground is extremely soft and spongy.
+Much of the moss glows with a pale bluish light providing some sight to the
+area. The smell of moss and wet stone is very strong here. A few white glowing
+crystals stick up out of the moss and shine with their soft pale white glow.
+To the east, a curve in the tunnel can be seen, the west, a straight away.
+~
+1 4 13
+D1
+~
+~
+0 -1 40065
+D3
+~
+~
+0 -1 40063
+S
+#40065
+A Mossy Tunnel~
+~
+The tunnel curves and continues north here. A few crystal have managed to
+sprout up through the thick moss that covers all the walls ceiling and floor
+here. The crystals give off a pale white glow which illuminates the area
+enough to unshroud what once lay in shadow. The tunnel here leads west and
+smells heavily of plant and earth. The air is cool as a breeze drifts througout
+the tunnel.
+~
+1 4 13
+D0
+~
+~
+0 -1 40066
+D3
+~
+~
+0 -1 40064
+S
+#40066
+A Mossy Tunnel~
+~
+The tunnel here opens into a large Lair to the north. Small White crystals
+are very abundant near the mouth of this tunnel and glow with a pure white
+light. Moss coveres the entire tunnel here and is thick as well as spongy.
+The air is cool with a slight breeze and smell of earth. The tunnel also
+leads south to a curve.
+~
+1 4 13
+D0
+~
+~
+0 -1 40067
+D2
+~
+~
+0 -1 40065
+S
+#40067
+Dragon's Resting~
+~
+The ground here is covered in a greyish color sand and is uneven. A few
+large bones stick up out of the sand and look quite heavy. I large headstone
+lies here and has some deep scratches in it. It is half broken off and looks
+as if noone has paid any respect to it. The smell of decay is strong here.
+There is an entrance to a mossy tunnel to the south, and this boneyard
+continues in all other directions.
+~
+1 4 13
+D1
+~
+~
+0 -1 40068
+D2
+~
+~
+0 -1 40066
+D3
+~
+~
+0 -1 40069
+D6
+~
+~
+0 -1 40071
+D7
+~
+~
+0 -1 40072
+R M 0 40021 25 40067
+S
+#40068
+Dragon's Resting~
+~
+The corner here is covered in ancient cobwebs and seems to be undisturbed.
+The air is stale and smells of decay. A few bone chips lie around in the
+grey sand that covers the ground. The walls of this corner look old and have
+started to crumble under the strain of time. To the north this boneyard
+continues in a dim light that is produced by a single crystal sticking up
+out of the sand here.
+~
+1 4 13
+D0
+~
+~
+0 -1 40071
+D3
+~
+~
+0 -1 40067
+R M 0 40015 1 40068
+  R E 1 40006 1 16
+  R G 1 40006 1
+  R G 1 40006 1
+R M 0 40021 25 40068
+S
+#40069
+Dragon's Resting~
+~
+The ground here is made of a heavy grey sand. A few large bones stick out
+of this sand and look very heavy. The walls in this corner are made of well
+carved stone and look to have some sort of frail grey mold growing about.
+Parts of broken off stone from something lie here, they also look very heavy.
+This place smells of death and decay.
+~
+1 4 13
+D0
+~
+~
+0 -1 40072
+D1
+~
+~
+0 -1 40067
+S
+#40070
+Dragon's Resting~
+~
+A large pile of bones is here, all of them very large and very heavy looking.
+It looks as if a dragon gave up and died here, allowing itself to rot into
+nothingness. The smell of old bones and decay are extremely strong here.
+A feeling of sadness lingers here, like a lost soul.
+~
+1 1028 13
+D0
+~
+~
+0 -1 40073
+R M 0 40007 1 40070
+R O 0 40024 1 40070
+> speech_prog 'forgive me'~
+if race($n) == Celestial
+mppause 3
+mpe A white light shines upon you, and you find yourself before the Light.
+mptrans $n 31000
+mpat $n mpforce $n look
+endif
+~
+> act_prog p swears: @*&^%@*&!~
+if race($n) == Demon
+mppause 5
+say Get thee to HELL!
+mptrans $n 30083
+mppause 3
+mpat 30083 mpforce $n emote arrives in a blue fire!
+mpat 30083 mpforce $n look
+endif
+~
+|
+S
+#40071
+Dragon's Resting~
+~
+The wall runs flat here and continues to a corner northwards. Many old
+cobwebs hang from the ceiling and wall here, swaying ever so slightly in
+an almost nonexistant draft. The smell of decay is potent here and a few
+bones are scattered about. A large, heavy looking headstone lies here and
+has a crack running through its center. It says something, but the words
+are too faded to read from here and would require a closer look. To the east,
+A hallway masoned from pure black stone lies.
+~
+1 4 13
+D0
+~
+~
+0 -1 40074
+D1
+~
+~
+0 -1 40083
+D2
+~
+~
+0 -1 40068
+D9
+~
+~
+0 -1 40067
+R M 0 40021 25 40071
+S
+#40072
+Dragon's Resting~
+~
+The wall here is covered in cobwebs and is crumbling away quite rapidly. Large
+pieces of stone now lie in heavy piles on the ground. The smell of death is
+here, and very strong. The air circulates almost as slowly as time moves when
+one is deceased. A few large rib bones lay about, grey in color and lifeless
+as stones. The mouth of a rough tunnel is here, its' tunnel leading west.
+~
+1 4 13
+D0
+~
+~
+0 -1 40075
+D2
+~
+~
+0 -1 40069
+D3
+~
+~
+0 -1 40090
+D8
+~
+~
+0 -1 40067
+R M 0 40020 25 40072
+S
+#40073
+Dragon's Resting~
+~
+A large legbone of some sort lies here, very thick, and looks very heavy.
+A large amount of mold has taken hold in the sand here and seems to thrive.
+To the north lies a short tunnel laced with cobwebs and dead vines. The stench
+of decay is strong. A slight draft seems to be coming from the tunnel.
+~
+1 4 13
+D0
+~
+~
+0 -1 40076
+D2
+~
+~
+0 -1 40070
+S
+#40074
+Dragon's Resting~
+~
+This corner is very decrepid and almost completely unrecognizeable. Many
+old frail cobwebs hang lifelessly from the ceiling and wall here. A few
+bones have been left by their corpse and seem to lie almost in wait for
+something, but one can never be sure. The smell of decay and mold is slight
+here.
+~
+1 4 13
+D2
+~
+~
+0 -1 40071
+R M 0 40016 5 40074
+R M 0 40021 25 40074
+S
+#40075
+Dragon's Resting~
+~
+The walls here seem to be somewhat intact and barely crumbling. Something
+in the stone must be holding it up. Cobwebs hang from the ceiling in thick
+blankets here, swaying gently with the little air circulation that passes
+through here. The ground is covered in grey sand and some sort of mold.
+~
+1 4 13
+D2
+~
+~
+0 -1 40072
+R M 0 40017 1 40075
+S
+#40076
+A Short Tunnel~
+~
+This tunnel is heavily laced with cobwebs that have been here for many
+centuries. They are frail and white, swaying gently as a draft touches
+then with its soft fingers. To the north a chamber can be seen opening
+up. To the south, a boneyard from years past. Many dead vines and patches
+of moss line the walls here. They were once living, but now rest quietly
+on the stone wall of this tunnel.
+~
+1 4 13
+D0
+~
+~
+0 -1 40013
+D2
+~
+~
+0 -1 40073
+S
+#40077
+A Stone Chamber~
+~
+The floor here is made of a pure black stone. It has been masoned well and
+is very even. A few cracks run through it, other than that it is near perfect.
+to the north, a small set of steps lead to a platform. To the south, a cobweb
+covered tunnel can be seen. to the east and west lie the corners of this
+chamber. A few small crystals are at the opening of the tunnel putting forth
+a soft white glow, lighting the area here.
+~
+1 4 13
+D0
+~
+~
+0 -1 40080
+D1
+~
+~
+0 -1 40078
+D3
+~
+~
+0 -1 40079
+D6
+~
+~
+0 -1 40081
+D7
+~
+~
+0 -1 40082
+S
+#40078
+A Stone Chamber~
+~
+A large white crystal stands in the corner, jutting up through the pure black
+stone floor. However, where it penetrates the floor, there are no cracks or
+splits. The crystal gives off a soft white glow that illuminates the area
+quite well. Ther eisn't anything special here. A few patches of grey mold
+grow on the walls and seem dusty.
+~
+1 4 13
+D0
+~
+~
+0 -1 40081
+D3
+~
+~
+0 -1 40077
+D7
+~
+~
+0 -1 40080
+S
+#40079
+A Stone Chamber~
+~
+The corner here has a floor made of pure black stone. No cracks run through
+the floor nor the walls here. This area has been well taken care off. A single
+white crystal stads in the corner here, illuminating the area with a soft glow.
+To the east a mouth to a cobweb laced tunnel can be see, to the north, an
+adjacent corner.
+~
+1 4 13
+D0
+~
+~
+0 -1 40082
+D1
+~
+~
+0 -1 40077
+D7
+~
+~
+0 -1 40080
+S
+#40080
+A Stone Chamber~
+~
+A small platform is here, made of pure black stone. No cracks run through
+this stone. light seems to be drawn into this stone somewhat. A large
+crystal goes from the floor through the ceiling. It glows a pale white and
+illuminates the platform greatly. The walls here are smooth and nicely masoned.
+~
+1 1028 13
+D1
+~
+~
+0 -1 40081
+D2
+~
+~
+0 -1 40077
+D3
+~
+~
+0 -1 40082
+D8
+~
+~
+0 -1 40078
+R M 0 40012 1 40080
+S
+#40081
+A Stone Chamber~
+~
+A short thick crystal grows out of the pure black floor here, it glows
+putting forth a soft white light that lights up the area. To the west, a small
+set of steps leading to a platform made of the same stone as the floor here.
+Air seems to circulate here, entering from a hole in the ceiling above. There
+are a few patches of grey mold, but nothing more here.
+~
+1 1024 13
+D2
+~
+~
+0 -1 40078
+D3
+~
+~
+0 -1 40080
+D9
+~
+~
+0 -1 40077
+R M 0 40014 1 40081
+S
+#40082
+A Stone Chamber~
+~
+The corner here is bare with the exception of a large crystal that glows with
+a pale light that illuminates the area well enough to see. The floor is made
+of a black stone that is in perfect condition. A single patch of mold grows at
+the base of the crystal, other than that there is nothing here. To the east
+a set of small steps leads to a platform of the same black stone.
+~
+1 1024 13
+D1
+~
+~
+0 -1 40080
+D2
+~
+~
+0 -1 40079
+D8
+~
+~
+0 -1 40077
+R M 0 40013 1 40082
+S
+#40083
+A Masoned Hallway~
+~
+The hallway here is masoned out of a pure black stone. It is very well done
+and there seem to be no major cracks in the walls, ceiling of floor. A few
+small crystal that have grown through the floor glow a soft white color and
+provide ample light. A slight breeze travels through here and seems to be
+coming from the stone chamber to the east.
+~
+1 4 13
+D1
+~
+~
+0 -1 40084
+D3
+~
+~
+0 -1 40071
+R M 0 40021 25 40083
+S
+#40084
+A Masoned Stone Chamber~
+~
+This chamber is well masoned. The walls, ceiling and floor are made of a pure
+black stone. A few crystals have come up out of the floor and glow with a soft
+white light. A cool breeze passes through here circulating the air. To the west
+lies the entrance of a well masoned hallway. To the north and south, corners
+of this chamber. To the east there is a small set of steps leading to a
+platform also carved of this black stone.
+~
+1 4 13
+D0
+~
+~
+0 -1 40085
+D1
+~
+~
+0 -1 40087
+D2
+~
+~
+0 -1 40086
+D3
+~
+~
+0 -1 40083
+D6
+~
+~
+0 -1 40088
+D8
+~
+~
+0 -1 40089
+S
+#40085
+A Masoned Stone Chamber~
+~
+A few crystals have grown in this corner. One of them green, on blue and the
+other red. They each glow with their respective colors and put out quite a
+beautiful display. A few strands of cobwebs sway in the slight wind as they
+cling gently to the ceiling. To the east lies the opposite corner of this
+chamber. To the south, the entrance to a well masoned hallway.
+~
+1 4 13
+D1
+~
+~
+0 -1 40088
+D2
+~
+~
+0 -1 40084
+D8
+~
+~
+0 -1 40087
+S
+#40086
+A Masoned Stone Chamber~
+~
+This corner is home to a few cobwebs as well as a large crystal that rises
+from the ground. It puts forth a soft glow and a slight humming sound. A
+patch of moss grows at the foot of this crystal and seems to be thriving
+quite well there. To the north lies to opposite corner. To the west, the
+entrance to what looks like a well masoned hallway.
+~
+1 4 13
+D0
+~
+~
+0 -1 40084
+D1
+~
+~
+0 -1 40089
+D6
+~
+~
+0 -1 40087
+S
+#40087
+A Masoned Stone Chamber~
+~
+This platform is well made and the black stone seems to have a very slight
+sparkle to it. A single, large red crystal has grown from the floor almost
+all the way up to the ceiling. It is bright red and glows. A slight breeze
+drifts through pulling the air around. To the west, lies the entrance to a
+masoned hallway. To the north and south, the corners of the chamber.
+~
+1 4 13
+D0
+~
+~
+0 -1 40088
+D2
+~
+~
+0 -1 40089
+D3
+~
+~
+0 -1 40084
+D7
+~
+~
+0 -1 40085
+D9
+~
+~
+0 -1 40086
+R M 0 40011 1 40087
+S
+#40088
+A Masoned Stone Chamber~
+~
+A large red crystal has grown up through the ground here and puts forth a
+vibrant glow. Illuminating the aera and casting a red tint to anything within
+a few feet of it. To the south lies a small set of steps that lead to a well
+masoned platform. Both the steps and platform are made of the black stone in
+which the walls, floor and ceiling are.
+~
+1 4 13
+D2
+~
+~
+0 -1 40087
+D3
+~
+~
+0 -1 40085
+D9
+~
+~
+0 -1 40084
+S
+#40089
+A Masoned Stone Chamber~
+~
+The stone which the floor is made of here is slightly cracked due to a large
+crystal sprouting up from beneath it. This crystal glows with a soft white light
+and looks very glossy on the outside. A hole in the ceiling seems to be letting
+air in from somewhere as it drifts past you in the direction of a masoned
+hallway to the northwest. To the west, the oppsite corner of this room lies.
+To the north, a small set of steps leading to a masoned platform.
+~
+1 4 13
+D0
+~
+~
+0 -1 40087
+D3
+~
+~
+0 -1 40086
+D7
+~
+~
+0 -1 40084
+S
+#40090
+A Rough Stone Tunnel~
+~
+The stone here is hewn rather badly and large rocks lie to the sides of this
+tunnel. Cracks run all through the ceiling and walls. A single white crystal
+has sprouted on the right side of the tunnel and illuminates the area. To the
+west a tunnel intersection can be seen. To the east, an ancient boneyard.
+~
+1 4 13
+D1
+~
+~
+0 -1 40072
+D3
+~
+~
+0 -1 40091
+S
+#40091
+A Tunnel Intersection~
+~
+This intersection splits and leads to the north and south. A crystal has
+grown at the back here, but looks somewhat burned out and grey, barely
+putting forth any light. A few dead moss patches can be seen on the walls
+and floor. The tunnel from here on out look abandoned.
+~
+1 0 13
+D0
+~
+~
+0 -1 40092
+D1
+~
+~
+0 -1 40090
+D2
+~
+~
+0 -1 40093
+S
+#40092
+An Abandoned Tunnel~
+~
+It looks as if work on the tunnel here was half completed. Large hunks of
+stone lay everywhere and the marks on the walls for surveying are old and
+dark. A single crystal stands in an old pocket carved into the wall. It must
+have been the work light from so many years before.
+~
+1 0 13
+D2
+~
+~
+0 -1 40091
+S
+#40093
+An Abandoned Tunnel~
+~
+This tunnel is very short and half completed, a few crystals stand in wall
+pockets putting out a soft glow. The stone is rough and uncut in many areas.
+There seems to be many marks on the walls, all of which have faded and are
+now dark. A few cobwebs hang from the ceiling here. To the north a tunnel
+intersection can be seen.
+~
+1 0 13
+D0
+~
+~
+0 -1 40091
+S
+#40094
+A Mossy Tunnel~
+~
+Moss of all kinds thrives here, growing on the walls, ceiling and floor. A
+few crystals have grown through the heaping masses on the floor and glow
+brightly, producing ample light to see by. This tunnel continues north but
+only to a curve, it also continues south to an intersection of tunnels. The
+air is cool, damp and smells heavily of earth.
+~
+1 4 13
+D0
+~
+~
+0 -1 40095
+D2
+~
+~
+0 -1 40061
+R M 0 40020 25 40094
+R M 0 40021 25 40094
+S
+#40095
+A Mossy Tunnel~
+~
+The tunnel curves here, leading to the west. A few tiny crystals have managed
+to grow through the moss on the ceiling and produce a soft faint glow, but
+enough to illuminate this area of tunnel. The air smells of earth and wet
+stone. There is a slight breeze here that moves the air throughout the tunnels.
+~
+1 4 13
+D2
+~
+~
+0 -1 40094
+D3
+~
+~
+0 -1 40096
+S
+#40096
+A Mossy Tunnel~
+~
+The tunnel here is covered in moss and the ground is spongy. Air moves through
+here carrying the smell of earth with it. A large crystal has grown up out of
+the floor and puts forth a pale white light. To the west lies an intersection
+of tunnels, and to the east, the tunnel curves off into another direction.
+~
+1 4 13
+D1
+~
+~
+0 -1 40095
+D3
+~
+~
+0 -1 40097
+R M 0 40021 25 40096
+S
+#40097
+A Tunnel Intersection~
+~
+A few tunnels empty into this intersection. One leading north, another east
+and the last west. A large light blue crystal has grown here and illuminates
+the area with a soft blue light. Moss has started to grow at on this crystal
+and looks rather lush. A draft passes through, the smell of earth on it's back.
+A few stalactites of the same blue crystal hang from the high ceiling.
+~
+1 4 13
+D0
+~
+~
+0 -1 40098
+D1
+~
+~
+0 -1 40096
+D3
+~
+~
+0 -1 40122
+S
+#40098
+A Crystaline Tunnel~
+~
+This tunnel is made completely out of crystal and a few other precious rock
+types. Some of the crystal glows and bounces off of the others, causing light
+to refract everywhere and illuminate the area very well. The crystal here has
+a very light blue tinge to it, making it look slightly like frozen water. The
+air smells clean and is cool as it drifts about.
+~
+1 4 13
+D0
+~
+~
+0 -1 40099
+D2
+~
+~
+0 -1 40097
+S
+#40099
+A Crystaline Tunnel~
+~
+The tunnel here is completely out of crystal. The crystal here has a slight
+blue tint to it and looks very beautiful. A few of the crystals glow sending
+rays of light bouncing off the different faces of all the other crystals. This
+creates many small blue spots on anything that does not reflect light. The air
+is cool and clean here. It moves past this area with slow speed.
+~
+1 4 13
+D0
+~
+~
+0 -1 40100
+D2
+~
+~
+0 -1 40098
+S
+#40100
+A Crystaline Tunnel~
+~
+This tunnel is very bright with the refraction of light off of all the crystal
+here. Blue and white glints off almost every part of the wall and seems to
+lend a certain calm to the area. A steady breeze wisps through here, moving
+the clean fresh air around. To the north, a crystal cavern can be seen, it
+seems to be quite large.
+~
+1 4 13
+D2
+~
+~
+0 -1 40099
+S
+#40101
+A Crystalized Cavern~
+~
+A large cavern lies here completely made by crystal. The sides and cuts of
+the crystal glint in every direction sending small shards of light in many
+directions. Clean air is passed through here by a stiff draft that seems to
+move in from the north somewhere. The corners of this chamber lie to the
+east and west. The mouth of a crystalline tunnel to the south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40011
+D2
+~
+~
+0 -1 40102
+S
+#40102
+A Crystalized Cavern~
+~
+The area here is beautiful as many shards of light dance throughout the room.
+Many large crystals grow here, each equisitely marvelous in shape and color.
+Although most of them are clear, they are beautiful none the less. To the
+south lies the entrance of a crystalline tunnel. To the east and west, are the
+corners of this room. North, the center.
+~
+1 0 13
+D0
+~
+~
+0 -1 40101
+D1
+~
+~
+0 -1 40103
+S
+#40103
+A Crystalized Cavern~
+~
+The area here is clean and sparkles with the light reflecting off of the sides
+of the many crystals that have taken up residence here. A few of them have a
+beautiful blue tint to them and sparkle blue colors instad of white. A breeze
+comes in from the north and is slight, but enough to keep the air here fresh.
+Also, to the north, a crystalline tunnel lies, short in distance, who's end
+lies here.
+~
+1 0 13
+D1
+~
+~
+0 -1 40104
+D3
+~
+~
+0 -1 40102
+R M 0 40020 25 40103
+S
+#40104
+A Crystalized Cavern~
+~
+The corner here has many large crystals growing about. The walls, ceiling and
+floor are grown over with crystals and glitter in the pale light of the few
+that glow. The mouth to a crystalline tunnel lies to the west and the rest
+of this large beautiful cavern to the north.
+~
+1 0 13
+D1
+~
+~
+0 -1 40105
+D3
+~
+~
+0 -1 40103
+S
+#40105
+A Crystalized Cavern~
+~
+This corner is completely grown over with large crystals, some of them have
+a slight glow to them which bounces off the sides of all the other crystals.
+The bouncing of light creates a beautiful sparkling on the walls and ceiling.
+The air is clean here and moves through the area in a cool breeze. To the west
+lies the entrance to a crystalline tunnel.
+~
+1 0 13
+D0
+~
+~
+0 -1 40106
+D2
+~
+gate~
+1 -1 40008
+D3
+~
+~
+0 -1 40104
+R D 0 40105 2 0
+S
+#40106
+A Crystalized Cavern~
+~
+Large clumps of clear crystal have grown here and refract light as it 
+enters their cut sides. Small pieces of broken light splay across the 
+floor, walls and ceiling here. The air is clean and clear here, much like 
+the crystals. A few large crystals glow, producing the light that is so 
+scattered. The entrance to a crystalline tunnel is here and the tunnel 
+itself can be seen leading further to the northwest. 
+~
+1 0 13
+D2
+~
+~
+0 -1 40105
+D7
+~
+~
+0 -1 40107
+S
+#40107
+A Crystalized Cavern~
+~
+The area here is littered with small crystals that pop up everywhere. The
+ground is uneven due to the mass amount growing there. The entire cavern
+sparkles with the shards of light that bounce from here to there. A draft
+seems to be coming from the west in which the entrance to another cavern
+lies. A few crystals are clustered here and glow bright with a white light.
+~
+1 0 13
+D7
+~
+~
+0 -1 40016
+D8
+~
+~
+0 -1 40106
+S
+#40108
+A Crystalized Cavern~
+~
+Small bunches of crystals have grown here and are undisturbed. A few of the
+crystals put for a soft white light which refracts off the other crystals
+forming small colorful shards of light. The air is clean and clear here as a
+draft carries it around. To the west lies the entrance to a crystalline
+tunnel. To the south, the cavern expands to it's walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 40114
+S
+#40109
+A Crystalized Cavern~
+~
+The corner is completely grown over with crystal and has the blue coloring
+that most of the crystal in the area has. A few cracks run through the crystal
+as if someone had tried to mine it at one point. The light provided by a few
+glowing crystals refracts and reflects off of most of the crystals here. A
+few crystals have not been fully formed and are a slight dull grey color. To
+the south, the entrance to a crystaline tunnel can be seen, the same as to
+the east.
+~
+1 0 13
+D1
+~
+~
+0 -1 40103
+S
+#40110
+A Crystalline Tunnel~
+~
+This tunnel is hollowed has been encased in beep blue crystal in which the
+tint lightens at the ends of the tunnel to the east and west. Light produced
+by a few crystals seems to bounce off the sides of all the other crystals
+and refracts into many small pieces and rays. To the east, a small cave can
+be seen, and to the east, a large cavern.
+~
+1 4 13
+D1
+~
+~
+0 -1 40111
+S
+#40111
+A Crystalizied Cave~
+~
+This small cave has a high ceiling and narrow walls.  A small pool lies here
+with sparkling blue water.  It seems to have a few patches of moss that have
+grown around it.  The water puts off a slight glow to illuminate the area.  The
+cave is long and continues to the north and south.  There is a entrance for a
+crystalline tunnel that leads west into a larger cavern.
+~
+1 4 13
+D0
+~
+~
+0 -1 40112
+D2
+~
+~
+0 -1 40113
+D3
+~
+~
+0 -1 40110
+S
+#40112
+A Crystalizied Cave~
+~
+Many crystals here are a dark blue tint and glitter beautifully in the small
+amount of light produced by a few that are glowing. Long sharp crystals also
+with the same blue color hang down from the ceiling, but out of reach. This
+place has somewhat of an eerie chill to it, but is very pretty and is most
+definately a great picture for the eyes. To the south lies the entrance to
+a crystalline cavern.
+~
+1 4 13
+D2
+~
+~
+0 -1 40111
+S
+#40113
+A Crystalizied Cave~
+~
+This area of the cave is completely grown over with crystal making the ground
+uneven. The walls have many crystals growing in many shades of blue and some
+clear. The air is clean and clear here, a draft moving through here, keeps it
+fresh. To the north lies a small pool and the entrance to a crystalline tunnel.
+~
+1 4 13
+D0
+~
+~
+0 -1 40111
+S
+#40114
+A Crystalline Tunnel~
+~
+The tunnel here is beautiful with bluish crystal completely growing over all
+rock faces. Magnificent stalactites of blue crystal hang down from the ceiling
+of the tunnel and come to a dull point. All of the crystals here glitter with
+light as it bounces from each one. The light comes from a few small crystals
+which glow a faint blue color and light the way. To the north a small cave
+can be seen.
+~
+1 4 13
+D0
+~
+~
+0 -1 40115
+D2
+~
+~
+0 -1 40108
+S
+#40115
+A Crystalized Cave~
+~
+This cavern reaches high where many crystal stalactites hang from the ceiling.
+The walls and ground have also been overgrown with crystal. These crystals
+all have a somewhat blue tint to them and a few of them put forth a soft glow.
+The light from the glowing crystals bounces off the many sides of the other
+crystals and makes small patterns on a few patches of moss which grow near
+the edge of a pool that seems to be filled with a bluish sparkling water.
+The water is very lucid and tranquil. To the south, the entrance to a
+crystalline tunnel can be found.
+~
+1 4 13
+D1
+~
+~
+0 -1 40116
+D2
+~
+~
+0 -1 40114
+D3
+~
+~
+0 -1 40117
+S
+#40116
+A Crystalized Cave~
+~
+This area is grown over with crystals with the exception of a small patch of
+wall which seems to have a black color to it. Nothing grows here, no moss and
+no crystals. The other crystals are large and some of them put forth a faint
+which bounces off the others and creates small rays that form odd shapes
+on the black patch. To the north an entrance to a crystalline cavern can be
+seen. The air moving through here also drifts in that direction.
+~
+1 4 13
+D3
+~
+~
+0 -1 40115
+S
+#40117
+A Crystalized Cave~
+~
+The cave here is covered in light blue crystals that spire up from the ground
+and over the walls. Stalactites of blue crystal hang down from the ceiling as
+well. The sides of these crystals glint in the light provided by a few small
+glowing ones. Air drifts through here and cools the area. To the east the
+entrance to a crystalline tunnel can be seen.
+~
+1 4 13
+D1
+~
+~
+0 -1 40115
+S
+#40118
+A Crystalline Tunnel~
+~
+This tunnel is grown over mostly with a light blue crystal and a few that
+put forth a slight glow. The ground is uneven due to this half growth of
+crystal and is hard to walk on. The air is cool and clean here, a breeze
+drifts through and seem to be coming from the west. To the west this tunnel
+empties out into a small cavern with a high ceiling. To the east this a
+large cavern can be seen.
+~
+1 0 13
+D3
+~
+~
+0 -1 40119
+R M 0 40020 25 40118
+S
+#40119
+A Crystalized Cave~
+~
+This cave is small but the ceiling is very high. Mighty stalactites can be
+seen hanging from the ceiling and glittering in the faint light that is
+prodiced by a pool here. The pool is small and has pure, light blue water.
+The water puts forth a strong glow and illuminates the area around it. The
+water looks very cool and seems to shimmer a bit from an angle. To the east
+lies an crystalline tunnel, its entrance residing here. To the north and
+south are the ends of this cave.
+~
+1 4 13
+D0
+~
+~
+0 -1 40120
+D1
+~
+~
+0 -1 40118
+D2
+~
+~
+0 -1 40121
+S
+#40120
+A Crystalized Cave~
+~
+Crystals grow over every inch of this area, light blue in color and some
+very large. A few put off a soft light which bounces off the other crystals
+and fills them with color enough to illuminate the ground. The wall here is
+completely encased in crystal and meets with the ceiling high above. Where
+long stalactites hang down with sharp points. To the north a small shimmering
+pool can be seen as well as the entrance to a crystalline tunnel.
+~
+1 4 13
+D2
+~
+~
+0 -1 40119
+S
+#40121
+A Crystalized Cave~
+~
+The cave ends here and a wall of crystal stands tall, binding to the ceiling
+high above. Light produced by the pool to the north and a few crystals bounces
+off of the crystals here illuminating the area and filling the crystal with
+color. The air is cool here and seems to be coming from the wall, a small hole
+can be seen where the crystal has not grown over.
+~
+1 4 13
+D0
+~
+~
+0 -1 40119
+S
+#40122
+A Crystalline Tunnel~
+~
+The tunnel here is grown over with moss and crystals. The moss stop about
+halfway through the tunnel and meets crystals with a red coloring. A few
+of the crystals glow putting forth a red light thats glances off the other
+crystals. The tunnel here is dyed with red and is very beautiful. To the west
+this tunnel continues. To the east lies an intersection of tunnels.
+~
+1 4 13
+D1
+~
+~
+0 -1 40097
+D3
+~
+~
+0 -1 40123
+R M 0 40018 2 40122
+R M 0 40018 2 40122
+S
+#40123
+A Crystalline Tunnel~
+~
+This tunnel is completely covered with small red crystals. A few of them
+put forth a strong glow that not only illuminates the area, but also puts off
+a good amount of heat. The tunnel curves here and leads on south as well as
+to the east. The air is warm and comfortable here. It moves through as a
+slight breeze carries it from the south.
+~
+1 4 13
+D1
+~
+~
+0 -1 40122
+D2
+~
+~
+0 -1 40124
+R M 0 40021 25 40123
+S
+#40124
+A Crystalline Tunnel~
+~
+The tunnel here is completely overgrown with small red crystals. Many of them
+glow and bounce their light off of the others illuminating the area. A gentle
+heat seems to be eminating from the crystals themselves and warms the area. A
+gentle drafts moves the air and seems to generate from the south. This tunnel
+leads north and south.
+~
+1 4 13
+D0
+~
+~
+0 -1 40123
+D2
+~
+~
+0 -1 40125
+S
+#40125
+A Crystalline Tunnel~
+~
+The tunnel here is covered with crystal whose colors range from a light
+red to a very deep and dark red. A few of these crystals glow with a pure
+light that refracts throughout the other crystals and lends light to the
+area. The tunnel here is also warm, a heat seems to be emitting from these
+crystals. A soft, gentle heat that is moved from a drafts that comes from
+the south. To the south lies a crystal cavern, and to the north, the
+tunnel continues.
+~
+1 4 13
+D0
+~
+~
+0 -1 40124
+D2
+~
+~
+0 -1 40126
+S
+#40126
+A Crystal Cavern~
+~
+This area is completely overtaken by red crystals that seem to have made a
+permanent home for themselves. A few larger crystals glow, putting of a bright
+red light that glints off the other crystals and adds illumination to the area.
+The air here is warm, seeing as a soft heat seems to be eminating from the
+crystals. The entrance to a crystalline tunnel is here, the tunnel leads north.
+To the south, this cavern is large and open.
+~
+1 4 13
+D0
+~
+~
+0 -1 40125
+D1
+~
+~
+0 -1 40127
+D2
+~
+~
+0 -1 40129
+D3
+~
+~
+0 -1 40128
+D8
+~
+~
+0 -1 40130
+S
+#40127
+A Crystal Cavern~
+~
+This corner is covered with large and small crystals ranging from light red to
+a deep blood red. A few of them glow and put forth enough light to see by.
+The walls here are encased in this crystal and bind to the ceiling high above
+where mighty stalactites hang from. A warm draft passes through here. The
+heat seems to be coming from the crystals themselves. To the south is the
+opposing corner of this cavern.
+~
+1 4 13
+D2
+~
+~
+0 -1 40130
+D3
+~
+~
+0 -1 40126
+D9
+~
+~
+0 -1 40129
+S
+#40128
+A Crystal Cavern~
+~
+This corner has many crystals growing ove rit, however, most of them are
+burned out and cracked. Almost as if misused in some way. A single crystal
+here glows with a bright red light, illuminating the area very well. It is
+warm here, and the air smells of hot rock. Many thin stalactites hang down
+from the ceiling here, but high enough to not be a bother. To the east lies
+the entrance of a crystalline tunnel.
+~
+1 4 13
+D1
+~
+~
+0 -1 40126
+D8
+~
+~
+0 -1 40129
+S
+#40129
+A Crystal Cavern~
+~
+A few large crystals have grown here and definitely show their age. Cracks
+run through them and chips have fallen from their great bodies. The floor
+and walls have been grown over with red crystals, as has the ceiling that
+reaches high above. A few of these crystals glow, producing enough light to
+see by as well as refract off the other crystals. The entrance to a crystalline
+tunnel lies south, the tunnel leading that direction. To the north, this cavern
+opens up.
+~
+1 4 13
+D0
+~
+~
+0 -1 40126
+D1
+~
+~
+0 -1 40130
+D2
+~
+~
+0 -1 40132
+D6
+~
+~
+0 -1 40127
+D7
+~
+~
+0 -1 40128
+S
+#40130
+A Crystal Cavern~
+~
+The cavern here is covered in crystal stalagmites and shards that have grown
+undisturbed for what looks like centuries. A few of the larger crystals glow
+with a bright red light that reflects off the sides of the other crystals and
+adds a good amount of light to the area. A soft heat seems to be generated by
+the crystals lend a warmth to the area here.
+~
+1 4 13
+D0
+~
+~
+0 -1 40127
+D3
+~
+~
+0 -1 40129
+D7
+~
+~
+0 -1 40126
+S
+#40132
+A Crystalline Tunnel~
+~
+This tunnel is made completely of crystal and is very narrow. It is warm
+and slightly uncomfortable as there is nothing to move the air. The crystals
+on the walls, ceiling and floor all shine with their red coloring as the
+glowing crystals seem to ignite them. This tunnel leads south and opens
+into a crystal cavern to the north.
+~
+1 4 13
+D0
+~
+~
+0 -1 40129
+D2
+~
+~
+0 -1 40133
+R M 0 40021 25 40132
+S
+#40133
+A Crystalline Tunnel~
+~
+The tunnel here is brightly illuminated by a few large crystals that glow
+with intense light. The air here is very hot and the crystals all seem to
+burm almost, as if the inside of them were in fire. This tunnel continues to
+the north, but curves to the west here
+~
+1 4 13
+D0
+~
+~
+0 -1 40132
+D3
+~
+~
+0 -1 40134
+S
+#40134
+A Crystalline Tunnel~
+~
+The curve in the tunnel here is very narrow due to the high growth of the
+crystals. Stalactites hang from the ceiling and are nearly in the way. A
+great amount of heat generates from the crystals, especially the ones that
+glow, and make the area very hot. This tunnel leads to the south as well as
+curves to the east.
+~
+1 4 13
+D1
+~
+~
+0 -1 40133
+D2
+~
+~
+0 -1 40135
+S
+#40135
+A Crystalline Tunnel~
+~
+This part of the tunnel is wide, and opens into an intersection of sorts to
+the south. A very large crystal is here, glowing with a faint red light. It
+illuminates the area very well, and stands tall to the side of the tunnel.
+The air is warm, yet temperate here. The walls and floor are entobed in crystal
+as is the ceiling.
+~
+1 4 13
+D0
+~
+~
+0 -1 40134
+D2
+~
+~
+0 -1 40136
+S
+#40136
+A Tunnel Intersection~
+~
+Four different areas intersect here, to the east, south and west, a trio of
+Geode Caverns connect. To the north is a crystalline tunnel. The floor here
+is made of a solid black crystal and glitters in the light of a few gloeing
+stalactites that hang from the ceiling. The air is warm as it hangs here, 
+with nothing to remove it from it's home.
+~
+1 4 13
+D0
+~
+~
+0 -1 40135
+D1
+~
+~
+0 -1 40138
+D2
+~
+~
+0 -1 40137
+D3
+~
+~
+0 -1 40139
+R M 0 40020 25 40136
+S
+#40137
+A Geode Cavern~
+~
+This cave is covered in white and clear crystals, glinting off the light
+from the other glowing crystals. The air is cool, and seems to have a strange
+aura about it as it moves about the room in a very gentle swirling motion.
+Time seems to stand still here, and it looks as if nothing has ever been
+disturbed here, not even the growing of one crystal by another. Everything
+here is serene and calm. To the north lies the tunnel intersection. To the
+south lies the exit of this cave, leading out into the open world.
+~
+1 1028 13
+D0
+~
+~
+0 -1 40136
+R M 0 40022 1 40137
+S
+#40138
+A Geode Cavern~
+~
+This cavern is covered by many crystals, all of green color. Some pale, others
+a deep green. Patches of moss have taken up residence between the crystals
+and seem to be quite content there. The air is cool and heavy with moisture
+as it hangs here like a rope on a peg. To the west, a tunnel intersection can
+be seen.
+~
+1 4 13
+D3
+~
+~
+0 -1 40136
+S
+#40139
+A Geode Cavern~
+~
+This cavern is covered by crystal ranging in size from small, to large. As
+well as in color, from a pale blue, to a very deep azure color. The air is
+icy cold here and seems frozen and unmoving. A few of the crystals put off a
+faint glow allowing light enough to see by. To the east a tunnel intersection
+can be seen.
+~
+1 4 13
+D1
+~
+~
+0 -1 40136
+S
+#40140
+A Pearl Hallway~
+~
+The hallway here is carved out of pure pearl that seems to have formed from
+natural rock. It has been masoned well and polished. Its satin look puts
+off a slight shine as a pair of lamps on the walls here light the way. To
+the north this hallway leads north, and south where a door of pure crystal
+stands to keep the unwelcome out.
+~
+1 4 13
+D0
+~
+~
+0 -1 40141
+D2
+~
+~
+2055 40018 40050
+R M 0 40029 1 40140
+  R G 1 40018 1
+R D 0 40140 2 2
+S
+#40141
+A Pearl Hallway~
+~
+This hallway is carved from pure pearl and is beautiful as the sunrods on
+the wall send light flaring over its satin looking surface. A cool draft
+moves through here carrying the smell of old parchment, it seems to be coming
+from the east. This hallway continues to the south as well as curves east
+here. The floor is very even and seems to almost swirld with its surface.
+~
+1 4 13
+D1
+~
+~
+0 -1 40142
+D2
+~
+~
+0 -1 40140
+S
+#40142
+A Pearl Hallway~
+~
+Th floor, walls, and ceiling of this large hallway are completely made of
+pearl. A couple of sunrods stand in rings high on the walls for light. The
+smell of old parchment and binding are here, moving through as a slight draft
+carries it from the north to the west. The hallway continues to the west, as
+well it does to the north. There is a sign here on the wall with an arrow
+pointing to the north.
+~
+1 4 13
+D0
+~
+~
+0 -1 40143
+D3
+~
+~
+0 -1 40141
+R M 0 40021 25 40142
+E
+sign~
+This sign reads:
+***^***
+**/\**
+***|***
+ 
+The Ancient Library - North
+~
+S
+#40143
+A Pearl Hallway~
+~
+The hallway here is made of pure pearl. A few cracks run in the walls and
+floor here but nothing too bad. A pair of sunrods hang in rings on the walls
+casting a soft glow over the satin looking surface of the pearl. A slight draft
+moves in from the north and carries out south. This hallways also leads north
+and south. Up ahead to the north the entrance to a large building can be seen.
+To the south, the hallway leads out.
+~
+1 4 13
+D0
+~
+~
+0 -1 40144
+D2
+~
+~
+0 -1 40142
+S
+#40144
+A White Marble Hallway~
+~
+The area smells of ancient paper and old book bindings. This scent is carried
+by a slight breeze that drifts in from the north and exits to the south. The
+floor, walls and ceiling here are made of a white marble. To the south it joins
+into a well-cut slab of pure pearl and continues that way. Here however it is
+this white marble with swirls of grey and black running through it. To the
+north lies the entrance of a large building. There is a sign above the open
+doorway but it cannot be read from here.
+~
+1 4 13
+D0
+~
+~
+0 -1 40145
+D2
+~
+~
+0 -1 40143
+S
+#40145
+The Library Entrance~
+~
+A large building stands here. It has a large, white marble archway that has
+been carefully carved and etched. In silver lettering that has a dull shine
+to it, it reads, "&wAncient's Library&D". he smell of old papers, parchment
+and book bind is here, floating past in a draft that heads out south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40146
+D2
+~
+~
+0 -1 40144
+S
+#40146
+The Ancient's Library: &rStacks 1&W~
+~
+This area is filled with many ancient books. Most of them have a slight blue
+glow to them. There is one shelf that does not, and it contains books in a
+pure black binding. The smell of old parchment is heavy here as the air is
+thick with pipe smoke from those who use the area as a lounge and nothing
+more. Another set of stacks lie to the north, and the exit of the library
+to the south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40147
+D2
+~
+~
+0 -1 40145
+R M 0 40028 1 40146
+S
+#40147
+The Ancient's Library: &rStacks 2&W~
+~
+Many stacks of books are here, lined up one by one on the shelves. A good many
+of them have a faint green glow about their pages. There is a single book
+that lacks a glow. It is placed between one with a green glow and one with a
+yellow glow. The glow from, these books puts forth enough light to see by as
+do the lamps on the walls. These walls are made of pure white marble and seem
+to have some sort of life about or within them. A staircaise leading up lies
+to the north, and some book stacks to the south.
+~
+1 0 13
+D0
+~
+~
+0 -1 40148
+D2
+~
+~
+0 -1 40146
+R O 0 40016 1 40147
+  R P 0 40017 1 40016
+  R P 0 3502 1 40016
+  R P 0 1293 1 40016
+  R P 0 1220 1 40016
+  R P 0 139 1 40016
+  R P 0 6120 1 40016
+S
+#40148
+A White Marble Staircase~
+~
+This staircase is made of white marble and spirals upwards towards a second
+floor. A few cracks run along the column and steps of this staircase but do
+not seem to be of any danger to the integrity of it. The air is warm here and
+thich with pipe smoke as it curls up the staircase and onto the second floor.
+To the south lie the second stack of books in this library.
+~
+1 4 13
+D2
+~
+~
+0 -1 40147
+D4
+~
+~
+0 -1 40149
+S
+#40149
+The Ancients' Library: &r2nd Floor&W~
+~
+The floor, ceiling and walls aer made of the same white marble that the
+staircase is. The smell of pipe tobacco is faint here, lending a sweet smell
+to the area. Many stacks of old books lie here, most of them look so old that
+the slightest touch could send them into piles of dust. To the south, a solid
+stone study lies. There is also a white marble staircase leading back down to
+the first floor here.
+~
+1 0 13
+D2
+~
+~
+1 -1 40150
+D5
+~
+~
+0 -1 40148
+R D 0 40149 2 0
+S
+#40150
+A Solid Stone Study~
+~
+This study is made completely of stone. The stone is a grey color with white
+flecks in it. The ceiling comes to a point where a pale ball of light floats
+and spreads a soft glow over the room. The floor is even and the walls have
+a slight shine to them, they have obviosuly been polished and are very well
+masoned. To the north lies the door to the second floor of the library. A
+small sign lies against one wall with an arrow pointing directly towards the
+wall.
+~
+1 0 13
+D0
+~
+~
+1 -1 40149
+D1
+~
+~
+2049 -1 40151
+R M 0 40027 1 40150
+  R E 1 40014 1 17
+  R E 1 40015 1 5
+R D 0 40150 0 0
+R D 0 40150 1 0
+E
+sign~
+North - Chamber of Trials
+~
+> rand_prog 70~
+mea $r Kaolin takes a long draw from his pipe, and exhales it slowly.
+~
+> rand_prog 65~
+mea $r A few wisps of smoke swirl about the room.
+~
+|
+S
+#40151
+A Stone Antichamber~
+~
+This antichamber is made of roughly hewn stone. A few black marks can be seen
+on the walls. The smell of hot rock lingers in the air. A draft goes through
+here carrying a great heat with it. A few crystals grow here, but not too many.
+The air is hot and humid. On the east wall, the outline of a stone door can be
+seen, although it is barely visible.
+~
+1 0 13
+D1
+~
+~
+7 40019 40152
+D3
+~
+~
+2051 -1 40150
+R M 0 40030 1 40151
+  R G 1 40019 1
+  R G 1 40018 1
+  R G 1 40019 1
+R M 0 40021 25 40151
+R D 0 40151 1 2
+R D 0 40151 3 1
+S
+#40152
+A Stone Tunnel~
+~
+This tunnel is hewn from heavy rough stone. The walls, floor and ceiling of
+of the tunnel are uneven and rather sad looking. Black marks lie everywhere
+on these walls. A few small red crystals can be seen growing here in a cluster
+but ither than that, there are none around. This hall continues east, however,
+to the west is a solid stone wall.
+~
+1 0 13
+D1
+~
+~
+0 -1 40153
+D3
+~
+~
+6 -1 40151
+R M 0 40020 25 40152
+S
+#40153
+A Stone Tunnel~
+~
+The tunnel here is almost completely blackened with what appear to be scorch
+marks. The smell of heated rock and burning flesh fill the air. A few bones
+of what might have at one time been freom a human. The bones are deeply set
+into the rock here and only stick out a few inches. This tunnel curves and
+leads to the north here, as well as to the west.
+~
+1 0 13
+D0
+~
+~
+0 -1 40154
+D3
+~
+~
+0 -1 40152
+S
+#40154
+A Tunnel Intersection~
+~
+The tunnel here is illuminated by a small cluster of red crystals that are
+huddled against the wall here. THe tunneling here is hewn from heavy, rough
+stone. Many cracks run through the floor and ceiling. The walls have black
+scorch marks on them and seem to carry an undying heat within them. To the
+south, this intersection splits, as well to the east and west.
+~
+1 0 13
+D1
+~
+~
+0 -1 40155
+D2
+~
+~
+0 -1 40153
+D3
+~
+~
+0 -1 40160
+S
+#40155
+A Stone Tunnel~
+~
+The tunnel here is hewn from rough stone and curves towards the north. A few
+small red crystals grow up out of the uneven ground and put forth a slight,
+glow, but other than that, there are no crystals, and nothing else to provide
+light. A slight draft moves through here carrying a great heat with it. The
+walls here also seem to be marked with black scorches.
+~
+1 0 13
+D0
+~
+~
+0 -1 40156
+D3
+~
+~
+0 -1 40154
+R M 0 40020 25 40155
+S
+#40156
+A Stone Tunnel~
+~
+This tunnel is illuminated only by the light of a few small crystals that
+grow close to the wall here. Large hunks of stone lie everywhere. The air is
+hot and carries the scent of fire with it. There are black scorch marks on
+the walls which have many large cracks running through them. The ceiling as
+well has cracks running through it, and is also covered in burned up cobwebs.
+~
+1 0 13
+D0
+~
+~
+0 -1 40157
+D2
+~
+~
+0 -1 40155
+R M 0 40021 25 40156
+S
+#40157
+A Stone Tunnel~
+~
+Ahead to the north this tunnel can be seen curving to the west. The air is
+hot and makes the area uncomfortable to be in. Deep scratches and gouges
+have been made in the tunnel floor here, by some sort of large talon or claw.
+On the walls there are a few of these scratch marks as well, but they are
+mostly scorched and blackened.
+~
+1 0 13
+D0
+~
+~
+0 -1 40158
+D2
+~
+~
+0 -1 40156
+R M 0 40020 25 40157
+S
+#40158
+A Stone Tunnel~
+~
+The tunnel here curves and continues to the lead to the west and the south.
+On the floor of the tunnel there are many deep scratch marks in the roughly
+hewn stone. The walls are blackened with scorch marks as well. The air is
+very hot here. A draft comes from the west and brings only more hot air with
+it. The area here is liut by a single crystal growing against the walls.
+~
+1 0 13
+D2
+~
+~
+0 -1 40157
+D3
+~
+~
+0 -1 40159
+R M 0 40020 25 40158
+R M 0 40020 25 40158
+S
+#40159
+A Tunnel Intersection~
+~
+~
+1 4 13
+D1
+~
+~
+0 -1 40158
+S
+#40160
+A Stone Hallway~
+~
+This, what used to be roughly hewn stone tunnel, has been masoned into a
+nicely cut stone hallway. The floor is level here and the walls sparkle with
+micah. However, everything closes and meets at a wall to the north. A solid
+stone door stands there, it looks heavy and thick. Sunrods have been mounted in
+rings high on the wall here providing light.
+~
+1 0 13
+D1
+~
+~
+0 -1 40154
+R M 0 40031 1 40160
+  R G 1 40020 1
+S
+#40161
+A Small Tunnel~
+~
+&wThe air is cool and still here. A few crystals jut out of the ground, but
+are grey and burnt producing no light. The ground is of black sand and is
+uneven. A giant boulder is to the south, and appears to have a tunnel behind
+it. The walls are stone with cracked and broken slabs.
+~
+1 1076953221 13 0 0 1 0
+D0
+~
+~
+0 -1 40162
+D2
+~
+boulder~
+3111 -1 40024
+R D 0 40161 2 2
+S
+#40162
+Before a Large Fissure~
+~
+&wA gust of hot air flows up from the large fissure below. A few crystals jut
+out of the ground, but are grey and burnt producing no light. The ground is
+of black sand and is uneven. The walls are stone with cracked and broken slabs.
+~
+1 1093730433 13 0 0 2 0
+D2
+~
+~
+0 -1 40161
+D5
+~
+~
+0 -1 40163
+R M 0 40034 1 40162
+S
+#40163
+A Long Passageway~
+~
+&wA gust of hot air flows through the passageway to the north. A few crystals
+jut out of the ground, but are grey and burnt producing no light. The ground
+is of black sand and is uneven. The walls are made out of smooth stone. A
+light is visible to the north. A fissure is in the ceiling above.
+~
+1 3211649 13 0 0 4 0
+D0
+~
+~
+0 -1 40164
+D4
+~
+~
+0 -1 40162
+R M 0 40032 1 40163
+  R E 1 40021 1 16
+R M 0 40033 3 40163
+S
+#40164
+Along a Passageway~
+~
+&wA gust of hot air flows through the passageway to the north. A few crystals
+jut out of the ground, but are grey and burnt producing no light. The ground
+is of black sand and is uneven. The walls are made out of smooth stone. A
+light is visible to the north.
+~
+1 3211393 13 0 0 1 0
+D0
+~
+~
+0 -1 40165
+D2
+~
+~
+0 -1 40163
+S
+#40165
+Before A Vast Underground Cavern~
+~
+&wA gust of hot air flows through the massive cavern to the north. There are
+thousands of crystals of various colors that give off the light to the north.
+The ground is of black sand and is uneven. The walls are made out of smooth
+stone. A fresh pool of blood and marks where something large has been dragged
+away lead to the north cavern.
+~
+1 3211393 13 0 0 7 0
+D0
+~
+portal~
+3 -1 40166
+D2
+~
+~
+0 -1 40164
+R M 0 40033 3 40165
+R M 0 40033 3 40165
+R M 0 40035 2 40165
+  R G 1 40021 1
+R M 0 40035 2 40165
+  R G 1 40021 1
+R M 0 40036 1 40165
+  R E 1 40022 1 11
+  R E 1 40023 1 16
+R D 0 40165 0 1
+S
+#40166
+Inside a Vast Underground Cavern~
+~
+&wThe cavern is immense in size, and is littered with stalagmites.
+There are massive gouges in the walls.  An strange heat source
+radiates about the entire caverns.
+~
+1 1073741828 13
+D0
+~
+~
+0 -1 40167
+D2
+~
+gate~
+3 -1 65000
+R M 1 40038 1 40166
+R D 0 40166 2 1
+S
+#40167
+A Vast Underground Cavern~
+~
+A large glimmering portal is visble on the ceiling to the north. There are 
+stalagmites littering the cavern. A strange heat source radiates about the 
+entire caverns. A frigid chill hangs in the air, and dripping water echoes 
+hollowly through the cavern. 
+~
+1 1073741828 13
+D0
+~
+~
+0 -1 40168
+D2
+~
+~
+0 -1 40166
+R M 0 40020 25 40167
+S
+#40168
+Before a Series of Tunnels~
+~
+&wThe ceiling has a glimmering large portal that hovers in place.  There
+are stalagmites throughout the caverns.  A strange heat source radiates
+about the entire caverns.
+~
+1 1073741828 13
+D0
+~
+~
+0 -1 35567
+D2
+~
+~
+0 -1 40167
+D4
+~
+~
+0 -1 35538
+S
+#40169
+Caillagh's Lair~
+~
+The walls of this cave appear to be ice, or perhaps coated in ice, but 
+they glisten. The cave is lit by crystals, which give off an eerie glow. 
+High above, the domed ceiling recedes almost out of view. The floor, made 
+of cracked stone flags, shows considerable wear, as though a very large 
+creature has passed over it many, many times. 
+~
+1 -2143805440 13
+D1
+~
+~
+0 -1 40168
+S
+#40170
+Kordath's Lair~
+~
+&BThe first thing that catches your eye is the amazingly high ceiling to 
+this cave. The exact height is hard to measure but four foot long 
+stalactites hang down, giving rise to equally large stalagmites on the 
+floor. This is a dark and foreboding room, the near total lack of light 
+combined with the skittering feet of tiny creatures and the steady drip of 
+water makes your skin crawl. In the center of this room is a large pile of 
+gold coins and artefacts, precious stones and gems, and various other 
+random items of treasure. It's obvious that the owner of this pile has 
+taken great care in how every item is placed. 
+~
+1 -2143805436 0
+D8
+~
+~
+0 -1 40167
+S
+#40171
+Tafelin's Lair~
+~
+&zThe chamber is unusual in its architectural design. The walls are 
+constructed from smooth, perfectly polished bricks of black obsidian. The 
+mortar between the bricks is made of pure, molten gold. An eerie silence 
+only further adds to the mystery of this place. This secret sanctuary is a 
+refreshingly peaceful place and a sense of oneness with the Creator cannot 
+be helped but be felt. 
+~
+1 -2143805436 0
+D8
+~
+~
+0 -1 40167
+S
+#40172
+Ximakle's Lair~
+~
+&wThe cavern is covered with an assortment of crystals.  The floor is made
+of solid stone.  There is a large indenture in the rear of the cavern
+that something appears to have been laying on.
+~
+1 3670020 13
+D3
+~
+~
+0 -1 40168
+S
+#40173
+Bahamut's Lair~
+~
+Just inside this cave entrance, a huge throne inlaid with gold and silver 
+resides on the opposite wall. To either side of the entrance a large 
+golden dragon statue stands guard. Along the walls to either side of the 
+throne are ornately carved oak tables with silk table cloths, and a few 
+delicately crafted gold candles atop. In each corner lies a tremendous 
+mound of gold, trinkets, armor and treasure in general. It would be 
+foolish for someone to steal from here. 
+~
+1 -2143805436 0
+D1
+~
+~
+0 -1 40168
+S
+#40174
+Neantak's Lair~
+~
+You ascend to the highest mountain peak, embraced with thin fog and 
+silence. Only the other wind blows into the entrance of a 
+mysterious cavern.
+~
+1 -2143805436 0
+D2
+~
+~
+0 -1 40168
+S
+#40175
+Grol's Lair~
+~
+&wThe murky lair is a virtual oven of heat. A small stream of lava flows 
+in the west corner of the lair. There is a huge mound of treasure that has 
+been burned into a giant bed for some creature. A pool of quicksilver is 
+in the middle of the floor the waves of heat forming a shimmering misama 
+just above it's surface. 
+~
+1 1074266116 1
+D3
+~
+~
+0 -1 40168
+S
+#40176
+Kingston's Lair~
+~
+A large pool of water that is filled with various treasure are within a
+massive cavern lair.  There are a few torches mounted to the walls to
+provide lighting.  A small waterfall brings in fresh water to the pool.
+~
+1 3670028 13
+D2
+~
+~
+0 -1 40168
+S
+#40177
+Thundon's Lair~
+~
+A small fissure spews molten gold forming a pool in the midst of the 
+cavern. Strewn about the cavern are artifacts of religous significance. 
+The walls glisten with the slight sparkle of veins of golden ore. 
+~
+1 -2143805436 0
+D5
+~
+~
+0 -1 40168
+S
+#40178
+Valakas's Lair~
+~
+Valakas,s Lair is carved deep into the bowels of the mountain. Veins of 
+blue shine out in the smoothly carved granite. There is a magical blue 
+fire burning in a corner, emanating a gentle warmth. In another corner is 
+a pile of furs, which appear to be the nest where Valakas sleeps. There is 
+a pile of treasure in another corner. Clearly Valakas is partial to gold, 
+and also to shiny blue objects, regardless of worth. If it sparkles, and 
+if it is blue, it clearly attracts this dragon. 
+~
+1 -1073209340 0
+D1
+~
+~
+0 -1 40167
+S
+#40179
+Venganza's Lair~
+~
+~
+1 -2146951164 13
+D0
+~
+~
+0 -1 40168
+S
+#40180
+Xryon's Lair~
+~
+&zSeated deep inside of a volcano, the walls of this massive cave seem to 
+glow red from the currents of lava passing behind them. A series of flames 
+rise from the ground, reaching up to the ceiling. Devoid of the bones that 
+comprise the lairs of so many dragons, a large, empty circle lies in the 
+center of the room; a place for rest of its denizen. Against the back wall 
+of the cavern, a growing mound of treasure rises. 
+~
+1 -2143805436 13
+D1
+~
+~
+0 -1 40168
+S
+#40181
+Aeliana's Lair~
+~
+Scattered all about are treasures of immeasurable value can be found. A 
+high-backed thrown stands off to one side of the lair, where a dragonlord 
+might sit, while hanging from the back of the throne is a huge two-handed 
+broadsword, easily weighing 100 pounds! Finally, a large dragoness resides 
+in the center of her lair, meticulously counting, cataloguing and 
+organizing each piece of treasure within her vast horde. 
+~
+1 -2143805436 13
+D1
+~
+~
+0 -1 40168
+S
+#40182
+Sytos's Lair~
+~
+A frigid chill hangs in the air, and dripping water echoes hollowly through the cavern. Stalagtites hang in profusion from the uneven ceiling, occasionally joining with the stalagmites rising from the floor to form slender columns. The walls are beaded with moisture, and chill pools collect here and there. A scattering of large, snapped bones, shed cobalt scale, and a distinct reptilian musk mark this as the lair of something not to be trifled with.
+~
+1 -1070063616 13
+D5
+~
+~
+0 -1 40167
+S
+#40183
+Taukak's Lair~
+~
+&wThe murky lair is a virtual oven of heat. A small stream of lava flows in 
+the west corner of the lair. There is a huge mound of treasure that has 
+been burned into a giant bed for some creature. A pool of quicksilver is 
+in the middle of the floor the waves of heat forming a shimmering misama 
+just above it's surface.
+~
+1 524288 1
+D1
+~
+~
+0 -1 40168
+S
+#40184
+Klorawn's Lair~
+~
+&RFollowing the path, the cave opens into a huge foyer. The foyer is at 
+least one hundred feet high and as wide as five full-grown dragons. The 
+rocks have been formed into what looks to be something of a chaotic 
+nature. Stalagmites and stalactites jet out of the ground frivolously 
+within the lair, each retaining jagged edges and razor sharp tips. Within 
+the lair itself, lanterns have been placed high as well as lit torches 
+lining the back wall. The foyer is well-lit, able to see the large stack 
+of hay and different chests that adorn the floor to the eastern most 
+potion of the wall. A mirror has been placed towards the western wall, as 
+well as various paintings of dragons killing and mutilating different 
+races through various means. 
+~
+1 -1070063612 13
+D1
+~
+~
+0 -1 40167
+S
+#40185
+Amaru's Lair~
+~
+This is a deep dank cavern with the bones of many small animals littering the ground. As the floor slopes down towards the back of the cave, the walls and the stone of the ground are lined with what looks like ore from many different types of metals. The very back of the cavern is lit by a faint glow. The light pours forth from the vast treasure that lays beyond. There is a wide shelf of metallic stone that glitters the brightest- this must be the resting place of the dragon who lives in this fabulous place.
+~
+1 3678212 0
+D3
+~
+~
+0 -1 40167
+S
+#40270
+Mirkoros's Lair~
+~
+The murky lair is a virtual oven of heat. A small stream of lava flows in 
+the west corner of the lair. There is a huge mound of treasure that has 
+been burned into a giant bed for some creature. A pool of quicksilver is 
+in the middle of the floor the waves of heat forming a shimmering misama 
+just above it's surface. 
+~
+1 -2143804412 13
+D1
+~
+~
+0 -1 40168
+S
+#40272
+Duratus's Lair~
+~
+Pillars of ice support this massive frozen cavern. Chilling winds and flurries
+of snow blow through the barren structure, swirling out into the black sky.
+Ice sculptures stand erect throughout the lair, depicting various mortal
+nobles and warriors... and upon closer inspection appear to be much to
+life-like. In the center of the cave is a very large basin of water.
+Despite the frigid temperatures, the water never freezes.
+~
+1 -2143804412 13
+D1
+~
+~
+0 -1 40168
+S
+#40273
+Sarkai's Lair~
+~
+&zThe entry of this vast cavern of utter darkness is a gaping hole in the 
+sheer side of an obsidian volcanic mountain. The walls of this place 
+swallow all light, and the darkness here seems stifling and impenetrable. 
+Even the lights of torches and lanterns are engulfed, and there is a chill 
+in the air that seems unnatural. All about is the stench of death, and the 
+screams and cries of the dying and imprisoned seem to echo from the 
+darkness, only to vanish as if never there. Vast jagged stallagtites and 
+stallagmites bridge the floor to the unseen ceiling high above, as they 
+disappear into the darkness overhead. A great crater in the floor is the 
+one source of some light in the lair, as it is filled with a mound of 
+untold quantities of gold, precious gems, armor, swords, and magical 
+items. These items glitter in the darkness, like a flame before a moth. 
+There is a great depression in the center of this pile of treasure, as if 
+some huge weight was placed there at times. A crunching and scattering of 
+things on the ground as it is traversed are the evidence of gnawed and 
+broken bones that litter every inch of the floor. The bones of virtually 
+every being are present: human, celestial, elf, demon, and even the great 
+bones of dragons. Upon the smooth obsidian walls are great, ragged rends 
+into the stone. Closer observation will show that they resemble horrid 
+claw marks, as if a beast were marking its territory. 
+~
+1 -2143812092 13
+D9
+~
+~
+0 -1 40168
+S
+#40274
+free lair~
+~
+The room is very warm, the reason being evident from the numerous scorch 
+marks located all over the cavern. Piles of jewels litter the floor here 
+and there as well as sticking out of the wall. A pile of bones is stacked 
+almost neatly against the entrance as heat wavers off of the newest patch 
+of burnt ground akin to a tendril like mist that wavers just above the 
+ground.
+~
+1 3671044 13
+D8
+~
+~
+0 -1 40168
+S
+#40275
+Silvanos Lair~
+~
+&zThis cave obviously belongs to a dragon, given where it originates from, 
+and yet there is something about it that seems, for wont of a better term, 
+alien. Where other dragons would have hoards of gold and jewels, this 
+strange place seems to possess above all else corpses, twisted and broken 
+bodies in various stages of decay strewn about in large piles close to the 
+walls. The black stone of the cave is broken only by glowing purple glyphs 
+inscribed at seemingly random points, their origins ancient and arcane 
+which they exude in their mysterious pulsing light. 
+~
+1 3671044 13
+D4
+~
+~
+64 -1 42081
+D9
+A series of tunnels meet just ahead.
+~
+~
+0 -1 40168
+S
+#40276
+Xire's Lair~
+~
+Silvary's Lair is a massive cavern that glistens and sparkles, reflecting light
+off of veins of silver exposed on the walls.  A worn spot in the middle littered
+with dragon scales is cluttered with cast off baubles and coins.
+~
+1 -2143805436 13
+D4
+~
+~
+0 -1 40167
+S
+#40277
+Dahag's Lair~
+~
+This is a large cavern, with depressions all along the walls which can hold 
+plenty of gold. In the southeast the floor is perfectly flat, due to the 
+dragon's sleeping arrangements. There is a large opening to the west, big 
+enough for a huge dragon to walk through comfortably. Water drips from the 
+ceiling onto the floor, which is completely covered in freezing cold water. The 
+air inside this cavern is so cold that a warm breath creates a fog. 
+~
+1 -2143810556 0
+D3
+~
+~
+0 -1 40168
+S
+#40278
+free lair~
+~
+~
+1 -1070063604 0
+D7
+~
+~
+0 -1 40167
+S
+#40279
+Darconda's Lair~
+~
+A dark Cavern, lit only by torches of hellfire and the lava from the 
+earth's very core, the light shining off the gems and gold items that the 
+beast has collected throughout her many years of looting. The lava flows 
+from the corner as if from a fountain, and back into the earth below, 
+casting the light upon arcane runes carved into the ceiling, which are 
+meant to distort the time in this area to where it slows to a crawl. 
+~
+1 -1070063616 1
+D1
+~
+~
+0 -1 40167
+S
+#40280
+Sirrurg's Lair~
+~
+&wA vast cavern empties into a lair of some sort here.  There is a giant
+mound of treasure that has been melted together in some places.  There
+are stalagmites and stalactites all throughout here.  A few scattered
+bones of large creatures are along the ground.
+~
+1 1074266112 1
+D0
+~
+~
+0 -1 40168
+S
+#40281
+Kylar's Lair~
+~
+This particular dragon's lair is filled with various types of treasure and 
+things such as different coins, ranging from beheaded corpses to a wide 
+variety of ancient books. Each item has been organized into different 
+piles and set upon different shelves. One side of the lair has a fire pit 
+and a place set for incoming water. In the middle of this vast chamber is 
+a huge bed that consists of the finest materials found in the Forbidden 
+City. 
+~
+1 -1070063612 0
+D1
+~
+~
+0 -1 40167
+S
+#40282
+Seiti's Lair~
+~
+This expansive cavern has been hewn into the cliff face. Water falls 
+softly into a deep blue pool further within the lair, its descent a 
+melodic trickling which echose off of the stone walls. The air is crisp 
+and refreshing in the cool chamber. 
+~
+1 -1070063612 0
+D3
+~
+~
+0 -1 40168
+S
+#40450
+Anharat's Lair~
+~
+The rock cavern's doorway is laced with claw marks, the inner passage that 
+is rubbed smooth holds a silvery glow to it. Shortly after walking through 
+the passage, the room opens into a large dome area in which gold is strewn 
+around the floor, several treasures that the beast who lives here has 
+collected. Dancing around the room there are two globes of light which 
+serve as the source of the refracted light off the walls. Bones of food 
+that has been brought back to the lair is neatly put in a pile in one 
+corner, while a bed of pillows and other soft things lies in the center of 
+the room. 
+~
+1 1077411844 0
+D3
+~
+~
+0 -1 40167
+S
+#40498
+Krezzle's Lair~
+~
+~
+1 -1070063612 0
+D5
+~
+~
+0 -1 40168
+S
+#40499
+Myrlan's Lair~
+~
+The rock cavern's doorway is laced with claw marks, the inner passage that
+is rubbed smooth holds a silvery glow to it. Shortly after walking through
+the passage, the room opens into a large dome area in which gold is strewn
+around the floor, several treasures that the beast who lives here has
+collected. Dancing around the room there are two globes of light which
+serve as the source of the refracted light off the walls. Bones of food
+that has been brought back to the lair is neatly put in a pile in one
+corner, while a bed of pillows and other soft things lies in the center of
+the room.
+~
+1 -2143805440 13
+D3
+~
+~
+0 -1 40167
+S
+#40500
+Caelum's Lair~
+~
+&wAs you pass through a hidden opening on the face of a massive cliff, you 
+discover you have stumbled into Caelum's Lair. The air sizzles with arcane 
+power, and there are ancient tomes of magic and mystic scrolls fluttering 
+about of their own accord. Gargantuan runes and glyphs drawn on the floor 
+give off an eerie &YGolden&w glow as if they where carved by heavenly 
+flames. Lining the walls, tiny candles float aloft shining with 
+irradescent &YGolden&w light. Piles of treasure both &YGold&w and 
+&zSilver&w are scattered throughout this place. However scholarly this 
+dragon may be, you weigh your options and decide to leave the treasures 
+and magical artifacts untouched. 
+~
+1 -2146959356 13
+D1
+~
+~
+0 -1 40168
+S
+#0
+
+
+#SHOPS
+ 40001   19  9  5 11  1   120 100         0 23    ; Kheldrin
+ 40022    2  3  4 10 41   120  90         0 23    ; Shirra Mar
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  40007 spec_cast_adept
+M  40008 spec_cast_cleric
+S
+
+
+#$

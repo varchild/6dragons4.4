@@ -1,0 +1,98 @@
+Name           Druid~
+Filename       Druid~
+Class          1
+Starting       1
+AttrPrime      4
+AttrSecond     5
+AttrDeficient  0
+Races          253952
+Nocombo        0
+Reclass        0 0 0
+Skilladept     95
+Thac0          18
+Thac32         7
+Hpmin          65
+Hpmax          80
+ManaMin        12
+ManaMax        30
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'create food' 7 95
+Skill 'create spring' 16 95
+Skill 'create water' 8 95
+Skill 'cure affliction' 60 95
+Skill 'nettle skin' 6 95
+Skill 'sanctuary' 98 95
+Skill 'solar flight' 45 95
+Skill 'sylvan wind' 49 95
+Skill 'word of recall' 19 95
+Skill 'aid' 1 95
+Skill 'animal form' 15 95
+Skill 'bark skin' 14 95
+Skill 'behead' 1 95
+Skill 'blizzard' 55 95
+Skill 'chill' 21 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'creeping doom' 85 95
+Skill 'dodge' 2 95
+Skill 'dual wield' 17 50
+Skill 'dye' 1 95
+Skill 'effloresce' 22 95
+Skill 'flint fire' 1 95
+Skill 'forest' 3 95
+Skill 'fourth attack' 40 95
+Skill 'freeze' 43 95
+Skill 'frost' 33 95
+Skill 'hide' 7 65
+Skill 'kick' 10 95
+Skill 'lore' 13 95
+Skill 'meditate' 12 95
+Skill 'mount' 1 95
+Skill 'parry' 4 95
+Skill 'poultice' 2 95
+Skill 'punch' 1 95
+Skill 'restring' 1 95
+Skill 'root' 75 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'sharpen' 1 95
+Skill 'slice' 1 95
+Skill 'swarm' 66 95
+Skill 'swim' 1 95
+Skill 'sylvan touch' 36 95
+Skill 'third attack' 25 95
+Skill 'track' 23 95
+Skill 'trance' 31 95
+Skill 'untangle' 28 95
+Skill 'vines' 28 95
+Skill 'willow skin' 27 95
+Skill '1h bludgeons' 1 95
+Skill '1h short blades' 1 95
+Skill '2h bludgeons' 1 95
+Skill 'archery' 1 95
+Skill 'flails' 1 95
+Skill 'pugilism' 1 95
+Skill 'staves' 1 95
+Skill 'whips' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

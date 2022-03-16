@@ -1,0 +1,316 @@
+#VNUM 57026
+#OBJECT
+Vnum         1129
+Level        10
+Currtype     4
+Color        1
+Size   0
+Values       999 0 0 12 0 10 0
+End
+
+#OBJECT
+Nest         1
+Name         tanto-blade~
+ShortDescr   a gold sapphire tanto-blade~
+Description  A gold sapphire tanto-blade has been left here.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       12 2 6 2 2 0 600
+AffectData   'acid breath' -1 1 3 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 5 14 0
+ExtraDescr   tanto-blade~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         tanto-blade~
+ShortDescr   a gold sapphire tanto-blade~
+Description  A gold sapphire tanto-blade has been left here.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       12 2 6 2 2 0 600
+AffectData   'acid breath' -1 1 4 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 -1 13 0
+AffectData   'acid breath' -1 4 14 0
+ExtraDescr   tanto-blade~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plated-boots~
+ShortDescr   a gold diamond plated-boots~
+Description  A gold diamond plated-boots has been left here.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   plated-boots~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         leggings~
+ShortDescr   a gold diamond leggings~
+Description  A gold diamond leggings has been left here.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10983 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   leggings~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fullplate-suit~
+ShortDescr   a gold diamond fullplate-suit~
+Description  A gold diamond fullplate-suit has been left here.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   fullplate-suit~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         scale-girdle~
+ShortDescr   a gold diamond scale-girdle~
+Description  A gold diamond scale-girdle has been left here.~
+Vnum         41002
+WearFlags    2049
+ItemType     9
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 8 13 0
+AffectData   'acid breath' -1 -8 17 0
+ExtraDescr   scale-girdle~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         round-shield~
+ShortDescr   a gold diamond round-shield~
+Description  A gold diamond round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   round-shield~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         crown~
+ShortDescr   a gold diamond crown~
+Description  A gold diamond crown has been left here.~
+Vnum         41002
+WearFlags    17
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 888
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 2 17 0
+ExtraDescr   crown~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         scale-mask~
+ShortDescr   a silver sapphire scale-mask~
+Description  A silver sapphire scale-mask has been left here.~
+Vnum         41002
+WearFlags    1048577
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   scale-mask~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         1958
+Level        20
+Currtype     3
+Color        3
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Name         cape~
+ShortDescr   a gold diamond cape~
+Description  A gold diamond cape has been left here.~
+Vnum         41002
+WearFlags    1025
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 -1 13 0
+ExtraDescr   cape~ &CThis manufactured item bears the seal of Rowan, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         67
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#END

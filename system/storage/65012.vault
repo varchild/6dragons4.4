@@ -1,0 +1,178 @@
+#VNUM 65012
+#OBJECT
+Vnum         25011
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         25010
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         25007
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Name         wing-tip-left~
+ShortDescr   a left wing-tip, legendary produced from meteor~
+Description  Here lies a left wing-tip, legendary produced from meteor.~
+Vnum         41002
+WearFlags    134217729
+ItemType     9
+Weight       8
+Level        30
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       30 30 30 400 777 30 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   wing-tip-left~ &CThis produced item bears the seal of Skyraker, the master draconic.
+~
+End
+
+#OBJECT
+Name         wing-tip-right~
+ShortDescr   a right wing-tip, legendary produced from meteor~
+Description  Here lies a right wing-tip, legendary produced from meteor.~
+Vnum         41002
+WearFlags    268435457
+ItemType     9
+Weight       2
+Level        30
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       30 30 30 400 777 30 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   wing-tip-right~ &CThis produced item bears the seal of Skyraker, the master draconic.
+~
+End
+
+#OBJECT
+Vnum         40030
+Level        1
+Currtype     4
+Color        14
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         35523
+Level        1
+Currtype     2
+Color        1
+Size   0
+Values       700 0 0 12 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         talons~
+ShortDescr   a pair of talons, simply produced from titanium~
+Description  Here lies a pair of talons, simply produced from titanium.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        30
+Cost         25
+Currtype     4
+Color        1
+Size   0
+Values       12 17 32 1 14 30 200
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 5 18 0
+ExtraDescr   talons~ &CThis produced item bears the seal of Skyraker, the apprentice draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Name         barding~
+ShortDescr   a set of barding, simply produced from titanium~
+Description  Here lies a set of barding, simply produced from titanium.~
+Vnum         41002
+WearFlags    1025
+ItemType     9
+Level        30
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       29 29 30 100 777 30 0
+ExtraDescr   barding~ &CThis produced item bears the seal of Skyraker, the apprentice draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        14
+Currtype     1
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2307
+Level        14
+Currtype     1
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Name         saddle-bags~
+ShortDescr   a set of saddle-bags, simply produced from titanium~
+Description  Here lies a set of saddle-bags, simply produced from titanium.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Level        30
+Cost         25
+Currtype     4
+Color        1
+Size   0
+Values       300 1 0 12 6 30 0
+ExtraDescr   saddle-bags~ &CThis produced item bears the seal of Skyraker, the apprentice draconic.
+~
+End
+
+#OBJECT
+Name         saddle-bags~
+ShortDescr   a set of saddle-bags, simply produced from titanium~
+Description  Here lies a set of saddle-bags, simply produced from titanium.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Level        30
+Cost         25
+Currtype     4
+Color        1
+Size   0
+Values       300 1 0 12 6 30 0
+ExtraDescr   saddle-bags~ &CThis produced item bears the seal of Skyraker, the apprentice draconic.
+~
+End
+
+#END

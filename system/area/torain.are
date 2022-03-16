@@ -1,0 +1,2178 @@
+#AREA        Torain Mines~
+
+
+
+#VERSION     11
+#AUTHOR      Warsprite~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+30 60 15 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &zA foreboding silence now takes place.~
+
+#FLAGS
+512
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#11600
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11601
+rusty storekeeper old man~
+Rusty the Storekeeper~
+An old man is tending his wares here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 48 524546
+> all_greet_prog 100~
+mpechoat $n &CRusty the storekeeper says 'Greetings and welcome to my 
+mpechoat $n &Chumble little shop.'
+~
+|
+#11602
+Kane Bartender~
+Kane the Bartender~
+Kane the Bartender is waiting here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 48 524546
+#11603
+Maw Kettle grocer~
+Grocer Maw Kettle~
+A robust lady grocer is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 48 524546
+#11604
+Turk shopkeeper man~
+Turk the Shop Keeper~
+A young man is here selling his wares.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 48 524546
+#11605
+young priestess~
+a young priestess~
+A young priestess is here, caring for the wounded.
+~
+A molten blob of wax wearing black robes with glaring red eyes looks at 
+you. 
+
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11606
+rust colored troglyte~
+a rust colored troglyte~
+A rust colored troglyte is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+97 0 0 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 4
+0 0 0 0 0 0 3 2
+#11607
+rust colored troglyte~
+a rust colored troglyte~
+A rust colored troglyte is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+97 0 0 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 4
+0 0 0 0 0 0 3 2
+#11608
+fire giant~
+a fire giant~
+A fire giant is standing here.
+~
+~
+3
+Clanname none~
+0
+0
+131075 128 700 C
+45 0 0 20d20+4000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+0 0 0 0 0 0 48 0
+#11609
+elite troll warrior~
+an elite troll warrior~
+An elite troll warrior is standing here.
+~
+~
+9
+Clanname none~
+0
+0
+131107 4194304 1000 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+0 0 0 0 0 0 48 0
+#11610
+leader pack torain~
+The leader of the pack~
+The leader of the torain pack glares hungrily at you.
+~
+~
+1
+Clanname none~
+0
+0
+131107 512 0 C
+55 0 0 50d50+21000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 7
+0 0 0 96 0 16 163 0
+#11611
+tor beast~
+a tor~
+A torain beast of hell is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+33 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11612
+tor beast~
+a tor~
+A torain beast of hell is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+33 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11613
+tor beast~
+a tor~
+A torain beast of hell is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+33 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11614
+fire giant lord valon~
+Lord Valon~
+The fire giant lord Valon is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 33554944 0 C
+55 0 0 50d50+21000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 7
+0 0 0 96 0 16 163 0
+#11615
+fire giant soldier~
+a fire giant soldier~
+A fire giant soldier is standing here.
+~
+~
+3
+Clanname none~
+0
+0
+131075 128 700 C
+35 0 0 20d20+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+0 0 0 0 0 0 48 0
+#11616
+fire giant soldier~
+a fire giant soldier~
+A fire giant soldier is standing here.
+~
+~
+3
+Clanname none~
+0
+0
+131075 128 700 C
+35 0 0 20d20+900 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+0 0 0 0 0 0 48 0
+#11617
+silver basalisk~
+a silver coated basalisk~
+A silver coated basalisk is standing here.
+~
+~
+8
+Clanname none~
+0
+0
+33 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11618
+silver basalisk~
+a silver coated basalisk~
+A silver coated basalisk is standing here.
+~
+~
+8
+Clanname none~
+0
+0
+33 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11619
+silver basalisk~
+a silver coated basalisk~
+A silver coated basalisk is standing here.
+~
+~
+8
+Clanname none~
+0
+0
+33 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 3 2
+#11700
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#11600
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#11601
+torch~
+a miner's torch~
+A miner's torch has been left here.~
+~
+1 65 1
+0 0 24 0 0 0 0
+1 10 1
+4
+14
+0
+0
+0
+0
+S 0 0
+#11602
+miner shovel~
+a miner's shovel~
+A miner's shovel has been left here.~
+~
+5 524292 8193
+0 1 5 4 5 3 0
+3 40 3
+4
+13
+0
+0
+0
+0
+S 0 0
+A
+17 -6
+A
+18 4
+#11603
+leather backpack~
+a leather backpack~
+A leather backpack was left here.~
+~
+15 0 524289
+300 0 0 6 0 0 0
+3 151 15
+2
+2
+0
+0
+0
+0
+S 0 0
+#11604
+flask blood~
+a flask of blood~
+A Flask is on the ground.~
+~
+17 0 1
+50 50 13 0 0 0 0
+1 24 2
+4
+6
+0
+0
+0
+0
+S 0 0
+#11605
+pint ale~
+a pint of ale~
+A pint of ale has been left here.~
+~
+17 0 16385
+6 6 4 0 0 5 0
+1 14 1
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+'pint' 'ale'~
+The large glass cup holds a dark thick liquid, with a foamy top.
+~
+#11606
+canteen water~
+a canteen of water~
+A canteen of water has been left here.~
+~
+17 0 16385
+30 30 0 0 0 0 0
+1 27 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#11607
+slab mutton~
+a slab of mutton~
+A bloodied piece of meat is laying here.~
+~
+19 0 16385
+10 0 0 0 0 0 0
+1 11 1
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+slab~
+It's a lean slab of meat, and appears to be deboned.
+~
+#11608
+loaf bread~
+A loaf of bread~
+A loaf of bread is ready to be eaten.~
+~
+19 8192 16385
+10 0 0 0 0 1 0
+2 1 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#11609
+leather vest ~
+a leather vest~
+A leather vest has been left here.~
+~
+9 0 9
+5 5 0 0 0 5 0
+4 20 2
+3
+1
+0
+0
+0
+0
+S 77 0
+A
+5 1
+#11610
+leather gloves~
+a pair of shoulder high flared leather gloves~
+A pair of shoulder high flared leather gloves has been left here.~
+~
+9 0 129
+5 5 0 0 0 5 0
+1 51 5
+4
+13
+0
+0
+0
+0
+S 77 0
+A
+18 2
+#11611
+black assassin dagger~
+A black assassin's dagger~
+A black assassin's dagger has been left here.~
+~
+5 0 8193
+12 10 20 2 2 21 0
+2 119 11
+3
+8
+0
+0
+0
+0
+S 0 0
+A
+18 5
+A
+19 5
+#11612
+dragon warbarding~
+dragon warbarding~
+A set of dragon warbarding has been left here.~
+~
+9 0 9 16
+20 20 0 0 0 20 0
+8 149 14
+3
+1
+0
+0
+0
+0
+S 0 0
+A
+14 100
+A
+18 3
+#11613
+onyx ring~
+an onyx ring~
+An onyx ring has been left here.~
+~
+9 524288 3
+20 20 0 0 0 25 0
+1 162 16
+3
+13
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 3
+#11614
+great battle axe~
+a great battle axe~
+A great battle axe has been left here.~
+~
+5 0 8193
+12 54 68 3 8 40 0
+4 89 8
+2
+13
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#11615
+basswood vouge ~
+a basswood vouge~
+A basswood vouge has been left here.~
+~
+5 524292 8193
+0 5 15 4 11 15 0
+3 68 6
+4
+1
+0
+0
+0
+0
+S 0 0
+A
+17 -6
+A
+18 4
+A
+1 2
+#11700
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#11600
+Floating in a void~
+~
+~
+1 4 13
+S
+#11601
+Path Leading into Town~
+~
+Wandering down a lush green forest path, you find yourself wondering
+about what grand adventures might be in your future. Noticing a small
+puff of smoke coming from the stack on top of a small building you
+feel relieved that soon you will be back in civilization to replenish
+your food and water supplies. On the side of the path an old oak tree
+stand quietly watching each and every passerby.  
+~
+1 0 13
+D2
+~
+~
+0 -1 11602
+D11
+~
+~
+0 -1 42511
+S
+#11602
+The Cross Roads~
+~
+Stepping out of the forest, you stand in the middle of a small town's
+main intersection. It looks like a small mining camp has grown into a
+town here. You notice a huge gate to the south and Turk's Trading Post 
+to the east. Beside the gate you notice a small plaque. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11601
+D1
+~
+~
+0 -1 11603
+D2
+~
+gate~
+3 -1 11606
+D3
+~
+~
+0 -1 11605
+S
+#11603
+Turk's Trading Post~
+~
+Entering "Turks Trading Post", you see a room filled with skins and barrels
+of various types of liquids. Leaning against the walls you see many weapons
+and armors of all shapes and sizes waiting for some adventurer to purchase 
+them. You notice a huge skull with two sharp tusks protruding out from the 
+lower jaw bone. You are in awe of its size and wonder what creature it had 
+once been. Returning behind the counter, you can easily see that Turk limps
+with his right leg. 
+~
+1 0 13
+D3
+~
+~
+0 -1 11602
+R M 0 11604 1 11603
+  R G 0 11609 1
+  R G 0 11610 1
+S
+#11604
+The Happy Grocer~
+~
+Entering "The Happy Grocer," you find a small but modest little shop
+with the smell of fresh bread baking in the back. Other food and drink 
+items lining the shelves waiting for purchase. Behind the counter you 
+find Maw Kettle rocking away in a small chair. Maw Kettle looks to be 
+well into her hundreds but some how you feel that she isn't as weak
+as she might appear to be. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11605
+R M 0 11603 1 11604
+  R G 0 11608 1
+  R G 0 11607 1
+S
+#11605
+West of the Cross Roads~
+~
+Walking through the western section of town, you can tell that this
+is the wealthier portion of town. Looking around you see that at 
+least this part of town has a few more shops in it. To the north you
+see "The Happy Grocer," to the west .... "The Miners Mercantile,"
+and to the south..."Kane's Kross Roads Tavern".
+~
+1 0 13
+D0
+~
+~
+0 -1 11604
+D1
+~
+~
+0 -1 11602
+D2
+~
+~
+0 -1 11692
+D3
+~
+~
+0 -1 11666
+S
+#11606
+The Main Gate~
+~
+Walking through the entrance to the mine, you stop to consider how
+many other brave and bold warriors and adventurers have made the same
+steps and yet had never been able to make the step to get out of the
+mine. Will this be you final look at the sky? Perhaps, yet with a
+glint of boldness in your eye and confidence in your skill, you make
+your way in.     
+~
+1 0 13
+D0
+~
+gate~
+3 -1 11602
+D5
+~
+~
+0 -1 11607
+S
+#11607
+Passageway Down~
+~
+Walking down some very old and ancient steps you notice that they seem
+to have been carved out of the earth with a great deal of workmanship. You
+work your way deeper into the mine your senses get sharper and fear of 
+the unknown edges its way into your bones. 
+~
+1 0 13
+D4
+~
+~
+0 -1 11606
+D5
+~
+~
+0 -1 11608
+S
+#11608
+The Landing~
+~
+At the end of the steps a large complex of mine tunnels stretches out
+before you. Examining your surroundings you notice that the walls are
+very dark in color and the floor is covered with several inches of soot 
+and dirt. The high ceilings allow for the passage of large beasts. Let's 
+just hope that none of these beasts bump into you.
+~
+1 1024 13
+D1
+~
+~
+0 -1 11609
+D2
+~
+~
+0 -1 11613
+D3
+~
+~
+0 -1 11610
+D4
+~
+~
+0 -1 11607
+R M 0 11605 1 11608
+S
+#11609
+Eastern Cavern~
+~
+Walking through the eastern caverns, you can see that it really hasn't
+been used or worked on in a very long time. The soil shows to be a 
+greyish color which might prove to be very interesting to Rusty the 
+mineralogist. The pathway before you is very dark and you lift your 
+light trying to catch a small glimpse of what might be there. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11614
+D3
+~
+~
+0 -1 11608
+R M 0 11606 1 11609
+S
+#11610
+Western Cavern~
+~
+Entering the western portion of the cavern it becomes aparent that a lot of 
+people have traveled through here. Some of the footprints seem to indicate
+that the person was running very fast. Looking ahead you try to see what
+might be laying in wait for you as well.
+~
+1 0 13
+D1
+~
+~
+0 -1 11608
+D2
+~
+~
+0 -1 11612
+S
+#11611
+Dead End~
+~
+The tunnel comes to a dead end here. You notice that the floors and 
+the walls show signs that a horribly violent struggle has recently 
+taken place here. A pickaxe lays on the floor as though it had been 
+dropped and forgotten about.
+~
+1 0 13
+D1
+~
+~
+0 -1 11612
+S
+#11612
+Western Cavern~
+~
+You have wandered into a newer section of the mine. The walls and floor
+all look freshly made and are still heavy with moisture from the ground
+water. The dirt path splits into two different directions here, one
+proceeding south and the other turns to the west.
+~
+1 0 13
+D0
+~
+~
+0 -1 11610
+D2
+~
+~
+0 -1 11615
+D3
+~
+~
+0 -1 11611
+S
+#11613
+Main Cavern~
+~
+Walking along a dusty path, you notice that a lot of tracks have been
+made in the dirt on the ground. One set of tracks catches your eye. It 
+looks like a person running at full speed, perhaps even in a panic, had 
+raced through here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11608
+D1
+~
+~
+0 -1 11614
+D2
+~
+~
+0 -1 11616
+R M 0 11607 2 11613
+R M 0 11607 2 11613
+S
+#11614
+Eastern Cavern~
+~
+The mine shaft comes to a turn here allowing you too see some deep
+marks that are in the walls. As you hold up your light you suddenly
+realize that these deep marks are actually huge claw marks made by
+some kind of large beast or animal.
+~
+1 0 13
+D0
+~
+~
+0 -1 11609
+D3
+~
+~
+0 -1 11613
+S
+#11615
+Dead End~
+~
+You have come to a dead end. Stopping to catch your breath you start
+examining the area. The soil of the walls seems to change from a deep
+dark rich color to the grey color of poor soil. That might be the
+reason that they have stopped digging on this portion of the mine.
+~
+1 0 13
+D0
+~
+~
+0 -1 11612
+R M 0 11606 2 11615
+S
+#11616
+The Rusty Old Ladder~
+~
+Your on top of the ledge that drops into a dark abyss below. A rusty
+old ladder has been built into the rock wall and after you examine it
+a little bit you determine that it is sturdy and safe dispite its age.
+A small plaque has been embedded within the wall next to the ladder 
+that looks like it might be extremely important. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11613
+D5
+~
+~
+0 -1 11621
+S
+#11617
+Eastern Cave~
+~
+Walking into the room, you notice the smell of sulfer and notice a huge 
+stone bridge that allows safe passage over a shiftly moving river of 
+very hot lava. More of the huge foot prints show themselves in the dirt
+path going over the bridge.  
+~
+1 0 13
+D1
+~
+~
+0 -1 11618
+D2
+~
+~
+0 -1 11624
+S
+#11618
+Eastern Cave~
+~
+You see a huge battered stone bridge heading west over a racing river of hot 
+lava. A tunnel to the south shows more signs of the huge foot prints you saw 
+coming into this portion of the mine. You steady yourself and prepare for the 
+horrors that might lay ahead.
+~
+1 0 13
+D2
+~
+~
+0 -1 11625
+D3
+~
+~
+0 -1 11617
+S
+#11619
+Western Cave~
+~
+The western cavern's walls are extremely moist to the touch, a sure
+sign of a near by water source. The sound of splashing coming from
+the southwest confirms your suspicions. Remembering the dangers of
+water comes quickly to your thoughts and with a chuckle you continue
+on your way. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11620
+D9
+~
+~
+0 -1 11627
+S
+#11620
+Western Cave~
+~
+The western cavern is a fairly large tunnel. The walls are very smooth
+to the touch and the ceiling is well supported by an ample supply of
+wooden beams. A cold breeze finds its way across your face and you 
+wonder where it might have come from.
+~
+1 0 13
+D1
+~
+~
+0 -1 11621
+D3
+~
+~
+0 -1 11619
+S
+#11621
+Bottom of the Ladder~
+~
+Reaching the bottom of an old ladder, you look up and can see a slight hint 
+of light. The tunnel splits off into three seperate directions here. The 
+passage to the west has a faint glow coming from around a bend. The eastern 
+passage looks like it has been used recently, however the southern passage 
+seems desolate and cold. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11622
+D2
+~
+~
+0 -1 11628
+D3
+~
+~
+0 -1 11620
+D4
+~
+~
+0 -1 11616
+S
+#11622
+Eastern Cave~
+~
+Traveling through the eastern cavern, your greeted by a big rush of extremely 
+hot air. The cavern walls are warm to the touch and the sound of grumbling 
+can heard farther to the east. The dirt path shows signs of being a heavily 
+used pathway.
+~
+1 0 13
+D1
+~
+~
+0 -1 11623
+D3
+~
+~
+0 -1 11621
+S
+#11623
+Eastern Cave~
+~
+The floor of the tunnel here is littered with trash of all kinds. It even 
+looks like maybe a barricade had been here once. The heat of the air is 
+hot here making you sweat a little. Looking at the walls you can see a 
+tint of a deep red substance running streaks through the walls. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11624
+D3
+~
+~
+0 -1 11622
+S
+#11624
+Eastern Cave Cross Roads~
+~
+Entering into a huge cavern, you see a very huge lava flow is running 
+through the eastern portion of this cave. You are startled by a foot 
+print on the ground, the shear size of it could only mean one thing.
+                      ........GIANTS..........
+~
+1 0 13
+D0
+~
+~
+0 -1 11617
+D2
+~
+~
+0 -1 11629
+D3
+~
+~
+0 -1 11623
+S
+#11625
+Eastern Cave~
+~
+Standing in the middle of the room, you study the strange foot prints and 
+are puzzled as to why they just seem to stop at this room. Looking around, 
+you notice that the mine shaft walls have changed from a rough rocky 
+surface to that of cut stone you would find in a castle or building. Looks 
+like you might have stumbled into something very strange. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11618
+D1
+~
+door~
+3 -1 11626
+D2
+~
+~
+0 -1 11630
+S
+#11626
+Entrance to the Lava Caves~
+~
+The room radiates with the heat from the nearby lava flows making the
+air hot and dry. You realize you are getting closer to the core of the
+lava's source. The walls form a ancient stone corridor and are covered
+with gyphs and rune symbols. Be on guard this doesnt look like a place
+for mortal's.
+~
+1 0 13
+D2
+~
+~
+0 -1 11631
+D3
+~
+door~
+3 -1 11625
+S
+#11627
+Edge of the Pool~
+~
+Your standing at the edge of a magical shimmering pool of water. It
+glows with a strange radiance that seems to be coming from nowhere.
+The water swirls with ripples across its surface. You wonder if there
+might be something under the water causing it. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11632
+D6
+~
+~
+0 -1 11619
+S
+#11628
+Southern Path~
+~
+You're on the southern path, wandering through a maze of tunnels and 
+passage ways. You realize that you are nearing the heart of the mine. With 
+the bizarre monsters that you have already encountered, your pulse 
+quickens with the possibility of even more frightening monsters that might 
+wait ahead of you. To the south, you can barely make out an object that is 
+large and black. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11621
+D2
+~
+~
+0 -1 11633
+S
+#11629
+Eastern Cave~
+~
+Standing in the middle of the room, you can feel an extreme amount of
+heat coming from the eastern wall. Examining the wall closer, you can
+see that it is glowing red from the heat. To the south you hear a faint
+clatter of metal. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11624
+D2
+~
+~
+0 -1 11634
+S
+#11630
+Eastern Cave~
+~
+You come to a dead end. This room looks like it has been untouched for
+hundreds of years. The walls are the same cut stone like in the room
+before.  The dust and dirt on the floor haven't been disturbed for an
+extremely long time. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11625
+S
+#11631
+Lava Cave~
+~
+The passage opens up at an angle into a larger area. What lays before 
+you is a strange mix of finely cut stone walls and walk ways as well as 
+sculpted rune covered columns that support the ceiling. Yet at the same 
+time the whole area has been torn and rendered by the torrents of mother 
+earth. Huge areas have been opened and now expose blistering pools of 
+lava. Giant stalagmites have pierced the ceiling and floors like daggers. 
+Huge chasms have opened up through the floors making this a beautiful 
+and lethal place all at the same time. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11626
+D2
+~
+~
+0 -1 11636
+D8
+~
+~
+0 -1 11637
+D9
+~
+~
+0 -1 11635
+S
+#11632
+Leech Pool~
+~
+Wading into the shimmering pool of water you discover that its about waist
+deep here. You try to see what was causing the swirls and ripples, but still
+can't make out what it was. To the south you see the rest of the small pool
+and it looks safe enough to wade a little farther out into it.
+~
+1 0 13
+D0
+~
+~
+0 -1 11627
+D2
+~
+~
+0 -1 11667
+S
+#11633
+Onyx Bridge~
+~
+You stand before a wonderful jet black bridge that seems to be made of 
+the purest color of black onyx. The bridge radiates an evil that sends 
+cold chills down your spine. Beside the bridge, you see the remains of 
+a sign. To the west, you see a small ledge that might need to be 
+investigated.
+~
+1 0 13
+D0
+~
+~
+0 -1 11628
+D2
+~
+~
+0 -1 11638
+D3
+~
+~
+0 -1 11698
+S
+#11634
+Eastern Cave~
+~
+Wooden shields and various armor along with broken weapons of all kinds 
+are scattered all across the floor as though a terrible fight had once 
+taken place here. Examining the equipment, you find that all of it is 
+beyond salvage.  
+~
+1 0 13
+D0
+~
+~
+0 -1 11629
+D2
+~
+~
+0 -1 11639
+S
+#11635
+Lava Cave~
+~
+Your standing in the northwest corner of the huge room. The darkness
+makes it only possible for you to see just the limited space around
+you. A big stalagmite has pierced the ceiling here. You notice some
+strange marks and cuts on the stalagmite possibily from a human. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11636
+D6
+~
+~
+0 -1 11631
+S
+#11636
+The Lava Cave~
+~
+A huge bubbling pool of lava is before you. Being careful to watch your step 
+you manage to avoid the pool of lava. A sound in the southwest corner of the 
+room catches your attention. You try to squint to see what it was but the 
+darkness prevents you from doing so.
+~
+1 0 13
+D0
+~
+~
+0 -1 11631
+D1
+~
+~
+0 -1 11637
+D2
+~
+~
+0 -1 11650
+D3
+~
+~
+0 -1 11635
+S
+#11637
+Lava Cave~
+~
+Part of the wall has fallen to the ground here exposing the rock on the other 
+side of it. The stone column here has been shattered by some very powerful 
+force. You hope that it will hold up long enough for you to get out from 
+under it. 
+~
+1 0 13
+D3
+~
+~
+0 -1 11636
+D7
+~
+~
+0 -1 11631
+R M 0 11619 1 11637
+  R G 0 11615 1
+S
+#11638
+Southern Onyx Bridge~
+~
+You've found your way to the southern end of the onyx bridge. Leaning
+against the wall to catch your breath, you gasp in horror as the entire
+area shakes with the roar of a beast of unimaginable size. To the south,
+you see a very sturdy iron door.
+~
+1 0 13
+D0
+~
+~
+0 -1 11633
+D2
+~
+door~
+3 -1 11645
+R D 0 11638 2 1
+S
+#11639
+Ambush!~
+~
+Entering the room, you see a massive barricade dividing the room in half.
+It is constructed from the liter and debris that you saw in the other 
+rooms. A couple of torches have been stuck into the walls allowing you 
+to see.
+~
+1 0 13
+D0
+~
+~
+0 -1 11634
+R M 0 11608 1 11639
+R M 0 11609 4 11639
+  R G 0 11611 1
+R M 0 11609 4 11639
+  R G 0 11611 1
+R M 0 11609 4 11639
+  R G 0 11611 1
+R M 0 11609 4 11639
+  R G 0 11611 1
+S
+#11643
+Tor Sanctum~
+~
+The walls of the warren are slick with ground moisture. This might be
+where the Tors' get their water from. To the west, you can see an old
+rickety box-shaped object with a rope leading upwards might be some
+kind of way out of here.
+~
+1 0 13
+D1
+~
+~
+0 -1 11644
+D3
+~
+~
+0 -1 11669
+S
+#11644
+Tor Sanctum~
+~
+Wandering through this bone-littered warren of the Tor, you find the
+darkness and odor of your constant enemy which distracts you away 
+from your defensive position. A huge wooden beam supports the ceiling
+here. Upon a closer look at the wood, you find alot of it missing as
+though some beast had mauled it over and over with steel spikes.
+~
+1 0 13
+D1
+~
+~
+0 -1 11645
+D3
+~
+~
+0 -1 11643
+D8
+~
+~
+0 -1 11654
+S
+#11645
+Entrance into the Tor Lair~
+~
+Bones of the dead greet your eyes as you enter into a labyrinthine complex 
+of passage ways. The blood and bones of fallen warriors are scattered every 
+where and the stench of foul rotting corpses and animal excretions premeates 
+the air. Howls and guttural noises fill your ears at a deafening pitch. Chills 
+run rampant up and down your spine as you try to gleam a slight hint of the 
+caves' secrets out of the darkness.
+~
+1 0 13
+D0
+~
+door~
+3 -1 11638
+D1
+~
+~
+0 -1 11646
+D2
+~
+~
+0 -1 11654
+D3
+~
+~
+0 -1 11644
+R D 0 11645 0 1
+S
+#11646
+Tor Sanctum~
+~
+Bones and gore are still abundant and the darkness cloaks all of it 
+until your light cleaves the darkness and the scenery burns bright and 
+anew with fear and horror deep in your heart. A freshly killed Maiden 
+lays crumpled on the ground, from the brutality of the damage that 
+shows on her corpse, she must have put up a brave and valiant fight.
+~
+1 0 13
+D1
+~
+~
+0 -1 11647
+D3
+~
+~
+0 -1 11645
+D9
+~
+~
+0 -1 11654
+S
+#11647
+Tor Sanctum~
+~
+Walking through the dark and dank corridor your feet crunch and smash the 
+bones that lay on the ground. A wave of heat, coming from the east, makes 
+you start to sweat. The floor looks very unstable and gets worse to the 
+east. Be careful going east any farther or you might fall through the 
+floor to your death. 
+~
+1 0 13
+D2
+~
+~
+0 -1 11656
+D3
+~
+~
+0 -1 11646
+S
+#11649
+The Lava Cave~
+~
+You have managed to make your way into the southwest corner of the
+room. As you look around, you try to make out the shapes and shadows
+that seem to be moving around in the darkness. Fear grips deeply
+within your heart. You wipe your forehead of the dripping sweat that
+has beaded up on your brow. Clutching your weapon to gather strength
+from it. Heaven help those who might stray into your path. You see a
+path heading to the southeast. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11650
+D8
+~
+~
+0 -1 11657
+R M 0 11618 1 11649
+  R G 0 11615 1
+S
+#11650
+Lava Cave~
+~
+Writings on the wall tell of a race of brutish hellspawned beasts
+called Tors. Valon the ruler of the lands captured and locked the
+mighty beasts in a maze near this room. The writing goes on but
+the words have faded near the end. You make out some more of the
+~
+1 0 13
+D0
+~
+~
+0 -1 11636
+D1
+~
+~
+0 -1 11651
+D3
+~
+~
+0 -1 11649
+S
+#11651
+Lava Cave~
+~
+Standing in the southeast corner of the room, you find a wall covered with 
+ancient writings and runes. Studying the writing it tells of an ancient 
+race of giants that had once walked and ruled the lands. The city that had 
+once stood and is now buried beneath a mile of stone and dirt was once 
+called Torin. It was ruled by a supreme ruler named Valon, who captured a 
+race of beasts called Tors. The writing seems to continue on another wall 
+to the west. 
+~
+1 0 13
+D3
+~
+~
+0 -1 11650
+R M 0 11617 1 11651
+  R G 0 11615 1
+S
+#11652
+Tor Sanctum~
+~
+As your light illuminates the warren, you find the bones of countless
+dwarven miners laying torn and shredded on the ground. After killing
+their victims, they must place their bones and corpses here as though
+this was a shrine of bloody worship.
+~
+1 0 13
+D1
+~
+~
+0 -1 11653
+D7
+~
+~
+0 -1 11669
+S
+#11653
+Tor Sanctum~
+~
+Whispers of fresh air hint at their presence through the fowlness of the 
+warren. Touching a nearby wall you recoil as you encounter the slickness 
+of it. You check to see if it might be a possible water source and find a 
+nice reddish tickle flowing down the wall. Looking up, you're horrified to 
+find that a corpse has been stuffed up into a tiny alcove near the ceiling.
+~
+1 0 13
+D1
+~
+~
+0 -1 11654
+D3
+~
+~
+0 -1 11652
+S
+#11654
+Tor Sanctum~
+~
+You have reached the center of the Tor warren. A massive wooden column some 
+fifty feet around and stands here like a sentinel of the caves watching young 
+bold adventurers struggle to maintain their lives. Dark shadows move about 
+from place to place. They watch you for the slightest hint of weakness and for 
+their prime opportunity for their attack.
+~
+1 0 13
+D0
+~
+~
+0 -1 11645
+D1
+~
+~
+0 -1 11655
+D3
+~
+~
+0 -1 11653
+D6
+~
+~
+0 -1 11646
+D7
+~
+~
+0 -1 11644
+D8
+~
+~
+0 -1 11665
+D9
+~
+~
+0 -1 11658
+S
+#11655
+Tor Sanctum~
+~
+Haplessly wandering through the labyrinthical maze of the Tor warren, you 
+find yourself next to solid a wall. On the wall you discover some more ancient 
+writings. Bound and determined to understand what this message means you so 
+you take a moment to decypher the inscription. After awhile you uncover its 
+meaning. It reads: As I take my last breath, I pass on this small bit of help 
+in hopes that the next traveler might live longer than I did - Tors are 
+susceptible to the power of the heaven.  
+~
+1 0 13
+D1
+~
+~
+0 -1 11656
+D3
+~
+~
+0 -1 11654
+S
+#11656
+Tor Sanctum~
+~
+You have found the Tor's water supply. An old crumbling well sits off in
+the southeast corner of the room. At first glance, the water appears to be
+safe to drink. After a few moments you realize that being that this is the
+Tor's drinking source it is also most likely well traveled. You'd better be
+moving fast before the Tors arrive and decided to add your bones to their
+large collection on the floor. You start to go northeast, but jump back as 
+you hear the floor creak and feel how unsteady it is. You fear the floor will
+collapse if you go that way.
+~
+1 0 13
+D0
+~
+~
+0 -1 11647
+D3
+~
+~
+0 -1 11655
+S
+#11657
+The Lava Cave~
+~
+Entering a large hallway, you see a hall lit by large torches affixed 
+to the wall. Grand drawings on the wall depict the battle between 
+Lord Valon and the Torain beasts of hell, which ends with a symbol
+of a very black key. You ponder the meaning as you move past them.
+~
+1 0 13
+D2
+~
+~
+0 -1 11663
+D7
+~
+~
+0 -1 11649
+S
+#11658
+Inner Tor Sanctum~
+~
+Entering a very wide room, you notice that the floor has several large swaths 
+of grass and fur laid out in several different places, possibly the Tor roost. 
+You can see a very dim light coming from the area southeast. Knowingly close
+to the very heart of the Tor domain you take a breath as your final fear of 
+Tor's is about to come to an end. one way or the other.
+~
+1 0 13
+D6
+~
+~
+0 -1 11654
+R M 0 11613 1 11658
+S
+#11660
+Weapons Barracks~
+~
+Standing before a huge anvil and a pit of coals attached to a giant bellow, 
+you realize that you're in the smith shop. Giant sets of armor and weapons 
+of all kinds are either hung on the wall or leaning against it. The smithy 
+has been extremely busy from the looks of it. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11661
+S
+#11661
+The Lair of Valon~
+~
+Walking down the corridor you notice two huge giant spears are crossed and
+mounted on the walls. The ceiling holds a picture of a very huge angry and 
+evil creature with powerful claws on its massive arms. Large tusks come out 
+on both sides of its mouth. From the number of people fighting it in the 
+picture, you judge the creature to stand some 30 to 40 hands tall. You wonder
+if that is a picture of the famed Torian beast of hell.    
+~
+1 0 13
+D1
+~
+~
+0 -1 11662
+D2
+~
+~
+0 -1 11664
+D3
+~
+~
+0 -1 11660
+R M 0 11615 1 11661
+S
+#11662
+The Lair of Valon~
+~
+Walking into a rich and lavish room, unlike the areas before, this room
+has huge tapestries and a golden coat of arms covering the walls. The
+carpet on the ground shows its obvious quality. You instantly realize
+that this is the place of a mighty king. Hearing a small sound from
+down the corridor you wonder if you should investigate it.  
+~
+1 0 13
+D1
+~
+door~
+3 -1 11663
+D3
+~
+~
+0 -1 11661
+S
+#11663
+The Dead End~
+~
+Entering the final portion of the mine you easily notice that the rest
+of the cave has been caved in. This prevents you from traveling any
+deeper into the mine. As you take a moment to gather yourself up and
+prepare for the return journey you catch a glint of light coming from
+somewhere in the cave.
+~
+1 0 13
+D0
+~
+~
+0 -1 11657
+D3
+~
+door~
+3 -1 11662
+R M 0 11616 1 11663
+R D 0 11663 3 1
+S
+#11664
+Throne Room of Valon~
+~
+Entering the room, your eyes fill with wonderment. Before you is a grand 
+room filled with all the magnificence and majestic properties of a royal 
+throne room. On the far end of the room stands an enormous golden throne 
+the size of a small building. Carved stone pillars line the walls like the 
+sentinals of a royal guard. Cauldrons burning on each side of the throne 
+ensures that you are not alone. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11661
+R M 0 11614 1 11664
+  R G 0 11613 1
+  R G 0 11613 1
+  R E 0 11614 1 16
+S
+#11665
+Tor Sanctum~
+~
+Entering the room, the floor is covered with animal excretions marking the 
+Tor Leaders territory. This is a room of power among the Tor's, for it is 
+the killing grounds of their ruler. The dark redness that covers all the 
+walls, is the blood of countless travelers who have found their final 
+resting place and demise at the claws of this ruthless animal. The body of 
+a large animal lays decaying on the ground. All that remains is the war 
+barding that it had worn, it might have once been a dragon. 
+~
+1 0 13
+D7
+~
+~
+0 -1 11654
+R M 0 11610 1 11665
+  R G 0 11612 1
+S
+#11666
+Miner's Mercantile~
+~
+Walking into the "Miners Mercantile", you find many different types of
+rocks and gems along with soil samples catagorized along the shelves.
+Rusty the shopkeeper is standing behind his counter looking into a
+cruedly fashioned microscope analyzing a recently discovered soil type
+that had been brought to him. 
+~
+1 0 13
+D1
+~
+~
+0 -1 11605
+R M 0 11601 1 11666
+  R G 0 11603 1
+  R G 0 11602 1
+  R G 0 11601 1
+S
+#11667
+The Deep End~
+~
+The water is up to your shoulders here and it might be dangerous to go
+any further for fear of drowning. The water feels cool to you skin and 
+sends goose bumps all over your body. Relaxing a bit you wade around
+looking into the waters depths and in the far corner you can barely make 
+out a hole which goes deeper into the water.
+~
+1 0 13
+D0
+~
+~
+0 -1 11632
+D5
+~
+~
+0 -1 11668
+S
+#11668
+Underwater~
+~
+Beneath the water, you discover a small cavern. The cavern is filled with 
+all the colors of the rainbow caused by light reflecting off the crystals
+that are embedded into the cavern walls. The water is so clear it allows
+you to see everything.
+~
+1 0 8
+D4
+~
+~
+0 -1 11667
+S
+#11669
+Tor Sanctum~
+~
+You happen upon an old abandoned mine shaft. As you peer upwards into 
+the shaft, you find that it extends a great distance upward. Maybe this
+was the first attempt to mine these caves. The hoist has seen its day 
+long ago and is nothing more than rust not fit to lift a single pound.
+~
+1 0 13
+D1
+~
+~
+0 -1 11643
+D8
+~
+~
+0 -1 11652
+R M 0 11612 1 11669
+S
+#11671
+Southern End of Kane's Tavern~
+~
+Wandering towards the back of the room, you see several tables with
+chairs about them. An old piano rests in the far corner dusty and dirty 
+from the lack of use. A sense of despair hangs in the air of the tavern 
+like the people are waiting for something to happen. You wonder what
+it might be. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11692
+S
+#11692
+Kane's Kross Roads Tavern~
+~
+Finding yourself in a small dingy tavern and thirsty for a drink, you
+make your way to the bar to find a seat, noticing the smell of smoke
+and alcohol mixed with laughter makes you feel right at home. The
+proprietor of the tavern is Kane, a large man who is sitting behind
+the bar waiting for your order. The room extends farther to the south.
+An interesting sign hangs above the bar. 
+~
+1 0 13
+D0
+~
+~
+0 -1 11605
+D2
+~
+~
+0 -1 11671
+R M 0 11602 1 11692
+  R G 0 11606 1
+  R G 0 11604 1
+  R G 0 11605 1
+S
+#11697
+The Viper Pit~
+~
+Moving through this small area beneath the strange black onyx bridge, 
+you quickly realize that who ever built this place must have not wanted 
+anyone to be exploring in here. They also wouldn't have gone through 
+all this trouble to keep people out for no reason. The way upward looks
+like it will get you back up on the bridge.  
+~
+1 0 13
+D3
+~
+~
+0 -1 11699
+D4
+~
+~
+0 -1 11633
+S
+#11698
+The Small Ledge~
+~
+As you step out onto the small ledge, you suddenly feel it give just a 
+little bit. Without any further warning, the ledge cracks under your 
+weight. CRACK ! Beginning a frantic struggle to leap away from the ledge, 
+you fail miserably, sending you plummeting into the abyss.     
+~
+1 0 13
+D1
+~
+~
+0 -1 11633
+D5
+~
+~
+0 -1 11699
+S
+#11699
+A Pit of Vipers~
+~
+You've fallen into a pit of deadly vipers that hiss and swarm to your presence.
+You wonder how so many vipers could have possibly gotten into this place. 
+A small steel covered hole in the far corner answers your question. You're 
+afraid to move, fearing that any movement will cause the vipers to attack.
+~
+1 0 13
+D1
+~
+~
+0 -1 11697
+D4
+~
+~
+0 -1 11698
+S
+#11700
+Floating in a void~
+~
+~
+1 4 13
+S
+#0
+
+
+#SHOPS
+ 11601    0  0  0  0  0   120  90         0 23    ; Rusty the Storekeeper
+ 11602    0  0  0  0  0   120  90         0 23    ; Kane the Bartender
+ 11603    0  0  0  0  0   120  90         0 23    ; Grocer Maw Kettle
+ 11604    0  0  0  0  0   120  90         0 23    ; Turk the Shop Keeper
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11605 spec_cast_adept
+S
+
+
+#$

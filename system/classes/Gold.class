@@ -1,0 +1,97 @@
+Name           Gold~
+Filename       Gold~
+Class          9
+Starting       1
+AttrPrime      3
+AttrSecond     4
+AttrDeficient  0
+Races          253951
+Nocombo        0
+Reclass        0 0 0
+Skilladept     95
+Thac0          18
+Thac32         10
+Hpmin          90
+Hpmax          110
+ManaMin        20
+ManaMax        30
+MoveMin        50
+MoveMax        80
+Expbase        2000
+Craftbase        0
+Resist         1048576
+Suscept        0
+Skill 'continual light' 2 95
+Skill 'cure affliction' 23 95
+Skill 'dispel magic' 28 95
+Skill 'elven features' 68 95
+Skill 'faerie fog' 19 95
+Skill 'farsight' 47 95
+Skill 'feline grace' 35 95
+Skill 'gamblers luck' 78 95
+Skill 'giant strength' 17 95
+Skill 'goblin cunning' 62 95
+Skill 'lend health' 19 95
+Skill 'locate object' 16 95
+Skill 'ogre vitality' 45 95
+Skill 'sage wisdom' 57 95
+Skill 'shadowform' 90 95
+Skill 'slow' 42 95
+Skill 'transport' 53 95
+Skill 'aid' 1 95
+Skill 'bite' 1 95
+Skill 'breathe' 10 95
+Skill 'breech' 25 95
+Skill 'claw' 1 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'devour' 1 95
+Skill 'dodge' 2 30
+Skill 'doorbash' 3 95
+Skill 'dye' 1 95
+Skill 'fade' 55 95
+Skill 'fifth attack' 85 85
+Skill 'fly home' 5 95
+Skill 'flyby' 75 95
+Skill 'fourth attack' 65 95
+Skill 'gust of wind' 31 75
+Skill 'gut' 8 95
+Skill 'hardened scales' 15 95
+Skill 'human form' 20 95
+Skill 'lick' 7 95
+Skill 'lore' 12 95
+Skill 'meditate' 11 95
+Skill 'pluck' 30 95
+Skill 'rage' 11 99
+Skill 'rake' 60 95
+Skill 'scan' 1 95
+Skill 'second attack' 7 95
+Skill 'shield' 13 95
+Skill 'slice' 1 95
+Skill 'smell' 9 95
+Skill 'snatch' 20 95
+Skill 'stomp' 50 95
+Skill 'swim' 1 95
+Skill 'tail swipe' 40 95
+Skill 'telepathy' 1 95
+Skill 'third attack' 29 95
+Skill 'trance' 38 95
+Skill 'truesight' 6 95
+Skill 'wings' 1 100
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'draconic' 1 95
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+End

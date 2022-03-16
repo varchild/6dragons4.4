@@ -1,0 +1,69 @@
+#VNUM 57015
+#OBJECT
+Vnum         1176
+Level        108
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1951
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       40 8 7 80 0 20 0
+Spell 3      'fly'
+End
+
+#OBJECT
+Vnum         1175
+Level        108
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         1177
+Level        108
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11611
+Level        21
+Currtype     3
+Color        8
+Size   0
+Values       12 10 20 2 2 21 47
+End
+
+#OBJECT
+Nest         1
+Vnum         11611
+Level        21
+Currtype     3
+Color        8
+Size   0
+Values       12 10 20 2 2 21 78
+End
+
+#OBJECT
+Vnum         2792
+Level        5
+Currtype     3
+Color        2
+Size   0
+Values       2 0 641 200 200 5 0
+End
+
+#END

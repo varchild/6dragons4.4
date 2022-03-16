@@ -1,0 +1,617 @@
+Tue Mar 15 23:01:12 2022 :: Booting Database
+Tue Mar 15 23:01:12 2022 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Tue Mar 15 23:01:12 2022 :: Loading commands
+Tue Mar 15 23:01:12 2022 :: Loading mud channels...
+Tue Mar 15 23:01:12 2022 :: Loading sysdata configuration...
+Tue Mar 15 23:01:12 2022 :: Loading socials
+Tue Mar 15 23:01:12 2022 :: Loading skill table
+Tue Mar 15 23:01:12 2022 :: Sorting skill table...
+Tue Mar 15 23:01:12 2022 :: Remapping slots to sns
+Tue Mar 15 23:01:12 2022 :: Loading classes
+Tue Mar 15 23:01:12 2022 :: Loading races
+Tue Mar 15 23:01:12 2022 :: Loading herb table
+Tue Mar 15 23:01:12 2022 :: Loading tongues
+Tue Mar 15 23:01:12 2022 :: Making 6 Dragons stafflist
+Tue Mar 15 23:01:12 2022 :: Loading MSSP Data...
+Tue Mar 15 23:01:12 2022 :: Building wizinfo
+Tue Mar 15 23:01:12 2022 :: Initializing random number generator
+Tue Mar 15 23:01:12 2022 :: Setting time and weather.
+Tue Mar 15 23:01:12 2022 :: Loading holiday chart...
+Tue Mar 15 23:01:12 2022 :: Assigning gsn's
+ASSIGN_GSN: Skill searing haze not found.
+ASSIGN_GSN: Skill combat heal not found.
+Tue Mar 15 23:01:12 2022 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     2 - 99    Objs:     2 - 99    Mobs:     1 - 99
+staff.are     : Rooms:  1200 - 1299  Objs:  1200 - 1299  Mobs:  1200 - 1299
+call.are      : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+haon.are      : Rooms:  6000 - 6159  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+srefuge.are   : Rooms:  1500 - 1600  Objs:  1500 - 1599  Mobs:  1500 - 1599
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+unholy.are    : Rooms:  2101 - 2173  Objs:  2101 - 2150  Mobs:  2101 - 2120
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2077  Mobs:  2070 - 2073
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+roads.are     : Rooms: 26000 - 26290 Objs: 26000 - 26010 Mobs: 26000 - 26007
+asgard.are    : Rooms: 12000 - 12200 Objs: 12000 - 12200 Mobs: 12000 - 12200
+warkeep.are   : Rooms: 15700 - 15742 Objs: 15700 - 15742 Mobs: 15700 - 15720
+abandoned.are : Rooms: 29000 - 29050 Objs: 29000 - 29050 Mobs: 29000 - 29050
+drakkel.are   : Rooms: 40000 - 40500 Objs: 40000 - 40100 Mobs: 40000 - 40100
+1stplane.are  : Rooms: 30000 - 30400 Objs: 30000 - 30400 Mobs: 30001 - 30400
+heaven.are    : Rooms: 31000 - 31200 Objs: 31000 - 31200 Mobs: 31000 - 31046
+manoake.are   : Rooms: 31300 - 31493 Objs: 31300 - 31493 Mobs: 31300 - 31450
+loramoor.are  : Rooms: 31600 - 31800 Objs: 31600 - 31800 Mobs: 31600 - 31800
+beach.are     : Rooms: 10000 - 10024 Objs: 10000 - 10050 Mobs: 10001 - 10006
+ship.are      : Rooms: 10100 - 10150 Objs: 10100 - 10150 Mobs: 10100 - 10150
+Vila.are      : Rooms: 10200 - 10255 Objs: 10200 - 10300 Mobs: 10201 - 10215
+abyss.are     : Rooms:  7500 - 8000  Objs:  7500 - 8000  Mobs:  7500 - 8000
+citadel.are   : Rooms:   950 - 1100  Objs:   950 - 1100  Mobs:   950 - 1100
+ocean.are     : Rooms: 10400 - 10700 Objs: 10400 - 10700 Mobs: 10400 - 10700
+paleon.are    : Rooms: 16000 - 16300 Objs: 16000 - 16300 Mobs: 16000 - 16300
+garden.are    : Rooms:  4000 - 4050  Objs:  4000 - 4050  Mobs:  4000 - 4050
+prison.are    : Rooms: 16500 - 16600 Objs: 16500 - 16600 Mobs: 16500 - 16600
+jarynth.are   : Rooms: 10800 - 10851 Objs: 10800 - 10819 Mobs: 10801 - 10819
+cierra.are    : Rooms: 16700 - 16900 Objs: 16700 - 16900 Mobs: 16700 - 16900
+regius.are    : Rooms: 18000 - 18200 Objs: 18000 - 18200 Mobs: 18000 - 18200
+isle.are      : Rooms:  3750 - 3950  Objs:  3750 - 3950  Mobs:  3750 - 3950
+caverns.are   : Rooms: 28000 - 28200 Objs: 28000 - 28200 Mobs: 28000 - 28200
+shoreline.are : Rooms:  4100 - 4183  Objs:  4100 - 4166  Mobs:  4104 - 4163
+stutorial.are : Rooms:  4500 - 4600  Objs:  4500 - 4600  Mobs:  4500 - 4600
+waterarena.are: Rooms:  4320 - 4340  Objs:  4320 - 4320  Mobs:  4320 - 4320
+tufkular.are  : Rooms: 28250 - 28300 Objs: 28250 - 28297 Mobs: 28250 - 28300
+undersewer.are: Rooms:  4900 - 4950  Objs:  4900 - 4950  Mobs:  4900 - 4950
+tutorial.are  : Rooms:  5100 - 5200  Objs:  5100 - 5200  Mobs:  5100 - 5200
+bowels.are    : Rooms:  5300 - 5350  Objs:  5300 - 5350  Mobs:  5300 - 5350
+atheneum.are  : Rooms:  4650 - 4700  Objs:  4650 - 4700  Mobs:  4650 - 4700
+desertarena.are: Rooms:  4400 - 4420  Objs:  4400 - 4412  Mobs:  4400 - 4410
+kirwood.are   : Rooms: 27000 - 27062 Objs: 27000 - 27056 Mobs: 27000 - 27027
+junglearena.are: Rooms:  5400 - 5420  Objs:  5400 - 5410  Mobs:  5400 - 5409
+arcticarena.are: Rooms: 14500 - 14520 Objs: 14500 - 14506 Mobs: 14500 - 14503
+Dis.are       : Rooms:  5500 - 5550  Objs:  5500 - 5550  Mobs:  5500 - 5550
+labarena.are  : Rooms:  4800 - 4850  Objs:  4800 - 4809  Mobs:  4800 - 4810
+durdun.are    : Rooms: 18300 - 18350 Objs: 18300 - 18350 Mobs: 18300 - 18350
+dakar.are     : Rooms: 11200 - 11400 Objs: 11200 - 11400 Mobs: 11200 - 11400
+etutorial.are : Rooms: 33200 - 33400 Objs: 33200 - 33400 Mobs: 33200 - 33400
+wild.are      : Rooms: 41000 - 44000 Objs: 41000 - 41050 Mobs: 41000 - 41100
+xwild.are     : Rooms: 60000 - 62999 Objs: 60000 - 60000 Mobs: 60000 - 60000
+santasws.are  : Rooms: 34000 - 34050 Objs: 34000 - 34050 Mobs: 34000 - 34050
+forbidden.are : Rooms: 34051 - 35600 Objs: 35500 - 35600 Mobs: 35500 - 35600
+dtutorial.are : Rooms: 19000 - 19100 Objs: 19000 - 19100 Mobs: 19000 - 19100
+estate.are    : Rooms: 19500 - 19549 Objs: 19500 - 19507 Mobs: 19500 - 19508
+spidswamp.are : Rooms:   601 - 700   Objs:   601 - 700   Mobs:   601 - 700
+icecastle.are : Rooms:   701 - 799   Objs:   701 - 799   Mobs:   701 - 799
+crysforest.are: Rooms:  1400 - 1449  Objs:  1400 - 1449  Mobs:  1400 - 1449
+lvalley.are   : Rooms:  1750 - 1800  Objs:  1750 - 1800  Mobs:  1750 - 1800
+ixious.are    : Rooms:  1850 - 1900  Objs:  1850 - 1900  Mobs:  1850 - 1900
+Szithlin.are  : Rooms:  2200 - 2299  Objs:  2200 - 2299  Mobs:  2200 - 2299
+gtower.are    : Rooms: 18600 - 18650 Objs: 18600 - 18637 Mobs: 18600 - 18620
+newunder.are  : Rooms:  2300 - 2399  Objs:  2300 - 2399  Mobs:  2300 - 2399
+foxden.are    : Rooms:  2500 - 2550  Objs:  2500 - 2550  Mobs:  2500 - 2550
+goldpen.are   : Rooms:  2551 - 2599  Objs:  2551 - 2556  Mobs:  2551 - 2557
+ruins.are     : Rooms:  2600 - 2650  Objs:  2600 - 2650  Mobs:  2600 - 2650
+merchant.are  : Rooms:  2750 - 2813  Objs:  2750 - 2800  Mobs:  2750 - 2800
+shatkul.are   : Rooms:  2900 - 3000  Objs:  2900 - 3000  Mobs:  2900 - 3000
+sos.are       : Rooms: 35601 - 35650 Objs: 35601 - 35650 Mobs: 35601 - 35650
+appgarden.are : Rooms: 11510 - 11540 Objs: 11510 - 11540 Mobs: 11510 - 11540
+soscata.are   : Rooms: 35651 - 35700 Objs: 35651 - 35700 Mobs: 35651 - 35700
+throngfort.are: Rooms:  1120 - 1150  Objs:  1120 - 1150  Mobs:  1120 - 1150
+allifort.are  : Rooms:  1160 - 1190  Objs:  1160 - 1190  Mobs:  1160 - 1190
+accura.are    : Rooms: 35701 - 35750 Objs: 35701 - 35750 Mobs: 35701 - 35750
+events.are    : Rooms:  1350 - 1350  Objs:  1350 - 1399  Mobs:  1350 - 1399
+halcyon.are   : Rooms:  6160 - 6200  Objs:  6160 - 6200  Mobs:  6160 - 6200
+terizak.are   : Rooms: 11541 - 11580 Objs: 11541 - 11547 Mobs: 11541 - 11580
+mausoleum.are : Rooms: 35751 - 35800 Objs: 35751 - 35800 Mobs: 35751 - 35800
+spivill.are   : Rooms: 13000 - 13039 Objs: 13000 - 13039 Mobs: 13000 - 13039
+ywild.are     : Rooms: 48000 - 53800 Objs:     0 - 0     Mobs:     0 - 0
+cliffs.are    : Rooms: 13101 - 13150 Objs: 13101 - 13150 Mobs: 13101 - 13150
+icecavern.are : Rooms:  6250 - 6300  Objs:  6250 - 6300  Mobs:  6250 - 6300
+oisland.are   : Rooms: 47101 - 47146 Objs: 47101 - 47150 Mobs: 47101 - 47150
+harpy.are     : Rooms: 13151 - 13189 Objs: 13151 - 13180 Mobs: 13151 - 13180
+rift.are      : Rooms:  6350 - 6400  Objs:  6350 - 6400  Mobs:  6350 - 6400
+invasion.are  : Rooms:  6500 - 6900  Objs:  6500 - 6900  Mobs:  6500 - 6900
+palace.are    : Rooms:  8100 - 8150  Objs:  8100 - 8150  Mobs:  8100 - 8150
+ttower.are    : Rooms: 10051 - 10089 Objs: 10051 - 10090 Mobs: 10051 - 10090
+pixadale.are  : Rooms: 35801 - 35850 Objs: 35801 - 35850 Mobs: 35801 - 35850
+volcano.are   : Rooms:  8300 - 8336  Objs:  8300 - 8315  Mobs:  8300 - 8310
+psewer.are    : Rooms:  8350 - 8400  Objs:  8350 - 8370  Mobs:  8350 - 8400
+dsewer.are    : Rooms:  8700 - 8750  Objs:  8700 - 8720  Mobs:  8700 - 8750
+dragonden.are : Rooms:  1950 - 1991  Objs:  1950 - 1967  Mobs:  1950 - 1960
+grovestone.are: Rooms: 32000 - 32100 Objs: 32000 - 32100 Mobs: 32000 - 32100
+torain.are    : Rooms: 11600 - 11700 Objs: 11600 - 11700 Mobs: 11600 - 11700
+parade.are    : Rooms: 45150 - 45250 Objs: 45150 - 45250 Mobs: 45150 - 45250
+theatre.are   : Rooms:   500 - 525   Objs:   500 - 525   Mobs:   500 - 525
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54001) has owner set to (Kyrigan), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54002) has owner set to (Galt), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54003) has owner set to (Roselia), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54004) has owner set to (Osaerok), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54005) has owner set to (Koraesag), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54006) has owner set to (Norrindio), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54007) has owner set to (Numair), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54008) has owner set to (Talon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54009) has owner set to (Kimel), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54010) has owner set to (Althea), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54011) has owner set to (Saltus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54012) has owner set to (Weibble), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54013) has owner set to (Leonem), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54014) has owner set to (Kyndai), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54015) has owner set to (Gilanthas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54016) has owner set to (Maerak), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54017) has owner set to (Weiryn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54018) has owner set to (Aleccia), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54019) has owner set to (Aleccia), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54020) has owner set to (Weiryn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54021) has owner set to (Othinus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54022) has owner set to (Mendicus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54023) has owner set to (Crux), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54024) has owner set to (Gilanthas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54025) has owner set to (Zandavar), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54026) has owner set to (Desmond), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54027) has owner set to (Jennock), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54028) has owner set to (Dagon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54029) has owner set to (Kimel), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54030) has owner set to (Singar), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54031) has owner set to (Audriana), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54032) has owner set to (Haine), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54033) has owner set to (Amros), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54034) has owner set to (Cantor), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54035) has owner set to (Haine), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54036) has owner set to (Nwyfre), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54037) has owner set to (Joraga), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54038) has owner set to (Thorne), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54039) has owner set to (Kiernan), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54040) has owner set to (Silvanus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54041) has owner set to (Ilanthas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54042) has owner set to (Nyrian), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54043) has owner set to (Shenzu), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54044) has owner set to (Gremory), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54045) has owner set to (Arelaem), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54046) has owner set to (Kirath), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54047) has owner set to (Ramsey), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54048) has owner set to (Ilanthas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54049) has owner set to (Nebula), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54050) has owner set to (Shane), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54051) has owner set to (Kalsin), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54052) has owner set to (Raziel), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54053) has owner set to (Weiryn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54054) has owner set to (Nicodemus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54055) has owner set to (Numair), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54056) has owner set to (Garrett), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54057) has owner set to (Abraxas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54058) has owner set to (Oberon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54059) has owner set to (Griff), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54060) has owner set to (Null), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54061) has owner set to (Osaroz), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54062) has owner set to (Adrian), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54063) has owner set to (Ilanthas), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54064) has owner set to (Brinnuk), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54065) has owner set to (Fang), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54066) has owner set to (Margaret), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54067) has owner set to (Impulse), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54068) has owner set to (Tharra), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54069) has owner set to (Vaard), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54070) has owner set to (Verrana), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54071) has owner set to (Kuardrin), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54072) has owner set to (Krynne), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54073) has owner set to (Warrenn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54074) has owner set to (Esther), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54075) has owner set to (Serren), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54076) has owner set to (Dominic), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54077) has owner set to (Hanta), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54078) has owner set to (Phaedra), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54079) has owner set to (Fanad), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54080) has owner set to (Lyrandel), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54081) has owner set to (Liragorn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54082) has owner set to (Haus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54083) has owner set to (Ralase), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54084) has owner set to (Cole), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54085) has owner set to (Jayden), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54086) has owner set to (Ilainia), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54087) has owner set to (Aven), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54088) has owner set to (Norad), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54089) has owner set to (Ulaxor), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54090) has owner set to (Gedd), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54091) has owner set to (Luxx), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54092) has owner set to (Rayvan), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54093) has owner set to (Viktor), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54094) has owner set to (Cultro), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54095) has owner set to (Mordion), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54096) has owner set to (Kuardrin), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (54097) has owner set to (Quinnd), but there is no pfile to go with it.
+phouse.are    : Rooms: 54000 - 55000 Objs: 54000 - 55000 Mobs: 54000 - 55000
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57001) has owner set to (Zaiden), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57002) has owner set to (Yorae), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57003) has owner set to (Lassiekysh), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57004) has owner set to (Bansheena), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57005) has owner set to (Zhaxiaoyen), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57006) has owner set to (Chiakyzraa), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57007) has owner set to (Drysk), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57008) has owner set to (Rowan), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57009) has owner set to (Gonth), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57010) has owner set to (Houdae), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57011) has owner set to (Koda), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57012) has owner set to (Zuka), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57013) has owner set to (Meruke), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57014) has owner set to (Krystothon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57015) has owner set to (Xorn), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57016) has owner set to (Tokugawa), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57017) has owner set to (Izak), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57018) has owner set to (Lilandra), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57019) has owner set to (Vycon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57020) has owner set to (Talon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57021) has owner set to (Xander), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57022) has owner set to (Ludum), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57023) has owner set to (Kyzeer), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57024) has owner set to (Nicodemus), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57025) has owner set to (Kwai), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57026) has owner set to (Eldrin), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57027) has owner set to (Aniella), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57028) has owner set to (Verella), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57029) has owner set to (Kilyian), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57030) has owner set to (Hydra), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57031) has owner set to (Drix), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57032) has owner set to (Aeon), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57033) has owner set to (Jaquen), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57034) has owner set to (Quinton), but there is no pfile to go with it.
+Tue Mar 15 23:01:14 2022 :: load_rooms: Room (57035) has owner set to (Morrigan), but there is no pfile to go with it.
+dhouse.are    : Rooms: 57000 - 58000 Objs: 57000 - 58000 Mobs: 57000 - 58000
+hive.are      : Rooms: 25000 - 25050 Objs: 25000 - 25050 Mobs: 25000 - 25050
+riders.are    : Rooms: 25200 - 25250 Objs: 25200 - 25250 Mobs: 25200 - 25250
+ships.are     : Rooms: 56300 - 56500 Objs: 56300 - 56500 Mobs: 56300 - 56500
+tomb.are      : Rooms: 28350 - 28400 Objs: 28350 - 28400 Mobs: 28350 - 28400
+raid.are      : Rooms: 29100 - 29247 Objs: 29100 - 29200 Mobs: 29100 - 29200
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65000) has owner set to (Vladaar), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65001) has owner set to (Vladaar), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65002) has owner set to (Jasmia), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65003) has owner set to (Vladaar), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65004) has owner set to (Pane), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65005) has owner set to (Nightwing), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65006) has owner set to (Tulmynir), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65007) has owner set to (Gortholon), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65008) has owner set to (Calor), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65009) has owner set to (Hexus), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65010) has owner set to (Hekkron), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65011) has owner set to (Nedrik), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65012) has owner set to (Skyraker), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65013) has owner set to (Syric), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65014) has owner set to (Tulvir), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65015) has owner set to (Mirkoros), but there is no pfile to go with it.
+Tue Mar 15 23:01:15 2022 :: load_rooms: Room (65016) has owner set to (Zyon), but there is no pfile to go with it.
+dlair.are     : Rooms: 65000 - 67000 Objs: 65000 - 67000 Mobs: 65000 - 67000
+vampden.are   : Rooms: 55300 - 55400 Objs: 55300 - 55400 Mobs: 55300 - 55400
+Tue Mar 15 23:01:15 2022 :: Loading boards
+Tue Mar 15 23:01:15 2022 :: boards/Auction
+Tue Mar 15 23:01:15 2022 :: boards/Roleplay
+Tue Mar 15 23:01:15 2022 :: boards/General
+Tue Mar 15 23:01:15 2022 :: Loading buildlist
+Tue Mar 15 23:01:15 2022 :: Fixing exits
+Tue Mar 15 23:01:15 2022 :: Initializing economy
+Tue Mar 15 23:01:15 2022 :: Resetting areas
+Tue Mar 15 23:01:15 2022 :: Loading storerooms
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 1215.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54009.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40272.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54041.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54019.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40450.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65003.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65005.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 1136.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40184.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57026.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65015.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54087.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57034.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54054.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54066.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57004.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65004.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54003.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57001.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54073.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 1176.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54020.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 6168.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54002.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65014.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65012.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40275.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40270.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54010.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54070.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54031.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54016.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57015.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54018.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65008.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65011.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54049.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54012.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57029.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57008.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40499.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54030.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54027.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54028.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54093.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57027.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54008.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65006.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40176.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40498.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54029.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54032.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40500.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54086.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 57017.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54045.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 65002.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54075.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 54065.vault
+Tue Mar 15 23:01:15 2022 :: Loading storage room: 40279.vault
+Tue Mar 15 23:01:15 2022 :: Loading clans
+Tue Mar 15 23:01:15 2022 :: Loading clans...
+Tue Mar 15 23:01:15 2022 :: throng.cln
+Tue Mar 15 23:01:15 2022 :: alliance.cln
+Tue Mar 15 23:01:15 2022 :: halcyon.cln
+Tue Mar 15 23:01:15 2022 :: $
+Tue Mar 15 23:01:15 2022 ::  Done clans 
+Tue Mar 15 23:01:15 2022 :: Loading quests
+Tue Mar 15 23:01:15 2022 :: Loading currency...
+Tue Mar 15 23:01:15 2022 :: Loading banks
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank aeon because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank annellin because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank aven because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank cole because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank daughterofhv because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank dominic because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank gedd because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank google because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank hydra because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank jayden because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank jelix because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank karith1 because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank kweeuu because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank kyrigan because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank lorina because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank luxx because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank lyra because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank mairl because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank margaret because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank morgan because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank morrigan because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank nedrik because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank nicodemus because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank parnooson because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank phaedra because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank quinton because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank rowan because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank serren because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank taelynd because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank tina because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank tulvir because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank viktor because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank vladaar because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: [*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days.
+Tue Mar 15 23:01:15 2022 :: Loading landmarks
+Tue Mar 15 23:01:15 2022 :: Loading councils
+Tue Mar 15 23:01:15 2022 :: Loading councils...
+Tue Mar 15 23:01:15 2022 :: rp.cln
+Tue Mar 15 23:01:15 2022 :: Events.cln
+Tue Mar 15 23:01:15 2022 :: monkey.cln
+Tue Mar 15 23:01:15 2022 :: abm.cln
+Tue Mar 15 23:01:15 2022 :: pr.cln
+Tue Mar 15 23:01:15 2022 :: $
+Tue Mar 15 23:01:15 2022 ::  Done councils 
+Tue Mar 15 23:01:15 2022 :: Creating transfer data
+Tue Mar 15 23:01:15 2022 :: Loading transfer data
+Tue Mar 15 23:01:15 2022 :: Loading hometowns
+Tue Mar 15 23:01:15 2022 :: Loading htowns...
+Tue Mar 15 23:01:15 2022 :: paleon.city
+Tue Mar 15 23:01:15 2022 :: Valnaes.htown
+Tue Mar 15 23:01:15 2022 :: forbidden.htown
+Tue Mar 15 23:01:15 2022 :: $
+Tue Mar 15 23:01:15 2022 ::  Done htowns 
+Tue Mar 15 23:01:15 2022 :: Loading cities
+Tue Mar 15 23:01:15 2022 :: Loading cities...
+Tue Mar 15 23:01:15 2022 :: paleon.city
+Tue Mar 15 23:01:15 2022 :: dakar.city
+Tue Mar 15 23:01:15 2022 :: forbidden.city
+Tue Mar 15 23:01:15 2022 ::  Done cities 
+Tue Mar 15 23:01:15 2022 :: Loading bans
+Tue Mar 15 23:01:15 2022 :: Done.
+Tue Mar 15 23:01:15 2022 :: Loading reserved names
+Tue Mar 15 23:01:15 2022 :: Loading auth namelist
+Tue Mar 15 23:01:15 2022 :: Loading corpses
+Corpse -> corpses/Aniella
+Tue Mar 15 23:01:15 2022 :: Loading News
+Tue Mar 15 23:01:15 2022 :: Loading Hints...
+Tue Mar 15 23:01:15 2022 :: Loading Morphs
+Tue Mar 15 23:01:15 2022 :: Optimizing Morphs.
+Tue Mar 15 23:01:15 2022 :: Done.
+Tue Mar 15 23:01:15 2022 :: I3: Loading Intermud-3 network data...
+Tue Mar 15 23:01:15 2022 :: I3: Loading I3 command table...
+Tue Mar 15 23:01:15 2022 :: I3: Loading Intermud-3 network data...
+Tue Mar 15 23:01:15 2022 :: I3: Loading I3 router data...
+Tue Mar 15 23:01:15 2022 :: I3: Loading I3 help file...
+Tue Mar 15 23:01:15 2022 :: I3: Loading color table...
+Tue Mar 15 23:01:15 2022 :: I3: Intermud-3 network data loaded. Initialiazing network connection...
+Tue Mar 15 23:01:15 2022 :: I3: Loading channels...
+Tue Mar 15 23:01:15 2022 :: I3: Loading ban list...
+Tue Mar 15 23:01:15 2022 :: I3: Loading ucache data...
+Tue Mar 15 23:01:15 2022 :: I3: Attempting connect to 97.107.133.86  on port 8787
+Tue Mar 15 23:01:15 2022 :: I3: Connected to Intermud-3 router *dalet
+Tue Mar 15 23:01:16 2022 :: I3: Intermud-3 Network initialized.
+Tue Mar 15 23:01:16 2022 :: I3: Sending startup_packet to *dalet
+Tue Mar 15 23:01:16 2022 :: Initializing Autoboot
+Tue Mar 15 23:01:16 2022 :: Initializing socket
+Tue Mar 15 23:01:16 2022 :: Classic 6Dragons ready at address 6dragons on port 4100.
+.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~[  Game Loop  ]~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.~`~.
+Tue Mar 15 23:01:41 2022 :: I3: Closing connection to Intermud-3 router *dalet
+Tue Mar 15 23:01:41 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:01:41 2022 :: I3: Bytes sent: 319. Bytes received: 0.
+Tue Mar 15 23:02:06 2022 :: I3: Attempting connect to 97.107.133.86  on port 8787
+Tue Mar 15 23:02:06 2022 :: I3: Connected to Intermud-3 router *dalet
+Tue Mar 15 23:02:07 2022 :: I3: Connection to Intermud-3 router *dalet established.
+Tue Mar 15 23:02:07 2022 :: I3: Sending startup_packet to *dalet
+Tue Mar 15 23:02:32 2022 :: I3: Closing connection to Intermud-3 router *dalet
+Tue Mar 15 23:02:32 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:02:32 2022 :: I3: Bytes sent: 319. Bytes received: 0.
+Tue Mar 15 23:02:57 2022 :: I3: Attempting connect to 97.107.133.86  on port 8787
+Tue Mar 15 23:02:57 2022 :: I3: Connected to Intermud-3 router *dalet
+Tue Mar 15 23:02:58 2022 :: I3: Connection to Intermud-3 router *dalet reestablished.
+Tue Mar 15 23:02:58 2022 :: I3: Sending startup_packet to *dalet
+Tue Mar 15 23:03:22 2022 :: I3: Closing connection to Intermud-3 router *dalet
+Tue Mar 15 23:03:22 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:03:22 2022 :: I3: Bytes sent: 319. Bytes received: 0.
+Tue Mar 15 23:03:47 2022 :: I3: Attempting connect to 97.107.133.86  on port 8787
+Tue Mar 15 23:03:47 2022 :: I3: Connected to Intermud-3 router *dalet
+Tue Mar 15 23:03:48 2022 :: I3: Connection to Intermud-3 router *dalet reestablished.
+Tue Mar 15 23:03:48 2022 :: I3: Sending startup_packet to *dalet
+Tue Mar 15 23:04:13 2022 :: I3: Closing connection to Intermud-3 router *dalet
+Tue Mar 15 23:04:13 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:04:13 2022 :: I3: Bytes sent: 319. Bytes received: 0.
+Tue Mar 15 23:04:38 2022 :: I3: Attempting connect to 97.107.133.86  on port 8787
+Tue Mar 15 23:04:38 2022 :: I3: Connected to Intermud-3 router *dalet
+Tue Mar 15 23:04:39 2022 :: I3: Connection to Intermud-3 router *dalet reestablished.
+Tue Mar 15 23:04:39 2022 :: I3: Sending startup_packet to *dalet
+Tue Mar 15 23:05:03 2022 :: I3: Closing connection to Intermud-3 router *dalet
+Tue Mar 15 23:05:03 2022 :: I3: Unable to reach *dalet. Abandoning connection.
+Tue Mar 15 23:05:03 2022 :: I3: Bytes sent: 319. Bytes received: 0.
+Tue Mar 15 23:05:03 2022 :: I3: Will attempt new connection to *i4 in approximately 15 seconds.
+Tue Mar 15 23:05:03 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:05:28 2022 :: I3: Attempting connect to 204.209.44.3 on port 8080
+Tue Mar 15 23:05:28 2022 :: I3: Connected to Intermud-3 router *i4
+Tue Mar 15 23:05:29 2022 :: I3: Connection to Intermud-3 router *i4 established.
+Tue Mar 15 23:05:29 2022 :: I3: Sending startup_packet to *i4
+Tue Mar 15 23:05:54 2022 :: I3: Closing connection to Intermud-3 router *i4
+Tue Mar 15 23:05:54 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:05:54 2022 :: I3: Bytes sent: 316. Bytes received: 0.
+Tue Mar 15 23:06:19 2022 :: I3: Attempting connect to 204.209.44.3 on port 8080
+Tue Mar 15 23:06:19 2022 :: I3: Connected to Intermud-3 router *i4
+Tue Mar 15 23:06:20 2022 :: I3: Connection to Intermud-3 router *i4 reestablished.
+Tue Mar 15 23:06:20 2022 :: I3: Sending startup_packet to *i4
+Tue Mar 15 23:06:20 2022 :: I3: Read error on socket.
+Tue Mar 15 23:06:20 2022 :: I3: Closing connection to Intermud-3 router *i4
+Tue Mar 15 23:06:20 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:06:20 2022 :: I3: Bytes sent: 316. Bytes received: 0.
+Tue Mar 15 23:06:45 2022 :: I3: Closing connection to Intermud-3 router *i4
+Tue Mar 15 23:06:45 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:06:45 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:07:09 2022 :: I3: Attempting connect to 204.209.44.3 on port 8080
+Tue Mar 15 23:07:09 2022 :: I3: Connected to Intermud-3 router *i4
+Tue Mar 15 23:07:10 2022 :: I3: Connection to Intermud-3 router *i4 reestablished.
+Tue Mar 15 23:07:10 2022 :: I3: Sending startup_packet to *i4
+Tue Mar 15 23:07:35 2022 :: I3: Closing connection to Intermud-3 router *i4
+Tue Mar 15 23:07:35 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:07:35 2022 :: I3: Bytes sent: 316. Bytes received: 0.
+Tue Mar 15 23:08:00 2022 :: I3: Attempting connect to 204.209.44.3 on port 8080
+Tue Mar 15 23:08:00 2022 :: I3: Connected to Intermud-3 router *i4
+Tue Mar 15 23:08:01 2022 :: I3: Connection to Intermud-3 router *i4 reestablished.
+Tue Mar 15 23:08:01 2022 :: I3: Sending startup_packet to *i4
+Tue Mar 15 23:08:26 2022 :: I3: Closing connection to Intermud-3 router *i4
+Tue Mar 15 23:08:26 2022 :: I3: Unable to reach *i4. Abandoning connection.
+Tue Mar 15 23:08:26 2022 :: I3: Bytes sent: 316. Bytes received: 0.
+Tue Mar 15 23:08:26 2022 :: I3: Will attempt new connection to *wpr in approximately 15 seconds.
+Tue Mar 15 23:08:26 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:08:51 2022 :: I3: Attempting connect to 195.242.99.94 on port 8080
+Tue Mar 15 23:08:51 2022 :: I3: Connected to Intermud-3 router *wpr
+Tue Mar 15 23:08:52 2022 :: I3: Connection to Intermud-3 router *wpr established.
+Tue Mar 15 23:08:52 2022 :: I3: Sending startup_packet to *wpr
+Tue Mar 15 23:09:16 2022 :: I3: Closing connection to Intermud-3 router *wpr
+Tue Mar 15 23:09:16 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:09:16 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:09:41 2022 :: I3: Attempting connect to 195.242.99.94 on port 8080
+Tue Mar 15 23:09:41 2022 :: I3: Connected to Intermud-3 router *wpr
+Tue Mar 15 23:09:42 2022 :: I3: Connection to Intermud-3 router *wpr reestablished.
+Tue Mar 15 23:09:42 2022 :: I3: Sending startup_packet to *wpr
+Tue Mar 15 23:10:07 2022 :: I3: Closing connection to Intermud-3 router *wpr
+Tue Mar 15 23:10:07 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:10:07 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:10:32 2022 :: I3: Attempting connect to 195.242.99.94 on port 8080
+Tue Mar 15 23:10:32 2022 :: I3: Connected to Intermud-3 router *wpr
+Tue Mar 15 23:10:33 2022 :: I3: Connection to Intermud-3 router *wpr reestablished.
+Tue Mar 15 23:10:33 2022 :: I3: Sending startup_packet to *wpr
+Tue Mar 15 23:10:45 2022 :: Host: 10.0.0.1, Port: 31960.
+Tue Mar 15 23:10:57 2022 :: I3: Closing connection to Intermud-3 router *wpr
+Tue Mar 15 23:10:57 2022 :: I3: Will attempt to reconnect in approximately 15 seconds.
+Tue Mar 15 23:10:57 2022 :: I3: Bytes sent: 0. Bytes received: 0.
+Tue Mar 15 23:11:22 2022 :: I3: Attempting connect to 195.242.99.94 on port 8080
+Tue Mar 15 23:11:22 2022 :: I3: Connected to Intermud-3 router *wpr
+Tue Mar 15 23:11:23 2022 :: I3: Connection to Intermud-3 router *wpr reestablished.
+Tue Mar 15 23:11:23 2022 :: I3: Sending startup_packet to *wpr
+Tue Mar 15 23:11:48 2022 :: I3: Closing connection to Intermud-3 router *wpr
+Tue Mar 15 23:11:48 2022 :: I3: Unable to reconnect. No routers responding.
+Tue Mar 15 23:11:53 2022 :: Admin@10.0.0.1 new Human Bard.
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/m/Mirkoros for r. Called from player.c:3900
+player/m/Mirkoros: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/x/Xander for r. Called from player.c:3900
+player/x/Xander: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/i/Izak for r. Called from player.c:3900
+player/i/Izak: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/m/Myrlan for r. Called from player.c:3900
+player/m/Myrlan: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/a/Amaru for r. Called from player.c:3900
+player/a/Amaru: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/h/Hexus for r. Called from player.c:3900
+player/h/Hexus: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/r/Rayvan for r. Called from player.c:3900
+player/r/Rayvan: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/s/Saerataga for r. Called from player.c:3900
+player/s/Saerataga: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/k/Koraesag for r. Called from player.c:3900
+player/k/Koraesag: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/t/Tulvir for r. Called from player.c:3900
+player/t/Tulvir: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/d/Darconda for r. Called from player.c:3900
+player/d/Darconda: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/d/Dyedeme for r. Called from player.c:3900
+player/d/Dyedeme: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/m/Maerak for r. Called from player.c:3900
+player/m/Maerak: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/m/Mendicus for r. Called from player.c:3900
+player/m/Mendicus: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/q/Quinton for r. Called from player.c:3900
+player/q/Quinton: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/k/Krezzle for r. Called from player.c:3900
+player/k/Krezzle: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/b/Bojan for r. Called from player.c:3900
+player/b/Bojan: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/p/Pane for r. Called from player.c:3900
+player/p/Pane: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/s/Skyraker for r. Called from player.c:3900
+player/s/Skyraker: No such file or directory
+Tue Mar 15 23:12:01 2022 :: [*****] BUG: __FileOpen: can't open player/f/Fang for r. Called from player.c:3900
+player/f/Fang: No such file or directory
+Tue Mar 15 23:12:07 2022 :: Admin has quit the realms of 6 Dragons.
+Tue Mar 15 23:13:05 2022 :: Host: 10.0.0.1, Port: 45894.
+Tue Mar 15 23:13:09 2022 :: Preloading player data for: Admin
+Tue Mar 15 23:13:12 2022 :: Loading player data for Admin (3K)
+Tue Mar 15 23:13:12 2022 :: Admin (10.0.0.1) has connected.
+Tue Mar 15 23:13:30 2022 :: Host: 10.0.0.1, Port: 46155.
+Tue Mar 15 23:14:16 2022 :: Varchild@10.0.0.1 new Shade Mage.
+Tue Mar 15 23:15:15 2022 :: Saving help.are...
+Tue Mar 15 23:15:22 2022 :: Log Varchild: sset
+Tue Mar 15 23:15:25 2022 :: Log Varchild: rset
+Tue Mar 15 23:18:44 2022 :: Admin has quit the realms of 6 Dragons.
+Tue Mar 15 23:18:49 2022 :: Host: 10.0.0.1, Port: 17159.
+Tue Mar 15 23:19:26 2022 :: Sorine@10.0.0.1 new Dragon Red.
+Tue Mar 15 23:19:47 2022 :: Log Varchild: auth varchild
+Tue Mar 15 23:19:51 2022 :: Log Varchild: auth Sorine
+Tue Mar 15 23:21:48 2022 :: EOF encountered on read from host 10.0.0.1.
+Tue Mar 15 23:21:48 2022 :: Closing link to Sorine.
+Tue Mar 15 23:21:48 2022 :: Closing link to Sorine. (link-dead) 
+Tue Mar 15 23:21:49 2022 :: EOF encountered on read from host 10.0.0.1.
+Tue Mar 15 23:21:49 2022 :: Closing link to Varchild.
+Tue Mar 15 23:21:49 2022 :: Closing link to Varchild. (link-dead) 
+Tue Mar 15 23:22:21 2022 :: Host: 10.0.0.1, Port: 25312.
+Tue Mar 15 23:22:26 2022 :: Preloading player data for: Sorine
+Tue Mar 15 23:22:29 2022 :: Sorine@10.0.0.1 reconnected.
+Tue Mar 15 23:23:09 2022 :: Host: 10.0.0.1, Port: 25319.
+Tue Mar 15 23:23:14 2022 :: Preloading player data for: Varchild
+Tue Mar 15 23:23:18 2022 :: Varchild@10.0.0.1 reconnected.

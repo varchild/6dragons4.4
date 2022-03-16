@@ -1,0 +1,2670 @@
+#AREA        Shrine of Mnera~
+
+
+
+#VERSION     9
+#AUTHOR      Razot~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+40 50 35 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A mournful bell tolls in the distance.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 3 0 10 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#4851
+minister of bounty~
+the minister of bounty~
+The shrine's minister of bounty stands here, collecting donations in the name of Mnera.
+~
+A lithe man wearing flowing silk robes. His head is completely shaved 
+clean. Standing at an average height, he appears to possess a strong inner 
+peace. 
+~
+0
+Clanname none~
+0
+0
+203554819 4194432 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 31 0 0 0 0 7
+> all_greet_prog 70~
+mpechoat $n &C'Greetings $n!', the minister lights up with joy as you enter.&D
+mppause 3
+mpechoat $n &C'Mnera is always looking to bestow blessing upon those who beseech it', the minister smiles wide.&D
+mppause 3
+mpechoat $n &C'You can procure a small blessing by saying &WSMALL BLESSING&C, only one gold! Or, get a large blessing by saying &WLARGE BLESSING&C, only three gold!', the minister waves a branch of smokey incense as he finishes his sales pitch.&D
+~
+> speech_prog 'small blessing'~
+mppause 4
+if goldamt($n) < 1
+  mpechoat $n &C'I'm sorry $n, you don't have enough gold for a blessing,' the minister laments.&D
+else
+  mpechoat $n &C'Ahh, just a little blessing to get you through the day then, sir?', the minister jokes.&D
+  mppause 3
+  mpechoat $n &cThe minister begins uttering magical words in a strange language. His hands glow brightly as he clasps them across his chest.&D
+  mppause 3
+  mpechoat $n &cHe concludes the spell with a wave of his hands. You feel a powerful presence slide a thoughtful hand across your chest, you feel more protected than ever!&D
+  cast 'armor' $n
+  cast 'fly' $n
+  mpforce $n give 1 gold minister
+endif
+~
+> speech_prog 'large blessing'~
+mppause 3
+if goldamt ($n) < 3
+  mpechoat $n &C'I'm sorry $n, you don't have enough gold for a large blessing,' the minister laments.&D
+else
+  mppause 4
+  mpechoat $n &C'Joyous day! May this bountiful blessing serve you well in your dangerous endeavours, sir!' the minister exclaims.&D
+  mpechoat $n &cHe drops to his knees and raises his hands above. They begin to glow with coruscating energy. The air around you grows thick with electricity, crackling and bright, before fading slightly.&D
+  cast 'shockshield' $n
+  mpforce $n give 3 gold minister
+endif
+~
+|
+#4852
+Adeljora merchant traveling~
+Adeljora, the traveling merchant~
+Adeljora, the traveling merchant is here, striking up a deal.
+~
+A pudgy man in colorful silks. He drives a hard bargain, as evidenced by 
+the flashy jewelry that adorns every free part of his body. He has a bushy 
+beard that extends to his waist, braided in many ways with strange 
+fetishes. 
+~
+0
+Clanname none~
+0
+0
+67108867 4194816 0 C
+52 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 160 7
+#4853
+shady character Sarador~
+Sarador~
+A strange, shady character is leaning against the far wall here.
+~
+Cloaked, and hooded, this person seems somewhat out of place in the shrine 
+of Mnera. He stares fixedly at the objects on display within the Moon 
+entrance. 
+~
+0
+Clanname none~
+0
+0
+2097155 4194344 0 C
+53 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 -10
+0 6 0 0 1 1 0
+0 0 31 1048576 0 0 1088 2621443
+> greet_prog 100~
+if quest(shrinetreasure) == 0
+  mpechoat $n &CA shady character says, 'Hey, pssst, you there, $n.race!'&D
+  mppause 2
+  mpechoat $n &cA shady character beckons you over to him.
+  mppause 2
+  mpechoat $n &C'There's a secret to this place, I can feel it in my bones. A treasure!', the figure says, eyes glinting wildly at the word.&D
+  mppause 2
+  mpechoat $n &C'How about you help me find it? I promise the reward will be worth it', he says, grinning wide.&D
+  mppause 2
+  mpechoat $n &C'Just &WSAY YES&C, please, future partner of mine!', the shady character winks.&D
+endif
+~
+> speech_prog yes~
+if quest(shrinetreasure) == 0
+  mppause 2
+  mpechoat $n &C'Good, good. We're going to make out well in this deal, $n.race.', the shady character says.&D
+  mppause 3 
+  mpechoat $n &C'My name is Sarador, the world reknowned thief!', he buffs his nails on his cloak.&D
+  mppause 3
+  mpechoat $n &C'Treasure hunting is in my veins, in my blood! And this place sets off all of my alarms, problem is, I got caught snooping around by some acolytes earlier and they hustled me out!', he says, annoyed.&D
+  mppause 2
+  mpechoat $n &cThe shady character spits on the ground.
+  mppause 3
+  mpechoat $n &C'Anyway, alls I need you to do is investigate the main shrine area, and tell me if you find anything strange. Easy enough, right? Get to it then!' the shady character shoos you off.&D
+  mpquest $n shrinetreasure 1
+endif
+~
+> speech_prog 'sliding panel'~
+if quest(shrinetreasure) == 2
+  mppause 2
+  mpechoat $n &C'A sliding panel you say? In the center of the shrine?', Sarador strokes his chin contemplatively.&D
+  mppause 4
+  mpechoat $n &C'There must be some trick to opening it, why else would they have it?!', says Sarador.&D
+  mppause 3
+  mpechoat $n &C'Unfortunately, we can't exactly take some pick axes into the shrine and just start digging... Hey! There is a tower atop the shrine where the leader, Keeper Rastaba, resides. Investigate his quarters and see if you can find anything... get to it!', Sarador shoos you away again.&D
+  mpquest $n shrinetreasure 3
+endif
+~
+> act_prog p gives you shrine of Mnera blueprints.~
+if quest(shrinetreasure) == 4
+  mppause 3
+  mpechoat $n &cSarador's face lights up as you hand him the blueprints.&D
+  mppause 3
+  mpechoat $n &C'Fantastic job, $n.race!', he exclaims, 'with these, I can decipher the secret of the shrine, then we can claim the treasure within!'&D
+  mppause 4
+  mpechoat $n &cSarador unravels the blueprints and contemplates them eagerly, he seems quite attentive.&D
+  mppause 3
+  mpechoat $n &cHe flips the prints upside down and folds them over backwards as he studies them.&D
+  mppause 6
+  mpechoat $n &C'Eureka! The statues! Of course!' Sarador yelps.&D
+  mppause 3
+  mpechoat $n &C'If you push the two statues in the corner of the shrine until they point toward the center, it will unlock a secret crypt below!', says Sarador.&D
+  mppause 3
+  mpechoat $n &C'The treasure is within our grasp, go, unlock the crypt and retrieve the treasure!', he says, as he shoos you off again.&D
+  mpquest $n shrinetreasure 5
+endif
+~
+> act_prog p gives you the eye of Mnera.~
+if quest(shrinetreasure) == 7
+  mppause 2
+  mpechoat $n &C'Great gods! You got the treasure, you got the eye of Mnera!', Sarador exclaims.&D
+  mppause 3
+  mpechoat $n &CSarador looks at the eye covetously and murmurs, 'It's all falling into place now..... soon we'll have the last piece of the puzzle...'&D
+  mppause 4
+  mpechoat $n &CHe seems startled from his reverie, 'Great job, $n.race! You have no idea what you've done here!'&D
+  mppause 3
+  mpechoat $n &CSarador begins patting down his cloak, and pockets, 'Lets see, reward.... reward...ahha!'&D
+  mppause 3
+  mpechoat $n &cSarador pulls a long, pearl handled dagger from one of his deep pockets and throws it into the ground. It sticks fast.&D
+  mppause 4
+  mpechoat $n &C'You have no idea what I went through to get that, or the type of man who may show up some day to claim it from you...' he concludes, with a shiver.  'Go on, take the dagger, it's yours now.'&D
+  mppause 3
+  mpoload 4868
+  drop dagger
+  mpechoat $n &C'As for us, well, I'm afraid our partnership is at an end my dear.... well... I never got your name!'&D
+  mppause 2
+  mpechoat $n &cAs you start to tell him your name, Sarador vanishes in a puff of blue smoke. How odd!&D
+  mpquest $n shrinetreasure 8
+  mptrans self 4
+endif
+~
+|
+#4854
+keeper rastaba~
+Keeper Rastaba~
+Keeper Rastaba is here, wondering at your intrusion.
+~
+A gaunt man, standing very tall, he's dressed in a brilliant yellow and 
+violet robe. There is a holy sigil on his chest. Although old, he appears 
+hale and hearty. His eyes glow brightly with wisdom and power. 
+~
+0
+Clanname none~
+0
+0
+131075 71303168 0 C
+55 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 -15
+0 0 0 0 1 1 0
+0 0 31 21 0 32 1090523136 4723015
+#4855
+shade keeper tazilin~
+the shade of Keeper Tazilin~
+The shade of Keeper Tazilin floats here, brooding with power.
+~
+It is barely recognizable as man, more a ball of energy wreathed in the 
+demonic aura that destroyed the original shrine. There is a strange object 
+glowing in its core... 
+~
+0
+Clanname none~
+0
+0
+2097155 4720640 0 C
+53 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 0 0 0 1 1 0
+0 0 0 1048584 0 39 268441600 67108883
+> death_prog 100~
+mpechoat $n "Noooooooooooooo!" the Keeper's shade screams, "the eye..... it's mine, MINE, &rMIIIIIIIINE!&D"
+~
+|
+#4856
+acolyte dalabreen~
+Acolyte Dalabreen~
+Acolyte Dalabreen stands here, looking at you annoyed.
+~
+A squat man with a balding pate and a grizzly beard. He's built like a 
+beer barrel. He's dressed in fine silk robes with jeweled adornment. His 
+eyes are cold and calculating. 
+~
+0
+Clanname none~
+0
+0
+3 1346895872 0 C
+52 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 -10
+0 2 0 0 1 1 0
+0 0 31 96 0 1048576 270536704 1048583
+#4857
+thirten monk~
+Thirten the Monk~
+Thirten the Monk meditates here, cocking his head sideways to study you.
+~
+A lithe figure with an impeccable physique. He wears a small linen vest 
+and dancer's pants to accomodate his battle manuevers. He looks quite 
+fierce. 
+~
+0
+Clanname none~
+0
+0
+3 1074274304 0 C
+53 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 -20
+0 16 0 0 1 1 0
+0 0 31 1048576 0 96 1073742064 67633155
+#4858
+mnera acolyte~
+a Mnera acolyte~
+An acolyte of Mnera is here, looking somber and contemplative.
+~
+A tall figure dressed in gray robes. The acolytes of Mnera are everywhere 
+within the shrine. The only adornment they feature is a talisman about 
+their neck with the sigil of the deity engraved. 
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+49 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 16 0 0 1 1 0
+0 0 0 0 0 0 0 3
+#4859
+preacher oriva~
+Preacher Oriva~
+A gorgeous preacher stands at the altar here, flipping through a book of prayers.
+~
+A tall beauty with a heart-shaped face and dazzling green eyes. Her hair 
+is woven up and around a silver circlet that rests against her forehead. 
+She is garbed in a yellow and purple frock. 
+~
+0
+Clanname none~
+0
+0
+3 268435456 0 C
+52 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 31 3330 64 36 268435536 7
+#4860
+mnera pilgrim~
+a Mnera pilgrim~
+A pilgrim of Mnera is here, in a holy repose.
+~
+Garbed in commoner's clothes, he has made a long journey to visit the 
+shrine and pray to Mnera for a blessing. 
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 31 3072 0 0 48 3
+#4861
+scilara~
+Scilara, the fruit vendor~
+Scilara, the fruit vendor stands here, barkering about her wares.
+~
+A short, spritely woman in a homespun shift. She smells sweetly of apple 
+blossoms and citrus. 
+~
+0
+Clanname none~
+0
+0
+67108867 4194304 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog 'the spare axle'~
+if quest(fruitcart) == 1
+  mppause 2
+  mpechoat $n &cScilara shakes her head in annoyance.&D
+  mppause 3
+  mpechoat $n &C'I been wonderin' where that no good fool of a man was! I keep telling him to get a new cart, but he won't listen. Thing chews up axles like a cow chews cud, and every time I tell him-'&D
+  mppause 3
+  mpechoat $n &cYou kind of zone out as Scilara continues ranting about her good for nothing husband...&D
+  mppause 4
+  mpechoat $n &C'-well I guess there's nothing I can do about it, here take the dang'd axle, it's heavy though so mind yourself!'&D
+  mpoload 4881
+  give axle $n
+  drop axle
+  mpquest $n fruitcart 2
+endif
+~
+|
+#4862
+Adarist~
+Adarist, the fruit vendor~
+Adarist, the fruit vendor, stands here looking worried and frustrated.
+~
+He is a tall, heavyset man, dressed in homespun clothing from the farm 
+where his orchards and fruit bushes grow. 
+~
+0
+Clanname none~
+0
+0
+2097155 4194304 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 31 0 0 0 0 3
+> greet_prog 100~
+if quest(fruitcart) == 0
+  mpechoat $n &C'Hey there, hey! Can you help me? I'm in dire need, just &WSAY YES&C, please!', says Adarist.&D
+endif
+~
+> speech_prog yes~
+if quest(fruitcart) < 1
+  mpechoat $n &C'Oh thank Mnera! My cart has broken down, and I need a new axle. I keep a spare one at the fruit stand near the shrine, ask my wife, Scilara to give you the spare axle, so I can get this lunk repaired,' says Adarist.&D
+  mppause 2
+  mpquest $n fruitcart 1
+endif
+~
+> act_prog p gives you a cart axle.~
+if quest(fruitcart) == 2
+  mppause 2
+  mpechoat $n &C'Hooray! Thank you so much $n! I couldn't very well leave my cart abandoned here with all this delicious fruit, lest I want raiders to get a hold of it. Have this as a token of my esteem.' says Adarist.&D
+  give 1 gold $n
+  mppause 2
+  mpechoat $n &C'Hmmm...' Adarist thinks aloud.&D
+  mppause 3
+  mpechoat $n &cAdarist looks around confused. Checks his cart and the ground around it.&D
+  mppause 3
+  mpechoat $n &C'I seem to have misplaced my wrench, dear me. Could you possibly find one for me? Perhaps the shrine has one!', says Adarist.&D
+  mppurge axle
+  mpquest $n fruitcart 3
+endif
+~
+> act_prog p gives you an iron wrench.~
+if quest(fruitcart) == 4
+  mppause 2
+  mpechoat $n &C'Great job $n! I'll have this cart fixed in a jiffy. You deserve a reward! Reward... hmm reward...'&D
+  mppause 3
+  mpechoat $n &cAdarist digs around in his fruit cart, pushing some baskets aside and opening a trick hatch in the floor of the bed.&D
+  mppause 3
+  mpechoat $n &C'When I was journeying around Mount Minova, I found a strange orchard with frozen trees that still bore fruit. They're called balerian apples, try them out for yourself, you'll get quite a kick!" Adarist says, chuckling heartily.'&D
+  mppurge wrench
+  mpoload 4884
+  mpoload 4884
+  mpoload 4884
+  mpoload 4884
+  mpoload 4884
+  mpoload 4885
+  put all basket
+  give basket $n
+  drop basket
+  mppause 2
+  mpechoat $n &cAdarist hands you an apple basket loaded with balerian apples!&D
+  mpquest $n fruitcart 5
+endif
+~
+|
+#4863
+small boy Aurane~
+small boy Aurane~
+A small boy is on his hands and knees here, searching for... something.
+~
+A spritely boy dressed in colorful clothing. He has a blonde mop top hair 
+cut and shining green eyes. He looks quite precocious... 
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 3
+> greet_prog 80~
+mppause 2
+if quest(frogfind) == 0
+  mpechoat $n &C'Hey there! Can you help me find my missing frog? Please &WSAY YES&C, I miss him so much!'&D
+  mppause 2
+  mpechoat $n &cAurane sniffs and sobs a little.&D
+endif
+~
+> speech_prog yes~
+if quest(frogfind) == 0
+  mppause 2
+  mpechoat $n &C'Thank you thank you thank you!' says Aurane.&D
+  mppause 3
+  mpechoat $n &C'I'll keep looking around here, you go south to the area with the &WPOND&C and call out for &WFranklin&C', says Aurane.&D
+  mppause 3
+  mpechoat $n &C'If you say his name enough, he ought to come hopping along if he's there!' says Aurane.&D
+  mpquest $n frogfind 1
+endif
+~
+> act_prog p gives you Franklin the frog.~
+if quest(frogfind) == 2
+  mpechoat $n &cAurane's eyes light up as you hand him back his frog.&D
+  mppause 2
+  mpechoat $n &C'Franklin!!! Don't you ever run away again!', the boy exclaims as he hugs the frog tight.&D
+  mppause 3
+  mpechoat $n &C'I don't have much money, but thanks for helping me all the same, take this sword hilt. Maybe you can find the blade somewhere and put them back together!'&D
+  mppause 2
+  mpechoat $n &CAurane thinks... 'I think I saw one of the shrine acolytes carrying it to a rubbish bin somewhere in the shrine...'&D
+  mpoload 4887
+  give hilt $n
+  drop hilt
+  mppurge franklin
+  mpquest $n frogfind 3
+endif
+~
+|
+#4899
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4851
+iron bench~
+an iron bench~
+A cast iron bench sits upon the white stone path here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+60 0 0
+1
+0
+S 0 0
+E
+iron bench~
+A bench crafted of cast iron. The seating bars are smoothed nicely and 
+built close together, making it quite comfortable looking. Ornate spiral 
+work adorns the sides and back. 
+~
+#4852
+fountain maiden mnera~
+fountain~
+A large, marble fountain sits upon the ground here. Water rushes through its strange workings and spills into a bowl.~
+You cup your hands together and drink deep the cool waters from the maiden fountain.~
+25 64 0
+1000 50 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+fountain~
+A masterfully crafted marble fountain. It is of a water maiden, a virtuous 
+entity that visits lost travelers in their most dire moments, and gifts 
+them with a strange water that reinvigorates their spirits and hastens 
+their journey. The water flows endlessly through some trick of engineering 
+or magic. 
+~
+> use_prog 5~
+mpecho As you draw your hands through the water to take a drink, a small gem clatters to the ground.
+mpoload 4853
+drop ruby
+~
+|
+#4853
+glittering gem ruby~
+a glittering &rruby&D~
+A glittering gem stone lays on the ground here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 15 1
+1
+0
+S 0 0
+E
+glittering ruby~
+A bright sparkling gem that fell out of a fountain. Any flaws it may have 
+had have been erased by water. 
+~
+#4854
+map parchment shrine mnera~
+a map of the shrine~
+A strange, rolled up parchment has been dropped on the ground here.~
+~
+45 0 1
+0 0 0 0 0 0 0
+1 1 40
+1
+0
+S 0 0
+E
+map shrine mnera~
+&w######################################
+#                #                   #
+#                                    #
+#             #  #  #                #
+#         &rS&w             &rS&w            #
+#          #  #  #  #  #             #
+#                                    #
+#             #  #  #                #
+#                                    #
+#          #  #  #  #  #             #
+#                                    #
+#                #                   #
+#                #                   #
+#              ##                    #
+#                                    #
+#              ##                    #
+#                                    #
+#              ## ##                 #
+#                                    #
+#                 ##                 #
+#                                    #
+#                 ##                 #
+#                                    #
+######&w-*-&cThe Shrine Of Mnera&w-*-&w#######&D
+~
+#4855
+braided leather bracer~
+a braided leather bracer~
+A braided leather bracer lay on the ground here.~
+~
+9 64 4097
+40 40 0 0 0 0 0
+2 115 1
+2
+0
+S 0 0
+E
+braided leather bracer~
+A bracer woven tightly together from dyed green leather. It fits snugly on 
+the wrist, held tight by tie strings. 
+~
+A
+18 5
+A
+19 5
+A
+26 4
+#4856
+moon door sign~
+the sign~
+A metal sign on a wooden post stands before the array of pedestal displays.~
+~
+35 1 0
+0 0 0 0 0 0 0
+5000 0 0
+1
+0
+S 0 0
+E
+metal sign moon~
+#######################################
+#                                     #
+#       &cPieces of The Original&w        #
+#                                     # 
+#    &cShrine of Mnera. Destroyed by&w    #
+#                                     #
+#        &cby magical assault.&w          #
+#                                     #
+#######################################
+~
+#4857
+mystic lantern~
+a &cmystic&D lantern~
+A strange looking lantern has been abandoned on the ground here.~
+~
+1 321 1
+0 0 -1 0 0 0 0
+3 379 2
+4
+0
+S 0 0
+E
+4857 mystic lantern~
+This lantern has a black wrought-iron frame and holds a strange floating flame instead of a candle. The frame looks thin and fragile, ornately curved, but the iron is suspiciously strong. The top of the lantern is pyramidal, with the four corners curving up into sharp points. Inside the clear glass, an azure flame flickers like a ghost itself, casting a white-blue light on its surroundings.
+~
+E
+4857 mystic lantern~
+This lantern has a black wrought-iron frame and holds a strange floating flame instead of a candle. The frame looks thin and fragile, ornately curved, but the iron is suspiciously strong. The top of the lantern is pyramidal, with the four corners curving up into sharp points. Behind the transparent parchment, an azure flame flickers like a ghost itself, casting a white-blue light on its surroundings.
+~
+A
+3 3
+A
+4 2
+A
+12 62
+#4858
+altar of mnera shrine~
+the altar of mnera~
+The altar of Mnera sits atop a marble dais.~
+~
+12 257 0
+0 0 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+altar mnera~
+The Altar of Mnera sits upon a marble dais. Sculpted from a strange piece 
+of white rock, it appears to be a roughly hewn mass of glowing stone. 
+There is a yellow and violet cloth runner covering a large portion of the 
+top. Votive candles are lit at each corner, glowing in various colors. A 
+strange warmth flows from the cracks and fissures of the altar stone. 
+~
+#4859
+statue pointing north~
+a statue pointing north~
+A statue of Mnera stands here. &wShe is pointing toward the north&D.~
+You use all your strength to push and turn the statue around until it is now pointing east.~
+39 1 1
+0 0 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+statue pointing north~
+The floor under this statue looks scuffed and scratched, as if it has been 
+moved, pushed, and turned subtly several times. 
+~
+> push_prog 100~
+if quest(shrinetreasure) == 5
+mpechoat $n With great effort, you push and turn the statue until it is now facing the east.
+mppurge north
+mpoload 4860
+drop statue
+else
+mpechoat $n You can't seem to figure out how to push or manipulate the statue...
+mppurge north
+mpoload 4859
+drop statue
+endif
+~
+|
+#4860
+statue pointing east~
+a statue of mnera pointing east~
+A statue of Mnera is here. &wIt is pointing to the east.&D~
+~
+39 1 1
+0 0 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+statue east pointing~
+There are strange grooves and scratch marks on the floor beneath it, as if 
+it has scraped the ground many a time whilst being moved slightly. 
+~
+> push_prog 100~
+if quest(shrinetreasure) == 5
+mpechoat $n With great effort, you push and turn the statue until it is now facing the southeast.
+mppurge statue
+mpoload 4861
+drop statue
+if inroom($i) == 4872
+mpechoat $n You hear a soft clicking sound as the statue slides into place...
+endif
+if objinworld(4862) == 1
+mpechoat $n A rumbling noise issues from the center of the shrine...
+mpopenpassage 4869 4886 5
+mpat 4874 mppurge statue
+mppurge statue
+mpechoat $n Its purpose now served, the statue spirals down and vanishes beneath the floor
+mpechoat $n The way to the crypt is now open!
+mpquest $n shrinetreasure 6
+endif
+else
+mpechoat $n You can't seem to figure out the trick to pushing the statue...
+endif
+~
+|
+#4861
+statue pointing southeast~
+statue of Mnera pointing southeast~
+A statue of Mnera stands here. &wIt is pointing to the southeast.&D~
+~
+39 1 1
+0 0 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+statue pointing southeast~
+The floor under the statue is scuffed and scratched, as if it has been 
+moved, pushed, and turned many times. 
+~
+> push_prog 100~
+if quest(shrinetreasure) < 7
+mpechoat $n With great effort, you push and turn the statue until it is now facing the southwest.
+mppurge statue
+mpoload 4862
+drop statue
+if inroom($i) == 4874
+mpechoat $n You hear a soft clicking sound as the statue slides into place...
+endif
+if objinworld(4861) == 1
+mpechoat $n A rumbling noise issues from the center of the shrine...
+mpopenpassage 4869 4886 5
+mpat 4872 mppurge statue
+mppurge statue
+mpechoat $n Its purpose now served, the statue spirals down and vanishes beneath the floor
+mpechoat $n The way to the crypt is now open!
+mpquest $n shrinetreasure 6
+endif
+else
+mpechoat $n You can't seem to figure out the trick to pushing the statue...
+endif
+~
+|
+#4862
+statue pointing southwest~
+statue of Mnera pointing southwest~
+A statue of Mnera stands here. &wIt is pointing to the southwest.&D~
+~
+39 1 0
+0 0 0 0 0 0 0
+500 0 0
+1
+0
+S 0 0
+E
+statue pointing southwest~
+The floor around the statue is scuffed and scratched, as if it has been 
+moved, slid, and pushed several times. 
+~
+> push_prog 100~
+mpechoat $n With great effort, you push and turn the statue until it is now facing the north.
+mppurge statue
+mpoload 4859
+drop statue
+~
+|
+#4863
+shrine mnera blueprints~
+shrine of Mnera blueprints~
+A rolled up parchment of designs and blueprints has been discarded on the floor here.~
+~
+45 0 1
+0 0 0 0 0 0 0
+2 0 0
+1
+0
+S 0 0
+E
+map~
+These are blueprints and design documents used when creating the shrine. 
+You can't make heads or tails of these, but someone else might be able 
+to... 
+~
+> get_prog 100~
+if quest(shrinetreasure) == 3
+mppause 2
+mpechoat $n Sarador might be interested in seeing these...
+mpquest $n shrinetreasure 4
+endif
+~
+|
+#4864
+steel lockbox~
+a steel lockbox~
+A steel lockbox sits atop one of the desk shelves here.~
+~
+15 0 1
+1000 15 4865 10 0 0 0
+300 0 0
+1
+0
+S 0 0
+E
+steel lockbox~
+An ancient looking steel lockbox, sturdy and strong. It appears dented and 
+scorched in a few areas, an antique that has seen better days. 
+~
+#4865
+steel key~
+a steel key~
+A steel key on a short chain has been dropped on the ground here.~
+~
+18 0 16385
+4864 0 0 0 0 0 0
+2 10 1
+1
+0
+S 0 0
+E
+steel key~
+A tiny steel key with a chain attached to the end. Looks fairly precious. 
+~
+#4866
+gold chamber key~
+a gold chamber key~
+A gold key has been dropped on the ground here.~
+~
+18 1 16385
+0 0 0 0 0 0 0
+3 15 1
+1
+0
+S 0 0
+E
+gold chamber key~
+An oblong key, it has the initials KR inscribed on the handle. Someone 
+must be annoyed at having lost this... 
+~
+#4867
+eye of mnera~
+the eye of Mnera~
+Someone dropped a very valuable treasure here. It looks like an eye.~
+0~
+8 67 16385
+0 0 0 0 0 0 0
+2 50 5
+1
+0
+S 0 0
+E
+eye of mnera~
+A glassy orb made of ethereal materials. It looks almost like an eye with 
+a violent purple storm raging across the iris. A magical aura radiates 
+from the center. 
+~
+> get_prog 100~
+if quest(shrinetreasure) == 6
+  mppause 2
+  mpechoat $n &cThis must be the treasure of the shrine of Mnera!&D
+  mpechoat $n &cReturn it to Sarador to claim your reward!&D
+  mpquest $n shrinetreasure 7
+  mppause 3
+endif
+if inroom($i) == 4886
+  mpechoat $n &cYou begin to wonder how you will escape the sealed crypt 
+  mpechoat $n &cwhen the eye of Mnera grows warm...&D
+  mppause 7
+  mpechoat $n &CWhirling tendrils of smoke wreath your body, as a warm 
+  mpechoat $n &Cvoice seeps into your ear, "Thank you for rescuing me,
+  mpechoat $n &C$n.race"&D
+  mppause 5
+  mpechoat $n &cA blinding flash issues from the eye, as your vision clears, 
+  mpechoat $n &cyou look around and discover that you're somewhere else entirely...&D
+  mptransfer $n 4853
+endif
+~
+|
+#4868
+karlelo's dagger~
+Karlelo's dagger~
+A long, pearl handled dagger lays foolishly discarded on the floor here.~
+~
+5 67 8193
+10 25 50 6 2 0 100
+4 101 9
+2
+0
+S 0 0
+E
+karlelo karlelo's dagger~
+The dagger of a master thief named Karlelo. It is a pearl handled 
+thrusting dagger, with a wide hilt for cross blocking. There are simple 
+leather inserts with rivets on the grips for quick shifting in combat. The 
+blade is notched in a few places, it has seen a fair number of battles in 
+its master's hands. 
+~
+A
+19 5
+A
+18 5
+A
+13 75
+A
+26 32768
+#4869
+acolyte vestments~
+Acolyte's Vestments~
+Some purple and yellow garments have been dropped on the ground here.~
+~
+9 320 9
+40 40 0 0 0 0 0
+1 128 5
+2
+12
+S 0 0
+E
+acolyte's vestments~
+These clothes bear the mark of Mnera, as well as the colors themselves. 
+They appear to belong to an acolyte of the shrine. 
+~
+A
+3 3
+A
+4 2
+A
+12 55
+#4870
+mnera prayer book~
+Mnera Prayer Book~
+A tattered, worn book has been discarded on the ground here.~
+~
+9 321 16385
+40 40 0 0 0 0 0
+5 116 3
+2
+12
+S 0 0
+E
+mnera prayer book~
+A gold book with purple trim. It looks to have been thumbed through many a 
+time. Although full of rich illustrations at several points, the text is 
+nearly indecipherable. 
+~
+A
+12 25
+A
+17 -50
+#4871
+steel anklet~
+a steel anklet~
+A polished steel anklet has been dropped on the ground here.~
+~
+9 257 2097153
+40 40 0 0 0 53 0
+2 15 1
+1
+13
+S 0 0
+E
+steel anklet~
+A shiny steel anklet, woven together from twine thin pieces of material. 
+It has a silver clasp to hold it tightly in place. 
+~
+A
+19 5
+A
+13 75
+A
+1 2
+#4872
+platinum hoop earring~
+a pair of platinum hoop earrings~
+A pair of platinum hoop earrings lay discarded on the floor here.~
+~
+9 257&128 65537
+40 40 0 0 0 51 0
+1 22 2
+1
+13
+S 0 0
+E
+platinum hoop earring~
+An expertly wrought earring made of platinum. A strange scrollwork is 
+etched into the metal. 
+~
+A
+13 75
+A
+2 2
+A
+1 2
+#4873
+ruby signet ring~
+a ruby signet ring~
+Someone has discarded a fancy looking ruby ring here.~
+~
+9 0 3
+40 40 0 0 0 0 0
+1 25 2
+1
+3
+S 0 0
+E
+ruby signet ring~
+A steel ring with a large ruby mounted inside of it. It has the initials 
+'RK' engraved on the inside. 
+~
+A
+12 75
+A
+3 3
+A
+4 2
+#4874
+yellow linen pants~
+a pair of yellow linen pants~
+A pair of yellow linen pants has been balled up on the ground here.~
+~
+9 0 33
+40 40 0 0 0 0 0
+6 0 0
+1
+14
+S 0 0
+E
+(null)~
+(null)~
+E
+yellow linen pants~
+These yellow linen pants are wholly unremarkable. 
+~
+A
+3 4
+A
+4 2
+A
+12 20
+#4875
+dyed purple leather belt~
+a dyed purple leather belt~
+A purple leather belt has been dropped on the ground here.~
+~
+9 0 2049
+40 40 0 0 0 0 0
+4 12 1
+1
+12
+S 0 0
+E
+purple leather belt~
+A leather belt made of thick strands expertly interwoven together into a 
+diamond pattern. There is a silver clasp colding it together at one end. 
+The leather has been dyed a deep purple. 
+~
+A
+18 4
+A
+19 4
+A
+1 2
+A
+13 20
+#4876
+silver circlet~
+a silver circlet~
+A strange looking silver hoop has been discarded on the ground here.~
+~
+9 0 17
+40 40 0 0 0 0 0
+3 117 11
+2
+13
+S 0 0
+E
+silver circlet~
+Wrought of fine silver, it is very delicate and well-crafted. There are 
+some leaves made of silver adorning the front, where it would rest against 
+one's forehead. 
+~
+A
+31 3
+A
+1 3
+A
+13 15
+#4877
+apple~
+an apple~
+Someone dropped a fine looking apple here.~
+You bite into the delcious apple. The juice drips down your chin in little rivulets. You quickly devour the fruit within and toss the core.~
+19 0 1
+1 0 0 0 0 0 0
+1 14 1
+4
+3
+S 0 0
+E
+red apple~
+A juicy, delicious red apple. The skin is tight and the fruit firm. It's 
+almost the size of your fist! 
+~
+#4878
+bunch grapes~
+a bunch of grapes~
+Someone has discarded a heaping of juicy grapes here.~
+You carefully pluck each grape from the stem and pop them into your mouth. Delicious! When you're finished you slyly discard the stem.~
+19 0 1
+2 0 0 0 0 0 0
+3 28 2
+4
+12
+S 0 0
+E
+bunch grapes~
+A delicious looking bunch of grapes. Each is a good healthy size, none are 
+bruised or leaky. How appetizing! 
+~
+#4879
+banana~
+a banana~
+Someone dropped a deliciously ripened banana on the ground here.~
+You peel the banana methodically and make fast work of it. It's quite delicious and sweet!~
+19 0 1
+2 0 0 0 0 0 0
+2 19 1
+4
+14
+S 0 0
+E
+banana~
+Ripe, and fat, but firm. This sweet treat looks to be at the peak of its 
+life cycle. Best eat it fast! 
+~
+#4880
+broken fruit cart~
+A broken fruit cart~
+A fruit cart is broken down here.~
+~
+12 0 0
+0 0 0 0 0 0 0
+600 0 0
+1
+0
+S 0 0
+E
+broken fruit cart~
+The axle has busted on this cart. It is loaded for bear right now, but it 
+is moving nowhere fast. 
+~
+#4881
+fruit cart axle~
+a cart axle~
+A cart axle has been dropped on the ground here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+10 0 0
+1
+0
+S 0 0
+E
+cart axle~
+Heavy, damaged, and slicked with grease. You wonder if Adarist can even 
+use it... 
+~
+#4882
+battered toolbox~
+a battered toolbox~
+A battered toolbox lay on the floor here, someone was doing some repairs.~
+~
+15 0 0
+100 0 1734418536 12 0 12 0
+40 0 0
+1
+0
+S 0 0
+E
+battered toolbox~
+A battered toolbox made of scrap iron and wood. It has seen better days. 
+~
+#4883
+iron wrench~
+an iron wrench~
+An iron wrench has been discarded on the ground here.~
+~
+13 0 16385
+0 0 0 0 0 0 0
+2 2 0
+1
+13
+S 0 0
+E
+(null)~
+(null)~
+E
+iron wrench~
+A wrench made of wrought iron. It's slightly abused, but still seems to be 
+in fine working order. 
+~
+> get_prog 100~
+if quest(fruitcart) == 3
+mppause 2
+mpechoat $n Adarist should be able to make good use of this...
+mpquest $n fruitcart 4
+endif
+~
+|
+#4884
+balerian apple~
+a balerian apple~
+A balerian apple has been discarded on the ground here.~
+Your lips frost over as you bite into the apple. As you finish eating, a chill emanates from deep inside of you.~
+26 1 1
+50 -1 -1 -1 0 0 0
+1 20 2
+3
+3
+'iceshield' 'NONE' 'NONE'
+S 0 0
+E
+balerian apple~
+From the icy tundra of Mount Minova, where a strange bewitched orchard 
+grows, these apples have bizarre properties indeed. 
+~
+#4885
+apple basket~
+an apple basket~
+An apple basket has been discarded on the ground here.~
+~
+15 0 16385
+80 0 1953234957 12 0 10 0
+5 5 0
+1
+14
+S 0 0
+E
+apple basket~
+An apple basket woven of reeds and stalks of chaffa wheats. It appears to 
+be fairly sturdy. There is a small cloth tucked inside to prevent 
+bruising. 
+~
+#4886
+franklin frog~
+Franklin the frog~
+Franklin the frog sits here, lazily snapping at flies.~
+~
+13 0 1
+0 0 0 0 0 0 0
+3 0 0
+1
+9
+S 0 0
+E
+franklin frog~
+A fat, green frog with yellow spots. It looks well cared for and should 
+probably be returned to its owner. 
+~
+> get_prog 100~
+if quest(frogfind) == 1
+mppause 2
+mpechoat $n You've grabbed Franklin. Best return it to Aurane.
+mpquest $n frogfind 2
+endif
+~
+|
+#4887
+sword hilt~
+a sword hilt~
+A sword hilt lay discarded on the ground here.~
+~
+54 0 1
+0 4888 4889 0 0 0 0
+4 0 0
+1
+0
+S 0 0
+E
+sword hilt~
+A battered sword hilt. There must be a blade for it somewhere...
+~
+#4888
+silver sword blade~
+a silvery sword blade~
+A silvery sword blade has been discarded on the ground here.~
+~
+54 0 1
+0 4887 4889 0 0 0 0
+1 0 0
+1
+0
+S 0 0
+E
+silvery blade~
+A silvery sword blade with runes etched on its surface. It probably 
+connects to a sword hilt somewhere. 
+~
+#4889
+silver sword great bard~
+the silver sword of the Great Bard~
+The silver sword of The Great Bard has been casually discarded on the ground here.~
+~
+5 321 8193
+10 50 100 1 1 100 100
+10 100 10
+1
+13
+S 0 0
+E
+silver sword great bard~
+A magical artifact that belonged to The Great Bard. His name has been 
+forgotten to time, but he was known to resident at the shrine of Mnera 
+before it was destroyed. His sword was on display on the premises and was 
+subsequently annihilated in the magical assault. It has been reforged, 
+through strange cosmic chance. 
+~
+A
+19 5
+A
+18 5
+A
+13 70
+A
+1 1
+#4890
+rubbish bin~
+a rubbish bin~
+A rubbish bin stands against the wall here, for collecting garbage.~
+~
+15 0 0
+100 0 -1073789876 12 0 10 0
+30 0 0
+1
+0
+S 0 0
+E
+rubbish bin~
+A stoneware rubbish bin set against the wall. It has bits of random 
+detritus stuffed inside. 
+~
+#4899
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+S 0 0
+#0
+
+
+#ROOMS
+#4851
+A Beaten Path~
+~
+A path emerges from the tall grasses. It lazily winds its way to the 
+north. Beyond the ranks of spruce, in the hazy distance, a pale yellow, 
+metallic dome structure rises into the sky. The path is flanked on either 
+side by thick brush and tangles of brambles. Yellow flags with strange 
+sigils flap in the errant breezes. 
+~
+1 0 11
+D0
+~
+~
+0 -1 4852
+D11
+~
+~
+0 -1 60640
+S
+#4852
+Stone Pathway~
+~
+A tidy path has been made here from flat river stones. The prodigious 
+overgrowth has been beaten back and manicured into a stylish wildflower 
+garden. A small guide fence has been built on either side of the track. A 
+large burbling fountain briefly cuts the path in two. It continues on to 
+the north. Sounds of songbirds fill the air. 
+~
+1 0 2
+D0
+~
+~
+0 -1 4853
+D2
+~
+~
+0 -1 4851
+R O 0 4852 1 4852
+S
+#4853
+A Turn In The Path~
+~
+&CThe stone path makes a loping, westerly turn here, as chiseled white 
+blocks appear in the ground to create a more solid path than those of the 
+river rocks. It's easy to see why the path meanders here, an ancient tree 
+blocks the northern route. Its ashen branches are too numerous to count, 
+dappled with enormous leaves. Some have been devoured by insects and left 
+as tattered as ragged clothing. The stone path continues to the west. 
+~
+1 0 2
+D2
+~
+~
+0 -1 4852
+D3
+~
+~
+0 -1 4854
+R M 0 4862 1 4853
+R O 0 4880 1 4853
+S
+#4854
+Stone Pathway~
+~
+&cThe pathway broadens considerably here. The polished white blocks 
+tighten up until they create a perfectly smooth stone street heading to 
+and from the shrine in the distance. A few iron benches have been put here 
+as decoration. A small pond sits on the western side of the road. The 
+water is a sickly shade of green. 
+~
+1 0 2
+D0
+~
+~
+0 -1 4855
+D1
+~
+~
+0 -1 4853
+R O 0 4851 1 4854
+E
+pond~
+The pond water is murky and alive with many different creatures, both 
+small and not so small. Algae grows feverishly upon every stone surface, 
+weeds and milkroot float across the surface of the water. Clouds of 
+insects hover above the still pool, waiting for their chance to strike at 
+others, as fattened frogs feed upon both predator and prey. 
+~
+> speech_prog Franklin~
+if quest(frogfind) == 1
+mppause 2
+mpechoat $n You call out to Franklin over and over. Finally a burbling sound issues from the pond.
+mppause 2
+mpechoat $n A fat green fog hops over to you and lets out a big RIIIIIIIIIIIBBIT. It's Franklin!
+mppause 2
+mpechoat $n Better hurry up and grab him for Aurane!
+mpoload 4886
+drop frog
+endif
+~
+|
+S
+#4855
+Stone Pathway~
+~
+&cThe white blocks are arrayed in a mosaic. Reddish-brown blocks are 
+interspersed throughout the clean white ones to create a strange pattern. 
+It seems similar to the sigil that flutters on the brightly colored flags. 
+Strange statues flank both sides of this area. The stone path continues to 
+the north and south. 
+~
+1 0 2
+D0
+~
+~
+0 -1 4856
+D2
+~
+~
+0 -1 4854
+E
+mosaic~
+The mosaic looks as follows:
+^r  #     #   
+^r###  #  ### 
+^r# # ### # # 
+^r###  #  ### 
+~
+S
+#4856
+Stone Pathway~
+~
+The white stone pathway ends in a cul-de-sac. The trees have been cut away 
+and removed to create a lush green lawn ground toward the iron gates that 
+encircle the building up ahead. There is a granite archway on the 
+northeastern side of the pathway that leads into a reception area for 
+visitors of the shrine. The road out is back to the south. 
+~
+1 0 2
+D2
+~
+~
+0 -1 4855
+D6
+~
+~
+0 -1 4857
+S
+#4857
+Reception Atrium~
+~
+Between two granite arches on the road to the shrine of Mnera. The floor 
+here is made of cleanly cut cobbles with a sigil patterened in lighter 
+rocks. A trellis made of wood slats spans the arches, as delicate vined 
+plants and flowers hang from above, mixing in the air to create a sweet 
+fragrant odor. The shrine of Mnera is to the north. 
+~
+1 0 2
+D0
+~
+~
+0 -1 4858
+D9
+~
+~
+0 -1 4856
+R M 0 4851 1 4857
+S
+#4858
+The Shrine of Mnera~
+~
+&CThe stone pathway leads to a huge street made of rough hewn marble 
+slats, each as wide as a wagon and long as a boat. The work required to 
+set them must have been immense, the dedication complete. The Shrine of 
+Mnera, recently reconstructed after a dark siege, dominates the northern 
+sky. Bold stone spires reach up to grasp the clouds, situated around the 
+pale yellow dome of the main structure. Two sets of massive double doors 
+are set equidistant from the middle of the building, where a gorgeously 
+rendered mural of Mnera resides. 
+~
+1 0 1
+D0
+~
+~
+0 -1 4859
+D2
+~
+~
+0 -1 4857
+S
+#4859
+Before The Shrine of Mnera~
+~
+&c Standing amidst a small avenue that spans the length of the temple's 
+front entrance areas. The avenue runs east and west. The Mnera mural is 
+visible in great detail from this location. It almost seems to shimmer and 
+bloom in the available light. The road back out of the shrine lies to the 
+south. There are gilded lantern poles on either side of the stone path. 
+~
+1 0 1
+D1
+~
+~
+0 -1 4862
+D2
+~
+~
+0 -1 4858
+D3
+~
+~
+0 -1 4860
+R M 0 4863 1 4859
+E
+mural~
+The mural stands ten arm spans high, and twice again as wide. In bold 
+style on the bottom right, amongst the river reeds vividly painted in 
+greens and yellows, is the signature "Dalovan" . The goddess is depicted 
+in her elven maiden form, knee-deep in a swamp of water teeming with life. 
+Around her, the world blooms with a beautiful frenzy. 
+~
+S
+#4860
+Entrance To The Shrine~
+~
+Clean cut marbled steps lead up to a pair of massive stone doors set in 
+the northern face of the shrine building. Flanking it on either side are 
+two bronze sentinel statues. They bear no armor, weapon, or adornment, but 
+instead hold their arms out in a gesture of peace and love. The doors are 
+heavy, but seem to swing easily by some bit of magic. The shrine road runs 
+east to west. 
+~
+1 0 1
+D0
+~
+~
+3 -1 4864
+D1
+~
+~
+0 -1 4859
+D3
+~
+~
+0 -1 4861
+S
+#4861
+A Traveling Merchant's Cart~
+~
+A wise merchant has established his trade here on the western end of the 
+shrine road. Since being rebuilt, this holy ground has been a busy place 
+for pilgrimage and those seeking the wonder of the temple. The wagon is 
+firmly rutted in deep tracks, as if it hasn't been moved for several 
+weeks. A team of laborers refreshes the stock in the bins and shelves as 
+the merchant himself barters loudly. The shrine road is back east. 
+~
+1 0 2
+D1
+~
+~
+0 -1 4860
+R M 0 4852 1 4861
+  R G 0 4857 1
+  R G 0 4855 1
+  R G 0 4854 1
+S
+#4862
+Entrance To The Shrine~
+~
+&cThe eastern entrance to the shrine, dubbed the "moon doors" for the 
+strange decorations of the doors themselves, which sit flush against the 
+large temple walls. The doors are flanked on either side by giant trees 
+which have infused themselves into the rock walls, becoming a part of the 
+shrine itself. To the east is a small fruit stand. The shrine road 
+continues to the west, where the shrine doors lay. 
+~
+1 0 1
+D0
+~
+~
+3 -1 4866
+D1
+~
+~
+0 -1 4863
+D3
+~
+~
+0 -1 4859
+E
+moon doors~
+The stone doors have a deep scar embedded in the rock. A vicious magical 
+slash of lightning carved a crescent moon across both doors. The edges 
+were burnt and cracked by the arcane burst. 
+~
+S
+#4863
+A Fruit Vendor's Stall~
+~
+An enterprising local farmer dug himself in here at the shrine shortly 
+after it re-opened, and has turned his entire life around. His family 
+sells an array of fresh fruits and foods from their farmstead, while the 
+father carts back and forth with fresh sales. The stand is ramshackle and 
+utilitarian, but the abundance of produce looks deliciously inviting. The 
+shrine road is back west. 
+~
+1 0 2
+D3
+~
+~
+0 -1 4862
+R M 0 4861 1 4863
+  R G 0 4879 1
+  R G 0 4878 1
+  R G 0 4877 1
+S
+#4864
+Entrance Hall~
+~
+&cA lavish entry hall into the shrine of Mnera. There is a burnt orange 
+carpet running from the doorway to the east leading into the shrine's 
+antechamber. A series of tapestries on the far north walls display a 
+cryptic tale of ascension and betrayal. The Shrine antechamber is east. 
+South leads back out onto the road. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4865
+D2
+~
+~
+3 -1 4860
+E
+tapestry tapestries~
+In the first tapestry, a large scale battle is taking place in a dense 
+forest. The soldiers are all faceless, save for one high in the trees with 
+a longbow. In the second, a body is falling backwards, peppered with 
+magical injury and arrows. In the third, a skeletal form is bathed in a 
+sivlery light from a crescent moon. 
+~
+S
+#4865
+Shrine Antechamber~
+~
+This is the main chamber leading into the shrine of Mnera. It's a sparsely 
+decorated marble room with an enormous archway on the north wall that 
+looks into the main area of the shrine. Vast columns support the webwork 
+of stone beams that make up the roof and ceiling chambers. The shrine 
+proper is to the north, the entry ways flank either side of this small 
+chamber. There is a large round violet carpet on the floor here. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4869
+D1
+~
+~
+0 -1 4866
+D3
+~
+~
+0 -1 4864
+R M 0 4860 1 4865
+S
+#4866
+Entrance Hall~
+~
+The Moon Entrance, as it is called, for obvious reasons, features a much 
+different decor. Rich velvet pillows on black marble pedestals hold 
+strange pieces of rock under crystal glass. There is a dark violet carpet 
+running from the double doors into the antechamber to the west. The shrine 
+road is back to the south. 
+~
+1 0 0
+D2
+~
+~
+3 -1 4862
+D3
+~
+~
+0 -1 4865
+R M 0 4853 1 4866
+R O 0 4856 1 4866
+R D 0 4866 2 1
+S
+#4867
+Shrine Proper~
+~
+This area is enclosed with a short wooden wall with an entry point on the 
+north and east sides. There are large sitting pillows strewn about 
+haphazardly. A bronze statue sits in a small alcove on the southern wall. 
+Water flows through her hands and drips from her fingertips into a sweet, 
+fragrant bowl at her feet. This is said to be the main prayer, and 
+meditation area of the shrine. There is a large spiral staircase leading 
+up to the west. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4872
+D1
+~
+~
+0 -1 4869
+D3
+~
+~
+0 -1 4868
+R M 0 4860 4 4867
+R M 0 4860 4 4867
+S
+#4868
+A Spiral Staircase~
+~
+This area of the shrine is little more than alcove with a spiral staircase 
+leading up into the second floor of the building. The stairs themselves 
+are a rich black iron, expertly shaped into a perfect coil around a marble 
+pillar. The rail is scaled like the skin of a dragon with an ornamental 
+tail swirling down to touch the floor. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4867
+D4
+~
+~
+0 -1 4876
+S
+#4869
+Center Of The Shrine~
+~
+Beneath the pale yellow dome is a webwork of crafted glass, creating a 
+mosaic in the image of Mnera. Beyond the glass is a strange luminescent 
+source that makes it sparkle brilliantly from above. The dazzling colored 
+rays of light pierce into the shrine below and illuminate the solemn 
+marble columns and floors with a warm glow. The Altar of Mnera is to the 
+north. The exits of the shrine are back south. There are some annexes to 
+the west and east. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4873
+D1
+~
+~
+0 -1 4870
+D2
+~
+~
+0 -1 4865
+D3
+~
+~
+0 -1 4867
+R M 0 4860 2 4869
+> entry_prog 100~
+if quest(shrinetreasure) == 1
+mpechoat $n You wander around the center of the shrine, looking for clues as Sarador instructed.
+mpechoat $n The ground here seems strange, almost hollow. As you look closer, you realize that the floor in the center of the shrine is a sliding panel!
+mpechoat $n You should hurry back and tell him about the &csliding panel&D.
+mpquest $n shrinetreasure 2
+endif
+~
+|
+S
+#4870
+Shrine Proper~
+~
+The eastern area of the shrine is filled with large metal shelving arrayed 
+in ranks from north to south. The shelves are full of blossoms and plants. 
+Some followers bring the shrine a plant or blossom to represent the loss 
+of a loved one. Tended to by the expert hands of a Mnera monk, and in the 
+presence of the divine, they may last quite a long time indeed. There is 
+an alcove to the east with a staircase leading up. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4874
+D1
+~
+~
+0 -1 4871
+D3
+~
+~
+0 -1 4869
+R M 0 4860 5 4870
+S
+#4871
+A Spiral Staircase~
+~
+A darkened alcove on the eastern side of the shrine. A silvery white, 
+metallic staircase spirals its way up, wrapping tightly around a marble 
+pillar and disappearing into the ceiling. A preciously thin gold wire with 
+hand wrought leaves and blossoms is woven around the rail. The shrine is 
+to the west. 
+~
+1 0 0
+D3
+~
+~
+0 -1 4870
+D4
+~
+~
+0 -1 4885
+R O 0 4882 1 4871
+  R P 0 4883 1 4882
+S
+#4872
+Shrine Annex~
+~
+An elaborate candelabra rests against the north wall here. Flanking it on 
+either side are two statues of bronze children, holding their arms up 
+straight and far, reaching to light the candles with a stick match that 
+burns a ghostly blue. The entire work is gorgeously rendered. This area of 
+the shrine is dimly lit, lending a playful dance of light to the 
+children's faces. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4873
+D2
+~
+~
+0 -1 4867
+R O 0 4859 1 4872
+S
+#4873
+Approaching The Altar~
+~
+A small path forms in the middle of the shrine here, leading to the altar 
+in the northern alcove. The lush carpetry underfoot gives way to a vast 
+floor stone mosaic of a crescent moon in purple stone against white. 
+Marble steps lead up to the altar dais, with intricate candelabras on both 
+sides. The air is febrile with holy energy. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4875
+D1
+~
+~
+0 -1 4874
+D2
+~
+~
+0 -1 4869
+D3
+~
+~
+0 -1 4872
+S
+#4874
+Shrine Annex~
+~
+This area of the shrine is dark, save for a small candle resting on a 
+marble pillar in the middle of a circular bench that surrounds it. On the 
+far north side are two bronze figures locked in the throes of grief, one 
+attempting to comfort the other, who poses in despair. This is usually the 
+place for followers to mourn the passing of those souls which Mnera could 
+not see through their trials. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4870
+D3
+~
+~
+0 -1 4873
+R O 0 4859 1 4874
+S
+#4875
+The Altar of Mnera~
+~
+A calm feeling of tranquility whorls around this area of the shrine, like 
+a gentle storm wind of good will. The altar is positioned on a raised 
+marble dais beneath a south facing stained glass window with a gorgeous 
+depiction of Mnera, granting salvation and reprieve to an army of wounded 
+soldiers. The shrine proper is back to the south. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4873
+R M 0 4859 1 4875
+  R E 0 4876 1 6
+R O 0 4858 1 4875
+S
+#4876
+Shrine Corridor~
+~
+The staircase below melts into the wall seamlessly. This white tile 
+corridor with wooden beams interspered along the length is decidedly 
+handsome. There are some wooden benches against the walls, making it seem 
+as if it is a place of congregation for a few of the people who live in 
+the shrine. The hallway continues south, the staircase leads below into 
+the main area of the sacred building. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4877
+D5
+~
+~
+0 -1 4868
+S
+#4877
+Shrine Corridor~
+~
+The quiet shrine corridor is stopped short on the southern wall by a large 
+stone archway. Its edges are gilded and polished bright. There are 
+brightly burning sconces on either side. South leads into the grand hall. 
+North leads back to the staircase and the shrine proper. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4876
+D2
+~
+~
+0 -1 4878
+R M 0 4858 3 4877
+  R G 0 4875 1
+S
+#4878
+Grand Hall~
+~
+The Grand Hall of the shrine is mostly off limits to casual patrons and 
+pilgrims of Mnera. The shrine staff, and other devotees can bed down here, 
+or share a private conversation away from the hustle and bustle down 
+below. Lacquered wood slats run from one end to the other, and the stone 
+walls are pearly white. The grand hall continues to the east. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4877
+D1
+~
+~
+0 -1 4879
+R O 0 4890 1 4878
+S
+#4879
+Grand Hall~
+~
+Palm frond reliefs decorate either side of the grand hall. A bronze rail 
+runs the length of the entire hall, polished to a keen glow. Behind the 
+rail are tall brass poles with blooming sconces at their ends. Each has a 
+brightly burning silver flame at the end. The grand hall continues east 
+and west. Dark wood beams criss-cross above in the strangely pitched 
+ceiling. Dried azura tree vines are wrapped and lacquered around them, 
+creating an odd living beam look. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4880
+D3
+~
+~
+0 -1 4878
+S
+#4880
+Grand Hall~
+~
+&c The sprawling grand hall continues on here. A still life sits on the 
+northern wall, opposite a massive oak door on the south wall. A monk's 
+living quarters reside there. Only special ranking members of the shrine's 
+order are given leave to live within the shrine itself. It takes a 
+particularly adept devotee to attain this honor. The grand hall continues 
+east and west. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4881
+D2
+~
+door~
+3 -1 4887
+D3
+~
+~
+0 -1 4879
+E
+still life~
+It's a simple wooden chest with a strange iron bowl atop it. The bowl 
+contains fragrant rosewater with fresh petals spilled inside. A silver 
+goblet lay to its left, tipped over and forgotten by somebody long ago. 
+There is an ivory white candle in a dull copper holder at the corner of 
+the chest, all sitting atop a red silk cloth. 
+~
+S
+#4881
+Grand Hall~
+~
+&c The center of the grand hall. It branches off to the north, where set 
+within a stone alcove lay a spiral staircase leading up. In the middle of 
+the floor here is a circular mural done in painting and etched relief. 
+There is a small metallic guard rail surrounding it, so that hapless folks 
+do not sully the portraiture. The grand hall continues to the east and 
+west. The alcoved stairwell is to the north. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4888
+D1
+~
+~
+0 -1 4882
+D3
+~
+~
+0 -1 4880
+E
+mural~
+Mnera astride a white horse with a glinting silver mane. She is awash in 
+flowing violet silks. Her hand rests low as a destrier mounted knight 
+prepared to charge a rank with weapon at the ready, yet her small hand 
+clutches a branch of the vilota tree. The thorns dig deep into her palm 
+and a steady trickle of blood hangs suspended in the air as she rides on. 
+~
+S
+#4882
+Grand Hall~
+~
+Inside the grand hall of the shrine. It stretches on to the east and the 
+west in a particular splendor. The south wall of this area has a heavy 
+wooden door leading into an acolyte's private quarters. A brilliant vase 
+of pulian blossoms and fruscieta steams rests on a small wooden table 
+opposite the door. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4883
+D2
+~
+door~
+3 -1 4889
+D3
+~
+~
+0 -1 4881
+S
+#4883
+Grand Hall~
+~
+The grand hall of the shrine of Mnera. A glimmering white stone affair 
+with brightly polished wood floors. There are shiny brass runners on both 
+walls, as well as some benches and places to congregate. The hall 
+continues to the west, the stairwell back down into the shrine is to the 
+north. There are some cleaning implements scattered around the floor here. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4884
+D3
+~
+~
+0 -1 4882
+R O 0 4890 1 4883
+  R P 0 4888 1 4890
+S
+#4884
+Shrine Corridor~
+~
+The corridor ends abruptly here. The southern wall is cut away in a 
+bulbous, arched pattern, sawed into raw stone. Metal sconces have been 
+bolted in place. The flames dance on unseen winds, purple and yellow, 
+encased in crystal clear orbs. The Grand Hall is to the south. The 
+staircase back into the shrine is north. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4885
+D2
+~
+~
+0 -1 4883
+R M 0 4858 3 4884
+  R G 0 4874 1
+S
+#4885
+Shrine Corridor~
+~
+&CA small utilitarian corridor at the top of a metallic spiral staircase. 
+This is a quickly cobbled together access way to the Grand Hall. There are 
+some wooden benches up against the walls, for followers and counselors to 
+exchange a few words between their duties. The shrine is back down the 
+staircase, the corridor continues south. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4884
+D5
+~
+~
+0 -1 4871
+S
+#4886
+Secret Crypt~
+~
+A secret crypt beneath the shrine. When the body of the original Keeper 
+was discovered, mangled and partially destroyed, they built a grave of 
+honor for him beneath the new Shrine of Mnera. The room is simple, carved 
+into living limestone with little adornment, but the location is very 
+grandiose. There is a small alcove on the north wall where the body may 
+rest, were it to rest. There are strange potsherds and broken artifacts 
+about, pieces of detritus and other debris have been fused into the walls, 
+perhaps by the magical fireball that sundered the original shrine. There 
+is a small ladder leading back up into the temple. 
+~
+1 4 0
+R M 0 4855 1 4886
+  R G 0 4867 1
+> entry_prog 100~
+mpclosepassage 4869 5
+mpechoat $n As you descend the ladder into the secret crypt, the sliding panel locks back into place above you!
+mpechoat $n You're trapped!
+~
+|
+S
+#4887
+Thirten's Quarters~
+~
+These quarters belong to Brother Thirten, a high acolyte of the shrine of 
+Mnera. The room is minimally furnished. A small writing table is on the 
+western wall, meticulously loaded with paper, ink, and quills. The 
+upholstered stool looks to be on its last leg. A bed mat is on the 
+southern wall. There is a chest at the foot of the mat with an incense 
+burning cup. The grand hall is back to the north. 
+~
+1 0 0
+D0
+~
+door~
+3 -1 4880
+R M 0 4857 1 4887
+  R E 0 4872 1 19
+  R E 0 4871 1 24
+R D 0 4887 0 1
+S
+#4888
+Private Stairwell~
+~
+This stairway is sparsely lit. A cobbled stone affair built into the wall 
+itself to appear very non-descript and out of the way. The stone tiles are 
+chilled and slick in some places from condensation. There is a dark wood 
+rail wrapped around the inside wall leading up into the shrine museum. The 
+grand hall is to the south. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4881
+D4
+~
+~
+0 -1 4890
+S
+#4889
+Dalabreen's Quarters~
+~
+Acolyte Dalabreen's quarters are lavishly decorated. To the point that it 
+would seem some of the more subtle nuances of the vow to Mnera all 
+devotees take may have been lost somewhat on him. There is an exquisite 
+stuffed mattress on a raised wooden track against the south wall, with a 
+palm frond display overarcing it. An enormous writing desk dominates the 
+eastern wall with a comfortable looking stuffed chair tucked underneath. 
+He also has amassed a tidy book collection that sits organized within a 
+deprella wood case with intricate design elements. The grand hall is back 
+to the north. 
+~
+1 0 0
+D0
+~
+door~
+3 -1 4882
+R M 0 4856 1 4889
+  R E 0 4869 1 5
+  R E 0 4870 1 17
+R D 0 4889 0 1
+S
+#4890
+Private Stairwell~
+~
+The stairwell here is slick and treacherous. Phosphorescent mould has 
+spawned and thrived along the ceiling. It's quite obvious that this area 
+sees very little light, sun or otherwise. What's more, very little in the 
+way of cleaning. The stairwell runs up and down. 
+~
+1 0 0
+D4
+~
+~
+0 -1 4891
+D5
+~
+~
+0 -1 4888
+S
+#4891
+Private Stairwell~
+~
+&c The precarious stone stairwell lurches onward, and upward. There is a 
+small plaque bolted to the wall here. A magical sconce beneath it limns 
+the engraved letters in ghostly blue light. The treacherous stairway 
+continues up and down. A soft yellow light bleeds down from the top, where 
+a doorway lays. 
+~
+1 0 0
+D4
+~
+~
+0 -1 4892
+D5
+~
+~
+0 -1 4890
+E
+plaqu~
+~
+E
+delete plaq~
+~
+E
+plaque~
+#######################################
+#                                     #
+#                                     #
+#   Stairs and tower were part of     #
+#                                     #
+#   original shrine. Resurrected      #
+#                                     #
+#   and rebuilt via magical means.    #
+#                                     #
+#                                     #
+#######################################
+~
+S
+#4892
+Shrine Museum~
+~
+&c A small museum was crafted here, to honor the memory of the original 
+shrine, and all of the occupants who died in its vicious siege, as well as 
+the architect himself. There is a large tapestry on the western wall. A 
+gold trimmed, red carpet runs to the south. The stairwell down leads back 
+to the grand hall. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4893
+D5
+~
+~
+0 -1 4891
+E
+tapestry~
+A brilliantly painted portrait of a grim looking man. There is a nameplate 
+on the frame that says "Valanis Phellack", the original architect of the 
+first shrine. He stands in a vast field where construction has taken 
+place, clutching a satchel with rolled up design parchments stuffed 
+inside. His features are somewhat plain, as if in a hurry, he left the 
+painter to get on with his true business, finding no desire for historical 
+document. 
+~
+S
+#4893
+Shrine Museum~
+~
+&c A small corner of this makeshift musuem to shrine history. The gold 
+trimmed carpet makes a sharp turn and heads east. There are some benches 
+placed near a gigantic parchment that dominates the southern wall. Two 
+brightly burning candles bathe it in a soft glow from above, encased in 
+clear crystal orbs. The museum continues to the east, the staircase back 
+down is north. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4892
+D1
+~
+~
+0 -1 4894
+E
+parchment~
+Documented shortly after the catastrophe that annihilated the original 
+shrine, it is a list of the dead, the wounded, the missing, and the 
+otherwise gravely affected. Under all of their names is a quote from some 
+forgotten piece of shrine doctrine, it states, "'For every injustice, and 
+every sleight, for every crime and dark deed, beseech me, one and all, let 
+me open my hands and have ten thousand souls run in.'" 
+~
+S
+#4894
+Shrine Museum~
+~
+&c The immaculate gold trimmed carpet makes another severe turn and heads 
+north to the end of its journey. There is one last piece in this museum 
+and it rests on the eastern wall. A huge mural done in paint and pastels. 
+It easily takes up the entire wall from top to bottom. There is dark 
+stairwell to the north, leading up into yet more private areas of the 
+shrine. The stairs down are back to the west and north. 
+~
+1 0 0
+D0
+~
+~
+0 -1 4895
+D3
+~
+~
+0 -1 4893
+E
+mural~
+A staggeringly large depiction of the final moments of the shrine, created 
+from composite, from hundreds of eye witnesses and survivors, some of whom 
+relayed their tales with their final breaths. In the mural, a large 
+demonic figure looms above the mountains in the far background. Its arms 
+are lanced out, pike straight, as it directs the sorcerous fireball on its 
+fated path toward the shrine. The fireball is a mass of green and yellow 
+flames, with a strangely molten core. It is striking the western wall, 
+upon the moment of first impact, at a downward trajectory. In the moments 
+after this, most of the shrine will be obliterated, as well as all of its 
+occupants. 
+~
+S
+#4895
+Private Stairwell~
+~
+A cramped, carpeted stairwell leading even higher into the tower above the 
+shrine of Mnera. A bronze rail spirals tightly around the center column. 
+Wall sconces burn merrily, interspersed along the dark coil of stone. The 
+shrine museum is south, the stairwell goes up. 
+~
+1 0 0
+D2
+~
+~
+0 -1 4894
+D4
+~
+~
+0 -1 4896
+S
+#4896
+Private Stairwell~
+~
+The stairwell runs aground in a small stone foyer. There are two large 
+torches flanking either side. The floor here is carpeted with plush violet 
+rushes with gold fringed trim. The ceiling above is convex. An intricately 
+crafted holy symbol has been etched into it and dyed with blue inks. To 
+the east lay a dark alcove, the stairwell leads down into the shrine 
+museum. A chilly draft caresses the walls and stone steps. 
+~
+1 0 0
+D1
+~
+~
+0 -1 4897
+D5
+~
+~
+0 -1 4895
+S
+#4897
+Gloomy Alcove~
+~
+A deep indent of stone and wood into the tower walls. There is a polished 
+bronze track bordering it on all sides, as well as an ornamented tree 
+bough hung above a large, sturdy oak door. This area belongs to the 
+shrine's keeper, Rastaba. He has worked dilligently to restore this place 
+to its former glory in the world since the destruction occured. His 
+quarters are to the east. The stairwell back down into the museum is west. 
+~
+1 0 0
+D1
+~
+door~
+3 -1 4898
+D3
+~
+~
+0 -1 4896
+R M 0 4858 1 4897
+R D 0 4897 1 1
+S
+#4898
+Keeper Rastaba's Quarters~
+~
+A spacious living space atop the restored shrine tower. The walls are 
+covered in thick tapestries to keep the ever-present chill from tunneling 
+in. There is also a large fireplace, currently unlit. A huge round table 
+lay in the middle of the room, with chairs all around. It would seem as if 
+Keeper Rastaba likes to hold meetings here. A comfortable looking straw 
+stuffed bed resides on the west side of the room, with a driftwood chest 
+at its foot. The largest piece of furniture, however, is the massive book 
+shelf, containing many tomes and parchments written about Mnera, the 
+shrine, and the order in general. There is a small door on the eastern 
+wall, leading into a smaller chamber. The stairwell is back to the west. 
+~
+1 0 0
+D1
+~
+door~
+7 4866 4899
+D3
+~
+door~
+3 -1 4897
+R M 0 4854 1 4898
+  R E 0 4873 1 1
+  R G 0 4865 1
+  R G 0 4866 1
+R D 0 4898 1 2
+R D 0 4898 3 1
+S
+#4899
+Keeper Rastaba's Private Chambers~
+~
+A small chamber barred by a wooden door. Rastaba uses this area as an out 
+of the way office from his regular quarters. There is a writing desk 
+against the eastern wall with many drawers and compartments. It is loaded 
+with papers and quills. A small bookshelf is on the north wall, containing 
+ledgers and historical documents of domestic, and financial issues. 
+Rastaba's main quarters are to the west. 
+~
+1 0 1
+D3
+~
+door~
+7 4866 4898
+R O 0 4864 1 4899
+  R P 0 4863 1 4864
+R D 0 4899 3 2
+S
+#0
+
+
+#SHOPS
+ 4852    9  1  0  0  0   120  60         0 23    ; Adeljora, the traveling merchant
+ 4861    0  0  0  0  0   120  90         0 23    ; Scilara, the fruit vendor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4854 spec_cast_cleric
+M  4856 spec_cast_mage
+M  4859 spec_cast_cleric
+S
+
+
+#$

@@ -1,0 +1,105 @@
+Name           Bard~
+Filename       Bard~
+Class          17
+Starting       1
+AttrPrime      2
+AttrSecond     5
+AttrDeficient  31
+Races          253952
+Nocombo        0
+Reclass        0 0 0
+Skilladept     90
+Thac0          15
+Thac32         4
+Hpmin          70
+Hpmax          85
+ManaMin        4
+ManaMax        10
+MoveMin        50
+MoveMax        80
+Expbase        1500
+Craftbase        0
+Resist         0
+Suscept        0
+Skill 'aid' 1 95
+Skill 'behead' 1 95
+Skill 'brass' 1 95
+Skill 'climb' 1 95
+Skill 'combo' 9 95
+Skill 'cook' 1 95
+Skill 'critic' 50 95
+Skill 'disguise' 12 95
+Skill 'dodge' 2 95
+Skill 'drums' 1 95
+Skill 'dual wield' 17 95
+Skill 'dye' 1 95
+Skill 'fifth attack' 48 95
+Skill 'flint fire' 1 95
+Skill 'fourth attack' 35 95
+Skill 'hide' 1 85
+Skill 'juggle' 32 95
+Skill 'kick' 10 85
+Skill 'lore' 13 30
+Skill 'morris dance' 67 95
+Skill 'mount' 1 85
+Skill 'parry' 3 85
+Skill 'peek' 9 95
+Skill 'pick lock' 6 95
+Skill 'play' 11 95
+Skill 'punch' 1 95
+Skill 'restring' 1 95
+Skill 'scan' 1 95
+Skill 'second attack' 10 95
+Skill 'seventh attack' 80 95
+Skill 'sharpen' 1 95
+Skill 'sixth attack' 65 95
+Skill 'slice' 1 95
+Skill 'smuggle' 62 95
+Skill 'sneak' 3 85
+Skill 'steal' 8 95
+Skill 'story' 34 95
+Skill 'strings' 1 95
+Skill 'swim' 1 95
+Skill 'talkup' 37 95
+Skill 'third attack' 25 95
+Skill 'track' 14 95
+Skill 'tumble' 15 95
+Skill 'valtors song' 59 95
+Skill 'vocals' 1 95
+Skill 'woodwinds' 1 95
+Skill '1h bludgeons' 1 95
+Skill '1h long blades' 1 95
+Skill '1h short blades' 1 95
+Skill 'archery' 1 95
+Skill 'flails' 1 95
+Skill 'polearms' 1 95
+Skill 'pugilism' 1 95
+Skill 'spears' 1 95
+Skill 'staves' 1 95
+Skill 'whips' 1 95
+Skill 'celestial' 1 99
+Skill 'centaurian' 1 95
+Skill 'common' 1 99
+Skill 'demonic' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblic' 1 99
+Skill 'hobbit' 1 99
+Skill 'infernal' 1 99
+Skill 'ogrian' 1 99
+Skill 'orcish' 1 99
+Skill 'pixish' 1 99
+Skill 'silent' 1 95
+Skill 'trollese' 1 95
+Skill 'druidic hymn' 18 95
+Skill 'evac crescendo' 11 95
+Skill 'harmonic melody' 29 95
+Skill 'ottos dance' 40 95
+Skill 'rousing tune' 5 95
+Skill 'shrieking note' 23 95
+Skill 'sound waves' 92 95
+Skill 'stirring ballad' 53 95
+Skill 'thunderous hymn' 85 95
+Skill 'unholy melody' 75 95
+End

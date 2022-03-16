@@ -1,0 +1,197 @@
+#VNUM 54029
+#OBJECT
+Name         gilded wrought iron weapons rack~
+ShortDescr   a gilded wrought-iron weapons rack~
+Description  A a gilded wrought-iron weapons rack has been left here along the ground.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Name         small dagger ornate~
+ShortDescr   a small ornate dagger with a silver wrapped hilt~
+Description  A a small ornate dagger with a silver wrapped hilt has been left here along the ground.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        30
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       22 21 48 2 2 30 600
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 8 13 0
+AffectData   'acid breath' -1 11 14 0
+ExtraDescr   tanto-blade~ &CThis crafted item bears the seal of Kimel, the master blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         steel shafted mace~
+ShortDescr   a steel-shafted tri-flanged mace~
+Description  A a steel-shafted tri-flanged mace has been left here along the ground.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        30
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       22 19 46 4 5 30 600
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 -2 13 0
+AffectData   'acid breath' -1 6 14 0
+ExtraDescr   mace~ &CThis crafted item bears the seal of Kimel, the master blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         slim rapier~
+ShortDescr   a slim, silver inlaid rapier~
+Description  A a slim, silver inlaid rapier has been left here along the ground.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        30
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       22 21 48 1 1 30 600
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 9 18 0
+AffectData   'acid breath' -1 9 19 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 6 14 0
+ExtraDescr   katana-sword~ &CThis crafted item bears the seal of Kimel, the master blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16232
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         29121
+ExtraFlags   0
+Level        1
+Cost         0
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        9
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         29112
+Level        10
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         pick-axe~
+ShortDescr   a pick-axe, legendary milled from brown hickory lumber~
+Description  Here lies a pick-axe, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    16385
+ItemType     73
+Weight       8
+Level        25
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       10 10 30 6 6 30 0
+ExtraDescr   pick-axe~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         11300
+Level        2
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 2 0
+End
+
+#OBJECT
+Name         large ornately carved dresser~
+ShortDescr   a large ornately carved dresser~
+Description  A a large ornately carved dresser has been left here along the ground.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 0
+ExtraDescr   chest~ &CThis crafted item bears the seal of Weibble, the master carpenter.
+~
+End
+
+#END

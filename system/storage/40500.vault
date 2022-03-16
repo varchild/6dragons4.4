@@ -1,0 +1,1613 @@
+#VNUM 40500
+#OBJECT
+Name         leather-backpack~
+ShortDescr   a pink leather backpack, finely tanned from deer~
+Description  Here lies a leather backpack, finely tanned from deer.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Weight       2
+Level        35
+Cost         20
+Currtype     2
+Color        10
+Size   0
+Values       800 1 0 12 0 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-backpack~ &CThis tanned item bears the seal of Sectis, the expert tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16713
+Level        53
+Currtype     4
+Color        5
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26008
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26006
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1955
+Level        20
+Currtype     3
+Color        3
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1954
+Level        20
+Currtype     3
+Color        3
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1958
+Level        20
+Currtype     3
+Color        3
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Name         plated-gauntlets~
+ShortDescr   a yellow plated-gauntlets, finely forged from silvery-gray steel ore~
+Description  Here lies a plated-gauntlets, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    129
+ItemType     9
+Weight       2
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       38 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   plated-gauntlets~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fullplate-suit~
+ShortDescr   a yellow fullplate-suit, finely forged from silvery-gray steel ore~
+Description  Here lies a fullplate-suit, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       39 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   fullplate-suit~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         fullplate-helmet~
+ShortDescr   a yellow fullplate-helmet, finely forged from silvery-gray steel ore~
+Description  Here lies a fullplate-helmet, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    17
+ItemType     9
+Weight       8
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       37 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fullplate-helmet~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         scale-wrist~
+ShortDescr   a yellow scale-wrist, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-wrist, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       3
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       37 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 0 17 0
+ExtraDescr   scale-wrist~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         scale-wrist~
+ShortDescr   a yellow scale-wrist, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-wrist, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    4097
+ItemType     9
+Weight       3
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       38 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 5 17 0
+ExtraDescr   scale-wrist~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         back-scale~
+ShortDescr   a yellow back-scale, finely forged from silvery-gray steel ore~
+Description  Here lies a back-scale, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    524289
+ItemType     9
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       37 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   back-scale~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   3
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         scale-armlets~
+ShortDescr   a yellow yellow yellow scale-armlets, finely forged from silvery-gray steel ore~
+Description  Here lies a scale-armlets, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    257
+ItemType     9
+Weight       8
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       39 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   scale-armlets~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16700
+Level        40
+Currtype     2
+Color        5
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         1959
+Level        20
+Currtype     3
+Color        3
+Size   0
+Values       17 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Name         ear-stud~
+ShortDescr   a yellow ear-stud, finely forged from silvery-gray steel ore~
+Description  Here lies a ear-stud, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    65537
+ItemType     9
+Weight       2
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       36 41 15 300 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ear-stud~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Name         mask~
+ShortDescr   a yellow mask, finely forged from silvery-gray steel ore~
+Description  Here lies a mask, finely forged from silvery-gray steel ore.~
+Vnum         41002
+WearFlags    1048577
+ItemType     9
+Weight       2
+Level        30
+Cost         25
+Currtype     2
+Color        14
+Size   0
+Values       35 41 15 300 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 8 13 0
+AffectData   'acid breath' -1 3 17 0
+ExtraDescr   mask~ &CThis crafted item bears the seal of Ferrum, the expert blacksmith.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Name         leather-backpack~
+ShortDescr   a green leather backpack, finely tanned from leopard~
+Description  Here lies a leather backpack, finely tanned from leopard.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Weight       2
+Level        35
+Cost         20
+Currtype     2
+Color        9
+Size   0
+Values       800 1 0 12 0 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-backpack~ &CThis tanned item bears the seal of Sectis, the expert tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         1952
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       12 10 20 1 14 20 20
+End
+
+#OBJECT
+Vnum         63
+Level        38
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         1951
+Level        20
+Currtype     1
+Color        3
+Size   0
+Values       40 9 9 90 0 20 0
+Spell 3      'fireshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 3 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 4 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 9 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 7 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#END

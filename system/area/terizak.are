@@ -1,0 +1,1552 @@
+#AREA        Terizak Forest~
+
+
+
+#VERSION     11
+#AUTHOR      Fya~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+65 75 55 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A wolf's voice rises, baying a lonely song in the distance.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#11541
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11542
+priest Sarikan~
+Sarikan~
+A tall, thin human priest surveys his surroundings.
+~
+This man is a holy priest of Mnera. He is a tall, very thin human.
+~
+1
+Clanname none~
+0
+0
+67239939 71303296 1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if ispc($n)
+  mpechoat $n &CSarikan ignores you, focused on his &Wresearch&C.&D 
+  mpmset self gold 50
+endif
+~
+> speech_prog research~
+if quest(sarikan) > 0
+  mpechoat $n &CSarikan mutters distractedly.&D 
+else
+  mpechoat $n &CSarikan says 'You wish to aid me in my research?'.&D 
+  mpechoat $n &CSarikan says 'Bring me the corpse of a wolf cub.'&D 
+  mpquest $n sarikan 1
+endif
+~
+> act_prog p gives you the corpse of a wolf cub.~
+if quest(sarikan) == 1
+  mpechoat $n &CSarikan studies the corpse intently.&D 
+  mpechoat $n &CSarikan says 'Hmm, this one is not infected.'&D 
+  mpechoat $n &CSarikan says 'Bring me the corpse of a male wolf.'&D 
+  give 10 gold $n
+  mpjunk corpse
+  mpquest $n sarikan 2
+else
+  mpechoat $n &CSarikan mutters distractedly.&D 
+endif
+~
+> act_prog p gives you the corpse of a male wolf.~
+if quest(sarikan) == 2
+  mpechoat $n &CSarikan studies the corpse intently.&D 
+  mpechoat $n &CSarikan says 'It seems to infect the adults...'&D 
+  mpechoat $n &CSarikan says 'Bring me the corpse of a female wolf.'&D 
+  give 10 gold $n
+  mpjunk corpse
+  mpquest $n sarikan 3
+else
+  mpechoat $n &CSarikan mutters distractedly.&D  
+endif
+~
+> act_prog p gives you the corpse of a female wolf.~
+if quest(sarikan) == 3
+  mpechoat $n &CSarikan studies the corpse intently.&D 
+  mpechoat $n &CSarikan says 'It seems to be infected as well.'&D 
+  mpechoat $n &CSarikan says 'Bring me the corpse of a wildcat.'&D 
+  give 10 gold $n
+  mpjunk corpse
+  mpquest $n sarikan 4
+else
+  mpechoat $n &CSarikan mutters distractedly.&D  
+endif
+~
+> act_prog p gives you the corpse of a small wildcat.~
+if quest(sarikan) == 4
+  mpechoat $n &CSarikan studies the corpse intently.&D 
+  mpechoat $n &CSarikan says 'Adult, but not infected. It must be size...'&D 
+  mpechoat $n &CSarikan says 'Bring me the corpse of a bear.'&D 
+  give 10 gold $n
+  mpjunk corpse
+  mpquest $n sarikan 5
+else
+  mpechoat $n &CSarikan mutters distractedly.&D  
+endif
+~
+> act_prog p gives you the corpse of a rabid bear.~
+if quest(sarikan) == 5
+  mpechoat $n &CSarikan studies the corpse intently.&D 
+  mpechoat $n &CSarikan says 'Yes, yes! Extremely infected!'&D 
+  mpechoat $n &CSarikan looks up for the first time, actually looking AT you.&D 
+  mpechoat $n &CSarikan says 'Thank you, you have helped my research indeed.'&D
+  give 10 gold $n
+  mpjunk corpse
+  mppause 5
+  mpechoat $n &CSarikan says 'One task remains, and it the most difficult by far.'&D 
+  mppause 5
+  mpechoat $n &CSarikan says 'Bring me the corpse of the necromancer.'&D 
+  mpechoat $n &CSarikan says 'He could be anywhere, in any form, I do not know...'&D 
+  mpquest $n sarikan 6
+else
+  mpechoat $n &CSarikan mutters distractedly.&D  
+endif
+~
+> act_prog p gives you the corpse of Xanou.~
+if quest(sarikan) == 6
+  mpechoat $n &CSarikan says 'Excellent!'&D     
+  mpechoat $n &CSarikan pulls a small key from Xanou's tangled hair.&D 
+  mpjunk corpse
+  give 10 gold $n   
+  mpechoat $n &CSarikan unlocks a box under the table and goes through it.&D   
+  mppause 10                             
+  mpechoat $n &CSarikan boggles in disbelief as he pulls a wooden pipe from the box.&D
+  mpoload 11544
+  drop pipe
+  mppause 5
+  mpechoat $n &CSarikan shakes his head as he pulls a wand from the box.&D
+  mpoload 11545
+  drop wand
+  mppause 5
+  mpechoat $n &CSarikan rolls his eyes as he pulls a belt from the box.&D
+  mpoload 11546
+  drop belt
+  mppause 5
+  mpechoat $n &CSarikan drops the junk on the floor.&D
+  mppause 5
+  mpechoat $n &CSarikan exclaims in satisfaction, taking a book from the box.&D
+  mpechoat $n &CSarikan says 'This should help my research. Thank you.'&D
+  mpechoat $n &CSarikan becomes lost again in his work.&D
+  mpquest $n sarikan 7
+else
+  mpechoat $n &CSarikan mutters 'Impressive.. but unnecessary.'&D  
+endif
+~
+|
+#11543
+bunny~
+a tiny bunny rabbit~
+A tiny white bunny rabbit hops around the forest.
+~
+It's so cute and fluffy!
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#11544
+tainted wolf~
+a male wolf~
+A grey wolf has madness in its eyes.
+~
+A wolf stands here. Its pelt is a dark smoky grey, and is meticulously 
+groomed. This wolf is in the prime of its life. His eyes are alert,
+mad, and watchful, but he displays no fear. He moves silently, with 
+no sign of haste.
+~
+1
+Clanname none~
+0
+0
+1 32800 0 C
+72 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 4 0 0 1 1 0
+0 0 65545 0 0 0 1 2
+#11545
+tainted wolf~
+a female wolf~
+A grey wolf has madness in its eyes.
+~
+A wolf stands here. Its pelt is a dark smoky grey, and is meticulously 
+groomed. This wolf is in the prime of its life. His eyes are alert, mad, 
+and watchful, but he displays no fear. He moves silently, with no sign of 
+haste. 
+~
+1
+Clanname none~
+0
+0
+1 32800 0 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 4 0 0 1 1 0
+0 0 65545 0 0 0 1 2
+#11546
+wolf cub~
+a wolf cub~
+A grey wolf cub gazes around itself with interest.
+~
+A wolf cub stands here. Its pelt is a pale smoky grey, and is meticulously 
+groomed. This wolf is just a young cub, maybe six or eight months old. It 
+watches all that occurs with alert interest. A small tongue protrudes 
+slightly from its mouth, and it seems almost to be grinning.
+~
+1
+Clanname none~
+0
+0
+1 32800 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+65 4 0 0 1 1 0
+0 0 65545 0 0 0 1 2
+#11547
+rabid bear~
+a rabid bear~
+A bear glares around nearsightedly, foam dripping from its jowls.
+~
+A large shaggy bear glares around itself malevolently. Its coat is 
+tattered and unkempt. Foam drips from its slavering jaws. It exudes an 
+aura of malevolence. Its eyes are vague, darting around it almost 
+unseeing. It recoils from all that is near it, even such things as 
+trees or boulders. Occasionally it swats out viciously at the air.
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+79 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 4 0 0 1 1 0
+0 0 9 0 0 0 0 2
+> death_prog 75~
+mpoload 11541
+~
+|
+#11548
+apprentice necromancer xanou~
+Xanou~
+A long-haired wild-eyed freak gesticulates madly.
+~
+Xanou is a tall, thin drow. His sparse white hair is wildly unkempt, 
+full of grass and twigs. His eyes hold nothing of sanity in them. A
+thin trail of drool trickles out of the right side of his mouth.
+~
+1
+Clanname none~
+0
+0
+131107 306184192 0 C
+81 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 1 1 0
+0 0 0 0 0 0 576 2
+> death_prog 100~
+mpoload 11547
+mpoload 11547
+~
+|
+#11549
+bunny~
+a tiny bunny rabbit~
+A tiny white bunny rabbit hops around the forest.
+~
+It's so cute and fluffy!
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 90~
+if mobinarea(11548) < 1
+  mpe  &YA tiny bunny rabbit begins to glow darkly... and change.&D 
+  mppause 3
+  mpe &YA tiny bunny rabbit begins to writhe unnaturally.&D 
+  mppause 3
+  mpe &YA tiny bunny rabbit's body begins to elongate.&D ..
+  mpmload 11548
+  mpe &YXanou snarls 'Did you truly think you could interfere with my work, fool?!'&D 
+  mpgoto 4
+endif
+~
+|
+#11550
+injured fox~
+an injured fox~
+A fox stands here, holding one forepaw against its chest.
+~
+A brightly plumed red fox limps about. His brush is thick and luxurious. He 
+holds one paw against his chest, apparently injured. His eyes are wary, and 
+he tenses at any sign of movement, ready to flee from danger in an instant.
+~
+1
+Clanname none~
+0
+0
+1 98304 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 65536 0 0 0 1 2
+> death_prog 75~
+mpoload 11543
+~
+|
+#11551
+small wildcat~
+a small wildcat~
+A small wildcat stands here, fur fluffed.
+~
+A small tawny wildcat stands here. Her fur is neatly groomed. She gazes 
+about herself warily, darting swiftly from place to place. She is swift 
+and graceful, embodying the natural beauty of the wilds.
+~
+1
+Clanname none~
+0
+0
+1 32768 0 C
+77 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 4 0 0 1 1 0
+0 0 9 0 0 0 0 2
+#11580
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#11541
+bear pelt~
+a bear pelt~
+A large, bloody bear pelt lies here in a tangle of fur and flesh.~
+~
+9 0 1025 64
+60 60 0 0 0 0 0
+1 130 13
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+29 16
+A
+27 32
+A
+1 3
+A
+5 3
+A
+19 6
+#11542
+wildcat claws~
+wildcat claws~
+Sharp, strong claws lie here, barely held together with tawny fur.~
+~
+5 0 8193
+0 40 80 1 2 0 0
+1 114 11
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+26 4
+A
+18 8
+A
+31 2
+#11543
+fox pelt~
+a fox pelt~
+The pelt of an ex-fox lies here.~
+~
+9 0 1025 16
+60 60 0 0 0 0 0
+1 161 16
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+26 8192
+A
+26 512
+A
+2 4
+A
+18 4
+#11544
+wooden pipe~
+a wooden pipe~
+A wooden pipe has been left here.~
+~
+9 0 16385
+50 50 0 0 0 70 0
+1 146 14
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+26 128
+A
+26 8192
+A
+31 2
+#11545
+mandrake wand~
+a mandrake wand~
+A wand has been made from a piece of mandrake.~
+~
+3 0 16385
+60 13 13 -1 0 70 0
+1 98 7
+1
+0
+0
+0
+0
+0
+'NONE'
+S 0 0
+#11546
+leather chain belt~
+a leather and chain link belt~
+Several short lengths of leather are connected by chain links.~
+~
+9 0 2049
+50 50 0 0 0 0 0
+1 129 12
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+25 3
+A
+31 3
+A
+14 50
+#11547
+pewter ring~
+a tarnished pewter ring~
+A tarnished pewter ring gleams dully.~
+~
+9 0 3
+60 60 0 0 0 0 0
+1 153 15
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+3 2
+A
+4 2
+A
+5 2
+A
+26 1048576
+#0
+
+
+#ROOMS
+#11541
+A Small Rock Building~
+~
+Thick rock walls rise up from a flagstone floor, with a slate ceiling
+overhead.  The wooden door has been smashed off of its hinges by some
+great force.  Wooden tables are covered in an assortment of arcane
+esoterica, from beakers to less identifiable objects.
+~
+1 4 0
+D2
+~
+~
+0 -1 11556
+R M 0 11542 1 11541
+S
+#11542
+Within the Terizak Forest~
+~
+Tall trees reach proudly for the skies.  Birds sing merrily from 
+the branches.  Squirrels chatter busily at the birds while stashing 
+their nuts in hollows in some of the trees.  The blasted remains 
+of a lightning struck tree add a jarring note to the peaceful scene.
+~
+1 0 3
+D0
+~
+~
+0 -1 11543
+D1
+~
+~
+0 -1 11547
+R M 0 11551 2 11542
+  R E 0 11542 1 16
+S
+#11543
+Within the Terizak Forest~
+~
+A tangled bush hugs the ground.  The berries have all been stripped 
+from the bush by industrious birds and squirrels.  A tiny rabbit 
+peeks out cautiously from the base of the bush.  Trees loom all around.
+~
+1 0 3
+D0
+~
+~
+0 -1 11544
+D1
+~
+~
+0 -1 11548
+D2
+~
+~
+0 -1 11542
+R M 0 11545 4 11543
+S
+#11544
+Within the Terizak Forest~
+~
+Scattered pine cones litter the floor.  Squirrels and chipmunks hurry 
+about the ground, searching for anything of interest.  Tiny mice 
+occasionally make darting forays into the confusion.  Another pine 
+cone somewhere drops to the ground with a tiny thunk.
+~
+1 0 3
+D0
+~
+~
+0 -1 11545
+D1
+~
+~
+0 -1 11549
+D2
+~
+~
+0 -1 11543
+S
+#11545
+Within the Terizak Forest~
+~
+Deciduous trees display their leaves proudly.  Squirrels leap from 
+branch to branch on important squirrel business.  Birds scold the 
+squirrels noisily.  Empty nut husks scatter the ground, remnants 
+of squirrel activity.
+~
+1 0 3
+D0
+~
+~
+0 -1 11546
+D1
+~
+~
+0 -1 11550
+D2
+~
+~
+0 -1 11544
+R M 0 11544 4 11545
+S
+#11546
+Within the Terizak Forest~
+~
+The forest opens up slightly, trees spaced a bit farther apart.  A 
+single deer fades away into the forest at a distant sound.  The grass 
+rustles as a mouse or some other small creature scurries along.
+~
+1 0 3
+D1
+~
+~
+0 -1 11551
+D2
+~
+~
+0 -1 11545
+S
+#11547
+Within the Terizak Forest~
+~
+Young saplings vie with older trees for the rich soil.  Caterpillars 
+creep along branches as butterflies flutter blithely by.  Birds eye 
+the butterflies hungrily.  Herbs grow thickly amongst the verdant grasses.
+~
+1 0 3
+D0
+~
+~
+0 -1 11548
+D1
+~
+~
+0 -1 11552
+D3
+~
+~
+0 -1 11542
+S
+#11548
+Within the Terizak Forest~
+~
+A twig snaps beneath the incautious steps of a small red fox.  A 
+tiny grey mouse flees from the sound, darting into a hole at the 
+base of a nearby tree.  Some species of moss drips from the 
+enveloping arms of the forest.  Ants form an industrious line 
+across the ground, intent on prey of their own.
+~
+1 0 3
+D0
+~
+~
+0 -1 11549
+D1
+~
+~
+0 -1 11553
+D2
+~
+~
+0 -1 11547
+D3
+~
+~
+0 -1 11543
+S
+#11549
+Within the Terizak Forest~
+~
+Tangled undergrowth threads between the tree trunks.  The thick 
+foliage of the canopy blocks out much of the view of the sky.  A small 
+rabbit darts across a clear space. moving from one tangle to another.
+~
+1 0 3
+D0
+~
+~
+0 -1 11550
+D1
+~
+~
+0 -1 11554
+D2
+~
+~
+0 -1 11548
+D3
+~
+~
+0 -1 11544
+R M 0 11546 2 11549
+R M 0 11543 9 11549
+S
+#11550
+Within the Terizak Forest~
+~
+The foliage here looms overhead in a thick mass.  Birds fly by 
+overhead, flitting rapidly from branch to branch.  Thick moss 
+drips from some of the overarching boughs.
+~
+1 0 3
+D0
+~
+~
+0 -1 11551
+D1
+~
+~
+0 -1 11555
+D2
+~
+~
+0 -1 11549
+D3
+~
+~
+0 -1 11545
+R M 0 11544 3 11550
+R M 0 11543 7 11550
+S
+#11551
+Within the Terizak Forest~
+~
+Towering pines rise up like battle-ready lances against the sky.  Grubs 
+writhe in a jagged tear in the side of one old tree.  The scent of pine 
+needles is sharp and crisp throughout the forest.  A tuft of fur left 
+behind on a brambly branch might be a souvenir from a bear.  A wrought
+iron gate to the north is barely visible through the trees.
+~
+1 0 3
+D0
+~
+gate~
+3 -1 11521
+D1
+~
+~
+0 -1 11556
+D2
+~
+~
+0 -1 11550
+D3
+~
+~
+0 -1 11546
+S
+#11552
+Within the Terizak Forest~
+~
+A massive pine tree rises above its neighbors.  A squirrel nesting 
+high in the pine chatters demandingly at the creatures below him. 
+Birds soar through the canopy of the trees.  Leaf shadowed shade 
+lies gently over the carpeting of pine needles.
+~
+1 0 3
+D0
+~
+~
+0 -1 11553
+D1
+~
+~
+0 -1 11557
+D3
+~
+~
+0 -1 11547
+S
+#11553
+Within the Terizak Forest~
+~
+Forest giants reach to the skies in imposing majesty.  An impious 
+blue jay calls out stridently, his cries piercing the serenity of 
+the forest.  Pine needles and leaves scatter the ground in peaceful 
+company with thick green grass.  Tiny mushrooms seem to peek out 
+shyly from their hiding places.
+~
+1 0 3
+D0
+~
+~
+0 -1 11554
+D1
+~
+~
+0 -1 11558
+D2
+~
+~
+0 -1 11552
+D3
+~
+~
+0 -1 11548
+S
+#11554
+Within the Terizak Forest~
+~
+Sturdy conifers and ancient oaks thrive side by side in majestic 
+prosperity.  Bees buzz busily, gathering pollen for honey.  A wise 
+old horned owl blinks in lazy stupor from a crevice in an old oak.
+~
+1 0 3
+D0
+~
+~
+0 -1 11555
+D1
+~
+~
+0 -1 11559
+D2
+~
+~
+0 -1 11553
+D3
+~
+~
+0 -1 11549
+S
+#11555
+Within the Terizak Forest~
+~
+A massive, gnarled, ancient oak dominates this section of forest.  
+Knotted branches reach out from its base in all directions, alternately 
+burrowing beneath and above the ground.  A single branch droops where 
+it has been torn from the tree by its own great weight.
+~
+1 0 3
+D0
+~
+~
+0 -1 11556
+D1
+~
+~
+0 -1 11560
+D2
+~
+~
+0 -1 11554
+D3
+~
+~
+0 -1 11550
+S
+#11556
+Within the Terizak Forest~
+~
+Trees cluster thickly about, leaning towards each other almost as if 
+gossiping.  A mouse scurries from one small hole in the ground to 
+another.  A thick carpet of pine needles blankets the ground.  A rock 
+building nestles amongst the trees to the north.
+~
+1 0 3
+D0
+~
+~
+0 -1 11541
+D1
+~
+~
+0 -1 11561
+D2
+~
+~
+0 -1 11555
+D3
+~
+~
+0 -1 11551
+R M 0 11543 6 11556
+R M 0 11544 2 11556
+S
+#11557
+Within the Terizak Forest~
+~
+Mushrooms grow in tiers from the sides of ancient trees.  Rocks 
+speckled with lichens are scattered in the grass.  A droning bee 
+moves lazily from flower to flower.  A chipmunk peers out from 
+the hollow of a nearby tree.
+~
+1 0 3
+D0
+~
+~
+0 -1 11558
+D1
+~
+~
+0 -1 11562
+D3
+~
+~
+0 -1 11552
+S
+#11558
+Within the Terizak Forest~
+~
+Tall trees strive to grow taller than each other.  Luxurious 
+mushrooms grow thickly from the sides of the trees.  A tiny brown 
+wren sings a beautiful melody as if her heart is breaking.  A wee 
+mouse stares up at the wren in bewildered wonder.
+~
+1 0 3
+D0
+~
+~
+0 -1 11559
+D1
+~
+~
+0 -1 11563
+D2
+~
+~
+0 -1 11557
+D3
+~
+~
+0 -1 11553
+S
+#11559
+Within the Terizak Forest~
+~
+Growing undisturbed for many years, the trees are clustered thick 
+and rise up high.  Occasionally, a few needles fall from a pine, 
+striking the floor and adding to its thick carpeting.  Bees flit 
+busily from flower to flower.
+~
+1 0 3
+D0
+~
+~
+0 -1 11560
+D1
+~
+~
+0 -1 11564
+D2
+~
+~
+0 -1 11558
+D3
+~
+~
+0 -1 11554
+R M 0 11549 1 11559
+S
+#11560
+Within the Terizak Forest~
+~
+A tangled spiderweb stretches across the trail, tattered and whipped 
+by the breeze.  A horde of tiny infant spiders scurry about it, 
+blowing away from the web every once in awhile.  Eager birds feast 
+upon this tiny bonanza.
+~
+1 0 3
+D0
+~
+~
+0 -1 11561
+D1
+~
+~
+0 -1 11565
+D2
+~
+~
+0 -1 11559
+D3
+~
+~
+0 -1 11555
+S
+#11561
+Within the Terizak Forest~
+~
+Tall trees reach for the skies.  Squirrels play in the branches. 
+Birds soar by overhead, singing merrily of important bird matters. 
+A wasp hive lies high up in the crook of a tree.
+~
+1 0 3
+D0
+~
+~
+0 -1 11577
+D1
+~
+~
+0 -1 11566
+D2
+~
+~
+0 -1 11560
+D3
+~
+~
+0 -1 11556
+S
+#11562
+Within the Terizak Forest~
+~
+Majestic boles reach for the skies.  Heavy branches spread their 
+enveloping arms out over the forest.  Leaves cover the trees and 
+the ground in lush profusion.  Soft lichens cover nearby rocks.
+~
+1 0 3
+D0
+~
+~
+0 -1 11563
+D1
+~
+~
+0 -1 11567
+D3
+~
+~
+0 -1 11557
+S
+#11563
+Within the Terizak Forest~
+~
+Deciduous trees mingle with conifers in a natural display of peace 
+amongst differences.  Mingled drifts of leaves and pine needles 
+strengthen the impression.  A single locust bumbles lazily through 
+the air with an iridescent green-gold sparkle.  A narrow trail of 
+ants wends its way up a tree.
+~
+1 0 3
+D0
+~
+~
+0 -1 11564
+D1
+~
+~
+0 -1 11568
+D2
+~
+~
+0 -1 11562
+D3
+~
+~
+0 -1 11558
+S
+#11564
+Within the Terizak Forest~
+~
+Hard-looking mushrooms hug close against some of the trunks.  Birds 
+sing their gentle melodies, hidden in the branches.  A very large 
+grasshopper stares around thoughtfully before hopping under some brush.
+~
+1 0 3
+D0
+~
+~
+0 -1 11565
+D1
+~
+~
+0 -1 11569
+D2
+~
+~
+0 -1 11563
+D3
+~
+~
+0 -1 11559
+S
+#11565
+Within the Terizak Forest~
+~
+A large green caterpillar inches along a nearby branch.  Butterflies 
+fly contentedly through the foliage.  A baby rabbit peers out 
+warily from the tangled roots of the surrounding trees.
+~
+1 0 3
+D0
+~
+~
+0 -1 11566
+D1
+~
+~
+0 -1 11570
+D2
+~
+~
+0 -1 11564
+D3
+~
+~
+0 -1 11560
+R M 0 11543 2 11565
+R M 0 11544 1 11565
+S
+#11566
+Within the Terizak Forest~
+~
+A large oak dominates a small clearing.  The mottled play of shadow 
+on the trunk of the oak seems to illustrate the image of a face on 
+the side of the old oak.  Green grass wraps around the base of the 
+oak like a blanket wrapped around an old man.
+~
+1 0 3
+D0
+~
+~
+0 -1 11578
+D1
+~
+~
+0 -1 11571
+D2
+~
+~
+0 -1 11565
+D3
+~
+~
+0 -1 11561
+R M 0 11547 1 11566
+R M 0 11543 5 11566
+S
+#11567
+Within the Terizak Forest~
+~
+Thick gnarled roots thrust out from the forest floor, ready to 
+snare the unwary.  Thick foliage blocks out most of the light.  
+Great trees rise high as far as the eye can see.  Birds soar 
+through the arching green canopy overhead.
+~
+1 0 3
+D0
+~
+~
+0 -1 11568
+D1
+~
+~
+0 -1 11572
+D3
+~
+~
+0 -1 11562
+S
+#11568
+Within the Terizak Forest~
+~
+Dappled light slips through tiny breaks in the canopy stretching 
+high overhead.  Old trees grow all about, unharmed by the hand of 
+man.  Leaves stir fitfully in breezes.  Ants scurry busily across 
+the ground in search of food.
+~
+1 0 3
+D0
+~
+~
+0 -1 11569
+D1
+~
+~
+0 -1 11573
+D2
+~
+~
+0 -1 11567
+D3
+~
+~
+0 -1 11563
+S
+#11569
+Within the Terizak Forest~
+~
+A single willow seems to droop sorrowfully among the other trees. 
+Long fronds trail over the ground.  An impish squirrel peers out 
+merrily from among the fronds.  A single hawk soars by, far overhead.
+~
+1 0 3
+D0
+~
+~
+0 -1 11570
+D1
+~
+~
+0 -1 11574
+D2
+~
+~
+0 -1 11568
+D3
+~
+~
+0 -1 11564
+S
+#11570
+Within the Terizak Forest~
+~
+The trees here seem to form a leafy hall.  Small openings in the hall 
+lead to yet more forest.  The path is covered in verdant green grass 
+down its center, tho mingled fallen leaves and pine needles line the edges. 
+~
+1 0 3
+D0
+~
+~
+0 -1 11571
+D1
+~
+~
+0 -1 11575
+D2
+~
+~
+0 -1 11569
+D3
+~
+~
+0 -1 11565
+S
+#11571
+Within the Terizak Forest~
+~
+The trees are thin here, making this more of a clearing than forest 
+proper.  The grass here is short and sparse, and the dirt below shows 
+through clearly.  An owl hoots mournfully from an unseen hiding place.
+~
+1 0 3
+D0
+~
+~
+0 -1 11579
+D1
+~
+~
+0 -1 11576
+D2
+~
+~
+0 -1 11570
+D3
+~
+~
+0 -1 11566
+R M 0 11550 2 11571
+R M 0 11543 1 11571
+S
+#11572
+Within the Terizak Forest~
+~
+A long narrow green snake blends perfectly into the foliage until 
+a chance movement betrays his presence.  Soft green grass carpets 
+the floor of the forest.  Fungus grows like strange platters from 
+the sides of the trees.  Tiny holes in the forest floor represent 
+the burrows of some small creature.
+~
+1 0 3
+D0
+~
+~
+0 -1 11573
+D3
+~
+~
+0 -1 11567
+R M 0 11551 3 11572
+  R E 0 11542 1 16
+S
+#11573
+Within the Terizak Forest~
+~
+Mushrooms grow in tiered platters along the circumference of some 
+of the trees.  Smaller domed mushrooms peek out from between tangled 
+roots.  Claw marks on a nearby tree indicate the presence of a bear 
+in search of grubs.
+~
+1 0 3
+D0
+~
+~
+0 -1 11574
+D2
+~
+~
+0 -1 11572
+D3
+~
+~
+0 -1 11568
+S
+#11574
+Within the Terizak Forest~
+~
+Spiderwebs dot several of the nearby branches.  Tiny spiders move 
+busily along their webs, cleaning up a little here and there.  
+Branches lace together in places, almost forming webs of their own.  
+Tiny mushrooms peek out from the grass below.
+~
+1 0 3
+D0
+~
+~
+0 -1 11575
+D2
+~
+~
+0 -1 11573
+D3
+~
+~
+0 -1 11569
+S
+#11575
+Within the Terizak Forest~
+~
+A verdant promenade invites a pause for contemplation.  The forest 
+is soothing as verdant dapples of light glimmer off of leaves and grass. 
+Butterflies flit by randomly, in a rainbow of hues. 
+~
+1 0 3
+D0
+~
+~
+0 -1 11576
+D2
+~
+~
+0 -1 11574
+D3
+~
+~
+0 -1 11570
+R M 0 11543 3 11575
+R M 0 11545 1 11575
+S
+#11576
+Within the Terizak Forest~
+~
+Trees grow in natural profusion, smaller saplings mixed in with great 
+old patriarchs of the forest.  Wildlife moves busily through the trees 
+on its own business.  Squirrels collect nuts, while birds peck at pinecones. 
+Everything seems peaceful and serene here.
+~
+1 0 3
+D0
+~
+~
+0 -1 11580
+D2
+~
+~
+0 -1 11575
+D3
+~
+~
+0 -1 11571
+S
+#11577
+Within the Terizak Forest~
+~
+Trees are clustered thickly, and vision is limited.  A lone squirrel 
+chats at a blue jay far up in a tree. Pine needles carpet the ground
+thickly.  The scents of untamed nature are strong all around.
+~
+1 0 3
+D1
+~
+~
+0 -1 11578
+D2
+~
+~
+0 -1 11561
+R M 0 11545 3 11577
+R M 0 11543 8 11577
+S
+#11578
+Within the Terizak Forest~
+~
+The forest rises all about in majestic splendor.  Tangled underbrush 
+competes with grass for space between the tree trunks.  Large platter 
+shaped mushrooms rise in steps along the sides of some of the trees.
+~
+1 0 3
+D1
+~
+~
+0 -1 11579
+D2
+~
+~
+0 -1 11566
+D3
+~
+~
+0 -1 11577
+R M 0 11546 1 11578
+R M 0 11543 4 11578
+S
+#11579
+Within the Terizak Forest~
+~
+A lightning struck tree is split cleanly down the middle.  The two 
+halves grow apart from each other.  Other, more ordinary trees seem 
+to respect the split tree's space.  Tangled undergrowth thrives at 
+the base of the trees.
+~
+1 0 3
+D1
+~
+~
+0 -1 11580
+D2
+~
+~
+0 -1 11571
+D3
+~
+~
+0 -1 11578
+R M 0 11545 2 11579
+S
+#11580
+Within the Terizak Forest~
+~
+The forest is thick with growth and life.  Trees grow to imposing 
+heights.  Thick underbrush thrives around the tree trunks.  Squirrels 
+move about energetically. Birds sing with great enthusiasm.
+~
+1 4 3
+D2
+~
+~
+0 -1 11576
+D3
+~
+~
+0 -1 11579
+R M 0 11551 4 11580
+  R E 0 11542 1 16
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

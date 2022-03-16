@@ -1,0 +1,48 @@
+#VNUM 57017
+#OBJECT
+Vnum         2792
+Level        5
+Currtype     3
+Color        2
+Size   0
+Values       2 0 641 200 200 5 0
+End
+
+#OBJECT
+Vnum         1176
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         1175
+Level        1
+Cost         21
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         1177
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       3000 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16001
+Level        108
+Currtype     1
+Color        4
+Size   3
+Values       10000 10 0 0 0 0 0
+End
+
+#END

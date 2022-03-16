@@ -1,0 +1,4171 @@
+#AREA        Dragon Knight's Raid~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+5 15 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA shrill dragon screech is heard in the distance...~
+
+#FLAGS
+98816 10
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1800000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#29100
+dragon knight~
+a dragon knight~
+A dragon knight is standing guard here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+11 0 0 0d0+90 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 1
+0 0 41 0 0 0 32 0
+> all_greet_prog 100~
+mppause 3
+if race($n) == Dragon
+mpechoat $n &cA Dragon knight quickly hits a lever which drops the wood bridge sending you down into the depths!
+mptrans $n 29188
+mppause 3
+mpat $n mpforce $n look
+else
+nod $n
+endif
+~
+|
+#29102
+dragon knight~
+a dragon knight~
+A dragon knight is standing guard here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+131075 512 0 C
+12 0 0 0d0+100 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 0
+#29103
+dragon knight priest~
+a dragon knight priest~
+A dragon knight priest is standing here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+131075 640 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 67108896 2
+#29104
+dragon knight guard Baelas~
+Guard Baelas~
+A dragon knight guard is standing here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+13
+Clanname none~
+0
+0
+1073872899 512 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 0
+> all_greet_prog 100~
+if quest(choices) == 2
+mppause 4
+mpechoat $n &cGuard Baelas starts to cry and runs to his love Llanna taking her in his arms.
+mpquest $n choices 3
+mppause 3
+mpechoat $n &CGuard Baelas says, 'All this time I thought you were dead... And because of the dragon.
+mpat llanna mpforce llanna follow self
+mpat llanna mpforce llanna mpgoto 4
+endif
+if quest(worth) == 3
+mppause 3
+mpechoat $n &CGuard Baelas says, 'Did Captain Drake send you to help with Saliva collection?  Take this
+mpechoat $n &Cbucket of saliva and take it back to Captain Drake.'
+mpoload 29103 1
+get bucket
+mpquest $n worth 4
+give bucket $n
+endif
+if istagged($n, choices )
+mpause 3
+mpechoat $n &cGuard Baelas nods his head to you.
+else
+mppause 3
+mpechoat $n &CGuard Baelas says, 'So you might be wondering why I do what I do?'
+mppause 4
+mpechoat $n &CGuard Baelas says, 'Let me tell I take no pleasure in harming other
+mpechoat $n &Ccreatures.  I do what I do because I found my soul mate
+mpechoat $n &Cand we were going to get married.  I knew this girl since
+mpechoat $n &Cwe were children.  Well I was out in the woods hunting for deer.
+mpechoat $n &CNext thing I know I saw smoke clouds in the distance where the
+mpechoat $n &Cvillage was.  I ran till my lungs felt like they would burst.  When
+mpechoat $n &CI arrived my love was a charred corpse.  A few survivors told me
+mpechoat $n &Ca red dragon flew through and burned the village killing the cattle.
+mpechoat $n &CThere is nothing left for me except revenge.'
+mppause 4
+mpechoat $n &cType &WSAY REVENGE&c to try to help the young guard.
+mptag $n choices 1
+endif
+~
+> speech_prog revenge~
+if quest(choices) < 1
+mpquest $n choices 1
+mpechoat $n &CGuard Baelas says, 'There is nothing you can tell me to get me to think differently.'
+endif
+~
+> death_prog 100~
+mpquest $n worth 9
+~
+|
+#29105
+Captain Drake~
+Captain Drake~
+A dragon knight captain is standing here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+1073872899 512 0 C
+18 0 0 0d0+500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 0
+> all_greet_prog 100~
+if quest(worth) == 2
+mpechoat $n &CCaptain Drake says, 'say Ready for your next task.'
+endif
+if istagged($n, greed )
+else
+mppause 3
+emote looks up from stacking copper blocks on the desk in front of him.
+mppause 3
+mpechoat $n &CCaptain Drake says, 'What do you want?  I'm busy.'
+mppause 6
+mpechoat $n &cA Dragon Knight Corporal arrives and whispers to the Captain,
+mpechoat $n &cSir, we need to pull Knights from enforcing the miners of
+mpechoat $n &cthe bronze to fight off a dragon attack  in the north tunnel.'
+mppause 5
+mpechoat $n &CCaptain Drake says, 'That is not going to happen you tell 
+mpechoat $n &Cthe men to do their duty and destroy the dragon.'
+mppause 6
+mpechoat $n &CA Dragon Knight Corporal says, 'Sir good men will die!  We can
+mpechoat $n &Cjust slow the bronze mining production to ensure their safety.'
+mppause 5
+mpechoat $n &cCaptain Drake suddenly slams his fists on the desk and shouts,
+mpechoat $n &C'Don't ever question me, get out of here!'
+mppause 3
+mpechoat $n &CCaptain Drake says, 'Well stop standing there you are here 
+mpechoat $n &Cfor a job right?'
+mppause 3
+mpechoat $n &cType &WSAY JOB&c to accept.
+mptag $n greed 1
+endif
+if quest(worth) == 9
+mppause 3
+mpechoat $n &CCaptain Drake says, 'Very good I will accept you as a Dragon Knight.'
+mpoload 29127 5
+get sash
+give sash $n
+mpquest $n worth 10
+endif
+~
+> speech_prog job~
+if quest(job) < 1
+mppause 3
+mpechoat $n &CCaptain Drake says, 'First you must prove yourself Dragon Knight material.
+mpechoat $n &CBring me the corpse of a Red Dragon Hatchling.'
+mppause 2
+mpquest $n job 1
+endif
+~
+> speech_prog ready~
+if quest(worth) == 2
+mppause 3
+mpechoat $n &CCaptain Drake says, 'Assist Guard Baelas with Dragon Saliva collection.'
+mpquest $n worth 3
+endif
+if quest(worth) == 4
+mppause 3
+mpechoat $n &CCaptain Drake says, 'Ok, now I need you to check on the bronze production in 
+mpechoat $n &Cthe mines and let me know if there are any issues.'
+mpquest $n worth 5
+endif
+if quest(worth) < 1
+mppause 3
+mpechoat $n &CCaptain Drake says, 'First you must prove yourself Dragon Knight material.
+mpechoat $n &CKill 10 Dragon Hatchlings.'
+mppause 2
+mpquest $n worth 1
+endif
+if quest(worth) == 7
+mppause 3
+mpechoat $n &CCaptain Drake says, 'I have recieved word that Guard Baelas is attempting to free
+mpechoat $n &Cdragons betraying us!  Kill Guard Baelas for me!'
+mpquest $n worth 8
+endif
+~
+> death_prog 100~
+if quest(choices) > 0
+mpechoat $n &cYou think to yourself maybe something is in here that would prove my case to Guard Baelas.
+endif
+~
+> act_prog p gives you the corpse of a red dragon hatchling.~
+if quest(job) == 1
+mpquest $n job 2
+mppause 3
+mpechoat $n &CCaptain Drake says, 'For that I will reward you with this sharpening stone.'
+mpoload 29122 1
+get stone
+give stone $n
+mppause 8
+mpechoat $n &CCaptain Drake says, 'Are you ready for another task?  Say ready.'
+endif
+~
+> act_prog p gives you a small bucket of dragon saliva.~
+if quest(worth) == 4 
+mppause 3 
+mpechoat $n &CCaptain Drake says, 'Very good, take this pair of gloves in thanks.'
+mpoload 29123
+get gloves
+give gloves $n
+mppause 6 
+mpechoat $n &CCaptain Drake says, 'Say Ready for the next task.' 
+endif ~
+> speech_prog 'There is one mining cart down for at least an hour'~
+if quest(worth) == 6
+mppause 3
+mpechoat $n &CCaptain Drake says, 'Drats, that will cost us our production!  
+mpechoat $n &cType &WSAY READY&c  when you our ready to proceed.                                                                                                            
+mpquest $n worth 7
+endif
+~
+|
+#29106
+Llanna villager~
+Llanna~
+A beautiful woman villager is standing here.
+~
+The woman is very beautiful with long flowing red hair and green eyes.  She is wearing
+a tattered pink dress.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 3
+if istagged($n, lostlove )
+else
+mpechoat $n &cLlanna looks nervously at you before deciding your not a dragon knight.
+mppause 5
+mpechoat $n &CLlanna says, 'Please help me escape, the Captain imprisoned me after my village was burned.
+mpechoat $n &CHe wants me to marry him, but I love another.'
+endif
+if quest(choices) == 1
+mpquest $n choices 2
+follow $n
+mptag $n lostlove
+endif
+~
+|
+#29107
+gold dragon~
+a very young gold dragon~
+A very young gold dragon is here.
+~
+The gold dragon is slightly larger than a troll.  It's golden scales glimmer in the light.
+~
+14
+Clanname none~
+0
+29100
+1073741827 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+#29108
+silver dragon~
+a very young silver dragon~
+A very young silver dragon is here.
+~
+The silver dragon is slightly larger than a troll.  It's silver scales glimmer in the light.
+~
+8
+Clanname none~
+0
+29100
+1073741827 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+#29109
+blue dragon~
+a very young blue dragon~
+A very young blue dragon is here.
+~
+The blue dragon is the size of a troll.  It's blue scales glimmer in the light.
+~
+4
+Clanname none~
+0
+29100
+1073741827 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+#29110
+black dragon~
+a very young black dragon~
+A very young black dragon is here.
+~
+The black dragon appears to be wounded.  He is missing some scales along his hide.
+~
+13
+Clanname none~
+0
+29100
+1073741827 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+#29111
+red hatchling dragon~
+a red dragon hatchling~
+A red dragon hatchling is standing here.
+~
+The red dragon hatchling appears to be looking around the area cautiously.
+~
+3
+Clanname none~
+0
+0
+131073 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+> death_prog 100~
+if quest(Worth) == 1
+    if qkamount(Worth) < 9
+       mpqkamount $n Worth 1
+     else
+       mpqkamount $n Worth 1
+       mpquest $n Worth 2
+     endif
+endif
+~
+|
+#29112
+dwarven miner~
+a dwarven miner~
+A dwarven miner carries his tools here.
+~
+The dwarven miner is covered in a fresh sheen of sweat, and dirt.
+~
+1
+Clanname none~
+0
+0
+131075 4194816 1000 C
+12 0 0 0d0+100 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 41 0 0 0 48 2
+> all_greet_prog 100~
+if quest(worth) == 5
+mppause 3
+mpechoat $n &CDwarven Miner says, 'You checking for Captain Drake?  Tell him this...
+mpechoat $n &WThere is one mining cart down for at least an hour
+mpquest $n worth 6
+endif
+~
+> death_prog 100~
+if quest(warz) == 5
+mpquest $n warz 6
+endif
+~
+|
+#29113
+blue hatchling dragon~
+a blue dragon hatchling~
+A blue dragon hatchling is standing here.
+~
+The blue dragon hatchling appears to be looking around the area cautiously.
+~
+4
+Clanname none~
+0
+0
+131073 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+> death_prog 100~
+if quest(Worth) == 1
+if qkamount(Worth) < 9
+mpqkamount $n Worth 1
+else
+mpqkamount $n Worth 1
+mpquest $n Worth 2
+endif
+endif
+~
+|
+#29114
+gold dragon hatchling~
+a gold dragon hatchling~
+A gold dragon hatchling is standing here.
+~
+The gold dragon hatchling appears to be looking around the area cautiously.
+~
+14
+Clanname none~
+0
+0
+131073 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+> death_prog 100~
+if quest(Worth) == 1
+if qkamount(Worth) < 9
+mpqkamount $n Worth 1
+else
+mpqkamount $n Worth 1
+mpquest $n Worth 2
+endif
+endif
+~
+|
+#29115
+black draogn hatchling~
+a black dragon hatchling~
+A black dragon hatchling is here.
+~
+The black dragon hatchling appears to be looking around the area cautiously.
+~
+13
+Clanname none~
+0
+0
+131073 4194824 1000 C
+12 -10 -10 1d50+100 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+> death_prog 100~
+if quest(Worth) == 1
+if qkamount(Worth) < 9
+mpqkamount $n Worth 1
+else
+mpqkamount $n Worth 1
+mpquest $n Worth 2
+endif
+endif
+~
+|
+#29116
+dragon knight~
+a dragon knight~
+A dragon knight is standing guard here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+131075 512 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 0
+#29117
+dragon knight~
+a dragon knight~
+A dragon knight is standing guard here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+131075 512 0 C
+14 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 0
+#29118
+dragon knight sergeant~
+a dragon knight sergeant~
+A dragon knight sergeant is standing here.
+~
+The dragon knight stands guard diligantly marching along in a state of high alert.
+~
+1
+Clanname none~
+0
+0
+1073872899&4 640 0 C
+22 0 0 0d0+800 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 41 0 0 0 32 2
+#29119
+silver dragon young adult~
+a young adult silver dragon~
+A young adult silver dragon is here.
+~
+The silver dragon is slightly larger than a troll.  It's silver scales glimmer in the light.
+~
+8
+Clanname none~
+0
+0
+1073741827&4 4194952 1000 C
+20 -10 -10 1d50+750 1d1+1
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+13 9 0 0 1 1 2
+0 0 361105 0 0 0 3 2
+> fight_prog 30~
+mppause 20
+breath $n aoe
+mppause 20
+gut $n
+mppause 20
+mpecho a silver dragon bellows, 'You will now feel my full fury!!'
+mppause 10
+mpecho a silver dragon opens his jaws wide...
+mppause 20
+breath $n aoe
+~
+|
+#29200
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1082130433 4292610 0 C
+106 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 2
+mpechoat $n &bThe water from the collapsed section begins to drain into this hidden chamber in a gush!
+~
+|
+#0
+
+
+#OBJECTS
+#29100
+copper block~
+a small block of copper~
+A small block of copper has been left here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 1000 100
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+copper~
+The small copper block has not oxidized yet and has a shine to it when to the light.
+~
+#29101
+dragon knight helmet~
+a dragon knight helmet~
+A dragon knight helmet has been left here.~
+~
+9 0 17
+5 5 0 0 0 5 0
+3 43 6
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+helmet~
+The helmet has the symbol of the Dragon Knights engraved in the center of it.
+~
+A
+18 2
+A
+12 -10
+A
+19 2
+#29102
+dragon knight lance~
+a dragon knight lance~
+A dragon knight lance has been left here.~
+~
+5 0 8193
+10 3 10 6 12 5 0
+8 20 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+lance~
+The lance appears to well made from a quality type of steel ore.
+~
+A
+18 4
+#29103
+bucket saliva~
+a small bucket of dragon saliva~
+A small bucket of dragon saliva has been left here.~
+~
+10 0&32 16385
+10 -1 -1 -1 0 1 0
+3 5 0
+3
+1
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+E
+'small' 'bucket' 'saliva' 'dragon'~
+The wooden bucket is filled with a thick gray colored saliva of a mighty 
+dragon. Saliva from dragons are know to have healing properties. 
+~
+#29104
+dragon knight ringmail shirt~
+a ringmail shirt~
+A dragon knight ringmail shirt has been left here.~
+~
+9 0 9 16
+2 2 0 0 0 1 0
+5 37 3
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+shirt~
+The ringmail shirt appears to be made out of a quality iron ore.
+~
+A
+19 1
+#29105
+hand half sword~
+a hand and a half sword~
+A hand and a half sword has been left here.~
+~
+5 524608 8193
+0 7 16 1 0 5 0
+25 33 3
+4
+8
+0
+0
+0
+0
+S 0 0
+E
+sword~
+The hand and a half sword appears to be made of excellent iron ore, and has a dragon knight insignia on the hilt.
+~
+A
+1 1
+A
+19 1
+#29106
+black boots~
+a pair of black boots~
+A pair of black boots have been left here.~
+~
+9 0 65
+5 5 0 0 0 5 0
+6 52 5
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+boots~
+The black boots are well polished and gleem in the light.
+~
+A
+2 2
+A
+13 10
+#29107
+purple cape~
+a purple cape~
+A purple cape has been left here.~
+~
+9 0 1025 128
+5 5 0 0 0 5 0
+3 46 4
+4
+12
+0
+0
+0
+0
+S 77 0
+E
+cape~
+The elegant purple cape has the symbol of the dragon knights emblazened in gold stitching.
+~
+A
+3 -2
+A
+18 3
+A
+19 1
+#29108
+steel spear~
+a steel spear~
+A steel spear has been left here.~
+~
+5 0 8193
+12 3 10 7 10 5 0
+4 32 3
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+spear~
+The steel of the spear appears to be made out of excellent iron ore.  
+~
+A
+18 4
+#29109
+insignia ring~
+a insignia ring~
+A insignia ring has been left here.~
+~
+9 0 3
+5 5 2 0 0 5 0
+1 49 4
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+ring~
+The insignia ring is made out of silver, and has the dragon knight crest on it.
+~
+A
+19 2
+A
+17 -2
+#29110
+tower shield~
+a tower shield~
+A tower shield has been left here.~
+~
+9 0 513
+5 5 1950 0 0 5 0
+1 42 4
+4
+4
+0
+0
+0
+0
+S 0 0
+E
+shield~
+The tower shield is made out of quality iron ore.  It has the dragon knight crest on the front.
+~
+A
+13 20
+#29111
+Ankle Bracer~
+an ankle bracer~
+A ankle bracer has been left here.~
+~
+9 0 2097153
+5 5 0 0 0 5 0
+1 51 5
+4
+1
+0
+0
+0
+0
+S 77 0
+E
+ankle~
+The bracer is made out of iron ore and has a padded inside for bracing the ankles.
+~
+A
+18 1
+#29112
+cell key~
+a cell key~
+A cell key lies discarded on the ground~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 26 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+key~
+The cell door key appears to be made out of very thick metal.
+~
+#29113
+White Robe Priest~
+a white priest robe~
+A white priest robe is laying here.~
+~
+9 0 1025 128
+5 5 0 0 0 5 0
+1 51 5
+4
+5
+0
+0
+0
+0
+S 77 0
+E
+robe~
+The white robe doesn't have a blemish on it has a dragon knight symbol on it.
+~
+A
+18 -3
+A
+19 -3
+A
+12 200
+#29114
+oak staff~
+a stout oak staff~
+A stout oak staff has been left here.~
+~
+5 0 8193
+10 3 10 4 11 5 0
+5 26 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+staff~
+The staff has a few knobby ends, but is fairly straight and strong.
+~
+A
+18 3
+A
+19 1
+#29115
+rune scroll~
+a rune scroll~
+A rune scroll has been left here.~
+~
+2 0 1
+2 -1 -1 -1 0 5 0
+1 15 1
+3
+5
+0
+0
+0
+0
+'sanctuary' 'NONE' 'NONE'
+S 0 0
+E
+scroll~
+The old rune scroll appears to be written a long time ago.
+~
+#29116
+desk~
+A wooden desk~
+&OA small wooden desk sits close to the back wall.&D~
+~
+12 1073741824 0
+0 800 40 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+desk~
+The wooden desk has a small pile of copper blocks stacked on it.
+~
+#29117
+platemail chestplate~
+a platemail chestplate~
+A platemail chestplate has been left here.~
+~
+9 0 9 32
+10 10 0 0 0 10 0
+5 97 9
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+platemail~
+The platemail appears to be made out of a quality ore.  There is a crest of the dragon knight on the
+chest plate.  Also the rank of Captain is on the shoulders.
+~
+A
+13 10
+A
+18 3
+#29118
+halberd steel~
+a steel halberd~
+A steel halberd has been left here.~
+~
+5 0 8193
+0 5 15 2 15 0 0
+8 89 8
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+halberd~
+The halberd is made out of solide oak till the blade which comes to a point at the end.
+~
+A
+19 3
+A
+25 1
+#29119
+salvia potion~
+a potion of dragon saliva~
+A potion has been left here.~
+~
+10 0&32 16385
+10 -1 -1 -1 0 5 0
+3 5 0
+3
+1
+0
+0
+0
+0
+'cure critical' 'NONE' 'NONE'
+S 0 0
+E
+salvia~
+The potion has been made from dragon saliva colleted by dragon knights.
+~
+#29120
+steel bracer~
+a steel bracer~
+A steel bracer has been left here.~
+~
+9 0 4097
+10 10 0 0 0 10 0
+3 91 9
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+bracer~
+The bracer has some strange writing engraved on it and appears to be made of excellent quality.
+~
+A
+1 1
+#29121
+steel key~
+a steel key~
+A steel key has been left here.~
+~
+18 33554432 1
+0 0 0 0 0 0 0
+1 26 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+key~
+The key has been well used but appears to be functional yet.
+~
+#29122
+sharpening stone~
+a sharpening stone~
+A sharpening stone has been cast aside here.~
+~
+65 0 16385
+1 0 0 0 0 0 0
+1 20 2
+4
+13
+0
+0
+0
+0
+S 0 0
+E
+stone~
+The sharpening stone has a course flat edge to one side of it.
+~
+#29123
+leather gloves~
+a pair of black leather gloves~
+A pair of black leather gloves has been left here.~
+~
+9 0 129
+10 10 0 0 0 10 0
+1 118 11
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+leather gloves~
+It appears to be a stained up pair of leather gloves.
+~
+A
+18 3
+#29124
+treasure chest~
+a treasure chest~
+A treasure chest has been left here.~
+~
+15 0 0
+5000 1 0 12 0 101 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+chest~
+The treasure chest is stuck to the ground by years of corrosion.
+~
+#29125
+amulet necklace~
+a amulet necklace~
+A amulet necklace has been left here.~
+~
+9 64 5
+5 5 0 0 0 5 0
+1 49 4
+4
+12
+0
+0
+0
+0
+S 77 0
+E
+necklace amulet~
+There is something that draws your eye to the amulet of the necklace it sparkles curiously.
+~
+A
+12 200
+A
+13 -50
+#29126
+water well~
+a water well~
+A water well has been constructed here.~
+~
+25 0 0
+100000 200 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+well~
+The water well is constructed out of blocks of stone and has a bucket to dip into the well.
+~
+#29127
+knight sash~
+a dragon knight sash~
+A dragon knight ash has been left here.~
+~
+9 0 1025 128
+5 5 0 0 0 5 0
+1 51 5
+4
+13
+0
+0
+0
+0
+S 77 0
+E
+sash~
+The dragon knight sash has the official emblem of dragon knighthood stiched into it.
+~
+A
+18 3
+#29128
+silver dragon leather padding~
+a leather padding barding~
+A dragon's leather padding barding has been left here.~
+~
+9 0 1025 2
+10 10 0 0 0 10 0
+1 70 7
+4
+4
+0
+0
+0
+0
+S 0 0
+E
+padding barding~
+The leather padded barding is a protective layer for the dragon over their armored scales.
+~
+A
+18 2
+A
+2 1
+#29200
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#29100
+A Mountain's Crevase~
+Not Assigned~
+The crevase is very large and leads into a massive tunnel. There are wagon 
+tracks that lead in and out of here. A few massive size boulders have been 
+moved to the sides of the path. There is very little vegetation growing 
+around. A fairly active stream of water runs down the side of the 
+mountain. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29101
+D11
+~
+~
+0 -1 49131
+S
+#29101
+A Wooden Geared Bridge~
+Not Assigned~
+The wood bridge is constructed out of heavy timbers.  There are pulleys setup to
+allow the bridge to be taken down and put in place with the pull of a lever.  A
+massive half wall has been constructed on the other side of the bridge for a guard
+to be stationed with the lever.
+~
+1 0 13
+D0
+~
+~
+0 -1 29102
+D2
+~
+~
+0 -1 29100
+R M 0 29100 1 29101
+  R E 0 29101 1 6
+  R G 0 29102 1
+  R E 0 29104 1 5
+  R E 0 29105 1 16
+  R E 0 29106 1 8
+  R G 0 29119 1
+S
+#29102
+Along a Double Tracked Mine Shaft~
+Not Assigned~
+A right angle corner of the mine shaft. There are oak timbers interlocked 
+to provide support to the walls and ceiling. A mine cart tracks leads down 
+the mine shaft in both directions.
+~
+1 0 13
+D1
+~
+~
+0 -1 29103
+D2
+~
+~
+0 -1 29101
+S
+#29103
+A Double Tracked Intersection~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore.
+~
+1 0 13
+D1
+~
+~
+0 -1 29105
+D2
+~
+~
+0 -1 29104
+D3
+~
+~
+0 -1 29102
+R M 0 29102 1 29103
+  R E 0 29107 1 12
+  R E 0 29108 1 16
+  R E 0 29109 1 1
+  R E 0 29110 1 11
+  R E 0 29111 1 24
+  R G 0 29112 1
+  R G 0 29100 1
+  R G 0 29119 1
+S
+#29104
+Within the Double Tracks Mine Shaft~
+Not Assigned~
+Oake timbers help support the roof and ceiling here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the mine 
+shaft depths. A few small rocks and stones are along the ground.
+~
+1 0 13
+D0
+~
+~
+0 -1 29103
+D1
+~
+~
+0 -1 29108
+S
+#29105
+Within a Double Tracked Intersection~
+Not Assigned~
+The mine cart tracks intersect here. There is a lever which determines 
+which way the cart shall go. Bronze flecks are along the walls from 
+mining. Large oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29109
+D2
+~
+~
+0 -1 29106
+D3
+~
+~
+0 -1 29103
+S
+#29106
+Submerged Double Tracked Section~
+Not Assigned~
+The water comes completely to the ceiling of the mine shaft here. There 
+appears to have been some sort of collasp in the ceiling to the west, 
+where maybe some of the water could've drained off in. The tracks lead 
+west under the rubble. 
+~
+1 0 8
+D0
+~
+~
+0 -1 29105
+D1
+~
+~
+0 -1 29110
+D2
+~
+~
+0 -1 29107
+D3
+~
+~
+256 -1 29245
+S
+#29107
+Double Tracks Covered in Water~
+Not Assigned~
+The tracks are covered in water. Some areas are deeper than others, but 
+water appears to be moving in a direction from a current. The large 
+timbers still provide for the support of the walls and ceiling but they 
+are getting soaked with the water. 
+~
+1 0 6
+D0
+~
+~
+0 -1 29106
+D3
+~
+~
+0 -1 29108
+S
+#29108
+Along the Double Tracks Mine Shaft~
+Not Assigned~
+Oake timbers help support the roof and ceiling here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the mine 
+shaft depths. A few small rocks and stones are along the ground. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29107
+D3
+~
+~
+0 -1 29104
+S
+#29109
+A Copper Ore Lined Mine Shaft~
+Not Assigned~
+The mine shaft starts to bend here. Oak timbers supports have been 
+recently added. There are some mushrooms growing along the side of the 
+tracks. A set of mine cart tracks run around the bend into the depths 
+below.
+~
+1 0 13
+D0
+~
+~
+0 -1 29111
+D2
+~
+~
+0 -1 29105
+S
+#29110
+Double Tracks Covered in Water~
+Not Assigned~
+The tracks are covered in water. Some areas are deeper than others, but 
+water appears to be moving in a direction from a current. The large 
+timbers still provide for the support of the walls and ceiling but they 
+are getting soaked with the water
+~
+1 0 6
+D0
+~
+~
+0 -1 29109
+D3
+~
+~
+0 -1 29106
+S
+#29111
+Along the Copper Ore lined Mine Shaft~
+Not Assigned~
+The passageway has a set of mine tracks that run down it's length. There 
+are signs of a small battle here. A few broken arrows litter the ground. 
+Several oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29112
+D2
+~
+~
+0 -1 29109
+S
+#29112
+Along a Copper Ore Lined Intersection~
+Not Assigned~
+A sudden turn in the passage is marked by the mine cart tracks. A cluster 
+of mushrooms are growing along the side of the tracks. Large oak timbers 
+support the ceiling and walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 29113
+D2
+~
+~
+0 -1 29111
+D3
+~
+~
+0 -1 29114
+S
+#29113
+Along the Mine Shaft~
+Not Assigned~
+The walls are gouged up from recent mining, and show large amounts of 
+bronze ore. The mine cart tracks make a turn here. Large oak timber 
+support the ceiling and wall
+~
+1 0 13
+D3
+~
+~
+0 -1 29112
+S
+#29114
+A Supply Point~
+Not Assigned~
+Several wooden crates of supplies are stacked up against the walls. The 
+mine cart tracks lead up to a loading platform. Oak timbers help support 
+the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29115
+D1
+~
+~
+0 -1 29112
+S
+#29115
+The Crossroads Intersection~
+Not Assigned~
+There are solid oak beams setup in an interlocking style to support the
+weight of the walls, and ceiling.  There are flecks of bronze that can
+be made out along the gouged walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 29117
+D1
+~
+~
+0 -1 29116
+D2
+~
+~
+0 -1 29114
+R M 0 29103 1 29115
+  R E 0 29113 1 12
+  R E 0 29114 1 16
+  R G 0 29115 1
+S
+#29116
+Along the Freshly Dug Mine Shaft~
+Not Assigned~
+A series of thick mushrooms grow along the walls here. A few spots of 
+bronze ore can be seen along the walls. The mine cart tracks run down the 
+passageway. Oak timbers support the ceiling and walls
+~
+1 0 13
+D0
+~
+~
+0 -1 29118
+D3
+~
+~
+0 -1 29115
+S
+#29117
+Within a Freshly Dug Mine Shaft~
+Not Assigned~
+A series of thick mushrooms grow along the walls here. A few spots of 
+bronze ore can be seen along the walls. The mine cart tracks run down the 
+passageway. Oak timbers support the ceiling and walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 29118
+D2
+~
+~
+0 -1 29115
+D3
+~
+~
+0 -1 29119
+S
+#29118
+Along the Freshly Dug Mine Shaft~
+Not Assigned~
+The passageway has a set of mine tracks that run down it's length. There 
+are signs of a small battle here. A few broken arrows litter the ground. 
+Several oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29116
+D3
+~
+~
+0 -1 29117
+S
+#29119
+A Freshly Dug Mine Shaft~
+Not Assigned~
+Oak timbers help support the ceiling and walls here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the 
+depths of the passageway. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29117
+D3
+~
+~
+0 -1 29120
+S
+#29120
+Within the Cleared Mine Shaft~
+Not Assigned~
+Oak timbers help support the ceiling and walls here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the 
+depths of the passageway.
+~
+1 0 13
+D1
+~
+~
+0 -1 29119
+D2
+~
+~
+0 -1 29121
+S
+#29121
+Along the Cleared Mine Shaft~
+Not Assigned~
+Oak timbers help support the ceiling and walls here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the 
+depths of the passageway.
+~
+1 0 13
+D0
+~
+~
+0 -1 29120
+D2
+~
+~
+0 -1 29122
+S
+#29122
+A Water Well at the Cleared Mine Shaft~
+Not Assigned~
+A massive stone well is over the top of an underground spring. Thick hemp 
+rope lowers a bucket up and down to the water below. The mine cart tracks 
+have a loading platform next to the well.
+~
+1 0 13
+D0
+~
+~
+0 -1 29121
+D2
+~
+~
+0 -1 29123
+R O 0 29126 1 29122
+S
+#29123
+Along the Cleared Mine Shaft~
+Not Assigned~
+There are flecks of silver ore visible on the walls where they have been 
+mined. Large oak timbers help support the walls and ceiling. A rusty set 
+of mine tracks lay across a small amount of water.
+~
+1 0 13
+D0
+~
+~
+0 -1 29122
+D2
+~
+~
+0 -1 29124
+S
+#29124
+A Bend Along the Secondary Mine Shaft~
+Not Assigned~
+The mine tracks turn suddenly here. There are large green mushrooms 
+growing along the side of the tracks. Oak timbers help support the walls 
+and ceiling. A few flecks of bronze ore can be seen on the walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29123
+D3
+~
+~
+0 -1 29125
+S
+#29125
+Within the Secondary Mine Shaft~
+Not Assigned~
+There are signs of a struggle here with a small trail of blood leading 
+down the passage. Thick oak timbers help support the weight of the walls 
+and ceiling. A mine cart tracks run through the passage.
+~
+1 0 13
+D1
+~
+~
+0 -1 29124
+D3
+~
+~
+0 -1 29126
+S
+#29126
+Along the Secondary Mine Shaft~
+Not Assigned~
+There are flecks of silver ore visible on the walls where they have been 
+mined. Large oak timbers help support the walls and ceiling. A rusty set 
+of mine tracks lay across a small amount of water.
+~
+1 0 13
+D1
+~
+~
+0 -1 29125
+D2
+~
+~
+0 -1 29127
+D3
+~
+~
+0 -1 29135
+S
+#29127
+A Broken Mine Track Section~
+Not Assigned~
+The mine cart tracks are broken from what appears to have been a runaway 
+cart. There are clusters of giant sized mushrooms along the side of the 
+tracks. Oak timbers help support the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29126
+D2
+~
+~
+0 -1 29128
+S
+#29128
+Along a Mine Shaft~
+Not Assigned~
+The walls are recently dug allowing pieces of silver ore to show. A set of 
+mine cart tracks run down the passageway. There are oak timbers that have 
+cracks running down them supporting the walls and ceiling
+~
+1 0 13
+D0
+~
+~
+0 -1 29127
+D2
+~
+~
+0 -1 29129
+S
+#29129
+Within a Mine Shaft~
+Not Assigned~
+The walls are recently dug allowing pieces of silver ore to show. A set of 
+mine cart tracks run down the passageway. There are oak timbers that have 
+cracks running down them supporting the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29128
+D3
+~
+~
+0 -1 29130
+S
+#29130
+Along the Mineshaft~
+Not Assigned~
+A pile of small rocks are along the far wall as well as a collapsed oak 
+timber at that point. There are mine cart tracks that rundown the length 
+of the passageway.
+~
+1 0 13
+D1
+~
+~
+0 -1 29129
+D3
+~
+~
+0 -1 29131
+S
+#29131
+The Western Mine Shaft~
+Not Assigned~
+A pile of small rocks are along the far wall as well as a collapsed oak 
+timber at that point. There are mine cart tracks that rundown the length 
+of the passageway.
+~
+1 0 13
+D0
+~
+~
+0 -1 29132
+D1
+~
+~
+0 -1 29130
+S
+#29132
+The Western Mine Shaft~
+Not Assigned~
+There are small rocks and broken timber scattered about here. Mine cart 
+tracks go through the passageway. A cluster of giant sized mushrooms are 
+against the wall.
+~
+1 0 13
+D0
+~
+~
+0 -1 29133
+D2
+~
+~
+0 -1 29131
+S
+#29133
+The Western Mine Shaft~
+Not Assigned~
+There are small rocks and broken timber scattered about here. Mine cart 
+tracks go through the passageway. A cluster of giant sized mushrooms are 
+against the wall.
+~
+1 0 13
+D0
+~
+~
+0 -1 29134
+D2
+~
+~
+0 -1 29132
+S
+#29134
+The Western Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a past 
+battle here. The passageway has a set of mine cart tracks that runs along 
+it. The walls are supported by oak timbers.
+~
+1 0 13
+D1
+~
+~
+0 -1 29135
+D2
+~
+~
+0 -1 29133
+S
+#29135
+An Intersection Along the Secondary Mine Shaft~
+Not Assigned~
+The mine cart tracks intersect here. There is a lever which determines 
+which way the cart shall go. Bronze flecks are along the walls from 
+mining. Large oak timbers help support the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29136
+D1
+~
+~
+0 -1 29126
+D3
+~
+~
+0 -1 29134
+S
+#29136
+The Northern Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a past 
+battle here. The passageway has a set of mine cart tracks that runs along 
+it. The walls are supported by oak timbers. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29137
+D2
+~
+~
+0 -1 29135
+S
+#29137
+The Northern Mine Shaft~
+Not Assigned~
+A near shattered mine cart is next to the mine cart tracks. Pieces of 
+broken boards and loose wheels lay about. Oak timbers help reinforce the 
+walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29138
+D2
+~
+~
+0 -1 29136
+R M 0 29112 1 29137
+S
+#29138
+The Northern Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a recent
+battle.  The walls show spots of silver ore from mining work.  A set of
+mine cart tracks lead down the passageway
+~
+1 0 13
+D0
+~
+~
+0 -1 29139
+D1
+~
+~
+0 -1 29147
+D2
+~
+~
+0 -1 29137
+S
+#29139
+The Northern Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a recent
+battle.  The walls show spots of silver ore from mining work.  A set of
+mine cart tracks lead down the passageway.
+~
+1 0 13
+D0
+~
+~
+0 -1 29140
+D1
+~
+~
+0 -1 29146
+D2
+~
+~
+0 -1 29138
+R M 0 29104 1 29139
+  R G 0 29112 1
+  R E 0 29111 1 24
+  R E 0 29108 1 16
+  R E 0 29104 1 5
+  R E 0 29106 1 8
+  R G 0 29119 1
+S
+#29140
+A Tunnel Lined with Cages~
+Not Assigned~
+The long tunnel is lined with a wooden trough on both sides connected to 
+the cages. The trough leads to a funnel which sends the liquid inside into 
+wooden buckets. There are massive cages along both sides of the tunnel. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29141
+D1
+~
+celldoor~
+7 29112 29145
+D2
+~
+~
+0 -1 29139
+D3
+~
+celldoor~
+7 29112 29150
+R D 0 29140 1 2
+R D 0 29140 3 2
+S
+#29141
+Along the Tunnel of Cages~
+Not Assigned~
+The long tunnel is lined with a wooden trough on both sides connected to 
+the cages. The trough leads to a funnel which sends the liquid inside into 
+wooden buckets. There are massive cages along both sides of the tunnel.
+~
+1 0 13
+D0
+~
+~
+0 -1 29142
+D1
+~
+celldoor~
+7 29112 29144
+D2
+~
+~
+0 -1 29140
+D3
+~
+celldoor~
+7 29112 29149
+R D 0 29141 1 2
+R D 0 29141 3 2
+S
+#29142
+The Northern Mine Shaft Intersection~
+Not Assigned~
+There are a set of mine cart tracks that lead down the passageway. A few 
+small rocks and rubble are against the walls. Oak timbers reinforce the 
+walls and ceiling.
+~
+1 0 13
+D1
+~
+~
+0 -1 29143
+D2
+~
+~
+0 -1 29141
+D3
+~
+~
+0 -1 29148
+S
+#29143
+Mine Cart Transition Point~
+Not Assigned~
+The mine cart tracks split at a wooden platform with a switch. The switch 
+controls if a mine cart goes up or down on the tracks. A cluster of giant 
+sized mushrooms are growing by the passage walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29151
+D3
+~
+~
+0 -1 29142
+S
+#29144
+A Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D3
+~
+celldoor~
+7 29112 29141
+R M 0 29108 1 29144
+R D 0 29144 3 2
+S
+#29145
+A Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D3
+~
+celldoor~
+7 29112 29140
+R M 0 29107 1 29145
+R D 0 29145 3 2
+S
+#29146
+A Large Quarry~
+Not Assigned~
+A raw unsupported quarry with big rocks of gold are throughout this space. 
+There are stalagmites all over the place. A few giant sized mushrooms are 
+growing in small clusters.
+~
+1 0 13
+D3
+~
+~
+0 -1 29139
+S
+#29147
+A Large Quarry~
+Not Assigned~
+A raw unsupported quarry with big rocks of gold are throughout this space. 
+There are stalagmites all over the place. A few giant sized mushrooms are 
+growing in small clusters.
+~
+1 0 13
+D3
+~
+~
+0 -1 29138
+S
+#29148
+End of the Tracks~
+Not Assigned~
+The mining cart tracks end at a break point here. There are several blocks 
+on the tracks to slow down any runaway carts. Large oak timbers help 
+support the walls and ceiling.
+~
+1 0 13
+D1
+~
+~
+0 -1 29142
+S
+#29149
+A Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D1
+~
+celldoor~
+7 29112 29141
+R M 0 29109 1 29149
+R D 0 29149 1 2
+S
+#29150
+A Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D1
+~
+celldoor~
+7 29112 29140
+R M 0 29110 1 29150
+R D 0 29150 1 2
+S
+#29151
+A Vast Cavern~
+Not Assigned~
+There is a series of giant sized mushroom clusters within the room. A 
+small amount of water runs down the edges of the walls. There are 
+stalagmites here and there.
+~
+1 0 13
+D0
+~
+~
+0 -1 29152
+D2
+~
+~
+0 -1 29143
+S
+#29152
+Along a Mine Shaft~
+Not Assigned~
+The mine cart tracks extends throughout the passageway here. There are a 
+few large rocks that have fallen from the sides of the passage, and they 
+have been pushed back to the walls. The walls and ceiling are reinforced 
+by oak timbers.
+~
+1 0 13
+D1
+~
+~
+0 -1 29153
+D2
+~
+~
+0 -1 29151
+S
+#29153
+Corner of a Mine Shaft~
+Not Assigned~
+A right angle corner of the mine shaft. There are oak timbers interlocked 
+to provide support to the walls and ceiling. A mine cart tracks leads down 
+the mine shaft in both directions.
+~
+1 0 13
+D0
+~
+~
+0 -1 29154
+D3
+~
+~
+0 -1 29152
+S
+#29154
+Within the Mine Shaft~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore.
+~
+1 0 13
+D2
+~
+~
+0 -1 29153
+D6
+~
+~
+0 -1 29155
+S
+#29155
+The Primary Mine Shaft~
+Not Assigned~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29156
+D9
+~
+~
+0 -1 29154
+S
+#29156
+The Primary Mine Shaft~
+Not Assigned~
+There are large mushrooms growing in clusters along the walls here. Large 
+oak timbers provide support for the ceiling and walls. A mine cart track 
+runs along the mine shaft's length. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29165
+D2
+~
+~
+0 -1 29155
+D3
+~
+~
+0 -1 29157
+S
+#29157
+Along the Mine Shaft~
+Not Assigned~
+Oake timbers help support the roof and ceiling here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the mine 
+shaft depths. A few small rocks and stones are along the ground.
+~
+1 0 13
+D1
+~
+~
+0 -1 29156
+D3
+~
+~
+0 -1 29158
+S
+#29158
+Along the Mine Shaft~
+Not Assigned~
+There are some broken mining tools scattered about here. Flecks of bronze 
+along the walls are visible. A mining cart tracks runs down the length of 
+the passageway here. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29157
+D3
+~
+~
+0 -1 29159
+S
+#29159
+A Bend in the Mine Shaft~
+Not Assigned~
+The mine shaft starts to bend here. Oak timber supports have been 
+recently There are some mushrooms growing along the side of the tracks. 
+reinforced. A set of mine cart tracks run around the bend into the depths 
+below.
+~
+1 0 13
+D0
+~
+~
+0 -1 29160
+D1
+~
+~
+0 -1 29158
+S
+#29160
+Along the Mine Shaft~
+Not Assigned~
+There are some broken mining tools scattered about here. Flecks of bronze 
+along the walls are visible. A mining cart tracks runs down the length of 
+the passageway here. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29161
+D2
+~
+~
+0 -1 29159
+S
+#29161
+A Bend in the Mine Shaft~
+Not Assigned~
+A sudden turn in the passage is marked by the mine cart tracks. A cluster 
+of mushrooms are growing along the side of the tracks. Large oak timbers 
+support the ceiling and walls. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29162
+D2
+~
+~
+0 -1 29160
+S
+#29162
+Within the Mine Shaft~
+Not Assigned~
+A series of thick mushrooms grow along the walls here. A few spots of 
+bronze ore can be seen along the walls. The mine cart tracks run down the 
+passageway. Oak timbers support the ceiling and walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 29163
+D3
+~
+~
+0 -1 29161
+S
+#29163
+Along the Mine Shaft~
+Not Assigned~
+A series of thick mushrooms grow along the walls here. A few spots of 
+bronze ore can be seen along the walls. The mine cart tracks run down the 
+passageway. Oak timbers support the ceiling and walls. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29164
+D3
+~
+~
+0 -1 29162
+S
+#29164
+A Intersection on the Primary Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D0
+~
+door~
+3 -1 29243
+D2
+~
+~
+0 -1 29165
+D3
+~
+~
+0 -1 29163
+R D 0 29164 0 1
+S
+#29165
+A Intersection on the Primary Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29164
+D1
+~
+~
+0 -1 29166
+D2
+~
+~
+0 -1 29156
+S
+#29166
+Along a Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D1
+~
+~
+0 -1 29167
+D3
+~
+~
+0 -1 29165
+S
+#29167
+An Intersection in the Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D2
+~
+~
+0 -1 29168
+D3
+~
+~
+0 -1 29166
+D6
+~
+~
+0 -1 29177
+R M 0 29111 1 29167
+S
+#29168
+An Underground Stream~
+Not Assigned~
+A mine cart tracks have been built up on a bridge that goes over a small 
+underground stream. There are small stones of silver ore shining in the 
+stream. Oak timbers help support the walls and ceiling. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29167
+D2
+~
+~
+0 -1 29169
+S
+#29169
+A Broken Mine Track Section~
+Not Assigned~
+The mine cart tracks are broken from what appears to have been a runaway 
+cart. There are clusters of giant sized mushrooms along the side of the 
+tracks. Oak timbers help support the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29168
+D2
+~
+~
+0 -1 29170
+S
+#29170
+A Bend in the Mine Shaft~
+Not Assigned~
+The walls are gouged up from recent mining, and show large amounts of 
+bronze ore. The mine cart tracks make a turn here. Large oak timber 
+support the ceiling and walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 29169
+D1
+~
+~
+0 -1 29171
+R M 0 29114 1 29170
+S
+#29171
+Within the Mine Shaft~
+Not Assigned~
+A pile of small rocks are along the far wall as well as a collapsed oak 
+timber at that point. There are mine cart tracks that rundown the length 
+of the passageway.
+~
+1 0 13
+D1
+~
+~
+0 -1 29172
+D3
+~
+~
+0 -1 29170
+S
+#29172
+A Bend in the Mine Shaft~
+Not Assigned~
+The walls are gouged up from recent mining, and show large amounts of 
+bronze ore. The mine cart tracks make a turn here. Large oak timber 
+support the ceiling and walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 29173
+D3
+~
+~
+0 -1 29171
+R M 0 29115 1 29172
+S
+#29173
+Descending into the Mine Shaft Depths~
+Not Assigned~
+The mine cart tracks split beside a switch that determines if the cart 
+ascends or descends. There are large oak timbers that help support the 
+walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29174
+D2
+~
+~
+0 -1 29172
+R M 0 29111 2 29173
+S
+#29174
+Along a Mine Shaft~
+Not Assigned~
+There are small rocks and broken timber scattered about here. Mine cart 
+tracks go through the passageway. A cluster of giant sized mushrooms are 
+against the wall. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29175
+D2
+~
+~
+0 -1 29173
+S
+#29175
+Along a Mine Shaft~
+Not Assigned~
+There are small rocks and broken timber scattered about here. Mine cart 
+tracks go through the passageway. A cluster of giant sized mushrooms are 
+against the wall. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29176
+D2
+~
+~
+0 -1 29174
+S
+#29176
+At a Bend in the Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a past 
+battle here. The passageway has a set of mine cart tracks that runs along 
+it. The walls are supported by oak timbers. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29175
+D3
+~
+~
+0 -1 29177
+R M 0 29113 1 29176
+S
+#29177
+A Mine Intersection~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29176
+D7
+~
+~
+0 -1 29178
+D9
+~
+~
+0 -1 29167
+S
+#29178
+Along a Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a recent
+battle.  The walls show spots of silver ore from mining work.  A set of
+mine cart tracks lead down the passageway.
+~
+1 0 13
+D7
+~
+~
+0 -1 29179
+D8
+~
+~
+0 -1 29177
+S
+#29179
+Along a Mine Shaft~
+Not Assigned~
+A few broken arrow shafts on the ground give the impression of a recent
+battle.  The walls show spots of silver ore from mining work.  A set of
+mine cart tracks lead down the passageway.
+~
+1 0 13
+D3
+~
+~
+0 -1 29180
+D8
+~
+~
+0 -1 29178
+S
+#29180
+An Intersection in the Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29187
+D1
+~
+~
+0 -1 29179
+D3
+~
+~
+0 -1 29181
+S
+#29181
+An Intersection in the Mine Shaft~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29186
+D1
+~
+~
+0 -1 29180
+D3
+~
+~
+0 -1 29182
+S
+#29182
+Within the Intersection~
+Not Assigned~
+At the intersection, there is a switch which is used for changing the 
+direction of mine carts as they come to the intersection. There are oak 
+timbers supporting the walls and ceiling.
+~
+1 0 13
+D0
+~
+~
+0 -1 29185
+D1
+~
+~
+0 -1 29181
+D3
+~
+~
+0 -1 29183
+S
+#29183
+Along a Bend in the Mine Shaft~
+Not Assigned~
+A sudden turn in the passage is marked by the mine cart tracks. A cluster 
+of mushrooms are growing along the side of the tracks. Large oak timbers 
+support the ceiling and walls.
+~
+1 0 13
+D0
+~
+~
+0 -1 29184
+D1
+~
+~
+0 -1 29182
+S
+#29184
+Within a Mine Shaft~
+Not Assigned~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29183
+S
+#29185
+Within a Mine Shaft~
+Not Assigned~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29182
+S
+#29186
+Within a Mine Shaft~
+Not Assigned~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29181
+S
+#29187
+A Jagged Hole~
+Not Assigned~
+A vast hole has been torn through the mine shaft here by something.  There is
+a jagged wall of stone that leads downward.  The once mighty timbers that held
+up part of the wall have been snapped into and lay to the sides.
+~
+1 0 13
+D2
+~
+~
+0 -1 29180
+D5
+~
+~
+128 -1 29231
+S
+#29188
+Within a Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage. There is a 
+strange apparatus machine that is connected to the side of the wooden 
+trough. Massive size chains are laying about the cell. The wall on the 
+west side appears to be weakened enough it maybe diggable. 
+~
+1 0 13
+D0
+~
+celldoor~
+7 29112 29189
+D3
+~
+~
+256 -1 29202
+R D 0 29188 0 2
+R D 0 29188 3 3
+S
+#29189
+The Passageway End~
+Not Assigned~
+The long tunnel is lined with a wooden trough on both sides connected to 
+the cages. The trough leads to a funnel which sends the liquid inside into 
+wooden buckets.  There are massive cages along the south side of the tunnel.
+~
+1 0 13
+D1
+~
+~
+0 -1 29190
+D2
+~
+celldoor~
+7 29112 29188
+R D 0 29189 2 2
+S
+#29190
+Along the Passageway~
+Not Assigned~
+The long tunnel is lined with a wooden trough on both sides connected to 
+the cages. The trough leads to a funnel which sends the liquid inside into 
+wooden buckets.  There are massive cages along the south side of the tunnel.
+~
+1 0 13
+D1
+~
+~
+0 -1 29192
+D2
+~
+celldoor~
+7 29112 29191
+D3
+~
+~
+0 -1 29189
+R D 0 29190 2 2
+S
+#29191
+Within a Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D0
+~
+celldoor~
+7 29112 29190
+R M 0 29108 3 29191
+R D 0 29191 0 2
+S
+#29192
+Along the Passageway~
+Not Assigned~
+The long tunnel is lined with a wooden trough on both sides connected to 
+the cages. The trough leads to a funnel which sends the liquid inside into 
+wooden buckets.  There are massive cages along the south side of the tunnel.
+~
+1 0 13
+D1
+~
+~
+0 -1 29193
+D2
+~
+celldoor~
+7 29112 29194
+D3
+~
+~
+0 -1 29190
+R D 0 29192 2 2
+S
+#29193
+Within the Mine Shaft~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29196
+D2
+~
+~
+0 -1 29195
+D3
+~
+~
+0 -1 29192
+S
+#29194
+Within a Massive Cage~
+Not Assigned~
+The cage is made with titanium blocks on all sides of the cage.  There is
+a strange apparatus machine that is connected to the side of the wooden
+trough.  Massive size chains are laying about the cell.
+~
+1 0 13
+D0
+~
+celldoor~
+7 29112 29192
+R M 0 29108 3 29194
+R D 0 29194 0 2
+S
+#29195
+Along the Mine Tracks~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29193
+S
+#29196
+Along the Mine Shaft~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29197
+D2
+~
+~
+0 -1 29193
+S
+#29197
+A Bend in the Mine Shaft~
+Not Assigned~
+The mine shaft starts to bend here. Oak timbers supports have been 
+recently added. There are some mushrooms growing along the side of the 
+tracks. A set of mine cart tracks run around the bend into the depths 
+below. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29196
+D3
+~
+~
+0 -1 29198
+S
+#29198
+Along the Mine Shaft~
+Not Assigned~
+There are some broken mining tools scattered about here. Flecks of bronze 
+along the walls are visible. A mining cart tracks runs down the length of 
+the passageway here.
+~
+1 0 13
+D1
+~
+~
+0 -1 29197
+D7
+~
+~
+0 -1 29199
+S
+#29199
+A Bend in the Mine Shaft~
+Not Assigned~
+A sudden turn in the passage is marked by the mine cart tracks. A cluster 
+of mushrooms are growing along the side of the tracks. Large oak timbers 
+support the ceiling and walls.
+~
+1 0 13
+D8
+~
+~
+0 -1 29198
+D9
+~
+~
+0 -1 29200
+S
+#29200
+Corner of a Mine Shaft~
+Not Assigned~
+A right angle corner of the mine shaft. There are oak timbers interlocked 
+to provide support to the walls and ceiling. A mine cart tracks leads down 
+the mine shaft in both directions.
+~
+1 0 13
+D6
+~
+~
+0 -1 29199
+D7
+~
+~
+0 -1 29201
+S
+#29201
+Within the Mine Shaft~
+Not Assigned~
+There are thick oak timbers that have been interlocked to provide support 
+for the ceiling and walls. The walls have been gouged up here showing 
+large amounts of bronze ore.
+~
+1 0 13
+D7
+~
+~
+0 -1 29204
+D8
+~
+~
+0 -1 29200
+D9
+~
+~
+0 -1 29202
+S
+#29202
+Within the Mine Shaft~
+Not Assigned~
+This section of the mine shaft appears to be under construction. There are 
+tools laying about and some reinforcements have been added to the oak 
+timbers that support the ceiling and walls.
+~
+1 0 13
+D1
+~
+~
+256 -1 29188
+D6
+~
+~
+0 -1 29201
+D7
+~
+~
+0 -1 29203
+R M 0 29116 1 29202
+  R E 0 29101 1 6
+  R E 0 29107 1 12
+  R E 0 29110 1 11
+  R E 0 29108 1 16
+R D 0 29202 1 3
+S
+#29203
+Along the Mine Shaft~
+Not Assigned~
+Oake timbers help support the roof and ceiling here. There are flecks of 
+bronze along the walls. A set of mine cart tracks lead down into the mine 
+shaft depths. A few small rocks and stones are along the ground. 
+~
+1 0 13
+D6
+~
+~
+0 -1 29204
+D8
+~
+~
+0 -1 29202
+S
+#29204
+Along the Mine Shaft~
+Not Assigned~
+There are some broken mining tools scattered about here. Flecks of bronze 
+along the walls are visible. A mining cart tracks runs down the length of 
+the passageway here.
+~
+1 0 13
+D0
+~
+~
+0 -1 29205
+D8
+~
+~
+0 -1 29201
+D9
+~
+~
+0 -1 29203
+S
+#29205
+Within a Massive Tunnel~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 0 13
+D2
+~
+~
+0 -1 29204
+D6
+~
+~
+0 -1 29206
+R M 0 29117 1 29205
+  R E 0 29111 1 24
+  R E 0 29109 1 1
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+S
+#29206
+Within the Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 0 13
+D1
+~
+~
+0 -1 29207
+D9
+~
+~
+0 -1 29205
+S
+#29207
+Within the Tunnel~
+Not Assigned~
+There are several sets of stalagmites along the edges of the walls with a
+few giant clusters of mushrooms interspersed among them. There are gouges
+in the walls from large talons.
+~
+1 0 13
+D3
+~
+~
+0 -1 29206
+D6
+~
+~
+0 -1 29208
+D8
+~
+~
+0 -1 29210
+S
+#29208
+Within a Passageway~
+Not Assigned~
+Large amounts of steam fill the passage descent obscuring most visibility.
+There are sharp stone crevices along the walls that can be made out every
+now and then. A hot gust of wind comes from below.
+~
+1 0 13
+D8
+~
+~
+0 -1 29209
+D9
+~
+~
+0 -1 29207
+S
+#29209
+Down a Passageway~
+Not Assigned~
+A boulder the size of a large house is against the wall of the passage.
+There are large cracks in the boulder from water that has dripped down
+onto the boulder. A series of tracks lead down
+~
+1 0 13
+D1
+~
+~
+0 -1 29211
+D7
+~
+~
+0 -1 29208
+D9
+~
+~
+0 -1 29210
+S
+#29210
+Within the Tunnel~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here
+~
+1 0 13
+D6
+~
+~
+0 -1 29209
+D7
+~
+~
+0 -1 29207
+S
+#29211
+Within a Passageway~
+Not Assigned~
+There are clusters of stalagmites around this cavern. A few giant sized
+mushrooms are growing along the walls. A few small rocks are piled to the
+rear of the cavern.
+~
+1 0 13
+D1
+~
+~
+0 -1 29212
+D3
+~
+~
+0 -1 29209
+S
+#29212
+Within a Passageway~
+Not Assigned~
+The passage becomes almost a right angle as turn sharply goes north here.
+There are several sets of tracks that lead north along the ground. An
+incredible amount of heat comes from the walls and ground here.
+~
+1 0 13
+D0
+~
+~
+0 -1 29213
+D3
+~
+~
+0 -1 29211
+R M 0 29118 1 29212
+  R E 0 29108 1 16
+S
+#29213
+Along a Passageway~
+Not Assigned~
+The passage becomes almost a right angle as the turn sharply goes south 
+here. There are several sets of tracks that lead south along the ground. 
+An incredible amount of heat comes from the walls and ground here. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29212
+D7
+~
+~
+0 -1 29214
+S
+#29214
+Along a Passageway~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 0 13
+D7
+~
+~
+0 -1 29215
+D8
+~
+~
+0 -1 29213
+S
+#29215
+A Massive Cavern~
+Not Assigned~
+The passage becomes almost a right as the turn goes sharply west here.
+There are several sets of tracks that lead west along the ground.  An
+incredible amount of heat comes from the walls and ground here.
+~
+1 0 13
+D3
+~
+~
+0 -1 29216
+D8
+~
+~
+0 -1 29214
+S
+#29216
+Along a Passageway~
+Not Assigned~
+A boulder the size of a large house is against the wall of the passage.
+There are large cracks in the boulder from water that has dripped down
+onto the boulder. A series of tracks lead off to the northwest.
+~
+1 0 13
+D1
+~
+~
+0 -1 29215
+D7
+~
+~
+0 -1 29217
+S
+#29217
+Along a Passageway~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There
+are small piles of skeleton bones shoved to the sides of the cell. A few
+stalagmites are along the passage. A great heat comes from the ground.
+~
+1 0 13
+D7
+~
+~
+0 -1 29218
+D8
+~
+~
+0 -1 29216
+R M 0 29119 1 29217
+  R G 0 29100 1
+  R E 0 29128 1 12
+S
+#29218
+Within a Massive Cavern~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There
+are small piles of skeleton bones shoved to the sides of the cell. A few
+stalagmites are along the passage. A great heat comes from the ground.
+~
+1 0 13
+D0
+~
+~
+0 -1 29219
+D8
+~
+~
+0 -1 29217
+S
+#29219
+Along a Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool
+~
+1 0 13
+D0
+~
+~
+0 -1 29220
+D1
+~
+~
+0 -1 29228
+D2
+~
+~
+0 -1 29218
+D3
+~
+~
+0 -1 29223
+S
+#29220
+Along a Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 0 13
+D0
+~
+~
+0 -1 29221
+D1
+~
+~
+0 -1 29227
+D2
+~
+~
+0 -1 29219
+D3
+~
+~
+0 -1 29224
+S
+#29221
+Along a Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool
+~
+1 0 13
+D0
+~
+~
+0 -1 29222
+D1
+~
+~
+0 -1 29226
+D2
+~
+~
+0 -1 29220
+D3
+~
+~
+0 -1 29225
+S
+#29222
+Within a Passageway~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 0 13
+D0
+~
+~
+0 -1 29229
+D2
+~
+~
+0 -1 29221
+S
+#29223
+A Broken Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29219
+S
+#29224
+A Broken Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29220
+S
+#29225
+Within a Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D1
+~
+~
+0 -1 29221
+S
+#29226
+Within a Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D3
+~
+~
+0 -1 29221
+S
+#29227
+A Broken Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D3
+~
+~
+0 -1 29220
+S
+#29228
+A Broken Cage~
+Not Assigned~
+The walls are lined with titanium blocks. Something massive must've broke 
+through the cage. There is a strange contraption on the ground that was 
+connected to a shattered wooden trough. A few skeleton bones are along the 
+ground. 
+~
+1 0 13
+D3
+~
+~
+0 -1 29219
+S
+#29229
+Along the Passageway~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 0 13
+D2
+~
+~
+0 -1 29222
+D6
+~
+~
+0 -1 29230
+S
+#29230
+Before a Broken Mine Shaft~
+Not Assigned~
+The passage is covered in a thick ash along the walls and ground. A heavy
+amount of ash still floats in the air. There is a large crack in the
+ground that the ash and hot air pours through.
+~
+1 0 13
+D1
+~
+~
+0 -1 29231
+D9
+~
+~
+0 -1 29229
+S
+#29231
+Within a Intersection~
+Not Assigned~
+A vast hole leads up into a mine shaft. There is a jagged wall of stone 
+that leads up. A few broken timbers are scattered on the ground. There is 
+a small cluster of mushrooms that growing about here. 
+~
+1 0 13
+D2
+~
+~
+0 -1 29242
+D3
+~
+~
+0 -1 29230
+D4
+~
+~
+128 -1 29187
+D6
+~
+~
+0 -1 29232
+S
+#29232
+Within a Broken Mine Shaft Section~
+Not Assigned~
+The tunnel splits off into a ledge of some sort to the south, and a small
+passage way to the northeast. Heat pours up from below. There are sharp rocks
+all along the sides of the tunnel walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 29233
+D9
+~
+~
+0 -1 29231
+S
+#29233
+Within a Broken Mine Shaft~
+Not Assigned~
+The passageway expands greatly here due to recent excavation. The sides
+have marks along them from some type of tool. There are giant sized
+mushrooms growing along the sides.
+~
+1 0 13
+D2
+~
+~
+0 -1 29234
+D3
+~
+~
+0 -1 29232
+S
+#29234
+Within a Massive Pool~
+Not Assigned~
+A massive pool of clear water fills this passageway.  There are stalagmites along
+the walls with giant mushrooms clustered in between them.  A thick layer of mildew is
+along various boulders here.
+~
+1 0 6
+D0
+~
+~
+0 -1 29233
+D2
+~
+~
+0 -1 29235
+S
+#29235
+Along the Passageway~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 0 13
+D0
+~
+~
+0 -1 29234
+D2
+~
+~
+0 -1 29236
+S
+#29236
+Within the Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 0 13
+D0
+~
+~
+0 -1 29235
+D2
+~
+~
+0 -1 29237
+S
+#29237
+Along the Tunnel~
+Not Assigned~
+There are several sets of stalagmites along the edges of the walls with a
+few giant clusters of mushrooms interspersed among them. There are gouges
+in the walls from large talons.
+~
+1 0 13
+D0
+~
+~
+0 -1 29236
+D2
+~
+~
+0 -1 29238
+S
+#29238
+Within a Passageway~
+Not Assigned~
+Large amounts of steam fill the passage descent obscuring most visibility.
+There are sharp stone crevices along the walls that can be made out every
+now and then. A hot gust of wind comes from below.
+~
+1 0 13
+D0
+~
+~
+0 -1 29237
+D3
+~
+~
+0 -1 29239
+S
+#29239
+Along the Passageway~
+Not Assigned~
+The tunnel splits off into a ledge of some sort to the southeast, and a small
+passage way to the north. Heat pours up from below. There are sharp rocks
+all along the sides of the tunnel walls.
+~
+1 0 13
+D1
+~
+~
+0 -1 29238
+D7
+~
+~
+0 -1 29240
+S
+#29240
+Along the Tunnel~
+Not Assigned~
+The passage turns sharply to the south here. There is a heavy build up of 
+ash along the walls and floor. A few cracks in the walls and floor haveash 
+billowing out through them. 
+~
+1 0 13
+D0
+~
+~
+0 -1 29241
+D8
+~
+~
+0 -1 29239
+S
+#29241
+Within a Tunnel~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here./f
+~
+1 0 13
+D0
+~
+~
+0 -1 29242
+D2
+~
+~
+0 -1 29240
+S
+#29242
+Within the Passageway~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here.
+~
+1 0 13
+D0
+~
+~
+0 -1 29231
+D2
+~
+~
+0 -1 29241
+S
+#29243
+Captain's Quarters~
+~
+The room is has a few piles of paperwork and trash in the corners.  A few hooded
+lanterns are mounted to the walls.  A solid looking oak door that has been 
+reinforced with steel ribbing is behind the desk.  A map of the mineshaft has
+been hung on the wall.
+~
+1 1073741824 1
+D0
+~
+door~
+8389639 29121 29244
+D2
+~
+door~
+3 -1 29164
+R M 0 29105 1 29243
+  R E 0 29117 1 5
+  R E 0 29118 1 16
+  R E 0 29120 1 14
+  R E 0 29120 1 15
+R O 0 29116 1 29243
+R O 0 29121 1 29243
+R D 0 29243 0 2
+R D 0 29243 2 1
+E
+map~
+The map has a few tunnels highlighted that have the highest amount of bronze in them.
+~
+S
+#29244
+A Small Bedroom~
+Not Assigned~
+The room is within a stone block chamber. There is nothing on the walls 
+but one hooded lantern mounted to the wall. There is a small oak bed in 
+the corner of the room. A few different types of clothing are stacked in 
+the corner. 
+~
+1 1073741824 1
+D2
+~
+door~
+8389639 29121 29243
+R M 0 29106 1 29244
+R D 0 29244 2 2
+S
+#29245
+Hidden Chamber~
+Not Assigned~
+The chamber appears to have been a runoff for water along the mine shaft but
+it keeps collasping due to the water errosion.  There is a drain that sends water
+out along the bottom of the chamber.  The walls are reinforced by heavy timbers.
+~
+1 1073741824 6
+D1
+~
+~
+0 -1 29106
+R M 0 29200 1 29245
+R O 0 29124 1 29245
+  R P 0 29100 1 29124
+  R P 0 29100 1 29124
+  R P 0 29100 1 29124
+  R P 0 29100 1 29124
+  R P 0 29100 1 29124
+  R P 0 29119 1 29124
+  R P 0 29119 1 29124
+  R P 0 29119 1 29124
+  R P 0 29119 1 29124
+  R P 0 29119 1 29124
+  R P 0 29125 1 29124
+S
+#29246
+Mob Staging Room~
+Not Assigned~
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 29182
+D1
+~
+~
+0 -1 29177
+R M 0 29113 4 29246
+R M 0 29114 5 29246
+R M 0 29115 5 29246
+R M 0 29111 5 29246
+R M 0 29113 4 29246
+R M 0 29113 4 29246
+R M 0 29114 5 29246
+R M 0 29114 5 29246
+R M 0 29114 5 29246
+R M 0 29115 5 29246
+R M 0 29115 5 29246
+R M 0 29115 5 29246
+R M 0 29111 5 29246
+R M 0 29111 5 29246
+S
+#29247
+Mob Loading Room~
+Not Assigned~
+~
+1 1073741824 1
+D1
+~
+~
+0 -1 29213
+D3
+~
+~
+0 -1 29197
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29108 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29102 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29102 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R E 0 29102 1 16
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29116 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+R M 0 29117 9 29247
+  R E 0 29101 1 6
+  R E 0 29119 1 17
+  R G 0 29105 1
+  R E 0 29106 1 8
+  R E 0 29104 1 5
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

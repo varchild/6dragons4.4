@@ -1,0 +1,1158 @@
+#AREA        Mystical Rift~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       9
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+100 100 100 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA strange vibration in the air alerts you to a alien presence. ~
+
+#FLAGS
+452
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#6350
+Death Knight~
+a death knight~
+A death knight is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 0 0 0 48 524291
+> fight_prog 5~
+mpecho &cA death knight bashes you with his graven shield!
+mpdamage $n 300
+mppause 20
+mpat 4 look
+mppause 20
+mpecho &cA death knight feints left, but reverses cutting you from crotch to neck!
+mpdamage $n 500
+~
+> death_prog 100~
+if quest(rift) == 1
+if qkamount(rift) < 49
+mpqkamount $n rift 1
+else
+mpqkamount $n rift 1
+mpquest $n rift 2
+endif
+endif
+~
+|
+#6351
+royal magician Kolak~
+Paleon Royal Magician Kolak~
+A magician wearing the paleon insignia on his robe is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131075 128 900 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 10~
+eldritch
+mppause 5
+eldritch
+mppause 5
+eldritch
+mppause 5
+c 'paralyze'
+mppause 5
+eldritch
+~
+> all_greet_prog 100~
+if istagged($n, rift)
+mppause 3
+else
+mppause 5
+mpechoat $n &CPaleon Royal Magician Kolak says, 'Hail Adventurers!'
+mppause 3
+mpechoat $n &cPaleon Royal Magician Kolak pants heavily appearing to be out of breath.
+mppause 8
+mpechoat $n &CPaleon Royal Magician Kolak says, 'This bodes ill for Paleon!
+mpechoat $n &CThere is a rift to some other world to the north, and demon-like
+mpechoat $n &Ccreatures are coming through it.  I attempted to discover a way
+mpechoat $n &Cto close it, but I failed and a whole legion are following me!
+mpechoat $n &CI have to bring this news to King James in Paleon.  Slay those
+mpechoat $n &Cdemons, and find a way to close the rift if you can!'
+mppause 20
+mpechoat $n &CPaleon Royal Magician Kolak says, 'If you wish to help..&WSAY HELP&C.
+mptag $n rift
+endif
+~
+> speech_prog help~
+mpquest $n rift 1
+~
+|
+#6352
+Death Priest Jazerla~
+Death Priest Jazerla~
+A female death priest is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+67239939 4194432 550 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 0 0 0 48 524291
+> all_greet_prog 100~
+if quest(rift) < 3
+mppause 4
+mpechoat $n &CDeath Knight Jazerla says, 'Greetings Friends.  Magician Kolak
+mpechoat $n &Csaid more like him would come.  Do not fear me.  All is not
+mpechoat $n &Clost in this world, some resist even in secret as it is.  I am
+mpechoat $n &Chere to help you adapt to our world as much as possible, and
+mpechoat $n &Chelp you succeed with closing the rift.'
+mppause 6
+mpechoat $n &CDeath Knight Jazerla says, 'When ready to learn..&WSAY LEARN&C.
+else
+mppause 5
+endif
+~
+> speech_prog learn~
+mppause 4
+mpechoat $n &CDeath Knight Jazerla says, 'You are probably feeling very
+mpechoat $n &Csick right now.  Traveling through rift as you call it
+mpechoat $n &Cto our world takes a toll on you.  Our world laws of nature
+mpechoat $n &Care different then yours.  Your powers are weakened until
+mpechoat $n &Cyou acclimatize to our world.  Use your wits.  Every
+mpechoat $n &Ccreature on this world is your enemy and will try to kill
+mpechoat $n &Cyou.  Do not take that for granted.  You will not likely 
+mpechoat $n &Cmeet any more like me.  It is risking death to help you.'
+mppause 8
+mpechoat $n &CDeath Knight Jazerla says, 'Use the hidden grate to the north.
+mpechoat $n &CKolak left X marks to indicate the safest way.  You must 
+mpechoat $n &Cescape the caverns.  Cross the desert and find the source
+mpechoat $n &Cof what is making these rifts in the Demon Lord's palace.'
+mpquest $n rift 3
+~
+> act_prog p arrives from the north.~
+if quest(rift) > 3
+mppause 6
+mpechoat $n &CDeath Priest Jazerla says,'Told you I'm not what I seem has he?
+mpechoat $n &CWell I might as well reveal my true self to you then.  I 
+mpechoat $n &Cwill destroy you all now!'
+mpquest $n rift 5
+mpmload 6363
+mpgoto 4
+endif
+~
+> act_prog p flies in from the north.~
+if quest(rift) > 3
+mppause 6
+mpechoat $n &CDeath Priest Jazerla says,'Told you I'm not what I seem has he?
+mpechoat $n &CWell I might as well reveal my true self to you then.  I
+mpechoat $n &Cwill destroy you all now!'
+mpquest $n rift 5
+mpmload 6363
+mpgoto 4
+endif
+~
+> act_prog p floats in from the north.~
+if quest(rift) > 3
+mppause 6
+mpechoat $n &CDeath Priest Jazerla says,'Told you I'm not what I seem has he?
+mpechoat $n &CWell I might as well reveal my true self to you then.  I
+mpechoat $n &Cwill destroy you all now!'
+mpquest $n rift 5
+mpmload 6363
+mpgoto 4
+endif
+~
+|
+#6353
+Death Knight Servant~
+a death knight servant~
+A death knight servant is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+33 128 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 3
+#6354
+Death Knight Guard~
+a death knight guard~
+A death knight guard stands watch here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6355
+Death Knight Soldier~
+a newly created Death Knight Soldier~
+Some god abandoned a newly created Death Knight Soldier here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#6356
+Death Knight Sergeant~
+Death Knight Sergeant~
+A Death Knight Sergeant is leading by example here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872931 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+> fight_prog 10~
+mpecho &cA Death Knight Sergeant executes an overhead crushing slash attack!
+mpdamage $n 400
+~
+|
+#6357
+Death Knight Lieutenant ~
+Death Knight Lieutenant ~
+The Death Knight Lieutenant is giving orders here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6358
+Death Knight Commander ~
+Death Knight Commander~
+The Death Knight Commander is giving orders here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6359
+Demon Flier~
+a flier demon~
+A flier demon is hovering here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6360
+Demon Crawler~
+a crawler demon~
+A crawler demon is scampering about here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6361
+Demon Lessor~
+a lessor demon~
+A lessor demon is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6362
+Demon Greater~
+Greater Demon Markaina~
+Greater Demon Markaina is finishing the remains of a lessor demon here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6363
+King DreadLord Magrigg~
+Magrigg King of the DreadLords~
+The King of the DreadLords is consuming all life energy here.
+~
+~
+1
+Clanname none~
+0
+0
+131107&32 4194432&2097152 -1000 C
+100 0 0 0d0+25000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+200 200 41 0 8192 0 4144 524291
+> fight_prog 10~
+mpecho &YThe King of Dreadlords attacks your life energy!
+mpdamage $n 600
+~
+> death_prog 100~
+mpquest $n rift 6
+~
+|
+#6364
+Tanzean'al~
+Lord Tanzean'al~
+Lord Tanzean'al is surveying things here.
+~
+~
+1
+Clanname none~
+0
+0
+131107 4194432 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 41 0 0 0 48 524291
+#6400
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#6350
+graven shield~
+a graven shield~
+A graven shield has been left here.~
+~
+9 0 513
+60 60 0 0 0 90 0
+5 262 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6351
+graven chestplate ~
+a graven chestplate~
+A graven chestplate has been left here.~
+~
+9 0 9
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6352
+graven bastard sword~
+a graven bastard sword~
+A graven bastard sword is laying here.~
+~
+5 0 8193
+12 45 90 1 1 90 0
+5 199 19
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6353
+graven plated boots~
+a pair of graven plated boots~
+A pair of graven plated boots has been left here.~
+~
+9 0 65
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6354
+graven plated armguards~
+a pair of graven armguards~
+A pair of graven plated armguards has been left here.~
+~
+9 0 257
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6355
+graven plated leggings~
+a pair of graven plated leggings~
+A pair of graven plated leggings has been left here.~
+~
+9 0 33
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6356
+graven plated helmet~
+a graven plated helmet~
+A graven plated helmet has been left here.~
+~
+9 0 17
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 0 0
+A
+13 300
+#6357
+bracers of animosity ~
+bracers of animosity ~
+A pair of bracers has been left here.~
+~
+9 0 4097
+60 60 0 0 0 90 0
+15 263 26
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+13 300
+#6400
+rift mystical~
+a mystical rift~
+A mystical rift is torn into the fabric of the world here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 0 0
+> exa_prog 100~
+if quest(rift) > 1
+mpechoat $n &cYou feel yourself drawn into the rift, and everything disappears and suddenly you are somewhere else!
+mppause 2
+mptrans $n 6360
+mpat $n mpforce $n look
+else
+mpechoat $n &cYou get dizzy trying to look at the rift.
+endif
+~
+|
+#0
+
+
+#ROOMS
+#6350
+An Open Pasture~
+~
+A beautiful green pasture expands outward along the horizon. The area has 
+a variety of vegetation, and small trees growing throughout it. There are 
+signs of a recent struggle on the ground, with strange tracks. 
+~
+1 4 34
+D0
+~
+~
+0 -1 6351
+D11
+~
+~
+0 -1 51895
+R M 0 6351 1 6350
+S
+#6351
+Beside a Tall Tree~
+~
+A tall oak tree stands in the middle of the pasture here. The tree has 
+several small bushes around it. There are some mushrooms growing along the 
+west side of the tree. There is something shimmering to the north. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6354
+D1
+~
+~
+0 -1 6356
+D2
+~
+~
+0 -1 6350
+D3
+~
+~
+0 -1 6352
+S
+#6352
+In the High Grass~
+~
+Thick and tall grass cover this patch of the pasture land. There are some 
+animal trails, and bedded down grass that indicate recent animal life has 
+been here. A few small trees are scattered among the grass. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6353
+D1
+~
+~
+0 -1 6351
+R M 0 6350 1 6352
+  R E 0 6350 1 11
+  R E 0 6351 1 5
+  R E 0 6352 1 16
+S
+#6353
+A Small Pond~
+~
+There is a small pond with a creek that runs down the hills to it here. 
+Thick vegetation surrounds the pond. There are various animal tracks, and 
+some game trails that lead to and from the pond. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6359
+D1
+~
+~
+0 -1 6354
+D2
+~
+~
+0 -1 6352
+S
+#6354
+A Barren Patch~
+~
+&OThe vegetation has been picked clean here in the pasture. There are 
+small rocks scattered about. The patch is almost too perfectly square 
+where there is no more vegetation in contrast to the vegetation. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6358
+D1
+~
+~
+0 -1 6355
+D2
+~
+~
+0 -1 6351
+D3
+~
+~
+0 -1 6353
+S
+#6355
+Within Some Wild Flowers~
+~
+A wild patch of flowers extends off through the pasture here. There are a 
+few small trees growing within the flower patch. A few bushes with wild 
+berries have thorns on them. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6357
+D2
+~
+~
+0 -1 6356
+D3
+~
+~
+0 -1 6354
+S
+#6356
+Within the Tall Grass~
+~
+Thick and tall grass cover this patch of the pasture land. There are some 
+rocks setup in a circle like someone had a campfire here. It has been 
+hastily covered up. A few small trees are scattered among the grass. 
+~
+1 0 34
+D0
+~
+~
+0 -1 6355
+D3
+~
+~
+0 -1 6351
+R M 0 6350 4 6356
+  R E 0 6352 1 16
+  R E 0 6351 1 5
+  R E 0 6350 1 11
+S
+#6357
+Along the Wild Flowers~
+~
+A wild patch of flowers extends off through the pasture here. There are a 
+few small trees growing within the flower patch. A thick amount of bushes 
+with wild berries have thorns on them and they skirt the edge of the 
+patch.  A large boulder lies on it's side here.
+~
+1 0 34
+D2
+~
+~
+0 -1 6355
+D3
+~
+~
+0 -1 6358
+R M 0 6350 4 6357
+  R E 0 6352 1 16
+  R E 0 6351 1 5
+  R E 0 6350 1 11
+S
+#6358
+Before a Mystical Rift~
+~
+A huge tear in the air itself, is what the mystical rift appears to be. 
+The rift changes colors in a swirling of strange lights. All vegetation 
+below the rift is burned to the ground. 
+~
+1 0 34
+D1
+~
+~
+0 -1 6357
+D2
+~
+~
+0 -1 6354
+D3
+~
+~
+0 -1 6359
+R O 0 6400 1 6358
+> entry_prog 100~
+if quest(rift) == 6
+mppause 5
+mpechoat $n &cStudying the rift after facing the Dreadlord King you understand now how to close it!
+mppause 8
+mpechoat $n &cYou focus your life energy on the rift, and it suddenly explodes!
+mpjunk rift
+mpquest $n rift 7
+else
+mppause 4
+if mobcount(6358) < 5 
+mpecho &YA mystical rift shimmers as something steps through.
+mpmload 6350 90
+mpoload 6350 90
+mpoload 6351 90
+mpoload 6352 90
+get graven
+get graven
+get graven
+give graven knight
+give graven knight
+give graven knight
+mpforce knight wear all
+endif
+endif
+save
+~
+|
+S
+#6359
+A Burnt Piece of Earth~
+~
+The ground is charred black here as something has burned away all signs of 
+life. All around the burnt ground thick vegetation grows. There is a thick 
+forest to the north of the pasture. 
+~
+1 0 34
+D1
+~
+~
+0 -1 6358
+D2
+~
+~
+0 -1 6353
+R M 0 6350 4 6359
+  R E 0 6352 1 16
+  R E 0 6351 1 5
+  R E 0 6350 1 11
+S
+#6360
+Floating in a Void~
+~
+&wWithin the rift there is just the void. An absolute darkness that seems 
+to suck away at all happiness. It is difficult to breath within the void. 
+There are no walls or floors only a light to the north. 
+~
+1 0 1
+D0
+~
+~
+0 -1 6361
+S
+#6361
+Floating in a Void~
+~
+&wWithin the rift there is just the void. An absolute darkness that seems 
+to suck away at all happiness. It is difficult to breath within the void. 
+There is a shimmering light that beckons to be explored. 
+~
+1 0 1
+D2
+~
+~
+0 -1 6360
+D11
+~
+~
+0 -1 6362
+S
+#6362
+On a Cold Stone Ground~
+~
+&wOn the stone ground there are cracks on the surface. The walls are solid 
+stone slabs. There are torches mounted to the walls. There is a small blue 
+rug that is centered in the room. 
+~
+1 8 1
+D0
+~
+small grate~
+2051 -1 6363
+R M 0 6352 1 6362
+R D 0 6362 0 1
+S
+#6363
+An Uninviting Passage~
+~
+&wThe stark stone slabbed walls of the passage, are stained in a dark black 
+color. There are torches mounted to the walls to provide lighting. A 
+narrow blue rug runs down the center of the passageway. 
+~
+1 8 1
+D0
+~
+~
+0 -1 6364
+D2
+~
+small grate~
+2051 -1 6362
+R D 0 6363 2 1
+S
+#6364
+An Intersection~
+~
+&wThe passage forms branches off to the west and east here. The blue rug 
+continues to the west. There are a few creatures skulls mounted to the 
+walls down the east and west passages. 
+~
+1 8 1
+D1
+~
+~
+0 -1 6368
+D2
+~
+~
+0 -1 6363
+D3
+~
+~
+0 -1 6365
+R M 0 6353 2 6364
+R M 0 6353 2 6364
+S
+#6365
+Along the Passageway~
+~
+&wThere are cracks in the walls along the stone passageway. A few torches 
+are mounted to the walls for lighting. A narrow blue rug runs down the 
+center of the passageway. There are odd shaped hooks embedded into the 
+walls here.  The hook points are very sharp.
+~
+1 8 1
+D1
+~
+~
+0 -1 6364
+D3
+~
+~
+0 -1 6366
+S
+#6366
+A Damp Corridor ~
+~
+&wThis part of the passage is cold and damp. There is water seeping down the 
+corner wall. Black mold grows all around the corner. The narrow blue rug 
+stops at this corridor. A small wooden shelf is mounted to the wall. 
+~
+1 8 1
+D0
+~
+~
+0 -1 6367
+D1
+~
+~
+0 -1 6365
+R M 0 6354 2 6366
+  R E 0 6352 1 16
+R M 0 6354 2 6366
+  R E 0 6352 1 16
+R M 0 6356 1 6366
+  R E 0 6352 1 16
+S
+#6367
+A Vast Cavern~
+~
+&wThe vast cavern is filled with stalagmites and stalactites. There is a 
+huge open sky and desert to the north that the cavern opens to. There are 
+some strange looking green mushroom-like plants growing here and there. 
+~
+1 16777224 1
+D2
+~
+~
+0 -1 6366
+D5
+~
+~
+0 -1 6644
+S
+#6368
+A Narrow Passagway~
+~
+&wThe passageway gets very narrow here. A few small torches are attached 
+to the walls to provide lighting. The walls are made out of stone slabs. 
+Every so often on the wall a large 'X' is scratched onto the wall. 
+~
+1 8 1
+D1
+~
+~
+0 -1 6369
+D3
+~
+~
+0 -1 6364
+S
+#6369
+Along the Corridor ~
+~
+&wThere is fresh cuts into the walls of the passage here, and what appears 
+to be hastily placed braces to support the walls and ceiling. A large 'X' 
+is scratched onto the wall. There are piles of rubble on the ground. 
+~
+1 8 1
+D0
+~
+~
+0 -1 6370
+D3
+~
+~
+0 -1 6368
+S
+#6370
+A Treacherous Descent~
+~
+&wA small tunnel leads down a dangerously cut path downward. The tunnel 
+appears to have been recently dug. There are small logs embedded into the 
+earth to provide some type of traction on the way down. 
+~
+1 8 1
+D2
+~
+~
+0 -1 6369
+D5
+~
+~
+128 -1 6371
+S
+#6371
+Along a Steep Passage~
+~
+&wThere is a dug out dangerous passage upward here against the wall. To 
+the north the passage continues. There is a large 'X' hastily etched into 
+the wall here. A few rocks and stones are scattered along the ground. 
+~
+1 8 1
+D0
+~
+~
+0 -1 6372
+D4
+~
+~
+128 -1 6370
+S
+#6372
+Within a Small Cave~
+~
+&wThe entrance to the cave empties out into a harsh desert environment. 
+The cave has a few stalagmites and stalactites throughout it. There are 
+small alien-like vegetation growing along the cave walls. 
+~
+1 8 1
+D2
+~
+~
+0 -1 6371
+D11
+~
+~
+16777216 -1 6684
+S
+#6373
+Floating in a void~
+~
+~
+1 8 1
+D1
+~
+~
+0 -1 6374
+S
+#6374
+Floating in a void~
+~
+~
+1 8 1
+D3
+~
+~
+0 -1 6373
+S
+#6400
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  6352 spec_cast_adept
+S
+
+
+#$

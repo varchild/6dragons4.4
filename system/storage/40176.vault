@@ -1,0 +1,433 @@
+#VNUM 40176
+#OBJECT
+Vnum         10816
+Level        35
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26001
+Level        29
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26009
+Level        30
+Currtype     4
+Color        4
+Size   0
+Values       0 0 -1 0 0 30 0
+End
+
+#OBJECT
+Vnum         10818
+Level        30
+Currtype     4
+Size   0
+Values       1 0 0 10 5 30 0
+End
+
+#OBJECT
+Vnum         26008
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26006
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         958
+Level        40
+Currtype     1
+Color        12
+Size   4
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       41 8 8 121 0 20 0
+Spell 3      'iceshield'
+End
+
+#OBJECT
+Vnum         959
+Level        50
+Currtype     1
+Color        1
+Size   4
+Values       37 1 1 -1 11 50 0
+End
+
+#OBJECT
+Vnum         961
+Level        1
+Currtype     1
+Color        14
+Size   4
+Values       962 0 963 0 0 1 0
+End
+
+#OBJECT
+Vnum         704
+Level        75
+Currtype     4
+Color        4
+Size   0
+Values       4 0 0 30 20 75 2
+End
+
+#OBJECT
+Vnum         27020
+Level        5
+Currtype     4
+Color        14
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         706
+Level        85
+Currtype     1
+Size   0
+Values       60 60 0 0 0 85 0
+End
+
+#OBJECT
+Vnum         952
+Level        15
+Currtype     2
+Color        7
+Size   4
+Values       1 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         26001
+Level        26
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16702
+Level        53
+Currtype     1
+Size   0
+Values       40 40 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10101
+Level        104
+Currtype     1
+Color        13
+Size   3
+Values       5 3000 1152 125 125 0 0
+End
+
+#OBJECT
+Vnum         31340
+Level        104
+Currtype     1
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         31017
+Level        104
+Currtype     1
+Size   0
+Values       7 10000 2084 125 100 0 0
+End
+
+#OBJECT
+Vnum         1531
+Level        104
+Currtype     1
+Size   2
+Values       20 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         31384
+Level        104
+Currtype     1
+Color        1
+Size   0
+Values       10 1000 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         27007
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 1 0
+End
+
+#OBJECT
+Vnum         10807
+Level        22
+Currtype     3
+Size   0
+Values       50 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         31384
+Level        104
+Currtype     1
+Color        1
+Size   0
+Values       10 1000 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         706
+Level        85
+Currtype     1
+Size   0
+Values       60 60 0 0 0 85 0
+End
+
+#OBJECT
+Vnum         704
+Level        75
+Currtype     4
+Color        4
+Size   0
+Values       4 0 0 30 20 75 2
+End
+
+#OBJECT
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26001
+Level        29
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         10816
+Level        35
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Vnum         10816
+Level        35
+Currtype     1
+Size   0
+End
+
+#OBJECT
+Name         finger-ring~
+ShortDescr   a finger-ring, legendary forged from bright-light-green titanium ore~
+Description  Here lies a finger-ring, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   finger-ring~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         finger-ring~
+ShortDescr   a finger-ring, legendary forged from bright-light-green titanium ore~
+Description  Here lies a finger-ring, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    3
+ItemType     9
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   finger-ring~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-torque~
+ShortDescr   a plate-torque, legendary forged from bright-light-green titanium ore~
+Description  Here lies a plate-torque, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       3
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-torque~
+ShortDescr   a plate-torque, legendary forged from bright-light-green titanium ore~
+Description  Here lies a plate-torque, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    5
+ItemType     9
+Weight       3
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-leggings~
+ShortDescr   a plate-leggings, legendary forged from bright-light-green titanium ore~
+Description  Here lies a plate-leggings, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    33
+ItemType     9
+Weight       8
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   plate-leggings~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-tunic~
+ShortDescr   a scale-tunic, legendary forged from bright-light-green titanium ore~
+Description  Here lies a scale-tunic, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    9
+ItemType     9
+Weight       8
+Level        41
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 9 13 0
+ExtraDescr   scale-tunic~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#OBJECT
+Name         plated-boots~
+ShortDescr   a plated-boots, legendary forged from bright-light-green titanium ore~
+Description  Here lies a plated-boots, legendary forged from bright-light-green titanium ore.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       8
+Level        36
+Cost         25
+Currtype     1
+Color        9
+Size   0
+Values       50 50 23 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   plated-boots~ &CThis crafted item bears the seal of Zaiden, the master blacksmith.
+~
+End
+
+#END

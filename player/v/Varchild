@@ -1,0 +1,786 @@
+#PLAYER
+Version      6
+Name         Varchild~
+Sex          1
+Class        2
+Secondclass  -1
+Thirdclass   -1
+Race         8
+Age          0 4 0 974
+Languages    1 -65537
+Level        108
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       939
+Room         19038
+HpManaMove   30000 30000 30000 30000 29997 29975
+BaseHp       0 
+Blood        10 0
+Money         0 10 50 100 2000 -1
+Exp           0
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        66
+Weight        110
+Act           1644172872&4112
+AffectedBy    -2146435072
+Channels      chat say ooc shout yell icc wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction~
+Speed         32
+Position      115
+Style         2
+Practice      6
+SavingThrows  0 0 0 0 0
+Alignment     600
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Resistant     2
+Password      da42c6ed9a0b389194071195f565433958f013a33e22c0d7c4e0e45b22efa8b0~
+Title          the New &r6 Dragons&D Staff Member.~
+Lastip         10.0.0.1~
+RECAST          0
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1647407669
+tmpsecond -1
+tmpthird -1
+tmproom 19039
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+WizInvis     0
+Htown      Dakar City~
+Flags        32770
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     25 25 25 25 25 25 25
+AttrMod      0 0 0 0 0 0 0
+Condition    0 200 200 118
+Site         10.0.0.1
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       100 0 'acid breath' 0 0
+NNSpell       100 0 'acidic touch' 0 0
+NNSpell       100 0 'admonishing smite' 0 0
+NNSpell       100 0 'alertness' 0 0
+NNSpell       100 0 'animate corpse' 0 0
+NNSpell       100 0 'animate skeleton' 0 0
+NNSpell       100 0 'antimagic shell' 0 0
+NNSpell       100 0 'aqua breath' 0 0
+NNSpell       100 0 'arch healing' 0 0
+NNSpell       100 0 'armor' 0 0
+NNSpell       100 0 'astral walk' 0 0
+NNSpell       100 0 'aura of courage' 0 0
+NNSpell       100 0 'aura of life' 0 0
+NNSpell       100 0 'barbs' 0 0
+NNSpell       100 0 'benefic aura' 0 0
+NNSpell       100 0 'bestow vitae' 0 0
+NNSpell       100 0 'black fist' 0 0
+NNSpell       100 0 'black lightning' 0 0
+NNSpell       100 0 'blaze' 0 0
+NNSpell       100 0 'blindness' 0 0
+NNSpell       100 0 'boost' 0 0
+NNSpell       100 0 'cause critical' 0 0
+NNSpell       100 0 'cause light' 0 0
+NNSpell       100 0 'chilled ward' 0 0
+NNSpell       100 0 'clanrecall' 0 0
+NNSpell       100 0 'clavus' 0 0
+NNSpell       100 0 'colour spray' 0 0
+NNSpell       100 0 'continual light' 0 0
+NNSpell       100 0 'control weather' 0 0
+NNSpell       100 0 'create fire' 0 0
+NNSpell       100 0 'create food' 0 0
+NNSpell       100 0 'create spring' 0 0
+NNSpell       100 0 'create symbol' 0 0
+NNSpell       100 0 'create water' 0 0
+NNSpell       100 0 'cure affliction' 0 0
+NNSpell       100 0 'cure blindness' 0 0
+NNSpell       100 0 'cure critical' 0 0
+NNSpell       100 0 'cure poison' 0 0
+NNSpell       100 0 'curse' 0 0
+NNSpell       100 0 'dark blessings' 0 0
+NNSpell       100 0 'death field' 0 0
+NNSpell       100 0 'demonskin' 0 0
+NNSpell       100 0 'detect evil' 0 0
+NNSpell       100 0 'detect hidden' 0 0
+NNSpell       100 0 'detect invis' 0 0
+NNSpell       100 0 'detect magic' 0 0
+NNSpell       100 0 'detect poison' 0 0
+NNSpell       100 0 'detect sneaking' 0 0
+NNSpell       100 0 'detect traps' 0 0
+NNSpell       100 0 'dispel evil' 0 0
+NNSpell       100 0 'dispel magic' 0 0
+NNSpell       100 0 'disruption' 0 0
+NNSpell       100 0 'divinity' 0 0
+NNSpell       100 0 'downward slash' 0 0
+NNSpell       100 0 'dragon wit' 0 0
+NNSpell       100 0 'dragonskin' 0 0
+NNSpell       100 0 'draw mana' 0 0
+NNSpell       100 0 'earthquake' 0 0
+NNSpell       100 0 'easy victim' 0 0
+NNSpell       100 0 'eldritch sphere' 0 0
+NNSpell       100 0 'elven beauty' 0 0
+NNSpell       100 0 'elven features' 0 0
+NNSpell       100 0 'enchant weapon' 0 0
+NNSpell       100 0 'energy drain' 0 0
+NNSpell       100 0 'energy ward' 0 0
+NNSpell       100 0 'enlarge' 0 0
+NNSpell       100 0 'ethereal shield' 0 0
+NNSpell       100 0 'extradimensional portal' 0 0
+NNSpell       100 0 'faerie fire' 0 0
+NNSpell       100 0 'faerie fog' 0 0
+NNSpell       100 0 'farsight' 0 0
+NNSpell       100 0 'fatigue' 0 0
+NNSpell       100 0 'feline grace' 0 0
+NNSpell       100 0 'find familiar' 0 0
+NNSpell       100 0 'fire breath' 0 0
+NNSpell       100 0 'fireball' 0 0
+NNSpell       100 0 'fireshield' 0 0
+NNSpell       100 0 'flamestrike' 0 0
+NNSpell       100 0 'flaming shield' 0 0
+NNSpell       100 0 'flare' 0 0
+NNSpell       100 0 'fletch' 0 0
+NNSpell       100 0 'float' 0 0
+NNSpell       100 0 'fly' 0 0
+NNSpell       100 0 'fortify' 0 0
+NNSpell       100 0 'frigid ward' 0 0
+NNSpell       100 0 'frost breath' 0 0
+NNSpell       100 0 'frost ward' 0 0
+NNSpell       100 0 'galvanic whip' 0 0
+NNSpell       100 0 'gamblers luck' 0 0
+NNSpell       100 0 'gas breath' 0 0
+NNSpell       100 0 'giant strength' 0 0
+NNSpell       100 0 'goblin cunning' 0 0
+NNSpell       100 0 'greater heal' 0 0
+NNSpell       100 0 'greater restore' 0 0
+NNSpell       100 0 'greater smite' 0 0
+NNSpell       100 0 'harm' 0 0
+NNSpell       100 0 'heal' 0 0
+NNSpell       100 0 'healing essence' 0 0
+NNSpell       100 0 'helical flow' 0 0
+NNSpell       100 0 'heroism' 0 0
+NNSpell       100 0 'hezekiahs cure' 0 0
+NNSpell       100 0 'holy sanctity' 0 0
+NNSpell       100 0 'holy word' 0 0
+NNSpell       100 0 'ice ward' 0 0
+NNSpell       100 0 'iceshard' 0 0
+NNSpell       100 0 'identify' 0 0
+NNSpell       100 0 'imprisonment' 0 0
+NNSpell       100 0 'incinerate' 0 0
+NNSpell       100 0 'indignation' 0 0
+NNSpell       100 0 'infravision' 0 0
+NNSpell       100 0 'insanity' 0 0
+NNSpell       100 0 'invis' 0 0
+NNSpell       100 0 'kindred strength' 0 0
+NNSpell       100 0 'knock' 0 0
+NNSpell       100 0 'know alignment' 0 0
+NNSpell       100 0 'kolaks stand' 0 0
+NNSpell       100 0 'lady luck' 0 0
+NNSpell       100 0 'lend health' 0 0
+NNSpell       100 0 'lethargy' 0 0
+NNSpell       100 0 'lich touch' 0 0
+NNSpell       100 0 'lightning' 0 0
+NNSpell       100 0 'lightning breath' 0 0
+NNSpell       100 0 'lightning ward' 0 0
+NNSpell       100 0 'locate object' 0 0
+NNSpell       100 0 'lorox mist' 0 0
+NNSpell       100 0 'magic missile' 0 0
+NNSpell       100 0 'magnetic thrust' 0 0
+NNSpell       100 0 'mass invis' 0 0
+NNSpell       100 0 'mind assault' 0 0
+NNSpell       100 0 'nettle skin' 0 0
+NNSpell       100 0 'noscent' 0 0
+NNSpell       100 0 'ogre vitality' 0 0
+NNSpell       100 0 'paralyze' 0 0
+NNSpell       100 0 'pass door' 0 0
+NNSpell       100 0 'plant pass' 0 0
+NNSpell       100 0 'poison' 0 0
+NNSpell       100 0 'portal' 0 0
+NNSpell       100 0 'possess' 0 0
+NNSpell       100 0 'protection' 0 0
+NNSpell       100 0 'quantum spike' 0 0
+NNSpell       100 0 'ragefire' 0 0
+NNSpell       100 0 'razorbait' 0 0
+NNSpell       100 0 'recharge' 0 0
+NNSpell       100 0 'refresh' 0 0
+NNSpell       100 0 'remove curse' 0 0
+NNSpell       100 0 'remove invis' 0 0
+NNSpell       100 0 'remove silence' 0 0
+NNSpell       100 0 'remove trap' 0 0
+NNSpell       100 0 'resilience' 0 0
+NNSpell       100 0 'restoration' 0 0
+NNSpell       100 0 'restore life' 0 0
+NNSpell       100 0 'restore mana' 0 0
+NNSpell       100 0 'sacral divinity' 0 0
+NNSpell       100 0 'sagacity' 0 0
+NNSpell       100 0 'sage wisdom' 0 0
+NNSpell       100 0 'sanctuary' 0 0
+NNSpell       100 0 'scorching surge' 0 0
+NNSpell       100 0 'scry' 0 0
+NNSpell       100 0 'searing light' 0 0
+NNSpell       100 0 'shadow bolt' 0 0
+NNSpell       100 0 'shadowform' 0 0
+NNSpell       100 0 'shocking ward' 0 0
+NNSpell       100 0 'shrink' 0 0
+NNSpell       100 0 'silence' 0 0
+NNSpell       100 0 'sleep' 0 0
+NNSpell       100 0 'slink' 0 0
+NNSpell       100 0 'slow' 0 0
+NNSpell       100 0 'solar flight' 0 0
+NNSpell       100 0 'sonic resonance' 0 0
+NNSpell       100 0 'spectral furor' 0 0
+NNSpell       100 0 'spiral blast' 0 0
+NNSpell       100 0 'spirit wolf' 0 0
+NNSpell       100 0 'spiritual wrath' 0 0
+NNSpell       100 0 'static pulse' 0 0
+NNSpell       100 0 'static ward' 0 0
+NNSpell       100 0 'stick' 0 0
+NNSpell       100 0 'sting' 0 0
+NNSpell       100 0 'stone skin' 0 0
+NNSpell       100 0 'sulfurous spray' 0 0
+NNSpell       100 0 'summon' 0 0
+NNSpell       100 0 'summon strength' 0 0
+NNSpell       100 0 'swordbait' 0 0
+NNSpell       100 0 'sylvan wind' 0 0
+NNSpell       100 0 'teleport' 0 0
+NNSpell       100 0 'thorns' 0 0
+NNSpell       100 0 'torpor' 0 0
+NNSpell       100 0 'torrent' 0 0
+NNSpell       100 0 'transport' 0 0
+NNSpell       100 0 'trollish vigor' 0 0
+NNSpell       100 0 'unholy shroud' 0 0
+NNSpell       100 0 'unholy strength' 0 0
+NNSpell       100 0 'unravel defense' 0 0
+NNSpell       100 0 'uplift' 0 0
+NNSpell       100 0 'valiance' 0 0
+NNSpell       100 0 'ventriloquate' 0 0
+NNSpell       100 0 'weaken' 0 0
+NNSpell       100 0 'wind attack' 0 0
+NNSpell       100 0 'winter mist' 0 0
+NNSpell       100 0 'wizard eye' 0 0
+NNSpell       100 0 'word of recall' 0 0
+NNSkill       100 0 'Inertial barrier' 0 0
+NNSkill       100 0 'acid spray' 0 0
+NNSkill       100 0 'adrenaline rush' 0 0
+NNSkill       100 0 'aid' 0 0
+NNSkill       100 0 'angelfire' 0 0
+NNSkill       100 0 'angelic being' 0 0
+NNSkill       100 0 'animal form' 0 0
+NNSkill       100 0 'anoint' 0 0
+NNSkill       100 0 'arteries' 0 0
+NNSkill       100 0 'assassinate' 0 0
+NNSkill       100 0 'assault' 0 0
+NNSkill       100 0 'astral attack' 0 0
+NNSkill       100 0 'backhand' 0 0
+NNSkill       100 0 'backstab' 0 0
+NNSkill       100 0 'bake' 0 0
+NNSkill       100 0 'ball of fire' 0 0
+NNSkill       100 0 'ballistic' 0 0
+NNSkill       100 0 'bark skin' 0 0
+NNSkill       100 0 'bash' 0 0
+NNSkill       100 0 'bat form' 0 0
+NNSkill       100 0 'bear spirit' 0 0
+NNSkill       100 0 'beast meld' 0 0
+NNSkill       100 0 'behead' 0 0
+NNSkill       100 0 'berserk' 0 0
+NNSkill       100 0 'biofeedback' 0 0
+NNSkill       100 0 'bite' 0 0
+NNSkill       100 0 'blazeward' 0 0
+NNSkill       100 0 'blinding speed' 0 0
+NNSkill       100 0 'blizzard' 0 0
+NNSkill       100 0 'blur attack' 0 0
+NNSkill       100 0 'body drop' 0 0
+NNSkill       100 0 'bone' 0 0
+NNSkill       100 0 'brain boil' 0 0
+NNSkill       100 0 'brass' 0 0
+NNSkill       100 0 'break' 0 0
+NNSkill       100 0 'breathe' 0 0
+NNSkill       100 0 'breech' 0 0
+NNSkill       100 0 'brew' 0 0
+NNSkill       100 0 'brittle bone' 0 0
+NNSkill       100 0 'bull spirit' 0 0
+NNSkill       100 0 'burrow' 0 0
+NNSkill       100 0 'butterfly kick' 0 0
+NNSkill       100 0 'cannibalize' 0 0
+NNSkill       100 0 'chameleon' 0 0
+NNSkill       100 0 'charge' 0 0
+NNSkill       100 0 'charged beacon' 0 0
+NNSkill       100 0 'chill' 0 0
+NNSkill       100 0 'chilled touch' 0 0
+NNSkill       100 0 'choke' 0 0
+NNSkill       100 0 'circle' 0 0
+NNSkill       100 0 'claw' 0 0
+NNSkill       100 0 'clawed hands' 0 0
+NNSkill       100 0 'climb' 0 0
+NNSkill       100 0 'coalesce' 0 0
+NNSkill       100 0 'collect' 0 0
+NNSkill       100 0 'combat mind' 0 0
+NNSkill       100 0 'combo' 0 0
+NNSkill       100 0 'cone' 0 0
+NNSkill       100 0 'confidence' 0 0
+NNSkill       100 0 'conjure elemental' 0 0
+NNSkill       100 0 'cook' 0 0
+NNSkill       100 0 'corrosive' 0 0
+NNSkill       100 0 'courage' 0 0
+NNSkill       100 0 'crafted_drink1' 0 0
+NNSkill       100 0 'crafted_drink2' 0 0
+NNSkill       100 0 'crafted_drink3' 0 0
+NNSkill       100 0 'crafted_food1' 0 0
+NNSkill       100 0 'crafted_food2' 0 0
+NNSkill       100 0 'crafted_food3' 0 0
+NNSkill       100 0 'crane kick' 0 0
+NNSkill       100 0 'creeping doom' 0 0
+NNSkill       100 0 'critic' 0 0
+NNSkill       100 0 'crushing jaw' 0 0
+NNSkill       100 0 'daze' 0 0
+NNSkill       100 0 'deathroll' 0 0
+NNSkill       100 0 'decree decay' 0 0
+NNSkill       100 0 'defend' 0 0
+NNSkill       100 0 'dehydrate' 0 0
+NNSkill       100 0 'density' 0 0
+NNSkill       100 0 'detrap' 0 0
+NNSkill       100 0 'devour' 0 0
+NNSkill       100 0 'disable' 0 0
+NNSkill       100 0 'disarm' 0 0
+NNSkill       100 0 'disgrace' 0 0
+NNSkill       100 0 'disguise' 0 0
+NNSkill       100 0 'displacement' 0 0
+NNSkill       100 0 'dodge' 0 0
+NNSkill       100 0 'dominate' 0 0
+NNSkill       100 0 'doorbash' 0 0
+NNSkill       100 0 'double slash' 0 0
+NNSkill       100 0 'dream walk' 0 0
+NNSkill       100 0 'drowsy' 0 0
+NNSkill       100 0 'drums' 0 0
+NNSkill       100 0 'dual wield' 0 0
+NNSkill       100 0 'dye' 0 0
+NNSkill       100 0 'earthspeak' 0 0
+NNSkill       100 0 'effloresce' 0 0
+NNSkill       100 0 'eighth attack' 0 0
+NNSkill       100 0 'elbow' 0 0
+NNSkill       100 0 'eldritch bolt' 0 0
+NNSkill       100 0 'energy containment' 0 0
+NNSkill       100 0 'enlightenment' 0 0
+NNSkill       100 0 'enrage' 0 0
+NNSkill       100 0 'ensnare' 0 0
+NNSkill       100 0 'entangle' 0 0
+NNSkill       100 0 'ethereal attack' 0 0
+NNSkill       100 0 'ethereal body' 0 0
+NNSkill       100 0 'fade' 0 0
+NNSkill       100 0 'fear' 0 0
+NNSkill       100 0 'feed' 0 0
+NNSkill       100 0 'feign death' 0 0
+NNSkill       100 0 'fell' 0 0
+NNSkill       100 0 'ferocious strike' 0 0
+NNSkill       100 0 'festering wound' 0 0
+NNSkill       100 0 'fifth attack' 0 0
+NNSkill       100 0 'find water' 0 0
+NNSkill       100 0 'find weakness' 0 0
+NNSkill       100 0 'flamebreath' 0 0
+NNSkill       100 0 'flaming whip' 0 0
+NNSkill       100 0 'flint fire' 0 0
+NNSkill       100 0 'flurry' 0 0
+NNSkill       100 0 'fly home' 0 0
+NNSkill       100 0 'flyby' 0 0
+NNSkill       100 0 'forest' 0 0
+NNSkill       100 0 'forge' 0 0
+NNSkill       100 0 'forward charge' 0 0
+NNSkill       100 0 'fourth attack' 0 0
+NNSkill       100 0 'freeze' 0 0
+NNSkill       100 0 'frenzy' 0 0
+NNSkill       100 0 'frigid touch' 0 0
+NNSkill       100 0 'frost' 0 0
+NNSkill       100 0 'frost touch' 0 0
+NNSkill       100 0 'fumes' 0 0
+NNSkill       100 0 'fury' 0 0
+NNSkill       100 0 'gather' 0 0
+NNSkill       100 0 'gauge' 0 0
+NNSkill       100 0 'glacial armor' 0 0
+NNSkill       100 0 'gorge' 0 0
+NNSkill       100 0 'gouge' 0 0
+NNSkill       100 0 'graft weapon' 0 0
+NNSkill       100 0 'grapple' 0 0
+NNSkill       100 0 'grendals stance' 0 0
+NNSkill       100 0 'grip' 0 0
+NNSkill       100 0 'gust of wind' 0 0
+NNSkill       100 0 'gut' 0 0
+NNSkill       100 0 'hardened scales' 0 0
+NNSkill       100 0 'harness mana' 0 0
+NNSkill       100 0 'hawk spirit' 0 0
+NNSkill       100 0 'headbutt' 0 0
+NNSkill       100 0 'healing thoughts' 0 0
+NNSkill       100 0 'heavy hands' 0 0
+NNSkill       100 0 'hellfire' 0 0
+NNSkill       100 0 'hex' 0 0
+NNSkill       100 0 'hide' 0 0
+NNSkill       100 0 'higher magic' 0 0
+NNSkill       100 0 'hone claws' 0 0
+NNSkill       100 0 'human form' 0 0
+NNSkill       100 0 'hunker down' 0 0
+NNSkill       100 0 'hunt' 0 0
+NNSkill       100 0 'hurl' 0 0
+NNSkill       100 0 'hypnotize' 0 0
+NNSkill       100 0 'icy touch' 0 0
+NNSkill       100 0 'impale' 0 0
+NNSkill       100 0 'inertial barrier' 0 0
+NNSkill       100 0 'infectious claws' 0 0
+NNSkill       100 0 'inferno' 0 0
+NNSkill       100 0 'infrasion' 0 0
+NNSkill       100 0 'inner strength' 0 0
+NNSkill       100 0 'iron skin' 0 0
+NNSkill       100 0 'jewelry' 0 0
+NNSkill       100 0 'join' 0 0
+NNSkill       100 0 'judge' 0 0
+NNSkill       100 0 'judo chop' 0 0
+NNSkill       100 0 'juggle' 0 0
+NNSkill       100 0 'keen eye' 0 0
+NNSkill       100 0 'kick' 0 0
+NNSkill       100 0 'kinetic barrier ' 0 0
+NNSkill       100 0 'knee' 0 0
+NNSkill       100 0 'knifehand strike' 0 0
+NNSkill       100 0 'know enemy' 0 0
+NNSkill       100 0 'leech' 0 0
+NNSkill       100 0 'leg sweep' 0 0
+NNSkill       100 0 'leg sweep' 0 0
+NNSkill       100 0 'lesser skeleton' 0 0
+NNSkill       100 0 'lick' 0 0
+NNSkill       100 0 'lore' 0 0
+NNSkill       100 0 'low blow' 0 0
+NNSkill       100 0 'maim' 0 0
+NNSkill       100 0 'maintain position' 0 0
+NNSkill       100 0 'manufacture' 0 0
+NNSkill       100 0 'marble skin' 0 0
+NNSkill       100 0 'martial arts' 0 0
+NNSkill       100 0 'masters eye' 0 0
+NNSkill       100 0 'maul' 0 0
+NNSkill       100 0 'mechanism' 0 0
+NNSkill       100 0 'meditate' 0 0
+NNSkill       100 0 'mend' 0 0
+NNSkill       100 0 'mental assault' 0 0
+NNSkill       100 0 'migraine' 0 0
+NNSkill       100 0 'mill' 0 0
+NNSkill       100 0 'mine' 0 0
+NNSkill       100 0 'minor restore' 0 0
+NNSkill       100 0 'mist acid' 0 0
+NNSkill       100 0 'mistform' 0 0
+NNSkill       100 0 'mistwalk' 0 0
+NNSkill       100 0 'mitigate' 0 0
+NNSkill       100 0 'mix' 0 0
+NNSkill       100 0 'morris dance' 0 0
+NNSkill       100 0 'mortify' 0 0
+NNSkill       100 0 'mount' 0 0
+NNSkill       100 0 'necromantic touch' 0 0
+NNSkill       100 0 'net' 0 0
+NNSkill       100 0 'nosight' 0 0
+NNSkill       100 0 'object reading' 0 0
+NNSkill       100 0 'offensive stance' 0 0
+NNSkill       100 0 'overhead slash' 0 0
+NNSkill       100 0 'parry' 0 0
+NNSkill       100 0 'passage' 0 0
+NNSkill       100 0 'pawn mark' 0 0
+NNSkill       100 0 'peek' 0 0
+NNSkill       100 0 'pet companion' 0 0
+NNSkill       100 0 'phase' 0 0
+NNSkill       100 0 'pick lock' 0 0
+NNSkill       100 0 'play' 0 0
+NNSkill       100 0 'pluck' 0 0
+NNSkill       100 0 'poison weapon' 0 0
+NNSkill       100 0 'poultice' 0 0
+NNSkill       100 0 'pounce' 0 0
+NNSkill       100 0 'produce' 0 0
+NNSkill       100 0 'psionic blast' 0 0
+NNSkill       100 0 'punch' 0 0
+NNSkill       100 0 'quick blade' 0 0
+NNSkill       100 0 'quivering palm' 0 0
+NNSkill       100 0 'rage' 0 0
+NNSkill       100 0 'rake' 0 0
+NNSkill       100 0 'rallying cry' 0 0
+NNSkill       100 0 'rapid healing' 0 0
+NNSkill       100 0 'recoil' 0 0
+NNSkill       100 0 'regenerate' 0 0
+NNSkill       100 0 'remember' 0 0
+NNSkill       100 0 'restring' 0 0
+NNSkill       100 0 'righteous blow' 0 0
+NNSkill       100 0 'root' 0 0
+NNSkill       100 0 'scan' 0 0
+NNSkill       100 0 'scribe' 0 0
+NNSkill       100 0 'second attack' 0 0
+NNSkill       100 0 'serenity' 0 0
+NNSkill       100 0 'seventh attack' 0 0
+NNSkill       100 0 'shapeshift' 0 0
+NNSkill       100 0 'share' 0 0
+NNSkill       100 0 'sharpen' 0 0
+NNSkill       100 0 'shield' 0 0
+NNSkill       100 0 'shriek' 0 0
+NNSkill       100 0 'shroud spirit' 0 0
+NNSkill       100 0 'siphon strength' 0 0
+NNSkill       100 0 'sixth attack' 0 0
+NNSkill       100 0 'slice' 0 0
+NNSkill       100 0 'smell' 0 0
+NNSkill       100 0 'smuggle' 0 0
+NNSkill       100 0 'snatch' 0 0
+NNSkill       100 0 'sneak' 0 0
+NNSkill       100 0 'spectral ward' 0 0
+NNSkill       100 0 'spike' 0 0
+NNSkill       100 0 'spinkick' 0 0
+NNSkill       100 0 'spirit travel' 0 0
+NNSkill       100 0 'spirits ward' 0 0
+NNSkill       100 0 'sprout spikes' 0 0
+NNSkill       100 0 'stalk prey' 0 0
+NNSkill       100 0 'steal' 0 0
+NNSkill       100 0 'steed' 0 0
+NNSkill       100 0 'steel flex' 0 0
+NNSkill       100 0 'stomp' 0 0
+NNSkill       100 0 'story' 0 0
+NNSkill       100 0 'strings' 0 0
+NNSkill       100 0 'stun' 0 0
+NNSkill       100 0 'submerged' 0 0
+NNSkill       100 0 'surreal speed' 0 0
+NNSkill       100 0 'sustain self' 0 0
+NNSkill       100 0 'sustenance' 0 0
+NNSkill       100 0 'swarm' 0 0
+NNSkill       100 0 'swim' 0 0
+NNSkill       100 0 'sylvan touch' 0 0
+NNSkill       100 0 'tail swipe' 0 0
+NNSkill       100 0 'takeover' 0 0
+NNSkill       100 0 'talkup' 0 0
+NNSkill       100 0 'tame' 0 0
+NNSkill       100 0 'tan' 0 0
+NNSkill       100 0 'target' 0 0
+NNSkill       100 0 'taunt' 0 0
+NNSkill       100 0 'telepathy' 0 0
+NNSkill       100 0 'tend' 0 0
+NNSkill       100 0 'thaitin' 0 0
+NNSkill       100 0 'thick hide' 0 0
+NNSkill       100 0 'thicken skin' 0 0
+NNSkill       100 0 'third attack' 0 0
+NNSkill       100 0 'throat punch' 0 0
+NNSkill       100 0 'torture mind' 0 0
+NNSkill       100 0 'touch' 0 0
+NNSkill       100 0 'toxin' 0 0
+NNSkill       100 0 'track' 0 0
+NNSkill       100 0 'trance' 0 0
+NNSkill       100 0 'travel' 0 0
+NNSkill       100 0 'truesight' 0 0
+NNSkill       100 0 'tumble' 0 0
+NNSkill       100 0 'unearth' 0 0
+NNSkill       100 0 'unholy sphere' 0 0
+NNSkill       100 0 'untangle' 0 0
+NNSkill       100 0 'valtors song' 0 0
+NNSkill       100 0 'vines' 0 0
+NNSkill       100 0 'vocals' 0 0
+NNSkill       100 0 'vomica pravus' 0 0
+NNSkill       100 0 'wailing haze' 0 0
+NNSkill       100 0 'ward of ethereal' 0 0
+NNSkill       100 0 'whip of murazor ' 0 0
+NNSkill       100 0 'whiplash' 0 0
+NNSkill       100 0 'willow skin' 0 0
+NNSkill       100 0 'wings' 0 0
+NNSkill       100 0 'wolf spirit' 0 0
+NNSkill       100 0 'wolf spirit' 0 0
+NNSkill       100 0 'woodwinds' 0 0
+NNWeapon      100 0 '1h axes' 0 0
+NNWeapon      100 0 '1h bludgeons' 0 0
+NNWeapon      100 0 '1h long blades' 0 0
+NNWeapon      100 0 '1h short blades' 0 0
+NNWeapon      100 0 '2h axes' 0 0
+NNWeapon      100 0 '2h bludgeons' 0 0
+NNWeapon      100 0 '2h long blades' 0 0
+NNWeapon      100 0 'archery' 0 0
+NNWeapon      100 0 'blowguns' 0 0
+NNWeapon      100 0 'flails' 0 0
+NNWeapon      100 0 'lances' 0 0
+NNWeapon      100 0 'polearms' 0 0
+NNWeapon      100 0 'pugilism' 0 0
+NNWeapon      100 0 'spears' 0 0
+NNWeapon      100 0 'staves' 0 0
+NNWeapon      100 0 'talons' 0 0
+NNWeapon      100 0 'whips' 0 0
+NNTongue      100 0 'celestial' 0 0
+NNTongue      100 0 'centaurian' 0 0
+NNTongue      100 0 'common' 0 0
+NNTongue      100 0 'demonic' 0 0
+NNTongue      100 0 'draconic' 0 0
+NNTongue      100 0 'dwarven' 0 0
+NNTongue      100 0 'elven' 0 0
+NNTongue      100 0 'gnomish' 0 0
+NNTongue      100 0 'goblic' 0 0
+NNTongue      100 0 'hobbit' 0 0
+NNTongue      100 0 'infernal' 0 0
+NNTongue      100 0 'ogrian' 0 0
+NNTongue      100 0 'orcish' 0 0
+NNTongue      100 0 'pixish' 0 0
+NNTongue      100 0 'silent' 0 0
+NNTongue      100 0 'trollese' 0 0
+NNTongue      100 0 'uncommon' 0 0
+NNSong        100 0 'druidic hymn' 0 0
+NNSong        100 0 'evac crescendo' 0 0
+NNSong        100 0 'harmonic melody' 0 0
+NNSong        100 0 'ottos dance' 0 0
+NNSong        100 0 'rousing tune' 0 0
+NNSong        100 0 'shrieking note' 0 0
+NNSong        100 0 'sound waves' 0 0
+NNSong        100 0 'stirring ballad' 0 0
+NNSong        100 0 'thunderous hymn' 0 0
+NNSong        100 0 'unholy melody' 0 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       3
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         1224
+Level        108
+Currtype     1
+Color        12
+Size   0
+End
+
+#END

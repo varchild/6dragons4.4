@@ -1,0 +1,388 @@
+#VNUM 40450
+#OBJECT
+Name         pantry~
+ShortDescr   a pantry of food stuffs~
+Description  A pantry of food stuffs is against the far wall.~
+Vnum         63
+Level        108
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Name         chest armor rename~
+ShortDescr   a chest full of armor~
+Description  A chest full of armor has been secured to the wall here.~
+Vnum         63
+Level        108
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26009
+Level        30
+Currtype     4
+Color        4
+Size   0
+Values       0 0 -1 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26007
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26008
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16709
+Level        50
+Currtype     1
+Color        13
+Size   3
+Values       40 40 0 0 0 50 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16712
+Level        30
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8302
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       2 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8303
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       1 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25001
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       0 0 -1 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11522
+Level        68
+Currtype     2
+Color        11
+Size   3
+Values       50 50 0 0 0 68 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11521
+Level        68
+Currtype     2
+Color        9
+Size   3
+Values       50 50 0 0 0 68 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2781
+Level        5
+Currtype     2
+Color        13
+Size   0
+Values       5 5 2 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8307
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8311
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       51 9 7 172 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         26002
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       40 9 9 121 0 20 0
+Spell 3      'iceshield'
+End
+
+#OBJECT
+Nest         1
+Vnum         26005
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   3
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2785
+Level        5
+Currtype     2
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2786
+Level        5
+Currtype     3
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26006
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2788
+Level        5
+Currtype     3
+Color        13
+Size   0
+Values       3 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2787
+Level        5
+Currtype     3
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26010
+Level        28
+Currtype     4
+Color        4
+Size   0
+Values       300 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18629
+Level        30
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18632
+Level        20
+Currtype     3
+Color        13
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35505
+Level        20
+Currtype     4
+Color        1
+Size   0
+Values       12 10 20 1 14 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35505
+Level        20
+Currtype     4
+Color        1
+Size   0
+Values       12 10 20 1 14 20 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8307
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2781
+Level        5
+Currtype     2
+Color        13
+Size   0
+Values       5 5 2 0 0 5 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16712
+Level        30
+Currtype     3
+Color        13
+Size   0
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8307
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11612
+Level        20
+Currtype     3
+Color        1
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Nest         1
+Count        2
+Vnum         11613
+Level        25
+Currtype     3
+Color        13
+Size   0
+Values       20 20 0 0 0 25 0
+End
+
+#OBJECT
+Name         treasure box rename~
+ShortDescr   a box of treasure~
+Description  A box of treasure is bolted to the floor here.~
+Vnum         63
+Level        108
+Currtype     2
+Color        13
+Size   0
+Values       2000 0 0 12 0 0 0
+End
+
+#END
