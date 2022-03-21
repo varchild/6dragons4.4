@@ -1,0 +1,366 @@
+#PLAYER
+Version      6
+Name         Mogran~
+Sex          1
+Class        13
+Secondclass  -1
+Thirdclass   -1
+Race         16
+Age          0 3 1 974
+Languages    1 1
+Level        5
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       4244
+Room         11210
+HpManaMove   96 455 156 156 472 447
+BaseHp       0 
+Blood        11 17
+Money         0 10 50 100 2466 -1
+Exp           47015
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        72
+Weight        225
+Act           570426952&4096
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     -493
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         97
+Wimpy         96
+Resistant     1
+Mentalstate   0
+Password      5849179e82c67e040d59be109414cbbf989a1588cdcd38b57aed816009cc1803~
+Title          the young adventurer~
+Lastip         67.197.174.123~
+RECAST          0
+KeepAlive      5
+GetsDExp     0
+DExpTimer    10
+LDExpUpdate  1647456160
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        1647457628 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Merchant Discovery~
+FoundArea       Wilderness~
+Htown      Dakar City~
+Flags        32774
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       19
+MDeaths      0
+IllegalPK    0
+AttrPerm     24 14 14 14 16 10 14
+AttrMod      2 0 0 0 0 0 0
+Condition    0 200 200 15
+Site         67.197.174.123
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       51 0 'dodge' 0 0
+NNSkill       46 0 'parry' 0 0
+NNSkill       50 0 'slice' 0 0
+NNWeapon      61 0 '1h short blades' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'demonic' 0 0
+AffectDataL   'kindred strength'  20 423   2   1 0
+Killed       2762
+Killed       2761
+Killed       2758
+Killed       2758
+Killed       2758
+Killed       2762
+Killed       2757
+Killed       2762
+Killed       2761
+Killed       2761
+Killed       2762
+Killed       2762
+Killed       2761
+Killed       2757
+Killed       2758
+Killed       2762
+Killed       2757
+Killed       2757
+Killed       33215
+THYQuestN 26 10 0 0 1 0
+THYQuestN 67 5 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       0
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         29
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         33226
+Level        1
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         125
+WearLoc      16
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 63
+End
+
+#OBJECT
+Vnum         33224
+Level        1
+Currtype     4
+Color        4
+Size   0
+Values       45 152 -1 -1 0 0 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Vnum         2774
+Level        6
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2777
+WearLoc      11
+Level        5
+Currtype     4
+Color        1
+Size   77
+Values       1 5 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2776
+Level        7
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 113 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Vnum         2778
+WearLoc      13
+Level        3
+Currtype     4
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2779
+Level        3
+Currtype     4
+Color        9
+Size   0
+Values       10 1 3 3 -1 3 -1
+End
+
+#OBJECT
+Vnum         2776
+Level        6
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 113 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Vnum         2776
+Level        6
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 113 0 0 0
+Spell 3      'kindred strength'
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    2756
+Ctime   1647455650
+Mtime   1647455650
+Rtime   0
+Timer   177
+Tag     story~
+Int     1
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    2752
+Ctime   1647455600
+Mtime   1647455600
+Rtime   0
+Timer   34
+Tag     story~
+Int     0
+End
+
+#END

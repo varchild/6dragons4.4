@@ -551,8 +551,8 @@ neatly trimmed goatee.
 Clanname none~
 0
 0
-131075 4194432 500 C
-30 0 0 1d50+850 5d3+4
+1073872899 4194432 500 C
+40 0 0 1d50+1000 5d3+4
 0 0 0 0 0 
 0
 115 115 1
@@ -738,14 +738,14 @@ A white statue of a gnome holding a shield is here.~
 0
 0
 S 0 0
-> get_prog 100~
-mpquest $n tower 2
-~
-|
 E
 white statue~
 The white statue appears to be precisely cut to connect to something.
 ~
+> get_prog 100~
+mpquest $n tower 2
+~
+|
 #18601
 gold gnome statue~
 a gold statue of a gnome~
@@ -761,14 +761,14 @@ A gold statue of a gnome holding a shield is here.~
 0
 0
 S 0 0
-> get_prog 100~
-mpquest $n tower 4
-~
-|
 E
 gold statue~
 The gold statue appears to be precisely cut to connect to something.
 ~
+> get_prog 100~
+mpquest $n tower 4
+~
+|
 #18602
 left mount~
 a left side mount~
@@ -938,14 +938,14 @@ A duke signet ring has been left here.~
 0
 0
 S 0 0
-A
-18 2
-A
-19 2
 E
 signet ring~
 The signet ring has the royal stamp of the duke which can be used to stamp letters.
 ~
+A
+18 2
+A
+19 2
 #18611
 ducal uniform~
 a dark blue ducal uniform~
@@ -961,12 +961,12 @@ A ducal uniform has been left here.~
 0
 0
 S 77 0
-A
-13 50
 E
 uniform~
 The dark blue uniform has three yellow stripes on the sleeves and several medals on the chest.
 ~
+A
+13 50
 #18612
 cellar key~
 a cellar key~
@@ -1060,12 +1060,12 @@ A stout oak staff has been left here.~
 0
 0
 S 0 0
-A
-12 25
 E
 oak staff~
 The oak staff is in great shape and has many odd runes carved within it.
 ~
+A
+12 25
 #18617
 well water~
 well water~
@@ -1100,12 +1100,12 @@ A miners pickaxe lies here~
 0
 0
 S 0 0
-A
-19 2
 E
 pick pickaxe~
 The pickaxe is made out of iron ore and appears to be well crafted.
 ~
+A
+19 2
 #18619
 time machine~
 a newly created time machine~
@@ -1136,12 +1136,12 @@ A pair of dusty goggles has been left here.~
 0
 0
 S 77 0
-A
-26 512
 E
 dusty goggles~
 The dusty goggles have a pair of leather straps on them to secure them in place.
 ~
+A
+26 512
 #18621
 flute silvery~
 a silvery flute~
@@ -1157,16 +1157,16 @@ A beautifully crafted flute made of pure silver~
 0
 0
 S 3 0
+E
+silvery flute~
+The silvery flute is precisely crafted and has been well maintained.
+~
 A
 13 15
 A
 12 15
 A
 19 2
-E
-silvery flute~
-The silvery flute is precisely crafted and has been well maintained.
-~
 #18622
 old pipe~
 an old pipe~
@@ -1315,14 +1315,14 @@ A majestic full plate helmet of power has been left here.~
 0
 0
 S 0 0
-A
-19 8
-A
-18 8
 E
 majestic power helmet~
 The helmet appears to be crafted of mystical ore with a quality never seen before.
 ~
+A
+19 8
+A
+18 8
 #18630
 mining cart~
 a mining cart~
@@ -1385,14 +1385,14 @@ The ring of splendor has been left here.~
 0
 0
 S 0 0
-A
-12 75
-A
-4 1
 E
 ring splendor~
 The ring of splendor has some mystical colors that swirl around on the ring's band.
 ~
+A
+12 75
+A
+4 1
 #18633
 white leather apron~
 a white leather apron~
@@ -1408,16 +1408,16 @@ A white leather apron has been left here.~
 0
 0
 S 77 0
+E
+white apron~
+The white apron is covered in flour and has a wine stain on it.
+~
 A
 19 2
 A
 18 2
 A
 5 1
-E
-white apron~
-The white apron is covered in flour and has a wine stain on it.
-~
 #18634
 jeweled sceptre~
 a jeweled sceptre~
@@ -1433,12 +1433,12 @@ A jeweled sceptre has been left here.~
 0
 0
 S 0 0
-A
-19 5
 E
 sceptre~
 The jeweled sceptre is covered in sapphires and rubies.
 ~
+A
+19 5
 #18635
 jeweled crown~
 a jeweled crown~
@@ -1454,14 +1454,14 @@ A jeweled crown has been left here.~
 0
 0
 S 77 0
-A
-19 2
-A
-4 1
 E
 crown~
 The jewled crown has small diamonds encrusted along it's edge.
 ~
+A
+19 2
+A
+4 1
 #18636
 half spear~
 a half spear~
@@ -1477,12 +1477,12 @@ A half spear has been left here.~
 0
 0
 S 0 0
-A
-18 4
 E
 spear~
 The half spear is the same length size of a standard sword.
 ~
+A
+18 4
 #18637
 brass keyring~
 a brass keyring~

@@ -1,0 +1,1268 @@
+#AREA        Tomb of the Green Dragon~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       13
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 35 20 35
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cThe silence of the surrounding area is broken by the sound of something crunching nearby.~
+
+#FLAGS
+65536
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#28350
+blast of wind~
+a blast of wind~
+A blast of wind
+~
+~
+1
+Clanname none~
+0
+0
+131075 4259842 0 C
+104 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if rand(50)
+mpecho &CA blast of wind blows through the cavern!
+mpforce $n ne
+else
+mpecho &CA blast of wind blows through the cavern!
+mpforce $n nw
+endif
+~
+|
+#28351
+barracuda fish~
+a barracuda fish~
+A barracuda fish stalks its prey here.
+~
+The fish is a shimmering silver green in color.  There is a large gash in the side of the
+fish that has healed.  The bright red eyes of the fish glow in the water.
+~
+13
+Clanname none~
+0
+28373
+1073889289&4 640 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 129 262146
+#28352
+snake python~
+a massive python~
+A massive python snake is slithering about here.
+~
+The python is a good 20 feet long and 3 feet thick.  It appears to be able to constrict the
+life out of anything around.
+~
+1
+Clanname none~
+0
+28372
+131075&4 640 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 65536 0 0 0 262145 2
+> fight_prog 10~
+mpechoat $n &GA massive python begins to constrict around you!
+mpdamage $n 250
+~
+|
+#28353
+dwarf miner~
+a dwarven miner~
+A miner tunnels through the stone walls looking for silver.
+~
+The thick bodied dwarf is covered in dwarven chain mail.  He is wearing a blue cape, and has
+a horned helmet on his head.
+~
+1
+Clanname none~
+0
+28375
+1073872899&4 680 0 C
+55 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+0 0 41 0 0 0 177 2
+> all_greet_prog 100~
+if isevil($n)
+mppause 2
+yell begone evil!
+mpkill $n
+else
+mppause 4
+emote swings his pick axe at the tunnel wall.
+endif
+~
+|
+#28354
+dwarf guard~
+a dwarf guard~
+A dwarf guard is standing watch here.
+~
+The thick bodied dwarf is covered in dwarven chain mail.  He is wearing a blue cape, and has
+a horned helmet on his head.  The guard has a shield and a battle axe.
+~
+1
+Clanname none~
+0
+28350
+1073872899&4 680 0 C
+55 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+0 0 41 0 0 0 177 2
+> all_greet_prog 100~
+if isevil($n)
+mppause 2
+yell begone evil!
+mpkill $n
+else
+mppause 4
+mpechoat $n &CA Dwarven Guard says, 'Welcome $n.  Are you here for the trials of the Green Dragon tomb?'
+mpechoat $n &CType 'SAY TOMB' if you want to learn more.
+endif
+~
+|
+#28355
+dwarf miner~
+a dwarven miner~
+A miner tunnels through the stone walls looking for silver.
+~
+The thick bodied dwarf is covered in dwarven chain mail.  He is wearing a blue cape, and has
+a horned helmet on his head.
+~
+1
+Clanname none~
+0
+28376
+1073872899&4 680 0 C
+55 0 0 20d20+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 5
+0 0 41 0 0 0 177 2
+> all_greet_prog 100~
+if isevil($n)
+mppause 2
+yell begone evil!
+mpkill $n
+else
+mppause 4
+nod $n
+endif
+~
+|
+#28356
+Troll Chief~
+Troll Chief Taskar~
+A troll chief is standing here.
+~
+The fish is a shimmering silver green in color.  There is a large gash in the side of the
+fish that has healed.  The bright red eyes of the fish glow in the water.
+~
+11
+Clanname none~
+0
+28370
+1073872929&4 640 -1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+7 3 0 0 1 1 0
+0 0 0 0 0 0 128&64 2
+> all_greet_prog 100~
+mppause 2
+emote defiles the tomb of the Green Dragon.
+if quest(tomb) == 1
+mpquest tomb 2
+endif
+~
+> death_prog 100~
+if quest(tomb) == 2
+mpquest tomb 3
+endif
+~
+|
+#28400
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#28350
+mithril mesh vest~
+a mithril mesh vest~
+A mithril mesh vest has been left here.~
+~
+9 0 9 1
+20 20 0 0 0 20 0
+1 192 19
+3
+8
+0
+0
+0
+0
+S 77 0
+E
+mesh vest~
+The vest is extremely light, but has extraordinary strength in the intricate links.
+~
+A
+27 32
+A
+27 64
+#28351
+pick axe~
+a pick axe~
+A pick axe has been left here.~
+~
+5 0 8193
+0 10 20 2 2 20 30
+3 166 2
+3
+2
+0
+0
+0
+0
+S 0 0
+E
+pick~
+The pick axe appears to be very sharp yet, for having been used to mine silver.
+~
+A
+18 8
+#28352
+hooded lantern~
+a hooded lantern~
+A hooded lantern has been left here.~
+~
+1 0 16385
+0 0 10 0 0 0 0
+3 20 2
+3
+2
+0
+0
+0
+0
+S 0 0
+E
+lantern~
+The lantern appears to be of dwarven construction.  It is very sturdy and puts out good light.
+~
+#28353
+mithril shield~
+a mithril shield~
+A mithril shield inlaid with platinum runes glows brightly.~
+~
+9 524353 513
+40 40 0 0 0 0 0
+12 160 16
+3
+8
+0
+0
+0
+0
+S 0 0
+E
+shield~
+The shield has a majestic quality to it's craftsmanship.  The mithril metal almost seems alive.
+~
+A
+27 1048576
+A
+13 25
+#28354
+battle axe~
+a battle axe~
+A battle axe has been left here.~
+~
+5 0 8193
+0 10 20 3 9 20 0
+6 181 18
+3
+8
+0
+0
+0
+0
+S 0 0
+E
+battle axe~
+It appears to be a battle axe of superb quality.
+~
+A
+18 4
+A
+19 4
+#28370
+left green wing mithril~
+a left green dragon mithril wing mesh~
+A left green dragon mithril wing mesh has been left here.~
+~
+9 1073741824 134217729
+20 20 0 0 0 20 0
+1 135 13
+3
+9
+0
+0
+0
+0
+S 0 0
+E
+left~
+The wing mesh appears to be made from a master dwarf craftsman.~
+A
+18 1
+A
+19 1
+#28371
+right green wing mithril~
+a right green dragon mithril wing mesh~
+A right green dragon mithril wing mesh has been left here.~
+~
+9 1073741824 268435457
+20 20 0 0 0 20 0
+1 159 15
+3
+9
+0
+0
+0
+0
+S 0 0
+E
+right~
+The wing mesh appears to be made from a master dwarven craftsman.~
+A
+18 1
+A
+19 1
+#28372
+snake fang ~
+a snake fang~
+A snake fang has been left here.~
+%s enjoy$q $p~
+5 0 8193
+8 10 20 6 2 20 50
+5 127 12
+3
+5
+0
+0
+0
+0
+S 0 0
+E
+fang~
+The fang is irregularly long, and has a slight yellow color to it's center from the venom.
+~
+A
+19 8
+#28373
+barracuda liver~
+a barracuda liver~
+A barracuda liver has been left here.~
+~
+26 270336 1
+80 -1 -1 -1 0 20 0
+1 73 7
+4
+1
+0
+0
+0
+0
+'spirits ward' 'NONE' 'NONE'
+S 0 0
+E
+liver~
+The liver is still warm and wet.~
+#28374
+tree club~
+a tree-like club~
+A tree-like club has been left here.~
+~
+5 0 8193
+0 27 34 4 4 20 0
+20 136 13
+3
+1
+0
+0
+0
+0
+S 0 0
+E
+tree~
+The massive tree has most of it's branches broke off, but has a few wicked knots on it.~
+A
+18 4
+A
+19 4
+#28375
+silver bar~
+a silver bar~
+A silver bar has been left here.~
+~
+8 0 16385
+0 0 3 0 0 0 0
+1 2 0
+1
+8
+0
+0
+0
+0
+S 0 0
+E
+bar~
+The silver bar is perfectly rounded off edges, and has the dwarven mark on it.~
+#28376
+silver ring~
+a silver ring~
+A silver ring has been left here.~
+~
+9 0 3
+20 20 0 0 0 20 0
+1 167 16
+3
+8
+0
+0
+0
+0
+S 77 0
+E
+ring~
+A medium sized ring, molded from silver.
+~
+A
+19 4
+#28400
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#28350
+A Tunnel Entrance~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 2097161 13 0 0 0 90
+D0
+~
+~
+0 -1 28365
+D11
+~
+~
+0 -1 62964
+R M 0 28354 1 28350
+  R E 0 28353 1 11
+  R E 0 28354 1 16
+S
+#28351
+A Tunnel Intersection~
+Not Assigned~
+The passage expands on the sides becoming massive in size. There are
+recent excavation marks along the sides of the passage. There are signs of
+a battle taking place along this ground.
+~
+1 2162697 13 0 0 0 90
+D2
+~
+~
+0 -1 28384
+D6
+~
+~
+0 -1 28352
+D7
+~
+~
+0 -1 28353
+S
+#28352
+Within the Tunnel~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 2162697 13 0 0 0 90
+D6
+~
+~
+0 -1 28354
+D9
+~
+~
+0 -1 28351
+S
+#28353
+Within the Tunnel~
+Not Assigned~
+There are several sets of stalagmites along the edges of the walls with a
+few giant clusters of mushrooms interspersed among them. There are gouges
+in the walls from large talons.
+~
+1 2162697 13 0 0 0 90
+D7
+~
+~
+0 -1 28362
+D8
+~
+~
+0 -1 28351
+S
+#28354
+A Massive Pit~
+Not Assigned~
+There are a pile of stalagmites along the edges of the pit.  A few different
+types of mushrooms are growing on the sides as well.  The ground is too far away
+to make out any details.
+~
+1 18939913 13 0 0 0 90
+D5
+~
+~
+0 -1 28355
+D9
+~
+~
+0 -1 28352
+S
+#28355
+Within the Pit~
+Not Assigned~
+A few skeletons are impaled on the stalagmites along the walls of the pit here.  There
+are different types of mushrooms growing along the walls.  The ground has many large 
+boulders scattered among it.
+~
+1 18939913 13 0 0 0 90
+D4
+~
+~
+0 -1 28354
+D5
+~
+~
+0 -1 28356
+S
+#28356
+A Collapsed Bottom of a Pit~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.  The pit entrance cannot be
+seen from the bottom.  A pile of boulders are blocking something to the north.
+~
+1 18939913 13 0 0 0 90
+D0
+~
+~
+256 -1 28358
+D4
+~
+~
+0 -1 28355
+S
+#28358
+A Secret Passageway~
+Not Assigned~
+The passage is covered in a thick ash along the walls and ground. A heavy
+amount of ash still floats in the air. There is a large crack in the
+ground that the ash and hot air pours through.
+~
+1 2162697 13 0 0 0 90
+D2
+~
+~
+0 -1 28356
+D3
+~
+~
+0 -1 28359
+S
+#28359
+Within the Secret Passageway~
+Not Assigned~
+Large amounts of steam fill the passage descent obscuring most visibility.
+There are sharp stone crevices along the walls that can be made out every
+now and then. A hot gust of wind comes from below.
+~
+1 2162697 13 0 0 0 90
+D1
+~
+~
+0 -1 28358
+D7
+~
+~
+0 -1 28360
+S
+#28360
+Along the Secret Passageway~
+Not Assigned~
+The tunnel splits off into a ledge of some sort to the southeast, and a small
+passage way to the north. Heat pours up from below. There are sharp rocks
+all along the sides of the tunnel walls.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28361
+D8
+~
+~
+0 -1 28359
+S
+#28361
+Before a Unmarked Tomb~
+Not Assigned~
+The massive tomb has giant slabs of boulders that have been placed to properly cover the 
+remains of the green dragon.  There are ancient writings on the walls beside the tomb.  A
+small slab with incense on it is to the left of the tomb.
+~
+1 2162825 13 0 0 0 90
+D2
+~
+~
+0 -1 28364
+R M 0 28356 1 28361
+  R G 0 28371 1
+  R E 0 28374 1 16
+S
+#28362
+Before a Descending Passageway~
+Not Assigned~
+A boulder the size of a large house is against the wall of the passage.
+There are large cracks in the boulder from water that has dripped down
+onto the boulder. A series of tracks lead down.
+~
+1 2162697 13 0 0 0 90
+D5
+~
+~
+0 -1 28363
+D8
+~
+~
+0 -1 28353
+S
+#28363
+Descending Downward~
+Not Assigned~
+There are jagged rocks along the passage walls here. Several types of
+stalagmites grow throughout the passage. There are small obsidian stones
+along the ground. A great heat comes from the ground.
+~
+1 2162697 13 0 0 0 90
+D4
+~
+~
+0 -1 28362
+D5
+~
+~
+0 -1 28364
+S
+#28364
+Before a Passageway~
+Not Assigned~
+The passage turns sharply to the south here. There is a heavy build up of
+ash along the walls and floor. A few cracks in the walls and floor have
+ash billowing out through them.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28361
+D4
+~
+~
+0 -1 28363
+S
+#28365
+Within the Tunnel~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here.
+~
+1 2162697 13 0 0 0 90
+D2
+~
+~
+0 -1 28350
+D6
+~
+~
+0 -1 28366
+D7
+~
+~
+0 -1 28367
+R M 0 28350 2 28365
+S
+#28366
+Within a Passageway~
+Not Assigned~
+There are clusters of stalagmites around this cavern. A few giant sized
+mushrooms are growing along the walls. A few small rocks are piled to the
+rear of the cavern.
+~
+1 2162701 13 0 0 0 90
+D0
+~
+~
+0 -1 28368
+S
+#28367
+Within a Passageway~
+Not Assigned~
+The passage becomes almost a right angle as turn sharply goes north here.
+There are several sets of tracks that lead north along the ground. An
+incredible amount of heat comes from the walls and ground here.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28378
+S
+#28368
+A Collapsed Section of Passageway~
+Not Assigned~
+There appears to be a pile of boulders to the west that maybe blocking something.  The
+passageway is filled with a cluster of giant mushrooms.  There are stalagmites scattered
+throughout the area here.  A broken timbre is what used to hold that west side up.
+~
+1 2162701 13 0 0 0 90
+D2
+~
+~
+0 -1 28366
+D3
+~
+~
+256 -1 28385
+D6
+~
+~
+0 -1 28369
+S
+#28369
+Within a Passageway~
+Not Assigned~
+There are several boulders along the edges of the passage here. A few
+stalagmites are along the ground. There are bones of various creatures
+along the ground. A searing heat comes from the ground and the air.
+~
+1 2162701 13 0 0 0 90
+D0
+~
+~
+0 -1 28370
+D9
+~
+~
+0 -1 28368
+S
+#28370
+Before a Intersection~
+Not Assigned~
+There are mounds of crushed skeleton bones along the passage ground here.
+The passage takes a sharp turn towards the north. A few stalagmites are
+along the wall edges here.
+~
+1 2162701 13 0 0 0 90
+D2
+~
+~
+0 -1 28369
+D6
+~
+~
+0 -1 28371
+D7
+~
+~
+0 -1 28372
+R M 0 28350 2 28370
+S
+#28371
+A Massive Cavern~
+Not Assigned~
+The passage becomes almost a right angle as turn sharply goes north here.
+There are several sets of tracks that lead north along the ground. An
+incredible amount of heat comes from the walls and ground here.
+~
+1 2162701 13 0 0 0 90
+D0
+~
+~
+0 -1 28373
+S
+#28372
+Along a Passageway~
+Not Assigned~
+The passageway expands greatly here due to recent excavation. The sides
+have marks along them from some type of tool. There are giant sized
+mushrooms growing along the sides.
+~
+1 2162701 13 0 0 0 90
+D7
+~
+~
+0 -1 28375
+S
+#28373
+Along a Passageway~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 2162701 13 0 0 0 90
+D0
+~
+~
+0 -1 28374
+D2
+~
+~
+0 -1 28371
+S
+#28374
+A Collapsed Dead End~
+Not Assigned~
+There are a pile of boulders on the ground here that appear to be covering up something.
+Stalagmites are scattered throughout the passageway.  A few giant mushrooms are growing from
+the ground in small clusters.  Some creatures tracks lead in and out of this area.
+~
+1 2162701 13 0 0 0 90
+D2
+~
+~
+0 -1 28373
+D5
+~
+~
+256 -1 28351
+S
+#28375
+Within a Passageway~
+Not Assigned~
+The passage expands on the sides becoming massive in size. There are
+recent excavation marks along the sides of the passage. There are signs of
+a battle taking place along this ground.
+~
+1 2162701 13 0 0 0 90
+D0
+~
+~
+0 -1 28376
+D8
+~
+~
+0 -1 28372
+S
+#28376
+Along a Passageway~
+Not Assigned~
+A boulder the size of a large house is against the wall of the passage.
+There are large cracks in the boulder from water that has dripped down
+onto the boulder. A series of tracks lead off to the northwest.
+~
+1 2162701 13 0 0 0 90
+D2
+~
+~
+0 -1 28375
+D7
+~
+~
+0 -1 28377
+S
+#28377
+Within a Lair~
+Not Assigned~
+The tunnel is in reality a small lair for a beast. There are more bones
+scattered about the lair. A few rusted items from adventurers lay about as
+well. A few stalagmites are along the edges of the lair.
+~
+1 2162701 13 0 0 0 90
+D8
+~
+~
+0 -1 28376
+R M 0 28352 1 28377
+S
+#28378
+Along a Passageway~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There
+are small piles of skeleton bones shoved to the sides of the cell. A few
+stalagmites are along the passage. A great heat comes from the ground.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28379
+D2
+~
+~
+0 -1 28367
+S
+#28379
+Within a Massive Cavern~
+Not Assigned~
+The massive cell appears to be some type of captive holding place. There
+are small piles of skeleton bones shoved to the sides of the cell. A few
+stalagmites are along the passage. A great heat comes from the ground.
+~
+1 2162697 13 0 0 0 90
+D2
+~
+~
+0 -1 28378
+D6
+~
+~
+0 -1 28380
+S
+#28380
+Along a Passageway~
+Not Assigned~
+There are all kinds of types of stalagmites within this passage. A small
+pool of boiling water has collected at the bottom of the passage. A few
+mushrooms grow around the sides of the pool.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28381
+D9
+~
+~
+0 -1 28379
+S
+#28381
+Before a Small Mine Shaft~
+Not Assigned~
+The passage is covered in a thick ash along the walls and ground. A heavy
+amount of ash still floats in the air. There is a large crack in the
+ground that the ash and hot air pours through.
+~
+1 2162697 13 0 0 0 90
+D0
+~
+~
+0 -1 28382
+D1
+~
+~
+256 -1 28391
+D2
+~
+~
+0 -1 28380
+S
+#28382
+Within a Small Mine Shaft~
+Not Assigned~
+Large amounts of steam fill the passage descent obscuring most visibility.
+There are sharp stone crevices along the walls that can be made out every
+now and then. A hot gust of wind comes from below.
+~
+1 2162697 13 0 0 2 50
+D0
+~
+~
+0 -1 28383
+D2
+~
+~
+0 -1 28381
+R M 0 28353 1 28382
+  R E 0 28351 1 16
+S
+#28383
+Within a Small Mine Shaft~
+Not Assigned~
+The tunnel splits off into a ledge of some sort to the south, and a small
+passage way to the northeast. Heat pours up from below. There are sharp rocks
+all along the sides of the tunnel walls.
+~
+1 2162697 13 0 0 0 50
+D2
+~
+~
+0 -1 28382
+D6
+~
+~
+0 -1 28384
+S
+#28384
+Along the Small Mine Shaft~
+Not Assigned~
+The passageway expands greatly here due to recent excavation. The sides
+have marks along them from some type of tool. There are giant sized
+mushrooms growing along the sides.
+~
+1 2162697 13 0 0 0 50
+D0
+~
+~
+0 -1 28351
+D9
+~
+~
+0 -1 28383
+R M 0 28355 1 28384
+  R E 0 28351 1 16
+S
+#28385
+Within a Massive Pool~
+Not Assigned~
+A massive pool of clear water fills this passageway.  There are stalagmites along
+the walls with giant mushrooms clustered in between them.  A thick layer of mildew is
+along various boulders here.
+~
+1 18939917 13
+D1
+~
+~
+0 -1 28368
+D5
+~
+~
+0 -1 28386
+S
+#28386
+Within a Underground Pool~
+Not Assigned~
+The area is filled with stalagmites and clusters of seaweed throughout passageway.
+A heavy buildup of sand is along the ground.  There are various forms of fish floating
+about within the water here.
+~
+1 2162701 8
+D0
+~
+~
+0 -1 28387
+D4
+~
+~
+0 -1 28385
+R M 0 28351 1 28386
+S
+#28387
+Underwater Passageway~
+Not Assigned~
+The area is filled with stalagmites and clusters of seaweed throughout passageway.
+A heavy buildup of sand is along the ground.  There are various forms of fish floating
+about within the water.  A giant boulder is is in the middle of the passage.
+~
+1 2162701 8
+D2
+~
+~
+0 -1 28386
+D6
+~
+~
+0 -1 28388
+S
+#28388
+Underground Lake~
+Not Assigned~
+The passage gives way to a vast lake.  The ground is filled with a sandy sentiment.  
+There are large clusters of seaweed scattered about the area.  Various types of fish
+are swimming about the lake.
+~
+1 2162701 8
+D4
+~
+~
+0 -1 28389
+D9
+~
+~
+0 -1 28387
+R M 0 28351 2 28388
+S
+#28389
+Within a Underground Lake~
+Not Assigned~
+A massive lake is filling this cavern area.  There are stalagmites scattered about
+the area here.  Small amounts of mildew are growing up the edges of the passage walls.
+The beach to the north is covered in fine sand.
+~
+1 2162701 29
+D0
+~
+~
+0 -1 28390
+D5
+~
+~
+0 -1 28388
+S
+#28390
+Beside the Shore~
+Not Assigned~
+There are clusters of stalagmites around this cavern. A few giant sized
+mushrooms are growing along the walls. A few small rocks are piled to the
+rear of the cavern.
+~
+1 2162701 29
+D0
+~
+~
+0 -1 28391
+D2
+~
+~
+0 -1 28389
+S
+#28391
+Within a Collapsed Section of Passageway~
+Not Assigned~
+There are a pile of boulders blocking something to the west of here.  A broken old timbre is
+laying about on the rubble.  There are massive mushrooms growing in clusters around this area.
+The tracks of a strange creature lead towards the lake to the south.
+~
+1 2162701 13
+D2
+~
+~
+0 -1 28390
+D3
+~
+~
+256 -1 28381
+S
+#28400
+Floating in a void~
+Not Assigned~
+~
+1 12 13
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

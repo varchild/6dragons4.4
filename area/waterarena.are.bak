@@ -1,0 +1,535 @@
+#AREA        Water Arena~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &CThe murky water is unsettling with how still it remains.~
+
+#FLAGS
+16836
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999979 999999979 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4320
+giant cat fish~
+a giant cat fish~
+A giant cat fish swims along here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+30 0 100 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4320
+green bottle~
+a green bottle~
+A green bottle has been left here.~
+~
+10 0 1
+50 -1 -1 -1 0 2 0
+1 50 5
+2
+11
+0
+0
+0
+0
+'aqua breath' 'NONE' 'NONE'
+S 0 0
+#0
+
+
+#ROOMS
+#4320
+Central Platform~
+~
+&OThe giant rock platform is slightly raised above the still waters.
+Above there is a small hole in the ceiling.  The platform is not 
+large in size.  The murky still water surrounds all sides.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4325
+D1
+~
+~
+0 -1 4323
+D2
+~
+~
+0 -1 4330
+D3
+~
+~
+0 -1 4321
+R O 0 4320 1 4320
+S
+#4321
+Floating Above the Water~
+~
+&BThe murky water is still, with little movement, except for the creatures
+that swim within it.  There are several objects floating in the water.  A
+mildewy film crests the top of the water.
+~
+1 100671496 6
+D0
+~
+~
+0 -1 4328
+D1
+~
+~
+0 -1 4320
+D2
+~
+~
+0 -1 4333
+D3
+~
+~
+0 -1 4322
+S
+#4322
+Floating Above the Water~
+~
+&BThe murky water is still, with little movement, except for the creatures
+that swim within it.  There are several objects floating in the water.  A
+mildewy film crests the top of the water.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4329
+D1
+~
+~
+0 -1 4321
+D2
+~
+~
+0 -1 4334
+S
+#4323
+Floating Above the Water~
+~
+&BThe murky water is still, with little movement, except for the creatures
+that swim within it.  There are several objects floating in the water.  A
+mildewy film crests the top of the water.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4326
+D1
+~
+~
+0 -1 4324
+D2
+~
+~
+0 -1 4331
+D3
+~
+~
+0 -1 4320
+S
+#4324
+Floating Above the Water~
+~
+&BThe murky water is still, with little movement, except for the creatures
+that swim within it.  There are several objects floating in the water.  A
+mildewy film crests the top of the water.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4327
+D2
+~
+~
+0 -1 4332
+D3
+~
+~
+0 -1 4323
+S
+#4325
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D1
+~
+~
+0 -1 4326
+D2
+~
+~
+0 -1 4320
+D3
+~
+~
+0 -1 4328
+S
+#4326
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D1
+~
+~
+0 -1 4327
+D2
+~
+~
+0 -1 4323
+D3
+~
+~
+0 -1 4325
+S
+#4327
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D2
+~
+~
+0 -1 4324
+D3
+~
+~
+0 -1 4326
+S
+#4328
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D1
+~
+~
+0 -1 4325
+D2
+~
+~
+0 -1 4321
+D3
+~
+~
+0 -1 4329
+S
+#4329
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D1
+~
+~
+0 -1 4328
+D2
+~
+~
+0 -1 4322
+S
+#4330
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D0
+~
+~
+0 -1 4320
+D1
+~
+~
+0 -1 4331
+D2
+~
+~
+0 -1 4337
+D3
+~
+~
+0 -1 4333
+S
+#4331
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D0
+~
+~
+0 -1 4323
+D1
+~
+~
+0 -1 4332
+D2
+~
+~
+0 -1 4338
+D3
+~
+~
+0 -1 4330
+S
+#4332
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4324
+D2
+~
+~
+0 -1 4339
+D3
+~
+~
+0 -1 4331
+S
+#4333
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671496 6
+D0
+~
+~
+0 -1 4321
+D1
+~
+~
+0 -1 4330
+D2
+~
+~
+0 -1 4336
+D3
+~
+~
+0 -1 4334
+R M 0 4320 3 4333
+S
+#4334
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4322
+D1
+~
+~
+0 -1 4333
+D2
+~
+~
+0 -1 4335
+S
+#4335
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4334
+D1
+~
+~
+0 -1 4336
+R M 0 4320 3 4335
+S
+#4336
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4333
+D1
+~
+~
+0 -1 4337
+D3
+~
+~
+0 -1 4335
+S
+#4337
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4330
+D1
+~
+~
+0 -1 4338
+D3
+~
+~
+0 -1 4336
+S
+#4338
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4331
+D1
+~
+~
+0 -1 4339
+D3
+~
+~
+0 -1 4337
+S
+#4339
+Within the Murky Depths~
+~
+&bThe dark waters hide many things.  Creatures and objects that are within
+it, are not visible until they are really close.  The ground below is 
+covered in thick green seaweed.
+~
+1 100671500 6
+D0
+~
+~
+0 -1 4332
+D3
+~
+~
+0 -1 4338
+R M 0 4320 3 4339
+S
+#4340
+On a Diving Platform~
+~
+&OThe diving platform is above a giant tank of water. There are large oak 
+platforms along the sides of the tanks for guests to sit at and observe 
+the arena. Various aquatic life swim within the tank. There is another 
+platform in the center of the tank, that has a strange bottle on it. 
+~
+1 100672524 6
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

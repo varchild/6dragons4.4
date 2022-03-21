@@ -1,0 +1,1907 @@
+#AREA        Cliffs of Green~
+
+
+
+#VERSION     11
+#AUTHOR      Fya~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+75 85 65 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A brisk breeze smelling of salt flows through the air.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#13101
+Eltoran Pixie Lord~
+Eltoran, Lord of the Cliffs of Green~
+A Pixie male with a commanding presence stands here proudly.
+~
+This Pixie man has a noble visage and a proud demeanor. Silver wings 
+tipped in royal purple are furled against his back. He is the Lord of 
+the Cliffs of Green, and his manner shows this clearly. A silver crown 
+rests firmly upon his head. He gazes at the world from piercing black 
+eyes, and his lips are curved in a gentle smile.
+~
+1
+Clanname none~
+0
+0
+131075 4718720 1000 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 240 6146
+> all_greet_prog 100~
+if ispc($n)
+  if quest(eltorin) == 2
+    if mobinroom(13102) == 1
+    mpechoat $n &CEltoran, Lord of the Cliffs of Green says 'Thank you traveler, you have saved my son!'&D
+    mpechoat $n &CEltoran, Lord of the Cliffs of Green says 'Take this as a token of my gratitude.'&D
+    mpoload 13104 70
+    give token $n
+    mpquest $n eltorin 3
+    mppause 2
+    mpechoat $n &CEltoran hugs his son and sends the boy off to rest.
+    mpat eltorin mptrans eltorin 4
+    endif
+  else
+    mpechoat $n &CEltoran, Lord of the Cliffs of Green says 'Greetings, traveler. I am Eltoran, Lord of the Cliffs of Green.'&D
+  endif
+endif
+~
+> speech_prog pixie pixies~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CEltoran, Lord of the Cliffs of Green says 'We are a proud people who have lived here for many generations.'&D
+endif
+~
+> speech_prog harpy harpies~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CEltoran, Lord of the Cliffs of Green says 'The Harpies have taken over a 
+  mpechoat $n &C    nearby terrace. They do not dare to attack us openly, but should one 
+  mpechoat $n &C    of my people venture into Harpy territory, the Harpies will kill them.'&D
+endif
+~
+> act_prog p gives you a Pixie doll.~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CEltoran, Lord of the cliffs of Green looks at the doll sadly, and says 'This&D
+  mpechoat $n &C    belonged to my son, who is lost. I can not bear to keep it.'&D
+  give doll $n
+endif
+~
+|
+#13102
+Eltorin Pixie heir boy~
+Eltorin, son of Eltoran~
+A young Pixie boy stands here proudly.
+~
+A young Pixie boy with bright black eyes and hair gazes at you 
+timidly. His manner is shy and quiet, perhaps as a result of his 
+captivity. Silver wings with royal purple tips are furled tightly 
+against his back. A small silver circlet rests atop his head.
+~
+1
+Clanname none~
+0
+0
+67239939 4719104 1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 624 0
+> speech_prog Merisa~
+if ispc($n)
+  mppause 3
+  mpechoat $n &CEltorin, son of Eltoran says 'She thinks that I am her lost son, but everyone &D
+  mpechoat $n &C    knows that he was killed when he flew too far and the Harpies got him.'&D
+endif
+~
+> speech_prog harpy harpies~
+if ispc($n)
+  mppause 3
+  mpechoat &C$n Eltorin, son of Eltoran says 'They hate us. They killed Merisa's son.'&D
+endif
+~
+> act_prog p gives you a Pixie doll.~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CEltorin, son of Eltoran says 'My doll! Thank you so much!'&D
+  if quest(eltorin) > 0
+  if quest(eltorin) < 3
+    mppause 2
+    mpechoat $n &CEltorin, son of Eltoran says 'Please, can you take me to my father?'&D
+    mpechoat $n &CEltorin, son of Eltoran says 'Merisa won't let me go home...'&D
+    follow $n
+    mpquest $n eltorin 2
+  endif
+  endif
+endif
+~
+|
+#13103
+Merisa pixie woman~
+Merisa~
+A lovely but unkempt Pixie woman stands here timidly.
+~
+Pale grey wings with lilac tips are pressed tightly against her 
+back. Her face is smooth and unlined, making her age hard to tell. 
+Sadness and wisdom fill her light grey eyes. She flinches at any 
+sign of movement.
+~
+1
+Clanname none~
+0
+0
+131075 524288 100 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 973341184 6466
+> all_greet_prog 100~
+if ispc($n)
+  if quest(eltorin) == 2
+    mpkill $n
+    mpechoat $n &CMerisa screams 'NOOOO! You can't take my son from me!!'&D
+  else
+    mppause 2
+    mpechoat $n &CMerisa curtsies politely and smiles at you.&D
+    mpechoat $n &CMerisa says 'Greetings, traveler. Welcome to my home.'&D
+  endif
+endif
+~
+> speech_prog harpy harpies~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CMerisa says 'They are evil, nasty creatures. It is rumored that a big dragon &D
+  mpechoat $n &C    drove them from the island they used to live on. They kill my people. They &D
+  mpechoat $n &C    tried to kill my son, but he has escaped and returned to me, although the &D
+  mpechoat $n &C    trauma has damaged his memory. I hate them!'&D
+  mppause 2
+  mpechoat $n &CMerisa smiles craftily.
+  mpechoat $n &CMerisa says 'Bring me their eggs, or the corpses of their young, and I will&D
+  mpechoat $n &C    reward you handsomely. That will teach them to harm my son!'&D
+  if quest(merisa) == 0
+    mpquest $n merisa 1
+  endif 
+endif
+~
+> speech_prog pixie pixies~
+if ispc($n)
+  mppause 2
+  mpechoat $n &CMerisa says 'My people are proud, and we have lived in the Cliffs of Green in 
+  mpechoat $n &C    peace for many generations. Unfortunately, once the Harpies came, things 
+  mpechoat $n &C    changed. Many of my people have gone out into the wide world to live amongst 
+  mpechoat $n &C    other peoples.'&D
+endif
+~
+> act_prog p gives you a Harpy egg.~
+if ispc($n)
+  mpmset self gold 5
+  mppause 2
+  mpechoat $n &CMerisa cackles gleefully, a twisted look turning her beautiful features ugly. &D
+  mpechoat $n &CMerisa says 'Thank you! That will teach them to try to harm my son!'&D
+  mppause 2
+  mpjunk egg
+  give 5 gold $n 
+  if quest(merisa) == 1
+    mpquest $n merisa 2
+  endif
+endif
+~
+> act_prog p gives you the corpse of a Harpy fledgling.~
+if ispc($n)
+  mpmset self gold 5
+  mppause 2
+  mpechoat $n &CMerisa cackles gleefully, a twisted look turning her beautiful features ugly. &D
+  mpechoat $n &CMerisa says 'Thank you! That will teach them to try to harm my son!'&D
+  mppause 2
+  mpjunk corpse
+  give 5 gold $n 
+  if quest(merisa) == 1
+    mpquest $n merisa 2
+  endif 
+endif
+~
+|
+#13104
+Pixie guard~
+a Pixie guard~
+A proud Pixie guard stands here.
+~
+A Pixie guard gazes around himself proudly, knowing his place in 
+the world. Brown wings with darker brown tips are furled behind 
+him. He watches the area vigilantly. Brown eyes filled with calm 
+strength watch over his people.
+~
+1
+Clanname none~
+0
+0
+131075 4718720 900 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 48 524290
+#13105
+Pixie citizen man~
+a male Pixie citizen~
+A Pixie man goes about his business.
+~
+This Pixie man looks calm and confident. His tan wings edged in black 
+are furled neatly against his back. His eyes are clear and peaceful. 
+His dark hair is neatly brushed back.
+~
+1
+Clanname none~
+0
+0
+1 524288 1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 48 2
+#13106
+Pixie citizen woman~
+a female Pixie citizen~
+A Pixie woman goes about her business.
+~
+This Pixie woman looks serene and content. Her white wings are edged 
+in a pale pink and folded neatly against her back. Her eyes are clear 
+and bright. Her long hair is pulled neatly up into a ponytail.
+~
+1
+Clanname none~
+0
+0
+1 524288 1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 48 2
+#13107
+Pixie guard~
+a Pixie guard~
+A proud Pixie guard stands here.
+~
+A Pixie guard gazes around himself proudly, knowing his place in 
+the world. Brown wings with darker brown tips are furled behind 
+him. He watches the area vigilantly. Brown eyes filled with calm 
+strength watch over his people.
+~
+1
+Clanname none~
+0
+0
+131075 4718720 900 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 48 524290
+#13108
+Pixie child boy~
+a Pixie boy~
+A young Pixie boy runs around, playing.
+~
+A young Pixie boy plays happily with his toys. Light brown wings 
+edged in black are half-furled, and it seems as if he may take to 
+careless flight at any moment. Ready laughter streams from his lips. 
+His hair is mussed, but clean.
+~
+1
+Clanname none~
+0
+0
+1 524288 1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 624 2
+#13109
+Pixie child girl~
+a Pixie girl~
+A young Pixie girl plays quietly with her dolls.
+~
+A young Pixie girl holds a doll in each hand. She murmurs softly to 
+herself, imagining conversations between her dolls. Her soft white 
+wings are mostly furled, and tipped in palest pink. Her hair is neat 
+and clean, confined to a ponytail.
+~
+1
+Clanname none~
+0
+0
+1 524288 1000 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 624 2
+#13110
+Pixie guard~
+a Pixie guard~
+A proud Pixie guard stands here.
+~
+A Pixie guard gazes around himself proudly, knowing his place in 
+the world. Brown wings with darker brown tips are furled behind 
+him. He watches the area vigilantly. Brown eyes filled with calm 
+strength watch over his people.
+~
+1
+Clanname none~
+0
+0
+131075 4718720 900 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 32769 0 0 0 48 524290
+> all_greet_prog 100~
+if ispc($n)
+  if quest(eltorin) > 0
+    mpoload 13106 70
+    unlock sw
+    open sw
+    mpechoat $n &CA Pixie Guard says 'Lord Eltoran will see you.'&D
+    mppause 20
+    at 4 l
+    mppause 20
+    close sw
+    lock sw
+    mpjunk key
+    else
+      mpechoat $n &CA Pixie Guard says 'You have no business with Lord Eltoran.'&D
+    endif
+endif
+~
+|
+#13111
+Layna weaver~
+Layna, a pixie weaver~
+Layna, a pixie weaver flits about here.
+~
+Her long brown hair tied off to one side with a colorful ribbon, Layla has 
+a soft smile and large dark eyes. A pair of pink-rimmed wings extend 
+energetically from her back, constantly fluttering. She wears an eccentric 
+assortment of bangles and multicolored sashes about her waist. 
+~
+1
+Clanname none~
+0
+0
+7 4194304 0 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mppause 2
+mea $n &cLayna, a pixie weaver looks up at you while wringing her hands.&D
+mppause 10
+mea $n &CLayna, a pixie weaver says, "I'm afraid we've run out of feathers! I have so many skirts to make, however. If you can bring me some feathers, I'll give you a nice gift. No harpy feathers, though, they're too dirty."&D
+~
+> speech_prog feathers~
+mppause 3
+mea $n &CLayna, a pixie weaver ponders and says, "There are beautiful birds on Vila Isle. I've also heard of birds with long feathers in Spiral Village."&D
+~
+> give_prog island bird feather~
+mppause 3
+mea $n &cLayna, a pixie weaver happily takes the feather from you.&D
+mppause 5
+mea $n &CLayna, a pixie weaver says "All the way from Vila Island, you must be tired! Thank you so much, let me give you a small gift."&D
+mppause 20
+mpoload 13110
+give jar to $n
+mpjunk feather
+~
+> give_prog feather snow bird~
+mppause 3
+mea $n &cLayna, a pixie weaver happily takes the feather from you.&D
+mppause 5
+mea $n &CLayna, a pixie weaver says "All the way from Spiral Village, you must be tired! Thank you so much, let me give you a small gift."&D
+mppause 20
+mpoload 13110
+give jar to $n
+mpjunk feather
+~
+> give_prog harpy feather~
+mppause 3
+mea $n &cLayna, a pixie weaver shakes her head.&D
+give harpy to $n
+mppause 10
+mea $n &CLayna, a pixie weaver says "Sorry, harpy feathers are too dirty. Try the birds in Vila Island or Spiral Village."&D
+~
+|
+#13150
+xspear~
+Fya's spear~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog yes~
+at aurin mpechoat aurin [Announcement] The realms rejoice as Fya,YouOwnMe has just achieved level 2! 
+~
+|
+#0
+
+
+#OBJECTS
+#13101
+Pixie feather amulet~
+a Pixie amulet~
+A large feather lies here, silver in color with pale lavender along its edges.~
+~
+9 0 5
+50 50 0 0 0 70 0
+1 151 14
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+pixie feather amulet~
+A delicate silver chain holds a large feather. The feather is a 
+pale silver in color, edged in lavender. It is clean, and soft 
+to the touch.
+~
+A
+12 175
+A
+19 4
+#13102
+Pixie doll~
+a Pixie doll~
+An impish smile gazes at the world from the face of this small Pixie doll.~
+~
+9 0 16385
+50 50 0 0 0 70 0
+1 150 13
+1
+0
+0
+0
+0
+0
+S 1 0
+E
+pixie doll~
+This doll is made of soft fabrics. A smiling face peeks out at the 
+world. Silver wings with bright purple tips stretch to either side of 
+the doll. A tiny circlet has been depicted on its head in silver thread.
+~
+> get_prog 100~
+if ispc($n)
+  if level($n) < 70
+    mpechoat $n &CYou can't use that yet...&D 
+    force $n drop doll
+  else
+  if quest(eltorin) == 0
+    mpechoat $n &CPerhaps you should find the child this doll belongs to and give it back.&D
+    mpquest $n eltorin 1
+  endif
+  endif
+endif
+~
+|
+#13103
+Pixie relic~
+a Pixie relic~
+A feather carved of silver and gold has been carelessly dropped.~
+~
+9 0 16385
+50 50 0 0 0 70 0
+1 166 15
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+relic~
+Intricately carved in metal, every line can clearly be discerned 
+on this feather. The quill is a bright and shining gold, and the 
+remainder of the feather is a bright silver. Tiny words are etched 
+on the quill.
+~
+E
+quill~
+&i&CLet the winds guide you.&D&D
+~
+A
+19 4
+A
+18 4
+A
+13 75
+A
+12 50
+#13104
+Pixie token~
+a token of Eltoran's gratitude~
+A sparkling feather token carved of crystal lies here.~
+~
+9 0 5
+50 50 0 0 0 70 0
+1 160 16
+1
+0
+0
+0
+0
+0
+S 1 0
+E
+token crystal~
+This is a tiny feather, carved of perfect crystal. It is attached
+to a golden chain.
+~
+A
+18 5
+A
+19 5
+A
+13 100
+#13105
+feather skirt~
+a feathered skirt~
+A skirt made of feathers lies here.~
+~
+9 0 33 128
+50 50 0 0 0 70 0
+1 150 15
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 7
+A
+13 100
+A
+12 65
+#13106
+Pixie key~
+a Pixie key~
+A tiny key lies here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 701 70
+4
+0
+0
+0
+0
+0
+S 0 0
+#13107
+yarn robe~
+a robe of woven yarn~
+A robe of woven yarn lies here.~
+~
+9 0 1025
+50 50 0 0 0 70 0
+1 137 13
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 5
+A
+18 3
+A
+13 125
+#13108
+wooden recorder~
+a wooden recorder~
+A thin flute-like instrument made of honey-colored wood lies here, abandoned.~
+~
+68 524547 16385
+0 0 0 0 0 70 0
+1 642 64
+4
+0
+0
+0
+0
+0
+S 0 0
+A
+13 75
+A
+12 75
+A
+18 6
+A
+19 6
+#13109
+emerald broadsword~
+the Emerald Broadsword~
+A broadsword lies here, its hilt inset with emeralds.~
+~
+5 0 8193
+0 124 153 1 0 90 0
+1 206 20
+1
+0
+0
+0
+0
+0
+S 1 0
+A
+18 10
+A
+19 10
+A
+17 -20
+A
+13 150
+#13110
+poultice jar~
+a poultice jar~
+A small poultice jar sits here.~
+~
+60 0 1
+80 0 3 5 -1 1 -1
+1 0 0
+1
+0
+0
+0
+0
+0
+'NONE' 'refresh'
+S 0 0
+E
+poultice jar~
+This small jar is only a few inches wide and quite shallow. Its lacquered 
+surface has been painted pale yellow, and etchings of birds fly across the 
+surface. The poultice inside is soft and cream colored, smelling of 
+pungent herbs. 
+~
+#13150
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#13101
+Atop the Cliffs~
+~
+Gentle breezes smelling of salt water ruffle the thick grass.  On one 
+side the ground drops sharply away in a steep cliff.  Birds soar high 
+overhead, dancing upon the wind.  The sound of water can be heard as 
+the waves throw themselves against the base of the cliffs.
+~
+1 0 5
+D0
+~
+~
+0 -1 13102
+D11
+~
+~
+0 -1 48413
+S
+#13102
+Atop the Cliffs~
+~
+Thick grass grows luxuriantly.  Small insects meander through the 
+grass on their business.  The slightly damp air is scented with the 
+salty smell of the lake.  A steep cliff falls away sharply to the east.
+~
+1 0 5
+D0
+~
+~
+0 -1 13103
+D2
+~
+~
+0 -1 13101
+S
+#13103
+Atop the Cliffs~
+~
+A small tree is perched precariously on the cliff's edge.  Thick 
+grass provides a velvet soft carpet.  The sound of waves crashing 
+against the cliff mutes the cries of the birds flying above.  A crisp 
+breeze scented by the lake tickles the grass.
+~
+1 0 5
+D0
+~
+~
+0 -1 13104
+D2
+~
+~
+0 -1 13102
+S
+#13104
+Atop the Cliffs~
+~
+The carpet of grass ends abruptly at the cliff's edge.  A small 
+path can be discerned leading down the side of the cliff.  Birds 
+cry overhead in the breeze.  A small pile of rocks is stacked 
+near the path's beginning.
+~
+1 0 5
+D2
+~
+~
+0 -1 13103
+D5
+~
+~
+0 -1 13105
+S
+#13105
+A Narrow Trail along the Cliff~
+~
+A precariously steep and narrow trail leads down the cliff's face.  
+The trail seems to be rarely used, and is covered in small pebbles 
+which make the footing hazardous.  Small but tenacious flowers grow 
+defiantly along the edges of the trail.  The wind whips violently. 
+The crashing sound of the lake warns of the fate of any who slip 
+from the path.
+~
+1 0 5
+D4
+~
+~
+0 -1 13104
+D5
+~
+~
+0 -1 13106
+S
+#13106
+A Narrow Trail along the Cliff~
+~
+Scattered pebbles litter the trail, making footing hazardous.  Tiny 
+flowers line the edge of the trail in defiance of the dangers.  A salt
+scented wind pushes threateningly, as if determined to push travelers 
+from the trail.  The lake booms warningly beneath the trail.
+~
+1 0 5
+D4
+~
+~
+0 -1 13105
+D6
+~
+~
+0 -1 13107
+S
+#13107
+A Narrow Trail along the Cliff~
+~
+Although the path here is less steep, it appears no less dangerous. 
+The trail curves gently as it winds down the cliff face.  The sounds 
+of the lake are an ever-present reminder of its presence.  It seems a 
+path once led to the northeast but has been washed out by an avalanche.
+~
+1 0 5
+D8
+~
+~
+0 -1 13108
+D9
+~
+~
+0 -1 13106
+S
+#13108
+A Narrow Trail along the Cliff~
+~
+The trail continues to slope gently downward, becoming more peaceful 
+the lower it goes.  Soft green grass is once more making an appearance. 
+The salt-laden winds are brisk and demanding. The sound of waves 
+crashing against the base of the cliff make their own demands. 
+~
+1 0 5
+D7
+~
+~
+0 -1 13107
+D8
+~
+~
+0 -1 13109
+S
+#13109
+A Narrow Trail along the Cliff~
+~
+The path levels off, leading onto a level terrace that fronts a large 
+niche carved into the cliff face.  Abundant green grass marks a vivid 
+contrast to the grey of the cliff and the blue of the lake below. 
+A few scattered pebbles still provide danger to those traversing the 
+path on foot.  The stiff breeze provides its own dangers for those 
+who would attempt to fly here.
+~
+1 4 5
+D5
+~
+~
+0 -1 13110
+D7
+~
+~
+0 -1 13108
+S
+#13110
+The Top Terrace~
+~
+A thick verdant carpet of grass provides a pleasant place to view 
+the lake below.  Farther down the cliff, another terrace can be 
+discerned, also covered in grass.  The terrace seems to extend a 
+fair distance to the south.  Birds and other creatures can be seen 
+flying above the lake below.
+~
+1 0 5
+D2
+~
+~
+0 -1 13111
+D4
+~
+~
+0 -1 13109
+D9
+~
+~
+0 -1 13114
+S
+#13111
+The Top Terrace~
+~
+Soft luxuriant grass covers the terrace, while to the west a large 
+cave opens into the cliff face.  A few scattered baskets woven of 
+grass indicate the presence of those living within the cave.  Tiny 
+feathers dot the surroundings, lifted occasionally on the gentle breezes.
+~
+1 0 5
+D0
+~
+~
+0 -1 13110
+D2
+~
+~
+0 -1 13112
+D3
+~
+~
+0 -1 13114
+D9
+~
+~
+0 -1 13115
+S
+#13112
+The Top Terrace~
+~
+The terrace is covered in luxurious grass which ends abruptly at 
+the cliff's edge.  The large cave to the west appears spacious and 
+inviting.  Pixie citizens wander by on their own business, seeming 
+uninterested in any distraction.
+~
+1 0 5
+D0
+~
+~
+0 -1 13111
+D2
+~
+~
+0 -1 13113
+D3
+~
+~
+0 -1 13115
+D7
+~
+~
+0 -1 13114
+D9
+~
+~
+0 -1 13116
+S
+#13113
+The Top Terrace~
+~
+The terrace narrows here.  The thick grass is undisturbed by any 
+footprints.  Scattered feathers waft in the breeze.  To the south, 
+a small path meanders down from the top terrace towards another 
+terrace farther down the cliff.
+~
+1 0 5
+D0
+~
+~
+0 -1 13112
+D3
+~
+~
+0 -1 13116
+D5
+~
+~
+0 -1 13121
+D7
+~
+~
+0 -1 13115
+S
+#13114
+The Top Terrace~
+~
+A deep cave is carved into the cliff side.  A few scattered tables 
+edged by backless stools provide seating for those residents so 
+inclined.  To the west a smaller section of the cave can be discerned.  
+To the east lies the outer terrace.
+~
+1 0 5
+D1
+~
+~
+0 -1 13111
+D2
+~
+~
+0 -1 13115
+D3
+~
+~
+0 -1 13117
+D6
+~
+~
+0 -1 13110
+D8
+~
+~
+0 -1 13112
+S
+#13115
+The Top Terrace~
+~
+A large number of low-backed benches are scattered around.  Mostly 
+they are unused, although once in a while a Pixie seats himself 
+upon one as he or she awaits admittance to the cave to the west. 
+Periodically, guards pass through the room.
+~
+1 0 5
+D0
+~
+~
+0 -1 13114
+D1
+~
+~
+0 -1 13112
+D2
+~
+~
+0 -1 13116
+D3
+~
+~
+0 -1 13118
+D6
+~
+~
+0 -1 13111
+D8
+~
+~
+0 -1 13113
+D9
+~
+~
+0 -1 13119
+R M 0 13105 1 13115
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+R M 0 13106 1 13115
+  R E 0 13101 1 3
+  R E 0 13105 1 7
+  R E 0 13107 1 12
+R M 0 13108 1 13115
+  R E 0 13101 1 3
+R M 0 13109 1 13115
+  R E 0 13101 1 3
+  R E 0 13105 1 7
+S
+#13116
+The Top Terrace~
+~
+This large section of the cave is mostly empty.  Although tapestries 
+are scattered about on the wall, the floor is bare.  A tiny dais to the 
+south is raised slightly above the rest of the floor.  A single flute 
+lies on the dais, perhaps giving a clue as to the use of this chamber.
+~
+1 0 5
+D0
+~
+~
+0 -1 13115
+D1
+~
+~
+0 -1 13113
+D3
+~
+~
+0 -1 13119
+D6
+~
+~
+0 -1 13112
+S
+#13117
+The Top Terrace~
+~
+A large luxury filled room is set aside for the Lord's use.  On one 
+side is a large bed covered in mounds of velvety comforters.  On the 
+other side is a smaller bed, piled just as high.  Silken tapestries 
+of Pixies decorate the walls.  Plush carpets cover the floor.
+~
+1 0 5
+D1
+~
+~
+0 -1 13114
+R M 0 13106 5 13117
+  R E 0 13107 1 12
+  R E 0 13105 1 7
+  R E 0 13108 1 17
+  R E 0 13101 1 3
+S
+#13118
+The Top Terrace~
+~
+Despite the spaciousness of the cave, the usual gathering of guards 
+here makes the space seem confined.  The guards watch warily over the 
+exit to the southwest, leading to the assumption that someone or something 
+important resides there.  Tapestries of Pixie people decorate the walls.
+~
+1 0 5
+D1
+~
+~
+0 -1 13115
+D9
+~
+~
+8389671 13106 13120
+R M 0 13104 2 13118
+R M 0 13107 2 13118
+R M 0 13110 1 13118
+R D 0 13118 9 2
+S
+#13119
+The Top Terrace~
+~
+This room seems to be used as a storeroom.  A few frayed tapestries 
+are rolled up and piled here.  A pile of tattered carpets fills the 
+corner.  There is also a rather large collection of broken-legged stools.
+~
+1 0 5
+D1
+~
+~
+0 -1 13116
+D6
+~
+~
+0 -1 13115
+S
+#13120
+The Top Terrace~
+~
+Although possessed of a low back, there is no doubt that the extravagant 
+chair upon a dais is a throne for the Lord here.  Silken tapestries line 
+the walls, covered in images of Pixie people in various scenarios.  Plush 
+thick carpets line the floors in a variety of hues.  A pair of crossed 
+swords hang on the wall behind the throne. There is a plaque on the door.
+~
+1 0 5
+D6
+~
+~
+7 13106 13118
+R M 0 13101 1 13120
+  R E 0 13109 1 16
+R M 0 13107 2 13120
+R M 0 13104 2 13120
+R D 0 13120 6 2
+E
+plaque~
+&CThe plaque says 'say &Wleave&C to exit.'
+~
+> speech_prog p leave~
+if ispc($n)
+  mppause 2
+  mpechoat $n You leave to the northeast.
+  mptrans $n 13118
+endif
+~
+|
+S
+#13121
+Between the Top and Middle Terrace~
+~
+A wide path connects the upper terrace to the north with a somewhat 
+lower terrace to the south.  Gentle breezes press upon travelers 
+teasingly.  Small pebbles litter the trail, which is cushioned with 
+grass.  Below, the lake crashes against the base of the cliff.
+~
+1 0 5
+D4
+~
+~
+0 -1 13113
+D5
+~
+~
+0 -1 13122
+S
+#13122
+The Middle Terrace~
+~
+To the north, a gentle trail leads upwards towards the northern 
+terrace.  Soft grass blankets the ground with a bright green.  South, 
+the terrace opens into the cliff wall.  Numerous Pixies can be seen 
+going about their business.
+~
+1 0 5
+D2
+~
+~
+0 -1 13123
+D3
+~
+~
+0 -1 13126
+D4
+~
+~
+0 -1 13121
+D9
+~
+~
+0 -1 13127
+S
+#13123
+The Middle Terrace~
+~
+This terrace provides the primary living space for most of the Pixies 
+here.  Toys are scattered in the grass, left here by rambunctious 
+younglings.  A few woven-grass baskets lie here as well.  From below, 
+the residents can hear the sounds of the waves.
+~
+1 0 5
+D0
+~
+~
+0 -1 13122
+D2
+~
+~
+0 -1 13124
+D3
+~
+~
+0 -1 13127
+S
+#13124
+The Middle Terrace~
+~
+A few blankets are left on the grass, resting places for those who 
+wish to lie in the sun.  A few pink flowers spot the thick grass. 
+A gentle breeze winds teasingly about.  The scent of salt-water is 
+thick in the humid air.
+~
+1 0 5
+D0
+~
+~
+0 -1 13123
+D2
+~
+~
+0 -1 13125
+D3
+~
+~
+0 -1 13128
+D7
+~
+~
+0 -1 13127
+S
+#13125
+The Middle Terrace~
+~
+To the south, a gentle path winds its way down the cliff to a lower 
+terrace.  Thick grass blankets the ground.  A soft breeze teasingly 
+ruffles the grass. Waves crash against the base of the cliff far below.
+~
+1 0 5
+D0
+~
+~
+0 -1 13124
+D5
+~
+~
+0 -1 13132
+S
+#13126
+The Middle Terrace~
+~
+Small hammocks strung up against the walls provide sleeping spaces 
+for children.  Toys are scattered carelessly on the floor.  Small 
+wooden boxes under the hammocks are meant to confine the toys. 
+Hand-woven blankets in bright colors are piled on top of the hammocks.
+~
+1 0 5
+D1
+~
+~
+0 -1 13122
+D3
+~
+~
+0 -1 13129
+S
+#13127
+The Middle Terrace~
+~
+Scattered tables surrounded by low backed stools denote the main 
+dining area on this level.  A fireplace is carved into the northwest 
+wall, with pots simmering on spits above the fire.  A carved screen 
+of metal keeps young children from tumbling into the fire as they play.
+~
+1 0 5
+D1
+~
+~
+0 -1 13123
+D3
+~
+~
+0 -1 13130
+D6
+~
+~
+0 -1 13122
+D8
+~
+~
+0 -1 13124
+R M 0 13109 2 13127
+  R E 0 13101 1 3
+  R E 0 13105 1 7
+R M 0 13108 2 13127
+  R E 0 13101 1 3
+R M 0 13106 2 13127
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+  R E 0 13105 1 7
+R M 0 13105 2 13127
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+S
+#13128
+The Middle Terrace~
+~
+Along the walls are strung small hammocks.  Boxes underneath the 
+hammock serve as containers for toys.  More toys are scattered 
+haphazardly around the floor.  Brightly colored hand-woven blankets 
+are piled on the children's hammocks.
+~
+1 0 5
+D1
+~
+~
+0 -1 13124
+D3
+~
+~
+0 -1 13131
+S
+#13129
+The Middle Terrace~
+~
+Two large hammocks are strung up, one on each wall.  Large chests 
+below the hammocks contain items of value to the adults who sleep here.  
+Soft, thick, hand-woven blankets mound each hammock.  Tapestries 
+decorate the walls.  A small rug is placed beside each hammock.
+~
+1 0 5
+D1
+~
+~
+0 -1 13126
+S
+#13130
+The Middle Terrace~
+~
+Tapestries line the walls.  Thick mounds of furs and blankets are 
+placed in individual piles.  In each corner of the chamber are large 
+chests.  Soft rugs in pale colors decorate the floor.  Blankets hung 
+from the ceiling partition the area, although most are tied open.
+~
+1 0 5
+D1
+~
+~
+0 -1 13127
+S
+#13131
+The Middle Terrace~
+~
+Hammocks placed over large chests hang against the walls.  Blankets 
+hang down from the ceiling, separating the area for privacy around 
+each hammock.  The chests contain clothing and other such personal 
+items.  Blankets made by hand surmount each hammock.
+~
+1 0 5
+D1
+~
+~
+0 -1 13128
+S
+#13132
+Between the Middle and Bottom Terrace~
+~
+A wide path wends its way farther along the cliff, sloping down as it 
+curves to the north.  Birds fly by overhead, singing their songs.  A 
+gentle zephyr ruffles the thick grass.  Tiny pink flowers peek up 
+from amongst the blades of grass.
+~
+1 0 5
+D4
+~
+~
+0 -1 13125
+D5
+~
+~
+0 -1 13133
+S
+#13133
+The Bottom Terrace~
+~
+An artist's sketch pad has been dropped carelessly on the ground.  The 
+wind ruffles the pages, displaying sketches of the nearby area.  The 
+work is rough and childlike.  Most of the pages seem to depict the 
+landscape, but a few seem to be crude drawings of people.
+~
+1 0 5
+D0
+~
+~
+0 -1 13134
+D4
+~
+~
+0 -1 13132
+D7
+~
+~
+0 -1 13138
+S
+#13134
+The Bottom Terrace~
+~
+Soft greenery pads the ground.  An easel is set up here, with a nearly 
+complete painting of the sea below.  A bucket with paintbrushes of 
+assorted sizes hangs from the side of the easel.  Another bucket with 
+water, presumably for rinsing the brushes, sits at the foot of the easel.
+~
+1 0 5
+D0
+~
+~
+0 -1 13135
+D2
+~
+~
+0 -1 13133
+D3
+~
+~
+0 -1 13138
+D7
+~
+~
+0 -1 13139
+S
+#13135
+The Bottom Terrace~
+~
+The verdant carpet ends abruptly at the cliff's edge. Birds fly by 
+overhead. Occasional feathers drift by on the sea-scented breeze, 
+some from birds, others from local residents. The sound of the waves 
+crashing against the cliff is an ever-present reminder of the lake below.
+~
+1 0 5
+D0
+~
+~
+0 -1 13136
+D2
+~
+~
+0 -1 13134
+D3
+~
+~
+0 -1 13139
+D7
+~
+~
+0 -1 13140
+D9
+~
+~
+0 -1 13138
+S
+#13136
+The Bottom Terrace~
+~
+Buckets full of fish are placed on the grass.  The baskets hold 
+water, and the fish inside are still alive.  Periodically a Pixie 
+woman comes out and removes a fish from the buckets, taking it up to 
+the middle terrace, presumably to be cooked.  Other buckets contain 
+oysters, crabs, and other marine life.
+~
+1 0 5
+D0
+~
+~
+0 -1 13137
+D2
+~
+~
+0 -1 13135
+D3
+~
+~
+0 -1 13140
+D9
+~
+~
+0 -1 13139
+S
+#13137
+The Bottom Terrace~
+~
+The terrace ends suddenly here, as does the carpet of green grass. 
+In the absence of grass, the steep fall of the cliff looks even 
+steeper.  The waves seem to crash more demandingly than before.  To 
+the north, a path drops off sharply.
+~
+1 0 5
+D2
+~
+~
+0 -1 13136
+D5
+~
+~
+0 -1 13143
+D9
+~
+~
+0 -1 13140
+S
+#13138
+The Bottom Terrace~
+~
+Various tables hold partially complete woodworking projects.  Chisels 
+and carving knives are scattered about the tables.  Against the wall, 
+wood is piled in neat stacks.  On one table are carefully articulated 
+wooden puppets.  Other tables hold vials, buckets, and other wood crafts.
+~
+1 0 5
+D0
+~
+~
+0 -1 13139
+D1
+~
+~
+0 -1 13134
+D6
+~
+~
+0 -1 13135
+D8
+~
+~
+0 -1 13133
+R M 0 13105 3 13138
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+R M 0 13106 3 13138
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+  R E 0 13105 1 7
+S
+#13139
+The Bottom Terrace~
+~
+Intricate partly assembled jewelry lines the tops of tables carefully 
+spaced to make the most of the lighting.  Although none of the jewelry 
+is of any value, it all seems to be aesthetically pleasing.  Baskets 
+of metal wires and pretty stones are set near each table.  Jewelry 
+making tools lie on the tables beside the various projects.
+~
+1 0 5
+D0
+~
+~
+0 -1 13140
+D1
+~
+~
+0 -1 13135
+D2
+~
+~
+0 -1 13138
+D3
+~
+~
+0 -1 13141
+D6
+~
+~
+0 -1 13136
+D8
+~
+~
+0 -1 13134
+S
+#13140
+The Bottom Terrace~
+~
+Several weaving looms are set up here, with projects in various 
+states of completion.  Baskets full of brightly colored yarns wait 
+patiently beside the looms.  The work on the looms designates various 
+patterns.  Most of the work seems to be blankets, but one loom holds 
+an intricate tapestry that is nearly complete.
+~
+1 0 5
+D1
+~
+~
+0 -1 13136
+D2
+~
+~
+0 -1 13139
+D3
+~
+~
+0 -1 13142
+D6
+~
+~
+0 -1 13137
+D8
+~
+~
+0 -1 13135
+R M 0 13106 4 13140
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+  R E 0 13105 1 7
+R M 0 13105 4 13140
+  R E 0 13101 1 3
+  R E 0 13107 1 12
+S
+#13141
+The Bottom Terrace~
+~
+This room seems to be a storeroom of sorts.  Wooden shelves line the 
+walls.  Baskets on the shelves hold various craft materials.  Extra 
+wood is neatly stacked below the shelves.
+~
+1 0 5
+D1
+~
+~
+0 -1 13139
+R M 0 13111 1 13141
+S
+#13142
+The Bottom Terrace~
+~
+A storeroom for crafting items, the walls are lined with with wooden 
+shelves.  Baskets on the lower shelves hold anything from brightly 
+colored yarns to colored stones to fine wire.  On one side, the 
+shelves hold completed blankets.  Along the top shelves are various 
+wood crafted items.
+~
+1 0 5
+D1
+~
+~
+0 -1 13140
+S
+#13143
+A Long Ramp Overlooking the Lake~
+~
+A narrow ramp rises steeply along the cliff face.  The wall of the 
+cliff drops off in a sheer fall to the lake below.  A practically 
+non-existent path gives access to the lake.  The ramp continues 
+upwards to a narrow ledge carved precariously into the cliff's side.
+~
+1 0 5
+D0
+~
+~
+2112 -1 13151
+D4
+~
+~
+0 -1 13137
+D5
+~
+~
+0 -1 13147
+S
+#13144
+A Secret Cave~
+~
+A dark grey blanket, nearly the color of the cliff, is placed over 
+the entrance to this small cave, perhaps to make it harder to notice. 
+A small table against the wall is covered in ineptly done wood 
+projects.  A large leaking bucket full of fish sits on the floor 
+beside the table. Wood, somewhat damp, is piled beside the bucket 
+in an untidy heap.
+~
+1 0 5
+D0
+~
+~
+0 -1 13147
+D2
+~
+~
+0 -1 13145
+S
+#13145
+A Secret Cave~
+~
+A single weaving loom stands here, with a partially finished blanket 
+upon it.  A rough fireplace has been carved into the wall, and a pot 
+simmers upon a hook hung from the fireplace wall.  A small table with 
+two stools awaits diners.  A hand-woven rug covers the floor.
+~
+1 0 5
+D0
+~
+~
+0 -1 13144
+D9
+~
+~
+0 -1 13146
+R M 0 13103 1 13145
+S
+#13146
+A Secret Cave~
+~
+Two hammocks are strung up here on opposite walls.  Both are piled 
+high with furs and woven blankets.  The walls are covered in drawings 
+and paintings of a young Pixie boy.  A neatly stacked chest of toys 
+sits below one of the hammocks.  The toys appear to be brand new.
+~
+1 0 5
+D6
+~
+~
+0 -1 13145
+R M 0 13102 1 13146
+S
+#13147
+Scaling the Cliff~
+~
+The path here is almost vertical, and practically non-existent. A few 
+small niches carved into the cliff are intended to provide hand holds to 
+make travel somewhat safer. Birds fly by, taunting in their effortless 
+flight. A large bush covers some type of opening here. 
+~
+1 0 5
+D2
+~
+~
+2048 -1 13144
+D4
+~
+~
+0 -1 13143
+D5
+~
+~
+0 -1 13148
+S
+#13148
+Scaling the Cliff~
+~
+The steep path ends in a narrow ledge barely above the water at high 
+tide.  To the east the lake surges like a restless animal.  The cliff 
+towers high over the ledge.  The surrounding terraces are not visible 
+from this perspective.
+~
+1 0 5
+D1
+~
+~
+0 -1 13149
+D4
+~
+~
+0 -1 13147
+S
+#13149
+In the Lake~
+~
+Waves crash against the nearby cliff.  The salt water is deep blue, 
+and turbulent.  Vicious undertows threaten the unwary swimmer. To 
+the west the cliff face rises in all its splendor.  The terraces can 
+be clearly seen, looking almost like a giant's meandering staircase.
+~
+1 0 6
+D0
+~
+~
+0 -1 13150
+D3
+~
+~
+0 -1 13148
+S
+#13150
+In the Lake~
+~
+Deep blue water roils turbulently.  White crested waves slap angrily 
+at the base of the cliff.  The terraced cliff rises defiantly over 
+the lake to the west.  Scattered movement indicates the presence of 
+creatures living on the terraces.
+~
+1 0 6
+D2
+~
+~
+0 -1 13149
+R O 0 13102 1 13150
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

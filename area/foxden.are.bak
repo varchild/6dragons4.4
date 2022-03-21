@@ -1,0 +1,1622 @@
+#AREA        Fox Den~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 40 10 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &gThe sounds of foxes howling can be heard echoing through the caves.&d~
+
+#FLAGS
+4
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 120050000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2500
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2501
+Redfox~
+A redfox~
+A redfox clergyman walks about the area.
+~
+This small red fox moves around with it's healthy tail swooshing around. 
+It's fur is bright red with a white streak going down along it's belly. 
+~
+1
+Clanname none~
+0
+0
+33554433 4194304 1000 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 0 1 0 0 67 787
+> death_prog 100~
+if quest(foxden1) == 1
+ if qkamount(foxden1) < 9
+   mpqkamount $n foxden1 1
+else
+  mpqkamount $n foxden1 1
+   mpquest $n foxden1 2
+ endif
+endif
+~
+|
+#2502
+Redfox guard~
+A redfox guard~
+A redfox guard walks about, stalking it's prey
+~
+This abnormally large fox stands tall, but is not giant by any means. It's 
+fur is mostly red with patches of grey flowing through giving it a very 
+decorated look to it. 
+~
+1
+Clanname none~
+0
+0
+33554433 4194304 1000 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 0 1 0 0 67 787
+> death_prog 100~
+if quest(foxden2) == 1
+ if qkamount(foxden2) < 9
+   mpqkamount $n foxden2 1
+else
+   mpqkamount $n foxden2 1
+   mpquest $n foxden2 2
+ endif
+endif
+~
+|
+#2503
+watchfox~
+A watchfox~
+A watch fox lurks about the area
+~
+A large red fox, this watch fox seem to look almost exaclty like the redfoxes of
+fox den. The only real distinguishing features that show a difference between the two
+is the large size and the ruby eye placed in the middle of the foxes forehead.
+~
+1
+Clanname none~
+0
+0
+33554433 37748864 1000 C
+35 0 0 0d0+900 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 0 1 0 0 67 525139
+> death_prog 100~
+if quest(foxden3) == 1
+ if qkamount(foxden3) < 9
+   mpqkamount $n foxden3 1
+else
+   mpqkamount $n foxden3 1
+   mpquest $n foxden3 2
+ endif
+endif
+~
+|
+#2504
+fox assassin~
+a fox assassin~
+A fox assassin is moving silently here.  
+~
+A very large watchfox this one seems to have grown to a very powerful 
+state for a fox. It's ruby eye glows in the darkness, allowing it to see 
+even in the darkest of places. 
+~
+1
+Clanname none~
+0
+0
+33554465 37757056 1000 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 13 13 25 25 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 0 1 0 0 67 525139
+> death_prog 100~
+if quest(foxden4) == 1
+ if qkamount(foxden4) < 9
+   mpqkamount $n foxden4 1
+else
+   mpqkamount $n foxden4 1
+   mpquest $n foxden4 2
+ endif
+endif
+~
+|
+#2505
+king fox lanoir~
+Lanoir~
+A fox king stands before a throne here.
+~
+A massive fox, the size of a fully grown dragon, Lanoir moves with 
+increadable speed. His fur is a light blue and his body is covered with 
+some sort of divine glow. 
+~
+1
+Clanname none~
+0
+0
+33554467 373301376&8 1000 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+28 4 0 0 1 1 0
+0 0 0 1 0 0 67 525139
+> death_prog 100~
+if quest(lanoir) == 1
+  roar
+  mpechoat $n &cThe fox king looks and you and sighs as it breaths it's last breath.
+  mpquest $n lanoir 2
+endif
+~
+|
+#2550
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2500
+red hooded lantern~
+a red hooded lantern~
+A red hooded lantern has been left here.~
+~
+1 0 1
+0 0 -1 0 0 20 0
+3 118 1
+4
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#2501
+large natural fountain~
+A large natural fountain~
+A large natural fountain adorns the cave~
+~
+25 0 0
+1000 100 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2502
+red fox tail whip~
+a red fox tail whip~
+A red fox tail whip has been left here.~
+~
+5 0 8193
+0 10 20 5 3 20 0
+1 120 15
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#2503
+Lanoir eye~
+Lanoir's eye~
+A huge white shield lays here.~
+~
+9 524288&2 513
+35 35 0 0 0 40 0
+4 112 11
+2
+5
+0
+0
+0
+0
+S 77 0
+A
+17 -40
+A
+19 4
+#2504
+red leather shirt~
+a red leather shirt~
+A red leather shirt has been left here.~
+~
+9 0 9
+20 20 0 0 0 20 0
+8 167 16
+3
+3
+0
+0
+0
+0
+S 77 0
+A
+17 -20
+#2505
+red leather trousers~
+a pair of red leather trousers~
+A pair of red leather trousers has been left here.~
+~
+9 0 33
+20 20 0 0 0 20 0
+1 148 14
+3
+3
+0
+0
+0
+0
+S 77 0
+A
+19 2
+#2506
+red hooded lantern sliding cover~
+a red hooded lantern with sliding cover~
+A red hooded lantern with sliding cover has been left here.~
+~
+1 0 1
+0 0 -1 0 0 25 0
+3 103 10
+4
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+26 32
+#2507
+red fox mace~
+a red fox mace~
+A red fox mace has been left here.~
+~
+5 0 8193
+0 10 30 4 13 25 0
+1 140 14
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+#2508
+red chainmail vest~
+a red chainmail vest~
+A red chainmail vest has been left here.~
+~
+9 0 9
+20 20 0 0 0 25 0
+8 185 18
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+17 -25
+A
+5 1
+#2509
+red chainmail leggings~
+a pair of red chainmail leggings~
+A pair of red chainmail leggings has been left here.~
+~
+9 0 33
+20 20 0 0 0 25 0
+1 185 18
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+17 -10
+#2510
+red fox crystal~
+a red fox crystal~
+A red fox crystal has been left here.~
+~
+1 0 1
+0 0 -1 0 0 30 0
+3 212 21
+4
+3
+0
+0
+0
+0
+S 0 0
+A
+26 32
+A
+19 3
+#2511
+red fox mystic staff~
+a red fox mystic staff~
+A red fox mystic staff has been left here.~
+~
+5 0 8193
+0 38 51 4 4 30 0
+3 247 24
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+19 2
+A
+12 50
+#2512
+red fox robe~
+a red fox robe~
+A red fox robe has been left here.~
+~
+9 0 1025
+30 30 0 0 0 30 0
+8 203 20
+3
+3
+0
+0
+0
+0
+S 77 0
+A
+17 -30
+A
+4 2
+#2513
+red fox dagger~
+a red fox dagger~
+A red fox dagger has been left here.~
+~
+5 0 8193
+0 20 35 2 2 35 0
+1 194 19
+3
+3
+0
+0
+0
+0
+S 0 0
+A
+19 3
+A
+18 1
+#2514
+red fox mask~
+a red fox mask~
+A red fox mask has been left here.~
+~
+9 0 1048577
+35 35 0 0 0 35 0
+1 254 25
+3
+3
+0
+0
+0
+0
+S 77 0
+A
+2 2
+A
+17 -20
+#2515
+Lanoir platemail helm~
+Lanoir's platemail helm~
+A platemail helm has been left here.~
+~
+9 0 17
+35 35 0 0 0 40 0
+3 103 10
+2
+5
+0
+0
+0
+0
+S 0 0
+A
+19 4
+A
+18 4
+#2516
+lanoir spear~
+Lanoir's spear~
+A majestic spear has been left here.~
+~
+5 64 8193
+10 20 40 7 10 40 0
+3 85 8
+2
+5
+0
+0
+0
+0
+S 0 0
+A
+18 4
+A
+19 4
+#2550
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#2500
+Entrance into Fox Den~
+~
+A large cave opens to the north leading through the ground. The cave walls 
+are high making them huge enough for very large creatures to pass though 
+without to much problems. 
+~
+1 1 11
+D0
+~
+~
+0 -1 2501
+D11
+~
+~
+0 -1 42040
+R M 0 2501 9 2500
+  R E 0 2502 1 16
+  R E 0 2500 1 0
+  R E 0 2505 1 7
+  R E 0 2504 1 5
+S
+#2501
+Inside Fox Den~
+~
+The caves splits off into multiple paths here. To the south a small amount 
+of light can be seen making it obvious that the entrance to the caves is 
+that way. To the north east and north west the massive caves lead deeper 
+into the ground. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2500
+D6
+~
+~
+0 -1 2502
+D7
+~
+~
+0 -1 2515
+R M 0 2502 9 2501
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+S
+#2502
+A Crossing of Paths~
+~
+This cave leads off in many directions. One path leads to the southwest 
+another to the east, and yet another to the north east. Large pieces of 
+wood seem to be placed all around the walls in places making the caves 
+look as though they were mines at one time. 
+~
+1 1 13
+D1
+~
+~
+0 -1 2503
+D6
+~
+~
+0 -1 2506
+D9
+~
+~
+0 -1 2501
+R M 0 2502 8 2502
+  R E 0 2506 1 0
+  R E 0 2507 1 16
+  R E 0 2508 1 5
+  R E 0 2509 1 7
+S
+#2503
+Inside Fox Den~
+~
+The walls of the cave move high into the air closing forming a roof. Dust 
+and dirt cover the ground and the walls of the cave. Sounds can be heard 
+echoing from all over in the caves giving it a livly feel. 
+~
+1 1 13
+D1
+~
+~
+0 -1 2504
+D3
+~
+~
+0 -1 2502
+S
+#2504
+Inside Fox Den~
+~
+Small amounts of dirt and dust cover the middle of the path though the 
+caves but are increased on the side of the path where few walk. Every now 
+and then roots from a tree can be seen coming through the walls of the 
+caves. 
+~
+1 1 13
+D3
+~
+~
+0 -1 2503
+D6
+~
+~
+0 -1 2505
+R M 0 2501 9 2504
+  R E 0 2504 1 5
+  R E 0 2505 1 7
+  R E 0 2500 1 0
+  R E 0 2502 1 16
+S
+#2505
+Inside Fox Den~
+~
+The walls of the cave are high allowing even a great sized monster or 
+anything else to move though with ease. Pieces of wood line the walls of 
+the caves showing that at one time these caves were mined. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2545
+D1
+~
+~
+0 -1 2550
+D9
+~
+~
+0 -1 2504
+R M 0 2501 9 2505
+  R E 0 2505 1 7
+  R E 0 2502 1 16
+  R E 0 2500 1 0
+  R E 0 2504 1 5
+S
+#2506
+A Large Cave~
+~
+A very small amount of light can be seen to the southwest, where as the 
+path to the north is nothing but darkness. From time to time sounds of 
+foxes howling in the distance can be heard echoing throughout the large 
+caves. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2507
+D9
+~
+~
+0 -1 2502
+R M 0 2501 9 2506
+  R E 0 2500 1 0
+  R E 0 2502 1 16
+  R E 0 2505 1 7
+  R E 0 2504 1 5
+S
+#2507
+Inside Fox Den~
+~
+The large walls of the cave reach high into the air as well as the wooden 
+pillars that support them. A small amount of natural light can be seen far 
+to the south unlike the northeast path which only seems to get dark. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2506
+D6
+~
+~
+0 -1 2508
+S
+#2508
+A Large Intersection~
+~
+Three large caves within Fox den all meet here. One large cavern to the 
+north, as well as, large well-trodden paths to the southwest and 
+southeast. The walls of the caves are lined with large wooden pillars from 
+when the caves were mined out at one time. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2509
+D8
+~
+~
+0 -1 2545
+D9
+~
+~
+0 -1 2507
+S
+#2509
+A Dark Cave~
+~
+Darkness fills the caves as no natural light sources can be seen anywhere 
+within them. Large amounts of the caves walls are covered with large 
+wooden pillars that give the caves support as the walls reach high into 
+the air. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2508
+D7
+~
+~
+0 -1 2510
+R M 0 2502 8 2509
+  R E 0 2506 1 0
+  R E 0 2507 1 16
+  R E 0 2508 1 5
+  R E 0 2509 1 7
+S
+#2510
+A Large Intersection~
+~
+Three large paths all diverge here from diffrent directions. A path to the 
+northeast, a path to the southeast as well as a large path to the 
+southwest can all be seen here connecting together joining the caves all 
+together in one massive web of caves. 
+~
+1 1 13
+D6
+~
+~
+0 -1 2537
+D8
+~
+~
+0 -1 2509
+D9
+~
+~
+0 -1 2511
+R M 0 2502 7 2510
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+S
+#2511
+Inside Fox Den~
+~
+The walls of the cave reach high into the air allowing for a lot of room 
+for even a very large beast to manuver easily. There are a large amount 
+of wooden pillars and support beams helping the cave walls as at one time 
+this was obviously a mine of some sort. 
+~
+1 1 13
+D6
+~
+~
+0 -1 2510
+D9
+~
+~
+0 -1 2512
+S
+#2512
+Inside Fox Den~
+~
+Small amounts of dirt and rubble cover the ground where the most traffic 
+is, where as there is much more along the sides of the cave where most 
+people, or things, don't frequent with thier travels or lives. 
+~
+1 1 13
+D6
+~
+~
+0 -1 2511
+D9
+~
+~
+0 -1 2513
+R M 0 2502 6 2512
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+S
+#2513
+Inside Fox Den~
+~
+Cracks and large wooden pillars and support beams cover the massive walls 
+of the caves. The sounds of foxes howling in the distance can be heard 
+showing who the main inhabitants of the caves really are. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2514
+D6
+~
+~
+0 -1 2512
+S
+#2514
+Inside Fox Den~
+~
+The walls of the caves reach high into the air here. Two paths, one to the 
+north and one to the south seem to be the only ways to leave the immediate 
+area. The sounds of Foxes howling echo through the caves. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2513
+D2
+~
+~
+0 -1 2515
+S
+#2515
+A Large Intersection~
+~
+There are three paths leading through the massive network of caves that is 
+Fox Den. One path leads to the north, and another to the north west that 
+seem almost identical with the amount of pillars and support beams in the 
+walls, however to the southeast a small amount of natural light can be 
+seen reflecting off the cave walls. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2514
+D7
+~
+~
+0 -1 2516
+D8
+~
+~
+0 -1 2501
+R M 0 2502 9 2515
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+S
+#2516
+Inside Fox Den~
+~
+The caves lead in two directions from this point, one to the southeast, 
+and one to the west. The sounds of Foxes howling and scampering can be 
+heard echoing all over throughout the caves. 
+~
+1 1 13
+D3
+~
+~
+0 -1 2517
+D8
+~
+~
+0 -1 2515
+R M 0 2502 9 2516
+  R E 0 2506 1 0
+  R E 0 2508 1 5
+  R E 0 2509 1 7
+  R E 0 2507 1 16
+S
+#2517
+A Large Intersection~
+~
+&OFrom here there are three ways to go. One way leads east, another north 
+and another southwest. All the paths seem to be for the most part 
+identical, apart from minor differences in the walls and floor. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2518
+D1
+~
+~
+0 -1 2516
+D9
+~
+~
+0 -1 2541
+R M 0 2503 4 2517
+  R E 0 2510 1 0
+  R E 0 2511 1 16
+  R E 0 2512 1 12
+S
+#2518
+Inside Fox Den~
+~
+The walls of the caves raise high into the air allowing room for even the 
+most massive of beasts to move freely. Pillars and wooden structurs stand 
+along the walls helping support the massive walls of the cave. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2517
+D7
+~
+~
+0 -1 2519
+R M 0 2503 4 2518
+  R E 0 2510 1 0
+  R E 0 2511 1 16
+  R E 0 2512 1 12
+S
+#2519
+Inside Fox Den~
+~
+&OSmall amounts of dust and debris cover the floor of the cave, a lot of 
+it moved, especially where there has been a lot of traffic over the years. 
+Sounds of foxes and other cave living creatures can be heard echoing 
+through the caves giving them a lively sound. 
+~
+1 1 13
+D6
+~
+~
+0 -1 2520
+D8
+~
+~
+0 -1 2518
+R M 0 2503 4 2519
+  R E 0 2510 1 0
+  R E 0 2511 1 16
+  R E 0 2512 1 12
+S
+#2520
+Inside Fox Den~
+~
+To the north a huge cavern opens into the famous "Moonless Hall". From 
+here, in the distance a very large door can be seen far to the north. Old 
+wooden support beams and other mining equipment can be seen laying along 
+the floors, abandoned. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2525
+D9
+~
+~
+0 -1 2519
+S
+#2521
+Moonless Hall~
+~
+&BAlong the walls, faint scuff marks can be seen. Deep pock marks and 
+chipped off stone litter the area. Signs of a huge struggle can be seen 
+all about, yet no evidence of the bodies can be found. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2522
+D1
+~
+~
+0 -1 2525
+S
+#2522
+Moonless Hall~
+~
+&BClaw marks scar the wall, marring the beautifully wrought engravings. It 
+seems to tell a story of long ago. Numerous fox-like beings are etched 
+doing the most grotesque of acts. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2523
+D1
+~
+~
+0 -1 2526
+D2
+~
+~
+0 -1 2521
+R M 0 2504 6 2522
+  R E 0 2513 1 16
+  R E 0 2514 1 23
+S
+#2523
+Moonless Hall~
+~
+&BMore carvings, this time of centaurs being hunted and brought down. 
+Fires, funerals and wickedly evil grins. It does not seem to have been a 
+good time for those lowly creatures to be alive. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2524
+D1
+~
+~
+0 -1 2527
+D2
+~
+~
+0 -1 2522
+S
+#2524
+Moonless Hall~
+~
+&BThe carvings along the wall here end abruptly with a great many scuffs 
+and battle marks. Only thing visible along these carvings are fox-like 
+creatures wielding deadly looking weapons. A great pile of bones can be 
+seen, with ancient equipment of little to no use due to the rust. 
+~
+1 1 13
+D1
+~
+~
+0 -1 2528
+D2
+~
+~
+0 -1 2523
+R M 0 2504 6 2524
+  R E 0 2514 1 23
+  R E 0 2513 1 16
+S
+#2525
+Moonless Hall~
+~
+&BLarge columns of white granite rise up into the air. No ceiling is 
+visible as the columns disappear in the blackness of night. Echoes of 
+scurrying padded feet, with claws, can be heard. 
+~
+1 5 13
+D0
+~
+~
+0 -1 2526
+D1
+~
+~
+0 -1 2529
+D2
+~
+~
+0 -1 2520
+D3
+~
+~
+0 -1 2521
+R M 0 2504 6 2525
+  R E 0 2514 1 23
+  R E 0 2513 1 16
+S
+#2526
+Moonless Hall~
+~
+&BThe large pillars supporting this massive structure are all that are 
+visible to the naked eye. The floor is uneven and stained an odd 
+shade--very difficult to make out, given the lack of light. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2527
+D1
+~
+~
+0 -1 2530
+D2
+~
+~
+0 -1 2525
+D3
+~
+~
+0 -1 2522
+S
+#2527
+Moonless Hall~
+~
+&BTo the north a huge door can be seen from here adorning the northern 
+wall. Prints in the dirt and dust on the ground show that many foxes, big 
+and small have passed through here at one time. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2528
+D1
+~
+~
+0 -1 2531
+D2
+~
+~
+0 -1 2526
+D3
+~
+~
+0 -1 2523
+R M 0 2504 6 2527
+  R E 0 2513 1 16
+  R E 0 2514 1 23
+S
+#2528
+Moonless Hall~
+~
+&BA massive door adorns the northern wall of the cavern. It is engraved 
+with ancient writings that by most races or religions, would be long 
+forgotten to all those then the foxes that inhabit the caves. 
+~
+1 1 13
+D0
+~
+~
+1063 -1 2533
+D1
+~
+~
+0 -1 2532
+D2
+~
+~
+0 -1 2527
+D3
+~
+~
+0 -1 2524
+R D 0 2528 0 2
+> entry_prog 100~
+if quest(lanoir) == 1
+  mptrans $n 2533
+endif
+~
+|
+S
+#2529
+Moonless Hall~
+~
+&BA dark corner indeed, not even light penetrates this portion of the 
+cavernous hall. The wall is broken down, with various debris scattered 
+about, making footing difficult, at best. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2530
+D3
+~
+~
+0 -1 2525
+S
+#2530
+Moonless Hall~
+~
+&BLarge scuffs in the walls of the cave are quite visible here, either 
+made by animals or miners at one time. The large walls of the cavern raise 
+high into the air allowing total freedom of movement in here. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2531
+D2
+~
+~
+0 -1 2529
+D3
+~
+~
+0 -1 2526
+R M 0 2504 6 2530
+  R E 0 2514 1 23
+  R E 0 2513 1 16
+S
+#2531
+Moonless Hall~
+~
+&BLarge pillars of wood as well as wooden support beams stand erect 
+helping to hold the massive cavern from collapsing. Foxes can be seen all 
+over the in the area moving constantly guarding the massive door to the 
+northwest. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2532
+D2
+~
+~
+0 -1 2530
+D3
+~
+~
+0 -1 2527
+S
+#2532
+Moonless Hall~
+~
+&BOld mining equipment lays strung about on the ground, long forgotten, 
+collecting dust. The walls of the cave reach high in the air, making the 
+roof of the cavern so high that even an adult dragon could fly a bit in 
+here. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2531
+D3
+~
+~
+0 -1 2528
+R M 0 2504 6 2532
+  R E 0 2513 1 16
+  R E 0 2514 1 23
+S
+#2533
+Lanoir's Chambers~
+~
+&BA large bed lays in the middle of the floor where Lanoir, the Fox King, 
+rests. There are great large pillars decorating the room, giving it a 
+feeling of being the home of royalty, even though it's owner is a massive 
+fox. 
+~
+1 3145729 13
+D2
+~
+~
+33 -1 2528
+R M 0 2505 1 2533
+  R E 0 2503 1 11
+  R E 0 2515 1 6
+  R E 0 2516 1 16
+R D 0 2533 2 0
+S
+#2537
+A Wet Cave~
+~
+Small puddles of water can be seen, if one has enough light that is. Water 
+can be heard dripping from here very faintly at this point as the source 
+seems to still be far away. 
+~
+1 1 13
+D7
+~
+~
+0 -1 2538
+D9
+~
+~
+0 -1 2510
+S
+#2538
+A Wet Cave~
+~
+The floor of the cave seems to have a slight decline to the north where 
+water begins to cover the ground. A sound can be heard in the distance of 
+water dripping in the distance from here. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2539
+D8
+~
+~
+0 -1 2537
+S
+#2539
+A Very Wet Cave~
+~
+Water covers the ground here, only a small amount though as even a very 
+short person could still be knee high above it. The walls of the caves are 
+moist here as the water source seems to only be a little distance to the 
+northeast. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2538
+D6
+~
+~
+0 -1 2540
+R M 0 2502 9 2539
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+S
+#2540
+A Beautiful Fountain~
+~
+A large natural water fountain can be seen here taking up most of the well 
+as a steady flow. It is obvious that this is where the inhabitants of 
+room. The water that flows from it seems to have a warm temperature as the 
+caves get their water. 
+~
+1 1 13
+D9
+~
+~
+0 -1 2539
+R M 0 2502 9 2540
+  R E 0 2509 1 7
+  R E 0 2508 1 5
+  R E 0 2507 1 16
+  R E 0 2506 1 0
+R O 0 2501 1 2540
+S
+#2541
+Inside Fox Den~
+~
+Darkness fills the area as the caves give off no natural light. Small 
+amounts of dust and dirt can be seen where the most traffic moves 
+throughout the caves, where as the less traversed parts are covered with 
+more. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2542
+D6
+~
+~
+0 -1 2517
+S
+#2542
+Inside Fox Den~
+~
+Large caves intertwine to make the massive network that is Fox Den. A path 
+leads to the north from here as well as the southwest into the darkness of 
+the caves. 
+~
+1 1 13
+D0
+~
+~
+0 -1 2541
+D9
+~
+~
+0 -1 2543
+R M 0 2503 4 2542
+  R E 0 2512 1 12
+  R E 0 2511 1 16
+  R E 0 2510 1 0
+S
+#2543
+Inside Fox Den~
+~
+The sounds of foxes moving around and howling within the caves can be 
+heard echoing all throughout Fox Den. The walls of the caves stretch high 
+into the air allowing for a lot of room to move around, even for the most 
+massive of beasts. 
+~
+1 1 13
+D6
+~
+~
+0 -1 2542
+D8
+~
+~
+0 -1 2544
+S
+#2544
+A Dead End~
+~
+The walls of the cave reach high in this one entrance area of Fox Den. 
+There isn't much here besides some old mining equipment long forgotten 
+collecting dust here. 
+~
+1 1 13
+D7
+~
+~
+0 -1 2543
+S
+#2545
+Inside Fox Den~
+~
+The winding caves inside Fox Den weave thier way within the deep grounds. 
+Dirt and Dust cover the ground in spots where there is less traffic moving 
+throughout the caves interiors. 
+~
+1 1 13
+D2
+~
+~
+0 -1 2505
+D6
+~
+~
+0 -1 2546
+D7
+~
+~
+0 -1 2508
+R M 0 2501 9 2545
+  R E 0 2500 1 0
+  R E 0 2502 1 16
+  R E 0 2505 1 7
+  R E 0 2504 1 5
+S
+#2546
+Inside Fox Den~
+~
+The road from here leads to the east and to the southwest. The caves are 
+filled with darkness as no fire or any source of natural light can be seen 
+anywhere within the caves from here. 
+~
+1 1 13
+D1
+~
+~
+0 -1 2547
+D9
+~
+~
+0 -1 2545
+R M 0 2501 9 2546
+  R E 0 2505 1 7
+  R E 0 2502 1 16
+  R E 0 2504 1 5
+  R E 0 2500 1 0
+S
+#2547
+Inside Fox Den~
+~
+The walls of the cave reach high into the air making the roof very high 
+from the ground. Dirt and small amounts of dust cover the grounds and the 
+cracks in the walls showing the ancient age of the caves. 
+~
+1 1 13
+D3
+~
+~
+0 -1 2546
+D8
+~
+~
+0 -1 2548
+S
+#2548
+Inside Fox Den~
+~
+Small footprints of foxes cover the ground here showing what lives here in 
+mass. There are large wooden pillars inside the walls of the cave where 
+miners once went through expanding the caves. 
+~
+1 1 13
+D7
+~
+~
+0 -1 2547
+D9
+~
+~
+0 -1 2549
+R M 0 2501 9 2548
+  R E 0 2502 1 16
+  R E 0 2505 1 7
+  R E 0 2504 1 5
+  R E 0 2500 1 0
+S
+#2549
+Inside Fox Den~
+~
+The floors of the cave are covered with small pebbles and a thin layer of 
+dust and dirt where less traffic goes through. The roof of the cave is 
+high above the ground giving a large amount of clearance. 
+~
+1 1 13
+D3
+~
+~
+0 -1 2550
+D6
+~
+~
+0 -1 2548
+R M 0 2501 9 2549
+  R E 0 2504 1 5
+  R E 0 2505 1 7
+  R E 0 2500 1 0
+  R E 0 2502 1 16
+S
+#2550
+Inside Fox Den~
+~
+Boulders lay on the ground covering the area with a small amount of 
+rubble. The walls of the cave streach high into the air giving plenty of 
+room to manuver with ease through them. 
+~
+1 1 13
+D1
+~
+~
+0 -1 2549
+D3
+~
+~
+0 -1 2505
+R M 0 2501 9 2550
+  R E 0 2505 1 7
+  R E 0 2502 1 16
+  R E 0 2500 1 0
+  R E 0 2504 1 5
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

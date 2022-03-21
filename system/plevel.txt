@@ -1436,3 +1436,14 @@ Mon Jan 22 20:40:35 2018: Flitter obtained level 6!&D
 Mon Jan 22 20:55:50 2018: Flitter obtained level 7!&D
 Tue Jan 23 19:04:50 2018: Midnight obtained level 9!&D
 Tue Jan 23 19:40:43 2018: Midnight obtained level 10!&D
+Wed Mar 16 12:35:19 2022: Mogran obtained level 3!&D
+Wed Mar 16 12:40:20 2022: Mogran obtained level 4!&D
+Wed Mar 16 12:56:12 2022: Mogran obtained level 5!&D
+Sun Mar 20 07:27:10 2022: Tokihasha obtained level 3!&D
+Sun Mar 20 07:27:23 2022: Tokihasha obtained level 4!&D
+Sun Mar 20 07:35:05 2022: Tokihasha obtained level 5!&D
+Sun Mar 20 14:02:35 2022: Alnar obtained level 3!&D
+Sun Mar 20 14:07:48 2022: Alnar obtained level 4!&D
+Sun Mar 20 14:10:12 2022: Alnar obtained level 5!&D
+Sun Mar 20 14:22:37 2022: Alnar obtained level 6!&D
+Sun Mar 20 15:13:02 2022: Alnar obtained level 7!&D

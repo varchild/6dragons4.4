@@ -1,0 +1,7445 @@
+#AREA        Ocean~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES Null
+~
+#COLOR       0
+#HTOWN       Null
+~
+#DESC        ~
+
+#RANGES
+20 60 10 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+131072
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999950 999999950 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#10400
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+Null
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10401
+Krakken giant squid~
+the giant squid Krakken~
+A giant squid moves in search of prey here.
+~
+~
+0
+Clanname none~
+0
+0
+33 4194816 0 C
+80 0 0 1d1+14000 2d4+8
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 6
+40 0 8232 0 0 0 327689 1058
+> death_prog 100~
+if quest(Michael) == 1
+  mpquest $n Michael 2
+else
+  mppause 2
+endif
+~
+> all_greet_prog 100~
+if quest(terale) == 2
+  mpquest $n terale 3
+endif
+~
+|
+#10402
+white shark~
+a white shark~
+A white shark is hunting for prey here.
+~
+~
+0
+Clanname none~
+0
+0
+33 0 0 C
+20 0 0 1d1+800 1d1+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+14 0 16384 0 0 0 1 2
+#10403
+mermaid~
+a beautiful mermaid~
+A beautiful mermaid is singing a song here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 0 C
+30 0 0 1d20+1000 1d4+4
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 33 0 0 0 1073745921 2
+> fight_prog 10~
+c 'mind assault' $n
+~
+|
+#10404
+killer whale Jaruson~
+Jaruson the Killer Whale~
+A massive killer whale swims by here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+70 0 0 1d1+14000 2d4+4
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 3
+40 0 32 0 0 0 257 34
+#10700
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+Null
+~
+0
+Clanname none~
+0
+0
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10400
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+null
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10700
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+null
+~
+13 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#10400
+Within the Waves~
+~
+&CThere is a steady motion of the waves coming in towards the beach.
+The sand appears and disappears as the water is drawn in, and then
+pushed back out.  The beach is to the north.
+~
+1 4 19
+D1
+~
+~
+0 -1 10404
+D2
+~
+~
+0 -1 10401
+S
+#10401
+Within the Waves~
+~
+&CThere is a steady motion of the waves coming in towards the beach.
+The sand appears and disappears as the water is drawn in, and then
+pushed back out.  The beach is to the north.
+~
+1 4 19
+D0
+~
+~
+0 -1 10400
+D1
+~
+~
+0 -1 10405
+D2
+~
+~
+0 -1 10402
+S
+#10402
+Within the Waves~
+~
+&CThere is a steady motion of the waves coming in towards the beach.
+The sand appears and disappears as the water is drawn in, and then
+pushed back out.  The beach is to the north.
+~
+1 4 19
+D0
+~
+~
+0 -1 10401
+D1
+~
+~
+0 -1 10406
+S
+#10403
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10411
+D2
+~
+~
+0 -1 10404
+D5
+~
+~
+0 -1 10536
+S
+#10404
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10403
+D1
+~
+~
+0 -1 10412
+D2
+~
+~
+0 -1 10405
+D3
+~
+~
+0 -1 10400
+D5
+~
+~
+0 -1 10537
+S
+#10405
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10404
+D1
+~
+~
+0 -1 10413
+D2
+~
+~
+0 -1 10406
+D3
+~
+~
+0 -1 10401
+D5
+~
+~
+0 -1 10538
+S
+#10406
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10405
+D1
+~
+~
+0 -1 10414
+D2
+~
+~
+0 -1 10407
+D3
+~
+~
+0 -1 10402
+D5
+~
+~
+0 -1 10539
+S
+#10407
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10406
+D1
+~
+~
+0 -1 10415
+D5
+~
+~
+0 -1 10540
+S
+#10408
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10418
+D2
+~
+~
+0 -1 10409
+D5
+~
+~
+0 -1 10541
+S
+#10409
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10408
+D1
+~
+~
+0 -1 10419
+D2
+~
+~
+0 -1 10410
+D5
+~
+~
+0 -1 10542
+S
+#10410
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10409
+D1
+~
+~
+0 -1 10420
+D2
+~
+~
+0 -1 10411
+D5
+~
+~
+0 -1 10543
+S
+#10411
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10410
+D1
+~
+~
+0 -1 10421
+D2
+~
+~
+0 -1 10412
+D3
+~
+~
+0 -1 10403
+D5
+~
+~
+0 -1 10544
+S
+#10412
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10411
+D1
+~
+~
+0 -1 10422
+D2
+~
+~
+0 -1 10413
+D3
+~
+~
+0 -1 10404
+D5
+~
+~
+0 -1 10545
+S
+#10413
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10412
+D1
+~
+~
+0 -1 10423
+D2
+~
+~
+0 -1 10414
+D3
+~
+~
+0 -1 10405
+D5
+~
+~
+0 -1 10546
+S
+#10414
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10413
+D1
+~
+~
+0 -1 10424
+D2
+~
+~
+0 -1 10415
+D3
+~
+~
+0 -1 10406
+D5
+~
+~
+0 -1 10547
+S
+#10415
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10414
+D1
+~
+~
+0 -1 10425
+D2
+~
+~
+0 -1 10416
+D3
+~
+~
+0 -1 10407
+D5
+~
+~
+0 -1 10548
+S
+#10416
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10415
+D1
+~
+~
+0 -1 10426
+D2
+~
+~
+0 -1 10417
+D5
+~
+~
+0 -1 10549
+R M 0 10402 11 10416
+S
+#10417
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10416
+D1
+~
+~
+0 -1 10427
+D5
+~
+~
+0 -1 10550
+R M 0 10402 11 10417
+R M 0 10402 11 10417
+S
+#10418
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10428
+D2
+~
+~
+0 -1 10419
+D3
+~
+~
+0 -1 10408
+D5
+~
+~
+0 -1 10551
+S
+#10419
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10418
+D1
+~
+~
+0 -1 10429
+D2
+~
+~
+0 -1 10420
+D3
+~
+~
+0 -1 10409
+D5
+~
+~
+0 -1 10552
+S
+#10420
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10419
+D1
+~
+~
+0 -1 10430
+D2
+~
+~
+0 -1 10421
+D3
+~
+~
+0 -1 10410
+D5
+~
+~
+0 -1 10553
+S
+#10421
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10420
+D1
+~
+~
+0 -1 10431
+D2
+~
+~
+0 -1 10422
+D3
+~
+~
+0 -1 10411
+D5
+~
+~
+0 -1 10554
+S
+#10422
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10421
+D2
+~
+~
+0 -1 10423
+D3
+~
+~
+0 -1 10412
+D5
+~
+~
+0 -1 10555
+S
+#10423
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10422
+D1
+~
+~
+0 -1 10433
+D2
+~
+~
+0 -1 10424
+D3
+~
+~
+0 -1 10413
+D5
+~
+~
+0 -1 10556
+S
+#10424
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10423
+D1
+~
+~
+0 -1 10434
+D2
+~
+~
+0 -1 10425
+D3
+~
+~
+0 -1 10414
+D5
+~
+~
+0 -1 10557
+S
+#10425
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10424
+D1
+~
+~
+0 -1 10435
+D2
+~
+~
+0 -1 10426
+D3
+~
+~
+0 -1 10415
+D5
+~
+~
+0 -1 10558
+S
+#10426
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10425
+D1
+~
+~
+0 -1 10436
+D2
+~
+~
+0 -1 10427
+D3
+~
+~
+0 -1 10416
+D5
+~
+~
+0 -1 10559
+S
+#10427
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10426
+D1
+~
+~
+0 -1 10437
+D3
+~
+~
+0 -1 10417
+D5
+~
+~
+0 -1 10560
+S
+#10428
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10438
+D2
+~
+~
+0 -1 10429
+D3
+~
+~
+0 -1 10418
+D5
+~
+~
+0 -1 10561
+S
+#10429
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10428
+D1
+~
+~
+0 -1 10439
+D2
+~
+~
+0 -1 10430
+D3
+~
+~
+0 -1 10419
+D5
+~
+~
+0 -1 10562
+S
+#10430
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10429
+D1
+~
+~
+0 -1 10440
+D2
+~
+~
+0 -1 10431
+D3
+~
+~
+0 -1 10420
+D5
+~
+~
+0 -1 10563
+S
+#10431
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10430
+D3
+~
+~
+0 -1 10421
+D5
+~
+~
+0 -1 10564
+S
+#10432
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 11
+D5
+~
+~
+0 -1 10565
+S
+#10433
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10443
+D2
+~
+~
+0 -1 10434
+D3
+~
+~
+0 -1 10423
+D5
+~
+~
+0 -1 10566
+S
+#10434
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10433
+D1
+~
+~
+0 -1 10444
+D2
+~
+~
+0 -1 10435
+D3
+~
+~
+0 -1 10424
+R M 0 10403 3 10434
+S
+#10435
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10434
+D1
+~
+~
+0 -1 10445
+D2
+~
+~
+0 -1 10436
+D3
+~
+~
+0 -1 10425
+D5
+~
+~
+0 -1 10568
+S
+#10436
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10435
+D1
+~
+~
+0 -1 10446
+D2
+~
+~
+0 -1 10437
+D3
+~
+~
+0 -1 10426
+D5
+~
+~
+0 -1 10569
+R M 0 10402 11 10436
+R M 0 10402 11 10436
+S
+#10437
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10436
+D1
+~
+~
+0 -1 10447
+D3
+~
+~
+0 -1 10427
+D5
+~
+~
+0 -1 10570
+R M 0 10402 11 10437
+R M 0 10402 11 10437
+S
+#10438
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10448
+D2
+~
+~
+0 -1 10439
+D3
+~
+~
+0 -1 10428
+D5
+~
+~
+0 -1 10571
+S
+#10439
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10438
+D1
+~
+~
+0 -1 10449
+D2
+~
+~
+0 -1 10440
+D3
+~
+~
+0 -1 10429
+D5
+~
+~
+0 -1 10572
+S
+#10440
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10439
+D1
+~
+~
+0 -1 10450
+D3
+~
+~
+0 -1 10430
+D5
+~
+~
+0 -1 10573
+S
+#10441
+Within a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 11
+D5
+~
+~
+0 -1 3910
+D11
+~
+~
+0 -1 43475
+S
+#10442
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10452
+D2
+~
+~
+0 -1 10443
+D5
+~
+~
+0 -1 10575
+S
+#10443
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10442
+D1
+~
+~
+0 -1 10453
+D2
+~
+~
+0 -1 10444
+D3
+~
+~
+0 -1 10433
+D5
+~
+~
+0 -1 10576
+S
+#10444
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10443
+D1
+~
+~
+0 -1 10454
+D2
+~
+~
+0 -1 10445
+D3
+~
+~
+0 -1 10434
+D5
+~
+~
+0 -1 10577
+S
+#10445
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10444
+D1
+~
+~
+0 -1 10455
+D2
+~
+~
+0 -1 10446
+D3
+~
+~
+0 -1 10435
+S
+#10446
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10445
+D1
+~
+~
+0 -1 10456
+D2
+~
+~
+0 -1 10447
+D3
+~
+~
+0 -1 10436
+D5
+~
+~
+0 -1 10579
+S
+#10447
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10446
+D1
+~
+~
+0 -1 10457
+D3
+~
+~
+0 -1 10437
+D5
+~
+~
+0 -1 10580
+S
+#10448
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10458
+D2
+~
+~
+0 -1 10449
+D3
+~
+~
+0 -1 10438
+D5
+~
+~
+0 -1 10581
+S
+#10449
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10448
+D1
+~
+~
+0 -1 10459
+D2
+~
+~
+0 -1 10450
+D3
+~
+~
+0 -1 10439
+D5
+~
+~
+0 -1 10582
+S
+#10450
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10449
+D1
+~
+~
+0 -1 10460
+D2
+~
+~
+0 -1 10451
+D3
+~
+~
+0 -1 10440
+D5
+~
+~
+0 -1 10583
+S
+#10451
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10450
+D1
+~
+~
+0 -1 10461
+D2
+~
+~
+0 -1 10452
+D5
+~
+~
+0 -1 10584
+S
+#10452
+Edge of a Giant Whirlpool~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10451
+D1
+~
+~
+0 -1 10462
+D2
+~
+~
+0 -1 10453
+D3
+~
+~
+0 -1 10442
+D5
+~
+~
+0 -1 10585
+S
+#10453
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10452
+D1
+~
+~
+0 -1 10463
+D2
+~
+~
+0 -1 10454
+D3
+~
+~
+0 -1 10443
+D5
+~
+~
+0 -1 10586
+S
+#10454
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10453
+D1
+~
+~
+0 -1 10464
+D2
+~
+~
+0 -1 10455
+D3
+~
+~
+0 -1 10444
+D5
+~
+~
+0 -1 10587
+S
+#10455
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10454
+D1
+~
+~
+0 -1 10465
+D2
+~
+~
+0 -1 10456
+D3
+~
+~
+0 -1 10445
+D5
+~
+~
+0 -1 10588
+S
+#10456
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10455
+D1
+~
+~
+0 -1 10466
+D2
+~
+~
+0 -1 10457
+D3
+~
+~
+0 -1 10446
+D5
+~
+~
+0 -1 10589
+S
+#10457
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10456
+D1
+~
+~
+0 -1 10467
+D3
+~
+~
+0 -1 10447
+D5
+~
+~
+0 -1 10590
+S
+#10458
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10468
+D2
+~
+~
+0 -1 10459
+D3
+~
+~
+0 -1 10448
+D5
+~
+~
+0 -1 10591
+S
+#10459
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10458
+D1
+~
+~
+0 -1 10469
+D2
+~
+~
+0 -1 10460
+D3
+~
+~
+0 -1 10449
+D5
+~
+~
+0 -1 10592
+S
+#10460
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10459
+D1
+~
+~
+0 -1 10470
+D2
+~
+~
+0 -1 10461
+D3
+~
+~
+0 -1 10450
+D5
+~
+~
+0 -1 10593
+S
+#10461
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10460
+D1
+~
+~
+0 -1 10471
+D2
+~
+~
+0 -1 10462
+D3
+~
+~
+0 -1 10451
+D5
+~
+~
+0 -1 10594
+S
+#10462
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10461
+D1
+~
+~
+0 -1 10472
+D2
+~
+~
+0 -1 10463
+D3
+~
+~
+0 -1 10452
+D5
+~
+~
+0 -1 10595
+S
+#10463
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10462
+D1
+~
+~
+0 -1 10473
+D2
+~
+~
+0 -1 10464
+D3
+~
+~
+0 -1 10453
+D5
+~
+~
+0 -1 10596
+S
+#10464
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10463
+D1
+~
+~
+0 -1 10474
+D2
+~
+~
+0 -1 10465
+D3
+~
+~
+0 -1 10454
+D5
+~
+~
+0 -1 10597
+S
+#10465
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10464
+D1
+~
+~
+0 -1 10475
+D2
+~
+~
+0 -1 10466
+D3
+~
+~
+0 -1 10455
+D5
+~
+~
+0 -1 10598
+S
+#10466
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10465
+D1
+~
+~
+0 -1 10476
+D2
+~
+~
+0 -1 10467
+D3
+~
+~
+0 -1 10456
+D5
+~
+~
+0 -1 10599
+S
+#10467
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10466
+D1
+~
+~
+0 -1 10477
+D3
+~
+~
+0 -1 10457
+D5
+~
+~
+0 -1 10600
+S
+#10468
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10479
+D2
+~
+~
+0 -1 10469
+D3
+~
+~
+0 -1 10458
+D5
+~
+~
+0 -1 10601
+S
+#10469
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10468
+D1
+~
+~
+0 -1 10480
+D2
+~
+~
+0 -1 10470
+D3
+~
+~
+0 -1 10459
+D5
+~
+~
+0 -1 10602
+S
+#10470
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10469
+D1
+~
+~
+0 -1 10481
+D2
+~
+~
+0 -1 10471
+D3
+~
+~
+0 -1 10460
+D5
+~
+~
+0 -1 10603
+S
+#10471
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10470
+D1
+~
+~
+0 -1 10482
+D2
+~
+~
+0 -1 10472
+D3
+~
+~
+0 -1 10461
+D5
+~
+~
+0 -1 10604
+S
+#10472
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10471
+D1
+~
+~
+0 -1 10483
+D2
+~
+~
+0 -1 10473
+D3
+~
+~
+0 -1 10462
+D5
+~
+~
+0 -1 10605
+S
+#10473
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10472
+D1
+~
+~
+0 -1 10484
+D2
+~
+~
+0 -1 10474
+D3
+~
+~
+0 -1 10463
+D5
+~
+~
+0 -1 10606
+S
+#10474
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10473
+D1
+~
+~
+0 -1 10485
+D2
+~
+~
+0 -1 10475
+D3
+~
+~
+0 -1 10464
+D5
+~
+~
+0 -1 10607
+S
+#10475
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10474
+D1
+~
+~
+0 -1 10486
+D2
+~
+~
+0 -1 10476
+D3
+~
+~
+0 -1 10465
+D5
+~
+~
+0 -1 10608
+S
+#10476
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10475
+D1
+~
+~
+0 -1 10487
+D3
+~
+~
+0 -1 10466
+D5
+~
+~
+0 -1 10609
+S
+#10477
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10476
+D1
+~
+~
+0 -1 10488
+D3
+~
+~
+0 -1 10467
+D5
+~
+~
+0 -1 10610
+S
+#10478
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D1
+~
+~
+0 -1 10490
+D2
+~
+~
+0 -1 10479
+D5
+~
+~
+0 -1 10611
+S
+#10479
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10478
+D1
+~
+~
+0 -1 10491
+D2
+~
+~
+0 -1 10480
+D3
+~
+~
+0 -1 10468
+D5
+~
+~
+0 -1 10612
+S
+#10480
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10479
+D1
+~
+~
+0 -1 10492
+D2
+~
+~
+0 -1 10481
+D3
+~
+~
+0 -1 10469
+D5
+~
+~
+0 -1 10613
+S
+#10481
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10480
+D1
+~
+~
+0 -1 10493
+D2
+~
+~
+0 -1 10482
+D3
+~
+~
+0 -1 10470
+D5
+~
+~
+0 -1 10614
+S
+#10482
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10481
+D1
+~
+~
+0 -1 10494
+D2
+~
+~
+0 -1 10483
+D3
+~
+~
+0 -1 10471
+D5
+~
+~
+0 -1 10615
+S
+#10483
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10482
+D1
+~
+~
+0 -1 10495
+D2
+~
+~
+0 -1 10484
+D3
+~
+~
+0 -1 10472
+D5
+~
+~
+0 -1 10616
+S
+#10484
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10483
+D1
+~
+~
+0 -1 10496
+D2
+~
+~
+0 -1 10485
+D3
+~
+~
+0 -1 10473
+D5
+~
+~
+0 -1 10617
+S
+#10485
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10484
+D1
+~
+~
+0 -1 10497
+D2
+~
+~
+0 -1 10486
+D3
+~
+~
+0 -1 10474
+D5
+~
+~
+0 -1 10618
+S
+#10486
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10485
+D1
+~
+~
+0 -1 10498
+D2
+~
+~
+0 -1 10487
+D3
+~
+~
+0 -1 10475
+D5
+~
+~
+0 -1 10619
+S
+#10487
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10486
+D1
+~
+~
+0 -1 10499
+D2
+~
+~
+0 -1 10488
+D3
+~
+~
+0 -1 10476
+D5
+~
+~
+0 -1 10620
+S
+#10488
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10487
+D1
+~
+~
+0 -1 10500
+D3
+~
+~
+0 -1 10477
+D5
+~
+~
+0 -1 10621
+S
+#10489
+Within the Waves~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 4 19
+D0
+~
+~
+0 -1 10014
+D1
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+0 -1 10501
+D2
+~
+~
+0 -1 10490
+S
+#10490
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10489
+D1
+~
+~
+0 -1 10502
+D2
+~
+~
+0 -1 10491
+D3
+~
+~
+0 -1 10478
+D5
+~
+~
+0 -1 10622
+S
+#10491
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10490
+D1
+~
+~
+0 -1 10503
+D2
+~
+~
+0 -1 10492
+D3
+~
+~
+0 -1 10479
+D5
+~
+~
+0 -1 10623
+S
+#10492
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10491
+D1
+~
+~
+0 -1 10504
+D2
+~
+~
+0 -1 10493
+D3
+~
+~
+0 -1 10480
+D5
+~
+~
+0 -1 10624
+S
+#10493
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10492
+D1
+~
+~
+0 -1 10505
+D2
+~
+~
+0 -1 10494
+D3
+~
+~
+0 -1 10481
+D5
+~
+~
+0 -1 10625
+S
+#10494
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10493
+D1
+~
+~
+0 -1 10506
+D2
+~
+~
+0 -1 10495
+D3
+~
+~
+0 -1 10482
+D5
+~
+~
+0 -1 10626
+S
+#10495
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10494
+D1
+~
+~
+0 -1 10507
+D2
+~
+~
+0 -1 10496
+D3
+~
+~
+0 -1 10483
+D5
+~
+~
+0 -1 10627
+S
+#10496
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10495
+D1
+~
+~
+0 -1 10508
+D2
+~
+~
+0 -1 10497
+D3
+~
+~
+0 -1 10484
+D5
+~
+~
+0 -1 10628
+S
+#10497
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10496
+D1
+~
+~
+0 -1 10509
+D2
+~
+~
+0 -1 10498
+D3
+~
+~
+0 -1 10485
+D5
+~
+~
+0 -1 10629
+S
+#10498
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10497
+D1
+~
+~
+0 -1 10510
+D2
+~
+~
+0 -1 10499
+D3
+~
+~
+0 -1 10486
+D5
+~
+~
+0 -1 10630
+S
+#10499
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10498
+D1
+~
+~
+0 -1 10511
+D2
+~
+~
+0 -1 10500
+D3
+~
+~
+0 -1 10487
+D5
+~
+~
+0 -1 10631
+S
+#10500
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10499
+D1
+~
+~
+0 -1 10512
+D3
+~
+~
+0 -1 10488
+D5
+~
+~
+0 -1 10632
+S
+#10501
+Within the Waves~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 4 19
+D0
+~
+~
+0 -1 10013
+D1
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+0 -1 10513
+D2
+~
+~
+0 -1 10502
+D3
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+0 -1 10489
+S
+#10502
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10501
+D1
+~
+~
+0 -1 10514
+D2
+~
+~
+0 -1 10503
+D3
+~
+~
+0 -1 10490
+D5
+~
+~
+0 -1 10633
+S
+#10503
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10502
+D1
+~
+~
+0 -1 10515
+D2
+~
+~
+0 -1 10504
+D3
+~
+~
+0 -1 10491
+D5
+~
+~
+0 -1 10634
+S
+#10504
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10503
+D1
+~
+~
+0 -1 10516
+D2
+~
+~
+0 -1 10505
+D3
+~
+~
+0 -1 10492
+D5
+~
+~
+0 -1 10635
+S
+#10505
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10504
+D1
+~
+~
+0 -1 10517
+D2
+~
+~
+0 -1 10506
+D3
+~
+~
+0 -1 10493
+D5
+~
+~
+0 -1 10636
+S
+#10506
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10505
+D1
+~
+~
+0 -1 10518
+D2
+~
+~
+0 -1 10507
+D3
+~
+~
+0 -1 10494
+D5
+~
+~
+0 -1 10637
+S
+#10507
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10506
+D1
+~
+~
+0 -1 10519
+D2
+~
+~
+0 -1 10508
+D3
+~
+~
+0 -1 10495
+D5
+~
+~
+0 -1 10638
+S
+#10508
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10507
+D1
+~
+~
+0 -1 10520
+D2
+~
+~
+0 -1 10509
+D3
+~
+~
+0 -1 10496
+D5
+~
+~
+0 -1 10639
+S
+#10509
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10508
+D1
+~
+~
+0 -1 10521
+D2
+~
+~
+0 -1 10510
+D3
+~
+~
+0 -1 10497
+D5
+~
+~
+0 -1 10640
+S
+#10510
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10509
+D1
+~
+~
+0 -1 10522
+D2
+~
+~
+0 -1 10511
+D3
+~
+~
+0 -1 10498
+D5
+~
+~
+0 -1 10641
+S
+#10511
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10510
+D1
+~
+~
+0 -1 10523
+D2
+~
+~
+0 -1 10512
+D3
+~
+~
+0 -1 10499
+D5
+~
+~
+0 -1 10642
+S
+#10512
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10511
+D1
+~
+~
+0 -1 10524
+D3
+~
+~
+0 -1 10500
+D5
+~
+~
+0 -1 10643
+S
+#10513
+Within the Waves~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 4 19
+D0
+~
+~
+0 -1 10012
+D2
+~
+~
+0 -1 10514
+D3
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+0 -1 10501
+S
+#10514
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10513
+D1
+~
+~
+0 -1 10525
+D2
+~
+~
+0 -1 10515
+D3
+~
+~
+0 -1 10502
+D5
+~
+~
+0 -1 10644
+S
+#10515
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10514
+D1
+~
+~
+0 -1 10526
+D2
+~
+~
+0 -1 10516
+D3
+~
+~
+0 -1 10503
+D5
+~
+~
+0 -1 10645
+S
+#10516
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10515
+D1
+~
+~
+0 -1 10527
+D2
+~
+~
+0 -1 10517
+D3
+~
+~
+0 -1 10504
+D5
+~
+~
+0 -1 10646
+S
+#10517
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10516
+D1
+~
+~
+0 -1 10528
+D2
+~
+~
+0 -1 10518
+D3
+~
+~
+0 -1 10505
+D5
+~
+~
+0 -1 10647
+S
+#10518
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10517
+D1
+~
+~
+0 -1 10529
+D2
+~
+~
+0 -1 10519
+D3
+~
+~
+0 -1 10506
+D5
+~
+~
+0 -1 10648
+S
+#10519
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10518
+D1
+~
+~
+0 -1 10530
+D2
+~
+~
+0 -1 10520
+D3
+~
+~
+0 -1 10507
+D5
+~
+~
+0 -1 10649
+S
+#10520
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10519
+D1
+~
+~
+0 -1 10531
+D2
+~
+~
+0 -1 10521
+D3
+~
+~
+0 -1 10508
+D5
+~
+~
+0 -1 10650
+S
+#10521
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10520
+D1
+~
+~
+0 -1 10532
+D2
+~
+~
+0 -1 10522
+D3
+~
+~
+0 -1 10509
+D5
+~
+~
+0 -1 10651
+S
+#10522
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10521
+D1
+~
+~
+0 -1 10533
+D2
+~
+~
+0 -1 10523
+D3
+~
+~
+0 -1 10510
+D5
+~
+~
+0 -1 10652
+S
+#10523
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10522
+D1
+~
+~
+0 -1 10534
+D2
+~
+~
+0 -1 10524
+D3
+~
+~
+0 -1 10511
+D5
+~
+~
+0 -1 10653
+S
+#10524
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10523
+D1
+~
+~
+0 -1 10535
+D3
+~
+~
+0 -1 10512
+D5
+~
+~
+0 -1 10654
+S
+#10525
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D2
+~
+~
+0 -1 10526
+D3
+~
+~
+0 -1 10514
+D5
+~
+~
+0 -1 10655
+S
+#10526
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10525
+D2
+~
+~
+0 -1 10527
+D3
+~
+~
+0 -1 10515
+S
+#10527
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10526
+D2
+~
+~
+0 -1 10528
+D3
+~
+~
+0 -1 10516
+S
+#10528
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10527
+D2
+~
+~
+0 -1 10529
+D3
+~
+~
+0 -1 10517
+S
+#10529
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10528
+D2
+~
+~
+0 -1 10530
+D3
+~
+~
+0 -1 10518
+S
+#10530
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10529
+D2
+~
+~
+0 -1 10531
+D3
+~
+~
+0 -1 10519
+S
+#10531
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10530
+D2
+~
+~
+0 -1 10532
+D3
+~
+~
+0 -1 10520
+S
+#10532
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10531
+D2
+~
+~
+0 -1 10533
+D3
+~
+~
+0 -1 10521
+S
+#10533
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10532
+D2
+~
+~
+0 -1 10534
+D3
+~
+~
+0 -1 10522
+S
+#10534
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10533
+D2
+~
+~
+0 -1 10535
+D3
+~
+~
+0 -1 10523
+S
+#10535
+Within the Ocean~
+~
+&CThe ocean waters fill the horizon from all directions.  There are continuous
+waves that move throughout here.  A few patches of sea weed float by.  There
+are many different fish species nearby.
+~
+1 0 19
+D0
+~
+~
+0 -1 10534
+D3
+~
+~
+0 -1 10524
+S
+#10536
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10544
+D2
+~
+~
+0 -1 10537
+D4
+~
+~
+0 -1 10403
+S
+#10537
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10536
+D1
+~
+~
+0 -1 10545
+D2
+~
+~
+0 -1 10538
+D4
+~
+~
+0 -1 10404
+S
+#10538
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10537
+D1
+~
+~
+0 -1 10546
+D2
+~
+~
+0 -1 10539
+D4
+~
+~
+0 -1 10405
+S
+#10539
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10538
+D1
+~
+~
+0 -1 10547
+D2
+~
+~
+0 -1 10540
+D4
+~
+~
+0 -1 10406
+S
+#10540
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10539
+D1
+~
+~
+0 -1 10548
+D4
+~
+~
+0 -1 10407
+S
+#10541
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10551
+D2
+~
+~
+0 -1 10542
+D4
+~
+~
+0 -1 10408
+S
+#10542
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10541
+D1
+~
+~
+0 -1 10552
+D2
+~
+~
+0 -1 10543
+D4
+~
+~
+0 -1 10409
+S
+#10543
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10542
+D1
+~
+~
+0 -1 10553
+D2
+~
+~
+0 -1 10544
+D4
+~
+~
+0 -1 10410
+S
+#10544
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10543
+D1
+~
+~
+0 -1 10554
+D2
+~
+~
+0 -1 10545
+D3
+~
+~
+0 -1 10536
+D4
+~
+~
+0 -1 10411
+S
+#10545
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10544
+D1
+~
+~
+0 -1 10555
+D2
+~
+~
+0 -1 10546
+D3
+~
+~
+0 -1 10537
+D4
+~
+~
+0 -1 10412
+S
+#10546
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10545
+D1
+~
+~
+0 -1 10556
+D2
+~
+~
+0 -1 10547
+D3
+~
+~
+0 -1 10538
+D4
+~
+~
+0 -1 10413
+S
+#10547
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10546
+D1
+~
+~
+0 -1 10557
+D2
+~
+~
+0 -1 10548
+D3
+~
+~
+0 -1 10539
+D4
+~
+~
+0 -1 10414
+S
+#10548
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10547
+D1
+~
+~
+0 -1 10558
+D2
+~
+~
+0 -1 10549
+D3
+~
+~
+0 -1 10540
+D4
+~
+~
+0 -1 10415
+S
+#10549
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10548
+D1
+~
+~
+0 -1 10559
+D2
+~
+~
+0 -1 10550
+D4
+~
+~
+0 -1 10416
+S
+#10550
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10549
+D1
+~
+~
+0 -1 10560
+D4
+~
+~
+0 -1 10417
+S
+#10551
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10561
+D2
+~
+~
+0 -1 10552
+D3
+~
+~
+0 -1 10541
+D4
+~
+~
+0 -1 10418
+S
+#10552
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10551
+D1
+~
+~
+0 -1 10562
+D2
+~
+~
+0 -1 10553
+D3
+~
+~
+0 -1 10542
+D4
+~
+~
+0 -1 10419
+S
+#10553
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10552
+D1
+~
+~
+0 -1 10563
+D2
+~
+~
+0 -1 10554
+D3
+~
+~
+0 -1 10543
+D4
+~
+~
+0 -1 10420
+S
+#10554
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10553
+D1
+~
+~
+0 -1 10564
+D2
+~
+~
+0 -1 10555
+D3
+~
+~
+0 -1 10544
+D4
+~
+~
+0 -1 10421
+S
+#10555
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10554
+D1
+~
+~
+0 -1 10565
+D2
+~
+~
+0 -1 10556
+D3
+~
+~
+0 -1 10545
+D4
+~
+~
+0 -1 10422
+S
+#10556
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10555
+D1
+~
+~
+0 -1 10566
+D2
+~
+~
+0 -1 10557
+D3
+~
+~
+0 -1 10546
+D4
+~
+~
+0 -1 10423
+S
+#10557
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10556
+D2
+~
+~
+0 -1 10558
+D3
+~
+~
+0 -1 10547
+D4
+~
+~
+0 -1 10424
+R M 0 10404 1 10557
+S
+#10558
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10557
+D1
+~
+~
+0 -1 10568
+D2
+~
+~
+0 -1 10559
+D3
+~
+~
+0 -1 10548
+D4
+~
+~
+0 -1 10425
+S
+#10559
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10558
+D1
+~
+~
+0 -1 10569
+D2
+~
+~
+0 -1 10560
+D3
+~
+~
+0 -1 10549
+D4
+~
+~
+0 -1 10426
+R M 0 10402 11 10559
+S
+#10560
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10559
+D1
+~
+~
+0 -1 10570
+D3
+~
+~
+0 -1 10550
+D4
+~
+~
+0 -1 10427
+R M 0 10402 11 10560
+S
+#10561
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10571
+D2
+~
+~
+0 -1 10562
+D3
+~
+~
+0 -1 10551
+D4
+~
+~
+0 -1 10428
+S
+#10562
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10561
+D1
+~
+~
+0 -1 10572
+D2
+~
+~
+0 -1 10563
+D3
+~
+~
+0 -1 10552
+D4
+~
+~
+0 -1 10429
+S
+#10563
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10562
+D1
+~
+~
+0 -1 10573
+D2
+~
+~
+0 -1 10564
+D3
+~
+~
+0 -1 10553
+D4
+~
+~
+0 -1 10430
+S
+#10564
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10563
+D1
+~
+~
+0 -1 10574
+D2
+~
+~
+0 -1 10565
+D3
+~
+~
+0 -1 10554
+D4
+~
+~
+0 -1 10431
+S
+#10565
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10564
+D1
+~
+~
+0 -1 10575
+D2
+~
+~
+0 -1 10566
+D3
+~
+~
+0 -1 10555
+D4
+~
+~
+0 -1 10432
+S
+#10566
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10565
+D1
+~
+~
+0 -1 10576
+D3
+~
+~
+0 -1 10556
+D4
+~
+~
+0 -1 10433
+S
+#10567
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 11
+D5
+~
+~
+0 -1 10655
+D11
+~
+~
+0 -1 43266
+S
+#10568
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10578
+D2
+~
+~
+0 -1 10569
+D3
+~
+~
+0 -1 10558
+D4
+~
+~
+0 -1 10435
+S
+#10569
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10568
+D1
+~
+~
+0 -1 10579
+D2
+~
+~
+0 -1 10570
+D3
+~
+~
+0 -1 10559
+D4
+~
+~
+0 -1 10436
+S
+#10570
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10569
+D1
+~
+~
+0 -1 10580
+D3
+~
+~
+0 -1 10560
+D4
+~
+~
+0 -1 10437
+R M 0 10402 11 10570
+S
+#10571
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10581
+D2
+~
+~
+0 -1 10572
+D3
+~
+~
+0 -1 10561
+D4
+~
+~
+0 -1 10438
+S
+#10572
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10571
+D1
+~
+~
+0 -1 10582
+D2
+~
+~
+0 -1 10573
+D3
+~
+~
+0 -1 10562
+D4
+~
+~
+0 -1 10439
+S
+#10573
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10572
+D1
+~
+~
+0 -1 10583
+D2
+~
+~
+0 -1 10574
+D3
+~
+~
+0 -1 10563
+D4
+~
+~
+0 -1 10440
+S
+#10574
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10573
+D1
+~
+~
+0 -1 10584
+D2
+~
+~
+0 -1 10575
+D3
+~
+~
+0 -1 10564
+S
+#10575
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10574
+D1
+~
+~
+0 -1 10585
+D2
+~
+~
+0 -1 10576
+D3
+~
+~
+0 -1 10565
+D4
+~
+~
+0 -1 10442
+S
+#10576
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10575
+D1
+~
+~
+0 -1 10586
+D2
+~
+~
+0 -1 10577
+D3
+~
+~
+0 -1 10566
+D4
+~
+~
+0 -1 10443
+S
+#10577
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10576
+D1
+~
+~
+0 -1 10587
+D2
+~
+~
+0 -1 10578
+D4
+~
+~
+0 -1 10444
+S
+#10578
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10577
+D1
+~
+~
+0 -1 10588
+D2
+~
+~
+0 -1 10579
+D3
+~
+~
+0 -1 10568
+S
+#10579
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10578
+D1
+~
+~
+0 -1 10589
+D2
+~
+~
+0 -1 10580
+D3
+~
+~
+0 -1 10569
+D4
+~
+~
+0 -1 10446
+S
+#10580
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10579
+D1
+~
+~
+0 -1 10590
+D3
+~
+~
+0 -1 10570
+D4
+~
+~
+0 -1 10447
+R M 0 10402 11 10580
+S
+#10581
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10591
+D2
+~
+~
+0 -1 10582
+D3
+~
+~
+0 -1 10571
+D4
+~
+~
+0 -1 10448
+S
+#10582
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10581
+D1
+~
+~
+0 -1 10592
+D2
+~
+~
+0 -1 10583
+D3
+~
+~
+0 -1 10572
+D4
+~
+~
+0 -1 10449
+S
+#10583
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10582
+D1
+~
+~
+0 -1 10593
+D2
+~
+~
+0 -1 10584
+D3
+~
+~
+0 -1 10573
+D4
+~
+~
+0 -1 10450
+S
+#10584
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10583
+D1
+~
+~
+0 -1 10594
+D2
+~
+~
+0 -1 10585
+D3
+~
+~
+0 -1 10574
+D4
+~
+~
+0 -1 10451
+S
+#10585
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10584
+D1
+~
+~
+0 -1 10595
+D3
+~
+~
+0 -1 10575
+D4
+~
+~
+0 -1 10452
+S
+#10586
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10587
+D1
+~
+~
+0 -1 10596
+D2
+~
+~
+0 -1 10587
+D3
+~
+~
+0 -1 10576
+D4
+~
+~
+0 -1 10453
+S
+#10587
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10586
+D1
+~
+~
+0 -1 10597
+D2
+~
+~
+0 -1 10586
+D3
+~
+~
+0 -1 10577
+D4
+~
+~
+0 -1 10454
+S
+#10588
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10587
+D1
+~
+~
+0 -1 10598
+D2
+~
+~
+0 -1 10589
+D3
+~
+~
+0 -1 10578
+D4
+~
+~
+0 -1 10455
+S
+#10589
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10588
+D1
+~
+~
+0 -1 10599
+D2
+~
+~
+0 -1 10590
+D3
+~
+~
+0 -1 10579
+D4
+~
+~
+0 -1 10456
+S
+#10590
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10589
+D1
+~
+~
+0 -1 10600
+D3
+~
+~
+0 -1 10580
+D4
+~
+~
+0 -1 10457
+S
+#10591
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10601
+D2
+~
+~
+0 -1 10592
+D3
+~
+~
+0 -1 10581
+D4
+~
+~
+0 -1 10458
+S
+#10592
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10591
+D1
+~
+~
+0 -1 10602
+D2
+~
+~
+0 -1 10593
+D3
+~
+~
+0 -1 10582
+D4
+~
+~
+0 -1 10459
+S
+#10593
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10592
+D1
+~
+~
+0 -1 10603
+D2
+~
+~
+0 -1 10594
+D3
+~
+~
+0 -1 10583
+D4
+~
+~
+0 -1 10460
+S
+#10594
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10593
+D1
+~
+~
+0 -1 10604
+D2
+~
+~
+0 -1 10595
+D3
+~
+~
+0 -1 10584
+D4
+~
+~
+0 -1 10461
+S
+#10595
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10594
+D1
+~
+~
+0 -1 10605
+D2
+~
+~
+0 -1 10596
+D3
+~
+~
+0 -1 10585
+D4
+~
+~
+0 -1 10462
+S
+#10596
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10595
+D1
+~
+~
+0 -1 10606
+D2
+~
+~
+0 -1 10597
+D3
+~
+~
+0 -1 10586
+D4
+~
+~
+0 -1 10463
+S
+#10597
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10596
+D1
+~
+~
+0 -1 10607
+D2
+~
+~
+0 -1 10598
+D3
+~
+~
+0 -1 10587
+D4
+~
+~
+0 -1 10464
+S
+#10598
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10597
+D1
+~
+~
+0 -1 10608
+D2
+~
+~
+0 -1 10599
+D3
+~
+~
+0 -1 10588
+D4
+~
+~
+0 -1 10465
+S
+#10599
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10598
+D1
+~
+~
+0 -1 10609
+D2
+~
+~
+0 -1 10600
+D3
+~
+~
+0 -1 10589
+D4
+~
+~
+0 -1 10466
+S
+#10600
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10599
+D1
+~
+~
+0 -1 10610
+D3
+~
+~
+0 -1 10590
+D4
+~
+~
+0 -1 10467
+S
+#10601
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10612
+D2
+~
+~
+0 -1 10602
+D3
+~
+~
+0 -1 10591
+D4
+~
+~
+0 -1 10468
+S
+#10602
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10601
+D1
+~
+~
+0 -1 10613
+D2
+~
+~
+0 -1 10603
+D3
+~
+~
+0 -1 10592
+D4
+~
+~
+0 -1 10469
+S
+#10603
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10602
+D1
+~
+~
+0 -1 10614
+D2
+~
+~
+0 -1 10604
+D3
+~
+~
+0 -1 10593
+D4
+~
+~
+0 -1 10470
+S
+#10604
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10603
+D1
+~
+~
+0 -1 10615
+D2
+~
+~
+0 -1 10605
+D3
+~
+~
+0 -1 10594
+D4
+~
+~
+0 -1 10471
+S
+#10605
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10604
+D1
+~
+~
+0 -1 10616
+D2
+~
+~
+0 -1 10606
+D3
+~
+~
+0 -1 10595
+D4
+~
+~
+0 -1 10472
+S
+#10606
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10605
+D1
+~
+~
+0 -1 10617
+D2
+~
+~
+0 -1 10607
+D3
+~
+~
+0 -1 10596
+D4
+~
+~
+0 -1 10473
+S
+#10607
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10606
+D1
+~
+~
+0 -1 10618
+D2
+~
+~
+0 -1 10608
+D3
+~
+~
+0 -1 10597
+D4
+~
+~
+0 -1 10474
+S
+#10608
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10607
+D1
+~
+~
+0 -1 10619
+D2
+~
+~
+0 -1 10609
+D3
+~
+~
+0 -1 10598
+D4
+~
+~
+0 -1 10475
+S
+#10609
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10608
+D1
+~
+~
+0 -1 10620
+D2
+~
+~
+0 -1 10610
+D3
+~
+~
+0 -1 10599
+D4
+~
+~
+0 -1 10476
+S
+#10610
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10609
+D1
+~
+~
+0 -1 10621
+D3
+~
+~
+0 -1 10600
+D4
+~
+~
+0 -1 10477
+S
+#10611
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10622
+D2
+~
+~
+0 -1 10612
+D4
+~
+~
+0 -1 10478
+S
+#10612
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10611
+D1
+~
+~
+0 -1 10623
+D2
+~
+~
+0 -1 10613
+D3
+~
+~
+0 -1 10601
+D4
+~
+~
+0 -1 10479
+S
+#10613
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10612
+D1
+~
+~
+0 -1 10624
+D2
+~
+~
+0 -1 10614
+D3
+~
+~
+0 -1 10602
+D4
+~
+~
+0 -1 10480
+S
+#10614
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10613
+D1
+~
+~
+0 -1 10625
+D2
+~
+~
+0 -1 10615
+D3
+~
+~
+0 -1 10603
+D4
+~
+~
+0 -1 10481
+S
+#10615
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10614
+D1
+~
+~
+0 -1 10626
+D2
+~
+~
+0 -1 10616
+D3
+~
+~
+0 -1 10604
+D4
+~
+~
+0 -1 10482
+S
+#10616
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10615
+D1
+~
+~
+0 -1 10627
+D2
+~
+~
+0 -1 10617
+D3
+~
+~
+0 -1 10605
+D4
+~
+~
+0 -1 10483
+S
+#10617
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10616
+D1
+~
+~
+0 -1 10628
+D2
+~
+~
+0 -1 10618
+D3
+~
+~
+0 -1 10606
+D4
+~
+~
+0 -1 10484
+S
+#10618
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10617
+D1
+~
+~
+0 -1 10629
+D2
+~
+~
+0 -1 10619
+D3
+~
+~
+0 -1 10607
+D4
+~
+~
+0 -1 10485
+S
+#10619
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10618
+D1
+~
+~
+0 -1 10630
+D2
+~
+~
+0 -1 10620
+D3
+~
+~
+0 -1 10608
+D4
+~
+~
+0 -1 10486
+S
+#10620
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10619
+D1
+~
+~
+0 -1 10631
+D2
+~
+~
+0 -1 10621
+D3
+~
+~
+0 -1 10609
+D4
+~
+~
+0 -1 10487
+S
+#10621
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10620
+D1
+~
+~
+0 -1 10632
+D3
+~
+~
+0 -1 10610
+D4
+~
+~
+0 -1 10488
+S
+#10622
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10633
+D2
+~
+~
+0 -1 10623
+D3
+~
+~
+0 -1 10611
+D4
+~
+~
+0 -1 10490
+S
+#10623
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10622
+D1
+~
+~
+0 -1 10634
+D2
+~
+~
+0 -1 10624
+D3
+~
+~
+0 -1 10612
+D4
+~
+~
+0 -1 10491
+S
+#10624
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10623
+D1
+~
+~
+0 -1 10635
+D2
+~
+~
+0 -1 10625
+D3
+~
+~
+0 -1 10613
+D4
+~
+~
+0 -1 10492
+S
+#10625
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10624
+D1
+~
+~
+0 -1 10636
+D2
+~
+~
+0 -1 10626
+D3
+~
+~
+0 -1 10614
+D4
+~
+~
+0 -1 10493
+S
+#10626
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10625
+D1
+~
+~
+0 -1 10637
+D2
+~
+~
+0 -1 10627
+D3
+~
+~
+0 -1 10615
+D4
+~
+~
+0 -1 10494
+S
+#10627
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10626
+D1
+~
+~
+0 -1 10638
+D2
+~
+~
+0 -1 10628
+D3
+~
+~
+0 -1 10616
+D4
+~
+~
+0 -1 10495
+S
+#10628
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10627
+D1
+~
+~
+0 -1 10639
+D2
+~
+~
+0 -1 10629
+D3
+~
+~
+0 -1 10617
+D4
+~
+~
+0 -1 10496
+S
+#10629
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10628
+D1
+~
+~
+0 -1 10640
+D2
+~
+~
+0 -1 10630
+D3
+~
+~
+0 -1 10618
+D4
+~
+~
+0 -1 10497
+S
+#10630
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10629
+D1
+~
+~
+0 -1 10641
+D2
+~
+~
+0 -1 10631
+D3
+~
+~
+0 -1 10619
+D4
+~
+~
+0 -1 10498
+S
+#10631
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10630
+D1
+~
+~
+0 -1 10642
+D2
+~
+~
+0 -1 10632
+D3
+~
+~
+0 -1 10620
+D4
+~
+~
+0 -1 10499
+S
+#10632
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10631
+D1
+~
+~
+0 -1 10643
+D3
+~
+~
+0 -1 10621
+D4
+~
+~
+0 -1 10500
+S
+#10633
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10644
+D2
+~
+~
+0 -1 10634
+D3
+~
+~
+0 -1 10622
+D4
+~
+~
+0 -1 10502
+S
+#10634
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10633
+D1
+~
+~
+0 -1 10645
+D2
+~
+~
+0 -1 10635
+D3
+~
+~
+0 -1 10623
+D4
+~
+~
+0 -1 10503
+S
+#10635
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10634
+D1
+~
+~
+0 -1 10646
+D2
+~
+~
+0 -1 10636
+D3
+~
+~
+0 -1 10624
+D4
+~
+~
+0 -1 10504
+S
+#10636
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10635
+D1
+~
+~
+0 -1 10647
+D2
+~
+~
+0 -1 10637
+D3
+~
+~
+0 -1 10625
+D4
+~
+~
+0 -1 10505
+S
+#10637
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10636
+D1
+~
+~
+0 -1 10648
+D2
+~
+~
+0 -1 10638
+D3
+~
+~
+0 -1 10626
+D4
+~
+~
+0 -1 10506
+S
+#10638
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10637
+D1
+~
+~
+0 -1 10649
+D2
+~
+~
+0 -1 10639
+D3
+~
+~
+0 -1 10627
+D4
+~
+~
+0 -1 10507
+S
+#10639
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10638
+D1
+~
+~
+0 -1 10650
+D2
+~
+~
+0 -1 10640
+D3
+~
+~
+0 -1 10628
+D4
+~
+~
+0 -1 10508
+S
+#10640
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10639
+D1
+~
+~
+0 -1 10651
+D2
+~
+~
+0 -1 10641
+D3
+~
+~
+0 -1 10629
+D4
+~
+~
+0 -1 10509
+S
+#10641
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10640
+D1
+~
+~
+0 -1 10652
+D2
+~
+~
+0 -1 10642
+D3
+~
+~
+0 -1 10630
+D4
+~
+~
+0 -1 10510
+S
+#10642
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10641
+D1
+~
+~
+0 -1 10653
+D2
+~
+~
+0 -1 10643
+D3
+~
+~
+0 -1 10631
+D4
+~
+~
+0 -1 10511
+S
+#10643
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10642
+D1
+~
+~
+0 -1 10654
+D3
+~
+~
+0 -1 10632
+D4
+~
+~
+0 -1 10512
+S
+#10644
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D2
+~
+~
+0 -1 10645
+D3
+~
+~
+0 -1 10633
+D4
+~
+~
+0 -1 10514
+S
+#10645
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10644
+D2
+~
+~
+0 -1 10646
+D3
+~
+~
+0 -1 10634
+D4
+~
+~
+0 -1 10515
+S
+#10646
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10645
+D2
+~
+~
+0 -1 10647
+D3
+~
+~
+0 -1 10635
+D4
+~
+~
+0 -1 10516
+S
+#10647
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10646
+D2
+~
+~
+0 -1 10648
+D3
+~
+~
+0 -1 10636
+D4
+~
+~
+0 -1 10517
+S
+#10648
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10647
+D2
+~
+~
+0 -1 10649
+D3
+~
+~
+0 -1 10637
+D4
+~
+~
+0 -1 10518
+S
+#10649
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10648
+D2
+~
+~
+0 -1 10650
+D3
+~
+~
+0 -1 10638
+D4
+~
+~
+0 -1 10519
+S
+#10650
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10649
+D2
+~
+~
+0 -1 10651
+D3
+~
+~
+0 -1 10639
+D4
+~
+~
+0 -1 10520
+S
+#10651
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10650
+D2
+~
+~
+0 -1 10652
+D3
+~
+~
+0 -1 10640
+D4
+~
+~
+0 -1 10521
+S
+#10652
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10651
+D2
+~
+~
+0 -1 10653
+D3
+~
+~
+0 -1 10641
+D4
+~
+~
+0 -1 10522
+S
+#10653
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10652
+D2
+~
+~
+0 -1 10654
+D3
+~
+~
+0 -1 10642
+D4
+~
+~
+0 -1 10523
+S
+#10654
+Under the Water~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D0
+~
+~
+0 -1 10653
+D3
+~
+~
+0 -1 10643
+D4
+~
+~
+0 -1 10524
+S
+#10655
+Beside a Giant Cave Entrance~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+D4
+~
+~
+0 -1 10567
+D5
+~
+~
+0 -1 10656
+R M 0 10403 3 10655
+R M 0 10403 3 10655
+S
+#10656
+Within the Cave Mouth~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10655
+D5
+~
+~
+0 -1 10657
+S
+#10657
+Inside the Cave~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10656
+D5
+~
+~
+0 -1 10658
+S
+#10658
+Down a Large Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10657
+D5
+~
+~
+0 -1 10659
+S
+#10659
+Within a Large Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10658
+D5
+~
+~
+0 -1 10660
+S
+#10660
+A Large Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10659
+D5
+~
+~
+0 -1 10661
+S
+#10661
+At the Bottom~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D4
+~
+~
+0 -1 10660
+D8
+~
+~
+0 -1 10662
+S
+#10662
+Within a Massive Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D7
+~
+~
+0 -1 10661
+D8
+~
+~
+0 -1 10663
+S
+#10663
+Along the Giant Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10664
+D7
+~
+~
+0 -1 10662
+S
+#10664
+A Massive Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10665
+D3
+~
+~
+0 -1 10663
+S
+#10665
+An Angle to the Tunnel~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+D0
+~
+~
+0 -1 10666
+D3
+~
+~
+0 -1 10664
+S
+#10666
+A Massive Lair~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 8 12
+D1
+~
+~
+0 -1 10667
+D2
+~
+~
+0 -1 10665
+S
+#10667
+A Massive Lair~
+~
+&bThe lair is filled with the skeletons of various creatures.  There are massive
+gouges, and scratches in the walls from some type of beast.  Large stalagmites
+hang from the ceilings throughout the lair.
+~
+1 8 12
+D3
+~
+~
+0 -1 10666
+R M 0 10401 1 10667
+S
+#10668
+Atlantis City Entrance~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10669
+Atlantis City Entrance~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10670
+Atlantis City Entrance~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10671
+Atlantis City Entrance~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10672
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10673
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10674
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10675
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10676
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10677
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10678
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10679
+Wrecked Ship~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 12 12
+S
+#10680
+Floating in a void~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 4 12
+S
+#10700
+Floating in a void~
+~
+&BThe water is thick with creatures small and large.  The water gets darker
+the deeper downward traveled.  There is a faint light from above.  A large
+area of ground is covered with thick sea weed.
+~
+1 4 12
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

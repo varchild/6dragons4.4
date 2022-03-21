@@ -1,0 +1,2186 @@
+#AREA        Village of Jarynth~
+
+
+
+#VERSION     11
+#AUTHOR      Eldaera~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+25 45 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A wintery wind blasts through Jarynth, covering it with a fresh blanket of snow.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999563 999999583 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#10801
+Watchman guard~
+a town watchman~
+A town watchman shivers in the cold as he hovers over the campfire.
+~
+The guard's guant figure wears a long surcoat of faded green, bronze plate armor and a beige woolen cloak. Brown hair is barely visible under the tall guard's hat, made of felt the same green as his surcoat. His face is weary and weathered by the intense cold of Jarynth. 
+~
+0
+Clanname none~
+0
+0
+131075 4194304 1000 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+10 10 41 0 0 0 -2147483600 0
+> act_prog p gives you~
+if otypeinv(food) == 1
+  mpechoat $n &CGuard watchman says, 'For this wonderful present...'&D
+  mpechoat $n &cGuard watchman takes a bite of the food...&D
+  mpechoat $n &CGuard watchman says, '...I will allow you entrance into the city.'&D
+  mpechoat $n &cGuard watchman finishes the food.&D
+  unlock w
+  open w
+  mpjunk all
+  mpoload 10803
+  mpoload 10804
+endif
+~
+> greet_prog 50~
+mea $n &cA town watchman sighs sadly as he searches his bag for food in vain.&D
+mppause 5
+mea $n &CA town watchman says, "I wish I had but a piece of bread, I'm starving!"&D
+~
+|
+#10802
+black crow~
+a black crow~
+A little black crow pecks at the ground looking for something to eat.
+~
+The crow is massive in size coming close the size of a large dog.
+~
+13
+Clanname none~
+0
+0
+3 0 0 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 4
+10 10 0 0 0 0 3 2
+#10803
+citizen jarynth~
+a citizen Jarynth~
+A citizen of Jarynth wanders through the streets hoping to get some food.
+~
+Almost skin and bones, this thin man is dressed in what used to be the traditional garb of Jarynth but now just resembles rags. His lackluster brown hair is damp with snow and he constantly shivers while clutching his green peasant coat tighter about him. Hopeless brown eyes lack any spark of life, making him a sad sight to behold.
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+30 0 0 20d20+2500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+10 10 0 0 0 0 48 0
+> greet_prog 40~
+mppause 5
+
+mea $n &cA citizen of Jarynth sees you and approaches you, asking for food.&D
+~
+|
+#10804
+stray cat~
+a stray cat~
+A boney, stray cat rubs up against your leg, hoping to get some food.
+~
+~
+0
+Clanname none~
+0
+0
+3 0 500 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 4 0 0 1 1 4
+10 10 0 0 0 0 3 0
+> greet_prog 50~
+mea $n &cA boney stray cat meows at you for some food. How cute.&D
+~
+> act_prog p gives you~
+if otypeinv(food) == 1
+mpechoat $n &cA stray cat purrs and curls happily around you before devouring the food.&D
+mppause 10
+mpechoat $n &cA stray cat meows at you for more food. Insatiable little guy. &D
+mpjunk all
+else
+mea $n &cA stray cat stares derisively at you. Obviously, it wanted food and not this.&D
+drop all
+endif
+~
+|
+#10805
+Polonius butcher~
+Polonius the village butcher~
+Polonius, a portly butcher, is absently sharpening a knife behind the counter.
+~
+The butcher has a blood covered apron hanging off the front of him.
+~
+0
+Clanname none~
+0
+0
+131075 128 700 C
+45 0 0 30d30+6500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+20 10 41 0 0 0 -2147483584&256 2
+> greet_prog 70~
+mea $n &cPolonius looks up from his knife as you enter.&D
+mppause 5
+mea $n &CPolonius give you an apologetic look and says, 'Sorry, we're all out of stock. Unless this strange weather lets up, there'll be nothing to feed the animals. Starved animals mean an out of business butcher.'&D
+~
+|
+#10806
+dog~
+a small dog~
+A small dog wags his tail here, hoping to get Polonius' attention.
+~
+~
+0
+Clanname none~
+0
+0
+131075 0 500 C
+30 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+28 4 0 0 1 1 4
+10 10 0 0 0 0 3 0
+> rand_prog 2~
+mpe &cA small dog sits down and whines pitifully, tail sweeping the floor.&D
+mppause 10
+if mobinroom(10805) < 1
+mpe &cA small dog runs around yapping, looking for Polonius and the possibility of food.&D
+else
+mpe &cA small dog chases after Polonius, yapping excitedly and tugging at the butcher's trousers.&D
+mppause 10
+mpe &cPolonius frowns at the dog, shaking it off his leg.&D
+mppause 5
+mpe &cPolonius the butcher says, 'Sorry, no food for any of us today, buddy.'&D
+
+endif
+~
+|
+#10807
+Brontus baker~
+Brontus, the head baker~
+A skeletal man greets you with a weak smile as he welcomes you to his store.
+~
+A constant worried frown on his gaunt face, Brontus has a small goatee and drooping green eyes. His brown hair is streaked with grey, more from stress than from age. Slouched in a morose fashion, his unhappy frame looks like it's wasting away and more bone than muscle. A tattered brown apron is tied messily around his thin waist.
+~
+0
+Clanname none~
+0
+0
+131075 128 700 C
+45 0 0 30d30+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+20 10 41 0 0 0 -2147483584&256 2
+> greet_prog 50~
+mea $n &cUpon noticing you, Brontus approaches weakly with his boney hand extended to greet you.&D
+mppause 10
+mea $n &CBrontus, the head baker says, 'There's not much here, but- well, there's not much.'&D
+mppause 10
+mea $n &cBrontus heaves a heavy sigh.&D
+~
+> rand_prog 1~
+mpe ^CBrontus sighs and mutters, 'How am I to bake with no ingredients? No wheat, no sugar, no yeast...'&D
+~
+> speech_prog p winter~
+mppause 3
+mpe &CBrontus, the head baker scoffs and says, 'Pah! Winter? This is no winter. Winter melts into spring. This is no winter, I tell you.'&D
+~
+|
+#10808
+Annaliea witch~
+Annaliea~
+The town witch smiles at you warmly, then continues to stir her cauldron.
+~
+~
+0
+Clanname none~
+0
+0
+132099 71303296 700 C
+35 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 3
+15 15 0 0 0 0 49 0
+> greet_prog 100~
+if level($n) >= 75
+  if quest(enthunt) > 1
+    mppause 1
+    mpechoat $n &CAnnaliea says, 'Oh, hey there!  Did Marlana send you for my job?'&D
+    mppause 2
+    smile
+  endif
+endif
+if quest(sandlizards) == 2
+  mpechoat $n &CAnnaliea says, 'Oh good, thank you again, so very very very much!'&D
+  mppause 4
+  mpechoat $n &CAnnaliea says, 'Here as a reward, I know it isn't much but...'&D
+  mpwithdraw 1000 gold
+  give 1000 gold $n
+  mpquest $n sandlizards 3
+  mppause 4
+  mpechoat $n &CAnnaliea says, 'Oh yea, just in case you are interested, go look for Gyakas in Dakar.  I think he has a job to do up there where there were the sand lizards...'&D
+endif
+if quest(Karnae) == 1
+  mpechoat $n &CAnnaliea says, 'Are you here for the potion for Karnae's sister?'&D
+else
+  if quest(Karnae) == 2
+    if mobinarea(10818) == 0
+      mpechoat $n &CAnnaliea says, 'Well, did you get the potion?  If so, hand it to me so I can finish and you can be on your way.
+      mpechoat $n &CIf you didn't get it, &WSAY NO&C.'&D
+    endif
+  else
+    if quest(Karnae) == 3
+      mpechoat $n &CAnnaliea says, 'Give me the potion so that I can finish it, and you can be on your way.'&D
+    endif
+  endif
+endif
+~
+> speech_prog p yes~
+if level($n) >= 75
+  if quest(enthunt) == 11
+    if quest(sandlizards) < 1
+      mppause 5
+      mpechoat $n &CAnnaliea says, 'Oh thanks goodness, I tell ya I was worried that no one would come. Well anyways...'&D
+      mppause 4
+      mpechoat $n &cAnnaliea takes a deep breath before she speaks.&D
+      mpechoat $n &CAnnaliea says, '...ok, here is the deal.  On the golden peninsula, there are these sand lizards, and they are over populating the area you see...'&D
+      mppause 4
+      mpechoat $n &CAnnaliea says, '...so, if you could thin them out a little, at least so the ent's have room, that would be nice, just ten of them should do, thanks.'&D
+      mpquest $n sandlizards 1
+    endif
+  endif
+endif
+if quest(Karnae) == 1
+  mpechoat $n &CAnnaliea says, 'I'm terribly sorry, but a shady ogre grabbed the potion, mumbling something about pretty color.'&D
+  mppause 5
+  mpechoat $n &CAnnaliea says, 'If you can get it back to me, I'll be able to finish it and you'll be on your way.'&D
+  mppause 10
+  mpechoat $n &CAnnaliea says, 'Oh, by the way, the thief hasn't left this fair village.  So seek him out here.'&D
+  mpat 10835 mpmload 10818
+  mpquest $n karnae 2
+endif
+~
+> act_prog p gives you a foamy potion.~
+if quest(Karnae) == 3
+  mppause 3
+  mpechoat $n &cAnnaliea takes the potion and adds the few final ingredients, then hands it back.&D
+  give foamy $n
+  mpquest $n Karnae 4
+  mppause 4
+  mpechoat $n &CAnnaliea says, 'Now hurry back to Karnae, so that his sister might be saved.'&D
+endif
+~
+> rand_prog 1~
+mpe &cAnnaliea hums as she grabs another ingredient from the shelf to add into the cauldron.&D
+mppause 20
+mpe &GA puff of bright green smoke bursts into the air, filling the room with the smell of mint briefly.&D
+~
+> speech_prog p no~
+if quest(Karnae) == 2
+  mpechoat $n &CAnnaliea says, 'Well, you're in luck, to my misfortune.  Another bottle was stolen while you
+  mpechoat $n &Cwere out attempting to get that last one.  Bring me the latest potion that was stolen so that
+  mpechoat $n &CI might finish this business and you'll be on your way.'&D
+  mppause 2
+  mpat 10835 mpmload 10818
+else
+  mpechoat $n &CAnnaliea says, 'No what?'&D
+endif
+~
+|
+#10809
+Osholo shopkeeper~
+Osholo~
+Osholo gives you a fake smile as you walk into his store.
+~
+Greying hair slicked back, Osholo has a hawk-like face with a protruding nose. Green eyes glitter with sly cunning and his mouth is twisted up into an insincere smile. He wears a umber jacket with fox fur cuffs, though the luxurious coat cannot hide his starved build. He keeps his arms folded and his long, spidery fingers tap absently in repressed irritation.
+~
+0
+Clanname none~
+0
+0
+131075 128 -400 C
+45 0 0 20d20+4000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+20 10 41 0 0 0 -2147483584&256 2
+#10810
+Mats storekeeper~
+Mats~
+Mats, the storekeeper, sighs as he dusts off rows of unsold inventory.
+~
+Wearing a grease-stained apron and a thick, winter tunic, Mats' build is 
+hard to discern. His calloused hands are scarred and strong, used to a 
+life of hard work. A gruff face is heavily wrinkled beyond its age, his 
+brown eyes hooded wearily and his mouth twisted into a grimace. 
+~
+0
+Clanname none~
+0
+0
+131075 128 700 C
+45 0 0 20d20+4000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+20 10 41 0 0 0 -2147483584&256 2
+> greet_prog 100~
+mea $n &cMats gives you a hesitant smile, obviously hopeful that you'll buy some goods.&D
+~
+> rand_prog 1~
+mpe &cMats absently polishes a saddle.&D
+mppause 5
+mppause 5
+mpe &CMats, the storekeeper says, 'The weather has been unusually harsh here in Jarynth. It's been near impossible for any local farmer to work their field in this snow. I can only pray that the sun will come soon so farmers will have a need for these goods once more.'&D
+~
+|
+#10811
+graveyard gatekeeper~
+The graveyard gatekeeper~
+A crooked little man greets you with a sorrowful smile.
+~
+~
+0
+Clanname none~
+0
+0
+131075 128 700 C
+40 0 0 20d20+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+20 20 0 0 0 0 560 0
+> all_greet_prog 100~
+if ispc ($n)
+  mpechoat $n &cThe graveyard gatekeeper bows his head solemnly at you to acknowledge your presence.&D
+mppause 10
+  mea $n &CThe gatekeeper says quietly, 'The dead have their own tales to tell. If you want to know the stories of the past, do not be afraid of finding ghosts.'&D
+
+  unlock gate
+  open gate
+endif
+~
+|
+#10812
+mourner~
+a lonely mourner~
+A lonely mourner sobs as he carries his flowers to a gravesite.
+~
+~
+0
+Clanname none~
+0
+0
+16777217 128 700 C
+40 0 0 50d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+20 20 0 0 0 0 4656 3
+#10813
+preacher~
+a preacher~
+A preacher stands here, offering hollow words of comfort.
+~
+~
+0
+Clanname none~
+0
+0
+131075 128 1000 C
+50 0 0 50d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 3
+15 15 0 0 0 0 48 0
+#10814
+farmer~
+The farmer~
+A farmer gazes worriedly at his barren crop as paces his front porch.
+~
+~
+0
+Clanname none~
+0
+0
+1073741827 0 1000 C
+30 0 0 10d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+10 10 0 0 0 0 304 524288
+> fight_prog 35~
+Yell watch out Laerci!!
+Yell $n is trying to get in!!
+~
+|
+#10815
+dog tan soapy~
+Soapy~
+A little black and tan dog barks at you, nipping at your heels.
+~
+Barking excessively at you, Soapy stands ready to attack anything that
+may enter her territory.  Black in color with a tan underbelly, she stands
+sternly at attention.  Tiny muscles ripple with aggression, while she flashes
+a set of little white teeth as sharp as daggers.  Lowering her head, she
+pulls her ears back against her skull.  Though her behavior and appearance
+is that of a fierce doberman, her chihuahua-like size tells you that she's
+nothing but a wannabe watch dog.
+~
+0
+Clanname none~
+0
+0
+3&4 373293184&2097152&4 400 C
+35 0 0 30d35+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 4 0 0 1 1 0
+20 20 0 0 96 0 33 12291
+> fight_prog 75~
+mpechoat $n Soapy's kick wounds you!
+mpdamage $n 150
+mpechoat $n Soapy's bite bruises you.
+mpechoat $n Soapy's bite misses you.
+mpechoat $n Soapy's kick hits you.
+mpechoat $n Soapy's bite bruises you.
+mpechoat $n Soapy's bite misses you.
+mpechoat $n Soapy snarls wildly, baring her teeth.
+mpechoat $n As Soapy bares her teeth, she leaps toward you!
+mpdamage $n 100
+mppause 15
+mpechoat $n Soapy's kick hits you.
+mpechoat $n Soapy's bite grazes you.
+mpechoat $n Soapy's bite misses you.
+mpechoat $n Soapy kicks you, sending you tumbling out of the room!
+mptransfer $n 10801
+~
+> death_prog 50~
+2
+ death_prog 50
+mpecho As the bloody form of the dog falls at your feet, you kick the corpse of the dog for good measure, breaking off a piece of her collar.
+mpoload 10815
+drop stud
+mpecho As the bloody form of the dog falls at your feet, you kick the corpse of the dog for good measure, the chipped tooth of a small dog falls out. 
+mpoload 10816
+drop tooth
+~
+|
+#10816
+Laerci farmer wife~
+Laerci, the farmer's wife~
+Laerci, the farmer's wife, sits here at a small table.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 1000 C
+25 0 0 20d20+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+10 10 0 0 0 0 48 524288
+#10817
+blind old man peddler beggar~
+a blind man~
+An old blind man is sitting cross legged here begging for coins.
+~
+~
+1
+Clanname none~
+0
+0
+131139 4194304 0 C
+50 0 0 0d0+2500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 41 0 0 0 49 2
+> bribe_prog 100~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &CA blind man grovels at your feet, kissing them repeatedly, 'What a wonderful person you are, I can't believe a soul such as yourself still exists in this day and age.'&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the talisman is held by the Stone Sorcerer, deep within Mount Cierra.  Once you have it, give it to the Cardinal at the top of the mountain and you'll receive an outstanding breastplate.'&D
+  mppause 6
+  mpechoat $n &cA blind man listens carefully for anyone that may be nearby...
+  mpechoat $n &CA blind man says, 'For one such as you, I shall give thee a valuable warning.  Do not take any containers with you to face the Stone Sorcerer.  He has a bad tendency to destroy such things.'&D
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+> all_greet_prog 100~
+if quest(forbidden) == 4
+  mpechoat $n &CA blind man says, 'Greetings, I assume Battle Master Ulave sent you.
+  mpechoat $n &CI was once a monk of reknown fighting skills.  I saw a powerful beast
+  mpechoat $n &Cthat was wounded my village had been terrified of the creature, and
+  mpechoat $n &CI knew it must die.  Did I do right in attacking when it was injured
+  mpechoat $n &Cor should I have held back to learn more?'
+  mpechoat $n &cType &WSAY RIGHT&c or &WSAY LEARN&c.
+  mpquest $n forbidden 5
+  abort
+endif
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &CA blind man sightlessly gazes up as he hears your approach, 'Dear friend, can you spare a coin for the blind?'&D
+  mppause 4
+  mpechoat $n &CA blind man says, 'I know of an item of legends, I can tell you about...if you're willing to help a poor old beggar out.'&D
+  mpechoat $n &CHint: &cGive &W1, 10, 20, 30, 50, 70 &cor &W100 GOLD COINS&c to hear more information about this quest.&D
+endif
+~
+> speech_prog right~
+mppause 4
+if quest(forbidden) == 5
+  mpechoat $n &CA blind man says, 'You have much to learn yet, young one.'
+  mpquest $n forbidden remove
+endif
+~
+> speech_prog learn~
+mppause 4
+if quest(forbidden) == 5
+  mpechoat $n &CA blind man says, 'Yes I should have waited to learn more.  It turns
+  mpechoat $n &Cout the creature was Battle Master Ulave.  Battle Master Ulave had just
+  mpechoat $n &Ckilled the Black Dragon that was terrorizing my village, that is why he
+  mpechoat $n &Cwas wounded.  In my battle with Battle Master Ulave he let me live, but
+  mpechoat $n &CI lost my sight.  I have forever vowed to assist him when called.'
+  mpquest $n forbidden 6
+endif
+~
+> bribe_prog 70~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &CA blind man gropes around, clasps your hand, kissing it, 'Thank you, my Master, it is very much appreciated.'&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the talisman is held by the Stone Sorcerer, deep within Mount Cierra.  Once you have it, give it to the Cardinal at the top of the mountain and you'll receive an outstanding breastplate.'&D
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+> bribe_prog 50~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &CA blind man grins toothlessly up at you, 'Why, thank you kind sir.'&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the talisman is held by the Stone Sorcerer, deep within Mount Cierra.  Once you have it, give it to the Cardinal at the top of the mountain and you'll receive a mid-level item.'
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+> bribe_prog 30~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &cA blind man says 'Thank you' with a little more enthusiasm.&D
+  mpquest $n peddler 1
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the talisman is held by the Stone Sorcerer, deep within Mount Cierra.  Once you have it, give it to the Cardinal at the top of the mountain.'
+  mpat 4 drop all
+endif
+~
+> bribe_prog 20~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &CA blind man says, 'Thank you...'&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the talisman is held by the Stone Sorcerer, deep within Mount Cierra.'&D
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+> bribe_prog 10~
+if quest(peddler) < 1
+  mppause 2
+  mpechoat $n &cA blind man mutters a 'Thank you,' before continuing.&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the key to attaining it lies within an ancient tunnel within Mount Cierra, and is held by a powerful adversary.'
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+> bribe_prog 1~
+if quest(peddler) < 1
+  mppause 2 
+  mpechoat $n &CA blind man nearly spits out a 'Thank you,' before going on with the information.&D
+  mppause 6
+  mpechoat $n &CA blind man says, 'They say the key to attaining it lies within an ancient tunnel within Mount Cierra.'
+  mpquest $n peddler 1
+  mpat 4 drop all
+endif
+~
+|
+#10818
+shady ogre thief~
+shady ogre~
+A shady ogre attempts to hide here.
+~
+~
+9
+Clanname none~
+0
+0
+1 0 -1000 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 0 19 0 32 176 1061639
+> death_prog 100~
+mpoload 28033
+~
+|
+#10819
+watchman guard manech~
+Watchman Manech~
+A thin town watchman huddles around a campfire here, whittling a small wolf figurine.
+~
+Looking to be no older than twenty, this young guard wears the usual outfit of Jarynth's guards composing of  a long surcoat, bronze plate armor, and a woolen cloak. Slightly curling brown hair sticks out from under his tall guard's hat. A pair of sad green eyes stare down despondently at the snow.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 1000 C
+35 0 0 20d20+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 4
+0 0 0 0 0 0 176 0
+> act_prog p gives you~
+if otypeinv(food) == 1
+  mea $n &CManech, the watchman says quietly, 'Thank you for the food. Let me open the gates for you.'&D
+  unlock w
+  open w
+  mpjunk all
+  mpoload 10803
+  mpoload 10804
+  mppause 10
+  mea $n &CManech, the watchman opens the gates and waits for you to walk through.&D
+endif
+~
+> greet_prog 100~
+mea $n &cThe young watchman looks up from his whittling and nods his head at you.&D
+mppause 10
+mea $n &CManech, the watchman says, 'If you could spare some food, I could let you into the village.'&D
+~
+> speech_prog ghost~
+mea $n &cManech looks away with a frown.&D
+mppause 10
+mea $n &CManech, the watchman says, 'Colbey... he died because of me.'&D
+mppause 10
+mea $n &CManech, the watchman sighs and says, 'I was ill because of the blizzard. He gave me the last of his rations.'&D
+mppause 15
+mea $n &CManech, the watchman says sadly, 'He died a few days later. As he died, he told me to be a hero. I couldn't save him, though.'&D
+mppause 20
+mea $n &cManech selects a finished wolf figurine from his bag, which contains many more unfinished wolves.&D
+mppause 10
+mea $n &CManech says, 'I'm not allowed to leave my post. Please, put this on his grave for me.'&D 
+mpoload 10819
+give figurine to $n
+~
+> speech_prog trail~
+mpe &cThe young watchman looks up from his whittling and shrugs.&D
+mppause 5
+mpe &CManech, the watchman says, 'A group of gypsies once passed through here. That path is blocked off now, though. Maybe I should clear it sometime... It might not lead anywhere though.'&D
+~
+|
+#0
+
+
+#OBJECTS
+#10800
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10801
+corpse~
+bandits corpse~
+The corpse of a bandit hangs from makeshift gallows in the square.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+corpse bandit gallows~
+Dressed in torn rags, the decaying corpse of a bandit hangs here from a 
+long rope noose. The skin has turned blue with frostbite due to years of 
+swinging in the snow and sleet, giving the body a ghostlike pallor. 
+Constructed of old bleached wood, the gallows beneath his feet show signs 
+of wear and rot. 
+~
+#10802
+statue~
+statue~
+Several statues glare their hateful eyes upon you.~
+~
+12 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10803
+rusty key Jarynth~
+rusty key of jarynth~
+A rusty key of Jarynth lies here.~
+~
+18 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10804
+woolen coat~
+a woolen coat~
+A woolen coat lies here~
+%s pull$q $p and shiver$q.~
+9 262400 1025 64
+20 20 0 0 0 25 0
+1 152 450
+3
+11
+0
+0
+0
+0
+S 77 0
+A
+2 2
+A
+18 3
+A
+19 3
+#10805
+thick cozy gloves~
+a pair of thick cozy gloves~
+A pair of thick cozy gloves lies here~
+~
+9 262400 129
+35 35 0 0 0 40 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 77 0
+A
+1 1
+A
+18 2
+A
+19 3
+#10806
+fine cotton dress~
+a fine cotton dress~
+A fine cotton dress lies here~
+~
+9 262400 9
+30 30 0 0 0 0 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 77 0
+A
+12 15
+A
+18 2
+A
+19 3
+#10807
+horse feedbag~
+a horse feedbag~
+A horse feedbag lies here~
+~
+15 262144 16385
+50 0 0 0 0 0 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 0 0
+#10808
+a hoe~
+A garden hoe~
+A garden hoe lies here~
+~
+9 524544 16385
+20 20 0 0 0 0 0
+1 100 10
+3
+0
+0
+0
+0
+0
+S 0 0
+A
+12 10
+A
+18 1
+A
+19 2
+A
+4 1
+#10809
+Key graveyard~
+Graveyard gate key~
+A key lies here~
+~
+18 524288 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10810
+spittoon~
+a newly created spittoon~
+A tarnished spittoon sits on the edge of the porch.~
+~
+12 1073741824 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10811
+work worn pants~
+a pair of worn cotton work pants~
+A pair of worn cotton work pants lies here~
+~
+9 262400 33 2
+20 20 0 0 0 25 0
+1 200 20
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 3
+#10812
+long underwear~
+a pair of long underwear~
+A pair of semi-clean long johns lies her.~
+~
+9 262400 33 1
+30 30 0 0 0 28 0
+1 200 20
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+18 2
+A
+19 2
+A
+5 1
+#10813
+Farmer key~
+a farmer's wooden key~
+A brown key lies here~
+~
+18 524288 16385
+0 0 0 0 0 0 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10814
+rolling pin~
+a rolling pin~
+A rolling pin rests here~
+~
+5 786688 8193
+20 10 30 4 5 25 0
+1 200 20
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 2
+A
+19 3
+#10815
+name Diamond stud~
+a pair of small, diamond studs~
+A pair of small, diamond studs sparkle in the sunlight.~
+~
+9 524544 65537
+30 30 0 0 0 34 0
+1 200 20
+3
+0
+0
+0
+0
+0
+S 77 0
+A
+18 3
+A
+19 3
+A
+2 1
+#10816
+tooth dog~
+The chipped tooth of a small dog~
+The chipped tooth of a small dog~
+~
+8 262400 1
+0 0 0 0 0 0 0
+1 10000 1000
+1
+0
+0
+0
+0
+0
+S 0 0
+#10817
+shepherds Crozier staff~
+a shepherd's crozier~
+A staff with a crooked top lies here.~
+~
+5 525641 8193
+10 15 30 4 5 30 0
+1 10000 1000
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+13 50
+A
+12 25
+A
+18 10
+A
+19 5
+#10818
+golden bassoon~
+an old golden bassoon~
+An old bassoon lays on the ground here~
+~
+68 524547 16385
+1 0 0 10 5 30 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+A
+13 30
+A
+12 30
+A
+18 2
+A
+19 2
+#10819
+wolf figurine~
+a carved wolf figurine~
+A small carved wolf figurine has been placed here.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+E
+carved wolf figurine~
+Whittled carefully, this small figuring is made of linden wood and crafted to resemble a large wolf loping along. From the perked ears to the shaggy fur, the details are painstakingly carved to realism. The wood has been dyed varying shades of blue-grey and black, adding to the texture of the fur.
+~
+#0
+
+
+#ROOMS
+#10800
+Outskirts of Jarynth~
+~
+In the distance, the sleepy little village of Jarynth is tucked away in 
+the vast hills and farmlands of the region. A few decrepit farmhouses can 
+be spotted amidst the blanket of snow covering their fields, neglected and 
+vacant of crops. Cold wind gusts about, howling through the forsaken 
+plots. 
+~
+1 0 11
+D0
+~
+~
+0 -1 10801
+D11
+~
+~
+0 -1 42120
+R M 0 10802 7 10800
+S
+#10801
+Frozen Road to Market~
+~
+The path here is obscured by the uneven snow underfoot, passing by empty 
+farms and large tracts of land. The dead crops behind the broken fences 
+are mostly buried by heavy snowfall. In the distance, the tall gates of 
+Jarynth are visible to the northeast, as is the smoke from the village. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10805
+D1
+~
+~
+0 -1 10803
+D2
+~
+~
+0 -1 10800
+D3
+~
+~
+0 -1 10802
+S
+#10802
+A Barren Field Outside of Jarynth~
+~
+The unfertile earth underfoot is hard and frozen in this abandoned field. 
+Unused plows lie scattered about the farmland, many rusted and worn down 
+by the constant blizzard. A derelict farmhouse with chipped paint stands 
+nearby, its doors boarded up and windows cracked. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10801
+R M 0 10802 7 10802
+S
+#10803
+An Empty Field of Hope~
+~
+Red, frozen earth lay at your feet, crackling under the weight of your
+body as you trample across a farmer's field.  The air is cold here, 
+sending a wintery chill through your body as you gaze across this field.
+A distinct feeling of despair wraps its empty arms around your soul
+freezing your heart like the seeds that were planted in the soil here
+by a farmer who expected the icy weather to be gone just a few days
+after he planted his crop.  A farmer can be seen standing on his front
+porch to the north.
+~
+1 0 1
+D0
+~
+~
+0 -1 10804
+D1
+~
+~
+0 -1 26023
+D3
+~
+~
+0 -1 10801
+R M 0 10815 1 10803
+S
+#10804
+Front Porch of a Farmhouse~
+~
+Dry, cracking wood planks creak under the weight of a farmer as he paces
+back and forth across the front porch of this small farmhouse that sits
+at the edge of his barren crops.  An old, weathered rocking chair sits on
+the porch, waiting for the warm days of summer to appear so that the farmer
+and his wife can each sit in the rocker and sip ice cold lemonade.
+~
+1 0 1
+D0
+~
+~
+7 10813 10851
+D2
+~
+~
+0 -1 10803
+R M 0 10814 1 10804
+  R E 1 10811 1 7
+  R E 1 10812 1 7
+  R G 1 10813 1
+R O 0 10810 1 10804
+R D 0 10804 0 2
+S
+#10805
+The Frozen Road to Market~
+~
+A frozen trail of red earth marks the road between market and the fields 
+south of Jarynth. Though marked with cart tracks and hoofprints, this road 
+is deserted and no longer maintained. Ditches on the side of the road have 
+accumulated ice and snow, while slush form puddles on the road. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10806
+D2
+~
+~
+0 -1 10801
+S
+#10806
+Road to Market~
+~
+The desolate dirt path connecting market and the barren fields takes a 
+slight turn here. Dead plants stretch on for miles, lying frozen in the 
+earth as they wait for the unnatural chill to release its icy grip on the 
+lands. The village on the northeast is deathly silent. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10805
+D7
+~
+~
+0 -1 10807
+S
+#10807
+Outside Gates of Jarynth~
+~
+The tall gates look frozen over and it's a wonder they are still able to 
+open, considering the snow piled about it. Next to the gates, a small 
+campfire struggles to keep from blowing out as bitter winds howl loudly 
+through the frozen area. Dead trees with dark branches form a stark border 
+along the dirt road. 
+~
+1 0 1
+D3
+~
+gate~
+7 10803 10808
+D8
+~
+~
+0 -1 10806
+R M 0 10801 3 10807
+  R E 1 10804 1 12
+  R G 1 10803 1
+R M 0 10801 3 10807
+  R E 1 10804 1 12
+  R G 1 10803 1
+R D 0 10807 3 2
+S
+#10808
+East Galatin Road~
+~
+The street leads west towards the heart of the village which seems to be 
+strangely silent. The constant snow here cover the buildings and roadsides 
+with a blanket of white, and frost has clouded over the windows. Wandering 
+the streets listlessly, the starved villagers here have expressions of 
+utter hopelessness. The food shops lining the streets are suspiciously 
+empty. 
+~
+1 0 1
+D1
+~
+gate~
+3 10803 10807
+D3
+~
+~
+0 -1 10809
+R M 0 10803 6 10808
+R D 0 10808 1 1
+S
+#10809
+East Galatin Road~
+~
+Despite the bakery to the north and the butcher's to the south, no scent 
+of food fills the air here. Unsurprisingly, there are signs on the doors 
+saying the shops have been closed. The cobblestoned road is slick with ice 
+and snow, making for dangerous footing. Shivering in the cold, stray 
+animals wander the area scavenging for scraps. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10810
+D1
+~
+~
+0 -1 10808
+D2
+~
+~
+0 -1 10811
+D3
+~
+~
+0 -1 10812
+R M 0 10804 2 10809
+S
+#10810
+Brontus' Bread Store~
+~
+The lack of crops has devastated this sleepy little village, causing the 
+shelves of this bakery to sit void of most wares. Powder snow has gathered 
+near the door of the cold room, lending to the desolate feel of the space. 
+Once a portly fellow from sampling his own wares, Brontus the baker now 
+paces along the wall where several empty shelves now gather dust. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10809
+R M 0 10807 1 10810
+  R G 0 10818 1
+E
+shelves~
+These old, wooden shelves are dusty and sadly empty. Grease stains some parts of the wood, and the edges of the wood are nicked and worn down.
+~
+S
+#10811
+The Meat of Man's Existence~
+~
+This small butcher's shop is no warmer than outside, with snow and sludge 
+accumulated in the entryway. Unopened for months, the windows look almost 
+as grimy as the filthy floor. The racks are empty of meat save for a few 
+bones. Unlike the rest of the shop, the stone counters have been wiped 
+clean and butcher knives, sharpened countless times, hang unused behind 
+them. 
+~
+1 8 0
+D0
+~
+~
+0 -1 10809
+R M 0 10806 1 10811
+R M 0 10805 1 10811
+S
+#10812
+Jarynth Square~
+~
+Normally crowded with people moving about through Jarynth, the commons now 
+lies eerily still as the cold hands of the unnatural winter hold the 
+residents hostage within their homes and in their shops. A sense of silent 
+dread looms over the town, the freezing wind howling through the streets. 
+With each gust of wind, the corpse of a bandit swings from the gallows, 
+hanged here in the square to remind the citizens of the price of theft. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10830
+D1
+~
+~
+0 -1 10809
+D3
+~
+~
+0 -1 10816
+D6
+~
+~
+0 -1 10821
+D7
+~
+~
+0 -1 10826
+D9
+~
+~
+0 -1 10813
+R O 0 10801 1 10812
+S
+#10813
+The Witch's Walk~
+~
+Along the Witch's Walk, several wooden statues, symbols to ward off evil 
+spirits, gaze down with hateful glares of mistrust. Rows of windchimes 
+have been tied to the dark branches of the area's dying trees. With each 
+subtle breeze, they ring sounds of warning through the frosty air. 
+~
+1 0 1
+D6
+~
+~
+0 -1 10812
+D9
+~
+~
+0 -1 10814
+R O 0 10802 1 10813
+S
+#10814
+The Witch's Walk~
+~
+A blinding blanket of snow covers the road between the witch's hovel and 
+Jarynth Square. The spicy odor of brewing potions fills the cold air and 
+charges it with the energy of boiling magic. Crows cawing nearby break the 
+heavy silence as wooden statues loom over the path. The branches of the 
+ever crowded trees form claw-like formations overhead. 
+~
+1 0 1
+D6
+~
+~
+0 -1 10813
+D9
+~
+~
+0 -1 10815
+R M 0 10803 6 10814
+S
+#10815
+The Witch's Hovel~
+~
+Dozens of tiny bottles filled with mystical ingredients line the walls of 
+this hovel, the multitude of colors contrasting with the dismal darkness 
+of the room. Spicy and sharp, the scent of brewing potions fill the air 
+with their strong odor. A heavy cauldron takes up the center of the room, 
+flames crackling beneath it. Wafting from the cauldrom, a dizzying smoke 
+wreathes the room in hazy grey. 
+~
+1 0 1
+D6
+~
+~
+0 -1 10814
+R M 0 10808 1 10815
+S
+#10816
+West Galatin Road~
+~
+Snow blankets the ground beneath your feet. A few bone-thin villagers 
+shuffle through now and then, begging for scraps of food. The supply shop 
+to the south and the armory to the north seem to be open, unlike the other 
+shops in the area. The spacious street, despite the two shops, is devoid 
+of energy and sound. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10820
+D1
+~
+~
+0 -1 10812
+D2
+~
+~
+0 -1 10819
+D3
+~
+~
+0 -1 10817
+R M 0 10817 1 10816
+S
+#10817
+West Galatin Road~
+~
+The western gates of Jarynth tower at the end of the street, while to the 
+east, the commons are visible. A heavy layer of snow has piled up around 
+the street and against the uninhabited buildings nearby. Eerie silence 
+prevades the area, though warm lamplight can be seen to the east. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10816
+D3
+~
+gate~
+3 -1 10818
+R D 0 10817 3 1
+S
+#10818
+Outside Western Gates of Jarynth~
+~
+The forest of ice and snow closely surrounds the western gates leading to 
+Jarynth. The small clearing here has a weak campfire burning in the 
+shelter of the tall gates. A layer of frost forms a glittering sheen upon 
+the surface of the heavy gates. There seems to be a small gap in the 
+frozen trees to the north, perhaps an animal trail of some sort. 
+~
+1 0 1
+D1
+~
+gate~
+3 -1 10817
+R M 0 10819 1 10818
+R D 0 10818 1 1
+E
+trail animal gap north~
+The icy branches around this area have been broken, and a small trail 
+stamped out in the snow. However, a large pile of snow currently blocks 
+off this passage. 
+~
+S
+#10819
+Farmer's Necessities~
+~
+An amazing amount of unsold goods hang upon the walls of this humble shop. 
+Several shiny horses' bridles hang in abundance from hooks upon the 
+southern wall, while dozens of garden hoes stand upright within a large, 
+metal urn resting in the corner. A wooden counter in the back of the room 
+holds an almost empty coinbox. Muddy and damp from snow, the ground has 
+old straw strewn about it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10816
+R M 0 10810 1 10819
+  R G 1 10808 1
+  R G 1 10807 1
+S
+#10820
+The Envy of Knights~
+~
+Several winter coats stand on display in the store's front window, 
+greeting each patron with a reminder that winter seems to be here to stay. 
+Scores of freshly sewn dresses and heavy woolen clothes hang neatly in 
+racks all throughout the store. Several shelves of neatly stitched 
+trousers line the walls of this garment shop, waiting to be sold to anyone 
+willing to pay the hefty price that has been placed on them. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10816
+R M 0 10809 1 10820
+  R G 1 10806 1
+  R G 1 10805 1
+S
+#10821
+Mira Circle~
+~
+This cobblestone road connects the village square with the cottages in the 
+northern area. Streetlamps along the road are now cracked and empty of 
+flame, leaving the path cold and gloomy. The plants and grass have been 
+suffocated by the thick layer of snow heaped upon the roadside by the 
+neverending blizzard. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10822
+D9
+~
+~
+0 -1 10812
+R M 0 10802 7 10821
+R M 0 10802 7 10821
+S
+#10822
+Mira Circle~
+~
+Several inches of ice has frozen over the ground, making the path in front 
+of the cottages extremely perilous. The small houses form neat rows along 
+the path, with tufts of smoke rising from their stone chimneys. Icicles 
+hang from the roofs, their dangerous points gleaming. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10821
+D7
+~
+~
+0 -1 10823
+R M 0 10803 6 10822
+S
+#10823
+Mira Circle~
+~
+Candles flicker wildly in the windows of the cottages that line Mira 
+Circle as blasts of chilling winds claw through the broken rooftops of the 
+homes here. Inside the cottages, villagers huddle closely around weak 
+fires that barely heat their rooms. Sleet comes down mercilessly, pouring 
+ice and slush over the cobblestone path. 
+~
+1 0 1
+D3
+~
+~
+0 -1 10824
+D8
+~
+~
+0 -1 10822
+S
+#10824
+Mira Circle~
+~
+The ice-covered cobblestone path offers slippery footing and curves in 
+front of a row of small cottages within the village. Snow-packed rooftops 
+bow dangerously inward under the weight of months of heavy winter 
+precipitation, causing the drawfty cottages to leak with the melted snow. 
+Villagers can be seen huddling inside the homes miserably. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10823
+D9
+~
+~
+0 -1 10825
+R M 0 10803 6 10824
+S
+#10825
+Mira Circle~
+~
+A chilling blast of wind blows snow across the cobblestone road that runs 
+alongside the small cottages within Jarynth, making it nearly impossible 
+to travel down the road. Small, withering tufts of smoke can be seen 
+coming from the chimneys of the little cottages. A small, frozen road 
+branches from Mira Circle, leading to a small graveyard where the victims 
+of this harsh winter now lay in their frozen tombs of eternal sleep. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10826
+D6
+~
+~
+0 -1 10824
+D7
+~
+~
+0 -1 10827
+S
+#10826
+Mira Circle~
+~
+The long cobblestone road connects the circle of cottages within the 
+village to Jarynth Square. The curses of the unnatural weather have laid 
+their icy claws upon the small village, burying the fields and crops in 
+freezing ice and snow. With no money to provide upkeep, the villagers have 
+let their houses and lands go to ruin. All throughout the circle, roofs 
+sag dangerously and doors show cracks through which harsh air whistles. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10825
+D8
+~
+~
+0 -1 10812
+S
+#10827
+Trail of Frozen Tears~
+~
+The snowy path widens a little as it branches off Mira Circle and leads to 
+the edge of town towards a small cemetary. The trees here are dense and 
+bare of leaves, dead for years. Some are charred black. The frigid wind 
+blows specks of ash up from the burned trees on the ground. 
+~
+1 0 1
+D7
+~
+~
+0 -1 10828
+D8
+~
+~
+0 -1 10825
+S
+#10828
+Trail of Frozen Tears~
+~
+Frozen winds blow harshly about this path leading from the village to the 
+cemetary. All around, dead trees create haunting spikes clawing their way 
+into the sky. Piles of rubble and charcoal clutter up the road, held in 
+place by snow and ice. Silence hangs heavily over the area with oppressive 
+pressure. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10829
+D8
+~
+~
+0 -1 10827
+R M 0 10804 4 10828
+S
+#10829
+Wrought Iron Gate of Mortality~
+~
+A rusted iron fence surrounds this small cemetary on the outskirts of 
+Jarynth. Frozen vines had once crept up the fence, entwining themselves 
+with the decorative iron. Weeds have formed a matted wall along the fence. 
+Blasting winds howl angrily against the looming gates leading in to the 
+graveyard. Constructed of blackened wrought iron, the high gates have been 
+forged with intricate designs and are supported by twin foundation blocks 
+of cracked stone. 
+~
+1 0 1
+D0
+~
+gate~
+7 10809 10831
+D2
+~
+~
+0 -1 10828
+R M 0 10811 1 10829
+  R G 1 10809 1
+R D 0 10829 0 2
+> act_prog opens~
+mppause 20
+mppause 20
+close north
+~
+|
+S
+#10830
+Shanty of the Downtrodden~
+~
+This once shiny bank lies in ruins now, no longer housing its former gold 
+and treasures. Spotless, granite floors are now riddled with cracks and 
+water stains where melted snow seeped through. The sagging roof barely 
+provides shelter and warmth from the elements. 
+~
+1 0 1
+D2
+~
+~
+0 -1 10812
+R M 0 10803 6 10830
+S
+#10831
+Within the Graveyard Entrance~
+~
+Dozens of small tombstones rest within this small graveyard on the edge of 
+town, bearing witness of the strange blizzard's frozen wrath. Old ladies 
+wailing at the foot of a fresh gravesite are seen everywhere. Young 
+mothers cling to their children while they stand at the grave of their 
+fathers who have died in the clutches of the frozen hand that clutches 
+this tiny village. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10834
+D1
+~
+~
+0 -1 10833
+D2
+~
+gate~
+3 10809 10829
+D3
+~
+~
+0 -1 10832
+R M 0 10812 6 10831
+R D 0 10831 2 1
+S
+#10832
+Even the Smallest of Victims~
+~
+Thick, white snowflakes fall like tears upon a carved tombstone which 
+depicts a young mother cradling her small daughter. Delicate white flowers 
+frozen by the cold lay scattered at the foot of this newly placed 
+headstone. Upon the stone, the name of the girl is carved as well as her 
+birth and dying date, which shows she was only six upon death. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10831
+R M 0 10812 6 10832
+> speech_prog ghost~
+mpe &cA breeze stirs up the powder snow on the ground, and suddenly the translucent form of a little blonde girl appears before you.
+mppause 10
+mpe &CA little girl's ghost says, 'Grandmama said once upon a time, an evil magician cast a spell on our home. He made it snow forever.'
+mppause 10
+mpe &CA little girl's ghost says, 'Did he make papa go away too? It's so cold! I'm cold! I want to see the sun!'
+mppause 10
+mpe &cBreaking down into hiccupping sobs, the small ghost flickers briefly before dissolving from sight.&D
+~
+|
+S
+#10833
+Death of a Friendship~
+~
+This corner of the snowy cemetary holds one lone grave, a sobering sight 
+to see. Small mementos adorn the carved headstone of this grave, leaving 
+only these trinkets to serve as a reminder of the comrade who now lies 
+buried here. A tall watchman's hat hangs from an old practice sword 
+leaning against the headstone. 
+~
+1 0 1
+D3
+~
+~
+0 -1 10831
+> speech_prog ghost~
+mpe &cA translucent form rises from the small mementos near the grave's headstone. 
+mppause 10
+mpe &CA ghostly form says, 'I have not abandoned you, my friend. My courage, my honor... My dreams belong with you. Live on for my sake, Manech.'
+mppause 10
+mpe &CA ghostly form fades slightly, and says, 'I told you we would be heroes, you said we were just farm boys, but please- become a hero.'
+
+mppause 10
+mpe &cThe translucent image of a young man, smiling crookedly and dressed in a guard uniform, flickers like a dying candle's flame and fades completely, though not before giving you a casual salute.
+&D
+~
+> act_prog p drops a carved wolf figurine.~
+mpe &cThe ghost of Colbey suddenly appears, looking down at the wolf figurine in surprise.&D
+mppause 10
+mpe &cColbey's ghost picks up the figurine with a wry smile.&C
+mppurge figurine
+mppause 5
+mpe &CColbey's ghost says with a laugh, 'He's a hero, whether he thinks so or not. Thanks for all the help.'&D
+mppause 15
+mprestore $n 100 
+mpe &cYou feel a rush of energy fill you briefly as a warm wind picks up around you. When the wind settles down, the ghost and the figurine are both nowhere to be seen.&D
+~
+|
+S
+#10834
+Pathway Through the Ages~
+~
+The winds blow cruelly through the small graveyard. Large crystalline 
+snowflakes fall from the skies to rest on the branches of the dead trees 
+overhead. Shivering people wander past you to place flowers and grieve at 
+the graves of loved ones. The path is cleared of snow by the feet of 
+countless mourners. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10835
+D2
+~
+~
+0 -1 10831
+R M 0 10812 6 10834
+S
+#10835
+A Solemn Altar~
+~
+The center of the cemetary is surrounded by benches encircling a small 
+altar made of white marble. Celestials and images of heaven have been 
+carved into the base. Glowing brightly and spreading a gentle warmth, an 
+eternal flame burns magically within a golden urn upon the altar. 
+~
+1 4 1
+D0
+~
+~
+0 -1 10839
+D1
+~
+~
+0 -1 10837
+D2
+~
+~
+0 -1 10834
+D3
+~
+~
+0 -1 10836
+R M 0 10813 1 10835
+  R G 1 10817 1
+R O 0 30 1 10835
+S
+#10836
+A Pathway Through the Ages~
+~
+Time marches on through the ages, though here in Jarynth, it seems to have
+stood still as the wintery season continues to tighten its grip on the
+tiny village in the hillside.  The graves of the former villagers stretch
+throughout the area, as even the wealthiest of villagers now lay in the
+cold, savage earth alongside the commoners.  A gravedigger's shack stands
+on the edge of the cemetary in the distance.
+~
+1 0 1
+D1
+~
+~
+0 -1 10835
+S
+#10837
+Pathway Through Ages~
+~
+This pathway leads from the center of the cemetary to a royal grave. To 
+the west, the dim glow of the eternal fire can be seen, but not felt any 
+longer. The frozen trees here reach overhead to form a cover overhead, 
+leaving the path mostly clear of snow. The sounds of sobbing come from all 
+around, soft and never ceasing. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10838
+D3
+~
+~
+0 -1 10835
+R M 0 10812 6 10837
+R M 0 10812 6 10837
+S
+#10838
+The Death of a Prince~
+~
+A brass replica of a golden crown rests atop the headstone that marks
+the final resting place of the village's beloved prince.  Several
+mourners visit here every day, leaving gifts of rememberance at the
+base of the headstone, while even the groundskeeper delivers a special
+bouquet of buttercups to lay upon the grave every day.  Adorned with
+the royal coat of arms, this grave now lays among the graves of the
+common people, a testament that even a prince could not escape the
+cold hands of death.
+~
+1 0 1
+D3
+~
+~
+0 -1 10837
+> speech_prog p ghost~
+mpe &cThe translucent image of a prince emerges from the crown atop the headstone.&D
+mppause 10
+mpe &CThe ghost of a prince grits his teeth and says, 'They came and took it all from us. Our people, our prosperity... They took the sun away.'
+mppause 20
+mpe &CThe ghost of a prince angrily says, 'The Throng destroyed us all, for what reason? Why did innocent lives have to pay the price for one man's greed?'
+mppause 20
+mpe &cThe man puts his face in his hands in despair.&D
+mppause 5
+mpe &CThe ghost of a prince says, 'I couldn't do a thing. I watched as everyone starved, as children perished...'
+mppause 10
+mpe &cStill muttering to himself, the prince's image fades into the cold air.&D
+~
+|
+S
+#10839
+Pathway Through the Ages~
+~
+A thick blanket of snow covers this path. Callous winds howl through the 
+branches of the frozen trees covering the area, sending sparkling shards 
+of ice flying through the air. To the south, the eternal flame is barely 
+visible through the haze of wind and snow. A row of three silent graves 
+lie to the north. 
+~
+1 0 1
+D0
+~
+~
+0 -1 10840
+D2
+~
+~
+0 -1 10835
+R M 0 10812 6 10839
+S
+#10840
+The Tears of Jezerelle~
+~
+The lonely winter winds blow quietly about this grave. A pair of bronzed 
+baby shoes lay above the marble footstone placed carefully in the ground. 
+Frozen by the cold, bundles of flowers have been placed upon the two 
+wooden rattles which rest crossed at the handle near the head of the 
+grave. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10842
+D2
+~
+~
+0 -1 10839
+D3
+~
+~
+0 -1 10841
+> speech_prog ghost~
+mpe &cA tiny translucent baby forms from the smoke that rises from the crossed rattles.&D
+mppause 10
+mpe &cThe ghost of a baby gives a weak cry, face scrunching up in discomfort. Her hands reach out, grabbing for a mother not present, before falling away into smoke once more.
+&D
+~
+|
+S
+#10841
+A Father's Last Prayer~
+~
+At the furthest edge of the graveyard rests the grave of a young father, 
+buried near the graves of his wife and child. No mementos have been left 
+here, though flowers are scattered about in the snow. The soil is fresh, 
+covered only by a thin layer of powder snow, evident that this plot is 
+quite recent. 
+~
+1 0 1
+D1
+~
+~
+0 -1 10840
+> speech_prog ghost~
+mpe &cThe translucent image of a young man emerges from behind a tree nearby.&D
+mppause 7
+mpe &CThe ghost of a father says, 'First Lara, then Jezerelle... Will the curse spare not the most gentle of people?'
+mppause 10
+mpe &CThe ghost of a father says, 'What do I have to live for? What hope is there, when all is lost?'&D
+mppause 10
+mpe &cThe young father's image wavers as he looks to the east at the graves of his family, and eventually disappears completely.&D
+~
+|
+S
+#10842
+Jezerelle's Final Goodbye~
+~
+A small picket fence surrounds the grave of a young mother who hung 
+herself after the death of her daughter. Small paintings of the pretty 
+young mother have been lovingly placed against the granite headstone. The 
+stone reads simply 'Jezerelle', carved simply but carefully. The snow here 
+almost completely covers the frozen bouquets of flowers left at this 
+grave. 
+~
+1 0 1
+D3
+~
+~
+0 -1 10840
+> speech_prog ghost~
+mpe &cQuiet sobs come from behind you. You turn to see the translucent form of a beautiful young woman huddled on the ground, her cries wracking her body with grief.
+mppause 20
+mpe &CThe ghost of a mother cries, 'My baby, my darling girl- wait for me, I'll come find you. Don't be afraid, my dear.'
+mppause 15
+mpe &cThe woman rocks back and forth, clearly mad with sorrow. As you watch, she fades back into the frosty air.&D
+~
+|
+S
+#10851
+A Farmer's House~
+~
+Once inside the farmhouse, you're amazed at the filth of the place.
+Several muddy footprints line the floors that haven't seen a mob or
+broom in ages.  Piles of dirty dishes line the table where the
+farmer sits down to eat his meals.  Months of neglect have left their
+mark upon this little farmhouse, causing wooden floors to creak with
+every step you take.
+~
+1 1073741824 0
+D2
+~
+~
+7 10813 10804
+R M 0 10816 1 10851
+  R E 1 10814 1 16
+  R G 1 10808 1
+  R G 1 10807 1
+R D 0 10851 2 2
+S
+#0
+
+
+#SHOPS
+ 10809    0  0  0  0  0   120  90         0 23    ; Osholo
+ 10810    0  0  0  0  0   120  90         0 23    ; Mats
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

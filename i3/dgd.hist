@@ -1,2 +1,0 @@
-&R[02/19 11:33] &G&R[&Wdgd&R] &CAidil@Way of the Force: &coh.. my port of my router code to lpcdb is progressing nicely... the actual router core works.. now I have to completely rewrite the user interface, and the mudlist/channellist storage.. but all networking hurdles have been taken :-)
-&R[02/19 11:40] &G&R[&Wdgd&R] &CAidil@Way of the Force: &cin a way this is funny, as lpcdb started out as a stripped down version of gurbalib aimed at providing a better way of storing and managing (user) data for my router.

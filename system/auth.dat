@@ -3,4 +3,25 @@ Name  Admin~
 State  1
 End
 
+#AUTH
+Name  Hagane~
+State  1
+End
+
+#AUTH
+Name  Mogran~
+State  5
+AuthedBy       Varchild~
+End
+
+#AUTH
+Name  Tokihasha~
+State  1
+End
+
+#AUTH
+Name  Alnar~
+State  1
+End
+
 #END

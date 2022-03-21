@@ -2,53 +2,57 @@
 Version      6
 Name         Sorine~
 Sex          1
-Class        11
+Class        21
 Secondclass  -1
 Thirdclass   -1
 Race         13
 Age          0 5 0 974
 Languages    1 1
-Level        1
-Firstlevel   0
-Secondlevel  0
-Thirdlevel   0
-Played       663
-Room         19038
-HpManaMove   146 146 150 150 197 200
+Level        55
+Firstlevel   -1
+Secondlevel  -1
+Thirdlevel   -1
+Played       4807
+Room         57036
+HpManaMove   5005 5005 1159 1229 3522 3522
 BaseHp       0 
-Blood        10 0
-Money         0 10 50 100 2000 -1
-Exp           0
+Blood        225 225
+Money         0 10 137 147 175 -1
+Exp           25702
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        120
-Weight        331
-Act           570426952&4096
+Height        586
+Weight        4739
+Act           570426952&4128
 AffectedBy    512
-Channels      chat say~
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
 Speed         32
 Position      115
 Style         2
-Practice      6
+Practice      232
 SavingThrows  0 0 0 0 0
-Alignment     0
+Alignment     3
 AppBlood      0
 Hitroll       0
 Damroll       0
 Armor         60
-Resistant     8193
+Resistant     8192
 Mentalstate   0
 Password      da42c6ed9a0b389194071195f565433958f013a33e22c0d7c4e0e45b22efa8b0~
 Title          the young adventurer~
-Lastip         10.0.0.1~
+LAIR          57036
+Lastip         10.0.0.88~
 RECAST          0
 AuthedBy     Varchild~
 KeepAlive      5
 GetsDExp     0
-LDExpUpdate  1647407976
+DExpTimer    10
+LDExpUpdate  1647569677
 tmpsecond -1
 tmpthird -1
+tmprace 13
+tmpclass 21
 Textspeed          5
 PotionTimer        0 0 0
 FirstExpR          0
@@ -69,32 +73,112 @@ MapSize            0
 MapDescToggle      0
 MapNameToggle      0
 MapType            0
+FoundArea       Abandoned Cabin ~
+FoundArea       Kirwood Swamp~
+FoundArea       Under the Volcano~
 Htown      Forbidden City~
 Flags        32770
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       1
+MKills       18
 MDeaths      0
 IllegalPK    0
 AttrPerm     22 18 18 13 16 13 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 200 200 0
-Site         10.0.0.1
+Condition    0 125 160 0
+Site         10.0.0.88
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
-NNSkill       95 0 'devour' 0 0
-NNSkill       50 0 'slice' 0 0
-NNTongue      95 0 'common' 0 0
-NNTongue      95 0 'draconic' 0 0
+NNSpell       95 95 'astral walk' 0 0
+NNSpell       95 0 'cure affliction' 0 0
+NNSpell       95 0 'dark blessings' 0 0
+NNSpell       95 0 'death field' 0 0
+NNSpell       95 0 'dispel magic' 0 0
+NNSpell       95 95 'healing essence' 0 0
+NNSpell       95 95 'invis' 0 0
+NNSpell       95 0 'locate object' 0 0
+NNSpell       95 95 'refresh' 0 0
+NNSpell       95 95 'sanctuary' 0 0
+NNSpell       95 0 'shadowform' 0 0
+NNSpell       95 0 'slow' 0 0
+NNSpell       95 0 'valiance' 0 0
+NNSkill       95 95 'behead' 0 0
+NNSkill       95 95 'bite' 0 0
+NNSkill       95 95 'breathe' 0 0
+NNSkill       95 95 'claw' 0 0
+NNSkill       95 95 'climb' 0 0
+NNSkill       95 95 'combo' 0 0
+NNSkill       95 95 'cone' 0 0
+NNSkill       95 95 'devour' 0 0
+NNSkill       95 95 'dodge' 0 0
+NNSkill       95 95 'doorbash' 0 0
+NNSkill       95 0 'fifth attack' 0 0
+NNSkill       95 95 'fly home' 0 0
+NNSkill       95 0 'fourth attack' 0 0
+NNSkill       95 0 'glacial armor' 0 0
+NNSkill       95 0 'gust of wind' 0 0
+NNSkill       95 95 'gut' 0 0
+NNSkill       95 95 'human form' 0 0
+NNSkill       95 0 'impale' 0 0
+NNSkill       95 95 'lick' 0 0
+NNSkill       95 95 'lore' 0 0
+NNSkill       95 95 'meditate' 0 0
+NNSkill       95 0 'pluck' 0 0
+NNSkill       95 95 'rage' 0 0
+NNSkill       95 95 'scan' 0 0
+NNSkill       95 95 'second attack' 0 0
+NNSkill       95 95 'slice' 0 0
+NNSkill       95 95 'smell' 0 0
+NNSkill       95 95 'snatch' 0 0
+NNSkill       95 95 'stomp' 0 0
+NNSkill       95 95 'swim' 0 0
+NNSkill       95 95 'tail swipe' 0 0
+NNSkill       95 0 'third attack' 0 0
+NNSkill       95 95 'truesight' 0 0
+NNSkill       95 95 'wings' 0 0
+NNWeapon      95 95 'pugilism' 0 0
+NNTongue      95 95 'celestial' 0 0
+NNTongue      95 95 'centaurian' 0 0
+NNTongue      95 95 'common' 0 0
+NNTongue      95 95 'demonic' 0 0
+NNTongue      95 95 'draconic' 0 0
+NNTongue      95 95 'dwarven' 0 0
+NNTongue      95 95 'elven' 0 0
+NNTongue      95 95 'gnomish' 0 0
+NNTongue      95 95 'goblic' 0 0
+NNTongue      95 95 'hobbit' 0 0
+NNTongue      95 95 'infernal' 0 0
+NNTongue      95 95 'ogrian' 0 0
+NNTongue      95 95 'orcish' 0 0
+NNTongue      95 95 'pixish' 0 0
+NNTongue      95 95 'silent' 0 0
+NNTongue      95 95 'trollese' 0 0
+Killed       8308
+Killed       8308
+Killed       8310
+Killed       8308
+Killed       8306
+Killed       8310
+Killed       27006
+Killed       27006
+Killed       27000
+Killed       27001
+Killed       27003
+Killed       27006
+Killed       27004
+Killed       27006
+Killed       27006
+Killed       27001
+Killed       29007
 Killed       19015
-THYQuestN 30 8 0 0 1 0
+THYQuestN 94 1 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
-i3perm       0
+i3perm       1
 i3flags      256
 Portalstonelag     0
 End
@@ -109,43 +193,11 @@ Values       0 0 -1 0 0 0 0
 End
 
 #OBJECT
-Vnum         16038
-Currtype     4
-Color        1
-Size   3
-Values       30 30 0 0 0 0 0
-End
-
-#OBJECT
-Vnum         16040
-Currtype     4
-Color        1
-Size   3
-Values       12 0 0 0 0 0 0
-End
-
-#OBJECT
 Vnum         68
-WearLoc      22
 Currtype     2
 Color        2
 Size   0
 Values       300 0 0 6 0 0 0
-End
-
-#OBJECT
-Vnum         139
-Currtype     4
-Color        5
-Size   0
-End
-
-#OBJECT
-Vnum         19035
-Level        101
-Currtype     4
-Color        5
-Size   0
 End
 
 #OBJECT

@@ -1,0 +1,1326 @@
+#AREA        Golden Peninsula~
+
+
+
+#VERSION     11
+#AUTHOR      Danell~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+60 100 50 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG The sounds of waves crashing on the cliffs can be heard.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 20000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#2551
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#2552
+oak tree ent~
+A large ent~
+An oak tree sways in the wind here.
+~
+A large tree like being that moves with life. It's branches are large and 
+mobile as it is able to move with grace through the other trees around it. 
+~
+1
+Clanname none~
+0
+0
+65&32 4202496&8 1000 C
+70 0 0 0d0+11000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> death_prog 50~
+mpecho A large branch drops off the tree
+mpoload 2553 1
+drop branch
+~
+> rand_prog 5~
+mpe &cAn oak tree rustles its leaves.
+~
+> fight_prog 50~
+mppause 8
+mpechoat $n &GA large ent grabs you with his branches and slams you on the ground!
+mpat $n mpdamage $n 150
+~
+|
+#2553
+sand lizard~
+A sand lizard~
+A sand lizard moves around the beach
+~
+This salamander type lizard doesn't get very high off the ground. It has 
+small powerful legs that allow it to move extreamly fast and attack with a 
+lot of power. 
+~
+0
+Clanname none~
+0
+0
+65 369107072&8 1000 C
+75 0 0 0d0+5500 0d0+30
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> death_prog 100~
+if quest(sandlizards) == 1
+ if qkamount(sandlizards) < 9
+   mpqkamount $n sandlizards 1
+else
+  mpqkamount $n sandlizards 1
+   mpquest $n sandlizards 2
+ endif
+endif
+~
+|
+#2554
+large jelly fish~
+A large jelly fish~
+A large jelly fish moves around in the water near the coast
+~
+A jelly blob with long tenticals that pulse with electricity. The gelatin 
+blob swims around and even, sometimes can be seen floating just a little 
+bit above the water. 
+~
+0
+Clanname none~
+0
+0
+65 369107072&8 1000 C
+80 0 0 0d0+7200 0d0+30
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+75 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> death_prog 100~
+if quest(jellyfish) == 1
+ if qkamount(jellyfish) < 9
+   mpqkamount $n jellyfish 1
+else
+  mpqkamount $n jellyfish 1
+   mpquest $n jellyfish 2
+ endif
+endif
+~
+|
+#2555
+tiger spider~
+A tiger spider~
+A tiger spider scurries along the ground
+~
+Long yellow stripes cover the body of this rather large arachnid. It 
+scurries quickly along the ground as it goes about it's feeding or 
+whatever it is that it does. 
+~
+0
+Clanname none~
+0
+0
+97 373301376&8 1000 C
+90 0 0 0d0+9500 0d0+30
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> death_prog 100~
+if quest(tigerspiderhunt) == 1
+ if qkamount(tigerspiderhunt) < 9
+   mpqkamount $n tigerspiderhunt 1
+else
+  mpqkamount $n tigerspiderhunt 1
+   mpquest $n tigerspiderhunt 2
+ endif
+endif
+  if rand(25)
+    mpoload 2552
+    get sword
+  endif
+~
+|
+#2556
+huge tiger spider~
+A huge tiger spider~
+A huge tiger spider watches the area closly, ready to attack
+~
+Long yellow stripes cover the body of this rather large arachnid. It 
+scurries quickly along the ground as it goes about it's feeding. This 
+tiger spider is extremly large though making it quite different from the 
+other ones around it. 
+~
+0
+Clanname none~
+0
+0
+97&4 373301376&8 1000 C
+100 0 0 0d0+10000 0d0+50
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+59 4 0 0 1 1 0
+0 0 0 0 0 0 262144 8258
+> fight_prog 100~
+if rand(20)
+mpecho &YThe tiger spider screaches for help!
+mppause 2
+mpecho A tiger spider scurries into the room
+mpmload 2555
+endif
+if rand(40)
+mpechoat $n &RThe spider jumps high into the air and drops on you with its pointed fangs!
+mpdamage $n 1000
+endif
+~
+> death_prog 100~
+if quest(hugetigerspiderhunt) == 1
+mpecho The tiger spider dies and drops a fang!
+mpoload 2554
+drop fang
+mpquest $n hugetigerspiderhunt 2
+endif
+~
+|
+#2557
+oak tree ent elder tarease~
+Elder Ent Tarease~
+A massive oak tree sways in the wind here.
+~
+A large tree like being that moves with life. It's branches are large and 
+mobile as it is able to move with grace through the other trees around it. 
+~
+1
+Clanname none~
+0
+0
+131075&32 4202496&2097160 1000 C
+95 0 -500 0d0+18000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 25 25 13 13
+0 0 0 0 0
+85 4 0 0 1 1 0
+200 200 0 0 0 0 262144 8258
+> fight_prog 50~
+mppause 8
+mpechoat $n &GElder Ent Tarease grabs you with his branches and slams you on the ground!
+mpdamage $n 300
+~
+> rand_prog 5~
+mpe &cAn oak tree rustles its leaves.
+~
+> death_prog 100~
+mpecho &OA large limb drops off the tree.
+mpoload 2555 80
+drop limb
+~
+|
+#0
+
+
+#OBJECTS
+#2551
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2552
+fang sword~
+A tiger spider fang sword~
+A tiger spider fang sword lays here~
+~
+5 0 8193
+0 124 153 1 0 90 100
+1 170 5
+1
+5
+0
+0
+0
+0
+S 0 0
+A
+19 9
+A
+18 9
+#2553
+tree branch~
+A tree branch~
+A tree branch lays here~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#2554
+tiger spider fang~
+A tiger fang~
+A tiger fang lays here~
+~
+54 0 1
+0 2555 2556 0 0 80 0
+1 967 96
+4
+5
+0
+0
+0
+0
+S 0 0
+#2555
+solid oak limb~
+a solid oak limb~
+A solid oak limb has been left here.~
+~
+54 0 1
+2554 0 2556 0 0 80 0
+1 1 0
+4
+1
+0
+0
+0
+0
+S 0 0
+#2556
+pike polearm~
+a massive pike polearm~
+A massive pike polearm has been left here.~
+~
+5 0 8193
+0 50 100 2 15 0 0
+10 187 18
+1
+1
+0
+0
+0
+0
+S 0 0
+A
+30 68
+A
+19 5
+#0
+
+
+#ROOMS
+#2551
+Along the Coast~
+~
+The coast line is clear and beautiful. Not too much debris or any other 
+things from the sea besides seashells seem to ever wash up, making the 
+beach very clear.
+~
+1 0 11
+D0
+~
+~
+0 -1 2552
+D11
+~
+~
+0 -1 60724
+S
+#2552
+Along the Coast~
+~
+Waves from the ocean crash on the beach and the smell of salt flows in the 
+air. In the distance ships can be seen sailing and moving though the 
+massive ocean. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2551
+D6
+~
+~
+0 -1 2553
+R M 0 2553 9 2552
+S
+#2553
+Along the Coast~
+~
+The waters of the sea flow and move along the beach. Small sea shells and 
+starfish wash up along the beach. The smooth sand of the beach rests only 
+disturbed by the footprints of travelers and animals that move along it.
+~
+1 0 1
+D0
+~
+~
+0 -1 2554
+D9
+~
+~
+0 -1 2552
+S
+#2554
+Along the Coast~
+~
+The peaceful waters of the ocean flow as the stream carries the water 
+away. Only small waves crash along the beach bringing small pieces of sea 
+shells and other small marine life forms. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2555
+D2
+~
+~
+0 -1 2553
+S
+#2555
+Along the coast~
+~
+The soft sand of the beach is quite easy to walk on at this point. The 
+waters of the ocean, at most times, are calm, allowing an endless expanse 
+to be seen. Occasionally, a ship can be seen sailing in the distance. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2554
+D6
+~
+~
+0 -1 2556
+R M 0 2553 8 2555
+S
+#2556
+Along the coast~
+~
+The smell of salt in the air as well as the moisture can be felt at almost 
+any time. The beach extends into the distance to the northeast and to the 
+southwest from here. 
+~
+1 0 1
+D6
+~
+~
+0 -1 2557
+D9
+~
+~
+0 -1 2555
+S
+#2557
+Along the Coast~
+~
+To the east a path inland can be seen going through the calm and peaceful 
+peninsula. To the north and to the southwest the beach can be seen 
+extending into the distance a great length. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2558
+D1
+~
+~
+0 -1 2565
+D9
+~
+~
+0 -1 2556
+S
+#2558
+Along the Coast~
+~
+The beach is covered with a fine sand that sinks down a little even with 
+the slightest of steps. The cool ocean's waves slowly crash apon the 
+beach, bringing small pieces of shells onto the land. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2559
+D2
+~
+~
+0 -1 2557
+R M 0 2553 7 2558
+S
+#2559
+Along the Coast~
+~
+The beach continues to the northeast and the south, leading far into the 
+distance. There is a small path inland to the northeast, leading into the 
+interior of the Golden peninsula. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2558
+D6
+~
+~
+0 -1 2560
+D7
+~
+~
+0 -1 2566
+R M 0 2554 1 2559
+S
+#2560
+A Trail Inland~
+~
+Just to the southwest is the western coast of the peninsula, which from 
+here the ocean is of clear view. To the east the path leads into the dense 
+trees that make up the inland of the peninsula. 
+~
+1 4 1
+D1
+~
+~
+0 -1 2561
+D9
+~
+~
+0 -1 2559
+S
+#2561
+A Trail Inland~
+~
+From here to the northeast the center of the peninsula can be seen. On the 
+trail to the southeast more trees can be seen as it leads into the 
+mainland more then to the west which leads to the coast. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2560
+D6
+~
+~
+0 -1 2574
+D8
+~
+~
+0 -1 2562
+S
+#2562
+A Trail Inland~
+~
+The dense trees cover the lands of the peninsula. To the south the trail 
+leads into the deeper parts of the inland that lead to the mainland, and 
+the path to the northwest lead to the center of the peninsula. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2563
+D7
+~
+~
+0 -1 2561
+R M 0 2552 4 2562
+S
+#2563
+A Trail Inland~
+~
+Tall trees cover the heart of the mainland of the peninsula along with the 
+green grasses along side the trails that lead through it. The air is humid 
+and salty, mostly because of the ocean to the north, east and west of the 
+peninsula. 
+~
+1 4 1
+D0
+~
+~
+0 -1 2562
+D1
+~
+~
+0 -1 2578
+D9
+~
+~
+0 -1 2564
+S
+#2564
+A Trail Inland~
+~
+To the west in the distance along the path the beach and then the ocean 
+can be seen, to the northeast the path leads inland to the center of the 
+peninsula. Large trees and green grasses grow along the path making it 
+look rather nice to the average person. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2565
+D6
+~
+~
+0 -1 2563
+S
+#2565
+Along the Coast~
+~
+To the west the beach can be seen along the coast of the ocean. The breeze 
+from the ocean blows across the peninsula at most times making the west 
+side much more peaceful then the other, at most times. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2564
+D2
+~
+~
+0 -1 2599
+D3
+~
+~
+0 -1 2557
+S
+#2566
+Along the Coast~
+~
+Small shells and other pieces of debris from crustaceans line the beaches 
+with the sandy little treasures. The waves of the ocean crash into the 
+land making the air salty and moist. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2567
+D8
+~
+~
+0 -1 2559
+S
+#2567
+Along the coast~
+~
+The coast expands to the north and to the southeast from here, the sandy 
+beaches inviting relaxation. The inland portion of the pennusla is covered 
+with lush grasses and tall trees. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2568
+D8
+~
+~
+0 -1 2566
+R M 0 2554 2 2567
+S
+#2568
+Along the coast~
+~
+The lush grasses and trees in the interior of the peninsula to the east 
+and the salty sea to the west show a grand piece of land near the ocean. 
+The beach and path around the peninsula continues around going to the 
+north and south from here. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2569
+D2
+~
+~
+0 -1 2567
+R M 0 2553 6 2568
+S
+#2569
+Along the Coast~
+~
+The beach takes a turn to the northeast, where the water starts to get a 
+little lower as the grade of the land rises. Ships can be seen off in the 
+distance, sailing through the waters of the ocean. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2568
+D6
+~
+~
+0 -1 2570
+S
+#2570
+The Start of the Cliffs~
+~
+The land raises a bit here, and gets higher towards the northern part of 
+the peninsula. The water is lower here as the beach begind to turn to 
+cliffs, but to the south, the land is still flat and the beaches remain. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2571
+D7
+~
+~
+0 -1 2585
+D9
+~
+~
+0 -1 2569
+S
+#2571
+A Trail Inland~
+~
+To the west the cliffs of the west side of the peninsula can be seen 
+overlooking the ocean far below them. The salty, humid air blows 
+constantly, but not to much at most times, keeping the plantlife alive. 
+~
+1 4 1
+D3
+~
+~
+0 -1 2570
+D6
+~
+~
+0 -1 2584
+D8
+~
+~
+0 -1 2572
+R M 0 2555 3 2571
+S
+#2572
+A Trail Inland~
+~
+Large trees grow surrounded only by the life of the peninsula along with 
+the green grasses that constantly grow in it's temperate climate. The 
+salty air of the ocean blows over the peninsula as a constant remind of 
+the ocean so close. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2571
+D8
+~
+~
+0 -1 2573
+R M 0 2555 4 2572
+S
+#2573
+A Trail Inland~
+~
+Near the center of the peninsula large trees grow so high they could blot 
+out the sun on even the clearest days. The trail that leads between the 
+trees on the landmass streaches all around giving the peninsula a lot of 
+room to manuver. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2572
+D8
+~
+~
+0 -1 2574
+S
+#2574
+The Peninsula's Center~
+~
+This is the central part of the peninsula. The trees here are extreamly 
+tall reaching high into the skys above. Three paths lead from here, one to 
+the northwest one to the southwest and one to the east. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2575
+D7
+~
+~
+0 -1 2573
+D9
+~
+~
+0 -1 2561
+S
+#2575
+A Trail Inland~
+~
+To the northeast the beach of the east coast of the peninsula can be seen. 
+Two other choices of direction are here as well, going to the southeast 
+and the west, leading inland. 
+~
+1 4 1
+D3
+~
+~
+0 -1 2574
+D6
+~
+~
+0 -1 2579
+D8
+~
+~
+0 -1 2576
+R M 0 2552 1 2575
+S
+#2576
+A Trail Inland~
+~
+The tall trees cover the land and the green grasses show a healthy vibrant 
+landscape. The ocean breeze flows making the air here very humid and salty 
+on the peninsula. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2577
+D7
+~
+~
+0 -1 2575
+R M 0 2552 2 2576
+S
+#2577
+A Trail Inland~
+~
+The trail from here leads to the north and to the southwest. To the north 
+leads to the center of the peninsula and to the southwest leads to the 
+deeper parts of the peninsula and the mainland. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2576
+D9
+~
+~
+0 -1 2578
+S
+#2578
+A Trail Inland~
+~
+Tall trees and green healthy grasses cover the area giving it a very nice 
+look about it. The ocean on both sides of the peninsula causes the air to 
+be humid and salty at most times. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2563
+D6
+~
+~
+0 -1 2577
+D8
+~
+~
+0 -1 2595
+R M 0 2552 3 2578
+S
+#2579
+A Split Path~
+~
+The path along the beach goes to the northwest and the southeast. The path 
+to the southwest however leads into the mainland of the peninsula and it's 
+greenery and trees. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2580
+D8
+~
+~
+0 -1 2590
+D9
+~
+~
+0 -1 2575
+R M 0 2553 4 2579
+S
+#2580
+Along the Coast~
+~
+The waves of the ocean wash apon the sandy beaches in large waves here. 
+The violent surf brings up many sandy treasurs from the deep, from drift 
+wood to random pieces of garbage tossed in the ocean. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2581
+D8
+~
+~
+0 -1 2579
+R M 0 2554 5 2580
+S
+#2581
+The Start of the East Cliffs~
+~
+The water is not to far down at the moment as the land moves up causing 
+cliffs to be formed. To the south are the sandy beaches of the peninsula's 
+eastern side. On the inland trees and green grasses can be seen along the 
+various paths through it. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2580
+D7
+~
+~
+0 -1 2582
+S
+#2582
+Along the Cliffs~
+~
+The waves crash along the cliffs far below. The land to the south slants 
+down to sea level, causing the cliffs to become beaches, but to the north 
+the cliffs only get taller. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2583
+D8
+~
+~
+0 -1 2581
+R M 0 2553 5 2582
+S
+#2583
+A Trail Inland~
+~
+The water far below crashes into the sides of the cliff violently. To the 
+south east a path inland can be seen, where as the paths to the north and 
+to the south west lead down along the cliffs. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2589
+D8
+~
+~
+0 -1 2582
+D9
+~
+~
+0 -1 2584
+S
+#2584
+A Trail Inland~
+~
+Just to the northeast the cliffs can be seen overlooking the ocean far 
+below. The usual cool breeze from the ocean blows constantly on this side 
+of the peninsula making the air humid and salty. 
+~
+1 4 1
+D6
+~
+~
+0 -1 2583
+D9
+~
+~
+0 -1 2571
+R M 0 2555 2 2584
+S
+#2585
+Along the Cliffs~
+~
+The water can be seen down below at the bottom of the cliffs, crashing 
+against the side of the peninsula that has turned into cliffs. To the east 
+the inland can be seen, lush grasses and trees cover the land, making it 
+almost a paradise. 
+~
+1 0 1
+D6
+~
+~
+0 -1 2586
+D8
+~
+~
+0 -1 2570
+R M 0 2554 3 2585
+S
+#2586
+Along the Cliffs~
+~
+Far below here the water can be seen crashing along the sides of the 
+cliffs on the northern part of the peninsula. The path along the edge of 
+the cliffs leads to the north east and south west from here. 
+~
+1 0 1
+D6
+~
+~
+0 -1 2587
+D9
+~
+~
+0 -1 2585
+R M 0 2554 4 2586
+S
+#2587
+Near the Top~
+~
+Just to the northeast the highest part of the cliffs can be seen 
+overshadowing the water far below. This being the north most end of the 
+peninsula, it allows a good view of the ocean to the north and the lush 
+green peninsula to the south. 
+~
+1 0 1
+D6
+~
+~
+0 -1 2588
+D9
+~
+~
+0 -1 2586
+S
+#2588
+The North-most End~
+~
+From here a magnificent view of the ocean can be seen to the north. To the 
+south the lush green peninsula can be seen in all it's glory. Trees, 
+grass, even the beautiful beaches below can be seen from here. 
+~
+1 4 1
+D8
+~
+~
+0 -1 2589
+D9
+~
+~
+0 -1 2587
+R M 0 2557 1 2588
+> entry_prog 100~
+if quest(hugetigerspiderhunt) == 1
+mppause 20
+mppause 20
+mppause 20
+mppause 20
+mpecho &YThe sounds of scurring can be heard near by...
+mppause 10
+mpecho A gigantic spider lunged out from it's hiding spot on the cliffs walls!
+mpmload 2556
+endif
+~
+|
+S
+#2589
+Near the Top~
+~
+Just to the north west is the peak of the cliffs that look down apon the 
+ocean far below. The waves crash against the side of the cliffs madly, 
+more so on this side of the peninsula then the other. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2583
+D7
+~
+~
+0 -1 2588
+R M 0 2555 1 2589
+S
+#2590
+Along the coast~
+~
+At this point the coast goes off to the east, but because of the mad surf 
+it's beach was destroyed and only extreamly thick trees block the path. To 
+the southeast the path leads inland, away from the salty ocean. 
+~
+1 0 1
+D7
+~
+~
+0 -1 2579
+D8
+~
+~
+0 -1 2591
+R M 0 2554 6 2590
+S
+#2591
+Inland on the Peninsula~
+~
+To the north the coast can be seen with a great view of the ocean. To the 
+south is a nicely trodden path through the inland of the peninsula and 
+it's tree's and green grasses. 
+~
+1 0 1
+D2
+~
+~
+0 -1 2592
+D7
+~
+~
+0 -1 2590
+R M 0 2553 3 2591
+S
+#2592
+Inland on the Peninsula~
+~
+The trees and green grasses surround the trails around the peninsula. To 
+the north is the ocean and the path along the sandy beaches of the coast, 
+and to the south is the green inland. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2591
+D2
+~
+~
+0 -1 2593
+S
+#2593
+Inland on the Peninsula~
+~
+The trees raise high in the air above the green grasses of the peninsula. 
+The salty air from the ocean to the north wafts down making the area very 
+humid and salty. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2592
+D9
+~
+~
+0 -1 2594
+R M 0 2554 7 2593
+S
+#2594
+Inland on the Peninsula~
+~
+The inland of the peninsula is filled with many trees and very green 
+grasses making it a tropical paradise. The smell of salt in the air wafts 
+down the humid air from being so close to the ocean. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2595
+D6
+~
+~
+0 -1 2593
+S
+#2595
+The Inland~
+~
+A fallen tree lays down along the side of the path, most likely from some 
+kind of bad weather. In the distance to the north the large cliffs can be 
+seen that hand over the ocean. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2594
+D7
+~
+~
+0 -1 2578
+D9
+~
+~
+0 -1 2596
+S
+#2596
+The Inland~
+~
+The salty, humid air from the ocean moves all over the peninsula giving it 
+a paradise look. Green grasses and large trees cover the land making the 
+only way though the inland by paths created over time from beasts moving 
+freely. 
+~
+1 0 1
+D3
+~
+~
+0 -1 2597
+D6
+~
+~
+0 -1 2595
+R M 0 2553 2 2596
+S
+#2597
+The Inland~
+~
+The peninsula moves out to the north with the continent behind it. The 
+ocean air blows all around making it very humid and salty in the air. 
+Large trees cover the landscape giving it a look of nothing but green. 
+~
+1 0 1
+D1
+~
+~
+0 -1 2596
+D9
+~
+~
+0 -1 2598
+S
+#2598
+The Inland~
+~
+Large amounts of lush grasses and tall trees cover the peninsula as it is 
+constanly watered from the ocean humidity. With the ocean to the north and 
+the continent to the south, the peninsula makes itself a prime piece of 
+land. 
+~
+1 0 1
+D6
+~
+~
+0 -1 2597
+D7
+~
+~
+0 -1 2599
+R M 0 2553 1 2598
+S
+#2599
+The Inland~
+~
+Patches of very green grass surround the laid paths between the dense 
+tree's of the inland on the peninsula. Far to the north from here the 
+ocean can be heard at most times, with it's waves crashing on the cliffs 
+and the winds from the ocean blowing across. 
+~
+1 0 1
+D0
+~
+~
+0 -1 2565
+D8
+~
+~
+0 -1 2598
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

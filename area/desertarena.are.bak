@@ -1,0 +1,921 @@
+#AREA        Desert Arena~
+
+
+
+#VERSION     11
+#AUTHOR      Mera~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 10 0
+
+#RESETMSG &OThe suns rays are relentlessly sending heat waves across the sand.~
+
+#FLAGS
+16448
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4400
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4401
+scorpion~
+A scorpion~
+A scorpion skitters here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#4402
+lizard~
+A lizard~
+A lizard is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+3 0 0 0d0+200 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 2
+0 0 9 0 0 0 3 2051
+> death_prog 100~
+if rand(10)
+mpoload 1299
+else
+mpe &gThe lizard explodes leaving a small eggs behind which qickly hatchs and turns into another lizard.&D
+mpmload 4402
+endif
+~
+|
+#4403
+snake~
+A snake~
+A snake slithers here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 9 0 0 0 0 0
+#4404
+bird~
+A bird~
+A bird is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#4405
+mouse~
+A mouse~
+A mouse hides here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#4406
+beetle~
+A beetle~
+A beetle is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 9 0 0 0 0 0
+#4407
+spider~
+A spider~
+A spider is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 5 0 0 0 0 0
+#4408
+kangaroo rat~
+A kangaroo rat~
+A kangaroo rat is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#4409
+coyote~
+A coyote~
+A coyote is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#4410
+jack rabbit~
+A jack rabbit~
+A jack rabbit is here
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 65545 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4400
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#4401
+well fountain~
+A well~
+A well rests half hidden here~
+~
+25 0 0
+1000000 1000000 14 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#4402
+palm tree~
+A palm tree~
+A palm tree towers here~
+~
+12 0 0
+1 5000 130 200 200 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#4403
+Frisbee~
+Frisbee~
+A huge frisbee with daisies on it rests here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4404
+Teddybear~
+Teddykins~
+A cuddly pink teddybear lays here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4405
+lollipop~
+A lollipop~
+A lollipop lays abandoned here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4406
+rusty tin can~
+A rusty tin can~
+A rusty tin can has been kicked here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4407
+shard glass~
+A shard of glass~
+A shard of glass lays here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4408
+broken shovel~
+A broken shovel~
+A broken shovel lays here~
+~
+59 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4409
+bag~
+A bag~
+A bag of liquid lays here~
+~
+17 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4410
+Yoyo~
+A yoyo~
+A yoyo lays discarded here~
+~
+8 0 16385
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4411
+rope~
+A rope~
+A rope lays here~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#4412
+skull~
+A skull~
+A skull lays here~
+~
+13 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#4400
+Shifting Sands~
+~
+Flat terrain as far as an eye can see. A small well is half hidden here by 
+the shifting sands. The clouds flit by, occasionally blocking the sun 
+momentarily. The heat rolls off the sand in waves, the sun beating down 
+ceaselessly. 
+~
+1 103818244 10
+R O 0 4401 1 4400
+S
+#4401
+Shifting Sands~
+~
+Sand, nothing but sand. The sun beating down, the heat from the sand 
+searing and oppressive. There looks to be no end in sight to this gods 
+forsaken sand. 
+~
+1 103817216 10
+D1
+~
+~
+0 -1 4402
+D2
+~
+~
+0 -1 4406
+S
+#4402
+Shifting Sands~
+~
+A few shifting sand dunes criss-cross the landscape. The sand under the 
+feet seems to try to pull at an unsuspecting victim. The heat lifts from 
+the sand in massive waves. 
+~
+1 103817216 10
+D1
+~
+~
+0 -1 4403
+D2
+~
+~
+0 -1 4407
+D3
+~
+~
+0 -1 4401
+S
+#4403
+Shifting Sands~
+~
+A steady thrumming pounds through the sand. The dunes shifting and 
+flattening to this sound. What could it be? It makes a soul wonder. The 
+sun boiling down upon the victims. 
+~
+1 103817216 10
+D1
+~
+~
+0 -1 4404
+D2
+~
+~
+0 -1 4408
+D3
+~
+~
+0 -1 4402
+S
+#4404
+Shifting Sands~
+~
+Mindless miles of sand. In the distance are a few dunes towering over this 
+barren, hot ground. There seems to be a shimmer in the distance, is it the 
+heat or could it be an oasis. 
+~
+1 103817216 10
+D1
+~
+~
+0 -1 4405
+D2
+~
+~
+0 -1 4409
+D3
+~
+~
+0 -1 4403
+S
+#4405
+Shifting Sands~
+~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? 
+~
+1 103817216 10
+D2
+~
+~
+0 -1 4410
+D3
+~
+~
+0 -1 4404
+S
+#4406
+Shifting Sands~
+~
+Flat, endless sand stretches out as far as the eye can see. No life in 
+this sea of sand, no water, or could that be an unknown explorer's biased 
+words? 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4401
+D1
+~
+~
+0 -1 4407
+D2
+~
+~
+0 -1 4411
+S
+#4407
+Shifting Sands~
+~
+Jackpot! More sand! Tiny rivlets of sand seem to slither and writhe in the 
+scorching sun. Heat rises in waves, leading to hallucinations and 
+delusional mindsets. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4402
+D1
+~
+~
+0 -1 4408
+D2
+~
+~
+0 -1 4412
+D3
+~
+~
+0 -1 4406
+S
+#4408
+Shifting Sands~
+~
+Dunes offer some semblance of shade here. Granted it is slight and does 
+not fully block the sun. The smell of water is in the air, or is it a 
+figment of imagination? The smell is strong enough to literally taste. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4403
+D1
+~
+~
+0 -1 4409
+D2
+~
+~
+0 -1 4413
+D3
+~
+~
+0 -1 4407
+S
+#4409
+Shifting Sands~
+~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4404
+D1
+~
+~
+0 -1 4410
+D2
+~
+~
+0 -1 4414
+D3
+~
+~
+0 -1 4408
+S
+#4410
+Shifting Sands~
+~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun literally baking the ground 
+beneath it. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4405
+D2
+~
+~
+0 -1 4415
+D3
+~
+~
+0 -1 4409
+S
+#4411
+Shifting Sands~
+~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. The sun lifting higher in the sky to bake 
+the very ground it rests above. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4406
+D1
+~
+~
+0 -1 4412
+D2
+~
+~
+0 -1 4416
+S
+#4412
+Shifting Sands~
+~
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. Rumbling deep under the sand is violent 
+enough at times various sand dunes are flattened. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4407
+D1
+~
+~
+0 -1 4413
+D2
+~
+~
+0 -1 4417
+D3
+~
+~
+0 -1 4411
+S
+#4413
+Shifting Sands~
+~
+Deep rumblings, shifting sands, falling dunes. Flat, scorching sand 
+leading everywhere. Not a drop of shade anywhere, nor water. A slight 
+rumbling can be felt upon occasion. The heat lifts in shimmering waves 
+from the sand. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4408
+D1
+~
+~
+0 -1 4414
+D2
+~
+~
+0 -1 4418
+D3
+~
+~
+0 -1 4412
+S
+#4414
+Shifting Sands~
+~
+Towering dunes offer some small shade from the unrelenting heat. Flat, 
+scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4409
+D1
+~
+~
+0 -1 4415
+D2
+~
+~
+0 -1 4419
+D3
+~
+~
+0 -1 4413
+S
+#4415
+Shifting Sands~
+~
+The sand butts up against solid rock here. Towering walls of obsidian loom 
+skyward beyond normal sight. The sand is still scorched and steaming from 
+the sun. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4410
+D2
+~
+~
+0 -1 4420
+D3
+~
+~
+0 -1 4414
+S
+#4416
+Shifting Sands~
+~
+Is that a tree up ahead? A shimmer or water? No, it was just a mirage. 
+Flat, scorching sand leading everywhere. Not a drop of shade anywhere, nor 
+water. A slight rumbling can be felt upon occasion. The heat lifts in 
+shimmering waves from the sand. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4411
+D1
+~
+~
+0 -1 4417
+S
+#4417
+Shifting Sands~
+~
+There is a smell of water in the air. The tangy taste of salt can be felt 
+upon the tongue. The rumbling is fainter here, almost as if there is a 
+haven nearby. The sun baking relentlessly down upon the sands, cooking 
+anything it comes in contact with for more than a minute. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4412
+D1
+~
+~
+0 -1 4418
+D3
+~
+~
+0 -1 4416
+S
+#4418
+Shifting Sands~
+~
+Sparkling small particles litter the ground. Giving off a slight radiance 
+when the sun touches it. The smell grows stronger, the one of salvation if 
+it can be found. There, over that dune. It looks like, could it be? A 
+tree? Mirage, hallucination, or truth? 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4413
+D1
+~
+~
+0 -1 4419
+D3
+~
+~
+0 -1 4417
+S
+#4419
+Shifting Sands~
+~
+Sparkling small particles litter the ground. Giving off a slight radiance 
+when the sun touches it. The smell grows stronger, the one of salvation if 
+it can be found. There, over that dune. It looks like, could it be? A 
+tree? Mirage, hallucination, or truth? One more step will tell the tale. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4414
+D1
+~
+~
+0 -1 4420
+D3
+~
+~
+0 -1 4418
+S
+#4420
+Oasis~
+~
+Finally, some shade! The palm trees sway gently when the highest winds 
+buffet the area. A quiet hissing can be heard faintly, giving credence to 
+the rumors of a giant snake somewhere nearby. 
+~
+1 103817216 10
+D0
+~
+~
+0 -1 4415
+D3
+~
+~
+0 -1 4419
+R O 0 4401 1 4420
+R O 0 4402 1 4420
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -992,7 +992,7 @@ a long handled knife~
 A long handled knife has been left here.~
 ~
 5 0 8193
-0 3 10 1 2 0 0
+0 5 15 1 2 0 0
 2 89 8
 4
 8
@@ -1665,7 +1665,7 @@ D1
 D2
 ~
 door~
-9 18606 18610
+15 18606 18610
 D3
 ~
 ~
@@ -1728,7 +1728,7 @@ are a series of blue globes that cast a light along the ceiling.
 D0
 ~
 door~
-1 18606 18607
+3 18606 18607
 D2
 ~
 ~
@@ -1740,7 +1740,7 @@ D4
 D5
 ~
 cellar door~
-1 18612 18619
+7 18612 18619
 R M 0 18604 1 18610
   R G 0 18607 1
 R D 0 18610 0 1
@@ -1929,7 +1929,7 @@ D3
 D4
 ~
 cellar door~
-1 18612 18610
+3 18612 18610
 R M 0 18609 3 18619
   R E 0 18615 1 17
   R E 0 18618 1 16
@@ -2376,7 +2376,7 @@ D2
 D3
 ~
 bookcase~
-2049 -1 18644
+2051 -1 18644
 R M 0 18615 1 18643
   R E 0 18634 1 17
   R E 0 18635 1 6

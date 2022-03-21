@@ -1,0 +1,985 @@
+#AREA        School of Shadow's Catacombs~
+
+
+
+#VERSION     11
+#AUTHOR      Ivor~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+90 100 90 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &CThe runes being to pulsate, then subside.~
+
+#FLAGS
+1476
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#35651
+Shadowlord Iufn~
+Shadowlord Iufn~
+Shadowlord Iufn stands here 
+~
+The Shadowlord Iufn stands fairly tall, with a long greying beard, and
+long greying hair.  His eyes glow a blood red while his skin has turned
+a dull white color.  His armor stands out with an almost black glow radiating
+from it.  
+~
+1
+Clanname none~
+0
+0
+131107 373293184 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 18 0 0 1 1 0
+0 0 14 0 0 0 1107301361 524291
+> death_prog 100~
+if quest(scale) == 3
+     mpechoat $n &C You defeated Iufn!
+   mpquest $n scale 4
+endif
+~
+> fight_prog 30~
+mpechoat $n You will never defeat me, you are weak and foolish!
+mppause 3
+mpechoat $n Shadowlord Iufn slashes you across the face with his blade!
+mpdamage $n 500
+~
+|
+#35652
+wrapped mummy ~
+wrapped mummy~
+A mummy wrapped in bandages is here
+~
+The form of this being is completed enshrouded in bandages giving very little
+information as to what this undead once was before it was awakened from its 
+peaceful slumber to server the orders of a higher being.
+~
+1
+Clanname none~
+0
+0
+33 268435584 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 97 0 0 0 257 3
+#35653
+ravaging ghoul~
+ravaging ghoul~
+A ravaging ghoul wanders here.
+~
+Having been dead for an unknown amount of time this ghoul has barely 
+any skin left upon its rotting torso.  It has only mostly rotted cloths
+which to say the least only barely cloths its rotted chest. 
+~
+1
+Clanname none~
+0
+0
+33 268435584 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 97 0 0 0 257 3
+#35654
+decaying lich~
+decaying lich~
+A decaying lich stands here
+~
+The smell from this once proud sorcerer of old is almost enough to knock anyone
+over.  Barely any flesh remains upon this decaying body.  tiny bits of hair can be
+seen from the top if its head.  Rather long finger nails protrude from the dead
+fingers of his hands. 
+~
+1
+Clanname none~
+0
+0
+1 369098880 -1000 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 51 9
+#35700
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#35651
+sarcophagus iufn~
+sarcophagus iufn~
+The sarcophagus of Iufn rests here~
+~
+12 0 0
+2 0 1 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+sarcophagus ~
+You see standing on top of this sarcophagus a tall, and hansome looking
+older man.  A crown adoring his head, with a rather large staff held in
+his right hand.  The carvings upon the sarcophagus read 'Iufn our proud
+and heroic leader was killed in the fight to stop the taking of the school
+His death will be remembered for all times.
+~
+#35652
+jeweled anklet~
+jeweled anklet~
+A beautifully crafted anklet bejeweled with rubies, and emeralds rests here~
+~
+9 524291 2097153
+60 60 0 0 0 90 0
+1 266 26
+1
+3
+0
+0
+0
+0
+S 77 0
+E
+anklet~
+This anklet looks to have been crafted from a bar of gold.  Then after
+the gold was carved rubies, and emeralds where added upon it to make
+it look even more beautiful
+~
+A
+13 100
+A
+12 100
+A
+4 3
+A
+3 3
+#35653
+silver bracelet~
+a silver bracelet~
+A bracelet is here glinting a silvery color~
+~
+9 524291 4097
+60 60 0 0 0 90 0
+1 343 34
+1
+10
+0
+0
+0
+0
+S 77 0
+E
+desc~
+This bracelet has been carved from what looks like a solid piece of
+silver.  It has beautiful looking carved diamonds covering the entire
+surface. From all angles you see diamonds glinting.
+~
+E
+This bracelete has been carved~
+This bracelet has been carved from what looks like a solid piece of
+silver.  It has beautiful looking carved diamonds covering the entire
+surface. From all angles you see diamonds glinting.
+~
+E
+look~
+(null)~
+E
+bracelet~
+This bracelet has been carved from what looks like a solid piece of
+silver.  It has beautiful looking carved diamonds covering the entire
+surface. From all angles you see diamonds glinting.
+~
+A
+13 50
+A
+12 150
+A
+18 5
+A
+19 5
+#35654
+diamond necklace~
+a diamond necklace~
+A beautiful diamond necklace lies here~
+~
+9 524291 5
+60 60 0 0 0 90 0
+1 248 24
+1
+9
+0
+0
+0
+0
+S 77 0
+E
+necklace~
+This necklace is laced together rather large pearls on a string of 
+pure gold.  There are diamonds of various sizes embedded into the pearls.
+~
+A
+13 75
+A
+12 100
+A
+3 3
+A
+18 5
+A
+19 5
+#35655
+bloody chapeau~
+a bloody chapeau~
+Some god dropped a newly created bloody chapeau here.~
+~
+9 0 17
+60 60 0 0 0 90 0
+1 247 32
+1
+3
+0
+0
+0
+0
+S 77 0
+E
+chapeau~
+This chapeau appears that at one point it was totally drenched in
+blood.  As the dried blood now covered the entire surface of it.
+~
+A
+13 100
+A
+12 100
+A
+3 3
+A
+18 5
+A
+19 5
+#35656
+shadowblade sword~
+the Shadowblade~
+A blade of pure shadow lies here writhing~
+~
+5 524291 8193
+0 45 90 1 1 90 0
+1 223 22
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+shadowblade~
+The blade appears to be made of a substance that resembles at the least
+if it is not a living shadow itself.  The blade writhes as you look upon
+it almost as a living presence.
+~
+A
+18 10
+A
+19 10
+A
+13 100
+A
+1 3
+A
+5 3
+#35657
+silken belt~
+a silken belt~
+A belt made of the purest silk lies here~
+~
+9 262147 2049
+60 60 0 0 0 90 0
+1 312 31
+1
+2
+0
+0
+0
+0
+S 77 0
+E
+belt~
+the belt appears to be made of the best silk.  Where as it is not as
+beautiful as it once was from the long use it still gives off a
+glow that shows it has more to offer then a normal belt.
+~
+A
+13 100
+A
+12 100
+A
+18 5
+A
+19 5
+#35658
+silken arm guard~
+silken arm guard~
+A lovely crafted arm guards made of pure silk rest here~
+~
+9 3 257
+60 60 0 0 0 90 0
+1 257 25
+1
+2
+0
+0
+0
+0
+S 77 0
+E
+belt~
+the belt appears to be made of the best silk.  Where as it is not as
+beautiful as it once was from the long use it still gives off a
+glow that shows it has more to offer then a normal belt.
+~
+A
+13 100
+A
+12 100
+A
+18 5
+A
+19 5
+#35700
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#35651
+Beneath the fountain~
+~
+A foul stench of death fills the air in this room.  Dust covers all
+within the room in a deep blanket of grey.  Unlit torches line the 
+walls on all four corners.  The floor looks to be made of some kind 
+of stone that is not determinable with the amount of dust.
+~
+1 0 0
+D2
+~
+~
+0 -1 35652
+D4
+~
+~
+8389671 35608 35624
+R D 0 35651 4 2
+S
+#35652
+Beginning of the Catacombs~
+~
+Lining all corners of the walls within this room are many coffins, and
+sarcophaguses.  Each of them seem to have been undisturbed as the dust
+on top of them appears to be equal to the rest of the room.  The dust 
+covering the floor has no foot prints or any other sign of entry into
+this catacomb since it began to collect.
+~
+1 0 0
+D0
+~
+~
+0 -1 35651
+D2
+~
+~
+0 -1 35653
+S
+#35653
+Within the Catacombs~
+~
+More sarcophaguses line the walls, and even extend to the center of
+the floor.  Almost the entire room is filled with them.  The walls 
+within this room appear to be less smooth then the first walls seen
+in the previous rooms like less care was taken.
+~
+1 4 0
+D0
+~
+~
+0 -1 35652
+D2
+~
+~
+0 -1 35654
+S
+#35654
+Continuing within the Catacombs~
+~
+The walls within this room appear to be rougher then the previous rooms
+almost as if even less care was taken in preparing this room for the 
+inhabitants then in other rooms seen so far.  Less torches line the 
+walls in this room then previous rooms as well.
+~
+1 4 0
+D0
+~
+~
+0 -1 35653
+D2
+~
+~
+0 -1 35655
+S
+#35655
+Decorated Catacombs~
+~
+The walls are lined in what looks to be gold.  The floor is tiled in
+what looks to be marble.  No dust is seen anywhere within this room.
+A large sarcophagus sits in the middle of the room.  On the top of 
+the sarcophagus sits a plaque that reads 'In memory of Iufn'
+~
+1 4 0
+D0
+~
+~
+0 -1 35654
+D5
+~
+sarcophagus~
+8391719 35608 35656
+R O 0 35651 1 35655
+R D 0 35655 5 2
+S
+#35656
+Under the sarcophagus~
+~
+&CJust under the sarcophagus is found a whole separate part of the 
+catacombs that many others might not know about. This room does not appear 
+to be decorated, not does this room appear to have been carved at all. The 
+rough walls of this room show that there was no time taken in the 
+preparation. There also seems to be no torches, nor any other kind of 
+light pre-placed. 
+~
+1 1 0
+D2
+~
+~
+0 -1 35657
+D4
+~
+sarcophagus~
+8389671 35608 35655
+R M 0 35652 5 35656
+R D 0 35656 4 2
+S
+#35657
+Unknown Catacombs~
+~
+The walls, ceiling, and floors of this room appear to be covered in
+some kind of moss.  The room itself appears to be nothing more then
+a hallway to get from one room to another.  A light is seen up ahead.
+~
+1 1 0
+D0
+~
+~
+0 -1 35656
+D2
+~
+~
+0 -1 35658
+R M 0 35653 6 35657
+S
+#35658
+Walking the hallway~
+~
+&CA light seen shining brightly up ahead seems to be getting slightly 
+closer as the hallway gets shorter. The walls, ceiling, and floor in this 
+room are also covered in the strange moss that appears to be thickly 
+attached. 
+~
+1 1 0
+D0
+~
+~
+0 -1 35657
+D2
+~
+~
+0 -1 35659
+R M 0 35654 5 35658
+S
+#35659
+A shiny room~
+~
+&CIn the middle of this room sits a rather large looking circular object 
+that is letting our a huge amount of light. This light is almost so bring 
+that it blinds. To the south movement can be heard. 
+~
+1 4 0
+D0
+~
+~
+0 -1 35658
+D2
+~
+~
+0 -1 35660
+R M 0 35653 6 35659
+  R E 0 35654 1 3
+S
+#35660
+Unwanted attention~
+~
+This room is full of many different sarcophaguses that line the walls
+and every inch of floor in the center of the room. This sarcophaguses
+unlike the ones previously seen have been opened and are empty of what
+was within them.  
+~
+1 1 0
+D0
+~
+~
+0 -1 35659
+D2
+~
+~
+0 -1 35661
+R M 0 35652 5 35660
+  R E 0 35652 1 24
+S
+#35661
+Aggressive actions~
+~
+This room is filled with sarcophaguses of all types of sizes, and shapes.
+Many different types of ancient treasures are also seen half rotten, and
+decayed laying about within the room.  This sarcophaguses have also been
+opened at some point.  Dust on the floor show many tracks.
+~
+1 1 0
+D0
+~
+~
+0 -1 35660
+D2
+~
+~
+0 -1 35662
+R M 0 35653 6 35661
+  R E 0 35654 1 3
+S
+#35662
+Gateway of the Catacomb~
+~
+This room looks to be nothing more then a gateway into multiple rooms
+that can be accessed through the different doors around the room.  Freshly
+lit torches line the walls, and on all four corners of the room.
+~
+1 1 0
+D0
+~
+~
+0 -1 35661
+D1
+~
+~
+0 -1 35665
+D2
+~
+~
+0 -1 35664
+D3
+~
+~
+0 -1 35663
+R M 0 35654 5 35662
+  R E 0 35653 1 14
+  R E 0 35655 1 6
+S
+#35663
+Catacomb continues~
+~
+A line of sarcophaguses follow along side the wall as this hallway
+moves towards the westward direction.  Torches have been placed at
+a differing interval.  The sarcophaguses that are seen also appear
+to have been opened at some point in the not to distant past.
+~
+1 1 0
+D1
+~
+~
+0 -1 35662
+D3
+~
+~
+0 -1 35666
+R M 0 35654 5 35663
+  R E 0 35653 1 14
+  R E 0 35655 1 6
+S
+#35664
+Prayer Chambers~
+~
+The four walls of this room have been covered in what appears to be
+many glowing runes.  The meaning of each rune is not apparent to just
+a quick glance.  The gigantic circle in the middle of the room with 
+A humanoid body dismembered and spread about the circle with blood
+also being used to add runes to the center of the circle would leave
+a guess that this circle was not made for a good reason.
+~
+1 1 0
+D0
+~
+~
+0 -1 35662
+S
+#35665
+Sarcophagi Abound~
+~
+Sarcophaguses cover the entirety of this room. Each and every one of them, 
+however, have been freshly opened. Many tracks are seen in what little bit 
+of the floor was allowed to be used for movement. 
+~
+1 1 0
+D3
+~
+~
+0 -1 35662
+S
+#35666
+Line of sarcophagi~
+~
+The progression of sarcophaguses continue along side the walls as
+they both run the length of this room.  The sarcophaguses within this
+room as with the previous room have been disturbed.  Feet prints litter
+the ground of this room showing massive activity within.
+~
+1 1 0
+D1
+~
+~
+0 -1 35663
+D3
+~
+~
+0 -1 35667
+R M 0 35652 5 35666
+  R E 0 35652 1 24
+S
+#35667
+End of the line~
+~
+The line of The progression of sarcophaguses end in this room.  These
+sarcophaguses as all the rest have been opened, and what was once within
+are no longer there.  It would appear that allot of the bodies that where
+once housed within have been moved to a new location, or worse.
+~
+1 1 0
+D1
+~
+~
+0 -1 35666
+D3
+~
+~
+0 -1 35669
+R M 0 35653 6 35667
+  R E 0 35654 1 3
+S
+#35668
+North eastern corner of the lower Catacombs~
+~
+The walls that make up the north-eastern corner of the lower catacombs
+are lighted with multiple torches.  The ground just below the torches
+where as is still covered with dust, and dirt is also littered with
+many different tracks.  A circular rune glowing a faint green can be seen.
+~
+1 1 0
+D2
+~
+~
+0 -1 35669
+D3
+~
+~
+0 -1 35673
+D9
+~
+~
+0 -1 35674
+R M 0 35653 6 35668
+  R E 0 35654 1 3
+S
+#35669
+Eastern corner of the lower Catacombs~
+~
+In the middle of the area sits a single sarcophagus slightly up raised
+upon a pedestal.  Special carvings seem to have been at one point written
+upon it.  Over time however they seem to have faded until barely any
+of the once powerful runes are visible.
+~
+1 1 0
+D0
+~
+~
+0 -1 35668
+D1
+~
+~
+0 -1 35667
+D2
+~
+~
+0 -1 35670
+D3
+~
+~
+0 -1 35672
+R M 0 35653 6 35669
+  R E 0 35654 1 3
+S
+#35670
+South Eastern corner of the lower Catacombs~
+~
+This corner of the room is covered from top to bottom of the wall
+ceiling, and floors with many runes.  From what can be seen no rune
+is repeated, and there is uncountable amounts of runes within this area
+There is however one rune in the corner of this room glowing a faint yellow
+~
+1 1 0
+D0
+~
+~
+0 -1 35669
+D3
+~
+~
+0 -1 35671
+D7
+~
+~
+0 -1 35674
+R M 0 35652 5 35670
+  R E 0 35652 1 24
+S
+#35671
+South Western corner of the lower Catacombs~
+~
+Upon the floor carved into the very stone that was once carved to 
+create this corner is a rather large circle rune.  The rune seems to
+be glowing a faint purple then shifting to a faint pink color.
+~
+1 1 0
+D0
+~
+~
+0 -1 35672
+D1
+~
+~
+0 -1 35670
+D6
+~
+~
+0 -1 35674
+R M 0 35652 5 35671
+  R E 0 35652 1 24
+S
+#35672
+Western corner of the lower Catacombs~
+~
+This part of the lost catacombs appears to have multiple runes like
+the rather larger rune seen to the south.  The runes upon this floor
+are the same as the larger one however there are four of them set
+at each of the ends of this room.  Each of these glow a faint blue.
+~
+1 1 0
+D0
+~
+~
+0 -1 35673
+D1
+~
+~
+0 -1 35669
+D2
+~
+~
+0 -1 35671
+R M 0 35654 5 35672
+  R E 0 35653 1 14
+  R E 0 35655 1 6
+S
+#35673
+North western corner of the lower Catacombs~
+~
+Within this small part of the lost catacombs is housed dozens of 
+coffins and other types of burial devices and mounds of bones 
+buried beneath piles of stones.  A rune at the corner of this room 
+glows a very faint rainbow color. glowing red, yellow, green, and purple.
+~
+1 1 0
+D1
+~
+~
+0 -1 35668
+D2
+~
+~
+0 -1 35672
+D8
+~
+~
+0 -1 35674
+R M 0 35654 5 35673
+  R E 0 35653 1 14
+  R E 0 35655 1 6
+S
+#35674
+Middle of the Runes~
+~
+Runes cover the floor of this area. Colors and shapes of all tpes litter 
+the entire area glowing, and pulsating. The room begins to glow in a 
+rainbow type color as the runes begin to emit the colors each has in a 
+more profound way. The multiple streams of colored light begin to shine 
+there ways upwards towards the ceiling. The ceiling does not appear to 
+line up seams properly. 
+~
+1 4 0
+D4
+~
+~
+8391719 35608 35675
+D6
+~
+~
+0 -1 35668
+D7
+~
+~
+0 -1 35673
+D8
+~
+~
+0 -1 35670
+D9
+~
+~
+0 -1 35671
+R D 0 35674 4 2
+S
+#35675
+Summoning room~
+~
+The array of colors from the bottom room seem to be making there way
+up to this one.  Totally encompassing the entire room and bathing it 
+in a brilliantly flashing rainbow light.  The rainbow light slowly 
+turns to one of total blackness.  An evil feeling fills the room as
+as the light continues to pulsate.
+~
+1 0 0
+D5
+~
+~
+8389671 35608 35674
+R M 0 35651 1 35675
+  R E 0 35656 1 16
+  R E 0 35657 1 13
+  R E 0 35658 1 10
+R D 0 35675 5 2
+S
+#35679
+Floating in a void~
+~
+~
+1 4 1
+S
+#35700
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  35654 spec_cast_mage
+S
+
+
+#$

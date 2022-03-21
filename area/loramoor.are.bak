@@ -1,0 +1,2398 @@
+#AREA        Loramoor City of the Trees~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       Elf~
+#DESC        ~
+
+#RANGES
+30 50 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG A horn blows signifying the start of the hunt.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999660 999999276 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#31600
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31601
+elf elven carriage operator Gaedan~
+Carriage Operator Gaedan~
+An elven carriage operator stands at the ready.
+~
+The operator is very slender and is wearing green leather armor.
+~
+0
+Clanname none~
+0
+0
+67239939 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#31602
+elf master of arms Taesor~
+Taesor~
+An elven Master of Arms is giving lessons here.
+~
+The master of arms is muscular for an elf.  He has blond hair and blue eyes.
+~
+1
+Clanname none~
+0
+0
+1073873923 0 0 C
+40 0 0 2d200+10000 3d4+4
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 48 3
+#31603
+elf blacksmith Ranar~
+Blacksmith Ranar~
+An elven blacksmith is working with his anvil here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 0 0 C
+30 0 0 2d100+30000 2d5+3
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 48 3
+#31604
+elf armorer truloc~
+Truloc~
+An elven armorer is selling his wares here.
+~
+~
+1
+Clanname none~
+0
+0
+1073872899 8192 0 C
+30 0 0 1d100+20000 2d5+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 48 524290
+#31605
+elf Launna~
+Launna~
+A female elven shopkeeper is selling herbs here.
+~
+This female of the elven species is busy about her shop. She does however have time for any customer that wishes to admire her plants. With her hair tied back up in a tight bun to keep it out of the way she is considered quite a beauty with her long neck and fair skin.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &CLaunna says, 'Welcome to my shop.'&D
+~
+|
+#31606
+elf banker Trustlow~
+Banker Trustlow~
+An elderly elven banker is standing here.
+~
+Slender yet somewhat stooped due to his age this elf is busy. Wearing well tailored clothing and looking quite distinguished he's more than willing to take care of your banking needs.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+30 0 0 2d100+20000 2d6+3
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 9 0 0 0 48 2
+> all_greet_prog 100~
+mppause 5
+mpechoat $n &CBanker Trustlow says, 'Welcome to the Bank of Loramoor.'&D
+~
+|
+#31607
+elf shop outfitter Gaergarrs~
+Outfitter Gaergarrs~
+An elven outfitter is displaying his wares here.
+~
+This middle aged elf is festidious and fussy as he moves about his shop. With slightly more pointy ears than others of his kind and a vest lined with many pockets his gracious behavior is a staple of the elven community.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+30 0 0 2d100+20000 2d4+2
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 41 0 0 0 48 1
+> all_greet_prog 100~
+if iscarrying($n) == 31620
+  mpechoat $n &COutfitter Gaergarrs says, 'Hello there.'&D
+  mppause 8
+  mpechoat $n &COutfitter Gaergarrs says, 'I have a shipment of elven ale for the Narcista.'&D
+  mppause 3
+  mpechoat $n &COutfitter Gaergarrs says, 'I assume from your medallion you're transporting?'&D
+  mppause 2
+  mpechoat $n &COutfitter Gaergarrs says, 'Just &WSAY READY&C if you're ready to receive shipment.'&D
+else
+  mpechoat $n &COutfitter Gaergarrs says, 'Welcome to my shop.'&D
+endif
+~
+> speech_prog ready~
+if iscarrying($n) == 31621
+  frown
+  mppause 3
+  mpechoat $n &COutfitter Gaergarrs says, 'You already have our shipment.'&D
+else
+  peer $n
+  mpoload 31621 1
+  get barrel
+  give barrel $n
+  mppause 8
+  mpechoat $n &COutfitter Gaergarrs says, 'Take this back to that sailor Tybias.'&D
+endif
+~
+|
+#31608
+elf priestess Shalandra~
+Priestess Shalandra~
+A beautiful elven priestess is standing before you.
+~
+Slender yet quite imposing nonetheless. In priestly robes and with a devout demeanor she's willing to help any those who come by and need it.
+~
+1
+Clanname none~
+0
+0
+1073872899 4194304 0 C
+100 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if iscarrying($n) == 10004
+  mpechoat $n &CShalandra says, 'Well my friend...'&D
+  mppause 6
+  mpechoat $n &CShalandra says, 'On an errand for Sailors of Narcista?'&D
+  mppause 8
+  mpechoat $n &CShalandra says, 'I will do my part...'&D
+  mppause 18
+  mpechoat $n &CShalandra says, 'Give me the medallion, and I will tell you the third task.'&D
+else
+  if iscarrying($n) == 10002
+    if iscarrying($n) == 10003
+      mpechoat $n &cConnect the first and second halves of the Medallion.  Leave and come back to proceed.
+    endif
+  endif
+endif
+~
+> act_prog p gives you the Medallion of Narcista.~
+mppause 2
+mpechoat $n &CShalandra says, 'Well my, my, my...'&D
+mppause 8
+mpat 4 drop all
+mpechoat $n &BShalandra utters some arcane words.&D
+mppause 3
+mpechoat $n &YThe Medallion glows suddenly!&D
+mpoload 31620 1
+get medallion
+give medallion $n
+mpquest $n narcista 4
+mppause 6
+mpechoat $n &CShalandra says, 'Now for the third task.'&D
+mppause 7
+mpechoat $n &CShalandra says, 'Head to Gaergarrs Outfitter Shop for a delivery to the Narcista ship.'&D
+~
+> speech_prog 'send the ambassador tonight'~
+mppause 4
+mpechoat $n &CShalandra says, 'Very well...'&D
+mppause 6
+mpechoat $n &CShalandra says, 'I shall do so, thank you.'&D
+mppause 8
+mpechoat $n &CShalandra says, 'Let the Captain know, &WMAELA WILL COME TOO&C.'&D
+~
+> speech_prog 'forgive me'~
+if race($n) == Celestial
+  mppause 3
+  mpechoat $n &CShalandra says, 'Safe be your journey to Heaven!'&D
+  mppause 5
+  mptrans $n 31000
+  mpat 31000 mpforce $n emote arrives in blinding light!
+  mpat 31000 mpforce $n look
+endif
+~
+|
+#31609
+gray wolf~
+a gray wolf~
+A gray wolf is stalking its prey here.
+~
+An impressive creature, this wolf is stalking some prey. The shaggy coat of fur and long snout full of fangs make it a successful hunter.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+6 0 0 1d1+60 0d0+0
+0 0 0 0 10 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+68 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#31610
+buck deer~
+a buck deer~
+A buck deer is skiddishly moving about here.
+~
+Long legs, an impressive rack of antlers and a timid attitude make this buck unmistakable. While the breed is fairly skittish this creature in particular seems to be one of the more confident ones.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+6 0 0 1d1+50 0d0+0
+0 0 0 0 5 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 67108864 0 0 0 32 0
+#31611
+black bear~
+a black bear~
+A black bear lumbers along here.
+~
+This blocky specimen of a bear is shaggy and heavily furred. The elves must watch over the animals here because he almost looks like he's recently had a bath, though he could have just been swimming.
+~
+0
+Clanname none~
+0
+0
+1073872897 0 0 C
+6 0 0 1d1+55 0d0+0
+0 0 0 0 20 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 33 0 0 0 3 0
+#31612
+large badger~
+a large badger~
+A large badger is standing here.
+~
+Usually ill tempered this overgrown badger seems pretty tame. Black and brown fur add a certain distinguishing appearance to this squat mammal.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+6 0 0 1d1+50 0d0+0
+0 0 0 0 4 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 1 1 0
+0 0 32 0 0 0 1 0
+#31613
+gryphon~
+a gryphon~
+A mighty gryphon that has been saddled stands here.
+~
+This large beast is a marvel of creation. A mixture of both lion and eagle it has the best of both animals. It is also apparently been tamed and put into service as a high class form of transportation.
+~
+0
+Clanname none~
+0
+0
+67108865 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog paleon~
+mppause 3
+mpecho &GThe gryphon screeches a lound wail!
+mppause 4
+mpecho &GThe mighty gryphon spreads his wings, and takes to the air!
+mppause 6
+mptrans $n 16007
+mppause 3
+mpat $n mpecho &GA mighty gryphon lands on the ground dropping off a rider.
+mppause 2
+mpat $n mpforce $n look
+mppause 2
+mpat $n mpecho &GA mighty gryphon with a gust of wind takes to the air.
+~
+> speech_prog manoake~
+mppause 3
+mpecho &GThe gryphon screeches a lound wail!
+mppause 4
+mpecho &GThe mighty gryphon spreads his wings, and takes to the air!
+mppause 6
+mptrans $n 31333
+mppause 3
+mpat $n mpecho &GA mighty gryphon lands on the ground dropping off a rider.
+mppause 2
+mpat $n mpforce $n look
+mppause 2
+mpat $n mpecho &GA mighty gryphon with a gust of wind takes to the air.
+~
+> speech_prog rider~
+mppause 5
+mpecho &GThe mighty gryphon moves around restlessly awaiting a destination location comand.
+~
+> speech_prog dakar~
+mppause 3
+mpecho The gryphon screeches a lound wail!
+mppause 4
+mpecho The mighty gryphon spreads his wings, and takes to the air!
+mppause 6
+mptrans $n 11210
+mppause 3
+mpat $n mpecho A mighty gryphon lands on the ground dropping off a rider.
+mppause 2
+mpat $n mpforce $n look
+mppause 2
+mpat $n mpecho A mighty gryphon with a gust of wind takes to the air.
+~
+> speech_prog forbidden~
+mppause 3
+mpecho The gryphon screeches a lound wail!
+mppause 4
+mpecho The mighty gryphon spreads his wings, and takes to the air!
+mppause 6
+mptrans $n 35515
+mppause 3
+mpat $n mpecho A mighty gryphon lands on the ground dropping off a rider.
+mppause 2
+mpat $n mpforce $n look
+mppause 2
+mpat $n mpecho A mighty gryphon with a gust of wind takes to the air.
+~
+|
+#31614
+elf handler~
+an elf handler~
+An elven gryphon handler is standing here.
+~
+Tall, slender, and somewhat older, this particular elf must enjoy his job. Garbed in rough, yet well-made leathers he pays close attention to his charges.
+~
+1
+Clanname none~
+0
+0
+67239939 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog ready~
+mppause 3
+mpopenpassage 31632 31633 3
+mppause 3
+mpechoat $n &cAn elf handler escorts you onto the gryphon steed.&D
+mpforce $n w
+mppause 4
+mpat $n mpechoat $n &CAn elf handler says, 'May the creator grant the rider safe travels.'&D
+mpclosepassage 31632 3
+~
+> all_greet_prog 100~
+mppause 3
+mpechoat $n &CAn elf handler says, 'Greetings...'&D
+mppause 5
+mpechoat $n &CAn elf handler says, 'If your here to travel on a gryphon, just type &WSAY READY&C, and tell the gryphon the name of the homeland you wish to travel too.'&D
+~
+|
+#31615
+ghost elven spirit~
+a newly created ghost elven spirit~
+Some god abandoned a newly created ghost elven spirit here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4292610 0 C
+105 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from above.~
+if ispc($n)
+  mpechoat $n &cYou're falling down...
+  mpforce $n d
+  mpat $n mpdamage $n 2
+  mpat $n mpechoat $n &ROUCH!  You hit the ground!
+endif
+~
+|
+#31616
+elven maiden sil'thalas~
+Sil'thalas~
+An elven maiden looking alert stands here.
+~
+Sil'thalas is an elven maiden living in Loramoor City. She occasionally 
+travels to Paleon for business. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Tales of the Sidhe'~
+blush
+mpechoat $n &CSil'thalas says, 'My yes, that was an enthralling book.'&D
+mpechoat $n &CSil'thalas says, 'I can't believe I forgot to return it.'&D
+mppause 2
+if iscarrying($n) == 4661
+  smile
+else
+  mpoload 4661
+  give book $n
+endif
+~
+|
+#31617
+Marcus elf ~
+Marcus the Elf~
+A young male elf is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+131139&64 138412072 0 C
+50 0 0 0d0+2500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 112 3
+> all_greet_prog 100~
+if quest(paleon) == 3
+  mppause 2
+  vis
+  mpechoat $n &CMarcus says, 'Hold there friend.  What brings you to this forest?
+  mpechoat $n &CSeeking the Royal Magician Kolak for a friend?  That is mighty noble
+  mpechoat $n &Cof you.  However, he is not here.  This was a test to see if you had
+  mpechoat $n &Cthe values necessary to be a citizen of Paleon.  Congratulations you
+  mpechoat $n &Cpassed.  Now find Captain Karnae in Paleon and tell him &WCITIZEN&C to 
+  mpechoat $n &Clearn more.'
+  mppause 20
+  mpquest $n paleon 7
+  mpcity $n 'Paleon City'
+endif
+if quest(alliance) == 3
+  mppause 2
+  vis
+  mpechoat $n &CMarcus says, 'Hello there.'&D
+  mppause 8
+  mpechoat $n &CMarcus says, 'Blade Master Symon said you would be coming.'&D
+  mppause 6
+  mpechoat $n &CMarcus says, 'You have proven yourself worthy to be in the Alliance.'&D
+  mppause 3
+  mpinduct $n
+  mpquest $n alliance 4
+endif
+~
+|
+#31618
+fishy magic~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4259842 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if race($n) != elf
+  mppause 2
+  mpechoat $n &cA strong sense of foreboding fills you as you approach the ancient forest!&D
+endif
+~
+|
+#31619
+elven noble elf~
+an elven noble~
+An elven noble is standing here.
+~
+Dressed in a while flowing robe, the noble elf stands with a air of nobility.
+Walking around with a slender nose in the air, this elf is definately of higher social class. Clothed in garb that would not be suitable for the forest and obviously well groomed from pointy ears down to the toes.
+~
+1
+Clanname none~
+0
+0
+1 0 1000 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 41 0 0 0 368 524291
+#31620
+elven warrior elf~
+an elven warrior~
+An elven warrior is standing guard here.
+~
+Taller than most elves and more muscular this elf is otherwise quite generic.
+~
+1
+Clanname none~
+0
+0
+131075 0 1000 C
+52 0 0 0d0+2300 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 41 0 0 0 368 524291
+#31800
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 4259842 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if race($n) == elf
+or clan($n) == Alliance
+else
+mpechoat $n &cThe air sizzles as a wave of heat burns you for entering the elven forest unbidden!
+mpdamage $n 10
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#31600
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#31601
+small wooden lever~
+a small wooden lever~
+A small wooden lever is attached to the base of wooden platform.~
+~
+37 0 0
+0 0 0 0 0 0 0
+30000 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+> pull_prog 100~
+mppause 3
+mpecho The sound of gears turning comes from above.
+mppause 20
+mpecho A wooden carriage coming from above you lands next to the platform.
+mpmload 31601 20
+mppause 8
+mpecho _lb Carriage Operator Gaedan says 'Greetings my friend,
+mpecho _lb Watch your step onto the carriage.' 
+mppause 6
+mpforce operator emote pulls a rope in the carriage.
+mppause 2
+mpecho The sound of gears turning comes from above.
+mppause 4
+mpechoat $n You feel yourself rise into the air on the carriage.
+mppause 6
+mpechoat $n &wNext to the Trunk of an Ancient Tree
+mpechoat $n &WExits: down.&D
+mppause 8
+mptrans $n 31603
+mpat $n mpecho The carriage comes to a halt at a wooden platform.
+mppause 2
+mpat $n mpforce $n look
+mpat operator mptrans operator 4
+~
+> push_prog 100~
+mppause 2
+mpecho The lever seems to catch, and is ready now to be pulled.
+~
+|
+#31602
+small wooden lever~
+a small wooden lever~
+A small wooden lever is attached to the base of a wooden platform.~
+~
+37 1073741824 0
+0 0 0 0 0 0 0
+30000 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+> pull_prog 100~
+mppause 3
+mpecho The sound of gears turning fills your ears.
+mppause 20
+mpecho A wooden carriage coming from below you stops next to the platform.
+mpmload 31601 20
+mppause 8
+mpecho _lb Carriage Operator Gaedan says 'Greetings my friend,
+mpecho _lb Watch your step onto the carriage.'
+mppause 6
+mpforce operator emote pulls a rope in the carriage.
+mppause 2
+mpecho The sound of gears turning fills your ears.
+mppause 4
+mpechoat $n You feel yourself fall downward on the carriage.
+mppause 6
+mpechoat $n &wNext to the Trunk of an Ancient Tree
+mpechoat $n &WExits: down.&D
+mppause 8
+mptrans $n 31600
+mpat $n mpecho The carriage comes to a halt at a wooden platform.
+mppause 2
+mpat $n mpforce $n look
+mpat operator mptrans operator 4
+~
+> push_prog 100~
+mppause 2
+mpecho The lever seems to catch, and is ready now to be pulled.
+~
+|
+#31603
+elven blade long sword~
+an elven blade long sword~
+A well crafted iron sword has been left here.~
+~
+5 0 8193
+10 3 10 1 1 8 1
+6 10 1
+2
+8
+0
+0
+0
+0
+S 0 0
+#31604
+elven blade dagger~
+an elven blade dagger~
+A well crafted iron dagger has been left here.~
+~
+5 0 8193
+10 3 10 2 2 8 1
+3 5 0
+2
+8
+0
+0
+0
+0
+S 0 0
+#31605
+elven wooden long bow~
+an elven wooden long bow~
+A handcrafted wooden long bow has been left here.~
+~
+56 0 262145
+10 1 4 6 6 1 1
+3 3 0
+2
+1
+0
+0
+0
+0
+S 0 0
+#31606
+elven chainmail vest~
+an elven crafted chainmail vest~
+A well crafted chainmail vest has been left here.~
+~
+9 0 9
+5 5 0 0 0 8 0
+10 20 2
+2
+8
+0
+0
+0
+0
+S 0 0
+#31607
+elven chainmail leggings~
+an elven crafted chainmail leggings~
+A set of well crafted iron chainmail leggings was left here.~
+~
+9 0 33
+35 35 0 0 0 0 0
+8 5 0
+2
+8
+0
+0
+0
+0
+S 0 0
+#31608
+iron helmet~
+an iron helmet~
+An iron helmet has been left here.~
+~
+9 0 17
+5 5 0 0 0 8 0
+3 2 0
+2
+8
+0
+0
+0
+0
+S 0 0
+#31609
+kings foil weed~
+a packet of kings foil weed~
+A packet of some ugly yellow weeds has been left here.~
+~
+60 0 16385
+10 3 3 3 -1 -1 -1
+1 100 10
+3
+14
+0
+0
+0
+0
+'NONE' 'NONE'
+S 0 0
+#31610
+talkan herb~
+a packet of talkan herb~
+A packet of green foliage has been left here.~
+~
+60 0 16385
+5 3 3 5 -1 -1 -1
+1 30 3
+3
+11
+0
+0
+0
+0
+'NONE' 'NONE'
+S 0 0
+#31611
+garlanta flowers homebound~
+a packet of garlanta homebound flowers~
+A packet of beautiful pink and purple flowers has been left here.~
+~
+60 0 16385
+5 3 3 0 -1 -1 -1
+1 200 20
+2
+10
+0
+0
+0
+0
+'word of recall' 'NONE'
+S 0 0
+#31612
+leather flask water~
+a leather flask of water~
+A leather flask has been left here.~
+~
+17 0 16385
+30 30 0 0 0 0 0
+1 20 2
+4
+1
+0
+0
+0
+0
+S 0 0
+#31613
+lembas bread~
+a slice of lembas bread~
+A slice of bread has been left here.~
+%s enjoy$q $p.~
+26 0 16385
+10 -1 -1 -1 10 0 0
+1 40 4
+2
+1
+0
+0
+0
+0
+'NONE' 'NONE' 'refresh'
+S 0 0
+#31620
+Medallion Narcista~
+the Medallion of Narcista~
+A gawdy looking gold medallion has been left here.~
+~
+9 10 5
+60 60 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 77 0
+A
+17 -5
+#31621
+elven barrel ale~
+a barrel of elven ale~
+A wooden barrel has been left here.~
+~
+17 0 16385
+30 30 3 0 0 0 0
+30 0 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#31622
+blade long sword~
+an elven blade long sword~
+A well crafted iron sword has been left here.~
+~
+5 0 8193
+10 25 50 1 1 0 90
+6 89 8
+2
+8
+0
+0
+0
+0
+S 0 0
+#31623
+chainmail vest~
+an elven crafted chainmail vest~
+A well crafted chainmail vest has been left here.~
+~
+9 0 9
+40 40 0 0 0 0 0
+10 108 10
+2
+8
+0
+0
+0
+0
+S 0 0
+#31624
+awards ceremony parchment sheet~
+a smooth sheet of parchment~
+A smooth sheet of parchment titled 'Awards Ceremony 1st AT' hangs here on the wall.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+parchment awards ceremony sheet~
+Awards ceremony.
+Recorded by Syrin, Paleonian Literatus
+-------------------------------------------
+
+NOTE: All OOC chat has been edited out.
+
+For your reading pleasure, the recording has been cut into three segments. Please READ P1, P2, or P3.
+
+
+~
+E
+p1~
+Part 1
+
+ [Event] Ruri, the winged cat 'First off, I would like to thank everyone who participated for making this an amazing debut Amaranthine Tournament. I would also like to give some credit where it's due. This event was originally created and organized by Rene. Shea helped create the scramble list, the area used in Capture the Flag, and was one of our monitors checking for rule breakers. Agridelious also helped out with the monitoring! Sinjin gave good ideas, including the logistics of the Capture the Flag game. Lastly, give a shout-out to Vladaar and the rest of the team for making everything possible!'
+
+ [Event] Ruri, the winged cat 'Now, for the sake of those who missed parts of the event, let's look back on some of the good times.'
+
+ Fireworks burst into the air, forming twin dragons and interweaving vines, eventually turning into the words "ETERNAL, UNDYING, EVERLASTING".
+
+ An image forms in the clouds to depict Xire proudly holding an amaranthine egg,  while the ancient green dragon looms behind him.
+
+ The clouds shift to show Xire and the other Forbidden City dragons running towards a crystalline amaranthine baton hovering in midair.
+
+ The mirage of an enormous leatherbound book appears in the sky, its countless pages flipping to reveal the story of Tanzean'al's betrayal. The book shuts and the cover is revealed to read "Story Quiz".
+
+ The sky turns a reddish orange as the sun ends its journey.
+
+ Suddenly, the clouds form a maze and you see a faint image superimposed. The image shows Althalos and Syrin running through the labyrinth towards a winged cat.
+
+ As the previous image dissolves, a new one shows combatants from various parts of Alternis locked in combat in the arena.
+
+~
+E
+p2~
+Part 2
+
+ [Event] Ruri, the winged cat 'That was just the first half! The second half got even more exciting, not to mention confusing-'
+
+ The clouds part to form a frame, which contains a picture of the three cities at their respective taverns, feasting on desserts and drinks while chatting with one another.
+
+ The picture changes to show Xire standing in the middle of Tanzean'al's manor, victoriously holding a flag, with all of Forbidden standing around him.
+
+ Scrambled words suddenly float across the sky, threatening to give you a headache with their complexity. Eventually, they sort themselves out and fade off into the distance. An image of Syrin with a smug grin shows up briefly before fading out.
+
+ All of a sudden, you see what must be an illusion of Rene dashing across the sky with countless people on her heels, and Syrin running ahead of her for some odd reason. Sytos manages to catch her by the shawl though, and the illusion disappears.
+
+ The frame in the clouds turn dark as bright words appear. "SCENES FROM AWARDS CEREMONY GO HERE," they read.
+
+ [Event] Ruri, the winged cat 'I hope you all enjoyed the Amaranthine Tournament and I hope this Tourney will be a legacy as everlasting as its namesake. However, the First Amaranthine Tourney has not yet ended! After all, we haven't announced the winners yet!'
+~
+E
+p3~
+Part 3
+
+ [Event] Ruri, the winged cat 'And now, what you've allll been waiting for- AWARDS. Drumroll please!'
+
+ [Icc] Colje 'bangs on his snare'
+
+ [Icc] Syrin stamps his feet the floor.
+
+ [Icc] Sytos drums on her belly.
+
+ [Event] Ruri, the winged cat 'The winner of Most Epic Roleplay goes to Zaiden of Dakar, for repeatedly great showings in in-person roleplay.'
+
+ [Event] Ruri, the winged cat 'Funniest RP goes to...'
+
+ [Event] Ruri, the winged cat 'SYTOS, of Forbidden! For an idea of her RP, check our her bio!'
+
+ [Event] Ruri, the winged cat 'And now. the FINAL AWARD.'
+
+ [Event] Ruri, the winged cat 'The WINNING CITY of the First Amaranthine Tournament of Alternis goes to...'
+
+ [Event] Ruri, the winged cat 'FORBIDDEN CITIES. Dragons, may your roars echo through the lands for your grand victory!'
+
+ [Event] Ruri, the winged cat 'Uh.'
+
+ [Event] Ruri, the winged cat 'Forbidden City, not Cities.'
+
+ [Event] Ruri, the winged cat 'Forbidden won this with 12 points, with Paleon coming in second at 7 points. Dakar had 3 points, though not for lack of effort.'
+
+ [Event] Ruri, the winged cat 'Now then, everyone please meet congregate at the centers of your respective cities. Food will be appearing soon for the ceremonial feast! Cheers for a good end to the First Amaranthine Tournament.'
+~
+#31800
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#31600
+At the Base of an Ancient Tree~
+~
+The high grass is thick throughout the forest of ancient trees.  Visiblity
+is limited with the heavy foliage.  A small wooden platform surrounds the
+base of the massive ancient tree.  A narrow path leads off to the north.
+~
+1 4 1
+D0
+~
+~
+0 -1 31624
+D2
+~
+~
+0 -1 31638
+D4
+~
+~
+0 -1 31601
+R O 0 31601 1 31600
+S
+#31601
+On a Large Branch~
+~
+A massive branch that comes off the Ancient Tree has broken your fall.
+The bark is thick, and rough.  The ground with a series of trails is
+below.  The great city of Loramoor is above.
+~
+1 0 1
+D4
+~
+~
+0 -1 31602
+D5
+~
+~
+0 -1 31600
+S
+#31602
+Next to the Trunk of an Ancient Tree~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 31603
+D5
+~
+~
+0 -1 31601
+R M 0 31615 1 31602
+S
+#31603
+A Large Wooden Platform~
+~
+The horizon is a view of massive ancient trees in all directions.  A city
+of untold size expands outward from the platform you are at connected by
+various rope bridges to other massive trees throughout the forest.
+~
+1 0 1
+D3
+~
+~
+0 -1 31604
+D5
+~
+~
+0 -1 31602
+R O 0 31602 1 31603
+S
+#31604
+Around the Trunk of an Ancient Tree~
+~
+The horizon is a view of massive ancient trees in all directions.  A city
+of untold size expands outward from the platform you are at connected by
+various rope bridges to other massive trees throughout the forest.  A small
+passage wall has made into the hollow of the tree.  A well constructed rope
+bridge extends to an ancient tree to the north.
+~
+1 0 1
+D0
+~
+~
+0 -1 31607
+D1
+~
+~
+0 -1 31603
+D2
+~
+~
+0 -1 31605
+S
+#31605
+Inside of the Tree Hollow~
+~
+The rich wood hollow of an ancient tree extends deep into the tree.  There
+are beautifully crafted moldings, trim work, and statues throughout the
+hollow.  An assortment of colored flowers grow on checkered trim boards.
+The wooden floor is covered with a plush blue rug.
+~
+1 8 0
+D0
+~
+~
+0 -1 31604
+D2
+~
+~
+0 -1 31606
+S
+#31606
+A Grand Hallway~
+~
+There are beautifully crafted moldings, trim work, and statues throughout
+the hollow.  Several antique light fixtures that have been hand crafted
+are fixed to the walls at set intervals for lighting.  Various paintings
+of elven leaders hang from the walls.
+~
+1 8 0
+D0
+~
+~
+0 -1 31605
+D1
+~
+~
+0 -1 31614
+D2
+~
+~
+0 -1 31611
+D3
+~
+~
+0 -1 31618
+R M 0 31620 5 31606
+  R E 0 31623 1 5
+  R E 0 31622 1 16
+R M 0 31619 5 31606
+  R E 0 31622 1 16
+  R E 0 31623 1 5
+R O 0 31624 1 31606
+S
+#31607
+On a Rope Bridge~
+~
+&OThe rope bridge is made from heavy reinforced hemp rope.  The floor boards
+are double layered oak boards.  The width of the bridge spans two elven
+lengths.  The ground below is obscured by branches from the ancient trees.
+~
+1 0 1
+D0
+~
+~
+0 -1 31608
+D2
+~
+~
+0 -1 31604
+R M 0 31620 1 31607
+  R E 0 31623 1 5
+  R E 0 31622 1 16
+S
+#31608
+Around the Trunk of an Ancient Tree~
+~
+The massive tree extends to the east and west.  A large rope bridge is to
+the south.  A large hollow of the tree is to the north.  The vast forest
+is covers horizon with thick foliage.
+~
+1 0 1
+D0
+~
+~
+0 -1 31621
+D1
+~
+~
+0 -1 31645
+D2
+~
+~
+0 -1 31607
+D3
+~
+~
+0 -1 31662
+S
+#31609
+Altar Room~
+~
+~
+1 4 1
+S
+#31610
+Trainer Room~
+~
+~
+1 4 1
+S
+#31611
+A Grand Hallway~
+~
+The crafted moldings, trim work, and statues extend onward to the south.
+A large sign has been embedded into the woodwork to the east.  The antique
+light fixtures continue on to the south at set intervals.  A few lavish
+tapestries hang from the walls.  A hand carved bookshelf is part west wall.
+~
+1 8 0
+D0
+~
+~
+0 -1 31606
+D1
+~
+~
+0 -1 31615
+D2
+~
+~
+0 -1 31612
+D3
+~
+~
+0 -1 31619
+R M 0 31619 2 31611
+  R E 0 31622 1 16
+  R E 0 31623 1 5
+E
+sign~
+&Y
+Elven School of the Art of Fighting
+~
+S
+#31612
+The Rear of the Tree Hollow~
+~
+At the rear of the tree the moldings, and trimwork join together.  The antique
+light fixtures continue to the north at set intervals.  A wooden giant sized
+clock running on giant gears is embedded in the southern wall.  A large table
+with gold edged trimmings is in the center of the room.
+~
+1 8 0
+D0
+~
+~
+0 -1 31611
+D1
+~
+~
+0 -1 31616
+D3
+~
+~
+0 -1 31620
+R M 0 31619 2 31612
+  R E 0 31622 1 16
+  R E 0 31623 1 5
+S
+#31613
+Floating in a void~
+~
+~
+1 4 1
+S
+#31614
+Trustlow Bank of Loramoor~
+~
+The walls are covered with rich tapestries.  Several hand crafted light
+fixtures hang from the ceiling.  A large vault is behind a grand iron gate.
+There are several stations set up to handle customers.  A large yellow rug
+covers the floor.  A painting of the Ancient Forest hangs in the rear.
+~
+1 268435460 1
+D3
+~
+~
+0 -1 31606
+R M 0 31606 1 31614
+S
+#31615
+Elven School of the Art of Fighting~
+~
+The room is shaped like an octagon with padded walls, and floor.  There 
+are several racks of various weapons locked up in the corners of the room.
+A large training dummy is connected to a post in the center of the room.
+~
+1 12 0
+D3
+~
+~
+0 -1 31611
+R M 0 31602 1 31615
+S
+#31616
+Ranar's Blacksmith Shop~
+~
+The wooden hollow walls of the tree have been bricked up with cobblestones
+around the blacksmith equipment.  A large metal water basin is next to the
+massive anvil.  A shelf with various tools hanging from it is against the
+east wall.  A large forge is set against the north wall.
+~
+1 12 0
+D3
+~
+~
+0 -1 31612
+R M 0 31603 1 31616
+S
+#31617
+Floating in a void~
+~
+~
+1 4 1
+S
+#31618
+Gaergarrs Outfitter Shop~
+~
+The room is littered with racks, tables, and various displays of equipment
+that is for sale.  A large red rug covers the floor with Gaergarrs Outfitter
+written in white color in the center.  A large light fixture hangs above.
+~
+1 12 0
+D1
+~
+~
+0 -1 31606
+R M 0 31607 1 31618
+  R G 1 31612 1
+  R G 1 31613 1
+S
+#31619
+Launna's Herb Shop~
+~
+The room is cluttered with piles of exotic plants, herbs, componets, and
+strange looking symbols.  The floor is covered by a dark blue rug.  The
+ceiling has a large light fixture hanging from the center.  A large table
+is in the rear of shop displaying wares for sale.
+~
+1 12 0
+D1
+~
+~
+0 -1 31611
+R M 0 31605 1 31619
+  R G 1 31611 1
+  R G 1 31610 1
+  R G 1 31609 1
+S
+#31620
+Weapons and Armor Shop~
+~
+Handcrafted woodwork has been shaped in the design of a giant sword in the
+western wall.  There are shelves, and racks all throughout the shop that
+display various wares for sale.  A bright red rug covers the floor.  Several
+suits of armor are on display against the northern wall.
+~
+1 12 0
+D1
+~
+~
+0 -1 31612
+R M 0 31604 1 31620
+  R G 1 31604 1
+  R G 1 31603 1
+  R G 1 31606 1
+  R G 1 31605 1
+  R G 1 31608 1
+  R G 1 31607 1
+S
+#31621
+Inside the Tree Hollow~
+~
+The hollow is filled with handcrafted woodworks, trimmings, and statues.
+A blue carpeted rug extends to the north into the tree.  There are light
+fixtures set at intervals to provide lighting.  Beautful rich tapestries
+hang from the walls.  A cedar archway connects the walls.
+~
+1 8 0
+D0
+~
+~
+0 -1 31622
+D2
+~
+~
+0 -1 31608
+S
+#31622
+Before an Elegant Temple~
+~
+The woodworkings join in splendor around an archway that leads into a
+temple.  There are twin marble columns on both sides of the archway.  A
+blue carpeted rug extends into the temple.  There is a giant handcrafted
+light fixture infront of the temple.  A cedar archway connects the walls.
+~
+1 8 0
+D0
+~
+~
+0 -1 31623
+D2
+~
+~
+0 -1 31621
+S
+#31623
+The Temple of Andaor~
+~
+The walls to the east and west are completely covered by statues of famous
+elven priests.  A large golden altar is against the north wall.  A blue
+carpeted rug extends south out of the temple.  Several small antique light
+fixtures hang from the ceiling at various intervals.
+~
+1 1036 0
+D2
+~
+~
+0 -1 31622
+R M 0 31608 1 31623
+S
+#31624
+Before a Swamp~
+~
+The ground grows moist and slippery near the edge of the swamp to the north.
+The grass is thick, and high along the edge.  A large wooden platform is to
+the south.  The foliage is very heavy, and briar bushes are on both sides.
+~
+1 0 1
+D0
+~
+~
+0 -1 31625
+D2
+~
+~
+0 -1 31600
+S
+#31625
+Next to a Cedar Tree~
+~
+The ground is covered with a layer of water.  There are bogs, and weeds that
+jut out of water everywhere.  The water is coated with layers of lily pads.
+A large cedar tree is leaning over towards the water.  The foliage is heavy.
+~
+1 0 1
+D0
+~
+~
+0 -1 31630
+D1
+~
+~
+0 -1 31626
+D2
+~
+~
+0 -1 31624
+D3
+~
+~
+0 -1 31627
+R M 0 31609 1 31625
+R M 0 31610 1 31625
+R M 0 31611 1 31625
+R M 0 31612 1 31625
+S
+#31626
+Beside a Large Tree Stump~
+~
+A large rotted tree stump jutts out of the water here.  The stump has some
+type of animal rubbings on it where the bark has been rubbed off.  There
+are long cat tail weeds that grow above the high grass.  A row of thickly
+clustered cedar trees extends to the north on the eastern edge swamp.
+~
+1 0 1
+D0
+~
+~
+0 -1 31629
+D3
+~
+~
+0 -1 31625
+R M 0 31611 1 31626
+R M 0 31612 1 31626
+S
+#31627
+Amidst some thick Underbrush~
+~
+The water nearly submerges some thick underbrush.  There are briar bushes
+in a cluster to the west.  The water is covered with layers of lily pads.
+A thick mass of cedar trees are to the south.
+~
+1 0 1
+D0
+~
+~
+0 -1 31631
+D1
+~
+~
+0 -1 31625
+R M 0 31611 1 31627
+R M 0 31612 1 31627
+S
+#31628
+Floating in a void~
+~
+~
+1 1073741828 1
+S
+#31629
+In the Middle of the Swamp~
+~
+Several small trees dot the area randomly.  A large moss covered log slopes
+across the northern edge of the swamp.  There are piles of lily pads that
+are scattered about in the water.  Large cedar trees skirt the swamp edge.
+~
+1 0 1
+D2
+~
+~
+0 -1 31626
+D3
+~
+~
+0 -1 31630
+R M 0 31609 1 31629
+R M 0 31610 1 31629
+S
+#31630
+On a Slippery Bog~
+~
+The ground is made up water with scattered bogs of land sticking up in
+random spots.  The water is coated with a cluster of lily pads, and thick
+weeds.  The north vegetation is too thick to travel through.
+~
+1 0 1
+D1
+~
+~
+0 -1 31629
+D2
+~
+~
+0 -1 31625
+D3
+~
+~
+0 -1 31631
+R M 0 31609 1 31630
+R M 0 31610 1 31630
+S
+#31631
+On the Outer Edge of the Swamp~
+~
+The water is deeper here.  There is a dark green tinge to the color.  Lily
+pads cluster about the water intermingled with various weeds.  A series of
+cedar trees skim the edge of the swamp to the west.
+~
+1 0 1
+D1
+~
+~
+0 -1 31630
+D2
+~
+~
+0 -1 31627
+R M 0 31609 1 31631
+R M 0 31610 1 31631
+R M 0 31611 1 31631
+R M 0 31612 1 31631
+S
+#31632
+Next to the Gryphon Platform~
+~
+A large wooden platform has been built away from the tree trunk.
+Large clearings have been cut away from the trees that leads to the 
+sky.  A great hollow opening in the tree is to the east.
+~
+1 0 1
+D0
+~
+~
+0 -1 31661
+R M 0 31614 1 31632
+S
+#31633
+On the Gryphon Platform~
+~
+The massive wooden platform is heavily reinforced with large beams.
+A small set of wooden steps that is mobile leads up to the gryphon
+platform.  A large stall is attached to the platform holding food
+and water for the gryphons.
+~
+1 1073742852 1
+D1
+~
+~
+0 -1 31632
+R M 0 31613 1 31633
+R M 0 31616 1 31633
+S
+#31634
+Before Loramoor River~
+~
+&GThe grass grows thick before the mighty clear blue river. There is a 
+massive ancient forest on the other side of the river. The path here to 
+cross the river is well worn. Small fish can be seen swimming in the river 
+along the shore. Some cat tail weeds grow out of the water near the shore. 
+~
+1 1073741828 11
+D0
+~
+~
+0 -1 31635
+D11
+~
+~
+0 -1 42012
+S
+#31635
+Within the River~
+~
+&BThe water moves swiftly with the current. There are fish swimming down 
+stream. A soft bed of gravel and algae line the river bottom. The forest 
+to the north looms above menacingly.
+~
+1 1073741828 27
+D0
+~
+~
+0 -1 31636
+D1
+~
+~
+0 -1 41013
+D2
+~
+~
+0 -1 31634
+D3
+~
+~
+0 -1 41011
+R M 0 31618 1 31635
+S
+#31636
+In the Middle of the River~
+~
+&BThe current of the river is stronger here. A few large rocks on the 
+river bed make footing precarious. Various fish swim about the river. The 
+ancient forest to the north fills the horizon. 
+~
+1 1073741828 27
+D0
+~
+~
+0 -1 31637
+D1
+~
+~
+0 -1 41013
+D2
+~
+~
+0 -1 31635
+D3
+~
+~
+0 -1 41011
+R M 0 31800 1 31636
+S
+#31637
+Within the River~
+~
+&BThe river is fairly shallow here. There are gravel rocks, and algae 
+along the bed. A few cat tail weeds are protruding out of the water 
+surface. At the edge of the river giant size lily pads float about. 
+~
+1 1073741828 27
+D0
+~
+~
+0 -1 31641
+D1
+~
+~
+0 -1 41013
+D2
+~
+~
+0 -1 31636
+D3
+~
+~
+0 -1 41011
+S
+#31638
+Before a Small Clearing~
+~
+The path comes to an abrupt end before a small clearing.  A large wooden
+platform is attached to one of the ancient trees ahead.  A swamp is past
+the foliage and to the northeast.  A strange looking lever is by the tree.
+~
+1 0 1
+D0
+~
+~
+0 -1 31600
+D8
+~
+~
+0 -1 31639
+S
+#31639
+Along a Narrow Path~
+~
+The path is encased by foliage too thick to pass through.  The Ancient
+trees throughout the forest block out the sky.  A swamp is beyond the
+foliage to the north.  There are many animal tracks that cut across the
+path leading into the forest depths.
+~
+1 0 1
+D7
+~
+~
+0 -1 31638
+D9
+~
+~
+0 -1 31640
+S
+#31640
+Before an Ancient Forest~
+~
+A well used road is to the south.  A massive forest stretches out to the
+east and west on the horizon.  A narrow path leads northwest into the depths
+of the forest.  The trees are twice the size the tallest oaks in the realms.
+~
+1 0 1
+D2
+~
+~
+0 -1 31641
+D5
+~
+~
+2048 -1 1160
+D6
+~
+~
+0 -1 31639
+R M 0 31617 1 31640
+S
+#31641
+Before the Loramoor River~
+~
+&GThe river bank has a massive ancient forest to the north that fills the 
+horizon. A clear blue river is to the south. There is a neatly packed 
+trail from years of use that leads towards the forest. A few game trails 
+come from the forest to the river. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 31640
+D2
+~
+~
+0 -1 31637
+S
+#31642
+On a Rope Bridge~
+~
+&OThe rope bridge is made from heavy reinforced hemp rope.  The floor boards
+are double layered oak boards.  The width of the bridge spans two elven
+lengths.  The ground below is obscured by branches from the ancient trees.
+~
+1 0 1
+D2
+~
+~
+0 -1 31632
+D3
+~
+~
+0 -1 31643
+S
+#31643
+Upon a Rope Bridge~
+~
+&OHeavy hemp rope is used to span the rope bridge from one ancient tree to 
+the other. There are solid layered oak boards that provide the flooring. A 
+thick cluster of leaves obscures the ground below. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31642
+D3
+~
+~
+0 -1 31644
+S
+#31644
+Around the Trunk of an Ancient Tree~
+~
+The massive tree extends to the east and west.  A large rope bridge is to
+the east.  A large hollow of the tree is to the west.  The vast forest
+covers the horizon with thick foliage.
+~
+1 0 1
+D1
+~
+~
+0 -1 31643
+R M 0 31619 2 31644
+  R E 0 31622 1 16
+  R E 0 31623 1 5
+R M 0 31619 2 31644
+  R E 0 31622 1 16
+  R E 0 31623 1 5
+S
+#31645
+Along the Platform~
+~
+The great platform appears to be an actual growth of the ancient tree 
+itself. A massive series of spider webs fill a nearby tree limbs. An oak 
+hand rail is secured by interwoven vines around it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31646
+D3
+~
+~
+0 -1 31608
+S
+#31646
+Garden Platform~
+~
+The platform has a cubicle that is filled with various plants and flowers. 
+There are also some fresh vegetables growing within the garden. An oak 
+hand rail is secured by a series of vines wrapped around it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31647
+D3
+~
+~
+0 -1 31645
+S
+#31647
+An Extended Platform~
+~
+The platform extends to twice the normal width here. A few benches are 
+along the side of the platform. A handrail that is reinforced by a series 
+of vines that weave in and around it is along the edge of the platform. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31648
+D2
+~
+~
+0 -1 31646
+R M 0 31620 1 31647
+  R E 0 31623 1 5
+  R E 0 31622 1 16
+S
+#31648
+Sap Covered Platform~
+~
+A thick coating of sap has run onto the platform from the tree here. The 
+sap is hardened over. There are handrails along the edge of the platform. 
+The handrails have vines wrapped around them for extra support. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31649
+D2
+~
+~
+0 -1 31647
+S
+#31649
+Within the Platform~
+~
+The massive platform appears to have grown from the tree itself. There are 
+some small marble statues of various wildlife along the edge of the 
+platform. Thick vines are wrapped around a handrail to help support it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31650
+D2
+~
+~
+0 -1 31648
+S
+#31650
+A Mushroom Cluster~
+~
+A massive cluster of mushrooms runs down the trunk of the tree onto the 
+edge of the inner platform. The mushrooms are green in color with white 
+specs in the center. A handrail with vines wrapped around it is on the 
+edge of the platform. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31651
+D2
+~
+~
+0 -1 31649
+S
+#31651
+On the Platform~
+~
+The view around the platform is obscured by heavy vegetation. The platform 
+appears to be part of the tree itself. There is a thick handrail along the 
+edge which has vines interwoven throughout to help support it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31652
+D2
+~
+~
+0 -1 31650
+S
+#31652
+Worm Eaten Platform~
+~
+The length of the platform is decorated by worm holes now covered by a 
+green filmy substance. All along the length of the platform a handrail is 
+secured by a series of vines that wrap around it. 
+~
+1 0 1
+D2
+~
+~
+0 -1 31651
+D3
+~
+~
+0 -1 31653
+R M 0 31620 1 31652
+  R E 0 31623 1 5
+  R E 0 31622 1 16
+S
+#31653
+Sap Covered Platform~
+~
+A thick coating of sap that has run down the tree onto the platform has 
+hardened over there. A handrail along the edge of the platform has thick 
+vines interwoven around to help stabilize it. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31652
+D3
+~
+~
+0 -1 31654
+S
+#31654
+Around the Tree~
+~
+A platform created from the tree itself circles around the entire tree. 
+The branches appear to naturally grow away from the platform, but still 
+obscures the view. A handrail runs along the edge of the platform. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31653
+D3
+~
+~
+0 -1 31655
+S
+#31655
+Along the Platform~
+~
+A series of small marble statues run along the length of the platform 
+here. The statues are shaped like various wild life creatures. Thick vines 
+are supporting the handrail that is along the edge. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31654
+D3
+~
+~
+0 -1 31656
+S
+#31656
+Damaged Platform~
+~
+A large gash in the platform has been repaired with what appears to be a 
+clear solid crystal. A handrail runs along the edge of the platform. The 
+handrail is reinforced by thick vines. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31655
+D2
+~
+~
+0 -1 31657
+S
+#31657
+Along the Platform~
+~
+The great platform appears to be an actual growth of the ancient tree 
+itself. A massive series of spider webs fill nearby branches. An oak 
+handrail is secured by interwoven vines around it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31656
+D2
+~
+~
+0 -1 31658
+S
+#31658
+Garden Platform~
+~
+The platform has a cubicle that is filled with various plants and flowers. 
+A small section of it has fresh vegetables growing. There is a handrail 
+that is secured by interwoven vines weaving in and around it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31657
+D2
+~
+~
+0 -1 31659
+S
+#31659
+An Extended Platform~
+~
+The platform extends to twice the normal width. Several oak benches have 
+been attached to the platform on inner side. A series of vines are woven 
+between a sturdy handrail to assist with fastening it. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31658
+D2
+~
+~
+0 -1 31660
+S
+#31660
+Sap Covered Platform~
+~
+A thick coating of sap has run onto the platform from the tree. The sap is 
+hardened over. A thick vine winds around an oak handrail helping to 
+strengthen the handrail with the platform. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31659
+D2
+~
+~
+0 -1 31661
+S
+#31661
+A Mushroom Cluster~
+~
+A large cluster of mushrooms runs down the trunk, and up to the platform 
+edge. The mushrooms are green in color with white specs in the center. 
+Thick vines help secure a handrail in place along the platform edge. 
+~
+1 0 1
+D0
+~
+~
+0 -1 31660
+D1
+~
+~
+0 -1 31662
+D2
+~
+~
+0 -1 31632
+S
+#31662
+On the Platform~
+~
+The view around the platform is obscured by heavy vegetation. The platform 
+appears to be part of the tree itself. Sturdy handrails are along the 
+platform edge and additionally secured by thick vines woven around them. 
+~
+1 0 1
+D1
+~
+~
+0 -1 31608
+D3
+~
+~
+0 -1 31661
+R M 0 31620 4 31662
+S
+#31663
+Floating in a void~
+~
+~
+1 4 1
+S
+#31664
+Floating in a void~
+~
+~
+1 4 1
+S
+#31665
+Floating in a void~
+~
+~
+1 4 1
+S
+#31666
+Floating in a void~
+~
+~
+1 4 1
+S
+#31667
+Floating in a void~
+~
+~
+1 4 1
+S
+#31668
+Floating in a void~
+~
+~
+1 4 1
+S
+#31669
+Floating in a void~
+~
+~
+1 4 1
+S
+#31670
+Floating in a void~
+~
+~
+1 4 1
+S
+#31800
+Mob Staging Area~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 31630
+R M 0 31609 2 31800
+R M 0 31610 4 31800
+R M 0 31611 2 31800
+R M 0 31612 3 31800
+R M 0 31612 3 31800
+R M 0 31610 4 31800
+R M 0 31610 4 31800
+S
+#0
+
+
+#SHOPS
+ 31604    0  0  0  0  0   120  90         0 23    ; Truloc
+ 31605    0  0  0  0  0   120  90         0 23    ; Launna
+ 31607    0  0  0  0  0   120  90         0 23    ; Outfitter Gaergarrs
+0
+
+
+#REPAIRS
+ 31603    5  9 15         100   1         0 23    ; Blacksmith Ranar
+0
+
+
+#SPECIALS
+M  31608 spec_cast_adept
+S
+
+
+#$

@@ -1,36 +1,38 @@
 #PLAYER
 Version      6
 Name         Varchild~
+Description  A strange being who just seems to be 'there'. He looks like he's here physically but else where mentally.
+~
 Sex          1
-Class        2
+Class        20
 Secondclass  -1
 Thirdclass   -1
 Race         8
 Age          0 4 0 974
-Languages    1 -65537
+Languages    -1 -65537
 Level        108
-Firstlevel   0
-Secondlevel  0
-Thirdlevel   0
-Played       939
-Room         19038
-HpManaMove   30000 30000 30000 30000 29997 29975
+Firstlevel   -1
+Secondlevel  -1
+Thirdlevel   -1
+Played       31005
+Room         1234
+HpManaMove   30000 30000 30000 30000 30025 30000
 BaseHp       0 
-Blood        10 0
-Money         0 10 50 100 2000 -1
+Blood        10 7500
+Money         0 10 198 100 2000 -1
 Exp           0
 Firstexp      0
 Secondexp     0
 Thirdexp      0
 Height        66
 Weight        110
-Act           1644172872&4112
+Act           1644168776&4144
 AffectedBy    -2146435072
 Channels      chat say ooc shout yell icc wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction~
 Speed         32
 Position      115
 Style         2
-Practice      6
+Practice      20
 SavingThrows  0 0 0 0 0
 Alignment     600
 AppBlood      0
@@ -39,16 +41,17 @@ Damroll       0
 Armor         100
 Resistant     2
 Password      da42c6ed9a0b389194071195f565433958f013a33e22c0d7c4e0e45b22efa8b0~
-Title          the New &r6 Dragons&D Staff Member.~
+Bestowments   dlair.are~
+Title          the Reaper~
 Lastip         10.0.0.1~
 RECAST          0
 AuthedBy     Varchild~
-KeepAlive      5
+KeepAlive      6
 GetsDExp     0
-LDExpUpdate  1647407669
+LDExpUpdate  1647822211
 tmpsecond -1
 tmpthird -1
-tmproom 19039
+tmproom 1234
 Textspeed          5
 PotionTimer        0 0 0
 FirstExpR          0
@@ -69,9 +72,11 @@ MapSize            0
 MapDescToggle      0
 MapNameToggle      0
 MapType            0
-WizInvis     0
+FoundArea       Halcyon Clan Hall~
+Bamfin       $n notice that Varchild is suddenly there.~
+WizInvis     108
 Htown      Dakar City~
-Flags        32770
+Flags        2
 Bardtimer    0
 Bardsn       0
 PKills       0
@@ -469,7 +474,6 @@ NNSkill       100 0 'knifehand strike' 0 0
 NNSkill       100 0 'know enemy' 0 0
 NNSkill       100 0 'leech' 0 0
 NNSkill       100 0 'leg sweep' 0 0
-NNSkill       100 0 'leg sweep' 0 0
 NNSkill       100 0 'lesser skeleton' 0 0
 NNSkill       100 0 'lick' 0 0
 NNSkill       100 0 'lore' 0 0
@@ -605,7 +609,6 @@ NNSkill       100 0 'whiplash' 0 0
 NNSkill       100 0 'willow skin' 0 0
 NNSkill       100 0 'wings' 0 0
 NNSkill       100 0 'wolf spirit' 0 0
-NNSkill       100 0 'wolf spirit' 0 0
 NNSkill       100 0 'woodwinds' 0 0
 NNWeapon      100 0 '1h axes' 0 0
 NNWeapon      100 0 '1h bludgeons' 0 0
@@ -653,7 +656,7 @@ NNSong        100 0 'thunderous hymn' 0 0
 NNSong        100 0 'unholy melody' 0 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
-i3perm       3
+i3perm       5
 i3flags      256
 Portalstonelag     0
 End
@@ -669,6 +672,7 @@ End
 
 #OBJECT
 Vnum         16038
+WearLoc      17
 Currtype     4
 Color        1
 Size   3
@@ -772,6 +776,14 @@ End
 Vnum         139
 Currtype     4
 Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         1224
+Level        108
+Currtype     1
+Color        12
 Size   0
 End
 

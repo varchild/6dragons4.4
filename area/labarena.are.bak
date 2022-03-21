@@ -1,0 +1,1446 @@
+#AREA        Labrynth Arena~
+
+
+
+#VERSION     11
+#AUTHOR      Samael~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 1
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &gA sudden breeze blows through the labrynth stirring the vines.&D~
+
+#FLAGS
+1988
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 120050000 0 0 0 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4800
+ancient minotaur~
+An Ancient Minotaur~
+An Ancient Minotaur stands here ready for battle.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 561 524291
+#4801
+ancient tactician~
+An ancient tactitian~
+An ancient tactitian stands here surveying the battlefield.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 624 526339
+#4802
+ancient warrior~
+An ancient warrior~
+Some god abandoned a newly created ancient soldier here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 625 526339
+#4803
+ancient archer~
+An ancient archer~
+An ancient archer stands here holding a broken bow as a weapon.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4804
+ancient bombadier~
+An ancient bombadier~
+An ancient bombadier stands here holding an ancient bomb.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4805
+ancient artillerist~
+An ancient artillerist~
+An ancient artillerist is standing here cleaning a rifle.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4806
+scared young boy~
+A scared young boy~
+A scared young boy is here creeping silently about.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4807
+human adventurer~
+A human adventurer~
+A human adventurer is here exploring the labrynth.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4808
+armed mapmaker~
+An armed mapmaker~
+An armed mapmaker is standing here writing in a journal and mumbling to himself.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4809
+banished elven highlord~
+A banished elven highlord~
+An elven highlord banished from his home stands here muttering darkly to himself.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#4810
+lost young dragon~
+A lost young dragon~
+A young dragon lost is here wandering, looking for the exit.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 8 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4800
+crumbling rubble~
+A crumbling peice of rubble~
+A peice of rubble sits here crumbling slowly.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 4 0
+1
+8
+0
+0
+0
+0
+S 0 0
+#4801
+withered vine~
+A withered peice of vine~
+A withered peice of vine sits lies here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 6 0
+1
+11
+0
+0
+0
+0
+S 0 0
+#4802
+scrap metal~
+A peice of scrap metal~
+A pecie of scrap metal sits here gleaming dully.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 10 1
+1
+8
+0
+0
+0
+0
+S 0 0
+#4803
+white pinky bone~
+A pinky bone~
+A bone so small it could only have come from a pinky is here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 4 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#4804
+white tooth~
+A large tooth~
+A rather large tooth shines against the ground.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 2 0
+1
+5
+0
+0
+0
+0
+S 0 0
+#4805
+gleaming dagger~
+A gleaming dagger~
+A gleaming dagger is here radiating barely concealed malice.~
+~
+8 3 1
+0 0 0 0 0 0 0
+1 4 0
+1
+13
+0
+0
+0
+0
+S 0 0
+#4806
+bent metal rod~
+A bent metal rod~
+A medium sized peice of metal bent at odd angles is here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 4 0
+1
+8
+0
+0
+0
+0
+S 0 0
+#4807
+ancient rusted key~
+An ancient, rusted key~
+An ancient, rusted key is here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 10 1
+1
+13
+0
+0
+0
+0
+S 0 0
+#4808
+cap mushroom~
+A small mushroom~
+A small mushroom with a large cap is growing out of the wall.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#4809
+strip stiff leather~
+A strip of stiff leather~
+A strip of stiff leather lies here.~
+~
+8 0 1
+0 0 0 0 0 0 0
+1 4 0
+1
+1
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#4800
+Ancient Labyrinth Entrance~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. A giant tree can be seen towards the center of the 
+labrynth, shining with hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4801
+D2
+~
+~
+0 -1 4837
+D3
+~
+~
+0 -1 4817
+S
+#4801
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. Some come 
+seeking knowledge, others glory, few have left alive. Yggdrasil, the world 
+tree, is rumored to be within this labrynth. 
+~
+1 33562624 0
+D0
+~
+~
+0 -1 4802
+D1
+~
+~
+0 -1 4816
+D3
+~
+~
+0 -1 4800
+S
+#4802
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. 
+The spear of destiny was placed here beneath the branches of Yggdrasil. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4803
+D2
+~
+~
+0 -1 4801
+D3
+~
+~
+0 -1 4811
+S
+#4803
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. Yggdrasil, the world tree, is rumored to be 
+within this labrynth. 
+~
+1 33562624 0
+D0
+~
+~
+0 -1 4804
+D1
+~
+~
+0 -1 4813
+D3
+~
+~
+0 -1 4802
+S
+#4804
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The souls of 
+the lost and doomed seem to linger here. A giant tree can be seen towards 
+the center of the labrynth, shining with hope. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4805
+D2
+~
+~
+0 -1 4803
+D3
+~
+~
+0 -1 4814
+D4
+~
+~
+0 -1 4823
+S
+#4805
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. The spear of destiny was placed here beneath the 
+branches of Yggdrasil. 
+~
+1 33562624 0
+D0
+~
+~
+0 -1 4806
+D1
+~
+~
+0 -1 4817
+D3
+~
+~
+0 -1 4804
+S
+#4806
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The Ivy on the 
+walls seem to be kept back from the path by some unknown force. A giant 
+tree can be seen towards the center of the labrynth, shining with hope. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4807
+D2
+~
+~
+0 -1 4805
+D3
+~
+~
+0 -1 4810
+S
+#4807
+Ancient Labrynth~
+~
+save The labrynth stretches on like a never ending ancient wyrm. The Ivy 
+on the walls seem to be kept back from the path by some unknown force. A 
+giant tree can be seen towards the center of the labrynth, shining with 
+hope. 
+~
+1 33562624 0
+D0
+~
+~
+8389639 4807 4827
+D1
+~
+~
+0 -1 4808
+D3
+~
+~
+0 -1 4806
+R D 0 4807 0 2
+S
+#4808
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The labrynth has been lost for countless ages, but it 
+has always been and will always be. The spear of destiny was placed here 
+beneath the branches of Yggdrasil. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4809
+D3
+~
+~
+0 -1 4807
+S
+#4809
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Some come seeking knowledge, 
+others glory, few have left alive. A giant tree can be seen towards the 
+center of the labrynth, shining with hope. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4810
+D2
+~
+~
+0 -1 4814
+D3
+~
+~
+0 -1 4808
+S
+#4810
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The Ivy on the 
+walls seem to be kept back from the path by some unknown force. Yggdrasil, 
+the world tree, is rumored to be within this labrynth. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4806
+D3
+~
+~
+0 -1 4809
+S
+#4811
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. A giant tree can be seen towards the center of 
+the labrynth, shining with hope. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4802
+D3
+~
+~
+0 -1 4812
+S
+#4812
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. 
+Yggdrasil, the world tree, is rumored to be within this labrynth. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4811
+D3
+~
+~
+0 -1 4813
+S
+#4813
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Some come seeking knowledge, 
+others glory, few have left alive. Yggdrasil, the world tree, is rumored 
+to be within this labrynth. 
+~
+1 33562624 0
+D0
+~
+~
+0 -1 4805
+D1
+~
+~
+0 -1 4812
+D3
+~
+~
+0 -1 4803
+S
+#4814
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. Yggdrasil, the world tree, is rumored to be within 
+this labrynth. 
+~
+1 33562624 0
+D0
+~
+~
+0 -1 4809
+D1
+~
+~
+0 -1 4804
+D3
+~
+~
+0 -1 4815
+S
+#4815
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. 
+The spear of destiny was placed here beneath the branches of Yggdrasil. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4814
+D3
+~
+~
+0 -1 4816
+D4
+~
+~
+0 -1 4824
+S
+#4816
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. Yggdrasil, the world tree, is rumored to be 
+within this labrynth. 
+~
+1 33562624 0
+D1
+~
+~
+0 -1 4815
+D2
+~
+~
+0 -1 4807
+D3
+~
+~
+0 -1 4801
+D4
+~
+~
+0 -1 4825
+S
+#4817
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. A giant tree can be seen towards the center of 
+the labrynth, shining with hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4800
+D3
+~
+~
+0 -1 4805
+D4
+~
+~
+0 -1 4818
+S
+#4818
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. Whole armies have been lost forever beneath the vines. 
+A giant tree can be seen towards the center of the labrynth, shining with 
+hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4819
+D5
+~
+~
+0 -1 4817
+S
+#4819
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The labrynth has been lost for 
+countless ages, but it has always been and will always be. A giant tree 
+can be seen towards the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4820
+D3
+~
+~
+0 -1 4818
+S
+#4820
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. Yggdrasil, the world tree, is rumored to be within 
+this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4821
+D3
+~
+~
+0 -1 4819
+S
+#4821
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The Ivy on the 
+walls seem to be kept back from the path by some unknown force. A giant 
+tree can be seen towards the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4822
+D2
+~
+~
+0 -1 4820
+S
+#4822
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. Yggdrasil, the world tree, is rumored to be within 
+this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4846
+D1
+~
+~
+0 -1 4823
+D2
+~
+~
+0 -1 4821
+D3
+~
+~
+0 -1 4824
+S
+#4823
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The labrynth 
+has been lost for countless ages, but it has always been and will always 
+be. Yggdrasil, the world tree, is rumored to be within this labrynth. 
+~
+1 33562628 0
+D3
+~
+~
+0 -1 4822
+D5
+~
+~
+0 -1 4804
+S
+#4824
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. The souls of 
+the lost and doomed seem to linger here. The spear of destiny was placed 
+here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4822
+D5
+~
+~
+0 -1 4815
+S
+#4825
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The Ivy on the walls seem to be 
+kept back from the path by some unknown force. Yggdrasil, the world tree, 
+is rumored to be within this labrynth. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4826
+D5
+~
+~
+0 -1 4816
+S
+#4826
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. Some come 
+seeking knowledge, others glory, few have left alive. The spear of destiny 
+was placed here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4828
+D3
+~
+~
+0 -1 4825
+S
+#4827
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The souls of the lost and doomed 
+seem to linger here. The spear of destiny was placed here beneath the 
+branches of Yggdrasil. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4829
+D2
+~
+~
+8389639 4807 4807
+R D 0 4827 2 2
+S
+#4828
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. Whole armies 
+have been lost forever beneath the vines. Yggdrasil, the world tree, is 
+rumored to be within this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4849
+D2
+~
+~
+0 -1 4826
+D5
+~
+~
+0 -1 4829
+S
+#4829
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. Whole armies 
+have been lost forever beneath the vines. The spear of destiny was placed 
+here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4830
+D2
+~
+~
+0 -1 4827
+D3
+~
+~
+0 -1 4833
+D4
+~
+~
+0 -1 4828
+S
+#4830
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. Some come 
+seeking knowledge, others glory, few have left alive. The spear of destiny 
+was placed here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4831
+D3
+~
+~
+0 -1 4829
+S
+#4831
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The Ivy on the walls seem to be 
+kept back from the path by some unknown force. Yggdrasil, the world tree, 
+is rumored to be within this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4835
+D1
+~
+~
+0 -1 4832
+D3
+~
+~
+0 -1 4830
+S
+#4832
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The souls of 
+the lost and doomed seem to linger here. Yggdrasil, the world tree, is 
+rumored to be within this labrynth. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4834
+D3
+~
+~
+0 -1 4831
+S
+#4833
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The Ivy on the 
+walls seem to be kept back from the path by some unknown force. The spear 
+of destiny was placed here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4829
+D3
+~
+~
+0 -1 4834
+S
+#4834
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. A 
+giant tree can be seen towards the center of the labrynth, shining with 
+hope. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4838
+D1
+~
+~
+0 -1 4833
+D3
+~
+~
+0 -1 4832
+D4
+~
+~
+0 -1 4849
+S
+#4835
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. The Ivy on the 
+walls seem to be kept back from the path by some unknown force. A giant 
+tree can be seen towards the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D2
+~
+~
+0 -1 4831
+D3
+~
+~
+0 -1 4836
+S
+#4836
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. A 
+giant tree can be seen towards the center of the labrynth, shining with 
+hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4835
+D3
+~
+~
+0 -1 4837
+S
+#4837
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The Ivy on the walls seem to be 
+kept back from the path by some unknown force. A giant tree can be seen 
+towards the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4800
+D1
+~
+~
+0 -1 4836
+D3
+~
+~
+0 -1 4838
+S
+#4838
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. Whole armies 
+have been lost forever beneath the vines. Yggdrasil, the world tree, is 
+rumored to be within this labrynth. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4837
+D2
+~
+~
+0 -1 4834
+D3
+~
+~
+0 -1 4839
+S
+#4839
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. The spear of destiny was placed here beneath 
+the branches of Yggdrasil. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4840
+D1
+~
+~
+0 -1 4838
+S
+#4840
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. The Ivy on 
+the walls seem to be kept back from the path by some unknown force. The 
+spear of destiny was placed here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4841
+D2
+~
+~
+0 -1 4839
+D3
+~
+~
+0 -1 4843
+S
+#4841
+Ancient Labrynth~
+~
+The labrynth stretches on like a never ending ancient wyrm. Some come 
+seeking knowledge, others glory, few have left alive. A giant tree can be 
+seen towards the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4842
+D3
+~
+~
+0 -1 4840
+S
+#4842
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The souls of the lost and doomed 
+seem to linger here. The spear of destiny was placed here beneath the 
+branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4843
+D3
+~
+~
+0 -1 4841
+S
+#4843
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. A 
+giant tree can be seen towards the center of the labrynth, shining with 
+hope. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4840
+D3
+~
+~
+0 -1 4842
+D4
+~
+~
+0 -1 4845
+S
+#4844
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The labrynth has been lost for 
+countless ages, but it has always been and will always be. Yggdrasil, the 
+world tree, is rumored to be within this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4845
+D2
+~
+~
+0 -1 4847
+S
+#4845
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The Ivy on the walls seem to be kept back from the path 
+by some unknown force. A giant tree can be seen towards the center of the 
+labrynth, shining with hope. 
+~
+1 33562628 0
+D2
+~
+~
+0 -1 4844
+D5
+~
+~
+0 -1 4843
+S
+#4846
+Ancient Labrynth~
+~
+The walls and ground are covered with countless vines of ivy. The souls of 
+the lost and doomed seem to linger here. A giant tree can be seen towards 
+the center of the labrynth, shining with hope. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4847
+D2
+~
+~
+0 -1 4822
+S
+#4847
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. Whole armies have been lost forever beneath the vines. 
+Yggdrasil, the world tree, is rumored to be within this labrynth. 
+~
+1 33562628 0
+D0
+~
+~
+0 -1 4844
+D1
+~
+~
+0 -1 4848
+D2
+~
+~
+0 -1 4846
+S
+#4848
+Ancient Labrynth~
+~
+The walls are covered with the scars and scratches from a thousand 
+different battles. The souls of the lost and doomed seem to linger here. 
+The spear of destiny was placed here beneath the branches of Yggdrasil. 
+~
+1 33562628 0
+D1
+~
+~
+0 -1 4849
+D3
+~
+~
+0 -1 4847
+S
+#4849
+Ancient Labrynth~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. The souls of the lost and doomed 
+seem to linger here. A giant tree can be seen towards the center of the 
+labrynth, shining with hope. 
+~
+1 33562628 0
+D2
+~
+~
+0 -1 4828
+D3
+~
+~
+0 -1 4848
+D5
+~
+~
+0 -1 4834
+S
+#4850
+Waiting Room~
+~
+The labrynth is ancient beyond belief. Countless heroes have lost their 
+lives here, never to be heard from again. Whole armies have been lost 
+forever beneath the vines. Yggdrasil, the world tree, is rumored to be 
+within this labrynth. There is a 'plaque' on the wall with writing on it. 
+~
+1 33562628 0
+E
+plaque~
+&ILet's take a walk with the stars,
+                       The Moon can come too.&D
+~
+> rand_prog 15~
+if mortcount(4850) > 0
+mpe &wThe roar of the crowds drives your blood wild!&D
+mppause 3
+mpe &wTwo men enter...&D
+mppause 3
+mpe &wOnly one returns...&D
+endif
+~
+|
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  4803 spec_poison
+M  4806 spec_thief
+M  4807 spec_cast_mage
+M  4809 spec_cast_undead
+M  4810 spec_breath_any
+S
+
+
+#$

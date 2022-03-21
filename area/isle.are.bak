@@ -1,0 +1,6175 @@
+#AREA        Isle of Death~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+70 100 40 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &wCold fingers of despair trickle down your back.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999998845 999998825 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#3750
+ravenous young dragon~
+A young dragon.~
+A ravenous young dragon wades through the murky water.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+69 0 -90 20d50+6000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 10 0 0 1 1 3
+40 40 41 0 0 0 0 2
+#3751
+ravenous mother muskrat~
+the mother muskrat~
+The mother muskrat swims though the murky water.
+~
+Perhaps the little ones weren't so bad after all..
+You assume that the 15 foot long muskrat is the 
+mother of those you encountered in the cavern.
+She doesn't seem to approve of your presence in
+her home..
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+74 0 -90 20d50+30000 5d10+25
+0 0 0 0 0 
+0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+72 4 0 0 1 1 4
+40 40 41 0 0 0 0 2
+#3752
+dun sandrat sand rat~
+a sandrat~
+&OA dun colored form can barely be discerned in the sand.
+~
+~
+0
+Clanname none~
+0
+0
+16777217 32768 0 C
+75 0 -90 20d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 4 0 0 1 1 4
+50 75 41 0 0 0 0 2
+#3753
+dun sandrat sand rat~
+a sandrat~
+&OA dun colored form can barely be discerned in the sand.
+~
+~
+0
+Clanname none~
+0
+0
+16777345 0 0 C
+75 0 -90 20d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 4 0 0 1 1 4
+50 75 41 0 0 0 262145 258
+#3754
+dun rabid sandrat sand rat~
+a rabid sandrat~
+&OA dun colored form can barely be discerned in the sand.
+~
+~
+0
+Clanname none~
+0
+0
+16777217 32768 0 C
+75 0 -90 20d50+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 4 0 0 1 1 4
+50 75 41 0 0 0 262144 2
+#3755
+moray eel~
+a moray eel~
+A sleek ribbon slices through the water. 
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+70 0 0 20d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 3
+50 70 65577 0 0 0 0 0
+#3756
+sea bream fish blue~
+a sea bream~
+A blue fish swims along peacefully.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194304 0 C
+70 0 0 20d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 3
+50 70 65577 0 0 0 0 0
+#3757
+seahorse~
+a seahorse~
+A seahorse makes its way through the water.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+70 0 0 20d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 3
+40 50 65577 0 0 0 0 0
+#3758
+angelfish angel fish~
+an angelfish~
+A blue and yellow fish swims along peacefully.
+~
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+80 0 0 20d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 3
+50 75 65577 0 0 0 0 0
+#3759
+Miralana witch ghost~
+Miralana~
+A witch's ghost waits to fill your order.
+~
+~
+5
+Clanname none~
+0
+0
+67239939 4194304 0 C
+70 0 0 20d50+5000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 4 0 0 1 1 3
+0 0 65577 0 0 0 268435504 33554435
+#3760
+ghost sailor~
+a ghost sailor~
+&WA ghost of a sailor hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+88 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 4144 2
+#3761
+ghost sailor~
+a ghost sailor~
+&WA ghost of a sailor hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194432 0 C
+88 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 4144 2
+#3762
+ghost sailor~
+a ghost sailor~
+&WA ghost of a sailor hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194432 0 C
+88 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 4144 2
+#3763
+ghost sailor~
+a ghost sailor~
+&WA ghost of a sailor hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194432 0 C
+88 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 4144 2
+#3764
+ghost sailor~
+a ghost sailor~
+&WA ghost of a sailor hovers here.
+~
+~
+0
+Clanname none~
+0
+0
+1 4194432 0 C
+88 0 0 0d0+7500 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 4144 2
+#3765
+young boy terale~
+Terale~
+A young boy is sitting on a pile of trash.
+~
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+95 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 43 0 0 0 625 2
+> speech_prog yes~
+mppause 2
+mpquest $n terale 1
+mppause 4
+mpechoat $n &CTerale says, 'My Uncle Seth knows where she is but he won't tell me.  He is wandering around the isle somewhere.  Please find him and make him tell me where my mother is.'&D
+mppause 5
+~
+> speech_prog 'look under his own feet'~
+if quest(terale) == 4
+  mppause 3
+  mpechoat $n &CTerale says, 'Thank you for your help!'&D
+  mpquest $n terale 5
+  mptrans $n 3945
+  mpat 3945 mpforce $n look
+else
+  mppause 3
+  mpechoat $n &CTerale says, 'I already know where she is.'&D
+endif
+~
+> greet_prog 100~
+if quest(terale) == 1
+  mpechoat $n &CTerale says, 'Have you got the answer yet?'&D
+  mppause 4
+  mpechoat $n &CTerale says, 'If not, you must speak with Uncle Seth!'&D
+endif
+if quest(terale) < 1
+  mppause 2
+  mpechoat $n &cTerale sobs from crying, and looks up at you.&D
+  mppause 6
+  mpechoat $n &CTerale says, 'I can't find my mother....Can you help me?'&D
+  mpechoat $n &cType &WSAY YES &cto accept this quest.&D
+endif
+~
+|
+#3766
+old man uncle seth~
+uncle seth~
+A leering old man is standing here.
+~
+~
+1
+Clanname none~
+0
+0
+1 4194816 0 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if quest(Terale) == 1
+  mppause 4
+  mpechoat $n &CUncle Seth says, 'So your here for the boy eh?'&D
+  mppause 6
+  mpechoat $n &CUncle Seth says, 'There is no reason why I should tell him.  What is in it for me?  Can you grant me a wish?'&D
+  mpechoat $n &cType &WSAY WISH&c to continue.&D
+endif
+~
+> speech_prog wish~
+if quest(terale) == 1
+  mpquest $n terale 2
+  mppause 2
+  mpechoat $n &CUncle Seth says, 'Well you can huh?'&D
+  mppause 3
+  mpechoat $n &cUncle Seth looks at you appraisingly.&D
+  mppause 8
+  mpechoat $n &CUncle Seth says, 'Well tell you what, if you can rid me of the Krakken squid in the ocean, it will allow me to get some trading done with the neighboring countries.  Bring me the corpse of the squid for my wish.'&D
+endif
+~
+> act_prog p gives you the corpse of the giant squid Krakken.~
+if quest(terale) == 3
+  mppause 5
+  mpquest $n terale 4
+  mpechoat $n &CUncle Seth says, 'Very well, tell the boy...&WLOOK UNDER HIS OWN FEET &Cthis will allow you to enter the shop where his mother now only a ghost, has a shop of every magic potion you can imagine.'&D
+  mppause 1
+  mpechoat $n &RNote: You can only visit this shop one time so you will want to make sure you have as much money on you as possible.&D
+  mpat 4 drop cor
+else
+  mppause 3
+  mpechoat $n &CUncle Seth says, 'I don't want this.'&D
+  mpat 4 drop cor
+endif
+~
+|
+#3767
+old silver dragon Xagaen~
+Xagaen~
+An very old silver dragon is resting here.
+~
+~
+13
+Clanname none~
+0
+0
+1073872899 4194304&2097152 700 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 10 0 0 1 1 0
+0 0 41 0 0 0 0 0
+> fight_prog 35~
+mpecho An old silver dragon roars!
+mppause 3
+stomp $n
+mppause 10
+tail $n
+mppause 20
+mpat 4 look
+mppause 20
+breath $n aoe
+mppause 20
+mpat 4 look
+mppause 10
+gut $n
+mppause 20
+mpat 4 look
+mppause 20
+mpat 4 look
+mpecho An old silver dragon bellows, 'You will now feel my full fury!!'
+mppause 20
+mpecho An old silver dragon opens his jaws wide...
+mppause 20
+breath $n titanium
+~
+|
+#3768
+ghost slave~
+a ghost of a slave~
+A ghost of a slave wails in pain here
+~
+~
+0
+Clanname none~
+0
+0
+1 128 0 C
+95 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 43 0 0 0 625 2
+#3769
+kelpie stallion~
+the kelpie stallion~
+Some god abandoned a newly created kelpie stallion here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+99 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#3900
+tiny green dragon zombie~
+a tiny green dragon zombie~
+A tiny green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+10 0 0 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 1 0
+> death_prog 100~
+if ispc($n)
+  if level($n) < 11
+  mpoload 3900
+  drop scale
+  endif
+endif
+~
+|
+#3901
+small green dragon zombie~
+a small dragon zombie~
+A small green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+20 0 0 0d0+750 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 1 526336
+> death_prog 100~
+if ispc($n)
+  if level($n) < 21
+  mpoload 3901
+  drop scale
+  endif
+endif
+~
+|
+#3902
+medium green dragon zombie~
+a medium dragon zombie~
+A medium green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+30 0 0 0d0+850 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4097 526338
+> death_prog 100~
+if ispc($n)
+  if level($n) < 31
+  mpoload 3902
+  drop scale
+  endif
+endif
+~
+|
+#3903
+large green dragon zombie~
+a large dragon zombie~
+A large green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4097 526338
+> death_prog 100~
+if ispc($n)
+  if level($n) < 41
+  mpoload 3903
+  drop scale
+  endif
+endif
+~
+|
+#3904
+very large green dragon zombie~
+a very large dragon zombie~
+A very large green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+50 0 0 0d0+2000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4097 526338
+> death_prog 100~
+if ispc($n)
+  if level($n) < 51
+  mpoload 3904
+  drop scale
+  endif
+endif
+~
+|
+#3905
+huge green dragon zombie~
+a huge dragon zombie~
+A huge green dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4099 526339
+> death_prog 100~
+if ispc($n)
+  if level($n) < 61
+  mpoload 3905
+  drop scale
+  endif
+endif
+~
+|
+#3906
+enormous green dragon zombie~
+an enormous dragon zombie~
+An enormous dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4099 526339
+> death_prog 100~
+if ispc($n)
+  if level($n) < 71
+  mpoload 3906
+  drop scale
+  endif
+endif
+~
+|
+#3907
+gigantic green dragon zombie~
+a gigantic dragon zombie~
+A gigantic dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4099 526339
+> death_prog 100~
+if ispc($n)
+  if level($n) < 81
+  mpoload 3907
+  drop scale
+  endif
+endif
+~
+|
+#3908
+grand green dragon zombie~
+a grand dragon zombie~
+A grand dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+1 8192 0 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4099 526595
+> death_prog 100~
+if ispc($n)
+  if level($n) < 91
+  mpoload 3908
+  drop scale
+  endif
+endif
+~
+|
+#3909
+great green dragon zombie~
+a great dragon zombie~
+A great dragon zombie ravages the lands.
+~
+~
+11
+Clanname none~
+0
+0
+33 8192 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 0 0 0 4099 2307
+> death_prog 100~
+if ispc($n)
+  if level($n) < 101
+  mpoload 3909
+  drop scale
+  endif
+endif
+~
+|
+#3910
+old wizard Zyfus~
+Zyfus~
+The old wizard, Zyfus, stands here.
+~
+~
+1
+Clanname none~
+0
+0
+67108867 0 0 C
+100 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog p I am here to rescue you.~
+follow $n
+~
+|
+#3950
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#3750
+muskrat pelt~
+a muskrat pelt~
+The pelt of a muskrat lies on the ground.~
+~
+9 262144 1025
+50 50 0 0 0 65 0
+15 50000 5000
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+muskrat pelt~
+This pelt appears to be from a very large muskrat.
+~
+A
+18 3
+A
+14 100
+A
+17 -25
+A
+2 -2
+#3751
+muskrat collar~
+a muskrat's collar~
+A collar inscribed with arcane symbols lies coiled here.~
+~
+9 4096 5
+50 50 0 0 0 70 0
+2 100000 10000
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+collar arcane symbols~
+You can only assume the symbols represent the name of the
+creature the collar was intended for.
+~
+A
+13 100
+A
+18 10
+A
+19 10
+A
+1 2
+A
+5 2
+#3752
+half-eaten pirate corpse~
+a pirate's corpse~
+The half-eaten corpse of an unfortunate pirate bobs in the water.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+half-eaten pirate corpse~
+The corpse of an unfortunate pirate seems to have
+recently been on something's menu. You wonder if
+the pirate died before or after the feeding started..
+~
+#3754
+muskrat claw~
+a muskrat claw~
+The claw of a giant muskrat lies here.~
+~
+5 75 8193
+0 0 0 1 2 65 0
+20 75000 7500
+1
+0
+0
+0
+0
+0
+S 3 0
+A
+18 5
+A
+19 5
+A
+13 100
+A
+24 3
+A
+23 3
+A
+2 -2
+#3755
+golden kelpie bridle~
+a golden Kelpie bridle~
+A collection of golden straps lies puddled upon the ground.~
+~
+9 528833 17
+60 60 0 0 0 0 0
+5 1000000 100000
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+26 4194304
+A
+3 2
+A
+4 2
+A
+56 91
+A
+56 86
+A
+56 18
+A
+56 20
+> wear_prog 100~
+mpechoat $n The bridle writhes as it shapes itself to your head.
+mpechoaround $n The bridle writhes as it shapes itself to $n's head.
+~
+> remove_prog 100~
+mpechoat $n The bridle writhes as you remove it, reshaping itself.
+mpechoaround $n The bridle writhes as $n removes it, reshaping itself.
+~
+|
+#3756
+raw seagull egg~
+a large egg~
+A large speckled egg lies in a nest.~
+Nasty yellow yolk drips as the egg is gobbled.~
+19 0 1
+0 10 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#3757
+sandrat tail~
+the tail of a giant sandrat~
+A disgusting length of scaly flesh lies on the ground.~
+~
+5 262216 8193
+0 35 70 5 3 65 0
+10 0 0
+1
+8
+0
+0
+0
+0
+S 3 0
+E
+sandrat sand rat whip tail~
+A disgusting giant pink tail, hacked from the body of a
+sandrat seems as if it would make an excellent whip.
+~
+A
+13 50
+A
+18 5
+A
+19 5
+#3758
+pirate rapier~
+a pirate's rapier~
+A blade that looks as if it should be worn by a pirate was dropped here.~
+~
+5 528541 8193
+0 0 0 2 1 70 0
+1 300000 30000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+rapier blade~
+This slim blade is a bit rusty, yet covered in
+what appear to be fine gems upon the hilt.
+~
+A
+1 2
+A
+5 2
+A
+13 100
+A
+17 -25
+A
+31 -2
+#3759
+bone club~
+a bone club~
+The legbone of a dead slave lies on the ground.~
+~
+5 262144 8193
+0 0 0 4 5 65 0
+7 1 0
+4
+0
+0
+0
+0
+0
+S 3 0
+E
+bone club~
+This appears to be a human thigh bone.
+It looks like it would make a good club.
+~
+A
+1 4
+A
+5 4
+#3760
+pirate slavemaster whip~
+a slavemaster's whip~
+A nasty looking whip with 3 barbed tips lies coiled here.~
+~
+5 131600 8193
+0 0 0 5 3 70 0
+10 100000 10000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+whip~
+A nasty looking length of leather is coiled before
+you. It has 3 seperate tips, each one of which ends
+in a jagged metal tip. As you look closer, you
+realise you can see blood on the tips..
+~
+A
+2 4
+A
+14 200
+A
+19 10
+#3761
+pirate trident~
+a pirate's trident~
+A sharp spiked trident is laying on the deck.~
+~
+5 541200 8193
+0 0 0 2 0 70 0
+10 100000 10000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+trident~
+This is the mariners answer to a pitchfork. All 3
+tines are sharp, and barbed, designed to inflict
+extra damage as you pull it back out.
+~
+A
+19 10
+A
+18 10
+A
+13 100
+A
+14 50
+#3762
+pirate quarterstaff staff~
+a gnarled quarterstaff~
+A gnarled 6 foot long staff has fallen here.~
+~
+5 18960 8193
+0 0 0 4 11 70 0
+20 100000 10000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+staff quarterstaff~
+This six foot length of wood can be very impressive
+in the hands of a skilled user, but a travesty in the
+hands of a novice.
+~
+A
+19 15
+A
+1 4
+A
+5 2
+A
+21 -10
+#3763
+giant fish bladder~
+a giant fish bladder~
+A strangely inflated fish bladder bobs about.~
+~
+1 262145 1
+0 0 0 0 0 10 0
+1 1000 100
+1
+0
+0
+0
+0
+0
+S 3 0
+A
+56 236
+#3764
+belaying pin~
+a belaying pin~
+A 2 foot long wooden pin lies on the deck.~
+~
+5 262144 8193
+0 0 0 4 5 65 0
+1 5000 500
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+wooden belaying pin~
+A strong pin from the side of the vessel, or by the 
+mast, round which ropes were wound when they
+were fastened (belayed).
+~
+A
+18 5
+A
+19 5
+A
+13 50
+A
+12 50
+#3765
+marlinspike~
+a marlinspike~
+A metal marlinspike lies on the deck.~
+~
+5 524288 8193
+0 0 0 2 2 65 0
+1 50000 5000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+metal marlinspike spike~
+A sharp metal tool used to pull rope apart in order
+to splice it.
+~
+A
+18 5
+A
+19 5
+A
+13 50
+A
+12 50
+#3766
+fydd~
+a fydd~
+A wooden fydd lies on the deck.~
+~
+5 262144 8193
+0 0 0 2 2 65 0
+1 50000 5000
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+wooden fydd wood~
+A sharp wooden tool used to pull rope apart in order
+to splice it.
+~
+A
+18 5
+A
+19 5
+A
+13 50
+A
+12 50
+#3767
+jeweled dagger~
+a jeweled dagger~
+A golden dagger encrusted with gems lies here.~
+~
+5 590848 8193
+0 35 70 2 2 70 0
+1 100000 10000
+1
+0
+0
+0
+0
+0
+S 3 0
+A
+18 7
+A
+19 7
+A
+13 100
+A
+12 100
+#3768
+rainbow potion~
+a rainbow-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 500 100
+1
+0
+0
+0
+0
+0
+'greater heal' 'restore mana' 'refresh'
+S 3 0
+#3769
+sapphire potion~
+a sapphire-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'refresh' 'refresh' 'refresh'
+S 3 0
+#3770
+amethyst potion~
+an amethyst-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'dragonskin' 'armor' 'NONE'
+S 3 0
+#3771
+ruby potion~
+a ruby-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'stone skin' 'armor' 'NONE'
+S 3 0
+#3772
+topaz potion~
+a topaz-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+1
+0
+0
+0
+0
+0
+'sneak' 'invis' 'mass invis'
+S 3 0
+#3773
+emerald potion~
+an emerald-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'dispel magic' 'invis' 'refresh'
+S 3 0
+#3774
+diamond potion~
+a diamond-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'detect invis' 'detect hidden' 'detect magic'
+S 3 0
+#3775
+jade potion~
+a jade-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'cure poison' 'NONE' 'remove curse'
+S 3 0
+#3776
+pearl potion~
+a pearl-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'create food' 'create spring' 'create fire'
+S 3 0
+#3777
+opal potion~
+an opal-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'invis' 'heal' 'refresh'
+S 3 0
+#3778
+gold potion~
+a gold-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'ethereal shield' 'NONE' 'alertness'
+S 3 0
+#3779
+silver potion~
+a silver-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'sanctuary' 'NONE' 'armor'
+S 3 0
+#3780
+platinum potion~
+a platinum-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+1
+0
+0
+0
+0
+0
+'fireshield' 'NONE' 'NONE'
+S 3 0
+#3781
+copper potion~
+a copper-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'dragon wit' 'kindred strength' 'trollish vigor'
+S 3 0
+#3782
+bronze potion~
+a bronze-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'fly' 'float' 'slink'
+S 3 0
+#3783
+garnet potion~
+a garnet-hued potion~
+A glass flask with some sort of color changing liquid in it lies here.~
+~
+10 65 16385
+50 -1 -1 -1 0 50 0
+2 1000 100
+2
+0
+0
+0
+0
+0
+'dragonskin' 'demonskin' 'stone skin'
+S 3 0
+#3784
+grog mug~
+a mug of grog~
+A mug of grog has been carefully set here.~
+~
+17 0 16385
+10 10 17 0 0 5 0
+1 3 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#3785
+leather eyepatch~
+a leather eyepatch~
+A leather eyepatch has fallen here.~
+~
+9 262144 131073
+5 5 0 0 0 5 0
+1 1 0
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+56 19
+#3786
+blue scale torso~
+a blue scale torso~
+A blue scale torso has been left here.~
+~
+9 0 9
+50 50 0 0 0 0 0
+10 136 13
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+13 100
+A
+27 32
+#3787
+pirate boots~
+a pair of pirate boots~
+A pair of pirate boots lays here.~
+~
+9 0 65
+60 60 0 0 0 0 0
+4 233 23
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+14 100
+A
+26 1048576
+A
+19 3
+#3788
+black trousers~
+a pair of black trousers~
+A pair of black trousers lay here.~
+~
+9 0 33
+60 60 0 0 0 0 0
+1 206 20
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+A
+5 1
+A
+17 -20
+#3789
+black cloak~
+a black cloak~
+A black cloak has been left here.~
+~
+9 0 1025
+60 60 0 0 0 86 0
+1 239 18
+1
+13
+0
+0
+0
+0
+S 77 0
+A
+18 4
+A
+19 4
+A
+13 50
+#3790
+scimitar~
+a scimitar~
+A scimitar has been left here.~
+~
+5 0 8193
+0 45 90 1 1 0 0
+1 153 15
+1
+8
+0
+0
+0
+0
+S 3 0
+A
+18 6
+A
+19 6
+A
+1 2
+#3791
+fishing knife~
+a fishing knife~
+A fishing knife has been left here.~
+~
+5 0 8193
+0 45 100 2 2 0 0
+3 202 20
+1
+13
+0
+0
+0
+0
+S 3 0
+A
+18 10
+A
+19 10
+A
+1 2
+#3792
+plain brown tunic~
+a plain brown tunic~
+A plain brown tunic has been left here.~
+~
+9 0 9
+60 60 0 0 0 0 0
+5 185 18
+1
+1
+0
+0
+0
+0
+S 77 0
+A
+13 125
+A
+27 32
+A
+27 16
+A
+27 64
+#3793
+silver dragon orb~
+a silver dragon orb~
+A large silver orb draws your eye.~
+~
+4 0 16385
+40 8 8 -1 0 20 0
+1 29 2
+2
+13
+0
+0
+0
+0
+'heroism'
+S 0 0
+A
+19 4
+#3794
+saddlebags~
+a newly created saddlebags~
+Some god dropped a newly created saddlebags here.~
+~
+15 0 0
+300 0 0 6 0 50 0
+1 380 38
+3
+0
+0
+0
+0
+0
+S 0 0
+#3900
+tiny green scale~
+a tiny green scale~
+A tiny green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3901
+small green scale~
+a small green scale~
+A small green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3902
+medium green scale~
+a medium green scale~
+A medium green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3903
+large green scale~
+a large green scale~
+A large green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3904
+very large green scale~
+a very large green scale~
+A very large green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3905
+huge green scale~
+a huge green scale~
+A huge green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3906
+enormous green scale~
+an enormous green scale~
+An enormous green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3907
+gigantic green scale~
+a gigantic green scale~
+A gigantic green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3908
+grand green scale~
+a grand green scale~
+A grand green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3909
+great green scale~
+a great green scale~
+A great green scale glistens with rot.~
+~
+13 0 16385
+0 0 0 0 0 1 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+#3949
+map book~
+a newly created map book~
+Some god dropped a newly created map book here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+E
+map1~
+Morningstar Clan Hall
+
+[a]         [b]         [c]
+   \         |         /
+    [d]     [e]     [f]
+       \     |     /
+        [g]-[h]-[i]
+         | \ | / |
+[j]-[k]-[l]-[m]-[n]-[o]-[p]
+         | / | \ |
+        [q]-[r]-[s]
+       /     |     \.
+    [t]     [u]     [v]
+   /         |         \.
+[w]         [x]         [y]
+~
+#3950
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#0
+
+
+#ROOMS
+#3750
+The Aft Hold~
+~
+Manacles line the walls, some with skeletons still occupying them. Tiny 
+little portholes line the walls above the manacles. You find yourself 
+feeling very sorry for the poor slaves who were chained in here. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3751
+D2
+~
+~
+0 -1 3753
+S
+#3751
+The Aft Hold~
+~
+Tiny portholes let in very little light. Skeletons sag from manacles 
+lining the wall. Here the slaves spent their last minutes. You can only 
+imagine their screams and their terror, chained in place as the water rose 
+to drown them.
+~
+1 8 8
+D0
+~
+~
+0 -1 3901
+D1
+~
+~
+0 -1 3752
+D2
+~
+~
+0 -1 3754
+D3
+~
+~
+0 -1 3750
+R M 0 3761 1 3751
+  R E 1 3790 1 16
+  R E 1 3788 1 7
+  R E 1 3787 1 8
+  R E 1 3789 1 12
+S
+#3752
+The Aft Hold~
+~
+Despite the illegality of slavery, you are amazed at the number of slaves 
+they must have stuffed into this area. Most were chained to the walls, 
+some apparently were left unchained. Now all that remains of them are bare 
+bones.  A few rotting planks are along the walls.
+~
+1 8 8
+D2
+~
+~
+0 -1 3755
+D3
+~
+~
+0 -1 3751
+S
+#3753
+The Aft Hold~
+~
+You feel a moment of pity for the poor wretches who died here. You wonder 
+what crimes they may have committed to be locked in chains in the aft hold 
+of the ship. Or were they helpless victims, stolen from their homes and 
+families?  There are rotted away planks along the walls.
+~
+1 8 8
+D0
+~
+~
+0 -1 3750
+D1
+~
+~
+0 -1 3754
+D2
+~
+~
+0 -1 3756
+R M 0 3762 1 3753
+  R E 1 3788 1 7
+  R E 1 3787 1 8
+  R E 1 3790 1 16
+S
+#3754
+The Aft Hold~
+~
+The center of the aft hold is empty, although manacles line the walls on 
+every side. You imagine slaves, huddling in abject terror upon the floor, 
+their fellows chained to the walls.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3751
+D1
+~
+~
+0 -1 3755
+D2
+~
+~
+0 -1 3757
+D3
+~
+~
+0 -1 3753
+R M 0 3763 1 3754
+  R E 1 3789 1 12
+  R E 1 3788 1 7
+  R E 1 3787 1 8
+  R E 1 3790 1 16
+S
+#3755
+The Aft Hold~
+~
+Chains line the walls, some still shackled around the bony wrists of once 
+living slaves. A fish darts among the bones of a skeletons ribcage, then 
+zips up and out through where the skeleton's eye once was. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3752
+D1
+~
+~
+0 -1 3901
+D2
+~
+~
+0 -1 3758
+D3
+~
+~
+0 -1 3754
+S
+#3756
+The Aft Hold~
+~
+Shackles hang from the walls, leaving you in no doubt that the former 
+occupants of the aft hold were not willing occupants. You feel a moment of 
+pity, for the length of the chains allows little room for movement. Those 
+unfortunates chained here must have been extremely uncomfortable. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3753
+D1
+~
+~
+0 -1 3757
+R M 0 3762 1 3756
+  R E 1 3788 1 7
+  R E 1 3787 1 8
+  R E 1 3790 1 16
+S
+#3757
+The Aft Hold~
+~
+You find youself on a slightly raised platform that overlooks the aft 
+hold. Chains line the walls of the hold, and you realise that here they 
+carried live, highly illegal cargo.. slaves. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3754
+D1
+~
+~
+0 -1 3758
+D2
+~
+~
+1 -1 3760
+D3
+~
+~
+0 -1 3756
+S
+#3758
+The Aft Hold~
+~
+Strangely, a large pile of bones seems to have chosen to gravitate to this 
+corner of the hold. The movement of the water seems to give the bones the 
+illusion of movement. Then you realise it isn't just an illusion.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3755
+D3
+~
+~
+0 -1 3757
+S
+#3759
+The Aft Hold~
+~
+Barrels are stacked high in this corner of the main hold. You wonder what 
+precious treasures they must have once held. Unfortunately, being under 
+the ocean apparently wasn't good for the contents, as the sea water has 
+filled the barrels. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3760
+D2
+~
+~
+0 -1 3762
+S
+#3760
+The Aft Hold~
+~
+A door in the bulwark apparently leads to the aft hold. You find yourself 
+wondering what treasure was stored there. Unfortunately, the door seems to 
+be locked.. 
+~
+1 8 8
+D0
+~
+~
+1 -1 3757
+D1
+~
+~
+0 -1 3761
+D2
+~
+~
+0 -1 3763
+D3
+~
+~
+0 -1 3759
+S
+#3761
+The Aft Hold~
+~
+Crates are stacked high in this corner of the hold. All that remains in 
+the crates is a fine mushy residue. You wonder what it was before the sea 
+water caused its ruin. 
+~
+1 8 8
+D2
+~
+~
+0 -1 3764
+D3
+~
+~
+0 -1 3760
+S
+#3762
+The Aft Hold~
+~
+Crates of what were once fine fabrics line the walls. Unfortunately, the 
+fine materials have been ruined, and their once vibrant dies long since 
+washed away. You marvel at the many treasures this ship was carrying. Then 
+you wonder if it was all obtained by legal means. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3759
+D1
+~
+~
+0 -1 3763
+D2
+~
+~
+0 -1 3765
+S
+#3763
+The Aft Hold~
+~
+This small area has been left clear, perhaps to make it easier to remove 
+the loot stacked along every wall. You find yourself wondering where the 
+ship picked up the wide variety of cargo you see spread out around you. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3760
+D1
+~
+~
+0 -1 3764
+D3
+~
+~
+0 -1 3762
+S
+#3764
+The Aft Hold~
+~
+Judging from the remains in the crates you have opened, books were once 
+stored here. You are shocked at the sheer number of volumes that once 
+filled these crates.. a considerable fortune in books. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3761
+D2
+~
+~
+0 -1 3766
+D3
+~
+~
+0 -1 3763
+S
+#3765
+The Aft Hold~
+~
+Eww, disgusting.. apparently furs were piled high in this section of the 
+hold. Unfortunately, the sea water hasn't been kind to the furs, and they 
+have decayed the surrounding water, leaving bits of fur and less 
+identifiable things floating around you. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3762
+D2
+~
+~
+0 -1 3767
+S
+#3766
+The Aft Hold~
+~
+Stacks of metal rise against the walls. Some types you recognise, others 
+you aren't sure about. Among the stacks are also small piles of precious 
+gems. You are elated to have discovered treasure.. and then you look 
+closer.  A rusted hooded lantern is attached to the wall here.
+~
+1 8 8
+D0
+~
+~
+0 -1 3764
+D2
+~
+~
+0 -1 3769
+S
+#3767
+The Aft Hold~
+~
+You move, unable to clearly see, so thick is the debris here in the water. 
+You think it may be the remains of some large hairy animal, but you aren't 
+quite sure. You head for relatively cleaner water, feeling a sense of 
+revulsion as a piece of.. something.. slithers past your face. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3765
+D1
+~
+~
+0 -1 3768
+S
+#3768
+The Aft Hold~
+~
+An opening in the bulwark leads from the main hold into the ship's galley. 
+Above you, a hatch opens up to the main deck. The fragments of a rope 
+ladder dangle from the entrance to the main deck. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3769
+D2
+~
+~
+1 -1 3771
+D3
+~
+~
+0 -1 3767
+D4
+~
+~
+0 -1 3805
+S
+#3769
+The Aft Hold~
+~
+The last thing you expected to see on a ship in the middle of the ocean, 
+but there it is. A finely crafted chariot, made to be pulled by two 
+animals, rests here in the corner. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3766
+D3
+~
+~
+0 -1 3768
+S
+#3770
+The Galley~
+~
+Metal tables are bolted to the floor, lined by the remains of wooden 
+benches. This is where the sailors once shared their meals. Wooden barrels 
+line the walls, presumably once filled with water and grog. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3771
+D2
+~
+~
+0 -1 3773
+S
+#3771
+The Galley~
+~
+Metal tables lined with the remains of wooden benches are bolted to the 
+floor in the crew's mess. The place is about what you would expect of a 
+sailor's cafeteria. 
+~
+1 8 8
+D0
+~
+~
+1 -1 3768
+D1
+~
+~
+0 -1 3772
+D2
+~
+~
+0 -1 3774
+D3
+~
+~
+0 -1 3770
+S
+#3772
+The Galley~
+~
+A large metal table lined by the remnants of fine wooden chairs is bolted 
+to the floor, seperate from the other tables and benches. You assume this 
+was where the captain and his officers enjoyed their meals. 
+~
+1 8 8
+D2
+~
+~
+0 -1 3775
+D3
+~
+~
+0 -1 3771
+S
+#3773
+The Galley~
+~
+Wooden barrels line the walls, filled now with sea water, but probably 
+once containing fresh water and grog. Metal tables and their attendant 
+benches are secured to the floor of the ship. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3770
+D1
+~
+~
+0 -1 3774
+S
+#3774
+The Galley~
+~
+Metal tables and the remains of wooden benches are attached to the floor 
+of the galley where once sailors took their meals. Fish swim above the 
+tables that their forebears may have once graced.. on plates. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3771
+D1
+~
+~
+0 -1 3775
+D3
+~
+~
+0 -1 3773
+S
+#3775
+The Galley~
+~
+This entire corner of the galley is covered in rock. Fire at sea was a 
+danger every sailor was aware of, and all possible effort had been taken 
+to make the cook's area as safe as could be. A metal fireplace lined with 
+racks and hooks has been hidden by all the debris. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3772
+D2
+~
+~
+1 -1 3778
+D3
+~
+~
+0 -1 3774
+S
+#3776
+The Fore Hold~
+~
+Several small sealed barrels are stacked neatly against the wall. There 
+are markings of some sort on the outside of the barrels, but you have no 
+idea what it says. You presume it labels the contents of the barrel. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3777
+D2
+~
+~
+0 -1 3779
+S
+#3777
+The Fore Hold~
+~
+Several small sealed barrels are stacked neatly against the wall. There 
+are markings of some sort on the outside of the barrels, but you have no 
+idea what it says. You presume it labels the contents of the barrel. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3778
+D3
+~
+~
+0 -1 3776
+S
+#3778
+The Fore Hold~
+~
+The fore hold seems to be an extension of the cook's domain. Food of every 
+type is arrayed against the walls, and you find yourself shocked to 
+believe that somehow, the food has managed to stay fresh. Surely if that 
+were true, it would be the work of a skilled mage indeed. 
+~
+1 8 8
+D0
+~
+~
+1 -1 3775
+D2
+~
+~
+0 -1 3780
+D3
+~
+~
+0 -1 3777
+S
+#3779
+The Fore Hold~
+~
+Several empty chests are stacked neatly alongside chests containing some 
+type of meat. Apprently the sailors on this ship were very well fed. They 
+certainly seem to have enjoyed a better menu than the traditional salt 
+pork and sea biscuits.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3776
+D2
+~
+~
+0 -1 3781
+S
+#3780
+The Fore Hold~
+~
+Narrow shelves here once held small packets of spices. Unfortunately, the 
+silken bags the spices were in, and the spices themselvs, did not survive 
+immersion in salt water. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3778
+D2
+~
+~
+0 -1 3783
+S
+#3781
+The Fore Hold~
+~
+Lobster tanks with fine netting over the top fill this corner of the hold. 
+You have a moment to wonder why the netting is in such good condition. 
+Then it moves, and the biggest lobster you have ever seen in your life 
+rushes out of one of the tanks. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3779
+D1
+~
+~
+0 -1 3782
+S
+#3782
+The Fore Hold~
+~
+A wine rack graces this wall. Unfortunately, most of the wine seems to be 
+gone. You assume the ship had been out for a while by the low level of 
+supplies in the fore hold. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3783
+D3
+~
+~
+0 -1 3781
+S
+#3783
+The Fore Hold~
+~
+Several empty casks and a few casks with some type of murky brown fluid in 
+them are piled in the corner here.  There are rotting planks along the
+walls showing the murky depths of the ocean.
+~
+1 8 8
+D0
+~
+~
+0 -1 3780
+D3
+~
+~
+0 -1 3782
+S
+#3784
+The Captain's Cabin~
+~
+This entire corner is filled with the biggest bed you
+have ever seen. Like the rest of the captain's cabin,
+the bed shows no sign of the ravages of immersion in 
+water. Wooden drawers line the underside of the bed.
+~
+1 8 8
+D1
+~
+~
+0 -1 3785
+D2
+~
+~
+0 -1 3787
+S
+#3785
+The Captain's Cabin~
+~
+A table spread with maps fills the floor. Looking at
+the maps, you realise you have no idea what land they
+could possibly be depicting. You reach to pick them up,
+then realise they are drawn onto the very surface of 
+the table.
+~
+1 8 8
+D1
+~
+~
+0 -1 3786
+D2
+~
+~
+0 -1 3788
+D3
+~
+~
+0 -1 3784
+S
+#3786
+The Captain's Cabin~
+~
+A large wardrobe bulks in the corner. It is made of
+fine wood, and seems far too expensive and ostentatious
+to be found on a ship at sea.. even in the captain's 
+quarters.
+~
+1 8 8
+D2
+~
+~
+0 -1 3789
+D3
+~
+~
+0 -1 3785
+S
+#3787
+The Captain's Cabin~
+~
+A small table where the captain could take his meals
+in his cabin sits in the corner. A sparkling lantern
+hangs from a hook over the table. A cushioned chair is
+positioned next to the table as if its occupant were
+expecting to return to it at any moment.
+~
+1 8 8
+D0
+~
+~
+0 -1 3784
+D1
+~
+~
+0 -1 3788
+S
+#3788
+The Captain's Cabin~
+~
+As you come down the stairs from the quarter deck into
+the captain's cabin, you are amazed at the opulence 
+before you. It seems the captain believed in living 
+well. The quarters you see before you would not be out
+of place in the finest of mansions.
+~
+1 8 8
+D0
+~
+~
+0 -1 3785
+D1
+~
+~
+0 -1 3789
+D3
+~
+~
+0 -1 3787
+D4
+~
+~
+1 -1 3831
+S
+#3789
+The Captain's Cabin~
+~
+A small chest is bolted to the floor in the corner.
+Its most distinctive feature is a large, ornate 
+padlock. This must have been where the captain kept
+his most special treasures.
+~
+1 8 8
+D0
+~
+~
+0 -1 3786
+D3
+~
+~
+0 -1 3788
+S
+#3790
+The Officers' Cabin~
+~
+Beneath a plaque with the name 'Liarolos" engraved on it, a comfortable 
+looking bed with a locked chest at its foot fills this small walled off 
+cubicle where one of the ship's officers once slept. 
+~
+1 8 8
+D8
+~
+~
+1 -1 3794
+S
+#3791
+The Officers' Cabin~
+~
+Beneath a plaque with the name 'Rastiorn" engraved on it,
+a comfortable looking bed with a locked chest at its
+foot fills this small walled off cubicle where one
+of the ship's officers once slept.
+~
+1 8 8
+D2
+~
+~
+1 -1 3794
+S
+#3792
+The Officers' Cabin~
+~
+Beneath a plaque with the name 'Hutryio' engraved on it, a comfortable 
+looking bed with a locked chest at its foot fills this small walled off 
+cubicle where one of the ship's officers once slept. 
+~
+1 8 8
+D9
+~
+~
+1 -1 3794
+S
+#3793
+The Officers' Cabin~
+~
+Beneath a plaque with the name 'Iagornious' engraved on it, a comfortable 
+looking bed with a locked chest at its foot fills this small walled off 
+cubicle where one of the ship's officers once slept. 
+~
+1 8 8
+D1
+~
+~
+1 -1 3794
+S
+#3794
+The Officers' Cabin~
+~
+You are surrounded by small cubicles which once housed the ships officers. 
+You are amazed at the idea, for on a normal ship, the officers would have 
+all shared a single room with each other, seperate from the common 
+sailors living quarters.
+~
+1 8 8
+D0
+~
+~
+1 -1 3791
+D1
+~
+~
+1 -1 3795
+D2
+~
+~
+0 -1 3797
+D3
+~
+~
+1 -1 3793
+D6
+~
+~
+1 -1 3792
+D7
+~
+~
+1 -1 3790
+S
+#3795
+The Officers' Cabin~
+~
+Beneath a plaque with the name 'Freastor' engraved on it, a comfortable 
+looking bed with a locked chest at its foot fills this small walled off 
+cubicle where one of the ship's officers once slept. 
+~
+1 8 8
+D3
+~
+~
+1 -1 3794
+S
+#3796
+The Main Deck~
+~
+Long poles with hooks on the end are stacked here in the corner of the 
+main deck. You assume these poles were used to draw other ships closer, to 
+aid in boarding. You realise this is not equipment you would find on a 
+normal merchant ship.. 
+~
+1 8 8
+D1
+~
+~
+0 -1 3797
+D2
+~
+~
+0 -1 3799
+S
+#3797
+The Main Deck~
+~
+Steps here lead from the main deck up to the quarter deck. If memory 
+serves you correctly, the quarter deck would be officers' territory. The 
+rails on the stairway up to the quarter deck gleam even more brightly than 
+those on the rest of the ship. There is a door under the stairs leading 
+aft as well. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3794
+D1
+~
+~
+0 -1 3798
+D2
+~
+~
+0 -1 3800
+D3
+~
+~
+0 -1 3796
+D4
+~
+~
+0 -1 3837
+S
+#3798
+The Main Deck~
+~
+A mop and bucket lie on the deck here, abandoned. A small chest contains 
+rags and polish, which you assume were for use on the rails.  There are 
+holes in the ship deck where planks have rotted away.
+~
+1 8 8
+D2
+~
+~
+0 -1 3801
+D3
+~
+~
+0 -1 3797
+S
+#3799
+The Main Deck~
+~
+A catapult looms here, with buckets of assorted shot beside it. One set of 
+buckets contains small rocks, another set contains large rocks, and a 
+third set is filled with sharp metal objects. You would hate to be on the 
+receiving end.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3796
+D1
+~
+~
+0 -1 3800
+D2
+~
+~
+0 -1 3802
+R M 0 3768 2 3799
+S
+#3800
+The Main Deck~
+~
+Looking before you, you can see a set of manacles attached to the main 
+mast. The customary method for dealing with recalcitrant sailors was 
+flogging, so you quickly understand the purpose of the manacles. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3797
+D1
+~
+~
+0 -1 3801
+D2
+~
+~
+0 -1 3932
+D3
+~
+~
+0 -1 3799
+S
+#3801
+The Main Deck~
+~
+You see a catapult here, with a variety of projectiles beside it. One set 
+of buckets contains small rocks, another set contains large rocks, and a 
+third set is filled with sharp metal objects. You would hate to be on the 
+receiving end.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3798
+D2
+~
+~
+0 -1 3803
+D3
+~
+~
+0 -1 3800
+S
+#3802
+The Main Deck~
+~
+The deck is spotless, and the rails gleam brightly. Immersion in the ocean 
+has somehow not managed to affect the sparkling cleanliness of the ship. 
+It must have taken some sailor long hours of dedicated labor to achieve 
+this shine. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3799
+D1
+~
+~
+0 -1 3932
+D2
+~
+~
+0 -1 3804
+R M 0 3768 2 3802
+S
+#3803
+The Main Deck~
+~
+An opening in the rail with a truncated plank lies before you. However, 
+the plank ends abruptly in the rocky grip of what can not possibly be a 
+giant hand. You wonder if anyone ever actually walked the plank. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3801
+D2
+~
+~
+0 -1 3806
+D3
+~
+~
+0 -1 3932
+S
+#3804
+The Main Deck~
+~
+Copper rails gleam, as does the wooden deck. You have never seen such a 
+neatly kept ship. The captain must have been a remarkable fellow, to 
+inspire this quality of work. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3802
+D1
+~
+~
+0 -1 3805
+D2
+~
+~
+0 -1 3807
+S
+#3805
+The Main Deck~
+~
+An open hatch leads down into the hold of the ship. You wonder what 
+treasures you may discover in the ship's cargo area. After all, this 
+obviously wasn't your average merchant vessel. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3932
+D1
+~
+~
+0 -1 3806
+D2
+~
+~
+0 -1 3808
+D3
+~
+~
+0 -1 3804
+D5
+~
+~
+0 -1 3768
+S
+#3806
+The Main Deck~
+~
+A pile of what were apparently ropes with grappling hooks attached 
+moulders upon the spotless deck. Somehow the condition of the ropes makes 
+the cleanliness of the ship seem that much odder. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3803
+D2
+~
+~
+0 -1 3809
+D3
+~
+~
+0 -1 3805
+S
+#3807
+The Main Deck~
+~
+You see a catapult here, with a variety of projectiles beside it. One set 
+of buckets contains small rocks, another set contains large rocks, and a 
+third set is filled with sharp metal objects. You would hate to be on the 
+receiving end.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3804
+D1
+~
+~
+0 -1 3808
+D2
+~
+~
+0 -1 3810
+R M 0 3768 1 3807
+S
+#3808
+The Main Deck~
+~
+A pile of barrels and buckets is tumbled here. You see fragments of some 
+sort of stiff cloth that may have once been a piece of the ship's sails. 
+You imagine a sailor, sitting there, patiently sewing up rips in the 
+sails. And then you realise it isn't just in your imagination.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3805
+D1
+~
+~
+0 -1 3809
+D2
+~
+~
+0 -1 3811
+D3
+~
+~
+0 -1 3807
+R M 0 3768 1 3808
+S
+#3809
+The Main Deck~
+~
+You see a catapult here, with a variety of projectiles beside it. One set 
+of buckets contains small rocks, another set contains large rocks, and a 
+third set is filled with sharp metal objects. You would hate to be on the 
+receiving end.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3806
+D2
+~
+~
+0 -1 3812
+D3
+~
+~
+0 -1 3808
+S
+#3810
+The Main Deck~
+~
+A strange object lies before you here, and you find yourself glancing up 
+at the rocky 'hand' involuntarily. Surely that can't possibly be a giant 
+thumbnail on the deck? An open door leads into the crew's quarters. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3807
+D1
+~
+~
+0 -1 3811
+D2
+~
+~
+1 -1 3813
+R M 0 3768 1 3810
+R D 0 3810 2 0
+S
+#3811
+The Main Deck~
+~
+Stairs here lead up to the forecastle deck. As you have seen in the rest 
+of the ship, the stairs gleam with a well tended look. You wonder how the 
+ship manages to look so clean despite its immersion. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3808
+D1
+~
+~
+0 -1 3812
+D3
+~
+~
+0 -1 3810
+D4
+~
+~
+0 -1 3840
+R M 0 3768 1 3811
+S
+#3812
+The Main Deck~
+~
+Long poles with hooks on the end are stacked here in the corner of the 
+main deck. You assume these poles were used to draw other ships closer, to 
+aid in boarding. You realise this is not equipment you would find on a 
+normal merchant ship.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3809
+D3
+~
+~
+0 -1 3811
+S
+#3813
+Crew's Quarters~
+~
+You find yourself standing in the only uncluttered space available in the 
+forecastle. By the number of hammocks spread through out the rest of the 
+area, you clearly see this was the crew's sleeping area. 
+~
+1 8 8
+D0
+~
+~
+1 -1 3810
+D1
+~
+~
+0 -1 3814
+D2
+~
+~
+0 -1 3816
+S
+#3814
+Crew's Quarters~
+~
+Hammocks hang from the walls, swaying lazily in the 
+currents. Unfortunately, they don't all seem to be
+empty..
+~
+1 8 8
+D1
+~
+~
+0 -1 3815
+D3
+~
+~
+0 -1 3813
+S
+#3815
+Crew's Quarters~
+~
+Hammocks range neatly against the walls, each hammock
+once the resting place of one of the sailors who
+manned this ship in its better days.
+~
+1 8 8
+D2
+~
+~
+0 -1 3817
+D3
+~
+~
+0 -1 3814
+S
+#3816
+Crew's Quarters~
+~
+Their former sleeping place now serving as their final resting place, 
+skeletons that used to be pirates infest the swaying hammocks here in the 
+crew's quarters. You wonder what type of people they were when they were 
+alive, then realise that is a silly question.. they were pirates. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3813
+D2
+~
+~
+0 -1 3818
+S
+#3817
+Crew's Quarters~
+~
+Empty hammocks sway lazily in the currents.
+Each hammock seems to be in oddly good condition
+considering their long immrsion. It seems almost
+as if they are ready and waiting for their occupants
+to return at any moment..
+~
+1 8 8
+D0
+~
+~
+0 -1 3815
+D2
+~
+~
+0 -1 3820
+S
+#3818
+Crew's Quarters~
+~
+Hammocks extend down the side of this large chamber. Although all are 
+currently empty, when you reflect on the number of hammocks you have seen 
+so far, you realise the ship must have been running on a skeleton crew 
+*before* it was sunk, for there are only enough sleeping spaces for about 
+half a normal crew.. Perhaps they didn't want to split their ill gotten 
+gains too many ways.. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3816
+D1
+~
+~
+0 -1 3819
+D2
+~
+~
+0 -1 3821
+S
+#3819
+Crew's Quarters~
+~
+A large circle is drawn on the floor. You wonder
+what purpose it may have served in the days when
+the ship roamed the ocean. Perhaps it served as
+the boundaries for some sea-mage's spells. Or 
+perhaps it was used in some strange pirate 
+initiation rite..
+~
+1 8 8
+D1
+~
+~
+0 -1 3820
+D2
+~
+~
+0 -1 3822
+D3
+~
+~
+0 -1 3818
+S
+#3820
+Crew's Quarters~
+~
+There is a large open area here at one end of the 
+crew's quarters. You wonder what sort of recreational
+activities the pirates enjoyed while they were at sea..
+perhaps cards, or dice, or maybe wrestling? You
+imagine it had to get pretty boring, being at sea
+for long stretches of time.
+~
+1 8 8
+D0
+~
+~
+0 -1 3817
+D2
+~
+~
+0 -1 3823
+D3
+~
+~
+0 -1 3819
+S
+#3821
+Crew's Quarters~
+~
+Several small tables are clustered at this end of the crew's quarters. 
+Backless stools are scattered about the area in profusion. Once upon a 
+time, the pirates gathered at these tables to play dice or cards, or to 
+tell tall tales. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3818
+D1
+~
+~
+0 -1 3822
+S
+#3822
+Crew's Quarters~
+~
+A pole hangs from the ceiling here, and hanging
+from the pole are all manner of pirate clothing.
+Unfortunately, there is so much of it that you
+can barely make your way through the collection.
+~
+1 8 8
+D0
+~
+~
+0 -1 3819
+D1
+~
+~
+0 -1 3823
+D3
+~
+~
+0 -1 3821
+S
+#3823
+Crew's Quarters~
+~
+This corner of the crew's quarters is completely
+bare. The floor seems well scrubbed and clean, as 
+it does throughout the ship, but other that that,
+there is nothing of notice here.
+~
+1 8 8
+D0
+~
+~
+0 -1 3820
+D3
+~
+~
+0 -1 3822
+S
+#3824
+The Quarter Deck~
+~
+Only the fact that you know where you were before
+you came here tells you where you are. Rocks are 
+piled high on the deck, so that you cannot even see
+the railing.
+~
+1 8 8
+D1
+~
+~
+0 -1 3825
+D2
+~
+~
+0 -1 3827
+S
+#3825
+The Quarter Deck~
+~
+Rocks from the cliffs have fallen to the deck, 
+making movement difficult. You wonder why the 
+crew haven't cleaned the rocks up, but eventually
+you realise the rocks must be too heavy for brittle
+bones to lift. Or at least, you assume that is the
+reason for the broken bones lying around.
+~
+1 8 8
+D1
+~
+~
+0 -1 3826
+D2
+~
+~
+0 -1 3828
+D3
+~
+~
+0 -1 3824
+S
+#3826
+The Quarter Deck~
+~
+A few scattered large rocks lie on the deck here.
+Looking past the deck, you marvel at how tightly 
+the ship is wedged into the rocky cliffs. You find
+yourself wondering again just how long the ship and
+its undead crew have been down here, just waiting
+to be discovered.
+~
+1 8 8
+D2
+~
+~
+0 -1 3829
+D3
+~
+~
+0 -1 3825
+S
+#3827
+The Quarter Deck~
+~
+Rocky debris has fallen from the underwater cliffs 
+onto the deck. You move carefully, fearing that should
+you move too quickly, you may cause yet more rocks
+to fall down.. possibly landing on *you*!
+~
+1 8 8
+D0
+~
+~
+0 -1 3824
+D1
+~
+~
+0 -1 3828
+D2
+~
+~
+0 -1 3830
+S
+#3828
+The Quarter Deck~
+~
+Once, the ship's movement was controlled by the 
+great wheel that looms here. The captain or one of
+his officers would man the wheel, which in turn
+moved the rudder, turning the ship.
+~
+1 8 8
+D0
+~
+~
+0 -1 3825
+D1
+~
+~
+0 -1 3829
+D2
+~
+~
+0 -1 3831
+D3
+~
+~
+0 -1 3827
+S
+#3829
+The Quarter Deck~
+~
+As you look past the deck, you see what looks
+amazingly like a giant thumb made of rock before
+you. You fancy you can see fine striations in the
+*thumb* that would be fingerprints, and some larger 
+grooves that would seem to indicate the presence of 
+knuckles.
+~
+1 8 8
+D0
+~
+~
+0 -1 3826
+D2
+~
+~
+0 -1 3832
+D3
+~
+~
+0 -1 3828
+S
+#3830
+The Quarter Deck~
+~
+The rocky walls loom close to you as you walk along
+the quarterdeck. Even more so than elsewhere on the
+ship, the wooden planks gleam and the brass rails
+shine. Since you know officers would not soil their
+hands to clean, obviously crewmen were occasionally
+allowed on the quarter deck to clean.
+~
+1 8 8
+D0
+~
+~
+0 -1 3827
+D1
+~
+~
+0 -1 3831
+D2
+~
+~
+0 -1 3833
+S
+#3831
+The Quarter Deck~
+~
+Something seems oddly out of place here on the
+quarter deck. It doesn't take you long to figure
+out what it is.. a small, but very well crafted rug
+lies on the deck. Standing on the rug is the ship's
+captain. You wonder at his arrogance, that his feet
+must be on a specially crafted rug, not the deck.
+~
+1 8 8
+D0
+~
+~
+0 -1 3828
+D1
+~
+~
+0 -1 3832
+D2
+~
+~
+0 -1 3834
+D3
+~
+~
+0 -1 3830
+D5
+~
+~
+2049 -1 3788
+S
+#3832
+The Quarter Deck~
+~
+Rocky walls loom close. You find yourself involuntarily
+moving away from the walls, closer to the center of
+the ship, as something indefinable disturbs you. You
+look around quickly, but see nothing that appears
+to be out of place.
+~
+1 8 8
+D0
+~
+~
+0 -1 3829
+D2
+~
+~
+0 -1 3835
+D3
+~
+~
+0 -1 3831
+S
+#3833
+The Quarter Deck~
+~
+From this side of the quarter deck you can see a rocky
+wall clearly. You find yourself wondering again how
+the ship came to be wedged so tightly in such a very
+unlikely spot. You wonder if your earlier impression
+that a giant hand reached up from the bottom of the
+crevice and pulled the ship down to its doom could
+possibly be the correct one. Of course, that in turn
+makes you wonder where the hand came from..
+~
+1 8 8
+D0
+~
+~
+0 -1 3830
+D1
+~
+~
+0 -1 3834
+D2
+~
+~
+0 -1 3836
+S
+#3834
+The Quarter Deck~
+~
+The wooden deck gleams, and you find yourself once
+more impressed with how clean the pirates keep the
+ship. Then it occurs to you that the dead pirates don't
+really have all that much to do, so maybe they actually
+enjoy the cleaning..
+~
+1 8 8
+D0
+~
+~
+0 -1 3831
+D1
+~
+~
+0 -1 3835
+D2
+~
+~
+0 -1 3837
+D3
+~
+~
+0 -1 3833
+S
+#3835
+The Quarter Deck~
+~
+You recoil slightly from the looming, intimidating
+presence of rocky walls at the side of the ship.
+You feel a vague sense of unease, almost as if
+something were watching you.. hungrily..
+~
+1 8 8
+D0
+~
+~
+0 -1 3832
+D2
+~
+~
+0 -1 3838
+D3
+~
+~
+0 -1 3834
+S
+#3836
+The Quarter Deck~
+~
+A very comfortable looking chair is set here, from
+which the ship's first officer supervised the crew's
+activities. Sounds like a cushy job.. sit in the chair,
+yell at the sailors, drink grog..
+~
+1 8 8
+D0
+~
+~
+0 -1 3833
+D1
+~
+~
+0 -1 3837
+S
+#3837
+The Quarter Deck~
+~
+This is the center of operations for the ship.. the
+ship's "bridge" as it were. From here the officers
+looked down upon the crew. From up here, the ship's
+captain gave his orders. The ship's wheel, which
+controlled the ship's direction, is near the back
+of the quarterdeck. Regular sailors were rarely, if
+ever, permitted on the quarter deck.
+~
+1 8 8
+D0
+~
+~
+0 -1 3834
+D1
+~
+~
+0 -1 3838
+D3
+~
+~
+0 -1 3836
+D5
+~
+~
+0 -1 3797
+S
+#3838
+The Quarter Deck~
+~
+As elsewhere about the ship, the sides of the chasm
+loom close to the sides of the ship, enfolding it in
+a rocky underwater tomb. The rocks are smooth and
+waterworn, and you wonder for a moment how long the
+cliffs have enclosed the ship in a rocky embrace.
+~
+1 8 8
+D0
+~
+~
+0 -1 3835
+D3
+~
+~
+0 -1 3837
+S
+#3839
+The Forecastle Deck~
+~
+Apparently this area of the deck is in the process of
+being cleaned. A skeleton very carefully applies 
+a cloth rag to the rail, rubbing slowly and meticulously.
+He pays no attention at all to your presence.
+~
+1 8 8
+D1
+~
+~
+0 -1 3840
+D2
+~
+~
+0 -1 3842
+S
+#3840
+The Forecastle Deck~
+~
+Fish swim about, above the remains of the forecastle deck.
+This part of the ship has taken more damage than any other.
+Rocks are piled on the deck, and fish swim freely about.
+Even the deck seems less polished than elsewhere on the ship.
+~
+1 8 8
+D1
+~
+~
+0 -1 3841
+D3
+~
+~
+0 -1 3839
+D5
+~
+~
+0 -1 3811
+S
+#3841
+The Forecastle Deck~
+~
+Fish swim freely across the deck, unconcerned by
+the bones lining the deck. Some small effort has 
+been made to clear the debris from the deck, but the
+effort was obviously unsuccessful. It seems skeletons
+just aren't great at heavy lifting..
+~
+1 8 8
+D2
+~
+~
+0 -1 3843
+D3
+~
+~
+0 -1 3840
+S
+#3842
+The Forecastle Deck~
+~
+You find yourself surrounded by the towering remnants
+of the shattered foremast on one side, and loomed
+over by the bulk of the cliff on the other. Almost,
+you feel a tremor in the ship, prompting you to fear
+that great cliff, falling down, covering you, rocks
+smashing into you..
+~
+1 8 8
+D0
+~
+~
+0 -1 3839
+D2
+~
+~
+0 -1 3844
+S
+#3843
+The Forecastle Deck~
+~
+The walls close in on you from one side, while the
+shattered remnant of the snapped fore mast loom over
+you on the other side. You feel your skin crawl as
+something moves beside you in the watery darkness..
+~
+1 8 8
+D0
+~
+~
+0 -1 3841
+D2
+~
+~
+0 -1 3846
+S
+#3844
+The Forecastle Deck~
+~
+The deck and railing here are as dingy as you would
+expect for a ship that has sunk. You feel an ominous
+sense of foreboding, but nothing seems to really be
+out of place. Still, you feel uncomfortable. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3842
+D1
+~
+~
+0 -1 3845
+D2
+~
+~
+0 -1 3847
+S
+#3845
+The Forecastle Deck~
+~
+It seems a small herd of seahorses have chosen this
+section of the deck for their home. You watch their
+antics for a while as they play, but after awhile you
+realise you aren't achieving anything.
+~
+1 8 8
+D1
+~
+~
+0 -1 3846
+D2
+~
+~
+0 -1 3848
+D3
+~
+~
+0 -1 3844
+S
+#3846
+The Forecastle Deck~
+~
+The walls close in on you from one side, while the
+shattered remnant of the snapped fore mast loom over
+you on the other side. You feel your skin crawl as
+something moves beside you in the watery darkness..
+~
+1 8 8
+D0
+~
+~
+0 -1 3843
+D2
+~
+~
+0 -1 3849
+D3
+~
+~
+0 -1 3845
+S
+#3847
+The Forecastle Deck~
+~
+Fish swim about unconcernedly among the rubble that
+covers the deck. Scattered amongst the rocks, you see
+bits of bone that are most likely the remains of sailors
+unlucky enough to have been on the forecastle deck
+when the ship met its demise.
+~
+1 8 8
+D0
+~
+~
+0 -1 3844
+D1
+~
+~
+0 -1 3848
+S
+#3848
+The Forecastle Deck~
+~
+The shattered remains of the bowsprit jut forth from
+the front of the ship. Considering the circumference
+of what remains, you wonder at the sheer power it must
+have taken to break the spar off as if it were no more
+than a toothpick..
+~
+1 8 8
+D0
+~
+~
+0 -1 3845
+D1
+~
+~
+0 -1 3849
+D3
+~
+~
+0 -1 3847
+S
+#3849
+The Forecastle Deck~
+~
+Rocks from the nearby underwater cliffs have tumbled
+to the deck here. Looking at the cliffs, you find you
+can not shake the impression you have of a giant rocky
+hand, pulling the ship down into the depths of the
+ocean..
+~
+1 8 8
+D0
+~
+~
+0 -1 3846
+D3
+~
+~
+0 -1 3848
+S
+#3850
+Within the Island~
+~
+&OThe sandy beach extends from one side of the island to the other.
+There are miscellaneous sea shells, and various animal life amongst
+the beach.  Some large palmtrees grow throughout the island.  A few
+sections of dry seaweed are here.
+~
+1 0 2
+D3
+~
+~
+0 -1 3851
+D8
+~
+~
+0 -1 3852
+S
+#3851
+Amongst the Rocks~
+~
+&OLooking out over the sparkling water, you feel a sense of peace
+envelop you. The crisp breeze, the sounds of the ocean.  There are
+some strange looking animal tracks along the side of the rocks.  A
+few dead fish washed up here.
+~
+1 0 2
+D1
+~
+~
+0 -1 3850
+D9
+~
+~
+0 -1 3854
+S
+#3852
+Before a Small Hill~
+~
+&OA small hill along the beach.  There are various sea shells scattered about
+here.  Sea weed covers the ground.  Debris from some type of rotted boat
+was uused for a campfire here.
+~
+1 0 2
+D2
+~
+~
+0 -1 3860
+D3
+~
+~
+0 -1 3853
+D7
+~
+~
+0 -1 3850
+R M 0 3766 1 3852
+S
+#3853
+On Top of a Small Hill~
+~
+&OYou gaze out over the sparkling water, and you begin to wonder what
+the attraction was. All that sparkling is beginning to make your
+eyes hurt. The rocking of the boat, once soothing, is starting to 
+make you rather queasy. Oh well, at least the air is still fresh.
+~
+1 0 2
+D1
+~
+~
+0 -1 3852
+D2
+~
+~
+0 -1 3859
+D3
+~
+~
+0 -1 3854
+S
+#3854
+Next to a Small Hill~
+~
+&OPerhaps you spoke too soon.. The most appalling scent is rising from
+the water in front of you. You can either continue on as you have been
+going, straight into the stench, or you can take that sidestream,
+which seems to lead away from the smell. The current is mild, allowing 
+you plenty of time to decide.
+~
+1 0 2
+D1
+~
+~
+0 -1 3853
+D2
+~
+~
+0 -1 3858
+D6
+~
+~
+0 -1 3851
+S
+#3855
+On the Water~
+~
+You breathe a sigh of relief as the current takes you away from that 
+dreadful smell. You realise the current seems to have grown somewhat
+stronger. Remembering the odor that lies behind you, you consider
+that to be for the best. Ahead of you the glitter of the water seems 
+even more intense, if that is possible. An odd roar begins to reach 
+your ears as you drift downstream, gently pushing an oar every so
+often, dreaming as time slides away from you pleasantly.
+~
+1 4 6
+D8
+~
+~
+0 -1 3856
+S
+#3856
+In the Rocks~
+~
+&OToo late, you realize that the glare was coming off of sprays of 
+water dashed against the rocks, dampening the branches of the gnarled
+old sycamore tree on the shore.  The current is too strong now to turn
+back, and a deeper roar warns you of a waterfall just downstream.
+~
+1 4 6
+D2
+~
+~
+0 -1 3857
+D10
+~
+clamber~
+526336 -1 3872
+E
+gnarled sycamore tree branch~
+Looking at the branches over your head, you realise that they may
+provide your only way out of the river. If you can just CLAMBER up
+onto that branch, you may survive...
+~
+S
+#3857
+In the Waterfall~
+~
+You slide irresistibly over the edge of the waterfall, landing with a
+great KERPLASH! amongst several sharp rocks.  Your boat breaks into
+a thousand sharp, tiny pieces, each of which whirls first away and then
+back on unpredictable eddies.  You drift back under the falling water,
+and are borne to the floor, smashing against the rocky bottom.  You 
+feel bones snap before you are spat back up, rising several feet above 
+the water's surface before falling back.. right on top of one of the 
+largest, jaggedest rocks you have ever seen.  You feel sharp teeth on 
+your toes as your consciousness fades.
+~
+1 4 6
+S
+#3858
+On the Sandy Beach~
+~
+&OThe water here is dark and murky, the smell atrocious. You can see what
+might be an island not too far distant, but to get there would require
+going through water even nastier looking than this. You find yourself
+wondering what made such a mess of the ocean.
+~
+1 0 2
+D0
+~
+~
+0 -1 3854
+D1
+~
+~
+0 -1 3859
+D2
+~
+~
+0 -1 3861
+S
+#3859
+Near a Pile of Washed Up Seaweed~
+~
+&OA large pile of seaweed has been washed up here.  There are some small
+animal bones scattered bout here.  A hastily burried campfire is beside
+the animal bones.  A few sea shells are on the ground.
+~
+1 0 2
+D0
+~
+~
+0 -1 3853
+D1
+~
+~
+0 -1 3860
+D2
+~
+~
+0 -1 3862
+D3
+~
+~
+0 -1 3858
+D5
+~
+~
+0 -1 3911
+S
+#3860
+On the Island~
+~
+&OThe ground is moist here, going around the island. The debris in the 
+water here is so thick you can barely get through it. Various sea shells 
+litter the ground. 
+~
+1 0 2
+D0
+~
+~
+0 -1 3852
+D2
+~
+~
+0 -1 3863
+D3
+~
+~
+0 -1 3859
+S
+#3861
+A Rocky Beach~
+~
+&OA few scattered rocks are amongst the sandy beach here.  There are small
+sea shells and hermit crabs here and there.  A few large palmtrees are
+in the distance to the south.
+~
+1 0 10
+D0
+~
+~
+0 -1 3858
+D1
+~
+~
+0 -1 3862
+D2
+~
+~
+0 -1 3864
+S
+#3862
+A Rocky Beach~
+~
+&OThe sandy ground is encroached by large rocks throughout here. Various 
+dried feces from birds litter the rocks. There is seaweed pieces scattered 
+about the rocks here and there. 
+~
+1 0 10
+D0
+~
+~
+0 -1 3859
+D1
+~
+~
+0 -1 3863
+D2
+~
+~
+0 -1 3865
+D3
+~
+~
+0 -1 3861
+S
+#3863
+A Rocky Beach~
+~
+&OThe shoreline is covered in rocks here.  The sand and rocks are eroding
+away due to the waves relentless force.  There are small hermit crabs
+living on the rocks.  A few pieces of coral have washed ashore.
+~
+1 0 10
+D0
+~
+~
+0 -1 3860
+D1
+~
+~
+0 -1 3883
+D2
+~
+~
+0 -1 3866
+D3
+~
+~
+0 -1 3862
+S
+#3864
+A Tall Palmtree~
+~
+&OThe beach has a few bushes around a tall palmtree here.  There are many
+sea shells and stones scattered about the ground.  The tracks of some
+small animals head towards the ocean.
+~
+1 0 10
+D0
+~
+~
+0 -1 3861
+D1
+~
+~
+0 -1 3865
+D2
+~
+~
+0 -1 3868
+S
+#3865
+The Remains of a Hut~
+~
+&OThe place had been burned nearly to the ground, quite some time  ago from
+the look of the remains.  The destruction is so complete that from a few
+paces away the ruins is not visible.
+~
+1 4 0
+D0
+~
+~
+0 -1 3862
+D1
+~
+~
+0 -1 3866
+D2
+~
+~
+0 -1 3869
+D3
+~
+~
+0 -1 3864
+D5
+~
+~
+2048 -1 3945
+R M 0 3765 1 3865
+  R G 0 3791 1
+  R G 0 3792 1
+S
+#3866
+On the Island~
+~
+&OThe ground is covered in sand, rocks, and scrub.  A large hole has been
+recently dug in the ground here.  The hole is filled with water at the
+bottom.  Some seagull tracks litter the ground here.
+~
+1 0 10
+D0
+~
+~
+0 -1 3863
+D1
+~
+~
+0 -1 3867
+D2
+~
+~
+0 -1 3870
+D3
+~
+~
+0 -1 3865
+S
+#3867
+A Sandy Beach~
+~
+&OThe shoreline here is buffeted by large waves eroding it.  There are
+many sea shells scattered about the ground.  Tiny air holes appear in
+the sand as the waves go back out to sea.  A few jellyfish lay about.
+~
+1 4 10
+D1
+~
+~
+0 -1 3885
+D2
+~
+~
+0 -1 3871
+D3
+~
+~
+0 -1 3866
+S
+#3868
+A Large Boulder~
+~
+&OA massive boulder juts from the ground here.  There appears to be a
+small oasis to the east.  There are several sea shells and rocks that
+are scattered about the ground here.
+~
+1 0 10
+D0
+~
+~
+0 -1 3864
+D1
+~
+~
+0 -1 3869
+D2
+~
+~
+0 -1 3874
+S
+#3869
+An Oasis~
+~
+&OAn Oasis with a small garden of various vegetables and fruit is here.
+A small pond of clear water is next to the garden.  The garden is dry
+clay from the hot sun.  A few weeds are growing in it.
+~
+1 0 10
+D0
+~
+~
+0 -1 3865
+D1
+~
+~
+0 -1 3870
+D2
+~
+~
+0 -1 3875
+D3
+~
+~
+0 -1 3868
+S
+#3870
+On the Island~
+~
+&OA large rock juts outward here.  The beach has various stones and shells
+scattered about here.  A small hole made by some type of animal goes under
+the rock.  There are animal tracks leading into the hole.
+~
+1 0 10
+D0
+~
+~
+0 -1 3866
+D1
+~
+~
+0 -1 3871
+D2
+~
+~
+0 -1 3876
+D3
+~
+~
+0 -1 3869
+S
+#3871
+A Sandy Beach~
+~
+&OThe beach slopes down to the water, covered in fine golden sand. Marine 
+life moves just beneath the surface of the water, barely visible as dark 
+shadows beneath the water' surface.  A small palmtree is here.
+~
+1 4 10
+D0
+~
+~
+0 -1 3867
+D1
+~
+~
+0 -1 3886
+D2
+~
+~
+0 -1 3877
+D3
+~
+~
+0 -1 3870
+S
+#3872
+Clinging to a Branch~
+~
+Looking down, you breathe a sigh of relief to have made it safely
+out of the river. Below you, you watch as your boat goes over the
+waterfall, smashing to pieces on the rocks. Had you not climbed
+out, that would be you on the rocks below. Not a pleasant thought.
+For a moment, you wonder what it would be like to dare the elements
+and JUMP into the waterfall, but sanity quickly reasserts itself, and
+you choose instead to climb along the branch and down the tree to the
+relative safety of the island.
+~
+1 0 10
+D10
+~
+jump~
+526336 -1 3857
+S
+#3873
+Before a Massive Palmtree~
+~
+&OAn ancient palmtree stands tall here. The ocean pummels the shoreline to 
+the south. A few patches of grass intermix within the sand here. There are 
+several different types of sea shells throughout here. The remains of a 
+dead animal have been picked clean by insects. 
+~
+1 0 10
+D1
+~
+~
+0 -1 3874
+D2
+~
+~
+0 -1 3879
+D5
+~
+~
+2048 -1 3940
+S
+#3874
+On the Island~
+~
+&OThere is nothing but rocks, sand, scrub, and more rocks.  A few palmtrees
+palmtrees are scattered about inward on the island. The ocean is to the 
+south. There is a small hut in ruins to the north. 
+~
+1 0 10
+D0
+~
+~
+0 -1 3868
+D1
+~
+~
+0 -1 3875
+D2
+~
+~
+0 -1 3880
+D3
+~
+~
+0 -1 3873
+S
+#3875
+On the Island~
+~
+&OThe ground here is flat and clean.  Rocks line the edges of the clear area, 
+laid out in a neat and orderly manner. The soil seems out of place on the 
+island.  There are various different sea shells scattered about here.
+~
+1 0 10
+D0
+~
+~
+0 -1 3869
+D1
+~
+~
+0 -1 3876
+D2
+~
+~
+0 -1 3881
+D3
+~
+~
+0 -1 3874
+S
+#3876
+On the Island~
+~
+&OThere is nothing but rocks, sand, scrub, and more rocks.  A few palmtrees
+palmtrees are scattered about inward on the island. The ocean is to the 
+south. There is a small hut in ruins to the north
+~
+1 4 10
+D0
+~
+~
+0 -1 3870
+D1
+~
+~
+0 -1 3877
+D2
+~
+~
+0 -1 3882
+D3
+~
+~
+0 -1 3875
+S
+#3877
+A Sandy Beach~
+~
+&OThe golden sand slopes out toward the water, extending a narrow
+arm of land out farther into the ocean.  Bits of seaweed line 
+the shore.  A few large palm trees can be seen inward.
+~
+1 4 10
+D0
+~
+~
+0 -1 3871
+D1
+~
+~
+0 -1 3878
+D2
+~
+~
+0 -1 3889
+D3
+~
+~
+0 -1 3876
+S
+#3878
+A Sandy Beach~
+~
+&OThe sandy beach is eroding here from the waves of the ocean.  There are
+few shells along this stretch of the beach.  A few dead fish have washed 
+ashore here.  A few jelly fish lay about the beach.
+~
+1 4 10
+D0
+~
+~
+0 -1 3886
+D1
+~
+~
+0 -1 3888
+D2
+~
+~
+0 -1 3890
+D3
+~
+~
+0 -1 3877
+S
+#3879
+A Sandy Beach~
+~
+&OThe waves of the ocean to the south pound the beach here.  There are
+multitudes of sea shells along the stretch of beach, and small air holes
+from hermit crabs.  Seaweed washes up here and there along the stretch.
+A few small fish flop about on the sand until the waves bring them back.
+~
+1 4 10
+D0
+~
+~
+0 -1 3873
+D1
+~
+~
+0 -1 3880
+D2
+~
+~
+0 -1 3909
+S
+#3880
+A Sandy Beach~
+~
+&OThe fine golden sand prevents you from moving swiftly, but that's
+alright, because the view is absolutely wonderful. Sparkling waves
+with white crests sweep in, to break over the sand, then trail
+back into the water, leaving lacelike patterns on the beach.
+~
+1 4 10
+D0
+~
+~
+0 -1 3874
+D1
+~
+~
+0 -1 3881
+D2
+~
+~
+0 -1 3909
+D3
+~
+~
+0 -1 3879
+S
+#3881
+A Sandy Beach~
+~
+&OThe sandy shoreline is buffeted by the ocean waves. There are some 
+animal tracks across the sand here. Small air holes in the sand are 
+visible as the waves head back out. Various items of trash has been
+washed ashore.  A few broken oysters are on the beach.
+~
+1 4 10
+D0
+~
+~
+0 -1 3875
+D1
+~
+~
+0 -1 3882
+D2
+~
+~
+0 -1 3909
+D3
+~
+~
+0 -1 3880
+S
+#3882
+A Sandy Beach~
+~
+&OThis stretch of beach seems to be popular with seabirds, as evidenced by 
+the seaweed nests lining the shore. The seabirds are a beautiful silvery 
+blue. The beach is covered with a variety of sea shells. A few large palm 
+trees can be seen inland. 
+~
+1 4 10
+D0
+~
+~
+0 -1 3876
+D1
+~
+~
+0 -1 3889
+D2
+~
+~
+0 -1 3909
+D3
+~
+~
+0 -1 3881
+S
+#3883
+Among the Sharks~
+~
+Well, you knew it wasn't a good idea to enter shark infested waters.. From 
+the glints in the eyes of the local denizens, you realise you have been 
+moved to the top of the menu. You wonder if you can swim back to safety... 
+Guess not. 
+~
+1 4 6
+D1
+~
+~
+0 -1 3884
+D3
+~
+~
+0 -1 3863
+S
+#3884
+Sharks.. or Storm~
+~
+You find yourself faced with a difficult decision. You can either
+swim back into the jaws of the hungry sharks, or take your chances
+in the storm brewing ahead of you. Unfortunately, the swelling waves
+and the swift moving current will not allow you much time to decide
+on your own. The ocean seem determined to draw you back to the sharks.
+Sharp rocks rise up from the water, preventing you from escaping
+in any other direction.
+~
+1 4 6
+D1
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3883
+E
+north n~
+A sharp ridge of coral blocks your progress.
+~
+E
+south s~
+A sharp ridge of coral blocks your progress.
+~
+S
+#3885
+On the Ocean~
+~
+This section of ocean is almost oddly lifeless. To one side, you
+have the feeding frenzy of numerous sharks. To the other side you
+see a plethora of marine life of all sorts. Yet here you find yourself
+in a sort of no-fish's land.
+~
+1 4 6
+D1
+~
+~
+0 -1 3897
+D2
+~
+~
+0 -1 3886
+D3
+~
+~
+0 -1 3867
+E
+north n~
+A sharp ridge of coral blocks your progress.
+~
+S
+#3886
+On the Ocean~
+~
+Here, marine life in a variety of sizes, colors, and shapes fill
+the water. You find yourself amazed at the beauty and grace of 
+these creatures, so different from their counterparts on land.
+You find yourself feeling extremely graceless next to these denizens
+of the sea. The water, though bouyant, slows your movements so
+that you feel oddly unreal.
+~
+1 0 6
+D0
+~
+~
+0 -1 3885
+D1
+~
+~
+0 -1 3887
+D2
+~
+~
+0 -1 3878
+D3
+~
+~
+0 -1 3871
+S
+#3887
+On the Ocean~
+~
+You make your way slowly through this underwater paradise, 
+watching those who are native to its splendors. A feeling of 
+surreality envelops you as you see a creature heard of in 
+legends but rarely encountered by those who are believed
+when they speak of seeing it.
+~
+1 0 6
+D0
+~
+~
+0 -1 3897
+D1
+~
+~
+0 -1 3897
+D2
+~
+~
+0 -1 3888
+D3
+~
+~
+0 -1 3886
+S
+#3888
+On the Ocean~
+~
+As you float beneath the white tipped waves, you are enveloped
+in a sense of calm and tranquillity. You drift, peacefully, as
+the water lulls you into a soothing, restful state. Your worries
+seem of little consequence as you watch ocean creatures swim 
+along beside you.
+~
+1 0 6
+D0
+~
+~
+0 -1 3887
+D1
+~
+~
+0 -1 3897
+D2
+~
+~
+0 -1 3891
+D3
+~
+~
+0 -1 3878
+S
+#3889
+On the Ocean~
+~
+Close to shore, the water is not very deep. The nearly crystalline
+clarity of the water allows you to clearly see the local denizens
+of the water. Here in their natural environment, they have a sleek,
+graceful beauty that masks the potential they have for causing
+sudden painful death.
+~
+1 0 6
+D0
+~
+~
+0 -1 3877
+D1
+~
+~
+0 -1 3890
+D2
+~
+~
+0 -1 3896
+D3
+~
+~
+0 -1 3882
+S
+#3890
+On the Ocean~
+~
+As you swim thru the shallow water, schools of fish can be seen a bit
+farther out in the ocean. You find you yourself amazed at the color
+and variety of the marine life here by the shore. The sandy ocean
+floor slopes away from the island, getting darker and more opaque
+as it gets deeper. You wonder what is out there.
+~
+1 0 6
+D0
+~
+~
+0 -1 3878
+D1
+~
+~
+0 -1 3891
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3889
+S
+#3891
+On the Ocean~
+~
+Fish swim about on fish type business, ignoring you as you
+intrude upon their home. Some type of marine plant thrashes
+abruptly, snaring an unwary fish, then retreating into the 
+sand. You resolve to be wary, for despite the beauty and
+apparent peacefulness, the sea can be a deadly place for
+those not versed in its mysteries.
+~
+1 0 6
+D0
+~
+~
+0 -1 3888
+D1
+~
+~
+0 -1 3897
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3890
+S
+#3892
+On the Ocean~
+~
+The waves rush into the ocean, still turbulent from its journey
+over the waterfall. The current is too strong to allow you to go
+any closer to the island. The currents in this area seem to
+discourage the marine life from coming even this close to the
+island's entrance into the sea.
+~
+1 4 6
+D0
+~
+~
+0 -1 3879
+D1
+~
+~
+0 -1 3893
+D2
+~
+~
+0 -1 3897
+S
+#3893
+On the Ocean~
+~
+The soothing blue of the ocean relaxes you, and you listen to the 
+music of the sea raptly. Sea birds emit their cries, waves crash
+upon the shore, and the wind sings its own song. You find yourself
+amazed at the peace you feel, and wonder if it is a false sense of
+security.
+~
+1 0 6
+D0
+~
+~
+0 -1 3880
+D1
+~
+~
+0 -1 3894
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3892
+S
+#3894
+On the Ocean~
+~
+If you only had a big enough net, you feel certain you could make
+a living catching fish here. Marine life in a wide assortment of
+colors, shakes, and sizes dart by you. You momentarily wonder
+what the life of a fish is like, and then you see a marine plant
+suddenly shift, snatching an unwary fish to its doom. Maybe the life
+of a fish isn't that great after all..
+~
+1 0 6
+D0
+~
+~
+0 -1 3881
+D1
+~
+~
+0 -1 3895
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3893
+S
+#3895
+On the Ocean~
+~
+A variety of marine life fills the water here by the beach. Fish
+in a rainbow of colors swim back and forth beneath the waves. The
+sight of something with sharp jaws suddenly shooting out of the ocean
+floor and grabbing a fish before it vanishes remind you to be wary.
+~
+1 0 6
+D0
+~
+~
+0 -1 3882
+D1
+~
+~
+0 -1 3896
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3894
+S
+#3896
+On the Ocean~
+~
+The sun sparkles brightly on the white tips of the waves as you  drift
+peacefully upon the water. You find yourself wishing it weren't  quite
+so hot as the sweat pours down your body. You wonder if perhaps you
+should head for shore.
+~
+1 0 6
+D0
+~
+~
+0 -1 3889
+D1
+~
+~
+0 -1 3897
+D2
+~
+~
+0 -1 3897
+D3
+~
+~
+0 -1 3895
+S
+#3897
+A Sudden Storm~
+~
+You realise as you look up that you should have stayed closer to shore.
+The wind picks up suddenly, and you find yourself in the midst of a fierce
+storm the likes of which you have never seen before. The waves start to
+swell and suddenly a bolt of lightning splits the sky.  As if this was some
+type of signal, water pours from the heavens in sheets. Tossed about, you
+completely lose all sense of direction.
+~
+1 3145732 6
+D0
+~
+~
+0 -1 3898
+D1
+~
+~
+0 -1 3898
+D2
+~
+~
+0 -1 3898
+D3
+~
+~
+0 -1 3898
+S
+#3898
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 0 6
+D0
+~
+~
+0 -1 3898
+D1
+~
+~
+0 -1 3898
+D2
+~
+~
+0 -1 3899
+D3
+~
+~
+0 -1 3898
+R M 0 3756 10 3898
+  R G 1 3786 1
+R M 0 3756 10 3898
+S
+#3899
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 0 6
+D0
+~
+~
+0 -1 3899
+D1
+~
+~
+0 -1 3899
+D2
+~
+~
+0 -1 3900
+D3
+~
+~
+0 -1 3899
+S
+#3900
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 0 6
+D0
+~
+~
+0 -1 3900
+D1
+~
+~
+0 -1 3899
+D2
+~
+~
+0 -1 3901
+D3
+~
+~
+0 -1 3898
+R M 0 3756 10 3900
+  R G 1 3786 1
+R M 0 3755 10 3900
+S
+#3901
+Within the Ocean Depths~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 12 8
+D0
+~
+~
+0 -1 3902
+D1
+~
+~
+0 -1 3901
+D2
+~
+~
+0 -1 3902
+D3
+~
+~
+0 -1 3901
+S
+#3902
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3903
+D1
+~
+~
+0 -1 3902
+D2
+~
+~
+0 -1 3901
+D3
+~
+~
+0 -1 3901
+S
+#3903
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3904
+D1
+~
+~
+0 -1 3902
+D2
+~
+~
+0 -1 3902
+D3
+~
+~
+0 -1 3902
+S
+#3904
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3905
+D1
+~
+~
+0 -1 3902
+D2
+~
+~
+0 -1 3902
+D3
+~
+~
+0 -1 3751
+S
+#3905
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3906
+D1
+~
+~
+0 -1 3905
+D2
+~
+~
+0 -1 3904
+D3
+~
+~
+0 -1 3904
+S
+#3906
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3902
+D1
+~
+~
+0 -1 3905
+D2
+~
+~
+0 -1 3902
+D3
+~
+~
+0 -1 3904
+D4
+~
+~
+0 -1 3907
+S
+#3907
+Lost on the Ocean~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3906
+D1
+~
+~
+0 -1 3904
+D2
+~
+~
+0 -1 3905
+D3
+~
+~
+0 -1 3904
+D4
+~
+~
+0 -1 3908
+D5
+~
+~
+0 -1 3906
+S
+#3908
+Emerging from the Depths~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3909
+D1
+~
+~
+0 -1 3907
+D2
+~
+~
+0 -1 3908
+D3
+~
+~
+0 -1 3907
+D5
+~
+~
+0 -1 3907
+S
+#3909
+Along the Surface~
+~
+Tossed about by the waves, battered by rain, you are not even entirely
+certain which way is up, let alone any other direction. Hoping to find
+your way out of the storm, you struggle on.
+~
+1 8 6
+D0
+~
+~
+0 -1 3881
+D1
+~
+~
+0 -1 3909
+D2
+~
+~
+0 -1 3908
+D3
+~
+~
+0 -1 3908
+R M 0 3756 10 3909
+R M 0 3756 10 3909
+R M 0 3756 10 3909
+R M 0 3755 10 3909
+R M 0 3755 10 3909
+R M 0 3755 10 3909
+R M 0 3758 6 3909
+R M 0 3758 6 3909
+S
+#3910
+The Eye of the Giant Whirlpool~
+~
+You find yourself suddenly in a quiet, totally still spot on the ocean,
+in the very eye of the storm. In every direction, titanic forces of
+nature battle to assert their dominance over the sea. Yet here, in the eye,
+all is still. The water itself is almost glassily clear, and as you look
+down, you realise that underneath the water is a sunken ship. The ship
+appears to be sitting perfectly upright on the floor of the ocean, in 
+nearly pristine condition. Nothing seems to mar its beauty.
+~
+1 12 6
+D4
+~
+~
+0 -1 10441
+D5
+~
+~
+0 -1 3926
+S
+#3911
+Under the River~
+~
+You can barely see through the dark, murky water. You swim down,
+trying to avoid the worst of the garbage in the water. In a brief
+lucid moment, you wonder what possessed you to come this way,
+but you merely shrug and continue on. Up close, you can see
+that the carnage in the water is widely varied. Some of the 
+refuse is human. A bit over there seems to be from a shark, and
+that clearly used to be the claw of a dragon..
+~
+1 12 13
+D2
+~
+~
+0 -1 3917
+D4
+~
+~
+0 -1 3859
+S
+#3912
+Under the River~
+~
+You find yourself in an underground branch of the river, as a
+rocky roof suddenly closes you into a narrow tunnel. The current
+is strong, but not too strong for you to turn around and go back
+to the relative safety of the world above.
+~
+1 4 8
+D2
+~
+~
+0 -1 3913
+S
+#3913
+Under the Island~
+~
+The underground river suddenly widens out into an underground
+lake, and you find yourself in what seems to be an immense
+water filled cavern. You can only assume from the amount of
+waste in the water that whatever is responsible lives down
+here somewhere. You once more consider returning to the safety 
+of the world above.
+~
+1 0 8
+D0
+~
+~
+0 -1 3912
+D1
+~
+~
+0 -1 3914
+D2
+~
+~
+0 -1 3916
+S
+#3914
+Under the Island~
+~
+You experience a moment of panic as you move away from your
+exit to the safety of the world above. You sternly tell yourself
+to relax. Surely you have nothing to fear down here? You wonder
+why you don't feel as certain of that as you should. A sudden 
+movement in the water catches yor attention, but whatever that
+was is gone before you can tell what moved.
+~
+1 0 8
+D1
+~
+~
+0 -1 3915
+D3
+~
+~
+0 -1 3913
+S
+#3915
+Under the Island~
+~
+You move cautiously in the darkness under the water. Barely
+able to see your way, with the water slowing your movements,
+you have no choice but to go slowly. Bits and pieces of things
+you don't want to think about float by you, brushing against
+you, and you find yourself wondering where the cause of this
+mess could be.
+~
+1 0 8
+D3
+~
+~
+0 -1 3914
+S
+#3916
+Under the Island~
+~
+You blink, but it does no good. Squint as you may, you still
+have difficulty seeing through the dark murky water. You sense
+movement beside you and whirl, only to find that what you are
+attacking is already dead, and apparently has been for quite
+some time.
+~
+1 0 8
+D0
+~
+~
+0 -1 3913
+D9
+~
+~
+0 -1 3920
+S
+#3917
+Under the Island~
+~
+You swim about half blindly through these underwater caverns.
+Every movement in the water seems to indicate the presence of
+an enemy, and you feel ill at ease in what could prove to be
+your wet, watery tomb..
+~
+1 8 13
+D0
+~
+~
+0 -1 3911
+D1
+~
+~
+0 -1 3918
+R M 0 3750 1 3917
+S
+#3918
+Under the Island~
+~
+You flail about wildly as something grabs your ankle in the
+darkness. You feel panic as the water slows your movements. 
+You relax as you realise your opponent is merely a water plant,
+which wrapped about your ankle in the current. You laugh at
+yourself, and continue on.
+~
+1 8 13
+D1
+~
+~
+0 -1 3919
+D3
+~
+~
+0 -1 3917
+R M 0 3750 2 3918
+S
+#3919
+In the Lair~
+~
+The floor slopes up sharply here, and your head soon breaks out 
+from under the water. You find yourself wishing you had stayed
+underwater. It seems that the creatures out in the cavern were
+only the young. And compared to their mother, they were also
+very neat eaters. The island here in this underground cavern
+seems made more of bodies than ground..
+~
+1 12 13
+D3
+~
+~
+0 -1 3918
+R M 0 3767 1 3919
+  R G 0 3793 1
+S
+#3920
+Under the Waterfall~
+~
+The waterfall cascades down into this large hidden
+cavern. It seems you are, indeed, under the waterfall.
+Unfortunately, the Captain's log did not mention anything
+about a guardian of the treasure.. Although *you* could
+not get out that way, you assume the mare can use
+Kelpie magic to get out through the waterfall. Alas,
+knowing that still doesn't tell you how to get past
+the mare to the treasure..
+~
+1 4 13
+D6
+~
+~
+0 -1 3916
+S
+#3926
+Along the Main Mast~
+~
+Looking down, you can see the ship spread out below you. It seems almost 
+as if it is cradled in a giant rocky hand. From up here, you can clearly 
+see three fingers on one side of the ship, and what could be a thumb along 
+the other side. As you get closer, you also realise the ship isn't in as 
+pristine condition as you thought. 
+~
+1 8 8
+D4
+~
+~
+0 -1 3910
+D5
+~
+~
+0 -1 3927
+S
+#3927
+Along the Main Mast~
+~
+As you move down along the main mast, you realise the rocky walls are 
+closing in. You have no other option than to go up or down along the main 
+mast. Up close, you fancy you can see fine wrinkles in what couldn't 
+possibly actually be a great rocky hand. 
+~
+1 8 8
+D4
+~
+~
+0 -1 3926
+D5
+~
+~
+0 -1 3928
+S
+#3928
+Along the Main Mast~
+~
+Working your way past tattered fragments of what were once the sails, you 
+pause to gaze down at the ship. Despite having been underwater for who 
+knows how long, the ship appears to be well maintained. Beneath the water, 
+the wood of the main deck seems to shine, and the brass railings gleam as 
+if recently polished. 
+~
+1 8 8
+D4
+~
+~
+0 -1 3927
+D5
+~
+~
+0 -1 3929
+S
+#3929
+Along the Main Mast~
+~
+You wonder at the courage of the sailors who once scrambled up and down 
+this mast as the ship made its way across the seas. They probably didn't 
+even have a fly spell! You make your way carefully along the pole. After 
+all, *you* aren't a sailor! 
+~
+1 8 8
+D4
+~
+~
+0 -1 3928
+D5
+~
+~
+0 -1 3930
+S
+#3930
+Along the Main Mast~
+~
+You wonder if you will ever make your way down to the ship. The length of 
+the pole only reinforces your conviction that the impression you had of a 
+rocky hand must be false.. nothing could have a hand *that* big. 
+~
+1 8 8
+D4
+~
+~
+0 -1 3929
+D5
+~
+~
+0 -1 3931
+S
+#3931
+Along the Main Mast~
+~
+You have almost reached the ship, and before and behind you are the 
+forecastle and quarter decks. Looking before you, you see the forecastle 
+deck has something sticking out of it. You presume that would be the 
+remains of the fore mast.You fancy you see movement on the decks, but 
+surely that's just fish.. 
+~
+1 8 8
+D4
+~
+~
+0 -1 3930
+D5
+~
+~
+0 -1 3932
+S
+#3932
+Along the Main Mast~
+~
+At last! You see the main deck spread out around you. The wood of the deck 
+seems to gleam up close. You wonder how long the ship has been here. 
+Surely not long, or it wouldn't still look so well preserved. 
+~
+1 8 8
+D0
+~
+~
+0 -1 3800
+D1
+~
+~
+0 -1 3803
+D2
+~
+~
+0 -1 3805
+D3
+~
+~
+0 -1 3802
+D4
+~
+~
+0 -1 3931
+S
+#3933
+Out of the Storm~
+~
+You breathe a sigh of relief, having finally broken
+free of the storm. It was beginning to seem like
+you had been in there forever! Not far distant, you can
+see land. You could explore the ocean more, or return
+to the relative safety of the land. The storm waits at
+your back.
+~
+1 4 1
+S
+#3934
+Yet another mob chute, oh my!~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 3870
+R M 0 3752 5 3934
+R M 0 3752 5 3934
+R M 0 3752 5 3934
+R M 0 3752 5 3934
+R M 0 3752 5 3934
+S
+#3935
+Yet another mob chute, oh my!~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 3870
+R M 0 3753 5 3935
+  R E 1 3757 1 16
+R M 0 3753 5 3935
+  R E 1 3757 1 16
+R M 0 3753 5 3935
+  R E 1 3757 1 16
+R M 0 3753 5 3935
+  R E 1 3757 1 16
+R M 0 3753 5 3935
+  R E 1 3757 1 16
+S
+#3936
+Yet another mob chute, oh my!~
+~
+~
+1 4 1
+D4
+~
+~
+0 -1 3870
+R M 0 3754 6 3936
+R M 0 3754 6 3936
+R M 0 3754 6 3936
+R M 0 3754 6 3936
+R M 0 3754 6 3936
+S
+#3937
+Yet another mob chute, oh my!~
+~
+~
+1 536870916 1
+D1
+~
+~
+0 -1 3888
+D3
+~
+~
+0 -1 3886
+R M 0 3755 2 3937
+R M 0 3756 2 3937
+R M 0 3757 2 3937
+R M 0 3758 2 3937
+R M 0 3755 2 3937
+R M 0 3756 2 3937
+R M 0 3757 2 3937
+R M 0 3758 2 3937
+S
+#3938
+Yet another mob chute, oh my!~
+~
+~
+1 4 1
+D0
+~
+~
+0 -1 3889
+D2
+~
+~
+0 -1 3890
+R M 0 3758 4 3938
+R M 0 3758 4 3938
+R M 0 3757 4 3938
+R M 0 3757 4 3938
+R M 0 3756 4 3938
+R M 0 3756 4 3938
+R M 0 3755 4 3938
+R M 0 3755 4 3938
+S
+#3939
+Yet another mob chute, oh my!~
+~
+~
+1 4 1
+S
+#3940
+A Tiny Hidden Graveyard~
+~
+A small clearing lies at the end of an almost invisible trail, hidden from view
+from above. The clearing is carpeted with thick lush green grass, an anomoly in
+this place. Wildflowers abound in profusion, and a small brook trickles toward
+the river, babbling quietly to itself. Three mounds lie within the clearing. A
+haunting melody teases at your mind, barely audible yet teasing your senses.
+~
+1 4 2
+D4
+~
+~
+2048 -1 3873
+E
+brook~
+As your attention focuses more closely on the brook running thru the clearing,
+you realise that along with its babbling it is the source of the melody you can
+barely hear. Focusing closer, you can even make out the words..
+&wYou and I, moving in the dark, bodies close but souls apart.
+Shattered smiles, secrets unrevealed. I need to know the way you feel.
+And I'll give you everything I am, and everything I want to be.
+I'll put it in your hands if you could open up to me.
+Oh, can't we ever get beyond this wall?
+Cuz all I want is just once to see you in the light,
+but you hide behind the color of the night.
+I can't go on, running from the past. Love has torn away this mask.
+And now like clouds, like rain, I'm drowning, and I blame it all on you.
+And I've lost, God save me.
+And I'll give you everything I am, and everything I want to be.
+I'll put it in your hands if you could open up to me.
+Oh, can't we ever get beyond this wall?
+Cuz all I want is just once to see you in the light,
+But you hide behind the color of the night.
+God save me. Everything I am, and everything I want to be,
+oh, can't we ever get beyond this wall?
+Cuz all I want is just once forever and again.
+I'm waiting for you, I'm standing  in the light,
+But you hide behind the color of the night.
+Please come out from the color of the night.
+~
+E
+mounds~
+Each mound lies beneath a marker. Clearly the mounds are graves of loved ones.
+~
+E
+obelisk Resifio~
+As you gaze more closely at the translucent green and purple stone which marks
+the grave of Resifio, you realised there are other words inscribed beneath the
+name. They say "Here lies Resifio Moonblade, who was once upon a time beloved;husband of Fya Morningstar. Walk in peace throughout eternity."
+~
+E
+gravestone john~
+A small gravestone says simply "John, 2004"
+~
+E
+statue ardentstar~
+A statue of cherubim surmounts a monument inscribed "Ardentstar of Solace".
+~
+S
+#3945
+A Hidden Shop~
+~
+Amazing that there should be a fully intact, indeed, extremely neat and 
+well kept shop below the ruins of the cottage. The shopkeeper is a lovely 
+witch by the name of Miralana, and she stands ready to fill you order. You 
+wonder if you should ask this fine, but ghostly, woman about the ruins of 
+the cottage, or how she came to be a ghost, but something wise inside you 
+warns you that some questions are far better left unasked. 
+~
+1 2097156 13
+D4
+~
+~
+0 -1 3865
+R M 0 3759 1 3945
+  R G 1 3783 1
+  R G 1 3782 1
+  R G 1 3781 1
+  R G 1 3780 1
+  R G 1 3779 1
+  R G 1 3778 1
+  R G 1 3777 1
+  R G 1 3776 1
+  R G 1 3775 1
+  R G 1 3774 1
+  R G 1 3773 1
+  R G 1 3772 1
+  R G 1 3771 1
+  R G 1 3770 1
+  R G 1 3769 1
+  R G 1 3768 1
+S
+#3946
+Some Pirate Hell~
+~
+Perhaps this is where dead pirates go, as they await
+their chance to prey upon the living..
+~
+1 4 1
+S
+#3947
+The Sandrat Warren~
+~
+Sandrats everywhere!
+~
+1 4 1
+S
+#3948
+The Kelpie's Lair~
+~
+Apparently the legends are true.. If you mount a Kelpie
+he will drag you off to a watery death, deep below
+the ocean in his lair. Legend also has it that if you
+should dismount from a Kelpie, he will turn on you
+viciously. You wonder if that is true too. The bones
+in the water around you would seem to indicate a
+certain amount of truth in that part of the legend
+as well..
+~
+1 4 1
+R M 0 3769 1 3948
+  R E 0 3767 1 16
+  R G 0 3794 1
+    R P 0 3780 1 3794
+R O 0 3794 1 3948
+  R P 0 3780 1 3794
+S
+#3949
+The Fish Hatchery~
+~
+A wondrous profusion of fish and marine life in every
+possible shape and size can be found here. They exist
+in an unusual harmony with each other. Unfortunately, they
+don't seem to think you belong here.
+~
+1 4 1
+S
+#3950
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+ 3759    0  0  0  0  0   120  90         0 23    ; Miralana
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,1283 @@
+#AREA        Jungle Arena~
+
+
+
+#VERSION     11
+#AUTHOR      Narev~
+#DERIVATIVES ~
+#COLOR       9
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 100 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 2 1
+
+#RESETMSG &GThe tribal drums announce the beginnings of battle!~
+
+#FLAGS
+16384
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 125000000 0 0 0 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#5400
+brown chested woodpecker~
+A woodpecker~
+A brown chested woodpecker perches here
+~
+The woodpecker has brown feathers all over its body. Its eyes are yellow, 
+and it stares into the distance. It has a rather sharp beak, used for 
+pecking holes in trees. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 362137 0 0 0 0 0
+#5401
+talkative parrot~
+A parrot~
+A talkative parrot squawks here
+~
+The parrot has blue feathers, and looks rather hyperactive. Its talons are 
+extremely sharp. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 362137 0 0 0 0 0
+#5402
+majestic eagle~
+An eagle~
+A majestic eagle flies about
+~
+The eagle is master of the skies, soaring above and killing its prey with 
+its mighty talons. The eagle has a calculative look in its eye, and 
+prepares to swoop down on an unsuspecting prey. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 362137 0 0 0 0 0
+#5403
+strutting peacock~
+A peacock~
+A peacock struts along proudly
+~
+The peacock shows off its colourful feathers, basking in the attention. It 
+currently pecks at worms in the soil. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 362137 0 0 0 0 0
+#5404
+loping gazelle~
+A gazelle~
+A gazelle loping through the jungle
+~
+The gazelle is brown and white, with a black stripe running down its side. 
+It is currently running through the jungle escaping from its predators. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 304418357 0 0 0 0 0
+#5405
+striped tiger~
+A tiger~
+A striped tiger romps through the jungle
+~
+The tiger has orange and black stripes running down its torso. It has a 
+feral look in its eye, and looks ready to pounce on any unsuspecting prey. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 304418357 0 0 0 0 0
+#5406
+stampeding elephant~
+elephant~
+A stampeding elephant
+~
+The elephant is dark grey, with lots of wrinkles. It looks rather enraged 
+and its tusks are quivering. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 304418357 0 0 0 0 0
+#5407
+lion basking~
+A lion~
+A lion basking in the sun
+~
+The lion has a yellow hide. It is lazing in the jungle under the bright 
+sun, and not inclined to chase any prey. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 304418357 0 0 0 0 0
+#5408
+cheetah running~
+A cheetah~
+A cheetah running through the jungle
+~
+The cheetah has many different coloured spots on its torso. It is freely 
+running through the jungle, feeling the air on its skin. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 304418357 0 0 0 0 0
+#5409
+big game hunter~
+A big game hunter~
+A big game hunter out to hunt some game
+~
+The big game hunter is a human from Paleon hunting the wild animals in 
+this region. He has a ferocious and determined look on his face. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#5400
+femur bone~
+A femur bone~
+A femur bone caked with mud~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+femur bone~
+This femur bone came from some unknown animal that died in the jungle. 
+~
+#5401
+thick branch~
+A thick branch~
+A thick branch rests on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+branch thick~
+The end of the branch is charred black. It seems that lightning hit one of 
+the trees and severed the branch. 
+~
+#5402
+wide lilypad~
+A wide lilypad~
+A wide lilypad lies crumpled on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+wide lilypad~
+The lilypad is caked with mud. It looks like it has been recently dragged 
+out from some pond. 
+~
+#5403
+small stone~
+A small stone~
+A small stone sits in the soil~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+stone small~
+The stone is one of the many common types of stone found in the jungle. 
+~
+#5404
+dead beetle~
+A dead beetle~
+A dead beetle lies with its back on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+dead beetle~
+This beetle perished some time back in the jungle, and all life has fled 
+its tiny body. 
+~
+#5405
+flourishing bush~
+A flourishing bush~
+A flourishing bush grows here~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+flourishing bush~
+The bush belongs to the jungle, and is a specimen in its prime. 
+~
+#5406
+tiger claw~
+A tiger claw~
+A tiger claw broken off from a tiger~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+tiger claw~
+The tiger claw is extremely sharp. It seems to have broken off from a 
+tiger 
+~
+#5407
+colorful feather~
+A colorful feather~
+A colorful feather drifts by~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+colorful feather~
+The feather looks like it came from the back of some bird like a parrot or 
+peacock. 
+~
+#5408
+eucalyptus leaf~
+An eucalyptus leaf~
+An eucalyptus leaf lies on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+eucalyptus leaf~
+The leaf came from an eucalyptus bush. 
+~
+#5409
+essence jungle~
+The essence of the jungle~
+The essence of the jungle floats in the air~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+essence jungle~
+The essence of the jungle is here in front of you. In it represents all 
+the dimensions of the jungle: cunningness, ruthlessness, and a will to 
+survive. 
+~
+#5410
+not really here~
+a newly created not really here~
+Some god dropped a newly created not really here here.~
+~
+13 -1073741792 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#5400
+Deep in a Jungle~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. The many trees around in the jungle are used by avian species as 
+their home and safe haven. Some other animals use the bark of these trees 
+as well for other purposes, such as camouflage. Many rotted leaves cover 
+the ground, making crinkly noises when stepped on. All the animals in the 
+jungle learn to listen for such noises, either to escape being eaten or to 
+catch unwary prey. 
+~
+1 103818244 3
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5401
+Deep in a Jungle~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. The jungle houses many different types of trees, all rich in 
+vitality and growing strong. Other trees in the common forests of the 
+world cannot compare to those in this blooming jungle. There are some 
+yellowed bones half buried in the soil. Soon, the scavengers will come and 
+consume these bones, leaving nothing remaining at all. Everything is 
+neatly taken care of in the jungle. 
+~
+1 103817216 3
+D1
+~
+~
+0 -1 5402
+D2
+~
+~
+0 -1 5406
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+bone bones yellowed~
+The bones are the remains of animals who either died of old age, or died 
+to a predator. 
+~
+S
+#5402
+Deep in a Jungle~
+~
+Home to many majestic beasts of prey, the jungle is lush with vegetation 
+and teeming with life. Everything in the jungle follows the one rule - 
+"Survival of the Fittest". The jungle houses many different types of 
+trees, all rich in vitality and growing strong. Other trees in the common 
+forests of the world cannot compare to those in this blooming jungle. Many 
+rotted leaves cover the ground, making crinkly noises when stepped on. All 
+the animals in the jungle learn to listen for such noises, either to 
+escape being eaten or to catch unwary prey. 
+~
+1 103817216 3
+D1
+~
+~
+0 -1 5403
+D2
+~
+~
+0 -1 5407
+D3
+~
+~
+0 -1 5401
+E
+vegetation~
+Plants and trees grow freely, without any constraint at all. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+S
+#5403
+Deep in a Jungle~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. There are many trees in the jungle, some barely a few feet high, 
+while others loom tall in the sky. All of these trees however, be they big 
+or small, are blooming with life. Many rotted leaves cover the ground, 
+making crinkly noises when stepped on. All the animals in the jungle learn 
+to listen for such noises, either to escape being eaten or to catch unwary 
+prey. 
+~
+1 103817216 3
+D1
+~
+~
+0 -1 5404
+D2
+~
+~
+0 -1 5408
+D3
+~
+~
+0 -1 5402
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5404
+Deep in a Jungle~
+~
+Hot and humid, the jungle exists to remind people of a time when beasts 
+ruled and stalked the earth. This is a dangerous place to be in for the 
+unwary and foolish. There are many trees in the jungle, some barely a few 
+feet high, while others loom tall in the sky. All of these trees however, 
+be they big or small, are blooming with life. There are some yellowed 
+bones half buried in the soil. Soon, the scavengers will come and consume 
+these bones, leaving nothing remaining at all. Everything is neatly taken 
+care of in the jungle. 
+~
+1 103817216 3
+D1
+~
+~
+0 -1 5405
+D2
+~
+~
+0 -1 5409
+D3
+~
+~
+0 -1 5403
+E
+bone bones yellowed~
+The bones are the remains of animals who either died of old age, or died 
+to a predator. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5405
+Deep in a Jungle~
+~
+Home to many majestic beasts of prey, the jungle is lush with vegetation 
+and teeming with life. Everything in the jungle follows the one rule - 
+"Survival of the Fittest". The many trees around in the jungle are used by 
+avian species as their home and safe haven. Some other animals use the 
+bark of these trees as well for other purposes, such as camouflage. The 
+ground is uneven here, with tree roots and rocks poking out at odd 
+intervals, ready to trip an unwary animal or person. 
+~
+1 103817216 3
+D2
+~
+~
+0 -1 5410
+D3
+~
+~
+0 -1 5404
+E
+roots root rock rocks~
+They are minor inconveniences in the jungle. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+vegetation~
+Plants and trees grow freely, without any constraint at all. 
+~
+S
+#5406
+Deep in a Jungle~
+~
+Hot and humid, the jungle exists to remind people of a time when beasts 
+ruled and stalked the earth. This is a dangerous place to be in for the 
+unwary and foolish. There are many trees in the jungle, some barely a few 
+feet high, while others loom tall in the sky. All of these trees however, 
+be they big or small, are blooming with life. Many rotted leaves cover the 
+ground, making crinkly noises when stepped on. All the animals in the 
+jungle learn to listen for such noises, either to escape being eaten or to 
+catch unwary prey. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5401
+D1
+~
+~
+0 -1 5407
+D2
+~
+~
+0 -1 5411
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5407
+Deep in a Jungle~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. There are many trees in the jungle, some barely a few feet high, 
+while others loom tall in the sky. All of these trees however, be they big 
+or small, are blooming with life. There are some yellowed bones half 
+buried in the soil. Soon, the scavengers will come and consume these 
+bones, leaving nothing remaining at all. Everything is neatly taken care 
+of in the jungle. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5402
+D1
+~
+~
+0 -1 5408
+D2
+~
+~
+0 -1 5412
+D3
+~
+~
+0 -1 5406
+E
+bone bones yellowed~
+The bones are the remains of animals who either died of old age, or died 
+to a predator. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5408
+At a Rotted Log~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. The jungle houses many different types of trees, all rich in 
+vitality and growing strong. Other trees in the common forests of the 
+world cannot compare to those in this blooming jungle. Many rotted leaves 
+cover the ground, making crinkly noises when stepped on. All the animals 
+in the jungle learn to listen for such noises, either to escape being 
+eaten or to catch unwary prey. There is a rotted log here. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5403
+D1
+~
+~
+0 -1 5409
+D2
+~
+~
+0 -1 5413
+D3
+~
+~
+0 -1 5407
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+log rotted~
+The log looks hollow, perhaps you can &Ycrawl&W inside. 
+~
+> act_prog 'gets down on his hands and knees.'~
+mpechoat $n You crawl into the log.
+mpechoaround $n $N crawls into the log.
+mptransfer $n 5416
+mpat 5416 force $n look
+mpat 5416 force $n stand
+mpat 5416 echoat $n You foolishly stand inside the log and bang your head. Ow.
+~
+> act_prog 'gets down on her hands and knees.'~
+mpechoat $n You crawl into the log. 
+mpechoaround $n $N crawls into the log.
+mptransfer $n 5416
+mpat 5416 force $n look
+mpat 5416 force $n stand
+mpat 5416 echoat $n You foolishly stand inside the log and bang your head. Ow.
+~
+|
+S
+#5409
+At a Rotted Log~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. The many trees around in the jungle are used by avian species as 
+their home and safe haven. Some other animals use the bark of these trees 
+as well for other purposes, such as camouflage. The ground is uneven here, 
+with tree roots and rocks poking out at odd intervals, ready to trip an 
+unwary animal or person. There is a rotted log here. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5404
+D1
+~
+~
+0 -1 5410
+D2
+~
+~
+0 -1 5414
+D3
+~
+~
+0 -1 5408
+E
+roots root rock rocks~
+They are minor inconveniences in the jungle. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+rotted log~
+The log looks hollow, perhaps you can &Ycrawl&W inside. 
+~
+E
+desc~
+There is a rotted log here. 
+~
+> act_prog 'gets down on his hands and knees.'~
+mpechoat $n You crawl into the log. 
+mpechoaround $n $N crawls into the log.
+mptransfer $n 5416
+mpat 5416 force $n look
+mpat 5416 force $n stand
+mpat 5416 echoat $n You foolishly stand inside the log and bang your head. Ow.
+~
+> act_prog 'gets down on her hands and knees.'~
+mpechoat $n You crawl into the log. 
+mpechoaround $n $N crawls into the log.
+mptransfer $n 5416
+mpat 5416 force $n look
+mpat 5416 force $n stand
+mpat 5416 echoat $n You foolishly stand inside the log and bang your head. Ow.
+~
+|
+S
+#5410
+Deep in a Jungle~
+~
+Home to many majestic beasts of prey, the jungle is lush with vegetation 
+and teeming with life. Everything in the jungle follows the one rule - 
+"Survival of the Fittest". The many trees around in the jungle are used by 
+avian species as their home and safe haven. Some other animals use the 
+bark of these trees as well for other purposes, such as camouflage. There 
+are some yellowed bones half buried in the soil. Soon, the scavengers will 
+come and consume these bones, leaving nothing remaining at all. Everything 
+is neatly taken care of in the jungle. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5405
+D2
+~
+~
+0 -1 5415
+D3
+~
+~
+0 -1 5409
+E
+bone bones yellowed~
+The bones are the remains of animals who either died of old age, or died 
+to a predator. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5411
+Deep in a Jungle~
+~
+Hot and humid, the jungle exists to remind people of a time when beasts 
+ruled and stalked the earth. This is a dangerous place to be in for the 
+unwary and foolish. The many trees around in the jungle are used by avian 
+species as their home and safe haven. Some other animals use the bark of 
+these trees as well for other purposes, such as camouflage. A foul smell 
+emerges from the ground below, and the head of an animal carcass peeks 
+through the soil, its blank souless eyes staring at the sky. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5406
+D1
+~
+~
+0 -1 5412
+D2
+~
+~
+0 -1 5416
+E
+carcass animal~
+The scavengers have yet to consume this animal. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5412
+Deep in a Jungle~
+~
+Hot and humid, the jungle exists to remind people of a time when beasts 
+ruled and stalked the earth. This is a dangerous place to be in for the 
+unwary and foolish. The jungle houses many different types of trees, all 
+rich in vitality and growing strong. Other trees in the common forests of 
+the world cannot compare to those in this blooming jungle. The ground is 
+uneven here, with tree roots and rocks poking out at odd intervals, ready 
+to trip an unwary animal or person. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5407
+D1
+~
+~
+0 -1 5413
+D2
+~
+~
+0 -1 5417
+D3
+~
+~
+0 -1 5411
+E
+roots root rock rocks~
+They are minor inconveniences in the jungle. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5413
+Deep in a Jungle~
+~
+Home to many majestic beasts of prey, the jungle is lush with vegetation 
+and teeming with life. Everything in the jungle follows the one rule - 
+"Survival of the Fittest". There are many trees in the jungle, some barely 
+a few feet high, while others loom tall in the sky. All of these trees 
+however, be they big or small, are blooming with life. Many rotted leaves 
+cover the ground, making crinkly noises when stepped on. All the animals 
+in the jungle learn to listen for such noises, either to escape being 
+eaten or to catch unwary prey. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5408
+D1
+~
+~
+0 -1 5414
+D2
+~
+~
+0 -1 5418
+D3
+~
+~
+0 -1 5412
+E
+leaves leaf~
+These leaves are shedded daily from the majestic trees above. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+vegetation~
+Plants and trees grow freely, without any constraint at all. 
+~
+S
+#5414
+Deep in a Jungle~
+~
+The jungle is wild and primeval, with no hint of civilisation at all. This 
+is truly a place for the adventurous, where wild animals roam and kill at 
+will. There are many trees in the jungle, some barely a few feet high, 
+while others loom tall in the sky. All of these trees however, be they big 
+or small, are blooming with life. The ground is uneven here, with tree 
+roots and rocks poking out at odd intervals, ready to trip an unwary 
+animal or person. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5409
+D1
+~
+~
+0 -1 5415
+D2
+~
+~
+0 -1 5419
+D3
+~
+~
+0 -1 5413
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+E
+roots root rock rocks~
+They are minor inconveniences in the jungle. 
+~
+S
+#5415
+In Front of a Tall Tree~
+~
+Hot and humid, the jungle exists to remind people of a time when beasts 
+ruled and stalked the earth. This is a dangerous place to be in for the 
+unwary and foolish. There are many trees in the jungle, some barely a few 
+feet high, while others loom tall in the sky. All of these trees however, 
+be they big or small, are blooming with life. The ground is uneven here, 
+with tree roots and rocks poking out at odd intervals, ready to trip an 
+unwary animal or person. One of the trees look climbable here. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5410
+D2
+~
+~
+0 -1 5420
+D3
+~
+~
+0 -1 5414
+E
+roots root rock rocks~
+They are minor inconveniences in the jungle. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#5416
+Inside a Rotted Log~
+~
+The insides of the log are full of creepy crawlies, such as spiders, 
+toads, and unidentifyable black insects. It is nice and cozy inside the 
+log though. Twin beams of light enter the log from the north and south 
+entrances. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5411
+D1
+~
+~
+0 -1 5417
+E
+creepy crawlies crawly spider spiders toad toads black insect insects~
+They all thrive in darkness, especially inside this rotted log. 
+~
+S
+#5417
+On the Branches of a Tall Tree~
+~
+There are many handholds and rough surfaces on the tree trunk, making this 
+portion easy to ascend. There is a small hollow within the tree, with a 
+sleepy owl nestled inside, oblivious to its surroundings. An elephant 
+charges through the jungle below, with its tusks pointed in the direction 
+of the pond. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5412
+D1
+~
+~
+0 -1 5418
+D3
+~
+~
+0 -1 5416
+E
+handholds handhold surface surfaces rough~
+The handholds and surfaces make it easy for grasping fingers to hold. 
+~
+E
+hollow~
+It is a natural hollow, for birds to rest within. 
+~
+E
+owl~
+The owl has brown feathers, and bright yellow eyes. 
+~
+E
+pond~
+The pond can be seen in the far distance. 
+~
+E
+tusks tusk elephant~
+The elephant is a humongous gray mammal, which few animals dare to kill. 
+~
+S
+#5418
+On the Branches of a Tall Tree~
+~
+The thick branches and leaves are slippery with dew, making a climb 
+upwards difficult. Down below, a tiger suddenly runs through the jungle, 
+searching for prey to devour. Luckily, it doesn't bother looking up the 
+tree. Dark storm clouds slowly gather at a distance ahead. It looks like 
+it is about to rain soon. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5413
+D1
+~
+~
+0 -1 5419
+D3
+~
+~
+0 -1 5417
+E
+branch branches leaves leaf~
+Wet with dewdrops, a wrong grip can lead to one tumbling down to the 
+ground below. 
+~
+E
+storm clouds~
+They look dark and foreboding. 
+~
+E
+tiger~
+The tiger has many stripes on its tawny body and looks rather fierce. 
+~
+S
+#5419
+At the Peak of a Tall Tree~
+~
+The top of the tree has many leafy branches, stretching out in the 
+distance. Many birds of prey make their nests on them. A woodpecker 
+eagerly drills holes in the tree trunk, helping to make handholds in the 
+tree at the same time. The leaves suddenly flutter, and a colorful parrot 
+peeks out hesitantly, before flying off in a fright. There is a vine 
+dangling within the branches here. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5414
+D1
+~
+~
+0 -1 5420
+D3
+~
+~
+0 -1 5418
+E
+branch branches~
+They are thick and sturdy. 
+~
+E
+woodpecker~
+The woodpecker is eagerly drilling holes in the tree, and ignores you. 
+~
+E
+hole holes~
+These are small holes made by the woodpecker. 
+~
+E
+tree trunk~
+The tree trunk is thick and sturdy. 
+~
+E
+parrot~
+The parrot is colourful, with red and yellow feathers all over him. 
+~
+E
+vine~
+&WThe vine looks strong enough to bear your weight, and it seems that you
+can use it to swing over to another tree. Perhaps you may want to try
+to &Y'swing vine'&w?
+~
+S
+#5420
+Deep in a Jungle~
+~
+Home to many majestic beasts of prey, the jungle is lush with vegetation 
+and teeming with life. Everything in the jungle follows the one rule - 
+"Survival of the Fittest". The many trees around in the jungle are used by 
+avian species as their home and safe haven. Some other animals use the 
+bark of these trees as well for other purposes, such as camouflage. A foul 
+smell emerges from the ground below, and the head of an animal carcass 
+peeks through the soil, its blank souless eyes staring at the sky. 
+~
+1 103817216 3
+D0
+~
+~
+0 -1 5415
+D3
+~
+~
+0 -1 5419
+E
+carcass animal~
+The scavengers have yet to consume this animal. 
+~
+E
+tree trees~
+These trees are a common sight in the jungle, giving protection to many 
+species. 
+~
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

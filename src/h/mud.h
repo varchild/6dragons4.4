@@ -564,7 +564,7 @@ typedef enum
 
 typedef struct race_type RACE_TYPE;
 
-#define MAX_RACE      19
+#define MAX_RACE      25
 #define MAX_NPC_RACE  92
 #define GET_RACE(ch) (race_table[ch->race]->race_name)
 #define GET_CLASS(ch) (class_table[ch->class]->who_name)

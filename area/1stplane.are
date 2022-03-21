@@ -101,7 +101,6 @@ if bronzeamt($n) > 19
 endif 
 ~
 > speech_prog avernus~
-
 if bronzeamt($n) > 9
 if level($n) > 89
   mpforce $n give 10 bronze charon

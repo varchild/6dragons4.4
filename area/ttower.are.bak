@@ -1,0 +1,1811 @@
+#AREA        Throng Training Tower~
+
+
+
+#VERSION     11
+#AUTHOR      Aurin~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+65 85 60 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &CA chill wind blows through the desolate halls.&D~
+
+#FLAGS
+384 20
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 5000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#10051
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10052
+skeleton~
+a skeleton~
+A skeleton is here.
+~
+This skeleton is an amalgamation of old, brittle bones. Various ribs are 
+cracked, or missing. 
+~
+5
+Clanname none~
+0
+0
+33 0 0 C
+65 0 0 0d0+4300 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 4 0 0 1 1 0
+0 0 451 1058 34 17 144 11
+> death_prog 60~
+mpoload 10056
+if rand(50)
+  mpoload 10057
+endif
+~
+|
+#10053
+tattered ghoul~
+a tattered ghoul~
+A tattered ghoul shuffles about, collecting limbs.
+~
+Flesh the color of a sickly, green, this hunk of flesh is rotten beyond 
+imagining. 
+~
+9
+Clanname none~
+0
+0
+1 0 -1000 C
+70 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+34 16 0 0 1 1 0
+0 0 0 1282 2 1 1107558584 259
+> death_prog 100~
+if rand($n) == 30
+  mpoload 10059
+endif
+~
+|
+#10054
+rotten zombie~
+a rotten zombie~
+A rotten zombie wanders listlessly about.
+~
+Oozing with a rank, putrid smell, this zombie personifies the word 'rotten'.
+~
+1
+Clanname none~
+0
+0
+1 0&8196&16777216 0 C
+75 0 0 0d0+5500 5d10+10
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 4 0 0 1 1 0
+0 0 0 76 1280 1 788529 17826051
+> death_prog 100~
+if rand($n) == 25
+  mpoload 10062
+else
+  if rand($n) == 25
+    mpoload 10065
+  endif
+endif
+~
+|
+#10055
+lich~
+a lich~
+A lich stands here, looking about with an intense gaze.
+~
+This lich is smarter than your average lich--it's received an education of 
+the highest order, to grade 5! 
+~
+10
+Clanname none~
+0
+0
+1 272629760&134217728&1 0 C
+80 0 0 0d0+7200 10d10+100
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 -10 0 0
+63 3 0 0 1 1 0
+0 140 0 14 2 129 35655792 34603283
+> death_prog 100~
+if rand($n) == 25
+  mpoload 10067
+else
+  if rand($n) == 25
+    mpoload 10069
+  endif
+endif
+~
+|
+#10056
+tinuvial tormentor lich~
+Tinuvial the Tormentor~
+Tinuvial the Tormentor paces about, practicing arcane rituals.
+~
+Tinuvial the Tormentor wears long flowing black robes, tattered. A 
+hideously green glow emanates from his eyes, while nothing else can be 
+distinguished. 
+~
+9
+Clanname none~
+0
+0
+131075&4 335544448&24576&16384&33554432 0 C
+85 0 0 0d0+8500 20d20+200
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 1 1 0
+0 0 0 1048846 10 129 1110184112 105915715
+> death_prog 100~
+if rand(40)
+  mpoload 10071
+else
+  if rand(30)
+    mpoload 10070
+  endif
+endif
+~
+|
+#10057
+Ogre Dakat stout~
+Ogre Dakat~
+A stout ogre, shuffles around in mild confusion here.
+~
+Dakat, a lowly devotee to Tanzean'al, stands here guarding the doors to one 
+of the many Throng training camps. 
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 0 18 2 64 1073742000 104335107
+> all_greet_prog 100~
+if wasinroom($n) == 10051
+  if quest(throngtower) == 0
+    mpechoat $n &CDakat, the Ogre, says, 'Halt! No pass while Dakat protects!'&D
+    mppause 6
+    mpechoat $n &cDakat, the Ogre, slowly thinks on what he just said, and his dim
+    mpechoat $n &cface brightens a bit.&D
+    mppause 5
+    mpechoat $n &CDakat, the Ogre, says, 'I let you through if you prove friendly
+    mpechoat $n &Cto Throng.'
+    mpechoat $n &cAs Dakat, the Ogre, slowly nods to himself.&D
+    mppause 5
+    mpechoat $n &CDakat, the Ogre, says, 'You wish to prove yourself?'&D
+    mpechoat $n &cType &WSAY YES&c to accept this task.&D
+  else
+    if quest(throngtower) == 5
+      mpechoat $n &CDakat, the Ogre, says, 'You wish enter?'&D
+      mpechoat $n &cType &WSAY ENTER&c to enter.&D
+    endif
+  endif
+endif
+~
+> speech_prog enter~
+if quest(throngtower) == 5
+  mpechoat $n &CDakat, the Ogre, says, 'Step lively now!'&D
+  mpechoat $n &cDakat, the Ogre, unlocks and opens the door.&D
+  mpoload 10073
+  unlock north
+  open north
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 5
+  close north
+  lock north
+  mpecho &cDakat, the Ogre, closes and locks the door.&D
+  mpat 4 drop key
+endif
+~
+> speech_prog no~
+mpechoat $n &cDakat, the Ogre, grunts with a great deal of force and then charges!&D
+mpkill $n
+~
+> speech_prog yes~
+if quest(throngtower) == 0
+  mpechoat $n &CDakat, the Ogre, says, 'Good!
+  mpquest $n throngtower 1
+  mpechoat $n &CDakat, the Ogre, says, 'What you need do is kill and bring corpse 
+  mpechoat $n &Cof Alliance races.  First race to bring back is Elf.'&D
+  mppause 5
+  mpechoat $n &CDakat, the Ogre, says, 'Location of Elf is in Loramoor, on Garden
+  mpechoat $n &CPlatform.  Now go!'&D
+endif
+~
+> act_prog p gives you the corpse of an elven warrior.~
+if quest(throngtower) == 1
+  mpechoat $n &cDakat, the Ogre, looks at the corpse with feral delight!
+  mpechoat $n &CDakat, the Ogre, says, 'You bring!  Good!  Next I want you to bring
+  mpechoat $n &Ccorpse of Dwarf.  Location of Dwarf is in Manoake City, in The Public
+  mpechoat $n &CTavern.  Be sure to bring right one, or have to get different corpse!'&D
+  mpquest $n throngtower 2
+  mpat 4 drop corpse
+else
+  mpechoat $n &cDakat, the Ogre, looks at the corpse in confusion.
+  mpat 4 drop corpse
+  mpechoat $n &CDakat, the Ogre, says, 'No need.'
+  mpechoat $n &cDakat, the Ogre, tosses the corpse in the refuse pile.&D
+endif
+~
+> act_prog p gives you the corpse of an overweight dwarf.~
+if quest(throngtower) == 2
+  mpechoat $n &CDakat, the Ogre, says, 'Good! Next race to bring corpse of is Human.  Location
+  mpechoat $n &Cof Human is Paleon Prison, at An Intersection of Corridors.'&D
+  mpquest $n throngtower 3
+else
+  mpechoat $n &cDakat, the Ogre, looks at the corpse in confusion.
+  mpat 4 drop corpse
+  mpechoat $n &CDakat, the Ogre, says, 'No need.'
+  mpechoat $n &cDakat, the Ogre, tosses the corpse in the refuse pile.
+endif
+~
+> act_prog p gives you the corpse of Guard Marta.~
+if quest(throngtower) == 3
+  mpechoat $n &CDakat, the Ogre, says, 'Good, good!  One more, then entry granted!'
+  mppause 3
+  mpechoat $n &cDakat, the Ogre, hops up and down in glee at such carnage.&D
+  mppause 3
+  mpechoat $n &CDakat, the Ogre, says, 'Last corpse to bring is of a Centaur.  Location of Centaur
+  mpechoat $n &Cis in Ixious Village, in A General Store.'&D
+  mpquest $n throngtower 4
+else
+  mpechoat $n &cDakat, the Ogre, looks at the corpse in confusion.
+  mpat 4 drop corpse
+  mpechoat $n &CDakat, the Ogre, says, 'No need.'
+  mpechoat $n &cDakat, the Ogre, tosses the corpse in the refuse pile.
+endif
+~
+> act_prog p gives you the corpse of Persous.~
+if quest(throngtower) == 4
+  mpechoat $n &CDakat, the Ogre, says, 'Good!  Now I let you in.'&D
+  mpechoat $n &cDakat, the Ogre turns to unlock and open the door, then pauses.&D
+  mppause 5
+  mpquest $n throngtower 5
+  mpechoat $n &CDakat, the Ogre, says, 'Beware!  Recruits here know not friend from enemy yet.'&D
+  mpechoat $n &cDakat, the Ogre, finishes unlocking the door, and swing them open wide.
+  mpoload 10073
+  unlock north
+  open north
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 20
+  mpat 4 look
+  mppause 20
+  close north
+  lock north
+  mppause 5
+  drop key
+  sac key
+else
+  mpechoat $n &cDakat, the Ogre, looks at the corpse in confusion.
+  mpat 4 drop corpse
+  mpechoat $n &CDakat, the Ogre, says, 'No need.'
+  mpechoat $n &cDakat, the Ogre, tosses the corpse in the refuse pile.
+endif
+~
+|
+#10090
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10051
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10052
+ornate sculpture~
+an ornately carved sculpture~
+An ornately carved sculpture rests here, obstructing the hallway.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+sculpture statue~
+This beautifully carved sculpture is made from solid marble. The skin is 
+sanded to a lush polish, making it seem as if the statue is actually 
+alive, using a technique called, 'living flesh'. The stone is soft and 
+smooth to the touch. 
+~
+#10053
+unholy light~
+an unholy light~
+An holy light rests here.~
+~
+1 0 1
+0 0 -1 0 0 65 0
+1 56 5
+1
+9
+0
+0
+0
+0
+S 0 0
+E
+light~
+An unholy green light is being emanated from this ball of light.
+~
+A
+56 19
+A
+56 44
+A
+56 18
+#10054
+bone ring~
+a bone ring~
+A bone ring rests here.~
+~
+9 0 3
+50 50 0 0 0 65 0
+1 132 13
+2
+5
+0
+0
+0
+0
+S 77 0
+E
+bone ring~
+A medium sized ring, carved from bone.
+~
+A
+18 6
+A
+19 6
+A
+13 75
+#10055
+bone necklace~
+a bone necklace~
+A bone necklace rests here.~
+~
+9 0 5
+50 50 0 0 0 65 0
+1 35 3
+1
+5
+0
+0
+0
+0
+S 77 0
+E
+bone necklace~
+A white bone necklace, carved out of what looks like pieces of a rib bone.
+~
+A
+1 6
+#10056
+skull fragment bone~
+a bone skull fragment~
+A bone skull fragment pulses here.~
+~
+9 0 65537
+50 50 0 0 0 65 0
+1 36 3
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+bone skull fragment~
+A small piece of fractured bone fragment.
+~
+A
+4 6
+#10057
+bone mask~
+a bone mask~
+A mask made of bone has been left here.~
+~
+9 0 131073
+50 50 0 0 0 65 0
+2 24 2
+1
+5
+0
+0
+0
+0
+S 77 0
+E
+bone mask~
+A white piece of bone with holes drilled through it.
+~
+A
+17 -40
+A
+12 125
+#10058
+vest flesh~
+a vest of flesh~
+A vest made from some hideous, decomposed flesh lays here.~
+~
+9 0 9
+50 50 0 0 0 70 0
+4 154 15
+1
+11
+0
+0
+0
+0
+S 77 0
+E
+vest flesh~
+Rotting flesh sewn together to make a hideously foul vest.
+~
+A
+5 6
+A
+20 -2
+#10059
+scalped scalp~
+a scalped scalp~
+A bloody scalp that has been torn from some poor adventurer rests here.~
+~
+9 0 17
+50 50 0 0 0 70 0
+1 141 14
+1
+8
+0
+0
+0
+0
+S 77 0
+E
+scalp~
+A blood-soaked scalp claimed from a vanquished ghoul.
+~
+A
+12 100
+A
+3 7
+#10060
+leather filthy pants~
+a pair of filthy leather pants~
+A pair of filthy leather pants lays here.~
+~
+9 0 33
+50 50 0 0 0 70 0
+2 144 14
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+leather pants~
+A pair of well made, leather pants. The only drawback to them is that they 
+are filthy, due to where they were found. 
+~
+A
+17 -70
+A
+14 50
+#10061
+gauntlets gore~
+a pair of gauntlets of gore~
+A pair of gauntlets of gore lay here.~
+~
+9 0 129
+50 50 0 0 0 70 0
+2 156 15
+1
+3
+0
+0
+0
+0
+S 77 0
+E
+gauntlets gore~
+A pair of gauntlets covered in a gooey mess of parts.
+~
+A
+18 7
+A
+17 -20
+A
+19 7
+#10062
+tattered skin~
+a tattered piece of skin~
+A tattered piece of skin, with remnants of hair is here.~
+~
+9 0 257
+55 55 0 0 0 75 0
+1 148 14
+1
+6
+0
+0
+0
+0
+S 77 0
+E
+tattered skin~
+This tattered piece of skin is covered in patches of hideously long hair 
+of an unknown source. 
+~
+A
+2 6
+A
+17 -60
+#10063
+shield guardian flesh~
+Guardian of the Flesh~
+The Guardian of the Flesh has been discarded and rests here.~
+~
+9 0 513
+55 55 0 0 0 75 0
+3 50 5
+1
+6
+0
+0
+0
+0
+S 77 0
+E
+guardian flesh shield~
+This giant, bloody mess of a shield is crafted from the tanned remains of 
+various skins found out in the wilderness. 
+~
+A
+5 6
+A
+17 -60
+#10064
+funeral shroud~
+a funeral shroud~
+A funeral shroud lays here discarded and forgotten.~
+~
+9 0 1025
+55 55 0 0 0 75 0
+1 140 14
+1
+5
+0
+0
+0
+0
+S 77 0
+A
+5 3
+A
+56 56
+#10065
+desiccated wrist band wristband flesh~
+a desiccated wristband of flesh~
+A desiccated wristband of flesh lays here, discarded.~
+~
+9 0 4097
+55 55 0 0 0 75 0
+1 148 14
+1
+6
+0
+0
+0
+0
+S 0 0
+E
+desiccated wristband flesh wrist band~
+This dried up and shriveled piece of flesh vaguely resembles that of what 
+an ogre might have. 
+~
+A
+2 6
+A
+24 -2
+#10066
+back scratcher flail~
+the Back Scratcher~
+The Back Scratcher lays here, discarded and forgotten.~
+~
+5 2 8193
+10 40 80 4 5 80 50
+3 171 17
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+back scratcher flail~
+This piece of bone is hinged at the wrist, acting as a primitive flail, 
+but also doubling as a handy back scratcher! 
+~
+A
+18 8
+A
+19 8
+A
+13 25
+A
+12 25
+A
+2 -3
+#10067
+wand wisdom~
+Wand of Wisdom~
+This Wand of Wisdom has been dropped here.~
+~
+3 0 16385
+80 70 70 -1 0 80 0
+1 90 9
+1
+14
+0
+0
+0
+0
+'identify'
+S 0 0
+E
+wand wisdom~
+This wand was christened in the blood of the holy magus, which allowed for 
+a small transfer of his wisdom. 
+~
+A
+4 4
+#10068
+elven skull mask~
+Elven Skull Mask~
+An Elven Skull Mask has been discarded and lays forgotten here.~
+~
+9 0 1048577
+55 55 0 0 0 80 0
+1 221 22
+1
+5
+0
+0
+0
+0
+S 77 0
+E
+elven skull mask~
+This partial mask was made from the remains of an elven skull.
+~
+A
+18 8
+A
+19 8
+#10069
+braided mithril anklet~
+Braided Mithril Anklet~
+A Braided Mithril Anklet lays here, abandoned and forgotten.~
+~
+9 524547 2097153
+55 55 0 0 0 80 0
+3 233 23
+1
+8
+0
+0
+0
+0
+S 77 0
+E
+braided mithril anklet~
+This anklet was stolen from the dwarven mines, where mithril veins run 
+plentifully through the mountains. 
+~
+A
+14 150
+#10070
+frosted metal boots~
+frosted metal boots~
+A pair of frosted metal boots lay discarded on the ground.~
+~
+9 0 65
+60 60 0 0 0 85 0
+4 230 23
+1
+4
+0
+0
+0
+0
+S 77 0
+E
+frosted metal boots~
+This pair of frosted metal boots was created by a master blacksmith, then 
+forgotten out in the frozen tundra. 
+~
+A
+14 200
+A
+5 4
+A
+2 4
+#10071
+belt invisibility~
+Belt of Invisibility~
+A Belt of Invisibility shimmers while laying on the ground.~
+~
+9 0 2049
+60 60 0 0 0 85 0
+1 238 23
+3
+13
+0
+0
+0
+0
+S 77 0
+E
+belt invisibility~
+This belt shimmers as it is looked upon, almost fading out of sight.
+~
+A
+26 65536
+A
+26 32768
+A
+26 2
+#10072
+cursed hump acidic~
+the cursed acidic hump~
+The cursed acidic hump lays here on the ground, forgotten.~
+~
+9 0 524289
+60 60 0 0 0 85 0
+4 166 22
+1
+0
+0
+0
+0
+0
+S 77 0
+E
+cursed hump tranquility~
+This cursed hump gives one the ability to help others, while being unable 
+to remove it. 
+~
+A
+56 17
+#10073
+skeleton key~
+skeleton key~
+A skeleton key.~
+~
+18 0 1
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#10090
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#10051
+Steps up to the Tower~
+~
+&wA long, stone staircase carved into the side of the mountain, winds its 
+way up to the tower on top. Vegetation is sparse on the trip up the steep 
+climb, though the soil seems rich in nutrients with all the insects moving 
+around.  A few small rocks are scattered about.
+~
+1 136314884 5
+D0
+~
+~
+128 -1 10052
+D11
+~
+~
+0 -1 49450
+S
+#10052
+Entrance to the Tower~
+~
+&wThe large gate appears to be constructed of many bones of different 
+shapes and sizes, yet arranged into a strange symbol. Along the ground, 
+mice and grubs scurry along, yet not getting too near the entrance. 
+Muffled sounds of screams and a horrible wailing can be heard. 
+~
+1 134217728 5
+D0
+~
+~
+7 10073 10053
+D2
+~
+~
+128 -1 10051
+R M 0 10057 1 10052
+R D 0 10052 0 2
+S
+#10053
+Entrance Hall~
+~
+&wLarge bone pillars are placed along the four walls, supporting the upper 
+structure. All around, everything is a monotonous gray, with the 
+occasional red splash next to a decomposing, half eaten, corpse. A dull, 
+green glow, can be seen coming from the stairs to the north. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10061
+D1
+~
+~
+0 -1 10060
+D2
+~
+~
+3 -1 10052
+D3
+~
+~
+0 -1 10054
+R D 0 10053 2 1
+> pre_enter_prog 100~
+if quest(throngtower) == 5
+else
+  abort
+  mpat $n mpechoat $n &YA shimmering shield forces you back from whence you came.&D
+endif
+~
+|
+S
+#10054
+First Floor Southwest Corner~
+~
+&wIn the corner of the room stands a high-backed chair. Along the walls 
+are numerous pictures, though none are recognizable at this time. The 
+floor is covered in a plush, red carpet; a strange color of red. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10055
+D1
+~
+~
+0 -1 10053
+R M 0 10052 6 10054
+  R E 0 10055 1 3
+S
+#10055
+First Floor West Corridor~
+~
+&wAlong the wall a window is seen. Looking out the window, a majestic view 
+of the valley down below greets the viewer. A few rust colored rugs are 
+bunched up against the wall, ready for cleaning. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10056
+D2
+~
+~
+0 -1 10054
+S
+#10056
+First Floor Northwest Corner~
+~
+&wIn the corner, an old, worn desk rests. A few potted plants are placed 
+atop the table, with a single candle chandelier hanging down, providing 
+light to the nearby rooms. 
+~
+1 136314888 0
+D1
+~
+~
+0 -1 10057
+D2
+~
+~
+0 -1 10055
+R M 0 10052 6 10056
+  R G 0 10054 1
+S
+#10057
+First Floor North Corridor~
+~
+&wAlong the wall a huge tapestry depicting a violent scene is displayed. A 
+small table with an unknown potted plant and a few knick-knacks are 
+displayed. Hanging on the opposite wall is a rather gruesome picture of 
+the owner to this tower. 
+~
+1 2097160 0
+D1
+~
+~
+0 -1 10058
+D3
+~
+~
+0 -1 10056
+R M 0 10052 6 10057
+  R E 0 10055 1 3
+  R E 0 10054 1 1
+  R E 0 10053 1 0
+R M 0 10052 6 10057
+S
+#10058
+First Floor Northeast Corner~
+~
+&wIn the corner, a flat, brittle-looking table resides, holding up a 
+massive vase. The vase itself is beautifully etched with blue patterns, 
+which almost resemble runes. Hanging from above is a chandelier which 
+provides light to the nearby rooms. 
+~
+1 136314888 0
+D2
+~
+~
+0 -1 10059
+D3
+~
+~
+0 -1 10057
+R M 0 10052 6 10058
+  R E 0 10054 1 1
+S
+#10059
+First Floor East Corridor~
+~
+&wA small amount of light makes it into this hallway, from either 
+direction. A plush, shaggy carpet runs the length of this hall. To either 
+side of the hallway are random paintings of nature fills the walls. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10058
+D2
+~
+~
+0 -1 10060
+S
+#10060
+First Floor Southeast Corner~
+~
+&wOff to the west the entrance to this tower can be seen. Above, an 
+elaborate chandelier hangs, providing light in either direction. A small 
+table is set in the corner, on which a small potted plant resides. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10059
+D3
+~
+~
+0 -1 10053
+R M 0 10052 6 10060
+  R G 0 10055 1
+S
+#10061
+Stairs to the Second Floor~
+~
+&wA long, spiral staircase heads ever-upwards towards the top floor, with 
+landings at each of the above levels. Strange sounds can be heard coming 
+down this eerie staircase. 
+~
+1 2097164 0
+D2
+~
+~
+0 -1 10053
+D4
+~
+~
+0 -1 10062
+S
+#10062
+The Long Staircase, Second Floor~
+~
+&wTwisting and turning, the staircase seems to run forever upwards, and 
+only a short way down. Rusty rail guards make it seem that it couldn't 
+hold any weight if someone were to lean on them. 
+~
+1 2097164 0
+D2
+~
+~
+0 -1 10063
+D4
+~
+~
+0 -1 10071
+D5
+~
+~
+0 -1 10061
+S
+#10063
+Southern Hall~
+~
+&wA dingy red carpet extends in the three directions, while paintings of 
+various shapes, sizes and scenes decorate this stretch of hallway. An oak 
+table with a small decanter of water and a single, dead, flower can be 
+seen. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10062
+D1
+~
+~
+0 -1 10064
+D3
+~
+~
+0 -1 10070
+R M 0 10053 5 10063
+  R E 0 10060 1 7
+S
+#10064
+Around the Corner~
+~
+&wAt the end of a dingy red carpet, a large statue is placed squarely in 
+the corner. The statue is horribly disfigured, though it looks as though 
+the artist had done so on purpose. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10065
+D3
+~
+~
+0 -1 10063
+S
+#10065
+Eastern Hall~
+~
+&wA couple torches high on the walls provide minimal light to the area, 
+it's a wonder how easily that light is sucked away into darkness near the 
+floor. Cuts, scratches and abrasions erratically line the walls to either 
+side of the hall. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10066
+D2
+~
+~
+0 -1 10064
+S
+#10066
+Another Turn~
+~
+&wBarely visible from the light from either direction, a squat statue can 
+be seen in the corner of the room. The statue appears to be made out of 
+marble, but upon closer inspection, it is nothing so exquisite as that 
+precious stone. 
+~
+1 136314888 0
+D2
+~
+~
+0 -1 10065
+D3
+~
+~
+0 -1 10067
+R M 0 10053 5 10066
+  R E 0 10058 1 5
+S
+#10067
+Northern Hall~
+~
+&wTorches up on the walls provide dim light to the adjacent rooms. Blood 
+is splattered all over the walls, with small fleshy pieces hanging about. 
+It seems as if this room were some sort of feeding area for a bunch of 
+wild animals. 
+~
+1 2097160 0
+D1
+~
+~
+0 -1 10066
+D3
+~
+~
+0 -1 10068
+R M 0 10053 5 10067
+  R E 0 10058 1 5
+  R E 0 10060 1 7
+  R E 0 10061 1 9
+R M 0 10053 5 10067
+S
+#10068
+Around the Corner~
+~
+&wDim light from the nearby rooms allows for little visibility here. 
+Though, the only dominant thing in the room is the tall, thin statue that 
+vaguely resembles an emaciated elf. 
+~
+1 136314888 0
+D1
+~
+~
+0 -1 10067
+D2
+~
+~
+0 -1 10069
+S
+#10069
+Western Hall~
+~
+&wTorches along the wall provide a small amount of light, make the scars 
+on the walls stand out in contrast, given the angle of the light hitting 
+them. Claw marks can also be seen along the floor, peeling up the once 
+magnificent wood flooring. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10068
+D2
+~
+~
+0 -1 10070
+S
+#10070
+Around a Corner~
+~
+&wDim light reaches into this dusty corner, offering very little to the 
+room. A large, grotesque statue of some unfortunate soul resides in the 
+corner. A thick layer of dust adorn this statue, thankfully masking any 
+facial features it may have once had. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10069
+D1
+~
+~
+0 -1 10063
+R M 0 10053 5 10070
+  R E 0 10061 1 9
+S
+#10071
+The Long Staircase, Third Floor~
+~
+&wHalfway up the staircase, a faint green light can be seen coming from 
+above, while darkness envelopes the senses below. The guard rails are 
+deteriorated further here, with portions flaking off to the touch. 
+~
+1 2097164 0
+D2
+~
+~
+0 -1 10072
+D4
+~
+~
+0 -1 10080
+D5
+~
+~
+0 -1 10062
+S
+#10072
+Southern Hall~
+~
+&wTo either direction, faint moaning sounds can be heard. An unpleasant 
+smell of rot and decay is faintly detected, along with the acidic smell of 
+blood. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10071
+D1
+~
+~
+0 -1 10073
+D3
+~
+~
+0 -1 10079
+R M 0 10054 4 10072
+S
+#10073
+An Eerie Corner~
+~
+&wThe moaning is quite a bit louder here, and faint shapes can be seen 
+shuffling towards this room from the north. In the corner, a broken vase 
+can be seen that used to hold some sort of plant. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10074
+D3
+~
+~
+0 -1 10072
+S
+#10074
+A Long Hallway~
+~
+&wLimbs, torn from their bodies, are scattered around cluttering the 
+floor. The walls are a complete mess, making the pictures which hang on 
+them utterly discernible with the rest of the filth in the room. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10075
+D2
+~
+~
+0 -1 10073
+R M 0 10054 3 10074
+S
+#10075
+A Grizzly Sight~
+~
+&wA bit overhead, a couple torches flicker upon the mangled corpses found 
+in the corner of this solitary hallway. Mostly, all that remains of these 
+corpses are bones, with many, many teeth marks. 
+~
+1 136314888 0
+D2
+~
+~
+0 -1 10074
+D3
+~
+~
+0 -1 10076
+S
+#10076
+Hall of Death~
+~
+&wSwarming all about are dozens of zombies. The walls and floors are 
+smeared with semi-fresh blood, coagulating into gooey droplets that barely 
+slide down the walls. Thankfully, not much more is visible due to a lack 
+of light, but what can be seen is enough. 
+~
+1 2097160 0
+D1
+~
+~
+0 -1 10075
+D3
+~
+~
+0 -1 10077
+R M 0 10054 2 10076
+  R E 0 10063 1 11
+  R E 0 10064 1 12
+R M 0 10054 2 10076
+S
+#10077
+A Ghastly Sight~
+~
+&wIn the corner, a pile of rotting corpses can be seen covering what once 
+was an ornately carved and built table. Now, it looks not much more than a 
+buffet for the foul creatures that live here. 
+~
+1 136314888 0
+D1
+~
+~
+0 -1 10076
+D2
+~
+~
+0 -1 10078
+R M 0 10054 5 10077
+S
+#10078
+A Long Hallway~
+~
+&wEach wall is covered in gore, while limbs are scattered all around 
+cluttering the floor. A ruined antique chair lays in a pile of rubble to 
+one side of the hallway. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10077
+D2
+~
+~
+0 -1 10079
+S
+#10079
+Around the Corner~
+~
+&wThe sounds of moaning increase, and dark shapes start to loom out of the 
+shadows. In the corner is a cabinet full of broken china, which once would 
+have looked stunning. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10078
+D1
+~
+~
+0 -1 10072
+S
+#10080
+The Long Staircase, Fourth Floor~
+~
+&wWith one more level up, a steady green light is visible from above, 
+along with curious sounds of chanting in a harsh tongue. No guard rails 
+are evident at this point, and the steps themselves look less than 
+trustworthy. 
+~
+1 2097164 0
+D2
+~
+~
+0 -1 10081
+D4
+~
+~
+8389767 -1 10089
+D5
+~
+~
+0 -1 10071
+R D 0 10080 4 2
+> entry_prog 100~
+if quest(towerboss) == 0
+  mpechoat $n &cA menacing voice fills your head...
+  mpechoat $n &C'If you wish an audience with Tinuvial the Tormentor, you must
+  mpechoat $n &Cpass several trials.  The first is to defeat all the skeletons 
+  mpechoat $n &Cin this tower and return here for verification.'&D
+  mpquest $n towerboss 1
+else
+  if quest(towerboss) == 1
+    if mobinarea(10052) == 0
+      mpechoat $n &cA menacing voice fills your head...&D
+      mpechoat $n &C'You have passed the first trial to having an audience with his
+  mpechoat $n &Cexalted self!'&D
+      mppause 5
+      mpechoat $n &C'The next trial is to clear the tower of all the ghouls present in
+  mpechoat $n &Cthis tower.'&D
+      mpquest $n towerboss 2
+    else
+      if mobinarea(10052) > 0
+        mpechoat $n &cA menacing voice fills your head...&D
+        mpechoat $n &C'You have failed to clear the tower of all the skeletons present.  For
+        mpechoat $n &Cyour failure, suffer the consequences!'&D
+        mppause 5
+        mpechoat $n &cA long whip suddenly materializes out of nowhere and begins to lash you
+        mpechoat $n &cfor your impertinence!&D
+        mpdamage $n 10
+      endif
+    endif
+  else
+    if quest(towerboss) == 2
+      if mobinarea(10053) == 0
+        mpechoat $n &cA menacing voice fills your head...&D
+        mpechoat $n &C'You have passed the second trial to having an audience with his
+        mpechoat $n &Cexalted self!'&D
+        mppause 5
+        mpechoat $n &C'The next trial is to clear the tower of all the zombies present in
+        mpechoat $n &Cthis tower.'&D
+        mpquest $n towerboss 3
+      else
+        if mobinarea(10053) > 0
+          mpechoat $n &cA menacing voice fills your head...&D
+          mpechoat $n &C'You have failed to clear the tower of all the ghouls present.  For
+          mpechoat $n &Cyour failure, suffer the consequences!'&D
+          mppause 5
+          mpechoat $n &cA long whip suddenly materializes out of nowhere and begins to lash you
+          mpechoat $n &cfor your impertinence!&D
+          mpdamage $n 50
+        endif
+      endif
+    else
+      if quest(towerboss) == 3
+        if mobinarea(10054) == 0
+          mpechoat $n &cA menacing voice fills your head...&D
+          mpechoat $n &C'You have passed the third trial to having an audience with his
+          mpechoat $n &Cexalted self!'&D
+          mppause 5
+          mpechoat $n &C'The next trial is to clear the tower of all the lichs present in
+          mpechoat $n &Cthis tower.'&D
+          mpquest $n towerboss 4
+        else
+          if mobinarea(10054) > 0
+            mpechoat $n &cA menacing voice fills your head...&D
+            mpechoat $n &C'You have failed to clear the tower of all the zombies present.  For
+            mpechoat $n &Cyour failure, suffer the consequences!'&D
+            mppause 5
+            mpechoat $n &cA long whip suddenly materializes out of nowhere and begins to lash you
+            mpechoat $n &cfor your impertinence!&D
+            mpdamage $n 100
+          endif
+        endif
+      else
+        if quest(towerboss) == 4
+          if mobinarea(10055) == 0
+            mpechoat $n &cA menacing voice fills your head...&D
+            mpechoat $n &C'You have passed the fourth trial to having an audience with his
+            mpechoat $n &Cexalted self!'&D
+            mppause 5
+            mpechoat $n &C'If you now wish an audience with his exhalted self, Tinuvial the
+            mpechoat $n &CTormentor, just request it!'&D
+            mpechoat $n &cType &WSAY AUDIENCE&c to enter Tinuvial's chamber.&D
+            mpquest $n towerboss 5
+          else
+            if mobinarea(10055) > 0
+              mpechoat $n &cA menacing voice fills your head...&D
+              mpechoat $n &C'You have failed to clear the tower of all the lichs present.  For
+              mpechoat $n &Cyour failure, suffer the consequences!'&D
+              mppause 5
+              mpechoat $n &cA long whip suddenly materializes out of nowhere and begins to lash 
+              mpechoat $n &cyou for your impertinence!&D
+              mpdamage $n 500
+            endif
+          endif
+        else
+          if quest(towerboss) == 5
+            mpechoat $n &cType &WSAY AUDIENCE&c to have an audience with Tinuvial the Tormentor.&D
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+> speech_prog audience~
+if quest(towerboss) == 5
+  mptrans $n 10089
+  mpat $n mpforce $n look
+endif
+~
+|
+S
+#10081
+Either, Or.~
+~
+&wThis room is surprisingly well kept, it even has flowers out on hanging 
+planters--shame the flowers are dead, but they're there, nonetheless. 
+Faint torchlight can be seen in either direction. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10080
+D1
+~
+~
+0 -1 10082
+D3
+~
+~
+0 -1 10088
+R M 0 10055 5 10081
+S
+#10082
+Around a Corner~
+~
+&wTorches set into the corner provide a significant amount of light to the 
+nearby rooms. A cracked, full length mirror resides on the eastern wall, 
+while a painting of some noble person, can bee seen on the southern wall. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10083
+D3
+~
+~
+0 -1 10081
+S
+#10083
+Another Long Hallway of Doom~
+~
+&wA strong sense of foreboding can be felt coming from the north. A large, 
+ornately carved sculpture blocks half of the hallway, barely allowing the 
+passage of a single person. 
+~
+1 2097420 0 0 0 2 0
+D0
+~
+~
+0 -1 10084
+D2
+~
+~
+0 -1 10082
+R M 0 10055 5 10083
+R O 0 10052 1 10083
+S
+#10084
+Nearing the End~
+~
+&wA foul stench wafts in from the west, while slight movement can be seen 
+as well. Hanging on the wall is a sign that reads, 'Turn back all ye who 
+hath no faith. Beyond lies unimaginable darkness.' 
+~
+1 136314888 0
+D2
+~
+~
+0 -1 10083
+D3
+~
+~
+0 -1 10085
+S
+#10085
+Lich's Sanctuary~
+~
+&wAll around, Lich's are coming and going. A large bookshelf is located to 
+one side of the room, while the other side is protruding further out than 
+any other room thus far, allowing room for whatever satanic rituals these 
+monsters are experimenting with. 
+~
+1 2097161 0
+D1
+~
+~
+0 -1 10084
+D3
+~
+~
+0 -1 10086
+R M 0 10055 6 10085
+  R E 0 10066 1 16
+  R E 0 10066 1 18
+  R E 0 10068 1 23
+R M 0 10055 6 10085
+S
+#10086
+Nearing the Back~
+~
+&wA smell so putrid, like rotting flesh, assaults all the senses. Not only 
+can it almost be SEEN, it can be tasted. A small sign hanging on the wall 
+reads, 'Turn back all ye who hath no faith. Beyond lies unimaginable 
+darkness.' 
+~
+1 136314888 0
+D1
+~
+~
+0 -1 10085
+D2
+~
+~
+0 -1 10087
+S
+#10087
+The Long Hallway of Doom~
+~
+&wA strong sense of foreboding can be felt coming from the north, as if 
+something sinister may lie in wait. Paintings to either side of the hall 
+show glorious views of landscape, which sharply contrast with the whole 
+demeanor of this tower. 
+~
+1 2097160 0
+D0
+~
+~
+0 -1 10086
+D2
+~
+~
+0 -1 10088
+R M 0 10055 5 10087
+R M 0 10055 5 10087
+S
+#10088
+Another Corner~
+~
+&wA once plush carpet, is now trodden with so much filth it's value is 
+practically worthless. A small table in the corner holds yet another vase 
+full of flowers--sadly, all are dead here as well. 
+~
+1 136314888 0
+D0
+~
+~
+0 -1 10087
+D1
+~
+~
+0 -1 10081
+S
+#10089
+Top of the Tower~
+~
+&wA bright green aura emanates from the powerful necromancer that inhabits 
+this room, warily eyeing anything and everything that moves. A large 
+pentagram can be seen off to the side of the stairwell, drawn in a rustic 
+red color. 
+~
+1 2097161 0
+D5
+~
+~
+130 -1 10080
+R M 0 10056 1 10089
+  R G 0 10072 1
+> pre_enter_prog 100~
+if quest(towerboss) < 5
+  abort
+endif
+~
+|
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  10054 spec_poison
+M  10056 spec_cast_undead
+S
+
+
+#$

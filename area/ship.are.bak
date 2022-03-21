@@ -1,0 +1,837 @@
+#AREA        Narcista Vessel Voyage~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+20 50 15 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &CThe sound of waves crashing against the ship fills your ears.~
+
+#FLAGS
+4096
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 11250000 0 999999872 999999872 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#10100
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10101
+Officer Duty Sailor~
+Officer Vakan~
+The officer on Duty is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if iscarrying($n) == 10006
+  mpechoat $n &COfficer Vakan says, 'Ahoy lad.'&D
+  mppause 5
+  mpechoat $n &COfficer Vakan says, 'Tybias says you may enter the ship.'&D
+  mpquest $n narcista 9
+  mppause 8
+  mpechoat $n &cOfficer Vakan opens a small gate onto the ship.&D
+  mptrans $n 10103
+  mppause 2
+  mpat $n mpforce $n look
+else
+  mpechoat $n &COfficer Vakan says, 'Ahoy, lad.'&D
+  mppause 6
+  mpechoat $n &COfficer Vakan says, 'You must have authorization to board the Narcista Vessel.'&D
+  mppause 2
+  mpechoat $n &cOfficer Vakan escorts you off the gangplank.&D
+  mptrans $n 10011
+  mpat $n mpforce $n look
+endif
+~
+|
+#10102
+Captain Strous~
+Captain Strous~
+The Narcistas ship Captain stands here.
+~
+~
+0
+Clanname none~
+0
+0
+1090650115 4194304 0 C
+100 0 0 3d300+30000 2d10+12
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 0 0 0 0 240 524291
+> act_prog p arrives from the west.~
+mppause 2
+tell $n Greetings $n.
+mppause 8
+tell $n We will depart for Vila Island at 6am sharp.
+~
+> time_prog 6~
+mppause 2
+yell 6am!!! All hands, make ready, and raise sail!!
+~
+> time_prog 7~
+yell Hoist Anchor!, and Cast off for Vila Island!
+~
+> time_prog 8~
+yell keep a look out all hands!  
+mppause 5
+yell There have been reports of bandits in the waters as of late.
+~
+> time_prog 2~
+yell Land Ho!!!  
+mppause 2
+yell Drop Anchor, and cast line to the pier!!
+~
+> time_prog 3~
+yell Lower the gangplank!
+mppause
+yell Exit west on the gangplank landlovers!
+mppause 5
+~
+> time_prog 5~
+yell Raise the gangplank!!
+mppause 3
+yell Escort all passagers off ship!
+~
+|
+#10103
+Sailor~
+Marcus Shaver~
+A sailor is standing here.
+~
+~
+0
+Clanname none~
+0
+0
+1073872899 0 0 C
+40 0 0 2d50+5000 2d4+6
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 0 0 0 0 112 3
+> time_prog 6~
+mppause 3
+yell Aye, Aye Captain!
+n
+e
+e
+emote grabs the rope, and begins to raise the sail.
+mppause 8
+emote ties off the mail sail rope.
+mppause 3
+yell Main Sail hoisted!!
+mppause 3
+w
+w
+s
+~
+> time_prog 10~
+yell Ahoy!!  All hands to Deck!!!  Bandits 6 o'clock!!
+mppause 5
+yell I repeat!  All hands to Deck!!! Bandits 6 o'clock!!
+mpmload 10105 30
+mpat 10120 mpmload 10106 30
+~
+> time_prog 3~
+yell Aye, Aye Captain lowering gangplank!
+mppause 2
+n
+emote lowers the gangplank to the pier.
+mppause 2
+MPOPENPASSAGE 10103 10121 3
+s
+~
+> time_prog 5~
+mppause 20
+n
+MPCLOSEPASSAGE 10103 3
+s
+~
+|
+#10104
+Sailor~
+Dabney Hankins~
+A slouched sailor stands here.
+~
+~
+0
+Clanname none~
+0
+0
+16777217 0 0 C
+40 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> time_prog 7~
+mppause 8
+yell Anchor Hoisted Captain!!
+mppause 3
+s
+s
+emote casts off the line
+mppause 2
+yell Lines cast off!
+n
+n
+~
+> time_prog 2~
+mppause 8
+yell Anchor Released Captain!!
+mppause 4
+s
+s
+emote ties the line to the pier.
+mppause 3
+yell Ship is now secure to the pier!
+n
+n
+~
+> time_prog 5~
+n
+s
+s
+e
+e
+w
+d
+n
+s
+u
+w
+n
+~
+> entry_prog 100~
+if time($n) == 5
+  mpechoat $n &cDabney Hankins escorts you gently off the ship.&D
+  mptrans $n 10121
+  mpat $n mpforce $n look
+endif
+~
+|
+#10105
+bandit Drakeford~
+Drakeford~
+A black cloaked bandit is lurking here.
+~
+~
+0
+Clanname none~
+0
+0
+33 65536 0 C
+30 0 0 1d20+1000 1d4+1
+0 0 0 0 50 
+0
+115 115 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 0 0 0 0 48 2
+> time_prog 3~
+emote looks about furitively.
+mppause 3
+emote hooks a leg over the side of the ship, and jumps with his loot.
+mpgoto 4
+~
+|
+#10106
+bandit Sagehend~
+Sagehend~
+A black cloaked bandit is lurking here.
+~
+~
+0
+Clanname none~
+0
+0
+33 65536 0 C
+30 0 0 1d20+1000 1d4+1
+0 0 0 0 50 
+0
+115 115 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 0 0 0 0 48 2
+> time_prog 3~
+emote looks about furitively.
+mppause 3
+emote hooks a leg over the side of the ship, and jumps with his loot.
+mpgoto 4
+~
+|
+#10107
+Sailor Marsha~
+Sailor Marsha~
+A beautiful woman sailor stands here.
+~
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+50 0 0 2d100+8000 2d5+5
+0 0 0 0 0 
+0
+115 115 2
+20 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 5
+0 0 0 0 0 0 560 2
+> time_prog 4~
+mpechoat $n &CSailor Marsha says, 'The Narcista is now boarding!'&D
+mppause 2
+mpechoat $n &cSailor Marsha signals for the gang plank to be lowered.&D
+mppause 4
+MPOPENPASSAGE 10100 10101 1
+mppause 3
+mpechoat $n &CSailor Marsha says, 'You may now board to the east.'&D
+~
+> time_prog 6~
+mpechoat $n &CSailor Marsha says, 'The Narcista is no longer boarding!&D
+mppause 3
+mpechoat $n &cSailor Marsha signals for the gangplank to be removed.&D
+mppause 3
+MPCLOSEPASSAGE 10100 1
+mppause 5
+mpechoat $n &CSailor Marsha says, 'The ship will now sail!'&D
+~
+> act_prog p arrives from the west.~
+mppause 2
+if time($n) < 0400
+or time($n) > 0600
+  if sex($n) == 1
+    mpechoat $n &CSailor Marsha says, 'Alas, fine Sir.  The ship only boards between 4am and 6am.'&D
+  else
+    mpechoat $n &CSailor Marsha says, 'I'm sorry, Madam.  The ship only boards between 4am and 6am.'&D
+  endif
+  mppause 6
+  mpechoat $n &CSailor Marsha says, 'Please come back in that time period.'&D
+else
+  mpechoat $n &CSailor Marsha says, 'You can board the ship now if you wish.'&D
+  mppause 3
+  mpechoat $n &CSailor Marsha says, 'I wish you a fine trip!'&D
+endif
+~
+> act_prog p flies in from the west.~
+mppause 2
+if time($n) < 0400
+or time($n) > 0600
+  if sex($n) == 1
+    mpechoat $n &CSailor Marsha says, 'Alas, fine Sir.  The ship only boards between 4am and 6am.'&D
+  else
+    mpechoat $n &CSailor Marsha says, 'I'm sorry, Madam.  The ship only boards between 4am and 6am.'&D
+  endif
+  mppause 6
+  mpechoar $n &CSailor Marsha says, 'Please come back in that time period.'&D
+else
+  mpechoat $n &CSailor Marsha says, 'You can board the ship now if you wish.'&D
+  mppause 3
+  mpechoat $n &CSailor Marsha says, 'I wish you a fine trip!'&D
+endif
+~
+|
+#10108
+helper~
+Vladaar's Area helper~
+Vladaar's area helper is standing here to assist you.
+~
+~
+0
+Clanname none~
+0
+0
+1073741825 4194304 0 C
+100 0 0 3d8000+3000 3d8+10
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 0 0 0 0 1136 3
+> act_prog p looks at you.~
+say I am here to help players back to mortal lands...
+mppause 5
+say Vladaar is unfortunately still working on the island area.
+mppause 8
+say I hope you enjoyed the boat adventure none the less.
+mppause 8
+say To return to Paleon City say "home"
+~
+> speech_prog home~
+say as you wish
+mppause 8
+mepchoat $n &YVladaar's helper creates a whirling field of pure energy.
+mppause 2
+say Try again soon
+mptrans $n 16007
+emote escorts you through the field.
+mpat $n mpforce $n look
+~
+|
+#10150
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#10100
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#10101
+oak post bed~
+an oak posted bed~
+An oak posted bed that is secured to the far wall is here.~
+~
+12 0 0
+5 3000 1152 125 125 0 0
+1 0 0
+1
+13
+0
+0
+0
+0
+S 3 0
+#10150
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#0
+
+
+#ROOMS
+#10100
+On a Gang Plank~
+~
+&OTwo thick oak boards that have smaller boards criss crossing it for support
+make up the gang plank that leads from the pier to the ship.  The ship is
+a massive two sail galleon ship.  The beach is to the north, and the ocean
+spreads out across the southern horizon.
+~
+1 1028 1
+D3
+~
+~
+0 -1 10011
+R M 0 10107 1 10100
+S
+#10101
+Aboard the Deck of the Ship~
+~
+&OThe gang plank is to the west.  The main sail stands tall above the ship to
+the east.  The entrance to the below deck is to the east.  There is a few 
+coiled rows of hemp rope laying next to some barrels.  A large fishing net is
+bundled up along the ships inner side.
+~
+1 4 1
+R M 0 10101 1 10101
+S
+#10102
+At the Bow of the Ship~
+~
+&OA iron side rail extends across the entire ship's outer edge.  There are two
+safety harnesses that are made from thick hemp rope and attached to the rail
+of the ship.  A small statue of a beautiful maiden tops the joining of the
+rail at the foremost of the ships bow.
+~
+1 0 1
+D0
+~
+~
+0 -1 10104
+S
+#10103
+Against the Starboard Side Rail Above Deck~
+~
+&OThere is an iron side rail that encircles the ship.  The below deck entrance
+is to the east.  There are neatly stacked barrels against the stern side rail.
+A small wooden row boat is attached to the side of the ship by a small crane
+system.  The ships deck is made of solid oak.
+~
+1 0 1
+D0
+~
+~
+0 -1 10105
+D1
+~
+~
+0 -1 10114
+D2
+~
+~
+0 -1 10104
+S
+#10104
+Next to the Bow of the Ship~
+~
+&OA iron side rail is to the west, and encircles the ship.  The sail on the
+ships mast is nearly as long as the ship in length.  There are several chests
+that are secured to the ships deck.  The bow of the ship is to the south.
+~
+1 0 1
+D0
+~
+~
+0 -1 10103
+D2
+~
+~
+0 -1 10102
+R M 0 10103 1 10104
+S
+#10105
+Next to the Stern of the Ship~
+~
+&OAn iron side rail is to the west.  The Stern of the ship is to the north.
+There are barrels, and wooden chests tied down at the stern of the ship.
+The ships main sail, and below deck are to the south.
+~
+1 0 1
+D0
+~
+~
+0 -1 10120
+D2
+~
+~
+0 -1 10103
+S
+#10106
+Beside the Port Side Rail of the Ship~
+~
+&OAn iron rail encirles the outer edge of the entire ship.  The ships massive
+mast stands above.  A small row boat is attached to the ships side by thick
+hemp rope.  There are two sets of safety harnesses made of thick hemp rope
+that are fastened to the rail.  The stairs to below deck is to the west.
+~
+1 0 1
+D3
+~
+~
+0 -1 10114
+S
+#10107
+Floating in a void~
+~
+~
+1 4 1
+S
+#10108
+Port Side of the Ship~
+~
+~
+1 4 1
+S
+#10109
+Floating in a void~
+~
+~
+1 4 1
+S
+#10110
+In the Crows Nest~
+~
+~
+1 4 1
+S
+#10111
+Starboard Side of the Ship~
+~
+~
+1 4 1
+S
+#10112
+Next to the Mail Sail~
+~
+~
+1 4 1
+S
+#10113
+Below the Deck~
+~
+&OA narrow stairway leads above deck.  A small trap door that is screened in
+below holds the bildge room for water to collect in.  The cargo hold is to
+the north.  There is a rack hanging on the wall that holds outer wear gear
+that can be placed on quickly.  A picture hangs on the wall.
+~
+1 12 0
+D0
+~
+~
+0 -1 10117
+D1
+~
+door~
+3 -1 10118
+D2
+~
+door~
+3 -1 10119
+D3
+~
+door~
+3 -1 10115
+D4
+~
+~
+0 -1 10114
+R D 0 10113 1 1
+R D 0 10113 2 1
+R D 0 10113 3 1
+E
+picture~
+&CThe picture shows the Captain holding a giant sized fish.
+~
+S
+#10114
+Entrance to Below Deck~
+~
+&OThe massive mast is to the north, and is made out of solid oak.  An overhead
+shelter is erected over the stairs that lead below deck.  There are two sets
+of safety harnesses made of thick hemp rope at the entranceway and they are
+fastened to a thick oak beam.  A small sign hangs above the entranceway.
+~
+1 0 1
+D1
+~
+~
+0 -1 10106
+D3
+~
+~
+0 -1 10103
+D5
+~
+~
+0 -1 10113
+R M 0 10102 1 10114
+E
+sign~
+Welcome to the Narcista
+~
+S
+#10115
+Guest Quarters~
+~
+&OThe room contains a small writing chest, and a small stool.  There is a rack
+mounted to the wall for hanging clothing.  Several empty chests have been 
+placed under the bed for storage.  A small painting hangs on the wall.
+~
+1 12 0
+D1
+~
+door~
+3 -1 10113
+R O 0 10101 1 10115
+R D 0 10115 1 1
+S
+#10116
+Floating in a void~
+~
+~
+1 4 1
+S
+#10117
+Inside the Cargo Hold~
+~
+&OThe hold is carefully setup to hold the maximum amount of cargo.  There are
+a series of shelves, chests, and barrels that have been placed in a certain
+order.  Everything in the hold has been fastened very securely to the room.
+A stairway to the south leads to the above deck.
+~
+1 12 0
+D2
+~
+~
+0 -1 10113
+S
+#10118
+The Crew Members Quarters~
+~
+&OThe room contains a small writing dresser, and a wooden stool.  There are
+some paintings of various people hanging from the walls.  A few small chests
+are stacked underneath the bed.  There is a rack hanging on the wall for
+clothing.  A few books lay on the dresser.
+~
+1 12 0
+D3
+~
+door~
+3 -1 10113
+R O 0 10101 1 10118
+R D 0 10118 3 1
+S
+#10119
+The Captains Quarters~
+~
+&OThe room is contains a desk, and chair where the charter maps, and log books
+are kept.  A large map of the known world hangs above the bed.  Several small
+chests are neatly tucked underneath the bed.  A clothing rack hangs from the
+wall.  A small display of a wooden ship sits in the corner of the room.
+~
+1 12 0
+D0
+~
+door~
+3 -1 10113
+R O 0 10101 1 10119
+R D 0 10119 0 1
+S
+#10120
+At the Stern of the Ship~
+~
+&OAn iron side rail is around the edge of the ship, and continues around the
+rest of the ship.  A large chain is attached to the ship, and holds the weight
+of a massive iron anchor.  There are barrels, and wooden chests tied down.
+~
+1 0 1
+D2
+~
+~
+0 -1 10105
+R M 0 10104 1 10120
+> time_prog 9~
+mprecho &CThe sounds of sea gulls above the ship break the silence.
+~
+|
+S
+#10121
+The Pier on Vila Island~
+~
+&OThe pier is made out of stout oak wood, and stretches out over the vast
+ocean.  There are large logs of oak that are planted deep into the ground
+and support the weight of the pier.  A small island is to the west.
+~
+1 4 1
+D3
+~
+~
+0 -1 10201
+S
+#10150
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

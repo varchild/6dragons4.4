@@ -1,0 +1,2452 @@
+#AREA        Ships~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+0 0 0 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA seagull takes off from it's perch on the ship's mast.~
+
+#FLAGS
+1024
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#56300
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#56500
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#56300
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#56500
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#56300
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 4 1
+D3
+~
+~
+0 -1 56301
+D5
+~
+~
+0 -1 56302
+S
+#56301
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56304
+D1
+~
+~
+0 -1 56300
+D2
+~
+~
+0 -1 56305
+S
+#56302
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56300
+S
+#56303
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56304
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56301
+S
+#56305
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56301
+S
+#56306
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741824 1
+D4
+~
+~
+0 -1 56307
+S
+#56307
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741824 1
+D3
+~
+~
+0 -1 56308
+D5
+~
+~
+0 -1 56306
+S
+#56308
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 56310
+D1
+~
+~
+0 -1 56307
+D2
+~
+~
+0 -1 56311
+S
+#56309
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+S
+#56310
+Bow of Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams.
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 56308
+S
+#56311
+Stern Side of Ship~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 56308
+S
+#56312
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards
+~
+1 1073741824 1
+D3
+~
+~
+0 -1 56313
+D5
+~
+~
+0 -1 56317
+S
+#56313
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 56314
+D1
+~
+~
+0 -1 56312
+D2
+~
+~
+0 -1 56315
+S
+#56314
+Bow of Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741824 1
+D2
+~
+~
+0 -1 56313
+S
+#56315
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741824 1
+D0
+~
+~
+0 -1 56313
+S
+#56316
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56317
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741824 1
+D4
+~
+~
+0 -1 56312
+S
+#56318
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards
+~
+1 1073741824 1
+D3
+~
+~
+0 -1 56319
+D5
+~
+~
+0 -1 56323
+S
+#56319
+Port Side Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56321
+D1
+~
+~
+0 -1 56318
+D2
+~
+~
+0 -1 56320
+S
+#56320
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56319
+S
+#56321
+The Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56319
+S
+#56322
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56323
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56318
+S
+#56324
+Starboard Side of Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56326
+D5
+~
+~
+0 -1 56325
+S
+#56325
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56324
+S
+#56326
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56327
+D1
+~
+~
+0 -1 56324
+D2
+~
+~
+0 -1 56328
+S
+#56327
+The Bow of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56326
+S
+#56328
+The Stern of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56326
+S
+#56329
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56330
+Starboard Side of Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56332
+D5
+~
+~
+0 -1 56331
+S
+#56331
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56330
+S
+#56332
+The Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56333
+D1
+~
+~
+0 -1 56330
+D2
+~
+~
+0 -1 56334
+S
+#56333
+The Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56332
+S
+#56334
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56332
+S
+#56335
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56336
+Starboard Side of Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56338
+D5
+~
+~
+0 -1 56337
+S
+#56337
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56336
+S
+#56338
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56339
+D1
+~
+~
+0 -1 56336
+D2
+~
+~
+0 -1 56340
+S
+#56339
+The Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56338
+S
+#56340
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56338
+S
+#56341
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741892 1
+S
+#56342
+Starboard Side of Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56344
+D5
+~
+~
+0 -1 56343
+S
+#56343
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56342
+S
+#56344
+Port Side of the Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56345
+D1
+~
+~
+0 -1 56342
+D2
+~
+~
+0 -1 56346
+S
+#56345
+Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56344
+S
+#56346
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56344
+S
+#56347
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56348
+Starboard Side of the Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56350
+D5
+~
+~
+0 -1 56349
+S
+#56349
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56348
+S
+#56350
+Port Side of the Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56351
+D1
+~
+~
+0 -1 56348
+D2
+~
+~
+0 -1 56352
+S
+#56351
+The Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56350
+S
+#56352
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56350
+S
+#56353
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56354
+Starboard Side of the Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards. 
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56356
+D5
+~
+~
+0 -1 56355
+S
+#56355
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56354
+S
+#56356
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56357
+D1
+~
+~
+0 -1 56354
+D2
+~
+~
+0 -1 56358
+S
+#56357
+The Bow Side of the Deck~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made up of solid oak beams. 
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56356
+S
+#56358
+Stern Side of Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here. 
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56356
+S
+#56359
+Pilot's House~
+Not Assigned~
+The ship's wheel for steering the vessel is located here. There is a table 
+and chairs setup with various maps and charts organized on it. A large 
+telescope is mounted beside the wheel. There is also a plush bed setup in 
+the corner of the house. A hooded lantern hangs from the ceiling. 
+~
+1 1073741828 1
+S
+#56360
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 0 1
+D3
+~
+~
+0 -1 56362
+D5
+~
+~
+0 -1 56361
+S
+#56361
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56360
+S
+#56362
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 0 1
+D0
+~
+~
+0 -1 56364
+D1
+~
+~
+0 -1 56360
+D2
+~
+~
+0 -1 56363
+S
+#56363
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56362
+S
+#56364
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56362
+S
+#56365
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56366
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56368
+D5
+~
+~
+0 -1 56367
+S
+#56367
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56366
+S
+#56368
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56370
+D1
+~
+~
+0 -1 56366
+D2
+~
+~
+0 -1 56369
+S
+#56369
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56368
+S
+#56370
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56368
+S
+#56371
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56372
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56374
+D5
+~
+~
+0 -1 56373
+S
+#56373
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56372
+S
+#56374
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56376
+D1
+~
+~
+0 -1 56372
+D2
+~
+~
+0 -1 56375
+S
+#56375
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56374
+S
+#56376
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56374
+S
+#56377
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56378
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56380
+D5
+~
+~
+0 -1 56379
+S
+#56379
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56378
+S
+#56380
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56382
+D1
+~
+~
+0 -1 56378
+D2
+~
+~
+0 -1 56381
+S
+#56381
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56380
+S
+#56382
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56380
+S
+#56383
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56384
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56386
+D5
+~
+~
+0 -1 56385
+S
+#56385
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56384
+S
+#56386
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56388
+D1
+~
+~
+0 -1 56384
+D2
+~
+~
+0 -1 56387
+S
+#56387
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56386
+S
+#56388
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56386
+S
+#56389
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56390
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56392
+D5
+~
+~
+0 -1 56391
+S
+#56391
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56390
+S
+#56392
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56394
+D1
+~
+~
+0 -1 56390
+D2
+~
+~
+0 -1 56393
+S
+#56393
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56392
+S
+#56394
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56392
+S
+#56395
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56396
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56398
+D5
+~
+~
+0 -1 56397
+S
+#56397
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56396
+S
+#56398
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56400
+D1
+~
+~
+0 -1 56396
+D2
+~
+~
+0 -1 56399
+S
+#56399
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56398
+S
+#56400
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56398
+S
+#56401
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56402
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56404
+D5
+~
+~
+0 -1 56403
+S
+#56403
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56402
+S
+#56404
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56406
+D1
+~
+~
+0 -1 56402
+D2
+~
+~
+0 -1 56405
+S
+#56405
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56404
+S
+#56406
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56404
+S
+#56407
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56408
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56410
+D5
+~
+~
+0 -1 56409
+S
+#56409
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56408
+S
+#56410
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56412
+D1
+~
+~
+0 -1 56408
+D2
+~
+~
+0 -1 56411
+S
+#56411
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56410
+S
+#56412
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56410
+S
+#56413
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56414
+Starboard Side Deck~
+Not Assigned~
+The right side of the ship. A iron rail is attached to the ship deck along 
+the length of the deck. There is a gangway plank for disembarking and 
+boarding the ship here. A hooded lantern is mounted to a post. The deck is 
+made up of stout oak boards.
+~
+1 1073741828 1
+D3
+~
+~
+0 -1 56416
+D5
+~
+~
+0 -1 56415
+S
+#56415
+The Hold~
+Not Assigned~
+A wooden ladder leads up to the deck of the ship here. There is a cargo 
+area for the ship with large wooden crates on the aft side of the hold. 
+The Stern side of the hold has a set of makeshift beds setup for the crew. 
+There is a hooded lantern mounted to the side of the ladder. 
+~
+1 1073741828 1
+D4
+~
+~
+0 -1 56414
+S
+#56416
+Port Side of Deck~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56418
+D1
+~
+~
+0 -1 56414
+D2
+~
+~
+0 -1 56417
+S
+#56417
+The Stern Side of the Deck~
+Not Assigned~
+The rear of the ship. It is built up over the stern post. There are 
+several wooden crates secured to the deck here with supplies. A hooded 
+lantern is attached to a wooden post. Solid oak beams have been used to 
+make up the deck here.
+~
+1 1073741828 1
+D0
+~
+~
+0 -1 56416
+S
+#56418
+Bow of the Ship~
+Not Assigned~
+The front of the ship for the port and starboard bow, has a iron railing 
+around it. There is a large coil of rope secured to the port side bow. A 
+massive anchor chain is secured to the starboard side of the bow. The deck 
+itself is made.
+~
+1 1073741828 1
+D2
+~
+~
+0 -1 56416
+S
+#56419
+Pilot's House~
+Not Assigned~
+The left side of the ship. The iron rail that is attached to the ship has 
+a opening for a small rope ladder leading to a Dinghy. A small wooden post 
+is next to the rope ladder with a hooded lantern attached to it. Stout oak 
+boards make up the deck here.up of solid oak beams. 
+~
+1 1073741828 1
+S
+#56420
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56421
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56422
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56423
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56424
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56425
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56426
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56427
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56428
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56429
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56430
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56431
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56432
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56433
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56434
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56435
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56436
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56437
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56438
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56439
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56440
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56441
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56442
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56443
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56444
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56445
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56446
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56447
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56448
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56449
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56450
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56451
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56452
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56453
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56454
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56455
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56456
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56457
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56458
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56459
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56460
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56461
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56462
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56463
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56464
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56465
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56466
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56467
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56468
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56469
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56470
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56471
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56472
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56473
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56474
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56475
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56476
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56477
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56478
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56479
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56480
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56481
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56482
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56483
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56484
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56485
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56486
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56487
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56488
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56489
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56490
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56491
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56492
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56493
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56494
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56495
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56496
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56497
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56498
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56499
+Floating in a void~
+Not Assigned~
+~
+1 1073741828 1
+S
+#56500
+Floating in a void~
+Not Assigned~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -12,7 +12,7 @@ Level        108
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       422
+Played       461
 Room         1234
 HpManaMove   95 95 100 100 225 200
 BaseHp       0 
@@ -42,7 +42,7 @@ Lastip         10.0.0.1~
 RECAST          0
 KeepAlive      5
 GetsDExp     0
-LDExpUpdate  1647407592
+LDExpUpdate  1647574130
 tmpsecond -1
 tmpthird -1
 Textspeed          5

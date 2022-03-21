@@ -1,0 +1,1936 @@
+#AREA        Accura City~
+
+
+
+#VERSION     11
+#AUTHOR      Ivor~
+#DERIVATIVES ~
+#COLOR       5
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+75 92 65 100
+$
+
+#SPELLLIMIT 0
+#RESETMSG ~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 3200600 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#35701
+Matron Mole~
+The Mole Matron~
+The Matron of the moles sits here in her nest
+~
+Guarding her younglings with ferocious looks around the room making  
+sure all in her nest and the room within her nest is sitting meet
+her demands.  This mole appears to be the largest of all within these
+caves.  Being very large, and very aggressive towards any that would
+dare enter her lair.
+~
+1
+Clanname none~
+0
+0
+131107 4194432 0 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 35 524291
+> all_greet_prog 100~
+if ispc($n)
+  if istagged($n, bloody)
+    mpechoat $n &cThe matron mole goes into a frenzy smelling the blood of her young.&D
+    mptag $n Bloodier 1
+  endif
+endif
+~
+> fight_prog 50~
+if istagged($n, bloodier)
+   mpechoat $n &c The matron mole rears up smashing you in the face with all her might
+   mpdamage $n 500
+endif
+~
+> death_prog 100~
+if quest(courbin) == 2
+   mpquest $n courbin 3
+   mpechoat $n &cYou have a feeling you should go see Mayor Courbin!
+endif
+~
+|
+#35702
+Patron Mole~
+The Mole Patron~
+The Patron of the moles wanders around guarding this area
+~
+The Patron mole wanders around between both rooms of their nest protecting
+the young, as well as the Matron of this lair.  Doing his best to deal with
+any intruders that would violate the rest of the Matron, and the young.
+~
+1
+Clanname none~
+0
+0
+33 4194432 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 35 3
+#35703
+Mole Younglings ~
+A young mole~
+A Mole Youngling wanders around within the nest
+~
+The younglings of the moles seem to mainly wander around within
+their nest eating what food is brought to them by their father
+who is the only one to go out for food.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 35 3
+> death_prog 100~
+mptag $n bloody 1
+~
+|
+#35704
+youngling Mole~
+A young mole~
+A Mole Youngling wanders around within the nest
+~
+The younglings of the moles seem to mainly wander around within
+their nest eating what food is brought to them by their father
+who is the only one to go out for food.
+~
+1
+Clanname none~
+0
+0
+131075 0 0 C
+45 0 0 0d0+1600 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 35 3
+> death_prog 100~
+mptag $n bloody 1
+~
+|
+#35705
+Juvenile Mole ~
+A Juvenile Mole ~
+Juvenile Mole rat wanders around looking for food 
+~
+The older members of the mole structure is normally sent out to find
+their own home, and begin to make their own families.  However, it 
+seems some of the not so young have been having a trouble finding
+their way into a new home.  So they wander the tunnels attacking
+anything that comes into their path.
+~
+1
+Clanname none~
+0
+0
+33 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 35 3
+> death_prog 100~
+mptag $n bloody 1
+if quest(courbin) == 1
+  mpquest $n courbin 2
+endif
+~
+|
+#35706
+Ysmeldra vendor~
+Ysmeldra the weapon vendor~
+Ysmeldra Wanders around her shop cleaning as she goes
+~
+Being rather short does not take any of the power this woman appears
+to have within herself.  The way she holds, and practices with the
+weapons she sells shows that on many occasions that her talent has
+been put to the test, and she has come out the victor.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> speech_prog thieves~
+mppause 5
+mpechoat $n &CYsmeldra says 'Thieves!!, We have had some problems with
+mpechoat $n &Cthieves lately. I've heard rumors that their hide out is
+mpechoat $n &Cin the western part of the city.'&D
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 bronze
+mpat 4 drop 50000 copper
+~
+|
+#35707
+Bernard item~
+Bernard the item vendor~
+Bernard stands in the corner of his shop
+~
+Bernard stands only average height. He does not seem to have any special
+marks, or anything that would make him stand out.  That is until you
+look into his eyes and see an intelligence that is unmeasured by anyone
+in his field of dealing with special items.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> speech_prog thieves~
+mppause 5
+mpechoat $n &CBernard says 'I have seen some strange folk around lately.'&D
+mppause 5
+mpechoat $n &CBernard says 'I believe their hide out can be found towards
+mpechoat $n &Cthe northen part of the town.'&D
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 copper
+mpat 4 drop 50000 bronze
+~
+|
+#35708
+Ernie Tavern keep~
+Ernie the Tavern keep~
+Ernie the tavern keep stands here washing mugs
+~
+Ernie stands with an aura of knowledge that only years as a tavern
+keep could give you.  From hearing so many tales over the years of
+the travelers that come and go within this tavern Ernie has learnt
+many special talents as a result.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 177 3
+#35709
+Gerrald~
+Gerrald the wise~
+Gerrald the wise stands here watching over his shop.
+~
+Gerald appears to be missing an eye, plus he is also missing a few
+pieces of his hands, and feet.  It would appear his meddling in the
+arts of magic have left him scared, and battered.  His very shop appears
+to have not escaped damage as holes, and  a black film cover the shop
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 bronze
+mpat 4 drop 50000 copper
+~
+|
+#35710
+Dinel blacksmith~
+Dinel the blacksmith~
+Dinel is here working on her anvil.
+~
+Sweat pours off the woman as she works her anvil making different
+things.  She makes weapon's for the weapon shop to sell. She makes
+armor that she herself sells.  
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> speech_prog thieves~
+mppause 5
+mpechoat $n &CDinel says 'Well, yes I have seen some thieves
+mpechoat $n &Caround here.  We have been over run. Some are to scared
+mpechoat $n &Cto say much.'&D
+mppause 3
+mpechoat $n &CDinel says 'However a few of us are brave enough to
+mpechoat $n &Cspeak up.  I think somewhere on the western part of
+mpechoat $n &Cthis town you can find their hide out.'&D
+~
+> death_prog 100~
+mpat 4 drop 500 gold
+mpat 4 drop 5000 silver
+mpat 4 drop 50000 bronze
+mpat 4 drop 50000 copper
+~
+|
+#35711
+Harold ~
+Harold the stable master~
+Harold wanders around here looking after his animals
+~
+Harold sits within his stables sitting upon a stack of hay.  Looking
+almost miserable because of not many animals within his stable.  His
+once thriving business has become almost nothing.
+~
+1
+Clanname none~
+0
+0
+131075 4194304 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 13 0 0 0 177 3
+#35712
+thief~
+a thief~
+A thief searches around here for valuables.
+~
+Hunkered down low to the groun trying to avoid unwanted attention
+this guy is covered from head to toe in black to help blend into the
+shadows better.  As he walks even then he stays as close to the groun
+as possible.
+~
+1
+Clanname none~
+0
+0
+1 4292608 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> death_prog 100~
+if quest(thieves) == 1
+  mpquest $n thieves 2
+  mpechoat $n &CA thief says 'My death will be avenged!'
+  mpechoat $n &CA thief Yells 'Avenge me my sisters!'
+  mpechoat $n &CA voice is heard 'I shall avenge you my brother!'&D
+  mptag $n thief 1
+endif
+~
+|
+#35713
+Assassin~
+an assassin~
+An assassin wanders around looking for any that would anger her.
+~
+This woman wears close as dark as is possible.  It is easily determined
+that stealth is the one thing this woman has, and uses to her advantage
+in all circumstances.  Nothing else is seen about her except that infact
+this is a woman.
+~
+1
+Clanname none~
+0
+0
+1 4292738 0 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 13 0 0 0 177 3
+> all_greet_prog 100~
+if ispc($n)
+  if cansee($n)
+    if istagged($n, thief)
+      mpechoat $n &CAn assassin says 'You will die by my hands!'&D
+      bs $n
+    endif
+  endif 
+endif
+~
+> death_prog 100 ~
+if quest(thieves) == 2
+  mpquest $n thieves 3
+endif
+~
+|
+#35714
+assassin Runald~
+Runald the assassin~
+Runald the assassin stands proudly here
+~
+Runald stands with all the confidence he has earned from pilfering the
+wealth of this town.  He stands with his own idea of what is right and
+wrong.  Wearing the finest clothing available everything he wears is
+made of the finest silk other peoples money can buy.
+~
+1
+Clanname none~
+0
+0
+1 373391490 0 C
+92 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 0 0 0 0 177 3
+> all_greet_prog 100~
+if ispc($n)
+  if istagged($n, thief)
+    mpechoat $n &CRunald the Assassin says 'You shall die for attacking my guild!'&D
+    bs $n
+  endif
+endif
+~
+> death_prog 100~
+if quest(thieves) == 4
+  mpechoat $n &c Return to Mayor Courbin!
+  mpquest $n thieves 5
+endif
+~
+|
+#35715
+Mayor Courbin~
+Mayor Courbin~
+Mayor Courbin appears to be very busy at his desk
+~
+Appearing to be an older man. Most likely in his late years and
+having not much time left courbin gives off a radiance of good, and
+just deeds.  It can be told by his manor that as his years have gone 
+by.  His power as not weakened as his age would suggest.
+~
+1
+Clanname none~
+0
+0
+131075 369098880 1000 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 177 11
+> all_greet_prog 100~
+if ispc($n)
+  if quest(courbin) < 1
+    mppause 3
+    mpechoat $n &cMayor Courbin looks at you over his pile of papers.&D
+    mppause 10
+    mpechoat $n &CMayor Courbin says, 'What do I owe to your intrusion?'&D
+    mppause 10
+    mpechoat $n &CMayor Courbin says, 'Well, since you're here, will you help me?'
+    mppause 10
+    mpechoat $n &cType &CSAY YES &cto accept.&D
+  endif
+endif
+if quest(courbin) == 3
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'Welcome back $n, I take it you took care of our problem?'&D
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'Well...since you were able to destroy those vermin,
+  mpechoat $n &Cperhaps you will be able to assist me on yet another issue i have?'&D
+  mppause 3
+  mpechoat $n &cType &CSAY ISSUE &cto accept.&D
+endif
+if quest(thieves) == 3
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'Well, I am extremely pleased. There is but one other
+  mpechoat $n &Ctask I need to ask of you.  $n, this one is difficult at best.&D
+  mppause 10
+  mpechoat $n &CMayor Courbin says, 'The leader of these thugs within our walls
+  mpechoat $n &Cis still at loose.  I need you to go and speak to some of of our
+  mpechoat $n &Ctown folk. I am sure someone has to know something.'&D
+  mppause 5
+  mpechoat $n &cMayor Courbin looks a little worried
+  mpechoat $n &CMayor Courbin says, 'I hate to think that one of our own is at
+  mpechoat $n &Cthe heart of our problems...but it seems to be the only answer.'&D
+  mppause 5
+  mpechoat $n &cType &CSAY PROBLEM &cto accept.&D
+endif
+if quest(thieves) == 5
+  mppause 5
+  mpechoat $n &CMayor Courbin says, 'Wow, thank you my friend.  You have done 
+  mpechoat $n &Cso much to help this town.  We are in your debt.  Please take 
+  mpechoat $n &Cthis as payment for all that you've done.'&D
+  mpoload 35704
+  give accura $n
+  mpechoat $n &cMayor Courbin manages to smile for the first time in years.&D
+  mpquest $n thieves 6
+endif
+~
+> speech_prog p yes~
+if quest(courbin) < 1
+  mppause 5
+  mpechoat $n &CMayor Courbin says, 'To the north, a cavern has appeared out of nowhere!'&D
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'Your job will be to destroy the inhabitants.'&D
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'Once this task has been completed, return to me.'&D
+  mpquest $n courbin 1
+  mpechoat $n &cMayor Courbin seems to think for a moment...&D
+  mppause 3
+  mpechoat $n &CMayor Courbin then says, 'I may have more work for you afterwards...'&D
+endif
+~
+> speech_prog p ISSUE~
+if quest(courbin) == 3
+  mppause 5
+  mpechoat $n &CMayor Courbin says, 'Please, we have been overrun with
+  mpechoat $n &Ca guild of thieves.  I need you to root out some of the
+  mpechoat $n &Cproblems.  Try finding a thief somewhere here in town,
+  mpechoat $n &Cand see what they know.  When you're done, come back and
+  mpechoat $n &Cwe'll discuss the issue further.'&D
+  mppause 5
+  mpquest $n courbin 4
+  mpechoat $n &cType &CSAY THIEVES &cto accept.&D
+endif
+~
+> speech_prog p problem~
+if quest(thieves) == 3
+  mppause 5
+  mpechoat $n &CMayor Courbin says '$n, this is likely the most dangerous
+  mpechoat $n &Cmission I can send you on.  Many of my own guards have
+  mpechoat $n &Cgone missing trying to solve this.'&D
+  mppause 5
+  mpechoat $n &CMayor Courbin says, 'Please see if you can find the leader
+  mpechoat $n &Cof these thieves, and free our town from them!'&D
+  mpquest $n thieves 4
+endif
+~
+> speech_prog p thieves~
+if quest(courbin) == 4
+  mppause 5
+  mpechoat $n &CMayor Courbin says, 'We have been overrun by thieves $n.'&D
+  mppause 3
+  mpechoat $n &CMayor Courbin says, 'See what you can find out from some of
+  mpechoat $n &Cthe town folk.  Maybe someone will be able help.'&D
+  mppause 5
+  mpquest $n thieves 1
+endif
+~
+|
+#35750
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#35701
+pool water~
+pool water~
+A small pool of water formed from the running water through here~
+~
+25 262144 0
+0 0 0 0 0 0 0
+1 20 2
+4
+0
+0
+0
+0
+0
+S 0 0
+#35702
+golden dagger~
+a golden dagger~
+A dagger lays here glinting of gold~
+~
+5 524291 8193
+0 40 80 6 2 75 0
+1 122 17
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+look~
+The dagger has a long serrated blade.  The handle glints a golden
+color as it is examined closer.  The handle has a beautiful flawless
+diamond set within it.  With a ruby inlay around it.
+~
+E
+examine~
+The dagger has a long serrated blade.  The handle glints a golden
+color as it is examined closer.  The handle has a beautiful flawless
+diamond set within it.  With a ruby inlay around it.
+~
+A
+18 10
+A
+19 10
+A
+13 50
+A
+12 50
+A
+1 1
+#35703
+skeletal key~
+a skeletal key~
+A small skeletal key lies here~
+~
+18 524288 16385
+0 0 0 0 0 0 0
+1 816 81
+4
+0
+0
+0
+0
+0
+S 0 0
+#35704
+accura crest ring~
+an Accura crested ring~
+A ring with the crest of the accura town rests here~
+~
+9 524291 3
+60 60 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 77 0
+A
+13 50
+A
+12 50
+A
+18 5
+A
+19 5
+#35705
+heavy crossbow~
+a heavy crossbow~
+A heavy crossbow has been left here.~
+~
+56 0 262145
+12 1 4 8 6 1 0
+10 863 86
+4
+1
+0
+0
+0
+0
+S 0 0
+#35706
+iron bolt~
+an iron bolt~
+An iron bolt has been left here.~
+~
+57 0 16385
+10 14 24 6 0 10 0
+1 49 4
+4
+1
+0
+0
+0
+0
+S 0 0
+#35750
+children statue~
+Children statue~
+Three children adorn this statue in various poses of playing~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+statue~
+The three children adorning the top of this statue seem to be playing
+some kind of kids game.  They look to be jumping up and down and it
+almost looks as though the statue is actually spinning with them atop
+it.  A small teddy bear is seen in the hands of the second smallest 
+child on top of the statue.  The words "Lost but NEVER forgotten" adorn
+this statue in many places...
+~
+#0
+
+
+#ROOMS
+#35701
+Cave Entrance~
+~
+The entrance of this cave is a rather large hole in the ground.  The
+trees surrounding the entrance seem to have been pushed aside almost
+as if something large had walked into the cave, and needed the extra 
+room.  As the cave is examined a little closer it is noticed that 
+possibly something might have created this hole.
+~
+1 4 1
+D2
+~
+~
+0 -1 35746
+D5
+~
+~
+0 -1 35710
+S
+#35702
+Walking in the Tunnels~
+~
+Marks litter the surface of this floor going in as many directions as
+there are exits out of this room.  The ceiling, as well as the walls
+are smooth to the touch as if carved purposefully.
+~
+1 1 0
+D0
+~
+~
+0 -1 35703
+D1
+~
+~
+0 -1 35706
+R M 0 35705 14 35702
+S
+#35703
+Tunnels Everywhere~
+~
+The tunnels in this room travel at a slightly downward direction as
+if the creator was purposefully heading in a downward direction. The
+walls like most of the rest in this place are smooth to the touch.
+~
+1 1 0
+D0
+~
+~
+0 -1 35704
+D1
+~
+~
+0 -1 35707
+D2
+~
+~
+0 -1 35702
+R M 0 35705 14 35703
+S
+#35704
+Dusty Bones~
+~
+Bones are seen against the westward walls of this room.  Many different
+bones sit here of animals that are in piles, and seem to be mixed together.
+Rather small claws are seen mixed within the piles of bones.
+~
+1 1 0
+D0
+~
+~
+0 -1 35705
+D1
+~
+~
+0 -1 35708
+D2
+~
+~
+0 -1 35703
+R M 0 35705 14 35704
+S
+#35705
+Streaming Along~
+~
+The stream of water continues to follow along the back side of this 
+room as it has in the previous room, However in this room it disappears
+through a small crack at the base of the wall.  Claw marks also seem
+to disappear into this strange crack.
+~
+1 1 0
+D1
+~
+~
+0 -1 35709
+D2
+~
+~
+0 -1 35704
+D3
+~
+wall~
+2049 -1 35743
+R M 0 35705 14 35705
+R D 0 35705 3 0
+S
+#35706
+Traversing the Tunnels~
+~
+The walls of this room just as the others have been cleanly carved 
+and has left no rough stones.  Large marks on the floor appear to
+perhaps be equally large claw marks.  The direction of travel is 
+undeterminable because of the various sets of tracks.
+~
+1 1 0
+D0
+~
+~
+0 -1 35707
+D1
+~
+~
+0 -1 35710
+D3
+~
+~
+0 -1 35702
+R M 0 35705 14 35706
+S
+#35707
+Tunnels Continue~
+~
+This room is seemingly like the others in this place including the walls
+being smooth, and the claw marks on the floor going in many different
+directions all at one time.  However, This tunnel seems to be heading
+more of an upward direction then downward.
+~
+1 1 0
+D0
+~
+~
+0 -1 35708
+D1
+~
+~
+0 -1 35711
+D2
+~
+~
+0 -1 35706
+D3
+~
+~
+0 -1 35703
+R M 0 35705 14 35707
+S
+#35708
+Claws in the Tunnels~
+~
+In the middle of this room appears to be small claws.. These claws look
+more like a rodent type of claw then anything else.  Just larger variety 
+then a common garden rat.  Dust has also seemed to settle upon these.
+~
+1 1 0
+D0
+~
+~
+0 -1 35709
+D1
+~
+~
+0 -1 35712
+D2
+~
+~
+0 -1 35707
+D3
+~
+~
+0 -1 35704
+R M 0 35705 14 35708
+S
+#35709
+Along the Stream~
+~
+The stream of water seems to be following along the northern wall.  The
+claw marks and smooth walls follow close to the water, however never 
+touching the water directly.
+~
+1 1 0
+D1
+~
+~
+0 -1 35713
+D2
+~
+~
+0 -1 35708
+D3
+~
+~
+0 -1 35705
+R M 0 35705 14 35709
+S
+#35710
+Within the Cavern~
+~
+The hole that started at ground level seems to have multiplied since 
+then.  There seems to be multiple exits all of which are just as large
+as the entrance to this area.  Each direction seems just as the entrance
+that it was somehow created.
+~
+1 1 0
+D0
+~
+~
+0 -1 35711
+D1
+~
+~
+0 -1 35714
+D3
+~
+~
+0 -1 35706
+D4
+~
+~
+0 -1 35701
+R M 0 35705 14 35710
+S
+#35711
+Caverns Abound~
+~
+Smooth walls in circle this entire room.  The tunnels themselves
+seem to be heading in a downward direction with the claw marks as well.
+Dust seems to have settled upon the floor in here however.
+~
+1 1 0
+D0
+~
+~
+0 -1 35712
+D1
+~
+~
+0 -1 35715
+D2
+~
+~
+0 -1 35710
+D3
+~
+~
+0 -1 35707
+R M 0 35705 14 35711
+S
+#35712
+Caverns of Dust~
+~
+The walls, ceiling, and floor of this room are covered with a lot
+of dust.  Even some small amount of trash of some kind.  The trash
+has been here long enough to partly decay and have nothing really left
+to give an idea what it once was.
+~
+1 1 0
+D0
+~
+~
+0 -1 35713
+D1
+~
+~
+0 -1 35716
+D2
+~
+~
+0 -1 35711
+D3
+~
+~
+0 -1 35708
+R M 0 35705 14 35712
+S
+#35713
+Water Abounds~
+~
+This room appears to have a small amount of water that has run down
+the wall and formed into a small pool of water.  The water itself appears
+to be drinkable and not stagnate.  Claw marks seem to almost avoid this
+pool.
+~
+1 1 0
+D1
+~
+~
+0 -1 35717
+D2
+~
+~
+0 -1 35712
+D3
+~
+~
+0 -1 35709
+R M 0 35705 14 35713
+R O 0 35701 1 35713
+S
+#35714
+Traveling the Tunnel~
+~
+This room like others also seems to have completely smooth walls
+seemingly made by something, or someone.  The marks on this floor
+as well as the others seen also seem to be going in as many ways
+as their happens to be exits.
+~
+1 1 0
+D0
+~
+~
+0 -1 35715
+D1
+~
+~
+0 -1 35718
+D3
+~
+~
+0 -1 35710
+S
+#35715
+Dusty Caverns~
+~
+This tunnel goes in multiple directions with the claws following 
+in the same general directions.  Dust seems to have taken hold
+of this room completely covering it. Making even the deep claw marks
+almost hidden.
+~
+1 1 0
+D0
+~
+~
+0 -1 35716
+D1
+~
+~
+0 -1 35719
+D2
+~
+~
+0 -1 35714
+D3
+~
+~
+0 -1 35711
+S
+#35716
+Dusty Tunnels~
+~
+This room appears to have been modified so some extent.  At a quick 
+guess it appears to not have been as much as others but the walls are
+smoother then others while at the same time still rough.
+~
+1 1 0
+D0
+~
+~
+0 -1 35717
+D1
+~
+~
+0 -1 35720
+D2
+~
+~
+0 -1 35715
+D3
+~
+~
+0 -1 35712
+S
+#35717
+Dust Meets Water~
+~
+The northern wall of this room appear to have never been touched by
+anything other then water and erosion.  Dust has settled everywhere
+else but the areas where the droplets of water are forming from a source
+of water that is unknown.
+~
+1 1 0
+D1
+~
+~
+0 -1 35721
+D2
+~
+~
+0 -1 35716
+D3
+~
+~
+0 -1 35713
+S
+#35718
+Walking in the Caverns~
+~
+This room unlike others seen up till this point seems to have less
+smooth walls.  It also has less marks on the floor then the other
+rooms as well.  The marks seen here also seem to be going one way.
+~
+1 1 0
+D0
+~
+~
+0 -1 35719
+D3
+~
+~
+0 -1 35714
+S
+#35719
+Caverns and Tunnels~
+~
+The dust in this room seems to have collected in a larger amount
+then in the other rooms preceding it.  The marks upon the floor
+are even less visible, and the walls them selves appear to be less 
+smooth then previous rooms as well.
+~
+1 1 0
+D0
+~
+~
+0 -1 35720
+D2
+~
+~
+0 -1 35718
+D3
+~
+~
+0 -1 35715
+S
+#35720
+Lost in the Tunnels~
+~
+All the directions from this room appear to be the same in looks
+as well as the claw marks all look the same.  Dust has settled upon
+every surface of this room including the rather rough stones of the 
+walls.  
+~
+1 1 0
+D0
+~
+~
+0 -1 35721
+D2
+~
+~
+0 -1 35719
+D3
+~
+~
+0 -1 35716
+R M 0 35705 14 35720
+S
+#35721
+Dust Settles~
+~
+The dust has settled in this room in a more profound manner then in
+any of the rooms seen previously to this one.  The claw marks it would
+seem start here.  The wall to the north appears to have never been touched
+by any that that has modified this place thus far.
+~
+1 1 0
+D2
+~
+~
+0 -1 35720
+D3
+~
+~
+0 -1 35717
+R M 0 35705 14 35721
+S
+#35722
+Meeting of Rainbow Lane and Green street~
+~
+The rainbow color on the stones upon this small street seems to meet
+the walls of the city and stop.  To the north a different color is 
+seen upon the street signifying a different street then the one 
+traveled upon now.
+~
+1 4 1
+D0
+~
+~
+0 -1 35723
+D1
+~
+~
+0 -1 35726
+R M 0 35712 4 35722
+S
+#35723
+Green Street~
+~
+This street travels north from the Rainbow way.  Off off to the right
+is the town tavern.  The cobbled street in this part seems to be a 
+little more worse for wear as many patrons come, and go from the tavern.
+~
+1 4 1
+D0
+~
+~
+0 -1 35724
+D1
+~
+~
+0 -1 35727
+D2
+~
+~
+0 -1 35722
+S
+#35724
+Green Street~
+~
+The cobble stones of this part of the street appear to have animal
+track upon them.  The tracks that are seen would seem to be mainly
+from horses the horseshoes cutting deep into the stones.
+~
+1 4 1
+D0
+~
+~
+0 -1 35725
+D1
+~
+~
+0 -1 35728
+D2
+~
+~
+0 -1 35723
+S
+#35725
+Connection of Green Street and Yellow Alley~
+~
+The corner here appears to connect Green street, and Yellow alley.  This
+corner appears to be a little more darker then others perhaps having a 
+better chance of hiding less then ethical behavior. 
+~
+1 4 1
+D1
+~
+~
+0 -1 35729
+D2
+~
+~
+0 -1 35724
+D5
+~
+door~
+2055 35703 35747
+R M 0 35712 4 35725
+R D 0 35725 5 2
+S
+#35726
+Meeting of Golden Avenue and Rainbow Lane~
+~
+The road known as Rainbow Lane continues onwards to the west.  It
+would seem most of the roads in this town do not interject as much 
+as one would think would happen within a town.  The rainbow color
+continues to the west.
+
+~
+1 4 1
+D0
+~
+~
+0 -1 35727
+D1
+~
+~
+0 -1 35730
+D3
+~
+~
+0 -1 35722
+S
+#35727
+Accura tavern~
+~
+The tavern seems to be full of many different types of wines, and
+other stronger types of alcohol.  The tavern keep stands in what 
+is a giant box.  This box allows the serving of many different 
+customers at once.
+~
+1 4 0
+D0
+~
+~
+0 -1 35728
+D1
+~
+~
+0 -1 35731
+D2
+~
+~
+0 -1 35726
+D3
+~
+~
+0 -1 35723
+R M 0 35708 1 35727
+S
+#35728
+Stables~
+~
+The stables seem to be emptier then others of the same type.  The
+stable master sits upon a brick of hay in the middle of his stables
+almost looking bored.  A few horses can be seen in the back.
+~
+1 4 0
+D0
+~
+~
+0 -1 35729
+D1
+~
+~
+0 -1 35732
+D2
+~
+~
+0 -1 35727
+D3
+~
+~
+0 -1 35724
+R M 0 35711 1 35728
+S
+#35729
+Yellow Alley~
+~
+This part of the Yellow avenue appears to not be used often.  The
+road upon which is walked is almost entirely made of dirt, and not
+many tracks are seen.  A strange shrub is spotted to the north which
+appears to have strangely grown upon the path itself.
+~
+1 4 1
+D0
+~
+shrub~
+2051 -1 35750
+D1
+~
+~
+0 -1 35733
+D2
+~
+~
+0 -1 35728
+D3
+~
+~
+0 -1 35725
+R D 0 35729 0 1
+S
+#35730
+Rainbow Lane~
+~
+&CThe road itself appears to have a strange coloring upon the bricks that
+being a rainbow type color to allow those that look to know which road
+they are upon.
+~
+1 4 1
+D0
+~
+~
+0 -1 35731
+D1
+~
+~
+0 -1 35734
+D2
+~
+~
+0 -1 35742
+D3
+~
+~
+0 -1 35726
+R M 0 35713 2 35730
+  R E 0 35702 1 16
+  R G 0 35703 1
+S
+#35731
+Item Shop~
+~
+This shop appears to be filled with many many different types of
+items that would be of use to anyone that could possibly get them. In
+the corner of this room stands the gentleman of which owns, and operates 
+this shop. Waiting for customers to buy his items.
+~
+1 4 0
+D0
+~
+~
+0 -1 35732
+D1
+~
+~
+0 -1 35735
+D2
+~
+~
+0 -1 35730
+D3
+~
+~
+0 -1 35727
+R M 0 35707 1 35731
+S
+#35732
+Blacksmith~
+~
+Swords, armor, and a few strange objects line the walls within this
+room.  The blacksmith is in the middle of the room appearing to be
+working on some kind of armor, or perhaps a weapon.
+~
+1 4 0
+D0
+~
+~
+0 -1 35733
+D1
+~
+~
+0 -1 35736
+D2
+~
+~
+0 -1 35731
+D3
+~
+~
+0 -1 35728
+R M 0 35710 1 35732
+S
+#35733
+Yellow Alley~
+~
+A heat is felt coming from the south of this room.  This part of the
+avenue appears to be made of cobble stone.  Black scorch marks appear 
+on the road itself.  The shapes look like a sword, and a piece of armor.
+~
+1 4 1
+D1
+~
+~
+0 -1 35737
+D2
+~
+~
+0 -1 35732
+D3
+~
+~
+0 -1 35729
+R M 0 35713 2 35733
+  R E 0 35702 1 16
+  R G 0 35703 1
+  R G 0 35705 1
+  R G 0 35706 1
+S
+#35734
+Eastern Rainbow Lane~
+~
+&CTraveling towards the eastern side of the city this road seems to
+have less of a colorful stones then can be seen in previous rooms.  The
+color while there just seems to be less pronounced then before.
+~
+1 4 1
+D0
+~
+~
+0 -1 35735
+D1
+~
+~
+0 -1 35738
+D3
+~
+~
+0 -1 35730
+S
+#35735
+Weapon Shop~
+~
+&CThis room is full of weapons of all types. Many of them are noticed to 
+be just displays used to show what types of weapons are around within the 
+realms. A few of them appear to be real and for sale. Near the center of 
+the room a rather attractive looking woman stands waiting to take orders 
+for any of the weapons she has for sale. 
+~
+1 4 0
+D0
+~
+~
+0 -1 35736
+D1
+~
+~
+0 -1 35739
+D2
+~
+~
+0 -1 35734
+D3
+~
+~
+0 -1 35731
+R M 0 35706 1 35735
+S
+#35736
+Magic Shop~
+~
+Magic items of a wide variety appear to be everywhere within this shop
+most of the items seen however do not have a price sticker so one can
+surmise that those items are of special value to this shopkeep.
+~
+1 4 0
+D0
+~
+~
+0 -1 35737
+D1
+~
+~
+0 -1 35740
+D2
+~
+~
+0 -1 35735
+D3
+~
+~
+0 -1 35732
+R M 0 35709 1 35736
+S
+#35737
+Yellow Alley~
+~
+The dirt road travels to the west, and east.  The wall just to the 
+north of this spot appears to be covered in a strange black film.
+There is also strange black spots upon the ground of this road leading
+into the south being the magic shop.
+~
+1 4 1
+D1
+~
+~
+0 -1 35741
+D2
+~
+~
+0 -1 35736
+D3
+~
+~
+0 -1 35733
+S
+#35738
+Meeting of Rainbow Lane and Red Road~
+~
+The colorful road known as Rainbow Lane ends at the very bottom
+of this wall, However movement on top of the battlement can be seen
+slightly over head.  Movement can also be heard echoing slightly 
+around the walls here.
+~
+1 4 1
+D0
+~
+~
+0 -1 35739
+D3
+~
+~
+0 -1 35734
+R M 0 35712 4 35738
+S
+#35739
+Red Road~
+~
+The cobblestone and red dirt path travel north, and south.  To the
+west lies the weapon shop.  The wall of this spot seems to be well
+created, and well maintained.  A door is spotted just barely with
+in the wall.  Once it is spotted to the east it looks well built.
+~
+1 4 1
+D0
+~
+~
+0 -1 35740
+D1
+~
+~
+3 -1 35748
+D2
+~
+~
+0 -1 35738
+D3
+~
+~
+0 -1 35735
+R D 0 35739 1 1
+S
+#35740
+Red Road~
+~
+This road appears to be only half covered with cobblestone.  It is
+also covered partly in a rich red dirt.  The dust in this part of town
+is almost unbearable with its density.  The rock wall to the side
+of this room appears to have black marks upon it.
+~
+1 4 1
+D0
+~
+~
+0 -1 35741
+D2
+~
+~
+0 -1 35739
+D3
+~
+~
+0 -1 35736
+R M 0 35712 4 35740
+S
+#35741
+Meeting of Yellow Alley and Red Road~
+~
+The Road with the Red color meets up with the one with a yellow stripe. In
+the distance a forest can be seen just outside of the gate of the city. 
+Yellow Road continues on to the west of the city.
+~
+1 4 1
+D0
+~
+~
+0 -1 35746
+D2
+~
+~
+0 -1 35740
+D3
+~
+~
+0 -1 35737
+S
+#35742
+Town Portcullis~
+~
+The entrance of this town is governed by a rather large stone wall
+with a portcullis settled in between the entrance and the first
+roads of the town.  Guards are seen upon the very battlements of
+this area patrolling the walls. 
+~
+1 0 1
+D0
+~
+~
+0 -1 35730
+D2
+~
+~
+0 -1 35745
+S
+#35743
+Beginning of the Den~
+~
+Bones of various sizes liter the ground at the base of the walls on all 
+sides. bits and pieces of cloth are seen in different places within this 
+smaller room. Claw marks also litter the ground in all places. 
+~
+1 0 0
+D0
+~
+~
+0 -1 35744
+D1
+~
+wall~
+2049 -1 35705
+R M 0 35702 1 35743
+R D 0 35743 1 0
+S
+#35744
+Matrons Nest~
+~
+In the middle of the room sits a rather large nest made of bones, 
+and cloth of differing types.  animal bones, and humanoid bones
+as well as cloth of different colors.  This room appears to
+be much larger then the previous one.
+~
+1 0 0
+D2
+~
+~
+0 -1 35743
+R M 0 35701 1 35744
+R M 0 35703 3 35744
+R M 0 35704 1 35744
+R M 0 35703 3 35744
+R M 0 35703 3 35744
+S
+#35745
+Town Gate~
+~
+The entrance of this town is governed by a rather large stone wall
+with a portcullis settled in between the entrance and the first
+roads of the town.  Guards are seen upon the very battlements of
+this area patrolling the walls. 
+~
+1 4 1
+D0
+~
+~
+0 -1 35742
+D8
+~
+~
+0 -1 35601
+S
+#35746
+Cavern in the distance~
+~
+The forest surrounds this place quite well almost completely hiding it
+from normal view at a distance.  Any farther back and this might have
+been completely missed.  Just ahead is a cavern that is partially hidden
+by the forest itself almost as if it was trying to keep everyone out.
+~
+1 0 1
+D0
+~
+~
+0 -1 35701
+D2
+~
+~
+0 -1 35741
+S
+#35747
+Leaders room~
+~
+Piles of gold, and art.  As well as many other valuables are seen 
+all along the walls of this room.  The most remarkable is a statue
+in the very center of this room made of a man that appears to be 
+telling a story.  The statue is made of gold with rubies for eyes
+~
+1 4 0
+D4
+~
+door~
+2055 35703 35725
+R M 0 35714 1 35747
+  R E 0 35702 1 16
+  R E 0 35702 1 18
+R D 0 35747 4 2
+S
+#35748
+House Entrance~
+~
+This room appears to be well decorated including a very comfortable
+looking couch in the middle of the room sitting just on top of a 
+rather large, and expensive looking rug.  a small table stands 
+just in front of the large couch.
+~
+1 0 0
+D2
+~
+~
+0 -1 35749
+D3
+~
+~
+3 -1 35739
+R D 0 35748 3 1
+S
+#35749
+Courbin's Chambers~
+~
+Standing near the back of this remarkably large room is a rather large
+desk to go with the size of the room.  Sitting behind this desk is
+the mayor of Accura.  Piles and piles of papers litter the top of this
+desk, and also part of the floor having long run over the over sized
+desk.  The mayor seems to only barely notice an intrusion of his peace.
+~
+1 134217728 0
+D0
+~
+~
+0 -1 35748
+R M 0 35715 1 35749
+S
+#35750
+Lost but never forgotten ~
+~
+Trees tall as the eye can see cover the grounds within this room.  Roses
+of all shapes and colors are also very visible at the roots of the trees
+blending in perfectly with the trees.  A play house sits unused in the middle
+of all the growth.  Ivy having almost completely covered the never used play
+house covers almost the entire thing.  Toys litter the floor of the playhouse
+never having the pleasure of being used
+~
+1 4 23
+D2
+~
+shrub~
+2051 -1 35729
+R O 0 35750 1 35750
+R D 0 35750 2 1
+> rand_prog 50~
+mpechoat $n &CA soft voice gently whispers "Cause your presence still...'
+mppause 3
+mpechoat $n &CA soft voice whispers 'lingers here. And it wont leave me alone...'
+mppause 3
+mpechoat $n &CA soft voice whispers 'These wounds wont seem to heal...the pain is just to real...'
+mppause 3
+mpechoat $n &CA soft voice whispers 'There is just to much time will not erase...'
+mppause 10
+mpechoat $n &CA soft voice whispers 'Lost but NEVER forgotten...'&D
+~
+|
+S
+#0
+
+
+#SHOPS
+ 35706    0  5  9  0  0   120  90         5 22    ; Ysmeldra the weapon vendor
+ 35707    5  9  0  0  0   120  90         5 22    ; Bernard the item vendor
+ 35708    0  0  0  0  0   120  90         5 22    ; Ernie the Tavern keep
+ 35709    0  9  5  0  0   120  90         5 22    ; Gerrald the wise
+ 35710    0  9  5  0  0   120  90         5 22    ; Dinel the blacksmith
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  35712 spec_thief
+M  35713 spec_thief
+M  35714 spec_thief
+M  35715 spec_cast_mage
+S
+
+
+#$

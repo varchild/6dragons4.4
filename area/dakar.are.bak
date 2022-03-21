@@ -2854,7 +2854,7 @@ A miner's bag has been left here.~
 ~
 79 0 1
 0 0 0 0 0 0 0
-1 24 2
+1 30 2
 4
 1
 0
@@ -2972,7 +2972,7 @@ A black shirt~
 A black long sleeve shirt with ruffles at the neck and wrists lies here.~
 ~
 9 0 9 24
-55 55 0 0 0 0 0
+50 50 0 0 0 0 0
 1 161 16
 1
 13
@@ -3235,7 +3235,7 @@ a black metal torc~
 A torc made out of heavy black metal lies here.~
 ~
 9 0 5
-55 55 0 0 0 0 0
+50 50 0 0 0 0 0
 8 135 13
 1
 13
@@ -4206,12 +4206,12 @@ D0
 D1
 ~
 barricaded door~
-7 -1 11334
+3 -1 11334
 D3
 ~
 ~
 0 -1 11243
-R D 0 11242 1 2
+R D 0 11242 1 1
 > entry_prog 100~
 if quest(militia) == 7
   mppause 5

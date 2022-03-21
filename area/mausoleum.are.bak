@@ -1,0 +1,1542 @@
+#AREA        Mausoleum~
+
+
+
+#VERSION     11
+#AUTHOR      Ivor~
+#DERIVATIVES ~
+#COLOR       0
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+100 100 90 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &BA scream echoes throughout the mausoleum ~
+
+#FLAGS
+65988 30
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 20000000 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#35751
+Possessed Priest~
+Possessed priest~
+A priest wanders around in a daze
+~
+A darkness emanates from the former priest.  His eyes glow a bright
+red to the point that even in the darkest room you would see them.  His
+skin has paled from its original color to one that allows you to almost
+see the bones within.  
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+121 121 0 1048672 0 0 262643 11
+#35752
+Possessed priestess~
+Possessed priestess~
+A priestess wanders in a daze
+~
+This lady's former body has lost almost all shape from the lack of
+nourishment.  The hair that was once well groomed is half missing
+and very dirty.  Her skin has paled to the point of looking almost
+like it was not even there.  
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+120 120 0 1048672 0 0 262643 11
+#35753
+Soul devourer ~
+Soul devourer ~
+A creature made of souls floats here 
+~
+This being is made entirely of what appears to be souls.  Within the
+very body of this being the souls can be seen moving around and moaning
+in a horrific manners.  
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 2 0 0 1 1 0
+150 150 0 1056864 0 0 262643 11
+#35754
+Flailing soul~
+A flailing soul~
+A soul wanders here flailing in sorow
+~
+A form that was once a human stands before you.  It is impossible to 
+tell if this form was once male, or female.  It groans, and moans in
+pain of the worst kind.
+~
+9
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 0 0 0 1 1 0
+121 121 0 1056864 0 0 262643 11
+#35755
+Soulless wander ~
+A soul devourer~
+A husk that was once human stands here
+~
+The body of a once human priest stands before you.  The eyes missing
+from their sockets, and the mouth wide open.  A slight pale light
+passes into the mouth of this horrendous being just before it disappears 
+the face of a being in pain is seen then vanishes into the mouth.
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 3 0 0 1 1 0
+150 150 0 1056864 0 0 262643 11
+#35756
+Broken one~
+A broken one~
+A creature stands here made up of many different body parts
+~
+This being appears horrendous upon sight.  A human head with a goblin
+arm as well as a mindflayer torso.  The legs appear to be elven in
+nature.  The entire body of this being appears to be sewn together
+pieces from multiple beings, and races.
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+121 121 0 8288 0 16 262643 3
+#35757
+Flayed ghoul~
+Flayed ghoul~
+The remains of a student glares around the room
+~
+A form ravaged to the point that nothing can be discerned about their
+previous existance.  One eye is missing their jaw hangs down being 
+held on by a slim piece of skin.  Very little flesh remains upon the
+body of this foul creature.
+~
+9
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+103 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+121 121 0 8288 0 16 262643 3
+#35758
+Horrendous scourge ~
+Horrendous scourge ~
+A large being made up of many different bodies rambles here
+~
+This hideous creature seems to have been sewn together from rather
+large looking body pieces.  At fist glance one can guess that the
+pieces have come from giants from the over grown size of this thing.
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+180 180 0 1056864 0 16 786931 11
+#35759
+Gate guardian ~
+Gate guardian~
+A rather large looking guard stands here unmoving 
+~
+This man stands very tall wearing complete black armor that covers
+every piece of him in heavy armor.  A faint black glow is seen
+emanating from within the visor of his helmet.
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+105 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 1056864 0 16 786931 11
+> act_prog p opens the wrought iron gate.~
+close gate
+lock gate
+mppause 3
+mpechoat $n &cThe gate guardian says 'You will pay for that weakling!'
+mppause 3
+mpechoat $n &cThe gate guardian impales you with his sword!
+mpdamage $n 2000
+mpkill $n
+~
+|
+#35760
+emperor iufn~
+Shadow emperor Iufn~
+Shadow emperor Iufn stands ontop of a pile of bones
+~
+Lord Iufn's face has taken on a feral looking stat with sharp teeth
+and red glowing eyes.  The hatred in his eyes can be felt even near
+the exit of the room.  His body has changed a great deal as well being
+that alot of his skin has been flayed off.
+~
+1
+Clanname none~
+0
+0
+131107&4 373293184 0 C
+101 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 0 1056832 2097186 0 786931 19
+> death_prog 100~
+mpmload 35761
+mpforce $n say NOW!?
+mpechoat $n &cShadowlord Iufn falls to the ground with a thud.. A cackling
+mpechoat $n &csound emanates from the corpse of Iufn.  A shadowy form of 
+mpechoat $n &cIufn stands up out of the corpse on the ground.
+~
+|
+#35761
+Braxcis devil~
+Braxcis the devil~
+A horned devil stands before you
+~
+A shadow that looks just like the shadow lord that was just slain. His
+face changes as a little time goes on to a shapeless void.  His body
+changes as well and turns to look just as a black mass of nothing.  Then
+reshape's itself into a demon looking being.  Horns, claws, and hooves 
+begin to take shape upon the being.  In a short amount of time a set 
+of wings begin to grow from the back of this thing.  In no time a very
+dangerous looking devil type being stands where once a shadow of lord
+Iufn was.
+~
+0
+Clanname none~
+0
+0
+35&36 503840952&12 -500 C
+101 0 -300 0d0+30000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+25 25 25 25 25 13 25
+0 0 0 0 0
+16 13 0 0 1 1 20
+190 200 16187449 391 3072 0 1107823099 33554451
+> speech_prog p NOW!?~
+mppause 3
+mpechoat $n &cThe shadow form of Iufn cackles madly as he glares around
+mpechoat $n &cthe room.  Slowly the shadow form stands up straight.
+mppause 10
+mpechoat $n &cShadowy Iufn says 'I thank you for being so foolish to release
+mpechoat $n &cfrom the that foolish Iufn.  Thinking to contain me within the 
+mpechoat $n &cvery body that was destroyed.  For years that foolish man has kept
+mpechoat $n &cme contained.  Slowly I was able to contaminate his very soul.
+mppause 10
+mpechoat $n &cShadow Iufn says 'I was able to turn him into that which he dedicated 
+mpechoat $n &chis entire life to stop.  I turned him evil, I did all I could to turn 
+mpechoat $n &chim so that he would release me.  It was infuriating. Even after all the years
+mpechoat $n &che was able to keep a good piece of his soul hidden away so that I could 
+mpechoat $n &cnot completely over take his will and make him free me.
+mppause 10
+mpechoat $n &cShadow Iufn says 'By destroying his body I was freed. I thank you. perhaps
+mpechoat $n &cI will let you live... Perhaps not! Die fool!
+mpkill $n
+~
+> death_prog 100~
+mpoload 35758 100
+~
+|
+#35762
+Programmer ~
+a newly created Programmer ~
+A living program sits here
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog p Shadow emperor Iufn tells you ~
+tell 35761 NOW!?
+~
+|
+#35800
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#35751
+key iron~
+an iron key~
+An iron key rests here~
+~
+18 524288 16385
+0 0 0 0 0 0 0
+1 1261 126
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+look~
+this key is made of the purest piece of iron.  The entire key is
+made from one single piece of iron.
+~
+#35752
+Leggings undead slaying~
+Leggings of the undead slayer~
+A pair of white and black leggings sit here~
+~
+9 524291 33
+60 60 0 0 0 100 0
+1 284 28
+1
+4
+0
+0
+0
+0
+S 3 0
+E
+look~
+These leggings are colored in a black, and white fashion.  Almost as
+in a checked way.  They extend down to the floor covering the feet.
+~
+A
+18 10
+A
+19 10
+A
+13 50
+A
+12 50
+A
+26 8192
+#35753
+cloak saintly blessings ~
+Cloak of saintly blessings~
+A billowing cloak of purple cloth rests here~
+~
+9 262147 524289
+60 60 0 0 0 100 0
+1 277 27
+1
+4
+0
+0
+0
+0
+S 3 0
+E
+examine~
+This cloak hangs down to the ankles of the wearer.  It has a deep
+purple color within the entire cloth.  The very middle of the 
+cloak has a bright blue line running from top to bottom of the cloak.
+~
+A
+18 10
+A
+19 10
+A
+13 100
+A
+12 100
+A
+26 2097152
+#35754
+Gloves of undead slaying~
+Gloves of undead slaying~
+A pair of black and white gloves lays here~
+~
+9 262403 129
+60 60 0 0 0 0 0
+1 265 26
+1
+9
+0
+0
+0
+0
+S 3 0
+E
+look~
+These gloves appear to have been made of the finest silk, and have
+had the finest thread used to piece them together.
+~
+A
+18 10
+A
+19 10
+A
+13 50
+A
+12 50
+#35755
+Sacrificial mask~
+a sacrificial mask~
+A mask lays here~
+~
+9 524291 1048577
+60 60 0 0 0 100 0
+1 259 25
+1
+4
+0
+0
+0
+0
+S 0 0
+E
+look~
+The sacrificial mask of Lord iufn.  Its made of platnium and appears
+to be inlaid with gold carvings, and silver carvings that almost
+give off a faint glow.
+~
+A
+18 12
+A
+19 12
+A
+13 100
+A
+12 100
+#35756
+disembodied eye~
+a disembodied eye~
+A bloody eye is here on the ground~
+~
+9 262400 131073
+60 60 0 0 0 100 0
+1 264 26
+1
+4
+0
+0
+0
+0
+S 0 0
+E
+look~
+A rather nasty looking disembodied eye.
+~
+A
+18 15
+A
+19 15
+A
+13 100
+A
+12 100
+A
+26 8
+#35757
+Blood covered boots~
+Blood covered boots~
+A pair of boots covered in blood lays here~
+~
+9 262403 65
+60 60 0 0 0 100 0
+1 310 27
+1
+9
+0
+0
+0
+0
+S 0 0
+E
+look~
+A rather nice pair of boots at one time made of the finest leather
+in the lands.  Inlaid with what appears to be dragon scales.
+~
+A
+18 10
+A
+19 10
+A
+12 50
+A
+13 75
+#35758
+Opal studded earring~
+a pair of opal studded earrings~
+A pair of earrings rest here with rather large opals in-set.~
+~
+9 524547 65537 4
+60 60 0 0 0 100 0
+1 1 0
+4
+12
+0
+0
+0
+0
+S 3 0
+E
+look~
+A pair of golden earrings inlaid with silver that runs the length. at
+the end of the silver rests a rather large opal.
+~
+A
+12 150
+A
+13 150
+A
+18 15
+A
+19 15
+#35759
+drums battle~
+the drums of battle~
+Drums lie here on the ground~
+~
+68 524547 16385
+4 0 0 40 25 100 4
+1 1268 126
+4
+2
+0
+0
+0
+0
+S 0 0
+A
+13 175
+A
+12 175
+A
+19 15
+A
+18 15
+A
+56 217
+#35800
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#35751
+Opening into the mausoleum ~
+~
+Looming a short way in the distance stands a rather impressive looking
+structure that looks made entirely of marble.  Carvings cover the entirety 
+of this building.  Most of these carvings appear to be very intricate in
+design as well as use.  Some of the carvings surrounding the entry way seem
+to tell a story.  The story seems to be surrounding a guy imprisoning multiple
+rather powerful looking demons within a building.
+~
+1 36 0
+D0
+~
+~
+0 -1 35752
+S
+#35752
+Mausoleum Foyer ~
+~
+The foyer of this building is rather void of any kind of furniture and
+decoration.  There are more carvings upon the floors, wall and ceiling
+these carvings like those in the entrance way of this mausoleum appear 
+to be telling a story.  In this carvings the man seen before has the 
+demons in a subdued type of posture upon what one would surmise to be
+the floor.  More carvings surround those which appear to be glowing.
+~
+1 32 0
+D0
+~
+~
+3 -1 35757
+D1
+~
+~
+3 -1 35754
+D2
+~
+~
+0 -1 35751
+D3
+~
+~
+3 -1 35753
+R M 0 35752 20 35752
+R M 0 35752 20 35752
+R M 0 35751 19 35752
+R M 0 35751 19 35752
+R D 0 35752 0 1
+R D 0 35752 1 1
+R D 0 35752 3 1
+S
+#35753
+Priests preparation chambers ~
+~
+Lining all four walls of this room are many what appear to be small 
+vaults of some kind.  One of the vaults is slightly open and personal
+belongings can be seen within it.  In the middle of the floor is a
+rather long bench made of marble.  Slightly glowing carvings litter
+the entire surface of this room.  
+~
+1 0 0
+D0
+~
+~
+0 -1 35756
+D1
+~
+~
+3 -1 35752
+R M 0 35752 20 35753
+R M 0 35752 20 35753
+R M 0 35752 20 35753
+R M 0 35752 20 35753
+R D 0 35753 1 1
+S
+#35754
+Priestesses preparation chambers~
+~
+All four walls of this room are covered in what would appear to be
+vaults of some kind.  Some of the vaults appear to be open and personal
+belongings can be seen hanging neatly within.  A rather long bench runs
+over half the length of this room.  A pair of old boots can be seen slightly
+hidden under the bench.  Runes litter the spots in this room that the
+small vaults do not.  The runes as before seem to be emitting a faint glow
+~
+1 0 0
+D0
+~
+~
+0 -1 35755
+D3
+~
+~
+3 -1 35752
+R M 0 35751 19 35754
+R M 0 35751 19 35754
+R M 0 35751 19 35754
+R M 0 35751 19 35754
+R D 0 35754 3 1
+S
+#35755
+Priestess waiting chambers~
+~
+Very long benches run the length of this room.  From wall to wall they
+sit in wait for someone to use.  Carvings are once again seen littering
+every open spot in this room glowing A little brighter then noticed before.
+~
+1 0 0
+D2
+~
+~
+0 -1 35754
+D7
+~
+~
+3 -1 35758
+R M 0 35751 19 35755
+R M 0 35751 19 35755
+R M 0 35751 19 35755
+R M 0 35751 19 35755
+R D 0 35755 7 1
+S
+#35756
+Priest waiting chamber~
+~
+Very long benches run the length of this room.  From wall to wall they
+sit in wait for someone to use.  Carvings are once again seen littering
+every open spot in this room glowing A little brighter then noticed before.
+~
+1 0 0
+D2
+~
+~
+0 -1 35753
+D6
+~
+~
+3 -1 35758
+R M 0 35752 20 35756
+R M 0 35752 20 35756
+R M 0 35752 20 35756
+R M 0 35752 20 35756
+R D 0 35756 6 1
+S
+#35757
+waiting chamber~
+~
+Long benches run the entire length of this room.  Nothing is found within
+this room other then the benches.  The only thing that does stand out other
+then the benches is the carvings that litter the surface of the walls, ceiling
+and floor of this room.  Also as before the runes glow faintly
+~
+1 32 0
+D0
+~
+~
+3 -1 35758
+D2
+~
+~
+3 -1 35752
+R M 0 35751 19 35757
+R M 0 35751 19 35757
+R M 0 35752 20 35757
+R M 0 35752 20 35757
+R D 0 35757 0 1
+R D 0 35757 2 1
+S
+#35758
+Sacrificial chambers~
+~
+A small pit is seen within the very center of this room.  Many piles
+of bones are seen laying within this pit.  At the out side of the 
+circular pit lay carvings glowing a bright white color almost blinding 
+to look into.  More carvings cover every inch of this room all glowing
+a bright white.  Some carvings in the front of the room do not seem to 
+be glowing.  These carvings depict one of the powerful demon carvings
+seen in the entrance of this building.
+~
+1 32 0
+D0
+~
+~
+3 -1 35759
+D2
+~
+~
+3 -1 35757
+D8
+~
+~
+3 -1 35755
+D9
+~
+~
+3 -1 35756
+R M 0 35753 1 35758
+  R E 0 35755 1 23
+R D 0 35758 0 1
+R D 0 35758 2 1
+R D 0 35758 8 1
+R D 0 35758 9 1
+S
+#35759
+Descending souls~
+~
+Special carvings are embedded into the ground in this room.  Two of
+the carvings are reminiscent of once again carvings of the powerful
+demons seen in the entrace of the mausoleum.  They seem to be signs
+of some type.  Moaning is readily heard coming from both up, and down.
+~
+1 32 0
+D2
+~
+~
+3 -1 35758
+D4
+~
+~
+0 -1 35760
+D5
+~
+~
+0 -1 35761
+R D 0 35759 2 1
+> rand_prog 75~
+mpechoat $n &c A faint moaning echo's eerily around the room.
+~
+|
+S
+#35760
+Mausoleum library ~
+~
+This entire room seems to be devoted to nothing but books.  On each
+and every wall, and somehow even on the ceiling books line gigantic book
+shelves.  Carvings also appear in this room as the ones previously.  All
+the runes in this room appear to be glowing a bright white color.
+~
+1 32 0
+D2
+~
+~
+0 -1 35762
+S
+#35761
+blood and gore~
+~
+The sight in this room is almost enough to make even the most battle
+hardened adventure turn pale.  Blood, bones, assorted body parts litter
+the entire floor of this room.  The gore is more then ankle deep in
+the middle of the floor.  Small lights of red can be seen as the carvings
+in this room try their hardest to shine even in the most hideous of places.
+~
+1 32 0
+D0
+~
+~
+0 -1 35771
+R M 0 35756 17 35761
+R M 0 35757 17 35761
+S
+#35762
+Shadowy hallway~
+~
+Books seem to line the walls of this room as they did on the previous
+room.  Other then the books which are shown because of the faintly 
+glowing runes.  The room seems to be void of anything else.
+~
+1 32 0
+D0
+~
+~
+0 -1 35760
+D2
+~
+~
+1 -1 35763
+D8
+~
+~
+3 -1 35764
+D9
+~
+~
+3 -1 35765
+R M 0 35754 22 35762
+R M 0 35754 22 35762
+R M 0 35754 22 35762
+R M 0 35754 22 35762
+R D 0 35762 2 0
+R D 0 35762 8 1
+R D 0 35762 9 1
+S
+#35763
+Practice chambers~
+~
+Black marks, and chunks missing out of the walls in this room are 
+plainly seen all over the place.  Even chunks missing out of the 
+floor do not go unnoticed.  The carvings in this room do not seem
+to be glowing at all.  Seemingly as if the explosions in this room
+weakened the carvings into nonexistence.
+~
+1 32 0
+D0
+~
+~
+3 -1 35762
+D2
+~
+~
+3 -1 35767
+R D 0 35763 0 1
+R D 0 35763 2 1
+S
+#35764
+Intellectual class~
+~
+Benches litter the entire floor in this room.  Books also cover tables
+pushed up against the walls in this room.  A rather large desk covers
+the entire middle of this room.  Carvings glowing brightly are seen.
+~
+1 0 0
+D2
+~
+~
+3 -1 35766
+D7
+~
+~
+3 -1 35762
+R M 0 35754 22 35764
+R M 0 35754 22 35764
+R M 0 35754 22 35764
+R D 0 35764 2 1
+R D 0 35764 7 1
+S
+#35765
+Religious class~
+~
+This room has books lining all four walls just as ones previous.  The
+books in this room however seem to be dedicated towards the education 
+in the various religions found within the realm.  As before more
+runes are spotted here, and there within this room.
+~
+1 0 0
+D2
+~
+~
+3 -1 35768
+D6
+~
+~
+3 -1 35762
+R M 0 35751 19 35765
+R M 0 35752 20 35765
+R M 0 35754 22 35765
+R M 0 35754 22 35765
+R D 0 35765 2 1
+R D 0 35765 6 1
+S
+#35766
+Clerical studies~
+~
+The floor in this room appears to have been blasted apart.  Desks and
+parts of desks litter the entire floor.  A few piles of bones, and
+some blood stains can be found in the very center of the floor where
+the blast seems to have originated. The carvings in this room seem to
+have been destroyed in the explosion.
+~
+1 0 0
+D0
+~
+~
+3 -1 35764
+D3
+~
+~
+3 -1 35767
+R M 0 35751 19 35766
+R M 0 35751 19 35766
+R M 0 35752 20 35766
+R M 0 35752 20 35766
+R M 0 35754 22 35766
+R M 0 35754 22 35766
+R D 0 35766 0 1
+R D 0 35766 3 1
+S
+#35767
+Hallway~
+~
+torches line the entire wall from the door to the north to the exit
+to the south.  Even above the doors to the east, and west a torch can
+be seen.  The light in the room is enough to almost blind anyone.  A
+strange heat emanates from within this room. The carvings in this
+room are glowing a VERY bright white.
+~
+1 32 0
+D0
+~
+~
+3 -1 35763
+D1
+~
+~
+3 -1 35766
+D2
+~
+~
+3 -1 35769
+D3
+~
+~
+3 -1 35768
+R M 0 35754 22 35767
+R M 0 35754 22 35767
+R M 0 35754 22 35767
+R M 0 35754 22 35767
+R D 0 35767 0 1
+R D 0 35767 1 1
+R D 0 35767 2 1
+R D 0 35767 3 1
+S
+#35768
+Clerical chambers~
+~
+In the back of the room pushed up against the wall sits several rather
+nice looking desks.  In the middle of the room and coming up to the
+front of the room is a rather lot of cots.  The cots do not look like
+anyone has slept in them in a few long time.  The desks all seem to
+be well piled with many different types of parchment   The carvings
+appear to be glowing fainter then seen in previous rooms.
+~
+1 0 0
+D0
+~
+~
+3 -1 35765
+D1
+~
+~
+3 -1 35767
+R M 0 35751 19 35768
+R M 0 35751 19 35768
+R M 0 35754 22 35768
+R M 0 35754 22 35768
+R D 0 35768 0 1
+R D 0 35768 1 1
+S
+#35769
+Red summoning chambers~
+~
+&CA dull red color emanates from within the very heart of this room. In 
+the very center of the room is a rather large pit embedded into the very 
+floor. Piles of bones are easily seen lying within the pit. Carvings 
+glowing a bright white litter the surface of the floor around the pit. 
+~
+1 32 0
+D0
+~
+~
+3 -1 35767
+D2
+~
+~
+3 -1 35770
+R M 0 35755 1 35769
+  R E 0 35757 1 8
+R D 0 35769 0 1
+R D 0 35769 2 1
+S
+#35770
+Soul's descending ~
+~
+Piles of bones, and blood stains litter the whole of this floor.  Even
+the carvings which are trying to hard to glow are glowing a bright red
+color because of the blood.  What looks like finger nail scratches are
+seen embedded into the very marble of the floor in this room.  A pit
+is seen in the middle of the room leading down.  The finger nail marks
+lead straight into this pit.
+~
+1 32 0
+D0
+~
+~
+3 -1 35769
+D5
+~
+~
+0 -1 35761
+R D 0 35770 0 1
+S
+#35771
+Former foyer~
+~
+The once well crafted couches that sit in the middle of this room are
+now covered in blood, and other types of gore.  This room much like the
+one previous are in horrible shape with the hideous sights that abound
+within the room.  The carvings in this room are also trying vainly to
+shine brightly in the surroundings of this darkness.
+~
+1 32 0
+D2
+~
+~
+0 -1 35761
+D6
+~
+~
+3 -1 35772
+D7
+~
+~
+3 -1 35773
+R M 0 35757 17 35771
+R M 0 35757 17 35771
+R M 0 35756 17 35771
+R M 0 35756 17 35771
+R D 0 35771 6 1
+R D 0 35771 7 1
+S
+#35772
+Once upon a class~
+~
+This room is easily noticed to have at one time to have been a class
+of some type.  With all the destruction and gore that surrounds the
+room itself it is very hard to have any clue what type of class would
+have been held in this now sorry sight of a room.  The glyphs in this
+room seem to not have any glow at all.
+~
+1 32 0
+D0
+~
+~
+3 -1 35774
+D9
+~
+~
+3 -1 35771
+R M 0 35757 17 35772
+R M 0 35757 17 35772
+R M 0 35756 17 35772
+R M 0 35756 17 35772
+R D 0 35772 0 1
+R D 0 35772 9 1
+S
+#35773
+Gory classroom~
+~
+Body parts, and bodies line the walls of this room.  The desks themselves
+have been used to hold a few of the bodies in this room.  A few of the
+bodies appear to have been dismembered in an attempt at some kind of a 
+sacrifice.  The carvings in this room appear to not be working at all.
+~
+1 32 0
+D0
+~
+~
+3 -1 35775
+D8
+~
+~
+3 -1 35771
+R M 0 35757 17 35773
+R M 0 35757 17 35773
+R M 0 35757 17 35773
+R M 0 35756 17 35773
+R D 0 35773 0 1
+R D 0 35773 8 1
+S
+#35774
+Classy morgue ~
+~
+This room which one can deduce was once a classroom as where the previous
+rooms around this section of the mausoleum.  However, the corpses in
+this room just as the one to the side of it appear to have died with no
+reason.  No marks, no blood nothing.  Carvings in this room as with the
+one to the side glow a bright white color.
+~
+1 32 0
+D2
+~
+~
+3 -1 35772
+D3
+~
+~
+3 -1 35775
+D7
+~
+~
+0 -1 35776
+R M 0 35756 17 35774
+R M 0 35756 17 35774
+R M 0 35757 17 35774
+R M 0 35757 17 35774
+R D 0 35774 2 1
+R D 0 35774 3 1
+S
+#35775
+Morgue of types~
+~
+Bodies have been lined up against the walls and side by side all along
+this room.  Some have even been put in piles.  These bodies have not 
+even been touched so far that can be seen.  All those that are dead 
+in this room look as though they have never been touched by anything.
+The carvings in this room unlike the previous are glowing very brightly.
+~
+1 32 0
+D1
+~
+~
+3 -1 35774
+D2
+~
+~
+3 -1 35773
+D6
+~
+~
+0 -1 35776
+R M 0 35757 17 35775
+R M 0 35757 17 35775
+R M 0 35756 17 35775
+R M 0 35756 17 35775
+R D 0 35775 1 1
+R D 0 35775 2 1
+S
+#35776
+Horrendous smell.~
+~
+This room unlike the previous just before it is full of blood, and gore 
+bodies lying in the middle of the room in piles.  Half rotted corpses and
+a few that appear to be fairly fresh are mingled together in this room.  The
+carvings in this room appear to be slightly glowing.  A horrendous smell
+comes in from the door to the north.
+~
+1 0 0
+D0
+~
+~
+3 -1 35777
+D8
+~
+~
+0 -1 35774
+D9
+~
+~
+0 -1 35775
+R M 0 35756 17 35776
+R M 0 35756 17 35776
+R M 0 35757 17 35776
+R M 0 35757 17 35776
+R D 0 35776 0 1
+S
+#35777
+Horrendous sight~
+~
+Many hooks hang down from the ceiling in this room.  A few of the hooks
+have what looks to be bodies hanging from them. Upon closer examination 
+however one finds that the bodies are in fact multiple parts of different
+bodies being sewn together slowly.  One of the bodies appears to be almost 
+alive as it is examined.  On the floor many arms, and legs as well as
+other body parts are seen.
+~
+1 0 0
+D0
+~
+~
+3 -1 35778
+D2
+~
+~
+3 -1 35776
+R M 0 35758 1 35777
+  R E 0 35756 1 20
+R D 0 35777 0 1
+R D 0 35777 2 1
+S
+#35778
+Bright hallway~
+~
+This hallway unlike the rooms before is strangely void of anything
+at all.  The only thing that can be seen is a rather large amount of
+carvings that litter the entire four walls.  These carvings are 
+similar to the ones seen on the entrance of the mausoleum.  These  
+depict the one humanoid controling the other demons.  However, in 
+this one it shows the demons each being given a special type of what
+looks like a gem.  In another set of carvings it shows the gems being
+side by side, and finally in yet another carvings it shows them almost
+as if being placed together.
+~
+1 0 0
+D2
+~
+~
+3 -1 35777
+D6
+~
+~
+0 -1 35779
+R D 0 35778 2 1
+S
+#35779
+Black iron gateway~
+~
+A rather large, and formidable set of wrought iron gates stands in
+the northern part of this rather large room.  The wrought iron gate
+almost seems to be glowing. With closer examination very small carvings
+are seen imbedded into the gate itself.  The gate as it looks to be made
+of wrought iron bars does not however show anything on the other side of
+the room.
+~
+1 0 0
+D0
+~
+wrought iron gate~
+8389671 35751 35780
+D9
+~
+~
+0 -1 35778
+R M 0 35759 1 35779
+  R E 0 35752 1 7
+  R E 0 35753 1 22
+  R G 0 35751 1
+R D 0 35779 0 2
+S
+#35780
+Into the darkness~
+~
+&wThe light in this rooms seems to be dimmed.  No mater how much light
+radiates outwards it is almost as if the light is devoured by the room
+itself.   Black carvings set into the room glows a faint black color.
+~
+1 0 0
+D2
+~
+wrought iron gate~
+8389671 35751 35779
+D6
+~
+~
+0 -1 35781
+D7
+~
+~
+0 -1 35782
+R M 0 35757 17 35780
+R M 0 35756 17 35780
+R M 0 35754 22 35780
+R M 0 35752 20 35780
+R D 0 35780 2 2
+S
+#35781
+Walking in the darkness~
+~
+A strange darkness covers this room.  The darkness does not completely
+hide the surfaces of this room.  Rather this form of dark simply dims
+anything within the room making everything look as a shadow.
+~
+1 0 0
+D0
+~
+~
+0 -1 35784
+D9
+~
+~
+0 -1 35780
+R M 0 35752 20 35781
+R M 0 35754 22 35781
+R M 0 35756 17 35781
+R M 0 35757 17 35781
+S
+#35782
+Within the black flames~
+~
+&wThe room seems engulfed within a wreath of black flames.  The flames
+are attached to all surfaces of the room.  There is a small pit in 
+the center of the room that is filled like the others with many
+bodies, and piles of bones.  The flame seems to be radiating from here
+~
+1 0 0
+D0
+~
+~
+0 -1 35783
+D8
+~
+~
+0 -1 35780
+R M 0 35751 19 35782
+R M 0 35752 20 35782
+R M 0 35754 22 35782
+R M 0 35756 17 35782
+S
+#35783
+Before the blackness~
+~
+&wThis room seems to be engulfed with a faint glowing black light.  The
+light seems to radiate from within the very center of the room where
+rests a rather large looking pit filled with bones, and bodies.
+~
+1 0 0
+D2
+~
+~
+0 -1 35782
+D7
+~
+~
+0 -1 35785
+R M 0 35752 20 35783
+R M 0 35754 22 35783
+R M 0 35756 17 35783
+R M 0 35757 17 35783
+S
+#35784
+Before the black light~
+~
+A black light faintly illuminates the room from the Northeast.  Even
+with the light the darkness radiating from the center of the room
+from within the pit fights for hold of this room.
+~
+1 0 0
+D2
+~
+~
+0 -1 35781
+D6
+~
+~
+0 -1 35785
+R M 0 35751 19 35784
+R M 0 35752 20 35784
+R M 0 35754 22 35784
+R M 0 35756 17 35784
+S
+#35785
+Black summoning chambers~
+~
+Black carvings litter the entirety of this room glowing a faintly.  In
+the center of the room is filled with giant piles of bones, and bodies. 
+Encircled around the bodies are more carvings that appear to be shifting 
+between different carvings all glowing a faint dull red.
+~
+1 0 0
+D8
+~
+~
+0 -1 35783
+D9
+~
+~
+0 -1 35784
+R M 0 35760 1 35785
+  R G 0 35759 1
+S
+#35786
+Programming room~
+~
+~
+1 4 1
+R M 0 35762 1 35786
+S
+#35800
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  35751 spec_cast_cleric
+M  35752 spec_cast_cleric
+M  35753 spec_cast_mage
+M  35754 spec_cast_cleric
+M  35755 spec_cast_undead
+M  35756 spec_cast_cleric
+M  35757 spec_cast_cleric
+M  35758 spec_cast_undead
+M  35759 spec_cast_undead
+M  35760 spec_cast_undead
+M  35761 spec_breath_any
+S
+
+
+#$

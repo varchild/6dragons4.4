@@ -1,0 +1,1590 @@
+#AREA        Harpy Landing~
+
+
+
+#VERSION     11
+#AUTHOR      Fya~
+#DERIVATIVES ~
+#COLOR       1
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+75 85 65 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG &cA screech from a bird in the distance fills your ears.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 1249930 0 0 0 -1
+
+#CLANNAME (null)~
+
+#INFLUENCE 0
+
+#MOBILES
+#13151
+Szkige harpy matriarch~
+Szkige, the Harpy Matriarch~
+A filthy yet commanding Harpy glares about herself in an imposing manner.
+~
+Somewhat larger than most Harpies, Szkige is proud and arrogant. Twisted 
+scars cover her face in a testament to former battles, often with her own 
+kind. Her head and torso are those of a woman, but her nether regions and 
+wings are those of some monstrous carrion bird. Her feathers are a dusty 
+black. 
+~
+1
+Clanname none~
+0
+0
+131075 0 -1000 C
+95 0 0 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13152
+Gotarsh Harpy bodyguard~
+Gotarsh, the Harpy Matriarch's bodyguard~
+A powerful Harpy dominates the area with her forceful presence.
+~
+Resembling a vulture with the head and torso, Gotarsh is arrogant and 
+evil. Wattled flesh hangs grotesquely beneath her chin. Her flesh is 
+covered in a multitude of scars. Her hair is twisted and tangled, and 
+filled with small sticks and bones. 
+~
+1
+Clanname none~
+0
+0
+131075 0 -1000 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13153
+Harpy warrior~
+a Harpy warrior~
+A Harpy warrior glares around menacingly.
+~
+A filthy yet strong Harpy warrior watches all that occurs with a 
+mistrustful gaze. Her hair is filthy, as is her skin. Scars mark her head 
+and torso, and feathers have been torn from her wings. Occasionally, she 
+belches loudly. 
+~
+1
+Clanname none~
+0
+0
+16777217 0 -1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13154
+Harpy adult~
+a Harpy adult~
+An adult Harpy wanders around aimlessly.
+~
+Bedraggled feathers droop from this Harpy's wings. Bones and filth mat her 
+hair to her head. She glares about at her surroundings angrily. The stench 
+is thick and rank from her filthy body. 
+~
+1
+Clanname none~
+0
+0
+16777217 0 -1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13155
+Harpy fledgling~
+a Harpy fledgling~
+A nasty little Harpy fledgling stalks around angrily.
+~
+This young Harpy has never known any love in her short life. Her eyes are 
+filled with anger and hatred. Tattered pinions trail behind her as she 
+moves about. Angry squawks fall frequently from her lips. 
+~
+1
+Clanname none~
+0
+0
+16777217 0 -1000 C
+75 0 0 0d0+5500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13156
+Harpy guardian~
+the Harpy guardian~
+The Harpy Guardian stands here, watching vigilantly over the Harpy young.
+~
+A massive Harpy covered in scars, it is the Guardian's job to watch over 
+the young, and protect them from outside predators. She shows them no 
+attention, acting only to keep others from them until they have grown old 
+enough to join the flock. One eye has been ripped from her skull, and a 
+large scar stretches from her forehead to her chin. Her wings are sleek 
+and powerful. Unlike the other Harpies, she is merely dirty, rather than 
+filthy. 
+~
+1
+Clanname none~
+0
+0
+131107 0 -1000 C
+90 0 0 0d0+9500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13157
+Zlota Harpy warrior~
+Zlota, the Harpy warrior~
+A Harpy warrior stands here with a fierce scowl.
+~
+Wearing a necklace of bones, Zlota has a deep scar on her collarbone and 
+another on one ear. Her golden hair is streaked with the mud and grime 
+that covers the rest of her body. Varying in shades of rust and umber, two 
+powerful wings extend from her back. 
+~
+1
+Clanname none~
+0
+0
+16777217 0 -1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+14 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+#13158
+Katarzyna Harpy ~
+Katarzyna, a Harpy mother~
+Katarzyna looks about here anxiously.
+~
+Katarzyna's brown hair is uneven and scraggly, matted with filth and dirt. 
+Her wings are missing various flight feathers and shows signs of plucking. 
+Her grey eyes look weary and worried, her claws constantly clacking 
+together irritably. 
+~
+1
+Clanname none~
+0
+0
+16777219 0 -1000 C
+85 0 0 0d0+8500 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 4 0 0 1 1 0
+0 0 33793 0 0 0 262658 2
+> act_prog p smiles at you and says, "How fare thee~
+mppause 5
+mea $n &CKatarzyna, the Harpy mother says, 'Have you seen my egg? It's rolled away from the others. You can recognize it by its grey rings.'&D
+~
+> act_prog p gives you a grey-ringed Harpy~
+mppause 3
+mea $n &CKatarzyna, the Harpy mother says, 'This one keeps getting away, thank you for finding him.'&D
+mppause 10
+mea $n &cKatarzyna, the Harpy mother tucks the egg away under a wing.&D
+mpjunk 13160
+mprestore $n 500
+mea $n &cA squawk comes from the egg, and you feel a bit stronger.&D
+~
+> rand_prog 50~
+mpjunk all
+~
+|
+#13159
+mountain goat~
+a mountain goat~
+A wild mountain goat grazes here.
+~
+This skinny mountain goat has an off white pelt and small horns. It's only 
+as tall as a halfling, and its knobbly legs seem barely strong enough to 
+support it. Hooded and placid, its amber eyes gaze about in a daze. 
+~
+1
+Clanname none~
+0
+0
+16777281 0 0 C
+80 0 0 0d0+7200 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 32 0 0 0 224 0
+#13160
+chipmunk~
+a chipmunk~
+A striped chipmunk scurries about here, its mouth full of nuts.
+~
+With three black stripes and two white stripes running down its back all the way to its little tail, this chipmunk is easily distinguishable from a squirrel. Two large cheeks stuffed with nuts and fruits make this little fellow look quite strange. 
+~
+1
+Clanname none~
+0
+0
+16777281 0 0 C
+40 0 0 0d0+1000 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 0
+0 0 32 0 0 0 579 0
+#13161
+ailing woman~
+an ailing woman~
+An ailing woman lies here, coughing weakly.
+~
+Brown hair pulled back into a loose braid, this sickly woman has 
+unhealthily pale skin and bloodshot blue eyes. Covered in cuts and 
+bruises, her body is constantly wracked with choking coughs and drenched 
+in sweat. Her brown tunic and green skirt is stained with blood and dirt. 
+~
+1
+Clanname none~
+0
+0
+3 0 1000 C
+60 0 0 0d0+3000 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 9 0 0 0 560 2
+> greet_prog 100~
+mea $n &cAn ailing woman turns weak eyes towards you.&D
+mppause 5
+mea $n &CAn ailing woman says, 'Please, will you help me? I cannot leave this cavern. If you retrieve the medicinal flowers from the cliff to the northeast for me, I can reward you with some gold.'&D
+~
+> give_prog bunch white flowers~
+mea $n &cAn ailing woman takes the flowers from you, thanking you repeatedly.&D
+mppause 5
+mea $n &CAn ailing woman says, "Please, it's not much, but take this gold as a token of my gratitude."&D
+mpwithdraw 10 gold
+mppause 10
+give 10 gold $n 
+mppause 5
+mea $n &CAn ailing woman says, "By the way, I hear the pixies needed feathers. Maybe harpy feathers?"&D
+mpjunk flowers
+~
+|
+#13180
+iftest~
+iftest~
+Some god abandoned a newly created last mob here.
+~
+~
+1
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog p multitest~
+if ispc($n)
+  if ismulti($n)
+    say You are multiclass.
+  else
+    say You are not multiclass.
+  endif
+endif
+~
+> speech_prog p classtest~
+if ispc($n)
+ if class($n) == 0
+    say You are a priest.
+  else
+ if class($n) == 1
+   say You are a druid.
+ else
+ if class($n) == 2
+   say You are a mage.
+ else
+ if class($n) == 3
+   say You are a necromancer.
+ else
+ if class($n) == 4
+   say You are a warrior.
+ else
+    say You arent a priest, druid, mage, necromancer, or warrior
+  endif
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#13151
+Harpy egg~
+a Harpy egg~
+A large dirty egg lies here, covered in mottled bumps.~
+~
+19 0 16385
+0 0 0 0 0 1 0
+1 30 3
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+egg~
+This egg appears to be a pale tan color beneath its coating of dirt and 
+grime. It is bumpy in texture, and warm to the touch. Occasionally, it 
+seems to move a little, as if the occupant is shifting inside. 
+~
+#13152
+harpy armband~
+a harpy armband~
+A copper armband is covered in grime.~
+~
+9 0 257
+55 55 0 0 0 81 0
+1 196 19
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 8
+A
+13 100
+A
+12 100
+#13153
+harpy earring~
+a pair of harpy earrings~
+A pair of copper earrings are covered in grime.~
+~
+9 0 65537
+55 55 0 0 0 81 0
+1 196 19
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 8
+A
+13 100
+A
+12 100
+#13154
+harpy eye~
+a harpy eye~
+A harpy's eye has been ripped from its socket.~
+~
+9 0 131073
+55 55 0 0 0 81 0
+1 196 19
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 8
+A
+13 100
+A
+12 100
+#13155
+harpy spur~
+a harpy spur~
+A harpy's spurred claw has been ripped from its foot.~
+~
+9 0 65
+55 55 0 0 0 81 0
+1 196 19
+1
+0
+0
+0
+0
+0
+S 77 0
+A
+19 8
+A
+13 100
+A
+12 100
+#13156
+harpy lance~
+a harpy lance~
+A grimy lance lies here.~
+~
+5 0 8193
+0 40 90 7 12 81 0
+1 181 18
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 8
+A
+13 100
+A
+17 -40
+#13157
+harpy flail~
+a harpy flail~
+A grimy flail lies here.~
+~
+5 0 8193
+0 40 90 4 13 81 0
+1 181 18
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 8
+A
+14 100
+A
+26 8
+A
+5 2
+#13158
+harpy broadaxe~
+a harpy broadaxe~
+A grimy broadaxe lies here.~
+~
+5 0 8193
+0 108 151 3 8 81 0
+1 181 18
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+18 8
+A
+14 100
+A
+26 32
+A
+1 2
+#13159
+harpy quarterstaff~
+a harpy quarterstaff~
+A grimy quarterstaff lies here.~
+~
+5 0 8193
+0 40 90 7 11 81 0
+1 181 18
+1
+0
+0
+0
+0
+0
+S 0 0
+A
+19 8
+A
+12 100
+A
+26 268435456
+#13160
+grey-ringed grey ringed egg harpy~
+a grey-ringed Harpy egg~
+A large egg with faint grey rings on its surface rolls about here.~
+~
+19 0 16385
+0 0 0 0 0 1 0
+1 30 3
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+egg grey-ringed grey ringed~
+This egg is much larger than a normal avian's, and has an extremely tough 
+shell. The off-white shell has thick bands of faint grey encircling it at 
+regular intervals. Noises coming from within, the egg seems to move about 
+on its own now and then. 
+~
+> rand_prog 1~
+mpe &cA grey-ringed Harpy egg emits a small, muffled chirp before rocking back and forth briefly.&D
+~
+|
+#13161
+bunch white flowers~
+a bunch of white flowers~
+A bunch of bright white flowers grow here.~
+~
+32 128 1
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 0 0
+E
+bunch white flowers~
+These small white flowers have oval petals and a golden center. They are trumpet-shaped, with lime green stems and emerald leaves. Each rounded oval leaf is no larger than a gnome's finger. A faint fragrance wafts from the flowers, aromatic and soothing. 
+~
+> get_prog 100~
+mea $n &cYou reach precariously to the edge of the cliff and pick a bunch of white flowers from between the rocks.&D
+mer $n &c$n reaches out over the cliff and picks a bunch of white flowers between the rocks.&D
+~
+|
+#13162
+harpy feather~
+a small harpy feather~
+A small harpy feather floats about here.~
+~
+54 -2147475328 1
+0 0 0 0 0 0 0
+1 0 0
+1
+7
+0
+0
+0
+0
+S 0 0
+#13163
+small mountain stream~
+a small mountain stream~
+A small mountain stream flows here swiftly.~
+~
+17 0 0
+200 200 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#13180
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#13151
+A Ledge to a Pass~
+~
+A narrow ledge hugs the cliff face.  The cliff rises steep and 
+implacable above and below the trail.  A few determined plants 
+grow from crevices in the rock.  Birds fly past, mocking in 
+their ease of movement. 
+~
+1 4 5
+D0
+~
+~
+0 -1 13152
+D2
+~
+~
+2112 -1 13143
+D11
+~
+~
+0 -1 48417
+S
+#13152
+A Ledge to a Pass~
+~
+Clinging tightly to the cliff face, a thin ledge here is sometimes 
+no more than a foot wide. Scattered pebbles litter the trail, making 
+footing hazardous for the unwary traveler. Hardy plants grow from 
+the cliff face. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13153
+D2
+~
+~
+0 -1 13151
+S
+#13153
+A Ledge to a Pass~
+~
+A barely present ledge spiderwebs its way across the cliff face. 
+Plants grow defiantly above and below the ledge.  Small holes 
+bored into the cliff face offer hand holds to those so inclined. 
+The wind threatens at every moment.
+~
+1 0 5
+D0
+~
+~
+0 -1 13154
+D2
+~
+~
+0 -1 13152
+S
+#13154
+A Ledge to a Pass~
+~
+The ledge widens slightly here.  A narrow opening offers access to 
+a pass through the cliff.  The wind gusts angrily, as if furious at 
+the potential escape of its prey.  Birds careless enough to fly close 
+thrash their wings in panic as they attempt not to be slammed brutally 
+against the cliff face.
+~
+1 0 5
+D2
+~
+~
+0 -1 13153
+D7
+~
+~
+0 -1 13155
+S
+#13155
+A Ledge to a Pass~
+~
+Rock walls rise forbiddingly on either side of the pass.  A narrow 
+crevice of blue high overhead indicates the presence of the sky. 
+The trail here is narrow and covered with rocks.  A few scattered 
+plants grow in defiance of the elements.
+~
+1 0 5
+D7
+~
+~
+0 -1 13156
+D8
+~
+~
+0 -1 13154
+S
+#13156
+Within the Pass~
+~
+This narrow winding trail passes between towering rock walls. Along the 
+edge of the trail, a few hardy plants struggle to thrive. High overhead, 
+only a narrow crack permits access to the sky. No wind can be felt in this 
+area, which is arid and dry. To the west, there seems to be a crevice 
+that's large enough to fit through. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13157
+D3
+~
+~
+16777216 -1 13188
+D8
+~
+~
+0 -1 13155
+S
+#13157
+Within the Pass~
+~
+Rock walls press close against the trail on either side.  In places 
+the trail narrows until there is no more than three feet between the 
+walls.  An occasional centipede or scorpion scuttles across the path, 
+before disappearing into small crevices at the base of the walls.  
+There is hardly any wind within the narrow pass.
+~
+1 0 5
+D2
+~
+~
+0 -1 13156
+D6
+~
+~
+0 -1 13158
+S
+#13158
+Within the Pass~
+~
+Looming rock walls enclose the narrow path. A narrow crack of sky is 
+visible far overhead. Harsh winds bluster outside the pass, but barely any 
+wind reaches within its confines. The pass is dark and cold. 
+~
+1 0 5
+D6
+~
+~
+0 -1 13159
+D9
+~
+~
+0 -1 13157
+S
+#13159
+Before the Harpy Terrace~
+~
+The pass opens out onto the edge of a terrace. Once thick grasses have 
+been ground into the noxious mud. Few birds fly overhead, perhaps 
+disdaining the unwholesome environment. The wind whips sharply, scented of 
+salt and other, less pleasant odors. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13160
+D9
+~
+~
+0 -1 13158
+S
+#13160
+The Harpy Terrace~
+~
+Once covered in thick green grass, the terrace here is now marked with 
+clawed prints in a muddy morass. A few stalks of withered brown grass are 
+all that remains of the once luxuriant carpeting that used to be here. 
+Scattered white splatters give evidence of the lack of fastidiousness 
+displayed by the current inhabitants. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13161
+D2
+~
+~
+0 -1 13159
+D3
+~
+~
+0 -1 13171
+D7
+~
+~
+0 -1 13170
+S
+#13161
+The Harpy Terrace~
+~
+The terrace is covered in stinking mud. Only a few scattered stalks of 
+withered grass indicate the presence of its once-thick carpet. Poorly made 
+buckets hold rotting fish and other marine life. The carcass of some 
+unidentifiable large creature rots into the mud. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13162
+D2
+~
+~
+0 -1 13160
+D3
+~
+~
+0 -1 13170
+D7
+~
+~
+0 -1 13169
+S
+#13162
+The Harpy Terrace~
+~
+Random clawed tracks line the thick, oozing mud. Piles of scales and fish 
+bones lie everywhere, decaying into the muck. Although the lake can be 
+heard below, its salty scent cannot be discerned over the stronger noxious 
+odors. Cairns of stones are piled up for no apparent reason. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13163
+D2
+~
+~
+0 -1 13161
+D3
+~
+~
+0 -1 13169
+D7
+~
+~
+0 -1 13168
+D9
+~
+~
+0 -1 13170
+S
+#13163
+The Harpy Terrace~
+~
+Dank mud oozes over the edge of the cliff. Fish bones and scales are piled 
+in untidy profusion. The wind whips through harshly, spreading the scent 
+of decay. The lake slams against the cliff below. 
+~
+1 4 5
+D0
+~
+~
+0 -1 13164
+D2
+~
+~
+0 -1 13162
+D3
+~
+~
+0 -1 13168
+D9
+~
+~
+0 -1 13169
+S
+#13164
+The Harpy Terrace~
+~
+This section of the caves holds the Harpy young. Rough nests of twigs and 
+other less recognizable objects are littered about in haphazard profusion. 
+Sounds of violent squabbling often end in a pain-filled yelp. Bones of 
+fish and other creatures are scattered about the floor, some with decaying 
+shreds of meat still upon them. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13165
+D2
+~
+~
+0 -1 13163
+D3
+~
+~
+0 -1 13167
+D7
+~
+~
+0 -1 13166
+R M 0 13156 1 13164
+  R E 0 13154 1 20
+  R E 0 13153 1 19
+  R E 0 13152 1 10
+  R E 0 13159 1 16
+  R E 0 13155 1 8
+S
+#13165
+The Harpy Terrace~
+~
+Young Harpies wander about the cave. Noisome nests are filled with various 
+matter, some with eggs, others with mounds of reeking furs. One nest bears 
+a shattered egg with fluids dripping from it, lending the impression that 
+the young Harpies are not exactly picky about what they eat. 
+~
+1 0 5
+D2
+~
+~
+0 -1 13164
+D3
+~
+~
+0 -1 13166
+D5
+~
+~
+16777216 -1 13181
+D9
+~
+~
+0 -1 13167
+R M 0 13155 2 13165
+R O 0 13151 1 13165
+S
+#13166
+The Harpy Terrace~
+~
+Nests laced together from twigs and bones and other objects are scattered 
+about the floor. Some hold eggs, others hold furs where Harpy young may 
+sleep. In one nest it is almost certain that the rotting pelt is that of a 
+Pixie. Scattered feathers in the nest bolster that impression. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13165
+D2
+~
+~
+0 -1 13167
+D3
+~
+~
+0 -1 13172
+D8
+~
+~
+0 -1 13164
+D9
+~
+~
+0 -1 13173
+R M 0 13155 3 13166
+S
+#13167
+The Harpy Terrace~
+~
+Harpy young roam the caves without any attempt at discipline. More often 
+than not, they attack each other on sight. Scattered unpleasant nests 
+provide resting places for both untended eggs, and untended young. 
+Unpreserved pelts line some of the nests. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13166
+D1
+~
+~
+0 -1 13164
+D3
+~
+~
+0 -1 13173
+D6
+~
+~
+0 -1 13165
+D7
+~
+~
+0 -1 13172
+R M 0 13155 5 13167
+S
+#13168
+The Harpy Terrace~
+~
+Rough perches are scattered about the caves. Dank rotting hides are piled 
+against the wall. Splatters of vivid white streak the floor. Bones and 
+other bits of previous Harpy meals litter the floor. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13163
+D2
+~
+~
+0 -1 13169
+D3
+~
+~
+0 -1 13174
+D8
+~
+~
+0 -1 13162
+R M 0 13154 2 13168
+  R G 0 13152 1
+  R G 0 13154 1
+R M 0 13153 2 13168
+  R G 0 13155 1
+  R G 0 13157 1
+S
+#13169
+The Harpy Terrace~
+~
+Uneven perches of dead wood provide resting places for those who wish it. 
+Bedraggled feathers of various hues lift on stray breezes. Bones, 
+fragments of hide, and white splatters adorn the floor. The smell of decay 
+is prevalent. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13168
+D1
+~
+~
+0 -1 13162
+D2
+~
+~
+0 -1 13170
+D3
+~
+~
+0 -1 13175
+D6
+~
+~
+0 -1 13163
+D8
+~
+~
+0 -1 13161
+D9
+~
+~
+0 -1 13176
+R M 0 13153 3 13169
+  R G 0 13156 1
+S
+#13170
+The Harpy Terrace~
+~
+The mangled carcass of some small creature has been abandoned here. Ragged 
+perches of dead wood are scattered about haphazardly. Debris from various 
+meals coats the floor. Winds carry the scent of death and rot. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13169
+D1
+~
+~
+0 -1 13161
+D3
+~
+~
+0 -1 13176
+D6
+~
+~
+0 -1 13162
+D8
+~
+~
+0 -1 13160
+S
+#13171
+The Harpy Terrace~
+~
+Manacles attached to the walls with short chains give the impression this 
+chamber is intended to hold prisoners. Bedraggled feathers drift about the 
+room whenever the breeze dares to enter. A leaking bucket holds a small 
+amount of water coated in an unpleasant scum. Smears of some reddish brown 
+substance splatter the walls. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13160
+R M 0 13153 5 13171
+  R G 0 13156 1
+  R G 0 13152 1
+S
+#13172
+The Harpy Terrace~
+~
+Bedraggled feathers, remnants of hide, and bits of bone litter the floors. 
+Most of the nests in this section of the cave have been ripped apart. 
+Noisome splatters decorate the floor in shocking glares of white. 
+Trickling water dribbles down the walls. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13166
+D2
+~
+~
+0 -1 13173
+D8
+~
+~
+0 -1 13167
+R M 0 13155 4 13172
+R O 0 13151 1 13172
+S
+#13173
+The Harpy Terrace~
+~
+Nests of twigs, bones, and grasses are scattered in untidy profusion. From 
+some of the nests, movement can be discerned. Bits of bone and hide are 
+strewn about the floor. One nest holds what is almost certainly the pelt 
+of a Pixie child. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13172
+D1
+~
+~
+0 -1 13167
+D6
+~
+~
+0 -1 13166
+R M 0 13155 5 13173
+S
+#13174
+The Harpy Terrace~
+~
+The remains of some unknown large creature are strewn about the floor in 
+disarray. Feathers lift sullenly in the wayward breezes. Scattered bits of 
+bone and hide indicate the former presence of smaller creatures. Scorpions 
+and other insects scuttle through the remains in search of dinner. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13168
+D2
+~
+~
+0 -1 13175
+D3
+~
+~
+0 -1 13177
+R M 0 13153 1 13174
+  R G 0 13156 1
+  R G 0 13155 1
+R M 0 13154 1 13174
+  R G 0 13153 1
+S
+#13175
+The Harpy Terrace~
+~
+This area is mostly empty. Fungus grows in patches upon the wall. Water 
+trickles from some unseen source overhead, pooling upon the floor. The 
+room is dark and dank. Small unpleasant creatures scurry about the floor. 
+~
+1 0 5
+D0
+~
+~
+0 -1 13174
+D1
+~
+~
+0 -1 13169
+D3
+~
+~
+0 -1 13178
+S
+#13176
+The Harpy Terrace~
+~
+Untanned rotting hides cover most of this section of the cave. A trickle 
+of water trails down the wall into a shallow pool covered in slime. 
+Harpies pass in and out at random, ignoring their fellows. Brown fungus 
+grows in patches on the wall. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13170
+D6
+~
+~
+0 -1 13169
+R O 0 13160 1 13176
+S
+#13177
+The Harpy Terrace~
+~
+This section of the cave houses most of the Harpy guards. Several wooden 
+perches, ineptly cobbled together, are placed against the walls. 
+Unpleasant remains of Harpy meals are strewn across the floor. Centipedes 
+and other less pleasant creatures roam amongst the debris. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13174
+D7
+~
+~
+0 -1 13179
+R M 0 13152 1 13177
+  R E 0 13153 1 19
+  R E 0 13152 1 10
+  R E 0 13158 1 16
+S
+#13178
+The Harpy Terrace~
+~
+A rough storeroom of sorts, this chamber is filled with decayed oddments. 
+Poorly hewn shelves are covered with feathers and decaying hides. Branches 
+and other bits of wood are piled in untidy heaps. Rough buckets with twine 
+handles are stacked in one corner. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13175
+R M 0 13158 1 13178
+  R G 0 13160 1
+R M 0 13153 5 13178
+  R G 0 13155 1
+  R G 0 13157 1
+R M 0 13154 3 13178
+  R G 0 13153 1
+S
+#13179
+The Harpy Throne Room~
+~
+A large perch covered in flaking gold leaf is the central focus of this 
+chamber. Widespread wings of Pixies unfortunate enough to wander into the 
+Harpies' territory are displayed upon the walls in a mocking parody of 
+their former glory. Bones and hides are distributed across the floor in 
+uncaring untidiness. A battered golden crown is hung on one end of the 
+perch. 
+~
+1 0 5
+D3
+~
+~
+0 -1 13180
+D8
+~
+~
+0 -1 13177
+R M 0 13151 1 13179
+  R E 0 13154 1 20
+  R E 0 13153 1 19
+  R E 0 13157 1 16
+S
+#13180
+The Harpy Terrace~
+~
+A large nest piled high in untanned Pixie hides dominates this chamber. 
+Pixie wings are spread on the walls as gory trophies. Bits of hide and 
+bones mark the remnants of another unfortunate Pixie. Yet more hides are 
+piled against the wall in one corner of the chamber. 
+~
+1 4 5
+D1
+~
+~
+0 -1 13179
+S
+#13181
+A Ledge on the Mountainside~
+~
+The mountainside is littered with boulders and pebbles, odd spurts of 
+grass growing at sporadic intervals. This wide ledge goes on towards the 
+east, but ends in a sheer cliff on the north and the south. From above, 
+harpy screeches can be heard. Every now and then, feathers flutter down to 
+gather upon this messy ledge. 
+~
+1 4 5
+D1
+~
+~
+0 -1 13182
+D4
+~
+~
+16777216 -1 13165
+R M 0 13159 5 13181
+S
+#13182
+Along the Mountainside~
+~
+The wide ledge ends here, though a narrow path to the north leads down 
+from the ledge to wind along the mountain. Shell fragments and bones 
+picked clean of meat have been dropped here. Bird cries echo through the 
+air, and the sparse trees contain nests of hawks and vultures. 
+~
+1 0 5
+D3
+~
+~
+0 -1 13181
+D5
+~
+~
+0 -1 13183
+R M 0 13159 4 13182
+S
+#13183
+A Narrow Path on the Mountainside~
+~
+The winding path here leads down from a large ledge overhead. Shrubs and 
+grasses grow along the faint trail, attracting bees and butterflies to fly 
+about this peaceful area. From here, vast stretches of grassland can be 
+seen beyond the mountains to the west. 
+~
+1 0 5
+D4
+~
+~
+16777216 -1 13182
+D8
+~
+~
+0 -1 13184
+R M 0 13159 3 13183
+S
+#13184
+A Narrow Path Around a Cliff~
+~
+With a sheer cliff face looming above to the southeast and an equally 
+dangerous drop to the north, this path is narrow and barely traversible by 
+foot. Thistles and weeds grow between the rocks here. A beautiful view of 
+grasslands and distant forests can be seen to the north. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13185
+D7
+~
+~
+0 -1 13183
+R M 0 13160 1 13184
+S
+#13185
+A Path Along the Mountainside~
+~
+This treacherous path is hard to follow, obscured mostly by plants and 
+boulders. It leads upwards to a small cliff, and downwards to the base of 
+the mountain. Small flowers of white and pale yellow are visible at the 
+edge of the cliff above. 
+~
+1 0 5
+D3
+~
+~
+0 -1 13184
+D4
+~
+~
+0 -1 13187
+D5
+~
+~
+0 -1 13186
+S
+#13186
+At the Base of a Mountain~
+~
+To the south is a looming mountain from which one can hear the cries of 
+birds. At the base, lush grass and vegetation flourish along the small 
+stream here. Tall trees provide cool shade while birds sing from the 
+branches. 
+~
+1 0 5
+D4
+~
+~
+0 -1 13185
+R M 0 13160 1 13186
+R M 0 13159 1 13186
+R O 0 13163 1 13186
+S
+#13187
+At the Top of a Cliff~
+~
+From this cliff, the northern forests and eastern grasslands are easily 
+visible, forming a breathtaking panoramic view. The lonely cries of eagles 
+echo in the mountains and cool gusts of wind whip past this ledge. Flowers 
+thrive along the edge of the cliff, interspersed with herbs and shrubs. 
+~
+1 0 5
+D5
+~
+~
+0 -1 13185
+R O 0 13161 1 13187
+> entry_prog 100~
+if isnpc($n)
+  mpdonothing
+else
+  if isaffected($n) == FLYING
+    if rand(50)
+      mppause 1
+      mea $n &bA gust of wind buffets you and forces you off the cliff.&D
+      mpat 13185 mptransfer $n
+      mppause 1
+      mpat 13185 mpforce $n look
+      mpat 13185 mea $n &bYou're blown down the side of the mountain.&D
+      mpat 13185 mer $n &b$n is blown in from above.&D
+    endif
+  else
+    if rand(50)
+      mea $n &RYou suddenly lose your footing and fall down the mountainside!&D
+      mpdamage $n 500
+      mptransfer $n 13186
+      mpat 13186 mpforce $n look
+      mpat 13186 mea $n &RYou land painfully at the base of the mountain. Ow.&D
+      mpat 13186 mer $n &r$n tumbles down the mountainside!&D
+    endif
+  endif
+endif
+~
+|
+S
+#13188
+A Widening Crevice~
+~
+Opening up to the sky above, this crack through the formidable stone walls 
+leads from the main pass towards a dark cavern to the west. The arid air 
+is cooler here, the small hidden path shaded from the harsh sunlight by 
+the stone enveloping it. Small weeds grow out of the rock itself, some 
+obstructing the narrow path. 
+~
+1 0 5
+D1
+~
+~
+16777216 -1 13156
+D3
+~
+~
+0 -1 13189
+S
+#13189
+A Cool Cavern~
+~
+The crystalline sound of water drops echo about this cavern. Illuminated 
+naturally through a single gap in the stone to the north, the cave can be 
+recognized as a mineral deposit. Crystals sparkle in the gentle light, 
+covering the walls of the cave with a dozen hues. The center of the cavern 
+has a small campfire crackling quietly and filling the area with a glow. 
+~
+1 0 5
+D1
+~
+~
+0 -1 13188
+R M 0 13161 1 13189
+S
+#0
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

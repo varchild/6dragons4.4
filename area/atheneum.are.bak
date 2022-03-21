@@ -1,0 +1,3571 @@
+#AREA        Paleon Atheneum ~
+
+
+
+#VERSION     11
+#AUTHOR      Narev~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+1 10 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG Fysklor's crabby voice echoes through the hallways.~
+
+#FLAGS
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999997582 999997582 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#4650
+patron atheneum~
+A patron~
+A patron of the Atheneum talks animatedly
+~
+One of the more frequent visitors to the Atheneum, this patron talks a lot 
+and generally tends to disturb others. He is rather youngish, looks rather 
+plump. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+2 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+1 1 2047 0 0 0 0 0
+#4651
+patron atheneum serious~
+A patron~
+A serious looking patron
+~
+This patron fancies himself as a scholar, and comes to the Atheneum to 
+research on old texts and documents. He has greying hair, and looks 
+middle-aged. A large wart can be seen on the end of his nose. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+3 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+1 1 2047 0 0 0 0 0
+#4652
+dazed patron~
+A patron~
+A patron with a dazed look in his eyes
+~
+After spending almost a day in the Atheneum reading through the many books 
+and tomes, this patron is tired is looking for a place to rest. He seems 
+rather unfocused and could faint at any moment. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+4 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+1 1 2047 0 0 0 0 0
+#4653
+rat~
+A rat~
+A small rat with beady yellow eyes
+~
+Small and scruffy, the rat is half starved with hunger. It looks eager to 
+pounce on anything that resembles a bit of food. 
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+1 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+1 1 327864 0 0 0 0 0
+#4654
+ethan entrepreneur aspiring~
+Ethan~
+Ethan the aspiring entrepreneur
+~
+Ethan was working in the Paleon Tavern as a simple waiter until he 
+realized he could earn more in the Atheneum by supplying food to hungry 
+patrons. As such, he left his job and set up shop in the Atheneum. 
+~
+0
+Clanname none~
+0
+0
+83886147 0 0 C
+1 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+1 1 2047 0 0 0 0 0
+#4655
+wilhemenia hazel crone hunchedback~
+Hazel~
+A hunchedback crone paces the room
+~
+The crone is short and stumpy, looking rather haggard and ancient. Her 
+face is clad with many wrinkles. She has a gimlet-eyed stare, and does not 
+back down easily. 
+~
+0
+Clanname none~
+0
+0
+3 0 0 C
+10 0 250 0d0+80 0d0+0
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 1
+5 5 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n &CHazel says, 'Greetings $N.'&D
+mpechoat $n &CHazel says, 'I see you are a distant travaller from far away lands.'&D
+mpechoat $n &CHazel says, 'If you have any questions, I can try to answer them for you.'&D
+mpechoat $n &CHazel says, 'In the meantime, do you want a cookie?'&D
+mpechoat $n &cType &WSAY YES&c to accept the cookie.&D
+mpechoat $n &cType &WSAY HAZEL&c to get Hazel's full name.&D
+mpechoat $n &cType &WSAY WITCH&c to find out what the 'W' stands for.&D
+mpechoat $n &cType &WSAY GRAVESTONE&c to find out about the gravestone.&D
+~
+> speech_prog yes~
+mpechoat $n &CHazel says, 'Here you go.'&D
+mpoload 4652 1
+give cookie $n
+~
+> speech_prog hazel~
+mpechoat $n &CHazel says, 'My name is Wilhemenia Hazel.'&D
+~
+> speech_prog witch~
+laugh
+mpechoat $n &CHazel says, 'No, I am not a witch. The W stands for Wilhemenia.'&D
+~
+> speech_prog gravestone~
+mpechoat $n &CHazel says, 'Oh, my pet dogs passed away. They were called Hansel and Gretel.'&D
+mpechoat $n &cType &WSAY GRAVESTONES&c to find out about the gravestones.&D
+mpechoat $n &cType &WSAY HANSEL&c to find out about Hansel.&D
+mpechoat $n &cType &WSAY GRETEL&c to find out about Gretel.&D
+~
+> speech_prog hansel~
+sniff
+mpechoat $n &CHazel says, 'He was a fine dog, but died together with his mate, Gretel.'&D
+~
+> speech_prog gretel~
+sniff
+mpechoat $n &CHazel says, 'She died together with her mate, Hansel.'&D
+~
+> speech_prog gravestones~
+mpechoat $n &CHazel says, 'Oh, my pet dogs passed away. They were called Hansel and Gretel.'&D
+~
+|
+#4656
+buzzing bee~
+A bee~
+A buzzing bee flits to and fro.
+~
+The bee flits to and fro among the flowers in a shimmering haze, as its 
+wings beat frantically about. Its body is covered in dark and yellow 
+stripes, and has a long piercing stinger at its end. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+5 0 290 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 4 0 0 1 1 1
+1 1 36864 0 0 0 0 0
+#4657
+grizzly bear~
+A grizzly bear~
+A grizzly bear growls loudly
+~
+Clad with dark brown fur, and gilded with sharp claws,
+the bear has a rather menacing look. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+7 0 280 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+22 4 0 0 1 1 1
+3 3 263853 0 0 0 0 0
+#4658
+chirping grasshopper~
+A chirping grasshopper~
+A chirping grasshopper flies about
+~
+The grasshopper has a pale green torso, and hops to and fro among the flowers. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+5 0 290 0d0+24 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 4 0 0 1 1 1
+0 0 36864 0 0 0 0 0
+#4659
+number five~
+The number five~
+The number five does a highfive
+~
+The number five stands tall, and looks straight ahead in the distance. Its 
+body glitters with a pale green colour. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+24 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+48 4 0 0 1 1 0
+0 0 1989 0 0 0 0 0
+#4660
+number three~
+The number three~
+The number three hides behind a tree
+~
+The number three is short and squat, and has unpleasant red spots bursting 
+out all over its torso. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+48 4 0 0 1 1 0
+0 0 1989 0 0 0 0 0
+#4661
+triangle~
+A triangle~
+A triangle dances on its points
+~
+The triangle has a small face in its center, and looks quite small and 
+cute. A long tongue emerges from its mouth to stick out at you. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+48 4 0 0 1 1 0
+0 0 1989 0 0 0 0 0
+#4662
+letter e~
+The letter e~
+The letter e ambles along
+~
+The letter e is small in size, with silvery scales covering its body. 
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+30 0d0+0
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+48 4 0 0 1 1 0
+0 0 1989 0 0 0 0 0
+#4663
+fysklor librarian~
+Fysklor~
+Fysklor sits on a small stool
+~
+Fysklor has been the librarian of the Atheneum as far as anyone can 
+remember. He is a medium built man, with many wrinkles on his hands and 
+face. Sprouting a long white beard, and piercing brown eyes, he gives the 
+impression of a wise man. 
+~
+0
+Clanname none~
+0
+0
+83886147 4194304 0 C
+101 0 300 0d0+10000 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 5~
+if rand (25)
+  mpechoat $n &CFysklor says, 'Ah..the Atheneum has a marvellous collection of books.'&D
+else
+  if rand (33)
+    mpechoat $n &CFysklor says, 'Have you seen our bestiary section?'&D
+  else
+    if rand (50)
+      mpechoat $n &CFysklor says, 'Rats, I really hate rats.'&D
+    else 
+      mpechoat $n &CFysklor says, 'You are our 5035th visitor to the Atheneum.'&D
+    endif
+  endif
+endif
+~
+> greet_prog 100~
+mppause 10
+if quest(fysklor) == 1
+or quest(fysklor) == 2
+or quest(fysklor) == 3
+or quest(fysklor) == 4
+or quest(fysklor) == 5
+or quest(fysklor) == 6
+  mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+  mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+  mpechoat $n &CFysklor says, 'If you have forgotten what to do, &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+else
+  if quest(fysklor) == 7
+    mpechoat $n &CFysklor says, 'Thanks again for your help, $n.'&D
+  else
+    mpechoat $n &CFysklor says, 'Books, books books.'&D
+    mpechoat $n &CFysklor says, 'Where are my missing books?'&D
+    mpechoat $n &cHe nudges you in the side.&D
+    mpechoat $n &CFysklor says, 'Eh, will you help me find my books?'&D
+    mpechoat $n &cType '&wSAY YES FYSKLOR&c' to accept this task.
+  endif
+endif
+~
+> speech_prog 'remind me again fysklor'~
+if quest(fysklor) == 7
+  mpechoat $n &CFysklor says, 'Oh $n, thanks again for helping the Atheneum regain its missing books.'&D
+else
+  if quest(fysklor) == 6
+  or quest(fysklor) == 5
+  or quest(fysklor) == 4
+  or quest(fysklor) == 3
+  or quest(fysklor) == 2
+  or quest(fysklor) == 1
+    mpechoat $n &cFysklor scowls.&D
+    mpechoat $n &CFysklor says, 'Did you lose the piece of parchment I gave you?'&D
+    mppause 5
+    mpecohat $n &cFysklor reaches into his pockets and takes out a blank piece of parchment and quill.&D
+    mpechoat $n &cFysklor scribbles something onto the piece of parchment.&D
+    mpoload 4655
+    give parchment $n
+    mpechoat $n &CFysklor says, 'Don't lose it again.'&D
+    mpechoat $n &CFysklor says, 'When you have gathered all the six books, come back and &WSAY MY SEARCH IS FINISHED&C.'&D
+  else
+    mpechoat $n &CFysklor says, 'Remind you of what? Your overdue books?'&D
+  endif
+endif
+~
+> speech_prog 'yes fysklor'~
+if quest(fysklor) == 7
+  mpechoat $n &CFysklor says, 'Oh $n, thanks again for helping the Atheneum regain its missing books.'&D
+else
+  if quest(fysklor) == 6
+    mpechoat $n &CFysklor says, 'Have you found my missing book yet?'&D
+    mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+    mpechoat $n &CFysklor says, 'You only have '&PTales of the Sidhe&C' left to find.'&D
+    mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+  else
+    if quest(fysklor) == 5
+      mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+      mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+      mpechoat $n &CFysklor says, 'You have '&PTales of the Sidhe&C' and '&BGold and Grub&C' left to find.'&D
+      mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+    else
+      if quest(fysklor) == 4
+        mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+        mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+        mpechoat $n &CFysklor says, 'You have '&PTales of the Sidhe&C', '&BGold and Grub&C' and 'Me Big, Me Strong, Me Ogre' left to find.'&D
+        mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+      else
+        if quest(fysklor) == 3
+          mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+          mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+          mpechoat $n &CFysklor says, 'You have '&PTales of the Sidhe&C', '&BGold and Grub&C', 'Me Big, Me Strong, Me Ogre' and '&YHi-ho-It's Off To Work We Go&C' left to find.'&D
+          mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+        else
+          if quest(fysklor) == 2
+            mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+            mpechoat $n &CFysklor says, 'Hurry on with it, will you?'&D
+            mpechoat $n &CFysklor says, 'You have '&PTales of the Sidhe&C', '&BGold and Grub&C', 'Me Big, Me Strong, Me Ogre', '&YHi-ho-It's Off To Work We Go&C' and '&WThe Five People You Meet in Elysian City&C' left to find.'&D
+            mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+          else
+            if quest(fysklor) == 1
+              mpechoat $n &CFysklor says, 'Have you found my missing books yet?'&D
+              mpechoat $n &CFsyklor says, 'Hurry on with it, will you?'&D
+              mpechoat $n &CFsyklor says, 'You have '&PTales of the Sidhe&C', '&BGold and Grub&C', 'Me Big, Me Strong, Me Ogre', '&YHi-ho-It's Off To Work We Go&C', '&WThe Five People You Meet in Elysian City&C' and '&RThe Fiendish Codex&C' left to find.'&D
+              mpechoat $n &CFysklor says, 'If you have forgotten what to do, type &WSAY REMIND ME AGAIN FYSKLOR&C.'&D
+            else
+              mpechoat $n &cFysklor blinks.&D
+              mpechoat $n &CFysklor says, 'Ah yes. My books.'&D
+              mppause 5
+              mpechoat $n &CFysklor says, 'Well, the other day we were hosting a gathering in which all the people from various cities were invited.'&D
+              mppause 10
+              mpechoat $n &CFysklor says, 'It was when we were displaying our collection of books.'&D
+              mpechoat $n &cFysklor looks like he is lost in recollection.&D
+              mppause 10
+              mpechoat $n &CFysklor says, 'So a few people from these cities were interested in some of our books.'&D
+              mppause 5
+              mpechoat $n &CFysklor says, 'Naturally, to encourage the reading I lent out some of our books to these people.'&D
+              mppause 10
+              mpechoat $n &CFysklor says, 'However, after the gathering, they went back to their cities, and forgot to return the books.'&D
+              mpechoat $n &cFysklor growls.&D
+              mpechoat $n &CFysklor says, 'Luckily, I wrote down their names and the books they had borrowed on a piece of parchment.'&D
+              mppause 10
+              mpechoat $n &CFysklor says, 'I'm too old to go about gallivanting around the lands to get back my books.'&D
+              mppause 5
+              mpechoat $n &CFysklor says, 'As you look young enough, perhaps you can assist a tired old man like me?'&D
+              mpechoat $n &cFysklor rummages about in his robes.&D
+              mpoload 4655
+              give parchment $n 
+              mppause 10
+              mpechoat $n &CFysklor says, 'The details are written within the parchment.'&D
+              mpechoat $n &CFysklor says, 'When you have gathered all the six books, come back and &WSAY MY SEARCH IS FINISHED&C.'&D
+              mpquest $n fysklor 1
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+> speech_prog 'my search is finished'~
+if quest(fysklor) == 1
+  if iscarrying($n) == 4656
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the &RFiendish Codex&C.'&D
+    mpechoat $n &CFysklor says, 'Give it to me.'&D
+    mpforce $n give codex fysklor
+    mpjunk codex
+    mpquest $n fysklor 2
+    mppause 5
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFysklor says, 'You have not found the &RFiendish Codex&C yet.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 2
+  if iscarrying($n)== 4657
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the &WFive People You Meet in Elysian City&C.'&D
+    mpechoat $n &CFysklor says, 'Give it to me.'&D
+    mpforce $n give elysian fysklor
+    mpjunk elysian
+    mpquest $n fysklor 3
+    mppause 5
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFysklor says, 'You have not found the &WFive People You Meet in Elysian City&C.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 3
+  if iscarrying($n)== 4658
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the &YHi-ho-It's Off To Work We Go&C.'&D
+    mpechoat $n &CFysklor says, 'Give it to me.'&D
+    mpforce $n give hi-ho fysklor
+    mpjunk hi-ho
+    mpquest $n fysklor 4
+    mppause 5
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFysklor says, 'You have not found the &YHi-ho-It's Off To Work We Go&C.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 4
+  if iscarrying($n)== 4659
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the Me Big, Me Strong, Me Ogre.'&D
+    mpechoat $n &CFysklor says, 'Give it to me.'&D
+    mpforce $n give ogre fysklor
+    mpjunk ogre
+    mpquest $n fysklor 5
+    mppause 5
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFysklor says, 'You have not found the Me Big, Me Strong, Me Ogre.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 5
+  if iscarrying($n) == 4660
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the &BGold and Grub&C.'&D
+    mpechoat $n &CFysklor says, 'Give it to me.'&D
+    mpforce $n give grub fysklor
+    mpjunk grub
+    mpquest $n fysklor 6
+    mppause 5
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFysklor says, 'You have not found the &BGold and Grub&C.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 6
+  if iscarrying($n)== 4661
+    mpechoat $n &cFysklor smiles.&D
+    mpechoat $n &CFysklor says, 'I see you have found the &PTales of the Sidhe&C.'&D
+    mpechoat $n &CFsyklor says, 'Give it to me.'&D
+    mpforce $n give sidhe fysklor
+    mpjunk sidhe
+    mpechoat $n &CFysklor says, 'You found all the 6 books. Here is something for your trouble.'&D
+    mpoload 4662
+    give spectacles $n
+    mppause 5
+    mpquest $n fysklor 7
+  else
+    mpechoat $n &cFysklor frowns.&D
+    mpechoat $n &CFsyklor says, 'You have not found the &PTales of the Sidhe&C.'&D
+  endif
+else 
+  mppause 1
+endif
+if quest(fysklor) == 7
+  if iscarrying($n) == 4656
+  or iscarrying($n) == 4657
+  or iscarrying($n) == 4658
+  or iscarrying($n) == 4659
+  or iscarrying($n) == 4660
+  or iscarrying($n) == 4661
+    mpechoat $n &CFysklor says, 'You have already returned the books to me. If you have found a copy of these books on your journeys, feel free to keep them.'&D
+  else 
+    mppause 1
+  endif
+endif
+~
+|
+#4664
+baazcan minor demon~
+Baazcan~
+A short squat demon grins evily
+~
+Baazcan is a minor demon from the city of Avernus. He has large green eyes 
+and pimply warts sprouting out all over his skin. Currently, he has a 
+jaded look on his face. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+16 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Fiendish Codex'~
+emote laughs nastily.
+say That book?
+say I'll never return it to Paleon. Never ever in my whole life.
+mppause 4
+say The only way you'll get it is over my dead body.
+smirk
+~
+> death_prog 100~
+if quest(fysklor) > 0
+  mpoload 4656
+endif
+~
+|
+#4665
+serathia robed figure~
+Serathia~
+A robed figure with a head bowed in prayer
+~
+Serathia is an angel living in Elysium City. She rarely ventures down into 
+the mortal world below unless it suits her fancy. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Five People You Meet in Elysian City'~
+emote blinks in surprise.
+mppause 3
+say Oh..that book.
+mppause 2
+say Has it really been that long?
+emote apologises to you.
+if carryingvnum($n)4657
+say Please return it to Fysklor as soon as possible.
+else
+mpoload 4657
+give book $n
+say Please return it to Fysklor as soon as possible.
+endif
+~
+|
+#4666
+thromdike young dwarf~
+Thromdike~
+A young dwarf lounges around here
+~
+Thromdike is a young dwarf, and is eager to follow his ancestors footsteps 
+in mining. He seldom gets out of the city though. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> act_prog 'begin singing a song to you.'~
+say Ahh..I like that.
+if carryingvnum($n)4658
+wink
+else
+ 
+say Ok, let me give you this book.
+mpoload 4658
+give book $n
+endif
+~
+> speech_prog 'Off To Work We Go'~
+emote ponders a bit.
+say Oh.
+say That book I picked up in the Paleon Atheneum.
+mppause 2
+say Well, actually I liked some parts of the book and don't really want to part with it.
+mppause 2
+say Tell you what, why don't you sing for me and if I like your tune, I'll give the book back to you?
+~
+|
+#4667
+headbanger bloated ogre~
+Headbanger~
+A bloated looking ogre blocks the way
+~
+One of the more frequent visitors to the Atheneum, this patron talks a lot 
+and generally tends to disturb others. He is rather youngish, looks rather 
+plump. Headbanger is an ogre who earned his name by killing opponents with 
+his head, literally. Lately, he has been to Paleon City on his travels, 
+and improved on his combat skills. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Me Big, Me Strong, Me Ogre'~
+say Me Big. Me Don't Want To Give You Book.
+say Me Strong. Me Keep Book.
+say Me Ogre. Me Die Then Give Book.
+~
+|
+#4668
+rasak'argh rasak argh blue dragon~
+Rasak'argh~
+A small blue dragon slinks about
+~
+Rasak'argh is a blue dragon in his prime. He is rather greedy, and likes 
+to accumulate as much treasure as possible. 
+~
+0
+Clanname none~
+0
+0
+16777219 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+13 4 0 0 1 1 0
+0 0 8716473 0 0 0 0 0
+> speech_prog 'Gold and Grub'~
+emote chortles heartily.
+say Nah. I prefer to keep that book of knowledge.
+mppause 2
+say You have to kill me to get it.
+~
+|
+#4669
+Sil'thalas elf maiden~
+Sil'thalas~
+An elven maiden looking alert
+~
+Sil'thalas is an elven maiden living in Loramoor City. She occasionally 
+travels to Paleon for business. 
+~
+0
+Clanname none~
+0
+0
+16777281 0 0 C
+5 0 300 0d0+22 0d0+0
+0 0 0 0 0 
+0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 4 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> speech_prog 'Tales of the Sidhe'~
+blush
+say My yes, that was an enthralling book.
+say I can't believe I forgot to return it.
+mppause 2
+if carryingvnum($n)4661
+smile
+else
+mpoload 4661
+give book $n
+endif
+~
+|
+#4670
+barista young woman etienne~
+Cafe Barista Etienne~
+A dark haired young woman stands at the counter making drinks.
+~
+With a look of ennui on her pretty features, this slim and pale young woman seems to be more interested in reading the book in her apron pocket than serving customers. Her long black hair falls to her hips, and she wears a white shirt with a violet apron that sets off her dark hair and eyes nicely. 
+~
+1
+Clanname none~
+0
+0
+67239939 138412064 0 C
+50 0 0 1d1+20000 2d4+8
+0 0 0 0 0 
+0
+115 115 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 5
+0 0 41 0 0 0 1344307200 2082
+> greet_prog 100~
+if ispc($n)
+mer $n &CEtienne, the cafe barista gives $n a bored look and asks for $s order.&D
+mea $n &CEtienne, the cafe barista gives you a bored glance and says 'What would you like? We have a variety of drinks and pastries available. Please take a look at our menu for details, or check LIST."&D
+endif
+~
+|
+#4671
+new patron~
+A new patron~
+A new patron to the Atheneum wanders here, looking a bit lost.
+~
+Obviously a new patron to the Atheneum, this young man has a thin build and a pair of glasses he habitually adjusts. He wears a set of scholarly robes and carries a book for notes with him. With an air of confusion about him, he is in constant danger of walking into someone.
+~
+0
+Clanname none~
+0
+0
+16777283 0 0 C
+2 0 300 0d0+20 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> rand_prog 1~
+mpe &cA new patron scratches his head in confusion as he looks through the books list on the majestic scroll.&D
+~
+|
+#4700
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#4650
+slim book kingdom~
+A slim book~
+A slim book titled "Adventures in the Food Kingdom~
+~
+13 0 1
+0 0 0 0 0 0 0
+2 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book kingdom~
+The book appears to be a work of fiction, depicting characters in a 
+Kingdom of Food. There is a small bookmark in the middle of the book. 
+~
+E
+bookmark~
+There is something written on the bookmark. It reads: Eat the cookie. 
+~
+> get_prog 100~
+if inroom ($i) == 4657
+mpechoat $n As you pick up the book, the world starts to spin heavily around you. 
+mpechoaround $n $n picks up the book and suddenly disappears.
+mptransfer $n 4658
+endif
+~
+|
+#4651
+slim book kingdom~
+A slim book~
+A slim book titled "Adventures in the Food Kingdom"~
+~
+13 0 1
+0 0 0 0 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+book kingdom~
+The book appears to be a work of fiction, depicting characters in a 
+Kingdom of Food. There is a small bookmark in the middle of the book. 
+~
+E
+bookmark~
+There is something written on the bookmark. It reads: "Eat the cookie". 
+~
+#4652
+raisin cookie~
+A small cookie~
+A tasty raisin cookie~
+~
+19 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+raisin cookie~
+The cookie looks rather delicious. 
+~
+> use_prog 100~
+if inroom($i) == 4658 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+if inroom($i) == 4659 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+if inroom($i) == 4660 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+if inroom($i) == 4661 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+if inroom($i) == 4662 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+if inroom($i) == 4663 
+mpechoat $n You eat the cookie and are transported somewhere else.
+mptransfer $n 4657 
+else
+mpechoat $n You eat the cookie.
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+#4653
+thick book history mathematics~
+A thick book~
+A thick book titled "A Brief History of Mathematics"~
+~
+13 0 1
+0 0 0 0 0 0 0
+2 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+history mathematics book thick~
+The book is a compendium of all the numerous fields of mathematics. 
+~
+> get_prog 100~
+if inroom ($i) == 4664
+mpechoat $n As you pick up the book, the world starts to spin heavily around you. 
+mpechoaround $n $n picks up the book and suddenly disappears.
+mptransfer $n 4665
+endif
+~
+|
+#4654
+yellowed journal~
+A yellowed journal~
+A yellowed journal titled "The Life of a Star"~
+~
+13 0 1
+0 0 0 0 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+journal star~
+The journal comprises of notes detailing the stages of a star, from its 
+creation to its death. It appears to be a rather boring piece of work. 
+~
+> get_prog 100~
+if inroom ($i) == 4671
+mpechoat $n As you pick up the book, the world starts to spin heavily around you.
+mpechoaround $n $n picks up the book and suddenly disappears.
+mptransfer $n 4672
+endif
+~
+|
+#4655
+parchment worn~
+A worn parchment~
+A worn parchment~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+worn parchment~
+&WList of Missing Books
+
+&G1. &RThe Fiendish Codex &G- &WBaazcan
+&G2. &RThe Five People You Meet in Elysian City &G- &WSerathia
+&G3. &RHi-ho-It's Off To Work We Go &G- &WThromdike
+&G4. &RMe Big, Me Strong, Me Ogre &G- &WHeadbanger
+&G5. &RGold and Grub &G- &WRasak'argh
+&G6. &RTales of the Sidhe &G- &WSil'thalas
+
+&GI can't really remember where they are from, but I know that each of them
+hails from the following cities : Dakar City, Abyss, Forbidden City,
+Heaven, Loramoor City, Manoake City. After you manage to get these
+books back, come see me in my Atheneum and tell me 'my search is finished'.
+
+&YYou need to find these people and ask them about the book titles.
+
+&CHint: &cSaying the books name at the mob may help in finding the book.&D
+~
+#4656
+fiendish codex book~
+The '&RFiendish Codex&g'~
+A thick red book lies on the ground~
+~
+35 0 1
+0 0 0 0 0 0 0
+1 1 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+fiendish codex book~
+The book is made out of pages that looks like dried human skin. Flipping 
+through the book, you find that it deals with the history of the Nine 
+Planes of Hell. 
+~
+#4657
+book elysian city five people~
+The '&WFive People You Meet in Elysian City&g'~
+A slim book lies on the ground~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book elysian city five people~
+The book is actually a small journal with notes in it. Flipping through 
+it, you find that it describes five unique people living in Elysian City. 
+~
+#4658
+hi-ho work book~
+The '&YHi-Ho-It's Off To Work We Go&g'~
+A thin book lies on the groud~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book work hi-ho~
+The pages of the book are smudged with dirt. Flipping through the book, 
+you find that it consists of mining songs. 
+~
+#4659
+book big strong ogre manual~
+The '&CMe Big, Me Strong, Me Ogre&g'~
+A combat manual lies on the ground.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book strong big ogre~
+The book is loosely bound, with some of the pages almost falling out. 
+Flipping through the book, you find it to be a combat manual of some sort. 
+~
+#4660
+book gold grub~
+The &B'Gold and Grub'&D~
+A short thick book lies on the ground.~
+~
+35 0 1
+0 0 0 0 0 10 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book gold grub~
+The book looks rather worn, as if it was read frequently. Flipping through 
+the pages, it seems to be a travel guide listing all the treasure and 
+hunting spots in the lands. 
+~
+#4661
+tales sidhe book~
+The '&PTales of the Sidhe&g'~
+A picture book lies on the ground.~
+~
+13 0 1
+0 0 0 0 0 0 0
+1 0 0
+4
+0
+0
+0
+0
+0
+S 0 0
+E
+book tales sidhe~
+The book has many colorful drawings in it. Flipping through the pages, you 
+find that it is a book on fairy tales. 
+~
+#4662
+spectacles rimmed~
+A pair of rimmed spectacles~
+A pair of rimmed spectacles lie on the ground~
+~
+9 0 131073
+60 60 0 0 0 0 0
+1 70 7
+4
+0
+0
+0
+0
+0
+S 77 0
+E
+rimmed spectacles~
+These spectacles are a pair made by Fysklor of the Atheneum. It is said 
+that those who wear it gain more insight into the realm, as well as 
+finding it easier to read books. 
+~
+A
+18 2
+A
+19 2
+#4663
+soft sugar cookie~
+a soft sugar cookie~
+A soft, white sugar cookie lies on a clean sheet of parchment here.~
+%s eat$q $p in two bites, savouring the sweet treat.~
+19 0 1
+35 0 0 0 0 0 0
+1 8 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+cookie soft sugar~
+This white, round cookie is warm to the touch, the top of it sparkling with sugar crystals. It's soft enough to be chewy but not gooey, and smells tantalizingly sweet. Its edges are just slightly crisp, giving it a nice texture.
+~
+#4664
+cinnamon bun~
+a warm cinnamon bun~
+A warm cinnamon bun rests here on a clean sheet of parchment.~
+%s hold$q $p with a piece of parchment and consume$q the sweet pastry slowly, enjoying every bite.~
+19 0 1
+55 0 0 0 0 0 0
+1 30 3
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+bun warm cinnamon~
+This delectable pastry has been baked to golden brown perfection and drizzled with creamy white frosting. Swirls of cinnamon decorate the warm bun and parts of the frosting have melted over the edges to create a sugary glaze. The smell of cinnamon and sugar waft from the soft treat.
+~
+#4665
+ham apple brie sandwich~
+a ham, apple and brie sandwich~
+A grilled sandwich of honey ham, sliced apple, and melted brie cheese sits here on a plate.~
+%s bite$q into $p with gusto, enjoying the combination of sweet and savoury flavors.~
+19 0 1
+55 0 0 0 0 0 0
+1 28 2
+4
+1
+0
+0
+0
+0
+S 0 0
+E
+4665 ham apple brie sandwich~
+Between thin slices of white bread, pieces of honey baked ham have been layered with sliced Granny Smith apples and smooth brie cheese for this elegant sandwich. Grilled carefully, it is warm and gooey with the melted cheese.
+~
+#4666
+cafe au lait cup~
+a cup of cafe au lait~
+A small cup of warm cafe au lait sits here steaming slightly.~
+%s sip$q $p and sighs contently at the smooth flavor.~
+17 0 1
+15 15 12 0 0 0 0
+1 16 1
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+lait cup cafe au 'cafe au lait'~
+A small white ceramic cup holds smooth coffee and steamed milk. The surface of the liquid has a swirled pattern of cream white and the caramel hue of the coffee. Steam rises off the hot drink, bringing with it the scent of well roasted coffee.
+~
+#4667
+awards ceremony parchment sheet~
+a smooth sheet of parchment~
+A smooth sheet of parchment titled 'Awards Ceremony 1st AT' hangs here on the wall.~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+5
+0
+0
+0
+0
+S 0 0
+E
+parchment awards ceremony sheet~
+Awards ceremony.
+Recorded by Syrin, Paleonian Literatus
+-------------------------------------------
+
+NOTE: All OOC chat has been edited out.
+
+For your reading pleasure, the recording has been cut into three segments. Please READ P1, P2, or P3.
+
+
+~
+E
+p1~
+Part 1
+
+ [Event] Ruri, the winged cat 'First off, I would like to thank everyone who participated for making this an amazing debut Amaranthine Tournament. I would also like to give some credit where it's due. This event was originally created and organized by Rene. Shea helped create the scramble list, the area used in Capture the Flag, and was one of our monitors checking for rule breakers. Agridelious also helped out with the monitoring! Sinjin gave good ideas, including the logistics of the Capture the Flag game. Lastly, give a shout-out to Vladaar and the rest of the team for making everything possible!'
+
+ [Event] Ruri, the winged cat 'Now, for the sake of those who missed parts of the event, let's look back on some of the good times.'
+
+ Fireworks burst into the air, forming twin dragons and interweaving vines, eventually turning into the words "ETERNAL, UNDYING, EVERLASTING".
+
+ An image forms in the clouds to depict Xire proudly holding an amaranthine egg,  while the ancient green dragon looms behind him.
+
+ The clouds shift to show Xire and the other Forbidden City dragons running towards a crystalline amaranthine baton hovering in midair.
+
+ The mirage of an enormous leatherbound book appears in the sky, its countless pages flipping to reveal the story of Tanzean'al's betrayal. The book shuts and the cover is revealed to read "Story Quiz".
+
+ The sky turns a reddish orange as the sun ends its journey.
+
+ Suddenly, the clouds form a maze and you see a faint image superimposed. The image shows Althalos and Syrin running through the labyrinth towards a winged cat.
+
+ As the previous image dissolves, a new one shows combatants from various parts of Alternis locked in combat in the arena.
+
+~
+E
+p2~
+Part 2
+
+ [Event] Ruri, the winged cat 'That was just the first half! The second half got even more exciting, not to mention confusing-'
+
+ The clouds part to form a frame, which contains a picture of the three cities at their respective taverns, feasting on desserts and drinks while chatting with one another.
+
+ The picture changes to show Xire standing in the middle of Tanzean'al's manor, victoriously holding a flag, with all of Forbidden standing around him.
+
+ Scrambled words suddenly float across the sky, threatening to give you a headache with their complexity. Eventually, they sort themselves out and fade off into the distance. An image of Syrin with a smug grin shows up briefly before fading out.
+
+ All of a sudden, you see what must be an illusion of Rene dashing across the sky with countless people on her heels, and Syrin running ahead of her for some odd reason. Sytos manages to catch her by the shawl though, and the illusion disappears.
+
+ The frame in the clouds turn dark as bright words appear. "SCENES FROM AWARDS CEREMONY GO HERE," they read.
+
+ [Event] Ruri, the winged cat 'I hope you all enjoyed the Amaranthine Tournament and I hope this Tourney will be a legacy as everlasting as its namesake. However, the First Amaranthine Tourney has not yet ended! After all, we haven't announced the winners yet!'
+~
+E
+p3~
+Part 3
+
+ [Event] Ruri, the winged cat 'And now, what you've allll been waiting for- AWARDS. Drumroll please!'
+
+ [Icc] Colje 'bangs on his snare'
+
+ [Icc] Syrin stamps his feet the floor.
+
+ [Icc] Sytos drums on her belly.
+
+ [Event] Ruri, the winged cat 'The winner of Most Epic Roleplay goes to Zaiden of Dakar, for repeatedly great showings in in-person roleplay.'
+
+ [Event] Ruri, the winged cat 'Funniest RP goes to...'
+
+ [Event] Ruri, the winged cat 'SYTOS, of Forbidden! For an idea of her RP, check our her bio!'
+
+ [Event] Ruri, the winged cat 'And now. the FINAL AWARD.'
+
+ [Event] Ruri, the winged cat 'The WINNING CITY of the First Amaranthine Tournament of Alternis goes to...'
+
+ [Event] Ruri, the winged cat 'FORBIDDEN CITIES. Dragons, may your roars echo through the lands for your grand victory!'
+
+ [Event] Ruri, the winged cat 'Uh.'
+
+ [Event] Ruri, the winged cat 'Forbidden City, not Cities.'
+
+ [Event] Ruri, the winged cat 'Forbidden won this with 12 points, with Paleon coming in second at 7 points. Dakar had 3 points, though not for lack of effort.'
+
+ [Event] Ruri, the winged cat 'Now then, everyone please meet congregate at the centers of your respective cities. Food will be appearing soon for the ceremonial feast! Cheers for a good end to the First Amaranthine Tournament.'
+~
+#4668
+'guide to the atheneum' majestic scroll ~
+the 'Guide to the Atheneum'~
+A large, majestic scroll floats in midair here, commanding your attention. It is titled 'Guide to the Atheneum'. ~
+~
+12 0 0
+0 0 0 0 0 0 0
+1 1 0
+4
+14
+0
+0
+0
+0
+S 0 0
+E
+scroll guide atheneum 'guide to the atheneum'~
+&c A large, majestic scroll reads:
+
+&WWelcome to the Paleon Atheneum! Here, you will find writings and artefacts from around the world.
+
+To read a book, simply explore the Archives until you come across a book with a letter number combination, such as AC5. To look at that book's cover, just LOOK AC5 (or whatever the combo of the book is). To read it, just LOOK AC5-page number. To read page 1, LOOK AC5-1. To read page 2, LOOK AC5-2. 
+
+Here is a key to what the letters of a book combination stand for:
+
+PW= Places of the World
+BE= Beastiary
+FT= Fiction
+AC= Ancient and Current History
+FP= Famous People
+PT= Professions of the Time
+FD= Food
+MT= Mathematics
+AS= Astrology
+
+Our example book, AC5, would be a book in the Ancient and Current History archive. To see a list of books we currently own and their corresponding codes, please LOOK BLIST.
+
+Due to many patrons forgetting to return material, you are no longer allowed to borrow books. As such, the books have been enchanted so you cannot pick them up. Just stay in the room and read the book (it does not have to be in your inventory for you to read it). 
+
+Finally- We have lost many books over the course of the years due to vermin, war, and impolite patrons. If you have a book you would like to submit, or plan on writing either a reference book or an autobiography, please speak with our current curator, Rene. &D
+~
+E
+blist~
+&c
+-List of Current Books-
+
+
+Amelia: The Woman Behind the Spells- BG1
+Research on Arctic Changelings- BE1
+Imperian: Prologue (unfinished)- FT1
+
+
+(Note: 'A Brief History of Mathematics', 'Life of a Star', and 'Adventures in the Food Kingdom' are special books and can be picked up. They function differently from the books that have the letter-number combination label!)
+~
+> rand_prog 1~
+mpe &cA patron walks over to read the majestic scroll in the middle of the hall.&D
+~
+|
+#4669
+amelia book bg1~
+a book titled 'Amelia: The Woman Behind the Spells' BG1~
+A green velvet book titled 'Amelia: the Woman Behind the Spells' BG1 rests on a shelf here.~
+~
+35 0 0
+0 0 0 0 0 0 0
+2 0 0
+1
+11
+0
+0
+0
+0
+S 0 0
+E
+book 'Amelia: The Woman Behind the Spells' BG1~
+Bound in green velvet, this small book has the title 'Amelia: The Woman Behind the Spells' sewn into the cover in golden thread. A small leaf and magenta flower decorates the spine, which reads 'BG1'. Inside, the pages are of creamy parchment with pressed flowers in the corners. 
+
+&cPlease LOOK BG1-1 to start reading&D
+~
+E
+BG1-1~
+&wNo one thought much about the plain little girl growing up in Jarynth. My family was never wealthy, nor impoverished, and I had a pleasant if uneventful childhood. No one paid much attention to me, who had an average appearance and no special talents to speak of. When I turned sixteen, however, everything changed.
+
+Her parents wanted to marry me off to a merchant's son. Despite my protests, my father would not take no for an answer. My stubborn childhood self decided to rather eat worms than marry that snooty man, and thus snuck out of my home one dark, stormy night. I had, in my young foolishness, only a handful of coins with me. 
+
+I ran through endless roads and forests, until one day I ran out of food with no civilization in sight. Pursued by an orc, I fled deep into the woods and passed out at the base of a large tree. When I awoke, I was in Loramoor, being tended to by the elven healers. 
+&D
+&cPlease LOOK BG1-2 to continue reading&D
+~
+E
+BG1-2~
+&w
+After that day, I lived with them, eating their bread and drinking their clean river water. They taught me the use of herbs and how to create poultices. They taught me spells, magic, and the history of the world. From their patient words, I learned about places I could never have imagined. Suddenly, a provincial farm girl became an herbalist.
+
+Eventually, I left Loramoor. The city, while beautiful, was the city of elves and I, no matter how much I study their ways, will never be an elf. I decided to travel to the large city to the southwest- Paleon, which I had heard so much of from the elves. 
+
+In Paleon, I lived in a room above the tavern and made friends with the old tavernkeeper. I spent my days buried in the books of the Atheneum, learning the apothecary's craft. In my small inn room, I began to learn to brew potions using the herbs I gathered around Loramoor. Eventually, I was able to open my own shop near the city center, and that's where I have lived and worked ever since. 
+
+Since then, the old tavernkeeper has passed away and Loramoor has grown quieter and quieter. It is no use thinking so much of the past, though. I am proud to help young adventurers grow and keep going forward. 
+&D
+~
+#4670
+book arctic changelings research be1~
+a book titled 'Research on Arctic Changelings' BE1~
+A book bound in sky blue silk titled 'Research on Arctic Changelings' BE1 rests on a shelf here.~
+~
+35 0 0
+0 0 0 0 0 0 0
+2 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+E
+BE1-1~
+&CArctic changelings, which dwell in the Ice Caverns far to the north, have long been a source of confusion. These creatures were revealed to be human warriors with the ability to shapeshift to appear as stalagmites, icicles, snow, and blizzards. How they are able to shapeshift has yet to be explained, but here is what we do know of them and their behavior.&D 
+
+&cTo read on, LOOK BE1-2&D
+~
+E
+be1-2~
+&CAppearance: A small pile of snow
+Behavior: Very aggressive, enjoys snowballs both as playthings and as weapons. Quite weak in comparison to the other changelings.
+
+Appearance: An icicle
+Behavior: Appears to have truesight, but is thankfully peaceful. Also weak, but uses icicle missiles to attack. While the shower of ice may deter young adventurers, it's not extremely effective.
+
+Appearance: A solid blue icicle
+Behavior: Unlike its close relative- the common icicle, it does not have truesight, but is stronger physically. It also uses icicle missiles, and is extremely rare to find. 
+
+Appearance: A stalagmite
+Behavior: Placid and silent, almost indistinguishable from actual stalagmite formations. Uses its jagged points to spear during battle. Decently powerful.
+
+&cTo read on, LOOK BE1-3&D
+~
+E
+be1-3~
+&CAppearance: A swirling blizzard
+Behavior: Despite its chaotic appearance, it does not go out of its way to attack adventurers. However, it is a good bit stronger than the usual pile of snow or icicle, using its gusts to slam into its opponents.
+
+Appearance: A large pond of solid ice
+Behavior: Do not let its still appearance fool you. Though it will not attack on sight, it is a formidable opponent should you provoke it. It is able to pull adventurers through cracks in its surface and into its icy depths, and is one of the most powerful arctic changelings.
+
+Appearance: A massive stalagmite
+Behavior: Also known as a greater arctic changeling, this non-aggressive changeling is stronger than all others. Like the smaller, common stalagmite, it will spear victims on its sharp spikes when provoked. Only two exist, lording over the rest of the changelings.
+&D
+~
+E
+book research arctic changelings be1~
+&CBound in silk of light blue hue, this small book is thin and light. The cover has the title 'Research of Arctic Changelings' stitched in dark blue thread, and the combination 'BE1' has been stitched onto its spine. The pages are slightly torn and show crimps, evidencing it may have at one point fallen in water. The back cover has a few small puncture marks.
+
+&cTo start reading, LOOK BE1-1&D
+~
+#4671
+book imperian prologue FT1~
+a book titled 'Imperian: The Prologue' FT1~
+A black leather book titled 'Imperian: The Prologue' FT1 lies on the table here.~
+~
+35 0 0
+0 0 0 0 0 0 0
+2 0 0
+1
+13
+0
+0
+0
+0
+S 0 0
+E
+book imperian prologue leather FT1~
+&wThis old book is only an inch thick and feels quite light. It has been bound with worn black leather and has silver embroidered swirls forming a border on its cover and up its spine. In the same silver stitching, the title reads 'Imperian Prologue'. The combination FT1 is embossed into its spine.
+
+&c&iTo start reading, LOOK FT1-1 &D
+~
+E
+ft1-1~
+Prologue page 1.
+
+
+&w&i     We never knew. We never knew someone could keep something so painful inside and not reveal it for so long. Even long afterwards, we didn't know he needed our help. All we did was watch and return to our own lives. Even though he might have been scared for himself, we never knew. 
+
+     There's a story I have to tell, so the world after us will know what courage is. Without knowing it, this story of such humble beginnings became something larger than all of us because we couldn't stop it. We couldn't save him.
+
+     Frya, Queen of Irenyis&D
+
+&cTo continue reading, LOOK FT1-2&D
+~
+E
+ft1-2~
+Prologue page 2.
+
+
+&w     "Ceiros, there must be some news." Running a hand through his brown hair, Kyrie Aliston leaned forward to peer at the man sitting across from him in the lobby. Ceiros Virnas, the grey-haired Provost of the Sirenis University, gave a heavy sigh. 
+
+     "It has been almost a year, Kyrie. I am not sure, at this point, Leanna is still alive," the Provost replied quietly, looking at Kyrie's slumped figure with concern. "The scouts are still out searching at Antiom's request, but I cannot trouble the Captain for so long." 
+
+     Kyrie nodded. He thanked Ceiros and stood up from the couch. Looking around the quiet lobby of the University, he took in the sparse decor and cold stone architecture. How long has he taught here without the halls feeling impersonal and forbidding? Back when Leanna was still... He shook his head, gathering his papers and thoughts at once. 
+
+     "You should get going to your class, unless you want to take the day off? I am sure Julian can take over for just a day, as forgetful as that young man can be," Ceiros commented, taking in Kyrie's pale countenance. The professor shook his head and gave a wan smile. 
+
+     "I will be fine, today's lecture is a quick one. If I feel too tired, I will let Julian talk," he reassured the Provost, who nodded carefully, still frowning. "Do not worry too much, Ceiros, you might get even more wrinkles than you already have."
+
+     Behind his pince-nez, Ceiros narrowed his eyes at the jibe but gave a chuckle. "Here I thought I was keeping my youthful appearance up quite well, too."
+
+     The two old friends said farewell to each other and departed their respective ways. &D
+
+
+&cTo continue, LOOK FT1-3&D
+~
+E
+ft1-3~
+Prologue page 3.
+
+
+&w     Julian tucked his hair back impatiently as he flipped through yet another Analysis of Ancient Beldarian Texts essay. Reaching out blindly for his hot cocoa, he murmured thanks when Kyrie handed the mug to him. 
+
+     "Mera's essays are getting better. She's going more in depth with the content instead of just tossing ideas together in a mishmash," the assistant remarked, making a few notes on the essay with his quill.
+
+     Kyrie chuckled into his coffee mug. "Was that not your main issue, back when you were my student?" He grinned at the young man over his stack of papers.
+
+     Julian still looked the same now as back in his student days- silver hair still tied in a cheerful ponytail, blue eyes still holding that bright curiosity, build still as skinny as ever. The only difference was the glasses perched on his nose. Shaking his head amusedly, Kyrie looked back down at his own reflection in the coffee.
+
+     He has not changed much himself. Grey eyes are more tired more often now, but the face is still the same. Still quite youthful, he dared say. His hands were more callused now, though. He looked at them thoughtfully, eyes drawn to the silver wedding band. Feeling Julian's gaze on him, he tore his attention off the band. 
+
+     "I heard from Zora that Captain Antiom is going to call off the search for Leanna," Julian said softly, lowering his eyes to stare into his mug. 
+
+     "Right, Zora joined the guard," Kyrie remininsced to himself, "He was a good writer. Liked sparring more, though."
+
+     Julian's grip tightened on the mug. "Is this it, then? Are they giving up on finding her? Are you?" He suddenly realized his grip and let go as if burned. "I am sorry, I just- I thought maybe there was still hope."
+
+     Kyrie leaned back in his chair and sipped his coffee. He looked out the window at the dark night sky. "Who knows? I do not know what more we can do. We have had scouts out looking for a year already. They have searched up to the desert in the west and Irenyis's crystal forest in the north."
+
+
+&cTo continue, LOOK FT1-4&D
+~
+E
+ft1-4~
+Prologue page 4. 
+
+
+&w     "What if she is in Irenyis? Or Beldar, &ibeyond&D&w the desert?"
+
+     "You know our guards are not allowed in those citystates," Kyrie replied, shooting Julian a stern look. "I will not have more animosity directed towards Sirenis on our account. If she is in Beldar, we have no hope left anyway. A Sirenian in Beldar is good as dead."
+
+     Julian slumped dejectedly. Kyrie sighed, reflexively running his fingers over his wedding band. 
+
+     "I will move on."
+
+     "You have said that," Julian murmured, knitting his brows together, "months ago."
+
+     Silence stretched uncomfortably for a few minutes. Kyrie cleared his throat, gesturing at the papers.
+
+     "You should catch some sleep. I can finish these myself." The professor retrieved Julian's stack of papers and put them on top of his own. Julian looked at him, frowning. After a moment, he stood up and got his cloak from the hanger. 
+
+     "Thank you for the cocoa. Sleep well, Kyrie," he replied, nodding respectively on his way out. 
+
+     Kyrie watched the door shut and gave another sigh. He doubted he would get much sleep. Insomnia was becoming a well-known acquaintance. 
+
+
+&cTo continue, LOOK FT1-5&D
+~
+#4700
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 0 0
+#0
+
+
+#ROOMS
+#4650
+Outside the Paleon Atheneum~
+~
+The Paleon Atheneum, a magnificent building, is situated on this street. 
+Made out of bricks, the Atheneum houses a plethora of knowledge and 
+information gathered through the ages by many scholars and sages. Two 
+marble lions, facing each other, stand on the steps leading up to the 
+atheneum. There is an inscription carved on top of the entrance leading 
+inside the building. 
+~
+1 0 1
+D1
+~
+~
+0 -1 16241
+D6
+A large hall lies in the distance.
+~
+~
+0 -1 4651
+R O 0 4667 1 4650
+E
+atheneum building paleon~
+The Atheneum, commonly known to the citizens of Paleon as the public 
+library, has existed in Paleon even before Tanzean'al came into being. 
+Citizens (at least those that can read) of Paleon find the Atheneum a font 
+of knowledge. 
+~
+E
+marble lion~
+The lions are sculpted with precise detail, and looks like it could spring 
+to life at any second. 
+~
+E
+lions marble~
+The lions are sculpted with precise detail, and looks like it could spring 
+to life at any second. 
+~
+E
+carving carved inscription entrance~
+The inscription reads: Veritas Lux Vestra Sitis.
+~
+S
+#4651
+The Main Hall of the Atheneum~
+~
+The main hall of the Atheneum is a busy place, with people walking to and 
+fro, and even discoursing with each other on the finer points of theory, 
+garnered from the resources in the Atheneum. There are frescoes painted on 
+the ceiling, and newcomers to the Atheneum usually stop to admire them. 
+Mystical balls of light float near these frescoes, giving the place a 
+constant illumination. 
+~
+1 8 0
+D1
+A spiral staircase can be seen to the east.
+~
+~
+0 -1 4654
+D6
+The main hall of the Atheneum beckons further.
+~
+~
+0 -1 4652
+D7
+There is a corridor to the northwest.
+~
+~
+0 -1 4678
+D9
+Serenity Street lies outside.
+~
+~
+0 -1 4650
+R M 0 4671 1 4651
+R O 0 4668 1 4651
+E
+frescoes ceiling fresco~
+These frescoes were painted by an unknown artist when the Atheneum was 
+constructed. They depict people of various ages clustered around many 
+scrolls and books. 
+~
+E
+balls light ball mystical~
+The balls of light were enchanted by a master magician to give off light 
+indefinitely, with no risk of setting fire to the many rare books and 
+scrolls here. 
+~
+S
+#4652
+The Main Hall of the Atheneum~
+~
+There is a long table in this part of the Atheneum, with numerous tomes 
+and scrolls piled on it. Citizens can be seen browsing through the 
+literature on the table, almost handling them with reverence. A small 
+stool is placed at the far end of the table. There is a stack of books 
+lying against the eastern wall, almost obscuring a small door. A gentle 
+breeze blows into the room from the open window on the north wall. 
+~
+1 8 0
+D0
+~
+window~
+11 -1 16099
+D1
+A storage room lies to the east.
+~
+door~
+3 -1 4653
+D9
+There are people bustling about in the main hall of the Atheneum.
+~
+~
+0 -1 4651
+R M 0 4651 5 4652
+R M 0 4663 1 4652
+R D 0 4652 0 1
+R D 0 4652 1 1
+E
+table~
+The table is made out of fine redwood. 
+~
+E
+tomes tome scrolls scroll~
+These are the newest documents to enter the Atheneum, and hence are 
+displayed upon the main table. After a month, these tomes and scrolls will 
+be kept in the shelves by the curator. 
+~
+E
+stool~
+The curator of the Atheneum prefers to sit on this stool to oversee the 
+place. 
+~
+E
+window~
+The window overlooks the streets of Paleon City. 
+~
+E
+stack books~
+These books have yellowed pages and look rather aged. 
+~
+E
+door~
+The door is very tiny, and is partly hidden by the stack of books. 
+~
+S
+#4653
+In a Storage Room~
+~
+Many books, tomes, scrolls, and other written paraphernalia are piled up 
+in stacks on the floor. Dust can be seen in every corner here, almost as 
+if no one used the room for a very long time. There is a small oaken chest 
+lying on the floor, partially buried by mounds of yellowed paper. A musty 
+odor permeates the entire place. 
+~
+1 9 0
+D3
+~
+door~
+3 -1 4652
+R M 0 4653 3 4653
+R M 0 4653 3 4653
+R M 0 4653 3 4653
+R D 0 4653 3 1
+E
+book books tome tomes scroll scrolls written paraphernalia~
+They all look tattered, torn, and are in generally unreadable condition. 
+~
+E
+stacks~
+They all look tattered, torn, and are in generally unreadable condition. 
+~
+E
+dust corner~
+The amount of dust in the room is horrendous. The dust bunnies look like 
+they are breeding like actual rabbits. 
+~
+E
+yellowed paper~
+~
+E
+yellowed paper mound mounds~
+These papers all look like it came from books. 
+~
+E
+oaken oak chest small~
+There is nothing inside the chest except more yellowed pieces of 
+parchment. 
+~
+S
+#4654
+By the Spiral Staircase~
+~
+Frescoes abound on the walls of the Atheneum, each richly painted with a 
+wealth of detail. Small globules of light dance about the frescoes, 
+illuminating the room with a steady glow. Small tables are placed 
+strategically around the hall, laden with many scrolls and tomes. There is 
+a spiral staircase at the back of the room, leading upwards to the second 
+floor of the Atheneum. A delightful smell wafts from the south. 
+~
+1 8 0
+D2
+The Atheneum Cafeteria lies to the south.
+~
+~
+0 -1 4655
+D3
+The main hall of the Atheneum lies that way.
+~
+~
+0 -1 4651
+D4
+The second floor of the Atheneum beckons in the distance.
+~
+~
+0 -1 4656
+R M 0 4652 6 4654
+E
+frescoes fresco wall walls~
+These frescoes all depict the people coming into the Atheneum. 
+~
+E
+globule globules light~
+The light is neither too bright nor too dark, and is comfortable to the 
+eye. 
+~
+E
+tables table scrolls scroll tome tomes~
+The tables hold the tax records of the land. The documents on the table 
+change every year to reflect the current records. 
+~
+E
+staircase~
+It leads to the second floor of the Atheneum. 
+~
+S
+#4655
+The Atheneum Cafe~
+~
+A small cafe is located here, set up by an enterprising Paleian merchant. 
+The room shows recent signs of remodeling and has a pastry-laden bar 
+counter at the southern end. Small wrought-iron tables with crisp white 
+tablecloths and stylish wrought-iron chairs have been scattered throughout 
+the room. Elegant floor to ceiling windows behind the counter looks out 
+into Serenity Street. One table holds some pamphlets. A large chalked menu 
+hangs on the eastern wall. 
+~
+1 8 0
+D0
+The main hall of the Atheneum can be seen from here.
+~
+~
+0 -1 4654
+D2
+~
+window~
+11 -1 16119
+R M 0 4670 1 4655
+  R G 0 4665 1
+  R G 0 4664 1
+  R G 0 4666 1
+  R G 0 4663 1
+R D 0 4655 2 1
+E
+pamphlets pamphlet~
+There are many assorted pamphlets, with titles like "The Joy of Eating" , 
+"Food and its Value", "An Autobiography of Cheese"...and so on. 
+~
+E
+window~
+The whole stretch of Serenity Street can be seen outside. 
+~
+E
+menu chalked~
+--The Atheneum Cafe--
+
+
+Menu.
+
+
+1. Entrees
+
+A ham, apple and brie sandwich. 33 coppers.
+
+
+2. Desserts
+
+A warm cinnamon bun. 36 coppers.
+
+A soft sugar cookie. 9 gold.
+
+
+3. Beverages
+
+A cup of cafe au lait. 19 coppers.
+
+
+
+-prices subject to change-
+~
+S
+#4656
+The Second Floor of the Atheneum~
+~
+The main hallway of the second floor is tastefully decorated, with 
+hand-woven carpets leading off down the corridors. Tiny spheres of light 
+hover around in the vicinity, casting a strong, steady glow over the 
+place. There are some wooden scroll-holders placed about the area, each 
+containing yellowed, musty parchments. A spiral staircase leads downwards 
+to the first floor of the Atheneum. A bronze plated sign hangs here. 
+~
+1 8 0
+D5
+People seem to be milling about the bottom of the staircase.
+~
+~
+0 -1 4654
+D6
+~
+~
+0 -1 4693
+D7
+A reading room lies to the northwest.
+~
+~
+0 -1 4671
+D8
+A reading room lies to the southeast.
+~
+~
+0 -1 4664
+D9
+A reading room lies to the southwest.
+~
+~
+0 -1 4657
+R M 0 4650 7 4656
+R M 0 4651 5 4656
+R M 0 4652 6 4656
+E
+carpet carpets hand-woven~
+These carpets were woven by the denizens of Loramoor city, and brought 
+here to the Atheneum. 
+~
+E
+sphere spheres light~
+These globules of light gently dance about the room, casting a constant 
+glow over the entire area. 
+~
+E
+scroll-holder scroll-holders~
+They are tubular in shape, for scrolls to be slotted in. There are tiny 
+plaques in front of each holder engraved with the title of the scroll. 
+~
+E
+staircase~
+It leads to the first floor of the Atheneum. 
+~
+E
+bronze sign~
+A bronze sign hangs here. It reads:
+
+&W'Astonomy' NW
+'Mathematics' SE
+'Food' SW
+&D&W'Fiction' NE
+&D
+
+
+~
+S
+#4657
+A Reading Room~
+~
+There is an elongated table in the room, shaped like a slab of cheese. 
+Numerous bookshelves can be seen in the room, all containing a myriad of 
+books and tomes of information. Chairs, moulded in the likeness of daily 
+victuals, are placed around the table. There are caricatures of people 
+eating food on the walls here. A small sign hangs next to one of the 
+caricatures. 
+~
+1 8 0
+D6
+The main corridor is to the northeast.
+~
+~
+0 -1 4656
+R M 0 4652 6 4657
+R O 0 4650 1 4657
+E
+table~
+Books are messily scattered on the table. It looks like no one bothered to 
+replace them. 
+~
+E
+chair chairs~
+They come in all sizes and shapes, which includes a sausage-looking chair. 
+~
+E
+bookshelf bookshelves~
+They store almost all information on the subject of Food. Some titles like 
+"The Cookie Monster - Fact or Fiction", "A Secret Recipe", and 
+"Ratatouille" stand out among the other written documents. 
+~
+E
+caricature caricatures~
+These caricatures were drawn by an aspiring artist in ages past. It is 
+said that the people represented were patrons of the Cafeteria below. 
+~
+E
+sign~
+It reads: "Foodlore". 
+~
+S
+#4658
+Inside a Dank Cave~
+~
+The cave is a small enclosed area, with light only coming in from the cave 
+mouth to the north. There are rocks and boulders all strewned over the 
+rocky floor here. Sharp stalactites hang from the ceiling, looking like 
+they could drop at any moment. There is an etching on one of the slabs of 
+rock wall. 
+~
+1 8 0
+D0
+There is a tangled field ahead.
+~
+~
+0 -1 4659
+R M 0 4657 1 4658
+E
+rocks boulders~
+They are made of dark brown chocolate, and looks edible. 
+~
+E
+stalactite stalactites~
+These stalactites, made out of flavoured ice, shimmer with different 
+colours in the dim light of the cave. 
+~
+E
+etching slab slabs~
+The etching is a picture of a scene from the Food Kingdom. Hmm...isn't 
+that from the book you picked up? 
+~
+S
+#4659
+An Overgrown Field~
+~
+Grass grows in wild spurts in the field, emerging as many scattered 
+clumps. Tiny rodents dash through the tangled grass at intervals, all too 
+fast to be caught. A large anthill lies in the middle of the field, with 
+minuscule ants poking their heads out from it. A bird gently sweeps past 
+overhead in the sky, cawing as it does so. 
+~
+1 0 2
+D0
+A well can be seen in the distant north.
+~
+~
+0 -1 4660
+D2
+The cave interior looks rather murky from this distance.
+~
+~
+0 -1 4658
+R M 0 4658 2 4659
+R M 0 4656 5 4659
+E
+grass spurt spurts clump clumps~
+Without anyone to tend to the field, the grass is free to grow, resulting 
+in a tangled field. However, no one really minds, as the grass can be 
+eaten. 
+~
+E
+anthill ant ants~
+A group of black ants live in this anthill, thriving in the food paradise 
+here. 
+~
+E
+rodent rodents~
+Field mice, grasshoppers, and even cicadas run through the grass here. 
+~
+S
+#4660
+A Well in the Field~
+~
+A large cobblestone well sits in the field, with a wooden bucket by its 
+side. Strangely enough, the perimeter of the well is clear of grass, as if 
+an unknown gardener trimmed the unruly stalks away. Crickets can be heard 
+chirping in the background, following their own melodious tune. There is 
+an outline of a cottage in the horizon to the northeast. 
+~
+1 0 2
+D1
+A small garden lies to the east.
+~
+~
+0 -1 4662
+D2
+The field continues on to the south.
+~
+~
+0 -1 4659
+D3
+There is a small meadow to the west.
+~
+~
+0 -1 4661
+R M 0 4656 5 4660
+R M 0 4658 2 4660
+E
+well~
+The well stores water from an underground pool, and travellers drink from 
+it when they are thirsty. 
+~
+E
+bucket~
+The bucket is rather worn, but still can be used to draw water. 
+~
+E
+outline cottage~
+Small wisps of smoke rise from the cottage at intervals. 
+~
+E
+exdesc w There is a small meadow to the west~
+~
+S
+#4661
+A Pristine Meadow~
+~
+The overgrown field suddenly recedes into a well-kept meadow. Once left to 
+grow haphazardly, the grass here is neatly trimmed into tidiness. Flowers 
+of every hue and shape dot the area, injecting colour into an otherwise 
+green environment. Bees flit to and fro among the stalks, helping to 
+pollinate them. A sense of vitality and life permeates the entire field. 
+~
+1 0 2
+D1
+The meadow continues on to the east.
+~
+~
+0 -1 4660
+R M 0 4656 5 4661
+R M 0 4656 5 4661
+R M 0 4656 5 4661
+E
+name A Pristine Meadow~
+~
+E
+grass~
+The grass stalks are cut to an even level. 
+~
+E
+flower flowers stalk stalks~
+These flowers are all edible, and each colour has a different taste. 
+~
+S
+#4662
+Outside a Small Cottage~
+~
+A white picketed fence runs round the perimeter of the garden, with 
+gingerbread men blooming between the pickets. Candycanes and chocolate 
+bars are planted in neat rows in the soil, looking rather appetizing. Two 
+small gravestones emerge from the front of the chocolate rows, looking 
+very out of place in the garden. A small brass nameplate is on the cottage 
+door to the north. 
+~
+1 0 2
+D0
+There is a small cottage to the north.
+~
+~
+0 -1 4663
+D3
+A well looms in the distance.
+~
+~
+0 -1 4660
+E
+fence~
+The fence is rather sturdy, constructed of some stiff material. 
+~
+E
+gingerbread men~
+Made out of crispy gingerbread and with two black raisins for eyes, they 
+look too irresistible for eating. 
+~
+E
+candycanes candycane chocolate bar bars~
+They look like they are growing in the soil..can it be possible? 
+~
+E
+gravestones gravestone~
+The names of the gravestones read: Hansel and Gretel 
+~
+E
+nameplate brass~
+The nameplate bears the following name: &RW. Hazel&g 
+~
+E
+cottage door~
+The cottage appears to be made of wholesome gingerbread. 
+~
+S
+#4663
+Inside the Cottage~
+~
+The cottage is decorated simply, with only a linen bed and dresser in the 
+corner, together with a table and chair in the centre of the room. There 
+is a fireplace at the end of the room, with a pot boiling within it, 
+giving out a pleasant aroma. A wheelbarrow sits near the door, carrying a 
+shovel amidst a pile of straw. The entire room seems to be in disrepair, 
+with some holes in the walls. 
+~
+1 8 0
+D2
+Outside lies the garden.
+~
+~
+0 -1 4662
+R M 0 4655 1 4663
+E
+bed linen~
+The linen on the bed is rather rumpled, as if the bed hasn't been made 
+yet. 
+~
+E
+dresser~
+There are many drawers in the dresser, each one unfortunately locked. 
+~
+E
+table chair~
+Both the table and chair are made out of light balsa. 
+~
+E
+fireplace~
+The fireplace is big enough to house the pot. 
+~
+E
+pot~
+There is some broth in the pot, which smells like chicken soup. 
+~
+E
+wheelbarrow~
+The wheelbarrow has patches of rust on it. 
+~
+E
+shovel~
+The shovel is half dented, and the handle is falling off. 
+~
+E
+straw~
+The straw is made ouf of liquorice, and is used to thatch the cottage 
+roof. 
+~
+E
+holes hole wall walls~
+There are teeth marks on the walls. Looks like W. Hazel was hungry enough 
+to eat from her own cottage. 
+~
+S
+#4664
+A Reading Room~
+~
+The room is spherical in shape, with curving bookshelves set in alignment 
+with the walls. There are some posters hanging on the walls, with diagrams 
+drawn on them. Apart from the posters, there is a variety of sketchings 
+pencilled on the walls as well. There is a squarish table in this room, 
+with many intriguing looking paper-weights resting on it. Some script in 
+flowing calligraphy is painted on the left wall. 
+~
+1 0 0
+D7
+The main corridor is to the northwest.
+~
+~
+0 -1 4656
+R M 0 4650 7 4664
+R O 0 4653 1 4664
+E
+bookshelves bookshelf~
+The bookshelves all contain various books, with titles like "The Life of 
+Pi", "The Equation that Couldn't be solved", "Mathemagic"... 
+~
+E
+poster posters diagram diagrams~
+These posters seem to be a publication of mathematical proofs, stenciled 
+with appropriate diagrams. 
+~
+E
+sketching sketchings wall walls~
+The sketchings look mostly like half-done theorems and proofs, probably 
+made by amateurs in mathematics. 
+~
+E
+table~
+It is a highly polished pine oak table. 
+~
+E
+paper-weights paperweights paperweight paper-weight~
+They come in many shapes and figures, the most notable being a Klein 
+Bottle. 
+~
+E
+script calligraphy~
+It reads: Room of Mathematics 
+~
+S
+#4665
+Intersection at a Bridge of Numbers~
+~
+A dark grey mist sweeps its tendrils over the entire area. Perched atop a 
+lonely cliff, bridges span in all directions across a wide chasm. There is 
+a small hole in the ground, where a rope ladder stretches downwards. 
+Specks of grey wisps float about the place, at times twisting and forming 
+themselves into mathematical symbols. 
+~
+1 0 2
+D5
+It is dark below.
+~
+~
+0 -1 4670
+D6
+The bridge stretches off to the northeast.
+~
+~
+0 -1 4666
+D7
+There is a small plateau to the northwest.
+~
+~
+0 -1 4669
+D8
+~
+~
+0 -1 4668
+D9
+There is a slide to the southwest.
+~
+~
+0 -1 4667
+R M 0 4659 2 4665
+R M 0 4659 2 4665
+E
+mist tendril tendrils~
+The mist draws closer and closer, its damp touch seeping into everything 
+in its path. 
+~
+E
+cliff~
+The cliff is just a pillar of rock in the centre of nowhere. 
+~
+E
+chasm~
+The chasm spans for miles downwards into the unknown. 
+~
+E
+hole~
+The hole looks just right for you to squeeze into. 
+~
+E
+rope ladder~
+The ladder is taut, able to bear heavy weights. It descends down into the 
+darkness. 
+~
+E
+bridge bridges~
+Strangely enough, the bridge is made out of numbers. Numbers are 
+intertwined together, to form the steppings of the bridge. 
+~
+E
+speck specks wisp wisps symbol symbols~
+They float about, and disperse back into grey blobs of wisps once more. 
+~
+S
+#4666
+The Bridge to Infinity~
+~
+The bridge spans onwards into the horizon, which seems to go on forever. 
+The two railings of the bridge, parallel to each other, seem to meet each 
+other in the far distance ahead. A small cloud floats past in the horizon, 
+composed like a lopsided figure eight. This has to be the famous bridge at 
+the beginning of infinity, known to span the entire distance from here and 
+then. 
+~
+1 0 2
+D6
+The bridge continues northeast to the furthest spans of infinity.
+~
+~
+0 -1 4666
+D9
+The high cliff can be seen to the southwest.
+~
+~
+0 -1 4665
+E
+bridge railing railings~
+The bridge and its railings seem to be made out of intertwining figure 
+eights. 
+~
+E
+cloud~
+The cloud looks very insubstantial. 
+~
+S
+#4667
+A Curved Slide~
+~
+Peals of joyful laughter echo around the area as playful symbols slide 
+down a curve. There is a knotted rope in a corner, leading upwards into 
+the sky. Symbols can be seen climbing up the rope, and jumping to the side 
+where the curve is, sliding downwards to the ground, which is carefully 
+spaced out in even intersections. There is a small pencilled note floating 
+next to the curve. 
+~
+1 0 2
+D6
+The dreary clifftop resides to the northeast.
+~
+~
+0 -1 4665
+R M 0 4662 2 4667
+R M 0 4662 2 4667
+E
+symbol symbols~
+These symbols, consisting of various algebraic letters, are animatedly 
+playing on the slide. 
+~
+E
+rope knot knotted~
+The knotted rope has knots at each intersection, each with a number 
+clearly marked out on the knot. 
+~
+E
+curve~
+The curve has a rather steep drop, and then a nice gentle slope at the 
+bottom. 
+~
+E
+note pencilled~
+The note reads: The slide was made in the likeness of 'The Reciprocal of 
+X'. 
+~
+S
+#4668
+A Field of Symmetry~
+~
+The bridge leads to a huge expanse of wild field. Strangely enough, there 
+is a bridge at the very end of the field, with a figure standing next to 
+it that eerily resembles you. There is a strong wind blowing through the 
+pasture, causing tufts of grass to be uprooted and flying away. However, 
+for each tuft of grass uprooted, there is another of the exact size flying 
+in the opposite distance. 
+~
+1 0 2
+D6
+The cliff side beckons to the northeast.
+~
+~
+0 -1 4665
+D7
+The cliff side beckons to the northwest.
+~
+~
+0 -1 4665
+R M 0 4661 2 4668
+R M 0 4661 2 4668
+E
+field~
+The field looks reflected about itself at the midpoint. 
+~
+E
+bridge~
+The bridge is made out of intertwined figures of eight and zero. 
+~
+E
+figure~
+The figure looks like you down to minute detail. As you lift up your right 
+hand to scratch your chin in puzzlement, the figure raises his left hand 
+to do the same. 
+~
+E
+tuft tufts grass~
+Each tuft of grass seems to have its equal, flying in the opposite 
+direction. 
+~
+S
+#4669
+A High Plateau~
+~
+The bridge finally connects to a large plateau, where numbers can be seen 
+mingling about, from the tiny one to the mighty nine. The rock formations 
+in this plateau all resemble perfect geometrical shapes, with triangles 
+and spheroids popping up in the distance. An atmosphere of relaxation 
+fills the entire place, together with sounds of chatter from all the 
+numbers. 
+~
+1 0 2
+D8
+The bridge of numbers is to the southeast.
+~
+~
+0 -1 4665
+R M 0 4660 2 4669
+R M 0 4660 2 4669
+E
+plateau~
+The plateau stretches out in the distance. 
+~
+E
+numbers one nine ~
+The numbers are animated, and are dotted about in the distance. 
+~
+E
+rock formation formations shape shapes triangle triangles spheroid spheroids~
+These formations are natural, formed by years of erosion. 
+~
+S
+#4670
+In a Dark Hollow~
+~
+The hollow below the cliff is extremely small and cramped, with the rock 
+walls seeming to press inwards. There is a smell of decay within the 
+darkness of the hollow, tinged with a taste of fear. Laid flat on the 
+ground is a stationary zero, with blood flowing from it. There is a rope 
+ladder next to the wall, leading upwards out of the hollow. 
+~
+1 1 0
+D4
+~
+~
+0 -1 4665
+D5
+There is blackness below.
+~
+zero blocking the hole heading down~
+11 -1 4664
+R D 0 4670 5 1
+E
+wall walls rock~
+The walls are rough and spiky. 
+~
+E
+zero~
+The zero's exterior is mutiliated, with claws and gouge marks on it. 
+Strangely enough, there seems to be a hole through the zero, leading 
+farther downwards. 
+~
+E
+rope ladder~
+The rope ladder looks rather frayed. 
+~
+S
+#4671
+A Reading Room~
+~
+The view of the heavens above Paleon at night cover the ceiling of the 
+reading room. Embroidered in rich colours, with each and every distant star 
+outlined in the tapestry lining the ceiling, it is a marvellous sight to 
+behold. Members of the Paleon public sometimes wander into the room to 
+gaze at the ceiling for hours. There are many bookshelves in the reading 
+room, with many tomes and scrolls to behold. 
+~
+1 0 0
+D8
+~
+~
+0 -1 4656
+R M 0 4651 5 4671
+R O 0 4654 1 4671
+E
+star~
+They are outlined in the background with white threads of cloth. 
+~
+E
+word words~
+They read: &WRoom of Astronomy&g 
+~
+E
+bookshelves bookshelf~
+There are many books within the bookshelves, each delving into the topic 
+of Astronomy. 
+~
+E
+view tapestry ceiling~
+The tapestry was stitched together by an astronomer who wanted to share 
+the delight of the night sky to everyone. There are some words stitched 
+onto the far corner of the tapestry. 
+~
+E
+tomes scrolls tome scroll~
+Some of the titles read: "A Night Guide to the Stars", "Mackey Mouse - 
+Constellation or Rodent?", "Paleon by Night"... 
+~
+S
+#4672
+Floating in Space~
+~
+Apart from the twinkling pinpoints of light in the distance, the 
+surroundings are totally black. Small pieces of gravel drift past in the 
+distance, heading towards some far-away target. Some gravel pieces knock 
+against each other, but strangely enough, there is no sound from the 
+collision. An orange glow slowly emerges in the distance ahead. 
+~
+1 65536 0
+D0
+There is blackness everywhere.
+~
+~
+0 -1 4673
+E
+pinpoint pinpoints light~
+They look like far away stars. 
+~
+E
+pieces gravel piece~
+They are some kind of reddish rock, and seem to float along a current. 
+~
+E
+orange glow~
+There appears to be a glow coming from the north. 
+~
+S
+#4673
+Floating in Space~
+~
+A small ball of light glows in this corner of space, with small whiffs of 
+gas flowing towards it in every direction. The sphere of light pulses at 
+intervals, slowly expanding and growing bigger. Little pinpricks of light 
+shine in the distance, providing a contrast against the black background. 
+~
+1 65536 0
+D0
+There is blackness everywhere.
+~
+~
+0 -1 4674
+D2
+There is blackness everywhere.
+~
+~
+0 -1 4672
+E
+ball light~
+The light is rather dazzling. It looks like it is a core of something. 
+~
+E
+gas~
+The gas looks like hydrogen. 
+~
+E
+pinprick pinpricks~
+They are the light of far away stars. 
+~
+S
+#4674
+Floating in Space~
+~
+There is a great big ball of fire burning in space here, radiating strong 
+beams of light and heat. Farther out in the distance, spheres of different 
+sizes and shapes rotate round the ball of fire, in a never-ending pattern. 
+Bigger rocks whizz through the place, in between these rotating spheres, 
+sometimes even colliding violently with them. 
+~
+1 65536 0
+D0
+There is blackness everywhere.
+~
+~
+0 -1 4675
+D2
+There is blackness everywhere.
+~
+~
+0 -1 4673
+E
+ball fire~
+The ball appears to be a star in its prime. 
+~
+E
+sphere spheres~
+The spheres each have an atmosphere, and most of them are teeming with 
+life. 
+~
+E
+rock rocks~
+These rocks are asteroids, floating in space for all eternity. 
+~
+S
+#4675
+Floating in Space~
+~
+An ugly red ball of light blots out the entire horizon, emitting out harsh 
+rays of light. Spheres of different sizes and shapes rotate round the ball 
+of light, but they are now charred and devoid of life. Rocks now travel to 
+and fro from these spheres, heavily bombarding their surfaces. 
+~
+1 65536 0
+D0
+There is blackness everywhere.
+~
+~
+0 -1 4676
+D2
+There is blackness everywhere.
+~
+~
+0 -1 4674
+E
+red ball light~
+The star has grown too big, and is dying soon. 
+~
+E
+sphere spheres~
+The immense heat of the dying star has removed the atmosphere from these 
+spheres, and with it, all life as well. 
+~
+E
+rock rocks~
+These asteroids collide with impunity at each sphere, as there are no more 
+protective atmospheres to protect them from such collisions. 
+~
+S
+#4676
+Floating in Space~
+~
+Faint luminosity emits from a small ball of light, gently lighting up the 
+entire place. Waves of heat flow outwards from the ball, projected 
+outwards in all distances. Massive rocks circle around the ball in an 
+elliptical orbit, almost as if in a fixed pattern. The life once seen in 
+these rocks have been long extinguished. 
+~
+1 65536 0
+D0
+There is blackness everywhere.
+~
+~
+0 -1 4677
+D2
+There is blackness everywhere.
+~
+~
+0 -1 4675
+E
+ball light~
+It is a small dwarf star that is about to die soon. At least, in purely 
+astronomical terms. 
+~
+E
+rock rocks~
+Once planets, these have had their atmosphere burnt out and suffered the 
+bombardment of asteroids. 
+~
+S
+#4677
+Floating in Space~
+~
+There is a strong current pulling everything to the center of the space, 
+like a whirlpool sucking in everything in its wake. The epicentre of this 
+whirlpool however, is in total darkness. Rocks, space debris, and other 
+materials are being sucked into it, as well as beams of light. 
+~
+1 65536 0
+D5
+Nothing can be seen.
+~
+~
+0 -1 4671
+E
+whirlpool~
+It is a black hole, where not even light can escape. The strong 
+gravitational forces are slowly pulling you inwards.. 
+~
+E
+rock rocks debris material materials light beam beams~
+Nothing escapes the clutches of the black hole, when they get within its 
+pull. 
+~
+S
+#4678
+A Corridor of the Atheneum~
+~
+A marble-tiled corridor leads onwards into the bowels of the Atheneum, 
+where centuries of knowledge are gathered within, binded in tomes, 
+scrolls, books, and parchments of aged writing. There is a maroon carpet 
+paving the marble floor, stretching down the long corridor. There is a 
+small archway heading west, deep into the Atheneum archives. A small 
+bronze plated sign hangs above the archway. 
+~
+1 0 0
+D0
+The corridor continues northwards.
+~
+~
+0 -1 4679
+D3
+The Atheneum archives are to the west.
+~
+~
+0 -1 4683
+D8
+The main hall of the Atheneum lies to the southeast.
+~
+~
+0 -1 4651
+R M 0 4650 7 4678
+R M 0 4651 5 4678
+E
+tiled marble floor~
+The floor is paved with marble, and is smooth to the touch. 
+~
+E
+carpet~
+The carpet covers the whole of the corridor, and must be a pain to clean. 
+~
+E
+archway~
+The archway leads into a small section of the Atheneum. 
+~
+E
+sign~
+The sign reads: "&RBestiary&g". 
+~
+S
+#4679
+A Corridor of the Atheneum~
+~
+A marble-tiled corridor stretches in a north-southerly direction, with 
+patrons walking along it to get to various archives. Several flowerpots 
+are arranged next to the maroon carpet, each sprouting a different kind of 
+flower. Directly opposite the flowerpots is a small archway heading 
+eastwards to a section of the Atheneum archives. There is a small bronze 
+plated sign hanging above the archway. 
+~
+1 0 0
+D0
+The corridor continues northwards.
+~
+~
+0 -1 4680
+D1
+The Atheneum archives are to the east.
+~
+~
+0 -1 4685
+D2
+The corridor continues southwards.
+~
+~
+0 -1 4678
+R M 0 4651 5 4679
+R M 0 4652 6 4679
+E
+marble tiled~
+The corridor is paved with marble, and is smooth to the touch. 
+~
+E
+carpet~
+The carpet covers the whole of the corridor, and must be a pain to clean. 
+Small mounds of dirt are on the carpet. 
+~
+E
+mound mounds dirt~
+They seem to have been dislodged from the flowerpots. 
+~
+E
+flowerpots flowerpot flower flowers~
+Petunias, jasmines, tulips, and more grow from these flowerpots, 
+brightening up the area. 
+~
+E
+archway~
+The archway leads into a small section of the Atheneum. 
+~
+E
+sign~
+The sign reads: "&GPlaces of the World&w". 
+~
+S
+#4680
+A Corridor of the Atheneum~
+~
+Many patrons pace to and fro along the marble-tiled corridor, trying to 
+find the information they need from the archives of the Paleon Atheneum. 
+At times, some of them stop to admire themselves against the full-length 
+mirror on the eastern wall, before setting off again. There is a small 
+archway to the west, leading into the archives of the Atheneum. Above the 
+archway hangs a small bronze plated sign. 
+~
+1 0 0
+D0
+The corridor continues northwards.
+~
+~
+0 -1 4681
+D2
+The corridor continues southwards.
+~
+~
+0 -1 4679
+D3
+The Atheneum archives are to the west.
+~
+~
+0 -1 4687
+R M 0 4650 7 4680
+R M 0 4652 6 4680
+E
+carpet~
+The carpet covers the whole of the corridor, and must be a pain to clean. 
+~
+E
+full-length mirror full length~
+The mirror is made out of highly polished bronze, such that it can reflect 
+images. It is leaned slightly against the wall, its base touching the 
+carpet lining the corridor. Engraved on the mirror is a small inscription. 
+~
+E
+archway~
+The archway leads into a small section of the Atheneum. 
+~
+E
+sign~
+The sign reads: "&BAncient and Current History&g". 
+~
+E
+inscription~
+The inscription reads: &RBronze as a mirror reflects one's dress and hat, 
+but history as a mirror reflects the ups and downs of an empire.&w 
+~
+E
+marble~
+The corridor is paved with marble, and is smooth to the touch. 
+~
+S
+#4681
+A Corridor of the Atheneum~
+~
+The marble-tiled corridor continues both northwards and southwards, 
+leading off to rooms which houses the gathered knowledge of the Atheneum. 
+A full set of shiny plate armor balance on the ground, with one of its 
+mailed fists clenching a lance. The lance however, seems to have 
+misbalanced, as its tip has torn a hole in the maroon carpet covering the 
+corridor. There is a small bronze plated sign hanging over an archway 
+heading eastwards into the Atheneum archives. 
+~
+1 0 0
+D0
+The corridor continues northwards
+~
+~
+0 -1 4682
+D1
+The Atheneum archives are to the east.
+~
+~
+0 -1 4689
+D2
+The corridor continues southwards.
+~
+~
+0 -1 4680
+R M 0 4650 7 4681
+E
+marble~
+The corridor is paved with marble, and is smooth to the touch. 
+~
+E
+carpet hole~
+The carpet covers the whole of the corridor, and must be a pain to clean. 
+It also must be a pain to replace, judging from the size of the big hole. 
+~
+E
+shiny plate armor fist fists mailed~
+The armor is a classic reproduction of the armor worn by knights. 
+~
+E
+lance tip~
+The lance is a weapon predominantly favoured by knights. 
+~
+E
+archway~
+The archway leads into a small section of the Atheneum. 
+~
+E
+sign~
+The sign reads: "&YProfessions of the Time&w". 
+~
+S
+#4682
+At the End of a Corridor~
+~
+The marble-tiled corridor extends southwards from the northern wall, all 
+the way to the main hall of the Atheneum. Patrons travel along the 
+corridor, hoping to find a room which has the knowledge they require. An 
+elaborate tapestry hangs on the northern wall, depicting the entire city 
+of Paleon. A small archway leads to the west into the archives of the 
+Atheneum. There is a bronze plated sign hanging above the archway. 
+~
+1 0 0
+D2
+The corridor continues southwards.
+~
+~
+0 -1 4681
+D3
+The Atheneum archives are to the west.
+~
+~
+0 -1 4691
+R M 0 4652 6 4682
+E
+marble marble-tiled tiled~
+The corridor is paved with marble, and is smooth to the touch. 
+~
+E
+carpet~
+The carpet covers the whole of the corridor, and must be a pain to clean. 
+~
+E
+wall~
+It is surprisingly bare. 
+~
+E
+tapestry city paleon~
+The tapestry is woven with fine threads, bringing out the detail of the 
+city of Paleon. 
+~
+E
+archway~
+The archway leads into a small section of the Atheneum. 
+~
+E
+sign~
+The sign reads: "&CFamous People&w". 
+~
+S
+#4683
+In the Atheneum Archives~
+~
+Twin rows of bookcases fill the room, with tomes and books neatly arranged 
+on them. There is a small metal plate on the end of each bookcase, listing 
+down the books available. Above the bookcases are heads of various beasts 
+and animals, mounted on plaques affixed to the walls. A small archway 
+leads out to the east into the corridors of the Atheneum. 
+~
+1 0 0
+D1
+The main corridor of the Atheneum lies to the east.
+~
+~
+0 -1 4678
+D3
+The archives continue to the west.
+~
+~
+0 -1 4684
+R O 0 4670 1 4683
+E
+archway~
+The archway leads out into the main corridor of the Atheneum. 
+~
+E
+head heads beast beasts animal animals plaque plaques~
+They were all exotic animals of the realm, killed and stuffed here in the 
+Atheneum for all to admire. 
+~
+S
+#4684
+In the Atheneum Archives~
+~
+Paleon citizens walk among the rows of bookcases, flipping through the 
+books to look up the extraordinary beasts of the land. At times, they even 
+look up from the text they were reading and gesticulate wildly at the 
+heads mounted on the wall. Amongst the numerous craniums mounted in the 
+room, there is a small blue head that looks out of place with the rest of 
+them. 
+~
+1 0 0
+D1
+The archives continue to the east.
+~
+~
+0 -1 4683
+E
+cranium craniums~
+They were all exotic animals of the realm, killed and stuffed here in the 
+Atheneum for all to admire. 
+~
+E
+blue head~
+The head looks rather gelatinous, with horns, a walrus-like mouth, and two 
+sets of eyes. On the plaque which the head is mounted on is a set of 
+flowery script reading: Antwerp - Bagged by T.G.F.A 
+~
+S
+#4685
+In the Atheneum Archives~
+~
+There is a pine table here in the Archives, stretching from the entrance 
+to the far side of the room. On the southern side of the room, there are 
+scroll racks hanging on the walls, with the name of the scrolls engraved 
+below them. Hanging on the north wall is a huge tapestry, depicting a map 
+of the entire world. A small archway leads out to the west into the 
+corridors of the Atheneum. 
+~
+1 0 0
+D1
+The archives continue to the east.
+~
+~
+0 -1 4686
+D3
+The main corridor of the Atheneum lies to the west.
+~
+~
+0 -1 4679
+E
+pine table~
+The surface of the table feels smooth to the touch. Usually, the scrolls 
+here are unrolled and placed on the table for viewing. 
+~
+E
+tapestry map world~
+The tapestry was created by an unknown cartographer years ago. While it 
+may not be accurate, it is the only mapping work done on this magnitude 
+before, hence it hangs in the Atheneum. 
+~
+E
+archway~
+The archway leads out into the main corridor of the Atheneum. 
+~
+E
+pine table~
+~
+S
+#4686
+In the Atheneum Archives~
+~
+There is a map of the city of Paleon unrolled on this part of the pine 
+table. It seems that an inconsiderate patron of the Atheneum forgot to 
+return it to its proper place on the scroll rack. There is a black smudge 
+on the lower right corner of the tapestry, almost marring the great work 
+of cartography. There are more scroll racks in this room, holding more 
+information about the world. 
+~
+1 0 0
+D3
+The archives continue to the west.
+~
+~
+0 -1 4685
+E
+pine table~
+The surface of the table feels smooth to the touch. Usually, the scrolls 
+here are unrolled and palced on the table for viewing. 
+~
+E
+tapestry~
+The tapestry was created by an unknown cartographer years ago. While it 
+may not be accurate, it is the only mapping work done on this magnitude 
+before, hence it hangs in the Atheneum. 
+~
+E
+smudge black~
+Staring closer at the smudge, it looks like someone tried to write on the 
+tapestry in ink. 
+~
+E
+map city paleon~
+Paleon City Map made by Fya
+
+
+&g                    [B] [ ]-[ ]-[ ]-[ ]-[ ]                    &g    
+&g                     | /         |         \                   &g   
+&g                    [ ]-[s] [ ]-[ ]-[ ]     [ ]                &g  
+&g                   /   \         |         /   \               &g  
+&g                [ ] [s]-[ ]-[s] [h]     [ ]     [ ]            &g  
+&g               /           \           /         |             &g  
+&g            [ ]             [ ]     [ ]         [ ]            &g   
+&g             |                 \   /             |             &g   
+&g[H]-[ ]+[v]-[ ]-[ ]-[ ]-[ ]-[ ]-[v]-[ ]-[ ]-[ ]-[ ]-[v]-[ ]-[M]&g
+&g             |                 /   \             |        &g
+&g            [ ]             [ ]     [ ]         [ ]            &g   
+&g             |             /           \         |             &g 
+&g            [ ]-[P]     [ ]            -[#]-    [ ]            &g 
+&g             |         /                   \     |             &g  
+&g            [ ]     [ ]                 [r]-[*]-[ ]            &g 
+&g               \   /                         | /               &g  
+&g            [ ]-[ ]         [ ]-[A]         [ ]                &g  
+&g                   \         |             /                   &g 
+&g                    [ ]-[ ]-[ ]-[ ]-[ ]-[ ]                    &g  
+&g                                 |          &g
+&g                                [t]                            &g  
+&g                                                               &g  
+&g                                  [^]-[#]-------[s]            &g  
+&g                                   |   | \       |             &g   
+&g                                   |  [ ] \     [s]            &g   
+&g                                   |   |   \ ^ /               &g   
+&g                                  [^]-[ ]   [*]                &g  
+
+A - Art Gallery           
+B - Bank                  *,# - see second map
+h - healer                
+H - Haon Dor              ^ - exit up
+M - Miden'nir             v - exit down
+P - Paleon Prison
+s - shop
+t - teacher
+~
+S
+#4687
+In the Atheneum Archives~
+~
+There are mounds of dust in the archives, over the bookcases, tables, and 
+even the chairs. Apparently, not many people visit this section of the 
+archives, or bother to clean up the place. The bookcases are surprisingly 
+filled to the brim with yellowed books and musty tomes, each looking like 
+they could crumble apart at the slightest touch. There is a dust-covered 
+plating on the bookcases. A small archway leads out to the east into the 
+corridors of the Atheneum. 
+~
+1 0 0
+D1
+The main corridor of the Atheneum lies to the east.
+~
+~
+0 -1 4680
+D3
+The archives continue to the west.
+~
+~
+0 -1 4688
+E
+mounds mound dust~
+The dust is rather thick, rising up a few centimetres off the floor. 
+~
+E
+tables table chair chairs~
+Once finely polished and ready to be used, the tables and chairs are now 
+dusty and dull. 
+~
+E
+archway~
+The archway leads out into the main corridor of the Atheneum. 
+~
+S
+#4688
+In the Atheneum Archives~
+~
+Dust covers almost everything in the back section of the archives. It 
+seems clear that no one has come into this place for a long time. Perhaps 
+the history of the world was deemed too boring. There are bookcases placed 
+here, once standing proud in the past, but now covered with dark grey 
+streaks of dust, the books almost invisible behind them. 
+~
+1 0 0
+D1
+The archives continue to the east.
+~
+~
+0 -1 4687
+E
+dust streaks streak grey~
+The dust is rather thick here, causing one to easily sneeze. 
+~
+S
+#4689
+In the Atheneum Archives~
+~
+There are many stands in the room, each holding a glass case, where 
+different objects are encased within. A small plaque is attached to each 
+stand. Behind these stands are several bookcases, each containing tomes of 
+information. There is a bronze sign affixed to the side of each bookcase. 
+A small archway leads out to the west into the corridors of the Atheneum. 
+~
+1 0 0
+D1
+The archives continue to the east.
+~
+~
+0 -1 4690
+D3
+The main corridor of the Atheneum lies to the west.
+~
+~
+0 -1 4681
+E
+archway~
+The archway leads out into the main corridor of the Atheneum. 
+~
+E
+stand stands~
+These stands are rather sturdy, made out of fine teak. 
+~
+E
+glass case~
+The glass has been enchanted, making it impossible to break. Within the 
+cases are objects which are the tools of the trade of the various 
+professions in the world. 
+~
+E
+object objects~
+These objects are many, ranging from a wizard's hat to a juggler's 
+coloured balls to a thief's lockpicks. 
+~
+S
+#4690
+In the Atheneum Archives~
+~
+This part of the Atheneum archives is rather popular among the youths of 
+Paleon. Those youths that can read usually browse the archives to read 
+more about exciting vocations and their requirements, whereas others just 
+stare in awe at the glass cases. As such, the bookcases here house a lot 
+of tattered and dogeared books. 
+~
+1 0 0
+D3
+The archives continue to the west.
+~
+~
+0 -1 4689
+S
+#4691
+In the Atheneum Archives~
+~
+There is a long row of bookcases in this part of the archives, filled with 
+tomes of varying thickness. A metal plaque hangs on one of the sides of 
+the bookcases. Various portraits of people, humans and demihumans, hang on 
+the walls here. Below each portrait is a caption, written on a gilded 
+plate. A small archway leads out to the east into the corridors of the 
+Atheneum. 
+~
+1 0 0
+D1
+The main corridor of the Atheneum lies to the east.
+~
+~
+0 -1 4682
+D3
+The archives continue to the west.
+~
+~
+0 -1 4692
+R O 0 4669 1 4691
+E
+archway~
+The archway leads out into the main corridor of the Atheneum. 
+~
+E
+portrait portraits~
+They are all famous heroes and adventurers of the known world. 
+~
+E
+plate caption gilded~
+The caption simply reads out their names. 
+~
+S
+#4692
+In the Atheneum Archives~
+~
+Almost everyone of note is mentioned within the Paleon archives, with a 
+short biography dedicated to them. Sometimes, even the famous would submit 
+an autobiography to the librarian of the Archives, so that they can be 
+remembered for all time. Paleon citizens at times idly browse through the 
+bookcases, looking up the history of these distinguished people, while the 
+more enterprising ones sit at the table writing their own biography, 
+hoping to get it approved by the librarian and hence be forever in the 
+Archives. 
+~
+1 0 0
+D1
+The archives continue to the east.
+~
+~
+0 -1 4691
+S
+#4693
+A Reading Room~
+~
+This room has countless paintings of scenes ranging from romantic 
+portraits to battles set in a world unknown. A number of soft armchairs 
+and couches form a circle in the middle of the room. Along the walls, 
+bookshelves have been filled with small bound books of fiction. A crescent 
+shaped table in the center of the room surrounds a single pillar of 
+magical light. Motes of light floating around the ceiling provide more 
+light for reading. 
+~
+1 8 0
+D9
+~
+~
+0 -1 4656
+R O 0 4671 1 4693
+E
+pillar~
+Glowing radiantly, this floor to ceiling pillar is crafted of frosted glass. Etched upon its surface are depictions of unknown worlds and strange symbols. The light it emits shifts constantly between a soft white to a soothing blue, then to a peaceful green and sometimes a sunny yellow. 
+~
+S
+#4694
+Floating in a void~
+~
+~
+1 4 1
+S
+#4695
+Floating in a void~
+~
+~
+1 4 1
+S
+#4696
+Floating in a void~
+~
+~
+1 4 1
+S
+#4697
+Floating in a void~
+~
+~
+1 4 1
+S
+#4698
+Floating in a void~
+~
+~
+1 4 1
+S
+#4699
+Floating in a void~
+~
+~
+1 4 1
+S
+#4700
+Floating in a void~
+~
+~
+1 4 1
+S
+#0
+
+
+#SHOPS
+ 4654    0  0  0  0  0   120  90         0 23    ; Ethan
+ 4670   17 17 17 17 17   120  90         0 23    ; Cafe Barista Etienne
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

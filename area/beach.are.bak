@@ -1,0 +1,1070 @@
+#AREA        Norrinton's South Harbor~
+
+
+
+#VERSION     11
+#AUTHOR      Vladaar~
+#DERIVATIVES ~
+#COLOR       11
+#HTOWN       ~
+#DESC        ~
+
+#RANGES
+10 20 1 100
+$
+
+#SPELLLIMIT 0
+#WEATHERCELL 0 0
+
+#RESETMSG You hear a flock of sea gulls landing on the beach.~
+
+#FLAGS
+0 10
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 31250000 0 999999648 999993913 -1
+
+#CLANNAME none~
+
+#INFLUENCE 0
+
+#MOBILES
+#10001
+old human sailor tybias~
+Tybias Dofrey~
+An old human sailor is standing here.
+~
+The old sailor has grey hair and a long beard.  He has piercing green eyes.
+~
+0
+Clanname none~
+0
+0
+16908291 4194304 0 C
+50 0 0 2d1000+20000 3d8+4
+0 0 0 0 0 
+0
+115 115 1
+25 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 3
+0 0 0 0 0 0 112 3
+> speech_prog 'no gnomes no more'~
+if ovnumcarry(2311) > 5
+  mppause 5
+  mpechoat $n &CTybias says, 'Well Congratulations!!'&D
+  mppause 5
+  mpquest $n narcista 7
+  mppause 3
+  mpechoat $n &CTybias says, 'I only needed to know you killed the gnomes.'&D
+  mppause 8
+  mpat 4 drop all
+  mpechoat $n &CTybias says, 'Great now just give me your medallion, and I'll engrave it.'&D
+  mppause 3
+  mpechoat $n &CTybias says, 'That way the officer on duty will let you aboard.'&D
+else
+  frown
+  mppause 3
+  mpechoat $n &CTybias says, 'You didn't give the me 6 daggers that you are carrying as proof of killing the gnomes.'&D
+endif
+~
+> act_prog p gives you the Medallion of Narcista.~
+mppause 3
+mpechoat $n &cTybias begins engraving his approval on the Medallion.&D
+mpat 4 drop all
+mpoload 10006 1
+get medallion
+give medallion $n
+mpquest $n narcista 8
+mppause 3
+mpechoat $n &CTybias says, 'Good Luck to yah!'&D
+~
+> act_prog p gives you a barrel of elven ale.~
+mppause 4
+mpechoat $n &CTybias says, 'You have the makings of becoming a crew member on the Narcista.'&D
+mppause 2
+drink ale
+burp
+mppause 8
+mpechoat $n &CTybias says, 'The fourth task is...'&D
+mpquest $n narcista 5
+mppause 2
+mpoload 10005 1
+get paper
+give paper $n
+mppause 3
+mpechoat $n &CTybias says, 'Give this message to Gorin in Manoake City.'&D
+~
+> speech_prog yes~
+mppause 5
+mpechoat $n &CTybias says, 'I'm working for Captain Strous on the ship that travels to Vila Island.'&D
+mppause 10
+mpechoat $n &CTybias says, 'I might work at getting you a pass to come along if you complete 5 tasks.'&D
+mppause 3
+grin
+mpechoat $n &CTybias says, 'I would prefer to do a lot of grog drinking then these tasks for the captain.'&D
+mppause 10
+mpechoat $n &cType &WSAY FIRST &cto begin.&D
+~
+> speech_prog first~
+mppause 5
+mpechoat $n &CTybias says, 'Well I need you to eliminate all the crab vermin here.'&D
+mppause 6
+mpquest $n narcista 1
+mpechoat $n &CTybias says, 'Careful lad the crabs are giants here.'&D
+mppause 8
+mpechoat $n &CTybias says, 'Just wipe them out and come see me.'&D
+mppause 4
+mpechoat $n &CTybias says, 'When you arrive, &WSAY THE DEED IS DONE&C.'&D
+mpechoat $n &CTybias says, 'I will tell you what to do next.'&D
+~
+> speech_prog 'the deed is done'~
+if mobinworld(10002) < 1
+  mppause 8
+  if sex($n) == 1
+    mpechoat $n &CTybias says, 'Very well indeed young Lad!'&D
+  else
+    mpechoat $n &CTybias says, 'Nice work Lass!'&D
+  endif
+  mpat 4 drop all
+  mpechoat $n &CTybias says, 'Take this medallion to the old man on the pier for the second part.'&D
+  mpoload 10002 1
+  get medallion
+  give medallion $n
+  mpquest $n narcista 2
+else
+  frown
+  mpechoat $n &CTybias says, 'My friend there are still crabs around.'&D
+endif
+~
+> greet_prog 100~
+if iscarrying($n) == 31621
+  if sex($n) == 1
+    tell $n Great job Lad!
+  else
+    tell $n Great job Lass!
+  endif
+  mppause 6
+  mpechoat $n &CTybias says, 'Give me the ale, and I'll tell you the fourth task.'&D
+else
+  if quest(narcista) < 1
+    mppause 3
+    if sex($n) == 1
+      mpechoat $n &CTybias says, 'Greetings Lad!'&D
+    else
+      mpechoat $n &CTybias says, 'Greetings Lass!'&D
+    endif
+    mppause 8
+    mpechoat $n &CTybias says, 'I don't suppose you could help me with some things?'&D
+    mppause 5
+    mpechoat $n &cType &WSAY YES&c to accept this task.&D
+  endif
+  if quest(narcista) == 1
+    mpechoat $n &cType &WSAY THE DEED IS DONE &cto continue.&D
+  endif
+endif
+~
+|
+#10002
+giant crab~
+a giant crab~
+A giant crab lumbers about here.
+~
+The crab is the size of a wolf.  It has two large pincher claws, and glowing red eyes.
+~
+0
+Clanname none~
+0
+0
+1 0 0 C
+20 0 0 1d20+500 1d4+1
+0 0 0 0 20 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 4 0 0 1 1 2
+0 0 4137 0 0 0 2 2
+> death_prog 100~
+if quest(Tarane) == 10
+  mpquest $n Tarane 11
+else
+  mppause 2
+endif
+~
+|
+#10003
+wolf spider~
+a wolf spider~
+A wolf spider is stalking its prey here.
+~
+The spider brown in color with patches of hair on it's legs.
+~
+1
+Clanname none~
+0
+0
+131107 0 0 C
+20 0 0 1d20+500 1d4+2
+0 0 0 0 20 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+59 4 0 0 1 1 2
+0 0 0 0 0 0 262145 2
+#10004
+sea gull~
+a sea gull~
+A sea gull is preening its feathers here.
+~
+The sea gull has long legs and is covered with white feathers.
+~
+5
+Clanname none~
+0
+0
+1 0 0 C
+20 0 0 1d20+500 1d4+8
+0 0 0 0 20 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10005
+old human sailor Banger~
+Sailor Banger~
+A tired old sailor sits on a bundle of hemp rope here.
+~
+The sailor has no shirt on, and is displaying a chest full of gray hair.  The sailor
+has a naked woman tattooed on his forearm.
+~
+0
+Clanname none~
+0
+0
+131075 4194304 0 C
+1 0 0 0d0+0 0d0+0
+0 0 0 0 0 
+0
+115 115 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if iscarrying($n) == 10002
+  if sex($n) == 1
+    mpechoat $n &CSailor Banger says, 'Alas lad, I do have a task for you.'&D
+  else
+    mpechoat $n &CSailor Banger says, 'Alas lass, I do have a task for you.'&D
+  endif
+  mppause 5
+  mpechoat $n &CSailor Banger says, 'Take this other half and connect the pieces.'&D
+  mpoload 10003 1
+  get medallion
+  drop medallion
+  mpechoat $n &CSailor Banger says, 'Be sure to pick the Medallion half up, and not forget it.'&D
+  mpquest $n narcista 3
+  mppause 5
+  mpechoat $n &CSailor Banger says, 'Now for the seond part of the task...'&D
+  mppause 6
+  mpechoat $n &CSailor Banger says, 'Take the medallion to the Priestess Shalandra.'&D
+  mppause 3
+  mpechoat $n &CSailor Banger says, 'She lives in the elven tree City of Loramoor.'&D
+else
+  mpechoat $n &CSailor Banger says, 'I'm too busy to be bothered...'&D
+  mppause 5
+  mpechoat $n &CSailor Banger says, 'I do have some potions for sale if you're interested.'&D
+  mppause 3
+  mpechoat $n &cSailor Banger takes a drink from a bottle of grog.&D
+endif
+~
+|
+#10006
+hermit crab~
+a hermit crab~
+A hermit crab scurries along here.
+~
+The hermit crab has long legs and is cowers within it's hard shell.
+~
+5
+Clanname none~
+0
+0
+131075 0 0 C
+15 0 0 1d20+300 1d4+8
+0 0 0 0 0 
+0
+115 115 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 4 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#0
+
+
+#OBJECTS
+#10000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#10001
+crab meat~
+some freshly cut raw crab meat~
+A few pieces of freshly cut raw crab meat lay here.~
+~
+19 0 16385
+5 0 0 0 0 0 0
+1 50 5
+4
+3
+0
+0
+0
+0
+S 3 0
+E
+meat raw~
+The fresh crab meat is bursting with juice.
+~
+#10002
+first half piece medallion~
+a first half of a medallion~
+A half piece of a medallion has been left here.~
+~
+54 0 16385
+0 10003 10004 0 0 0 0
+1 1 0
+1
+14
+0
+0
+0
+0
+S 3 0
+E
+first~
+The first half of the medallion seems to be cut with a precise
+tool that would have something else attached to it.
+~
+#10003
+second half medallion~
+a second half of a medallion~
+A half piece of a medallion has been left here.~
+~
+54 0 16385
+10002 0 10004 0 0 0 0
+1 1 0
+1
+14
+0
+0
+0
+0
+S 3 0
+E
+second~
+The second half of the medallion seems to be cut with a precise 
+tool that would have something else attached to it.
+~
+#10004
+Medallion Narcista~
+the Medallion of Narcista~
+A gawdy looking gold medallion has been left here.~
+~
+9 2 5
+60 60 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 77 0
+E
+medallion narcista~
+Both halves make up the medallion and connect together where the
+joints are almost seamless.
+~
+#10005
+message writ scrolled paper~
+a writ of scrolled paper~
+A writ of scrolled paper has been left here.~
+~
+47 0 16385
+0 0 0 0 0 0 0
+1 0 0
+1
+5
+0
+0
+0
+0
+S 3 0
+E
+paper write scrolled~
+&WTo: The Source
+
+I am ready to set sail now with the shipment for the Island.
+
+Please advise me, of any future trade shipments you would like
+
+to negotiate.
+
+Sincerely,
+
+Capt. of the Narcista
+
+~
+#10006
+Medallion Narcista~
+the Medallion of Narcista~
+A gawdy looking gold medallion has been left here.~
+~
+9 10 5
+60 60 0 0 0 0 0
+1 0 0
+1
+14
+0
+0
+0
+0
+S 77 0
+E
+medallion narcista~
+Both halves make up the medallion and connect together where the
+joints are almost seamless.
+~
+A
+17 -5
+#10007
+sailor phlem bottle~
+a bottle of sailors' phlegm~
+A dark colored bottle has been left here.~
+~
+10 0 16385
+20 -1 -1 -1 0 10 0
+1 10 1
+2
+4
+0
+0
+0
+0
+'aqua breath' 'NONE' 'NONE'
+S 3 0
+E
+phlem bottle~
+The cloudy colored liquid has something green floating in the bottle. 
+~
+#10050
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0 0 0 0
+1 0 0
+1
+0
+0
+0
+0
+0
+S 3 0
+#0
+
+
+#ROOMS
+#10000
+Zone Description~
+~
+This zone is intended to be a connected piece for a ship traveling adventure
+over the ocean to an island.  The beach will be for those under level 10.  The
+ship and ocean will be for those 10 - 15.  and the island for those 15 - 20. 
+Hopefully I will dot these zones will piles of fun quests.
+
+Vladaar
+~
+1 0 1
+D2
+~
+~
+0 -1 10001
+S
+#10001
+Before a Sandy Beach~
+~
+&OHigh grass gives away to sand.  A large beach spreads out on the horizon
+to the south.  The ocean waves lap at the beach sand.  There are a few
+small plants, and trees scattered about here.  Some small shells and pebbles
+are intermingled in the sand.  A large rock is to the right.
+~
+1 4 11
+D2
+~
+~
+0 -1 10002
+D11
+~
+~
+0 -1 42884
+S
+#10002
+Next to a Wooden Boardwalk~
+~
+&OAn oak boardwalk spreads out to the south and leads onto a wooden pier
+that extends over the ocean.  A large variety of sea shells, and plant life
+are all around.  The sand itself is darker in color in some spots then in
+others.  The ocean spreads out across the southern horizon.
+~
+1 0 37
+D0
+~
+~
+0 -1 10001
+D1
+~
+~
+0 -1 10003
+D2
+~
+~
+0 -1 10011
+D3
+~
+~
+0 -1 10004
+R M 0 10001 1 10002
+  R G 1 31621 1
+S
+#10003
+On the Bottom of a Large Sand Dune~
+~
+&OA giant hill of sand rises in the air to the east.  There is a variety of
+sea shells, and dried out sea weed intermingled throughout the sand.  A large
+wooden boardwalk leads onto a pier overlooking the ocean to the west.  The
+ocean spreads out across the southern horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10005
+D2
+~
+~
+0 -1 10012
+D3
+~
+~
+0 -1 10002
+S
+#10004
+Along a Sandy Path~
+~
+&OA wooden boardwalk is to the east, and it leads to a pier extending over
+the ocean.  There are small tracks from sea gulls in the sand, as well as
+plenty of bird droppings.  There are sea shells scattered amoung the sand
+with an occasional clam shell.  The ocean extends across the horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10002
+D2
+~
+~
+0 -1 10014
+D3
+~
+~
+0 -1 10008
+R M 0 10002 7 10004
+  R G 1 10001 1
+R M 0 10002 7 10004
+  R G 1 10001 1
+S
+#10005
+On Top of a Large Sand Dune~
+~
+&OThe sand slopes downward on all sides of the dune.  Various tracks of small
+animals criss cross the sand dune.  A large bird nest made out of pieces of
+twigs, and weeds is here.  The ocean spreads out across the southern horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10006
+D2
+~
+~
+0 -1 10015
+D3
+~
+~
+0 -1 10003
+R M 0 10002 7 10005
+  R G 1 10001 1
+S
+#10006
+At the Bottom of a Large Sand Dune~
+~
+&OA massive build up of sand to the west makes up a sand dune.  There are 
+smile piles of rotten food on the ground.  A large wooden fence is to the
+east.  The ocean spreads out across the southern horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10007
+D2
+~
+~
+0 -1 10016
+D3
+~
+~
+0 -1 10005
+R M 0 10004 3 10006
+S
+#10007
+Next to a Wooden Post Fence~
+~
+&OThe east is blocked off by large wooden posts that have been entwined with
+thick hemp rope.  There is a dark mud that has been used to fill in gaps of
+the wooden posts.  A large sand dune is to the west.  The ground is littered
+with various sea shells.  The ocean spreads out across the south.
+~
+1 0 37
+D3
+~
+~
+0 -1 10006
+R M 0 10002 7 10007
+  R G 1 10001 1
+S
+#10008
+Beside a Giant Boulder~
+~
+&OPart of a massive boulder juts out of the sand.  A small portion of the
+boulder has been broken off revealing a strange crystaline interior.  The
+ground is littered with sea shells, and small holes that hermit crabs use
+to breath from.  The ocean extends across the horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10004
+D2
+~
+~
+0 -1 10017
+D3
+~
+~
+0 -1 10009
+S
+#10009
+Next to the Remains of a Campfire~
+~
+&OThe remains of a large campfire are surrounded by carefully placed rocks.
+There is a small black iron rack in the campfire that may have been used for
+cooking things.  There are black ashes scattered about the sand, and they
+are intermingled with sea shells.  The ocean extends across the horizon.
+~
+1 0 37
+D1
+~
+~
+0 -1 10008
+D2
+~
+~
+0 -1 10018
+D3
+~
+~
+0 -1 10010
+S
+#10010
+Along a Large Wooden Post Fence~
+~
+&OA series of large wooden poles have been strung together by thick hemp rope
+to create a large fence that extends across the eastern edge of the beach.
+Dark colored mud has been used to fill the cracks of the fence line.  The
+sand is covered with dead jelly fish and sea shells.
+~
+1 0 37
+D1
+~
+~
+0 -1 10009
+S
+#10011
+On a Wooden Pier~
+~
+&OOak wooden planks make up the pier that stretches out over the ocean.  Large
+oak beams ground it into the ocean floor.  The vast ocean stretches out across
+the southern horizon.  There are bird droppings along the wooden planks.
+~
+1 4 1
+D0
+~
+~
+0 -1 10002
+D1
+~
+~
+0 -1 10100
+R M 0 10005 1 10011
+  R G 1 10007 1
+S
+#10012
+Next to a Wooden Pier~
+~
+&OA wooden boardwalk leads onto a wooden pier to the west.  The pier hangs out
+into the ocean itself.  Scattered moist seaweed, and a few dead fish lay here
+intermingled with sea shells.  The sand is dark with moisture to the south
+as the waves from the ocean come in.
+~
+1 0 37
+D0
+~
+~
+0 -1 10003
+D1
+~
+~
+0 -1 10015
+D2
+~
+~
+0 -1 10021
+D3
+~
+~
+0 -1 10013
+R M 0 10004 3 10012
+R M 0 10002 7 10012
+  R G 1 10001 1
+S
+#10013
+Under a Wooden Pier~
+~
+&ODirectly below a wooden pier the steps for it block the path north, and join
+a wooden boardwalk.  Large oak beams support the wooden pier and extend it 
+out into the ocean.  There are various sea shells, and dead jelly fish within
+the sandy beach.  The sand is dark with moisture to the south as the waves
+of the ocean come in.
+~
+1 0 37
+D1
+~
+~
+0 -1 10012
+D2
+~
+~
+0 -1 10022
+D3
+~
+~
+0 -1 10014
+R M 0 10003 1 10013
+S
+#10014
+Along Side a Wooden Pier~
+~
+&OA wooden pier extends out into the ocean to the east.  The remains of a
+decaying large fish have washed ashore here.  There is dry sea weed that
+has washed up on the shore, and it is intermingled with sea shells, and
+dead jelly fish.  The sand is dark with moisture to the south from the waves.
+~
+1 0 37
+D0
+~
+~
+0 -1 10004
+D1
+~
+~
+0 -1 10013
+D2
+~
+~
+0 -1 10023
+D3
+~
+~
+0 -1 10017
+S
+#10015
+Along the Shore line~
+~
+&OTo the north is a large sand dune.  The sandy ground is littered with dead
+jelly fish, scattered sea shells, and bird droppings.  There are small tracks
+from birds across the sand.  The sand is dark with moisture to the south as
+the waves come crashing into it.  A wooden pier is to the west.
+~
+1 0 37
+D0
+~
+~
+0 -1 10005
+D1
+~
+~
+0 -1 10016
+D2
+~
+~
+0 -1 10020
+D3
+~
+~
+0 -1 10012
+S
+#10016
+Next to the Shore~
+~
+&OA large sand dune is to the northwest.  A wooden fence blocks off the east.
+A few dead jelly fish, and scattered sea shells are intermingled on the ground.
+The sand is dark with moisture to the south as the waves come crashing into
+it.  Sea foam is on top of the sand in random locations from the ocean.
+~
+1 0 37
+D0
+~
+~
+0 -1 10006
+D2
+~
+~
+0 -1 10019
+D3
+~
+~
+0 -1 10015
+R M 0 10004 3 10016
+S
+#10017
+On the Shoreline~
+~
+&OA few broken wooden boards lay in the sand.  A series of small animal tracks
+are in the sand.  A starfish is drifting in and out of the ocean on the waves.
+The sand is littered with sea shells, and dead jelly fish.  There is a dark
+color to the sand from the moisture of the oceans waves.
+~
+1 0 37
+D0
+~
+~
+0 -1 10008
+D1
+~
+~
+0 -1 10014
+D2
+~
+~
+0 -1 10024
+D3
+~
+~
+0 -1 10018
+S
+#10018
+At the Shore Crest~
+~
+&OThe west is blocked off by a large wooden fence.  A coral reef stands above
+the ocean water to the southwest.  The sand is littered with sea shells, and
+dead jelly fish.  There is a dark color to the sand from the ocean waves.
+~
+1 0 37
+D0
+~
+~
+0 -1 10009
+D1
+~
+~
+0 -1 10017
+R M 0 10002 7 10018
+  R G 1 10001 1
+R M 0 10002 7 10018
+  R G 1 10001 1
+S
+#10019
+Within the Surf~
+Not Assigned~
+&OThe sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water. 
+~
+1 0 6
+D0
+~
+~
+0 -1 10016
+D3
+~
+~
+0 -1 10020
+R M 0 10006 8 10019
+S
+#10020
+Along the Surf~
+Not Assigned~
+&OThe sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water.
+~
+1 0 6
+D0
+~
+~
+0 -1 10015
+D1
+~
+~
+0 -1 10019
+D3
+~
+~
+0 -1 10021
+R M 0 10006 7 10020
+R M 0 10006 7 10020
+S
+#10021
+Within the Surf~
+Not Assigned~
+&OThe sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water.
+~
+1 0 6
+D0
+~
+~
+0 -1 10012
+D1
+~
+~
+0 -1 10020
+D3
+~
+~
+0 -1 10022
+R M 0 10006 5 10021
+R M 0 10006 5 10021
+S
+#10022
+Along the Surf~
+Not Assigned~
+&OThe sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water.
+~
+1 0 6
+D0
+~
+~
+0 -1 10013
+D1
+~
+~
+0 -1 10021
+D3
+~
+~
+0 -1 10023
+R M 0 10004 3 10022
+R M 0 10006 3 10022
+S
+#10023
+Next to the Reef~
+Not Assigned~
+&O The sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water.
+~
+1 0 6
+D0
+~
+~
+0 -1 10014
+D1
+~
+~
+0 -1 10022
+D3
+~
+~
+0 -1 10024
+R M 0 10006 2 10023
+S
+#10024
+Within the Shore Surf~
+Not Assigned~
+&OThe sand from the beach is slowly swept away from the waves of the 
+rushing ocean here. There is a mix of seaweed along the ground and small 
+shells from the ocean's waves. Various small creatures are swimming about 
+the water.
+~
+1 0 6
+D0
+~
+~
+0 -1 10017
+D1
+~
+~
+0 -1 10023
+R M 0 10006 1 10024
+S
+#0
+
+
+#SHOPS
+ 10005    0  0  0  0  0   120  90         0 23    ; Sailor Banger
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$
