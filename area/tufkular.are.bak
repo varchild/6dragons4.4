@@ -850,7 +850,7 @@ a worthless shield~
 A small metal shield lies on the ground.~
 ~
 9 0 513
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 0 0
 1
 6
@@ -1007,7 +1007,7 @@ a newly created white apron~
 Some god dropped a newly created white apron here.~
 ~
 9 0 2049 32
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 1 0 0
 1
 0
@@ -1226,7 +1226,7 @@ a blacksmith's hammer~
 A blacksmith's hammer has been left here.~
 ~
 5 524288 8193
-60 35 50 4 4 0 0
+60 27 34 4 4 0 0
 18 200 90
 1
 0
@@ -1296,7 +1296,7 @@ A pair of aether earrings~
 A pair or earrings made entirely out of light.~
 ~
 9 524289 65537
-10 10 0 0 0 0 0
+30 30 0 0 0 0 0
 1 500 50
 1
 0
@@ -1453,7 +1453,7 @@ a pair of tabi socks~
 A pair of tabi socks has been left here.~
 ~
 9 524288 65 64
-30 30 34 1 0 0 0
+20 20 34 1 0 0 0
 1 153 150
 3
 0

@@ -14,11 +14,11 @@ Level        108
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       31005
+Played       55709
 Room         1234
 HpManaMove   30000 30000 30000 30000 30025 30000
 BaseHp       0 
-Blood        10 7500
+Blood        7500 7500
 Money         0 10 198 100 2000 -1
 Exp           0
 Firstexp      0
@@ -26,9 +26,9 @@ Secondexp     0
 Thirdexp      0
 Height        66
 Weight        110
-Act           1644168776&4144
-AffectedBy    -2146435072
-Channels      chat say ooc shout yell icc wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction~
+Act           1644176984&4144&2
+AffectedBy    -2146369536
+Channels      say ooc shout yell icc chat wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction~
 Speed         32
 Position      115
 Style         2
@@ -48,10 +48,10 @@ RECAST          0
 AuthedBy     Varchild~
 KeepAlive      6
 GetsDExp     0
-LDExpUpdate  1647822211
+LDExpUpdate  1647987702
 tmpsecond -1
 tmpthird -1
-tmproom 1234
+tmproom 57000
 Textspeed          5
 PotionTimer        0 0 0
 FirstExpR          0
@@ -68,12 +68,22 @@ ObjCount           0
 ArenaWins          0
 ArenaLoss          0
 MapToggle          0
-MapSize            0
+MapSize            2
 MapDescToggle      0
 MapNameToggle      0
 MapType            0
 FoundArea       Halcyon Clan Hall~
+FoundArea       Wilderness~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Kirwood Swamp~
+FoundArea       Asgard~
+FoundArea       Abandoned Cabin ~
+FoundArea       Paleon Sewer~
+FoundArea       Under the Volcano~
+FoundArea       Darkhaven Art Gallery~
+FoundArea       Shattered Refuge~
 Bamfin       $n notice that Varchild is suddenly there.~
+Heaven_time 1647908338
 WizInvis     108
 Htown      Dakar City~
 Flags        2
@@ -654,6 +664,7 @@ NNSong        100 0 'sound waves' 0 0
 NNSong        100 0 'stirring ballad' 0 0
 NNSong        100 0 'thunderous hymn' 0 0
 NNSong        100 0 'unholy melody' 0 0
+AffectDataL   'hide' 108  -1   0   0 65536
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
 i3perm       5

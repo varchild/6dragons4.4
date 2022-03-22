@@ -33,30 +33,4 @@ Chieflog     1519009366
 Warlog     1287642928
 End
 
-#ROSTER
-Name       Vladaar~
-Joined     1448652934
-Updated    1519066386
-Race       Dwarf~
-Level      108
-PKills     1
-Kills      771
-Deaths     30
-TradeClass 20
-TradeLevel 20
-End
-
-#ROSTER
-Name       Osaroz~
-Joined     1473004866
-Updated    1519009366
-Race       Dwarf~
-Level      60
-PKills     0
-Kills      258
-Deaths     11
-TradeClass 25
-TradeLevel 20
-End
-
 #END

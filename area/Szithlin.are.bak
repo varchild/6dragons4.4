@@ -1281,7 +1281,7 @@ A drow dagger~
 A small dagger lays here glittering~
 ~
 5 8192 8193
-0 3 10 2 2 0 0
+0 5 15 2 2 0 0
 1 104 10
 2
 0
@@ -1326,7 +1326,7 @@ A drow helm~
 A helm lays here gathering dust~
 ~
 9 0 17
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 1 121 12
 2
 0

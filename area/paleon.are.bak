@@ -8971,7 +8971,7 @@ D1
 D2
 ~
 oak door~
-3 -1 16073
+1 -1 16073
 D3
 ~
 ~
@@ -9014,7 +9014,7 @@ D3
 D5
 ~
 sewer grate~
-16777219 -1 8364
+16777217 -1 8364
 R D 0 16068 1 0
 R D 0 16068 2 1
 R D 0 16068 5 1
@@ -9031,7 +9031,7 @@ hooded lanterns mounted to it.  Red stains are on the floor.
 D0
 ~
 oak door~
-3 -1 16067
+1 -1 16067
 R M 0 16007 1 16073
 R M 0 16123 1 16073
 R D 0 16073 0 1

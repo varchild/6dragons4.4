@@ -1447,3 +1447,113 @@ Sun Mar 20 14:07:48 2022: Alnar obtained level 4!&D
 Sun Mar 20 14:10:12 2022: Alnar obtained level 5!&D
 Sun Mar 20 14:22:37 2022: Alnar obtained level 6!&D
 Sun Mar 20 15:13:02 2022: Alnar obtained level 7!&D
+Sun Mar 20 23:58:15 2022: Sanibak obtained level 3!&D
+Mon Mar 21 00:11:17 2022: Sanibak obtained level 4!&D
+Mon Mar 21 00:13:50 2022: Sanibak obtained level 5!&D
+Mon Mar 21 00:18:17 2022: Sanibak obtained level 6!&D
+Mon Mar 21 00:37:13 2022: Sanibak obtained level 7!&D
+Mon Mar 21 00:54:43 2022: Sanibak obtained level 8!&D
+Mon Mar 21 00:57:12 2022: Varchild started Happy Hour
+Mon Mar 21 01:06:15 2022: Sanibak obtained level 9! (HappyHour)&D
+Mon Mar 21 01:19:28 2022: Sanibak obtained level 10! (HappyHour)&D
+Mon Mar 21 01:57:12 2022: System ended Happy Hour
+Mon Mar 21 08:19:13 2022: Correne obtained level 3!&D
+Mon Mar 21 08:21:48 2022: Correne obtained level 4!&D
+Mon Mar 21 08:28:21 2022: Correne obtained level 5!&D
+Mon Mar 21 08:46:59 2022: Sanibak obtained level 11!&D
+Mon Mar 21 09:04:28 2022: Correne obtained level 6!&D
+Mon Mar 21 09:16:21 2022: Sanibak obtained level 12!&D
+Mon Mar 21 09:41:51 2022: Linnia obtained level 3!&D
+Mon Mar 21 10:07:20 2022: Correne obtained level 3!&D
+Mon Mar 21 10:09:04 2022: Correne obtained level 4!&D
+Mon Mar 21 10:13:27 2022: Hrathon obtained level 3!&D
+Mon Mar 21 10:15:06 2022: Correne obtained level 5!&D
+Mon Mar 21 10:19:03 2022: Correne obtained level 6!&D
+Mon Mar 21 10:20:40 2022: Hrathon obtained level 4!&D
+Mon Mar 21 10:21:01 2022: Hrathon obtained level 5!&D
+Mon Mar 21 10:39:29 2022: Correne obtained level 7!&D
+Mon Mar 21 10:44:01 2022: Sanibak obtained level 13!&D
+Mon Mar 21 10:44:24 2022: Hrathon obtained level 6!&D
+Mon Mar 21 11:15:53 2022: Sanibak obtained level 14!&D
+Mon Mar 21 16:29:40 2022: Sanibak obtained level 15!&D
+Mon Mar 21 16:37:47 2022: Varchild started Happy Hour
+Mon Mar 21 16:45:30 2022: Sanibak obtained level 16! (HappyHour)&D
+Mon Mar 21 17:02:58 2022: Correne obtained level 3! (HappyHour)&D
+Mon Mar 21 17:09:22 2022: Correne obtained level 4! (HappyHour)&D
+Mon Mar 21 17:09:46 2022: Sanibak obtained level 17! (HappyHour)&D
+Mon Mar 21 17:18:21 2022: Linnia obtained level 3! (HappyHour)&D
+Mon Mar 21 17:20:44 2022: Correne obtained level 5! (HappyHour)&D
+Mon Mar 21 17:33:38 2022: Sanibak obtained level 18! (HappyHour)&D
+Mon Mar 21 17:37:47 2022: System ended Happy Hour
+Mon Mar 21 17:50:21 2022: Correne obtained level 3!&D
+Mon Mar 21 17:50:31 2022: Correne obtained level 4!&D
+Mon Mar 21 17:59:35 2022: Varchild started Happy Hour
+Mon Mar 21 18:24:19 2022: Correne obtained level 5! (HappyHour)&D
+Mon Mar 21 18:26:21 2022: Correne obtained level 6! (HappyHour)&D
+Mon Mar 21 18:31:51 2022: Sanibak obtained level 19! (HappyHour)&D
+Mon Mar 21 20:09:06 2022: Sanibak obtained level 20!&D
+Mon Mar 21 20:11:21 2022: Varchild started Happy Hour
+Mon Mar 21 20:13:41 2022: Hrathon obtained level 7! (HappyHour)&D
+Mon Mar 21 20:22:51 2022: Camlorn obtained level 3! (HappyHour)&D
+Mon Mar 21 20:30:01 2022: Camlorn obtained level 4! (HappyHour)&D
+Mon Mar 21 21:05:39 2022: Sanibak obtained level 21! (HappyHour)&D
+Mon Mar 21 21:11:21 2022: System ended Happy Hour
+Mon Mar 21 21:17:09 2022: Sanibak obtained level 22!&D
+Mon Mar 21 21:30:26 2022: Sanibak obtained level 23!&D
+Mon Mar 21 21:34:53 2022: Sanibak obtained level 24!&D
+Mon Mar 21 21:48:06 2022: Sanibak obtained level 25!&D
+Mon Mar 21 21:56:02 2022: Sanibak obtained level 26!&D
+Mon Mar 21 22:12:30 2022: Sanibak obtained level 27!&D
+Mon Mar 21 22:42:32 2022: Sanibak obtained level 28!&D
+Mon Mar 21 23:00:05 2022: Sanibak obtained level 29!&D
+Mon Mar 21 23:58:09 2022: Neos obtained level 3!&D
+Mon Mar 21 23:59:33 2022: Neos obtained level 4!&D
+Tue Mar 22 00:05:27 2022: Sanibak obtained level 30!&D
+Tue Mar 22 00:17:58 2022: Neos obtained level 5!&D
+Tue Mar 22 00:25:55 2022: Sanibak obtained level 31!&D
+Tue Mar 22 00:27:53 2022: Zael obtained level 3!&D
+Tue Mar 22 00:35:13 2022: Zael obtained level 4!&D
+Tue Mar 22 00:37:56 2022: Zael obtained level 5!&D
+Tue Mar 22 00:48:01 2022: Neos obtained level 6!&D
+Tue Mar 22 00:48:28 2022: Sanibak obtained level 32!&D
+Tue Mar 22 00:56:58 2022: Zael obtained level 6!&D
+Tue Mar 22 01:00:28 2022: Zael obtained level 7!&D
+Tue Mar 22 01:06:17 2022: Sanibak obtained level 33!&D
+Tue Mar 22 01:17:13 2022: Sanibak obtained level 34!&D
+Tue Mar 22 01:22:40 2022: Zael obtained level 8!&D
+Tue Mar 22 01:28:52 2022: Sanibak obtained level 35!&D
+Tue Mar 22 01:38:02 2022: Zael obtained level 9!&D
+Tue Mar 22 01:43:31 2022: Sanibak obtained level 36!&D
+Tue Mar 22 01:52:41 2022: Zael obtained level 10!&D
+Tue Mar 22 02:35:40 2022: Zael obtained level 11!&D
+Tue Mar 22 03:10:22 2022: Zael obtained level 12!&D
+Tue Mar 22 03:21:01 2022: Alnar obtained level 8!&D
+Tue Mar 22 04:02:56 2022: Alnar obtained level 9!&D
+Tue Mar 22 04:05:41 2022: Zael obtained level 13!&D
+Tue Mar 22 04:30:03 2022: Alnar obtained level 10!&D
+Tue Mar 22 04:38:29 2022: Zael obtained level 14!&D
+Tue Mar 22 05:04:50 2022: Alnar obtained level 11!&D
+Tue Mar 22 06:36:55 2022: Linnia obtained level 4!&D
+Tue Mar 22 07:01:28 2022: Neos obtained level 7!&D
+Tue Mar 22 08:01:24 2022: Neos obtained level 8!&D
+Tue Mar 22 08:27:23 2022: Neos obtained level 9!&D
+Tue Mar 22 09:30:08 2022: Sanibak obtained level 37!&D
+Tue Mar 22 09:41:51 2022: Wigther obtained level 3!&D
+Tue Mar 22 09:51:27 2022: Wigther obtained level 4!&D
+Tue Mar 22 09:53:10 2022: Wigther obtained level 5!&D
+Tue Mar 22 09:56:25 2022: Wigther obtained level 6!&D
+Tue Mar 22 10:03:07 2022: Sanibak obtained level 38!&D
+Tue Mar 22 10:19:10 2022: Wigther obtained level 7!&D
+Tue Mar 22 10:25:52 2022: Wigther obtained level 8!&D
+Tue Mar 22 11:05:10 2022: Sanibak obtained level 39!&D
+Tue Mar 22 11:06:07 2022: Wigther obtained level 9!&D
+Tue Mar 22 11:30:34 2022: Wigther obtained level 10!&D
+Tue Mar 22 11:32:45 2022: Sanibak obtained level 40!&D
+Tue Mar 22 11:58:17 2022: Alnar obtained level 12!&D
+Tue Mar 22 13:29:35 2022: Zael obtained level 15!&D
+Tue Mar 22 13:56:52 2022: Zael obtained level 16!&D
+Tue Mar 22 14:10:59 2022: Tokihasha obtained level 6!&D
+Tue Mar 22 14:29:18 2022: Sanibak obtained level 41!&D
+Tue Mar 22 14:36:28 2022: Tokihasha obtained level 7!&D
+Tue Mar 22 14:58:30 2022: Linnia obtained level 5!&D
+Tue Mar 22 15:19:25 2022: Zael obtained level 17!&D

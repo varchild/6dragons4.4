@@ -8467,7 +8467,7 @@ Hellspawn come from the following races - &WDEMON&c.
 See also: &WHELP STRENGTH, DEMON&D
 ~
 
-2 1647569034 HELP~
+2 1647846486 HELP~
 You must really need Help!
 
 To find help topics available to you, type hlist . This will give you
@@ -8725,7 +8725,7 @@ Syntax:  c 'holy sanctity'
 This spell casts sanctuary on every member of the cleric's group.
 ~
 
-1 1122239142 HOMEPAGE~
+1 1647902552 HOMEPAGE~
 syntax: homepage <url>
  
 example: homepage http://www.idirect.com/test.html
@@ -23131,7 +23131,7 @@ at the time the song is played.
 See also help &WPLAY
 ~
 
-0 1647576517 $~
+0 1647987376 $~
 
 
 #$

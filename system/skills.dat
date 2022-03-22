@@ -224,9 +224,9 @@ Hitvict      An aura of courage surrounds you.~
 Hitroom      $N is surrounded by an aura of courage.~
 Difficulty   5
 Teachers     2760~
-Affect       'l*4' 18 '8' -1
-Affect       'l*4' 19 '5' -1
 Affect       'l*4' 17 '-20' -1
+Affect       'l*4' 19 '5' -1
+Affect       'l*4' 18 '8' -1
 Minlevel     51
 End
 
@@ -506,7 +506,7 @@ Code         spell_continual_light
 Wearoff      !Continual Light!~
 Dice         0~
 Value        21
-Difficulty   2
+Difficulty   1
 Minlevel     1
 End
 
@@ -1060,8 +1060,8 @@ Wearoff      The eldritch sphere about you winks from existence.~
 Hitvict      A magical eldritch sphere forms about you...~
 Hitroom      A shimmering eldritch sphere forms about $N...~
 Difficulty   1
-Affect       '(l*3)+25' 27 '1048576' -1
 Affect       '(l*3)+25' 27 '8192' -1
+Affect       '(l*3)+25' 27 '1048576' -1
 Minlevel     101
 End
 
@@ -1584,7 +1584,7 @@ Rounds       15
 Code         spell_giant_strength
 Wearoff      You no longer feel as strong as a giant.~
 Hitvict      .~
-Difficulty   2
+Difficulty   1
 Teachers     2302~
 Minlevel     12
 End
@@ -1732,9 +1732,9 @@ Hitvict      You feel heroic.~
 Hitroom      $N beams broadly as a heroic blessing is placed on $M.~
 Difficulty   1
 Teachers     2302~
-Affect       'l*4' 19 'l/10' -1
-Affect       'l*4' 18 'l/8' -1
 Affect       'l*4' 24 '-(l/5)' -1
+Affect       'l*4' 18 'l/8' -1
+Affect       'l*4' 19 'l/10' -1
 Minlevel     9
 End
 
@@ -1881,8 +1881,8 @@ Hitchar      You lay The Fury of The High Gods upon $N.~
 Hitvict      The Fury of The High Gods is temporarily given to you.~
 Hitroom      The Fury of The High Gods is temporarily given to $N.~
 Difficulty   1
-Affect       'l/2' 19 '1+(l/17)' -1
 Affect       'l/2' 18 '1+(l/17)' -1
+Affect       'l/2' 19 '1+(l/17)' -1
 Minlevel     101
 End
 
@@ -2484,7 +2484,7 @@ Mana         12
 Rounds       14
 Code         spell_refresh
 Wearoff      &YA surge of energy feels your being!~
-Difficulty   2
+Difficulty   1
 Minlevel     4
 End
 
@@ -2978,7 +2978,7 @@ Mana         5
 Rounds       14
 Code         spell_static_pulse
 Dammsg       static pulse~
-Difficulty   1
+Difficulty   5
 Minlevel     2
 End
 
@@ -3094,9 +3094,9 @@ Hitvict      &YA summoned strength suddenly flows into you.~
 Hitroom      &YA summoned strength shows in $N's eyes.~
 Difficulty   1
 Teachers     16722~
-Affect       'l*10' 1 'l/20+1' -1
-Affect       'l*10' 18 'l/20+1' -1
 Affect       'l*10' 19 'l/20+1' -1
+Affect       'l*10' 18 'l/20+1' -1
+Affect       'l*10' 1 'l/20+1' -1
 Minlevel     101
 End
 
@@ -3231,8 +3231,8 @@ Hitchar      $N's face contorts with a bestial vigor...~
 Hitvict      You sense a bestial vigor consume you...~
 Hitroom      $N's face contorts with a bestial vigor...~
 Difficulty   1
-Affect       'l*24' 25 '-1' -1
 Affect       'l*24' 5 '1+(l/17)' -1
+Affect       'l*24' 25 '-1' -1
 Minlevel     101
 End
 
@@ -3248,8 +3248,8 @@ Code         spell_smaug
 Wearoff      &zYour unholy shroud suddenly vanishes.~
 Hitvict      &zYou are surrounded in the power of an unholy shroud.~
 Difficulty   1
-Affect       'l*2' 17 '-20-i' -1
 Affect       'l*2' 27 '8192' -1
+Affect       'l*2' 17 '-20-i' -1
 Minlevel     23
 End
 
@@ -3289,8 +3289,8 @@ Hitvict      Your defenses are unravelled before your very eyes.~
 Hitroom      $N's eyes widen in fear as $S defenses are unravelled.~
 Immchar      Your spell has no effect upon $N.~
 Difficulty   2
-Affect       '(l*3)+25' 29 '8192' -1
 Affect       '(l*3)+25' 29 '1048576' -1
+Affect       '(l*3)+25' 29 '8192' -1
 Minlevel     101
 End
 
@@ -3447,8 +3447,8 @@ Wearoff      You're no longer protected by an inertial barrier.~
 Hitchar      You place an inertial barrier around yourself.~
 Hitvict      You place an inertial barrier around yourself.~
 Difficulty   3
-Affect       'l*3' 17 '-20' -1
 Affect       'l*3' 24 '-4' -1
+Affect       'l*3' 17 '-20' -1
 Minlevel     101
 End
 
@@ -4503,9 +4503,9 @@ Wearoff      &cYour confidence returns as you no longer feel disgraced.~
 Hitchar      &cYou point your finger at $N and declare them a disgrace!~
 Hitvict      &c$n points $s finger at you, and declares you a disgrace!~
 Hitroom      &c$n points $s finger at $N and declares them a disgrace!~
-Affect       '(null)' 1 '-2' -1
-Affect       '(null)' 20 '10' -1
 Affect       '(null)' 24 '10' -1
+Affect       '(null)' 20 '10' -1
+Affect       '(null)' 1 '-2' -1
 Minlevel     101
 End
 
@@ -4729,9 +4729,9 @@ Hitchar      $N's eyes roll back as a sudden elightenment overtakes them.~
 Hitvict      Enlightenment suddenly fills your mind, making things so clear.~
 Hitroom      $N's eyes roll back as a sudden enlightenment overtakes them.~
 Misschar     You failed to enlighten yourself!~
-Affect       'l*5' 3 '1+(l/20)' -1
-Affect       'l*5' 4 '1+(l/20)' -1
 Affect       'l*5' 12 '25+(l/20)' -1
+Affect       'l*5' 4 '1+(l/20)' -1
+Affect       'l*5' 3 '1+(l/20)' -1
 Minlevel     101
 End
 
@@ -4965,10 +4965,10 @@ Wearoff      &cYour flurry attack rush has subsided leaving you winded...~
 Hitchar      &cYou step in close to $N leaving yourself open, but attack in a flurry!~
 Hitvict      &c$n moves in within range, but attacks in a flurry!~
 Hitroom      &c$n moves in close to $N, and attacks in a flurry!~
-Affect       '20' 48 '-10' -1
-Affect       '20' 40 '-10' -1
-Affect       '20' 19 '5' -1
 Affect       '20' 17 '50' -1
+Affect       '20' 19 '5' -1
+Affect       '20' 40 '-10' -1
+Affect       '20' 48 '-10' -1
 Minlevel     101
 End
 
@@ -5532,9 +5532,9 @@ Hitchar      You are surrounded by an inertial barrier.~
 Hitvict      You are surrounded by an inertial barrier.~
 Misschar     You cannot concentrate enough to create an inertial barrier.~
 Teachers     10808~
-Affect       'l*3' 17 '-35' -1
-Affect       'l*3' 24 '-i/4' -1
 Affect       'l*3' 23 '-w/4' -1
+Affect       'l*3' 24 '-i/4' -1
+Affect       'l*3' 17 '-35' -1
 Minlevel     44
 End
 
@@ -6201,10 +6201,10 @@ Hitvict      You place yourself in an offensive stance.~
 Misschar     You fail to place yourself in an offensive stance.~
 Missroom     $n shuffles around a bit.~
 Teachers     10808~
-Affect       'l*3' 19 '5' -1
-Affect       'l*3' 18 '7' -1
-Affect       'l*3' 1 '3' -1
 Affect       'l*3' 17 '20' -1
+Affect       'l*3' 1 '3' -1
+Affect       'l*3' 18 '7' -1
+Affect       'l*3' 19 '5' -1
 Minlevel     47
 End
 
@@ -6473,8 +6473,8 @@ Wearoff      &wYour concentration of Rallying Cry has been lost.~
 Hitvict      &cYou let out a rallying cry and focus with intense concentration!~
 Misschar     &cYou let out a rallying cry, but lose your voice.~
 Teachers     26001~
-Affect       'l*3' 2 '1' -1
 Affect       'l*3' 18 '2' -1
+Affect       'l*3' 2 '1' -1
 Minlevel     24
 End
 
@@ -7407,11 +7407,11 @@ Hitroom      $N convulses as $n inflicts a silent curse...~
 Misschar     There seems to be no effect...~
 Missvict     $n extends a clawed hand toward you...~
 Missroom     $n extends a clawed hand toward $N...~
-Affect       '12' 31 '-1' -1
-Affect       '12' 24 'l/18' -1
-Affect       '12' 19 '-(l/8)' -1
-Affect       '12' 18 '-(l/8)' -1
 Affect       '12' 26 'curse' 10
+Affect       '12' 18 '-(l/8)' -1
+Affect       '12' 19 '-(l/8)' -1
+Affect       '12' 24 'l/18' -1
+Affect       '12' 31 '-1' -1
 Minlevel     101
 End
 

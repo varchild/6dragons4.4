@@ -1352,7 +1352,7 @@ a boomerang~
 A toy boomerang wants to be picked up.~
 ~
 5 262144 8193
-0 1 5 3 2 0 0
+0 3 10 3 2 0 0
 5 5 0
 1
 0
@@ -1382,7 +1382,7 @@ a gnome sword~
 A gnome sword catches your eye.~
 ~
 5 0 8193
-0 3 10 3 1 0 0
+0 5 15 3 1 0 0
 15 40 400
 3
 0
@@ -2103,7 +2103,7 @@ a plaid cotton apron~
 An old pile of plaid cotton lies here, dotted with stains.~
 ~
 9 0 2049
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 3 0 0
 1
 0

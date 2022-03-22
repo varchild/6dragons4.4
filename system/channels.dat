@@ -278,4 +278,12 @@ ChanHistory 1
 DoScramble  0
 End
 
+#CHANNEL
+ChanName    dragon~
+ChanLevel   101
+ChanType    0
+ChanHistory 0
+DoScramble  0
+End
+
 #END

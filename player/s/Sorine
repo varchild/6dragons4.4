@@ -1,6 +1,9 @@
 #PLAYER
 Version      6
 Name         Sorine~
+Description  This is the grand Ruby dragon.
+He seems to live for his own devices, cares, and pleasures.
+~
 Sex          1
 Class        21
 Secondclass  -1
@@ -8,31 +11,31 @@ Thirdclass   -1
 Race         13
 Age          0 5 0 974
 Languages    1 1
-Level        55
+Level        90
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       4807
-Room         57036
-HpManaMove   5005 5005 1159 1229 3522 3522
+Played       13730
+Room         65002
+HpManaMove   8125 8125 1935 1975 5730 5730
 BaseHp       0 
-Blood        225 225
-Money         0 10 137 147 175 -1
-Exp           25702
+Blood        273 273
+Money         0 28 17 152 313 -1
+Exp           1349962
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        586
-Weight        4739
-Act           570426952&4128
-AffectedBy    512
+Height        879
+Weight        7688
+Act           570426968&2101280
+AffectedBy    4194816
 Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
 Speed         32
 Position      115
 Style         2
-Practice      232
+Practice      372
 SavingThrows  0 0 0 0 0
-Alignment     3
+Alignment     61
 AppBlood      0
 Hitroll       0
 Damroll       0
@@ -40,15 +43,15 @@ Armor         60
 Resistant     8192
 Mentalstate   0
 Password      da42c6ed9a0b389194071195f565433958f013a33e22c0d7c4e0e45b22efa8b0~
-Title          the young adventurer~
-LAIR          57036
-Lastip         10.0.0.88~
+Title          the Ruby Dragon~
+LAIR          65002
+Lastip         10.0.0.1~
 RECAST          0
 AuthedBy     Varchild~
 KeepAlive      5
-GetsDExp     0
-DExpTimer    10
-LDExpUpdate  1647569677
+GetsDExp     1
+DExpTimer    20
+LDExpUpdate  1647917040
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -76,71 +79,102 @@ MapType            0
 FoundArea       Abandoned Cabin ~
 FoundArea       Kirwood Swamp~
 FoundArea       Under the Volcano~
+FoundArea       Drakkel Sharda~
+FoundArea       Nine Planes of Hell~
+FoundArea       Ocean~
+FoundArea       Dakar Sewer~
 Htown      Forbidden City~
 Flags        32770
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       18
+MKills       30
 MDeaths      0
 IllegalPK    0
 AttrPerm     22 18 18 13 16 13 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 125 160 0
-Site         10.0.0.88
+Condition    0 37 117 0
+Site         10.0.0.1
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
 NNSpell       95 95 'astral walk' 0 0
+NNSpell       0 95 'continual light' 0 0
+NNSpell       0 95 'create food' 0 0
+NNSpell       0 95 'create spring' 0 0
 NNSpell       95 0 'cure affliction' 0 0
 NNSpell       95 0 'dark blessings' 0 0
 NNSpell       95 0 'death field' 0 0
-NNSpell       95 0 'dispel magic' 0 0
-NNSpell       95 95 'healing essence' 0 0
-NNSpell       95 95 'invis' 0 0
-NNSpell       95 0 'locate object' 0 0
-NNSpell       95 95 'refresh' 0 0
-NNSpell       95 95 'sanctuary' 0 0
+NNSpell       95 95 'dispel magic' 0 0
+NNSpell       0 95 'dragon wit' 0 0
+NNSpell       0 95 'dragonskin' 0 0
+NNSpell       95 95 'ethereal shield' 0 0
+NNSpell       95 0 'farsight' 0 0
+NNSpell       0 95 'fly' 0 0
+NNSpell       95 0 'healing essence' 0 0
+NNSpell       0 95 'identify' 0 0
+NNSpell       95 0 'invis' 0 0
+NNSpell       0 95 'kindred strength' 0 0
+NNSpell       95 95 'locate object' 0 0
+NNSpell       95 0 'refresh' 0 0
+NNSpell       95 0 'sanctuary' 0 0
 NNSpell       95 0 'shadowform' 0 0
 NNSpell       95 0 'slow' 0 0
+NNSpell       95 0 'transport' 0 0
 NNSpell       95 0 'valiance' 0 0
+NNSpell       0 95 'word of recall' 0 0
+NNSkill       0 95 'aid' 0 0
 NNSkill       95 95 'behead' 0 0
-NNSkill       95 95 'bite' 0 0
-NNSkill       95 95 'breathe' 0 0
-NNSkill       95 95 'claw' 0 0
+NNSkill       95 0 'bite' 0 0
+NNSkill       95 0 'breathe' 0 0
+NNSkill       0 100 'breech' 0 0
+NNSkill       95 0 'brittle bone' 0 0
+NNSkill       95 0 'claw' 0 0
 NNSkill       95 95 'climb' 0 0
 NNSkill       95 95 'combo' 0 0
 NNSkill       95 95 'cone' 0 0
-NNSkill       95 95 'devour' 0 0
+NNSkill       0 95 'cook' 0 0
+NNSkill       0 95 'defend' 0 0
+NNSkill       95 0 'devour' 0 0
 NNSkill       95 95 'dodge' 0 0
 NNSkill       95 95 'doorbash' 0 0
-NNSkill       95 0 'fifth attack' 0 0
-NNSkill       95 95 'fly home' 0 0
-NNSkill       95 0 'fourth attack' 0 0
+NNSkill       0 95 'dual wield' 0 0
+NNSkill       0 95 'fade' 0 0
+NNSkill       95 95 'fifth attack' 0 0
+NNSkill       95 0 'find weakness' 0 0
+NNSkill       95 0 'fly home' 0 0
+NNSkill       95 95 'fourth attack' 0 0
 NNSkill       95 0 'glacial armor' 0 0
 NNSkill       95 0 'gust of wind' 0 0
-NNSkill       95 95 'gut' 0 0
+NNSkill       95 0 'gut' 0 0
 NNSkill       95 95 'human form' 0 0
 NNSkill       95 0 'impale' 0 0
+NNSkill       0 95 'kick' 0 0
 NNSkill       95 95 'lick' 0 0
-NNSkill       95 95 'lore' 0 0
-NNSkill       95 95 'meditate' 0 0
+NNSkill       95 0 'lore' 0 0
+NNSkill       95 0 'meditate' 0 0
+NNSkill       0 95 'parry' 0 0
 NNSkill       95 0 'pluck' 0 0
 NNSkill       95 95 'rage' 0 0
 NNSkill       95 95 'scan' 0 0
 NNSkill       95 95 'second attack' 0 0
+NNSkill       0 95 'sharpen' 0 0
+NNSkill       95 0 'sixth attack' 0 0
 NNSkill       95 95 'slice' 0 0
 NNSkill       95 95 'smell' 0 0
-NNSkill       95 95 'snatch' 0 0
-NNSkill       95 95 'stomp' 0 0
+NNSkill       95 0 'snatch' 0 0
+NNSkill       95 0 'stomp' 0 0
 NNSkill       95 95 'swim' 0 0
-NNSkill       95 95 'tail swipe' 0 0
-NNSkill       95 0 'third attack' 0 0
+NNSkill       95 0 'tail swipe' 0 0
+NNSkill       0 95 'telepathy' 0 0
+NNSkill       95 95 'third attack' 0 0
+NNSkill       95 0 'trance' 0 0
 NNSkill       95 95 'truesight' 0 0
-NNSkill       95 95 'wings' 0 0
+NNSkill       95 0 'wings' 0 0
 NNWeapon      95 95 'pugilism' 0 0
+NNWeapon      0 95 'talons' 0 0
 NNTongue      95 95 'celestial' 0 0
 NNTongue      95 95 'centaurian' 0 0
 NNTongue      95 95 'common' 0 0
@@ -157,24 +191,11 @@ NNTongue      95 95 'orcish' 0 0
 NNTongue      95 95 'pixish' 0 0
 NNTongue      95 95 'silent' 0 0
 NNTongue      95 95 'trollese' 0 0
-Killed       8308
-Killed       8308
-Killed       8310
-Killed       8308
-Killed       8306
-Killed       8310
-Killed       27006
-Killed       27006
-Killed       27000
-Killed       27001
-Killed       27003
-Killed       27006
-Killed       27004
-Killed       27006
-Killed       27006
-Killed       27001
-Killed       29007
-Killed       19015
+AffectDataL   'truesight'  90 117   0   0 4194304
+Killed       40016
+Killed       40020
+THYQuestN 4 4 0 0 1 0
+THYQuestN 10 3 0 0 1 0
 THYQuestN 94 1 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
@@ -185,19 +206,10 @@ End
 
 #OBJECT
 Vnum         21
-WearLoc      0
 Currtype     1
 Color        14
 Size   0
 Values       0 0 -1 0 0 0 0
-End
-
-#OBJECT
-Vnum         68
-Currtype     2
-Color        2
-Size   0
-Values       300 0 0 6 0 0 0
 End
 
 #OBJECT
@@ -227,6 +239,62 @@ Color        4
 Size   0
 Values       45 1 1 2 152 5 -1
 Spell 4      'restore mana'
+End
+
+#OBJECT
+Vnum         16017
+Level        5
+Currtype     2
+Color        8
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         16013
+Level        5
+Currtype     2
+Color        8
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         35514
+Level        10
+Currtype     2
+Color        1
+Size   0
+Values       30 97 -1 -1 96 10 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Vnum         40025
+Level        1
+Currtype     1
+Color        5
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    35507
+Ctime   1647916889
+Mtime   1647916889
+Rtime   0
+Timer   6
+Tag     heal~
+Int     0
 End
 
 #END

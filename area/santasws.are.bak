@@ -768,7 +768,7 @@ ice claws~
 A set of long claws made entirely out of ice glisten softly.~
 ~
 5 0 8193
-12 62 76 1 0 0 100
+12 70 85 1 0 0 100
 1 94 9
 2
 0
@@ -785,7 +785,7 @@ an ice dagger~
 A long dagger made out of an icicle glistens here softly.~
 ~
 5 0 8193
-12 30 60 2 2 0 100
+12 25 45 2 2 0 100
 1 95 9
 2
 0
@@ -800,7 +800,7 @@ a giant icicle~
 An extremely large icicle sits here glistening softly.~
 ~
 5 0 8193
-12 70 85 4 4 0 0
+12 65 85 4 4 0 0
 1 93 9
 2
 0

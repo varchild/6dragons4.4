@@ -15,13 +15,32 @@ AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Tokihasha~
+Name  Alnar~
+State  5
+AuthedBy       Varchild~
+End
+
+#AUTH
+Name  Tchen~
+State  5
+AuthedBy       Varchild~
+End
+
+#AUTH
+Name  Neos~
+State  5
+AuthedBy       Varchild~
+End
+
+#AUTH
+Name  Nhudri~
 State  1
 End
 
 #AUTH
-Name  Alnar~
-State  1
+Name  Wigther~
+State  5
+AuthedBy       Varchild~
 End
 
 #END

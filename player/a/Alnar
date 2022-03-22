@@ -8,29 +8,29 @@ Thirdclass   -1
 Race         13
 Age          0 5 8 974
 Languages    1 1
-Level        7
+Level        12
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       6747
-Room         35543
-HpManaMove   732 732 302 302 600 600
+Played       27799
+Room         35515
+HpManaMove   1246 1246 415 415 875 923
 BaseHp       0 
-Blood        10 47
-Money         0 7 10 454 1473 -1
-Exp           11840
+Blood        10 56
+Money         0 7 599 3248 5827 -1
+Exp           17665
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        170
-Weight        838
+Height        213
+Weight        1222
 Act           536872776&6144
 AffectedBy    512
-Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction forbidden~
 Speed         32
 Position      115
 Style         2
-Practice      2
+Practice      1
 SavingThrows  0 0 0 0 0
 Alignment     1000
 AppBlood      0
@@ -41,16 +41,21 @@ Resistant     8448
 Mentalstate   0
 Password      481671de8f45642f2fac3abdf123cb99bcc0eec259924bd6fae893db1d48ce79~
 Title          the young adventurer~
-Lastip         37.162.154.79~
+Lastip         37.160.147.196~
 RECAST          0
-Failsafe     1
+Combo1         gut~
+Combo2         bite~
+Combo3         claw~
 Prompt       >~
+FPrompt       %h   %c~
 KeepAlive      5
 GetsDExp     0
-DExpTimer    10
-LDExpUpdate  1647809757
+DExpTimer    70
+LDExpUpdate  1647972014
 tmpsecond -1
 tmpthird -1
+Alias        dc~ devour corpse~
+Alias        baoe~ breath aoe~
 Textspeed          5
 PotionTimer        1647809258 0 0
 FirstExpR          0
@@ -76,95 +81,86 @@ FoundArea       Caverns~
 FoundArea       Kirwood Swamp~
 FoundArea       Norrinton's South Harbor~
 FoundArea       Ice Cavern~
+FoundArea       Gnome Tower~
+FoundArea       Drakkel Sharda~
+FoundArea       Under the Volcano~
+FoundArea       Spiral village~
+FoundArea       Durdun~
+FoundArea       Wilderness~
+FoundArea       Garden~
+FoundArea       Nine Planes of Hell~
+FoundArea       Abandoned Cabin ~
 Htown      Forbidden City~
-Flags        32806
+City      Forbidden City~
+Flags        38
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       97
-MDeaths      2
+MKills       498
+MDeaths      9
 IllegalPK    0
 AttrPerm     22 18 18 16 16 10 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 197 198 17
-Site         37.162.154.79
+Condition    0 176 194 22
+Site         37.160.147.196
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
-NNSkill       67 0 'bite' 0 0
-NNSkill       35 0 'claw' 0 0
+NNSkill       92 0 'bite' 0 0
+NNSkill       88 0 'breathe' 0 0
+NNSkill       39 0 'claw' 0 0
+NNSkill       54 0 'combo' 0 0
 NNSkill       95 0 'devour' 0 0
-NNSkill       33 0 'dodge' 0 0
-NNSkill       41 0 'fly home' 0 0
-NNSkill       50 0 'lick' 0 0
-NNSkill       50 0 'second attack' 0 0
+NNSkill       30 0 'dodge' 0 0
+NNSkill       42 0 'fly home' 0 0
+NNSkill       66 0 'gut' 0 0
+NNSkill       53 0 'lick' 0 0
+NNSkill       11 0 'lore' 0 0
+NNSkill       51 0 'rage' 0 0
+NNSkill       95 0 'second attack' 0 0
 NNSkill       50 0 'slice' 0 0
-NNSkill       45 0 'wings' 0 0
+NNSkill       8 0 'smell' 0 0
+NNSkill       46 0 'wings' 0 0
 NNTongue      95 0 'common' 0 0
 NNTongue      95 0 'draconic' 0 0
-Killed       35513
-Killed       35512
-Killed       35510
-Killed       35510
-Killed       35510
-Killed       35510
-Killed       35510
-Killed       35510
-Killed       35518
-Killed       35510
-Killed       35510
-Killed       35510
-Killed       35511
-Killed       35511
-Killed       35509
-Killed       35509
-Killed       35510
-Killed       35509
-Killed       35510
-Killed       35509
+Killed       7504
+Killed       7502
+Killed       7506
+Killed       7504
+Killed       7506
+Killed       7502
+Killed       13005
+Killed       13007
+Killed       13008
+Killed       13007
+Killed       13008
+Killed       13009
+Killed       13013
+Killed       13007
+Killed       13007
+Killed       13013
+Killed       13010
+Killed       13010
+Killed       13006
+Killed       13002
+THYQuestN 0 4 0 0 1 0
+THYQuestN 9 3 0 0 1 0
 THYQuestN 10 8 0 0 1 0
 THYQuestN 30 10 0 0 1 0
+THYQuestN 45 6 0 0 1 0
+THYQuestN 49 3 0 0 1 0
+THYQuestN 50 1 0 0 1 0
+THYQuestN 78 1 0 0 1 0
+THYQuestN 94 1 0 0 1 0
+THYQuestN 95 1 0 0 1 0
+THYQuestN 98 7 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
 i3perm       1
 i3flags      256
 Portalstonelag     0
-End
-
-#OBJECT
-Vnum         21
-WearLoc      0
-Currtype     1
-Color        14
-Size   0
-Values       0 0 -1 0 0 0 0
-End
-
-#OBJECT
-Vnum         16038
-WearLoc      17
-Currtype     4
-Color        1
-Size   3
-Values       30 30 0 0 0 0 0
-End
-
-#OBJECT
-Vnum         68
-WearLoc      22
-Currtype     2
-Color        2
-Size   0
-Values       300 0 0 6 0 0 0
-End
-
-#OBJECT
-Vnum         139
-Currtype     4
-Color        5
-Size   0
 End
 
 #OBJECT
@@ -184,7 +180,7 @@ Level        1
 Currtype     1
 Color        5
 Size   0
-Values       2 2 0 0 0 0 0
+Values       1 2 0 0 0 0 0
 End
 
 #OBJECT
@@ -194,7 +190,7 @@ Level        2
 Currtype     4
 Color        1
 Size   0
-Values       2 2 0 0 0 2 0
+Values       1 2 0 0 0 2 0
 End
 
 #OBJECT
@@ -204,7 +200,7 @@ Level        1
 Currtype     4
 Color        6
 Size   0
-Values       2 2 0 0 0 1 0
+Values       1 2 0 0 0 1 0
 End
 
 #OBJECT
@@ -214,7 +210,7 @@ Level        1
 Currtype     4
 Color        6
 Size   0
-Values       2 2 0 0 0 0 0
+Values       1 2 0 0 0 0 0
 End
 
 #OBJECT
@@ -224,11 +220,12 @@ Level        1
 Currtype     4
 Color        6
 Size   0
-Values       2 2 0 0 0 1 0
+Values       1 2 0 0 0 1 0
 End
 
 #OBJECT
 Vnum         40030
+WearLoc      17
 Level        1
 Currtype     4
 Color        14
@@ -243,24 +240,125 @@ Level        5
 Currtype     4
 Color        13
 Size   77
+Values       1 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         18610
+Level        15
+Currtype     4
+Color        14
+Size   0
+Values       10 10 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         18637
+Level        10
+Currtype     4
+Color        1
+Size   0
+Values       20 0 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         18612
+Level        17
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        7
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         7501
+Level        20
+Currtype     3
+Color        1
+Size   77
+Values       20 20 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         28015
+Level        15
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         6300
+WearLoc      10
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       8 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         35524
+WearLoc      5
+Level        5
+Currtype     4
+Color        8
+Size   5
 Values       5 5 0 0 0 5 0
 End
 
 #OBJECT
-Vnum         4656
-Level        1
+Vnum         8301
+WearLoc      0
+Level        10
 Currtype     4
+Color        14
 Size   0
+Values       0 0 -1 0 0 10 0
 End
 
 #OBJECT
-Vnum         6257
+Vnum         8311
+WearLoc      22
 Level        10
 Currtype     4
-Color        3
+Color        13
 Size   0
-Values       19 3 3 132 0 10 0
-Spell 3      'ogre vitality'
+Values       10 10 0 0 0 10 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    6251
+Ctime   1647967352
+Mtime   1647967352
+Rtime   0
+Timer   101
+Tag     count~
+Int     1
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    13000
+Ctime   1647946764
+Mtime   1647946764
+Rtime   0
+Timer   185
+Tag     bag~
+Int     0
 End
 
 #END

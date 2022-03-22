@@ -1342,7 +1342,7 @@ D0
 D1
 ~
 false wall~
-16779267 -1 8365
+16779265 -1 8365
 D2
 ~
 ~
@@ -1391,7 +1391,7 @@ D0
 D4
 ~
 sewer grate~
-3 -1 16068
+1 -1 16068
 R D 0 8364 4 1
 S
 #8365
@@ -1406,7 +1406,7 @@ prints are imprinted in what looks like dried blood.
 D3
 ~
 false wall~
-16777219 -1 8362
+16777217 -1 8362
 D4
 ~
 trap door~

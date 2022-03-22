@@ -558,7 +558,7 @@ A spiked metal mace~
 A spiked metal mace rests here~
 ~
 5 524288 8193
-0 10 20 4 5 0 0
+0 5 15 4 5 0 0
 1 61 6
 4
 13
@@ -626,7 +626,7 @@ A pair of knight's boots~
 A pair of boots commonly worn by knight are here.~
 ~
 9 0 65
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 111 19
 4
 0
@@ -641,7 +641,7 @@ A knight's shield~
 A large shield used by knights lies here.~
 ~
 9 0 513
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 66 20
 4
 0
@@ -656,7 +656,7 @@ a steel lance~
 A steel lance lies here it's point glinting sharply.~
 ~
 5 532480 8193
-0 10 30 7 12 0 50
+0 10 20 7 12 0 50
 1 93 9
 4
 0
@@ -671,7 +671,7 @@ a pair of knight's gauntlets~
 A pair of knight's gauntlets lie here.~
 ~
 9 532480 129
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 89 8
 4
 0

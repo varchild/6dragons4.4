@@ -763,7 +763,7 @@ a fire drake hide~
 &rA hide of a fire drake has been left here.&D~
 ~
 9 514 1025
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 25 0 0
 1
 6
@@ -842,7 +842,7 @@ some green robes~
 &GA green robe has crumpled up on the floor.&D~
 ~
 9 577 9
-10 10 0 0 0 0 0
+20 20 0 0 0 0 0
 3 0 0
 1
 9
@@ -966,7 +966,7 @@ a steel sword~
 &wA rare steel sword covered in runes lies here.&D~
 ~
 5 65 8193
-0 15 30 1 1 0 0
+0 10 30 1 1 0 0
 10 300 30
 1
 8
@@ -985,7 +985,7 @@ a magic ring~
 &bA magic ring floats around here.&D~
 ~
 9 32833 3
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 0 0
 1
 7
@@ -1008,7 +1008,7 @@ elven boots~
 &OA pair of elven boots lie here.&D~
 ~
 9 0 65
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 5 0 0
 1
 1
@@ -1065,7 +1065,7 @@ a shovel~
 &OA shovel is here.&D~
 ~
 5 0 8193
-0 5 15 7 11 0 543516788
+0 3 10 7 11 0 543516788
 10 1000 100
 1
 1

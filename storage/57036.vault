@@ -8,13 +8,6 @@ Values       30 30 0 0 0 0 0
 End
 
 #OBJECT
-Vnum         139
-Currtype     4
-Color        5
-Size   0
-End
-
-#OBJECT
 Vnum         19035
 Level        101
 Currtype     4

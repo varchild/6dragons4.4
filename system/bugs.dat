@@ -104,3 +104,211 @@
 [*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days. &D
 [*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days. &D
 [*****] BUG: I3: i3_fread_line: EOF encountered on read. &D
+[*****] BUG: fread_bank: Deleting bank aeon because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank annellin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank aven because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank cole because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank daughterofhv because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank dominic because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank gedd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank google because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank hydra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jayden because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank jelix because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank karith1 because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kweeuu because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank kyrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lorina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank luxx because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank lyra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank mairl because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank margaret because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morgan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank morrigan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nedrik because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank nicodemus because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank parnooson because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank phaedra because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank quinton because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank rowan because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank serren because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank taelynd because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tina because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank tulvir because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank viktor because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank vladaar because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zakin because it hasn't been used in at least 366 days. &D
+[*****] BUG: fread_bank: Deleting bank zart21 because it hasn't been used in at least 366 days. &D
+[*****] BUG: __FileOpen: can't open player/s/Silvanos for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Lemon for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/a/Anharat for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/l/Linnia for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/c/Correne for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/t/Thanila for r. Called from player.c:3900 &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Sanibak -> wasp spider ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> mangora spider ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> A hairy spider ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> tiny lizard hatchling ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: __FileOpen: can't open player/m/Morrigan for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/r/Rowan for r. Called from player.c:3900 &D
+[*****] BUG: Sanibak -> beaver ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> cardinal monk ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> monk ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: __FileOpen: can't open player/l/Legend for r. Called from player.c:3900 &D
+[*****] BUG: Mob #25010: Mpoload - Bad level [wounded elf]. &D
+[*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
+[*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
+[*****] BUG: Sanibak -> monk ($n's stream of divine energy absorbs your health and heals them!) &D

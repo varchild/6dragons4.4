@@ -341,7 +341,7 @@ a silver pendant~
 A silver pendant has been left here.~
 ~
 9 0 5
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 1 400 40
 1
 0
@@ -360,7 +360,7 @@ a silver dagger~
 A long silver dagger is lying here.~
 pierce~
 5 0 8193
-0 3 10 2 2 0 0
+0 5 15 2 2 0 0
 1 100 10
 1
 0

@@ -2827,7 +2827,7 @@ a Norn dagger~
 A small dagger can be seen on the ground.~
 ~
 5 1088 8193
-0 25 45 2 2 0 0
+0 20 40 2 2 0 0
 1 1265443 126544
 1
 13
@@ -3119,7 +3119,7 @@ the sword Brand of Frost~
 A sword of ice slowly melts away.~
 ~
 5 65 8193
-0 45 100 1 1 0 0
+0 50 100 1 1 0 0
 12 223000 22300
 1
 0
@@ -3185,7 +3185,7 @@ the Sword of Tyr~
 A broad bladed sword lies here.~
 ~
 5 525386 8193
-0 50 100 1 1 0 0
+0 45 100 1 1 0 0
 22 0 4443
 1
 8
@@ -3476,7 +3476,7 @@ Club of the Seas~
 A rotting chunk of wood covered in barnacles lies here.~
 ~
 5 576 8193
-0 50 100 4 5 0 0
+0 45 100 4 5 0 0
 20 0 100
 1
 1
@@ -3846,7 +3846,7 @@ a battle axe~
 A heavy axe is imbedded in a log.~
 ~
 5 524288 8193
-0 45 90 3 9 0 0
+0 45 100 3 9 0 0
 20 0 50
 1
 8

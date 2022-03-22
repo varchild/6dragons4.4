@@ -1630,7 +1630,7 @@ a ruby sabre~
 A long sabre, completely covered in rubies, is stuck in the ground here.~
 ~
 5 147457 8193
-0 20 35 1 1 0 0
+0 15 30 1 1 0 0
 5 244 -15536
 3
 0
@@ -3098,7 +3098,7 @@ a gigantic club~
 A ridiculously big club lies here on the ground.  Good luck picking it up.~
 ~
 5 0 8193
-0 25 50 4 5 0 0
+0 25 45 4 5 0 0
 25 500 50
 1
 0

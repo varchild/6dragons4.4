@@ -2533,7 +2533,7 @@ A Sword~
 &w A Silver Short Sword,&g litters the ground here.&D~
 ~
 5 2 8193
-0 14 24 1 0 0 0
+0 7 16 1 0 0 0
 3 0 0
 1
 0
@@ -2867,7 +2867,7 @@ a pair of chain-mail gloves~
 Some chain-mail gloves, have been placed neatly on the ground~
 ~
 9 0 129
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 4 25 60
 2
 8
@@ -3082,7 +3082,7 @@ a suit of platemail~
 A suit of platemail, litters the ground~
 ~
 9 0 9
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 25 50 20
 2
 8
@@ -3323,7 +3323,7 @@ a thin metal shield~
 A thin metal shield lays on its side on the ground.~
 ~
 9 0 513
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 15 150 15
 2
 8
@@ -3367,7 +3367,7 @@ a pocket knife~
 A folded up pocket knife lays in the floor.~
 ~
 5 0 8193
-0 20 35 2 2 0 0
+0 20 40 2 2 0 0
 2 27 2
 2
 8
@@ -3382,7 +3382,7 @@ a heavy stone shield~
 A heavy stone shield lays ontop of the ground here.~
 ~
 9 0 513
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 25 200 20
 2
 13
@@ -3490,7 +3490,7 @@ a black iron ring~
 A black iron ring lays here almost hidden on the ground.~
 ~
 9 0 3
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 1 400 40
 2
 13
@@ -3511,7 +3511,7 @@ a necklace of beads~
 A necklace made out of tiny beads, litters the ground here.~
 ~
 9 0 5
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 2 30 3
 2
 4
@@ -3667,7 +3667,7 @@ a silver sword~
 A sword made of silver lays on its side on the ground.~
 ~
 5 0 8193
-0 20 35 1 1 0 0
+0 20 40 1 1 0 0
 5 40 4
 2
 8
@@ -3690,7 +3690,7 @@ a belt of gold~
 A belt made of gold lays here in the floor.~
 ~
 9 2 2049
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 10 500 50
 2
 14
@@ -3721,7 +3721,7 @@ a wood cutters axe~
 A axe used for cutting wood lays on its side here.~
 ~
 5 0 8193
-0 20 35 3 9 0 0
+0 25 45 3 9 0 0
 6 532 53
 2
 1
@@ -4133,7 +4133,7 @@ a torn shirt~
 A torn shirt lays on the ground.~
 ~
 9 0 9
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 2 1 0
 3
 1
@@ -4148,7 +4148,7 @@ a pair of dirty pants~
 A dirty pair of leather pants lay on the ground here.~
 ~
 9 0 33
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 5 24 2
 3
 1
@@ -4969,7 +4969,7 @@ a pair of black leather pants~
 A pair of black leather pants, lay on the ground here.~
 ~
 9 0 33
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 3 26 2
 3
 13
@@ -5228,7 +5228,7 @@ a pair of reading glasses~
 A pair of glasses that can be used for reading is here.~
 ~
 9 0 131073
-30 30 0 0 0 0 0
+35 35 0 0 0 0 0
 1 1 2
 4
 0
@@ -5245,7 +5245,7 @@ a pair of leather boots~
 A pair of leather boots sits on the ground here.~
 ~
 9 0 65
-50 50 0 0 0 0 0
+55 55 0 0 0 0 0
 3 23 2
 4
 1

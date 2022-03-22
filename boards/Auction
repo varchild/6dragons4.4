@@ -2,31 +2,6 @@ Sender      Alice~
 PostTime    1456065404
 To          all~
 Subject     a sharpening stone~
-Bid         Hekkron~ 10
-Read        Mendicus~
-Read        Nedrik~
-Read        Jupiter~
-Read        Nightwing~
-Read        Rokthr~
-Read        Yonara~
-Read        Ascher~
-Read        Tarl~
-Read        Devlyn~
-Read        Ramsey~
-Read        Hekkron~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Darum~
-Read        Amaru~
-Read        Serylith~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Mirkoros~
-Read        Bastian~
 #OBJECT
 Vnum         11236
 Level        1
@@ -45,17 +20,6 @@ Sender      Mendicus~
 PostTime    1470913642
 To          all~
 Subject     a sparkling gem~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Darum~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Vnum         2307
 Level        19
@@ -73,16 +37,6 @@ Sender      Izak~
 PostTime    1470951963
 To          all~
 Subject     a bear pelt~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 AutoWin     1
 #OBJECT
 Vnum         11541
@@ -101,16 +55,6 @@ Sender      Izak~
 PostTime    1470955649
 To          all~
 Subject     the tail of a giant sandrat~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 AutoWin     5
 #OBJECT
 Vnum         3757
@@ -130,18 +74,6 @@ Sender      Skyraker~
 PostTime    1471219732
 To          all~
 Subject     a feces tipped short bamboo spear~
-Read        Hekkron~
-Read        Alastroden~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Vnum         10221
 Level        32
@@ -160,17 +92,6 @@ Sender      Alastroden~
 PostTime    1471278759
 To          all~
 Subject     a full-breastplate, legendary produced from meteor~
-Read        Hekkron~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Name         full-breastplate~
 ShortDescr   a full-breastplate, legendary produced from meteor~
@@ -200,17 +121,6 @@ Sender      Alastroden~
 PostTime    1471278813
 To          all~
 Subject     a full-breastplate, legendary produced from meteor~
-Read        Hekkron~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Name         full-breastplate~
 ShortDescr   a full-breastplate, legendary produced from meteor~
@@ -242,16 +152,6 @@ Sender      Alastroden~
 PostTime    1471281245
 To          all~
 Subject     a crystal-light, legendary produced from meteor~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Name         crystal-light~
 ShortDescr   a crystal-light, legendary produced from meteor~
@@ -281,18 +181,6 @@ Sender      Izak~
 PostTime    1471727972
 To          all~
 Subject     Guardian of the Flesh~
-Bid         Nicodemus~ 1
-Read        Myrlan~
-Read        Nicodemus~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Vnum         10063
 Level        75
@@ -311,17 +199,6 @@ Sender      Izak~
 PostTime    1471727979
 To          all~
 Subject     a funeral shroud~
-Read        Myrlan~
-Read        Vycon~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Vnum         10064
 Level        75
@@ -340,16 +217,7 @@ Sender      Xander~
 PostTime    1471913175
 To          all~
 Subject     an extradimensional portal~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
+Read        Sanibak~
 AutoWin     1
 #OBJECT
 Vnum         1408
@@ -369,16 +237,6 @@ Sender      Xander~
 PostTime    1471914938
 To          all~
 Subject     a golden dagger~
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 AutoWin     1
 #OBJECT
 Vnum         35702
@@ -397,17 +255,6 @@ Sender      Syndriel~
 PostTime    1472878146
 To          all~
 Subject     a feather of knowing~
-Bid         Rhys~ 1
-Read        Myrlan~
-Read        Teasel~
-Read        Arry~
-Read        Joseph~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Bastian~
 #OBJECT
 Vnum         16007
 Level        1
@@ -427,18 +274,6 @@ Sender      Xander~
 PostTime    1473043977
 To          all~
 Subject     a war hammer~
-Read        Myrlan~
-Read        Vladaar~
-Read        Teasel~
-Read        Arry~
-Read        Amaru~
-Read        Aven~
-Read        Rhys~
-Read        Darien~
-Read        Caeli~
-Read        Zaiden~
-Read        Mirkoros~
-Read        Bastian~
 AutoWin     1
 #OBJECT
 Vnum         6502
@@ -458,9 +293,6 @@ Sender      Jaquen~
 PostTime    1509054499
 To          all~
 Subject     a broken wine bottle~
-Read        Aven~
-Read        Devlyn~
-Read        Bastian~
 AutoWin     1
 #OBJECT
 Vnum         55304

@@ -1154,7 +1154,7 @@ a plaid smoking jacket~
 A old, plaid smoking jacket has been left on the ground.~
 ~
 9 256 9
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 8 0 0
 1
 0
@@ -1221,7 +1221,7 @@ a small pair of gardening shears~
 A small pair of gardening shears sits here.~
 ~
 5 16908352 8193
-12 5 15 2 2 0 0
+12 3 10 2 2 0 0
 4 0 0
 1
 0
@@ -1496,7 +1496,7 @@ a cowhide whip~
 A long whip made of cowhide lies on the ground.~
 ~
 5 8651776 8193
-12 1 5 5 3 0 0
+12 3 10 5 3 0 0
 2 560 56
 1
 0
@@ -1567,7 +1567,7 @@ gold spectacles~
 Somebody has lost their spectacles here.~
 ~
 9 524288 131073
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 1 8600 860
 1
 0
@@ -1584,7 +1584,7 @@ a shawl~
 A raggedy shawl is lying in the dirt.~
 ~
 9 256 5
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 4 10 400
 3
 0
@@ -1603,7 +1603,7 @@ a wooden knife~
 A child has dropped a wooden knife here.~
 ~
 5 262208 8193
-12 5 15 1 1 0 0
+12 3 10 1 1 0 0
 1 50 5
 1
 0
@@ -1734,7 +1734,7 @@ a panther-crested helmet~
 Someone has dropped a helmet with the crest of a panther here.~
 ~
 9 0 17
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 2 75 7
 1
 0
@@ -2151,7 +2151,7 @@ a deck of playing cards~
 A deck of playing cards lies here.~
 ~
 9 0 16385
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 2 0 0
 1
 0

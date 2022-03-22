@@ -1,37 +1,4 @@
 #BANK
-Name        aeon~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1508717406
-Gold        500
-Silver      500
-End
-
-#BANK
-Name        annellin~
-Password    871efef8b5ab878627367cbb32b5043dded48dd346014ed619eccdeda5f2e4fe~
-LastUsed    1498489755
-Bronze      140
-Copper      2000
-Silver      50
-End
-
-#BANK
-Name        aven~
-Password    40bd692a2ecfdfd774a4b182e550f199eec1d2169766ad28e4c7b8d2d7b6c777~
-LastUsed    1504150111
-Bronze      100
-Copper      3000
-Gold        45003
-Silver      507
-End
-
-#BANK
-Name        cole~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509152035
-End
-
-#BANK
 Name        dakar~
 Password    77102b2b5cb46718ec0313d1a294db76e027f88ae8fc1bc238f02a2e41672d95~
 LastUsed    1477185964
@@ -39,159 +6,28 @@ Silver      12000
 End
 
 #BANK
-Name        daughterofhv~
-Password    871efef8b5ab878627367cbb32b5043dded48dd346014ed619eccdeda5f2e4fe~
-LastUsed    1498407119
-Bronze      80
-Copper      200
-Gold        8
-Silver      20
-End
-
-#BANK
-Name        dominic~
-Password    f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
-LastUsed    1513372217
-Bronze      3
-Copper      7
-Gold        1094
-Silver      15225
-End
-
-#BANK
 Name        forbidden~
 Password    77102b2b5cb46718ec0313d1a294db76e027f88ae8fc1bc238f02a2e41672d95~
 LastUsed    1477185979
+Silver      3
 End
 
 #BANK
-Name        gedd~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509151860
+Name        hrathon~
+Password    1257609e052d8f3f8c2bdec772ae2504c0422b414abce013a78daf500065f765~
+LastUsed    1647880582
+Copper      223
+Gold        7
 End
 
 #BANK
-Name        google~
-Password    5e5b0cb3affdaa43f6cbf31c2d7948efc08baec3be153667aa71199c78506b66~
-LastUsed    1509834699
-End
-
-#BANK
-Name        hydra~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1486086190
-Bronze      50000
-Copper      200000
-Gold        2850000
-Silver      32000
-End
-
-#BANK
-Name        jayden~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1498090505
-Gold        252000
-Silver      1836
-End
-
-#BANK
-Name        jelix~
-Password    caefea27cbd6c4fb182552c789fa8013193661bf9a0633e4c4e8bcc89de9eb6c~
-LastUsed    1488973271
-Bronze      526
-Copper      530
-Gold        1
-Silver      159
-End
-
-#BANK
-Name        karith1~
-Password    32e815c4a78dfe299140a1fe73b1f9b19f91c535ffa42bdc1789736833a48ff0~
-LastUsed    1505341120
-End
-
-#BANK
-Name        kweeuu~
-Password    1060d1c62a79d184301f8113cc5b24bac6c0c24b8dbdb103ab5ed429f3c52d3c~
-LastUsed    1491592528
-Gold        407
-End
-
-#BANK
-Name        kyrigan~
-Password    1ae9a778d454cdd297880a7f96adc1021f6c66e3b3d057bd52eb562e99d2d281~
-LastUsed    1509365362
-Gold        1419
-End
-
-#BANK
-Name        lorina~
-Password    4ed9163131f2ace707dc1b8fa200c1b50f2affe2b95b933079908d163cd6ef9b~
-LastUsed    1491645273
-Bronze      30
-Copper      500
+Name        neos~
+Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
+LastUsed    1647966777
+Bronze      700
+Copper      3000
+Gold        5
 Silver      50
-End
-
-#BANK
-Name        luxx~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509202238
-End
-
-#BANK
-Name        lyra~
-Password    49e3de490650d405ebd2b9f617ad6c0e446b76041c46b960bc106e04f4c7f652~
-LastUsed    1501005066
-End
-
-#BANK
-Name        mairl~
-Password    c58aefdb9824c7fae83f0a7d4eb61a7c86122e85cd8c1dfc04ff9bbd7b1b9aa7~
-LastUsed    1493093499
-Copper      240
-Gold        40
-End
-
-#BANK
-Name        margaret~
-Password    f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
-LastUsed    1486230108
-Bronze      960
-Copper      2235
-Gold        20204
-Silver      17155
-End
-
-#BANK
-Name        morgan~
-Password    578851b89f22391ec1484936def3a42578665eca325fcf907760a16fb122a317~
-LastUsed    1491209574
-Bronze      10
-Copper      3980
-Gold        40
-Silver      90
-End
-
-#BANK
-Name        morrigan~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1510098783
-End
-
-#BANK
-Name        nedrik~
-Password    39fd526267c38e9c5f9f67f5b1f52fd944eca01a41281d786fba3f5c35931229~
-LastUsed    1515902329
-Copper      1100
-Gold        13
-Silver      2000
-End
-
-#BANK
-Name        nicodemus~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509835722
 End
 
 #BANK
@@ -202,108 +38,23 @@ Silver      300
 End
 
 #BANK
-Name        parnooson~
-Password    f8f45e67c22c135c44f175a447735c9c84b6e63b0a33d58c7d6d7ce57fd9a6f0~
-LastUsed    1487402876
-Gold        11
+Name        pinewood~
+Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
+LastUsed    1647980180
+Bronze      5
+Copper      2
+Gold        40
+Silver      9
 End
 
 #BANK
-Name        phaedra~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1486085923
-End
-
-#BANK
-Name        quinton~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509834737
-Bronze      27031
-Copper      1937
-Gold        50435
-Silver      29372
-End
-
-#BANK
-Name        rowan~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509830512
-Bronze      400
-Copper      1000
-End
-
-#BANK
-Name        serren~
-Password    f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
-LastUsed    1503435859
-Bronze      8
-Copper      4
-Gold        490
-Silver      94
-End
-
-#BANK
-Name        taelynd~
-Password    4c1c9b77f50e2872e0692ea0edd6cc282a28228021181a7ec9ed3905b265692b~
-LastUsed    1508615725
-Copper      2000
-Gold        5
-End
-
-#BANK
-Name        tina~
-Password    fa335bcf04c8426dc69d9839c7ec65fc60da28632517658ab99a62dede9f6f62~
-LastUsed    1490907457
-Bronze      180
-Gold        15
-Silver      50
-End
-
-#BANK
-Name        tulvir~
-Password    dbc3e4a756e658b2b94e3f8bbc9cbd093106223378aaaa7bb3f7857902f1d823~
-LastUsed    1498552400
-Bronze      3288
-Copper      3607
-Gold        2400
-Silver      5588
-End
-
-#BANK
-Name        viktor~
-Password    fb505be51e35cf271711d092c4233cb9868d7be12a8f035049e5ec302a7900a8~
-LastUsed    1509834387
-Silver      10000
-End
-
-#BANK
-Name        vladaar~
-Password    77102b2b5cb46718ec0313d1a294db76e027f88ae8fc1bc238f02a2e41672d95~
-LastUsed    1509816611
-Bronze      2950
-Copper      10
-Gold        995169
-Silver      490
-End
-
-#BANK
-Name        zakin~
-Password    abcbc59abae346f388a0240ea0639e5d3578e6019347e5d9f0b610b41106da5e~
-LastUsed    1484662075
-Bronze      978
-Copper      978
-Gold        10
-Silver      220
-End
-
-#BANK
-Name        zart21~
-Password    c711d5a53fa7e767df7d3dafdf614b389fcfbcac430e084fc92501a76f22a6a6~
-LastUsed    1486297540
-Bronze      293
-Copper      5357
-Gold        28
-Silver      61
+Name        sanibak~
+Password    7fae5f4826a9a4290ac589d2a61d94b4dc45abf901cfc18292f9137a25f9c303~
+LastUsed    1647920363
+Bronze      2229
+Copper      2912
+Gold        2
+Silver      541
 End
 
 #END
