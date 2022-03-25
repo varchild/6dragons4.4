@@ -280,6 +280,14 @@ End
 
 #CHANNEL
 ChanName    dragon~
+ChanLevel   10
+ChanType    0
+ChanHistory 0
+DoScramble  0
+End
+
+#CHANNEL
+ChanName    ?~
 ChanLevel   101
 ChanType    0
 ChanHistory 0

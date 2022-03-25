@@ -14,44 +14,44 @@ Level        108
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       55709
+Played       121818
 Room         1234
-HpManaMove   30000 30000 30000 30000 30025 30000
+HpManaMove   30010 30000 30010 30000 30125 30000
 BaseHp       0 
 Blood        7500 7500
-Money         0 10 198 100 2000 -1
+Money         0 5 322 124 2000 -1
 Exp           0
 Firstexp      0
 Secondexp     0
 Thirdexp      0
 Height        66
 Weight        110
-Act           1644176984&4144&2
-AffectedBy    -2146369536
-Channels      say ooc shout yell icc chat wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction~
+Act           1644168792&4144&2
+AffectedBy    -2146435072
+Channels      say ooc shout yell icc chat wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction dragon~
 Speed         32
 Position      115
 Style         2
 Practice      20
 SavingThrows  0 0 0 0 0
-Alignment     600
+Alignment     581
 AppBlood      0
 Hitroll       0
 Damroll       0
-Armor         100
-Resistant     2
+Armor         98
 Password      da42c6ed9a0b389194071195f565433958f013a33e22c0d7c4e0e45b22efa8b0~
 Bestowments   dlair.are~
 Title          the Reaper~
 Lastip         10.0.0.1~
 RECAST          0
+Clanpoints          3
 AuthedBy     Varchild~
 KeepAlive      6
 GetsDExp     0
-LDExpUpdate  1647987702
+LDExpUpdate  1648184098
 tmpsecond -1
 tmpthird -1
-tmproom 57000
+tmproom 10009
 Textspeed          5
 PotionTimer        0 0 0
 FirstExpR          0
@@ -71,7 +71,7 @@ MapToggle          0
 MapSize            2
 MapDescToggle      0
 MapNameToggle      0
-MapType            0
+MapType            1
 FoundArea       Halcyon Clan Hall~
 FoundArea       Wilderness~
 FoundArea       Norrinton's South Harbor~
@@ -82,6 +82,11 @@ FoundArea       Paleon Sewer~
 FoundArea       Under the Volcano~
 FoundArea       Darkhaven Art Gallery~
 FoundArea       Shattered Refuge~
+FoundArea       Paleon Atheneum ~
+FoundArea       Drakkel Sharda~
+FoundArea       Abyss~
+FoundArea       Miden'nir~
+FoundArea       Citadel~
 Bamfin       $n notice that Varchild is suddenly there.~
 Heaven_time 1647908338
 WizInvis     108
@@ -89,9 +94,9 @@ Htown      Dakar City~
 Flags        2
 Bardtimer    0
 Bardsn       0
-PKills       0
+PKills       1
 PDeaths      0
-MKills       0
+MKills       4
 MDeaths      0
 IllegalPK    0
 AttrPerm     25 25 25 25 25 25 25
@@ -664,7 +669,8 @@ NNSong        100 0 'sound waves' 0 0
 NNSong        100 0 'stirring ballad' 0 0
 NNSong        100 0 'thunderous hymn' 0 0
 NNSong        100 0 'unholy melody' 0 0
-AffectDataL   'hide' 108  -1   0   0 65536
+Killed       10002
+THYQuestN 58 1 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
 i3perm       5
@@ -691,6 +697,7 @@ Values       30 30 0 0 0 0 0
 End
 
 #OBJECT
+Count        2
 Vnum         16040
 Currtype     4
 Color        1
@@ -715,7 +722,7 @@ Level        1
 Currtype     1
 Color        1
 Size   77
-Values       2 2 0 0 0 1 0
+Values       1 2 0 0 0 1 0
 End
 
 #OBJECT
@@ -744,7 +751,7 @@ WearLoc      8
 Currtype     1
 Color        1
 Size   77
-Values       2 2 0 0 0 0 0
+Values       1 2 0 0 0 0 0
 End
 
 #OBJECT
@@ -784,6 +791,7 @@ Values       300 0 0 6 0 0 0
 End
 
 #OBJECT
+Count        2
 Vnum         139
 Currtype     4
 Color        5
@@ -791,6 +799,7 @@ Size   0
 End
 
 #OBJECT
+Count        2
 Vnum         1224
 Level        108
 Currtype     1
@@ -799,11 +808,230 @@ Size   0
 End
 
 #OBJECT
-Vnum         1224
-Level        108
+Vnum         2109
+Level        11
 Currtype     1
-Color        12
 Size   0
+Values       10 10 0 0 0 11 0
+End
+
+#OBJECT
+Vnum         16000
+Level        98
+Currtype     4
+Size   3
+End
+
+#OBJECT
+Vnum         5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         5101
+Level        100
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 97 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Vnum         125
+WearLoc      16
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 77
+End
+
+#OBJECT
+Vnum         5313
+Level        1
+Currtype     2
+Color        13
+Size   4
+Values       30 3 3 1 113 1 -1
+Spell 4      'kindred strength'
+End
+
+#OBJECT
+Vnum         5103
+WearLoc      1
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      24
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16005
+WearLoc      2
+Level        1
+Currtype     2
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16010
+WearLoc      3
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Count        2
+Name         meat raw slice sewer rat~
+ShortDescr   a slice of raw meat from a sewer rat~
+Description  A slice of raw meat from a sewer rat lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16074
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      25
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         10001
+Level        19
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         67
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+Level        1
+Currtype     1
+Color        11
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         29
+Currtype     1
+Color        1
+Size   0
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Count        2
+Vnum         40
+Currtype     1
+Color        1
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   0
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
 End
 
 #END

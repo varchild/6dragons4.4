@@ -4,18 +4,7 @@ State  1
 End
 
 #AUTH
-Name  Hagane~
-State  1
-End
-
-#AUTH
 Name  Mogran~
-State  5
-AuthedBy       Varchild~
-End
-
-#AUTH
-Name  Alnar~
 State  5
 AuthedBy       Varchild~
 End
@@ -27,18 +16,19 @@ AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Neos~
+Name  Nhudri~
 State  5
 AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Nhudri~
-State  1
+Name  Garosh~
+State  5
+AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Wigther~
+Name  Markos~
 State  5
 AuthedBy       Varchild~
 End

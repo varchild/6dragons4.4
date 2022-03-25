@@ -730,7 +730,7 @@ a crystal ring~
 A ring seemingly made entirely out of ice glistens here softly.~
 ~
 9 8193 3
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 1 127 12
 2
 0
@@ -751,7 +751,7 @@ an ice spear~
 A spear made out of ice lies here glistening softly.~
 ~
 5 0 8193
-12 25 50 7 10 0 100
+12 20 40 7 10 0 100
 1 102 10
 2
 0
@@ -768,7 +768,7 @@ ice claws~
 A set of long claws made entirely out of ice glisten softly.~
 ~
 5 0 8193
-12 70 85 1 0 0 100
+12 78 101 1 0 0 100
 1 94 9
 2
 0
@@ -800,7 +800,7 @@ a giant icicle~
 An extremely large icicle sits here glistening softly.~
 ~
 5 0 8193
-12 65 85 4 4 0 0
+12 70 85 4 4 0 0
 1 93 9
 2
 0

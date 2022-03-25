@@ -2,23 +2,24 @@
 Name          Dakar City~
 Filename      dakar.city~
 Bank          dakar~
+Duke          Neos~
 Allegiance    Throng~
-Defense          30
-Offense          95
-OffenseCatapult  1
-DefenseCatapult  1
-Ballista         1
-OffenseSoldiers  10
-DefenseGuards    0
-DefenseArchers   1
-OffenseArchers   10
-DefenseWarriors  1
-OffenseWarriors  10
-Arrows           1
-Platform         1
-Ram              0
-Pitch            2
-Wins             36
+Defense          500
+Offense          560
+OffenseCatapult  6
+DefenseCatapult  10
+Ballista         6
+OffenseSoldiers  50
+DefenseGuards    50
+DefenseArchers   50
+OffenseArchers   50
+DefenseWarriors  50
+OffenseWarriors  50
+Arrows           50
+Platform         6
+Ram              2
+Pitch            10
+Wins             38
 Loses            421
 Recall           11210
 Siege1           27013
@@ -40,6 +41,16 @@ OArrow           41023
 MinHouse         57001
 MaxHouse         58000
 Hardened         0
+End
+
+#ROLLCALL
+Name      Neos~
+Joined    1648039376
+Updated    1648148752
+Class     vampire~
+Level     11
+Kills     181
+Deaths    7
 End
 
 #END

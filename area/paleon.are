@@ -4835,7 +4835,7 @@ an iron spear~
 An iron spear has been left here.~
 ~
 5 0 8193
-10 5 15 2 10 0 0
+10 3 10 2 10 0 0
 6 60 6
 2
 13
@@ -7871,6 +7871,21 @@ E
 broth~
 The herbal broth is milky colored and there are many herbs floating within it.
 ~
+#16248
+collar ruby beautiful~
+a beautiful ruby collar~
+a beautiful ruby collar~
+~
+8 786688 5
+0 0 0 0 0 0 0
+1 8 0
+1
+0
+0
+0
+0
+0
+S 0 0
 #16284
 steel gullet guard~
 a steel gullet guard~
@@ -8161,7 +8176,7 @@ D3
 D5
 ~
 sewer grate~
-16777217 -1 8355
+16777219 -1 8355
 R D 0 16002 5 1
 S
 #16003

@@ -1,0 +1,16 @@
+#CORPSE
+Name         corpse Raino~
+ShortDescr   the corpse of Raino~
+Description  The corpse of Raino is lying here.~
+Vnum         11
+Room         16095
+Rvnum     16095
+ExtraFlags   4194304
+Timer        -1
+Currtype     1
+Size   0
+Values       0 0 5 0 10 0 0
+End
+
+#END
+

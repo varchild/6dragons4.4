@@ -194,4 +194,233 @@ Size   0
 Values       300 0 0 6 0 0 0
 End
 
+#OBJECT
+Vnum         959
+Level        50
+Currtype     1
+Color        1
+Size   4
+Values       38 1 1 -1 11 50 0
+End
+
+#OBJECT
+Vnum         19004
+Level        1
+Currtype     2
+Color        1
+Size   0
+Values       0 20 3 0 0 1 0
+End
+
+#OBJECT
+Vnum         16017
+Level        5
+Currtype     2
+Color        8
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         35514
+Level        10
+Currtype     2
+Color        1
+Size   0
+Values       30 97 -1 -1 96 10 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Count        3
+Vnum         961
+Level        1
+Currtype     1
+Color        14
+Size   4
+Values       962 0 963 0 0 1 0
+End
+
+#OBJECT
+Vnum         19013
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Vnum         959
+Level        50
+Currtype     1
+Color        1
+Size   4
+Values       38 2 2 -1 11 50 0
+End
+
+#OBJECT
+Vnum         959
+Level        50
+Currtype     1
+Color        1
+Size   0
+Values       38 1 1 -1 11 50 0
+End
+
+#OBJECT
+Vnum         950
+Level        15
+Currtype     3
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         40025
+Level        1
+Currtype     1
+Color        5
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         956
+Level        20
+Currtype     2
+Color        7
+Size   4
+Values       12 10 20 1 1 20 90
+End
+
+#OBJECT
+Vnum         956
+Level        20
+Currtype     2
+Color        7
+Size   4
+Values       12 10 20 1 1 20 70
+End
+
+#OBJECT
+Vnum         956
+Level        20
+Currtype     2
+Color        7
+Size   4
+Values       12 10 20 1 1 20 57
+End
+
+#OBJECT
+Vnum         956
+Level        20
+Currtype     2
+Color        7
+Size   4
+Values       12 10 20 1 1 20 25
+End
+
+#OBJECT
+Vnum         956
+Level        20
+Currtype     2
+Color        7
+Size   4
+Values       12 10 20 1 1 20 73
+End
+
+#OBJECT
+Vnum         955
+Level        15
+Currtype     2
+Color        7
+Size   4
+Values       10 5 15 1 1 15 72
+End
+
+#OBJECT
+Vnum         952
+Level        15
+Currtype     2
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         953
+Level        15
+Currtype     1
+Color        7
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Count        2
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         957
+Level        40
+Currtype     1
+Color        7
+Size   4
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Vnum         954
+Level        15
+Currtype     3
+Color        7
+Size   4
+Values       10 5 15 3 9 15 18
+End
+
+#OBJECT
+Vnum         40028
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         954
+Level        15
+Currtype     3
+Color        7
+Size   4
+Values       10 5 15 3 9 15 70
+End
+
+#OBJECT
+Vnum         958
+Level        40
+Currtype     1
+Color        12
+Size   77
+Values       35 35 0 0 0 40 0
+End
+
 #END

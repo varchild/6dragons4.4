@@ -1432,7 +1432,7 @@ a shield of faith~
 A shield of faith hums here.~
 ~
 9 525571 513
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 8 175 2
 2
 0
@@ -1455,7 +1455,7 @@ some cloud boots~
 A pair of cloud boots float here.~
 ~
 9 259 65
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 100 2
 1
 0
@@ -1694,7 +1694,7 @@ the Guard of Solomon~
 A polished guard shield is here, humming softly.~
 ~
 9 524618 513
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 40 93 500
 4
 14

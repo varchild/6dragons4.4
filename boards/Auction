@@ -2,6 +2,7 @@ Sender      Alice~
 PostTime    1456065404
 To          all~
 Subject     a sharpening stone~
+Read        Raino~
 #OBJECT
 Vnum         11236
 Level        1
@@ -20,6 +21,8 @@ Sender      Mendicus~
 PostTime    1470913642
 To          all~
 Subject     a sparkling gem~
+Bid         Raino~ 1
+Read        Raino~
 #OBJECT
 Vnum         2307
 Level        19
@@ -37,15 +40,9 @@ Sender      Izak~
 PostTime    1470951963
 To          all~
 Subject     a bear pelt~
-AutoWin     1
-#OBJECT
-Vnum         11541
-Level        79
-Currtype     1
-Size   77
-Values       55 55 0 0 0 0 0
-End
-
+Read        Raino~
+AClosed
+SFor        1
 Text
 auctioning
 ~
@@ -55,6 +52,7 @@ Sender      Izak~
 PostTime    1470955649
 To          all~
 Subject     the tail of a giant sandrat~
+Read        Raino~
 AutoWin     5
 #OBJECT
 Vnum         3757
@@ -74,6 +72,7 @@ Sender      Skyraker~
 PostTime    1471219732
 To          all~
 Subject     a feces tipped short bamboo spear~
+Read        Raino~
 #OBJECT
 Vnum         10221
 Level        32
@@ -92,6 +91,7 @@ Sender      Alastroden~
 PostTime    1471278759
 To          all~
 Subject     a full-breastplate, legendary produced from meteor~
+Read        Raino~
 #OBJECT
 Name         full-breastplate~
 ShortDescr   a full-breastplate, legendary produced from meteor~
@@ -121,6 +121,7 @@ Sender      Alastroden~
 PostTime    1471278813
 To          all~
 Subject     a full-breastplate, legendary produced from meteor~
+Read        Raino~
 #OBJECT
 Name         full-breastplate~
 ShortDescr   a full-breastplate, legendary produced from meteor~
@@ -152,6 +153,7 @@ Sender      Alastroden~
 PostTime    1471281245
 To          all~
 Subject     a crystal-light, legendary produced from meteor~
+Read        Raino~
 #OBJECT
 Name         crystal-light~
 ShortDescr   a crystal-light, legendary produced from meteor~
@@ -181,6 +183,7 @@ Sender      Izak~
 PostTime    1471727972
 To          all~
 Subject     Guardian of the Flesh~
+Read        Raino~
 #OBJECT
 Vnum         10063
 Level        75
@@ -199,6 +202,7 @@ Sender      Izak~
 PostTime    1471727979
 To          all~
 Subject     a funeral shroud~
+Read        Raino~
 #OBJECT
 Vnum         10064
 Level        75
@@ -218,16 +222,9 @@ PostTime    1471913175
 To          all~
 Subject     an extradimensional portal~
 Read        Sanibak~
-AutoWin     1
-#OBJECT
-Vnum         1408
-Level        77
-Currtype     2
-Color        13
-Size   0
-Values       1000 0 0 12 0 0 0
-End
-
+Read        Raino~
+AClosed
+SFor        1
 Text
 auctioning
 ~
@@ -237,15 +234,9 @@ Sender      Xander~
 PostTime    1471914938
 To          all~
 Subject     a golden dagger~
-AutoWin     1
-#OBJECT
-Vnum         35702
-Level        75
-Currtype     1
-Size   0
-Values       12 40 80 6 2 75 45
-End
-
+Read        Raino~
+AClosed
+SFor        1
 Text
 auctioning
 ~
@@ -255,6 +246,7 @@ Sender      Syndriel~
 PostTime    1472878146
 To          all~
 Subject     a feather of knowing~
+Read        Raino~
 #OBJECT
 Vnum         16007
 Level        1

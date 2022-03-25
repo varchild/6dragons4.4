@@ -6,6 +6,7 @@ Duke          Sanibak~
 Baron         Alnar~
 Captain       Zael~
 Sheriff       Correne~
+Knight        Wigther~
 Allegiance    Halcyon~
 Defense          316
 Offense          227
@@ -49,41 +50,61 @@ End
 #ROLLCALL
 Name      Sanibak~
 Joined    1647904960
-Updated    1647985561
+Updated    1648180695
 Class     gold~
-Level     41
-Kills     894
-Deaths    4
-End
-
-#ROLLCALL
-Name      Zael~
-Joined    1647938366
-Updated    1647988531
-Class     gold~
-Level     17
-Kills     291
+Level     45
+Kills     1007
 Deaths    4
 End
 
 #ROLLCALL
 Name      Alnar~
 Joined    1647941226
-Updated    1647972164
+Updated    1648206436
 Class     silver~
-Level     12
-Kills     498
-Deaths    9
+Level     29
+Kills     1086
+Deaths    12
+End
+
+#ROLLCALL
+Name      Zael~
+Joined    1647938366
+Updated    1648014659
+Class     gold~
+Level     19
+Kills     359
+Deaths    4
+End
+
+#ROLLCALL
+Name      Wigther~
+Joined    1648004879
+Updated    1648216224
+Class     black~
+Level     15
+Kills     290
+Deaths    5
+End
+
+#ROLLCALL
+Name      Kraegar~
+Joined    1648100301
+Updated    1648189183
+Class     gold~
+Level     9
+Kills     346
+Deaths    1
 End
 
 #ROLLCALL
 Name      Correne~
 Joined    1647903953
-Updated    1647985009
+Updated    1648056180
 Class     gold~
-Level     6
-Kills     36
-Deaths    1
+Level     8
+Kills     128
+Deaths    2
 End
 
 #ROLLCALL

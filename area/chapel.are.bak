@@ -481,7 +481,7 @@ disgusting pinkish plasma webbing~
 A pile of pink material is lying here~
 ~
 9 2560 9
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 10 5000 500
 1
 0
@@ -1146,11 +1146,11 @@ The stench of death is heavy in these caverns.
 D1
 ~
 ~
-0 0 3416
+0 0 3420
 D2
 ~
 ~
-0 0 3420
+0 0 3416
 D3
 ~
 ~
@@ -1417,11 +1417,11 @@ The stench of death is heavy in these caverns.
 D1
 ~
 ~
-0 0 3420
+0 0 3426
 D3
 ~
 ~
-0 0 3426
+0 0 3420
 R R 0 3425 4
 S
 #3426
@@ -1517,7 +1517,7 @@ The stench of death is heavy in these caverns.
 D0
 ~
 ~
-0 0 3426
+0 0 3431
 D1
 ~
 ~
@@ -1525,7 +1525,7 @@ D1
 D2
 ~
 ~
-0 0 3431
+0 0 3426
 R R 0 3430 4
 R M 0 3416 4 3430
 R M 0 3416 4 3430
@@ -1539,11 +1539,11 @@ The stench of death is heavy in these caverns.
 D1
 ~
 ~
-0 0 3430
+0 0 3436
 D2
 ~
 ~
-0 0 3436
+0 0 3430
 R R 0 3431 4
 R M 0 3409 4 3431
 S
@@ -1609,11 +1609,11 @@ D0
 D1
 ~
 ~
-0 0 3430
+0 0 3436
 D3
 ~
 ~
-0 0 3436
+0 0 3430
 R R 0 3435 4
 R M 0 3400 8 3435
   R E 1 3421 1 16
@@ -1632,11 +1632,11 @@ D0
 D2
 ~
 ~
-0 0 3435
+0 0 3441
 D3
 ~
 ~
-0 0 3441
+0 0 3435
 R R 0 3436 4
 S
 #3437
@@ -1707,11 +1707,11 @@ D1
 D2
 ~
 ~
-35 0 3435
+35 0 3445
 D3
 ~
 ~
-35 0 3445
+35 0 3435
 R R 0 3440 4
 R D 0 3440 1 1
 S
@@ -1724,15 +1724,15 @@ The stench of death is heavy in these caverns.
 D0
 ~
 ~
-0 0 3440
+0 0 3446
 D1
 ~
 ~
-0 0 3446
+0 0 3436
 D2
 ~
 ~
-0 0 3436
+0 0 3440
 R R 0 3441 4
 S
 #3442
@@ -1760,11 +1760,11 @@ The stench of death is heavy in these caverns.
 D0
 ~
 ~
-0 0 3444
+0 0 3442
 D3
 ~
 ~
-0 0 3442
+0 0 3444
 R R 0 3443 4
 R M 0 3402 8 3443
 S
@@ -1789,11 +1789,11 @@ The stench of death is heavy in these caverns.
 D1
 ~
 ~
-0 0 3440
+0 0 3446
 D3
 ~
 ~
-0 0 3446
+0 0 3440
 R R 0 3445 4
 R M 0 3409 4 3445
 R M 0 3416 4 3445
@@ -1807,7 +1807,7 @@ The stench of death is heavy in these caverns.
 D0
 ~
 ~
-0 0 3441
+0 0 3445
 D1
 ~
 ~
@@ -1815,7 +1815,7 @@ D1
 D3
 ~
 ~
-0 0 3445
+0 0 3441
 R R 0 3446 4
 R M 0 3400 8 3446
   R E 1 3421 1 16

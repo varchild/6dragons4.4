@@ -18,7 +18,7 @@ Align       1000
 Min_Align   -1000
 Max_Align   1000
 AC_Plus     -50
-Exp_Mult    75
+Exp_Mult    45
 Height      70
 Weight      100
 Flags	      0

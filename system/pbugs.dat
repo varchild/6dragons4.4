@@ -196,4 +196,22 @@ RewardBonus   -1
 Room          1164
 End
 
+#BUG
+FoundBy       Raino~
+FoundWhen     03-25-2022 01:00:21AM~
+BugDesc       hello!, i am really enjoy this mud.
+hello!, i am really enjoy this mud.
+anyway, i think i found a bug.
+in trade skill, the jewelry.
+I was craft lot of items to improve my trade skills.
+however, I found the jewelry skill didn't consume or didn't used the metals and gems in my minners bag!, whether the craft succeeds or fails.
+just let you know and fix.
+thanks.
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          16078
+End
+
 #END

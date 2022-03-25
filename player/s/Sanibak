@@ -8,35 +8,35 @@ Thirdclass   -1
 Race         13
 Age          0 21 8 974
 Languages    1 1
-Level        41
+Level        45
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       78488
-Room         16738
-HpManaMove   4312 4237 1405 1305 2818 2718
+Played       99206
+Room         10815
+HpManaMove   4716 4641 1469 1424 3075 2975
 BaseHp       0 
-Blood        112 147
-Money         0 268 6501 623 359 -1
-Exp           2798759
+Blood        112 151
+Money         0 359 20 77 134 -1
+Exp           9977223
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        496
-Weight        3586
+Height        535
+Weight        3862
 Act           570426952&2101248
-AffectedBy    512
+AffectedBy    2560
 Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
 Speed         32
 Position      115
 Style         2
-Practice      85
+Practice      67
 SavingThrows  0 0 0 0 0
 Alignment     1000
 AppBlood      0
 Hitroll       0
 Damroll       0
-Armor         51
+Armor         31
 Wimpy         190
 Resistant     1056768
 Mentalstate   0
@@ -47,17 +47,16 @@ Lastip         172.58.129.236~
 RECAST          0
 Tradelevel          4
 Tradeclass          26
-Craftpoints          34
-Failsafe     13
-Combo1         claw~
-Combo2         snatch~
+Craftpoints          1346
+Combo1         breathe~
+Combo2         tail~
 Combo3         gut~
 Account         sanibak~
 AuthedBy     Varchild~
 KeepAlive      5
 GetsDExp     0
-DExpTimer    180
-LDExpUpdate  1647983952
+DExpTimer    220
+LDExpUpdate  1648179684
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -81,7 +80,7 @@ MapToggle          0
 MapSize            2
 MapDescToggle      0
 MapNameToggle      0
-MapType            0
+MapType            1
 FoundArea       Wilderness~
 FoundArea       Norrinton's South Harbor~
 FoundArea       Merchant Discovery~
@@ -114,6 +113,11 @@ FoundArea       Shoreline~
 FoundArea       Giant Wasp Hive~
 FoundArea       School of Shadow~
 FoundArea       Kingdom of Heaven~
+FoundArea       Ancient Ruins~
+FoundArea       Country Roads~
+FoundArea       Haon Dor~
+FoundArea       Halcyon Clan Hall~
+FoundArea       Newunderdark~
 Htown      Forbidden City~
 City      Forbidden City~
 Flags        2
@@ -121,39 +125,46 @@ Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       894
+MKills       1007
 MDeaths      4
 IllegalPK    0
 AttrPerm     22 20 18 12 18 10 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 0 78 51
+Condition    0 48 148 55
 Site         172.58.129.236
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
 NNSpell       5 5 'continual light' 0 0
-NNSpell       20 20 'cure affliction' 0 0
+NNSpell       31 20 'cure affliction' 0 0
+NNSpell       44 0 'dispel magic' 0 0
 NNSpell       14 14 'faerie fog' 0 0
-NNSpell       41 41 'giant strength' 0 0
+NNSpell       45 45 'feline grace' 0 0
+NNSpell       42 41 'giant strength' 0 0
 NNSpell       32 32 'locate object' 0 0
+NNSpell       30 0 'ogre vitality' 0 0
+NNSpell       37 0 'slow' 0 0
 NNSkill       95 95 'bite' 0 0
 NNSkill       95 95 'breathe' 0 0
-NNSkill       54 53 'breech' 0 0
+NNSkill       61 53 'breech' 0 0
 NNSkill       95 92 'claw' 0 0
 NNSkill       23 23 'climb' 0 0
 NNSkill       95 95 'combo' 0 0
+NNSkill       0 40 'cone' 0 0
 NNSkill       95 95 'devour' 0 0
 NNSkill       30 30 'dodge' 0 0
 NNSkill       23 23 'doorbash' 0 0
 NNSkill       28 24 'fly home' 0 0
-NNSkill       73 73 'gut' 0 0
+NNSkill       52 0 'gust of wind' 0 0
+NNSkill       86 73 'gut' 0 0
 NNSkill       95 87 'hardened scales' 0 0
 NNSkill       14 14 'human form' 0 0
 NNSkill       95 95 'lick' 0 0
-NNSkill       35 24 'lore' 0 0
+NNSkill       42 24 'lore' 0 0
 NNSkill       15 15 'meditate' 0 0
-NNSkill       10 10 'produce' 0 0
+NNSkill       47 0 'pluck' 0 0
+NNSkill       10 15 'produce' 0 0
 NNSkill       27 23 'rage' 0 0
 NNSkill       41 41 'scan' 0 0
 NNSkill       95 95 'second attack' 0 0
@@ -162,32 +173,35 @@ NNSkill       50 50 'slice' 0 0
 NNSkill       34 27 'smell' 0 0
 NNSkill       32 32 'snatch' 0 0
 NNSkill       95 29 'swim' 0 0
+NNSkill       68 40 'tail swipe' 0 0
 NNSkill       95 95 'third attack' 0 0
+NNSkill       29 0 'trance' 0 0
 NNSkill       95 95 'truesight' 0 0
 NNSkill       61 10 'unearth' 0 0
-NNSkill       70 52 'wings' 0 0
+NNSkill       75 52 'wings' 0 0
 NNTongue      95 95 'common' 0 0
 NNTongue      95 95 'draconic' 0 0
-Killed       16712
-Killed       16712
-Killed       16712
-Killed       16707
-Killed       16712
-Killed       16711
-Killed       16705
-Killed       16701
-Killed       16704
-Killed       16703
-Killed       16702
-Killed       16701
-Killed       16701
-Killed       16701
-Killed       16701
-Killed       16704
-Killed       16703
-Killed       16702
-Killed       16702
-Killed       16701
+AffectDataL   'shield'  41  -1   0  70 2048
+Killed       2302
+Killed       6253
+Killed       6250
+Killed       6251
+Killed       6250
+Killed       11544
+Killed       11544
+Killed       11546
+Killed       11545
+Killed       11543
+Killed       11544
+Killed       11544
+Killed       11551
+Killed       11551
+Killed       11546
+Killed       11547
+Killed       11545
+Killed       11545
+Killed       11546
+Killed       11550
 THYQuestN 10 8 0 0 1 0
 THYQuestN 17 1 0 0 1 0
 THYQuestN 30 10 0 0 1 0
@@ -201,6 +215,7 @@ THYQuestN 94 3 0 0 1 0
 THYQuestN 95 3 0 0 1 0
 THYQuestN 98 7 0 0 1 0
 THYQuestN 104 1 0 0 1 7
+THYQuestN 108 2 0 0 1 0
 THYQuestN 111 3 0 0 1 0
 THYQuestN 119 3 0 0 1 0
 MaxColors    111
@@ -216,15 +231,6 @@ Currtype     2
 Color        2
 Size   0
 Values       300 0 0 5 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         16038
-Currtype     4
-Color        1
-Size   3
-Values       30 30 0 0 0 0 0
 End
 
 #OBJECT
@@ -324,17 +330,6 @@ End
 
 #OBJECT
 Nest         1
-Vnum         29020
-Level        22
-Cost         0
-Currtype     3
-Color        6
-Size   0
-Values       20 20 0 0 0 0 0
-End
-
-#OBJECT
-Nest         1
 Vnum         28297
 Level        23
 Currtype     1
@@ -372,26 +367,6 @@ End
 
 #OBJECT
 Nest         1
-Vnum         8313
-Level        2
-Currtype     2
-Color        13
-Size   77
-Values       2 2 0 0 0 2 0
-End
-
-#OBJECT
-Nest         1
-Vnum         8302
-Level        10
-Currtype     4
-Color        13
-Size   0
-Values       10 10 0 0 0 10 0
-End
-
-#OBJECT
-Nest         1
 Vnum         8300
 Level        10
 Currtype     4
@@ -422,26 +397,6 @@ End
 
 #OBJECT
 Nest         1
-Vnum         16714
-Level        37
-Currtype     3
-Color        8
-Size   77
-Values       35 35 0 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         16716
-Level        38
-Currtype     3
-Color        13
-Size   77
-Values       35 35 0 0 0 0 0
-End
-
-#OBJECT
-Nest         1
 Vnum         609
 Level        50
 Currtype     3
@@ -462,50 +417,12 @@ End
 
 #OBJECT
 Nest         1
-Vnum         603
-Level        55
-Currtype     2
-Size   77
-Values       1 45 0 0 0 0 0
-End
-
-#OBJECT
-Nest         1
 Vnum         605
 Level        45
 Currtype     2
 Color        4
 Size   77
 Values       40 40 0 0 0 45 0
-End
-
-#OBJECT
-Nest         1
-Vnum         602
-Level        54
-Currtype     2
-Size   0
-Values       12 25 50 4 5 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         608
-Level        50
-Currtype     2
-Color        14
-Size   0
-Values       12 25 50 2 10 50 60
-End
-
-#OBJECT
-Nest         1
-Vnum         11613
-Level        25
-Currtype     3
-Color        13
-Size   0
-Values       20 20 0 0 0 25 0
 End
 
 #OBJECT
@@ -527,65 +444,6 @@ Currtype     4
 Color        13
 Size   0
 Values       6 10 0 0 0 10 0
-End
-
-#OBJECT
-Nest         1
-Vnum         11515
-Level        55
-Currtype     2
-Size   77
-Values       45 45 0 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         11511
-Level        55
-Currtype     2
-Size   3
-Values       12 30 60 4 5 55 0
-End
-
-#OBJECT
-Nest         1
-Vnum         10215
-Level        30
-Currtype     1
-Color        1
-Size   77
-Values       30 30 0 0 0 30 0
-End
-
-#OBJECT
-Nest         1
-Vnum         16717
-Level        20
-Currtype     2
-Color        14
-Size   0
-Values       50 9 9 156 0 20 0
-Spell 3      'sanctuary'
-End
-
-#OBJECT
-Nest         1
-Vnum         16720
-Level        40
-Currtype     2
-Color        14
-Size   0
-Values       35 35 0 0 0 40 0
-End
-
-#OBJECT
-Nest         1
-Vnum         16721
-Level        40
-Currtype     2
-Color        14
-Size   0
-Values       35 35 0 0 0 40 0
 End
 
 #OBJECT
@@ -639,16 +497,6 @@ End
 
 #OBJECT
 Nest         1
-Vnum         8310
-Level        10
-Currtype     4
-Color        5
-Size   77
-Values       8 10 0 0 0 10 0
-End
-
-#OBJECT
-Nest         1
 Vnum         16713
 Level        52
 Currtype     4
@@ -698,12 +546,92 @@ End
 
 #OBJECT
 Nest         1
-Vnum         607
-Level        50
-Currtype     2
+Vnum         25007
+Level        10
+Currtype     4
 Color        13
 Size   77
-Values       40 40 0 0 0 50 0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16714
+Level        36
+Currtype     3
+Color        8
+Size   77
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8313
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8301
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       0 0 -1 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26010
+Level        27
+Currtype     4
+Color        4
+Size   0
+Values       300 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8305
+Level        10
+Currtype     3
+Color        5
+Size   77
+Values       5 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26008
+Level        30
+Currtype     3
+Color        4
+Size   77
+Values       30 30 0 0 0 30 0
+End
+
+#OBJECT
+Nest         1
+Vnum         26009
+Level        30
+Currtype     4
+Color        4
+Size   0
+Values       0 0 -1 0 0 30 0
 End
 
 #OBJECT
@@ -726,7 +654,26 @@ End
 
 #OBJECT
 Nest         1
-Vnum         25007
+Vnum         16721
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25012
+Level        59
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         25006
 Level        10
 Currtype     4
 Color        13
@@ -736,12 +683,77 @@ End
 
 #OBJECT
 Nest         1
-Vnum         16714
-Level        36
-Currtype     3
-Color        8
+Vnum         25002
+Level        10
+Currtype     2
+Color        13
 Size   77
-Values       35 35 0 0 0 0 0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         8302
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25008
+Level        2
+Currtype     2
+Color        13
+Size   77
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11543
+Level        70
+Currtype     1
+Size   77
+Values       50 50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11541
+Level        78
+Currtype     1
+Size   77
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11542
+Level        76
+Currtype     1
+Size   0
+Values       12 40 80 1 2 0 53
+End
+
+#OBJECT
+Nest         1
+Vnum         11547
+Level        80
+Currtype     1
+Size   0
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11547
+Level        80
+Currtype     1
+Size   0
+Values       55 55 0 0 0 0 0
 End
 
 #OBJECT
@@ -751,6 +763,26 @@ Level        22
 Currtype     1
 Color        3
 Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         8313
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16720
+Level        40
+Currtype     2
+Color        14
+Size   0
+Values       35 35 0 0 0 40 0
 End
 
 #OBJECT
@@ -775,52 +807,33 @@ End
 
 #OBJECT
 Nest         1
-Vnum         11613
-Level        25
-Currtype     3
-Color        13
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
 Size   0
-Values       20 20 0 0 0 25 0
 End
 
 #OBJECT
 Nest         1
-Vnum         8313
-Level        2
-Currtype     2
-Color        13
-Size   0
-Values       2 2 0 0 0 2 0
-End
-
-#OBJECT
-Nest         1
-Vnum         8313
-Level        2
-Currtype     2
-Color        13
-Size   0
-Values       2 2 0 0 0 2 0
-End
-
-#OBJECT
-Nest         1
-Vnum         16720
-Level        40
+Vnum         16717
+Level        20
 Currtype     2
 Color        14
 Size   0
-Values       35 35 0 0 0 40 0
+Values       50 9 8 156 0 20 0
+Spell 3      'sanctuary'
 End
 
 #OBJECT
 Nest         1
-Vnum         16720
-Level        40
+Vnum         16717
+Level        20
 Currtype     2
 Color        14
 Size   0
-Values       35 35 0 0 0 40 0
+Values       49 7 2 156 0 20 0
+Spell 3      'sanctuary'
 End
 
 #OBJECT
@@ -839,27 +852,7 @@ Level        10
 Currtype     4
 Color        13
 Size   0
-Values       9 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         7503
-WearLoc      15
-Level        5
-Currtype     4
-Color        13
-Size   77
-Values       1 5 0 0 0 5 0
-End
-
-#OBJECT
-Vnum         8301
-WearLoc      0
-Level        10
-Currtype     4
-Color        14
-Size   0
-Values       0 0 -1 0 0 10 0
+Values       6 10 0 0 0 10 0
 End
 
 #OBJECT
@@ -869,37 +862,7 @@ Level        10
 Currtype     4
 Color        13
 Size   0
-Values       10 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         8304
-WearLoc      10
-Level        10
-Currtype     4
-Color        13
-Size   0
-Values       6 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         8305
-WearLoc      12
-Level        10
-Currtype     3
-Color        5
-Size   77
-Values       5 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         28018
-WearLoc      14
-Level        15
-Currtype     4
-Color        1
-Size   77
-Values       10 10 0 0 0 15 0
+Values       8 10 0 0 0 10 0
 End
 
 #OBJECT
@@ -909,7 +872,7 @@ Level        20
 Currtype     3
 Color        2
 Size   0
-Values       19 20 0 0 0 20 0
+Values       18 20 0 0 0 20 0
 End
 
 #OBJECT
@@ -919,17 +882,7 @@ Level        20
 Currtype     3
 Color        2
 Size   0
-Values       19 20 0 0 0 20 0
-End
-
-#OBJECT
-Vnum         8302
-WearLoc      6
-Level        10
-Currtype     4
-Color        13
-Size   0
-Values       9 10 0 0 0 10 0
+Values       18 20 0 0 0 20 0
 End
 
 #OBJECT
@@ -942,32 +895,13 @@ Values       0 12 2 0 0 10 0
 End
 
 #OBJECT
-Vnum         28263
-Level        21
-Currtype     1
-Color        3
-Size   3
-End
-
-#OBJECT
-Vnum         16717
-WearLoc      17
-Level        20
-Currtype     2
-Color        14
-Size   0
-Values       49 7 6 156 0 20 0
-Spell 3      'sanctuary'
-End
-
-#OBJECT
 Vnum         16700
 WearLoc      20
 Level        40
 Currtype     2
 Color        5
 Size   77
-Values       35 35 0 0 0 40 0
+Values       34 35 0 0 0 40 0
 End
 
 #OBJECT
@@ -977,7 +911,7 @@ Level        36
 Currtype     3
 Color        13
 Size   77
-Values       35 35 0 0 0 0 0
+Values       34 35 0 0 0 0 0
 End
 
 #OBJECT
@@ -1007,7 +941,7 @@ Level        40
 Currtype     2
 Color        14
 Size   77
-Values       35 35 0 0 0 40 0
+Values       34 35 0 0 0 40 0
 End
 
 #OBJECT
@@ -1017,7 +951,7 @@ Level        40
 Currtype     2
 Color        14
 Size   0
-Values       35 35 0 0 0 40 0
+Values       33 35 0 0 0 40 0
 End
 
 #OBJECT
@@ -1034,9 +968,117 @@ End
 Vnum         35548
 Currtype     4
 Color        1
-Craft1       58
+Craft1       35
 Size   0
 Values       125 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         26005
+WearLoc      15
+Level        30
+Currtype     3
+Color        4
+Size   77
+Values       29 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26005
+WearLoc      14
+Level        30
+Currtype     3
+Color        4
+Size   0
+Values       28 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         26006
+WearLoc      12
+Level        30
+Currtype     3
+Color        4
+Size   77
+Values       27 30 0 0 0 30 0
+End
+
+#OBJECT
+Vnum         25001
+WearLoc      0
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       0 0 -1 0 0 10 0
+End
+
+#OBJECT
+Vnum         28263
+Level        21
+Currtype     1
+Color        3
+Size   0
+End
+
+#OBJECT
+Vnum         25010
+WearLoc      31
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         26001
+Level        28
+Currtype     2
+Color        14
+Size   0
+Values       1 12 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         25011
+WearLoc      32
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         25003
+WearLoc      6
+Level        35
+Currtype     3
+Color        5
+Size   77
+Values       33 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         25005
+WearLoc      10
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         26002
+WearLoc      17
+Level        20
+Currtype     4
+Color        4
+Size   0
+Values       20 8 6 8 0 20 0
+Spell 3      'aqua breath'
 End
 
 #OBJECT
@@ -1048,6 +1090,14 @@ Size   0
 Values       0 12 2 0 0 10 0
 End
 
+#OBJECT
+Vnum         18606
+Level        45
+Currtype     4
+Color        1
+Size   0
+End
+
 #VARIABLE
 Type    1
 Flags   0
@@ -1055,20 +1105,8 @@ Vnum    3
 Ctime   1647903058
 Mtime   1647903058
 Rtime   0
-Timer   612
+Timer   345
 Tag     train~
-Int     0
-End
-
-#VARIABLE
-Type    1
-Flags   0
-Vnum    8721
-Ctime   1647916130
-Mtime   1647916130
-Rtime   0
-Timer   98
-Tag     money~
 Int     0
 End
 

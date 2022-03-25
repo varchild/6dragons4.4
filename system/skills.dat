@@ -563,7 +563,7 @@ Code         spell_create_food
 Wearoff      !Create Food!~
 Dice         0~
 Value        20
-Difficulty   4
+Difficulty   1
 Minlevel     2
 End
 
@@ -1783,6 +1783,7 @@ Target       1
 Minpos       108
 Rounds       55
 Code         spell_smaug
+Difficulty   1
 Minlevel     101
 End
 

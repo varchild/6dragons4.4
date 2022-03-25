@@ -433,3 +433,193 @@
 &CZael: alright (ooc)&D
 &CVarchild: Runs on Linux, so it shouldn't be down that long. (ooc)&D
 &CVarchild: Alrighty. Gonna reboot the OS and then the mud. See you in 5 minutes. (ooc)&D
+&CZael: what kind of changes are you putting in? (ooc)&D
+&CVarchild: Updating the MSSP data (ooc)&D
+&CZael: ah (ooc)&D
+&CVarchild: I need to figure out how to update the website references in some of the command output too (ooc)&D
+&CZael: like the ones in 'who'? (ooc)&D
+&CVarchild: Yep. Exactly those. (ooc)&D
+&CZael: that shouldn't be hard to do (ooc)&D
+&CVarchild: this is true, it's just that the documentation is pretty spotty (ooc)&D
+&CZael: i can already see how to fix the who in who, lol (ooc)&D
+&CZael: the one in who* (ooc)&D
+&CVarchild: Alrighty. Game is being rebooted for a quick update. (ooc)&D
+&CTasivil: aprove me first! (ooc)&D
+&CTasivil: woo! (ooc)&D
+&CVarchild: Alrighty. game will be back up in like 2 min. (ooc)&D
+&CLinnia: at what level do wilderness mobs appear. I haven't seen any (chat)&D
+&PZary: Greetings everybody! (sooc)&D
+&CVarchild: They should appear. (chat)&D
+&CLinnia: they aren't (chat)&D
+&CLinnia: only in ocean. (chat)&D
+&CZael: i'm having them appear as i wander around... hmm (chat)&D
+&CLinnia: you are level 17 (chat)&D
+&CZael: i'll look into it and see if i can find anything (ooc)&D
+&CLinnia: as soon as you can. It seems that beastmaster isn't much without a companion (ooc)&D
+&CZary: it looks like they might start spawning in at level 6 (ooc)&D
+&CLinnia: hmmm how can i get to that (ooc)&D
+&CLinnia: ah I know (ooc)&D
+&CZary: i believe there should be weak mobs in the starting town... that's how it is for dragons, at least (ooc)&D
+&CLinnia: all i saw was rats so far, but I can look (ooc)&D
+&CZary: lets hope i was right on that, lol (ooc)&D
+&CLinnia: woo! (ooc)&D
+&CZary: that a 'woo, that did it'? lol (ooc)&D
+&CLinnia: how do I take control of the pet and level it again? (ooc)&D
+&CLinnia: also, do you guys have plays to get the msp sounds working at some point. all they play right now is beeps? (ooc)&D
+&CZary: it looks like you might be able to use hte 'order' command to get it to do stuff (ooc)&D
+&CLinnia: I used to be able to walk around in their bodies and level them up that way (ooc)&D
+&CZary: ah, i think that might be a skill for beastmaster... i've never played one... still learning things myself (ooc)&D
+&CLinnia: ah. is there a way to see what skills you can get later. that might refresh me (ooc)&D
+&CZary: slist (ooc)&D
+&CZary: looks like the skill you might be looking for is beast meld, at level 9 (ooc)&D
+&CLinnia: ah (ooc)&D
+&CLinnia: need to get there then. (ooc)&D
+&CLinnia: how do I check what level my pet is (ooc)&D
+&CZary: try order name petreport... where you replace name, with the name of the pet (ooc)&D
+&CLinnia: what is affection (ooc)&D
+&CZary: looks like it can help gain some bonus xp? tbh i'm not sure (ooc)&D
+&CTasivil: and l in bag (ooc)&D
+&CLinnia: do you know of any equiptment pets can wear, or how else to increase dps (ooc)&D
+&CZary: i'm unsure (ooc)&D
+&CLinnia: hmm, as soon as I get that command. and maybe I get a char that crafts claws. need to get a blacksmith statrted. I have been having a ton of fun. my friends plaid this game back in the day. (ooc)&D
+&CLinnia: think I figrued out what the problem is (ooc)&D
+&CVarchild: What's that? (ooc)&D
+&CLinnia: hahahahaha (ooc)&D
+&CVarchild: what are you doing? o_O (ooc)&D
+&CZary: that's not me (ooc)&D
+&CLinnia: you walk into the same wilderness room, and you fight yourself haha (ooc)&D
+&CZary: you... fight yourself? (ooc)&D
+&CLinnia: your pet fights you (ooc)&D
+&CLinnia: when your east melded, you are an enimy for your pet if you walk into the same room (ooc)&D
+&CZary: that's odd (ooc)&D
+&CLinnia: is theree a way that I can make a beast order part of my combo? (ooc)&D
+&CLinnia: becuase right now I only have one attack skill (ooc)&D
+&CZary: i'm unsure (ooc)&D
+&CBarivon: hmmm do I want to stay awake to do that. all though if I idle out at this stage this one would be deleted right? is there any way to check approval statuses? (ooc)&D
+&CVarchild: You have to be sure to SAVE your character (ooc)&D
+&CBarivon: woo, now I can go to bed if I want. I saved once or twice already, but wasn't sure if that would keep me from timing out, when not aproved (ooc)&D
+&PVarchild: So... I already have the feline race made. (sooc)&D
+&PZary: nice (sooc)&D
+&PVarchild: You have any ideas for more beast-themed races? (sooc)&D
+&PZary: just standard races... but the more i delve into things, the more i'm not seeing a way to convert things into racial abilities... the game has everything set up to be heavily tied into classes... (sooc)&D
+&PVarchild: Well, it's not EVERY skill that needs a racial check. Just claws, bite, smell, and wings (sooc)&D
+&PZary: yeah that's what i'm saying... for pixie, flying isn't a skill like 'wings' is... they just naturally get to fly, bypassing all the things to do with skills... otherwise, all the information is set in the class files (sooc)&D
+&PVarchild: Seriously? (sooc)&D
+&PZary: yep (sooc)&D
+&PVarchild: lemme see... (sooc)&D
+&PZary: if you look in the 'classes' folder, you can see how even all the skills dragons share... are set there... the min level they get a skill at... and the max level it can be trained to (sooc)&D
+&PZary: it's all handled in those files (sooc)&D
+&PVarchild: *groans* (sooc)&D
+&PVarchild: Then think you could write something up that ADDS those mentioned skills based on race then? (sooc)&D
+&PZary: from the looks of it... doing so would require a complete rewrite of skills/classes... and that is way, way, beyond my skill set (sooc)&D
+&PVarchild: buggerit. (sooc)&D
+&PVarchild: I'll keep a look out for a coder then... (sooc)&D
+&PVarchild: I'm punching out for a little bit. Will probably jump back on in a few. (sooc)&D
+&CSanibak: hello (chat)&D
+&CKraegar: Hi.  (chat)&D
+&CWigther: hello! (chat)&D
+&CKraegar: I used to play here ond on Dragons of Exhile. Long ago. (chat)&D
+&CSanibak: never played here before. don't suppose you have a list of where teachers are located (chat)&D
+&CSanibak: I have a bunch of skills/spells I can't find (chat)&D
+&CKraegar: no clue. Sorry. (chat)&D
+&CKraegar: congrats (chat)&D
+&CWigther: thx (chat)&D
+&CKraegar: Hi and welcome Galen. (chat)&D
+&CVarchild: so the game crashed again? (ooc)&D
+&CGalen: Greetings (chat)&D
+&PZary: what are you trying to do? (sooc)&D
+&PVarchild: I was just playing around. (sooc)&D
+&PVarchild: gonna head to bed. (sooc)&D
+&PZary: ah (sooc)&D
+&CSanibak: ouch (chat)&D
+&CTasivil: test (ooc)&D
+&CNeos: test (ooc)&D
+&CTasivil: good morning (chat)&D
+&CNeos: morning. (chat)&D
+&CTasivil: how are the relms this fine day! (chat)&D
+&CAlnar: helloes (chat)&D
+&CCorrene: hello (chat)&D
+&CAlnar: ah, glad to see we're back on (chat)&D
+&CVonLancelot: I'm sorry about that.  I logged the bug report for you. (chat)&D
+&CAlnar: ah, thank you! (chat)&D
+&CVonLancelot: time for dinner.  *wave* (chat)&D
+&CAlnar: have a good dinner (chat)&D
+&CVarchild: yo (chat)&D
+&CAlnar: hi, Varchild:! And assuming you're the one that brought this place back up, thank you (chat)&D
+&CVarchild: yes I did. I'm the head admin and this runs on one of my machines. :) (chat)&D
+&CAlnar: appreciated, this place always had tons of potential! (chat)&D
+&CVarchild: did you use to play 6Dragons Classic? (chat)&D
+&CAlnar: shortly, yes (chat)&D
+&CVarchild: I'm still trying to reach out to Vladaaar... (chat)&D
+&CAlnar: read that on reddit, yep (chat)&D
+&CAlnar: hey Varchild since you're here... As apparently the quest chapters havn't been described correctly in the Halcyon quest... What message did I need to refer to Kyfaek? (chat)&D
+&CVarchild: No idea... >.< (chat)&D
+&CAlnar: mh, I see... (chat)&D
+&CVarchild: Having fun? (chat)&D
+&CTasivil: yes (chat)&D
+&CTasivil: I missed this (chat)&D
+&CVarchild: I'm glad you're enjoying it. (chat)&D
+&CTasivil: I am. :) Soon eoungh I will have my stock of characters back :) (chat)&D
+&CVarchild: I'm trying to find Vladaar... (chat)&D
+&CTasivil: for what? (chat)&D
+&CVarchild: he was the Admin of 6dragons classic. (chat)&D
+&CVarchild: you LOVE the crafting, don't you? (chat)&D
+&CKraegar: Congrats (chat)&D
+&CNeos: thanks. (chat)&D
+&CWigther: do you want join our group for running exp? (chat)&D
+&CKraegar: Congrats (chat)&D
+&CRaino: thanks. (chat)&D
+&CRaino: ouch (chat)&D
+&CKraegar: oh well (chat)&D
+&CKraegar: congrats again (chat)&D
+&CRaino: ya thanks again (chat)&D
+&CAlnar: morning (chat)&D
+&CAlnar: hi, Kraegar (chat)&D
+&CKraegar: Hi Alnar. (chat)&D
+&CAlnar: considering the quantity of gold dragons compared to other colors I wonder if I did the wrong thing being silver, or the wisest of them all... (chat)&D
+&CKraegar: I use to play as several different dragons years ago on Dragon's of Exile. (chat)&D
+&CKraegar: I loved gold's magic casting. (chat)&D
+&CKraegar: Trying it out here. (chat)&D
+&CAlnar: and with that intelligence seems easier to master skills! (chat)&D
+&CKraegar: Looks to be that way. (chat)&D
+&CSanibak: Hmm I need to find some high level mobs to fight (chat)&D
+&CSanibak: hi (chat)&D
+&CAlnar: hi! (chat)&D
+&CSanibak: So the feline grace spell is bugged. If you get it don't try to cast it will crash the mud (chat)&D
+&CAlnar: no worries I've no magic to speak of (chat)&D
+&CAlnar: only a nice amount of silvery, scales? at level 35 (chat)&D
+&CAlnar: also, Sanibak, would you by chance have any area suggestions for exping apart from Szithlin? it's starting to be quite the, long millionaire trip from a level to the next (chat)&D
+&CSanibak: Hm I don't even know what mobs are in there (chat)&D
+&CSanibak: I just type area and go wherever the area suggestions are for your level. As a dragon once yuo have hardened scales you can go a bit above your level (chat)&D
+&CAlnar: ah, Szithlin is drows... Nasty ones that use thaintin and with their shield take a while to diebut seem to pay almost half a million per kill (chat)&D
+&CSanibak: idk what the ideal xp levels are. it's annoying trying to level in my range (chat)&D
+&CSanibak: when mobs afflict you you become crazy quickly (chat)&D
+&CSanibak: Seems like it's not worth using any dragon abilities to fight stuff besides breathe everything else does poor damage in comparison (chat)&D
+&CWigther: agree. (chat)&D
+&CAlnar: I still like using combo if it includes breath, it's little extra damage but damage nonetheless... (chat)&D
+&CSanibak: Fair enough. I didn't even realize you could use breathe in a combo (chat)&D
+&CSanibak: Huh I haven't seen that before. apparently my talons can poison now (chat)&D
+&CSanibak: I hate how all these mobs have poison, thaitin, dispel magic, etc. (chat)&D
+&CLinnia: what ones (chat)&D
+&CSanibak: like every high level area I try to fight in (chat)&D
+&CLinnia: do you have any crafted gear? (chat)&D
+&CVarchild: who kept crashing the game? >:O (ooc)&D
+&CVarchild: anyone awake? o_O (chat)&D
+&CLinnia: hi (chat)&D
+&CVarchild: She lives! (chat)&D
+&CVarchild: I finally have the name for the canine race... so it'll be created here in a few hours. (ooc)&D
+&CTasivil: fix the cat race too? you have no starting cith with those, the last time I tried to play (ooc)&D
+&CTasivil: please :) (ooc)&D
+&CVarchild: that's one the list. (ooc)&D
+&CVarchild: er... ON the list (ooc)&D
+&CVarchild: New race is almost done... Which means the game is going to have to go down for a recompile then I'll bring it back up. (ooc)&D
+&CBarivon: when (ooc)&D
+&CVarchild: Gotta do a few more tweaks... (ooc)&D
+&CLinnia: did you fix cats too? (ooc)&D
+&CVarchild: I'm trying to figure that out too... >.< (ooc)&D
+&CVarchild: have to do another recompile, then run and adjust classes for it. (ooc)&D
+&CVarchild: Reboot incoming! (ooc)&D
+&CSanibak: hi (chat)&D
+&CSanibak: Hmm so until I am level 60 I won't be able to cure thaitin iceshard and flare with cure affliction (chat)&D
+&CRaino: hi hi (chat)&D
+&CRaino: congrats. (chat)&D

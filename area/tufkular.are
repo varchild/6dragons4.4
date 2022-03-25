@@ -850,7 +850,7 @@ a worthless shield~
 A small metal shield lies on the ground.~
 ~
 9 0 513
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 0 0
 1
 6
@@ -869,7 +869,7 @@ a worthless spear~
 A long stick with a head whittled lies here.~
 ~
 5 0 8193
-0 10 20 6 10 0 40
+0 15 30 6 10 0 40
 1 0 0
 1
 0
@@ -910,7 +910,7 @@ a worthless axe~
 A sharp rock tied to a stick is lying here.~
 ~
 5 0 8193
-0 10 20 3 9 0 40
+0 15 30 3 9 0 40
 1 0 0
 1
 0
@@ -929,7 +929,7 @@ a cheap buckler~
 A piece of hide tied to some wood lies here undisturbed.~
 ~
 9 0 513
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 0 0
 1
 0
@@ -969,7 +969,7 @@ a spatula~
 A small spatula lies here.~
 ~
 5 0 8193
-8 10 20 3 2 0 40
+8 5 15 3 2 0 40
 1 0 0
 1
 0
@@ -1226,7 +1226,7 @@ a blacksmith's hammer~
 A blacksmith's hammer has been left here.~
 ~
 5 524288 8193
-60 27 34 4 4 0 0
+60 35 50 4 4 0 0
 18 200 90
 1
 0

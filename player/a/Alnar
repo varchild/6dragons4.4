@@ -8,54 +8,59 @@ Thirdclass   -1
 Race         13
 Age          0 5 8 974
 Languages    1 1
-Level        12
+Level        29
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       27799
-Room         35515
-HpManaMove   1246 1246 415 415 875 923
+Played       97201
+Room         19530
+HpManaMove   2501 2980 868 818 2038 2038
 BaseHp       0 
-Blood        10 56
-Money         0 7 599 3248 5827 -1
-Exp           17665
+Blood        10 81
+Money         0 142 2583 97 54 -1
+Exp           1578912
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        213
-Weight        1222
+Height        371
+Weight        2652
 Act           536872776&6144
 AffectedBy    512
 Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction forbidden~
 Speed         32
 Position      115
 Style         2
-Practice      1
+Practice      34
 SavingThrows  0 0 0 0 0
 Alignment     1000
 AppBlood      0
 Hitroll       0
 Damroll       0
-Armor         60
+Armor         43
 Resistant     8448
 Mentalstate   0
 Password      481671de8f45642f2fac3abdf123cb99bcc0eec259924bd6fae893db1d48ce79~
-Title          the young adventurer~
-Lastip         37.160.147.196~
+Title          the silver warrior~
+Lastip         37.161.168.16~
 RECAST          0
-Combo1         gut~
-Combo2         bite~
+Failsafe     31
+Combo1         breath~
+Combo2         gut~
 Combo3         claw~
+Account         alnar~
+AuthedBy     Varchild~
 Prompt       >~
 FPrompt       %h   %c~
 KeepAlive      5
 GetsDExp     0
-DExpTimer    70
-LDExpUpdate  1647972014
+DExpTimer    148
+LDExpUpdate  1648204901
 tmpsecond -1
 tmpthird -1
-Alias        dc~ devour corpse~
+tmprace 13
+tmpclass 10
 Alias        baoe~ breath aoe~
+Alias        dc~ devour corpse~
 Textspeed          5
 PotionTimer        1647809258 0 0
 FirstExpR          0
@@ -90,71 +95,102 @@ FoundArea       Wilderness~
 FoundArea       Garden~
 FoundArea       Nine Planes of Hell~
 FoundArea       Abandoned Cabin ~
+FoundArea       Tufkul'ar~
+FoundArea       Citadel~
+FoundArea       Bowels of the Citadel~
+FoundArea       Shattered Refuge~
+FoundArea       Newunderdark~
+FoundArea       Szithlin City~
+FoundArea       Ice Castle~
+FoundArea       Tomb of the Green Dragon~
+FoundArea       Vila Island~
+FoundArea       Shoreline~
+FoundArea       Torain Mines~
+FoundArea       Throng Training Tower~
+FoundArea       Dragon Knight's Raid~
+FoundArea       Loramoor City of the Trees~
+FoundArea       The Apprentice Garden~
+FoundArea       Terizak Forest~
+FoundArea       Dragons Den~
+FoundArea       Village of Jarynth~
 Htown      Forbidden City~
 City      Forbidden City~
-Flags        38
+Flags        34
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       498
-MDeaths      9
+MKills       1086
+MDeaths      12
 IllegalPK    0
 AttrPerm     22 18 18 16 16 10 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 176 194 22
-Site         37.160.147.196
+Condition    0 130 188 39
+Site         37.161.168.16
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
-NNSkill       92 0 'bite' 0 0
-NNSkill       88 0 'breathe' 0 0
-NNSkill       39 0 'claw' 0 0
-NNSkill       54 0 'combo' 0 0
-NNSkill       95 0 'devour' 0 0
-NNSkill       30 0 'dodge' 0 0
-NNSkill       42 0 'fly home' 0 0
-NNSkill       66 0 'gut' 0 0
-NNSkill       53 0 'lick' 0 0
-NNSkill       11 0 'lore' 0 0
-NNSkill       51 0 'rage' 0 0
-NNSkill       95 0 'second attack' 0 0
-NNSkill       50 0 'slice' 0 0
-NNSkill       8 0 'smell' 0 0
-NNSkill       46 0 'wings' 0 0
-NNTongue      95 0 'common' 0 0
-NNTongue      95 0 'draconic' 0 0
-Killed       7504
-Killed       7502
-Killed       7506
-Killed       7504
-Killed       7506
-Killed       7502
-Killed       13005
-Killed       13007
-Killed       13008
-Killed       13007
-Killed       13008
-Killed       13009
-Killed       13013
-Killed       13007
-Killed       13007
-Killed       13013
-Killed       13010
-Killed       13010
-Killed       13006
-Killed       13002
+NNSpell       52 0 'dispel magic' 0 0
+NNSpell       50 50 'faerie fog' 0 0
+NNSpell       50 50 'locate object' 0 0
+NNSkill       95 95 'bite' 0 0
+NNSkill       95 95 'breathe' 0 0
+NNSkill       54 40 'claw' 0 0
+NNSkill       75 54 'combo' 0 0
+NNSkill       95 95 'devour' 0 0
+NNSkill       30 30 'dodge' 0 0
+NNSkill       55 52 'doorbash' 0 0
+NNSkill       42 42 'fly home' 0 0
+NNSkill       71 66 'gut' 0 0
+NNSkill       95 75 'hardened scales' 0 0
+NNSkill       40 40 'human form' 0 0
+NNSkill       72 50 'impale' 0 0
+NNSkill       57 57 'lick' 0 0
+NNSkill       46 46 'lore' 0 0
+NNSkill       62 56 'rage' 0 0
+NNSkill       41 40 'scan' 0 0
+NNSkill       95 95 'second attack' 0 0
+NNSkill       50 50 'slice' 0 0
+NNSkill       10 10 'smell' 0 0
+NNSkill       5 5 'truesight' 0 0
+NNSkill       49 46 'wings' 0 0
+NNTongue      95 95 'common' 0 0
+NNTongue      95 95 'draconic' 0 0
+Killed       19501
+Killed       19506
+Killed       19501
+Killed       19500
+Killed       19502
+Killed       19503
+Killed       19506
+Killed       19507
+Killed       19507
+Killed       19501
+Killed       19506
+Killed       19500
+Killed       35512
+Killed       35510
+Killed       35511
+Killed       35510
+Killed       2217
+Killed       2218
+Killed       2217
+Killed       2217
 THYQuestN 0 4 0 0 1 0
 THYQuestN 9 3 0 0 1 0
 THYQuestN 10 8 0 0 1 0
+THYQuestN 14 5 0 0 1 0
 THYQuestN 30 10 0 0 1 0
+THYQuestN 32 1 0 0 1 0
 THYQuestN 45 6 0 0 1 0
+THYQuestN 46 5 0 0 1 0
 THYQuestN 49 3 0 0 1 0
-THYQuestN 50 1 0 0 1 0
+THYQuestN 50 3 0 0 1 0
 THYQuestN 78 1 0 0 1 0
-THYQuestN 94 1 0 0 1 0
-THYQuestN 95 1 0 0 1 0
+THYQuestN 89 1 0 0 1 0
+THYQuestN 94 3 0 0 1 0
+THYQuestN 95 3 0 0 1 0
 THYQuestN 98 7 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
@@ -165,6 +201,7 @@ End
 
 #OBJECT
 Vnum         19017
+WearLoc      17
 Level        5
 Currtype     2
 Color        4
@@ -174,82 +211,13 @@ Spell 4      'restore mana'
 End
 
 #OBJECT
-Vnum         40025
-WearLoc      6
-Level        1
-Currtype     1
-Color        5
-Size   0
-Values       1 2 0 0 0 0 0
-End
-
-#OBJECT
-Vnum         40026
-WearLoc      9
-Level        2
-Currtype     4
-Color        1
-Size   0
-Values       1 2 0 0 0 2 0
-End
-
-#OBJECT
-Vnum         40027
-WearLoc      14
-Level        1
-Currtype     4
-Color        6
-Size   0
-Values       1 2 0 0 0 1 0
-End
-
-#OBJECT
-Vnum         40028
-WearLoc      12
-Level        1
-Currtype     4
-Color        6
-Size   0
-Values       1 2 0 0 0 0 0
-End
-
-#OBJECT
-Vnum         40029
-WearLoc      20
-Level        1
-Currtype     4
-Color        6
-Size   0
-Values       1 2 0 0 0 1 0
-End
-
-#OBJECT
-Vnum         40030
-WearLoc      17
-Level        1
-Currtype     4
-Color        14
-Size   0
-Values       0 0 1 0 0 0 0
-End
-
-#OBJECT
 Vnum         7503
-WearLoc      15
+WearLoc      14
 Level        5
 Currtype     4
 Color        13
 Size   77
-Values       1 5 0 0 0 5 0
-End
-
-#OBJECT
-Vnum         18610
-Level        15
-Currtype     4
-Color        14
-Size   0
-Values       10 10 0 0 0 0 0
+Values       2 5 0 0 0 5 0
 End
 
 #OBJECT
@@ -280,41 +248,31 @@ Size   0
 End
 
 #OBJECT
-Vnum         7501
-Level        20
-Currtype     3
+Nest         1
+Vnum         28297
+Level        22
+Currtype     1
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         18606
+Level        1
+Currtype     4
 Color        1
-Size   77
-Values       20 20 0 0 0 0 0
+Size   0
 End
 
 #OBJECT
 Vnum         28015
+WearLoc      19
 Level        15
 Currtype     4
 Color        13
 Size   77
 Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Vnum         6300
-WearLoc      10
-Level        10
-Currtype     4
-Color        13
-Size   77
-Values       8 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         35524
-WearLoc      5
-Level        5
-Currtype     4
-Color        8
-Size   5
-Values       5 5 0 0 0 5 0
 End
 
 #OBJECT
@@ -334,30 +292,211 @@ Level        10
 Currtype     4
 Color        13
 Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         13018
+WearLoc      20
+Level        15
+Currtype     4
+Size   77
+Values       9 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         8313
+WearLoc      24
+Level        2
+Currtype     2
+Color        13
+Size   77
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         8303
+WearLoc      9
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8300
+WearLoc      5
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       8 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8315
+WearLoc      32
+Level        20
+Currtype     3
+Color        2
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Vnum         8314
+WearLoc      31
+Level        20
+Currtype     3
+Color        2
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Vnum         8304
+WearLoc      10
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8302
+WearLoc      6
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8305
+WearLoc      12
+Level        10
+Currtype     3
+Color        5
+Size   77
+Values       7 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8312
+WearLoc      23
+Level        10
+Currtype     4
+Color        13
+Size   0
 Values       10 10 0 0 0 10 0
 End
 
-#VARIABLE
-Type    1
-Flags   0
-Vnum    6251
-Ctime   1647967352
-Mtime   1647967352
-Rtime   0
-Timer   101
-Tag     count~
-Int     1
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   77
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         4002
+WearLoc      5
+Level        15
+Currtype     4
+Color        11
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         8313
+WearLoc      25
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       1 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         953
+WearLoc      13
+Level        15
+Currtype     1
+Color        7
+Size   77
+Values       9 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         40030
+Level        1
+Currtype     4
+Color        14
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         2215
+WearLoc      15
+Level        20
+Currtype     3
+Size   77
+Values       19 20 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10220
+Level        30
+Currtype     1
+Color        8
+Size   3
+Values       40 156 -1 -1 0 30 0
+Spell 1      'sanctuary'
+End
+
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         8308
+Level        10
+Currtype     1
+Color        9
+Size   0
+Values       0 12 2 0 0 10 0
+End
+
+#OBJECT
+Vnum         2302
+Level        28
+Currtype     1
+Color        3
+Size   0
+Values       0 0 2 0 0 0 0
 End
 
 #VARIABLE
 Type    1
 Flags   0
-Vnum    13000
-Ctime   1647946764
-Mtime   1647946764
+Vnum    3
+Ctime   1648058337
+Mtime   1648058337
 Rtime   0
-Timer   185
-Tag     bag~
+Timer   637
+Tag     train~
 Int     0
 End
 

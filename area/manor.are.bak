@@ -1154,7 +1154,7 @@ a plaid smoking jacket~
 A old, plaid smoking jacket has been left on the ground.~
 ~
 9 256 9
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 8 0 0
 1
 0
@@ -1327,7 +1327,7 @@ a nightshirt~
 A nightshirt with the image of a panther has been discarded here.~
 ~
 9 0 9
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 2 100 10
 1
 0
@@ -1361,7 +1361,7 @@ a silk bathrobe~
 A soft silk bathrobe sits here, waiting to be worn.~
 ~
 9 262144 9
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 7 1600 160
 1
 0
@@ -1734,7 +1734,7 @@ a panther-crested helmet~
 Someone has dropped a helmet with the crest of a panther here.~
 ~
 9 0 17
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 2 75 7
 1
 0
@@ -1751,7 +1751,7 @@ a panther-crested shield~
 Lying here is a shield with the crest of a panther.~
 ~
 9 0 513
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 3 50 5
 1
 0
@@ -1832,7 +1832,7 @@ a tin shield~
 Somebody dropped a cheap tin shield on the floor.~
 ~
 9 0 513
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 3 50 5
 1
 0
@@ -2151,7 +2151,7 @@ a deck of playing cards~
 A deck of playing cards lies here.~
 ~
 9 0 16385
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 2 0 0
 1
 0

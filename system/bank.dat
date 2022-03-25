@@ -1,8 +1,15 @@
 #BANK
+Name        alnar~
+Password    3b33de15425ac20723f0ece81afafe15433b4d191be0ccd690242cbcb7caa69c~
+LastUsed    1648127237
+Gold        500
+End
+
+#BANK
 Name        dakar~
 Password    77102b2b5cb46718ec0313d1a294db76e027f88ae8fc1bc238f02a2e41672d95~
 LastUsed    1477185964
-Silver      12000
+Silver      7215
 End
 
 #BANK
@@ -23,11 +30,11 @@ End
 #BANK
 Name        neos~
 Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
-LastUsed    1647966777
-Bronze      700
-Copper      3000
-Gold        5
-Silver      50
+LastUsed    1648194064
+Bronze      825
+Copper      8590
+Gold        95
+Silver      2166
 End
 
 #BANK
@@ -40,21 +47,21 @@ End
 #BANK
 Name        pinewood~
 Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
-LastUsed    1647980180
-Bronze      5
-Copper      2
-Gold        40
-Silver      9
+LastUsed    1648158849
+Bronze      27
+Copper      53
+Gold        5027
+Silver      10
 End
 
 #BANK
 Name        sanibak~
 Password    7fae5f4826a9a4290ac589d2a61d94b4dc45abf901cfc18292f9137a25f9c303~
-LastUsed    1647920363
-Bronze      2229
-Copper      2912
-Gold        2
-Silver      541
+LastUsed    1648151085
+Bronze      2929
+Copper      3212
+Gold        602
+Silver      7513
 End
 
 #END

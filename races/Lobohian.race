@@ -1,0 +1,63 @@
+Name        Lobohian~
+Race        20
+SDbonus     0
+Base_Str    20
+Base_Dex    15
+Base_Wis    15
+Base_Int    12
+Base_Con    15
+Base_Cha    15
+Base_Lck    10
+Hit         5
+Mana        4
+Affected    0
+Resist      0
+Suscept     0
+Language    0
+Align       0
+Min_Align   -500
+Max_Align   1000
+AC_Plus     5
+Exp_Mult    45
+Height      72
+Weight      160
+Flags	      0
+Hunger_Mod  10
+Thirst_mod  10
+Mana_Regen  0
+HP_Regen    0
+Race_Recall 0
+WhereName  &C[used as light    ]&D ~
+WhereName  &C[worn on finger   ]&D ~
+WhereName  &C[worn on finger   ]&D ~
+WhereName  &C[worn around neck ]&D ~
+WhereName  &C[worn around neck ]&D ~
+WhereName  &C[worn on body     ]&D ~
+WhereName  &C[worn on head     ]&D ~
+WhereName  &C[worn on legs     ]&D ~
+WhereName  &C[worn on feet     ]&D ~
+WhereName  &C[worn on hands    ]&D ~
+WhereName  &C[worn on arms     ]&D ~
+WhereName  &C[worn as shield   ]&D ~
+WhereName  &C[worn about body  ]&D ~
+WhereName  &C[worn about waist ]&D ~
+WhereName  &C[worn around wrist]&D ~
+WhereName  &C[worn around wrist]&D ~
+WhereName  &C[wielded          ]&D ~
+WhereName  &C[held             ]&D ~
+WhereName  &C[dual wielded     ]&D ~
+WhereName  &C[worn on ears     ]&D ~
+WhereName  &C[worn on eyes     ]&D ~
+WhereName  &C[missile wielded  ]&D ~
+WhereName  &C[worn on back     ]&D ~
+WhereName  &C[worn over face   ]&D ~
+WhereName  &C[worn around ankle]&D ~
+WhereName  &C[worn around ankle]&D ~
+WhereName  &C[lodged in a rib  ]&D ~
+WhereName  &C[lodged in an arm ]&D ~
+WhereName  &C[lodged in a leg  ]&D ~
+WhereName  &C[sheath           ]&D ~
+WhereName  &C[worn on shoulders]&D ~
+WhereName  &C[worn on wings    ]&D ~
+WhereName  &C[worn on wings    ]&D~
+End

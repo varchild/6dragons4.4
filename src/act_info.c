@@ -3862,9 +3862,9 @@ void do_who(CHAR_DATA *ch, char *argument)
   }
   if(!IS_BLIND(ch))
   {
-    pager_printf(ch, "%s [Homepage: %s 6dragons.tk/ %s]  [Current Players: %s%s%s]  [%s%d %sMax Since Reboot]&w\r\n", s5, s6, s5, s6, num_punct(pcount), s5, s6, sysdata.maxplayers, s5);
-    pager_printf(ch, "%s       [%s Please vote for us daily at:%s http://6dragons.tk/bin/vote.html %s]\r\n", s5, s4, s6, s5);
-    pager_printf(ch, "          [%s The World map is viewable at:%s http://6dragons.tk/map.gif %s]\r\n ", s4, s6, s5);
+    pager_printf(ch, "%s [Homepage: %s reddit.com/r/6DragonsReborn %s]  [Current Players: %s%s%s]  [%s%d %sMax Since Reboot]&w\r\n", s5, s6, s5, s6, num_punct(pcount), s5, s6, sysdata.maxplayers, s5);
+    /* pager_printf(ch, "%s       [%s Please vote for us daily at:%s http://6dragons.tk/bin/vote.html %s]\r\n", s5, s4, s6, s5); */
+    /* pager_printf(ch, "          [%s The World map is viewable at:%s http://6dragons.tk/map.gif %s]\r\n ", s4, s6, s5);  */
   }
 }
 

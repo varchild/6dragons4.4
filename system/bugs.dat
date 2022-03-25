@@ -312,3 +312,67 @@
 [*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
 [*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
 [*****] BUG: Sanibak -> monk ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: set_fighting: Linnia -> leopard (already fighting leopard) &D
+[*****] BUG: set_fighting: bear -> leopard (already fighting leopard) &D
+[*****] BUG: set_fighting: troll -> leopard (already fighting leopard) &D
+[*****] BUG: set_fighting: drow -> leopard (already fighting leopard) &D
+[*****] BUG: Can not find mob for cost of corpse, spell_animate_skeleton &D
+[*****] BUG: Can not find mob for cost of corpse, spell_animate_skeleton &D
+[*****] BUG: Can not find mob for cost of corpse, spell_animate_skeleton &D
+[*****] BUG: Room #3503: Mpechoat [3]- victim [someone] does not exist. &D
+[*****] BUG: Room #3503: Mpechoat [3]- victim [someone] does not exist. &D
+[*****] BUG: Room #3503: Mpechoat [3]- victim [someone] does not exist. &D
+[*****] BUG: Mob #8304: Mpechoat [8304]- victim [someone] does not exist. &D
+[*****] BUG: Mob #8304: Mpquest - No such victim [fire giant Gydashei]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Mob #28255: Mpforce - No such victim [head orc cook]. &D
+[*****] BUG: Sanibak -> wasp guard ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Sanibak -> gargoyle statue ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: Bad string for flag in add_ban. &D
+[*****] BUG: Bad string for flag in add_ban. &D
+[*****] BUG: RelCreate: duplicated relation &D
+[*****] BUG: RelCreate: duplicated relation &D
+[*****] BUG: RelCreate: duplicated relation &D
+[*****] BUG: Read_object: vnum 16248 bad type. &D
+[*****] BUG: ------------------------>  11  &D
+[*****] BUG: RelCreate: duplicated relation &D
+[*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
+[*****] BUG: Sanibak -> tainted wolf ($n's stream of divine energy absorbs your health and heals them!) &D
+[*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D

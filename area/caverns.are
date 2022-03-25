@@ -1098,7 +1098,7 @@ a sharp bone~
 A small sharp bone with a tiny bit of meat left on it.~
 ~
 5 0 1
-10 15 30 6 2 0 0
+10 10 30 6 2 0 0
 1 20 2
 1
 0
@@ -1303,7 +1303,7 @@ a coldsteel spike~
 A Dark Coldsteel Spike lays on the ground.~
 ~
 5 524300 8193
-12 10 30 6 2 0 0
+12 10 20 6 2 0 0
 3 652 65
 1
 0
@@ -1341,7 +1341,7 @@ A suit of chain mail armor~
 Some chain mail armor is laying on the ground.~
 ~
 9 0 9
-10 10 0 0 0 0 0
+20 20 0 0 0 0 0
 20 8000 400
 2
 8
@@ -1471,7 +1471,7 @@ a raiders mask~
 A small mask has been discarded on the ground.~
 ~
 9 0 1048577
-30 30 0 0 0 0 0
+10 10 0 0 0 0 0
 1 55 5
 2
 2
@@ -2111,7 +2111,7 @@ a black bone handled kriss dagger~
 A long curvy dagger has been left here.~
 ~
 5 524617 8193
-12 10 20 6 2 0 100
+12 5 15 6 2 0 100
 1 3000 300
 1
 1
