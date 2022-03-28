@@ -4,7 +4,7 @@
  * - Merc  2.1  Copyright 1992, 1993 by Michael Chastain, Michael Quan,    *
  *   and Mitchell Tse.                                                     *
  * - DikuMud    Copyright 1990, 1991 by Sebastian Hammer, Michael Seifert, *
- *   Hans-Henrik Stærfeldt, Tom Madsen, and Katja Nyboe.                   *
+ *   Hans-Henrik StÃ¦rfeldt, Tom Madsen, and Katja Nyboe.                   *
  * - Win32 port by Nick Gammon                                             *
  ***************************************************************************
  * - Main MUD header                                                       *
@@ -575,7 +575,7 @@ typedef enum
   RACE_HUMAN, RACE_ELF, RACE_DWARF, RACE_HALFLING, RACE_PIXIE, RACE_OGRE,
   RACE_ORC, RACE_TROLL, RACE_SHADE, RACE_GOBLIN, RACE_DROW, RACE_GNOME,
   RACE_CENTAUR, RACE_DRAGON, RACE_CELESTIAL, RACE_VAMPIRE, RACE_DEMON,
-  RACE_MINDFLAYER, RACE_ANIMAL
+  RACE_MINDFLAYER, RACE_ANIMAL, RACE_FELINUS, RACE_LOBOHIAN
 } race_types;
 
 /* npc races */
@@ -598,6 +598,8 @@ typedef enum
 #define RACE_DEMON          16
 #define RACE_MINDFLAYER     17
 #define RACE_ANIMAL         18
+#define RACE_FELINUS        19
+#define RACE_LOBOHIAN       20
 
 /* race dedicated stuff */
 struct race_type
