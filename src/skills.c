@@ -4,7 +4,7 @@
  * - Merc  2.1  Copyright 1992, 1993 by Michael Chastain, Michael Quan,    *
  *   and Mitchell Tse.                                                     *
  * - DikuMud    Copyright 1990, 1991 by Sebastian Hammer, Michael Seifert, *
- *   Hans-Henrik Stærfeldt, Tom Madsen, and Katja Nyboe.                   *
+ *   Hans-Henrik StÃ¦rfeldt, Tom Madsen, and Katja Nyboe.                   *
  ***************************************************************************
  * - Player skills module                                                  *
  ***************************************************************************/
@@ -3768,6 +3768,12 @@ void do_bite(CHAR_DATA *ch, char *argument)
     send_to_char("Your new form prevents the use of this skill.\r\n", ch);
     return;
   }
+  
+   // Restrict the bite ability to the Lobohian and Dragon races.
+  if(ch->race != RACE_LOBOHIAN && ch->race != RACE_DRAGON) {
+    send_to_char("That isn't quite one of your natural skills.\r\n", ch);
+    return;
+  }
 
   char                    arg[MIL];
 
@@ -3953,6 +3959,12 @@ void do_claw(CHAR_DATA *ch, char *argument)
 
   if(!IS_NPC(ch) && ch->level < (skill_table[gsn_claw]->skill_level[ch->Class]))
   {
+    send_to_char("That isn't quite one of your natural skills.\r\n", ch);
+    return;
+  }
+  
+  // Restrict the claw ability to the Felinus and Dragon race.
+  if(ch->race != RACE_FELINUS && ch->race != RACE_DRAGON) {
     send_to_char("That isn't quite one of your natural skills.\r\n", ch);
     return;
   }
