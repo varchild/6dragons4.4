@@ -27,6 +27,10 @@ Thirst_mod  7
 Mana_Regen  0
 HP_Regen    0
 Race_Recall 0
+Skill 'claw' 1 95
+Skill 'bite' 1 95
+Skill 'smell' 7 95
+Skill 'wings' 1 95
 WhereName  [used as light    ] ~
 WhereName  [worn on finger   ] ~
 WhereName  [worn on finger   ] ~
