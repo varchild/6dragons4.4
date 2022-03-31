@@ -27,6 +27,7 @@ Thirst_mod  0
 Mana_Regen  0
 HP_Regen    0
 Race_Recall 0
+Skill 'claw' 1 95
 WhereName  &C[used as light    ]&D ~
 WhereName  &C[worn on finger   ]&D ~
 WhereName  &C[worn on finger   ]&D ~
