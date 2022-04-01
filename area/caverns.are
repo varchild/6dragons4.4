@@ -1098,7 +1098,7 @@ a sharp bone~
 A small sharp bone with a tiny bit of meat left on it.~
 ~
 5 0 1
-10 10 30 6 2 0 0
+10 10 20 6 2 0 0
 1 20 2
 1
 0
@@ -1471,7 +1471,7 @@ a raiders mask~
 A small mask has been discarded on the ground.~
 ~
 9 0 1048577
-10 10 0 0 0 0 0
+20 20 0 0 0 0 0
 1 55 5
 2
 2

@@ -214,4 +214,16 @@ RewardBonus   0
 Room          16078
 End
 
+#BUG
+FoundBy       Isahn~
+FoundWhen     03-31-2022 02:11:48PM~
+BugDesc       Cannot cast faerie fire on a target. Just get a prompt, after trying many different ways, that reads, "You can't do that". Even though I have the faerie fire spell. 
+
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          35537
+End
+
 #END

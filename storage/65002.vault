@@ -9,14 +9,6 @@ Values       10 10 0 0 0 0 0
 End
 
 #OBJECT
-Vnum         40023
-Level        20
-Currtype     1
-Size   0
-Values       8 10 20 1 1 20 0
-End
-
-#OBJECT
 Vnum         2775
 Level        2
 Currtype     4
@@ -232,7 +224,6 @@ Spell 1      'heal'
 End
 
 #OBJECT
-Count        3
 Vnum         961
 Level        1
 Currtype     1
@@ -258,15 +249,6 @@ Currtype     1
 Color        1
 Size   4
 Values       38 2 2 -1 11 50 0
-End
-
-#OBJECT
-Vnum         959
-Level        50
-Currtype     1
-Color        1
-Size   0
-Values       38 1 1 -1 11 50 0
 End
 
 #OBJECT
@@ -360,34 +342,6 @@ Values       10 10 0 0 0 15 0
 End
 
 #OBJECT
-Vnum         951
-Level        15
-Currtype     3
-Color        7
-Size   0
-Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Count        2
-Vnum         951
-Level        15
-Currtype     3
-Color        7
-Size   0
-Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Vnum         957
-Level        40
-Currtype     1
-Color        7
-Size   4
-Values       35 35 0 0 0 40 0
-End
-
-#OBJECT
 Vnum         954
 Level        15
 Currtype     3
@@ -421,6 +375,50 @@ Currtype     1
 Color        12
 Size   77
 Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Vnum         961
+Level        1
+Currtype     1
+Color        14
+Size   0
+Values       962 0 963 0 0 1 0
+End
+
+#OBJECT
+Vnum         959
+Level        50
+Currtype     1
+Color        1
+Size   0
+Values       38 1 1 -1 11 50 0
+End
+
+#OBJECT
+Vnum         961
+Level        1
+Currtype     1
+Color        14
+Size   0
+Values       962 0 963 0 0 1 0
+End
+
+#OBJECT
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         16702
+Level        108
+Currtype     1
+Size   77
+Values       60 60 0 0 0 0 0
 End
 
 #END

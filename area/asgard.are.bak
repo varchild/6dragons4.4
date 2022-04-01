@@ -2558,7 +2558,7 @@ the hammer Mjolnir~
 A magnificent hammer of dwarven make is imbedded in the ground.~
 ~
 5 1089 8193
-0 45 100 4 5 0 0
+0 50 100 4 5 0 0
 30 0 0
 1
 1
@@ -2655,7 +2655,7 @@ the spear Gungnir~
 A long shaft of polished wood is stuck in the ground.~
 ~
 5 1352 8193
-0 50 100 7 10 0 0
+0 45 100 7 10 0 0
 18 50000 5000
 1
 1
@@ -2844,7 +2844,7 @@ the rapier sword Disease~
 A thin, razor sharp sword lies on the ground.~
 ~
 5 524818 8193
-0 45 100 2 1 0 0
+0 50 100 2 1 0 0
 5 1200000 120000
 1
 8
@@ -3022,7 +3022,7 @@ Gauntlets of Fjalar~
 A pair of plain iron gauntlets have been left here.~
 ~
 9 525376 129
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 33 500000 50000
 1
 8
@@ -3185,7 +3185,7 @@ the Sword of Tyr~
 A broad bladed sword lies here.~
 ~
 5 525386 8193
-0 50 100 1 1 0 0
+0 45 100 1 1 0 0
 22 0 4443
 1
 8
@@ -3234,7 +3234,7 @@ a two handed sword~
 A two handed sword can be seen here.~
 ~
 5 524288 8193
-0 135 170 1 0 0 0
+0 127 169 1 0 0 0
 25 0 1500
 1
 8
@@ -3577,7 +3577,7 @@ the Blade of the Berserker~
 A sword dripping with gore hums loudly.~
 ~
 5 525377 8193
-0 135 170 3 0 0 0
+0 127 169 3 0 0 0
 45 0 5000
 1
 13
@@ -3846,7 +3846,7 @@ a battle axe~
 A heavy axe is imbedded in a log.~
 ~
 5 524288 8193
-0 45 100 3 9 0 0
+0 45 90 3 9 0 0
 20 0 50
 1
 8

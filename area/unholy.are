@@ -367,7 +367,7 @@ a gravedigger's spade~
 A rusty gravedigger's shovel has been stuck into the ground.~
 ~
 5 524288 8193
-0 1 5 7 10 0 0
+0 3 10 7 10 0 0
 9 900 90
 1
 0
@@ -440,7 +440,7 @@ black pair of slippers caked with mud~
 A pair of black slippers are here covered in mud.~
 ~
 9 4 65
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 3 760 76
 1
 0

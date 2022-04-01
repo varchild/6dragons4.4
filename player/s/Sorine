@@ -15,13 +15,13 @@ Level        90
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       27295
+Played       31872
 Room         65002
-HpManaMove   8125 8125 1397 1975 5730 5730
+HpManaMove   8125 8125 1401 1975 5730 5730
 BaseHp       0 
 Blood        273 273
-Money         0 47 443 2 7 -1
-Exp           2434207
+Money         0 37 443 113 7 -1
+Exp           2477291
 Firstexp      0
 Secondexp     0
 Thirdexp      0
@@ -47,11 +47,13 @@ Title          the Ruby Dragon~
 LAIR          65002
 Lastip         10.0.0.1~
 RECAST          0
+Bio          The ruby dragon of the realms.
+~
 AuthedBy     Varchild~
 KeepAlive      5
 GetsDExp     0
-DExpTimer    50
-LDExpUpdate  1648169018
+DExpTimer    70
+LDExpUpdate  1648781458
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -86,97 +88,98 @@ FoundArea       Dakar Sewer~
 FoundArea       Wilderness~
 FoundArea       Citadel~
 FoundArea       Darkhaven Art Gallery~
+FoundArea       Garden~
 Htown      Forbidden City~
 Flags        2
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       70
+MKills       74
 MDeaths      0
 IllegalPK    0
 AttrPerm     22 18 18 13 16 13 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 2 22 0
+Condition    0 104 125 0
 Site         10.0.0.1
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
 Adjust 0
 NNSpell       95 95 'astral walk' 0 0
-NNSpell       95 95 'continual light' 0 0
-NNSpell       95 95 'create food' 0 0
-NNSpell       95 95 'create spring' 0 0
-NNSpell       95 0 'cure affliction' 0 0
-NNSpell       95 0 'dark blessings' 0 0
-NNSpell       95 0 'death field' 0 0
+NNSpell       0 95 'continual light' 0 0
+NNSpell       0 95 'create food' 0 0
+NNSpell       0 95 'create spring' 0 0
+NNSpell       95 95 'cure affliction' 0 0
+NNSpell       95 95 'dark blessings' 0 0
+NNSpell       95 95 'death field' 0 0
 NNSpell       95 95 'dispel magic' 0 0
-NNSpell       95 95 'dragon wit' 0 0
-NNSpell       95 95 'dragonskin' 0 0
+NNSpell       0 95 'dragon wit' 0 0
+NNSpell       0 95 'dragonskin' 0 0
 NNSpell       95 95 'ethereal shield' 0 0
-NNSpell       95 0 'farsight' 0 0
-NNSpell       95 95 'fly' 0 0
-NNSpell       95 0 'healing essence' 0 0
-NNSpell       95 95 'identify' 0 0
-NNSpell       95 0 'invis' 0 0
-NNSpell       95 95 'kindred strength' 0 0
+NNSpell       95 95 'farsight' 0 0
+NNSpell       0 95 'fly' 0 0
+NNSpell       95 95 'healing essence' 0 0
+NNSpell       0 95 'identify' 0 0
+NNSpell       95 95 'invis' 0 0
+NNSpell       0 95 'kindred strength' 0 0
 NNSpell       95 95 'locate object' 0 0
-NNSpell       95 0 'refresh' 0 0
-NNSpell       95 0 'sanctuary' 0 0
-NNSpell       95 0 'shadowform' 0 0
-NNSpell       95 0 'slow' 0 0
-NNSpell       95 0 'transport' 0 0
-NNSpell       95 0 'valiance' 0 0
-NNSpell       95 95 'word of recall' 0 0
-NNSkill       95 95 'aid' 0 0
+NNSpell       95 95 'refresh' 0 0
+NNSpell       95 95 'sanctuary' 0 0
+NNSpell       95 95 'shadowform' 0 0
+NNSpell       95 95 'slow' 0 0
+NNSpell       95 95 'transport' 0 0
+NNSpell       95 95 'valiance' 0 0
+NNSpell       0 95 'word of recall' 0 0
+NNSkill       0 95 'aid' 0 0
 NNSkill       95 95 'behead' 0 0
-NNSkill       95 0 'bite' 0 0
-NNSkill       95 0 'breathe' 0 0
-NNSkill       95 0 'brittle bone' 0 0
-NNSkill       95 0 'claw' 0 0
+NNSkill       95 95 'bite' 0 0
+NNSkill       95 95 'breathe' 0 0
+NNSkill       95 95 'brittle bone' 0 0
+NNSkill       95 95 'claw' 0 0
 NNSkill       95 95 'climb' 0 0
 NNSkill       95 95 'combo' 0 0
 NNSkill       95 95 'cone' 0 0
-NNSkill       95 95 'cook' 0 0
-NNSkill       95 95 'defend' 0 0
-NNSkill       95 0 'devour' 0 0
+NNSkill       0 95 'cook' 0 0
+NNSkill       0 95 'defend' 0 0
+NNSkill       95 95 'devour' 0 0
 NNSkill       95 95 'dodge' 0 0
 NNSkill       95 95 'doorbash' 0 0
-NNSkill       95 95 'dual wield' 0 0
-NNSkill       95 95 'fade' 0 0
+NNSkill       0 95 'dual wield' 0 0
+NNSkill       0 95 'fade' 0 0
 NNSkill       95 95 'fifth attack' 0 0
-NNSkill       95 0 'find weakness' 0 0
-NNSkill       95 0 'fly home' 0 0
+NNSkill       95 95 'find weakness' 0 0
+NNSkill       95 95 'fly home' 0 0
 NNSkill       95 95 'fourth attack' 0 0
-NNSkill       95 0 'glacial armor' 0 0
-NNSkill       95 0 'gust of wind' 0 0
-NNSkill       95 0 'gut' 0 0
+NNSkill       95 95 'glacial armor' 0 0
+NNSkill       95 95 'gust of wind' 0 0
+NNSkill       95 95 'gut' 0 0
 NNSkill       95 95 'human form' 0 0
-NNSkill       95 0 'impale' 0 0
-NNSkill       95 95 'kick' 0 0
+NNSkill       95 95 'impale' 0 0
+NNSkill       0 95 'kick' 0 0
 NNSkill       95 95 'lick' 0 0
-NNSkill       95 0 'lore' 0 0
-NNSkill       95 0 'meditate' 0 0
-NNSkill       95 95 'parry' 0 0
-NNSkill       95 0 'pluck' 0 0
+NNSkill       95 95 'lore' 0 0
+NNSkill       95 95 'meditate' 0 0
+NNSkill       0 95 'parry' 0 0
+NNSkill       95 95 'pluck' 0 0
 NNSkill       95 95 'rage' 0 0
 NNSkill       95 95 'scan' 0 0
 NNSkill       95 95 'second attack' 0 0
-NNSkill       95 95 'sharpen' 0 0
-NNSkill       95 0 'sixth attack' 0 0
+NNSkill       0 95 'sharpen' 0 0
+NNSkill       95 95 'sixth attack' 0 0
 NNSkill       95 95 'slice' 0 0
 NNSkill       95 95 'smell' 0 0
-NNSkill       95 0 'snatch' 0 0
-NNSkill       95 0 'stomp' 0 0
+NNSkill       95 95 'snatch' 0 0
+NNSkill       95 95 'stomp' 0 0
 NNSkill       95 95 'swim' 0 0
-NNSkill       95 0 'tail swipe' 0 0
-NNSkill       95 95 'telepathy' 0 0
+NNSkill       95 95 'tail swipe' 0 0
+NNSkill       0 95 'telepathy' 0 0
 NNSkill       95 95 'third attack' 0 0
-NNSkill       95 0 'trance' 0 0
+NNSkill       95 95 'trance' 0 0
 NNSkill       95 95 'truesight' 0 0
-NNSkill       95 0 'wings' 0 0
+NNSkill       95 95 'wings' 0 0
 NNWeapon      95 95 'pugilism' 0 0
-NNWeapon      95 95 'talons' 0 0
+NNWeapon      0 95 'talons' 0 0
 NNTongue      95 95 'celestial' 0 0
 NNTongue      95 95 'centaurian' 0 0
 NNTongue      95 95 'common' 0 0
@@ -193,27 +196,7 @@ NNTongue      95 95 'orcish' 0 0
 NNTongue      95 95 'pixish' 0 0
 NNTongue      95 95 'silent' 0 0
 NNTongue      95 95 'trollese' 0 0
-AffectDataL   'truesight'  90 247   0   0 4194304
-Killed       972
-Killed       971
-Killed       975
-Killed       955
-Killed       977
-Killed       976
-Killed       973
-Killed       978
-Killed       975
-Killed       974
-Killed       977
-Killed       976
-Killed       976
-Killed       975
-Killed       966
-Killed       965
-Killed       951
-Killed       40016
-Killed       40021
-Killed       40021
+AffectDataL   'truesight'  90 210   0   0 4194304
 THYQuestN 4 6 0 0 1 0
 THYQuestN 10 6 0 0 1 0
 THYQuestN 19 1 0 0 1 0
@@ -223,14 +206,6 @@ Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19
 i3perm       1
 i3flags      256
 Portalstonelag     0
-End
-
-#OBJECT
-Vnum         21
-Currtype     1
-Color        14
-Size   0
-Values       0 0 -1 0 0 0 0
 End
 
 #OBJECT
@@ -269,19 +244,56 @@ Values       60 60 2 0 0 0 0
 End
 
 #OBJECT
-Vnum         16702
-Level        108
-Currtype     1
-Size   77
-Values       60 60 0 0 0 0 0
-End
-
-#OBJECT
 Vnum         16248
 Level        10
 Cost         6
 Currtype     1
 Size   0
+End
+
+#OBJECT
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         4001
+Level        10
+Currtype     1
+Color        1
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         4002
+Level        15
+Currtype     4
+Color        11
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         4002
+Level        15
+Currtype     4
+Color        11
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         4001
+Level        10
+Currtype     1
+Color        1
+Size   0
+Values       10 10 0 0 0 10 0
 End
 
 #END

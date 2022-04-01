@@ -977,7 +977,7 @@ a pair of decorative earrings~
 A pair of decorative earrings has been left here.~
 ~
 9 0 65537
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 1 58 5
 4
 5
@@ -1095,7 +1095,7 @@ a tanned vest~
 A tanned vest has been left here.~
 ~
 9 0 9
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 52 5
 4
 1
@@ -1114,7 +1114,7 @@ a tanned belt~
 A tanned belt has been left here.~
 ~
 9 0 2049
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 59 5
 4
 1
@@ -1171,7 +1171,7 @@ a pair of iron bracers~
 A pair of iron bracers has been left here.~
 ~
 9 0 257
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 46 4
 4
 8

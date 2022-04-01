@@ -798,7 +798,7 @@ a collar of ethereal eagle feathers~
 A pile of eagle feathers is slowly being blown away by the wind.~
 ~
 9 262403 5
-60 60 0 0 0 0 0
+40 40 0 0 0 0 0
 1 10000 1000
 1
 0
@@ -1054,7 +1054,7 @@ a worn and faded sash~
 A worn and faded sash has been left here.~
 ~
 9 0 2049
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 1 257 25
 3
 8
@@ -1090,7 +1090,7 @@ black ankle wraps~
 A pair of black ankle wraps lays here.~
 ~
 9 0 2097153
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 1 223 22
 3
 13

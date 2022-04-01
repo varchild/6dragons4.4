@@ -2,11 +2,9 @@
 Name          Forbidden City~
 Filename      forbidden.city~
 Bank          forbidden~
-Duke          Sanibak~
-Baron         Alnar~
-Captain       Zael~
-Sheriff       Correne~
-Knight        Wigther~
+Duke          Wigther~
+Baron         Vladero~
+Captain       Correne~
 Allegiance    Halcyon~
 Defense          316
 Offense          227
@@ -48,6 +46,26 @@ Hardened         0
 End
 
 #ROLLCALL
+Name      Vladero~
+Joined    1648701820
+Updated    1648712895
+Class     gold~
+Level     10
+Kills     565
+Deaths    1
+End
+
+#ROLLCALL
+Name      Correne~
+Joined    1647903953
+Updated    1648781416
+Class     gold~
+Level     6
+Kills     78
+Deaths    0
+End
+
+#ROLLCALL
 Name      Sanibak~
 Joined    1647904960
 Updated    1648180695
@@ -65,46 +83,6 @@ Class     silver~
 Level     29
 Kills     1086
 Deaths    12
-End
-
-#ROLLCALL
-Name      Zael~
-Joined    1647938366
-Updated    1648014659
-Class     gold~
-Level     19
-Kills     359
-Deaths    4
-End
-
-#ROLLCALL
-Name      Wigther~
-Joined    1648004879
-Updated    1648216224
-Class     black~
-Level     15
-Kills     290
-Deaths    5
-End
-
-#ROLLCALL
-Name      Kraegar~
-Joined    1648100301
-Updated    1648189183
-Class     gold~
-Level     9
-Kills     346
-Deaths    1
-End
-
-#ROLLCALL
-Name      Correne~
-Joined    1647903953
-Updated    1648056180
-Class     gold~
-Level     8
-Kills     128
-Deaths    2
 End
 
 #ROLLCALL

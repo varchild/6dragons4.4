@@ -12,9 +12,9 @@ Level        29
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       97201
-Room         19530
-HpManaMove   2501 2980 868 818 2038 2038
+Played       97260
+Room         35515
+HpManaMove   2501 2980 818 818 1963 2038
 BaseHp       0 
 Blood        10 81
 Money         0 142 2583 97 54 -1
@@ -41,7 +41,7 @@ Resistant     8448
 Mentalstate   0
 Password      481671de8f45642f2fac3abdf123cb99bcc0eec259924bd6fae893db1d48ce79~
 Title          the silver warrior~
-Lastip         37.161.168.16~
+Lastip         82.59.173.4~
 RECAST          0
 Failsafe     31
 Combo1         breath~
@@ -54,7 +54,7 @@ FPrompt       %h   %c~
 KeepAlive      5
 GetsDExp     0
 DExpTimer    148
-LDExpUpdate  1648204901
+LDExpUpdate  1648550041
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -126,7 +126,7 @@ IllegalPK    0
 AttrPerm     22 18 18 16 16 10 12
 AttrMod      0 0 0 0 0 0 0
 Condition    0 130 188 39
-Site         37.161.168.16
+Site         82.59.173.4
 LastNews     1519063392
 Holdbreath 0
 Frostbite 0
@@ -395,6 +395,7 @@ Values       10 10 0 0 0 10 0
 End
 
 #OBJECT
+Count        3
 Vnum         8308
 Level        10
 Currtype     1
@@ -459,24 +460,6 @@ Color        8
 Size   3
 Values       40 156 -1 -1 0 30 0
 Spell 1      'sanctuary'
-End
-
-#OBJECT
-Vnum         8308
-Level        10
-Currtype     1
-Color        9
-Size   0
-Values       0 12 2 0 0 10 0
-End
-
-#OBJECT
-Vnum         8308
-Level        10
-Currtype     1
-Color        9
-Size   0
-Values       0 12 2 0 0 10 0
 End
 
 #OBJECT

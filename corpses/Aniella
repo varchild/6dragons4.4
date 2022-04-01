@@ -1,0 +1,16 @@
+#CORPSE
+Name         corpse Aniella~
+ShortDescr   the corpse of Aniella~
+Description  The corpse of Aniella is lying here.~
+Vnum         11
+Room         57027
+Rvnum     57027
+ExtraFlags   4194304
+Timer        39
+Currtype     1
+Size   0
+Values       0 0 5 1 30 0 0
+End
+
+#END
+

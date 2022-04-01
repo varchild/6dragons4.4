@@ -376,3 +376,16 @@
 [*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
 [*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
 [*****] BUG: __FileOpen: can't open player/h/Hagane for r. Called from player.c:3900 &D
+[*****] BUG: __FileOpen: can't open system/boot.txt for a. Called from db.c:5110 &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpquest - No such victim [Jarkore Flame Starter dragon red]. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
+[*****] BUG: Mob #35527: Mpquest - No such victim [Jarkore Flame Starter dragon red]. &D

@@ -8,35 +8,35 @@ Thirdclass   -1
 Race         13
 Age          0 21 8 974
 Languages    1 1
-Level        45
+Level        46
 Firstlevel   0
 Secondlevel  0
 Thirdlevel   0
-Played       99206
-Room         10815
-HpManaMove   4716 4641 1469 1424 3075 2975
+Played       100808
+Room         3875
+HpManaMove   4826 4751 1544 1454 3141 3041
 BaseHp       0 
-Blood        112 151
-Money         0 359 20 77 134 -1
-Exp           9977223
+Blood        153 153
+Money         0 552 20 77 134 -1
+Exp           7283837
 Firstexp      0
 Secondexp     0
 Thirdexp      0
-Height        535
-Weight        3862
+Height        542
+Weight        3961
 Act           570426952&2101248
-AffectedBy    2560
+AffectedBy    2688&0&16384
 Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
 Speed         32
 Position      115
 Style         2
-Practice      67
+Practice      71
 SavingThrows  0 0 0 0 0
 Alignment     1000
 AppBlood      0
 Hitroll       0
 Damroll       0
-Armor         31
+Armor         29
 Wimpy         190
 Resistant     1056768
 Mentalstate   0
@@ -48,6 +48,7 @@ RECAST          0
 Tradelevel          4
 Tradeclass          26
 Craftpoints          1346
+Failsafe     29
 Combo1         breathe~
 Combo2         tail~
 Combo3         gut~
@@ -56,7 +57,7 @@ AuthedBy     Varchild~
 KeepAlive      5
 GetsDExp     0
 DExpTimer    220
-LDExpUpdate  1648179684
+LDExpUpdate  1648687689
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -125,12 +126,12 @@ Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       1007
+MKills       1027
 MDeaths      4
 IllegalPK    0
 AttrPerm     22 20 18 12 18 10 12
-AttrMod      0 0 0 0 0 0 0
-Condition    0 48 148 55
+AttrMod      3 0 0 0 0 0 0
+Condition    0 176 184 56
 Site         172.58.129.236
 LastNews     1519063392
 Holdbreath 0
@@ -157,15 +158,15 @@ NNSkill       30 30 'dodge' 0 0
 NNSkill       23 23 'doorbash' 0 0
 NNSkill       28 24 'fly home' 0 0
 NNSkill       52 0 'gust of wind' 0 0
-NNSkill       86 73 'gut' 0 0
+NNSkill       87 73 'gut' 0 0
 NNSkill       95 87 'hardened scales' 0 0
 NNSkill       14 14 'human form' 0 0
 NNSkill       95 95 'lick' 0 0
 NNSkill       42 24 'lore' 0 0
 NNSkill       15 15 'meditate' 0 0
-NNSkill       47 0 'pluck' 0 0
+NNSkill       52 0 'pluck' 0 0
 NNSkill       10 15 'produce' 0 0
-NNSkill       27 23 'rage' 0 0
+NNSkill       28 23 'rage' 0 0
 NNSkill       41 41 'scan' 0 0
 NNSkill       95 95 'second attack' 0 0
 NNSkill       53 50 'shield' 0 0
@@ -173,7 +174,7 @@ NNSkill       50 50 'slice' 0 0
 NNSkill       34 27 'smell' 0 0
 NNSkill       32 32 'snatch' 0 0
 NNSkill       95 29 'swim' 0 0
-NNSkill       68 40 'tail swipe' 0 0
+NNSkill       70 40 'tail swipe' 0 0
 NNSkill       95 95 'third attack' 0 0
 NNSkill       29 0 'trance' 0 0
 NNSkill       95 95 'truesight' 0 0
@@ -182,26 +183,28 @@ NNSkill       75 52 'wings' 0 0
 NNTongue      95 95 'common' 0 0
 NNTongue      95 95 'draconic' 0 0
 AffectDataL   'shield'  41  -1   0  70 2048
-Killed       2302
-Killed       6253
-Killed       6250
-Killed       6251
-Killed       6250
-Killed       11544
-Killed       11544
-Killed       11546
-Killed       11545
-Killed       11543
-Killed       11544
-Killed       11544
-Killed       11551
-Killed       11551
-Killed       11546
-Killed       11547
-Killed       11545
-Killed       11545
-Killed       11546
-Killed       11550
+AffectDataL   'giant strength'  45  67   3   1 0&0&16384
+AffectDataL   'sanctuary'  46 191   0  70 128
+Killed       3753
+Killed       3766
+Killed       3752
+Killed       3753
+Killed       3753
+Killed       3753
+Killed       3754
+Killed       3754
+Killed       3752
+Killed       3754
+Killed       3752
+Killed       3754
+Killed       3752
+Killed       3753
+Killed       3753
+Killed       3754
+Killed       3753
+Killed       3767
+Killed       3750
+Killed       3750
 THYQuestN 10 8 0 0 1 0
 THYQuestN 17 1 0 0 1 0
 THYQuestN 30 10 0 0 1 0
@@ -749,6 +752,26 @@ End
 
 #OBJECT
 Nest         1
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 2 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
 Vnum         11547
 Level        80
 Currtype     1
@@ -807,33 +830,34 @@ End
 
 #OBJECT
 Nest         1
-Vnum         18606
-Level        1
+Vnum         3757
+Level        65
+Currtype     1
+Color        8
+Size   3
+Values       12 35 70 5 3 65 56
+End
+
+#OBJECT
+Nest         1
+Vnum         3793
+Level        20
+Currtype     2
+Color        13
+Size   0
+Values       40 7 7 100 0 20 0
+Spell 3      'heroism'
+End
+
+#OBJECT
+Nest         1
+Vnum         26002
+Level        20
 Currtype     4
-Color        1
+Color        4
 Size   0
-End
-
-#OBJECT
-Nest         1
-Vnum         16717
-Level        20
-Currtype     2
-Color        14
-Size   0
-Values       50 9 8 156 0 20 0
-Spell 3      'sanctuary'
-End
-
-#OBJECT
-Nest         1
-Vnum         16717
-Level        20
-Currtype     2
-Color        14
-Size   0
-Values       49 7 2 156 0 20 0
-Spell 3      'sanctuary'
+Values       20 8 6 8 0 20 0
+Spell 3      'aqua breath'
 End
 
 #OBJECT
@@ -862,7 +886,7 @@ Level        10
 Currtype     4
 Color        13
 Size   0
-Values       8 10 0 0 0 10 0
+Values       7 10 0 0 0 10 0
 End
 
 #OBJECT
@@ -911,7 +935,7 @@ Level        36
 Currtype     3
 Color        13
 Size   77
-Values       34 35 0 0 0 0 0
+Values       33 35 0 0 0 0 0
 End
 
 #OBJECT
@@ -1071,14 +1095,11 @@ Values       9 10 0 0 0 10 0
 End
 
 #OBJECT
-Vnum         26002
-WearLoc      17
-Level        20
+Vnum         18606
+Level        45
 Currtype     4
-Color        4
+Color        1
 Size   0
-Values       20 8 6 8 0 20 0
-Spell 3      'aqua breath'
 End
 
 #OBJECT
@@ -1091,11 +1112,14 @@ Values       0 12 2 0 0 10 0
 End
 
 #OBJECT
-Vnum         18606
-Level        45
-Currtype     4
-Color        1
+Vnum         16717
+WearLoc      17
+Level        20
+Currtype     2
+Color        14
 Size   0
+Values       50 9 7 156 0 20 0
+Spell 3      'sanctuary'
 End
 
 #VARIABLE
@@ -1105,7 +1129,7 @@ Vnum    3
 Ctime   1647903058
 Mtime   1647903058
 Rtime   0
-Timer   345
+Timer   326
 Tag     train~
 Int     0
 End

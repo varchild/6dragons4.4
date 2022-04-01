@@ -1221,7 +1221,7 @@ a small pair of gardening shears~
 A small pair of gardening shears sits here.~
 ~
 5 16908352 8193
-12 3 10 2 2 0 0
+12 5 15 2 2 0 0
 4 0 0
 1
 0
@@ -1290,7 +1290,7 @@ panther-crested ring~
 A ring with the crest of a panther glitters on the ground.~
 ~
 9 524352 3
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 4000 400
 1
 0
@@ -1398,7 +1398,7 @@ black patent leather shoes~
 Some rich person has left their black patent leather shoes here.~
 ~
 9 262144 65
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 2 1000 100
 1
 0
@@ -1417,7 +1417,7 @@ a dazzling sapphire ring~
 A sapphire ring glistens and sparkles.~
 ~
 9 65 3
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 1 2000 200
 1
 0
@@ -1496,7 +1496,7 @@ a cowhide whip~
 A long whip made of cowhide lies on the ground.~
 ~
 5 8651776 8193
-12 3 10 5 3 0 0
+12 1 5 5 3 0 0
 2 560 56
 1
 0
@@ -1567,7 +1567,7 @@ gold spectacles~
 Somebody has lost their spectacles here.~
 ~
 9 524288 131073
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 1 8600 860
 1
 0
@@ -1734,7 +1734,7 @@ a panther-crested helmet~
 Someone has dropped a helmet with the crest of a panther here.~
 ~
 9 0 17
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 2 75 7
 1
 0
@@ -1751,7 +1751,7 @@ a panther-crested shield~
 Lying here is a shield with the crest of a panther.~
 ~
 9 0 513
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 3 50 5
 1
 0
@@ -1832,7 +1832,7 @@ a tin shield~
 Somebody dropped a cheap tin shield on the floor.~
 ~
 9 0 513
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 3 50 5
 1
 0
@@ -1851,7 +1851,7 @@ a rat fur cloak~
 A cloak made of rat fur sits on the ground.~
 ~
 9 262144 1025
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 2 100 10
 1
 0
@@ -1990,7 +1990,7 @@ a riding stick~
 A riding stick has been dropped here.~
 ~
 5 64 8193
-12 5 15 7 5 0 0
+12 3 10 7 5 0 0
 4 450 45
 1
 0
@@ -2151,7 +2151,7 @@ a deck of playing cards~
 A deck of playing cards lies here.~
 ~
 9 0 16385
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 2 0 0
 1
 0

@@ -1,6 +1,7 @@
 #AUTH
 Name  Admin~
-State  1
+State  5
+AuthedBy       Varchild~
 End
 
 #AUTH
@@ -16,19 +17,13 @@ AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Nhudri~
+Name  Ezrynon~
 State  5
 AuthedBy       Varchild~
 End
 
 #AUTH
-Name  Garosh~
-State  5
-AuthedBy       Varchild~
-End
-
-#AUTH
-Name  Markos~
+Name  Dyrk~
 State  5
 AuthedBy       Varchild~
 End

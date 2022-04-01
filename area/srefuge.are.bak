@@ -1367,7 +1367,7 @@ a gnarled staff~
 A gnarled staff is here.~
 ~
 5 0 8193
-0 3 10 4 11 0 0
+0 1 5 4 11 0 0
 15 600 60
 1
 0
@@ -2033,7 +2033,7 @@ a pair of reading glasses~
 A pair of wire rimmed glasses lie here, complete with thick lenses~
 ~
 9 524352 131073 2
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 4 0 0
 1
 0
@@ -2103,7 +2103,7 @@ a plaid cotton apron~
 An old pile of plaid cotton lies here, dotted with stains.~
 ~
 9 0 2049
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 3 0 0
 1
 0

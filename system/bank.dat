@@ -6,6 +6,15 @@ Gold        500
 End
 
 #BANK
+Name        anya~
+Password    0f0d1918a52bec6f8ba96300259ed336d004f85284e5adf465d948474ca49c15~
+LastUsed    1648579452
+Bronze      50
+Copper      1000
+Gold        10
+End
+
+#BANK
 Name        dakar~
 Password    77102b2b5cb46718ec0313d1a294db76e027f88ae8fc1bc238f02a2e41672d95~
 LastUsed    1477185964
@@ -28,6 +37,19 @@ Gold        7
 End
 
 #BANK
+Name        ibrahim~
+Password    e1b1da26ce0eb71dac0514885f24d2f1eae6b896ecb3ff38a7c25455e82a970e~
+LastUsed    1648774952
+End
+
+#BANK
+Name        isahn~
+Password    3ca653c4ea8b0811ab2280794243abc66b191a4ad1c59a41c83467cfa940c5c5~
+LastUsed    1648746479
+Gold        738
+End
+
+#BANK
 Name        neos~
 Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
 LastUsed    1648194064
@@ -35,6 +57,12 @@ Bronze      825
 Copper      8590
 Gold        95
 Silver      2166
+End
+
+#BANK
+Name        nero~
+Password    e1b1da26ce0eb71dac0514885f24d2f1eae6b896ecb3ff38a7c25455e82a970e~
+LastUsed    1648773905
 End
 
 #BANK
@@ -47,11 +75,17 @@ End
 #BANK
 Name        pinewood~
 Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
-LastUsed    1648158849
+LastUsed    1648590144
 Bronze      27
-Copper      53
-Gold        5027
+Copper      43
+Gold        4986
 Silver      10
+End
+
+#BANK
+Name        raaa~
+Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
+LastUsed    1648568396
 End
 
 #BANK
