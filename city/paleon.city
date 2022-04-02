@@ -2,6 +2,8 @@
 Name          Paleon City~
 Filename      paleon.city~
 Bank          paleon~
+Duke          Ibrahim~
+Baron         Linnia~
 Allegiance    Alliance~
 Defense          20
 Offense          420
@@ -40,6 +42,26 @@ OArrow           41023
 MinHouse         54001
 MaxHouse         55000
 Hardened         0
+End
+
+#ROLLCALL
+Name      Ibrahim~
+Joined    1648850092
+Updated    1648938426
+Class     angel~
+Level     20
+Kills     164
+Deaths    1
+End
+
+#ROLLCALL
+Name      Linnia~
+Joined    1648925582
+Updated    1648938415
+Class     beastmaster~
+Level     10
+Kills     231
+Deaths    2
 End
 
 #END

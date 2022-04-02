@@ -850,7 +850,7 @@ a worthless shield~
 A small metal shield lies on the ground.~
 ~
 9 0 513
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 0 0
 1
 6
@@ -869,7 +869,7 @@ a worthless spear~
 A long stick with a head whittled lies here.~
 ~
 5 0 8193
-0 10 20 6 10 0 40
+0 15 30 6 10 0 40
 1 0 0
 1
 0
@@ -1296,7 +1296,7 @@ A pair of aether earrings~
 A pair or earrings made entirely out of light.~
 ~
 9 524289 65537
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 1 500 50
 1
 0
@@ -1342,7 +1342,7 @@ An aether cape~
 A cape made entirely of light.~
 ~
 9 524289 1025 64
-30 30 0 0 0 0 0
+10 10 0 0 0 0 0
 1 1200 120
 1
 0
@@ -1453,7 +1453,7 @@ a pair of tabi socks~
 A pair of tabi socks has been left here.~
 ~
 9 524288 65 64
-20 20 34 1 0 0 0
+10 10 34 1 0 0 0
 1 153 150
 3
 0

@@ -679,7 +679,7 @@ a dagger~
 &wA rune-covered dagger has been left here.&D~
 ~
 5 594 8193
-0 15 30 2 2 0 543516788
+0 10 30 2 2 0 543516788
 5 100 10
 1
 8
@@ -842,7 +842,7 @@ some green robes~
 &GA green robe has crumpled up on the floor.&D~
 ~
 9 577 9
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 3 0 0
 1
 9
@@ -1110,7 +1110,7 @@ a flind bar~
 &wA flind bar has been left here.&D~
 ~
 9 512 1
-10 10 0 7 0 0 0
+20 20 0 7 0 0 0
 5 0 0
 1
 8

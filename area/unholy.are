@@ -367,7 +367,7 @@ a gravedigger's spade~
 A rusty gravedigger's shovel has been stuck into the ground.~
 ~
 5 524288 8193
-0 3 10 7 10 0 0
+0 1 5 7 10 0 0
 9 900 90
 1
 0
@@ -386,7 +386,7 @@ a headstone's stolen plaque~
 Stolen from a headstone, a brass plaque has been dropped here.~
 ~
 9 524288 513
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 5 540 54
 3
 0
@@ -421,7 +421,7 @@ a graverobber's chisel~
 A rusty chisel has been dropped here.~
 ~
 5 524292 8193
-0 3 10 6 2 0 0
+0 1 5 6 2 0 0
 3 354 35
 3
 0
@@ -440,7 +440,7 @@ black pair of slippers caked with mud~
 A pair of black slippers are here covered in mud.~
 ~
 9 4 65
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 3 760 76
 1
 0

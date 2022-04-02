@@ -15,9 +15,9 @@ Level        90
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       31872
+Played       33281
 Room         65002
-HpManaMove   8125 8125 1401 1975 5730 5730
+HpManaMove   8125 8125 1605 1975 5655 5730
 BaseHp       0 
 Blood        273 273
 Money         0 37 443 113 7 -1
@@ -100,7 +100,7 @@ MDeaths      0
 IllegalPK    0
 AttrPerm     22 18 18 13 16 13 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 104 125 0
+Condition    0 24 83 0
 Site         10.0.0.1
 LastNews     1519063392
 Holdbreath 0
@@ -196,7 +196,7 @@ NNTongue      95 95 'orcish' 0 0
 NNTongue      95 95 'pixish' 0 0
 NNTongue      95 95 'silent' 0 0
 NNTongue      95 95 'trollese' 0 0
-AffectDataL   'truesight'  90 210   0   0 4194304
+AffectDataL   'truesight'  90  47   0   0 4194304
 THYQuestN 4 6 0 0 1 0
 THYQuestN 10 6 0 0 1 0
 THYQuestN 19 1 0 0 1 0

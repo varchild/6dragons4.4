@@ -2558,7 +2558,7 @@ the hammer Mjolnir~
 A magnificent hammer of dwarven make is imbedded in the ground.~
 ~
 5 1089 8193
-0 50 100 4 5 0 0
+0 45 100 4 5 0 0
 30 0 0
 1
 1
@@ -2827,7 +2827,7 @@ a Norn dagger~
 A small dagger can be seen on the ground.~
 ~
 5 1088 8193
-0 20 40 2 2 0 0
+0 25 45 2 2 0 0
 1 1265443 126544
 1
 13
@@ -3022,7 +3022,7 @@ Gauntlets of Fjalar~
 A pair of plain iron gauntlets have been left here.~
 ~
 9 525376 129
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 33 500000 50000
 1
 8
@@ -3119,7 +3119,7 @@ the sword Brand of Frost~
 A sword of ice slowly melts away.~
 ~
 5 65 8193
-0 50 100 1 1 0 0
+0 45 100 1 1 0 0
 12 223000 22300
 1
 0
@@ -3560,7 +3560,7 @@ a two handed sword~
 A sturdy two handed broadsword lies on the ground.~
 ~
 5 524288 8193
-0 46 59 1 0 0 0
+0 38 51 1 0 0 0
 25 0 1500
 1
 8
@@ -3618,7 +3618,7 @@ heavy iron armor~
 A suit of red hot iron armor is scorching the ground.~
 ~
 9 524880 9
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 75 0 45600
 1
 13
@@ -3681,7 +3681,7 @@ the Axe of Thrym~
 A massive twin bladed battle axe is buried in the dirt.~
 ~
 5 524880 8193
-0 50 100 3 9 0 0
+0 45 100 3 9 0 0
 45 0 23400
 1
 8
@@ -3846,7 +3846,7 @@ a battle axe~
 A heavy axe is imbedded in a log.~
 ~
 5 524288 8193
-0 45 90 3 9 0 0
+0 45 100 3 9 0 0
 20 0 50
 1
 8

@@ -688,7 +688,7 @@ a pair of crystal bracers~
 A pair of bracers seemingly mad entirely out of ice glistens softly on the ground.~
 ~
 9 532481 257
-40 40 0 0 0 0 0
+45 45 0 0 0 0 0
 1 121 12
 2
 0
@@ -709,7 +709,7 @@ a pair of crystal leggings~
 A pair of leggings made entirely out of ice lies here glistening softly.~
 ~
 9 8193 33 44
-40 40 0 0 0 0 0
+45 45 0 0 0 0 0
 1 109 10
 2
 0
@@ -730,7 +730,7 @@ a crystal ring~
 A ring seemingly made entirely out of ice glistens here softly.~
 ~
 9 8193 3
-45 45 0 0 0 0 0
+40 40 0 0 0 0 0
 1 127 12
 2
 0
@@ -751,7 +751,7 @@ an ice spear~
 A spear made out of ice lies here glistening softly.~
 ~
 5 0 8193
-12 20 40 7 10 0 100
+12 30 60 7 10 0 100
 1 102 10
 2
 0
@@ -768,7 +768,7 @@ ice claws~
 A set of long claws made entirely out of ice glisten softly.~
 ~
 5 0 8193
-12 62 76 1 0 0 100
+12 70 85 1 0 0 100
 1 94 9
 2
 0
@@ -785,7 +785,7 @@ an ice dagger~
 A long dagger made out of an icicle glistens here softly.~
 ~
 5 0 8193
-12 25 45 2 2 0 100
+12 30 60 2 2 0 100
 1 95 9
 2
 0
@@ -800,7 +800,7 @@ a giant icicle~
 An extremely large icicle sits here glistening softly.~
 ~
 5 0 8193
-12 62 76 4 4 0 0
+12 65 85 4 4 0 0
 1 93 9
 2
 0

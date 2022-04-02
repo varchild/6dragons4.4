@@ -14,12 +14,12 @@ Level        108
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       174815
+Played       284531
 Room         1234
 HpManaMove   30010 30000 30010 30000 30125 30000
 BaseHp       0 
 Blood        7500 7500
-Money         0 5 330 125 2000 -1
+Money         0 5 387 125 2000 -1
 Exp           0
 Firstexp      0
 Secondexp     0
@@ -27,7 +27,7 @@ Thirdexp      0
 Height        66
 Weight        110
 Act           1644168792&4144&2
-AffectedBy    -2142240768
+AffectedBy    -2146435072
 Channels      say ooc shout yell icc chat wartalk event music Think muse comm info auth warn build log counciltalk alliance sooc avtalk ask answer swear flirt hint osay 6d throng reunion halcyon paleon dakar forbidden auction dragon~
 Speed         32
 Position      115
@@ -50,7 +50,7 @@ Bio          The enigma of the realms. This being just appears to be 'here' and 
 AuthedBy     Varchild~
 KeepAlive      6
 GetsDExp     0
-LDExpUpdate  1648781447
+LDExpUpdate  1648936753
 tmpsecond -1
 tmpthird -1
 tmprace 8
@@ -677,7 +677,6 @@ NNSong        100 100 'sound waves' 0 0
 NNSong        100 100 'stirring ballad' 0 0
 NNSong        100 100 'thunderous hymn' 0 0
 NNSong        100 100 'unholy melody' 0 0
-AffectDataL   'truesight' 108 241   0   0 4194304
 THYQuestN 58 1 0 0 1 0
 MaxColors    111
 Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 

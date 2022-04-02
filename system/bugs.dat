@@ -389,3 +389,16 @@
 [*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
 [*****] BUG: Mob #35527: Mpechoat [35527]- victim [someone] does not exist. &D
 [*****] BUG: Mob #35527: Mpquest - No such victim [Jarkore Flame Starter dragon red]. &D
+[*****] BUG: Isahn -> hill giant ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> wasp worker ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Mob #25010: Mpoload - Bad level [wounded elf]. &D
+[*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
+[*****] BUG: Mob #25010: Mpforce - No such victim [wounded elf]. &D
+[*****] BUG: Isahn -> wasp worker ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> wasp guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> troll ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: __FileOpen: can't open system/boot.txt for a. Called from db.c:5110 &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D
+[*****] BUG: Isahn -> barbarian ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> wasp guard ($n's cloud of darkness has greatly dispelled you!) &D

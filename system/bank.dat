@@ -39,14 +39,18 @@ End
 #BANK
 Name        ibrahim~
 Password    e1b1da26ce0eb71dac0514885f24d2f1eae6b896ecb3ff38a7c25455e82a970e~
-LastUsed    1648774952
+LastUsed    1648863793
+Bronze      200
+Copper      3000
+Gold        40
+Silver      200
 End
 
 #BANK
 Name        isahn~
 Password    3ca653c4ea8b0811ab2280794243abc66b191a4ad1c59a41c83467cfa940c5c5~
-LastUsed    1648746479
-Gold        738
+LastUsed    1648794407
+Gold        733
 End
 
 #BANK
@@ -75,10 +79,10 @@ End
 #BANK
 Name        pinewood~
 Password    236e2b159a1f3b23c48caea6ea60bf60788cf3bb34fd9e66f47f70603b5d9304~
-LastUsed    1648590144
+LastUsed    1648821587
 Bronze      27
-Copper      43
-Gold        4986
+Copper      33
+Gold        4985
 Silver      10
 End
 

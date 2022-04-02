@@ -834,7 +834,7 @@ a silvery dagger~
 A sharp-looking silvery dagger lies here.~
 pierce~
 5 64 8193
-0 5 15 2 2 0 0
+0 3 10 2 2 0 0
 3 1500 150
 1
 0
@@ -1130,7 +1130,7 @@ a dress of black silk~
 A dress of black silk has been left lying here.~
 ~
 9 64 9
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 5 50 5
 1
 0
@@ -1605,22 +1605,22 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 813
+0 -1 807
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 812
+0 -1 810
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 810
+0 -1 813
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 807
+0 -1 812
 R R 0 808 6
 S
 #809
@@ -1636,27 +1636,27 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 811
+0 -1 807
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 816
+0 -1 810
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 814
+0 -1 816
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 807
+0 -1 811
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 810
+0 -1 814
 R R 0 809 6
 S
 #810
@@ -1672,27 +1672,27 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 809
+0 -1 813
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 815
+0 -1 807
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 807
+0 -1 808
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 813
+0 -1 809
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 808
+0 -1 815
 R R 0 810 6
 S
 #811
@@ -1708,7 +1708,7 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 812
+0 -1 809
 D1
 The astral field leads off into infinity.
 ~
@@ -1718,17 +1718,17 @@ D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 817
+0 -1 807
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 807
+0 -1 812
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 809
+0 -1 817
 R R 0 811 6
 S
 #812
@@ -1744,27 +1744,27 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 811
+0 -1 815
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 807
+0 -1 811
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 808
+0 -1 817
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 815
+0 -1 807
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 817
+0 -1 808
 R R 0 812 6
 S
 #813
@@ -1780,27 +1780,27 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 814
+0 -1 818
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 818
+0 -1 820
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 820
+0 -1 814
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 810
+0 -1 808
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 808
+0 -1 810
 D5
 The astral field leads off into infinity.
 ~
@@ -1822,7 +1822,7 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 808
+0 -1 813
 D1
 The astral field leads off into infinity.
 ~
@@ -1837,17 +1837,17 @@ D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 813
+0 -1 818
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 809
+0 -1 808
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 818
+0 -1 809
 R R 0 814 6
 S
 #815
@@ -1863,32 +1863,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 816
+0 -1 810
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 820
+0 -1 812
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 810
+0 -1 820
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 812
+0 -1 816
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 813
+0 -1 822
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 822
+0 -1 813
 R R 0 815 6
 S
 #816
@@ -1904,22 +1904,22 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 817
+0 -1 821
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 819
+0 -1 815
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 815
+0 -1 817
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 821
+0 -1 819
 D4
 The astral field leads off into infinity.
 ~
@@ -1945,32 +1945,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 811
+0 -1 821
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 821
+0 -1 822
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 814
+0 -1 816
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 822
+0 -1 814
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 816
+0 -1 812
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 812
+0 -1 811
 R R 0 817 6
 S
 #818
@@ -1983,35 +1983,35 @@ strand of light.  All but one exit leads off into the astral field.
 ~
 1 8 2
 D0
-You see a tangible strand of silvery light.
-~
-~
-0 -1 836
-D1
-The astral field leads off into infinity.
-~
-~
-0 -1 814
-D2
-The astral field leads off into infinity.
-~
-~
-0 -1 833
-D3
-The astral field leads off into infinity.
-~
-~
-0 -1 813
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 819
-D5
 The astral field leads off into infinity.
 ~
 ~
 0 -1 809
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 819
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 813
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 814
+D4
+You see a tangible strand of silvery light.
+~
+~
+0 -1 836
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 833
 R R 0 818 6
 R M 0 805 8 818
   R E 0 807 0 16
@@ -2029,32 +2029,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 814
+0 -1 818
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 816
+0 -1 814
 D2
-The astral field leads off into infinity.
-~
-~
-0 -1 818
-D3
-The astral field leads off into infinity.
-~
-~
-0 -1 834
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 810
-D5
 You see a tangible strand of silvery light.
 ~
 ~
 0 -1 838
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 810
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 816
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 834
 R R 0 819 6
 S
 #820
@@ -2070,32 +2070,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 813
-D1
-You see a tangible strand of silvery light.
-~
-~
-0 -1 840
-D2
-The astral field leads off into infinity.
-~
-~
-0 -1 815
-D3
-The astral field leads off into infinity.
-~
-~
 0 -1 835
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 811
-D5
+D1
 The astral field leads off into infinity.
 ~
 ~
 0 -1 821
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 813
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 811
+D4
+You see a tangible strand of silvery light.
+~
+~
+0 -1 840
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 815
 R R 0 820 6
 R M 0 803 4 820
   R G 0 814 0
@@ -2112,10 +2112,10 @@ strand of light.  All but one exit leads off into the astral field.
 ~
 1 8 2
 D0
-You see a tangible strand of silvery light.
+The astral field leads off into infinity.
 ~
 ~
-0 -1 842
+0 -1 820
 D1
 The astral field leads off into infinity.
 ~
@@ -2132,15 +2132,15 @@ The astral field leads off into infinity.
 ~
 0 -1 833
 D4
-The astral field leads off into infinity.
+You see a tangible strand of silvery light.
 ~
 ~
-0 -1 817
+0 -1 842
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 820
+0 -1 817
 R R 0 821 6
 S
 #822
@@ -2156,27 +2156,27 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 812
+0 -1 817
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 834
+0 -1 812
 D3
+The astral field leads off into infinity.
+~
+~
+0 -1 834
+D4
 You see a tangible strand of silvery light.
 ~
 ~
 0 -1 844
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 815
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 817
+0 -1 815
 R R 0 822 6
 R M 0 805 8 822
   R E 0 807 0 16
@@ -2191,35 +2191,35 @@ strand of light.  All but one exit leads off into the astral field.
 ~
 1 8 2
 D0
-You see a tangible strand of silvery light.
-~
-~
-0 -1 837
-D1
-The astral field leads off into infinity.
-~
-~
-0 -1 826
-D2
-The astral field leads off into infinity.
-~
-~
-0 -1 832
-D3
-The astral field leads off into infinity.
-~
-~
-0 -1 828
-D4
 The astral field leads off into infinity.
 ~
 ~
 0 -1 835
-D5
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 828
+D2
+You see a tangible strand of silvery light.
+~
+~
+0 -1 837
+D3
 The astral field leads off into infinity.
 ~
 ~
 0 -1 824
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 832
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 826
 R R 0 823 6
 R M 0 806 6 823
   R E 0 809 0 16
@@ -2243,27 +2243,27 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 829
-D2
-The astral field leads off into infinity.
-~
-~
-0 -1 823
-D3
-The astral field leads off into infinity.
-~
-~
 0 -1 825
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 833
-D5
+D2
 You see a tangible strand of silvery light.
 ~
 ~
 0 -1 839
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 833
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 829
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 823
 R R 0 824 6
 R M 0 803 4 824
   R G 0 814 0
@@ -2280,20 +2280,20 @@ strand of light.  All but one exit leads off into the astral field.
 ~
 1 8 2
 D0
-You see a tangible strand of silvery light.
-~
-~
-0 -1 841
-D1
-The astral field leads off into infinity.
-~
-~
-0 -1 828
-D2
 The astral field leads off into infinity.
 ~
 ~
 0 -1 830
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 827
+D2
+You see a tangible strand of silvery light.
+~
+~
+0 -1 841
 D3
 The astral field leads off into infinity.
 ~
@@ -2303,12 +2303,12 @@ D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 824
+0 -1 828
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 827
+0 -1 824
 R R 0 825 6
 S
 #826
@@ -2324,32 +2324,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 823
+0 -1 835
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 827
+0 -1 831
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 835
+0 -1 823
 D3
-The astral field leads off into infinity.
-~
-~
-0 -1 831
-D4
-The astral field leads off into infinity.
-~
-~
-0 -1 829
-D5
 You see a tangible strand of silvery light.
 ~
 ~
 0 -1 843
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 827
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 829
 R R 0 826 6
 R M 0 803 4 826
   R G 0 814 0
@@ -2364,30 +2364,30 @@ strand of light.  All but one exit leads off into the astral field.
 ~
 1 8 2
 D0
-The astral field leads off into infinity.
-~
-~
-0 -1 826
-D1
-The astral field leads off into infinity.
-~
-~
-0 -1 832
-D2
-The astral field leads off into infinity.
-~
-~
-0 -1 825
-D3
 You see a tangible strand of silvery light.
 ~
 ~
 0 -1 844
-D4
+D1
 The astral field leads off into infinity.
 ~
 ~
 0 -1 833
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 832
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 825
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 826
 D5
 The astral field leads off into infinity.
 ~
@@ -2411,32 +2411,32 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 834
+0 -1 809
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 809
+0 -1 823
 D2
 The astral field leads off into the depths.
 ~
 ~
-0 -1 847
+0 -1 845
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 825
+0 -1 834
 D4
-The astral field leads off into infinity.
-~
-~
-0 -1 823
-D5
 The astral field leads off into the depths.
 ~
 ~
-0 -1 845
+0 -1 847
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 825
 R R 0 828 6
 S
 #829
@@ -2449,35 +2449,35 @@ keeping your sense of direction.  All exits lead off into the astral field.
 ~
 1 8 2
 D0
-The astral field leads off into the depths.
-~
-~
-0 -1 846
-D1
-The astral field leads off into infinity.
-~
-~
-0 -1 826
-D2
-The astral field leads off into the depths.
-~
-~
-0 -1 849
-D3
 The astral field leads off into infinity.
 ~
 ~
 0 -1 835
+D1
+The astral field leads off into the depths.
+~
+~
+0 -1 846
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 826
+D3
+The astral field leads off into the depths.
+~
+~
+0 -1 849
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 830
+0 -1 824
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 824
+0 -1 830
 R R 0 829 6
 R M 0 810 6 829
   R E 0 806 0 16
@@ -2500,7 +2500,7 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 829
+0 -1 825
 D2
 The astral field leads off into infinity.
 ~
@@ -2510,17 +2510,17 @@ D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 833
+0 -1 829
 D4
-The astral field leads off into infinity.
-~
-~
-0 -1 825
-D5
 The astral field leads off into the depths.
 ~
 ~
 0 -1 845
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 833
 R R 0 830 6
 R M 0 803 4 830
   R G 0 814 0
@@ -2540,25 +2540,25 @@ keeping your sense of direction.  All exits lead off into the astral field.
 ~
 1 8 2
 D0
-The astral field leads off into the depths.
+The astral field leads off into infinity.
 ~
 ~
-0 -1 846
+0 -1 832
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 834
-D2
-The astral field leads off into infinity.
-~
-~
 0 -1 827
-D3
+D2
 The astral field leads off into the depths.
 ~
 ~
 0 -1 848
+D3
+The astral field leads off into the depths.
+~
+~
+0 -1 846
 D4
 The astral field leads off into infinity.
 ~
@@ -2568,7 +2568,7 @@ D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 832
+0 -1 834
 R R 0 831 6
 R M 0 810 6 831
   R E 0 806 0 16
@@ -2586,32 +2586,32 @@ D0
 The astral field leads off into the depths.
 ~
 ~
-0 -1 848
+0 -1 849
 D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 835
+0 -1 823
 D2
 The astral field leads off into infinity.
 ~
 ~
 0 -1 831
 D3
-The astral field leads off into the depths.
+The astral field leads off into infinity.
 ~
 ~
-0 -1 849
+0 -1 835
 D4
 The astral field leads off into infinity.
 ~
 ~
 0 -1 827
 D5
-The astral field leads off into infinity.
+The astral field leads off into the depths.
 ~
 ~
-0 -1 823
+0 -1 848
 R R 0 832 6
 S
 #833
@@ -2627,22 +2627,22 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 824
+0 -1 818
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 821
+0 -1 824
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 827
+0 -1 821
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 818
+0 -1 827
 D5
 The astral field leads off into infinity.
 ~
@@ -2665,22 +2665,22 @@ D1
 The astral field leads off into infinity.
 ~
 ~
-0 -1 822
+0 -1 825
 D2
 The astral field leads off into infinity.
 ~
 ~
-0 -1 828
+0 -1 819
 D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 825
+0 -1 828
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 819
+0 -1 822
 D5
 The astral field leads off into infinity.
 ~
@@ -2703,7 +2703,7 @@ D0
 The astral field leads off into infinity.
 ~
 ~
-0 -1 829
+0 -1 832
 D2
 The astral field leads off into infinity.
 ~
@@ -2713,17 +2713,17 @@ D3
 The astral field leads off into infinity.
 ~
 ~
-0 -1 823
+0 -1 820
 D4
 The astral field leads off into infinity.
 ~
 ~
-0 -1 820
+0 -1 823
 D5
 The astral field leads off into infinity.
 ~
 ~
-0 -1 832
+0 -1 829
 R R 0 835 6
 S
 #836
@@ -2829,15 +2829,15 @@ through the astral field.
 ~
 1 8 2
 D2
-The strand of light twists and turns out of sight.
-~
-~
-0 -1 840
-D4
 You see the infinite expanse of the astral field.
 ~
 ~
 0 -1 825
+D4
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 840
 R R 0 841 6
 S
 #842
@@ -2867,15 +2867,15 @@ through the astral field.
 ~
 1 8 2
 D0
-The strand of light twists and turns out of sight.
-~
-~
-0 -1 842
-D3
 You see the infinite expanse of the astral field.
 ~
 ~
 0 -1 826
+D3
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 842
 R R 0 843 6
 S
 #844

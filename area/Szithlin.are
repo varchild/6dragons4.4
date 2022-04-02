@@ -1266,7 +1266,7 @@ A drow spear~
 A long spear lays here rotting~
 ~
 5 0 8193
-0 5 15 7 10 0 0
+0 3 10 7 10 0 0
 1 92 9
 2
 0
@@ -1281,7 +1281,7 @@ A drow dagger~
 A small dagger lays here glittering~
 ~
 5 8192 8193
-0 3 10 2 2 0 0
+0 5 15 2 2 0 0
 1 104 10
 2
 0
@@ -1311,7 +1311,7 @@ A pair of drow leg guards~
 A breastplate lays here rusting~
 ~
 9 0 33
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 124 12
 2
 0
