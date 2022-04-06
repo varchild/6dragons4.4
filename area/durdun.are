@@ -577,7 +577,7 @@ set of knight's armor~
 A full set of knight's plate armor is here.~
 ~
 9 0 9
-30 30 0 0 0 0 0
+20 20 0 0 0 0 0
 1 169 18
 3
 0
@@ -596,7 +596,7 @@ a lochaber axe~
 A lochaber axe lies here before you.~
 ~
 5 532480 8193
-0 27 34 3 8 0 50
+0 35 50 3 8 0 50
 1 88 8
 4
 0
@@ -611,7 +611,7 @@ A knight's helmet with a visor~
 A knight's helmet with visor lays here, almost seeming to stare at you.~
 ~
 9 0 17
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 124 18
 4
 0
@@ -626,7 +626,7 @@ A pair of knight's boots~
 A pair of boots commonly worn by knight are here.~
 ~
 9 0 65
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 111 19
 4
 0
@@ -641,7 +641,7 @@ A knight's shield~
 A large shield used by knights lies here.~
 ~
 9 0 513
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 66 20
 4
 0
@@ -656,7 +656,7 @@ a steel lance~
 A steel lance lies here it's point glinting sharply.~
 ~
 5 532480 8193
-0 10 20 7 12 0 50
+0 15 30 7 12 0 50
 1 93 9
 4
 0
@@ -671,7 +671,7 @@ a pair of knight's gauntlets~
 A pair of knight's gauntlets lie here.~
 ~
 9 532480 129
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 1 89 8
 4
 0

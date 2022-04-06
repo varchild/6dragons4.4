@@ -462,7 +462,7 @@ wildcat claws~
 Sharp, strong claws lie here, barely held together with tawny fur.~
 ~
 5 0 8193
-0 35 80 1 2 0 0
+0 40 80 1 2 0 0
 1 114 11
 1
 0
@@ -483,7 +483,7 @@ a fox pelt~
 The pelt of an ex-fox lies here.~
 ~
 9 0 1025 16
-60 60 0 0 0 0 0
+50 50 0 0 0 0 0
 1 161 16
 1
 0
@@ -819,7 +819,7 @@ iron gate to the north is barely visible through the trees.
 D0
 ~
 gate~
-3 -1 11521
+1 -1 11521
 D1
 ~
 ~

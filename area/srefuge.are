@@ -2068,7 +2068,7 @@ a ratty grey labcoat~
 A pile of ratty grey material lies here in a heap.~
 ~
 9 0 1025 128
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 3 1200 120
 1
 0
@@ -2125,7 +2125,7 @@ a plaid cotton handkerchief~
 A cotton handkerchief lays here, crumpled in a ball.~
 ~
 9 0 17
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 1 100 10
 1
 0

@@ -4,6 +4,9 @@ Filename      paleon.city~
 Bank          paleon~
 Duke          Ibrahim~
 Baron         Linnia~
+Captain       Tasivil~
+Sheriff       Saridon~
+Knight        Mearra~
 Allegiance    Alliance~
 Defense          20
 Offense          420
@@ -47,20 +50,60 @@ End
 #ROLLCALL
 Name      Ibrahim~
 Joined    1648850092
-Updated    1648938426
+Updated    1649118412
 Class     angel~
-Level     20
-Kills     164
+Level     21
+Kills     174
 Deaths    1
 End
 
 #ROLLCALL
 Name      Linnia~
 Joined    1648925582
-Updated    1648938415
+Updated    1649288168
 Class     beastmaster~
+Level     13
+Kills     329
+Deaths    8
+End
+
+#ROLLCALL
+Name      Tasivil~
+Joined    1649011874
+Updated    1649288168
+Class     angel~
+Level     13
+Kills     47
+Deaths    3
+End
+
+#ROLLCALL
+Name      Barivon~
+Joined    1649011874
+Updated    1649288168
+Class     mage~
+Level     12
+Kills     55
+Deaths    2
+End
+
+#ROLLCALL
+Name      Saridon~
+Joined    1649016606
+Updated    1649288168
+Class     warrior~
 Level     10
-Kills     231
+Kills     22
+Deaths    0
+End
+
+#ROLLCALL
+Name      Mearra~
+Joined    1649011874
+Updated    1649288168
+Class     bard~
+Level     10
+Kills     6
 Deaths    2
 End
 

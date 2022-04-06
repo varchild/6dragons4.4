@@ -599,7 +599,7 @@ a chequered shirt~
 A chequered shirt lies here.~
 ~
 9 0 9
-5 5 0 0 0 0 0
+2 2 0 0 0 0 0
 2 20 2
 1
 0
@@ -832,7 +832,7 @@ a long, grey branch~
 A long, grey branch rests heavily on the ground.~
 pound~
 5 0 8193
-0 7 16 7 0 0 0
+0 14 24 7 0 0 0
 30 60 6
 1
 0
@@ -976,7 +976,7 @@ a heavy ring of iron~
 A heavy ring of iron has been lost here.~
 ~
 9 64 3
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 4 5000 500
 1
 0

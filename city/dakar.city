@@ -43,14 +43,4 @@ MaxHouse         58000
 Hardened         0
 End
 
-#ROLLCALL
-Name      Neos~
-Joined    1648039376
-Updated    1648148752
-Class     vampire~
-Level     11
-Kills     181
-Deaths    7
-End
-
 #END

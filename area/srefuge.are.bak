@@ -1367,7 +1367,7 @@ a gnarled staff~
 A gnarled staff is here.~
 ~
 5 0 8193
-0 1 5 4 11 0 0
+0 3 10 4 11 0 0
 15 600 60
 1
 0
@@ -2125,7 +2125,7 @@ a plaid cotton handkerchief~
 A cotton handkerchief lays here, crumpled in a ball.~
 ~
 9 0 17
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 100 10
 1
 0

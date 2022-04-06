@@ -378,6 +378,24 @@ Values       35 35 0 0 0 40 0
 End
 
 #OBJECT
+Count        2
+Vnum         951
+Level        15
+Currtype     3
+Color        7
+Size   0
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         16702
+Level        108
+Currtype     1
+Size   77
+Values       60 60 0 0 0 0 0
+End
+
+#OBJECT
 Vnum         961
 Level        1
 Currtype     1
@@ -405,20 +423,28 @@ Values       962 0 963 0 0 1 0
 End
 
 #OBJECT
-Vnum         951
-Level        15
-Currtype     3
-Color        7
+Vnum         16013
+Level        5
+Currtype     2
+Color        8
 Size   0
-Values       10 10 0 0 0 15 0
+Values       5 5 0 0 0 5 0
 End
 
 #OBJECT
-Vnum         16702
-Level        108
+Vnum         16248
+Level        10
+Cost         6
 Currtype     1
-Size   77
-Values       60 60 0 0 0 0 0
+Size   0
+End
+
+#OBJECT
+Vnum         2427
+Level        108
+Currtype     4
+Size   3
+Values       60 60 2 0 0 0 0
 End
 
 #END

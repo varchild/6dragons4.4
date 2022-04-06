@@ -1082,7 +1082,7 @@ a black staff~
 A long, blackened stick is here.~
 ~
 5 8388624 8193
-0 3 10 4 11 0 0
+0 5 15 4 11 0 0
 10 300 30
 1
 0
@@ -1554,7 +1554,7 @@ a leaky quill~
 A battered quill lies here, leaking ink everywhere.~
 ~
 5 67 8193
-0 1 5 6 2 0 0
+0 3 10 6 2 0 0
 8 300 30
 1
 0

@@ -15,20 +15,20 @@ Level        90
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       33281
+Played       37566
 Room         65002
-HpManaMove   8125 8125 1605 1975 5655 5730
+HpManaMove   8050 8125 1975 1975 5730 5730
 BaseHp       0 
 Blood        273 273
-Money         0 37 443 113 7 -1
-Exp           2477291
+Money         0 37 559 250 433 -1
+Exp           2547336
 Firstexp      0
 Secondexp     0
 Thirdexp      0
 Height        879
 Weight        7688
 Act           570426968&2101280
-AffectedBy    4194816
+AffectedBy    512
 Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction dragon~
 Speed         32
 Position      115
@@ -52,8 +52,8 @@ Bio          The ruby dragon of the realms.
 AuthedBy     Varchild~
 KeepAlive      5
 GetsDExp     0
-DExpTimer    70
-LDExpUpdate  1648781458
+DExpTimer    80
+LDExpUpdate  1648950257
 tmpsecond -1
 tmpthird -1
 tmprace 13
@@ -89,18 +89,20 @@ FoundArea       Wilderness~
 FoundArea       Citadel~
 FoundArea       Darkhaven Art Gallery~
 FoundArea       Garden~
+FoundArea       Chapel Catacombs~
+FoundArea       Astral Plane~
 Htown      Forbidden City~
-Flags        2
+Flags        131074
 Bardtimer    0
 Bardsn       0
 PKills       0
 PDeaths      0
-MKills       74
+MKills       109
 MDeaths      0
 IllegalPK    0
 AttrPerm     22 18 18 13 16 13 12
 AttrMod      0 0 0 0 0 0 0
-Condition    0 24 83 0
+Condition    0 64 130 0
 Site         10.0.0.1
 LastNews     1519063392
 Holdbreath 0
@@ -196,7 +198,26 @@ NNTongue      95 95 'orcish' 0 0
 NNTongue      95 95 'pixish' 0 0
 NNTongue      95 95 'silent' 0 0
 NNTongue      95 95 'trollese' 0 0
-AffectDataL   'truesight'  90  47   0   0 4194304
+Killed       809
+Killed       809
+Killed       812
+Killed       801
+Killed       812
+Killed       811
+Killed       811
+Killed       812
+Killed       3400
+Killed       3400
+Killed       3400
+Killed       3401
+Killed       3401
+Killed       3401
+Killed       3401
+Killed       3400
+Killed       3401
+Killed       3401
+Killed       3401
+Killed       3402
 THYQuestN 4 6 0 0 1 0
 THYQuestN 10 6 0 0 1 0
 THYQuestN 19 1 0 0 1 0
@@ -206,15 +227,6 @@ Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19
 i3perm       1
 i3flags      256
 Portalstonelag     0
-End
-
-#OBJECT
-Vnum         16013
-Level        5
-Currtype     2
-Color        8
-Size   0
-Values       5 5 0 0 0 5 0
 End
 
 #OBJECT
@@ -236,64 +248,53 @@ Values       2 2 0 0 0 1 0
 End
 
 #OBJECT
-Vnum         2427
-Level        108
-Currtype     4
+Vnum         24817
+Level        29
+Currtype     1
+Size   77
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         24817
+Level        34
+Currtype     1
+Size   77
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         24818
+Level        35
+Currtype     1
+Size   77
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         24819
+Level        43
+Currtype     1
+Size   0
+Values       50 6 6 -1 0 0 0
+End
+
+#OBJECT
+Vnum         810
+Level        29
+Currtype     1
 Size   3
-Values       60 60 2 0 0 0 0
+Values       12 15 30 1 1 0 81
 End
 
 #OBJECT
-Vnum         16248
-Level        10
-Cost         6
+Vnum         803
+Level        27
 Currtype     1
-Size   0
-End
-
-#OBJECT
-Vnum         951
-Level        15
-Currtype     3
-Color        7
-Size   0
-Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Vnum         4001
-Level        10
-Currtype     1
-Color        1
-Size   77
-Values       10 10 0 0 0 10 0
-End
-
-#OBJECT
-Vnum         4002
-Level        15
-Currtype     4
-Color        11
-Size   77
-Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Vnum         4002
-Level        15
-Currtype     4
-Color        11
-Size   0
-Values       10 10 0 0 0 15 0
-End
-
-#OBJECT
-Vnum         4001
-Level        10
-Currtype     1
-Color        1
-Size   0
-Values       10 10 0 0 0 10 0
+Size   3
+Values       25 156 178 -1 0 0 0
+Spell 1      'sanctuary'
+Spell 2      'stone skin'
 End
 
 #END

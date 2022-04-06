@@ -1,0 +1,1497 @@
+#VNUM 54102
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         dish~
+ShortDescr   a prepped dish~
+Description  A cooked dish has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16097
+Level        1
+Timer        10
+Currtype     4
+Color        7
+Size   0
+Values       10 10 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Extra       10
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         4
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         28
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         mix~
+ShortDescr   a sweetened mix~
+Description  A powdery mix has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         67
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        17
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        19
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         21
+Level        1
+Timer        -1
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        19
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        17
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16097
+Level        1
+Timer        10
+Currtype     4
+Color        7
+Size   0
+Values       10 10 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16097
+Level        1
+Timer        10
+Currtype     4
+Color        7
+Size   0
+Values       10 10 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         10001
+Level        17
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16234
+Currtype     3
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         pie oranges~
+ShortDescr   a pie, legendary cooked from oranges~
+Description  Here lies a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        13
+Cost         30
+Currtype     1
+Color        8
+Extra       10
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   pie oranges~ 
+&CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         pie oranges~
+ShortDescr   a pie, legendary cooked from oranges~
+Description  Here lies a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        13
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   pie oranges~ 
+&CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         pie oranges~
+ShortDescr   a pie, legendary cooked from oranges~
+Description  Here lies a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     19
+Weight       2
+Level        13
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       5 15 0 0 0 0 3
+ExtraDescr   pie oranges~ 
+&CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Count        53
+Name         oranges iron-goblet~
+ShortDescr   a iron-goblet, legendary mixed from oranges~
+Description  Here lies a iron-goblet, legendary mixed from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     17
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 1 16 0 0 0 3
+ExtraDescr   oranges iron-goblet~ &CThis crafted drink bears the seal of Tasivil, the master baker.
+~
+End
+
+#END

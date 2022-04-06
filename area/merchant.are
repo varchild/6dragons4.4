@@ -977,7 +977,7 @@ a pair of decorative earrings~
 A pair of decorative earrings has been left here.~
 ~
 9 0 65537
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 1 58 5
 4
 5
@@ -1133,7 +1133,7 @@ a hooded cloak~
 A hooded cloak has been left here.~
 ~
 9 0 1025
-5 5 0 0 0 0 0
+10 10 0 0 0 0 0
 1 53 5
 4
 1
@@ -1190,7 +1190,7 @@ a chain mail vest~
 A chain mail vest has been left here.~
 ~
 9 0 9
-10 10 0 0 0 0 0
+5 5 0 0 0 0 0
 5 52 5
 4
 8

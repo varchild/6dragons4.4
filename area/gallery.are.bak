@@ -1969,7 +1969,7 @@ a flawless crown~
 A completely flawless golden crown lies here on the ground.~
 ~
 9 192 17
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 5 50000 5000
 1
 0
@@ -2154,7 +2154,7 @@ the Ice Earrings~
 Two dragon's head-shaped earrings made of ice lie here untouched.~
 ~
 9 1 65537
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 1 150 15000
 1
 0
@@ -2194,7 +2194,7 @@ the Ice Helm~
 A helmet made of the hardest ice lies here, seemingly giving off its own light.~
 ~
 9 1 17
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 4 500 25000
 1
 0
@@ -2215,7 +2215,7 @@ the Ice Girth~
 A large hoop of ice lies here on the ground, waiting to be put on.~
 ~
 9 1 2049
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 3 91 17500
 2
 0
@@ -2602,7 +2602,7 @@ the Ice Shoes~
 A pair of shoes made of flawless ice lie here on the ground.~
 ~
 9 1 65
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 3 250 30000
 1
 0
@@ -3058,7 +3058,7 @@ the Slave Crown~
 An ordinary-looking crown with a blood red stone lies here.~
 ~
 9 208 17
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 1 13 1
 1
 0

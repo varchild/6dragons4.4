@@ -14,12 +14,12 @@ Level        108
 Firstlevel   -1
 Secondlevel  -1
 Thirdlevel   -1
-Played       284531
+Played       484226
 Room         1234
 HpManaMove   30010 30000 30010 30000 30125 30000
 BaseHp       0 
 Blood        7500 7500
-Money         0 5 387 125 2000 -1
+Money         0 5 653 125 2000 -1
 Exp           0
 Firstexp      0
 Secondexp     0
@@ -50,7 +50,7 @@ Bio          The enigma of the realms. This being just appears to be 'here' and 
 AuthedBy     Varchild~
 KeepAlive      6
 GetsDExp     0
-LDExpUpdate  1648936753
+LDExpUpdate  1649288447
 tmpsecond -1
 tmpthird -1
 tmprace 8
@@ -75,7 +75,7 @@ MapToggle          0
 MapSize            2
 MapDescToggle      0
 MapNameToggle      0
-MapType            0
+MapType            1
 FoundArea       Halcyon Clan Hall~
 FoundArea       Wilderness~
 FoundArea       Norrinton's South Harbor~

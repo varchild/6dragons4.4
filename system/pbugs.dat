@@ -226,4 +226,26 @@ RewardBonus   0
 Room          35537
 End
 
+#BUG
+FoundBy       Isahn~
+FoundWhen     04-02-2022 06:18:35PM~
+BugDesc       Not getting triple exp when using my triple exp bar
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          32016
+End
+
+#BUG
+FoundBy       Isahn~
+FoundWhen     04-05-2022 03:54:59PM~
+BugDesc       Cannot cast 'FAERIE FIRE' on any target at anytime. Just keep getting a message that reads, "You can't do that". This is while in dragon form. 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11510
+End
+
 #END

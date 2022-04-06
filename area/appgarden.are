@@ -475,7 +475,7 @@ a dragonhide anklet~
 A small strip of some black hide coils here.~
 ~
 9 0 2097153
-60 60 0 0 0 0 0
+45 45 0 0 0 0 0
 1 119 11
 2
 0
@@ -523,7 +523,7 @@ a silver earclasp~
 A tiny silver cuff lies here.~
 ~
 9 0 65537
-60 60 0 0 0 0 0
+45 45 0 0 0 0 0
 1 118 11
 2
 0
@@ -1103,7 +1103,7 @@ D0
 D2
 ~
 gate~
-3 -1 11551
+1 -1 11551
 D3
 ~
 ~

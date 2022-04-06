@@ -1328,7 +1328,7 @@ Rounds       12
 Code         spell_fireball
 Dammsg       fireball~
 Wearoff      !Fireball!~
-Difficulty   1
+Difficulty   2
 Teachers     26001~
 Minlevel     7
 End
@@ -2093,7 +2093,7 @@ Rounds       8
 Code         spell_lightning
 Dammsg       lightning strike~
 Wearoff      !Lightning Bolt!~
-Difficulty   1
+Difficulty   2
 Minlevel     20
 End
 
@@ -2241,7 +2241,7 @@ Mana         20
 Rounds       15
 Code         spell_nettle_skin
 Wearoff      &OThe barbed nettles protruding from your skin suddenly recede.~
-Difficulty   1
+Difficulty   4
 Minlevel     6
 End
 
@@ -2485,7 +2485,7 @@ Mana         12
 Rounds       14
 Code         spell_refresh
 Wearoff      &YA surge of energy feels your being!~
-Difficulty   1
+Difficulty   2
 Minlevel     4
 End
 

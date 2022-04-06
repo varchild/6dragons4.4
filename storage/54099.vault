@@ -1,0 +1,575 @@
+#VNUM 54099
+#OBJECT
+Name         leather-backpack~
+ShortDescr   a leather backpack, legendary tanned from rabbit~
+Description  Here lies a leather backpack, legendary tanned from rabbit.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Weight       2
+Level        9
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       1000 1 0 12 6 30 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leather-backpack~ &CThis tanned item bears the seal of Mearra, the master tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Name         item~
+ShortDescr   a partially assembled item~
+Description  A partially assembled item has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         plated-gauntlets~
+ShortDescr   a gold emerald plated-gauntlets~
+Description  A gold emerald plated-gauntlets has been left here.~
+Vnum         41002
+WearFlags    129
+ItemType     9
+Weight       2
+Level        9
+Cost         25
+Currtype     1
+Size   0
+Values       5 5 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 -1 17 0
+ExtraDescr   plated-gauntlets~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         plated-boots~
+ShortDescr   a gold emerald plated-boots~
+Description  A gold emerald plated-boots has been left here.~
+Vnum         41002
+WearFlags    65
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   plated-boots~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         round-shield~
+ShortDescr   a gold emerald round-shield~
+Description  A gold emerald round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       1 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   round-shield~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 0 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         round-shield~
+ShortDescr   a gold diamond round-shield~
+Description  A gold diamond round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       8
+Level        13
+Cost         25
+Currtype     1
+Size   0
+Values       1 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   round-shield~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         21
+Level        1
+Timer        -1
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16238
+Currtype     4
+Color        13
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         16232
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16232
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#END

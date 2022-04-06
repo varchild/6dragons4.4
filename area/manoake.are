@@ -2735,7 +2735,7 @@ A White Robe~
 A White Robe litters the ground~
 ~
 9 0 9
-50 50 0 0 0 0 0
+55 55 0 0 0 0 0
 1 0 0
 1
 0
@@ -2831,7 +2831,7 @@ a iron helmet~
 A iron helmet, litters the ground here.~
 ~
 9 0 17
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 1 10 32
 2
 8
@@ -3367,7 +3367,7 @@ a pocket knife~
 A folded up pocket knife lays in the floor.~
 ~
 5 0 8193
-0 20 35 2 2 0 0
+0 25 45 2 2 0 0
 2 27 2
 2
 8
@@ -3490,7 +3490,7 @@ a black iron ring~
 A black iron ring lays here almost hidden on the ground.~
 ~
 9 0 3
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 1 400 40
 2
 13
@@ -3617,7 +3617,7 @@ a short axe~
 A short axe has been stuck in the ground here.~
 ~
 5 0 8193
-0 5 15 3 9 0 0
+0 10 20 3 9 0 0
 7 340 34
 2
 1
@@ -3644,7 +3644,7 @@ a double-sided axe~
 A double-sided axe lays on it side on the ground.~
 ~
 5 0 8193
-0 20 35 3 9 0 0
+0 20 40 3 9 0 0
 15 1000 100
 2
 1
@@ -3667,7 +3667,7 @@ a silver sword~
 A sword made of silver lays on its side on the ground.~
 ~
 5 0 8193
-0 20 35 1 1 0 0
+0 15 30 1 1 0 0
 5 40 4
 2
 8
@@ -3721,7 +3721,7 @@ a wood cutters axe~
 A axe used for cutting wood lays on its side here.~
 ~
 5 0 8193
-0 20 40 3 9 0 0
+0 15 30 3 9 0 0
 6 532 53
 2
 1
@@ -4133,7 +4133,7 @@ a torn shirt~
 A torn shirt lays on the ground.~
 ~
 9 0 9
-2 2 0 0 0 0 0
+5 5 0 0 0 0 0
 2 1 0
 3
 1
@@ -4483,7 +4483,7 @@ a jesters hat~
 A odd colored jesters hat rest on the ground here.~
 ~
 9 0 17
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 2 50 5
 3
 4
@@ -4632,7 +4632,7 @@ a leather tunic~
 A leather tunic engraved with the dwarven royal page seal lays here.~
 ~
 9 0 9
-20 20 0 0 0 0 0
+30 30 0 0 0 0 0
 4 40 4
 3
 1
@@ -4743,7 +4743,7 @@ a brilliant white dress~
 A brilliant white dress, is getting dirty on the ground here.~
 ~
 9 64 9
-35 35 0 0 0 0 0
+40 40 0 0 0 0 0
 6 100 10
 3
 5
@@ -5015,7 +5015,7 @@ a dark trench coat~
 A dark leather trench coat, lays on the ground here.~
 ~
 9 0 9
-35 35 0 0 0 0 0
+30 30 0 0 0 0 0
 1 103 10
 2
 13
@@ -5131,7 +5131,7 @@ a green shirt~
 A green shirt made of linen, lays on the ground here.~
 ~
 9 0 9
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 3 20 2
 4
 9

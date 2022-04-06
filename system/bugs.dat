@@ -402,3 +402,45 @@
 [*****] BUG: Cannot open auth.dat for writing. &D
 [*****] BUG: Isahn -> barbarian ($n's cloud of darkness has greatly dispelled you!) &D
 [*****] BUG: Isahn -> wasp guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Mob #2764: Mpforce - No such victim [Blacksmith Jolram]. &D
+[*****] BUG: Isahn -> monk ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> grizzly bear ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> giant ant drone ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> temple guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Pixadale gate guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Female citizen ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: __FileOpen: can't open corpses/Aniella.temporary for w. Called from save.c:3792 &D
+[*****] BUG: Write_corpses: Cannot open file. &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D
+[*****] BUG: Isahn -> Male citizen ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Pixadale Guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> monk ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Male citizen ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: __FileOpen: can't open system/boot.txt for a. Called from db.c:5110 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open corpses/Aniella.temporary for w. Called from save.c:3792 &D
+[*****] BUG: Write_corpses: Cannot open file. &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D
+[*****] BUG: Isahn -> Pixadale Guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D
+[*****] BUG: Mob #122: Mpechoat [122]- victim [someone] does not exist. &D

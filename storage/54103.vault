@@ -1,0 +1,174 @@
+#VNUM 54103
+#OBJECT
+Name         couch~
+ShortDescr   a couch, legendary milled from brown hickory lumber~
+Description  Here lies a couch, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     12
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       4 5000 129 200 200 30 15
+ExtraDescr   couch~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         bed~
+ShortDescr   a bed, legendary milled from brown hickory lumber~
+Description  Here lies a bed, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     12
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       4 5000 129 200 200 30 15
+ExtraDescr   bed~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         wagon~
+ShortDescr   a wagon, legendary milled from brown hickory lumber~
+Description  Here lies a wagon, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 15
+ExtraDescr   wagon~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         chest~
+ShortDescr   a chest, legendary milled from brown hickory lumber~
+Description  Here lies a chest, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    16385
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 15
+ExtraDescr   chest~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         crate~
+ShortDescr   a crate, legendary milled from brown hickory lumber~
+Description  Here lies a crate, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 15
+ExtraDescr   crate~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10001
+Level        16
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         fir~
+ShortDescr   &wthe roughly finished product~
+Description  A rough lumber piece has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Name         row-boat~
+ShortDescr   a row-boat, legendary milled from brown hickory lumber~
+Description  Here lies a row-boat, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     22
+Weight       8
+Level        5
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       30 30 10982 6 6 30 15
+ExtraDescr   row-boat~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#END

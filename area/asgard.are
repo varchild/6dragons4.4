@@ -2827,7 +2827,7 @@ a Norn dagger~
 A small dagger can be seen on the ground.~
 ~
 5 1088 8193
-0 25 45 2 2 0 0
+0 20 40 2 2 0 0
 1 1265443 126544
 1
 13
@@ -2844,7 +2844,7 @@ the rapier sword Disease~
 A thin, razor sharp sword lies on the ground.~
 ~
 5 524818 8193
-0 50 100 2 1 0 0
+0 45 100 2 1 0 0
 5 1200000 120000
 1
 8
@@ -3119,7 +3119,7 @@ the sword Brand of Frost~
 A sword of ice slowly melts away.~
 ~
 5 65 8193
-0 45 100 1 1 0 0
+0 50 100 1 1 0 0
 12 223000 22300
 1
 0
@@ -3560,7 +3560,7 @@ a two handed sword~
 A sturdy two handed broadsword lies on the ground.~
 ~
 5 524288 8193
-0 38 51 1 0 0 0
+0 46 59 1 0 0 0
 25 0 1500
 1
 8
@@ -3618,7 +3618,7 @@ heavy iron armor~
 A suit of red hot iron armor is scorching the ground.~
 ~
 9 524880 9
-40 40 0 0 0 0 0
+35 35 0 0 0 0 0
 75 0 45600
 1
 13

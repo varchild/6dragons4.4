@@ -1748,7 +1748,7 @@ a pair of black boots~
 A pair of black boots has been left here.~
 ~
 9 0 65
-20 20 0 0 0 0 0
+10 10 0 0 0 0 0
 3 172 17
 3
 13
@@ -2049,7 +2049,7 @@ a pickaxe~
 A mining pickaxe has been left here.~
 ~
 5 0 8193
-0 10 30 2 1 0 0
+0 10 20 2 1 0 0
 6 0 0
 1
 8
