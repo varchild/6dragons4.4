@@ -1791,3 +1791,9 @@ Wed Apr  6 16:57:04 2022: Varchild started Happy Hour
 Wed Apr  6 17:06:29 2022: Mjodvitnir obtained level 3! (HappyHour)&D
 Wed Apr  6 17:11:12 2022: Mjodvitnir obtained level 4! (HappyHour)&D
 Wed Apr  6 17:40:55 2022: Varchild started Happy Hour
+Wed Apr  6 17:53:44 2022: Varchild ended Happy Hour
+Wed Apr  6 17:53:45 2022: Varchild started Happy Hour
+Wed Apr  6 18:53:45 2022: System ended Happy Hour
+Wed Apr  6 18:56:38 2022: Varchild started Happy Hour
+Wed Apr  6 19:23:42 2022: Isahn obtained level 43! (HappyHour)&D
+Wed Apr  6 19:56:38 2022: System ended Happy Hour

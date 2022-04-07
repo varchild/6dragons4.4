@@ -248,4 +248,16 @@ RewardBonus   0
 Room          11510
 End
 
+#BUG
+FoundBy       Isahn~
+FoundWhen     04-06-2022 05:59:39PM~
+BugDesc       Had the turath quest to kill the beholder. Killed it. Didn't get the quest completion. Turned the codex into the priest.. no quest update
+l/s
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          7523
+End
+
 #END

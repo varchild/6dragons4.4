@@ -7772,12 +7772,12 @@ This command will print out the results of profile from gmon.out
 Directions to implement MSP (Mud Sound Protocol) on GMUD.
 
 1. Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Battle-sounds-477/
-http://www.smaugmuds.org/files/6D-Communication-sounds-478/
-http://www.smaugmuds.org/files/6D-Music-sounds-476/
-http://www.smaugmuds.org/files/6D-Tradeskills-sounds-479/
+https://smaugmuds.afkmods.com/files/6d-battle-sounds-477/
+https://smaugmuds.afkmods.com/files/6d-communication-sounds-478/
+https://smaugmuds.afkmods.com/files/6d-music-sounds-476/
+https://smaugmuds.afkmods.com/files/6d-tradeskills-sounds-479/
 All 4 in one included in sound.zip
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
 
 2. Untar the sounds to a sound directory in programs/GMUD directory.
 3. GMUD requires sounds be done by triggers.  As of yet, no one
@@ -14221,12 +14221,13 @@ See MSET OSET and REDIT
 Directions to implement MSP (Mud Sound Protocol) on GMUD.
 
 1. Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Battle-sounds-477/
-http://www.smaugmuds.org/files/6D-Communication-sounds-478/
-http://www.smaugmuds.org/files/6D-Music-sounds-476/
-http://www.smaugmuds.org/files/6D-Tradeskills-sounds-479/
+https://smaugmuds.afkmods.com/files/6d-battle-sounds-477/
+https://smaugmuds.afkmods.com/files/6d-communication-sounds-478/
+https://smaugmuds.afkmods.com/files/6d-music-sounds-476/
+https://smaugmuds.afkmods.com/files/6d-tradeskills-sounds-479/
 All 4 in one included in sound.zip
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
 2. Untar the sounds to a sound directory wherever you like.
 3. Mudlet requires sounds be done by triggers.  Just point the trigger
@@ -14313,7 +14314,8 @@ EXAMPLE: muse @shrug     = [Muse] Player shrugs helplessly.
 Directions to implement MSP (Mud Sound Protocol) on MUSHclient.
 
 1. Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
 take note of where you save them too.
 
@@ -19422,12 +19424,13 @@ Sound and music in 6 Dragons can be heard if your mud client has MSP - MUD
 SOUND PROTOCOL.  If so, enable your MSP with your mud client.
 
 Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Battle-sounds-477/
-http://www.smaugmuds.org/files/6D-Communication-sounds-478/
-http://www.smaugmuds.org/files/6D-Music-sounds-476/
-http://www.smaugmuds.org/files/6D-Tradeskills-sounds-479/
+https://smaugmuds.afkmods.com/files/6d-battle-sounds-477/
+https://smaugmuds.afkmods.com/files/6d-communication-sounds-478/
+https://smaugmuds.afkmods.com/files/6d-music-sounds-476/
+https://smaugmuds.afkmods.com/files/6d-tradeskills-sounds-479/
 All 4 in one included in sound.zip
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
 You will have config what you want to hear correspondingly.
 eg. config battle to hear battle sounds, config communication to hear communication 
@@ -21268,7 +21271,8 @@ for Classic 6Dragons use.  You may find it here.
 http://www.smaugmuds.org/files/tintin-Sound-Installation-for--481/
 
 Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
 Follow README.txt carefully proper placement of the files is 
 required for success.
@@ -22059,7 +22063,8 @@ See also help &WABOARD, DEED, PILOT, STEER, SAIL, DEPART, HULL.
 1 1248730453 VIP~
 &c
 1. Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
 2. Use winrar or another software to unzip or untar the file.
 3. Open the folder of sound files and press control and A to select all 
@@ -22883,7 +22888,8 @@ magical object has no more charges, it will be consumed.  Use the spell
 Directions to implement MSP (Mud Sound Protocol) on zMUD.
 
 1. Download all the sound files that you want.
-http://www.smaugmuds.org/files/6D-Sound-Pack-475/
+https://smaugmuds.afkmods.com/files/6d-sound-pack-475/
+
 
    2. Untar the sounds into a folder called "sounds" in your 6Dragons 
       folder in the zmud directory. (..zmud/6Dragons/sounds).
@@ -23131,7 +23137,7 @@ at the time the song is played.
 See also help &WPLAY
 ~
 
-0 1649211970 $~
+0 1649300067 $~
 
 
 #$
