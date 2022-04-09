@@ -3771,7 +3771,7 @@ void do_bite(CHAR_DATA *ch, char *argument)
   
    // Restrict the bite ability to the Lobohian and Dragon races.
   if(ch->race != RACE_LOBOHIAN && ch->race != RACE_DRAGON) {
-    send_to_char("That isn't quite one of your natural skills.\r\n", ch);
+    error(ch);
     return;
   }
 
@@ -3965,7 +3965,7 @@ void do_claw(CHAR_DATA *ch, char *argument)
   
   // Restrict the claw ability to the Felinus and Dragon race.
   if(ch->race != RACE_FELINUS && ch->race != RACE_DRAGON) {
-    send_to_char("That isn't quite one of your natural skills.\r\n", ch);
+    error(ch);
     return;
   }
 
