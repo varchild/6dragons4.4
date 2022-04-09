@@ -4,7 +4,7 @@
  * - Merc  2.1  Copyright 1992, 1993 by Michael Chastain, Michael Quan,    *
  *   and Mitchell Tse.                                                     *
  * - DikuMud    Copyright 1990, 1991 by Sebastian Hammer, Michael Seifert, *
- *   Hans-Henrik Stærfeldt, Tom Madsen, and Katja Nyboe.                   *
+ *   Hans-Henrik StÃ¦rfeldt, Tom Madsen, and Katja Nyboe.                   *
  ***************************************************************************
  * - smelling/hunting module                                               *
  ***************************************************************************/
@@ -52,6 +52,12 @@ void do_smell(CHAR_DATA *ch, char *argument)
   int                     dir, maxdist, lastdir = 0, lastnumber = 0;
   bool                    firststep = true;
 
+   // Restrict the smell ability to the Lobohian and Dragon races.
+  if(ch->race != RACE_LOBOHIAN && ch->race != RACE_DRAGON) {
+    error(ch);
+    return;
+  }
+  
   if(!IS_NPC(ch) && ch->pcdata->learned[gsn_smell] <= 0)
   {
     send_to_char("You do not know of this skill yet.\r\n", ch);
