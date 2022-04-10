@@ -72,42 +72,6 @@ ExtraDescr   chest~ &CThis crafted item bears the seal of Saridon, the master ca
 End
 
 #OBJECT
-Name         crate~
-ShortDescr   a crate, legendary milled from brown hickory lumber~
-Description  Here lies a crate, legendary milled from brown hickory lumber.~
-Vnum         41002
-WearFlags    1
-ItemType     15
-Weight       8
-Level        100
-Cost         8
-Currtype     2
-Color        9
-Size   0
-Values       800 0 0 12 6 30 15
-ExtraDescr   crate~ &CThis crafted item bears the seal of Saridon, the master carpenter.
-~
-End
-
-#OBJECT
-Vnum         10001
-Level        18
-Currtype     4
-Color        3
-Size   3
-Values       5 0 0 0 0 0 0
-End
-
-#OBJECT
-Vnum         10001
-Level        16
-Currtype     4
-Color        3
-Size   3
-Values       5 0 0 0 0 0 0
-End
-
-#OBJECT
 Vnum         68
 Currtype     2
 Color        2
@@ -168,6 +132,24 @@ Color        9
 Size   0
 Values       30 30 10982 6 6 30 15
 ExtraDescr   row-boat~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         crate~
+ShortDescr   a crate, legendary milled from brown hickory lumber~
+Description  Here lies a crate, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    1
+ItemType     15
+Weight       8
+Level        100
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       800 0 0 12 6 30 15
+ExtraDescr   crate~ &CThis crafted item bears the seal of Saridon, the master carpenter.
 ~
 End
 

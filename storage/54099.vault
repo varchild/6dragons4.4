@@ -142,399 +142,6 @@ End
 
 #OBJECT
 Nest         1
-Vnum         21
-Level        1
-Timer        -1
-Currtype     1
-Color        14
-Size   0
-Values       0 0 -1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         4666
-Currtype     4
-Color        5
-Size   0
-Values       15 15 12 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Vnum         40033
-Level        5
-Currtype     4
-Size   0
-Values       15 83 -1 -1 0 0 0
-Spell 1      'fly'
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
-Name         roasted fresh slice of meat~
-ShortDescr   a roasted fresh slice of meat~
-Description  A roasted fresh slice of meat.~
-Vnum         24
-Currtype     1
-Size   0
-Values       30 0 1 0 0 0 0
-End
-
-#OBJECT
-Nest         1
 Name         roasted fresh slice of meat~
 ShortDescr   a roasted fresh slice of meat~
 Description  A roasted fresh slice of meat.~
@@ -554,22 +161,384 @@ End
 
 #OBJECT
 Nest         1
-Vnum         16232
-Level        1
-Currtype     3
-Color        13
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
 Size   0
-Values       8 0 0 0 0 1 0
+Values       30 0 1 0 0 0 0
 End
 
 #OBJECT
 Nest         1
-Vnum         16232
-Level        1
-Currtype     3
-Color        13
+Vnum         4666
+Currtype     4
+Color        5
 Size   0
-Values       8 0 0 0 0 1 0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         4666
+Currtype     4
+Color        5
+Size   0
+Values       15 15 12 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40033
+Level        5
+Currtype     4
+Size   0
+Values       15 83 -1 -1 0 0 0
+Spell 1      'fly'
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         roasted fresh slice of meat~
+ShortDescr   a roasted fresh slice of meat~
+Description  A roasted fresh slice of meat.~
+Vnum         24
+Currtype     1
+Size   0
+Values       30 0 1 0 0 0 0
 End
 
 #END

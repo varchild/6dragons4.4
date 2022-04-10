@@ -1,2 +1,114 @@
 #VNUM 65007
+#OBJECT
+Vnum         35513
+Level        1
+Currtype     3
+Color        1
+Size   0
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Vnum         35805
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Vnum         35806
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Vnum         11514
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11517
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11517
+Level        55
+Currtype     2
+Size   0
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11613
+Level        25
+Currtype     3
+Color        13
+Size   0
+Values       20 20 0 0 0 25 0
+End
+
+#OBJECT
+Vnum         11547
+Level        81
+Currtype     1
+Size   0
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         32007
+Level        43
+Currtype     3
+Color        5
+Size   0
+Values       12 20 40 1 2 0 61
+End
+
+#OBJECT
+Vnum         32007
+Level        43
+Currtype     3
+Color        5
+Size   0
+Values       12 20 40 1 2 0 84
+End
+
+#OBJECT
+Vnum         35803
+Weight       15
+Level        55
+Currtype     2
+Color        13
+Size   0
+Values       12 78 101 1 0 55 99
+End
+
+#OBJECT
+Vnum         11613
+Level        25
+Currtype     3
+Color        13
+Size   0
+Values       20 20 0 0 0 25 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 26 0 0 0 0 0
+End
+
 #END

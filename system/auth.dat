@@ -40,4 +40,9 @@ State  5
 AuthedBy       Varchild~
 End
 
+#AUTH
+Name  Grachuus~
+State  0
+End
+
 #END
