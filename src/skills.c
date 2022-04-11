@@ -3963,12 +3963,6 @@ void do_claw(CHAR_DATA *ch, char *argument)
     return;
   }
   
-  // Restrict the claw ability to the Felinus and Dragon race.
-  if(ch->race != RACE_FELINUS && ch->race != RACE_DRAGON) {
-    error(ch);
-    return;
-  }
-
   char                    arg[MIL];
 
   one_argument(argument, arg);
