@@ -461,3 +461,20 @@
 [*****] BUG: Mob #35601: Mpforce - No such victim [curiner priest shadowy]. &D
 [*****] BUG: Mob #35601: Mppurge - Bad argument [curiner priest shadowy]. &D
 [*****] BUG: Isahn -> Pixadale Guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Pixadale Guard ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> tainted wolf ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: __FileOpen: can't open player/w/Wigther for r. Called from player.c:3900 &D
+[*****] BUG: Isahn -> giant ant worker ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> Pixadale Cleric ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: Isahn -> giant ant worker ($n's cloud of darkness has greatly dispelled you!) &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/STAFFLIST for a. Called from db.c:5226 &D
+[*****] BUG: __FileOpen: can't open system/auth.dat.temporary for w. Called from new_auth.c:324 &D
+[*****] BUG: Cannot open auth.dat for writing. &D

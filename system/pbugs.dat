@@ -260,4 +260,15 @@ RewardBonus   0
 Room          7523
 End
 
+#BUG
+FoundBy       Isahn~
+FoundWhen     04-11-2022 11:31:03AM~
+BugDesc       There is no indication in the combat text for the enemy spell cast for blood burning. It doesn't show up until the first tick which can be long after a fight is over. 
+~
+Type          -1
+Reward        0
+RewardBonus   0
+Room          11543
+End
+
 #END

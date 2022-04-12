@@ -2,9 +2,7 @@
 Name          Forbidden City~
 Filename      forbidden.city~
 Bank          forbidden~
-Duke          Wigther~
-Baron         Vladero~
-Captain       Correne~
+Baron         Correne~
 Allegiance    Halcyon~
 Defense          316
 Offense          227
@@ -48,10 +46,10 @@ End
 #ROLLCALL
 Name      Correne~
 Joined    1647903953
-Updated    1649526258
+Updated    1649712961
 Class     gold~
-Level     15
-Kills     343
+Level     16
+Kills     364
 Deaths    5
 End
 

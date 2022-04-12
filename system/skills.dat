@@ -785,7 +785,7 @@ Mana         5
 Rounds       12
 Code         spell_detect_hidden
 Wearoff      You feel less aware of your surroundings.~
-Difficulty   1
+Difficulty   5
 Minlevel     4
 End
 
@@ -801,7 +801,7 @@ Mana         5
 Rounds       12
 Code         spell_detect_invis
 Wearoff      You no longer see invisible objects.~
-Difficulty   1
+Difficulty   5
 Minlevel     3
 End
 
@@ -1294,7 +1294,7 @@ Flags        0
 Minpos       108
 Rounds       14
 Code         spell_find_familiar
-Difficulty   1
+Difficulty   5
 Minlevel     2
 End
 
@@ -1934,7 +1934,7 @@ Mana         5
 Rounds       12
 Code         spell_invis
 Wearoff      You are no longer invisible.~
-Difficulty   2
+Difficulty   5
 Minlevel     1
 End
 

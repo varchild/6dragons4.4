@@ -48,9 +48,19 @@ Hardened         0
 End
 
 #ROLLCALL
+Name      Ibrahim~
+Joined    1648850092
+Updated    1649727208
+Class     angel~
+Level     21
+Kills     174
+Deaths    1
+End
+
+#ROLLCALL
 Name      Linnia~
 Joined    1648925582
-Updated    1649558829
+Updated    1649712986
 Class     beastmaster~
 Level     13
 Kills     337
@@ -60,27 +70,27 @@ End
 #ROLLCALL
 Name      Tasivil~
 Joined    1649011874
-Updated    1649526167
+Updated    1649712968
 Class     angel~
 Level     13
-Kills     47
+Kills     48
 Deaths    3
 End
 
 #ROLLCALL
 Name      Barivon~
 Joined    1649011874
-Updated    1649526246
+Updated    1649712996
 Class     mage~
 Level     12
-Kills     55
+Kills     56
 Deaths    2
 End
 
 #ROLLCALL
 Name      Mearra~
 Joined    1649011874
-Updated    1649527217
+Updated    1649712979
 Class     bard~
 Level     11
 Kills     8
@@ -90,21 +100,11 @@ End
 #ROLLCALL
 Name      Saridon~
 Joined    1649016606
-Updated    1649558829
+Updated    1649712974
 Class     warrior~
-Level     10
-Kills     24
-Deaths    2
-End
-
-#ROLLCALL
-Name      Ibrahim~
-Joined    1648850092
-Updated    1649118412
-Class     angel~
-Level     21
-Kills     174
-Deaths    1
+Level     11
+Kills     28
+Deaths    3
 End
 
 #END

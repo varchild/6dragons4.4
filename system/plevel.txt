@@ -1813,3 +1813,26 @@ Sat Apr  9 19:35:35 2022: Grachuus obtained level 3!&D
 Sat Apr  9 19:46:27 2022: Grachuus obtained level 4!&D
 Sat Apr  9 20:11:44 2022: Varchild started Happy Hour
 Sat Apr  9 20:29:39 2022: Grachuus obtained level 5! (HappyHour)&D
+Sat Apr  9 21:11:44 2022: System ended Happy Hour
+Sat Apr  9 21:42:33 2022: Grachuus obtained level 6!&D
+Sat Apr  9 21:50:07 2022: Isahn obtained level 46!&D
+Sun Apr 10 09:50:55 2022: Correne obtained level 16!&D
+Sun Apr 10 10:18:52 2022: Grachuus obtained level 7!&D
+Sun Apr 10 10:56:21 2022: Saridon obtained level 11!&D
+Sun Apr 10 11:17:50 2022: Grachuus obtained level 8!&D
+Sun Apr 10 18:08:50 2022: Grachuus obtained level 9!&D
+Sun Apr 10 18:15:33 2022: Varchild started Happy Hour
+Sun Apr 10 19:15:33 2022: System ended Happy Hour
+Sun Apr 10 19:17:51 2022: Varchild started Happy Hour
+Sun Apr 10 19:30:22 2022: Grachuus obtained level 10! (HappyHour)&D
+Sun Apr 10 20:17:51 2022: System ended Happy Hour
+Mon Apr 11 12:22:18 2022: Isahn obtained level 47!&D
+Mon Apr 11 17:37:21 2022: Virgil obtained level 3!&D
+Mon Apr 11 17:39:21 2022: Virgil obtained level 4!&D
+Mon Apr 11 17:40:33 2022: Virgil obtained level 5!&D
+Mon Apr 11 17:42:10 2022: Virgil obtained level 6!&D
+Mon Apr 11 17:53:19 2022: Virgil obtained level 7!&D
+Mon Apr 11 19:07:04 2022: Virgil obtained level 8!&D
+Mon Apr 11 20:48:33 2022: Virgil obtained level 9!&D
+Mon Apr 11 21:07:13 2022: Isahn obtained level 48!&D
+Mon Apr 11 22:10:42 2022: Varchild started Happy Hour

@@ -27087,3 +27087,479 @@ Sat Apr  9 20:26:34 2022 :: Varchild (10.0.0.1) has connected.
 Sat Apr  9 20:33:07 2022 :: Grachuus (5) killed by An orc guard at 2782
 Sat Apr  9 20:44:53 2022 :: Host: 159.203.67.128, Port: 34141.
 Sat Apr  9 20:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sat Apr  9 20:55:46 2022 :: Host: 23.31.96.97, Port: 39274.
+Sat Apr  9 21:06:35 2022 :: Saving help.are...
+Sat Apr  9 21:07:56 2022 :: EOF encountered on read from host 10.0.0.1.
+Sat Apr  9 21:07:56 2022 :: Closing link to Varchild.
+Sat Apr  9 21:07:56 2022 :: Closing link to Varchild. (link-dead) 
+Sat Apr  9 21:11:01 2022 :: Grachuus (5) bled to death at 18603
+Sat Apr  9 21:14:13 2022 :: Grachuus (5) killed by a brush viper at 29003
+Sat Apr  9 21:44:55 2022 :: Host: 159.203.67.128, Port: 38761.
+Sat Apr  9 21:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sat Apr  9 21:47:08 2022 :: Grachuus (6) killed by Maeakae at 27024
+Sat Apr  9 21:54:22 2022 :: Grachuus (6) killed by a gnome team leader at 18602
+Sat Apr  9 21:55:56 2022 :: Grachuus has quit the realms of 6 Dragons.
+Sat Apr  9 22:01:02 2022 :: Host: 104.156.100.167, Port: 48584.
+Sat Apr  9 22:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sat Apr  9 22:07:07 2022 :: Host: 23.31.96.97, Port: 17241.
+Sat Apr  9 22:08:39 2022 :: [*****] BUG: Isahn -> Pixadale Guard ($n's cloud of darkness has greatly dispelled you!)
+Sat Apr  9 22:44:53 2022 :: Host: 159.203.67.128, Port: 55821.
+Sat Apr  9 22:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sat Apr  9 23:18:56 2022 :: Host: 23.31.96.97, Port: 43720.
+Sat Apr  9 23:31:50 2022 :: Isahn has quit the realms of 6 Dragons.
+Sat Apr  9 23:44:54 2022 :: Host: 159.203.67.128, Port: 41863.
+Sat Apr  9 23:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 00:30:42 2022 :: Host: 23.31.96.97, Port: 49183.
+Sun Apr 10 00:44:54 2022 :: Host: 159.203.67.128, Port: 45093.
+Sun Apr 10 00:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 01:01:02 2022 :: Host: 104.156.100.167, Port: 48588.
+Sun Apr 10 01:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 01:42:32 2022 :: Host: 23.31.96.97, Port: 6583.
+Sun Apr 10 01:44:53 2022 :: Host: 159.203.67.128, Port: 40825.
+Sun Apr 10 01:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 02:44:53 2022 :: Host: 159.203.67.128, Port: 37143.
+Sun Apr 10 02:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 02:54:13 2022 :: Host: 23.31.96.97, Port: 7141.
+Sun Apr 10 03:44:53 2022 :: Host: 159.203.67.128, Port: 52705.
+Sun Apr 10 03:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 04:01:01 2022 :: Host: 104.156.100.167, Port: 48594.
+Sun Apr 10 04:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 04:05:57 2022 :: Host: 23.31.96.97, Port: 29874.
+Sun Apr 10 04:44:54 2022 :: Host: 159.203.67.128, Port: 55239.
+Sun Apr 10 04:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 05:17:46 2022 :: Host: 23.31.96.97, Port: 26786.
+Sun Apr 10 05:44:54 2022 :: Host: 159.203.67.128, Port: 53863.
+Sun Apr 10 05:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 06:12:24 2022 :: Host: 162.142.125.7, Port: 55796.
+Sun Apr 10 06:12:25 2022 :: Host: 162.142.125.7, Port: 41936.
+Read_from_descriptor: Connection reset by peer
+Sun Apr 10 06:12:25 2022 :: Host: 167.94.138.63, Port: 39948.
+Read_from_descriptor: Connection reset by peer
+Sun Apr 10 06:12:26 2022 :: Host: 167.94.138.63, Port: 45422.
+Read_from_descriptor: Connection reset by peer
+Sun Apr 10 06:12:26 2022 :: Host: 167.248.133.47, Port: 39226.
+Read_from_descriptor: Connection reset by peer
+Sun Apr 10 06:12:27 2022 :: Host: 167.248.133.47, Port: 48908.
+Read_from_descriptor: Connection reset by peer
+Read_from_descriptor: Connection reset by peer
+Sun Apr 10 06:29:32 2022 :: Host: 23.31.96.97, Port: 12027.
+Sun Apr 10 06:44:54 2022 :: Host: 159.203.67.128, Port: 40583.
+Sun Apr 10 06:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 07:01:01 2022 :: Host: 104.156.100.167, Port: 48598.
+Sun Apr 10 07:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 07:41:19 2022 :: Host: 23.31.96.97, Port: 61880.
+Sun Apr 10 07:44:54 2022 :: Host: 159.203.67.128, Port: 42565.
+Sun Apr 10 07:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 08:44:53 2022 :: Host: 159.203.67.128, Port: 54625.
+Sun Apr 10 08:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 08:53:16 2022 :: Host: 23.31.96.97, Port: 47030.
+Sun Apr 10 09:24:02 2022 :: Host: 23.31.96.97, Port: 56521.
+Sun Apr 10 09:24:21 2022 :: Host: 65.49.243.186, Port: 59739.
+Sun Apr 10 09:24:21 2022 :: Preloading player data for: Tasivil
+Sun Apr 10 09:24:21 2022 :: Loading player data for Tasivil (14K)
+Sun Apr 10 09:24:21 2022 :: Tasivil (65.49.243.186) has connected.
+Sun Apr 10 09:24:31 2022 :: EOF encountered on read from host 23.31.96.97.
+Sun Apr 10 09:25:00 2022 :: Host: 65.49.243.186, Port: 59744.
+Sun Apr 10 09:25:00 2022 :: Preloading player data for: Saridon
+Sun Apr 10 09:25:01 2022 :: Saridon@65.49.243.186 reconnected.
+Sun Apr 10 09:25:45 2022 :: Host: 65.49.243.186, Port: 59755.
+Sun Apr 10 09:25:46 2022 :: Preloading player data for: Mearra
+Sun Apr 10 09:25:46 2022 :: Loading player data for Mearra (5K)
+Sun Apr 10 09:25:46 2022 :: Mearra (65.49.243.186) has connected.
+Sun Apr 10 09:26:02 2022 :: Host: 65.49.243.186, Port: 59757.
+Sun Apr 10 09:26:02 2022 :: Preloading player data for: Linnia
+Sun Apr 10 09:26:03 2022 :: Linnia@65.49.243.186 reconnected.
+Sun Apr 10 09:26:22 2022 :: Host: 65.49.243.186, Port: 59758.
+Sun Apr 10 09:26:22 2022 :: Preloading player data for: Keilian
+Sun Apr 10 09:26:22 2022 :: Loading player data for Keilian (14K)
+Sun Apr 10 09:26:22 2022 :: Keilian (65.49.243.186) has connected.
+Sun Apr 10 09:26:37 2022 :: Host: 65.49.243.186, Port: 59759.
+Sun Apr 10 09:26:37 2022 :: Preloading player data for: Correne
+Sun Apr 10 09:26:38 2022 :: Loading player data for Correne (12K)
+Sun Apr 10 09:26:38 2022 :: Correne (65.49.243.186) has connected.
+Sun Apr 10 09:26:57 2022 :: Host: 65.49.243.186, Port: 59762.
+Sun Apr 10 09:26:57 2022 :: Preloading player data for: Barivon
+Sun Apr 10 09:26:57 2022 :: Loading player data for Barivon (4K)
+Sun Apr 10 09:26:57 2022 :: Barivon (65.49.243.186) has connected.
+Sun Apr 10 09:44:54 2022 :: Host: 159.203.67.128, Port: 45017.
+Sun Apr 10 09:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 09:51:27 2022 :: Host: 68.228.224.116, Port: 56493.
+Sun Apr 10 09:51:32 2022 :: Preloading player data for: Grachuus
+Sun Apr 10 09:51:32 2022 :: Loading player data for Grachuus (7K)
+Sun Apr 10 09:51:32 2022 :: Grachuus (68.228.224.116) has connected.
+Sun Apr 10 10:01:02 2022 :: Host: 104.156.100.167, Port: 48604.
+Sun Apr 10 10:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 10:05:22 2022 :: Host: 23.31.96.97, Port: 64489.
+Sun Apr 10 10:25:16 2022 :: Saridon (10) killed by a giant crab at 10010
+Sun Apr 10 10:31:44 2022 :: Grachuus (7) killed by a gnome team leader at 18613
+Sun Apr 10 10:44:54 2022 :: Host: 159.203.67.128, Port: 39003.
+Sun Apr 10 10:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 11:17:26 2022 :: Host: 23.31.96.97, Port: 51966.
+Sun Apr 10 11:25:30 2022 :: Grachuus has quit the realms of 6 Dragons.
+Sun Apr 10 11:44:55 2022 :: Host: 159.203.67.128, Port: 58417.
+Sun Apr 10 11:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 12:28:55 2022 :: Host: 23.31.96.97, Port: 20225.
+Sun Apr 10 12:40:07 2022 :: EOF encountered on read from host 65.49.243.186.
+Sun Apr 10 12:40:07 2022 :: Closing link to Saridon.
+Sun Apr 10 12:40:07 2022 :: Closing link to Saridon. (link-dead) 
+Sun Apr 10 12:40:15 2022 :: Host: 65.49.243.186, Port: 61147.
+Sun Apr 10 12:40:16 2022 :: Preloading player data for: Saridon
+Sun Apr 10 12:40:16 2022 :: Saridon@65.49.243.186 reconnected.
+Sun Apr 10 12:40:57 2022 :: Saridon has quit the realms of 6 Dragons.
+Sun Apr 10 12:41:10 2022 :: Tasivil has quit the realms of 6 Dragons.
+Sun Apr 10 12:41:22 2022 :: Mearra has quit the realms of 6 Dragons.
+Sun Apr 10 12:41:30 2022 :: Linnia has quit the realms of 6 Dragons.
+Sun Apr 10 12:41:43 2022 :: Keilian has quit the realms of 6 Dragons.
+Sun Apr 10 12:41:51 2022 :: Barivon has quit the realms of 6 Dragons.
+Sun Apr 10 12:42:02 2022 :: Correne has quit the realms of 6 Dragons.
+Sun Apr 10 12:44:54 2022 :: Host: 159.203.67.128, Port: 58715.
+Sun Apr 10 12:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 13:01:01 2022 :: Host: 104.156.100.167, Port: 48608.
+Sun Apr 10 13:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 13:40:33 2022 :: Host: 23.31.96.97, Port: 25097.
+Sun Apr 10 13:44:54 2022 :: Host: 159.203.67.128, Port: 47251.
+Sun Apr 10 13:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 14:44:54 2022 :: Host: 159.203.67.128, Port: 53593.
+Sun Apr 10 14:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 14:52:08 2022 :: Host: 23.31.96.97, Port: 5387.
+Sun Apr 10 15:31:37 2022 :: Host: 172.58.60.243, Port: 30324.
+Sun Apr 10 15:31:41 2022 :: Preloading player data for: Varchild
+Sun Apr 10 15:31:43 2022 :: Varchild@172.58.60.243 reconnected.
+Sun Apr 10 15:44:54 2022 :: Host: 159.203.67.128, Port: 51787.
+Sun Apr 10 15:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 16:01:02 2022 :: Host: 104.156.100.167, Port: 48612.
+Sun Apr 10 16:01:32 2022 :: EOF encountered on read from host 104.156.100.167.
+Sun Apr 10 16:03:51 2022 :: Host: 23.31.96.97, Port: 28051.
+Sun Apr 10 16:38:00 2022 :: EOF encountered on read from host 172.58.60.243.
+Sun Apr 10 16:38:00 2022 :: Closing link to Varchild.
+Sun Apr 10 16:38:00 2022 :: Closing link to Varchild. (link-dead) 
+Sun Apr 10 16:44:54 2022 :: Host: 159.203.67.128, Port: 45359.
+Sun Apr 10 16:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 17:15:28 2022 :: Host: 23.31.96.97, Port: 16579.
+Sun Apr 10 17:27:32 2022 :: Host: 68.228.224.116, Port: 52948.
+Sun Apr 10 17:27:37 2022 :: Preloading player data for: Grachuus
+Sun Apr 10 17:27:37 2022 :: Loading player data for Grachuus (10K)
+Sun Apr 10 17:27:37 2022 :: Grachuus (68.228.224.116) has connected.
+Sun Apr 10 17:44:54 2022 :: Host: 159.203.67.128, Port: 53513.
+Sun Apr 10 17:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 17:56:50 2022 :: Host: 10.0.0.1, Port: 56814.
+Sun Apr 10 17:56:53 2022 :: Preloading player data for: Varchild
+Sun Apr 10 17:56:54 2022 :: Varchild@10.0.0.1 reconnected.
+Sun Apr 10 18:09:28 2022 :: Grachuus (9) killed by a scare crow at 4028
+Sun Apr 10 18:15:37 2022 :: Log Varchild: restore Grac
+Sun Apr 10 18:21:13 2022 :: Saving help.are...
+Sun Apr 10 18:22:30 2022 :: EOF encountered on read from host 10.0.0.1.
+Sun Apr 10 18:22:30 2022 :: Closing link to Varchild.
+Sun Apr 10 18:22:30 2022 :: Closing link to Varchild. (link-dead) 
+Sun Apr 10 18:22:54 2022 :: Host: 10.0.0.1, Port: 57001.
+Sun Apr 10 18:22:58 2022 :: Preloading player data for: Varchild
+Sun Apr 10 18:23:00 2022 :: Varchild@10.0.0.1 reconnected.
+Sun Apr 10 18:26:57 2022 :: Host: 23.31.96.97, Port: 20880.
+Sun Apr 10 18:44:54 2022 :: Host: 159.203.67.128, Port: 42559.
+Sun Apr 10 18:45:12 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 18:56:46 2022 :: Grachuus has quit the realms of 6 Dragons.
+Sun Apr 10 19:00:34 2022 :: Host: 68.228.224.116, Port: 53476.
+Sun Apr 10 19:00:40 2022 :: Preloading player data for: Grachuus
+Sun Apr 10 19:00:40 2022 :: Loading player data for Grachuus (17K)
+Sun Apr 10 19:00:40 2022 :: Grachuus (68.228.224.116) has connected.
+Sun Apr 10 19:06:37 2022 :: Log Varchild: auth Grachuus
+Sun Apr 10 19:38:31 2022 :: Host: 23.31.96.97, Port: 53971.
+Sun Apr 10 19:44:55 2022 :: Host: 159.203.67.128, Port: 40605.
+Sun Apr 10 19:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 19:50:37 2022 :: Grachuus has quit the realms of 6 Dragons.
+Sun Apr 10 20:01:47 2022 :: Saving help.are...
+Sun Apr 10 20:01:50 2022 :: Varchild has quit the realms of 6 Dragons.
+Sun Apr 10 20:32:27 2022 :: Host: 68.228.224.116, Port: 53141.
+Sun Apr 10 20:32:32 2022 :: Preloading player data for: Grachuus
+Sun Apr 10 20:32:32 2022 :: Loading player data for Grachuus (21K)
+Sun Apr 10 20:32:32 2022 :: Grachuus (68.228.224.116) has connected.
+Sun Apr 10 20:44:56 2022 :: Host: 159.203.67.128, Port: 42195.
+Sun Apr 10 20:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 20:50:03 2022 :: Host: 23.31.96.97, Port: 63832.
+Sun Apr 10 21:10:10 2022 :: Grachuus has quit the realms of 6 Dragons.
+Sun Apr 10 21:33:22 2022 :: Host: 10.0.0.1, Port: 32219.
+Sun Apr 10 21:33:27 2022 :: Preloading player data for: Varchild
+Sun Apr 10 21:33:30 2022 :: Loading player data for Varchild (30K)
+Sun Apr 10 21:33:30 2022 :: Varchild (10.0.0.1) has connected.
+Sun Apr 10 21:33:40 2022 :: Log Varchild: log
+Sun Apr 10 21:39:54 2022 :: Log Varchild: auth
+Sun Apr 10 21:39:59 2022 :: Saving help.are...
+Sun Apr 10 21:44:54 2022 :: Host: 159.203.67.128, Port: 37191.
+Sun Apr 10 21:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 21:51:43 2022 :: Log Varchild: log
+Sun Apr 10 21:51:48 2022 :: Log Varchild: log Varchild
+Sun Apr 10 22:01:38 2022 :: Host: 23.31.96.97, Port: 5608.
+Sun Apr 10 22:21:21 2022 :: Saving help.are...
+Sun Apr 10 22:27:03 2022 :: Varchild has quit the realms of 6 Dragons.
+Sun Apr 10 22:44:54 2022 :: Host: 159.203.67.128, Port: 48673.
+Sun Apr 10 22:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Sun Apr 10 23:13:20 2022 :: Host: 23.31.96.97, Port: 14583.
+Sun Apr 10 23:44:55 2022 :: Host: 159.203.67.128, Port: 47675.
+Sun Apr 10 23:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 00:24:52 2022 :: Host: 23.31.96.97, Port: 31183.
+Mon Apr 11 00:44:54 2022 :: Host: 159.203.67.128, Port: 32951.
+Mon Apr 11 00:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 01:36:28 2022 :: Host: 23.31.96.97, Port: 5851.
+Mon Apr 11 01:37:53 2022 :: Host: 45.135.232.161, Port: 64468.
+Read_from_descriptor: Connection reset by peer
+Mon Apr 11 01:44:55 2022 :: Host: 159.203.67.128, Port: 60667.
+Mon Apr 11 01:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 02:44:54 2022 :: Host: 159.203.67.128, Port: 42197.
+Mon Apr 11 02:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 02:48:05 2022 :: Host: 23.31.96.97, Port: 61552.
+Mon Apr 11 03:44:56 2022 :: Host: 159.203.67.128, Port: 47003.
+Mon Apr 11 03:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 03:59:25 2022 :: Host: 23.31.96.97, Port: 23335.
+Mon Apr 11 03:59:35 2022 :: Host: 23.31.96.97, Port: 5519.
+Mon Apr 11 03:59:54 2022 :: EOF encountered on read from host 23.31.96.97.
+Mon Apr 11 04:44:55 2022 :: Host: 159.203.67.128, Port: 53067.
+Mon Apr 11 04:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 05:08:17 2022 :: Host: 31.173.240.171, Port: 7791.
+Mon Apr 11 05:08:25 2022 :: Preloading player data for: Tokihasha
+Mon Apr 11 05:08:28 2022 :: Loading player data for Tokihasha (6K)
+Mon Apr 11 05:08:28 2022 :: Tokihasha (31.173.240.171) has connected.
+Mon Apr 11 05:11:08 2022 :: Host: 23.31.96.97, Port: 15318.
+Mon Apr 11 05:13:28 2022 :: Tokihasha has quit the realms of 6 Dragons.
+Mon Apr 11 05:44:55 2022 :: Host: 159.203.67.128, Port: 41719.
+Mon Apr 11 05:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 06:22:31 2022 :: Host: 23.31.96.97, Port: 10809.
+Mon Apr 11 06:25:15 2022 :: Host: 92.255.85.26, Port: 62024.
+Read_from_descriptor: Connection reset by peer
+Mon Apr 11 06:44:56 2022 :: Host: 159.203.67.128, Port: 53561.
+Mon Apr 11 06:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 07:34:03 2022 :: Host: 23.31.96.97, Port: 7954.
+Mon Apr 11 07:44:55 2022 :: Host: 159.203.67.128, Port: 51023.
+Mon Apr 11 07:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 08:16:44 2022 :: Host: 73.188.72.140, Port: 64112.
+Mon Apr 11 08:17:32 2022 :: Roland@73.188.72.140 new Human Mage.
+Mon Apr 11 08:19:39 2022 :: Roland has quit the realms of 6 Dragons.
+Mon Apr 11 08:44:54 2022 :: Host: 159.203.67.128, Port: 34411.
+Mon Apr 11 08:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 08:45:40 2022 :: Host: 23.31.96.97, Port: 56068.
+Mon Apr 11 09:32:32 2022 :: Host: 65.49.243.186, Port: 52947.
+Mon Apr 11 09:32:33 2022 :: Preloading player data for: Correne
+Mon Apr 11 09:32:33 2022 :: Loading player data for Correne (12K)
+Mon Apr 11 09:32:33 2022 :: Correne (65.49.243.186) has connected.
+Mon Apr 11 09:33:26 2022 :: Host: 65.49.243.186, Port: 52958.
+Mon Apr 11 09:33:26 2022 :: Preloading player data for: Tasivil
+Mon Apr 11 09:33:26 2022 :: Loading player data for Tasivil (16K)
+Mon Apr 11 09:33:26 2022 :: Tasivil (65.49.243.186) has connected.
+Mon Apr 11 09:33:39 2022 :: Host: 65.49.243.186, Port: 52959.
+Mon Apr 11 09:33:39 2022 :: Preloading player data for: Saridon
+Mon Apr 11 09:33:39 2022 :: Loading player data for Saridon (116K)
+Mon Apr 11 09:33:39 2022 :: Saridon (65.49.243.186) has connected.
+Mon Apr 11 09:33:55 2022 :: Host: 65.49.243.186, Port: 52960.
+Mon Apr 11 09:33:55 2022 :: Preloading player data for: Mearra
+Mon Apr 11 09:33:55 2022 :: Loading player data for Mearra (6K)
+Mon Apr 11 09:33:55 2022 :: Mearra (65.49.243.186) has connected.
+Mon Apr 11 09:34:08 2022 :: Host: 65.49.243.186, Port: 52963.
+Mon Apr 11 09:34:09 2022 :: Preloading player data for: Linnia
+Mon Apr 11 09:34:09 2022 :: Loading player data for Linnia (16K)
+Mon Apr 11 09:34:09 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 09:34:25 2022 :: Host: 65.49.243.186, Port: 52964.
+Mon Apr 11 09:34:25 2022 :: Preloading player data for: Keilian
+Mon Apr 11 09:34:25 2022 :: Loading player data for Keilian (14K)
+Mon Apr 11 09:34:25 2022 :: Keilian (65.49.243.186) has connected.
+Mon Apr 11 09:34:36 2022 :: Host: 65.49.243.186, Port: 52967.
+Mon Apr 11 09:34:37 2022 :: Preloading player data for: Barivon
+Mon Apr 11 09:34:37 2022 :: Loading player data for Barivon (6K)
+Mon Apr 11 09:34:37 2022 :: Barivon (65.49.243.186) has connected.
+Mon Apr 11 09:44:56 2022 :: Host: 159.203.67.128, Port: 54415.
+Mon Apr 11 09:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 09:57:25 2022 :: Host: 23.31.96.97, Port: 47854.
+Mon Apr 11 10:24:40 2022 :: Linnia has quit the realms of 6 Dragons.
+Mon Apr 11 10:24:41 2022 :: Host: 65.49.243.186, Port: 53297.
+Mon Apr 11 10:24:41 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:24:41 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:24:41 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 10:27:43 2022 :: Closing link to Linnia.
+Mon Apr 11 10:27:43 2022 :: Host: 65.49.243.186, Port: 53317.
+Mon Apr 11 10:27:43 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:27:43 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:27:43 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 10:30:45 2022 :: Closing link to Linnia.
+Mon Apr 11 10:30:45 2022 :: Host: 65.49.243.186, Port: 53331.
+Mon Apr 11 10:30:45 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:30:46 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:30:46 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 10:33:47 2022 :: Closing link to Linnia.
+Mon Apr 11 10:33:47 2022 :: Host: 65.49.243.186, Port: 53347.
+Mon Apr 11 10:33:48 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:33:48 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:33:48 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 10:44:56 2022 :: Host: 159.203.67.128, Port: 42003.
+Mon Apr 11 10:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 10:51:52 2022 :: Linnia has quit the realms of 6 Dragons.
+Mon Apr 11 10:51:53 2022 :: Host: 65.49.243.186, Port: 53462.
+Mon Apr 11 10:51:53 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:51:53 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:51:53 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 10:54:55 2022 :: Closing link to Linnia.
+Mon Apr 11 10:54:55 2022 :: Host: 65.49.243.186, Port: 53479.
+Mon Apr 11 10:54:55 2022 :: Preloading player data for: Linnia
+Mon Apr 11 10:54:56 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 10:54:56 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 11:09:04 2022 :: Host: 23.31.96.97, Port: 4563.
+Mon Apr 11 11:12:39 2022 :: Host: 104.220.198.48, Port: 56638.
+Mon Apr 11 11:12:53 2022 :: Preloading player data for: Isahn
+Mon Apr 11 11:12:53 2022 :: Loading player data for Isahn (17K)
+Mon Apr 11 11:12:53 2022 :: Isahn (104.220.198.48) has connected.
+Mon Apr 11 11:31:29 2022 :: Isahn has reported a bug.
+Mon Apr 11 11:42:38 2022 :: Linnia has quit the realms of 6 Dragons.
+Mon Apr 11 11:42:38 2022 :: Host: 65.49.243.186, Port: 53752.
+Mon Apr 11 11:42:38 2022 :: Preloading player data for: Linnia
+Mon Apr 11 11:42:39 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 11:42:39 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 11:44:55 2022 :: Host: 159.203.67.128, Port: 38007.
+Mon Apr 11 11:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 12:05:21 2022 :: [*****] BUG: Isahn -> tainted wolf ($n's cloud of darkness has greatly dispelled you!)
+Mon Apr 11 12:12:29 2022 :: [*****] BUG: __FileOpen: can't open player/w/Wigther for r. Called from player.c:3900
+player/w/Wigther: No such file or directory
+Mon Apr 11 12:20:31 2022 :: Host: 23.31.96.97, Port: 8766.
+Mon Apr 11 12:26:36 2022 :: Linnia has quit the realms of 6 Dragons.
+Mon Apr 11 12:26:37 2022 :: Host: 65.49.243.186, Port: 54061.
+Mon Apr 11 12:26:37 2022 :: Preloading player data for: Linnia
+Mon Apr 11 12:26:37 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 12:26:37 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 12:29:39 2022 :: Closing link to Linnia.
+Mon Apr 11 12:29:39 2022 :: Host: 65.49.243.186, Port: 54084.
+Mon Apr 11 12:29:39 2022 :: Preloading player data for: Linnia
+Mon Apr 11 12:29:39 2022 :: Loading player data for Linnia (17K)
+Mon Apr 11 12:29:39 2022 :: Linnia (65.49.243.186) has connected.
+Mon Apr 11 12:30:50 2022 :: [*****] BUG: Isahn -> giant ant worker ($n's cloud of darkness has greatly dispelled you!)
+Mon Apr 11 12:44:55 2022 :: Host: 159.203.67.128, Port: 35373.
+Mon Apr 11 12:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 13:01:38 2022 :: EOF encountered on read from host 65.49.243.186.
+Mon Apr 11 13:01:38 2022 :: Closing link to Mearra.
+Mon Apr 11 13:01:38 2022 :: Closing link to Mearra. (link-dead) 
+Mon Apr 11 13:01:41 2022 :: Host: 65.49.243.186, Port: 54334.
+Mon Apr 11 13:01:41 2022 :: Preloading player data for: Mearra
+Mon Apr 11 13:01:41 2022 :: Mearra@65.49.243.186 reconnected.
+Mon Apr 11 13:32:04 2022 :: Host: 23.31.96.97, Port: 57203.
+Mon Apr 11 13:44:55 2022 :: Host: 159.203.67.128, Port: 38883.
+Mon Apr 11 13:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 13:55:50 2022 :: Isahn has quit the realms of 6 Dragons.
+Mon Apr 11 14:14:26 2022 :: Host: 104.220.198.48, Port: 56865.
+Mon Apr 11 14:14:29 2022 :: Preloading player data for: Isahn
+Mon Apr 11 14:14:30 2022 :: Loading player data for Isahn (19K)
+Mon Apr 11 14:14:30 2022 :: Isahn (104.220.198.48) has connected.
+Mon Apr 11 14:43:25 2022 :: Host: 23.31.96.97, Port: 20829.
+Mon Apr 11 14:44:56 2022 :: Host: 159.203.67.128, Port: 52883.
+Mon Apr 11 14:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 15:36:01 2022 :: Correne has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Tasivil has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Saridon has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Keilian has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Barivon has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Mearra has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:01 2022 :: Host: 65.49.243.186, Port: 55700.
+Mon Apr 11 15:36:02 2022 :: Host: 65.49.243.186, Port: 55699.
+Mon Apr 11 15:36:02 2022 :: Preloading player data for: Saridon
+Mon Apr 11 15:36:02 2022 :: Host: 65.49.243.186, Port: 55702.
+Mon Apr 11 15:36:02 2022 :: Loading player data for Saridon (14K)
+Mon Apr 11 15:36:02 2022 :: Saridon (65.49.243.186) has connected.
+Mon Apr 11 15:36:02 2022 :: Preloading player data for: Keilian
+Mon Apr 11 15:36:02 2022 :: Host: 65.49.243.186, Port: 55698.
+Mon Apr 11 15:36:02 2022 :: Loading player data for Keilian (14K)
+Mon Apr 11 15:36:02 2022 :: Keilian (65.49.243.186) has connected.
+Mon Apr 11 15:36:02 2022 :: Preloading player data for: Barivon
+Mon Apr 11 15:36:02 2022 :: Host: 65.49.243.186, Port: 55703.
+Mon Apr 11 15:36:02 2022 :: Loading player data for Barivon (17K)
+Mon Apr 11 15:36:02 2022 :: Barivon (65.49.243.186) has connected.
+Mon Apr 11 15:36:02 2022 :: Preloading player data for: Tasivil
+Mon Apr 11 15:36:03 2022 :: Host: 65.49.243.186, Port: 55701.
+Mon Apr 11 15:36:03 2022 :: Loading player data for Tasivil (15K)
+Mon Apr 11 15:36:03 2022 :: Tasivil (65.49.243.186) has connected.
+Mon Apr 11 15:36:03 2022 :: Preloading player data for: Correne
+Mon Apr 11 15:36:03 2022 :: Loading player data for Correne (12K)
+Mon Apr 11 15:36:03 2022 :: Correne (65.49.243.186) has connected.
+Mon Apr 11 15:36:03 2022 :: Preloading player data for: Mearra
+Mon Apr 11 15:36:03 2022 :: Loading player data for Mearra (5K)
+Mon Apr 11 15:36:03 2022 :: Mearra (65.49.243.186) has connected.
+Mon Apr 11 15:36:04 2022 :: EOF encountered on read from host 65.49.243.186.
+Mon Apr 11 15:36:04 2022 :: Closing link to Correne.
+Mon Apr 11 15:36:08 2022 :: Tasivil has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:14 2022 :: Saridon has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:19 2022 :: Mearra has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:26 2022 :: Linnia has quit the realms of 6 Dragons.
+Mon Apr 11 15:36:32 2022 :: EOF encountered on read from host 65.49.243.186.
+Mon Apr 11 15:36:32 2022 :: Closing link to Keilian.
+Mon Apr 11 15:36:32 2022 :: Closing link to Keilian. (link-dead) 
+Mon Apr 11 15:36:36 2022 :: Barivon has quit the realms of 6 Dragons.
+Mon Apr 11 15:44:55 2022 :: Host: 159.203.67.128, Port: 48507.
+Mon Apr 11 15:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 15:54:58 2022 :: Host: 23.31.96.97, Port: 49352.
+Mon Apr 11 16:05:50 2022 :: Host: 188.47.68.170, Port: 56732.
+Mon Apr 11 16:05:57 2022 :: EOF encountered on read from host 188.47.68.170.
+Mon Apr 11 16:40:05 2022 :: Host: 99.145.177.19, Port: 58784.
+Mon Apr 11 16:42:57 2022 :: Host: 99.145.177.19, Port: 58808.
+Mon Apr 11 16:44:55 2022 :: Host: 159.203.67.128, Port: 34697.
+Mon Apr 11 16:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 17:00:19 2022 :: Host: 174.61.145.32, Port: 56920.
+Mon Apr 11 17:01:56 2022 :: Host: 174.61.145.32, Port: 56924.
+Mon Apr 11 17:02:47 2022 :: EOF encountered on read from host 174.61.145.32.
+Mon Apr 11 17:03:07 2022 :: Host: 174.61.145.32, Port: 56929.
+Mon Apr 11 17:04:48 2022 :: Host: 174.61.145.32, Port: 56951.
+Mon Apr 11 17:05:13 2022 :: Host: 99.145.177.19, Port: 59096.
+Mon Apr 11 17:06:29 2022 :: Host: 23.31.96.97, Port: 49460.
+Mon Apr 11 17:06:38 2022 :: Virgil@174.61.145.32 new Vampire Vampire.
+Mon Apr 11 17:08:29 2022 :: Beatrice@99.145.177.19 new Human Crusader.
+Mon Apr 11 17:20:26 2022 :: Beatrice has quit the realms of 6 Dragons.
+Mon Apr 11 17:30:47 2022 :: Host: 24.64.100.27, Port: 62917.
+Mon Apr 11 17:32:02 2022 :: Ysbel@24.64.100.27 new Human Crusader.
+Mon Apr 11 17:32:54 2022 :: Ysbel has quit the realms of 6 Dragons.
+Mon Apr 11 17:44:23 2022 :: [*****] BUG: Isahn -> Pixadale Cleric ($n's cloud of darkness has greatly dispelled you!)
+Mon Apr 11 17:44:56 2022 :: Host: 159.203.67.128, Port: 40125.
+Mon Apr 11 17:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 18:17:41 2022 :: Host: 23.31.96.97, Port: 5350.
+Mon Apr 11 18:25:43 2022 :: Isahn has quit the realms of 6 Dragons.
+Mon Apr 11 18:44:55 2022 :: Host: 159.203.67.128, Port: 59157.
+Mon Apr 11 18:45:14 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 18:48:36 2022 :: Host: 104.165.250.180, Port: 58204.
+Mon Apr 11 18:50:58 2022 :: Ioanna@104.165.250.180 new Vampire Vampire.
+Mon Apr 11 18:59:47 2022 :: Ioanna has quit the realms of 6 Dragons.
+Mon Apr 11 19:07:49 2022 :: Virgil (8) killed by Orc Guard Vasaf at 28007
+Mon Apr 11 19:29:09 2022 :: Host: 23.31.96.97, Port: 38973.
+Mon Apr 11 19:32:48 2022 :: Host: 98.121.26.160, Port: 53403.
+Mon Apr 11 19:32:51 2022 :: Preloading player data for: Ibrahim
+Mon Apr 11 19:32:52 2022 :: Loading player data for Ibrahim (16K)
+Mon Apr 11 19:32:52 2022 :: Ibrahim (98.121.26.160) has connected.
+Mon Apr 11 19:33:28 2022 :: Ibrahim has quit the realms of 6 Dragons.
+Mon Apr 11 19:36:58 2022 :: Host: 151.192.133.111, Port: 60838.
+Mon Apr 11 19:44:55 2022 :: Host: 159.203.67.128, Port: 51879.
+Mon Apr 11 19:45:13 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 19:47:20 2022 :: Simone@151.192.133.111 new Shade Mage/Shadowknight.
+Mon Apr 11 19:58:30 2022 :: Simone has quit the realms of 6 Dragons.
+Mon Apr 11 20:21:34 2022 :: Host: 104.220.198.48, Port: 57183.
+Mon Apr 11 20:21:36 2022 :: Preloading player data for: Isahn
+Mon Apr 11 20:21:36 2022 :: Loading player data for Isahn (18K)
+Mon Apr 11 20:21:36 2022 :: Isahn (104.220.198.48) has connected.
+Mon Apr 11 20:24:47 2022 :: Virgil (8) bled to death at 27023
+Mon Apr 11 20:40:35 2022 :: Host: 23.31.96.97, Port: 43856.
+Mon Apr 11 20:44:56 2022 :: Host: 159.203.67.128, Port: 47263.
+Mon Apr 11 20:45:14 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 21:17:09 2022 :: Virgil has quit the realms of 6 Dragons.
+Mon Apr 11 21:44:35 2022 :: [*****] BUG: Isahn -> giant ant worker ($n's cloud of darkness has greatly dispelled you!)
+Mon Apr 11 21:44:56 2022 :: Host: 159.203.67.128, Port: 48157.
+Mon Apr 11 21:45:14 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 21:52:03 2022 :: Host: 23.31.96.97, Port: 29266.
+Mon Apr 11 21:52:04 2022 :: Isahn has quit the realms of 6 Dragons.
+Mon Apr 11 22:03:11 2022 :: Host: 174.61.145.32, Port: 58364.
+Mon Apr 11 22:03:26 2022 :: Preloading player data for: Virgil
+Mon Apr 11 22:03:29 2022 :: Loading player data for Virgil (5K)
+Mon Apr 11 22:03:29 2022 :: Virgil (174.61.145.32) has connected.
+Mon Apr 11 22:08:03 2022 :: Host: 10.0.0.1, Port: 45555.
+Mon Apr 11 22:08:07 2022 :: Preloading player data for: Varchild
+Mon Apr 11 22:08:11 2022 :: Loading player data for Varchild (30K)
+Mon Apr 11 22:08:11 2022 :: Varchild (10.0.0.1) has connected.
+Mon Apr 11 22:08:30 2022 :: Log Varchild: auth
+Mon Apr 11 22:08:36 2022 :: Log Varchild: auth Virgirl
+Mon Apr 11 22:08:40 2022 :: Log Varchild: auth Virgi
+Mon Apr 11 22:08:48 2022 :: Log Varchild: auth Virgil
+Mon Apr 11 22:40:01 2022 :: Saving help.are...
+Mon Apr 11 22:40:12 2022 :: Varchild has quit the realms of 6 Dragons.
+Mon Apr 11 22:42:38 2022 :: Host: 23.31.96.97, Port: 11488.
+Mon Apr 11 22:43:07 2022 :: EOF encountered on read from host 23.31.96.97.
+Mon Apr 11 22:44:55 2022 :: Host: 159.203.67.128, Port: 48049.
+Mon Apr 11 22:45:14 2022 :: EOF encountered on read from host 159.203.67.128.
+Mon Apr 11 23:03:29 2022 :: Host: 23.31.96.97, Port: 15772.
