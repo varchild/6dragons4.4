@@ -1,0 +1,739 @@
+#PLAYER
+Version      6
+Name         Ibrahim~
+Description  Curly, sandy brown hair pours from his scalp in soft, shiny waves and 
+frames his oval shaped face. Two almond-shaped, honey brown eyes rest 
+beneath two manicured eyebrows that match the hair atop his head in color. 
+Beneath his button nose, two full lips occasionally part to reveal a set 
+of straight, white teeth. Long, supple limbs are paired with a certain 
+grace in his movements and terminate in neatly trimmed nails painted 
+ochre. His rich, mahogany-colored skin stretches tautly against his five 
+foot six inch form, adding a certain youthfulness to his appearance. 
+~
+Sex          1
+Class        14
+Secondclass  -1
+Thirdclass   -1
+Race         14
+Age          0 13 5 975
+Languages    1 1
+Level        21
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       90250
+Room         42178
+HpManaMove   1864 1762 648 648 1487 1487
+BaseHp       0 
+Blood        10 32
+Money         0 10 384 3 3 -1
+Exp           408157
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        67
+Weight        225
+Act           570426952&4112
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      91
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         78
+Resistant     2
+Mentalstate   0
+Password      8c859d9c5163e7be14f064024616bfa51dfec16d9feafb4c01a33de952807edb~
+Title         , Lightsworn of Paleon City.~
+LAIR          54098
+Lastip         98.121.26.160~
+RECAST          0
+Tradelevel          10
+Tradeclass          20
+Craftpoints          4280
+Failsafe     13
+Account         ibrahim~
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    257
+LDExpUpdate  1649727172
+tmpsecond -1
+tmpthird -1
+Alias        pmi~ cast identify~
+Textspeed          5
+PotionTimer        1648776221 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Paleon Sewer~
+FoundArea       Miden'nir~
+FoundArea       Wilderness~
+FoundArea       Loramoor City of the Trees~
+FoundArea       Dragon Knight's Raid~
+FoundArea       Under Sewer~
+FoundArea       Bowels of the Citadel~
+Htown      Paleon City~
+City      Paleon City~
+Flags        2
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       174
+MDeaths      1
+IllegalPK    0
+AttrPerm     20 15 20 14 18 12 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 155 0 31
+Site         98.121.26.160
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       95 0 'create food' 0 0
+NNSpell       80 0 'create water' 0 0
+NNSpell       75 0 'identify' 0 0
+NNSkill       95 0 'aid' 0 0
+NNSkill       95 0 'angelfire' 0 0
+NNSkill       95 0 'behead' 0 0
+NNSkill       80 0 'climb' 0 0
+NNSkill       95 0 'combo' 0 0
+NNSkill       90 0 'confidence' 0 0
+NNSkill       95 0 'cook' 0 0
+NNSkill       95 0 'dodge' 0 0
+NNSkill       95 0 'dual wield' 0 0
+NNSkill       95 0 'dye' 0 0
+NNSkill       95 0 'ethereal body' 0 0
+NNSkill       95 0 'fade' 0 0
+NNSkill       95 0 'fly home' 0 0
+NNSkill       72 0 'forge' 0 0
+NNSkill       95 0 'judge' 0 0
+NNSkill       95 0 'kick' 0 0
+NNSkill       95 0 'meditate' 0 0
+NNSkill       95 0 'mine' 0 0
+NNSkill       95 0 'minor restore' 0 0
+NNSkill       90 0 'mount' 0 0
+NNSkill       95 0 'parry' 0 0
+NNSkill       90 0 'punch' 0 0
+NNSkill       95 0 'scan' 0 0
+NNSkill       95 0 'second attack' 0 0
+NNSkill       95 0 'sharpen' 0 0
+NNSkill       95 0 'slice' 0 0
+NNSkill       95 0 'swim' 0 0
+NNSkill       95 0 'telepathy' 0 0
+NNSkill       95 0 'tend' 0 0
+NNSkill       95 0 'third attack' 0 0
+NNSkill       95 0 'truesight' 0 0
+NNSkill       95 0 'wings' 0 0
+NNWeapon      95 0 '1h long blades' 0 0
+NNWeapon      95 0 '1h short blades' 0 0
+NNWeapon      95 0 'pugilism' 0 0
+NNWeapon      95 0 'spears' 0 0
+NNWeapon      95 0 'whips' 0 0
+NNTongue      95 0 'celestial' 0 0
+NNTongue      95 0 'centaurian' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'demonic' 0 0
+NNTongue      95 0 'draconic' 0 0
+NNTongue      95 0 'dwarven' 0 0
+NNTongue      95 0 'elven' 0 0
+NNTongue      95 0 'gnomish' 0 0
+NNTongue      95 0 'goblic' 0 0
+NNTongue      95 0 'hobbit' 0 0
+NNTongue      95 0 'infernal' 0 0
+NNTongue      95 0 'ogrian' 0 0
+NNTongue      95 0 'orcish' 0 0
+NNTongue      95 0 'pixish' 0 0
+NNTongue      95 0 'silent' 0 0
+NNTongue      95 0 'trollese' 0 0
+Killed       5304
+Killed       5308
+Killed       5303
+Killed       5303
+Killed       5303
+Killed       5303
+Killed       5304
+Killed       5308
+Killed       5303
+Killed       5303
+Killed       41020
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+THYQuestN 1 16 0 0 1 0
+THYQuestN 5 1 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 33 4 0 0 1 0
+THYQuestN 96 8 0 0 1 0
+THYQuestN 102 3 0 0 1 0
+THYQuestN 103 3 0 0 1 0
+THYQuestN 115 1 0 0 1 0
+THYQuestN 116 2 0 0 1 0
+THYQuestN 117 10 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         29119
+Level        5
+Currtype     3
+Color        1
+Size   0
+Values       10 37 -1 -1 0 5 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         16008
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 37 -1 -1 0 1 0
+Spell 1      'cure critical'
+End
+
+#OBJECT
+Nest         1
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Vnum         29122
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       1 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16243
+Cost         6
+Currtype     4
+Color        1
+Craft1       597
+Craft2       1000
+Craft3       1000
+Craft4       1000
+Craft5       894
+Size   0
+End
+
+#OBJECT
+Vnum         16079
+Level        1
+Currtype     1
+Color        1
+Size   3
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29106
+WearLoc      8
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         29104
+WearLoc      5
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         29107
+WearLoc      12
+Level        5
+Currtype     4
+Color        12
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         29112
+Level        9
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         29123
+WearLoc      9
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Name         scale-wrist~
+ShortDescr   a scale-wrist, simply forged from bright silver ore~
+Description  Here lies a scale-wrist, simply forged from bright silver ore.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       3
+Level        20
+Cost         25
+Currtype     4
+Color        5
+Size   0
+Values       13 13 0 100 777 30 5
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   scale-wrist~ &CThis crafted item bears the seal of Ibrahim, the apprentice blacksmith.
+~
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16232
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#OBJECT
+Name         buckler-shield~
+ShortDescr   a buckler-shield, properly forged from bright-gray iron ore~
+Description  Here lies a buckler-shield, properly forged from bright-gray iron ore.~
+Vnum         41002
+WearFlags    513
+ItemType     9
+Weight       2
+Level        20
+Cost         10
+Currtype     2
+Color        13
+Size   0
+Values       23 23 10982 200 777 30 15
+AffectData   'acid breath' -1 2 2 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   buckler-shield~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         finger-ring~
+ShortDescr   a finger-ring, properly forged from bright-gray iron ore~
+Description  Here lies a finger-ring, properly forged from bright-gray iron ore.~
+Vnum         41002
+WearFlags    3
+WearLoc      2
+ItemType     9
+Level        20
+Cost         10
+Currtype     2
+Color        13
+Size   0
+Values       23 23 0 200 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 7 17 0
+ExtraDescr   finger-ring~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-torque~
+ShortDescr   a plate-torque, properly forged from gleaming gold ore~
+Description  Here lies a plate-torque, properly forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       3
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 0 200 777 0 0
+AffectData   'acid breath' -1 2 1 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 1 17 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-torque~
+ShortDescr   a plate-torque, properly forged from gleaming gold ore~
+Description  Here lies a plate-torque, properly forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       3
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 0 200 777 0 0
+AffectData   'acid breath' -1 2 1 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   plate-torque~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-wrist~
+ShortDescr   a scale-wrist, properly forged from gleaming gold ore~
+Description  Here lies a scale-wrist, properly forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       3
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 0 200 777 0 0
+AffectData   'acid breath' -1 2 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   scale-wrist~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-anklet~
+ShortDescr   a scale-anklet, properly forged from gleaming gold ore~
+Description  Here lies a scale-anklet, properly forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      24
+ItemType     9
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 0 200 777 0 0
+AffectData   'acid breath' -1 2 2 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-anklet~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-anklet~
+ShortDescr   a scale-anklet, well forged from gleaming gold ore~
+Description  Here lies a scale-anklet, well forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      25
+ItemType     9
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 10982 200 777 30 15
+AffectData   'acid breath' -1 2 2 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   scale-anklet~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         mask~
+ShortDescr   a mask, well forged from bright silver ore~
+Description  Here lies a mask, well forged from bright silver ore.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       2
+Level        20
+Cost         10
+Currtype     2
+Color        5
+Size   0
+Values       18 18 10982 200 777 30 15
+AffectData   'acid breath' -1 2 31 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   mask~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         plate-leggings~
+ShortDescr   a plate-leggings, well forged from bright silver ore~
+Description  Here lies a plate-leggings, well forged from bright silver ore.~
+Vnum         41002
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        5
+Size   0
+Values       18 18 10982 200 777 30 15
+AffectData   'acid breath' -1 2 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   plate-leggings~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         ear-hoop~
+ShortDescr   a ear-hoop, well forged from gleaming gold ore~
+Description  Here lies a ear-hoop, well forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    65537
+WearLoc      19
+ItemType     9
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 10982 200 777 30 15
+AffectData   'acid breath' -1 2 1 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   ear-hoop~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         longsword~
+ShortDescr   a longsword, well forged from gleaming gold ore~
+Description  Here lies a longsword, well forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    8193
+WearLoc      16
+ItemType     5
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       13 12 27 1 1 30 300
+AffectData   'acid breath' -1 2 5 0
+AffectData   'acid breath' -1 6 18 0
+AffectData   'acid breath' -1 6 19 0
+AffectData   'acid breath' -1 -2 13 0
+ExtraDescr   longsword~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-helm~
+ShortDescr   a scale-helm, well forged from gleaming gold ore~
+Description  Here lies a scale-helm, well forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       3
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 10982 200 777 30 15
+AffectData   'acid breath' -1 2 2 0
+AffectData   'acid breath' -1 2 13 0
+AffectData   'acid breath' -1 7 17 0
+ExtraDescr   scale-helm~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         finger-ring~
+ShortDescr   a finger-ring, well forged from bright silver ore~
+Description  Here lies a finger-ring, well forged from bright silver ore.~
+Vnum         41002
+WearFlags    3
+WearLoc      1
+ItemType     9
+Level        20
+Cost         10
+Currtype     2
+Color        5
+Size   0
+Values       18 18 10982 200 777 30 15
+AffectData   'acid breath' -1 2 4 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   finger-ring~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         scale-armlets~
+ShortDescr   a scale-armlets, well forged from gleaming gold ore~
+Description  Here lies a scale-armlets, well forged from gleaming gold ore.~
+Vnum         41002
+WearFlags    257
+WearLoc      10
+ItemType     9
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        14
+Size   0
+Values       20 20 10982 200 777 30 15
+AffectData   'acid breath' -1 2 5 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   scale-armlets~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Name         longsword~
+ShortDescr   a longsword, properly forged from bright-gray iron ore~
+Description  Here lies a longsword, properly forged from bright-gray iron ore.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        20
+Cost         10
+Currtype     2
+Color        13
+Size   0
+Values       16 12 30 1 1 0 300
+AffectData   'acid breath' -1 2 25 0
+AffectData   'acid breath' -1 6 18 0
+AffectData   'acid breath' -1 6 19 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   longsword~ &CThis crafted item bears the seal of Ibrahim, the journeyman blacksmith.
+~
+End
+
+#OBJECT
+Vnum         16232
+WearLoc      17
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#END

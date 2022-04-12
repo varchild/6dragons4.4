@@ -1,0 +1,905 @@
+#PLAYER
+Version      6
+Name         Isahn~
+Description  A massive-boned, muscular bodied black dragon. He has large green-grey 
+eyes with dimond-shaped black pupils. Rows of long thick spikes run down 
+his spine, connected by membranous black scales that shimmer green and 
+purple. His body is covered is scars of battle. A fresh wound seeps on his 
+wing where three deep gouges have pierced the leathery muscle. He appears 
+aloof to his current surroundings, eyes constantly scanning for an unseen 
+target in the distance. The spiked club on the end of his long powerful 
+tail is held aloft in anticipation, as if he's about to charge. A small 
+cloud of black shadowy vapor rises out of each nostril. Green-black ichor 
+drips from his long, dagger-filled, snout. 
+~
+Sex          1
+Class        8
+Secondclass  -1
+Thirdclass   -1
+Race         13
+Age          0 9 1 975
+Languages    1 1
+Level        48
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       380145
+Room         35515
+HpManaMove   4494 4867 1250 1150 2531 3236
+BaseHp       0 
+Blood        10 146
+Money         0 211 734 0 5 -1
+Exp           2030361
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        546
+Weight        4119
+Act           570426952&4096
+AffectedBy    524800
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction alliance throng halcyon paleon dakar forbidden dragon~
+Speed         32
+Position      115
+Style         2
+Practice      50
+SavingThrows  0 0 0 0 0
+Alignment     -3
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         -174
+Wimpy         925
+Resistant     8320
+Mentalstate   0
+Password      3ca653c4ea8b0811ab2280794243abc66b191a4ad1c59a41c83467cfa940c5c5~
+Title          the young adventurer~
+LAIR          65007
+Lastip         104.220.198.48~
+RECAST          0
+Tradelevel          20
+Tradeclass          26
+Craftpoints          512
+Failsafe     16
+Combo1         breathe~
+Combo2         breath~
+Account         isahn~
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    219
+LDExpUpdate  1649756884
+tmpcrawl 78
+tmpsecond -1
+tmpthird -1
+tmprace 13
+tmpclass 8
+Textspeed          5
+PotionTimer        1648794322 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          1
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Drakkel Sharda~
+FoundArea       Wilderness~
+FoundArea       Under the Volcano~
+FoundArea       Merchant Discovery~
+FoundArea       Mines of Shatkul~
+FoundArea       Tufkul'ar~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Narcista Vessel Voyage~
+FoundArea       Ixious Village~
+FoundArea       Garden~
+FoundArea       Miden'nir~
+FoundArea       Durdun~
+FoundArea       Grove Stone~
+FoundArea       Ice Castle~
+FoundArea       Tears of Mount Cierra ~
+FoundArea       Crystal Forest~
+FoundArea       Abandoned Cabin ~
+FoundArea       Ocean~
+FoundArea       Harpy Landing~
+FoundArea       Cliffs of Green~
+FoundArea       The Apprentice Garden~
+FoundArea       Spider Swamp~
+FoundArea       Vila Island~
+FoundArea       Giant Wasp Hive~
+FoundArea       Asgard~
+FoundArea       Gnome Tower~
+FoundArea       Szithlin City~
+FoundArea       Loramoor City of the Trees~
+FoundArea       Torain Mines~
+FoundArea       Village of Jarynth~
+FoundArea       Country Roads~
+FoundArea       Regius Fonds~
+FoundArea       Kirwood Swamp~
+FoundArea       Halcyon Clan Hall~
+FoundArea       Ice Cavern~
+FoundArea       Spiral village~
+FoundArea       School of Shadow~
+FoundArea       Tomb of the Green Dragon~
+FoundArea       Manoake City~
+FoundArea       Fox Den~
+FoundArea       Newunderdark~
+FoundArea       Citadel~
+FoundArea       Terizak Forest~
+FoundArea       Pixadale~
+FoundArea       Obscure Island~
+FoundArea       Throng Training Tower~
+FoundArea       Paleon Sewer~
+FoundArea       Abyss~
+FoundArea       Desert Riders~
+FoundArea       Ancient Ruins~
+FoundArea       Golden Peninsula~
+FoundArea       Accura City~
+FoundArea       Kingdom of Heaven~
+Htown      Forbidden City~
+Flags        2
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       2429
+MDeaths      1
+IllegalPK    0
+AttrPerm     23 19 19 11 17 11 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 192 190 58
+Site         104.220.198.48
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       0 51 'create food' 0 0
+NNSpell       0 50 'create spring' 0 0
+NNSpell       95 95 'dispel magic' 0 0
+NNSpell       0 50 'dragonskin' 0 0
+NNSpell       95 95 'faerie fog' 0 0
+NNSpell       0 50 'fly' 0 0
+NNSpell       95 50 'locate object' 0 0
+NNSkill       95 13 'aid' 0 0
+NNSkill       0 50 'behead' 0 0
+NNSkill       95 95 'bite' 0 0
+NNSkill       95 95 'breathe' 0 0
+NNSkill       95 95 'breech' 0 0
+NNSkill       95 95 'claw' 0 0
+NNSkill       95 9 'climb' 0 0
+NNSkill       95 95 'combo' 0 0
+NNSkill       0 50 'cone' 0 0
+NNSkill       0 50 'cook' 0 0
+NNSkill       0 37 'defend' 0 0
+NNSkill       95 95 'devour' 0 0
+NNSkill       30 30 'dodge' 0 0
+NNSkill       95 18 'doorbash' 0 0
+NNSkill       0 54 'dual wield' 0 0
+NNSkill       95 95 'dye' 0 0
+NNSkill       95 95 'fly home' 0 0
+NNSkill       95 95 'gut' 0 0
+NNSkill       95 95 'hardened scales' 0 0
+NNSkill       95 95 'human form' 0 0
+NNSkill       0 50 'kick' 0 0
+NNSkill       50 50 'lick' 0 0
+NNSkill       95 95 'lore' 0 0
+NNSkill       0 50 'parry' 0 0
+NNSkill       10 95 'produce' 0 0
+NNSkill       95 55 'rage' 0 0
+NNSkill       95 41 'scan' 0 0
+NNSkill       95 95 'second attack' 0 0
+NNSkill       0 50 'sharpen' 0 0
+NNSkill       95 50 'slice' 0 0
+NNSkill       95 20 'smell' 0 0
+NNSkill       95 95 'snatch' 0 0
+NNSkill       95 37 'swim' 0 0
+NNSkill       95 20 'telepathy' 0 0
+NNSkill       95 95 'third attack' 0 0
+NNSkill       95 50 'truesight' 0 0
+NNSkill       95 95 'unearth' 0 0
+NNSkill       95 95 'wings' 0 0
+NNWeapon      0 50 'pugilism' 0 0
+NNWeapon      0 50 'talons' 0 0
+NNTongue      95 95 'celestial' 0 0
+NNTongue      95 95 'centaurian' 0 0
+NNTongue      95 95 'common' 0 0
+NNTongue      95 95 'demonic' 0 0
+NNTongue      95 95 'draconic' 0 0
+NNTongue      95 95 'dwarven' 0 0
+NNTongue      95 95 'elven' 0 0
+NNTongue      95 95 'gnomish' 0 0
+NNTongue      95 95 'goblic' 0 0
+NNTongue      95 95 'hobbit' 0 0
+NNTongue      95 95 'infernal' 0 0
+NNTongue      95 95 'ogrian' 0 0
+NNTongue      95 95 'orcish' 0 0
+NNTongue      95 95 'pixish' 0 0
+NNTongue      95 95 'silent' 0 0
+NNTongue      95 95 'trollese' 0 0
+AffectDataL   'wings'  48 264   0   0 524288
+Killed       11512
+Killed       11513
+Killed       11512
+Killed       11513
+Killed       11512
+Killed       35807
+Killed       35809
+Killed       35807
+Killed       35809
+Killed       35807
+Killed       35807
+Killed       35808
+Killed       35808
+Killed       35808
+Killed       35807
+Killed       35807
+Killed       35808
+Killed       35807
+Killed       35808
+Killed       35809
+THYQuestN 9 1 0 0 1 0
+THYQuestN 10 8 0 0 1 0
+THYQuestN 17 2 0 0 1 0
+THYQuestN 25 1 0 0 1 0
+THYQuestN 30 10 0 0 1 0
+THYQuestN 40 2 0 0 1 0
+THYQuestN 45 1 0 0 1 0
+THYQuestN 49 1 0 0 1 0
+THYQuestN 67 6 0 0 1 0
+THYQuestN 76 1 0 0 1 0
+THYQuestN 78 1 0 0 1 0
+THYQuestN 89 1 0 0 1 0
+THYQuestN 92 1 0 0 1 0
+THYQuestN 94 3 0 0 1 0
+THYQuestN 95 3 0 0 1 0
+THYQuestN 100 1 0 0 1 0
+THYQuestN 109 9 0 0 1 0
+THYQuestN 111 3 0 0 1 0
+THYQuestN 119 3 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         40030
+WearLoc      17
+Level        1
+Currtype     4
+Color        14
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Vnum         8303
+WearLoc      9
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8305
+WearLoc      12
+Level        10
+Currtype     3
+Color        5
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         8309
+WearLoc      19
+Level        10
+Currtype     4
+Color        1
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         35548
+Currtype     4
+Color        1
+Craft1       463
+Craft2       367
+Craft4       555
+Craft5       467
+Size   0
+Values       125 0 0 0 0 0 2
+End
+
+#OBJECT
+Vnum         25002
+WearLoc      5
+Level        10
+Currtype     2
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         25001
+WearLoc      0
+Level        10
+Currtype     4
+Color        14
+Size   0
+Values       0 0 -1 0 0 10 0
+End
+
+#OBJECT
+Name         belt~
+ShortDescr   a rider-free belt, well produced from adamantium~
+Description  Here lies a rider-free belt, well produced from adamantium.~
+Vnum         41002
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Weight       8
+Level        34
+Cost         10
+Currtype     2
+Color        1
+Size   77
+Values       30 30 0 300 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 1 13 0
+AffectData   'acid breath' -1 -2 17 0
+ExtraDescr   belt~ &CThis produced item bears the seal of Isahn, the journeyman draconic.
+~
+End
+
+#OBJECT
+Vnum         2514
+WearLoc      23
+Level        35
+Currtype     3
+Color        3
+Size   77
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         25003
+WearLoc      6
+Level        35
+Currtype     3
+Color        5
+Size   77
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Vnum         16700
+WearLoc      20
+Level        40
+Currtype     2
+Color        5
+Size   77
+Values       35 35 0 0 0 40 0
+End
+
+#OBJECT
+Vnum         16716
+WearLoc      24
+Level        38
+Currtype     3
+Color        13
+Size   77
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16716
+WearLoc      25
+Level        38
+Currtype     3
+Color        13
+Size   0
+Values       35 35 0 0 0 0 0
+End
+
+#OBJECT
+Count        3
+Name         treasure-mound~
+ShortDescr   a mound of treasure, finely produced from adamantium~
+Description  Here lies a mound of treasure, finely produced from adamantium.~
+Vnum         41002
+WearFlags    1
+ItemType     8
+Level        41
+Cost         20
+Currtype     2
+Color        1
+Size   0
+Values       35 35 4 6 6 30 15
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   treasure-mound~ &CThis produced item bears the seal of Isahn, the expert draconic.
+~
+End
+
+#OBJECT
+Name         plated-backplate~
+ShortDescr   a plated-backplate, legendary produced from meteor~
+Description  Here lies a plated-backplate, legendary produced from meteor.~
+Vnum         41002
+WearFlags    524289
+WearLoc      22
+ItemType     9
+Weight       2
+Level        41
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       35 35 10982 400 777 30 15
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   plated-backplate~ &CThis produced item bears the seal of Isahn, the master draconic.
+~
+End
+
+#OBJECT
+Name         treasure-mound~
+ShortDescr   a mound of treasure, legendary produced from meteor~
+Description  Here lies a mound of treasure, legendary produced from meteor.~
+Vnum         41002
+WearFlags    1
+ItemType     8
+Level        41
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       35 35 4 6 6 30 15
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   treasure-mound~ &CThis produced item bears the seal of Isahn, the master draconic.
+~
+End
+
+#OBJECT
+Vnum         7503
+WearLoc      14
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7503
+WearLoc      15
+Level        5
+Currtype     4
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7505
+WearLoc      10
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         11612
+WearLoc      5
+Level        20
+Currtype     3
+Color        1
+Size   0
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Name         wing-tip-left~
+ShortDescr   a left wing-tip, legendary produced from meteor~
+Description  Here lies a left wing-tip, legendary produced from meteor.~
+Vnum         41002
+WearFlags    134217729
+WearLoc      31
+ItemType     9
+Weight       8
+Level        44
+Cost         10
+Currtype     1
+Color        1
+Size   77
+Values       35 35 10982 400 777 30 15
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   wing-tip-left~ &CThis produced item bears the seal of Isahn, the master draconic.
+~
+End
+
+#OBJECT
+Vnum         25011
+WearLoc      32
+Level        35
+Currtype     3
+Color        2
+Size   0
+Values       35 35 0 0 0 35 0
+End
+
+#OBJECT
+Name         Isahn satchel mprename~
+ShortDescr   Isahn's leather satchel~
+Description  A personalized leather satchel has been left here.~
+Vnum         68
+Currtype     2
+Color        1
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       49 7 7 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         35518
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       0 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Name         metal~
+ShortDescr   a prepared metal~
+Description  A prepared metal has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         10002
+Level        1
+Currtype     1
+Color        14
+Size   3
+Values       0 10003 10004 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2201
+Level        51
+Currtype     4
+Size   0
+Values       0 2201 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11543
+Level        70
+Currtype     1
+Size   77
+Values       50 50 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         32005
+Level        10
+Currtype     4
+Color        13
+Size   0
+Values       12 5 15 1 2 10 89
+End
+
+#OBJECT
+Nest         1
+Vnum         2513
+Level        35
+Currtype     3
+Color        3
+Size   0
+Values       12 20 35 2 2 35 5
+End
+
+#OBJECT
+Nest         1
+Vnum         16710
+Level        40
+Currtype     1
+Size   0
+Values       10 20 40 1 2 40 25
+End
+
+#OBJECT
+Nest         1
+Vnum         11515
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16717
+Level        20
+Currtype     2
+Color        14
+Size   0
+Values       50 8 8 156 0 20 0
+Spell 3      'sanctuary'
+End
+
+#OBJECT
+Nest         1
+Vnum         35804
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35802
+Weight       15
+Level        55
+Currtype     2
+Color        13
+Size   0
+Values       12 78 101 4 4 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11516
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35805
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16702
+Level        54
+Currtype     1
+Size   77
+Values       40 40 0 0 0 0 0
+End
+
+#OBJECT
+Name         pocket-dimension~
+ShortDescr   a pocket-dimension, legendary produced from meteor~
+Description  Here lies a pocket-dimension, legendary produced from meteor.~
+Vnum         41002
+WearFlags    2049
+ItemType     15
+Level        41
+Cost         10
+Currtype     1
+Color        1
+Size   0
+Values       4000 1 0 12 6 30 15
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   pocket-dimension~ &CThis produced item bears the seal of Isahn, the master draconic.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         112
+Level        1
+Currtype     1
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         40027
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         25005
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11542
+Level        75
+Currtype     1
+Size   0
+Values       12 40 80 1 2 0 66
+End
+
+#OBJECT
+Nest         1
+Vnum         13101
+Level        70
+Currtype     1
+Size   77
+Values       50 50 0 0 0 70 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35543
+Level        99
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         1408
+Level        77
+Currtype     2
+Color        13
+Size   0
+Values       1000 0 0 12 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11614
+Weight       15
+Level        40
+Currtype     2
+Color        13
+Size   0
+Values       12 54 68 3 8 40 25
+End
+
+#OBJECT
+Nest         1
+Vnum         2606
+Level        1
+Currtype     1
+Color        1
+Size   0
+Values       0 2607 2608 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35806
+Level        55
+Currtype     2
+Size   2
+Values       45 45 0 0 0 55 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11514
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11541
+Level        78
+Currtype     1
+Size   77
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11542
+Level        74
+Currtype     1
+Size   0
+Values       12 35 80 1 2 0 79
+End
+
+#OBJECT
+Nest         1
+Vnum         11517
+Level        55
+Currtype     2
+Size   77
+Values       45 45 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11547
+Level        80
+Currtype     1
+Size   0
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11547
+Level        81
+Currtype     1
+Size   0
+Values       55 55 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11512
+Level        1
+Currtype     4
+Size   0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    31377
+Ctime   1648942465
+Mtime   1648942465
+Rtime   0
+Timer   0
+Tag     manoakegreets~
+Int     0
+End
+
+#END

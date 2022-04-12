@@ -1,0 +1,579 @@
+#PLAYER
+Version      6
+Name         Bazma~
+Sex          1
+Class        2
+Secondclass  1
+Thirdclass   -1
+Race         4
+Age          0 3 3 975
+Languages    1 1
+Level        12
+Firstlevel   12
+Secondlevel  12
+Thirdlevel   0
+Played       18509
+Room         16073
+HpManaMove   787 874 458 567 1078 944
+BaseHp       0 
+Blood        10 97
+Money         0 8 124 1029 3213 -1
+Exp           0
+Firstexp      85115
+Secondexp     85115
+Thirdexp      0
+Height        24
+Weight        40
+Act           570426954&4608
+AffectedBy    40&0&16384
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      40
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         47
+Susceptible   16
+Mentalstate   0
+Password      9a25f74992fb9fb5496fd153c4954b5121ad1991cba87246757a80117bdfb660~
+Title          the young adventurer~
+Lastip         65.28.78.3~
+RECAST          0
+Failsafe     2
+Combo1         kick~
+Combo2         punch~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    60
+LDExpUpdate  1648512622
+tmpcrawl 24
+tmpsecond -1
+tmpthird -1
+Alias        x~ exam~
+Alias        pp~ poultice~
+Alias        kk~ c static~
+Alias        vv~ c static~
+Textspeed          5
+PotionTimer        1648512352 0 0
+FirstExpR          50
+SecondExpR         50
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Miden'nir~
+FoundArea       Paleon Atheneum ~
+FoundArea       Merchant Discovery~
+FoundArea       Paleon Sewer~
+FoundArea       Abyss~
+FoundArea       Caverns~
+FoundArea       Gnome Tower~
+FoundArea       Abandoned Cabin ~
+Htown      Paleon City~
+Flags        6
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       82
+MDeaths      1
+IllegalPK    0
+AttrPerm     6 25 22 14 6 11 10
+AttrMod      3 0 0 0 0 0 0
+Condition    0 195 194 22
+Site         65.28.78.3
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       27 0 'continual light' 0 0
+NNSpell       50 0 'create food' 0 0
+NNSpell       50 0 'create spring' 0 0
+NNSpell       57 0 'detect hidden' 0 0
+NNSpell       53 0 'detect invis' 0 0
+NNSpell       53 0 'find familiar' 0 0
+NNSpell       50 0 'giant strength' 0 0
+NNSpell       59 0 'identify' 0 0
+NNSpell       51 0 'invis' 0 0
+NNSpell       53 0 'nettle skin' 0 0
+NNSpell       95 0 'static pulse' 0 0
+NNSkill       50 0 'combo' 0 0
+NNSkill       56 0 'dodge' 0 0
+NNSkill       50 0 'forest' 0 0
+NNSkill       53 0 'hide' 0 0
+NNSkill       53 0 'kick' 0 0
+NNSkill       56 0 'meditate' 0 0
+NNSkill       50 0 'parry' 0 0
+NNSkill       80 0 'poultice' 0 0
+NNSkill       49 0 'punch' 0 0
+NNSkill       53 0 'scan' 0 0
+NNSkill       73 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       50 0 'swim' 0 0
+NNWeapon      30 0 '1h short blades' 0 0
+NNWeapon      68 0 'staves' 0 0
+NNWeapon      63 0 'whips' 0 0
+NNTongue      80 0 'common' 0 0
+NNTongue      80 0 'pixish' 0 0
+AffectDataL   'kindred strength'  20 271   2   1 0
+AffectDataL   'detect hidden'  12 152   0   0 32
+AffectDataL   'detect invis'  12 156   0   0 8
+AffectDataL   'giant strength'  12 498   1   1 0&0&16384
+Killed       29008
+Killed       29008
+Killed       29008
+Killed       29012
+Killed       29010
+Killed       29011
+Killed       29009
+Killed       29005
+Killed       29001
+Killed       7507
+Killed       7502
+Killed       7508
+Killed       7509
+Killed       7507
+Killed       7508
+Killed       18605
+Killed       18606
+Killed       18605
+Killed       18606
+Killed       18605
+THYQuestN 1 16 0 0 1 0
+THYQuestN 3 1 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 9 1 0 0 1 0
+THYQuestN 45 6 0 0 1 0
+THYQuestN 67 6 0 0 1 0
+THYQuestN 92 4 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 5 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Vnum         2776
+Level        4
+Currtype     1
+Color        8
+Size   0
+Values       20 -1 -1 113 0 0 0
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         16006
+Level        1
+Currtype     3
+Color        14
+Size   0
+Values       10 9 9 200 0 1 0
+Spell 3      'word of recall'
+End
+
+#OBJECT
+Nest         1
+Vnum         2770
+Level        10
+Currtype     3
+Color        13
+Size   0
+Values       21 6 6 191 0 10 0
+Spell 3      'unholy strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         18607
+Level        9
+Currtype     4
+Color        14
+Size   0
+Values       20 -1 37 144 0 0 0
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Nest         1
+Vnum         7507
+Level        5
+Currtype     3
+Color        3
+Size   0
+Values       1 1 1 2 38 5 -1
+Spell 4      'cure poison'
+End
+
+#OBJECT
+Nest         1
+Vnum         18608
+Level        11
+Currtype     2
+Color        9
+Size   0
+Values       15 37 37 113 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Nest         1
+Vnum         4656
+Level        1
+Currtype     4
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         2772
+Level        10
+Currtype     1
+Color        13
+Size   0
+Values       12 5 15 2 2 10 72
+End
+
+#OBJECT
+Nest         1
+Vnum         29020
+Level        13
+Cost         0
+Currtype     3
+Color        6
+Size   0
+Values       10 10 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         29005
+Level        19
+Currtype     4
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         29004
+Level        15
+Cost         0
+Currtype     3
+Color        6
+Size   0
+Values       8 5 15 6 2 0 15
+End
+
+#OBJECT
+Nest         1
+Vnum         7508
+Level        5
+Currtype     2
+Color        3
+Size   0
+Values       10 3 10 3 9 5 65
+End
+
+#OBJECT
+Nest         1
+Vnum         29018
+Level        20
+Currtype     1
+Size   77
+Values       20 20 0 0 0 20 0
+End
+
+#OBJECT
+Vnum         5103
+WearLoc      1
+Level        1
+Currtype     4
+Color        9
+Size   2
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      24
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16010
+WearLoc      3
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         2777
+WearLoc      11
+Level        3
+Currtype     4
+Color        1
+Size   77
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2773
+Level        12
+Currtype     1
+Color        8
+Size   77
+Values       10 10 0 0 0 12 0
+End
+
+#OBJECT
+Vnum         16074
+WearLoc      12
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         7503
+WearLoc      14
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       2 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7503
+WearLoc      15
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7506
+WearLoc      6
+Level        5
+Currtype     4
+Color        13
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7504
+WearLoc      7
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         7505
+WearLoc      10
+Level        5
+Currtype     4
+Color        13
+Size   77
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         18606
+Level        8
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         18608
+Level        8
+Currtype     2
+Color        9
+Size   0
+Values       15 37 37 113 0 0 0
+Spell 1      'cure critical'
+Spell 2      'cure critical'
+Spell 3      'kindred strength'
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      25
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 23 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2771
+WearLoc      8
+Level        10
+Currtype     1
+Color        6
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         29007
+Level        5
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         29049
+WearLoc      5
+Level        10
+Currtype     4
+Color        1
+Size   77
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         29026
+WearLoc      13
+Level        10
+Currtype     4
+Color        1
+Size   77
+Values       9 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         29017
+Level        18
+Currtype     1
+Color        13
+Size   0
+Values       0 29012 29013 0 0 0 0
+End
+
+#OBJECT
+Vnum         29013
+WearLoc      4
+Level        11
+Currtype     1
+Color        5
+Size   0
+End
+
+#OBJECT
+Owner        Bazma~
+Name         staff~
+ShortDescr   a druid staff~
+Description  A staff has been left here.~
+Vnum         30032
+WearLoc      16
+Level        12
+Timer        17
+Currtype     1
+Color        5
+Size   0
+Values       12 5 15 4 11 3 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 1 1 0
+ExtraDescr   staff~ Inscribed in the wood are the words Drudic Friend de Bazma.
+The wood almost seems to be alive.
+~
+End
+
+#MOBILE
+Vnum        41058
+Room        29012
+Name         horned toad~
+Short        a horned toad~
+Long         A horned toad is squatting here.
+~
+Level         11
+Hitpoints     360 360
+Mana          100 100
+Move          100 100
+Hitroll       50
+Damroll       50
+Armor         240
+Color        1
+Clanname         Clanname~
+Position    15
+Flags       769
+EndMobile
+#END

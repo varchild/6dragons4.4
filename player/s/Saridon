@@ -1,0 +1,609 @@
+#PLAYER
+Version      6
+Name         Saridon~
+Sex          2
+Class        4
+Secondclass  1
+Thirdclass   -1
+Race         1
+Age          0 4 1 975
+Languages    1 1
+Level        11
+Firstlevel   11
+Secondlevel  11
+Thirdlevel   0
+Played       517861
+Room         16007
+HpManaMove   1173 1085 192 192 881 881
+BaseHp       0 
+Blood        10 67
+Money         0 982 2 4 1 -1
+Exp           0
+Firstexp      203361
+Secondexp     203361
+Thirdexp      0
+Height        60
+Weight        110
+Act           536872826&1660950530&3
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      107
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Resistant     2
+Mentalstate   0
+Password      f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
+Title          the young adventurer~
+LAIR          54103
+Lastip         65.49.243.186~
+RECAST          0
+Tradelevel          20
+Tradeclass          25
+Craftpoints          160
+Failsafe     1
+Account         pinewood~
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    108
+LDExpUpdate  1649712962
+tmpsecond -1
+tmpthird -1
+Alias        attack~ punch~
+Textspeed          5
+PotionTimer        1649608140 1649609505 0
+FirstExpR          50
+SecondExpR         50
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Merchant Discovery~
+FoundArea       Wilderness~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Paleon Sewer~
+FoundArea       Loramoor City of the Trees~
+FoundArea       Miden'nir~
+FoundArea       Bowels of the Citadel~
+FoundArea       Tufkul'ar~
+Htown      Paleon City~
+City      Paleon City~
+Flags        34
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       28
+MDeaths      3
+IllegalPK    0
+AttrPerm     18 20 15 22 12 14 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 29 0 21
+Site         65.49.243.186
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       62 0 'create food' 0 0
+NNSpell       51 0 'nettle skin' 0 0
+NNSkill       50 0 'adrenaline rush' 0 0
+NNSkill       84 0 'combo' 0 0
+NNSkill       50 0 'disarm' 0 0
+NNSkill       53 0 'dodge' 0 0
+NNSkill       95 0 'fell' 0 0
+NNSkill       50 0 'forest' 0 0
+NNSkill       62 0 'kick' 0 0
+NNSkill       95 0 'mill' 0 0
+NNSkill       50 0 'mount' 0 0
+NNSkill       50 0 'parry' 0 0
+NNSkill       71 0 'poultice' 0 0
+NNSkill       62 0 'punch' 0 0
+NNSkill       70 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       50 0 'taunt' 0 0
+NNTongue      80 0 'common' 0 0
+NNTongue      80 0 'elven' 0 0
+Killed       41020
+Killed       41000
+Killed       10002
+Killed       10002
+Killed       10006
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10006
+Killed       10006
+Killed       10006
+Killed       10002
+Killed       10003
+THYQuestN 33 4 0 0 1 0
+THYQuestN 96 8 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold emerald necklace~
+Description  A gold emerald necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 30 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 2 17 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold emerald necklace~
+Description  A gold emerald necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 30 5
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold emerald bracelet~
+Description  A gold emerald bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 4 13 0
+AffectData   'acid breath' -1 -9 17 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold emerald bracelet~
+Description  A gold emerald bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 -8 17 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold emerald anklet~
+Description  A gold emerald anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      24
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -3 17 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold emerald anklet~
+Description  A gold emerald anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      25
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         leggings~
+ShortDescr   a gold emerald leggings~
+Description  A gold emerald leggings has been left here.~
+Vnum         41002
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10983 400 777 30 15
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   leggings~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         cape~
+ShortDescr   a gold emerald cape~
+Description  A gold emerald cape has been left here.~
+Vnum         41002
+WearFlags    1025
+WearLoc      12
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 -1 13 0
+ExtraDescr   cape~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         back-scale~
+ShortDescr   a gold emerald back-scale~
+Description  A gold emerald back-scale has been left here.~
+Vnum         41002
+WearFlags    524289
+WearLoc      22
+ItemType     9
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 1 17 0
+ExtraDescr   back-scale~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-gauntlets~
+ShortDescr   a gold emerald plated-gauntlets~
+Description  A gold emerald plated-gauntlets has been left here.~
+Vnum         41002
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   plated-gauntlets~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-boots~
+ShortDescr   a gold emerald plated-boots~
+Description  A gold emerald plated-boots has been left here.~
+Vnum         41002
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 -2 17 0
+ExtraDescr   plated-boots~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         round-shield~
+ShortDescr   a gold emerald round-shield~
+Description  A gold emerald round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 8 13 0
+AffectData   'acid breath' -1 -2 17 0
+ExtraDescr   round-shield~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-girdle~
+ShortDescr   a gold emerald scale-girdle~
+Description  A gold emerald scale-girdle has been left here.~
+Vnum         41002
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 -10 17 0
+ExtraDescr   scale-girdle~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold emerald ornate-ring~
+Description  A gold emerald ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      1
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold emerald ornate-ring~
+Description  A gold emerald ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      2
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ear-stud~
+ShortDescr   a gold emerald ear-stud~
+Description  A gold emerald ear-stud has been left here.~
+Vnum         41002
+WearFlags    65537
+WearLoc      19
+ItemType     9
+Weight       2
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   ear-stud~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-mask~
+ShortDescr   a gold emerald scale-mask~
+Description  A gold emerald scale-mask has been left here.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   scale-mask~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-suit~
+ShortDescr   a gold emerald fullplate-suit~
+Description  A gold emerald fullplate-suit has been left here.~
+Vnum         41002
+WearFlags    9
+WearLoc      5
+ItemType     9
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 6 17 0
+ExtraDescr   fullplate-suit~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-helmet~
+ShortDescr   a gold emerald fullplate-helmet~
+Description  A gold emerald fullplate-helmet has been left here.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 8 17 0
+ExtraDescr   fullplate-helmet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-visor~
+ShortDescr   a gold emerald fullplate-visor~
+Description  A gold emerald fullplate-visor has been left here.~
+Vnum         41002
+WearFlags    131073
+WearLoc      20
+ItemType     9
+Weight       8
+Level        2
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   fullplate-visor~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         torch~
+ShortDescr   a torch, legendary milled from brown hickory lumber~
+Description  Here lies a torch, legendary milled from brown hickory lumber.~
+Vnum         41002
+WearFlags    16385
+WearLoc      0
+ItemType     1
+Weight       8
+Level        10
+Cost         8
+Currtype     2
+Color        9
+Size   0
+Values       35 35 10593 6 6 30 15
+ExtraDescr   torch~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Vnum         16293
+WearLoc      16
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 60
+End
+
+#MOBILE
+Vnum        16113
+Room        54103
+Description  The horse appears to be slightly suffering from lack of nutrition, but
+is a sturdy beast for riding.
+A neck tag says 'I belong to Saridon'.
+~
+Level         11
+Hitpoints     90 90
+Mana          100 100
+Move          100 100
+Hitroll       10
+Damroll       10
+Armor         240
+Color        1
+Clanname         Clanname~
+Position    15
+Flags       262913
+EndMobile
+#END

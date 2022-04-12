@@ -1,0 +1,416 @@
+#PLAYER
+Version      6
+Name         Mjodvitnir~
+Sex          1
+Class        5
+Secondclass  -1
+Thirdclass   -1
+Race         12
+Age          0 23 15 975
+Languages    1 1
+Level        4
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       5697
+Room         8361
+HpManaMove   372 366 150 140 503 378
+BaseHp       0 
+Blood        10 5
+Money         0 9 6 7 114 -1
+Exp           23213
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        82
+Weight        400
+Act           570426952&4096
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Mentalstate   0
+Password      3ca653c4ea8b0811ab2280794243abc66b191a4ad1c59a41c83467cfa940c5c5~
+Title          the young adventurer~
+Lastip         104.220.198.48~
+RECAST          0
+KeepAlive      5
+GetsDExp     0
+DExpTimer    10
+LDExpUpdate  1649286821
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Paleon Sewer~
+Htown      Paleon City~
+Flags        32774
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       52
+MDeaths      0
+IllegalPK    0
+AttrPerm     20 13 20 12 18 12 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 176 178 14
+Site         104.220.198.48
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       39 0 'dodge' 0 0
+NNSkill       53 0 'parry' 0 0
+NNSkill       50 0 'slice' 0 0
+NNWeapon      5 0 '1h bludgeons' 0 0
+NNWeapon      56 0 '1h long blades' 0 0
+NNWeapon      5 0 '2h long blades' 0 0
+NNTongue      95 0 'centaurian' 0 0
+NNTongue      95 0 'common' 0 0
+Killed       8360
+Killed       8360
+Killed       8360
+Killed       8359
+Killed       8359
+Killed       8364
+Killed       8364
+Killed       8363
+Killed       8363
+Killed       8363
+Killed       8364
+Killed       8363
+Killed       8364
+Killed       8368
+Killed       8362
+Killed       8362
+Killed       8362
+Killed       8362
+Killed       8362
+Killed       8360
+THYQuestN 1 16 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 33 1 0 0 1 0
+THYQuestN 102 1 0 0 1 44
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       0
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         5101
+Level        99
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Nest         1
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 97 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Nest         1
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         125
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 87
+End
+
+#OBJECT
+Vnum         5103
+WearLoc      1
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      24
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      25
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16074
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16006
+WearLoc      17
+Level        1
+Currtype     3
+Color        14
+Size   0
+Values       9 10 10 200 0 1 0
+Spell 3      'word of recall'
+End
+
+#OBJECT
+Vnum         16010
+WearLoc      3
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16005
+WearLoc      2
+Level        1
+Currtype     2
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16232
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       8 0 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         91
+Currtype     4
+Color        13
+Size   0
+Values       1 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16020
+WearLoc      16
+Level        1
+Currtype     3
+Color        13
+Size   0
+Values       10 1 5 1 1 1 97
+End
+
+#OBJECT
+Vnum         16073
+WearLoc      6
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16072
+WearLoc      4
+Level        2
+Currtype     2
+Color        13
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    8371
+Ctime   1649286573
+Mtime   1649286573
+Rtime   0
+Timer   627
+Tag     money~
+Int     0
+End
+
+#END

@@ -1,0 +1,1242 @@
+#PLAYER
+Version      6
+Name         Saridon~
+Sex          2
+Class        4
+Secondclass  -1
+Thirdclass   -1
+Race         1
+Age          0 6 0 975
+Languages    1 1
+Level        10
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       110664
+Room         54101
+HpManaMove   1014 945 195 195 816 811
+BaseHp       0 
+Blood        10 49
+Money         0 0 334 72 2 -1
+Exp           98255
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        60
+Weight        110
+Act           536872808&1728059392&1
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Position      115
+Style         2
+Practice      3
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Resistant     2
+Mentalstate   -1
+Password      f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
+Title          the young adventurer~
+LAIR          54101
+Lastip         65.49.243.186~
+RECAST          0
+Tradelevel          20
+Tradeclass          25
+Craftpoints          216
+Failsafe     1
+Account         pinewood~
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648517764
+tmpsecond -1
+tmpthird -1
+Textspeed          10
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Paleon Sewer~
+FoundArea       Wilderness~
+FoundArea       Merchant Discovery~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Loramoor City of the Trees~
+Htown      Paleon City~
+City      Paleon City~
+Flags        34
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       178
+MDeaths      2
+IllegalPK    0
+AttrPerm     18 20 15 20 14 14 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 54 0 20
+Site         (Link-Dead)
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       50 0 'adrenaline rush' 0 0
+NNSkill       50 0 'combo' 0 0
+NNSkill       50 0 'dodge' 0 0
+NNSkill       95 0 'fell' 0 0
+NNSkill       54 0 'kick' 0 0
+NNSkill       95 0 'mill' 0 0
+NNSkill       50 0 'parry' 0 0
+NNSkill       50 0 'punch' 0 0
+NNSkill       55 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       50 0 'taunt' 0 0
+NNWeapon      85 0 '1h axes' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'elven' 0 0
+Killed       41005
+Killed       41055
+Killed       41051
+Killed       41054
+Killed       41054
+Killed       41012
+Killed       41014
+Killed       41012
+Killed       41003
+Killed       41055
+Killed       41052
+Killed       41055
+Killed       41054
+Killed       41052
+Killed       41052
+Killed       41052
+Killed       41054
+Killed       41052
+Killed       41054
+Killed       41051
+THYQuestN 1 15 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 33 4 0 0 1 0
+THYQuestN 96 7 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Name         leather-backpack~
+ShortDescr   a leather backpack, masterfully tanned from rabbit~
+Description  Here lies a leather backpack, masterfully tanned from rabbit.~
+Vnum         41002
+WearFlags    524289
+ItemType     15
+Weight       2
+Level        100
+Cost         20
+Currtype     2
+Color        1
+Size   0
+Values       800 1 0 12 5 0 0
+AffectData   'acid breath' -1 5 31 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 15 13 0
+ExtraDescr   leather-backpack~ 
+&CThis tanned item bears the seal of Mearra, the expert tanner.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         fir~
+ShortDescr   &wthe roughly finished product~
+Description  A rough lumber piece has been left here.~
+Vnum         1239
+Currtype     1
+Color        8
+Size   0
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 72
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 73
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 85
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 74
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 62
+End
+
+#OBJECT
+Nest         2
+Vnum         16293
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       12 1 5 3 9 2 66
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 1 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 2 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Nest         2
+Name         axe~
+ShortDescr   a axe, legendary milled from light-brown fir lumber~
+Description  Here lies a axe, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        10
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 8 18 4 9 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 4 14 0
+ExtraDescr   axe~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         2
+Name         axe~
+ShortDescr   a axe, legendary milled from light-brown fir lumber~
+Description  Here lies a axe, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        10
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 8 18 4 9 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 5 14 0
+ExtraDescr   axe~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 2 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 2 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 2 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         2
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         battle-axe~
+ShortDescr   a gold pearl battle-axe~
+Description  A gold pearl battle-axe has been left here.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        5
+Cost         25
+Currtype     1
+Size   0
+Values       10 4 11 3 9 0 500
+AffectData   'acid breath' -1 1 5 0
+AffectData   'acid breath' -1 4 18 0
+AffectData   'acid breath' -1 4 19 0
+AffectData   'acid breath' -1 4 13 0
+AffectData   'acid breath' -1 -2 14 0
+ExtraDescr   battle-axe~ &CThis manufactured item bears the seal of Linnia, the expert jeweler.
+~
+End
+
+#OBJECT
+Nest         1
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 3 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Name         a healing salve~
+ShortDescr   a hand crafted healing salve~
+Description  Here lies a healing salve made from a pie, legendary cooked from oranges.~
+Vnum         41004
+WearFlags    1
+ItemType     60
+Weight       2
+Level        5
+Cost         30
+Currtype     1
+Color        8
+Size   0
+Values       100 1 3 12 90 0 -1
+Spell 4      'gas breath'
+ExtraDescr   pie oranges~ &CThis crafted dish bears the seal of Tasivil, the master baker.
+~
+End
+
+#OBJECT
+Nest         1
+Vnum         16246
+Currtype     4
+Color        1
+Craft1       1000
+Craft2       1000
+Craft3       1000
+Craft4       1002
+Craft5       1000
+Craft6       1000
+Size   0
+Values       500 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         axe~
+ShortDescr   a axe, legendary milled from light-brown fir lumber~
+Description  Here lies a axe, legendary milled from light-brown fir lumber.~
+Vnum         41002
+WearFlags    8193
+ItemType     5
+Weight       8
+Level        10
+Cost         25
+Currtype     2
+Color        1
+Size   0
+Values       10 8 18 4 9 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 6 13 0
+AffectData   'acid breath' -1 1 14 0
+ExtraDescr   axe~ &CThis crafted item bears the seal of Saridon, the master carpenter.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      1
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 7 13 0
+AffectData   'acid breath' -1 7 17 0
+ExtraDescr   ornate-ring~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      2
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   ornate-ring~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold diamond necklace~
+Description  A gold diamond necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 30 5
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 2 13 0
+ExtraDescr   necklace~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold diamond necklace~
+Description  A gold diamond necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 30 5
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   necklace~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 4 13 0
+AffectData   'acid breath' -1 -2 17 0
+ExtraDescr   bracelet~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   bracelet~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         pauldrons~
+ShortDescr   a gold diamond pauldrons~
+Description  A gold diamond pauldrons has been left here.~
+Vnum         41002
+WearFlags    67108865
+WearLoc      30
+ItemType     9
+Weight       2
+Level        10
+Cost         1
+Currtype     1
+Size   0
+Values       10 10 10983 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+ExtraDescr   pauldrons~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-boots~
+ShortDescr   a gold diamond plated-boots~
+Description  A gold diamond plated-boots has been left here.~
+Vnum         41002
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   plated-boots~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-gauntlets~
+ShortDescr   a gold diamond plated-gauntlets~
+Description  A gold diamond plated-gauntlets has been left here.~
+Vnum         41002
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -8 17 0
+ExtraDescr   plated-gauntlets~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         back-scale~
+ShortDescr   a gold diamond back-scale~
+Description  A gold diamond back-scale has been left here.~
+Vnum         41002
+WearFlags    524289
+WearLoc      22
+ItemType     9
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   back-scale~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold diamond anklet~
+Description  A gold diamond anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      24
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   anklet~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold diamond anklet~
+Description  A gold diamond anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      25
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   anklet~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         leggings~
+ShortDescr   a gold diamond leggings~
+Description  A gold diamond leggings has been left here.~
+Vnum         41002
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10983 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   leggings~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-suit~
+ShortDescr   a gold diamond fullplate-suit~
+Description  A gold diamond fullplate-suit has been left here.~
+Vnum         41002
+WearFlags    9
+WearLoc      5
+ItemType     9
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 -1 13 0
+AffectData   'acid breath' -1 -2 17 0
+ExtraDescr   fullplate-suit~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ear-stud~
+ShortDescr   a gold sapphire ear-stud~
+Description  A gold sapphire ear-stud has been left here.~
+Vnum         41002
+WearFlags    65537
+WearLoc      19
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ear-stud~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-mask~
+ShortDescr   a gold diamond scale-mask~
+Description  A gold diamond scale-mask has been left here.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-mask~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-visor~
+ShortDescr   a gold sapphire fullplate-visor~
+Description  A gold sapphire fullplate-visor has been left here.~
+Vnum         41002
+WearFlags    131073
+WearLoc      20
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 9 17 0
+ExtraDescr   fullplate-visor~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-helmet~
+ShortDescr   a gold sapphire fullplate-helmet~
+Description  A gold sapphire fullplate-helmet has been left here.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 10 17 0
+ExtraDescr   fullplate-helmet~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         battle-axe~
+ShortDescr   a gold diamond battle-axe~
+Description  A gold diamond battle-axe has been left here.~
+Vnum         41002
+WearFlags    8193
+WearLoc      16
+ItemType     5
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 6 16 3 9 0 600
+AffectData   'acid breath' -1 1 3 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 1 13 0
+AffectData   'acid breath' -1 1 14 0
+ExtraDescr   battle-axe~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         round-shield~
+ShortDescr   a gold diamond round-shield~
+Description  A gold diamond round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   round-shield~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-girdle~
+ShortDescr   a gold diamond scale-girdle~
+Description  A gold diamond scale-girdle has been left here.~
+Vnum         41002
+WearFlags    2049
+ItemType     9
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-girdle~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         cape~
+ShortDescr   a gold diamond cape~
+Description  A gold diamond cape has been left here.~
+Vnum         41002
+WearFlags    1025
+WearLoc      12
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   cape~ 
+&CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#END

@@ -1,0 +1,373 @@
+#PLAYER
+Version      6
+Name         Camlorn~
+Sex          1
+Class        0
+Secondclass  18
+Thirdclass   2
+Race         0
+Age          0 25 9 974
+Languages    1 1
+Level        4
+Firstlevel   5
+Secondlevel  4
+Thirdlevel   4
+Played       3521
+Room         16007
+HpManaMove   102 341 102 189 498 394
+BaseHp       0 
+Blood        10 42
+Money         0 10 50 100 3200 -1
+Exp           0
+Firstexp      30240
+Secondexp     36676
+Thirdexp      9930
+Height        78
+Weight        200
+Act           536871752&6144
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      29
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Mentalstate   0
+Password      3fbdac32177e752567f51abc9ca5a0309a0e016d84cc94b928b3e4e126b34344~
+Title          the young adventurer~
+Lastip         75.172.184.247~
+RECAST          0
+Failsafe     1
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1647916014
+tmpsecond -1
+tmpthird -1
+Alias        gag~ config gag~
+Textspeed          10
+PotionTimer        0 0 0
+FirstExpR          50
+SecondExpR         30
+ThirdExpR          20
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Paleon Sewer~
+Htown      Paleon City~
+Flags        2
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       53
+MDeaths      0
+IllegalPK    0
+AttrPerm     17 16 15 14 18 15 14
+AttrMod      0 0 0 0 0 0 0
+Condition    0 191 184 14
+Site         75.172.184.247
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSpell       55 0 'static pulse' 0 0
+NNSkill       51 0 'hawk spirit' 0 0
+NNSkill       50 0 'slice' 0 0
+NNWeapon      62 0 '1h short blades' 0 0
+NNTongue      95 0 'common' 0 0
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8359
+Killed       8363
+Killed       8364
+Killed       8364
+Killed       8364
+Killed       8363
+Killed       8363
+Killed       8363
+Killed       8363
+Killed       8364
+Killed       8364
+Killed       8362
+THYQuestN 1 14 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 102 1 0 0 1 23
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+WearLoc      17
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         5101
+Level        99
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 97 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Vnum         125
+WearLoc      16
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 89
+End
+
+#OBJECT
+Vnum         5313
+Level        1
+Currtype     2
+Color        13
+Size   4
+Values       30 3 3 1 113 1 -1
+Spell 4      'kindred strength'
+End
+
+#OBJECT
+Vnum         5103
+WearLoc      1
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      24
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      25
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16005
+WearLoc      2
+Level        1
+Currtype     2
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16010
+WearLoc      3
+Level        1
+Currtype     3
+Color        4
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16006
+Level        1
+Currtype     3
+Color        14
+Size   0
+Values       10 9 9 200 0 1 0
+Spell 3      'word of recall'
+End
+
+#OBJECT
+Vnum         16074
+WearLoc      12
+Level        1
+Currtype     3
+Color        3
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    8371
+Ctime   1647915859
+Mtime   1647915859
+Rtime   0
+Timer   637
+Tag     money~
+Int     0
+End
+
+#END

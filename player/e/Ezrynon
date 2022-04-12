@@ -1,0 +1,307 @@
+#PLAYER
+Version      6
+Name         Ezrynon~
+Sex          1
+Class        31
+Secondclass  -1
+Thirdclass   -1
+Race         1
+Age          0 27 1 975
+Languages    1 1
+Level        2
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       4689
+Room         16068
+HpManaMove   174 174 170 170 349 274
+BaseHp       0 
+Blood        10 2
+Money         0 0 50 100 2048 -1
+Exp           7680
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        60
+Weight        110
+Act           536872776&6144
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Resistant     2
+Mentalstate   0
+Password      f87a3efcf195b00a92bddfcef388e9f9b9d2d5e3522867326a970ef47b304642~
+Title          the animal whisperer of Paleon City.~
+Lastip         24.127.41.148~
+RECAST          0
+Tradelevel          1
+Tradeclass          21
+Failsafe     1
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648612190
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+Htown      Paleon City~
+Flags        38
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+AttrPerm     16 20 17 20 14 14 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 182 168 0
+Site         24.127.41.148
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       10 0 'bake' 0 0
+NNSkill       13 0 'cook' 0 0
+NNSkill       50 0 'dodge' 0 0
+NNSkill       10 0 'gather' 0 0
+NNSkill       10 0 'mix' 0 0
+NNSkill       50 0 'punch' 0 0
+NNSkill       50 0 'slice' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'elven' 0 0
+Killed       5105
+THYQuestN 1 5 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 33 4 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       0
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         5101
+Level        100
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Vnum         5104
+Level        1
+Currtype     3
+Color        3
+Size   3
+Values       10 97 -1 -1 0 1 0
+Spell 1      'heal'
+End
+
+#OBJECT
+Vnum         5105
+Level        1
+Currtype     2
+Color        4
+Size   3
+Values       45 152 -1 -1 0 1 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Vnum         125
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 14
+End
+
+#OBJECT
+Vnum         5103
+WearLoc      1
+Level        1
+Currtype     4
+Color        9
+Size   3
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      24
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         16003
+WearLoc      25
+Level        2
+Currtype     2
+Color        9
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    16003
+Ctime   1648613593
+Mtime   1648613593
+Rtime   0
+Timer   5
+Tag     heal~
+Int     0
+End
+
+#END

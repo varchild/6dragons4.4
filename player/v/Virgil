@@ -1,0 +1,377 @@
+#PLAYER
+Version      6
+Name         Virgil~
+Sex          1
+Class        15
+Secondclass  -1
+Thirdclass   -1
+Race         15
+Age          0 3 9 976
+Languages    1 1
+Level        9
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       25926
+Room         1234
+HpManaMove   279 774 195 180 730 705
+BaseHp       0 
+Blood        6 33
+Money         0 510 50 852 9000 -1
+Exp           111261
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        73
+Weight        200
+Act           570426952&4096
+AffectedBy    512
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      17
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Mentalstate   0
+Password      bae183bb21073a142ab557706df9cc94c8cf4123033a095fe1c401cb8f6e7ee0~
+Title          the young adventurer~
+Lastip         174.61.145.32~
+RECAST          0
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    30
+LDExpUpdate  1649805056
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        1649727378 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Dakar Sewer~
+FoundArea       Kirwood Swamp~
+FoundArea       Abyss~
+FoundArea       Wilderness~
+FoundArea       Caverns~
+FoundArea       Merchant Discovery~
+FoundArea       Under the Volcano~
+FoundArea       Dragon Knight's Raid~
+FoundArea       Vampire's Den~
+FoundArea       Loramoor City of the Trees~
+FoundArea       Ice Cavern~
+FoundArea       Abandoned Cabin ~
+Htown      Dakar City~
+Flags        32770
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       399
+MDeaths      2
+IllegalPK    0
+AttrPerm     23 15 12 20 14 14 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 50 50 19
+Site         174.61.145.32
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       5 0 'behead' 0 0
+NNSkill       8 0 'burrow' 0 0
+NNSkill       10 0 'combo' 0 0
+NNSkill       35 0 'dodge' 0 0
+NNSkill       40 0 'parry' 0 0
+NNSkill       53 0 'punch' 0 0
+NNSkill       13 0 'scan' 0 0
+NNSkill       10 0 'sharpen' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       15 0 'swim' 0 0
+NNSkill       6 0 'wings' 0 0
+NNTongue      95 0 'common' 0 0
+Killed       27003
+Killed       27003
+Killed       27004
+Killed       27006
+Killed       27003
+Killed       27005
+Killed       27006
+Killed       27004
+Killed       27000
+Killed       27001
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8720
+Killed       8722
+Killed       8720
+THYQuestN 0 4 0 0 1 0
+THYQuestN 26 10 0 0 1 0
+THYQuestN 57 11 0 0 1 0
+THYQuestN 67 6 0 0 1 0
+THYQuestN 92 1 0 0 1 0
+THYQuestN 93 2 0 0 1 0
+THYQuestN 104 1 0 0 1 34
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+WearLoc      17
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 5 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         125
+WearLoc      16
+Level        1
+Currtype     4
+Color        8
+Size   0
+Values       12 1 5 2 2 1 25
+End
+
+#OBJECT
+Vnum         33224
+Level        1
+Currtype     4
+Color        4
+Size   0
+Values       45 152 -1 -1 0 0 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Vnum         2778
+WearLoc      13
+Level        3
+Currtype     4
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         27020
+WearLoc      3
+Level        5
+Currtype     4
+Color        14
+Size   0
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         27007
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       300 0 0 8 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         2770
+Level        10
+Currtype     3
+Color        13
+Size   0
+Values       21 5 5 191 0 10 0
+Spell 3      'unholy strength'
+End
+
+#OBJECT
+Vnum         6300
+Level        10
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         27043
+Level        1
+Currtype     3
+Color        11
+Size   0
+Values       15 -1 -1 -1 0 1 0
+End
+
+#OBJECT
+Vnum         2771
+Level        10
+Currtype     1
+Color        6
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         2772
+Level        10
+Currtype     1
+Color        13
+Size   0
+Values       12 5 15 2 2 10 43
+End
+
+#OBJECT
+Vnum         2773
+Level        12
+Currtype     1
+Color        8
+Size   77
+Values       10 10 0 0 0 12 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    2755
+Ctime   1649742890
+Mtime   1649742890
+Rtime   0
+Timer   17
+Tag     story~
+Int     0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    8721
+Ctime   1649743117
+Mtime   1649743117
+Rtime   0
+Timer   618
+Tag     money~
+Int     0
+End
+
+#END

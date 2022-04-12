@@ -1,0 +1,283 @@
+#PLAYER
+Version      6
+Name         Sherry~
+Sex          2
+Class        2
+Secondclass  31
+Thirdclass   -1
+Race         12
+Age          0 15 0 975
+Languages    1 1
+Level        25
+Firstlevel   1
+Secondlevel  1
+Thirdlevel   0
+Played       9657
+Room         65002
+HpManaMove   949 951 452 452 997 972
+BaseHp       0 
+Blood        10 63
+Money         0 10 50 100 2000 -1
+Exp           0
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        82
+Weight        400
+Act           570426952&4096
+Channels      chat say~
+Speed         32
+Position      115
+Style         2
+Practice      126
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Mentalstate   -1
+Password      28aa463d157e7a8694e4b6661bfadc1406f19366eecd1107fa794f20c73d7b05~
+Title          the young adventurer~
+Lastip         144.172.73.66~
+RECAST          0
+KeepAlive      5
+GetsDExp     0
+DExpTimer    10
+LDExpUpdate  1648262133
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          50
+SecondExpR         50
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+Htown      Paleon City~
+Flags        6
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     20 18 20 13 12 12 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 88 0 0
+Site         144.172.73.66
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       95 0 'aid' 0 0
+NNSkill       95 0 'behead' 0 0
+NNSkill       95 0 'climb' 0 0
+NNSkill       95 0 'cook' 0 0
+NNSkill       95 0 'dodge' 0 0
+NNSkill       95 0 'dye' 0 0
+NNSkill       95 0 'flint fire' 0 0
+NNSkill       95 0 'mount' 0 0
+NNSkill       95 0 'punch' 0 0
+NNSkill       80 0 'restring' 0 0
+NNSkill       95 0 'scan' 0 0
+NNSkill       95 0 'sharpen' 0 0
+NNSkill       95 0 'slice' 0 0
+NNSkill       95 0 'swim' 0 0
+NNWeapon      80 0 '1h bludgeons' 0 0
+NNWeapon      80 0 '1h long blades' 0 0
+NNWeapon      95 0 '1h short blades' 0 0
+NNWeapon      80 0 'archery' 0 0
+NNWeapon      80 0 'flails' 0 0
+NNWeapon      80 0 'polearms' 0 0
+NNWeapon      95 0 'pugilism' 0 0
+NNWeapon      95 0 'staves' 0 0
+NNWeapon      80 0 'whips' 0 0
+NNTongue      95 0 'celestial' 0 0
+NNTongue      95 0 'centaurian' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'demonic' 0 0
+NNTongue      80 0 'draconic' 0 0
+NNTongue      95 0 'dwarven' 0 0
+NNTongue      95 0 'elven' 0 0
+NNTongue      95 0 'gnomish' 0 0
+NNTongue      95 0 'goblic' 0 0
+NNTongue      95 0 'hobbit' 0 0
+NNTongue      95 0 'infernal' 0 0
+NNTongue      95 0 'ogrian' 0 0
+NNTongue      95 0 'orcish' 0 0
+NNTongue      95 0 'pixish' 0 0
+NNTongue      95 0 'silent' 0 0
+NNTongue      95 0 'trollese' 0 0
+THYQuestN 8 1 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         5101
+Level        99
+Currtype     3
+Color        5
+Size   3
+End
+
+#OBJECT
+Vnum         16702
+Level        108
+Currtype     1
+Size   77
+Values       60 60 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2427
+Level        108
+Currtype     4
+Size   3
+Values       60 60 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         16248
+Level        10
+Cost         6
+Currtype     1
+Size   0
+End
+
+#END

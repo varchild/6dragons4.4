@@ -1,0 +1,634 @@
+#PLAYER
+Version      6
+Name         Keilian~
+Sex          1
+Class        19
+Secondclass  -1
+Thirdclass   -1
+Race         17
+Age          0 10 15 975
+Languages    1 1
+Level        12
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       170000
+Room         11210
+HpManaMove   1032 965 367 367 864 860
+BaseHp       0 
+Blood        10 83
+Money         0 977 567 13 9 -1
+Exp           278010
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        60
+Weight        110
+Act           536872826&1728059394&3
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Position      115
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         93
+Wimpy         100
+Resistant     2
+Mentalstate   -100
+Password      f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
+Title          the young adventurer~
+Lastip         65.49.243.186~
+RECAST          0
+Failsafe     8
+Account         pinewood~
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    90
+LDExpUpdate  1649738680
+tmpcrawl 60
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Kirwood Swamp~
+FoundArea       Wilderness~
+FoundArea       Garden~
+FoundArea       Miden'nir~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Tufkul'ar~
+FoundArea       Merchant Discovery~
+Htown      Dakar City~
+Flags        34
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       11
+MDeaths      1
+IllegalPK    0
+AttrPerm     10 25 20 12 12 10 19
+AttrMod      0 0 0 0 0 0 0
+Condition    0 0 0 22
+Site         (Link-Dead)
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       50 0 'aid' 0 0
+NNSkill       50 0 'chameleon' 0 0
+NNSkill       52 0 'choke' 0 0
+NNSkill       50 0 'climb' 0 0
+NNSkill       50 0 'combo' 0 0
+NNSkill       50 0 'dodge' 0 0
+NNSkill       50 0 'dye' 0 0
+NNSkill       50 0 'flint fire' 0 0
+NNSkill       95 0 'healing thoughts' 0 0
+NNSkill       50 0 'know enemy' 0 0
+NNSkill       50 0 'meditate' 0 0
+NNSkill       50 0 'mental assault' 0 0
+NNSkill       51 0 'mount' 0 0
+NNSkill       50 0 'parry' 0 0
+NNSkill       66 0 'punch' 0 0
+NNSkill       44 0 'scan' 0 0
+NNSkill       72 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       60 0 'sustenance' 0 0
+NNSkill       50 0 'swim' 0 0
+NNSkill       50 0 'telepathy' 0 0
+NNSkill       51 0 'thicken skin' 0 0
+NNSkill       50 0 'truesight' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'silent' 0 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Name         round-shield~
+ShortDescr   a gold diamond round-shield~
+Description  A gold diamond round-shield has been left here.~
+Vnum         41002
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   round-shield~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         leggings~
+ShortDescr   a gold diamond leggings~
+Description  A gold diamond leggings has been left here.~
+Vnum         41002
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10983 400 777 30 15
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   leggings~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold diamond anklet~
+Description  A gold diamond anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      24
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+AffectData   'acid breath' -1 -10 17 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold diamond anklet~
+Description  A gold diamond anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      25
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-suit~
+ShortDescr   a gold diamond fullplate-suit~
+Description  A gold diamond fullplate-suit has been left here.~
+Vnum         41002
+WearFlags    9
+WearLoc      5
+ItemType     9
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   fullplate-suit~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-helmet~
+ShortDescr   a gold diamond fullplate-helmet~
+Description  A gold diamond fullplate-helmet has been left here.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   fullplate-helmet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-visor~
+ShortDescr   a gold diamond fullplate-visor~
+Description  A gold diamond fullplate-visor has been left here.~
+Vnum         41002
+WearFlags    131073
+WearLoc      20
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fullplate-visor~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         battle-axe~
+ShortDescr   a gold diamond battle-axe~
+Description  A gold diamond battle-axe has been left here.~
+Vnum         41002
+WearFlags    8193
+WearLoc      16
+ItemType     5
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       10 2 6 3 9 0 600
+AffectData   'acid breath' -1 1 1 0
+AffectData   'acid breath' -1 5 18 0
+AffectData   'acid breath' -1 5 19 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 4 14 0
+ExtraDescr   battle-axe~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-mask~
+ShortDescr   a gold diamond scale-mask~
+Description  A gold diamond scale-mask has been left here.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 -2 13 0
+ExtraDescr   scale-mask~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-girdle~
+ShortDescr   a gold diamond scale-girdle~
+Description  A gold diamond scale-girdle has been left here.~
+Vnum         41002
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-girdle~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-gauntlets~
+ShortDescr   a gold diamond plated-gauntlets~
+Description  A gold diamond plated-gauntlets has been left here.~
+Vnum         41002
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   plated-gauntlets~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-boots~
+ShortDescr   a gold diamond plated-boots~
+Description  A gold diamond plated-boots has been left here.~
+Vnum         41002
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   plated-boots~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         back-scale~
+ShortDescr   a gold diamond back-scale~
+Description  A gold diamond back-scale has been left here.~
+Vnum         41002
+WearFlags    524289
+WearLoc      22
+ItemType     9
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   back-scale~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold diamond necklace~
+Description  A gold diamond necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 30 5
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         necklace~
+ShortDescr   a gold diamond necklace~
+Description  A gold diamond necklace has been left here.~
+Vnum         41002
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 30 5
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 7 13 0
+ExtraDescr   necklace~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 5 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold diamond bracelet~
+Description  A gold diamond bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 10982 400 777 30 15
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 -2 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ear-stud~
+ShortDescr   a gold diamond ear-stud~
+Description  A gold diamond ear-stud has been left here.~
+Vnum         41002
+WearFlags    65537
+WearLoc      19
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ear-stud~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      1
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       1 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 4 13 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         cape~
+ShortDescr   a gold diamond cape~
+Description  A gold diamond cape has been left here.~
+Vnum         41002
+WearFlags    1025
+WearLoc      12
+ItemType     9
+Weight       2
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 1 13 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   cape~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         ornate-ring~
+ShortDescr   a gold diamond ornate-ring~
+Description  A gold diamond ornate-ring has been left here.~
+Vnum         41002
+WearFlags    3
+WearLoc      2
+ItemType     9
+Weight       8
+Level        3
+Cost         25
+Currtype     1
+Size   0
+Values       2 2 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   ornate-ring~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10001
+Level        17
+Currtype     4
+Color        3
+Size   3
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         10001
+Level        18
+Currtype     4
+Color        3
+Size   0
+Values       5 0 0 0 0 0 0
+End
+
+#MOBILE
+Vnum        11225
+Room        11210
+Description  The war horse is thickly muscled for quick bursts of speed.
+A neck tag says 'I belong to Keilian'.
+~
+Level         10
+Hitpoints     80 80
+Mana          100 100
+Move          100 100
+Hitroll       5
+Damroll       5
+Armor         250
+Color        13
+Clanname         Clanname~
+Position    15
+Flags       262913
+EndMobile
+#END

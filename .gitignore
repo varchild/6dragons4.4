@@ -1,2 +1,3 @@
-player/
-players/
+nohup.out
+
+*.o

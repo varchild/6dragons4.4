@@ -1,0 +1,431 @@
+#PLAYER
+Version      6
+Name         Correne~
+Sex          2
+Class        9
+Secondclass  -1
+Thirdclass   -1
+Race         13
+Age          0 21 9 974
+Languages    1 1
+Level        10
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       56578
+Room         35515
+HpManaMove   1088 1044 405 405 746 746
+BaseHp       0 
+Blood        50 51
+Money         0 1 559 134 41 -1
+Exp           451727
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        204
+Weight        1092
+Act           536872776&1728059392&1
+AffectedBy    512
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      104
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         59
+Resistant     1056768
+Mentalstate   -100
+Password      f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
+Title          the young adventurer~
+Lastip         65.49.243.186~
+RECAST          0
+Failsafe     6
+Combo1         claw~
+Combo2         bite~
+Combo3         gut~
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648517764
+tmpsecond -1
+tmpthird -1
+Textspeed          10
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Merchant Discovery~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Abyss~
+FoundArea       Gnome Tower~
+FoundArea       Kirwood Swamp~
+FoundArea       Drakkel Sharda~
+FoundArea       Narcista Vessel Voyage~
+FoundArea       Wilderness~
+FoundArea       Tufkul'ar~
+FoundArea       Durdun~
+FoundArea       Garden~
+Htown      Forbidden City~
+City      Forbidden City~
+Flags        34
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       173
+MDeaths      4
+IllegalPK    0
+AttrPerm     22 20 20 10 18 10 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 0 0 20
+Site         65.49.243.186
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       78 0 'bite' 0 0
+NNSkill       50 0 'breathe' 0 0
+NNSkill       74 0 'claw' 0 0
+NNSkill       59 0 'combo' 0 0
+NNSkill       95 0 'devour' 0 0
+NNSkill       30 0 'dodge' 0 0
+NNSkill       51 0 'gut' 0 0
+NNSkill       70 0 'lick' 0 0
+NNSkill       50 0 'scan' 0 0
+NNSkill       95 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       52 0 'smell' 0 0
+NNSkill       41 0 'swim' 0 0
+NNSkill       50 0 'truesight' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'draconic' 0 0
+Killed       4001
+Killed       4002
+Killed       4002
+Killed       10002
+Killed       10002
+Killed       10006
+Killed       10002
+Killed       41010
+Killed       41006
+Killed       41011
+Killed       41003
+Killed       41015
+Killed       41002
+Killed       41006
+Killed       41016
+Killed       41003
+Killed       41003
+Killed       41007
+Killed       41013
+Killed       41004
+THYQuestN 10 8 0 0 1 0
+THYQuestN 17 1 0 0 1 0
+THYQuestN 30 10 0 0 1 0
+THYQuestN 98 7 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         35524
+WearLoc      5
+Level        5
+Currtype     4
+Color        8
+Size   4
+Values       5 5 0 0 0 5 0
+End
+
+#OBJECT
+Vnum         35531
+WearLoc      17
+Level        5
+Currtype     4
+Color        13
+Size   0
+Values       6 0 4 0 0 5 0
+End
+
+#OBJECT
+Name         scale-girdle~
+ShortDescr   a gold ruby scale-girdle~
+Description  A gold ruby scale-girdle has been left here.~
+Vnum         41002
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 -5 17 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   scale-girdle~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold ruby anklet~
+Description  A gold ruby anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      25
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         anklet~
+ShortDescr   a gold ruby anklet~
+Description  A gold ruby anklet has been left here.~
+Vnum         41002
+WearFlags    2097153
+WearLoc      24
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 -2 13 0
+AffectData   'acid breath' -1 6 17 0
+ExtraDescr   anklet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         plated-gauntlets~
+ShortDescr   a gold ruby plated-gauntlets~
+Description  A gold ruby plated-gauntlets has been left here.~
+Vnum         41002
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 25 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   plated-gauntlets~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         cape~
+ShortDescr   a gold ruby cape~
+Description  A gold ruby cape has been left here.~
+Vnum         41002
+WearFlags    1025
+WearLoc      12
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       9 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   cape~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         scale-mask~
+ShortDescr   a gold ruby scale-mask~
+Description  A gold ruby scale-mask has been left here.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 1 0
+AffectData   'acid breath' -1 5 13 0
+ExtraDescr   scale-mask~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-helmet~
+ShortDescr   a gold ruby fullplate-helmet~
+Description  A gold ruby fullplate-helmet has been left here.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 4 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fullplate-helmet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         fullplate-visor~
+ShortDescr   a gold ruby fullplate-visor~
+Description  A gold ruby fullplate-visor has been left here.~
+Vnum         41002
+WearFlags    131073
+WearLoc      20
+ItemType     9
+Weight       8
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 3 0
+AffectData   'acid breath' -1 3 13 0
+ExtraDescr   fullplate-visor~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         back-scale~
+ShortDescr   a gold ruby back-scale~
+Description  A gold ruby back-scale has been left here.~
+Vnum         41002
+WearFlags    524289
+WearLoc      22
+ItemType     9
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 8 13 0
+ExtraDescr   back-scale~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold ruby bracelet~
+Description  A gold ruby bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 31 0
+AffectData   'acid breath' -1 4 13 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         bracelet~
+ShortDescr   a gold ruby bracelet~
+Description  A gold ruby bracelet has been left here.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 10982 400 777 30 15
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 5 13 0
+AffectData   'acid breath' -1 8 17 0
+ExtraDescr   bracelet~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Name         earring~
+ShortDescr   a gold ruby earring~
+Description  A gold ruby earring has been left here.~
+Vnum         41002
+WearFlags    65537
+WearLoc      19
+ItemType     9
+Weight       2
+Level        10
+Cost         25
+Currtype     1
+Size   0
+Values       10 10 0 400 777 0 0
+AffectData   'acid breath' -1 3 2 0
+AffectData   'acid breath' -1 6 13 0
+ExtraDescr   earring~ &CThis manufactured item bears the seal of Linnia, the master jeweler.
+~
+End
+
+#OBJECT
+Vnum         40026
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       1 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         28015
+Level        15
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#END

@@ -1,0 +1,211 @@
+#PLAYER
+Version      6
+Name         Learrial~
+Sex          2
+Class        24
+Secondclass  -1
+Thirdclass   -1
+Race         19
+Age          0 6 0 975
+Languages    1 1
+Level        1
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       115
+Room         5109
+HpManaMove   97 97 125 125 222 200
+BaseHp       0 
+Blood        10 0
+Money         0 10 50 100 2000 -1
+Exp           0
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        70
+Weight        100
+Act           536872776&6144
+Channels      chat say~
+Speed         32
+Position      115
+Style         2
+Practice      6
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         50
+Mentalstate   -6
+Password      f250f3a8073de088f513acfe73ff123eb0f79b5d7ae76980309943ec3e2d6d58~
+Title          the young adventurer~
+Lastip         65.49.243.186~
+RECAST          0
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648237299
+tmpsecond -1
+tmpthird -1
+Textspeed          10
+PotionTimer        0 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+Flags        32806
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     16 12 12 24 12 14 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 200 200 0
+Site         65.49.243.186
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNTongue      95 0 'common' 0 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       0
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#END

@@ -1,0 +1,661 @@
+#PLAYER
+Version      6
+Name         Neos~
+Sex          1
+Class        15
+Secondclass  -1
+Thirdclass   -1
+Race         15
+Age          0 5 10 974
+Languages    1 1
+Level        11
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       38344
+Room         11210
+HpManaMove   355 952 195 195 858 860
+BaseHp       0 
+Blood        47 49
+Money         0 2 96 906 695 -1
+Exp           344796
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        73
+Weight        200
+Act           536871752&6144
+AffectedBy    512&16384
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      0
+SavingThrows  0 0 0 0 0
+Alignment     -652
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         60
+Mentalstate   0
+Password      20f76d5ccb314d526390d386e138034c8d29e909e8d4f4421c44045d3025d638~
+Title          the young adventurer~
+LAIR          57036
+Lastip         182.232.70.22~
+RECAST          0
+Tradelevel          5
+Tradeclass          22
+Craftpoints          2
+Failsafe     1
+Combo1         feed~
+Combo2         punch~
+Account         neos~
+AuthedBy     Varchild~
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648146973
+tmpsecond -1
+tmpthird -1
+Alias        bp~ blood~
+Alias        2~ feed~
+Alias        3~ punch~
+Alias        /~ recall~
+Alias        4~ get pot corpse~
+Alias        1~ punch gnome~
+Alias        22~ quaff pot~
+Alias        11~ surreal~
+Textspeed          2
+PotionTimer        1648038808 1647957289 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          20
+QuestAccum         10
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Kirwood Swamp~
+FoundArea       Wilderness~
+FoundArea       Abyss~
+FoundArea       Dakar Sewer~
+FoundArea       Merchant Discovery~
+FoundArea       Abandoned Cabin ~
+FoundArea       Gnome Tower~
+FoundArea       Caverns~
+FoundArea       Ice Cavern~
+FoundArea       Norrinton's South Harbor~
+FoundArea       Under Sewer~
+FoundArea       Garden~
+FoundArea       Miden'nir~
+Htown      Dakar City~
+City      Dakar City~
+Flags        34
+Siege        1648155124
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       181
+MDeaths      7
+IllegalPK    0
+AttrPerm     22 12 12 22 14 14 14
+AttrMod      0 0 0 1 0 0 0
+Condition    0 50 50 21
+Site         182.232.70.22
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       46 0 'combo' 0 0
+NNSkill       59 0 'dodge' 0 0
+NNSkill       63 0 'feed' 0 0
+NNSkill       71 0 'hunt' 0 0
+NNSkill       70 0 'punch' 0 0
+NNSkill       23 0 'second attack' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       52 0 'surreal speed' 0 0
+NNSkill       25 0 'tan' 0 0
+NNTongue      95 0 'common' 0 0
+AffectDataL   'surreal speed'  11 196   1   2 0&16384
+AffectDataL   'surreal speed'  11 196 -40  17 0&16384
+Killed       2769
+Killed       2769
+Killed       2769
+Killed       2769
+Killed       2769
+Killed       2769
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       10002
+Killed       41016
+Killed       41013
+Killed       41001
+Killed       41005
+Killed       18604
+Killed       2769
+Killed       2769
+Killed       2768
+Killed       2768
+Killed       2769
+THYQuestN 0 1 0 0 1 0
+THYQuestN 9 1 0 0 1 0
+THYQuestN 26 10 0 0 1 0
+THYQuestN 33 4 0 0 1 0
+THYQuestN 45 6 0 0 1 0
+THYQuestN 57 12 0 0 1 0
+THYQuestN 67 6 0 0 1 0
+THYQuestN 97 7 0 0 1 0
+THYQuestN 99 1 0 0 1 9
+THYQuestN 118 3 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         11400
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       20 20 13 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 4 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         33226
+Level        1
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         33224
+Level        1
+Currtype     4
+Color        4
+Size   0
+Values       45 152 -1 -1 0 0 0
+Spell 1      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Name         meat raw slice salamander~
+ShortDescr   a slice of raw meat from a salamander~
+Description  A slice of raw meat from a salamander lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         27052
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       5 0 0 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Name         meat raw slice salamander~
+ShortDescr   a slice of raw meat from a salamander~
+Description  A slice of raw meat from a salamander lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Name         meat raw slice salamander~
+ShortDescr   a slice of raw meat from a salamander~
+Description  A slice of raw meat from a salamander lies on the ground.~
+Vnum         24
+Currtype     1
+Size   0
+Values       15 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11247
+Cost         6
+Currtype     4
+Color        1
+Craft1       43
+Size   0
+End
+
+#OBJECT
+Vnum         11203
+WearLoc      21
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 4 6 6 1 1
+End
+
+#OBJECT
+Vnum         11202
+Currtype     4
+Color        13
+Size   0
+Values       8 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Nest         1
+Vnum         11201
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Vnum         11233
+WearLoc      7
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       1 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         2777
+Level        4
+Currtype     4
+Color        1
+Size   77
+Values       1 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         2771
+Level        10
+Currtype     1
+Color        6
+Size   77
+Values       10 10 0 0 0 10 0
+End
+
+#OBJECT
+Vnum         2772
+Level        10
+Currtype     1
+Color        13
+Size   0
+Values       12 5 15 2 2 10 31
+End
+
+#OBJECT
+Vnum         2773
+ExtraFlags   524352
+Level        12
+Currtype     1
+Color        8
+Size   77
+Values       10 10 0 0 0 12 0
+End
+
+#OBJECT
+Vnum         18606
+Level        1
+Currtype     4
+Color        1
+Size   0
+End
+
+#OBJECT
+Vnum         18607
+Level        6
+Currtype     4
+Color        14
+Size   0
+Values       20 -1 37 144 0 0 0
+Spell 2      'cure critical'
+Spell 3      'refresh'
+End
+
+#OBJECT
+Vnum         11201
+WearLoc      17
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       10 1 5 6 1 1 1
+End
+
+#OBJECT
+Name         fur-boots~
+ShortDescr   a pair of fur boots, simply tanned from rabbit~
+Description  Here lies a pair of fur boots, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       2
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+AffectData   'acid breath' -1 -4 17 0
+ExtraDescr   fur-boots~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-wrist~
+ShortDescr   a fur wrist band, simply tanned from rabbit~
+Description  Here lies a fur wrist band, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       3
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-wrist~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-wrist~
+ShortDescr   a fur wrist band, simply tanned from rabbit~
+Description  Here lies a fur wrist band, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       3
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-wrist~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-torque~
+ShortDescr   a fur torque, simply tanned from raccoon~
+Description  Here lies a fur torque, simply tanned from raccoon.~
+Vnum         41002
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       3
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-torque~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-gloves~
+ShortDescr   a pair of fur gloves, simply tanned from rabbit~
+Description  Here lies a pair of fur gloves, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       2
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-gloves~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-cap~
+ShortDescr   a fur cap, simply tanned from rabbit~
+Description  Here lies a fur cap, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       3
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-cap~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-tunic~
+ShortDescr   a fur tunic, simply tanned from rabbit~
+Description  Here lies a fur tunic, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    9
+WearLoc      5
+ItemType     9
+Weight       8
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-tunic~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-scarf~
+ShortDescr   a fur scarf, simply tanned from rabbit~
+Description  Here lies a fur scarf, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    1048577
+WearLoc      23
+ItemType     9
+Weight       2
+Level        11
+Cost         25
+Currtype     4
+Color        1
+Size   77
+Values       9 9 30 100 777 30 0
+ExtraDescr   fur-scarf~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Name         fur-girdle~
+ShortDescr   a fur girdle, simply tanned from rabbit~
+Description  Here lies a fur girdle, simply tanned from rabbit.~
+Vnum         41002
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Weight       2
+Level        11
+Cost         10
+Currtype     2
+Color        1
+Size   77
+Values       10 10 30 200 777 30 0
+AffectData   'acid breath' -1 2 2 0
+AffectData   'acid breath' -1 1 13 0
+ExtraDescr   fur-girdle~ &CThis tanned item bears the seal of Neos, the apprentice tanner.
+~
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         11400
+Level        1
+Currtype     4
+Color        1
+Size   0
+Values       20 20 13 0 0 1 0
+End
+
+#END

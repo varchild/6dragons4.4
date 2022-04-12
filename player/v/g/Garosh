@@ -1,0 +1,244 @@
+#PLAYER
+Version      6
+Name         Garosh~
+Sex          1
+Class        4
+Secondclass  6
+Thirdclass   31
+Race         5
+Age          0 3 14 974
+Languages    1 1
+Level        2
+Firstlevel   2
+Secondlevel  2
+Thirdlevel   2
+Played       723
+Room         11210
+HpManaMove   121 217 93 93 281 256
+BaseHp       0 
+Blood        10 5
+Money         0 10 50 128 1914 -1
+Exp           0
+Firstexp      10365
+Secondexp     7120
+Thirdexp      3245
+Height        108
+Weight        450
+Act           536871752&6144
+AffectedBy    512
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      3
+SavingThrows  0 0 0 0 0
+Alignment     -1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Resistant     32
+Mentalstate   0
+Password      20f76d5ccb314d526390d386e138034c8d29e909e8d4f4421c44045d3025d638~
+Title          the young adventurer~
+Lastip         182.232.70.22~
+RECAST          0
+Failsafe     8
+Prompt       >~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1648113716
+tmpsecond -1
+tmpthird -1
+Alias        /~ recall~
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          50
+SecondExpR         30
+ThirdExpR          20
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            0
+MapDescToggle      0
+MapNameToggle      0
+MapType            0
+FoundArea       Kirwood Swamp~
+Htown      Dakar City~
+Flags        32806
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       1
+MDeaths      0
+IllegalPK    0
+AttrPerm     25 6 8 14 24 8 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 185 186 0
+Site         182.232.70.22
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       50 0 'slice' 0 0
+NNWeapon      33 0 '1h long blades' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'ogrian' 0 0
+Killed       27004
+THYQuestN 57 1 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       0
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         67
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         16040
+Currtype     4
+Color        1
+Size   3
+Values       12 0 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         4
+WearLoc      5
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         5
+WearLoc      7
+Level        1
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         6
+WearLoc      12
+Level        1
+Currtype     1
+Color        11
+Size   77
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         27
+WearLoc      5
+Level        1
+Currtype     1
+Color        13
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         28
+WearLoc      8
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         29
+WearLoc      13
+Currtype     1
+Color        1
+Size   77
+Values       2 2 2 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      14
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40
+WearLoc      15
+Currtype     1
+Color        1
+Size   77
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Vnum         11214
+WearLoc      16
+Level        1
+Currtype     4
+Color        13
+Size   0
+Values       12 1 5 1 1 1 44
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    11200
+Ctime   1648113727
+Mtime   1648113727
+Rtime   0
+Timer   4
+Tag     heal~
+Int     0
+End
+
+#END

@@ -1,0 +1,137 @@
+#PLAYER
+Version      6
+Name         Dyrk~
+Sex          1
+Class        4
+Secondclass  1
+Thirdclass   -1
+Race         0
+Age          0 26 2 975
+Languages    1 1
+Level        5
+Firstlevel   5
+Secondlevel  4
+Thirdlevel   0
+Played       20407
+Room         16007
+HpManaMove   476 476 126 116 508 446
+BaseHp       0 
+Blood        10 37
+Money         0 0 50 2 3076 -1
+Exp           0
+Firstexp      4807
+Secondexp     2055
+Thirdexp      0
+Height        78
+Weight        200
+Act           570426952&4096
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Position      115
+Style         2
+Practice      17
+SavingThrows  0 0 0 0 0
+Alignment     0
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         100
+Mentalstate   -4
+Password      df72e5c1fe5fa8d74f215114a1f5e1a2ee83a0d27330493adeab43e60d151c85~
+Title          the young adventurer~
+Lastip         188.47.16.234~
+RECAST          0
+Tradelevel          1
+Tradeclass          20
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+LDExpUpdate  1649261344
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        0 0 0
+FirstExpR          70
+SecondExpR         30
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Merchant Discovery~
+FoundArea       Paleon Sewer~
+FoundArea       Miden'nir~
+FoundArea       Wilderness~
+Htown      Paleon City~
+Flags        163842
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       40
+MDeaths      1
+IllegalPK    0
+AttrPerm     17 15 16 15 17 15 14
+AttrMod      0 0 0 0 0 0 0
+Condition    0 0 0 15
+Site         (Link-Dead)
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       5 0 'aid' 0 0
+NNSkill       11 0 'climb' 0 0
+NNSkill       15 0 'cook' 0 0
+NNSkill       40 0 'dodge' 0 0
+NNSkill       14 0 'flint fire' 0 0
+NNSkill       10 0 'forge' 0 0
+NNSkill       14 0 'mine' 0 0
+NNSkill       5 0 'mount' 0 0
+NNSkill       18 0 'parry' 0 0
+NNSkill       50 0 'punch' 0 0
+NNSkill       22 0 'scan' 0 0
+NNSkill       50 0 'slice' 0 0
+NNSkill       16 0 'swim' 0 0
+NNWeapon      6 0 'spears' 0 0
+NNTongue      80 0 'common' 0 0
+Killed       8364
+Killed       8363
+Killed       8364
+Killed       8364
+Killed       8363
+Killed       8364
+Killed       8363
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+Killed       8370
+THYQuestN 1 16 0 0 1 0
+THYQuestN 8 10 0 0 1 0
+THYQuestN 33 4 0 0 1 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#END

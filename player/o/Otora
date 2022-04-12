@@ -1,0 +1,321 @@
+#PLAYER
+Version      6
+Name         Otora~
+Sex          1
+Class        10
+Secondclass  -1
+Thirdclass   -1
+Race         13
+Age          0 25 11 975
+Languages    1 1
+Level        8
+Firstlevel   0
+Secondlevel  0
+Thirdlevel   0
+Played       18720
+Room         35523
+HpManaMove   855 855 317 317 648 648
+BaseHp       0 
+Blood        10 70
+Money         0 130 18 656 2799 -1
+Exp           0
+Firstexp      0
+Secondexp     0
+Thirdexp      0
+Height        183
+Weight        943
+Act           570426952&4096&2
+AffectedBy    512
+Channels      chat say ooc shout yell icc wartalk event music info ask answer swear flirt hint osay reunion auction~
+Speed         32
+Position      115
+Style         2
+Practice      8
+SavingThrows  0 0 0 0 0
+Alignment     1000
+AppBlood      0
+Hitroll       0
+Damroll       0
+Armor         60
+Resistant     8448
+Mentalstate   0
+Password      eaf06f4b0e1ca6a37c11d8b7a8da5ed2ca1381d8e9bfc6bf3cca769c4a2a436a~
+Title          the young adventurer~
+Lastip         104.229.223.163~
+RECAST          0
+AuthedBy     Varchild~
+KeepAlive      5
+GetsDExp     0
+DExpTimer    60
+LDExpUpdate  1649238358
+tmpsecond -1
+tmpthird -1
+Textspeed          5
+PotionTimer        1649106946 0 0
+FirstExpR          0
+SecondExpR         0
+ThirdExpR          0
+MartialArts        0
+UsedTrade          0
+Faith              0
+ChanInvite         0
+QuestCurr          0
+QuestAccum         0
+MobCount           0
+ObjCount           0
+ArenaWins          0
+ArenaLoss          0
+MapToggle          0
+MapSize            2
+MapDescToggle      0
+MapNameToggle      0
+MapType            1
+FoundArea       Drakkel Sharda~
+FoundArea       Abyss~
+FoundArea       Kirwood Swamp~
+FoundArea       Caverns~
+FoundArea       Wilderness~
+FoundArea       Nine Planes of Hell~
+FoundArea       Spiral village~
+Htown      Forbidden City~
+Flags        32770
+Bardtimer    0
+Bardsn       0
+PKills       0
+PDeaths      0
+MKills       233
+MDeaths      0
+IllegalPK    0
+AttrPerm     22 18 18 16 16 10 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 42 38 18
+Site         104.229.223.163
+LastNews     1519063392
+Holdbreath 0
+Frostbite 0
+Adjust 0
+NNSkill       52 0 'bite' 0 0
+NNSkill       50 0 'claw' 0 0
+NNSkill       95 0 'devour' 0 0
+NNSkill       27 0 'dodge' 0 0
+NNSkill       50 0 'fly home' 0 0
+NNSkill       13 0 'scan' 0 0
+NNSkill       55 0 'slice' 0 0
+NNSkill       50 0 'telepathy' 0 0
+NNSkill       50 0 'wings' 0 0
+NNTongue      95 0 'common' 0 0
+NNTongue      95 0 'draconic' 0 0
+Killed       13013
+Killed       28005
+Killed       7507
+Killed       7505
+Killed       7506
+Killed       7502
+Killed       7502
+Killed       7505
+Killed       7507
+Killed       7502
+Killed       7507
+Killed       7502
+Killed       7505
+Killed       7509
+Killed       7505
+Killed       7505
+Killed       7509
+Killed       7504
+Killed       7505
+Killed       7507
+THYQuestN 9 3 0 0 1 0
+THYQuestN 10 8 0 0 1 0
+THYQuestN 30 10 0 0 1 0
+THYQuestN 98 1 0 0 2 0
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 31 22 27 17 23 28 18 24 29 19 25 30 20 26 16 21 8 8 4 9 0 5 8 8 14 8 8 8 4 8 8 11 2 8 8 4 8 8 8 3 8 4 10 8 8 14 8 8 1 4 3 8 8 9 11 11 1 8 3 8 11 3 4 3 2 14 10 11 10 5 4 4 4 9 8 9 9 14 13 9 10 11 2 3 5 4 11 2 6 3 11 9 8 9 5 
+i3perm       1
+i3flags      256
+Portalstonelag     0
+End
+
+#OBJECT
+Vnum         21
+WearLoc      0
+Currtype     1
+Color        14
+Size   0
+Values       0 0 -1 0 0 0 0
+End
+
+#OBJECT
+Vnum         68
+WearLoc      22
+Currtype     2
+Color        2
+Size   0
+Values       300 0 0 6 0 0 0
+End
+
+#OBJECT
+Vnum         40025
+WearLoc      6
+Level        1
+Currtype     1
+Color        5
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40026
+WearLoc      9
+Level        2
+Currtype     4
+Color        1
+Size   0
+Values       2 2 0 0 0 2 0
+End
+
+#OBJECT
+Vnum         40027
+WearLoc      14
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         40028
+WearLoc      12
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         40029
+WearLoc      20
+Level        1
+Currtype     4
+Color        6
+Size   0
+Values       2 2 0 0 0 1 0
+End
+
+#OBJECT
+Vnum         35523
+WearLoc      17
+Level        1
+Currtype     2
+Color        1
+Size   0
+Values       700 0 0 12 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         139
+Currtype     4
+Color        5
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         19004
+Level        1
+Currtype     2
+Color        1
+Size   0
+Values       0 20 3 0 0 1 0
+End
+
+#OBJECT
+Nest         1
+Vnum         35539
+Level        10
+Currtype     4
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         7507
+Level        5
+Currtype     3
+Color        3
+Size   0
+Values       1 1 1 1 38 5 -1
+Spell 4      'cure poison'
+End
+
+#OBJECT
+Nest         1
+Vnum         19017
+Level        5
+Currtype     2
+Color        4
+Size   0
+Values       45 1 1 1 152 5 -1
+Spell 4      'restore mana'
+End
+
+#OBJECT
+Nest         1
+Vnum         4656
+Level        1
+Currtype     4
+Size   0
+End
+
+#OBJECT
+Nest         1
+Vnum         40030
+Level        1
+Currtype     4
+Color        14
+Size   0
+Values       0 0 1 0 0 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         28015
+Level        15
+Currtype     4
+Color        13
+Size   77
+Values       10 10 0 0 0 15 0
+End
+
+#OBJECT
+Vnum         35521
+Currtype     4
+Color        2
+Size   5
+Values       0 0 9 0 0 0 0
+End
+
+#OBJECT
+Vnum         16038
+Currtype     4
+Color        1
+Size   3
+Values       30 30 0 0 0 0 0
+End
+
+#VARIABLE
+Type    1
+Flags   0
+Vnum    35507
+Ctime   1649238523
+Mtime   1649238523
+Rtime   0
+Timer   4
+Tag     heal~
+Int     0
+End
+
+#END
